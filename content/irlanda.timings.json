@@ -37,20 +37,218 @@
   },
   "b0-07": {
     "audio": "voice/irlanda-b0-07.mp3",
-    "duration": 2.272653,
+    "duration": 2.533878,
     "transcript": null,
     "credit_cost": 33
   },
   "b0-08": {
     "audio": "voice/irlanda-b0-08.mp3",
-    "duration": 2.35102,
+    "duration": 2.586122,
     "transcript": null,
     "credit_cost": 57
   },
   "b0-09": {
     "audio": "voice/irlanda-b0-09.mp3",
-    "duration": 5.32898,
+    "duration": 5.616327,
     "transcript": null,
     "credit_cost": 148
+  },
+  "b1-01": {
+    "audio": "voice/irlanda-b1-01.mp3",
+    "duration": 2.847347,
+    "transcript": null,
+    "credit_cost": 67
+  },
+  "b1-02": {
+    "audio": "voice/irlanda-b1-02.mp3",
+    "duration": 12.460408,
+    "transcript": null,
+    "credit_cost": 322
+  },
+  "b1-03": {
+    "audio": "voice/irlanda-b1-03.mp3",
+    "duration": 5.903673,
+    "transcript": null,
+    "credit_cost": 155
+  },
+  "b1-04": {
+    "audio": "voice/irlanda-b1-04.mp3",
+    "duration": 7.340408,
+    "transcript": null,
+    "credit_cost": 174
+  },
+  "b2-01": {
+    "audio": "voice/irlanda-b2-01.mp3",
+    "duration": 1.671837,
+    "transcript": null,
+    "credit_cost": 33
+  },
+  "b2-02": {
+    "audio": "voice/irlanda-b2-02.mp3",
+    "duration": 5.250612,
+    "transcript": null,
+    "credit_cost": 128
+  },
+  "b2-03": {
+    "audio": "voice/irlanda-b2-03.mp3",
+    "duration": 11.781224,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b2-04": {
+    "audio": "voice/irlanda-b2-04.mp3",
+    "duration": 5.12,
+    "transcript": null,
+    "credit_cost": 119
+  },
+  "b2-05": {
+    "audio": "voice/irlanda-b2-05.mp3",
+    "duration": 11.467755,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b2-06": {
+    "audio": "voice/irlanda-b2-06.mp3",
+    "duration": 7.053061,
+    "transcript": null,
+    "credit_cost": 152
+  },
+  "b2-07": {
+    "audio": "voice/irlanda-b2-07.mp3",
+    "duration": 12.146939,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b2-08": {
+    "audio": "voice/irlanda-b2-08.mp3",
+    "duration": 12.643265,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b2-09": {
+    "audio": "voice/irlanda-b2-09.mp3",
+    "duration": 17.998367,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b2-10": {
+    "audio": "voice/irlanda-b2-10.mp3",
+    "duration": 11.885714,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b2-11": {
+    "audio": "voice/irlanda-b2-11.mp3",
+    "duration": 17.789388,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b2-12": {
+    "audio": "voice/irlanda-b2-12.mp3",
+    "duration": 4.832653,
+    "transcript": null,
+    "credit_cost": 105
+  },
+  "b2-13": {
+    "audio": "voice/irlanda-b2-13.mp3",
+    "duration": 5.903673,
+    "transcript": null,
+    "credit_cost": 119
+  },
+  "b3-01": {
+    "audio": "voice/irlanda-b3-01.mp3",
+    "duration": 7.706122,
+    "transcript": null,
+    "credit_cost": 190
+  },
+  "b3-02": {
+    "audio": "voice/irlanda-b3-02.mp3",
+    "duration": 2.481633,
+    "transcript": null,
+    "credit_cost": 47
+  },
+  "b3-03": {
+    "audio": "voice/irlanda-b3-03.mp3",
+    "duration": 11.650612,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b3-04": {
+    "audio": "voice/irlanda-b3-04.mp3",
+    "duration": 14.18449,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b3-05": {
+    "audio": "voice/irlanda-b3-05.mp3",
+    "duration": 12.486531,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b3-06": {
+    "audio": "voice/irlanda-b3-06.mp3",
+    "duration": 6.060408,
+    "transcript": null,
+    "credit_cost": 142
+  },
+  "b3-07": {
+    "audio": "voice/irlanda-b3-07.mp3",
+    "duration": 6.582857,
+    "transcript": null,
+    "credit_cost": 154
+  },
+  "b3-08": {
+    "audio": "voice/irlanda-b3-08.mp3",
+    "duration": 12.512653,
+    "transcript": null,
+    "credit_cost": 330
+  },
+  "b3-09": {
+    "audio": "voice/irlanda-b3-09.mp3",
+    "duration": 10.004898,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b3-10": {
+    "audio": "voice/irlanda-b3-10.mp3",
+    "duration": 7.026939,
+    "transcript": null,
+    "credit_cost": 186
+  },
+  "b3-11": {
+    "audio": "voice/irlanda-b3-11.mp3",
+    "duration": 8.097959,
+    "transcript": null,
+    "credit_cost": 204
+  },
+  "b3-12": {
+    "audio": "voice/irlanda-b3-12.mp3",
+    "duration": 9.038367,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b3-13": {
+    "audio": "voice/irlanda-b3-13.mp3",
+    "duration": 9.874286,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b3-14": {
+    "audio": "voice/irlanda-b3-14.mp3",
+    "duration": 9.404082,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b3-15": {
+    "audio": "voice/irlanda-b3-15.mp3",
+    "duration": 9.482449,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b4-01": {
+    "audio": "voice/irlanda-b4-01.mp3",
+    "duration": 12.042449,
+    "transcript": null,
+    "credit_cost": 339
   }
 }

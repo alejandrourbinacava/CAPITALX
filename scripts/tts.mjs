@@ -39,7 +39,12 @@ async function api(pathname, init = {}) {
   }
 }
 
-async function synth(text, voiceId) {
+/**
+ * ai33 solo deja pasar `speed` al motor: `emotion`, `pitch` y `vol` los
+ * descarta. Asi que la variedad de entonacion se consigue con dos cosas:
+ * la velocidad por plano y la puntuacion del propio texto.
+ */
+async function synth(text, voiceId, speed = 1) {
   const start = await api("/v3/text-to-speech", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -47,6 +52,7 @@ async function synth(text, voiceId) {
       text,
       voice_id: voiceId,
       provider: "clone",
+      speed,
       with_transcript: true, // tiempos palabra a palabra para sincronizar
       with_loudnorm: true, // nivel homogeneo entre planos
     }),
@@ -109,8 +115,9 @@ async function main() {
       console.log(`= ${p.id} ya existe, se salta`);
       continue;
     }
-    process.stdout.write(`· ${p.id} ... `);
-    const meta = await synth(p.vo, voiceId);
+    const speed = p.voz?.speed ?? 1;
+    process.stdout.write(`· ${p.id} (x${speed}) ... `);
+    const meta = await synth(p.vo, voiceId, speed);
     const rel = `voice/${doc.slug}-${p.id}.mp3`;
     await download(meta.audio_url, path.join("public", rel));
     fs.copyFileSync(path.join("public", rel), path.join("assets", rel));

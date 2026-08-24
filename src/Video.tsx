@@ -15,6 +15,9 @@ import { Beat, SketchRing, Tag, type Anim } from "./components/Beat";
 import { DublinNight } from "./scenes/DublinNight";
 import { PeopleGrid } from "./scenes/PeopleGrid";
 import { Towers } from "./scenes/Towers";
+import { Barras, Lineas } from "./scenes/Barras";
+import { Objeto } from "./scenes/Objeto";
+import { Cierre, Lista, Mapa } from "./scenes/Mapa";
 import contenido from "../content/irlanda.json";
 import tiempos from "../content/irlanda.timings.json";
 
@@ -51,6 +54,14 @@ export type Plano = {
   };
   de?: { valor: number; etiqueta: string };
   a?: { valor: number; etiqueta: string };
+  objeto?: string;
+  amanecer?: boolean;
+  barras?: any;
+  lineas?: any;
+  mapa?: any;
+  lista?: any;
+  cierre?: any;
+  voz?: { speed?: number };
   rotulo?: { kicker?: string; texto: string };
 };
 
@@ -97,7 +108,7 @@ const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
 
   // 1. el corte
   out.push({ at: 0, src: "whoosh", vol: 0.3 });
-  if (p.tipo === "frase") out.push({ at: 0.02, src: "thud", vol: 0.34 });
+  if (p.tipo === "frase") out.push({ at: 0.04, src: "buzz", vol: 0.26 });
   else if (sobrePapel) out.push({ at: 0.07, src: "papel", vol: 0.24 });
 
   // 2. las etiquetas
@@ -113,6 +124,12 @@ const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
 
   // 4. las cifras en pantalla
   if (p.tipo === "contador") out.push({ at: p.estatico ? 0.14 : 0.32, src: "pixel", vol: 0.32 });
+  if (p.tipo === "barras" || p.tipo === "lineas") out.push({ at: 0.3, src: "pixel", vol: 0.3 });
+  if (p.tipo === "lista") {
+    const n = (p.lista?.puntos ?? []).length;
+    for (let i = 0; i < n; i++) out.push({ at: 0.3 + i * 0.24, src: "tick", vol: 0.22 });
+  }
+  if (p.tipo === "cierre") out.push({ at: 0.16, src: "buzz", vol: 0.3 });
   if (p.tipo === "gente") {
     out.push({ at: 0.26, src: "pixel", vol: 0.26 });
     out.push({ at: 1.9, src: "buzz", vol: 0.28 });
@@ -196,12 +213,12 @@ const Contador: React.FC<{ p: Plano }> = ({ p }) => {
 };
 
 const PlanoView: React.FC<{ p: Plano }> = ({ p }) => {
-  const night = p.tipo === "dublin" || (p.tipo === "frase" && p.night);
+  const night = p.tipo === "dublin" || ((p.tipo === "frase" || p.tipo === "lista") && !!p.night);
 
   return (
-    <Surface night={night} grid={p.tipo !== "dublin"} frame>
+    <Surface night={night} grid={p.tipo !== "dublin" && p.tipo !== "mapa"} frame>
       <Camara modo={p.camara}>
-        {p.tipo === "dublin" ? <DublinNight encuadre={p.encuadre} /> : null}
+        {p.tipo === "dublin" ? <DublinNight encuadre={p.encuadre} dawn={p.amanecer} /> : null}
         {p.tipo === "torres" ? <Towers /> : null}
         {p.tipo === "gente" ? (
           <PeopleGrid
@@ -213,9 +230,15 @@ const PlanoView: React.FC<{ p: Plano }> = ({ p }) => {
           />
         ) : null}
         {p.tipo === "contador" ? <Contador p={p} /> : null}
+        {p.tipo === "barras" ? <Barras spec={p.barras} /> : null}
+        {p.tipo === "lineas" ? <Lineas spec={p.lineas} /> : null}
+        {p.tipo === "mapa" ? <Mapa spec={p.mapa} /> : null}
+        {p.tipo === "objeto" ? <Objeto nombre={p.objeto!} /> : null}
       </Camara>
 
       {p.tipo === "frase" ? <Statement text={p.texto ?? ""} night={p.night} /> : null}
+      {p.tipo === "lista" ? <Lista spec={p.lista} night={night} /> : null}
+      {p.tipo === "cierre" ? <Cierre spec={p.cierre} /> : null}
 
       {p.anillo ? (
         <SketchRing cx={p.anillo.cx} cy={p.anillo.cy} rx={p.anillo.rx} ry={p.anillo.ry} delay={0.7} />
@@ -223,7 +246,7 @@ const PlanoView: React.FC<{ p: Plano }> = ({ p }) => {
 
       {/* Velo inferior: el rotulo tiene que leerse sobre cualquier dibujo,
           tanto en papel como en noche. */}
-      {p.rotulo && p.tipo !== "frase" && p.tipo !== "contador" ? (
+      {p.rotulo && !["frase", "contador", "lista", "cierre", "barras", "lineas"].includes(p.tipo) ? (
         <div
           style={{
             position: "absolute",

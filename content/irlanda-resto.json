@@ -1,0 +1,504 @@
+{
+  "slug": "irlanda",
+  "titulo": "¿Por qué todos se van de Irlanda?",
+  "wpm": 145,
+  "bloques": [
+    {
+      "id": "b1",
+      "nombre": "La promesa",
+      "planos": [
+        {
+          "id": "b1-01", "tipo": "mapa", "camara": "push",
+          "mapa": { "destaca": ["irlanda"], "etiqueta": "Irlanda" },
+          "kicker": "Europa · renta por habitante",
+          "vo": "En los próximos minutos vamos a ver tres cosas."
+        },
+        {
+          "id": "b1-02", "tipo": "objeto", "objeto": "contable", "camara": "panR",
+          "kicker": "Primero",
+          "rotulo": { "kicker": "Uno", "texto": "El número que la hace rica es un *espejismo contable*" },
+          "vo": "Primero, por qué el número que hace parecer rica a Irlanda es, literalmente, un espejismo contable, y cómo el propio Gobierno irlandés tuvo que inventarse una estadística nueva para saber cuánto dinero tenía de verdad."
+        },
+        {
+          "id": "b1-03", "tipo": "gente", "camara": "estatico",
+          "gente": { "total": 17308, "destacados": 17308, "escala": 100, "etiqueta": "Sin hogar, con pleno empleo" },
+          "kicker": "Segundo",
+          "rotulo": { "kicker": "Dos", "texto": "*17.000* personas sin casa en un país con pleno empleo" },
+          "vo": "Segundo, por qué un país con pleno empleo y sueldos altos tiene a más de diecisiete mil personas sin casa."
+        },
+        {
+          "id": "b1-04", "tipo": "objeto", "objeto": "aeropuerto", "camara": "pull",
+          "kicker": "Tercero",
+          "rotulo": { "kicker": "Tres", "texto": "No se va cualquiera. Se van *los que hacen falta*" },
+          "vo": "Y tercero, quién se está yendo. Porque no se va cualquiera. Se van exactamente los que un país necesita para funcionar."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "El espejismo",
+      "planos": [
+        {
+          "id": "b2-01", "tipo": "objeto", "objeto": "sala", "camara": "push",
+          "kicker": "Dublín · sede europea",
+          "vo": "Empecemos por el número."
+        },
+        {
+          "id": "b2-02", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Crecimiento del PIB irlandés, 2015",
+            "referencia": { "etiqueta": "Rango normal de una economía avanzada", "min": 1, "max": 3 },
+            "datos": [{ "etiqueta": "Irlanda 2015", "valor": 26, "tono": "carmin" }],
+            "sufijo": " %"
+          },
+          "fuente": "CSO · cuentas nacionales",
+          "rotulo": { "kicker": "En un solo año", "texto": "La economía creció un *26 %*" },
+          "vo": "En dos mil quince, la economía irlandesa creció un veintiséis por ciento en un solo año."
+        },
+        {
+          "id": "b2-03", "tipo": "frase", "night": true,
+          "texto": "Ningún país desarrollado ha crecido así *nunca*.",
+          "vo": "Veintiséis por ciento. No es un error de transcripción. Ningún país desarrollado ha crecido así nunca, en ningún momento de la historia moderna, salvo saliendo de una guerra."
+        },
+        {
+          "id": "b2-04", "tipo": "objeto", "objeto": "interrogante", "camara": "panL",
+          "kicker": "La pregunta",
+          "vo": "¿Qué había pasado? ¿Habían encontrado petróleo? ¿Se había duplicado la producción?"
+        },
+        {
+          "id": "b2-05", "tipo": "objeto", "objeto": "contable", "camara": "push",
+          "kicker": "Traslado de propiedad intelectual",
+          "rotulo": { "kicker": "Lo que pasó de verdad", "texto": "Patentes, marcas y software. *Papeles.*" },
+          "vo": "No. Un puñado de multinacionales americanas habían movido su propiedad intelectual, patentes, marcas, software, a filiales irlandesas. Papeles. Un movimiento contable."
+        },
+        {
+          "id": "b2-06", "tipo": "frase", "night": false,
+          "texto": "Krugman lo bautizó: *economía de duendes*.",
+          "vo": "El economista Paul Krugman lo bautizó con un nombre que se le quedó pegado al país: economía de duendes."
+        },
+        {
+          "id": "b2-07", "tipo": "objeto", "objeto": "carpeta", "camara": "panR",
+          "kicker": "Cómo funciona",
+          "rotulo": { "kicker": "El truco", "texto": "Lo que producen fuera cuenta *como producción irlandesa*" },
+          "vo": "Y aquí está el problema real: cuando esas patentes aterrizan en Dublín, todo lo que producen en el resto del mundo pasa a contar como producción irlandesa. El PIB se dispara. Los irlandeses no ven ni un euro."
+        },
+        {
+          "id": "b2-08", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Miles de millones de euros · 2023",
+            "datos": [
+              { "etiqueta": "PIB", "valor": 510000, "tono": "ink", "escala": 1000 },
+              { "etiqueta": "GNI* (economía real)", "valor": 290900, "tono": "verde", "escala": 1000 }
+            ],
+            "diferencia": "219.100 M€ que nunca existieron"
+          },
+          "fuente": "CSO · Measuring Ireland's Progress 2023",
+          "vo": "La distorsión se volvió tan grande que el propio Estado tuvo que crear un indicador nuevo. Se llama Renta Nacional Bruta Modificada, o GNI asterisco, y su único propósito es quitar del PIB todo lo que no es real."
+        },
+        {
+          "id": "b2-09", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Miles de millones de euros · 2023",
+            "datos": [
+              { "etiqueta": "PIB", "valor": 510000, "tono": "ink", "escala": 1000 },
+              { "etiqueta": "GNI* (economía real)", "valor": 290900, "tono": "verde", "escala": 1000 }
+            ],
+            "diferencia": "219.100 M€ que nunca existieron",
+            "resaltaDiferencia": true
+          },
+          "fuente": "CSO · Measuring Ireland's Progress 2023",
+          "rotulo": { "kicker": "La diferencia", "texto": "*219.100* millones que nunca entraron" },
+          "vo": "El resultado, con los datos de dos mil veintitrés: el PIB de Irlanda fue de quinientos diez mil millones de euros. El GNI asterisco, doscientos noventa mil novecientos millones. Doscientos diecinueve mil millones de euros que aparecían en la contabilidad nacional y que nunca entraron en la economía irlandesa."
+        },
+        {
+          "id": "b2-10", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "PIB como porcentaje de la economía real",
+            "datos": [
+              { "etiqueta": "Irlanda", "valor": 162, "tono": "carmin" },
+              { "etiqueta": "Media de la UE", "valor": 100, "tono": "ink" }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "CSO · Eurostat",
+          "rotulo": { "kicker": "En el resto de la UE las dos cifras coinciden", "texto": "En Irlanda el PIB llegó al *162 %*" },
+          "vo": "Para que se entienda la escala: en el resto de la Unión Europea, estas dos cifras son prácticamente la misma. En Irlanda, el PIB llegó a ser el ciento sesenta y dos por ciento de la economía real."
+        },
+        {
+          "id": "b2-11", "tipo": "objeto", "objeto": "dosIrlandas", "camara": "pull",
+          "kicker": "Con el número corregido",
+          "rotulo": { "kicker": "Aun así", "texto": "*55.000 €* por habitante. Sigue siendo rica" },
+          "vo": "Ahora bien, y esto es importante para no contarte una película: Irlanda sigue siendo rica con el número corregido. El GNI asterisco por habitante rondaba los cincuenta y cinco mil euros en dos mil veintitrés. Eso está por encima de Francia, por encima del Reino Unido, muy por encima de España."
+        },
+        {
+          "id": "b2-12", "tipo": "frase", "night": false,
+          "texto": "La tesis no es que los irlandeses sean pobres.",
+          "vo": "Así que no, la tesis de este vídeo no es que los irlandeses sean pobres."
+        },
+        {
+          "id": "b2-13", "tipo": "frase", "night": true,
+          "texto": "Es algo más incómodo: son ricos y *no pueden vivir en su país*.",
+          "vo": "Es algo mucho más incómodo: son ricos y aun así no pueden vivir en su propio país."
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Donde se rompe todo",
+      "planos": [
+        {
+          "id": "b3-01", "tipo": "objeto", "objeto": "grua", "camara": "push",
+          "kicker": "Dublín · construcción parada",
+          "vo": "Porque el dinero llegó. Los empleos llegaron. Sueldos de primer nivel mundial en una isla de cinco millones y medio de habitantes."
+        },
+        {
+          "id": "b3-02", "tipo": "frase", "night": true,
+          "texto": "Lo que no llegó fueron *las casas*.",
+          "vo": "Lo que no llegó fueron las casas."
+        },
+        {
+          "id": "b3-03", "tipo": "lineas", "camara": "estatico",
+          "lineas": {
+            "unidad": "Población de Irlanda",
+            "series": [
+              { "nombre": "Población", "tono": "ink", "puntos": [["2012", 4.58], ["2026", 5.53]], "sufijo": " M" }
+            ],
+            "nota": "+22 % en poco más de una década"
+          },
+          "fuente": "CSO · estimaciones de población",
+          "rotulo": { "kicker": "Entre 2012 y hoy", "texto": "*Un millón* de personas más" },
+          "vo": "Entre dos mil doce y hoy, la población irlandesa ha pasado de cuatro millones y medio a cinco millones y medio. Un millón de personas más. Un aumento del veintidós por ciento en poco más de una década."
+        },
+        {
+          "id": "b3-04", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Viviendas terminadas al año",
+            "datos": [
+              { "etiqueta": "Terminadas 2025", "valor": 37000, "tono": "ink", "escala": 1000 },
+              { "etiqueta": "Necesarias (mínimo)", "valor": 40000, "tono": "verde", "escala": 1000 },
+              { "etiqueta": "Necesarias (máximo)", "valor": 50000, "tono": "verde", "escala": 1000 }
+            ]
+          },
+          "fuente": "Estimaciones del sector",
+          "rotulo": { "kicker": "Y llevan diez años sin llegar", "texto": "Faltan hasta *13.000* viviendas al año" },
+          "vo": "En dos mil veinticinco se terminaron unas treinta y siete mil viviendas. Los cálculos del propio sector dicen que hacen falta entre cuarenta y cincuenta mil al año solo para cubrir la demanda existente. Y llevan más de diez años sin alcanzar esa cifra."
+        },
+        {
+          "id": "b3-05", "tipo": "contador", "camara": "estatico",
+          "de": { "valor": 4000, "etiqueta": "Antes de la pandemia" },
+          "a": { "valor": 1800, "etiqueta": "1 de febrero de 2026" },
+          "kicker": "Viviendas disponibles para alquilar en toda Irlanda",
+          "fuente": "Daft.ie · informe de alquiler",
+          "vo": "El resultado es este. El uno de febrero de este año, en toda la República de Irlanda, un país entero, cinco millones y medio de personas, había menos de mil ochocientas viviendas disponibles para alquilar."
+        },
+        {
+          "id": "b3-06", "tipo": "contador", "camara": "estatico", "estatico": true,
+          "de": { "valor": 4000, "etiqueta": "Antes de la pandemia" },
+          "a": { "valor": 1800, "etiqueta": "1 de febrero de 2026" },
+          "anillo": { "cx": 960, "cy": 430, "rx": 380, "ry": 150 },
+          "kicker": "Viviendas disponibles para alquilar en toda Irlanda",
+          "fuente": "Daft.ie · informe de alquiler",
+          "rotulo": { "kicker": "En todo el país", "texto": "Menos de *1.800*" },
+          "vo": "Menos de mil ochocientas. En todo el país. Antes de la pandemia esa cifra rondaba las cuatro mil."
+        },
+        {
+          "id": "b3-07", "tipo": "frase", "night": true,
+          "texto": "Pasa exactamente lo que dice el manual.",
+          "vo": "Cuando hay mil ochocientas casas para cinco millones de personas, pasa exactamente lo que dice el manual."
+        },
+        {
+          "id": "b3-08", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Subida del alquiler en un trimestre",
+            "datos": [{ "etiqueta": "Q1 2026", "valor": 4.4, "tono": "carmin", "decimales": 1 }],
+            "sufijo": " %",
+            "referencia": { "etiqueta": "Serie histórica desde 2002", "min": 0, "max": 2 }
+          },
+          "fuente": "Daft.ie · Q1 2026",
+          "rotulo": { "kicker": "La mayor de la serie", "texto": "*4,4 %* en tres meses" },
+          "vo": "En el primer trimestre de dos mil veintiséis, los alquileres subieron un cuatro coma cuatro por ciento en tres meses. Es la mayor subida trimestral registrada en Irlanda desde que existe la serie, que empieza en dos mil dos."
+        },
+        {
+          "id": "b3-09", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Alquiler medio de un piso de dos habitaciones",
+            "datos": [
+              { "etiqueta": "Media nacional", "valor": 2176, "tono": "ink" },
+              { "etiqueta": "Dublín", "valor": 2634, "tono": "carmin" }
+            ],
+            "prefijo": "€"
+          },
+          "fuente": "Daft.ie · Q1-Q2 2026",
+          "rotulo": { "kicker": "Dos habitaciones", "texto": "*2.634 €* al mes en Dublín" },
+          "vo": "El alquiler medio de un piso de dos habitaciones está en dos mil ciento setenta y seis euros al mes a nivel nacional. En Dublín, dos mil seiscientos treinta y cuatro."
+        },
+        {
+          "id": "b3-10", "tipo": "mapa", "camara": "push",
+          "mapa": { "destaca": ["irlanda"], "puntos": [{ "nombre": "Galway", "valor": "+18 %" }, { "nombre": "Cork", "valor": "+13 %" }] },
+          "kicker": "Subida del alquiler en un año",
+          "rotulo": { "kicker": "Ya no es solo Dublín", "texto": "Galway *+18 %*, Cork *+13 %*" },
+          "vo": "Y esto ya no es un problema de Dublín. En Galway los alquileres subieron un dieciocho por ciento en un año. En Cork, un trece."
+        },
+        {
+          "id": "b3-11", "tipo": "objeto", "objeto": "habitacion", "camara": "pull",
+          "kicker": "Una habitación en piso compartido",
+          "rotulo": { "kicker": "Precio medio nacional", "texto": "*806 €* al mes por una habitación" },
+          "vo": "¿Y si no puedes pagar un piso? Una habitación. Una habitación en una casa compartida, precio medio nacional: ochocientos seis euros al mes."
+        },
+        {
+          "id": "b3-12", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Alquileres hoy, comparados con antes",
+            "datos": [
+              { "etiqueta": "vs. prepandemia", "valor": 40, "tono": "ink" },
+              { "etiqueta": "vs. hace diez años", "valor": 80, "tono": "carmin" }
+            ],
+            "prefijo": "+", "sufijo": " %"
+          },
+          "fuente": "Daft.ie",
+          "rotulo": { "kicker": "En una década", "texto": "*+80 %* de subida" },
+          "vo": "Los alquileres irlandeses están hoy un cuarenta por ciento por encima de los niveles previos a la pandemia y cerca de un ochenta por ciento por encima de los de hace diez años."
+        },
+        {
+          "id": "b3-13", "tipo": "objeto", "objeto": "carta", "camara": "push",
+          "kicker": "Marzo de 2026 · nuevas normas de alquiler",
+          "vo": "En marzo de este año entraron en vigor unas normas nuevas de alquiler. Entre otras cosas, permiten al propietario reajustar el alquiler al precio de mercado cuando termina un contrato."
+        },
+        {
+          "id": "b3-14", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Avisos de desahucio en los meses previos",
+            "datos": [{ "etiqueta": "Aumento", "valor": 51, "tono": "carmin" }],
+            "prefijo": "+", "sufijo": " %"
+          },
+          "fuente": "Registro de tenencias residenciales",
+          "rotulo": { "kicker": "Antes de que entraran en vigor", "texto": "Los desahucios subieron un *51 %*" },
+          "vo": "En los meses previos a esa entrada en vigor, los avisos de desahucio se dispararon un cincuenta y uno por ciento y las órdenes de desalojo alcanzaron su nivel más alto registrado."
+        },
+        {
+          "id": "b3-15", "tipo": "frase", "night": true,
+          "texto": "Si puedes resetear el precio cuando el inquilino se va, *tienes un motivo para que se vaya*.",
+          "vo": "No hace falta ser economista para entender el incentivo: si puedes resetear el precio cuando el inquilino se va, tienes un motivo para que el inquilino se vaya."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Los números que no se publican",
+      "planos": [
+        {
+          "id": "b4-01", "tipo": "contador", "camara": "estatico",
+          "de": { "valor": 17308, "etiqueta": "Marzo 2026" },
+          "a": { "valor": 17500, "etiqueta": "Abril 2026" },
+          "kicker": "Personas en alojamiento de emergencia",
+          "fuente": "Dept. of Housing · RTÉ, abril de 2026",
+          "vo": "Volvamos a la cifra del principio, porque hay una letra pequeña que casi nadie menciona. Diecisiete mil trescientas personas en alojamiento de emergencia. En marzo y abril de este año la cifra superó las diecisiete mil quinientas."
+        },
+        {
+          "id": "b4-02", "tipo": "lista", "camara": "estatico", "night": true,
+          "lista": {
+            "titulo": "El número oficial NO cuenta a:",
+            "puntos": [
+              "quien duerme en el sofá de un amigo",
+              "quien vive hacinado",
+              "quien duerme en la calle",
+              "quien está en refugios de violencia de género",
+              "quien sigue en centros de acogida con permiso legal"
+            ]
+          },
+          "kicker": "La letra pequeña",
+          "vo": "Pero ese número, el número oficial del Gobierno, no cuenta a las personas que duermen en el sofá de un amigo. No cuenta a las que viven hacinadas. No cuenta a las que duermen en la calle. No cuenta a las que están en refugios de violencia de género. No cuenta a las que siguen atrapadas en centros de acogida pese a tener permiso legal para quedarse."
+        },
+        {
+          "id": "b4-03", "tipo": "frase", "night": true,
+          "texto": "La cifra real es *imposible de saber*.",
+          "vo": "La cifra real es imposible de saber. Solo sabemos que es bastante mayor."
+        },
+        {
+          "id": "b4-04", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Personas de 18 a 24 años que caen en el sinhogarismo",
+            "datos": [{ "etiqueta": "En doce meses", "valor": 17, "tono": "carmin" }],
+            "prefijo": "+", "sufijo": " %"
+          },
+          "fuente": "Dept. of Housing",
+          "rotulo": { "kicker": "Entre 18 y 24 años", "texto": "*+17 %* en solo doce meses" },
+          "vo": "Dos datos más, y estos son los que explican el título del vídeo. Primero: entre los dieciocho y los veinticuatro años, el número de personas que caen en el sinhogarismo subió un diecisiete por ciento en solo doce meses."
+        },
+        {
+          "id": "b4-05", "tipo": "gente", "camara": "estatico",
+          "gente": { "total": 17308, "destacados": 8500, "escala": 100, "etiqueta": "Personas sin hogar en Irlanda", "etiquetaDestacados": "casi la mitad son ciudadanos irlandeses" },
+          "kicker": "No es una crisis importada",
+          "rotulo": { "kicker": "Segundo dato", "texto": "*Casi la mitad* son ciudadanos irlandeses" },
+          "vo": "Segundo, y este es demoledor: casi la mitad de las personas sin hogar en Irlanda son ciudadanos irlandeses. No es una crisis importada. Es gente que nació allí, que trabaja allí, y que no encuentra dónde vivir."
+        },
+        {
+          "id": "b4-06", "tipo": "objeto", "objeto": "balanza", "camara": "push",
+          "kicker": "Nómina contra recibo del alquiler",
+          "rotulo": { "kicker": "Y aquí está la clave", "texto": "La mayoría de estas personas *tienen trabajo*" },
+          "vo": "Y ojo, porque aquí está la clave de todo: la mayoría de estas personas tienen trabajo."
+        },
+        {
+          "id": "b4-07", "tipo": "frase", "night": true,
+          "texto": "Puedes ser enfermera, profesor o ingeniero, cobrar bien, y *no poder alquilar dónde dormir*.",
+          "vo": "Irlanda no tiene un problema de paro. Tiene pleno empleo. Lo que tiene es una economía donde puedes ser enfermera, profesor o ingeniero, cobrar un buen sueldo, y aun así no poder alquilar un sitio donde dormir."
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "El éxodo",
+      "planos": [
+        {
+          "id": "b5-01", "tipo": "objeto", "objeto": "aeropuerto", "camara": "push",
+          "kicker": "Aeropuerto de Dublín",
+          "vo": "Entonces, ¿qué hace una generación entera cuando el país donde nació le ofrece un buen sueldo pero ninguna casa?"
+        },
+        {
+          "id": "b5-02", "tipo": "frase", "night": true,
+          "texto": "*Se va.*",
+          "vo": "Se va."
+        },
+        {
+          "id": "b5-03", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Ciudadanos irlandeses · año hasta abril de 2025",
+            "datos": [
+              { "etiqueta": "Emigraron", "valor": 35000, "tono": "carmin", "escala": 1000 },
+              { "etiqueta": "Volvieron", "valor": 31500, "tono": "ink", "escala": 1000 }
+            ]
+          },
+          "fuente": "CSO · estimaciones de migración",
+          "rotulo": { "kicker": "Tercer año consecutivo", "texto": "Se van *más de los que vuelven*" },
+          "vo": "En el año hasta abril de dos mil veinticinco, treinta y cinco mil ciudadanos irlandeses emigraron. Volvieron treinta y un mil quinientos. Tercer año consecutivo en el que se van más de los que vuelven."
+        },
+        {
+          "id": "b5-04", "tipo": "mapa", "camara": "pull",
+          "mapa": { "destaca": ["irlanda"], "flecha": { "hacia": "australia", "valor": "13.500" } },
+          "kicker": "Destino en un solo año",
+          "rotulo": { "kicker": "A Australia", "texto": "*13.500* en un solo año" },
+          "vo": "¿Y a dónde van? Trece mil quinientos se fueron a Australia en un solo año. Un veintisiete por ciento más que el año anterior. Un ciento ochenta y siete por ciento más que dos años antes."
+        },
+        {
+          "id": "b5-05", "tipo": "contador", "camara": "estatico",
+          "de": { "valor": 2013, "etiqueta": "Resaca del rescate bancario" },
+          "a": { "valor": 2026, "etiqueta": "Hoy" },
+          "kicker": "El mismo ritmo de salida que en",
+          "fuente": "CSO",
+          "vo": "Es el nivel más alto desde dos mil trece. Y dos mil trece, para que te sitúes, fue el año más duro de la resaca del rescate bancario irlandés. Cuando el país estaba oficialmente en crisis."
+        },
+        {
+          "id": "b5-06", "tipo": "objeto", "objeto": "dosEpocas", "camara": "panL",
+          "kicker": "2013 contra 2026",
+          "rotulo": { "kicker": "Misma cola de maletas", "texto": "Solo que ahora está *forrada*" },
+          "vo": "Piénsalo un segundo. Irlanda está enviando a sus jóvenes al otro lado del mundo al mismo ritmo que cuando estaba arruinada. Solo que ahora está forrada."
+        },
+        {
+          "id": "b5-07", "tipo": "barras", "camara": "estatico",
+          "barras": {
+            "unidad": "Datos del CSO · agosto de 2026",
+            "datos": [
+              { "etiqueta": "Migración neta", "valor": 19, "tono": "carmin" },
+              { "etiqueta": "Inmigración", "valor": 12, "tono": "ink" }
+            ],
+            "prefijo": "−", "sufijo": " %"
+          },
+          "fuente": "CSO · Population and Migration Estimates, agosto de 2026",
+          "rotulo": { "kicker": "Novedad de este mes", "texto": "La migración neta cayó un *19 %*" },
+          "vo": "Y hay una novedad muy reciente. Los datos que el Instituto Nacional de Estadística irlandés publicó este mismo mes de agosto muestran que la migración neta cayó un diecinueve por ciento en un año. La inmigración bajó un doce por ciento."
+        },
+        {
+          "id": "b5-08", "tipo": "frase", "night": false,
+          "texto": "El motor de la economía irlandesa *se está frenando*.",
+          "vo": "Lo que durante una década fue el motor de la economía irlandesa, gente de fuera viniendo a trabajar, se está frenando."
+        },
+        {
+          "id": "b5-09", "tipo": "frase", "night": true,
+          "texto": "No se frena porque falten empleos. Se frena porque *no hay dónde meter a nadie más*.",
+          "vo": "Y no se frena porque falten empleos. Se frena porque no hay dónde meter a nadie más."
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Por qué no se arregla",
+      "planos": [
+        {
+          "id": "b6-01", "tipo": "objeto", "objeto": "plano", "camara": "push",
+          "kicker": "Expedientes urbanísticos",
+          "vo": "La pregunta obvia es: si hay dinero, si hay demanda, si hay empleo, ¿por qué nadie construye?"
+        },
+        {
+          "id": "b6-02", "tipo": "frase", "night": true,
+          "texto": "Tres razones. Y *ninguna se arregla con un decreto*.",
+          "vo": "Tres razones, y ninguna se arregla con un decreto."
+        },
+        {
+          "id": "b6-03", "tipo": "lista", "camara": "estatico",
+          "lista": { "titulo": "Por qué no se construye", "puntos": ["El suelo", "La capacidad", "La estructura"], "activo": 0 },
+          "kicker": "La primera",
+          "rotulo": { "kicker": "El suelo", "texto": "Permisos lentos y *objeciones vecinales sistemáticas*" },
+          "vo": "La primera: el suelo. Los permisos urbanísticos en Irlanda son lentos y las objeciones vecinales son sistemáticas. El mismo político que sube al Parlamento a denunciar la emergencia de vivienda vuelve a su circunscripción a oponerse al bloque de pisos que quieren levantar en su barrio."
+        },
+        {
+          "id": "b6-04", "tipo": "lista", "camara": "estatico",
+          "lista": { "titulo": "Por qué no se construye", "puntos": ["El suelo", "La capacidad", "La estructura"], "activo": 1 },
+          "kicker": "La segunda",
+          "rotulo": { "kicker": "La capacidad", "texto": "Reconstruir el sector lleva *quince años*" },
+          "vo": "La segunda: la capacidad. La construcción irlandesa se hundió tras dos mil ocho y perdió a toda una generación de obreros y oficios. Muchos de ellos, por cierto, emigraron. Reconstruir ese sector lleva quince años, no dos legislaturas."
+        },
+        {
+          "id": "b6-05", "tipo": "lista", "camara": "estatico",
+          "lista": { "titulo": "Por qué no se construye", "puntos": ["El suelo", "La capacidad", "La estructura"], "activo": 2 },
+          "kicker": "La tercera",
+          "rotulo": { "kicker": "La estructura", "texto": "El modelo atrae gente *más rápido de lo que se construye*" },
+          "vo": "La tercera, y la más incómoda: la estructura misma de la economía irlandesa juega en contra. Un modelo basado en atraer multinacionales con impuestos bajos atrae también salarios altos y trabajadores extranjeros a un ritmo que ningún parque de vivienda pequeño puede absorber."
+        },
+        {
+          "id": "b6-06", "tipo": "frase", "night": true,
+          "texto": "El éxito *es la causa del problema*.",
+          "vo": "El éxito es la causa del problema."
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b7-01", "tipo": "dublin", "encuadre": "amplio", "night": true, "amanecer": true, "camara": "pull",
+          "kicker": "Dublín · amanecer",
+          "rotulo": { "kicker": "La idea que hay que llevarse", "texto": "Que un país sea rico *no significa que su gente pueda vivir en él*" },
+          "vo": "Irlanda es el ejemplo más limpio que existe hoy de una idea que deberíamos tener todos muy presente: que un país sea rico no significa que su gente pueda vivir en él."
+        },
+        {
+          "id": "b7-02", "tipo": "frase", "night": true,
+          "texto": "El PIB puede subir mientras tus hijos *hacen las maletas*.",
+          "vo": "El PIB puede subir mientras tus hijos hacen las maletas. Las multinacionales pueden pagar impuestos récord mientras cinco mil niños duermen en habitaciones de hotel. Las dos cosas pueden ser verdad al mismo tiempo, y lo son."
+        },
+        {
+          "id": "b7-03", "tipo": "mapa", "camara": "push",
+          "mapa": { "destaca": ["irlanda", "espana", "portugal", "holanda"], "etiqueta": "El mismo experimento" },
+          "kicker": "No es una excepción",
+          "rotulo": { "kicker": "Si el alquiler se comió tu sueldo", "texto": "Irlanda *no es una excepción*" },
+          "vo": "Y si estás viendo esto desde España, desde Portugal, desde cualquier ciudad donde el alquiler se haya comido tu sueldo en los últimos cinco años, ya sabes que Irlanda no es una excepción."
+        },
+        {
+          "id": "b7-04", "tipo": "frase", "night": true,
+          "texto": "Es solo el sitio donde el experimento *va más adelantado*.",
+          "vo": "Es solo el sitio donde el experimento va más adelantado."
+        },
+        {
+          "id": "b7-05", "tipo": "cierre", "camara": "estatico",
+          "cierre": { "siguiente": "NORUEGA", "sub": "Los millonarios están huyendo y el gobierno no puede pararlos" },
+          "vo": "En el próximo vídeo vamos a Noruega, donde el país más rico de Europa está viendo cómo sus millonarios se marchan uno detrás de otro. Y el gobierno no puede hacer nada para impedirlo."
+        },
+        {
+          "id": "b7-06", "tipo": "cierre", "camara": "estatico",
+          "cierre": { "suscribete": true },
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo."
+        }
+      ]
+    }
+  ]
+}
