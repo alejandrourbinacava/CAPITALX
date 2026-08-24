@@ -100,6 +100,43 @@ def riser(dur=0.9, seed=13):
     return (tone + air) * (k**1.7) * 0.8
 
 
+def corte(dur=0.22, seed=23):
+    """
+    Pulso grave y corto. Se siente mas que se oye: marca el corte sin
+    anunciarlo. Es lo que usan los documentales serios en lugar del barrido.
+    """
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    f = 74 * np.exp(-t * 26.0) + 41
+    body = np.sin(2 * np.pi * np.cumsum(f) / SR)
+    edge = highpass(noise(n, seed), 4200) * np.exp(-t / 0.0035) * 0.12
+    return (body * env_ad(n, 0.0015, 0.055) + edge) * 0.9
+
+
+def papel(dur=0.26, seed=29):
+    """Hoja que pasa. Encaja con el papel y el grano de la direccion de arte."""
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    k = t / dur
+    x = noise(n, seed)
+    x = lowpass_tv(x, 2600 + 3800 * np.sin(np.pi * k))
+    x = highpass(x, 900)
+    # dos roces encadenados, como una hoja que se dobla y cae
+    grain = np.exp(-((t - 0.03) ** 2) / 0.0006) + 0.6 * np.exp(-((t - 0.115) ** 2) / 0.0022)
+    return x * (grain + env_ad(n, 0.01, 0.07) * 0.35) * 0.85
+
+
+def plancha(dur=0.34, seed=31):
+    """Golpe de prensa: la plancha bajando sobre el papel. Seco, con cuerpo."""
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    f = 168 * np.exp(-t * 30.0) + 62
+    body = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.9
+    wood = lowpass_tv(noise(n, seed), np.full(n, 2400)) * np.exp(-t / 0.018) * 0.5
+    ring = np.sin(2 * np.pi * 940 * t) * np.exp(-t / 0.020) * 0.10
+    return (body * env_ad(n, 0.0012, 0.085) + wood + ring) * 0.9
+
+
 def pop(dur=0.18, seed=17):
     """Burbuja breve. Para elementos pequenos que aparecen en serie."""
     n = int(dur * SR)
@@ -131,6 +168,9 @@ def write(name, mono):
 if __name__ == "__main__":
     print("generando efectos:")
     write("whoosh.wav", whoosh())
+    write("corte.wav", corte())
+    write("papel.wav", papel())
+    write("plancha.wav", plancha())
     write("tick.wav", tick())
     write("slab.wav", slab())
     write("thud.wav", thud())

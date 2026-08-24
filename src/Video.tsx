@@ -85,9 +85,10 @@ const Sfx: React.FC<{ at: number; src: string; vol?: number }> = ({ at, src, vol
 const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
   const out: { at: number; src: string; vol: number }[] = [];
 
-  // el corte de entrada
+  // El corte de entrada: whoosh con cuerpo grave, filtro resonante y paneo.
+  // El primer intento era ruido blanco filtrado y sonaba a feria.
   if (p.tipo === "frase") out.push({ at: 0, src: "thud", vol: 0.4 });
-  else out.push({ at: 0, src: "whoosh", vol: 0.26 });
+  else out.push({ at: 0, src: "whoosh-corto", vol: 0.3 });
 
   // cada etiqueta que aparece
   for (const t of p.tags ?? []) out.push({ at: t.in, src: "tick", vol: 0.3 });
