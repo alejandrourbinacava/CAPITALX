@@ -1,0 +1,892 @@
+{
+  "slug": "noruega",
+  "titulo": "NORUEGA: Se fueron los millonarios (y la recaudación subió)",
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frío",
+      "planos": [
+        {
+          "id": "b0-01",
+          "tipo": "objeto",
+          "objeto": "villa",
+          "camara": "push",
+          "kicker": "Lugano · septiembre de 2022",
+          "vo": "En septiembre de dos mil veintidós, el hombre más rico de Noruega hizo las maletas.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b0-02",
+          "tipo": "objeto",
+          "objeto": "maletero",
+          "camara": "pull",
+          "kicker": "Kjell Inge Røkke",
+          "tags": [
+            {
+              "t": "Empezó como pescador",
+              "x": 8,
+              "y": 20,
+              "in": 0.6,
+              "out": 4.2,
+              "tone": "ink",
+              "anim": "slideR"
+            },
+            {
+              "t": "Presidente de Aker",
+              "x": 8,
+              "y": 20,
+              "in": 4.4,
+              "tone": "carmin",
+              "anim": "slideR"
+            }
+          ],
+          "vo": "Se llama Kjell Inge Røkke. Empezó como pescador en un barco de arrastre y acabó controlando Aker, uno de los mayores conglomerados industriales del país.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b0-03",
+          "tipo": "contador",
+          "camara": "estatico",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 5100,
+            "etiqueta": "Millones de dólares"
+          },
+          "kicker": "Patrimonio de Røkke",
+          "fuente": "SWI swissinfo · 2022",
+          "rotulo": {
+            "kicker": "Su patrimonio",
+            "texto": "*5.100* millones de dólares"
+          },
+          "vo": "Cinco mil cien millones de dólares.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b0-04",
+          "tipo": "mapa",
+          "camara": "push",
+          "mapa": {
+            "destaca": [
+              "noruega",
+              "suiza"
+            ]
+          },
+          "kicker": "De Oslo a Lugano",
+          "rotulo": {
+            "kicker": "Se mudó al cantón del Tesino",
+            "texto": "*175 millones* de coronas al año que dejan de entrar"
+          },
+          "vo": "Se fue a Lugano, en el cantón suizo del Tesino. Y al irse, se llevó con él unos ciento setenta y cinco millones de coronas al año que dejaban de entrar en las arcas noruegas.",
+          "voz": {
+            "speed": 1.04
+          }
+        },
+        {
+          "id": "b0-05",
+          "tipo": "frase",
+          "night": true,
+          "texto": "No fue el único. *Ni de lejos.*",
+          "vo": "No fue el único. Ni de lejos.",
+          "voz": {
+            "speed": 0.94
+          }
+        },
+        {
+          "id": "b0-06",
+          "tipo": "gente",
+          "camara": "estatico",
+          "gente": {
+            "total": 82,
+            "destacados": 82,
+            "escala": 1,
+            "etiqueta": "Grandes patrimonios que se marcharon · 2022-2023"
+          },
+          "kicker": "Ministerio de Finanzas de Noruega",
+          "fuente": "Ministerio de Finanzas · 2022-2023",
+          "rotulo": {
+            "kicker": "Entre todos",
+            "texto": "*46.000 millones* de coronas"
+          },
+          "vo": "En los dos años siguientes, ochenta y dos noruegos de alto patrimonio se marcharon del país, con cuarenta y seis mil millones de coronas entre todos. Más que en los trece años anteriores juntos.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b0-07",
+          "tipo": "frase",
+          "night": false,
+          "texto": "Y ahora la parte que *casi nadie cuenta*.",
+          "vo": "Y ahora la parte que casi nadie cuenta.",
+          "voz": {
+            "speed": 0.94
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "La promesa",
+      "planos": [
+        {
+          "id": "b1-01",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Lo que vamos a ver",
+            "puntos": [
+              "Cuántos se fueron de verdad",
+              "Qué pasó con la recaudación",
+              "Quién paga este impuesto"
+            ],
+            "activo": 0
+          },
+          "kicker": "Primero",
+          "vo": "En los próximos minutos vamos a ver tres cosas. Primero, cuánta gente se fue de verdad, y por qué el número que circula por internet no es el número real.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b1-02",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Lo que vamos a ver",
+            "puntos": [
+              "Cuántos se fueron de verdad",
+              "Qué pasó con la recaudación",
+              "Quién paga este impuesto"
+            ],
+            "activo": 1
+          },
+          "kicker": "Segundo",
+          "vo": "Segundo, qué pasó con la recaudación cuando se fueron. Y te adelanto que no es lo que esperas.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b1-03",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Lo que vamos a ver",
+            "puntos": [
+              "Cuántos se fueron de verdad",
+              "Qué pasó con la recaudación",
+              "Quién paga este impuesto"
+            ],
+            "activo": 2
+          },
+          "kicker": "Tercero",
+          "rotulo": {
+            "kicker": "Y esto es lo que sorprende",
+            "texto": "No son *los billonarios*"
+          },
+          "vo": "Y tercero, quién paga en Noruega este impuesto en realidad. Porque no son los billonarios.",
+          "voz": {
+            "speed": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "El impuesto",
+      "planos": [
+        {
+          "id": "b2-01",
+          "tipo": "objeto",
+          "objeto": "balanza",
+          "camara": "panR",
+          "kicker": "Formuesskatt · impuesto al patrimonio",
+          "vo": "Empecemos por entender de qué estamos hablando.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b2-02",
+          "tipo": "objeto",
+          "objeto": "casa",
+          "camara": "push",
+          "kicker": "Qué entra en el cálculo",
+          "tags": [
+            {
+              "t": "Casa",
+              "x": 10,
+              "y": 24,
+              "in": 0.5,
+              "tone": "ocre",
+              "anim": "pop"
+            },
+            {
+              "t": "Acciones",
+              "x": 10,
+              "y": 33,
+              "in": 1.1,
+              "tone": "ocre",
+              "anim": "pop"
+            },
+            {
+              "t": "Depósitos",
+              "x": 10,
+              "y": 42,
+              "in": 1.7,
+              "tone": "ocre",
+              "anim": "pop"
+            },
+            {
+              "t": "Empresa",
+              "x": 10,
+              "y": 51,
+              "in": 2.3,
+              "tone": "carmin",
+              "anim": "pop"
+            }
+          ],
+          "vo": "Noruega tiene un impuesto sobre el patrimonio. No sobre lo que ganas: sobre lo que tienes. Casa, acciones, depósitos, empresa. Se suma todo, se resta la deuda, y sobre lo que queda se paga cada año.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b2-03",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Tipo anual sobre el patrimonio neto",
+            "datos": [
+              {
+                "etiqueta": "De 1,76 a 20,7 M NOK",
+                "valor": 1.0,
+                "tono": "ink",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Más de 20,7 M NOK",
+                "valor": 1.1,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Skatteetaten",
+          "vo": "Un uno por ciento anual sobre el patrimonio neto que pase de un millón setecientas sesenta mil coronas. Y un uno coma uno por ciento a partir de veinte millones setecientas mil.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b2-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Un uno por ciento no parece mucho. *Depende de sobre qué.*",
+          "vo": "Un uno por ciento no parece mucho. Depende de sobre qué.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b2-05",
+          "tipo": "objeto",
+          "objeto": "fabrica",
+          "camara": "pull",
+          "kicker": "El problema del empresario",
+          "rotulo": {
+            "kicker": "Si tu patrimonio es una empresa",
+            "texto": "Pagas sobre un valor *que existe en un papel*"
+          },
+          "vo": "Aquí está el problema que denuncian los que se van, y hay que entenderlo bien porque es legítimo: si tu patrimonio es una empresa que no reparte dividendos, el impuesto se paga igual. Todos los años. Sobre un valor que existe en un papel, no en tu cuenta.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b2-06",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Puedes deber *más impuestos de los que has cobrado*.",
+          "vo": "Puedes deber más impuestos de los que has cobrado. Y para pagarlos tienes que sacar dinero de la empresa, o vender parte de ella.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b2-07",
+          "tipo": "objeto",
+          "objeto": "plano",
+          "camara": "push",
+          "kicker": "2022 · el gobierno laborista sube el tramo alto",
+          "rotulo": {
+            "kicker": "Del 1,0 al 1,1 por ciento",
+            "texto": "Y ahí *empezó todo*"
+          },
+          "vo": "En dos mil veintidós el gobierno laborista subió el tramo alto al uno coma uno. Y ahí empezó todo.",
+          "voz": {
+            "speed": 1.01
+          }
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "El éxodo",
+      "planos": [
+        {
+          "id": "b3-01",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Salidas de patrimonios superiores a 10 M NOK",
+            "datos": [
+              {
+                "etiqueta": "2022",
+                "valor": 261,
+                "tono": "carmin"
+              },
+              {
+                "etiqueta": "2023",
+                "valor": 254,
+                "tono": "carmin"
+              }
+            ],
+            "referencia": {
+              "etiqueta": "Ritmo de los años anteriores",
+              "min": 0,
+              "max": 110
+            }
+          },
+          "fuente": "Civita · vía Reuters",
+          "rotulo": {
+            "kicker": "Más del doble del ritmo anterior",
+            "texto": "*261* en 2022 · *254* en 2023"
+          },
+          "vo": "Estos son los números reales, y conviene separarlos de los que circulan. En dos mil veintidós se fueron doscientas sesenta y una personas con patrimonios superiores a diez millones de coronas. En dos mil veintitrés, doscientas cincuenta y cuatro. Más del doble del ritmo anterior.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b3-02",
+          "tipo": "mapa",
+          "camara": "pull",
+          "mapa": {
+            "destaca": [
+              "noruega",
+              "suiza",
+              "italia"
+            ]
+          },
+          "kicker": "Destinos",
+          "rotulo": {
+            "kicker": "A dónde fueron",
+            "texto": "Más de *setenta* a Suiza"
+          },
+          "vo": "¿A dónde fueron? Más de setenta a Suiza. El resto, a Italia y a Emiratos.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b3-03",
+          "tipo": "objeto",
+          "objeto": "maletero",
+          "camara": "panL",
+          "kicker": "Knut-Erik Karlsen · suplementos de aceite de pescado",
+          "rotulo": {
+            "kicker": "Y no todos eran billonarios",
+            "texto": "Su argumento no era la codicia: era *la competencia*"
+          },
+          "vo": "Y no todos eran billonarios. Knut-Erik Karlsen hizo su fortuna con suplementos de aceite de pescado, se fue a Suiza, y su argumento no era la codicia: decía que el sistema le hacía imposible competir con empresas extranjeras que no pagan nada parecido.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b3-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Hasta aquí, la historia *que ya conoces*.",
+          "vo": "Hasta aquí, la historia que ya conoces. La que se cuenta en todas partes.",
+          "voz": {
+            "speed": 0.94
+          }
+        },
+        {
+          "id": "b3-05",
+          "tipo": "frase",
+          "night": false,
+          "texto": "Ahora, los números del *Ministerio de Finanzas*.",
+          "vo": "Ahora vamos a los números del Ministerio de Finanzas noruego.",
+          "voz": {
+            "speed": 0.96
+          }
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "El giro",
+      "planos": [
+        {
+          "id": "b4-01",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Recaudación del impuesto al patrimonio · miles de millones de NOK",
+            "datos": [
+              {
+                "etiqueta": "2022",
+                "valor": 27,
+                "tono": "ink"
+              },
+              {
+                "etiqueta": "2025 (est.)",
+                "valor": 34,
+                "tono": "verde"
+              }
+            ],
+            "diferencia": "+7.000 M NOK"
+          },
+          "fuente": "Ministerio de Finanzas de Noruega",
+          "vo": "En dos mil veintidós, el impuesto al patrimonio recaudó veintisiete mil millones de coronas. En dos mil veinticinco, la estimación del propio Ministerio de Finanzas es de treinta y cuatro mil millones.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b4-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Recaudación del impuesto al patrimonio · miles de millones de NOK",
+            "datos": [
+              {
+                "etiqueta": "2022",
+                "valor": 27,
+                "tono": "ink"
+              },
+              {
+                "etiqueta": "2025 (est.)",
+                "valor": 34,
+                "tono": "verde"
+              }
+            ],
+            "diferencia": "+7.000 M NOK",
+            "resaltaDiferencia": true
+          },
+          "fuente": "Ministerio de Finanzas de Noruega",
+          "rotulo": {
+            "kicker": "Con el éxodo ya en marcha",
+            "texto": "Subió un *veintiséis por ciento*"
+          },
+          "vo": "Subió un veintiséis por ciento. Con el éxodo ya en marcha.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b4-03",
+          "tipo": "objeto",
+          "objeto": "interrogante",
+          "camara": "push",
+          "kicker": "La pregunta",
+          "vo": "¿Cómo puede ser? ¿Se fueron los ricos y entró más dinero? Sí. Y por dos razones muy poco románticas.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b4-04",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Por qué subió",
+            "puntos": [
+              "Subieron el tipo",
+              "Los que se fueron eran muy pocos"
+            ],
+            "activo": 0
+          },
+          "kicker": "La primera",
+          "vo": "La primera: subieron el tipo. Un uno coma uno por ciento sobre los que se quedaron da más que un uno por ciento sobre todos, si los que se van son pocos.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b4-05",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Por qué subió",
+            "puntos": [
+              "Subieron el tipo",
+              "Los que se fueron eran muy pocos"
+            ],
+            "activo": 1
+          },
+          "kicker": "La segunda, y la importante",
+          "vo": "La segunda, y la importante: los que se fueron eran muy pocos.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b4-06",
+          "tipo": "gente",
+          "camara": "estatico",
+          "gente": {
+            "total": 671639,
+            "destacados": 82,
+            "escala": 1000,
+            "etiqueta": "Cada figura = 1.000 contribuyentes",
+            "etiquetaDestacados": "los 82 que se fueron"
+          },
+          "kicker": "Pagan el impuesto al patrimonio · 2023",
+          "fuente": "SSB · 12 % de la población noruega",
+          "vo": "En dos mil veintitrés pagaron el impuesto al patrimonio seiscientas setenta y un mil seiscientas treinta y nueve personas. Alrededor del doce por ciento de la población noruega. Ochenta y dos se marcharon.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b4-07",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Ochenta y dos de *seiscientas setenta mil*.",
+          "vo": "Ochenta y dos de seiscientas setenta mil.",
+          "voz": {
+            "speed": 0.94
+          }
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Quién paga de verdad",
+      "planos": [
+        {
+          "id": "b5-01",
+          "tipo": "objeto",
+          "objeto": "casa",
+          "camara": "pull",
+          "kicker": "El contribuyente real",
+          "rotulo": {
+            "kicker": "El umbral está en",
+            "texto": "*150.000 €* de patrimonio neto"
+          },
+          "vo": "Y aquí está lo que casi nunca se dice de este impuesto, ni a favor ni en contra. El umbral está en un millón setecientas sesenta mil coronas. Al cambio, unos ciento cincuenta mil euros de patrimonio neto.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b5-02",
+          "tipo": "frase",
+          "night": true,
+          "texto": "En Noruega eso no es ser rico. Es *tener un piso pagado*.",
+          "vo": "Eso en Noruega no es ser rico. Es tener un piso pagado y algo ahorrado.",
+          "voz": {
+            "speed": 0.94
+          }
+        },
+        {
+          "id": "b5-03",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "El impuesto al patrimonio dentro de la economía noruega",
+            "datos": [
+              {
+                "etiqueta": "Porcentaje del PIB",
+                "valor": 0.6,
+                "tono": "verde",
+                "decimales": 1
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "SSB",
+          "rotulo": {
+            "kicker": "No sale de treinta billonarios",
+            "texto": "Sale de *670.000 familias*"
+          },
+          "vo": "Por eso el impuesto recauda lo que recauda: no sale de treinta billonarios, sale de seiscientas setenta mil familias normales. Y aun así solo supone un cero coma seis por ciento del PIB noruego.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b5-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "El debate va de treinta personas. La factura la pagan *setecientas mil*.",
+          "vo": "El debate público va de treinta personas. La factura la pagan setecientas mil.",
+          "voz": {
+            "speed": 0.94
+          }
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Lo que el gobierno sí hizo",
+      "planos": [
+        {
+          "id": "b6-01",
+          "tipo": "objeto",
+          "objeto": "carta",
+          "camara": "push",
+          "kicker": "Impuesto de salida · vigente desde 2024",
+          "vo": "Se dice que el gobierno noruego no puede hacer nada. No es verdad. Hizo algo, y bastante duro.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b6-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Impuesto de salida sobre plusvalías no realizadas",
+            "datos": [
+              {
+                "etiqueta": "Tipo aplicado al marcharte",
+                "valor": 37.84,
+                "tono": "carmin",
+                "decimales": 2
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Skatteetaten · umbral de 500.000 NOK",
+          "rotulo": {
+            "kicker": "Si te vas con plusvalías latentes",
+            "texto": "Hacienda te cobra el *37,84 %*"
+          },
+          "vo": "Desde dos mil veinticuatro existe un impuesto de salida. Si te vas de Noruega con acciones que acumulan más de quinientas mil coronas de plusvalía no realizada, Hacienda considera que las has vendido el día que te marchas. Y te cobra el treinta y siete coma ocho por ciento.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b6-03",
+          "tipo": "frase",
+          "night": true,
+          "texto": "No has vendido nada. Pero pagas *como si lo hubieras hecho*.",
+          "vo": "No has vendido nada. Pero pagas como si lo hubieras hecho. Puedes aplazarlo doce años, con intereses.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b6-04",
+          "tipo": "mapa",
+          "camara": "push",
+          "mapa": {
+            "destaca": [
+              "noruega"
+            ]
+          },
+          "kicker": "8 de septiembre de 2025",
+          "rotulo": {
+            "kicker": "La prensa lo llamó un referéndum sobre el impuesto",
+            "texto": "Ganó el bloque *que lo defiende*"
+          },
+          "vo": "Y hay algo más. En septiembre de dos mil veinticinco Noruega votó en unas elecciones que la prensa describió como un referéndum sobre este impuesto. Ganó el bloque que lo defiende.",
+          "voz": {
+            "speed": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "El coste que no se ve",
+      "planos": [
+        {
+          "id": "b7-01",
+          "tipo": "objeto",
+          "objeto": "grua",
+          "camara": "pull",
+          "kicker": "La otra cara",
+          "vo": "Ahora bien. Que la recaudación subiera no significa que esto salga gratis, y sería deshonesto terminar aquí.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b7-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Impacto estimado en la producción noruega a largo plazo",
+            "datos": [
+              {
+                "etiqueta": "Estimación",
+                "valor": 1.3,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ],
+            "prefijo": "−",
+            "sufijo": " %"
+          },
+          "fuente": "Christine Blandhol · Universidad de Princeton",
+          "rotulo": {
+            "kicker": "Una estimación, no un hecho",
+            "texto": "*−1,3 %* del PIB a largo plazo"
+          },
+          "vo": "Christine Blandhol, economista de Princeton, calcula que los cambios podrían reducir la producción noruega a largo plazo en un uno coma tres por ciento.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b7-03",
+          "tipo": "gente",
+          "camara": "estatico",
+          "gente": {
+            "total": 100,
+            "destacados": 40,
+            "escala": 1,
+            "etiqueta": "De cada cien que emigran",
+            "etiquetaDestacados": "cuarenta son empresarios"
+          },
+          "kicker": "Quiénes se van",
+          "rotulo": {
+            "kicker": "No son rentistas",
+            "texto": "*Cuatro de cada diez* tenía una empresa allí"
+          },
+          "vo": "Y el dato que más pesa: alrededor del cuarenta por ciento de los que emigran son empresarios. No rentistas. Gente que tenía una empresa allí.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b7-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "La recaudación se mide este año. La empresa que no se funda *no se mide nunca*.",
+          "vo": "Esa es la parte difícil de este debate. La recaudación se mide este año. La empresa que no se funda no se mide nunca.",
+          "voz": {
+            "speed": 0.94
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b8-01",
+          "tipo": "objeto",
+          "objeto": "balanza",
+          "camara": "push",
+          "kicker": "La respuesta honesta",
+          "rotulo": {
+            "kicker": "¿Funciona el impuesto noruego?",
+            "texto": "Depende de qué mires y *de cuándo lo mires*"
+          },
+          "vo": "Así que la respuesta honesta a si funciona el impuesto al patrimonio noruego es incómoda: depende de qué mires, y de cuándo lo mires.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b8-02",
+          "tipo": "frase",
+          "night": false,
+          "texto": "A cinco años: *recauda más que antes*.",
+          "vo": "A cinco años, recauda más que antes y el país sigue siendo de los más ricos del mundo.",
+          "voz": {
+            "speed": 0.94
+          }
+        },
+        {
+          "id": "b8-03",
+          "tipo": "frase",
+          "night": true,
+          "texto": "A veinte: *nadie lo sabe*.",
+          "vo": "A veinte, nadie lo sabe. Ni los que se fueron ni los que se quedaron.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b8-04",
+          "tipo": "mapa",
+          "camara": "push",
+          "mapa": {
+            "destaca": [
+              "noruega",
+              "espana",
+              "francia",
+              "suiza"
+            ]
+          },
+          "kicker": "No es un debate noruego",
+          "rotulo": {
+            "kicker": "España tiene lo mismo desde 2022",
+            "texto": "Los mismos titulares de fuga y *los mismos datos discutidos*"
+          },
+          "vo": "Y si estás viendo esto desde España, esto no es un debate noruego. España tiene impuesto al patrimonio y desde dos mil veintidós tiene además el de solidaridad a las grandes fortunas. Los mismos argumentos, los mismos titulares de fuga, y los mismos datos discutidos.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b8-05",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Noruega lleva *sesenta años* haciendo el experimento. Nosotros llevamos tres.",
+          "vo": "La diferencia es que Noruega lleva sesenta años haciendo el experimento, y nosotros llevamos tres.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b8-06",
+          "tipo": "cierre",
+          "camara": "estatico",
+          "cierre": {
+            "siguiente": "COREA DEL SUR",
+            "sub": "Han dejado de nacer niños al ritmo más bajo registrado en un país en paz"
+          },
+          "vo": "En el próximo vídeo vamos a Corea del Sur, donde han dejado de nacer niños al ritmo más bajo que se ha registrado nunca en un país en paz.",
+          "voz": {
+            "speed": 0.97
+          }
+        },
+        {
+          "id": "b8-07",
+          "tipo": "cierre",
+          "camara": "estatico",
+          "cierre": {
+            "suscribete": true
+          },
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.",
+          "voz": {
+            "speed": 0.99
+          }
+        }
+      ]
+    }
+  ]
+}

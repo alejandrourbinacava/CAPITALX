@@ -18,8 +18,7 @@ import { Towers } from "./scenes/Towers";
 import { Barras, Lineas } from "./scenes/Barras";
 import { Objeto } from "./scenes/Objeto";
 import { Cierre, Lista, Mapa } from "./scenes/Mapa";
-import contenido from "../content/irlanda.json";
-import tiempos from "../content/irlanda.timings.json";
+
 
 type TagSpec = {
   t: string;
@@ -65,19 +64,27 @@ export type Plano = {
   rotulo?: { kicker?: string; texto: string };
 };
 
-const T: Record<string, { audio: string; duration: number }> = tiempos as any;
-
-export const planos: Plano[] = (contenido as any).bloques.flatMap((b: any) => b.planos);
+export type Tiempos = Record<string, { audio: string; duration: number }>;
+export type Guion = { slug: string; wpm?: number; bloques: { planos: Plano[] }[] };
 
 /** Cola de aire tras cada frase para que el corte no pise la ultima silaba. */
 const COLA = 0.34;
 
-export const duraciones = planos.map((p) =>
-  T[p.id]
-    ? Math.round((T[p.id].duration + COLA) * VIDEO.fps)
-    : framesForWords(p.vo, (contenido as any).wpm)
-);
-export const duracionTotal = duraciones.reduce((a, b) => a + b, 0);
+export const planosDe = (g: Guion): Plano[] => g.bloques.flatMap((b) => b.planos);
+
+/**
+ * Duracion de cada plano. Manda el audio real; si un plano todavia no esta
+ * locutado se estima por palabras para poder previsualizar.
+ */
+export const duracionesDe = (g: Guion, t: Tiempos) =>
+  planosDe(g).map((p) =>
+    t[p.id]
+      ? Math.round((t[p.id].duration + COLA) * VIDEO.fps)
+      : framesForWords(p.vo, g.wpm ?? 145)
+  );
+
+export const duracionTotalDe = (g: Guion, t: Tiempos) =>
+  duracionesDe(g, t).reduce((a, b) => a + b, 0);
 
 /** Un efecto disparado en el segundo `at` dentro del plano. */
 const Sfx: React.FC<{ at: number; src: string; vol?: number }> = ({ at, src, vol = 0.3 }) => {
@@ -283,8 +290,13 @@ const PlanoView: React.FC<{ p: Plano }> = ({ p }) => {
   );
 };
 
-export const CapitalXVideo: React.FC = () => {
+export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
+  guion,
+  tiempos,
+}) => {
   const { durationInFrames, fps } = useVideoConfig();
+  const planos = planosDe(guion);
+  const duraciones = duracionesDe(guion, tiempos);
   let cursor = 0;
   const musicLoops = Math.ceil(durationInFrames / (32 * fps)) + 1;
 
@@ -296,7 +308,7 @@ export const CapitalXVideo: React.FC = () => {
         return (
           <Sequence key={p.id} from={from} durationInFrames={duraciones[i]} name={p.id}>
             <PlanoView p={p} />
-            {T[p.id] ? <Audio src={staticFile(T[p.id].audio)} /> : null}
+            {tiempos[p.id] ? <Audio src={staticFile(tiempos[p.id].audio)} /> : null}
             {sfxDePlano(p).map((s, k) => (
               <Sfx key={k} at={s.at} src={s.src} vol={s.vol} />
             ))}

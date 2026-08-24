@@ -187,7 +187,81 @@ const dosEpocas = (
   </>
 );
 
+
+const villa = (
+  <>
+    <path d="M420 470 L760 300 L1100 470 L1100 780 L420 780 Z" />
+    <rect x="1100" y="560" width="360" height="220" />
+    <path d="M1080 570 L1280 460 L1480 570 Z" />
+    <rect x="520" y="560" width="130" height="150" fill={C.paper} />
+    <rect x="700" y="560" width="130" height="150" fill={C.paper} />
+    <rect x="880" y="600" width="120" height="180" fill={C.paper} />
+    <rect x="1150" y="620" width="90" height="90" fill={C.paper} />
+    <rect x="1310" y="620" width="90" height="90" fill={C.paper} />
+    <rect x="400" y="780" width="1120" height="26" />
+    {/* terraza y balaustrada: lo que separa una villa de una casa */}
+    <rect x="400" y="694" width="1140" height="16" />
+  </>
+);
+
+/** Fondos: van detrás de la mancha y no llevan sombra. */
+const FONDOS: Record<string, React.ReactNode> = {
+  villa: (
+    <g fill={C.ink} opacity="0.16">
+      <path d="M120 520 L360 180 L540 420 L700 240 L940 520 Z" />
+      <path d="M760 520 L980 260 L1180 520 Z" />
+    </g>
+  ),
+};
+
+const fabrica = (
+  <>
+    <rect x="440" y="440" width="560" height="340" />
+    <path d="M1000 560 L1180 460 L1180 780 L1000 780 Z" />
+    <path d="M1180 560 L1360 460 L1360 780 L1180 780 Z" />
+    <rect x="520" y="240" width="80" height="200" />
+    <rect x="500" y="210" width="120" height="40" />
+    <rect x="500" y="510" width="90" height="90" fill={C.paper} />
+    <rect x="640" y="510" width="90" height="90" fill={C.paper} />
+    <rect x="780" y="510" width="90" height="90" fill={C.paper} />
+    <rect x="500" y="650" width="90" height="90" fill={C.paper} />
+    <rect x="640" y="650" width="90" height="90" fill={C.paper} />
+    <rect x="780" y="650" width="90" height="90" fill={C.paper} />
+    <rect x="400" y="780" width="1000" height="26" />
+  </>
+);
+
+const casa = (
+  <>
+    <path d="M600 480 L960 260 L1320 480 L1320 780 L600 780 Z" />
+    <rect x="690" y="560" width="150" height="150" fill={C.paper} />
+    <rect x="1080" y="560" width="150" height="150" fill={C.paper} />
+    <rect x="890" y="620" width="140" height="160" fill={C.paper} />
+    <circle cx="1000" cy="700" r="10" />
+    <rect x="1180" y="300" width="70" height="140" />
+    <rect x="560" y="780" width="800" height="26" />
+  </>
+);
+
+const maletero = (
+  <>
+    <circle cx="820" cy="230" r="66" />
+    <path d="M700 700 C700 460 738 396 782 380 L858 380 C902 396 940 460 940 700 Z" />
+    <rect x="946" y="470" width="42" height="230" />
+    <rect x="946" y="440" width="230" height="40" rx="8" />
+    <rect x="1000" y="480" width="260" height="230" rx="12" />
+    <rect x="1090" y="440" width="80" height="46" rx="8" />
+    <rect x="1040" y="540" width="180" height="16" fill={C.paper} />
+    <rect x="1040" y="600" width="180" height="16" fill={C.paper} />
+    <rect x="620" y="700" width="700" height="24" />
+  </>
+);
+
 const SILUETAS: Record<string, React.ReactNode> = {
+  villa,
+  fabrica,
+  casa,
+  maletero,
   contable,
   carpeta,
   sala,
@@ -203,6 +277,10 @@ const SILUETAS: Record<string, React.ReactNode> = {
 };
 
 const MANCHA: Record<string, { cx: number; cy: number; r: number }> = {
+  villa: { cx: 900, cy: 500, r: 350 },
+  fabrica: { cx: 860, cy: 490, r: 340 },
+  casa: { cx: 960, cy: 500, r: 330 },
+  maletero: { cx: 880, cy: 460, r: 330 },
   contable: { cx: 880, cy: 480, r: 330 },
   carpeta: { cx: 960, cy: 540, r: 300 },
   sala: { cx: 960, cy: 500, r: 340 },
@@ -228,6 +306,7 @@ export const Objeto: React.FC<{ nombre: string }> = ({ nombre }) => {
 
   return (
     <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
+      {FONDOS[nombre] ?? null}
       {m.r > 0 ? <Mancha cx={m.cx} cy={m.cy} r={m.r} /> : null}
       <g transform={`translate(0 ${flota})`}>
         <ConSombra>{silueta}</ConSombra>
