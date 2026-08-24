@@ -12,83 +12,88 @@
         {
           "id": "b0-01",
           "tipo": "dublin",
+          "encuadre": "amplio",
           "night": true,
+          "camara": "push",
           "kicker": "Dublín · febrero de 2026",
+          "tags": [
+            { "t": "FEBRERO 2026", "x": 66, "y": 22, "in": 0.7, "out": 3.1, "tone": "ocre", "anim": "pop" },
+            { "t": "12 meses batiendo récord", "x": 60, "y": 22, "in": 3.35, "tone": "carmin", "anim": "slideL" }
+          ],
           "vo": "En febrero de este año, el Gobierno de Irlanda publicó una cifra que llevaba doce meses batiendo su propio récord."
         },
         {
           "id": "b0-02",
           "tipo": "dublin",
+          "encuadre": "corto",
           "night": true,
+          "camara": "pull",
           "kicker": "Alojamiento de emergencia",
-          "rotulo": {
-            "kicker": "Personas sin hogar",
-            "texto": "*17.308* en alojamiento de emergencia"
-          },
+          "tags": [
+            { "t": "17.308 personas", "x": 58, "y": 18, "in": 0.45, "tone": "carmin", "anim": "pop", "size": 52 }
+          ],
+          "rotulo": { "kicker": "Personas sin hogar", "texto": "*17.308* bajo techo de emergencia" },
           "vo": "Diecisiete mil trescientas ocho personas viviendo en alojamiento de emergencia."
         },
         {
           "id": "b0-03",
-          "tipo": "dublin",
-          "night": true,
-          "kicker": "Alojamiento de emergencia",
-          "rotulo": {
-            "kicker": "De ellas",
-            "texto": "*5.457* eran niños"
+          "tipo": "gente",
+          "camara": "estatico",
+          "gente": {
+            "total": 17308,
+            "destacados": 5457,
+            "escala": 100,
+            "etiqueta": "Cada figura = 100 personas",
+            "etiquetaDestacados": "5.457 son niños"
           },
+          "kicker": "Alojamiento de emergencia · 2026",
+          "rotulo": { "kicker": "De ellas", "texto": "*5.457* eran niños" },
           "vo": "De ellas, cinco mil cuatrocientas cincuenta y siete eran niños."
         },
         {
           "id": "b0-04",
           "tipo": "contador",
-          "de": {
-            "valor": 749,
-            "etiqueta": "Julio 2014"
-          },
-          "a": {
-            "valor": 5457,
-            "etiqueta": "2026"
-          },
+          "camara": "estatico",
+          "de": { "valor": 749, "etiqueta": "Julio 2014" },
+          "a": { "valor": 5457, "etiqueta": "2026" },
           "kicker": "Niños sin hogar en Irlanda",
           "fuente": "Dept. of Housing · serie desde julio de 2014",
+          "tags": [
+            { "t": "primer dato publicado", "x": 14, "y": 78, "in": 0.6, "out": 4.4, "tone": "ink", "anim": "slideR", "size": 32 }
+          ],
           "vo": "Cuando el Estado irlandés empezó a publicar estos datos, en julio de dos mil catorce, la cifra de niños sin hogar era de setecientos cuarenta y nueve."
         },
         {
           "id": "b0-05",
           "tipo": "contador",
-          "de": {
-            "valor": 749,
-            "etiqueta": "Julio 2014"
-          },
-          "a": {
-            "valor": 5457,
-            "etiqueta": "2026"
-          },
+          "camara": "estatico",
+          "de": { "valor": 749, "etiqueta": "Julio 2014" },
+          "a": { "valor": 5457, "etiqueta": "2026" },
           "estatico": true,
+          "anillo": { "cx": 960, "cy": 430, "rx": 400, "ry": 150 },
           "kicker": "Niños sin hogar en Irlanda",
           "fuente": "Dept. of Housing · serie desde julio de 2014",
-          "rotulo": {
-            "kicker": "Doce años",
-            "texto": "Multiplicado por *siete*"
-          },
+          "rotulo": { "kicker": "Doce años", "texto": "Multiplicado por *siete*" },
           "vo": "Doce años después se ha multiplicado por siete."
         },
         {
           "id": "b0-06",
-          "tipo": "dublin",
-          "night": true,
-          "kicker": "Y sin embargo",
-          "rotulo": {
-            "kicker": "Durante esos mismos doce años",
-            "texto": "Irlanda se hizo *uno de los países más ricos*"
-          },
+          "tipo": "torres",
+          "camara": "push",
+          "kicker": "Los mismos doce años",
+          "tags": [
+            { "t": "Multinacionales", "x": 12, "y": 26, "in": 0.9, "out": 4.3, "tone": "ink", "anim": "slideR" },
+            { "t": "Pleno empleo", "x": 12, "y": 26, "in": 4.5, "out": 6.6, "tone": "ink", "anim": "slideR" },
+            { "t": "PIB por las nubes", "x": 12, "y": 26, "in": 6.8, "tone": "carmin", "anim": "pop" }
+          ],
+          "rotulo": { "kicker": "Y a la vez", "texto": "Irlanda se hizo *uno de los países más ricos*" },
           "vo": "Y ahora el dato que hace que todo esto no tenga ningún sentido: durante esos mismos doce años, Irlanda se convirtió en uno de los países más ricos del mundo."
         },
         {
           "id": "b0-07",
           "tipo": "frase",
           "night": true,
-          "texto": "No de Europa.\n*Del mundo.*",
+          "texto": "No de Europa. *Del mundo.*",
           "vo": "No de Europa. Del mundo."
         },
         {

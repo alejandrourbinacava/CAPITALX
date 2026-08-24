@@ -61,7 +61,10 @@ const Windows: React.FC<{
   );
 };
 
-export const DublinNight: React.FC<{ dawn?: boolean }> = ({ dawn = false }) => {
+export const DublinNight: React.FC<{ dawn?: boolean; encuadre?: "amplio" | "corto" }> = ({
+  dawn = false,
+  encuadre = "amplio",
+}) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const p = frame / Math.max(durationInFrames, 1);
@@ -80,9 +83,10 @@ export const DublinNight: React.FC<{ dawn?: boolean }> = ({ dawn = false }) => {
   return (
     <svg
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
-      viewBox="0 0 1920 1080"
+      viewBox={encuadre === "corto" ? "420 600 1000 563" : "0 0 1920 1080"}
+      preserveAspectRatio="xMidYMid slice"
     >
-      <rect width="1920" height="1080" fill={sky} />
+      <rect x="-200" y="-200" width="2400" height="1600" fill={sky} />
 
       {/* halo de la ciudad */}
       <ellipse cx="960" cy="760" rx="1100" ry="330" fill={dawn ? "#2A3C3A" : "#101C1A"} opacity="0.9" />
