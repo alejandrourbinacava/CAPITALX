@@ -78,31 +78,50 @@ const Sfx: React.FC<{ at: number; src: string; vol?: number }> = ({ at, src, vol
   );
 };
 
+/** ¿El resalte del rotulo marca una cifra? Entonces es un dato, no una frase. */
+const resaltaCifra = (texto?: string) => !!texto && /\d/.test(texto.split("*")[1] ?? "");
+
 /**
- * Efectos por defecto de cada plano. La regla es que nada entra en pantalla
- * sin que se oiga: el corte, cada etiqueta, el resalte y las cifras.
+ * Efectos por defecto de cada plano. Nada entra en pantalla sin que se oiga.
+ *
+ * El reparto:
+ *   whoosh  el corte entre escenas, siempre
+ *   papel   se suma al corte cuando entramos a un plano sobre papel
+ *   pixel   cada vez que aparece una cifra
+ *   buzz    cuando cae un dato importante
+ *   tick    las etiquetas pequenas
  */
 const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
   const out: { at: number; src: string; vol: number }[] = [];
+  const sobrePapel = !(p.tipo === "dublin" || (p.tipo === "frase" && p.night));
 
-  // El corte de entrada: whoosh con cuerpo grave, filtro resonante y paneo.
-  // El primer intento era ruido blanco filtrado y sonaba a feria.
-  if (p.tipo === "frase") out.push({ at: 0, src: "thud", vol: 0.4 });
-  else out.push({ at: 0, src: "whoosh-corto", vol: 0.3 });
+  // 1. el corte
+  out.push({ at: 0, src: "whoosh", vol: 0.3 });
+  if (p.tipo === "frase") out.push({ at: 0.02, src: "thud", vol: 0.34 });
+  else if (sobrePapel) out.push({ at: 0.07, src: "papel", vol: 0.24 });
 
-  // cada etiqueta que aparece
-  for (const t of p.tags ?? []) out.push({ at: t.in, src: "tick", vol: 0.3 });
+  // 2. las etiquetas
+  for (const t of p.tags ?? []) out.push({ at: t.in, src: "tick", vol: 0.26 });
 
-  // el resalte ocre del rotulo
-  if (p.rotulo) out.push({ at: 0.24, src: "slab", vol: 0.3 });
+  // 3. el rotulo: si resalta una cifra es un dato, si no es una frase
+  if (p.rotulo)
+    out.push(
+      resaltaCifra(p.rotulo.texto)
+        ? { at: 0.26, src: "buzz", vol: 0.3 }
+        : { at: 0.24, src: "slab", vol: 0.3 }
+    );
 
-  // el resalte de la tarjeta de frase, que ahora se despliega
+  // 4. las cifras en pantalla
+  if (p.tipo === "contador") out.push({ at: p.estatico ? 0.14 : 0.32, src: "pixel", vol: 0.32 });
+  if (p.tipo === "gente") {
+    out.push({ at: 0.26, src: "pixel", vol: 0.26 });
+    out.push({ at: 1.9, src: "buzz", vol: 0.28 });
+  }
+
+  // 5. remates
   if (p.tipo === "frase" && (p.texto ?? "").includes("*"))
-    out.push({ at: 0.2, src: "slab", vol: 0.32 });
-
-  if (p.tipo === "contador" && !p.estatico) out.push({ at: 0.34, src: "pop", vol: 0.26 });
-  if (p.tipo === "gente") out.push({ at: 1.9, src: "pop", vol: 0.32 });
-  if (p.anillo) out.push({ at: 0.7, src: "slab", vol: 0.28 });
+    out.push({ at: 0.2, src: "slab", vol: 0.3 });
+  if (p.anillo) out.push({ at: 0.72, src: "buzz", vol: 0.26 });
 
   return out;
 };
