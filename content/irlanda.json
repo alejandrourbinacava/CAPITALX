@@ -1,0 +1,111 @@
+{
+  "slug": "irlanda",
+  "titulo": "¿Por qué todos se van de Irlanda?",
+  "subtitulo": "El país más rico de Europa",
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frío",
+      "planos": [
+        {
+          "id": "b0-01",
+          "tipo": "dublin",
+          "night": true,
+          "kicker": "Dublín · febrero de 2026",
+          "vo": "En febrero de este año, el Gobierno de Irlanda publicó una cifra que llevaba doce meses batiendo su propio récord."
+        },
+        {
+          "id": "b0-02",
+          "tipo": "dublin",
+          "night": true,
+          "kicker": "Alojamiento de emergencia",
+          "rotulo": {
+            "kicker": "Personas sin hogar",
+            "texto": "*17.308* en alojamiento de emergencia"
+          },
+          "vo": "Diecisiete mil trescientas ocho personas viviendo en alojamiento de emergencia."
+        },
+        {
+          "id": "b0-03",
+          "tipo": "dublin",
+          "night": true,
+          "kicker": "Alojamiento de emergencia",
+          "rotulo": {
+            "kicker": "De ellas",
+            "texto": "*5.457* eran niños"
+          },
+          "vo": "De ellas, cinco mil cuatrocientas cincuenta y siete eran niños."
+        },
+        {
+          "id": "b0-04",
+          "tipo": "contador",
+          "de": {
+            "valor": 749,
+            "etiqueta": "Julio 2014"
+          },
+          "a": {
+            "valor": 5457,
+            "etiqueta": "2026"
+          },
+          "kicker": "Niños sin hogar en Irlanda",
+          "fuente": "Dept. of Housing · serie desde julio de 2014",
+          "vo": "Cuando el Estado irlandés empezó a publicar estos datos, en julio de dos mil catorce, la cifra de niños sin hogar era de setecientos cuarenta y nueve."
+        },
+        {
+          "id": "b0-05",
+          "tipo": "contador",
+          "de": {
+            "valor": 749,
+            "etiqueta": "Julio 2014"
+          },
+          "a": {
+            "valor": 5457,
+            "etiqueta": "2026"
+          },
+          "estatico": true,
+          "kicker": "Niños sin hogar en Irlanda",
+          "fuente": "Dept. of Housing · serie desde julio de 2014",
+          "rotulo": {
+            "kicker": "Doce años",
+            "texto": "Multiplicado por *siete*"
+          },
+          "vo": "Doce años después se ha multiplicado por siete."
+        },
+        {
+          "id": "b0-06",
+          "tipo": "dublin",
+          "night": true,
+          "kicker": "Y sin embargo",
+          "rotulo": {
+            "kicker": "Durante esos mismos doce años",
+            "texto": "Irlanda se hizo *uno de los países más ricos*"
+          },
+          "vo": "Y ahora el dato que hace que todo esto no tenga ningún sentido: durante esos mismos doce años, Irlanda se convirtió en uno de los países más ricos del mundo."
+        },
+        {
+          "id": "b0-07",
+          "tipo": "frase",
+          "night": true,
+          "texto": "No de Europa.\n*Del mundo.*",
+          "vo": "No de Europa. Del mundo."
+        },
+        {
+          "id": "b0-08",
+          "tipo": "frase",
+          "night": false,
+          "texto": "Esto no es la historia de un país pobre.",
+          "vo": "Esto no es la historia de un país pobre."
+        },
+        {
+          "id": "b0-09",
+          "tipo": "frase",
+          "night": false,
+          "texto": "Es la historia de un país al que *le sobra el dinero* y no consigue meter a su propia gente bajo techo.",
+          "vo": "Es la historia de un país al que le sobra el dinero y no consigue meter a su propia gente bajo techo."
+        }
+      ]
+    }
+  ]
+}

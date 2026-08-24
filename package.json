@@ -1,0 +1,25 @@
+{
+  "name": "capital-x",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sistema de produccion de video para el canal Capital X",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "music": "python scripts/music.py"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.428",
+    "@remotion/google-fonts": "^4.0.428",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.428"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  },
+  "allowScripts": {
+    "esbuild@0.25.0": true
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+out/
+.env
+.env.local
+assets/voice/*.mp3
+assets/voice/*.wav
+!assets/voice/.gitkeep
+.DS_Store
