@@ -68,6 +68,44 @@ export const duraciones = planos.map((p) =>
 );
 export const duracionTotal = duraciones.reduce((a, b) => a + b, 0);
 
+/** Un efecto disparado en el segundo `at` dentro del plano. */
+const Sfx: React.FC<{ at: number; src: string; vol?: number }> = ({ at, src, vol = 0.3 }) => {
+  const { fps } = useVideoConfig();
+  return (
+    <Sequence from={Math.max(0, Math.round(at * fps))} name={`sfx-${src}`}>
+      <Audio src={staticFile(`sfx/${src}.wav`)} volume={vol} />
+    </Sequence>
+  );
+};
+
+/**
+ * Efectos por defecto de cada plano. La regla es que nada entra en pantalla
+ * sin que se oiga: el corte, cada etiqueta, el resalte y las cifras.
+ */
+const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
+  const out: { at: number; src: string; vol: number }[] = [];
+
+  // el corte de entrada
+  if (p.tipo === "frase") out.push({ at: 0, src: "thud", vol: 0.4 });
+  else out.push({ at: 0, src: "whoosh", vol: 0.26 });
+
+  // cada etiqueta que aparece
+  for (const t of p.tags ?? []) out.push({ at: t.in, src: "tick", vol: 0.3 });
+
+  // el resalte ocre del rotulo
+  if (p.rotulo) out.push({ at: 0.24, src: "slab", vol: 0.3 });
+
+  // el resalte de la tarjeta de frase, que ahora se despliega
+  if (p.tipo === "frase" && (p.texto ?? "").includes("*"))
+    out.push({ at: 0.2, src: "slab", vol: 0.32 });
+
+  if (p.tipo === "contador" && !p.estatico) out.push({ at: 0.34, src: "pop", vol: 0.26 });
+  if (p.tipo === "gente") out.push({ at: 1.9, src: "pop", vol: 0.32 });
+  if (p.anillo) out.push({ at: 0.7, src: "slab", vol: 0.28 });
+
+  return out;
+};
+
 /** Movimiento de camara del plano completo. Nunca dos seguidos iguales. */
 const Camara: React.FC<{ modo: Plano["camara"]; children: React.ReactNode }> = ({
   modo = "estatico",
@@ -216,6 +254,9 @@ export const CapitalXVideo: React.FC = () => {
           <Sequence key={p.id} from={from} durationInFrames={duraciones[i]} name={p.id}>
             <PlanoView p={p} />
             {T[p.id] ? <Audio src={staticFile(T[p.id].audio)} /> : null}
+            {sfxDePlano(p).map((s, k) => (
+              <Sfx key={k} at={s.at} src={s.src} vol={s.vol} />
+            ))}
           </Sequence>
         );
       })}

@@ -186,12 +186,25 @@ export const BigNumber: React.FC<{
   );
 };
 
-/** Tarjeta de frase: el corte a negro que remata una idea. */
+/**
+ * Tarjeta de frase.
+ *
+ * Nada aqui es estatico: el bloque entero empuja hacia la camara durante todo
+ * el plano, cada palabra sube escalonada, y el resalte ocre se despliega de
+ * izquierda a derecha por debajo del texto en vez de aparecer de golpe.
+ */
 export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, night = true }) => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const enter = spring({ frame: frame - 3, fps, config: { damping: 200, mass: 0.7 } });
+  const { fps, durationInFrames } = useVideoConfig();
+
+  // empuje continuo: el texto nunca se queda quieto
+  const zoom = interpolate(frame, [0, durationInFrames], [1.0, 1.055], {
+    extrapolateRight: "clamp",
+  });
+
   const parts = text.split("*");
+  let wordIndex = 0;
+
   return (
     <div
       style={{
@@ -201,6 +214,7 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
         alignItems: "center",
         justifyContent: "center",
         padding: "0 200px",
+        transform: `scale(${zoom})`,
       }}
     >
       <div
@@ -208,24 +222,74 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
           fontFamily: FONT.sans,
           fontWeight: 700,
           fontSize: T.headline,
-          lineHeight: 1.06,
+          lineHeight: 1.1,
           letterSpacing: "-0.035em",
           textAlign: "center",
           color: night ? C.paper : C.ink,
-          opacity: enter,
-          transform: `translateY(${interpolate(enter, [0, 1], [22, 0])}px)`,
         }}
       >
-        {parts.map((p, i) =>
-          i % 2 === 1 ? (
-            <span key={i} style={{ background: C.ocre, color: C.ink, padding: "0 0.09em" }}>
-              {p}
+        {parts.map((p, i) => {
+          const highlighted = i % 2 === 1;
+          const words = p.split(" ").filter((w) => w.length || true);
+
+          return (
+            <span key={i} style={{ position: "relative", display: "inline" }}>
+              {highlighted ? (
+                <Slab start={wordIndex} fps={fps} frame={frame} />
+              ) : null}
+              {words.map((w, j) => {
+                const idx = wordIndex++;
+                const k = spring({
+                  frame: frame - 3 - idx * 2.6,
+                  fps,
+                  config: { damping: 200, mass: 0.55 },
+                });
+                return (
+                  <span
+                    key={j}
+                    style={{
+                      display: "inline-block",
+                      position: "relative",
+                      zIndex: 2,
+                      color: highlighted ? C.ink : undefined,
+                      opacity: k,
+                      transform: `translateY(${interpolate(k, [0, 1], [30, 0])}px)`,
+                      whiteSpace: "pre",
+                    }}
+                  >
+                    {w}
+                    {j < words.length - 1 ? " " : ""}
+                  </span>
+                );
+              })}
             </span>
-          ) : (
-            <span key={i}>{p}</span>
-          )
-        )}
+          );
+        })}
       </div>
     </div>
+  );
+};
+
+/** El resalte que se despliega bajo las palabras marcadas. */
+const Slab: React.FC<{ start: number; fps: number; frame: number }> = ({ start, fps, frame }) => {
+  const k = spring({
+    frame: frame - 1 - start * 2.6,
+    fps,
+    config: { damping: 20, mass: 0.6, stiffness: 130 },
+  });
+  return (
+    <span
+      style={{
+        position: "absolute",
+        left: "-0.1em",
+        right: "-0.1em",
+        top: "0.14em",
+        bottom: "0.1em",
+        background: C.ocre,
+        transform: `scaleX(${k})`,
+        transformOrigin: "left center",
+        zIndex: 1,
+      }}
+    />
   );
 };
