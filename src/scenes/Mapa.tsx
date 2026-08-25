@@ -12,6 +12,7 @@ import { C, FONT } from "../theme";
  */
 
 import EUROPA from "../data/europa.json";
+import NORTEAMERICA from "../data/norteamerica.json";
 
 /**
  * Contornos reales de Natural Earth (dominio publico), proyectados con
@@ -19,7 +20,13 @@ import EUROPA from "../data/europa.json";
  * y viven en src/data/europa.json ya en coordenadas del lienzo, asi que
  * dibujarlos no cuesta nada en tiempo de render.
  */
-const PAISES: Record<string, { d: string; cx: number; cy: number; nombre: string }> = EUROPA as any;
+type Pais = { d: string; cx: number; cy: number; nombre: string };
+
+/** Cada region es su propia proyeccion, encuadrada a su parte del mundo. */
+const REGIONES: Record<string, Record<string, Pais>> = {
+  europa: EUROPA as any,
+  norteamerica: NORTEAMERICA as any,
+};
 
 /** Etiqueta con guia, para que los paises pequenos se sigan leyendo. */
 const EtiquetaPais: React.FC<{ cx: number; cy: number; nombre: string; k: number }> = ({
@@ -59,6 +66,7 @@ const EtiquetaPais: React.FC<{ cx: number; cy: number; nombre: string; k: number
 export const Mapa: React.FC<{
   spec: {
     destaca?: string[];
+    region?: "europa" | "norteamerica";
     etiqueta?: string;
     puntos?: { nombre: string; valor: string }[];
     flecha?: { hacia: string; valor: string };
@@ -67,6 +75,7 @@ export const Mapa: React.FC<{
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const destaca = spec.destaca ?? [];
+  const PAISES = REGIONES[spec.region ?? "europa"];
 
   const arco = interpolate(frame, [0.5 * fps, Math.min(durationInFrames - 6, 2.2 * fps)], [0, 1], {
     extrapolateLeft: "clamp",

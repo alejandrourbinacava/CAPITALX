@@ -1,0 +1,1107 @@
+{
+  "slug": "mexico",
+  "titulo": "¿POR QUÉ MÉXICO NO DESPEGA? (Hizo Todo Lo Que Le Dijeron)",
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frío",
+      "planos": [
+        {
+          "id": "b0-01",
+          "tipo": "mapa",
+          "camara": "push",
+          "mapa": {
+            "region": "norteamerica",
+            "destaca": [
+              "mexico",
+              "eeuu"
+            ]
+          },
+          "kicker": "América del Norte",
+          "vo": "México comparte tres mil ciento cincuenta kilómetros de frontera con la economía más grande del planeta.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b0-02",
+          "tipo": "objeto",
+          "objeto": "carta",
+          "camara": "pull",
+          "kicker": "Tratado de Libre Comercio · 1994",
+          "rotulo": {
+            "kicker": "Desde 1994",
+            "texto": "El mayor acuerdo comercial *del mundo*"
+          },
+          "vo": "Desde mil novecientos noventa y cuatro tiene con ella el mayor acuerdo comercial del mundo. Y desde dos mil veintitrés es su primer socio comercial, por delante de China.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b0-03",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Crecimiento del PIB por habitante · media anual 1980-2019",
+            "datos": [
+              {
+                "etiqueta": "Corea del Sur",
+                "valor": 5.3,
+                "tono": "verde",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "México",
+                "valor": 0.7,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Fed de Dallas · datos 1980-2019",
+          "vo": "Y sin embargo, entre mil novecientos ochenta y dos mil diecinueve, el PIB por habitante de México creció un cero coma siete por ciento al año. El de Corea del Sur, un cinco coma tres.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b0-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "En 1980 estaban *casi igual*.",
+          "vo": "En mil novecientos ochenta los dos países estaban casi igual. Hoy un coreano gana varias veces lo que gana un mexicano.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b0-05",
+          "tipo": "frase",
+          "night": false,
+          "texto": "México no se hundió. *Se quedó quieto.*",
+          "vo": "Y esto es importante: México no se hundió. Se quedó quieto mientras otros corrían.",
+          "voz": {
+            "speed": 0.94
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "La promesa",
+      "planos": [
+        {
+          "id": "b1-01",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Lo que vamos a ver",
+            "puntos": [
+              "Que México no es un país pobre",
+              "Que hizo todo lo que le dijeron",
+              "Por qué aun así no funcionó"
+            ],
+            "activo": 0
+          },
+          "kicker": "Primero",
+          "vo": "En los próximos minutos vamos a ver tres cosas. Primero, que México no es un país pobre, y por qué esa idea nos impide entender lo que le pasa.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b1-02",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Lo que vamos a ver",
+            "puntos": [
+              "Que México no es un país pobre",
+              "Que hizo todo lo que le dijeron",
+              "Por qué aun así no funcionó"
+            ],
+            "activo": 1
+          },
+          "kicker": "Segundo",
+          "vo": "Segundo, que México hizo exactamente lo que el manual del desarrollo económico decía que había que hacer. Todo. Sin excepciones.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b1-03",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Lo que vamos a ver",
+            "puntos": [
+              "Que México no es un país pobre",
+              "Que hizo todo lo que le dijeron",
+              "Por qué aun así no funcionó"
+            ],
+            "activo": 2
+          },
+          "kicker": "Tercero",
+          "rotulo": {
+            "kicker": "Y la respuesta",
+            "texto": "No es la corrupción. Es *más incómodo*"
+          },
+          "vo": "Y tercero, por qué aun así no funcionó. Y te adelanto que la respuesta no es la corrupción, ni el narco, ni los políticos. Esas son las respuestas fáciles. La verdadera es bastante más incómoda.",
+          "voz": {
+            "speed": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "México no es pobre",
+      "planos": [
+        {
+          "id": "b2-01",
+          "tipo": "objeto",
+          "objeto": "fabrica",
+          "camara": "panR",
+          "kicker": "La primera idea que hay que tirar",
+          "vo": "Empecemos por deshacer el malentendido de base, porque toda la conversación sobre México arranca torcida.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b2-02",
+          "tipo": "contador",
+          "camara": "estatico",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 12,
+            "etiqueta": "Puesto en el mundo"
+          },
+          "kicker": "Tamaño de la economía mexicana",
+          "fuente": "Banco Mundial",
+          "rotulo": {
+            "kicker": "México es",
+            "texto": "La economía número *12 del mundo*"
+          },
+          "vo": "México es la economía número doce del planeta. Por delante de países que nadie llamaría pobres.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b2-03",
+          "tipo": "frase",
+          "night": true,
+          "texto": "No es un país pobre. Es un país *de renta media que no sube*.",
+          "vo": "México no es un país pobre. Es un país de renta media que lleva cuarenta años sin subir de escalón. Y eso es un problema distinto, con causas distintas.",
+          "voz": {
+            "speed": 0.94
+          }
+        },
+        {
+          "id": "b2-04",
+          "tipo": "objeto",
+          "objeto": "interrogante",
+          "camara": "push",
+          "kicker": "La pregunta correcta",
+          "rotulo": {
+            "kicker": "La pregunta no es por qué es pobre",
+            "texto": "Es por qué *dejó de acercarse*"
+          },
+          "vo": "Así que la pregunta correcta no es por qué México es pobre. Es por qué dejó de acercarse.",
+          "voz": {
+            "speed": 1.05
+          }
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Hizo todo lo que le dijeron",
+      "planos": [
+        {
+          "id": "b3-01",
+          "tipo": "objeto",
+          "objeto": "plano",
+          "camara": "push",
+          "kicker": "El manual del desarrollo · años noventa",
+          "vo": "Y aquí viene lo que hace que este caso sea tan desconcertante para los economistas.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b3-02",
+          "tipo": "lista",
+          "camara": "estatico",
+          "lista": {
+            "titulo": "Lo que hizo México en los noventa",
+            "puntos": [
+              "Privatizó más de mil empresas públicas",
+              "Firmó catorce tratados de libre comercio",
+              "Creó organismos reguladores desde cero",
+              "Abrió su industria a la competencia mundial"
+            ]
+          },
+          "kicker": "Todo lo que decía el manual",
+          "fuente": "Fed de Dallas · Banco Mundial",
+          "vo": "En los años noventa, México privatizó más de mil empresas públicas. Firmó catorce tratados de libre comercio. Creó organismos reguladores desde cero. Y abrió su industria a la competencia mundial.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b3-03",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Exportaciones manufactureras como porcentaje del PIB",
+            "datos": [
+              {
+                "etiqueta": "1990",
+                "valor": 7,
+                "tono": "ink"
+              },
+              {
+                "etiqueta": "2019",
+                "valor": 33,
+                "tono": "verde"
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Fed de Dallas",
+          "rotulo": {
+            "kicker": "Y funcionó, en apariencia",
+            "texto": "Las exportaciones *casi se quintuplicaron*"
+          },
+          "vo": "Y funcionó, en apariencia. Las exportaciones manufactureras pasaron del siete por ciento del PIB en mil novecientos noventa al treinta y tres por ciento en dos mil diecinueve. Casi se quintuplicaron.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b3-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Hizo los deberes. *Todos.*",
+          "vo": "México hizo los deberes. Todos. No se saltó ninguno.",
+          "voz": {
+            "speed": 0.96
+          }
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Y la productividad bajó",
+      "planos": [
+        {
+          "id": "b4-01",
+          "tipo": "objeto",
+          "objeto": "balanza",
+          "camara": "pull",
+          "kicker": "Productividad total de los factores",
+          "vo": "Y ahora el dato que sostiene todo este vídeo. Para medir si un país está mejorando de verdad, los economistas usan algo llamado productividad total de los factores. Traducido: cuánto consigues producir con los mismos trabajadores y las mismas máquinas.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b4-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Productividad total de los factores · variación media anual 1991-2022",
+            "datos": [
+              {
+                "etiqueta": "México",
+                "valor": 0.57,
+                "tono": "carmin",
+                "decimales": 2
+              }
+            ],
+            "prefijo": "−",
+            "sufijo": " %",
+            "referencia": {
+              "etiqueta": "Lo que haría un país que converge",
+              "min": 0,
+              "max": 1.5
+            }
+          },
+          "fuente": "Banco Mundial · productividad en México",
+          "rotulo": {
+            "kicker": "Entre 1991 y 2022",
+            "texto": "La productividad *cayó* un 0,57 % al año"
+          },
+          "vo": "Entre mil novecientos noventa y uno y dos mil veintidós, la productividad total de los factores en México cayó una media del cero coma cincuenta y siete por ciento al año.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b4-03",
+          "tipo": "contador",
+          "camara": "estatico",
+          "de": {
+            "valor": 1991,
+            "etiqueta": "Empiezan las reformas"
+          },
+          "a": {
+            "valor": 2022,
+            "etiqueta": "Treinta y un años después"
+          },
+          "kicker": "Productividad bajando, año tras año",
+          "fuente": "Banco Mundial",
+          "rotulo": {
+            "kicker": "Treinta y un años",
+            "texto": "No creciendo despacio. *Bajando.*"
+          },
+          "vo": "Treinta y un años. No creciendo despacio: bajando. Mientras el país privatizaba, firmaba tratados y multiplicaba sus exportaciones, cada mexicano producía un poco menos que el año anterior con los mismos medios.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b4-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Hizo todo bien. Y le salió *peor*.",
+          "vo": "Hizo todo lo que le dijeron. Y le salió peor. Esa es la paradoja mexicana, y merece una explicación mejor que la que solemos dar.",
+          "voz": {
+            "speed": 0.96
+          }
+        }
+      ]
+    },
+    {
+      "id": "b4b",
+      "nombre": "Por qué no sube la productividad",
+      "planos": [
+        {
+          "id": "b4b-01",
+          "tipo": "objeto",
+          "objeto": "interrogante",
+          "camara": "push",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "De dónde sale la productividad",
+          "vo": "Y para entender por qué la productividad no sube hay que responder antes de dónde sale. Porque no sale de trabajar más horas: México es de los países que más horas trabaja del mundo, y eso no le ha servido de nada."
+        },
+        {
+          "id": "b4b-02",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Sale de *hacer cosas nuevas*.",
+          "vo": "La productividad sale de hacer cosas nuevas. De inventar, de mejorar procesos, de aprender a fabricar lo que antes no sabías. Y eso tiene un nombre y una partida presupuestaria."
+        },
+        {
+          "id": "b4b-03",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.99
+          },
+          "barras": {
+            "unidad": "Gasto en investigación y desarrollo · porcentaje del PIB, 2024",
+            "datos": [
+              {
+                "etiqueta": "Corea del Sur",
+                "valor": 5.13,
+                "tono": "verde",
+                "decimales": 2
+              },
+              {
+                "etiqueta": "México",
+                "valor": 0.5,
+                "tono": "carmin",
+                "decimales": 2
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Korea.net · Banco Mundial",
+          "rotulo": {
+            "kicker": "Investigación y desarrollo",
+            "texto": "Corea invierte *diez veces más*"
+          },
+          "vo": "En dos mil veinticuatro, Corea del Sur dedicó el cinco coma trece por ciento de su PIB a investigación y desarrollo. El segundo país que más invierte del planeta. México nunca ha superado el cero coma cinco."
+        },
+        {
+          "id": "b4b-04",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Diez veces menos. *Durante cuarenta años.*",
+          "vo": "Diez veces menos. Y no un año suelto: durante cuarenta años seguidos."
+        },
+        {
+          "id": "b4b-05",
+          "tipo": "objeto",
+          "objeto": "carpeta",
+          "camara": "panL",
+          "voz": {
+            "speed": 1.03
+          },
+          "kicker": "La ley de 2002",
+          "rotulo": {
+            "kicker": "La ley obliga al 1 % desde 2002",
+            "texto": "No se ha cumplido *ni una sola vez*"
+          },
+          "vo": "Y no es que nadie se hubiera dado cuenta. La Ley de Ciencia y Tecnología mexicana fija desde dos mil dos la obligación de destinar al menos el uno por ciento del PIB. No se ha cumplido ni una sola vez en más de veinte años. La meta oficial para dos mil treinta es el cero coma cincuenta y tres."
+        },
+        {
+          "id": "b4b-06",
+          "tipo": "frase",
+          "night": false,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "La meta para 2030 es *la mitad de la ley de 2002*.",
+          "vo": "Lee eso otra vez. La meta para dos mil treinta es aproximadamente la mitad de lo que la ley exige desde dos mil dos."
+        },
+        {
+          "id": "b4b-07",
+          "tipo": "objeto",
+          "objeto": "sala",
+          "camara": "push",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "Qué hizo Corea con ese dinero",
+          "vo": "¿Y qué hizo Corea con todo ese dinero? Lo puso donde tarda décadas en verse: universidades técnicas, ingenieros, y empresas obligadas a competir fuera desde el primer día."
+        },
+        {
+          "id": "b4b-08",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Corea no compró fábricas. *Compró tiempo.*",
+          "vo": "Corea no compró fábricas. Compró tiempo. Aceptó pagar durante veinte años algo que no daba resultados visibles, y eso es lo más difícil que puede hacer un gobierno."
+        },
+        {
+          "id": "b4b-09",
+          "tipo": "frase",
+          "night": false,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "Un país que invierte en I+D *no lo nota hasta la década siguiente*.",
+          "vo": "Porque un país que invierte en investigación no lo nota en las siguientes elecciones. Lo nota en la siguiente década. Y casi ningún sistema político está construido para eso."
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Causa uno: la informalidad",
+      "planos": [
+        {
+          "id": "b5-01",
+          "tipo": "gente",
+          "camara": "estatico",
+          "gente": {
+            "total": 100,
+            "destacados": 60,
+            "escala": 1,
+            "etiqueta": "De cada cien trabajadores mexicanos",
+            "etiquetaDestacados": "sesenta están en la informalidad"
+          },
+          "kicker": "Primera causa",
+          "fuente": "Fed de Dallas · INEGI",
+          "rotulo": {
+            "kicker": "Seis de cada diez",
+            "texto": "Trabajan *en la informalidad*"
+          },
+          "vo": "Primera causa. Seis de cada diez trabajadores mexicanos están en la economía informal. Sin contrato, sin cotizar, sin factura.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b5-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Productividad de las empresas informales frente a las formales",
+            "datos": [
+              {
+                "etiqueta": "Empresa formal",
+                "valor": 100,
+                "tono": "ink"
+              },
+              {
+                "etiqueta": "Empresa informal",
+                "valor": 60,
+                "tono": "carmin"
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Fed de Dallas",
+          "rotulo": {
+            "kicker": "Una empresa informal produce",
+            "texto": "Un *40 % menos* que una formal"
+          },
+          "vo": "Y una empresa informal produce alrededor de un cuarenta por ciento menos que una formal. No porque su gente trabaje menos: porque no puede crecer.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b5-03",
+          "tipo": "objeto",
+          "objeto": "fabrica",
+          "camara": "push",
+          "kicker": "Por qué no crece",
+          "rotulo": {
+            "kicker": "Si creces, te ven",
+            "texto": "Y entonces empiezas a *pagar impuestos*"
+          },
+          "vo": "Porque en la informalidad hay una trampa muy simple. Si tu negocio crece, se vuelve visible. Y en cuanto es visible, empieza a pagar impuestos y cotizaciones que su competencia informal no paga. Así que a muchísimos negocios les compensa quedarse pequeños.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b5-04",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Un país lleno de empresas *que no quieren crecer*.",
+          "vo": "El resultado es un país lleno de empresas que no quieren crecer. Y una economía donde no crecen las empresas no gana productividad. Nunca.",
+          "voz": {
+            "speed": 0.96
+          }
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Causa dos: el crédito",
+      "planos": [
+        {
+          "id": "b6-01",
+          "tipo": "objeto",
+          "objeto": "contable",
+          "camara": "panL",
+          "kicker": "Segunda causa",
+          "vo": "Segunda causa, y esta casi nunca se menciona. Aunque una empresa mexicana quisiera crecer, se encuentra con otro muro.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b6-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Crédito bancario al sector privado como porcentaje del PIB · 2024",
+            "datos": [
+              {
+                "etiqueta": "México",
+                "valor": 34.7,
+                "tono": "carmin",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "América Latina",
+                "valor": 60.2,
+                "tono": "ink",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Media OCDE",
+                "valor": 151.8,
+                "tono": "verde",
+                "decimales": 1
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Banco de México · OCDE",
+          "vo": "El crédito bancario al sector privado en México equivale al treinta y cuatro coma siete por ciento del PIB. La media de la OCDE es del ciento cincuenta y uno coma ocho.",
+          "voz": {
+            "speed": 1.02
+          }
+        },
+        {
+          "id": "b6-03",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Ni siquiera llega a la media *de su propia región*.",
+          "vo": "Fíjate en la barra del medio. La media de América Latina es del sesenta coma dos por ciento. México ni siquiera llega a la media de su propia región.",
+          "voz": {
+            "speed": 0.94
+          }
+        },
+        {
+          "id": "b6-04",
+          "tipo": "objeto",
+          "objeto": "carpeta",
+          "camara": "push",
+          "kicker": "Lo que significa en la práctica",
+          "rotulo": {
+            "kicker": "Sin crédito",
+            "texto": "La empresa pequeña *nunca se hace grande*"
+          },
+          "vo": "Y esto, en la práctica, significa una cosa muy concreta: la empresa pequeña mexicana no tiene con qué comprar la máquina que la haría productiva. No es que no quiera. Es que el banco no le presta.",
+          "voz": {
+            "speed": 1.05
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Causa tres: el Estado que no recauda",
+      "planos": [
+        {
+          "id": "b7-01",
+          "tipo": "barras",
+          "camara": "estatico",
+          "barras": {
+            "unidad": "Recaudación fiscal como porcentaje del PIB · 2024",
+            "datos": [
+              {
+                "etiqueta": "México",
+                "valor": 18.3,
+                "tono": "carmin",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Media OCDE",
+                "valor": 34.1,
+                "tono": "verde",
+                "decimales": 1
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "OCDE · estadísticas tributarias 2025",
+          "kicker": "Tercera causa",
+          "rotulo": {
+            "kicker": "La más baja de toda la OCDE",
+            "texto": "México recauda *18,3 %* del PIB"
+          },
+          "vo": "Tercera causa. México recauda en impuestos el dieciocho coma tres por ciento de su PIB. Es la cifra más baja de toda la OCDE, cuya media está en el treinta y cuatro coma uno.",
+          "voz": {
+            "speed": 0.98
+          }
+        },
+        {
+          "id": "b7-02",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Recauda *la mitad* que un país comparable.",
+          "vo": "Dicho de otra forma: por cada peso que recauda un Estado europeo comparable, el mexicano recauda cerca de la mitad.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b7-03",
+          "tipo": "objeto",
+          "objeto": "grua",
+          "camara": "pull",
+          "kicker": "Lo que no se puede pagar",
+          "rotulo": {
+            "kicker": "Con la mitad de ingresos",
+            "texto": "No hay carreteras, ni puertos, ni *escuelas suficientes*"
+          },
+          "vo": "Y un Estado que ingresa la mitad no puede construir la mitad de carreteras, ni de puertos, ni de escuelas técnicas. Justo lo que hace falta para que la productividad suba.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b7-04",
+          "tipo": "objeto",
+          "objeto": "interrogante",
+          "camara": "push",
+          "kicker": "Y aquí se cierra el círculo",
+          "vo": "¿Y por qué recauda tan poco? Vuelve a leer la primera causa. Porque seis de cada diez trabajadores están en la informalidad, y quien está en la informalidad no paga.",
+          "voz": {
+            "speed": 1.05
+          }
+        },
+        {
+          "id": "b7-05",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Las tres causas *se alimentan entre sí*.",
+          "vo": "Las tres causas no son independientes. Se alimentan entre sí. La informalidad hunde la recaudación, la falta de recaudación impide la inversión pública, y sin inversión pública ni crédito, quedarse informal sigue siendo la opción razonable.",
+          "voz": {
+            "speed": 0.94
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Los dos Méxicos",
+      "planos": [
+        {
+          "id": "b8-01",
+          "tipo": "mapa",
+          "camara": "push",
+          "mapa": {
+            "region": "norteamerica",
+            "destaca": [
+              "mexico"
+            ]
+          },
+          "kicker": "Y aquí está lo más raro de todo",
+          "vo": "Y aquí está lo más raro de todo, porque nada de esto pasa igual en todo el país.",
+          "voz": {
+            "speed": 1.04
+          }
+        },
+        {
+          "id": "b8-02",
+          "tipo": "lista",
+          "camara": "estatico",
+          "night": true,
+          "lista": {
+            "titulo": "Dos economías dentro de una frontera",
+            "puntos": [
+              "El norte y el Bajío: industria, exportación, crecimiento",
+              "El sur: informalidad, rezago, estancamiento"
+            ]
+          },
+          "kicker": "Los dos Méxicos",
+          "vo": "Los economistas hablan de dos Méxicos. El del norte y el Bajío, industrial y exportador, que crece a ritmos asiáticos. Y el del sur, con altísima informalidad y crecimiento casi nulo.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b8-03",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Un país tiene *a Corea del Sur dentro*.",
+          "vo": "Es decir: México tiene a Corea del Sur dentro de sus fronteras. Lo que no ha conseguido es que ese México contagie al otro.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b8-04",
+          "tipo": "objeto",
+          "objeto": "dosIrlandas",
+          "camara": "panR",
+          "kicker": "El motor que no arrastra",
+          "rotulo": {
+            "kicker": "El problema no es que no haya motor",
+            "texto": "Es que *no arrastra al resto*"
+          },
+          "vo": "Y ese es el verdadero problema mexicano. No es que le falte un motor. Es que tiene uno excelente que no arrastra al resto del vagón.",
+          "voz": {
+            "speed": 1.01
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8b",
+      "nombre": "Las remesas",
+      "planos": [
+        {
+          "id": "b8b-01",
+          "tipo": "objeto",
+          "objeto": "maletero",
+          "camara": "push",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "La válvula de escape",
+          "vo": "Hay una pieza más en este rompecabezas, y es la que ha sostenido a millones de familias mientras todo lo anterior no se arreglaba."
+        },
+        {
+          "id": "b8b-02",
+          "tipo": "contador",
+          "camara": "estatico",
+          "voz": {
+            "speed": 1.0
+          },
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 61791,
+            "etiqueta": "Millones de dólares · 2025"
+          },
+          "kicker": "Remesas recibidas en México",
+          "fuente": "Banco de México · cierre de 2025",
+          "rotulo": {
+            "kicker": "En 2025",
+            "texto": "*61.791* millones de dólares"
+          },
+          "vo": "En dos mil veinticinco, los mexicanos que viven fuera enviaron a casa sesenta y un mil setecientos noventa y un millones de dólares. Un tres coma cuatro por ciento del PIB del país."
+        },
+        {
+          "id": "b8b-03",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "El país exporta *gente* y recibe dólares.",
+          "vo": "Dicho sin rodeos: una parte del modelo económico mexicano consiste en exportar gente y recibir dólares a cambio."
+        },
+        {
+          "id": "b8b-04",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.99
+          },
+          "barras": {
+            "unidad": "Remesas recibidas · miles de millones de dólares",
+            "datos": [
+              {
+                "etiqueta": "2024",
+                "valor": 64.7,
+                "tono": "ink",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "2025",
+                "valor": 61.8,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ]
+          },
+          "fuente": "Banco de México",
+          "rotulo": {
+            "kicker": "Primera caída en once años",
+            "texto": "*−4,5 %* en 2025"
+          },
+          "vo": "Y en dos mil veinticinco esa cifra cayó un cuatro coma cinco por ciento. Es la primera caída después de once años consecutivos de subidas, y está relacionada con el endurecimiento migratorio en Estados Unidos."
+        },
+        {
+          "id": "b8b-05",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "La válvula de escape *se está cerrando*.",
+          "vo": "La válvula de escape se está cerrando. Y se cierra justo cuando el problema de fondo sigue exactamente igual que hace treinta años."
+        }
+      ]
+    },
+    {
+      "id": "b8c",
+      "nombre": "El nearshoring",
+      "planos": [
+        {
+          "id": "b8c-01",
+          "tipo": "mapa",
+          "camara": "pull",
+          "voz": {
+            "speed": 1.02
+          },
+          "mapa": {
+            "region": "norteamerica",
+            "destaca": [
+              "mexico",
+              "eeuu"
+            ]
+          },
+          "kicker": "La oportunidad de la década",
+          "rotulo": {
+            "kicker": "Desde 2023",
+            "texto": "Primer socio comercial de EEUU, *por delante de China*"
+          },
+          "vo": "Y aun así, México tiene delante la mejor oportunidad en décadas. Con la ruptura comercial entre Estados Unidos y China, las fábricas buscan un país cercano y fiable. México es el candidato natural."
+        },
+        {
+          "id": "b8c-02",
+          "tipo": "objeto",
+          "objeto": "fabrica",
+          "camara": "push",
+          "voz": {
+            "speed": 1.03
+          },
+          "kicker": "La pregunta que decide el futuro",
+          "vo": "Pero aquí está la pregunta que decide si esta vez sí funciona. Porque México ya vivió algo así con las maquiladoras, y aquello no movió la productividad."
+        },
+        {
+          "id": "b8c-03",
+          "tipo": "lista",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.98
+          },
+          "lista": {
+            "titulo": "Dos formas de recibir una fábrica",
+            "puntos": [
+              "Ensamblar piezas que llegan hechas",
+              "Diseñar, fabricar y mejorar el producto"
+            ],
+            "activo": 1
+          },
+          "kicker": "La diferencia lo es todo",
+          "rotulo": {
+            "kicker": "Solo una de las dos",
+            "texto": "Deja *conocimiento en el país*"
+          },
+          "vo": "Recibir una fábrica para ensamblar piezas que llegan hechas de fuera deja empleo, pero no deja conocimiento. Recibirla para diseñar y mejorar el producto sí lo deja. Solo una de las dos cosas sube la productividad de un país."
+        },
+        {
+          "id": "b8c-04",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.99
+          },
+          "barras": {
+            "unidad": "Empresas extranjeras llegadas desde 2022 que han reducido, pausado o reubicado",
+            "datos": [
+              {
+                "etiqueta": "Al menos",
+                "valor": 20,
+                "tono": "carmin"
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Prensa económica mexicana · 2026",
+          "rotulo": {
+            "kicker": "Y el impulso se está enfriando",
+            "texto": "Una de cada cinco ya ha *reducido o pausado*"
+          },
+          "vo": "Y el impulso ya se está enfriando. Al menos una de cada cinco empresas extranjeras que llegaron o ampliaron operaciones desde dos mil veintidós ha reducido, pausado o reubicado parte de su actividad."
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Por qué te importa",
+      "planos": [
+        {
+          "id": "b9-01",
+          "tipo": "frase",
+          "night": false,
+          "texto": "Y ahora la parte que *no va de México*.",
+          "vo": "Y ahora la parte de este vídeo que no va de México.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b9-02",
+          "tipo": "mapa",
+          "camara": "pull",
+          "mapa": {
+            "destaca": [
+              "espana",
+              "italia"
+            ]
+          },
+          "kicker": "El mismo diagnóstico, otro continente",
+          "rotulo": {
+            "kicker": "España e Italia",
+            "texto": "También llevan décadas con la productividad *plana*"
+          },
+          "vo": "Porque si te has quedado con la idea de que esto es un problema latinoamericano, tengo malas noticias. España e Italia llevan décadas con la productividad prácticamente plana. Con economías llenas de empresas pequeñas que no crecen. Y con un crédito que llega mal a quien lo necesita.",
+          "voz": {
+            "speed": 1.0
+          }
+        },
+        {
+          "id": "b9-03",
+          "tipo": "frase",
+          "night": true,
+          "texto": "La productividad no sale en los titulares. *Decide todo.*",
+          "vo": "La productividad no sale en los titulares. No la mencionan en los debates. Y es, casi literalmente, lo único que decide si dentro de veinte años tus hijos viven mejor que tú.",
+          "voz": {
+            "speed": 0.96
+          }
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b10-01",
+          "tipo": "objeto",
+          "objeto": "balanza",
+          "camara": "push",
+          "kicker": "La lección",
+          "rotulo": {
+            "kicker": "Lo que enseña México",
+            "texto": "Abrirse al mundo *no basta*"
+          },
+          "vo": "La lección de México es incómoda para casi todo el mundo. Abrirse al comercio, privatizar y atraer inversión no basta. Es necesario, pero no basta.",
+          "voz": {
+            "speed": 1.01
+          }
+        },
+        {
+          "id": "b10-02",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Puedes tener las fábricas *y no tener el país*.",
+          "vo": "Puedes tener las fábricas, los tratados y al vecino más rico del mundo, y aun así no tener el país. Porque lo que hace rico a un país no son sus exportaciones. Es lo que sus empresas son capaces de hacer con lo que tienen.",
+          "voz": {
+            "speed": 0.96
+          }
+        },
+        {
+          "id": "b10-03",
+          "tipo": "frase",
+          "night": false,
+          "texto": "Y eso *no se firma en un tratado*.",
+          "vo": "Y eso no se firma en un tratado. Se construye durante décadas, empresa a empresa, y se pierde mucho más rápido de lo que se gana.",
+          "voz": {
+            "speed": 0.94
+          }
+        },
+        {
+          "id": "b10-04",
+          "tipo": "cierre",
+          "camara": "estatico",
+          "cierre": {
+            "siguiente": "PEMEX",
+            "sub": "El país que tiene petróleo y una petrolera que vale menos que cero"
+          },
+          "vo": "En el próximo vídeo seguimos en México, con Pemex: el país que tiene petróleo y una empresa petrolera cuyo patrimonio es negativo en cien mil millones de dólares.",
+          "voz": {
+            "speed": 0.99
+          }
+        },
+        {
+          "id": "b10-05",
+          "tipo": "cierre",
+          "camara": "estatico",
+          "cierre": {
+            "suscribete": true
+          },
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.",
+          "voz": {
+            "speed": 0.97
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -12,11 +12,14 @@ import irlanda from "../content/irlanda.json";
 import irlandaT from "../content/irlanda.timings.json";
 import noruega from "../content/noruega.json";
 import noruegaT from "../content/noruega.timings.json";
+import mexico from "../content/mexico.json";
+import mexicoT from "../content/mexico.timings.json";
 
 /** Un vídeo del canal = un guion más sus tiempos de locución. */
 const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "irlanda", guion: irlanda as any, tiempos: irlandaT as any },
   { id: "noruega", guion: noruega as any, tiempos: noruegaT as any },
+  { id: "mexico", guion: mexico as any, tiempos: mexicoT as any },
 ];
 
 export const RemotionRoot: React.FC = () => (

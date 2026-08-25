@@ -16,7 +16,7 @@ import { C, FONT } from "../theme";
  *     cuando no tiene imagen del protagonista.
  */
 
-const CLIP = { x: 560, y: 170, w: 800, h: 700 };
+const CLIP = { x: 660, y: 86, w: 720, h: 566 };
 
 /** Trama de puntos: lo que convierte una imagen en algo impreso. */
 const Semitono: React.FC<{ x: number; y: number; w: number; h: number; paso?: number }> = ({
@@ -116,7 +116,7 @@ export const Retrato: React.FC<{
     () =>
       Array.from({ length: 70 }, (_, i) => ({
         x: CLIP.x + random(`mx${i}`) * CLIP.w,
-        y: CLIP.y + random(`my${i}`) * (CLIP.h + 190),
+        y: CLIP.y + random(`my${i}`) * (CLIP.h + 172),
         r: 0.8 + random(`mr${i}`) * 2.4,
         o: 0.06 + random(`mo${i}`) * 0.2,
       })),
@@ -131,9 +131,9 @@ export const Retrato: React.FC<{
           opacity={entra}
         >
           {/* sombra plana del recorte */}
-          <rect x={CLIP.x + 18} y={CLIP.y + 18} width={CLIP.w} height={CLIP.h + 190} fill={C.carmin} opacity="0.5" />
+          <rect x={CLIP.x + 18} y={CLIP.y + 18} width={CLIP.w} height={CLIP.h + 172} fill={C.carmin} opacity="0.5" />
           {/* el papel del recorte */}
-          <rect x={CLIP.x} y={CLIP.y} width={CLIP.w} height={CLIP.h + 190} fill="#EFEADC" stroke={C.ink} strokeWidth="3" />
+          <rect x={CLIP.x} y={CLIP.y} width={CLIP.w} height={CLIP.h + 172} fill="#EFEADC" stroke={C.ink} strokeWidth="3" />
 
           {/* cabecera del recorte */}
           <line x1={CLIP.x + 34} y1={CLIP.y + 62} x2={CLIP.x + CLIP.w - 34} y2={CLIP.y + 62} stroke={C.ink} strokeWidth="2" />
