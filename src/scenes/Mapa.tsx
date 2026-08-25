@@ -13,6 +13,7 @@ import { C, FONT } from "../theme";
 
 import EUROPA from "../data/europa.json";
 import NORTEAMERICA from "../data/norteamerica.json";
+import ASIA from "../data/asia.json";
 
 /**
  * Contornos reales de Natural Earth (dominio publico), proyectados con
@@ -26,6 +27,7 @@ type Pais = { d: string; cx: number; cy: number; nombre: string };
 const REGIONES: Record<string, Record<string, Pais>> = {
   europa: EUROPA as any,
   norteamerica: NORTEAMERICA as any,
+  asia: ASIA as any,
 };
 
 /** Etiqueta con guia, para que los paises pequenos se sigan leyendo. */
@@ -66,7 +68,7 @@ const EtiquetaPais: React.FC<{ cx: number; cy: number; nombre: string; k: number
 export const Mapa: React.FC<{
   spec: {
     destaca?: string[];
-    region?: "europa" | "norteamerica";
+    region?: "europa" | "norteamerica" | "asia";
     etiqueta?: string;
     puntos?: { nombre: string; valor: string }[];
     flecha?: { hacia: string; valor: string };
