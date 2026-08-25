@@ -1,1 +1,110 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/mexico-b0-01.mp3",
+    "duration": 5.720816,
+    "transcript": null,
+    "credit_cost": 152
+  },
+  "b0-02": {
+    "audio": "voice/mexico-b0-02.mp3",
+    "duration": 8.907755,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b0-03": {
+    "audio": "voice/mexico-b0-03.mp3",
+    "duration": 10.710204,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b0-04": {
+    "audio": "voice/mexico-b0-04.mp3",
+    "duration": 7.68,
+    "transcript": null,
+    "credit_cost": 174
+  },
+  "b0-05": {
+    "audio": "voice/mexico-b0-05.mp3",
+    "duration": 6.243265,
+    "transcript": null,
+    "credit_cost": 119
+  },
+  "b1-01": {
+    "audio": "voice/mexico-b1-01.mp3",
+    "duration": 8.594286,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b1-02": {
+    "audio": "voice/mexico-b1-02.mp3",
+    "duration": 8.411429,
+    "transcript": null,
+    "credit_cost": 188
+  },
+  "b1-03": {
+    "audio": "voice/mexico-b1-03.mp3",
+    "duration": 12.773878,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b2-01": {
+    "audio": "voice/mexico-b2-01.mp3",
+    "duration": 6.060408,
+    "transcript": null,
+    "credit_cost": 154
+  },
+  "b2-02": {
+    "audio": "voice/mexico-b2-02.mp3",
+    "duration": 5.668571,
+    "transcript": null,
+    "credit_cost": 139
+  },
+  "b2-03": {
+    "audio": "voice/mexico-b2-03.mp3",
+    "duration": 9.743673,
+    "transcript": null,
+    "credit_cost": 224
+  },
+  "b2-04": {
+    "audio": "voice/mexico-b2-04.mp3",
+    "duration": 5.511837,
+    "transcript": null,
+    "credit_cost": 129
+  },
+  "b3-01": {
+    "audio": "voice/mexico-b3-01.mp3",
+    "duration": 4.702041,
+    "transcript": null,
+    "credit_cost": 120
+  },
+  "b3-02": {
+    "audio": "voice/mexico-b3-02.mp3",
+    "duration": 12.120816,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b3-03": {
+    "audio": "voice/mexico-b3-03.mp3",
+    "duration": 11.859592,
+    "transcript": null,
+    "credit_cost": 293
+  },
+  "b3-04": {
+    "audio": "voice/mexico-b3-04.mp3",
+    "duration": 4.153469,
+    "transcript": null,
+    "credit_cost": 75
+  },
+  "b4-01": {
+    "audio": "voice/mexico-b4-01.mp3",
+    "duration": 14.602449,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b4-02": {
+    "audio": "voice/mexico-b4-02.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 251
+  }
+}
