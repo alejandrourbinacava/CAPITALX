@@ -269,12 +269,6 @@
     "transcript": null,
     "credit_cost": 394
   },
-  "b8-05": {
-    "audio": "voice/noruega-b8-05.mp3",
-    "duration": 6.4,
-    "transcript": null,
-    "credit_cost": 143
-  },
   "b8-06": {
     "audio": "voice/noruega-b8-06.mp3",
     "duration": 8.097959,
@@ -286,5 +280,155 @@
     "duration": 5.01551,
     "transcript": null,
     "credit_cost": 136
+  },
+  "b2-08": {
+    "audio": "voice/noruega-b2-08.mp3",
+    "duration": 11.023673,
+    "transcript": null,
+    "credit_cost": 320
+  },
+  "b2-09": {
+    "audio": "voice/noruega-b2-09.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b2-10": {
+    "audio": "voice/noruega-b2-10.mp3",
+    "duration": 10.318367,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b2-11": {
+    "audio": "voice/noruega-b2-11.mp3",
+    "duration": 12.564898,
+    "transcript": null,
+    "credit_cost": 293
+  },
+  "b3b-01": {
+    "audio": "voice/noruega-b3b-01.mp3",
+    "duration": 5.903673,
+    "transcript": null,
+    "credit_cost": 147
+  },
+  "b3b-02": {
+    "audio": "voice/noruega-b3b-02.mp3",
+    "duration": 4.519184,
+    "transcript": null,
+    "credit_cost": 105
+  },
+  "b3b-03": {
+    "audio": "voice/noruega-b3b-03.mp3",
+    "duration": 9.404082,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "b3b-04": {
+    "audio": "voice/noruega-b3b-04.mp3",
+    "duration": 12.69551,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b3b-05": {
+    "audio": "voice/noruega-b3b-05.mp3",
+    "duration": 8.85551,
+    "transcript": null,
+    "credit_cost": 187
+  },
+  "b9-01": {
+    "audio": "voice/noruega-b9-01.mp3",
+    "duration": 8.306939,
+    "transcript": null,
+    "credit_cost": 215
+  },
+  "b9-02": {
+    "audio": "voice/noruega-b9-02.mp3",
+    "duration": 11.441633,
+    "transcript": null,
+    "credit_cost": 297
+  },
+  "b9-03": {
+    "audio": "voice/noruega-b9-03.mp3",
+    "duration": 8.672653,
+    "transcript": null,
+    "credit_cost": 194
+  },
+  "b9-04": {
+    "audio": "voice/noruega-b9-04.mp3",
+    "duration": 14.236735,
+    "transcript": null,
+    "credit_cost": 328
+  },
+  "b9-05": {
+    "audio": "voice/noruega-b9-05.mp3",
+    "duration": 6.922449,
+    "transcript": null,
+    "credit_cost": 178
+  },
+  "b10-01": {
+    "audio": "voice/noruega-b10-01.mp3",
+    "duration": 7.68,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b10-02": {
+    "audio": "voice/noruega-b10-02.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b10-03": {
+    "audio": "voice/noruega-b10-03.mp3",
+    "duration": 8.097959,
+    "transcript": null,
+    "credit_cost": 206
+  },
+  "b10-04": {
+    "audio": "voice/noruega-b10-04.mp3",
+    "duration": 12.146939,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b10-05": {
+    "audio": "voice/noruega-b10-05.mp3",
+    "duration": 7.053061,
+    "transcript": null,
+    "credit_cost": 180
+  },
+  "b10-06": {
+    "audio": "voice/noruega-b10-06.mp3",
+    "duration": 13.348571,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b11-01": {
+    "audio": "voice/noruega-b11-01.mp3",
+    "duration": 6.112653,
+    "transcript": null,
+    "credit_cost": 169
+  },
+  "b11-02": {
+    "audio": "voice/noruega-b11-02.mp3",
+    "duration": 16.613878,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b11-03": {
+    "audio": "voice/noruega-b11-03.mp3",
+    "duration": 4.963265,
+    "transcript": null,
+    "credit_cost": 117
+  },
+  "b11-04": {
+    "audio": "voice/noruega-b11-04.mp3",
+    "duration": 16.561633,
+    "transcript": null,
+    "credit_cost": 390
+  },
+  "b8-05b": {
+    "audio": "voice/noruega-b8-05b.mp3",
+    "duration": 6.687347,
+    "transcript": null,
+    "credit_cost": 167
   }
 }

@@ -67,27 +67,37 @@ export const Rotulo: React.FC<{
           color: night ? C.paper : C.ink,
         }}
       >
-        {parts.map((p, i) =>
-          i % 2 === 1 ? (
-            <span key={i} style={{ position: "relative", whiteSpace: "nowrap" }}>
-              <span
-                style={{
-                  position: "absolute",
-                  left: "-0.09em",
-                  right: "-0.09em",
-                  top: "0.1em",
-                  bottom: "0.07em",
-                  background: C.ocre,
-                  transform: `scaleX(${slab})`,
-                  transformOrigin: "left center",
-                }}
-              />
-              <span style={{ position: "relative", color: C.ink }}>{p}</span>
-            </span>
-          ) : (
-            <span key={i}>{p}</span>
-          )
-        )}
+        {parts.map((p, i) => {
+          const resaltado = i % 2 === 1;
+          if (!resaltado) return <span key={i}>{p}</span>;
+          // Palabra a palabra: un solo rectangulo para toda la frase se
+          // quedaba en la primera linea cuando el texto partia.
+          const palabras = p.split(" ");
+          return (
+            <React.Fragment key={i}>
+              {palabras.map((w, j) => (
+                <React.Fragment key={j}>
+                  <span style={{ position: "relative", display: "inline-block" }}>
+                    <span
+                      style={{
+                        position: "absolute",
+                        left: "-0.17em",
+                        right: "-0.17em",
+                        top: "0.1em",
+                        bottom: "0.07em",
+                        background: C.ocre,
+                        transform: `scaleX(${slab})`,
+                        transformOrigin: "left center",
+                      }}
+                    />
+                    <span style={{ position: "relative", color: C.ink }}>{w}</span>
+                  </span>
+                  {j < palabras.length - 1 ? " " : ""}
+                </React.Fragment>
+              ))}
+            </React.Fragment>
+          );
+        })}
       </div>
     </div>
   );
@@ -229,40 +239,59 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
         }}
       >
         {parts.map((p, i) => {
-          const highlighted = i % 2 === 1;
-          const words = p.split(" ").filter((w) => w.length || true);
+          const resaltado = i % 2 === 1;
+          const palabras = p.split(" ");
 
           return (
-            <span key={i} style={{ position: "relative", display: "inline" }}>
-              {highlighted ? (
-                <Slab start={wordIndex} fps={fps} frame={frame} />
-              ) : null}
-              {words.map((w, j) => {
+            <React.Fragment key={i}>
+              {palabras.map((w, j) => {
+                if (w === "") return null;
                 const idx = wordIndex++;
                 const k = spring({
                   frame: frame - 3 - idx * 2.6,
                   fps,
                   config: { damping: 200, mass: 0.55 },
                 });
+                // el resalte va por palabra, no por frase: asi nunca se corta
+                // al partir la linea, que es lo que pasaba antes
+                const kSlab = spring({
+                  frame: frame - 1 - idx * 2.6,
+                  fps,
+                  config: { damping: 20, mass: 0.6, stiffness: 130 },
+                });
                 return (
-                  <span
-                    key={j}
-                    style={{
-                      display: "inline-block",
-                      position: "relative",
-                      zIndex: 2,
-                      color: highlighted ? C.ink : undefined,
-                      opacity: k,
-                      transform: `translateY(${interpolate(k, [0, 1], [30, 0])}px)`,
-                      whiteSpace: "pre",
-                    }}
-                  >
-                    {w}
-                    {j < words.length - 1 ? " " : ""}
-                  </span>
+                  <React.Fragment key={j}>
+                    <span
+                      style={{
+                        position: "relative",
+                        display: "inline-block",
+                        opacity: k,
+                        transform: `translateY(${interpolate(k, [0, 1], [30, 0])}px)`,
+                      }}
+                    >
+                      {resaltado ? (
+                        <span
+                          style={{
+                            position: "absolute",
+                            left: "-0.17em",
+                            right: "-0.17em",
+                            top: "0.14em",
+                            bottom: "0.1em",
+                            background: C.ocre,
+                            transform: `scaleX(${kSlab})`,
+                            transformOrigin: "left center",
+                          }}
+                        />
+                      ) : null}
+                      <span style={{ position: "relative", color: resaltado ? C.ink : undefined }}>
+                        {w}
+                      </span>
+                    </span>
+                    {j < palabras.length - 1 ? " " : ""}
+                  </React.Fragment>
                 );
               })}
-            </span>
+            </React.Fragment>
           );
         })}
       </div>
@@ -270,26 +299,4 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
   );
 };
 
-/** El resalte que se despliega bajo las palabras marcadas. */
-const Slab: React.FC<{ start: number; fps: number; frame: number }> = ({ start, fps, frame }) => {
-  const k = spring({
-    frame: frame - 1 - start * 2.6,
-    fps,
-    config: { damping: 20, mass: 0.6, stiffness: 130 },
-  });
-  return (
-    <span
-      style={{
-        position: "absolute",
-        left: "-0.1em",
-        right: "-0.1em",
-        top: "0.14em",
-        bottom: "0.1em",
-        background: C.ocre,
-        transform: `scaleX(${k})`,
-        transformOrigin: "left center",
-        zIndex: 1,
-      }}
-    />
-  );
-};
+

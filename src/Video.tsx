@@ -18,6 +18,7 @@ import { Towers } from "./scenes/Towers";
 import { Barras, Lineas } from "./scenes/Barras";
 import { Objeto } from "./scenes/Objeto";
 import { Cierre, Lista, Mapa } from "./scenes/Mapa";
+import { Retrato } from "./scenes/Retrato";
 
 
 type TagSpec = {
@@ -60,6 +61,7 @@ export type Plano = {
   mapa?: any;
   lista?: any;
   cierre?: any;
+  retrato?: any;
   voz?: { speed?: number };
   rotulo?: { kicker?: string; texto: string };
 };
@@ -112,6 +114,7 @@ const resaltaCifra = (texto?: string) => !!texto && /\d/.test(texto.split("*")[1
 const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
   const out: { at: number; src: string; vol: number }[] = [];
   const sobrePapel = !(p.tipo === "dublin" || (p.tipo === "frase" && p.night));
+  if (p.tipo === "retrato") out.push({ at: 0.12, src: "papel", vol: 0.3 });
 
   // 1. el corte
   out.push({ at: 0, src: "whoosh", vol: 0.3 });
@@ -241,6 +244,7 @@ const PlanoView: React.FC<{ p: Plano }> = ({ p }) => {
         {p.tipo === "lineas" ? <Lineas spec={p.lineas} /> : null}
         {p.tipo === "mapa" ? <Mapa spec={p.mapa} /> : null}
         {p.tipo === "objeto" ? <Objeto nombre={p.objeto!} /> : null}
+        {p.tipo === "retrato" ? <Retrato spec={p.retrato} /> : null}
       </Camara>
 
       {p.tipo === "frase" ? <Statement text={p.texto ?? ""} night={p.night} /> : null}

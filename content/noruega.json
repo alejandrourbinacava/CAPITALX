@@ -339,6 +339,68 @@
           "voz": {
             "speed": 1.01
           }
+        },
+        {
+          "id": "b2-08",
+          "tipo": "contador",
+          "camara": "estatico",
+          "voz": {
+            "speed": 1.0
+          },
+          "de": {
+            "valor": 1892,
+            "etiqueta": "Se aprueba el impuesto"
+          },
+          "a": {
+            "valor": 2026,
+            "etiqueta": "Hoy"
+          },
+          "kicker": "Impuesto al patrimonio noruego",
+          "fuente": "Ministerio de Finanzas de Noruega",
+          "vo": "Y aquí conviene parar un momento, porque hay un detalle que casi nadie menciona y que cambia cómo hay que leer todo lo demás. Noruega no acaba de inventarse este impuesto. Lo tiene desde mil ochocientos noventa y dos."
+        },
+        {
+          "id": "b2-09",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Ciento treinta y cuatro años. *Nunca se ha derogado.*",
+          "vo": "Ciento treinta y cuatro años. Nunca se ha derogado. Ha sobrevivido a dos guerras mundiales, a la ocupación alemana y al descubrimiento del petróleo."
+        },
+        {
+          "id": "b2-10",
+          "tipo": "frase",
+          "night": false,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "Es más viejo que *el petróleo noruego*.",
+          "vo": "Este impuesto es más viejo que el petróleo noruego. Cuando se aprobó, Noruega era uno de los países más pobres de Europa y la gente emigraba a Estados Unidos por hambre."
+        },
+        {
+          "id": "b2-11",
+          "tipo": "lista",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.98
+          },
+          "lista": {
+            "titulo": "Países de la OCDE que aún gravan el patrimonio",
+            "puntos": [
+              "Noruega",
+              "Suiza",
+              "España",
+              "Colombia"
+            ]
+          },
+          "kicker": "Solo quedan cuatro",
+          "rotulo": {
+            "kicker": "De treinta y ocho países",
+            "texto": "Solo quedan *cuatro*"
+          },
+          "vo": "Y hoy es una rareza. De los treinta y ocho países de la OCDE, solo cuatro mantienen un impuesto anual sobre el patrimonio neto: Noruega, Suiza, España y Colombia. Los demás lo tuvieron y lo quitaron."
         }
       ]
     },
@@ -435,6 +497,97 @@
           "voz": {
             "speed": 0.96
           }
+        }
+      ]
+    },
+    {
+      "id": "b3b",
+      "nombre": "La ironía suiza",
+      "planos": [
+        {
+          "id": "b3b-01",
+          "tipo": "retrato",
+          "camara": "push",
+          "voz": {
+            "speed": 1.0
+          },
+          "retrato": {
+            "nombre": "Kjell Inge Røkke",
+            "papel": "Presidente de Aker · se muda a Lugano en 2022",
+            "fecha": "Septiembre de 2022",
+            "titular": "El pescador que se fue"
+          },
+          "kicker": "El caso que abrió el debate",
+          "vo": "Volvamos a Røkke un momento, porque su caso tiene un detalle que se cuenta mal en casi todas partes."
+        },
+        {
+          "id": "b3b-02",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "Se dice que se fue a un país *sin impuesto al patrimonio*.",
+          "vo": "Se dice que se fue a un país sin impuesto al patrimonio. Y no es verdad."
+        },
+        {
+          "id": "b3b-03",
+          "tipo": "mapa",
+          "camara": "pull",
+          "voz": {
+            "speed": 1.02
+          },
+          "mapa": {
+            "destaca": [
+              "suiza"
+            ]
+          },
+          "kicker": "Suiza · impuesto cantonal sobre el patrimonio",
+          "rotulo": {
+            "kicker": "Suiza también lo tiene",
+            "texto": "Y lo cobra en *todos los cantones*"
+          },
+          "vo": "Suiza tiene impuesto al patrimonio. Lo cobra cada cantón, y lo cobra en todos. De hecho, Suiza es el otro de los cuatro países de la lista que acabas de ver."
+        },
+        {
+          "id": "b3b-04",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 1.0
+          },
+          "barras": {
+            "unidad": "Impuesto anual sobre un patrimonio de un millón",
+            "datos": [
+              {
+                "etiqueta": "Noruega",
+                "valor": 10000,
+                "tono": "carmin"
+              },
+              {
+                "etiqueta": "Lugano (Tesino)",
+                "valor": 500,
+                "tono": "verde"
+              }
+            ],
+            "prefijo": "≈ "
+          },
+          "fuente": "Skatteetaten · administración fiscal del Tesino",
+          "rotulo": {
+            "kicker": "Sobre el mismo patrimonio",
+            "texto": "Unas *veinte veces* menos"
+          },
+          "vo": "La diferencia no está en si existe. Está en cuánto. Sobre un patrimonio de un millón, Noruega cobra alrededor de diez mil al año. En Lugano, entre cuatrocientos y seiscientos. Unas veinte veces menos."
+        },
+        {
+          "id": "b3b-05",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "No huyó del impuesto. Huyó *del precio*.",
+          "vo": "Røkke no huyó del impuesto. Huyó del precio. Y esa distinción, que parece un matiz, es en realidad el centro de todo el debate."
         }
       ]
     },
@@ -716,6 +869,93 @@
       ]
     },
     {
+      "id": "b9",
+      "nombre": "El modelo suizo",
+      "planos": [
+        {
+          "id": "b9-01",
+          "tipo": "objeto",
+          "objeto": "interrogante",
+          "camara": "push",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "La pregunta incómoda",
+          "vo": "Lo que nos lleva a la pregunta más incómoda de este vídeo. Si Suiza cobra veinte veces menos, ¿cuánto recauda Suiza con su impuesto al patrimonio?"
+        },
+        {
+          "id": "b9-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.99
+          },
+          "barras": {
+            "unidad": "Peso del impuesto al patrimonio en los ingresos fiscales",
+            "datos": [
+              {
+                "etiqueta": "Suiza",
+                "valor": 5.0,
+                "tono": "verde",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Noruega",
+                "valor": 1.1,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "OCDE",
+          "rotulo": {
+            "kicker": "Cobrando veinte veces menos",
+            "texto": "Suiza recauda *cinco veces más* en proporción"
+          },
+          "vo": "Entre un cuatro y un cinco por ciento de toda su recaudación fiscal. Es la proporción más alta de cualquier país de la OCDE. Noruega, con tipos veinte veces más altos, saca alrededor del uno por ciento."
+        },
+        {
+          "id": "b9-03",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Cobra menos a *muchos más*.",
+          "vo": "¿Cómo? Cobrando menos a muchos más. Base ancha, tipo bajo, y sin el escalón que empuja al que tiene una empresa a hacer las maletas."
+        },
+        {
+          "id": "b9-04",
+          "tipo": "lista",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.98
+          },
+          "lista": {
+            "titulo": "Las dos filosofías",
+            "puntos": [
+              "Noruega: tipo alto sobre una base media",
+              "Suiza: tipo bajo sobre una base ancha"
+            ],
+            "activo": 1
+          },
+          "kicker": "Dos formas de gravar lo mismo",
+          "vo": "Son dos filosofías opuestas del mismo impuesto. Noruega apuesta por un tipo alto sobre una base media. Suiza, por un tipo bajo sobre una base muy ancha. Y quien más dinero saca de ello, en proporción, es el que menos cobra."
+        },
+        {
+          "id": "b9-05",
+          "tipo": "frase",
+          "night": false,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "Ese es el dato que *nadie usa en el debate español*.",
+          "vo": "Ese es el dato que casi nunca aparece en el debate, ni de un lado ni del otro. Porque no le da la razón a nadie del todo."
+        }
+      ]
+    },
+    {
       "id": "b7",
       "nombre": "El coste que no se ve",
       "planos": [
@@ -791,6 +1031,178 @@
       ]
     },
     {
+      "id": "b10",
+      "nombre": "El elefante en la habitación",
+      "planos": [
+        {
+          "id": "b10-01",
+          "tipo": "objeto",
+          "objeto": "fabrica",
+          "camara": "panR",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "Fondo de pensiones del Gobierno · creado en 1990",
+          "vo": "Y ahora, para cerrar, hace falta poner todo esto en su sitio. Porque hay un elefante en la habitación del que llevamos diez minutos sin hablar."
+        },
+        {
+          "id": "b10-02",
+          "tipo": "contador",
+          "camara": "estatico",
+          "voz": {
+            "speed": 1.0
+          },
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 21300,
+            "etiqueta": "Miles de millones de coronas"
+          },
+          "kicker": "Valor del fondo soberano noruego · cierre de 2025",
+          "fuente": "Norges Bank Investment Management",
+          "rotulo": {
+            "kicker": "El mayor fondo soberano del mundo",
+            "texto": "*21,3 billones* de coronas"
+          },
+          "vo": "Noruega tiene el mayor fondo soberano del planeta. A cierre de dos mil veinticinco valía veintiún mil trescientos millardos de coronas. Unos dos billones de dólares."
+        },
+        {
+          "id": "b10-03",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "Casi *cuatrocientos mil dólares* por noruego.",
+          "vo": "Casi cuatrocientos mil dólares por cada noruego vivo. Y posee alrededor del uno y medio por ciento de todas las acciones cotizadas del mundo."
+        },
+        {
+          "id": "b10-04",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.99
+          },
+          "barras": {
+            "unidad": "Comparación · miles de millones de coronas",
+            "datos": [
+              {
+                "etiqueta": "Fondo soberano",
+                "valor": 21300,
+                "tono": "verde"
+              },
+              {
+                "etiqueta": "Impuesto al patrimonio (un año)",
+                "valor": 34,
+                "tono": "carmin"
+              }
+            ]
+          },
+          "fuente": "NBIM · Ministerio de Finanzas",
+          "rotulo": {
+            "kicker": "El fondo es",
+            "texto": "*626 veces* la recaudación anual del impuesto"
+          },
+          "vo": "Ahora pon las dos cifras juntas. El fondo vale veintiún mil trescientos millardos. El impuesto al patrimonio recauda treinta y cuatro mil millones al año. El fondo es seiscientas veintiséis veces esa cifra."
+        },
+        {
+          "id": "b10-05",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "El impuesto entero es el *cero coma dieciséis por ciento* del fondo.",
+          "vo": "Todo el impuesto al patrimonio de un año entero equivale al cero coma dieciséis por ciento del fondo. Una milésima y media."
+        },
+        {
+          "id": "b10-06",
+          "tipo": "frase",
+          "night": false,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "Noruega discute a gritos por *una milésima* de lo que tiene.",
+          "vo": "Y esto es lo que hace que el debate noruego sea tan revelador. Un país entero se parte por un impuesto que, al lado de lo que ya tiene guardado, es una milésima. No discuten de dinero. Discuten de otra cosa."
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "nombre": "La reforma sobre la mesa",
+      "planos": [
+        {
+          "id": "b11-01",
+          "tipo": "objeto",
+          "objeto": "plano",
+          "camara": "push",
+          "voz": {
+            "speed": 1.03
+          },
+          "kicker": "Comisión de expertos · 2025",
+          "vo": "Y por eso hay una reforma encima de la mesa que no va de subir ni de bajar, sino de cómo se valora lo que se grava."
+        },
+        {
+          "id": "b11-02",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 0.99
+          },
+          "barras": {
+            "unidad": "Cómo se valora el capital de trabajo de una empresa no cotizada",
+            "datos": [
+              {
+                "etiqueta": "Ahora",
+                "valor": 100,
+                "tono": "carmin"
+              },
+              {
+                "etiqueta": "Propuesta de la comisión",
+                "valor": 40,
+                "tono": "verde"
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Comisión gubernamental · 2025",
+          "rotulo": {
+            "kicker": "La propuesta",
+            "texto": "Valorar la empresa al *30-50 %*, no al 100"
+          },
+          "vo": "Una comisión gubernamental propuso en dos mil veinticinco que el capital de trabajo de las empresas no cotizadas se valore entre el treinta y el cincuenta por ciento, en lugar del cien. Es decir: atacar exactamente el problema del empresario que veíamos antes, sin tocar el tipo."
+        },
+        {
+          "id": "b11-03",
+          "tipo": "frase",
+          "night": true,
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "A día de hoy *no se ha aprobado nada*.",
+          "vo": "A día de hoy no se ha aprobado nada. La propuesta lleva más de un año esperando."
+        },
+        {
+          "id": "b11-04",
+          "tipo": "retrato",
+          "camara": "pull",
+          "voz": {
+            "speed": 1.0
+          },
+          "retrato": {
+            "nombre": "Aker",
+            "papel": "Sigue con sede en Noruega · sigue pagando impuesto de sociedades",
+            "fecha": "2026",
+            "titular": "La empresa se quedó"
+          },
+          "kicker": "El matiz que casi nunca se cuenta",
+          "vo": "Y hay un último matiz que casi nunca se menciona. Røkke se fue. Aker no. La empresa sigue teniendo su sede en Noruega, sigue pagando impuesto de sociedades allí y sigue empleando a noruegos. Lo que se marchó fue la residencia fiscal de una persona, no la actividad."
+        }
+      ]
+    },
+    {
       "id": "b8",
       "nombre": "Cierre",
       "planos": [
@@ -852,11 +1264,11 @@
           }
         },
         {
-          "id": "b8-05",
+          "id": "b8-05b",
           "tipo": "frase",
           "night": true,
-          "texto": "Noruega lleva *sesenta años* haciendo el experimento. Nosotros llevamos tres.",
-          "vo": "La diferencia es que Noruega lleva sesenta años haciendo el experimento, y nosotros llevamos tres.",
+          "texto": "Noruega lleva *134 años* haciendo el experimento. Nosotros llevamos tres.",
+          "vo": "La diferencia es que Noruega lleva ciento treinta y cuatro años haciendo el experimento, y nosotros llevamos tres.",
           "voz": {
             "speed": 0.96
           }
