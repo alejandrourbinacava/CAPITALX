@@ -40,8 +40,15 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Contar lo que falta
+      - name: Contar lo que falta y comprobar la voz
+        env:
+          AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
         run: |
+          if [ -z "$AI33_API_KEY" ]; then
+            echo "Falta el secreto AI33_API_KEY."
+            echo "Settings > Secrets and variables > Actions > New repository secret"
+            exit 1
+          fi
           node scripts/tts.mjs "content/${{ inputs.video }}.json" --dry
 
       - name: Locutar
