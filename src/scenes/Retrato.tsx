@@ -41,22 +41,55 @@ const Semitono: React.FC<{ x: number; y: number; w: number; h: number; paso?: nu
   return <g opacity="0.22">{puntos}</g>;
 };
 
-/** Busto genérico, con volumen dado por bandas de trama. */
-const Busto: React.FC = () => {
-  const cx = CLIP.x + CLIP.w / 2;
-  const base = CLIP.y + CLIP.h - 70;
+/**
+ * Ficha tipográfica: lo que imprime un periódico cuando no tiene foto del
+ * protagonista. El nombre ocupa el hueco de la imagen, con filetes y la
+ * misma trama encima. Se lee como una decisión editorial, no como un hueco.
+ */
+const Ficha: React.FC<{ nombre: string; papel?: string }> = ({ nombre, papel }) => {
+  const x = CLIP.x + 34;
+  const y = CLIP.y + 84;
+  const w = CLIP.w - 68;
+  const h = CLIP.h - 130;
+  const palabras = nombre.split(" ");
+  const tam = palabras.length > 2 ? 92 : 112;
+
   return (
     <g>
-      <path
-        d={`M${cx} ${CLIP.y + 130} C${cx + 96} ${CLIP.y + 130} ${cx + 102} ${CLIP.y + 218} ${cx + 102} ${CLIP.y + 262} C${cx + 102} ${CLIP.y + 330} ${cx + 62} ${CLIP.y + 392} ${cx} ${CLIP.y + 392} C${cx - 62} ${CLIP.y + 392} ${cx - 102} ${CLIP.y + 330} ${cx - 102} ${CLIP.y + 262} C${cx - 102} ${CLIP.y + 218} ${cx - 96} ${CLIP.y + 130} ${cx} ${CLIP.y + 130} Z`}
-        fill={C.ink}
-      />
-      <path
-        d={`M${cx - 210} ${base} C${cx - 210} ${base - 210} ${cx - 140} ${base - 268} ${cx - 62} ${base - 288} L${cx + 62} ${base - 288} C${cx + 140} ${base - 268} ${cx + 210} ${base - 210} ${cx + 210} ${base} Z`}
-        fill={C.ink}
-      />
-      {/* cuello y camisa, en negativo */}
-      <path d={`M${cx - 58} ${base - 288} L${cx} ${base - 178} L${cx + 58} ${base - 288} L${cx + 34} ${base - 300} L${cx} ${base - 222} L${cx - 34} ${base - 300} Z`} fill="#EFEADC" />
+      <rect x={x} y={y} width={w} height={h} fill="#E6E0D0" />
+      {/* filetes de caja, como los de una ficha de prensa */}
+      <line x1={x + 40} y1={y + 60} x2={x + w - 40} y2={y + 60} stroke={C.ink} strokeWidth="6" />
+      <line x1={x + 40} y1={y + 76} x2={x + w - 40} y2={y + 76} stroke={C.ink} strokeWidth="2" />
+      <line x1={x + 40} y1={y + h - 76} x2={x + w - 40} y2={y + h - 76} stroke={C.ink} strokeWidth="2" />
+      <line x1={x + 40} y1={y + h - 60} x2={x + w - 40} y2={y + h - 60} stroke={C.ink} strokeWidth="6" />
+
+      {palabras.map((w2, i) => (
+        <text
+          key={i}
+          x={x + w / 2}
+          y={y + h / 2 - ((palabras.length - 1) * tam) / 2 + i * tam + tam * 0.32}
+          textAnchor="middle"
+          fill={C.ink}
+          fontFamily={FONT.serif}
+          fontSize={tam}
+        >
+          {w2}
+        </text>
+      ))}
+
+      {papel ? (
+        <text
+          x={x + w / 2}
+          y={y + h - 104}
+          textAnchor="middle"
+          fill={C.muted}
+          fontFamily={FONT.mono}
+          fontSize="22"
+          letterSpacing="3"
+        >
+          {papel.split(" · ")[0].toUpperCase()}
+        </text>
+      ) : null}
     </g>
   );
 };
@@ -110,7 +143,7 @@ export const Retrato: React.FC<{
 
           {/* la imagen: foto tratada o silueta */}
           <g clipPath="url(#clipRetrato)">
-            {spec.foto ? null : <Busto />}
+            {spec.foto ? null : <Ficha nombre={spec.nombre} papel={spec.papel} />}
             <Semitono x={CLIP.x} y={CLIP.y + 80} w={CLIP.w} h={CLIP.h - 110} />
           </g>
           <defs>

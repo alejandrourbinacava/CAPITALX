@@ -465,10 +465,9 @@
         },
         {
           "id": "b3-03",
-          "tipo": "objeto",
-          "objeto": "maletero",
+          "tipo": "retrato",
           "camara": "panL",
-          "kicker": "Knut-Erik Karlsen · suplementos de aceite de pescado",
+          "kicker": "El otro perfil que se marcha",
           "rotulo": {
             "kicker": "Y no todos eran billonarios",
             "texto": "Su argumento no era la codicia: era *la competencia*"
@@ -476,6 +475,12 @@
           "vo": "Y no todos eran billonarios. Knut-Erik Karlsen hizo su fortuna con suplementos de aceite de pescado, se fue a Suiza, y su argumento no era la codicia: decía que el sistema le hacía imposible competir con empresas extranjeras que no pagan nada parecido.",
           "voz": {
             "speed": 1.05
+          },
+          "retrato": {
+            "nombre": "Knut-Erik Karlsen",
+            "papel": "Suplementos de aceite de pescado · se muda a Suiza",
+            "fecha": "El caso del empresario mediano",
+            "titular": "No todos eran billonarios"
           }
         },
         {
