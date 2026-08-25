@@ -10,7 +10,8 @@
     "sfx": "python scripts/sfx.py",
     "voz": "node scripts/tts.mjs content/irlanda.json",
     "master": "node scripts/master.mjs out/irlanda-b0.mp4 out/irlanda-b0-master.mp4",
-    "importar-sfx": "python scripts/importar-sfx.py"
+    "importar-sfx": "python scripts/importar-sfx.py",
+    "retratos": "python scripts/retratos.py"
   },
   "dependencies": {
     "@remotion/cli": "4.0.428",

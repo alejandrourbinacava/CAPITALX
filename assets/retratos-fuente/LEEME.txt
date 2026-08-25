@@ -1,0 +1,20 @@
+Deja aqui las fotos originales, con el nombre de la persona:
+
+    rokke.jpg      krugman.jpg      soros.png
+
+Luego ejecuta:
+
+    npm run retratos
+
+Salen tratadas en public/retratos/ y se usan en el guion asi:
+
+    "tipo": "retrato",
+    "retrato": {
+      "nombre": "Kjell Inge Røkke",
+      "papel": "Presidente de Aker",
+      "fecha": "Septiembre de 2022",
+      "foto": "retratos/rokke.png",
+      "credito": "Foto: autor / licencia"        <- obligatorio en CC BY y CC BY-SA
+    }
+
+Si la foto no es tuya ni de dominio publico, anota de donde salio.
