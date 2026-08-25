@@ -227,12 +227,6 @@
     "transcript": null,
     "credit_cost": 158
   },
-  "b7-02": {
-    "audio": "voice/noruega-b7-02.mp3",
-    "duration": 9.090612,
-    "transcript": null,
-    "credit_cost": 224
-  },
   "b7-03": {
     "audio": "voice/noruega-b7-03.mp3",
     "duration": 7.706122,
@@ -430,5 +424,23 @@
     "duration": 6.687347,
     "transcript": null,
     "credit_cost": 167
+  },
+  "b7-02a": {
+    "audio": "voice/noruega-b7-02a.mp3",
+    "duration": 12.460408,
+    "transcript": null,
+    "credit_cost": 330
+  },
+  "b7-02b": {
+    "audio": "voice/noruega-b7-02b.mp3",
+    "duration": 7.993469,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b7-02c": {
+    "audio": "voice/noruega-b7-02c.mp3",
+    "duration": 10.710204,
+    "transcript": null,
+    "credit_cost": 274
   }
 }

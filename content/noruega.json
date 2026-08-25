@@ -987,15 +987,68 @@
           }
         },
         {
-          "id": "b7-02",
+          "id": "b7-02a",
+          "tipo": "retrato",
+          "camara": "push",
+          "voz": {
+            "speed": 1.0
+          },
+          "retrato": {
+            "nombre": "Christine Blandhol",
+            "papel": "Universidad de Princeton · estudia la fuga fiscal con datos noruegos",
+            "fecha": "Investigación en curso",
+            "foto": "recortes/blandhol.png",
+            "lado": "der",
+            "escala": 1.0
+          },
+          "kicker": "Quién ha medido esto",
+          "vo": "Una investigadora de la Universidad de Princeton, Christine Blandhol, ha medido esto con los registros administrativos noruegos, que son de los mejores del mundo. Y sus cifras son bastante más concretas que las que circulan."
+        },
+        {
+          "id": "b7-02b",
           "tipo": "barras",
           "camara": "estatico",
+          "voz": {
+            "speed": 0.99
+          },
           "barras": {
-            "unidad": "Impacto estimado en la producción noruega a largo plazo",
+            "unidad": "Tasa de emigración de los hogares afectados por la subida",
             "datos": [
               {
-                "etiqueta": "Estimación",
-                "valor": 1.3,
+                "etiqueta": "Antes de la reforma",
+                "valor": 0.2,
+                "tono": "ink",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Después",
+                "valor": 2.0,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ],
+            "sufijo": " %"
+          },
+          "fuente": "Christine Blandhol · Universidad de Princeton",
+          "rotulo": {
+            "kicker": "Los que se van se multiplicaron",
+            "texto": "Del *0,2 %* a más del *2 %*"
+          },
+          "vo": "La proporción de hogares afectados que se marchaban pasó del cero coma dos por ciento a más del dos por ciento. Se multiplicó por diez."
+        },
+        {
+          "id": "b7-02c",
+          "tipo": "barras",
+          "camara": "estatico",
+          "voz": {
+            "speed": 1.0
+          },
+          "barras": {
+            "unidad": "Ingresos de las empresas cuyo dueño se marchó",
+            "datos": [
+              {
+                "etiqueta": "Caída de ingresos",
+                "valor": 12.6,
                 "tono": "carmin",
                 "decimales": 1
               }
@@ -1005,13 +1058,10 @@
           },
           "fuente": "Christine Blandhol · Universidad de Princeton",
           "rotulo": {
-            "kicker": "Una estimación, no un hecho",
-            "texto": "*−1,3 %* del PIB a largo plazo"
+            "kicker": "Y esto es lo que de verdad cuesta",
+            "texto": "Sus empresas pierden un *12,6 %* de ingresos"
           },
-          "vo": "Christine Blandhol, economista de Princeton, calcula que los cambios podrían reducir la producción noruega a largo plazo en un uno coma tres por ciento.",
-          "voz": {
-            "speed": 0.98
-          }
+          "vo": "Y aquí está el dato que de verdad importa, porque no es una estimación a futuro sino algo ya medido: las empresas cuyo dueño se marchó perdieron un doce coma seis por ciento de ingresos."
         },
         {
           "id": "b7-03",

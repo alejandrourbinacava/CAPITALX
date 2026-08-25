@@ -17,7 +17,7 @@ import argparse
 import os
 
 import numpy as np
-from PIL import Image, ImageChops, ImageEnhance, ImageFilter, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageOps
 
 FUENTE = "assets/retratos-fuente"
 DESTINO = "public/recortes"
@@ -25,6 +25,26 @@ ANCHO = 1000
 
 TONOS = {"carmin": (200, 64, 44), "ocre": (232, 179, 60)}
 TINTA = (20, 24, 26)
+
+
+def desencuadrar_circulo(im, tol=18):
+    """
+    Las fotos de perfil vienen recortadas en circulo sobre blanco. Si se le
+    pasan asi, el modelo toma el circulo entero por sujeto y se queda con el
+    fondo dentro. Se detectan las esquinas planas y se recorta al cuadrado
+    interior antes de segmentar.
+    """
+    a = np.asarray(im.convert("RGB"), dtype=int)
+    h, w = a.shape[:2]
+    c = min(h, w) // 12
+    esquinas = [a[:c, :c], a[:c, -c:], a[-c:, :c], a[-c:, -c:]]
+    planas = sum(1 for e in esquinas if e.std() < tol)
+    if planas < 3:
+        return im
+    lado = int(min(h, w) / 1.42)          # cuadrado inscrito en el circulo
+    x = (w - lado) // 2
+    y = (h - lado) // 2
+    return im.crop((x, y, x + lado, y + lado))
 
 
 def quitar_fondo(im):
@@ -45,8 +65,45 @@ def limpiar_alfa(alfa, umbral=140):
     a = np.where(a > umbral, 255, 0).astype(np.uint8)
     m = Image.fromarray(a, "L")
     m = m.filter(ImageFilter.MedianFilter(5))      # quita motas sueltas
+    m = rellenar_huecos(m)                         # camisas y fondos claros
+    m = solidificar_base(m)                        # hombros cortados por el encuadre
     m = m.filter(ImageFilter.GaussianBlur(0.8))    # borde suave, no dentado
     return m
+
+
+def solidificar_base(mascara, banda=0.10):
+    """
+    Cuando la foto corta al sujeto por los hombros, la mascara se deshilacha
+    en las ultimas filas y el borde de color asoma a trozos. Se toma el ancho
+    del sujeto justo encima de esa franja y se rellena solido hacia abajo.
+    """
+    a = np.array(mascara)
+    h, w = a.shape
+    if (a[-1] > 8).mean() < 0.05:
+        return mascara                              # no toca el borde: nada que hacer
+    corte = int(h * (1 - banda))
+    fila = a[corte]
+    xs = np.where(fila > 128)[0]
+    if xs.size < 2:
+        return mascara
+    a[corte:, xs.min():xs.max() + 1] = 255
+    return Image.fromarray(a, "L")
+
+
+def rellenar_huecos(mascara):
+    """
+    El modelo se come zonas claras dentro del sujeto (una camisa blanca, un
+    reflejo) y por esos agujeros asoma el borde de color. Se inunda el fondo
+    desde los cuatro lados: lo que queda vacio sin tocar el marco es un hueco
+    interior y se rellena.
+    """
+    w, h = mascara.size
+    fuera = ImageOps.invert(mascara)               # fondo = 255
+    lienzo = Image.new("L", (w + 2, h + 2), 255)   # marco de 1 px para inundar
+    lienzo.paste(fuera, (1, 1))
+    ImageDraw.floodfill(lienzo, (0, 0), 0, thresh=100)
+    huecos = lienzo.crop((1, 1, w + 1, h + 1)).point(lambda v: 255 if v > 128 else 0)
+    return ImageChops.lighter(mascara, huecos)
 
 
 def a_tinta(rgb, alfa):
@@ -79,6 +136,7 @@ def borde(alfa, grosor):
 
 def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26):
     im = Image.open(entrada).convert("RGB")
+    im = desencuadrar_circulo(im)
     f = ANCHO / im.size[0]
     im = im.resize((ANCHO, int(im.size[1] * f)), Image.LANCZOS)
 
@@ -107,6 +165,13 @@ def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26):
 
     # 3. el sujeto encima
     lienzo.alpha_composite(sujeto, (m, m))
+
+    # Si el sujeto llega al borde inferior (foto cortada por los hombros), el
+    # contorno dibuja ahi el filo de la imagen y queda deshilachado. Se corta
+    # a ras para que la figura se salga limpia por abajo, como un recorte.
+    ultima = np.array(alfa)[-1]
+    if (ultima > 8).mean() > 0.15:
+        lienzo = lienzo.crop((0, 0, W, m + im.size[1]))
 
     os.makedirs(os.path.dirname(salida), exist_ok=True)
     lienzo.save(salida, "PNG", optimize=True)
