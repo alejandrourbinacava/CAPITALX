@@ -2,6 +2,10 @@
   "slug": "irlanda",
   "titulo": "¿Por qué todos se van de Irlanda?",
   "subtitulo": "El país más rico de Europa",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
   "wpm": 145,
   "musica": "mystery.wav",
   "bloques": [

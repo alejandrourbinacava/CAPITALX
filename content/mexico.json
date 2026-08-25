@@ -1,6 +1,10 @@
 {
   "slug": "mexico",
   "titulo": "¿POR QUÉ MÉXICO NO DESPEGA? (Hizo Todo Lo Que Le Dijeron)",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
   "wpm": 145,
   "musica": "mystery.wav",
   "bloques": [

@@ -84,6 +84,32 @@ const durationOf = (file) =>
     ]).toString().trim()
   );
 
+/**
+ * Comprueba que la voz existe en la cuenta antes de sintetizar nada.
+ *
+ * Sin esto, un identificador equivocado se descubre despues de haber gastado
+ * miles de creditos con la voz que no era.
+ */
+async function comprobarVoz(voiceId, nombreEsperado) {
+  const r = await api("/v3/voices?provider=clone");
+  if (!r.success) throw new Error("no se pudo consultar la lista de voces: " + JSON.stringify(r));
+
+  const voz = (r.data || []).find((v) => v.voice_id === voiceId);
+  if (!voz) {
+    const otras = (r.data || []).map((v) => `  ${v.voice_id}  ${v.name}`);
+    throw new Error(
+      [`La voz ${voiceId} no esta en la cuenta.`, "Voces disponibles:", ...otras].join("\n")
+    );
+  }
+
+  // Si el guion anota el nombre, se avisa cuando no cuadra: puede ser que la
+  // voz se haya renombrado, o que se haya copiado el identificador de otra.
+  if (nombreEsperado && voz.name.toUpperCase() !== nombreEsperado.toUpperCase()) {
+    console.warn(`AVISO: el guion esperaba "${nombreEsperado}" y la cuenta dice "${voz.name}"`);
+  }
+  return voz;
+}
+
 async function main() {
   loadEnv();
   const [, , contentPath, ...rest] = process.argv;
@@ -94,7 +120,19 @@ async function main() {
   const dry = rest.includes("--dry");
 
   const doc = JSON.parse(fs.readFileSync(contentPath, "utf8"));
-  const voiceId = process.env.AI33_VOICE_ID || "clone_2333475";
+
+  // La voz la declara el guion. La variable de entorno solo sirve para
+  // probar otra sin tocar el fichero.
+  const voiceId = process.env.AI33_VOICE_ID || doc.voz?.id;
+  if (!voiceId) {
+    throw new Error(
+      [
+        `${contentPath} no declara la voz.`,
+        `Anade:  "voz": { "id": "clone_XXXXXXX", "nombre": "..." }`,
+      ].join("\n")
+    );
+  }
+  const voz = await comprobarVoz(voiceId, doc.voz?.nombre);
 
   const timingsPath = contentPath.replace(/\.json$/, ".timings.json");
   const timings = fs.existsSync(timingsPath)
@@ -106,7 +144,8 @@ async function main() {
     .flatMap((b) => b.planos);
 
   const chars = planos.reduce((n, p) => n + p.vo.length, 0);
-  console.log(`${planos.length} planos · ${chars} caracteres · voz ${voiceId}`);
+  console.log(`${planos.length} planos · ${chars} caracteres`);
+  console.log(`voz: ${voz.name} (${voz.voice_id}) · ${voz.language ?? "?"}`);
   if (dry) return;
 
   let credits = 0;

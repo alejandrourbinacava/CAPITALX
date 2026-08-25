@@ -1,6 +1,10 @@
 {
   "slug": "noruega",
   "titulo": "NORUEGA: Se fueron los millonarios (y la recaudación subió)",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
   "wpm": 145,
   "musica": "mystery.wav",
   "bloques": [

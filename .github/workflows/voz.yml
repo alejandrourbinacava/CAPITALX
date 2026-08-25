@@ -47,8 +47,9 @@ jobs:
       - name: Locutar
         if: ${{ inputs.solo_contar == false }}
         env:
+          # La voz la declara cada guion en su campo "voz". El script la
+          # verifica contra la cuenta antes de sintetizar nada.
           AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
-          AI33_VOICE_ID: ${{ vars.AI33_VOICE_ID || 'clone_2333475' }}
         run: |
           if [ -z "$AI33_API_KEY" ]; then
             echo "Falta el secreto AI33_API_KEY."
