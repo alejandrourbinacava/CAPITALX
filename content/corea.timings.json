@@ -1,1 +1,356 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/corea-b0-01.mp3",
+    "duration": 5.903673,
+    "transcript": null,
+    "credit_cost": 155
+  },
+  "b0-02": {
+    "audio": "voice/corea-b0-02.mp3",
+    "duration": 2.586122,
+    "transcript": null,
+    "credit_cost": 57
+  },
+  "b0-03": {
+    "audio": "voice/corea-b0-03.mp3",
+    "duration": 6.870204,
+    "transcript": null,
+    "credit_cost": 170
+  },
+  "b0-04": {
+    "audio": "voice/corea-b0-04.mp3",
+    "duration": 7.366531,
+    "transcript": null,
+    "credit_cost": 161
+  },
+  "b0-05": {
+    "audio": "voice/corea-b0-05.mp3",
+    "duration": 5.302857,
+    "transcript": null,
+    "credit_cost": 127
+  },
+  "b1-01": {
+    "audio": "voice/corea-b1-01.mp3",
+    "duration": 6.974694,
+    "transcript": null,
+    "credit_cost": 167
+  },
+  "b1-02": {
+    "audio": "voice/corea-b1-02.mp3",
+    "duration": 6.817959,
+    "transcript": null,
+    "credit_cost": 142
+  },
+  "b1-03": {
+    "audio": "voice/corea-b1-03.mp3",
+    "duration": 7.993469,
+    "transcript": null,
+    "credit_cost": 216
+  },
+  "b2-01": {
+    "audio": "voice/corea-b2-01.mp3",
+    "duration": 10.527347,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b2-02": {
+    "audio": "voice/corea-b2-02.mp3",
+    "duration": 7.131429,
+    "transcript": null,
+    "credit_cost": 201
+  },
+  "b2-03": {
+    "audio": "voice/corea-b2-03.mp3",
+    "duration": 8.176327,
+    "transcript": null,
+    "credit_cost": 194
+  },
+  "b2-04": {
+    "audio": "voice/corea-b2-04.mp3",
+    "duration": 6.478367,
+    "transcript": null,
+    "credit_cost": 147
+  },
+  "b3-01": {
+    "audio": "voice/corea-b3-01.mp3",
+    "duration": 4.937143,
+    "transcript": null,
+    "credit_cost": 126
+  },
+  "b3-02": {
+    "audio": "voice/corea-b3-02.mp3",
+    "duration": 7.993469,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b3-03": {
+    "audio": "voice/corea-b3-03.mp3",
+    "duration": 8.071837,
+    "transcript": null,
+    "credit_cost": 178
+  },
+  "b3-04": {
+    "audio": "voice/corea-b3-04.mp3",
+    "duration": 7.627755,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b3-05": {
+    "audio": "voice/corea-b3-05.mp3",
+    "duration": 9.743673,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b3-06": {
+    "audio": "voice/corea-b3-06.mp3",
+    "duration": 9.586939,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b4-01": {
+    "audio": "voice/corea-b4-01.mp3",
+    "duration": 6.817959,
+    "transcript": null,
+    "credit_cost": 173
+  },
+  "b4-02": {
+    "audio": "voice/corea-b4-02.mp3",
+    "duration": 8.124082,
+    "transcript": null,
+    "credit_cost": 200
+  },
+  "b4-03": {
+    "audio": "voice/corea-b4-03.mp3",
+    "duration": 7.653878,
+    "transcript": null,
+    "credit_cost": 185
+  },
+  "b4-04": {
+    "audio": "voice/corea-b4-04.mp3",
+    "duration": 11.572245,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b5-01": {
+    "audio": "voice/corea-b5-01.mp3",
+    "duration": 5.12,
+    "transcript": null,
+    "credit_cost": 128
+  },
+  "b5-02": {
+    "audio": "voice/corea-b5-02.mp3",
+    "duration": 8.75102,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "b5-03": {
+    "audio": "voice/corea-b5-03.mp3",
+    "duration": 14.733061,
+    "transcript": null,
+    "credit_cost": 373
+  },
+  "b5-04": {
+    "audio": "voice/corea-b5-04.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b5-05": {
+    "audio": "voice/corea-b5-05.mp3",
+    "duration": 9.16898,
+    "transcript": null,
+    "credit_cost": 215
+  },
+  "b5-06": {
+    "audio": "voice/corea-b5-06.mp3",
+    "duration": 9.586939,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b5-07": {
+    "audio": "voice/corea-b5-07.mp3",
+    "duration": 10.997551,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b5b-01": {
+    "audio": "voice/corea-b5b-01.mp3",
+    "duration": 7.444898,
+    "transcript": null,
+    "credit_cost": 192
+  },
+  "b5b-02": {
+    "audio": "voice/corea-b5b-02.mp3",
+    "duration": 8.150204,
+    "transcript": null,
+    "credit_cost": 216
+  },
+  "b5b-03": {
+    "audio": "voice/corea-b5b-03.mp3",
+    "duration": 8.306939,
+    "transcript": null,
+    "credit_cost": 204
+  },
+  "b5b-04": {
+    "audio": "voice/corea-b5b-04.mp3",
+    "duration": 11.467755,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b5b-05": {
+    "audio": "voice/corea-b5b-05.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b5b-06": {
+    "audio": "voice/corea-b5b-06.mp3",
+    "duration": 8.411429,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b5b-07": {
+    "audio": "voice/corea-b5b-07.mp3",
+    "duration": 15.177143,
+    "transcript": null,
+    "credit_cost": 384
+  },
+  "b6-01": {
+    "audio": "voice/corea-b6-01.mp3",
+    "duration": 10.292245,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b6-02": {
+    "audio": "voice/corea-b6-02.mp3",
+    "duration": 6.138776,
+    "transcript": null,
+    "credit_cost": 144
+  },
+  "b6-03": {
+    "audio": "voice/corea-b6-03.mp3",
+    "duration": 14.445714,
+    "transcript": null,
+    "credit_cost": 373
+  },
+  "b6-04": {
+    "audio": "voice/corea-b6-04.mp3",
+    "duration": 13.244082,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b6b-01": {
+    "audio": "voice/corea-b6b-01.mp3",
+    "duration": 6.791837,
+    "transcript": null,
+    "credit_cost": 178
+  },
+  "b6b-02": {
+    "audio": "voice/corea-b6b-02.mp3",
+    "duration": 11.493878,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b6b-03": {
+    "audio": "voice/corea-b6b-03.mp3",
+    "duration": 8.489796,
+    "transcript": null,
+    "credit_cost": 221
+  },
+  "b6b-04": {
+    "audio": "voice/corea-b6b-04.mp3",
+    "duration": 11.41551,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b6b-05": {
+    "audio": "voice/corea-b6b-05.mp3",
+    "duration": 10.893061,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b6c-01": {
+    "audio": "voice/corea-b6c-01.mp3",
+    "duration": 10.657959,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b6c-02": {
+    "audio": "voice/corea-b6c-02.mp3",
+    "duration": 9.743673,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b6c-03": {
+    "audio": "voice/corea-b6c-03.mp3",
+    "duration": 5.093878,
+    "transcript": null,
+    "credit_cost": 139
+  },
+  "b6c-04": {
+    "audio": "voice/corea-b6c-04.mp3",
+    "duration": 10.475102,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b6c-05": {
+    "audio": "voice/corea-b6c-05.mp3",
+    "duration": 15.15102,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b6c-06": {
+    "audio": "voice/corea-b6c-06.mp3",
+    "duration": 11.337143,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b7-01": {
+    "audio": "voice/corea-b7-01.mp3",
+    "duration": 2.873469,
+    "transcript": null,
+    "credit_cost": 73
+  },
+  "b7-02": {
+    "audio": "voice/corea-b7-02.mp3",
+    "duration": 13.322449,
+    "transcript": null,
+    "credit_cost": 357
+  },
+  "b7-03": {
+    "audio": "voice/corea-b7-03.mp3",
+    "duration": 7.105306,
+    "transcript": null,
+    "credit_cost": 180
+  },
+  "b8-01": {
+    "audio": "voice/corea-b8-01.mp3",
+    "duration": 10.684082,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b8-02": {
+    "audio": "voice/corea-b8-02.mp3",
+    "duration": 7.68,
+    "transcript": null,
+    "credit_cost": 172
+  },
+  "b8-03": {
+    "audio": "voice/corea-b8-03.mp3",
+    "duration": 7.392653,
+    "transcript": null,
+    "credit_cost": 148
+  },
+  "b8-04": {
+    "audio": "voice/corea-b8-04.mp3",
+    "duration": 10.083265,
+    "transcript": null,
+    "credit_cost": 229
+  },
+  "b8-05": {
+    "audio": "voice/corea-b8-05.mp3",
+    "duration": 5.067755,
+    "transcript": null,
+    "credit_cost": 136
+  }
+}
