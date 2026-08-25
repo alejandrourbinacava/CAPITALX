@@ -480,7 +480,8 @@
             "nombre": "Knut-Erik Karlsen",
             "papel": "Suplementos de aceite de pescado · se muda a Suiza",
             "fecha": "El caso del empresario mediano",
-            "titular": "No todos eran billonarios"
+            "titular": "No todos eran billonarios",
+            "foto": "recortes/karlsen.png"
           }
         },
         {
@@ -520,7 +521,8 @@
             "nombre": "Kjell Inge Røkke",
             "papel": "Presidente de Aker · se muda a Lugano en 2022",
             "fecha": "Septiembre de 2022",
-            "titular": "El pescador que se fue"
+            "titular": "El pescador que se fue",
+            "foto": "recortes/rokke.png"
           },
           "kicker": "El caso que abrió el debate",
           "vo": "Volvamos a Røkke un momento, porque su caso tiene un detalle que se cuenta mal en casi todas partes."

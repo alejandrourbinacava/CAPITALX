@@ -94,6 +94,100 @@ const Ficha: React.FC<{ nombre: string; papel?: string }> = ({ nombre, papel }) 
   );
 };
 
+
+/**
+ * Modo recorte: la persona sin fondo, sobre la mancha ocre del canal, con su
+ * pie debajo. Es el mismo mecanismo que usan los objetos —silueta, mancha,
+ * sombra desplazada— aplicado a personas, para que no parezcan un elemento
+ * de otro vídeo.
+ */
+const Recorte: React.FC<{
+  foto: string;
+  nombre: string;
+  papel?: string;
+  fecha?: string;
+  credito?: string;
+}> = ({ foto, nombre, papel, fecha, credito }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const entra = spring({ frame: frame - 2, fps, config: { damping: 16, mass: 0.7, stiffness: 150 } });
+  const flota = Math.sin((frame / Math.max(durationInFrames, 1)) * Math.PI * 2) * 7;
+  const mancha = spring({ frame, fps, config: { damping: 200, mass: 0.6 } });
+
+  return (
+    <>
+      <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
+        <circle cx={1180} cy={505} r={330 * mancha} fill={C.ocre} />
+      </svg>
+
+      <div
+        style={{
+          position: "absolute",
+          left: "44%",
+          top: "6%",
+          width: "44%",
+          height: "84%",
+          opacity: entra,
+          transform: `translateY(${flota + interpolate(entra, [0, 1], [40, 0])}px) scale(${interpolate(entra, [0, 1], [0.94, 1])})`,
+        }}
+      >
+        <Img src={staticFile(foto)} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+      </div>
+
+      <div style={{ position: "absolute", left: 128, top: 340, width: 620 }}>
+        {fecha ? (
+          <div
+            style={{
+              fontFamily: FONT.mono,
+              fontSize: 22,
+              letterSpacing: "0.22em",
+              textTransform: "uppercase",
+              color: C.muted,
+              marginBottom: 18,
+              opacity: interpolate(entra, [0.3, 1], [0, 1], { extrapolateLeft: "clamp" }),
+            }}
+          >
+            {fecha}
+          </div>
+        ) : null}
+        <div
+          style={{
+            fontFamily: FONT.serif,
+            fontSize: 92,
+            lineHeight: 1.02,
+            color: C.ink,
+            opacity: interpolate(entra, [0.2, 1], [0, 1], { extrapolateLeft: "clamp" }),
+            transform: `translateY(${interpolate(entra, [0.2, 1], [22, 0], { extrapolateLeft: "clamp" })}px)`,
+          }}
+        >
+          {nombre}
+        </div>
+        {papel ? (
+          <div
+            style={{
+              marginTop: 24,
+              paddingLeft: 20,
+              borderLeft: `4px solid ${C.carmin}`,
+              fontFamily: FONT.mono,
+              fontSize: 26,
+              lineHeight: 1.5,
+              color: C.muted,
+              opacity: interpolate(entra, [0.5, 1], [0, 1], { extrapolateLeft: "clamp" }),
+            }}
+          >
+            {papel}
+          </div>
+        ) : null}
+        {credito ? (
+          <div style={{ marginTop: 34, fontFamily: FONT.mono, fontSize: 17, color: C.muted, opacity: 0.75 }}>
+            {credito}
+          </div>
+        ) : null}
+      </div>
+    </>
+  );
+};
+
 export const Retrato: React.FC<{
   spec: {
     nombre: string;
@@ -110,6 +204,19 @@ export const Retrato: React.FC<{
   const { fps } = useVideoConfig();
   const entra = spring({ frame: frame - 2, fps, config: { damping: 18, mass: 0.7, stiffness: 140 } });
   const giro = interpolate(entra, [0, 1], [-4.5, -1.6]);
+
+  // con foto, recorte sobre mancha; sin foto, ficha de periodico
+  if (spec.foto) {
+    return (
+      <Recorte
+        foto={spec.foto}
+        nombre={spec.nombre}
+        papel={spec.papel}
+        fecha={spec.fecha}
+        credito={spec.credito}
+      />
+    );
+  }
 
   // motas de papel viejo dentro del recorte
   const motas = React.useMemo(

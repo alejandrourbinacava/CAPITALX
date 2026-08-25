@@ -106,5 +106,167 @@
     "duration": 9.430204,
     "transcript": null,
     "credit_cost": 251
+  },
+  "b4-03": {
+    "audio": "voice/mexico-b4-03.mp3",
+    "duration": 14.706939,
+    "transcript": null,
+    "credit_cost": 311
+  },
+  "b4-04": {
+    "audio": "voice/mexico-b4-04.mp3",
+    "duration": 7.941224,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b4b-01": {
+    "audio": "voice/mexico-b4b-01.mp3",
+    "duration": 11.41551,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b4b-02": {
+    "audio": "voice/mexico-b4b-02.mp3",
+    "duration": 12.251429,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b4b-03": {
+    "audio": "voice/mexico-b4b-03.mp3",
+    "duration": 12.564898,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b4b-04": {
+    "audio": "voice/mexico-b4b-04.mp3",
+    "duration": 5.485714,
+    "transcript": null,
+    "credit_cost": 101
+  },
+  "b4b-05": {
+    "audio": "voice/mexico-b4b-05.mp3",
+    "duration": 16.84898,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b4b-06": {
+    "audio": "voice/mexico-b4b-06.mp3",
+    "duration": 7.314286,
+    "transcript": null,
+    "credit_cost": 170
+  },
+  "b4b-07": {
+    "audio": "voice/mexico-b4b-07.mp3",
+    "duration": 10.788571,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b4b-08": {
+    "audio": "voice/mexico-b4b-08.mp3",
+    "duration": 10.631837,
+    "transcript": null,
+    "credit_cost": 241
+  },
+  "b4b-09": {
+    "audio": "voice/mexico-b4b-09.mp3",
+    "duration": 10.553469,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b5-01": {
+    "audio": "voice/mexico-b5-01.mp3",
+    "duration": 8.437551,
+    "transcript": null,
+    "credit_cost": 186
+  },
+  "b5-02": {
+    "audio": "voice/mexico-b5-02.mp3",
+    "duration": 8.411429,
+    "transcript": null,
+    "credit_cost": 215
+  },
+  "b5-03": {
+    "audio": "voice/mexico-b5-03.mp3",
+    "duration": 14.602449,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b5-04": {
+    "audio": "voice/mexico-b5-04.mp3",
+    "duration": 8.333061,
+    "transcript": null,
+    "credit_cost": 203
+  },
+  "b6-01": {
+    "audio": "voice/mexico-b6-01.mp3",
+    "duration": 7.235918,
+    "transcript": null,
+    "credit_cost": 173
+  },
+  "b6-02": {
+    "audio": "voice/mexico-b6-02.mp3",
+    "duration": 9.195102,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b6-03": {
+    "audio": "voice/mexico-b6-03.mp3",
+    "duration": 8.986122,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b6-04": {
+    "audio": "voice/mexico-b6-04.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b7-01": {
+    "audio": "voice/mexico-b7-01.mp3",
+    "duration": 10.161633,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b7-02": {
+    "audio": "voice/mexico-b7-02.mp3",
+    "duration": 7.183673,
+    "transcript": null,
+    "credit_cost": 169
+  },
+  "b7-03": {
+    "audio": "voice/mexico-b7-03.mp3",
+    "duration": 10.004898,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b7-04": {
+    "audio": "voice/mexico-b7-04.mp3",
+    "duration": 9.247347,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b7-05": {
+    "audio": "voice/mexico-b7-05.mp3",
+    "duration": 15.751837,
+    "transcript": null,
+    "credit_cost": 354
+  },
+  "b8-01": {
+    "audio": "voice/mexico-b8-01.mp3",
+    "duration": 4.493061,
+    "transcript": null,
+    "credit_cost": 117
+  },
+  "b8-02": {
+    "audio": "voice/mexico-b8-02.mp3",
+    "duration": 12.956735,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b8-03": {
+    "audio": "voice/mexico-b8-03.mp3",
+    "duration": 7.079184,
+    "transcript": null,
+    "credit_cost": 180
   }
 }
