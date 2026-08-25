@@ -1,0 +1,71 @@
+name: Generar locución
+
+# Locuta los planos que aún no tienen audio y deja los mp3 guardados en el
+# repositorio, para que los renders posteriores no vuelvan a gastar créditos.
+#
+# Necesita el secreto AI33_API_KEY en Settings > Secrets and variables > Actions.
+
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "Qué vídeo locutar (el slug: irlanda, noruega, mexico…)"
+        required: true
+        default: "mexico"
+        type: string
+      solo_contar:
+        description: "Solo contar caracteres y coste, sin gastar créditos"
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  locutar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: ffprobe para medir la duración de cada audio
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Contar lo que falta
+        run: |
+          node scripts/tts.mjs "content/${{ inputs.video }}.json" --dry
+
+      - name: Locutar
+        if: ${{ inputs.solo_contar == false }}
+        env:
+          AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
+          AI33_VOICE_ID: ${{ vars.AI33_VOICE_ID || 'clone_2333475' }}
+        run: |
+          if [ -z "$AI33_API_KEY" ]; then
+            echo "Falta el secreto AI33_API_KEY."
+            echo "Settings > Secrets and variables > Actions > New repository secret"
+            exit 1
+          fi
+          node scripts/tts.mjs "content/${{ inputs.video }}.json"
+
+      - name: Guardar los audios en el repositorio
+        if: ${{ inputs.solo_contar == false }}
+        run: |
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add public/voice assets/voice "content/${{ inputs.video }}.timings.json"
+          if git diff --cached --quiet; then
+            echo "No hay audio nuevo: ya estaba todo locutado."
+          else
+            git commit -m "Locución de ${{ inputs.video }}"
+            git push
+          fi

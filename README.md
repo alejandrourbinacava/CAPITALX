@@ -84,3 +84,21 @@ público), proyectados con Mercator a coordenadas del lienzo.
 `AI33_API_KEY` va en `.env`, que está en `.gitignore`. Nunca se sube. Si una
 clave llega a aparecer en un commit, hay que rotarla: borrarla después no sirve,
 queda en el historial.
+
+## Renderizar en la nube
+
+No hace falta tu ordenador. En GitHub, pestaña **Actions**:
+
+- **Renderizar vídeo** — eliges el slug (`irlanda`, `noruega`, `mexico`…), le das
+  a *Run workflow* y al terminar descargas el MP4 desde *Artifacts*. Tarda entre
+  45 y 90 minutos, porque las máquinas de GitHub son más lentas que un portátil.
+- **Generar locución** — locuta solo los planos que aún no tienen audio y los
+  guarda en el repositorio, para que los renders siguientes no gasten créditos.
+  Marca *solo_contar* si únicamente quieres saber cuánto costaría.
+
+El repositorio es privado a propósito: contiene los audios de la voz clonada y
+las fotos originales de los retratos. Con 2.000 minutos al mes de Actions dan
+para unos 25 vídeos, más que de sobra para el ritmo de publicación.
+
+Para que la locución funcione en la nube hay que crear el secreto
+`AI33_API_KEY` en *Settings > Secrets and variables > Actions*.
