@@ -107,7 +107,9 @@ const Recorte: React.FC<{
   papel?: string;
   fecha?: string;
   credito?: string;
-}> = ({ foto, nombre, papel, fecha, credito }) => {
+  lado?: "izq" | "der";
+  escala?: number;
+}> = ({ foto, nombre, papel, fecha, credito, lado = "der", escala = 1 }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const entra = spring({ frame: frame - 2, fps, config: { damping: 16, mass: 0.7, stiffness: 150 } });
@@ -117,16 +119,16 @@ const Recorte: React.FC<{
   return (
     <>
       <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
-        <circle cx={1180} cy={505} r={330 * mancha} fill={C.ocre} />
+        <circle cx={lado === "der" ? 1180 : 640} cy={505} r={330 * escala * mancha} fill={C.ocre} />
       </svg>
 
       <div
         style={{
           position: "absolute",
-          left: "44%",
-          top: "6%",
-          width: "44%",
-          height: "84%",
+          left: lado === "der" ? `${44 - (escala - 1) * 12}%` : `${10 - (escala - 1) * 12}%`,
+          top: `${6 - (escala - 1) * 8}%`,
+          width: `${44 * escala}%`,
+          height: `${84 * escala}%`,
           opacity: entra,
           transform: `translateY(${flota + interpolate(entra, [0, 1], [40, 0])}px) scale(${interpolate(entra, [0, 1], [0.94, 1])})`,
         }}
@@ -134,7 +136,7 @@ const Recorte: React.FC<{
         <Img src={staticFile(foto)} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
       </div>
 
-      <div style={{ position: "absolute", left: 128, top: 340, width: 620 }}>
+      <div style={{ position: "absolute", left: lado === "der" ? 128 : 1120, top: 340, width: 620 }}>
         {fecha ? (
           <div
             style={{
@@ -198,6 +200,8 @@ export const Retrato: React.FC<{
     /** obligatorio si la foto lleva licencia CC BY o CC BY-SA */
     credito?: string;
     titular?: string;
+    lado?: "izq" | "der";
+    escala?: number;
   };
 }> = ({ spec }) => {
   const frame = useCurrentFrame();
@@ -214,6 +218,8 @@ export const Retrato: React.FC<{
         papel={spec.papel}
         fecha={spec.fecha}
         credito={spec.credito}
+        lado={spec.lado}
+        escala={spec.escala}
       />
     );
   }

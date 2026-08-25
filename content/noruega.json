@@ -21,14 +21,13 @@
         },
         {
           "id": "b0-02",
-          "tipo": "objeto",
-          "objeto": "maletero",
+          "tipo": "retrato",
           "camara": "pull",
           "kicker": "Kjell Inge Røkke",
           "tags": [
             {
               "t": "Empezó como pescador",
-              "x": 8,
+              "x": 7,
               "y": 20,
               "in": 0.6,
               "out": 4.2,
@@ -37,7 +36,7 @@
             },
             {
               "t": "Presidente de Aker",
-              "x": 8,
+              "x": 7,
               "y": 20,
               "in": 4.4,
               "tone": "carmin",
@@ -47,6 +46,14 @@
           "vo": "Se llama Kjell Inge Røkke. Empezó como pescador en un barco de arrastre y acabó controlando Aker, uno de los mayores conglomerados industriales del país.",
           "voz": {
             "speed": 1.05
+          },
+          "retrato": {
+            "nombre": "Kjell Inge Røkke",
+            "papel": "De pescador de arrastre a presidente de Aker",
+            "fecha": "El hombre más rico de Noruega",
+            "foto": "recortes/rokke.png",
+            "lado": "der",
+            "escala": 1.12
           }
         },
         {
@@ -522,7 +529,9 @@
             "papel": "Presidente de Aker · se muda a Lugano en 2022",
             "fecha": "Septiembre de 2022",
             "titular": "El pescador que se fue",
-            "foto": "recortes/rokke.png"
+            "foto": "recortes/rokke.png",
+            "lado": "izq",
+            "escala": 0.88
           },
           "kicker": "El caso que abrió el debate",
           "vo": "Volvamos a Røkke un momento, porque su caso tiene un detalle que se cuenta mal en casi todas partes."

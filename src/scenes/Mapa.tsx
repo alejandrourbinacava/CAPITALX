@@ -32,7 +32,7 @@ const REGIONES: Record<string, Record<string, Pais>> = {
 const EtiquetaPais: React.FC<{ cx: number; cy: number; nombre: string; k: number }> = ({
   cx, cy, nombre, k,
 }) => {
-  const ancho = nombre.length * 19 + 46;
+  const ancho = nombre.length * 22 + 64;
   const izquierda = cx < 760;
   const lx = izquierda ? cx - 60 - ancho : cx + 60;
   const ly = cy - 96;
