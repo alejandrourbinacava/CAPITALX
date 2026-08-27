@@ -29,6 +29,11 @@ on:
         required: false
         default: true
         type: boolean
+      solo_guion:
+        description: "Escribir el guion y parar, sin gastar créditos de voz"
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: diario
@@ -113,22 +118,38 @@ jobs:
             node scripts/guion.mjs
           fi
 
+      - name: Guardar el guion para revisarlo
+        if: ${{ inputs.solo_guion }}
+        run: |
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content/diario.json content/diario.timings.json content/fichas
+          git commit -m "Guion de prueba, sin locutar" || echo "sin cambios"
+          git push
+          echo "### Guion escrito, sin locutar" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Está en \`content/diario.json\`. No se ha gastado ningún crédito." >> "$GITHUB_STEP_SUMMARY"
+
       # ---- 2. Voz ---------------------------------------------------------
       - name: Locutar
+        if: ${{ !inputs.solo_guion }}
         env:
           AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
         run: node scripts/tts.mjs content/diario.json
 
       # ---- 3. Imagen ------------------------------------------------------
       - name: Renderizar
+        if: ${{ !inputs.solo_guion }}
         run: npx remotion render diario out/diario.mp4 --jpeg-quality=80 --log=info
 
       - name: Masterizar a -14 LUFS
+        if: ${{ !inputs.solo_guion }}
         run: node scripts/master.mjs out/diario.mp4 out/diario-master.mp4
 
       # Un fotograma del propio vídeo hace de portada provisional. Si el canal
       # no está verificado por teléfono, Google la rechaza y no pasa nada.
       - name: Sacar la portada
+        if: ${{ !inputs.solo_guion }}
         continue-on-error: true
         run: |
           F=$(node -e "
@@ -147,6 +168,7 @@ jobs:
 
       # ---- 4. El resumen del dia -------------------------------------------
       - name: Dejar dicho qué ha salido
+        if: ${{ !inputs.solo_guion }}
         run: node scripts/resumen.mjs out/diario-master.mp4 content/diario.json
 
       # El video se descarga a mano, asi que este paso se salta solo mientras
@@ -163,7 +185,7 @@ jobs:
 
       # Aquí es donde recoges el vídeo cada mañana. Treinta días disponible.
       - uses: actions/upload-artifact@v4
-        if: always()
+        if: ${{ always() && !inputs.solo_guion }}
         with:
           name: diario-${{ needs.decidir.outputs.fecha }}
           path: |
@@ -176,7 +198,7 @@ jobs:
 
       # ---- 5. Archivar y avanzar la cola ----------------------------------
       - name: Guardar el trabajo y pasar al siguiente tema
-        if: success()
+        if: ${{ success() && !inputs.solo_guion }}
         run: |
           SLUG=$(node -e "console.log(require('./content/diario.json').slug)")
           mkdir -p content/archivo
