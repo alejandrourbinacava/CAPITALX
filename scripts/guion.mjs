@@ -238,11 +238,20 @@ Cada plano:
 
 # Cómo se construye el vídeo
 
-Duración objetivo: entre 12 y 14 minutos. Eso son entre 12.000 y 14.500 caracteres sumando todos los "vo", y ni uno más de 16.000. Cuéntalos de verdad antes de devolver el guion. Un guion corto es el error más frecuente: si te quedas corto, no rellenes con paja, busca más contenido real en la ficha y desarrolla más los porqués.
+## El presupuesto de caracteres, que es la restricción que más se incumple
 
-Entre 75 y 95 planos, repartidos en 10-13 bloques con nombre.
+La locución va a unos 1.000 caracteres por minuto. Para un vídeo de trece minutos hacen falta unos **13.000 caracteres** sumando todos los "vo". Ese es el presupuesto, y no es orientativo.
 
-Cada "vo" entre 90 y 260 caracteres. Una idea por plano.
+La cuenta sale así:
+
+    11 bloques x 7 planos = 77 planos
+    77 planos x 170 caracteres de media = 13.000
+
+Por lo tanto: **entre 70 y 80 planos**, en 10 o 12 bloques. Cada "vo" entre 90 y 240 caracteres, y la MEDIA tiene que salir alrededor de 170. Si escribes 85 planos de 210 caracteres te plantas en 18.000 y el guion se rechaza.
+
+Antes de devolver nada, suma de verdad los caracteres de todos los "vo". Si pasan de 15.000, quita planos enteros hasta bajar. No acortes todos un poco: eso deja el guion telegráfico. Quita los que no traigan un dato nuevo.
+
+Y si te quedas corto, no rellenes con paja: vuelve a la ficha y desarrolla mejor los porqués.
 
 Estructura:
 - b0, apertura en frío: el dato más fuerte, sin presentación ni saludo. Cinco o seis planos.
