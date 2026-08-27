@@ -1,18 +1,28 @@
 {
   "_comentario": "Cola de temas del canal. Cada mañana el flujo diario coge el primero de 'cola', lo investiga, lo escribe, lo locuta, lo renderiza y lo sube al canal en privado. Al terminar lo mueve a 'hechos'. Puedes reordenar la cola a mano cuando quieras: manda el orden del fichero.",
-
   "hechos": [
-    { "slug": "irlanda", "titulo": "¿Por Qué Todos Se Van de IRLANDA? (El País Más Rico de Europa)" },
-    { "slug": "noruega", "titulo": "NORUEGA: Los Millonarios Se Están Yendo (Y El Gobierno Va Ganando)" },
-    { "slug": "mexico", "titulo": "MÉXICO: Hizo Todo Lo Que Le Dijeron (Y No Funcionó)" },
-    { "slug": "corea", "titulo": "COREA DEL SUR: Dejó de Caer (Y Sigue Siendo Tarde)" }
+    {
+      "slug": "irlanda",
+      "titulo": "¿Por Qué Todos Se Van de IRLANDA? (El País Más Rico de Europa)"
+    },
+    {
+      "slug": "noruega",
+      "titulo": "NORUEGA: Los Millonarios Se Están Yendo (Y El Gobierno Va Ganando)"
+    },
+    {
+      "slug": "mexico",
+      "titulo": "MÉXICO: Hizo Todo Lo Que Le Dijeron (Y No Funcionó)"
+    },
+    {
+      "slug": "corea",
+      "titulo": "COREA DEL SUR: Dejó de Caer (Y Sigue Siendo Tarde)"
+    }
   ],
-
   "cola": [
     {
       "slug": "pemex",
-      "titulo": "PEMEX: La Empresa Más Endeudada Del Mundo",
-      "angulo": "Prometida en las tarjetas finales de México y de Corea, así que va primero. La petrolera estatal mexicana debe más que ninguna otra empresa energética del planeta. Cuánto debe hoy, quién paga esa deuda, y por qué el Estado no puede dejarla caer ni permitirse sostenerla.",
+      "titulo": "PEMEX: Debe Menos A Los Bancos Y Más A Todos Los Demás",
+      "angulo": "Prometida en las tarjetas finales de México y de Corea, así que va primero. OJO con la premisa: la investigación ya demostró que 'la empresa más endeudada del mundo' es falso (es la PETROLERA más endeudada) y que la cifra de cien mil millones lleva dos años desfasada: la deuda financiera bajó a 77.500 millones de dólares en junio de 2026. El ángulo bueno no es cuánto debe, sino quién lo está pagando: la deuda financiera baja porque la absorbe el Estado, mientras los pasivos con proveedores y el pasivo laboral crecen. Es deuda soberana disfrazada de deuda corporativa.",
       "region": "norteamerica",
       "pais": "mexico"
     },
