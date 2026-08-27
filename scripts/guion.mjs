@@ -61,16 +61,25 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000 }) {
   };
   if (buscar) body.tools = [{ type: "web_search_20250305", name: "web_search", max_uses: 14 }];
 
-  for (let intento = 1; intento <= 3; intento++) {
-    const res = await fetch(API, {
-      method: "POST",
-      headers: {
-        "x-api-key": process.env.ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(body),
-    });
+  for (let intento = 1; intento <= 4; intento++) {
+    let res;
+    try {
+      res = await fetch(API, {
+        method: "POST",
+        headers: {
+          "x-api-key": process.env.ANTHROPIC_API_KEY,
+          "anthropic-version": "2023-06-01",
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(body),
+      });
+    } catch (e) {
+      // La red se cae sin dar codigo de estado. Estas peticiones duran
+      // minutos, asi que pasa, y perder aqui el trabajo hecho seria absurdo.
+      console.log(`  la red ha fallado (${e.message}), reintento ${intento}`);
+      await new Promise((r) => setTimeout(r, intento * 20000));
+      continue;
+    }
     if (res.status === 429 || res.status >= 500) {
       const espera = intento * 20000;
       console.log(`  ${res.status}, reintento en ${espera / 1000}s`);
@@ -86,7 +95,7 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000 }) {
     const busquedas = (j.content || []).filter((b) => b.type === "server_tool_use").length;
     return { texto, busquedas, uso: j.usage };
   }
-  throw new Error("la API no respondio tras tres intentos");
+  throw new Error("la API no respondio tras cuatro intentos");
 }
 
 /* ------------------------------------------------------------------ */
@@ -229,7 +238,7 @@ Cada plano:
 
 # Cómo se construye el vídeo
 
-Duración objetivo: entre 11 y 14 minutos. Eso son entre 12.000 y 15.000 caracteres sumando todos los "vo". Cuéntalos. Un guion corto es el error más frecuente: si te quedas corto, no rellenes con paja, busca más contenido real en la ficha y desarrolla más los porqués.
+Duración objetivo: entre 12 y 14 minutos. Eso son entre 12.000 y 14.500 caracteres sumando todos los "vo", y ni uno más de 16.000. Cuéntalos de verdad antes de devolver el guion. Un guion corto es el error más frecuente: si te quedas corto, no rellenes con paja, busca más contenido real en la ficha y desarrolla más los porqués.
 
 Entre 75 y 95 planos, repartidos en 10-13 bloques con nombre.
 
@@ -406,12 +415,16 @@ function validar(doc, tema) {
     if (p.tipo === "cierre" && !p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
   }
 
-  // ritmo: tres iguales seguidos es una losa
-  for (let i = 2; i < planos.length; i++) {
-    if (planos[i].tipo === planos[i - 1].tipo && planos[i].tipo === planos[i - 2].tipo) {
-      if (planos[i].tipo !== "lista") {
-        di(`${planos[i - 2].id}, ${planos[i - 1].id} y ${planos[i].id} son los tres "${planos[i].tipo}". Alterna.`);
-      }
+  // Ritmo. Tres graficos seguidos matan el plano; tres frases seguidas, en
+  // cambio, son un recurso: asi se remata la apertura de Irlanda. Se deja
+  // correr hasta la cuarta.
+  const seguidas = { frase: 4, lista: 99 };
+  let racha = 1;
+  for (let i = 1; i < planos.length; i++) {
+    racha = planos[i].tipo === planos[i - 1].tipo ? racha + 1 : 1;
+    const tope = seguidas[planos[i].tipo] ?? 3;
+    if (racha === tope) {
+      di(`${planos[i].id}: van ${racha} planos "${planos[i].tipo}" seguidos. Mete otra cosa en medio.`);
     }
   }
 
@@ -419,7 +432,9 @@ function validar(doc, tema) {
   if (chars < min) {
     di(`el guion suma ${chars} caracteres y salen unos ${(chars / 1000).toFixed(1)} minutos. Hacen falta al menos ${min} para llegar a los once minutos: desarrolla más los porqués con datos de la ficha, no con relleno.`);
   }
-  if (chars > 16500) di(`el guion suma ${chars} caracteres, se pasa de quince minutos`);
+  if (chars > 16000) {
+    di(`el guion suma ${chars} caracteres y se pasa de quince minutos. Quita unos ${chars - 14000}: fusiona planos que digan lo mismo y corta los que no aporten un dato nuevo. No toques los bloques, quita planos.`);
+  }
 
   const ult = planos[planos.length - 1];
   if (ult?.tipo !== "cierre") di("el último plano tiene que ser de tipo 'cierre' con 'suscribete': true");
