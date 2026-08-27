@@ -148,7 +148,10 @@ jobs:
       # ---- 4. Al canal ----------------------------------------------------
       - name: Subir al canal en privado
         id: subida
-        if: ${{ inputs.subir != false }}
+        # En una ejecucion programada no hay "inputs", y GitHub convierte lo
+        # vacio a cero igual que a false: "inputs.subir != false" seria falso
+        # y no subiria nada justo los dias que importa.
+        if: ${{ github.event_name == 'schedule' || inputs.subir }}
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
