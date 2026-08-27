@@ -12,7 +12,11 @@
     "master": "node scripts/master.mjs out/irlanda-b0.mp4 out/irlanda-b0-master.mp4",
     "importar-sfx": "python scripts/importar-sfx.py",
     "retratos": "python scripts/retratos.py",
-    "recortes": "python scripts/recortes.py"
+    "recortes": "python scripts/recortes.py",
+    "guion": "node scripts/guion.mjs",
+    "subir": "node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png",
+    "youtube-token": "node scripts/youtube-token.mjs",
+    "probar-guion": "node scripts/probar-guion.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.428",

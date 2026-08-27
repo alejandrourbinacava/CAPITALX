@@ -1,0 +1,29 @@
+{
+  "_comentario": "Marcador de posición. Cada mañana el flujo diario sobrescribe este fichero con el guion del día y archiva el anterior en content/archivo/. No lo edites a mano: se pierde en la siguiente ejecución.",
+  "slug": "diario",
+  "titulo": "Sin guion todavía",
+  "voz": { "id": "clone_2333475", "nombre": "VOZ DETRAS DEL ENIGMA" },
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Marcador",
+      "planos": [
+        {
+          "id": "b0-01",
+          "tipo": "frase",
+          "night": true,
+          "texto": "Aquí va el vídeo *de mañana*.",
+          "vo": "Todavía no hay guion. El flujo diario escribirá uno aquí en la próxima ejecución.",
+          "voz": { "speed": 1.0 }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Sin guion todavía",
+    "descripcion": "Marcador de posición.",
+    "etiquetas": []
+  }
+}

@@ -16,6 +16,8 @@ import mexico from "../content/mexico.json";
 import corea from "../content/corea.json";
 import mexicoT from "../content/mexico.timings.json";
 import coreaT from "../content/corea.timings.json";
+import diario from "../content/diario.json";
+import diarioT from "../content/diario.timings.json";
 
 /** Un vídeo del canal = un guion más sus tiempos de locución. */
 const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
@@ -23,6 +25,8 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "noruega", guion: noruega as any, tiempos: noruegaT as any },
   { id: "mexico", guion: mexico as any, tiempos: mexicoT as any },
   { id: "corea", guion: corea as any, tiempos: coreaT as any },
+  // El de cada manana. Lo sobrescribe el flujo diario antes de renderizar.
+  { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 
 export const RemotionRoot: React.FC = () => (

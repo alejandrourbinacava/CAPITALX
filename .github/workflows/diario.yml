@@ -1,0 +1,213 @@
+name: Vídeo diario
+
+# Cada mañana: coge el primer tema de content/cola.json, lo investiga, escribe
+# el guion, lo locuta con la voz clonada, lo renderiza, lo masteriza y lo sube
+# al canal EN PRIVADO. A las ocho está en tu YouTube Studio esperando.
+#
+# Arranca a las 05:12 de Madrid porque la cadena entera tarda unas dos horas y
+# media, y GitHub a veces retrasa las tareas programadas media hora.
+#
+# Secretos necesarios (Settings > Secrets and variables > Actions):
+#   ANTHROPIC_API_KEY   escribir el guion
+#   AI33_API_KEY        locutar
+#   YT_CLIENT_ID        )
+#   YT_CLIENT_SECRET    ) subir al canal — node scripts/youtube-token.mjs
+#   YT_REFRESH_TOKEN    )
+
+on:
+  schedule:
+    - cron: "12 3 * * *" # 05:12 en Madrid de finales de marzo a finales de octubre
+    - cron: "12 4 * * *" # 05:12 en Madrid el resto del año
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: "Saltarse la cola y hacer este tema (el slug)"
+        required: false
+        type: string
+      subir:
+        description: "Subir al canal en privado al terminar"
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: diario
+  cancel-in-progress: false
+
+jobs:
+  # GitHub solo entiende UTC, y Madrid cambia de hora dos veces al año. En vez
+  # de pelearse con eso, se programan las dos horas posibles y aquí se descarta
+  # la que no toca. Y si el día ya está hecho, no se repite.
+  decidir:
+    runs-on: ubuntu-latest
+    outputs:
+      seguir: ${{ steps.g.outputs.seguir }}
+      fecha: ${{ steps.g.outputs.fecha }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: g
+        run: |
+          HORA=$(TZ=Europe/Madrid date +%H)
+          HOY=$(TZ=Europe/Madrid date +%F)
+          echo "fecha=$HOY" >> "$GITHUB_OUTPUT"
+          echo "En Madrid son las $HORA del $HOY."
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Lanzado a mano: adelante."
+            echo "seguir=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # De las dos programaciones solo vale la que cae de madrugada
+          if [ "$HORA" != "05" ] && [ "$HORA" != "06" ]; then
+            echo "No es la hora buena en Madrid. Esta ejecución se descarta."
+            echo "seguir=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if grep -q "\"fecha\": \"$HOY\"" content/cola.json; then
+            echo "El vídeo de hoy ya está hecho."
+            echo "seguir=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "seguir=true" >> "$GITHUB_OUTPUT"
+
+  producir:
+    needs: decidir
+    if: needs.decidir.outputs.seguir == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Dependencias del sistema
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 \
+            libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
+            libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2t64
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      # ---- 1. Guion -------------------------------------------------------
+      - name: Investigar y escribir el guion
+        id: guion
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.tema }}" ]; then
+            node scripts/guion.mjs --tema "${{ inputs.tema }}"
+          else
+            node scripts/guion.mjs
+          fi
+
+      # ---- 2. Voz ---------------------------------------------------------
+      - name: Locutar
+        env:
+          AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
+        run: node scripts/tts.mjs content/diario.json
+
+      # ---- 3. Imagen ------------------------------------------------------
+      - name: Renderizar
+        run: npx remotion render diario out/diario.mp4 --jpeg-quality=80 --log=info
+
+      - name: Masterizar a -14 LUFS
+        run: node scripts/master.mjs out/diario.mp4 out/diario-master.mp4
+
+      # Un fotograma del propio vídeo hace de portada provisional. Si el canal
+      # no está verificado por teléfono, Google la rechaza y no pasa nada.
+      - name: Sacar la portada
+        continue-on-error: true
+        run: |
+          F=$(node -e "
+            const t=require('./content/diario.timings.json');
+            const p=require('./content/diario.json').bloques.flatMap(b=>b.planos);
+            let f=0;
+            for(const x of p){
+              const d=Math.round((t[x.id].duration+0.34)*30);
+              if(x.tipo==='contador'||x.tipo==='barras'){console.log(f+Math.round(d*0.8));process.exit(0)}
+              f+=d;
+            }
+            console.log(90);
+          ")
+          echo "portada en el fotograma $F"
+          npx remotion still diario out/portada.png --frame=$F
+
+      # ---- 4. Al canal ----------------------------------------------------
+      - name: Subir al canal en privado
+        id: subida
+        if: ${{ inputs.subir != false }}
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png
+
+      # El MP4 queda también aquí treinta días. Es la red de seguridad: si la
+      # subida falla, el vídeo no se pierde y lo subes tú desde Studio.
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: diario-${{ needs.decidir.outputs.fecha }}
+          path: |
+            out/diario-master.mp4
+            out/portada.png
+            content/diario.json
+            content/fichas/
+          retention-days: 30
+          compression-level: 0
+
+      # ---- 5. Archivar y avanzar la cola ----------------------------------
+      - name: Guardar el trabajo y pasar al siguiente tema
+        if: success()
+        run: |
+          SLUG=$(node -e "console.log(require('./content/diario.json').slug)")
+          mkdir -p content/archivo
+          cp content/diario.json "content/archivo/$SLUG.json"
+          cp content/diario.timings.json "content/archivo/$SLUG.timings.json"
+
+          node -e "
+            const fs=require('fs');
+            const c=JSON.parse(fs.readFileSync('content/cola.json','utf8'));
+            const d=JSON.parse(fs.readFileSync('content/diario.json','utf8'));
+            const i=c.cola.findIndex(t=>t.slug===d.slug);
+            if(i>=0){
+              const [t]=c.cola.splice(i,1);
+              c.hechos.push({
+                slug:t.slug,
+                titulo:d.publicacion?.titulo||d.titulo,
+                fecha:'${{ needs.decidir.outputs.fecha }}',
+                video:'${{ steps.subida.outputs.video_id }}'||null,
+              });
+            }
+            fs.writeFileSync('content/cola.json',JSON.stringify(c,null,2)+'\n');
+            console.log('quedan '+c.cola.length+' temas en la cola');
+          "
+
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content public/voice assets/voice
+          git commit -m "Vídeo del ${{ needs.decidir.outputs.fecha }}: $SLUG" || echo "nada que guardar"
+          git push
+
+      - name: Aviso si algo ha fallado
+        if: failure()
+        run: |
+          {
+            echo "### El vídeo de hoy no ha salido"
+            echo ""
+            echo "La cola **no** ha avanzado: mañana se reintenta el mismo tema."
+            echo "Mira qué paso ha fallado arriba."
+          } >> "$GITHUB_STEP_SUMMARY"

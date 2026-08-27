@@ -102,3 +102,75 @@ para unos 25 vídeos, más que de sobra para el ritmo de publicación.
 
 Para que la locución funcione en la nube hay que crear el secreto
 `AI33_API_KEY` en *Settings > Secrets and variables > Actions*.
+
+---
+
+## El vídeo de cada mañana
+
+`.github/workflows/diario.yml` se despierta solo a las 05:12 de Madrid y a las
+ocho tienes el vídeo en YouTube Studio, en privado, esperando a que lo revises.
+
+La cadena entera dura unas dos horas y media:
+
+| | | |
+|---|---|---|
+| 1 | Coge el primer tema de `content/cola.json` | |
+| 2 | Lo investiga con búsqueda web y guarda la ficha en `content/fichas/` | ~3 min |
+| 3 | Escribe el guion y lo valida contra lo que el montaje sabe dibujar | ~4 min |
+| 4 | Lo locuta con la voz clonada | ~25 min |
+| 5 | Lo renderiza y lo masteriza a −14 LUFS | ~50 min |
+| 6 | Lo sube al canal **en privado** | ~3 min |
+| 7 | Archiva el guion y avanza la cola | |
+
+Nada se publica solo. El vídeo queda privado: solo lo ves tú, y se hace público
+con un clic cuando lo has visto entero.
+
+### Secretos que necesita
+
+En *Settings > Secrets and variables > Actions*:
+
+| Secreto | Para qué |
+|---|---|
+| `ANTHROPIC_API_KEY` | investigar y escribir el guion |
+| `AI33_API_KEY` | locutar con la voz clonada |
+| `YT_CLIENT_ID` `YT_CLIENT_SECRET` `YT_REFRESH_TOKEN` | subir al canal |
+
+Los tres de YouTube salen de un solo comando, una sola vez:
+
+```bash
+node scripts/youtube-token.mjs
+```
+
+La cabecera de `scripts/youtube-token.mjs` explica los cuatro clics previos en
+Google Cloud. **Publica la aplicación**: si la dejas en modo prueba, Google
+caduca el permiso a los siete días y esto se para solo.
+
+### La cola
+
+`content/cola.json` manda. El flujo coge `cola[0]`, y al terminar lo mueve a
+`hechos` con la fecha. Reordena el fichero cuando quieras: mañana sale el que
+hayas puesto primero. Cuando la cola se vacía, el flujo falla avisando.
+
+### Probar sin esperar a mañana
+
+Desde *Actions > Vídeo diario > Run workflow*. Puedes forzar un tema con su
+slug, y desmarcar *subir* para que solo deje el MP4 en los artefactos.
+
+Para ver si un guion es montable antes de gastar créditos:
+
+```bash
+npm run probar-guion
+```
+
+### Lo que conviene vigilar
+
+**Minutos de Actions.** Un vídeo diario gasta unos 80 minutos de máquina. El
+plan gratuito da 2.000 al mes para repositorios privados, así que la cuenta
+sale justa: alrededor del día 25 se agota. Si pasa, o se pagan los minutos de
+más, o se baja a días alternos cambiando el `cron`.
+
+**Créditos de ai33.** Unos 18.000 por vídeo. Es el gasto grande de todo esto.
+
+**Peso del repositorio.** Los mp3 de cada vídeo se guardan para poder
+re-renderizar sin volver a pagar la locución. Son unos 5 MB por vídeo, 150 MB
+al mes. Cuando estorbe, se borran los de los vídeos ya publicados.
