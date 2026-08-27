@@ -145,21 +145,23 @@ jobs:
           echo "portada en el fotograma $F"
           npx remotion still diario out/portada.png --frame=$F
 
-      # ---- 4. Al canal ----------------------------------------------------
+      # ---- 4. El resumen del dia -------------------------------------------
+      - name: Dejar dicho qué ha salido
+        run: node scripts/resumen.mjs out/diario-master.mp4 content/diario.json
+
+      # El video se descarga a mano, asi que este paso se salta solo mientras
+      # no existan los secretos de YouTube. El dia que los pongas, empieza a
+      # subir sin tocar nada mas.
       - name: Subir al canal en privado
         id: subida
-        # En una ejecucion programada no hay "inputs", y GitHub convierte lo
-        # vacio a cero igual que a false: "inputs.subir != false" seria falso
-        # y no subiria nada justo los dias que importa.
-        if: ${{ github.event_name == 'schedule' || inputs.subir }}
+        if: ${{ secrets.YT_REFRESH_TOKEN != '' && (github.event_name == 'schedule' || inputs.subir) }}
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png
 
-      # El MP4 queda también aquí treinta días. Es la red de seguridad: si la
-      # subida falla, el vídeo no se pierde y lo subes tú desde Studio.
+      # Aquí es donde recoges el vídeo cada mañana. Treinta días disponible.
       - uses: actions/upload-artifact@v4
         if: always()
         with:

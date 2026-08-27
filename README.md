@@ -107,10 +107,11 @@ Para que la locución funcione en la nube hay que crear el secreto
 
 ## El vídeo de cada mañana
 
-`.github/workflows/diario.yml` se despierta solo a las 05:12 de Madrid y a las
-ocho tienes el vídeo en YouTube Studio, en privado, esperando a que lo revises.
+`.github/workflows/diario.yml` se despierta solo a las 05:12 de Madrid. Sobre
+las siete y media el vídeo está listo para descargar en la pestaña *Actions*,
+dentro de la ejecución de ese día, en **Artifacts**.
 
-La cadena entera dura unas dos horas y media:
+La cadena entera dura unas dos horas y cuarto:
 
 | | | |
 |---|---|---|
@@ -119,11 +120,10 @@ La cadena entera dura unas dos horas y media:
 | 3 | Escribe el guion y lo valida contra lo que el montaje sabe dibujar | ~4 min |
 | 4 | Lo locuta con la voz clonada | ~25 min |
 | 5 | Lo renderiza y lo masteriza a −14 LUFS | ~50 min |
-| 6 | Lo sube al canal **en privado** | ~3 min |
-| 7 | Archiva el guion y avanza la cola | |
+| 6 | Archiva el guion y avanza la cola | |
 
-Nada se publica solo. El vídeo queda privado: solo lo ves tú, y se hace público
-con un clic cuando lo has visto entero.
+En el resumen de la ejecución tienes, además del MP4, el título, la
+descripción y las etiquetas listos para copiar y pegar en YouTube Studio.
 
 ### Secretos que necesita
 
@@ -133,17 +133,6 @@ En *Settings > Secrets and variables > Actions*:
 |---|---|
 | `ANTHROPIC_API_KEY` | investigar y escribir el guion |
 | `AI33_API_KEY` | locutar con la voz clonada |
-| `YT_CLIENT_ID` `YT_CLIENT_SECRET` `YT_REFRESH_TOKEN` | subir al canal |
-
-Los tres de YouTube salen de un solo comando, una sola vez:
-
-```bash
-node scripts/youtube-token.mjs
-```
-
-La cabecera de `scripts/youtube-token.mjs` explica los cuatro clics previos en
-Google Cloud. **Publica la aplicación**: si la dejas en modo prueba, Google
-caduca el permiso a los siete días y esto se para solo.
 
 ### La cola
 
@@ -151,10 +140,13 @@ caduca el permiso a los siete días y esto se para solo.
 `hechos` con la fecha. Reordena el fichero cuando quieras: mañana sale el que
 hayas puesto primero. Cuando la cola se vacía, el flujo falla avisando.
 
+Si un día algo se rompe, la cola **no** avanza: al día siguiente se reintenta
+el mismo tema.
+
 ### Probar sin esperar a mañana
 
 Desde *Actions > Vídeo diario > Run workflow*. Puedes forzar un tema con su
-slug, y desmarcar *subir* para que solo deje el MP4 en los artefactos.
+slug.
 
 Para ver si un guion es montable antes de gastar créditos:
 
@@ -162,15 +154,23 @@ Para ver si un guion es montable antes de gastar créditos:
 npm run probar-guion
 ```
 
-### Lo que conviene vigilar
+### Cuánto da de sí el mes
 
-**Minutos de Actions.** Un vídeo diario gasta unos 80 minutos de máquina. El
-plan gratuito da 2.000 al mes para repositorios privados, así que la cuenta
-sale justa: alrededor del día 25 se agota. Si pasa, o se pagan los minutos de
-más, o se baja a días alternos cambiando el `cron`.
+Un vídeo gasta unos **75 minutos** de máquina. El plan gratuito da 2.000 al
+mes en repositorios privados, así que salen **unos 26 vídeos**: los últimos
+días de cada mes se para solo y vuelve el día 1. Si quieres los treinta, hay
+que pagar los minutos de más.
 
-**Créditos de ai33.** Unos 18.000 por vídeo. Es el gasto grande de todo esto.
+En créditos de ai33 son unos **18.000 por vídeo**. Ese es el gasto de verdad.
 
-**Peso del repositorio.** Los mp3 de cada vídeo se guardan para poder
-re-renderizar sin volver a pagar la locución. Son unos 5 MB por vídeo, 150 MB
-al mes. Cuando estorbe, se borran los de los vídeos ya publicados.
+Los mp3 de cada vídeo se guardan para poder re-renderizar sin volver a pagar
+la locución: unos 5 MB por vídeo, 150 MB al mes. Cuando estorbe, se borran los
+de los vídeos ya publicados.
+
+### Si algún día quieres que suba solo
+
+Está hecho y se salta solo mientras no existan los secretos. `scripts/subir.mjs`
+sube el vídeo al canal **en privado**, y los tres secretos que necesita salen
+de `node scripts/youtube-token.mjs`. Un aviso antes de meterte: YouTube deja
+bloqueados como privados los vídeos subidos por una API sin auditar, así que
+hasta pasar su auditoría no podrías publicarlos. Por eso hoy los descargas.
