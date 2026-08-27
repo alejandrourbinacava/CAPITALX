@@ -86,6 +86,10 @@ jobs:
     timeout-minutes: 330
     permissions:
       contents: write
+    # "secrets" no existe dentro de un "if" de paso; "env" si. Asi se puede
+    # preguntar si el secreto esta puesto sin ensenar su valor.
+    env:
+      HAY_YOUTUBE: ${{ secrets.YT_REFRESH_TOKEN != '' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -176,7 +180,7 @@ jobs:
       # subir sin tocar nada mas.
       - name: Subir al canal en privado
         id: subida
-        if: ${{ secrets.YT_REFRESH_TOKEN != '' && (github.event_name == 'schedule' || inputs.subir) }}
+        if: ${{ env.HAY_YOUTUBE == 'true' && (github.event_name == 'schedule' || inputs.subir) }}
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
