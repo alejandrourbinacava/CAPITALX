@@ -130,7 +130,7 @@ jobs:
           git config user.name "capital-x-bot"
           git config user.email "actions@github.com"
           git add content/fichas 2>/dev/null || true
-          git diff --cached --quiet || { git commit -m "Ficha de datos"; git pull --rebase -q; git push; }
+          git diff --cached --quiet || { git commit -m "Ficha de datos"; git pull --rebase --autostash -q; git push; }
 
       - name: Guardar el guion para revisarlo
         if: ${{ inputs.solo_guion }}
@@ -139,7 +139,7 @@ jobs:
           git config user.email "actions@github.com"
           git add content/diario.json content/diario.timings.json content/fichas
           git commit -m "Guion de prueba, sin locutar" || echo "sin cambios"
-          git pull --rebase -q
+          git pull --rebase --autostash -q
           git push
           echo "### Guion escrito, sin locutar" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
