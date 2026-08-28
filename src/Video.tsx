@@ -32,9 +32,54 @@ type TagSpec = {
   size?: number;
 };
 
+/**
+ * La parte visual, sin nada de audio.
+ *
+ * Un plano dura lo que dura su locucion, y eso son once segundos de media:
+ * demasiado para quedarse mirando el mismo dibujo. Asi que un plano puede
+ * traer varias `escenas`, que se reparten esa duracion. La voz sigue siendo
+ * una sola frase continua, con su entonacion intacta, pero por debajo la
+ * imagen cambia cada dos o tres segundos. Es como funciona el montaje al que
+ * nos parecemos: el texto manda y la imagen le va siguiendo el paso.
+ */
+export type Visual = {
+  tipo: string;
+  night?: boolean;
+  encuadre?: "amplio" | "corto";
+  camara?: "push" | "pull" | "panL" | "panR" | "estatico";
+  kicker?: string;
+  fuente?: string;
+  texto?: string;
+  estatico?: boolean;
+  tags?: TagSpec[];
+  anillo?: { cx: number; cy: number; rx: number; ry: number };
+  gente?: {
+    total: number;
+    destacados: number;
+    escala: number;
+    etiqueta?: string;
+    etiquetaDestacados?: string;
+  };
+  de?: { valor: number; etiqueta: string };
+  a?: { valor: number; etiqueta: string };
+  objeto?: string;
+  amanecer?: boolean;
+  barras?: any;
+  lineas?: any;
+  mapa?: any;
+  lista?: any;
+  cierre?: any;
+  retrato?: any;
+  rotulo?: { kicker?: string; texto: string };
+};
+
+/** Una escena dentro de un plano. `peso` reparte la duracion; por defecto 1. */
+export type Escena = Visual & { peso?: number };
+
 export type Plano = {
   id: string;
   tipo: string;
+  escenas?: Escena[];
   night?: boolean;
   encuadre?: "amplio" | "corto";
   camara?: "push" | "pull" | "panL" | "panR" | "estatico";
@@ -87,6 +132,42 @@ export const duracionesDe = (g: Guion, t: Tiempos) =>
 
 export const duracionTotalDe = (g: Guion, t: Tiempos) =>
   duracionesDe(g, t).reduce((a, b) => a + b, 0);
+
+/** Lo que dura como poco una escena. Por debajo de esto no se lee nada. */
+const MINIMO = Math.round(1.1 * VIDEO.fps);
+
+/**
+ * Reparte la duracion del plano entre sus escenas.
+ *
+ * El reparto va por `peso`, y los restos de la division se le dan a la
+ * ultima, para que la suma cuadre al fotograma con la locucion. Si alguna
+ * escena saliera demasiado corta para leerse, se descartan las sobrantes
+ * antes que dejar parpadeos.
+ */
+export const repartir = (
+  p: Plano,
+  total: number
+): { escena: Visual; desde: number; largo: number; solo: boolean }[] => {
+  const es = p.escenas ?? [];
+  if (es.length < 2) return [{ escena: es[0] ?? p, desde: 0, largo: total, solo: true }];
+
+  const caben = Math.max(1, Math.min(es.length, Math.floor(total / MINIMO)));
+  const usadas = es.slice(0, caben);
+  if (usadas.length < 2) return [{ escena: usadas[0], desde: 0, largo: total, solo: true }];
+
+  const pesos = usadas.map((e) => Math.max(0.4, e.peso ?? 1));
+  const suma = pesos.reduce((a, b) => a + b, 0);
+
+  const out = [];
+  let desde = 0;
+  for (let i = 0; i < usadas.length; i++) {
+    const largo =
+      i === usadas.length - 1 ? total - desde : Math.max(MINIMO, Math.round((pesos[i] / suma) * total));
+    out.push({ escena: usadas[i], desde, largo, solo: false });
+    desde += largo;
+  }
+  return out;
+};
 
 /** Un efecto disparado en el segundo `at` dentro del plano. */
 const Sfx: React.FC<{ at: number; src: string; vol?: number }> = ({ at, src, vol = 0.3 }) => {
@@ -154,7 +235,7 @@ const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
 };
 
 /** Movimiento de camara del plano completo. Nunca dos seguidos iguales. */
-const Camara: React.FC<{ modo: Plano["camara"]; children: React.ReactNode }> = ({
+const Camara: React.FC<{ modo: Visual["camara"]; children: React.ReactNode }> = ({
   modo = "estatico",
   children,
 }) => {
@@ -175,7 +256,7 @@ const Camara: React.FC<{ modo: Plano["camara"]; children: React.ReactNode }> = (
   );
 };
 
-const Contador: React.FC<{ p: Plano }> = ({ p }) => {
+const Contador: React.FC<{ p: Visual }> = ({ p }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const t = p.estatico
@@ -222,7 +303,7 @@ const Contador: React.FC<{ p: Plano }> = ({ p }) => {
   );
 };
 
-const PlanoView: React.FC<{ p: Plano }> = ({ p }) => {
+const PlanoView: React.FC<{ p: Visual }> = ({ p }) => {
   const night = p.tipo === "dublin" || ((p.tipo === "frase" || p.tipo === "lista") && !!p.night);
 
   return (
@@ -311,7 +392,20 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
         cursor += duraciones[i];
         return (
           <Sequence key={p.id} from={from} durationInFrames={duraciones[i]} name={p.id}>
-            <PlanoView p={p} />
+            {/* La locucion y los efectos van al plano entero; la imagen se
+                trocea por debajo sin tocar el audio. */}
+            {repartir(p, duraciones[i]).map((t, k) => (
+              <Sequence
+                key={k}
+                from={t.desde}
+                durationInFrames={t.largo}
+                name={t.solo ? p.id : `${p.id}.${k + 1}`}
+              >
+                <PlanoView p={t.escena} />
+                {/* cada cambio de imagen suena, o el corte se nota vacio */}
+                {k > 0 ? <Sfx at={0} src="papel" vol={0.22} /> : null}
+              </Sequence>
+            ))}
             {tiempos[p.id] ? <Audio src={staticFile(tiempos[p.id].audio)} /> : null}
             {sfxDePlano(p).map((s, k) => (
               <Sfx key={k} at={s.at} src={s.src} vol={s.vol} />

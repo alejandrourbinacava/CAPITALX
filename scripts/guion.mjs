@@ -194,13 +194,61 @@ Cada plano:
 
 {
   "id": "b0-01",
-  "tipo": "<uno de la lista>",
-  "vo": "<lo que dice la voz>",
+  "vo": "<lo que dice la voz. Una frase seguida, con su entonación entera>",
   "voz": { "speed": 1.0 },
-  "kicker": "<opcional: rótulo pequeño arriba>",
-  "fuente": "<obligatorio en todo plano con una cifra>",
-  "rotulo": { "kicker": "<opcional>", "texto": "Texto con *lo resaltado* entre asteriscos" }
+  "escenas": [ ... ]
 }
+
+# Las escenas, que es lo que marca el ritmo
+
+Un plano dura lo que dura su locución: unos once segundos. Nadie aguanta once segundos mirando el mismo dibujo, así que **cada plano se parte en varias escenas** que se reparten ese tiempo. La voz sigue siendo una sola frase continua; lo que cambia por debajo es la imagen, cada dos o tres segundos.
+
+Es la regla más importante de todo este documento. Un plano de once segundos con una sola imagen es un plano mal escrito.
+
+Cuántas escenas: **una por cada 45 caracteres de "vo"**, mínimo dos y máximo seis.
+
+    "vo" de 90 caracteres  → 2 escenas
+    "vo" de 140 caracteres → 3 escenas
+    "vo" de 180 caracteres → 4 escenas
+    "vo" de 230 caracteres → 5 escenas
+
+Cada escena lleva su "tipo" y lo que ese tipo necesite, exactamente igual que antes. Puede llevar además "kicker", "fuente", "rotulo", "tags" y "camara" propios:
+
+{
+  "id": "b2-03",
+  "vo": "En dos mil diez debía cincuenta y tres mil millones. En dos mil dieciocho, ciento cinco mil. Se duplicó en ocho años, mientras el Estado se llevaba la caja.",
+  "voz": { "speed": 0.98 },
+  "escenas": [
+    { "tipo": "barras", "kicker": "DEUDA · 2010-2018", "fuente": "Columbia SIPA",
+      "barras": { "unidad": "miles de millones de USD",
+        "datos": [ { "etiqueta": "2010", "valor": 53.7, "tono": "ink", "decimales": 1 },
+                   { "etiqueta": "2018", "valor": 105, "tono": "carmin" } ] } },
+    { "tipo": "objeto", "objeto": "balanza", "camara": "push",
+      "rotulo": { "texto": "Se *duplicó* en ocho años" } },
+    { "tipo": "frase", "texto": "El Estado se llevaba *la caja*.", "night": true }
+  ]
+}
+
+Reglas de las escenas:
+
+- **Dos escenas seguidas nunca son del mismo "tipo".** Alterna gráfico, frase, objeto, mapa, retrato.
+- La primera escena es la que sostiene el dato. Las siguientes lo desarrollan, lo ilustran o lo rematan.
+- El "fuente" va en la escena donde se ve la cifra, no en todas.
+- "peso" es opcional y sirve para que una escena dure más que sus hermanas. Úsalo poco: por defecto reparten a partes iguales.
+- El plano ya no lleva "tipo" ni campos visuales propios: todo eso vive dentro de "escenas". La única excepción es el plano de tipo "cierre", que va suelto.
+
+# Los elementos que entran y salen: "tags"
+
+Cualquier escena puede llevar etiquetas que aparecen y desaparecen encima del dibujo. Es lo que llena la pantalla y lo que hace que no parezca una diapositiva.
+
+"tags": [
+  { "t": "77.500 M$", "x": 22, "y": 30, "in": 0.4, "tone": "carmin", "anim": "pop" },
+  { "t": "−9,1 % en 6 meses", "x": 64, "y": 62, "in": 1.1, "tone": "ocre", "anim": "slideL" }
+]
+
+"x" e "y" van en porcentaje de la pantalla. "in" y "out" en segundos desde que empieza la escena. "tone" es ocre, carmin, ink o paper. "anim" puede ser "pop", "slideL", "slideR", "slideUp", "wipeX", "grow" o "fade".
+
+**Pon tags en la mayoría de las escenas.** Dos o tres por escena, entrando escalonadas. Sin ellas la pantalla se ve vacía, que es la queja más repetida sobre este canal.
 
 # Tipos de plano y lo que necesita cada uno
 
@@ -334,6 +382,93 @@ async function redactar(tema, ficha, correcciones = null) {
 }
 
 /* ------------------------------------------------------------------ */
+/*  2b. Reescenificar                                                  */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Le pone escenas a un guion que ya esta locutado, sin tocar ni una coma.
+ *
+ * Los mp3 cuestan veinte mil creditos y estan atados al texto y al id de cada
+ * plano. Cuando lo que falla es la imagen y no lo escrito, rehacer el guion
+ * entero seria tirar ese dinero: aqui solo se sustituye la parte visual.
+ *
+ * Va por tandas de seis planos porque una peticion con los setenta y cinco de
+ * golpe se queda sin espacio de respuesta y devuelve el JSON cortado.
+ */
+async function reescenificar(doc) {
+  const planos = doc.bloques.flatMap((b) => b.planos);
+  const conEscenas = new Map();
+  const TANDA = 6;
+
+  const claves = {
+    europa: REGIONES.europa(),
+    norteamerica: REGIONES.norteamerica(),
+    asia: REGIONES.asia(),
+  };
+
+  for (let i = 0; i < planos.length; i += TANDA) {
+    const tanda = planos.slice(i, i + TANDA);
+    process.stdout.write(`  planos ${i + 1}-${i + tanda.length} de ${planos.length} … `);
+
+    const { texto } = await claude({
+      system: sistemaRedactar(),
+      maxTokens: 16000,
+      mensajes: [
+        {
+          role: "user",
+          content: [
+            `Estos planos ya están locutados: el texto y los identificadores NO se tocan.`,
+            `Tu único trabajo es devolver las "escenas" de cada uno, siguiendo las reglas de ritmo.`,
+            ``,
+            `CLAVES DE PAÍS: europa → ${claves.europa.join(", ")}`,
+            `norteamerica → ${claves.norteamerica.join(", ")}`,
+            `asia → ${claves.asia.join(", ")}`,
+            `OBJETOS: ${OBJETOS_OFRECIDOS.join(", ")}`,
+            ``,
+            `Lo que había antes en cada plano te sirve de punto de partida: normalmente`,
+            `esa era la primera escena y le faltaban las siguientes.`,
+            ``,
+            JSON.stringify(tanda, null, 1),
+            ``,
+            `Devuelve SOLO un JSON con esta forma, dentro de un bloque \`\`\`json:`,
+            `{ "b0-01": [ {escena}, {escena}, ... ], "b0-02": [ ... ] }`,
+            ``,
+            `Una entrada por cada plano de arriba, con su id exacto. Nada más.`,
+          ].join("\n"),
+        },
+      ],
+    });
+
+    const m = texto.match(/```json\s*([\s\S]*?)```/) || texto.match(/(\{[\s\S]*\})/);
+    if (!m) throw new Error("la respuesta no traía JSON:\n" + texto.slice(0, 400));
+    const lote = JSON.parse(m[1]);
+    let n = 0;
+    for (const [id, escenas] of Object.entries(lote)) {
+      if (Array.isArray(escenas) && escenas.length) {
+        conEscenas.set(id, escenas);
+        n += escenas.length;
+      }
+    }
+    console.log(`${n} escenas`);
+  }
+
+  // Se monta el guion nuevo conservando id, vo y voz intactos.
+  for (const p of planos) {
+    const es = conEscenas.get(p.id);
+    if (!es) {
+      console.warn(`  AVISO: ${p.id} se queda sin escenas, mantiene la imagen que tenía`);
+      continue;
+    }
+    for (const k of Object.keys(p)) {
+      if (!["id", "vo", "voz"].includes(k)) delete p[k];
+    }
+    p.tipo = es[0].tipo;
+    p.escenas = es;
+  }
+  return doc;
+}
+
+/* ------------------------------------------------------------------ */
 /*  3. Validar                                                         */
 /* ------------------------------------------------------------------ */
 
@@ -344,6 +479,64 @@ async function redactar(tema, ficha, correcciones = null) {
  * al renderizar: sale un cuadro vacio con la voz sonando encima. Eso solo se
  * descubre viendo el video terminado, hora y media despues.
  */
+
+/**
+ * Revisa lo que dibuja un tipo: sirve igual para un plano suelto que para
+ * una escena de dentro de un plano, porque pintan exactamente lo mismo.
+ */
+function revisarVisual(p, di) {
+  const donde = p.id ?? "(sin id)";
+  if (!TIPOS.includes(p.tipo)) {
+    di(`${donde}: tipo "${p.tipo}" no existe. Los válidos: ${TIPOS.join(", ")}`);
+    return;
+  }
+  if (p.tipo === "mapa") {
+    const r = p.mapa?.region ?? "europa";
+    if (!REGIONES[r]) di(`${donde}: región "${r}" no existe. Las válidas: europa, norteamerica, asia`);
+    else {
+      const claves = REGIONES[r]();
+      for (const k of p.mapa.destaca ?? []) {
+        if (!claves.includes(k)) di(`${donde}: "${k}" no está en la región ${r}. Disponibles: ${claves.join(", ")}`);
+      }
+    }
+  }
+  if (p.tipo === "objeto" && !OBJETOS.includes(p.objeto)) {
+    di(`${donde}: objeto "${p.objeto}" no existe. Los válidos: ${OBJETOS.join(", ")}`);
+  }
+  if (p.tipo === "barras") {
+    const d = p.barras?.datos;
+    if (!Array.isArray(d) || !d.length) di(`${donde}: 'barras.datos' está vacío`);
+    else for (const b of d) if (typeof b.valor !== "number") di(`${donde}: la barra "${b.etiqueta}" no tiene valor numérico`);
+  }
+  if (p.tipo === "lineas") {
+    for (const s of p.lineas?.series ?? []) {
+      if (!Array.isArray(s.puntos) || s.puntos.length < 2) {
+        di(`${donde}: la serie "${s.nombre}" necesita al menos dos puntos`);
+      }
+    }
+    if (!p.lineas?.series?.length) di(`${donde}: 'lineas.series' vacío`);
+  }
+  if (p.tipo === "contador" && (!p.a || typeof p.a.valor !== "number")) {
+    di(`${donde}: 'contador' necesita 'a': { valor, etiqueta }`);
+  }
+  if (p.tipo === "gente") {
+    const g = p.gente;
+    if (!g || typeof g.total !== "number" || typeof g.destacados !== "number") {
+      di(`${donde}: 'gente' necesita 'total' y 'destacados' numéricos`);
+    }
+  }
+  if (p.tipo === "lista") {
+    const n = p.lista?.puntos?.length ?? 0;
+    if (n < 2 || n > 4) di(`${donde}: la lista necesita entre dos y cuatro puntos (tiene ${n})`);
+  }
+  if (p.tipo === "frase" && !p.texto) di(`${donde}: 'frase' necesita 'texto'`);
+  if (p.tipo === "retrato") {
+    if (!p.retrato?.nombre) di(`${donde}: 'retrato' necesita 'nombre'`);
+    if (p.retrato?.foto) di(`${donde}: quita 'foto'. Las fotos se preparan a mano con la licencia comprobada.`);
+  }
+  if (p.tipo === "cierre" && !p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
+}
+
 function validar(doc, tema) {
   const fallos = [];
   const di = (c) => fallos.push(c);
@@ -359,11 +552,40 @@ function validar(doc, tema) {
   const vistos = new Set();
   let chars = 0;
 
+  // El ritmo es lo primero que se mira. Un plano de once segundos con una
+  // sola imagen es el fallo que hace que el video se sienta lento, y no se
+  // arregla despues: hay que escribirlo troceado desde el principio.
+  let escenasTotales = 0;
+  for (const p of planos) {
+    if (p.tipo === "cierre") continue;
+    const n = (p.escenas ?? []).length;
+    escenasTotales += Math.max(n, 1);
+    const hacen = Math.min(6, Math.max(2, Math.ceil((p.vo?.length ?? 0) / 45)));
+    if (n < hacen) {
+      di(
+        `${p.id}: ${n === 0 ? "no tiene 'escenas'" : `solo tiene ${n} escenas`}. ` +
+          `Con ${p.vo?.length ?? 0} caracteres de locución hacen falta ${hacen}, ` +
+          `o la imagen se queda quieta ${((p.vo?.length ?? 0) / 15.8 / Math.max(n, 1)).toFixed(0)} segundos.`
+      );
+    }
+    for (let i = 1; i < (p.escenas ?? []).length; i++) {
+      if (p.escenas[i].tipo === p.escenas[i - 1].tipo) {
+        di(`${p.id}: las escenas ${i} y ${i + 1} son las dos "${p.escenas[i].tipo}". Cambia una.`);
+      }
+    }
+  }
+
   for (const p of planos) {
     const donde = p.id || "(plano sin id)";
     if (!p.id) di("hay un plano sin 'id'");
     else if (vistos.has(p.id)) di(`el id ${p.id} está repetido`);
     vistos.add(p.id);
+
+    // Cada escena se valida como si fuera un plano: lo que dibuja es lo mismo.
+    for (const [i, e] of (p.escenas ?? []).entries()) {
+      revisarVisual({ ...e, id: `${p.id}, escena ${i + 1}` }, di);
+    }
+    if (p.escenas?.length) continue;
 
     if (!TIPOS.includes(p.tipo)) di(`${donde}: tipo "${p.tipo}" no existe. Los válidos: ${TIPOS.join(", ")}`);
     if (!p.vo || typeof p.vo !== "string") di(`${donde}: falta 'vo'`);
@@ -377,51 +599,7 @@ function validar(doc, tema) {
     const v = p.voz?.speed;
     if (v !== undefined && (v < 0.88 || v > 1.08)) di(`${donde}: 'speed' ${v} fuera del rango 0,88 a 1,08`);
 
-    if (p.tipo === "mapa") {
-      const r = p.mapa?.region ?? "europa";
-      if (!REGIONES[r]) di(`${donde}: región "${r}" no existe. Las válidas: europa, norteamerica, asia`);
-      else {
-        const claves = REGIONES[r]();
-        for (const k of p.mapa.destaca ?? []) {
-          if (!claves.includes(k)) di(`${donde}: "${k}" no está en la región ${r}. Disponibles: ${claves.join(", ")}`);
-        }
-      }
-    }
-    if (p.tipo === "objeto" && !OBJETOS.includes(p.objeto)) {
-      di(`${donde}: objeto "${p.objeto}" no existe. Los válidos: ${OBJETOS.join(", ")}`);
-    }
-    if (p.tipo === "barras") {
-      const d = p.barras?.datos;
-      if (!Array.isArray(d) || !d.length) di(`${donde}: 'barras.datos' está vacío`);
-      else for (const b of d) if (typeof b.valor !== "number") di(`${donde}: la barra "${b.etiqueta}" no tiene valor numérico`);
-    }
-    if (p.tipo === "lineas") {
-      for (const s of p.lineas?.series ?? []) {
-        if (!Array.isArray(s.puntos) || s.puntos.length < 2) {
-          di(`${donde}: la serie "${s.nombre}" necesita al menos dos puntos`);
-        }
-      }
-      if (!p.lineas?.series?.length) di(`${donde}: 'lineas.series' vacío`);
-    }
-    if (p.tipo === "contador" && (!p.a || typeof p.a.valor !== "number")) {
-      di(`${donde}: 'contador' necesita 'a': { valor, etiqueta }`);
-    }
-    if (p.tipo === "gente") {
-      const g = p.gente;
-      if (!g || typeof g.total !== "number" || typeof g.destacados !== "number") {
-        di(`${donde}: 'gente' necesita 'total' y 'destacados' numéricos`);
-      }
-    }
-    if (p.tipo === "lista") {
-      const n = p.lista?.puntos?.length ?? 0;
-      if (n < 2 || n > 4) di(`${donde}: la lista necesita entre dos y cuatro puntos (tiene ${n})`);
-    }
-    if (p.tipo === "frase" && !p.texto) di(`${donde}: 'frase' necesita 'texto'`);
-    if (p.tipo === "retrato") {
-      if (!p.retrato?.nombre) di(`${donde}: 'retrato' necesita 'nombre'`);
-      if (p.retrato?.foto) di(`${donde}: quita 'foto'. Las fotos se preparan a mano con la licencia comprobada.`);
-    }
-    if (p.tipo === "cierre" && !p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
+    revisarVisual(p, di);
   }
 
   // Ritmo. Tres graficos seguidos matan el plano; tres frases seguidas, en
@@ -472,6 +650,28 @@ async function main() {
 
   const args = process.argv.slice(2);
   const pedido = args.includes("--tema") ? args[args.indexOf("--tema") + 1] : null;
+
+  // Solo cambiar la imagen de un guion ya locutado, sin gastar creditos.
+  if (args.includes("--reescenificar")) {
+    const ruta = args[args.indexOf("--reescenificar") + 1] || "content/diario.json";
+    const doc = leerJson(ruta);
+    console.log(`reescenificando ${doc.titulo}`);
+    const nuevo = await reescenificar(doc);
+
+    const fallos = validar(nuevo, { slug: nuevo.slug }).filter((f) => !/caracteres|publicacion|descripción|etiquetas/.test(f));
+    if (fallos.length) {
+      console.log(`\n${fallos.length} cosas sin cuadrar:`);
+      for (const f of fallos.slice(0, 20)) console.log(`  · ${f}`);
+    }
+
+    fs.writeFileSync(ruta, JSON.stringify(nuevo, null, 2));
+    const ps = nuevo.bloques.flatMap((b) => b.planos);
+    const total = ps.reduce((n, p) => n + (p.escenas?.length ?? 1), 0);
+    console.log(`\n${ps.length} planos · ${total} escenas · ${(total / ps.length).toFixed(1)} por plano`);
+    console.log(`la locución no se ha tocado: cero créditos`);
+    console.log(`en ${ruta}`);
+    return;
+  }
 
   const cola = leerJson("content/cola.json");
   const tema = pedido ? cola.cola.find((t) => t.slug === pedido) : cola.cola[0];

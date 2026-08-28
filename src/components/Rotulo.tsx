@@ -203,7 +203,13 @@ export const BigNumber: React.FC<{
  * el plano, cada palabra sube escalonada, y el resalte ocre se despliega de
  * izquierda a derecha por debajo del texto en vez de aparecer de golpe.
  */
-export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, night = true }) => {
+/**
+ * El fondo lo decide Surface con `!!p.night`, asi que aqui el valor por
+ * defecto tiene que ser el mismo. Cuando era `true`, un plano que no
+ * declaraba `night` salia con letra blanca sobre papel: invisible. Los
+ * guiones escritos a mano siempre lo declaraban y por eso no se veia venir.
+ */
+export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, night = false }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
 
