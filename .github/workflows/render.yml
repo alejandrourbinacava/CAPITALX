@@ -18,6 +18,9 @@ on:
         default: "80"
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -84,6 +87,21 @@ jobs:
               -of default=nw=1 "out/${{ inputs.video }}-master.mp4"
           } >> "$GITHUB_STEP_SUMMARY"
 
+      # Los artefactos de Actions comparten 500 MB para toda la cuenta y un
+      # video son ochenta. Los ficheros de una publicacion van a otro almacen.
+      - name: Publicar el vídeo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SLUG=$(node -e "console.log(require('./content/${{ inputs.video }}.json').slug)")
+          TITULO=$(node -e "const d=require('./content/${{ inputs.video }}.json');console.log(d.publicacion?.titulo||d.titulo)")
+          ETIQUETA="video-$SLUG"
+          cp "out/${{ inputs.video }}-master.mp4" "out/$SLUG.mp4"
+          gh release delete "$ETIQUETA" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$ETIQUETA" "out/$SLUG.mp4" --title "$TITULO" --notes "Renderizado a mano desde content/${{ inputs.video }}.json"
+          echo "## $TITULO" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "[Descargar el vídeo]($(gh release view "$ETIQUETA" --json url --jq .url))" >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ inputs.video }}-master

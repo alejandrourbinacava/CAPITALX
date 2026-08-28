@@ -239,32 +239,35 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png
 
-      # El plan gratuito da 500 MB de artefactos para toda la cuenta, y un
-      # video son ochenta. Se borran los diarios viejos antes de subir el de
-      # hoy; los de irlanda, noruega, mexico y corea no se tocan.
-      - name: Hacer sitio borrando los diarios viejos
-        if: ${{ always() && !inputs.solo_guion }}
-        continue-on-error: true
+      # Los artefactos de Actions comparten 500 MB para toda la cuenta y un
+      # video son ochenta: se llena en menos de una semana. Los ficheros de una
+      # publicacion van a otro almacen, mucho mas holgado, y ademas se
+      # descargan de una pagina propia en vez de rebuscando en Actions.
+      - name: Publicar el vídeo
+        id: entrega
+        if: ${{ always() && !inputs.solo_guion && hashFiles('out/diario-master.mp4') != '' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          IDS=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" --jq '.artifacts[] | select(.name | startswith("diario-")) | .id')
-          for ID in $IDS; do
-            echo "borro el artefacto $ID"
-            gh api -X DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$ID" || true
-          done
+          ETIQUETA="video-${{ needs.decidir.outputs.fecha }}"
+          SLUG=$(node -e "console.log(require('./content/diario.json').slug)")
+          TITULO=$(node -e "const d=require('./content/diario.json');console.log(d.publicacion?.titulo||d.titulo)")
+          mv out/diario-master.mp4 "out/$SLUG.mp4"
 
-      # Aquí es donde recoges el vídeo cada mañana.
-      - uses: actions/upload-artifact@v4
-        if: ${{ always() && !inputs.solo_guion }}
-        continue-on-error: true
-        with:
-          name: diario-${{ needs.decidir.outputs.fecha }}
-          path: |
-            out/diario-master.mp4
-            out/portada.png
-          retention-days: 7
-          compression-level: 0
+          gh release delete "$ETIQUETA" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$ETIQUETA" "out/$SLUG.mp4" out/portada.png \
+            --title "$TITULO" \
+            --notes "Vídeo del ${{ needs.decidir.outputs.fecha }}. El texto para YouTube está en el resumen de la ejecución."
+
+          echo "url=$(gh release view "$ETIQUETA" --json url --jq .url)" >> "$GITHUB_OUTPUT"
+
+          # Dejar solo las tres ultimas, que ocupan lo suyo
+          gh release list --limit 100 --json tagName --jq '.[].tagName' \
+            | grep '^video-' | sort -r | tail -n +4 \
+            | while read -r VIEJA; do
+                echo "borro la publicación $VIEJA"
+                gh release delete "$VIEJA" --yes --cleanup-tag || true
+              done
 
       # ---- 5. Archivar y avanzar la cola ----------------------------------
       - name: Guardar el trabajo y pasar al siguiente tema
