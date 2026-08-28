@@ -479,11 +479,23 @@ async function main() {
 
   console.log(`tema: ${tema.titulo}`);
 
-  console.log("\ninvestigando…");
-  const ficha = await investigar(tema);
-  fs.mkdirSync("content/fichas", { recursive: true });
-  fs.writeFileSync(`content/fichas/${tema.slug}.md`, ficha);
-  console.log(`  ficha en content/fichas/${tema.slug}.md`);
+  // Investigar cuesta cuatro minutos y una docena de busquedas. Si ya hay
+  // ficha de este tema se reaprovecha, para que un fallo al redactar no
+  // obligue a repetir toda la documentacion.
+  const fichaPath = `content/fichas/${tema.slug}.md`;
+  let ficha;
+  console.log("");
+  if (fs.existsSync(fichaPath) && !args.includes("--investigar-de-nuevo")) {
+    ficha = fs.readFileSync(fichaPath, "utf8");
+    console.log(`ficha ya hecha, se reaprovecha (${fichaPath})`);
+    console.log("   para rehacerla, anade  --investigar-de-nuevo");
+  } else {
+    console.log("investigando…");
+    ficha = await investigar(tema);
+    fs.mkdirSync("content/fichas", { recursive: true });
+    fs.writeFileSync(fichaPath, ficha);
+    console.log(`  ficha en ${fichaPath}`);
+  }
 
   if (args.includes("--solo-investigar")) return;
 
