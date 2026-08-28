@@ -1,29 +1,1219 @@
 {
-  "_comentario": "Marcador de posición. Cada mañana el flujo diario sobrescribe este fichero con el guion del día y archiva el anterior en content/archivo/. No lo edites a mano: se pierde en la siguiente ejecución.",
-  "slug": "diario",
-  "titulo": "Sin guion todavía",
-  "voz": { "id": "clone_2333475", "nombre": "VOZ DETRAS DEL ENIGMA" },
+  "slug": "pemex",
+  "titulo": "PEMEX: debe menos a los bancos y más a todos los demás",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
   "wpm": 145,
   "musica": "mystery.wav",
   "bloques": [
     {
       "id": "b0",
-      "nombre": "Marcador",
+      "nombre": "Apertura en frio",
       "planos": [
         {
           "id": "b0-01",
+          "tipo": "contador",
+          "vo": "Setenta y siete mil quinientos millones de dólares. Esa es la deuda financiera de Petróleos Mexicanos al treinta de junio de dos mil veintiséis. Un nueve coma uno por ciento menos que seis meses antes.",
+          "voz": {
+            "speed": 0.98
+          },
+          "kicker": "PEMEX · 2T 2026",
+          "fuente": "Pemex, comunicado de resultados 2T 2026 (31 jul 2026)",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 77500,
+            "etiqueta": "millones de USD de deuda financiera"
+          }
+        },
+        {
+          "id": "b0-02",
           "tipo": "frase",
-          "night": true,
-          "texto": "Aquí va el vídeo *de mañana*.",
-          "vo": "Todavía no hay guion. El flujo diario escribirá uno aquí en la próxima ejecución.",
-          "voz": { "speed": 1.0 }
+          "vo": "Esa cifra lleva dos años y medio bajando. Al cierre de dos mil veintitrés superaba los cien mil millones de dólares. Y aun así, el balance de la empresa está peor que entonces.",
+          "voz": {
+            "speed": 0.96
+          },
+          "fuente": "Punto por Punto, agosto 2026",
+          "texto": "La deuda financiera *baja*. El agujero *crece*.",
+          "night": true
+        },
+        {
+          "id": "b0-03",
+          "tipo": "barras",
+          "vo": "En el primer semestre de dos mil veintiséis, Pemex tenía más de cuatro billones de pesos en pasivos totales frente a dos coma uno billones de activos. En cualquier otra empresa eso se llama quiebra técnica.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "BALANCE · 1S 2026",
+          "fuente": "Punto por Punto sobre reportes de Pemex, agosto 2026",
+          "barras": {
+            "unidad": "billones de pesos",
+            "datos": [
+              {
+                "etiqueta": "Pasivos totales",
+                "valor": 4,
+                "tono": "carmin",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Activos",
+                "valor": 2.1,
+                "tono": "ink",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b0-04",
+          "tipo": "contador",
+          "vo": "La razón por la que sigue pagando cabe en un solo número. Entre enero de dos mil diecinueve y junio de dos mil veintiséis, el gobierno federal le ha inyectado un billón ochocientos ochenta mil millones de pesos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "kicker": "APOYO FEDERAL · 2019–2026",
+          "fuente": "IMCO sobre cifras oficiales, agosto 2026",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 1880000,
+            "etiqueta": "millones de pesos de apoyo público"
+          }
+        },
+        {
+          "id": "b0-05",
+          "tipo": "frase",
+          "vo": "Pemex debe menos a los bancos y más a todos los demás. A sus proveedores, a sus jubilados y, por la vía del rescate, al contribuyente mexicano.",
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Menos deuda de mercado. *Más deuda con todos los demás*.",
+          "night": true
+        },
+        {
+          "id": "b0-06",
+          "tipo": "mapa",
+          "vo": "Y eso ya no es solo un problema de empresa. En mayo de dos mil veintiséis, Moody's bajó la nota de México de Baa dos a Baa tres, el último escalón del grado de inversión, citando la carga fiscal del rescate permanente de Pemex.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "MOODY'S · MAYO 2026",
+          "fuente": "Moody's Ratings, mayo 2026",
+          "mapa": {
+            "region": "norteamerica",
+            "destaca": [
+              "mexico"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "La promesa",
+      "planos": [
+        {
+          "id": "b1-01",
+          "tipo": "objeto",
+          "vo": "Vamos a mirar tres cosas, en este orden, y una de ellas juega en contra de todo lo que acabas de oír.",
+          "voz": {
+            "speed": 1.02
+          },
+          "objeto": "balanza"
+        },
+        {
+          "id": "b1-02",
+          "tipo": "lista",
+          "vo": "Primero, la deuda que sí baja. Es cierta, es rápida y es la parte que suele contarse sola.",
+          "voz": {
+            "speed": 1.02
+          },
+          "lista": {
+            "titulo": "Qué vamos a ver",
+            "puntos": [
+              "La deuda que baja",
+              "La deuda que no aparece en el titular",
+              "Quién está pagando la diferencia"
+            ],
+            "activo": 0
+          }
+        },
+        {
+          "id": "b1-03",
+          "tipo": "lista",
+          "vo": "Segundo, los pasivos que no son deuda financiera. Proveedores y pensiones. Ahí no hay refinanciación ni bono a diez años.",
+          "voz": {
+            "speed": 1.02
+          },
+          "lista": {
+            "titulo": "Qué vamos a ver",
+            "puntos": [
+              "La deuda que baja",
+              "La deuda que no aparece en el titular",
+              "Quién está pagando la diferencia"
+            ],
+            "activo": 1
+          }
+        },
+        {
+          "id": "b1-04",
+          "tipo": "lista",
+          "vo": "Y tercero, quién paga. Porque la mejora de Pemex es real, pero no es propia. Está prestada por el Estado mexicano.",
+          "voz": {
+            "speed": 1
+          },
+          "lista": {
+            "titulo": "Qué vamos a ver",
+            "puntos": [
+              "La deuda que baja",
+              "La deuda que no aparece en el titular",
+              "Quién está pagando la diferencia"
+            ],
+            "activo": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "De donde sale la deuda",
+      "planos": [
+        {
+          "id": "b2-01",
+          "tipo": "barras",
+          "vo": "El origen del problema tiene fecha. En dos mil diez, Pemex debía cincuenta y tres mil setecientos millones de dólares. En dos mil dieciocho, ciento cinco mil. Se duplicó en ocho años.",
+          "voz": {
+            "speed": 0.99
+          },
+          "kicker": "DEUDA FINANCIERA",
+          "fuente": "Center on Global Energy Policy, Columbia SIPA",
+          "barras": {
+            "unidad": "miles de millones de USD",
+            "datos": [
+              {
+                "etiqueta": "2010",
+                "valor": 53.7,
+                "tono": "ink",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "2018",
+                "valor": 105,
+                "tono": "carmin",
+                "decimales": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "b2-02",
+          "tipo": "frase",
+          "vo": "El mecanismo era sencillo. El Estado se llevaba la mayor parte de los ingresos petroleros vía impuestos y derechos. La empresa cubría con deuda lo que necesitaba para invertir.",
+          "voz": {
+            "speed": 0.98
+          },
+          "texto": "El impuesto lo pagaba la caja. La inversión la pagaba *el bono*."
+        },
+        {
+          "id": "b2-03",
+          "tipo": "objeto",
+          "vo": "Mientras tanto, la producción caía. Menos barriles para sostener más deuda. Es la definición más corta de una espiral.",
+          "voz": {
+            "speed": 0.98
+          },
+          "objeto": "dosEpocas"
+        },
+        {
+          "id": "b2-04",
+          "tipo": "barras",
+          "vo": "Y entonces empieza la parte reciente. De más de cien mil millones de dólares al cierre de dos mil veintitrés a setenta y siete mil quinientos en junio de dos mil veintiséis. Casi un cuarto menos en dos años y medio.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "TRAYECTORIA RECIENTE",
+          "fuente": "Punto por Punto, agosto 2026; Pemex 2T 2026",
+          "barras": {
+            "unidad": "miles de millones de USD",
+            "datos": [
+              {
+                "etiqueta": "Cierre 2023",
+                "valor": 100,
+                "tono": "carmin",
+                "decimales": 0
+              },
+              {
+                "etiqueta": "Jun 2026",
+                "valor": 77.5,
+                "tono": "verde",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b2-05",
+          "tipo": "frase",
+          "vo": "Esa caída es el argumento central del gobierno mexicano. Y es verdad. La pregunta no es si bajó, sino con qué dinero bajó.",
+          "voz": {
+            "speed": 0.95
+          },
+          "texto": "No *si* bajó. Con *qué dinero* bajó.",
+          "night": true
+        },
+        {
+          "id": "b2-06",
+          "tipo": "objeto",
+          "vo": "Porque una deuda puede desaparecer de dos maneras. Ganando dinero y amortizándola, o traspasándola a otro balance. Guarda esa distinción, la vamos a necesitar tres veces.",
+          "voz": {
+            "speed": 0.99
+          },
+          "objeto": "contable"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b3-01",
+          "tipo": "frase",
+          "vo": "Antes de seguir, la parte que estropea la historia. Si no la reconoces, cualquiera con un terminal financiero abierto te desmonta el vídeo en diez segundos.",
+          "voz": {
+            "speed": 1
+          },
+          "texto": "Lo primero: *la deuda sí está bajando*."
+        },
+        {
+          "id": "b3-02",
+          "tipo": "contador",
+          "vo": "Al treinta y uno de marzo de dos mil veintiséis, la deuda financiera era de setenta y nueve mil millones de dólares. Su nivel más bajo desde dos mil catorce y un veinticinco por ciento menor que en dos mil dieciocho.",
+          "voz": {
+            "speed": 0.99
+          },
+          "kicker": "1T 2026",
+          "fuente": "Pemex / Moody's, mayo 2026",
+          "de": {
+            "valor": 105000,
+            "etiqueta": "2018"
+          },
+          "a": {
+            "valor": 79000,
+            "etiqueta": "millones de USD, marzo 2026"
+          }
+        },
+        {
+          "id": "b3-03",
+          "tipo": "frase",
+          "vo": "Además, la empresa mantiene el compromiso de endeudamiento neto cero, y la deuda bruta medida contra el producto interior bruto mexicano alcanzó en dos mil veinticinco su nivel más bajo en once años.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "Pemex, resultados 2T 2026",
+          "texto": "Endeudamiento neto *cero* y peso sobre el PIB en mínimos de *11 años*."
+        },
+        {
+          "id": "b3-04",
+          "tipo": "objeto",
+          "vo": "Y el mercado volvió. El trece de febrero de dos mil veintiséis, tras seis años de ausencia, Pemex colocó treinta y un mil quinientos millones de pesos en el mercado local, con una demanda dos coma cinco veces superior a lo ofertado.",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "FEBRERO 2026",
+          "fuente": "Colocación en el mercado local de capitales, 13 feb 2026",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b3-05",
+          "tipo": "barras",
+          "vo": "Ahora la escala. Esa colocación equivale a en torno al diez por ciento de los vencimientos de deuda que Pemex afronta este año, unos dieciocho mil millones de dólares.",
+          "voz": {
+            "speed": 0.99
+          },
+          "kicker": "2026",
+          "fuente": "Cálculo sobre vencimientos de Pemex 2026",
+          "barras": {
+            "unidad": "miles de millones de USD",
+            "datos": [
+              {
+                "etiqueta": "Colocación feb 2026",
+                "valor": 1.8,
+                "tono": "verde",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Vencimientos del año",
+                "valor": 18,
+                "tono": "carmin",
+                "decimales": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "b3-06",
+          "tipo": "frase",
+          "vo": "Todo esto es cierto. Y todo esto es compatible con que la empresa siga sin poder pagarse a sí misma.",
+          "voz": {
+            "speed": 0.93
+          },
+          "texto": "Volver al mercado no es lo mismo que *poder pagar*.",
+          "night": true
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Quien paga",
+      "planos": [
+        {
+          "id": "b4-01",
+          "tipo": "contador",
+          "vo": "El billón ochocientos ochenta mil millones de pesos del principio se desglosa. Un billón cuatrocientos noventa mil millones, el setenta y nueve coma cuatro por ciento, son aportaciones de capital directas.",
+          "voz": {
+            "speed": 0.98
+          },
+          "kicker": "APORTACIONES DE CAPITAL",
+          "fuente": "IMCO sobre cifras oficiales, agosto 2026",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 1490000,
+            "etiqueta": "millones de pesos en capital, 2019–2026"
+          }
+        },
+        {
+          "id": "b4-02",
+          "tipo": "barras",
+          "vo": "El resto son trescientos veintiséis mil millones en estímulos fiscales y sesenta y un mil setecientos millones en otros apoyos extraordinarios. Dinero público en tres formatos distintos.",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "DESGLOSE DEL APOYO",
+          "fuente": "IMCO, agosto 2026",
+          "barras": {
+            "unidad": "miles de millones de pesos",
+            "datos": [
+              {
+                "etiqueta": "Capital",
+                "valor": 1490,
+                "tono": "carmin",
+                "decimales": 0
+              },
+              {
+                "etiqueta": "Estímulos fiscales",
+                "valor": 326,
+                "tono": "ocre",
+                "decimales": 0
+              },
+              {
+                "etiqueta": "Otros apoyos",
+                "valor": 61.7,
+                "tono": "ink",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b4-03",
+          "tipo": "frase",
+          "vo": "Y no está disminuyendo. Solo en el primer semestre de dos mil veintiséis, las aportaciones de capital fueron de cien mil cuatrocientos millones de pesos, un seis coma dos por ciento más que en el mismo periodo del año anterior.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "IMCO / SHCP, 1S 2026",
+          "texto": "1S 2026: *100.400 millones de pesos* de capital. Un +6,2% anual."
+        },
+        {
+          "id": "b4-04",
+          "tipo": "barras",
+          "vo": "Aquí está la inversión del modelo. En el primer semestre de dos mil veintiséis, el Estado recibió ciento veintinueve mil seiscientos millones de pesos de ingresos petroleros y devolvió cien mil cuatrocientos. Le quedaron veintinueve mil doscientos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "kicker": "NETO PARA EL ESTADO · 1S",
+          "fuente": "México Evalúa sobre SHCP",
+          "barras": {
+            "unidad": "miles de millones de pesos",
+            "datos": [
+              {
+                "etiqueta": "1S 2013",
+                "valor": 750.9,
+                "tono": "ink",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "1S 2026",
+                "valor": 29.2,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b4-05",
+          "tipo": "frase",
+          "vo": "En el mismo semestre de dos mil trece, ese neto fue de setecientos cincuenta mil novecientos millones. El petróleo mexicano ha pasado de financiar el presupuesto a competir con él.",
+          "voz": {
+            "speed": 0.95
+          },
+          "fuente": "México Evalúa sobre SHCP",
+          "texto": "De *financiar* el presupuesto a *competir* con él.",
+          "night": true
+        },
+        {
+          "id": "b4-06",
+          "tipo": "contador",
+          "vo": "El presupuesto de Pemex para dos mil veintiséis es de setecientos ochenta mil ochocientos sesenta y dos millones de pesos. De ellos, doscientos sesenta y tres mil quinientos son transferencia federal para amortizar deuda de ejercicios anteriores.",
+          "voz": {
+            "speed": 0.99
+          },
+          "kicker": "PRESUPUESTO 2026",
+          "fuente": "Presupuesto de Egresos de la Federación 2026",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 780862,
+            "etiqueta": "millones de pesos, presupuesto Pemex 2026"
+          }
+        },
+        {
+          "id": "b4-07",
+          "tipo": "frase",
+          "vo": "Con esas cifras, en dos mil veintiséis Pemex aportará a la Federación doscientos treinta y tres mil millones de pesos y recibirá doscientos sesenta y tres mil. Treinta y un mil millones en contra. Es el primer saldo negativo planteado desde un presupuesto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "fuente": "México Evalúa, septiembre 2025 (proyección presupuestaria)",
+          "texto": "Primera vez: la petrolera *cuesta más de lo que aporta*.",
+          "night": true
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Proveedores",
+      "planos": [
+        {
+          "id": "b5-01",
+          "tipo": "barras",
+          "vo": "Vamos con el segundo acreedor. Los proveedores. En el balance, el adeudo bajó de cuatrocientos treinta y seis mil setecientos cuatro millones de pesos al cierre de dos mil veinticinco a trescientos setenta y cuatro mil trescientos treinta y cuatro en junio.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "ADEUDO CON PROVEEDORES",
+          "fuente": "Estados financieros de Pemex, junio 2026",
+          "barras": {
+            "unidad": "miles de millones de pesos",
+            "datos": [
+              {
+                "etiqueta": "Dic 2025",
+                "valor": 436.7,
+                "tono": "carmin",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Jun 2026",
+                "valor": 374.3,
+                "tono": "ocre",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b5-02",
+          "tipo": "frase",
+          "vo": "Sesenta y dos mil millones de pesos menos en seis meses. Es una mejora contable real. El problema es que la industria que trabaja para Pemex no reconoce ese número.",
+          "voz": {
+            "speed": 0.98
+          },
+          "texto": "El balance dice una cosa. *El sector dice otra*."
+        },
+        {
+          "id": "b5-03",
+          "tipo": "contador",
+          "vo": "La asociación mexicana de empresas de servicios petroleros calcula el rezago real en unos veintiún mil millones de dólares. No es un dato contable, es una estimación del sector, y conviene decirlo.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "ESTIMACIÓN DEL SECTOR · AGO 2026",
+          "fuente": "AMESPAC, 21 de agosto de 2026 (estimación, no dato contable)",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 21000,
+            "etiqueta": "millones de USD de rezago estimado"
+          }
+        },
+        {
+          "id": "b5-04",
+          "tipo": "frase",
+          "vo": "Dentro de esa cifra hay un detalle revelador. Unos diez mil millones corresponden solo a dos mil veinticuatro, y el noventa y seis por ciento son trabajos ya terminados que las empresas ni siquiera han podido facturar.",
+          "voz": {
+            "speed": 0.99
+          },
+          "fuente": "AMESPAC, agosto 2026",
+          "texto": "Trabajo hecho *que no se puede ni facturar*: el 96%.",
+          "night": true
+        },
+        {
+          "id": "b5-05",
+          "tipo": "objeto",
+          "vo": "La propia empresa reportó en septiembre de dos mil veinticinco deber veintiocho mil millones de dólares a cientos de proveedores. Ese dato tiene ya un año, pero salió de Pemex, no de sus acreedores.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "SEPTIEMBRE 2025",
+          "fuente": "Reuters, septiembre 2025",
+          "objeto": "fabrica"
+        },
+        {
+          "id": "b5-06",
+          "tipo": "retrato",
+          "vo": "El informe de barreras comerciales de la Casa Blanca de dos mil veintiséis cifra en dos mil quinientos millones de dólares lo que Pemex debía a proveedores estadounidenses al treinta y uno de diciembre de dos mil veinticinco.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "USTR · ABRIL 2026",
+          "fuente": "Informe de barreras comerciales, USTR, abril 2026",
+          "retrato": {
+            "nombre": "Víctor Rodríguez Padilla",
+            "papel": "Director general de Pemex, oct 2024 – may 2026",
+            "fecha": "Mayo 2026",
+            "titular": "Al despedirse cifró la deuda con proveedores en 20.000 mdd"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Pensiones",
+      "planos": [
+        {
+          "id": "b6-01",
+          "tipo": "contador",
+          "vo": "Y queda el acreedor del que casi nadie habla. Al cierre de junio de dos mil veintiséis, el pasivo laboral de Pemex era de un billón quinientos diez mil millones de pesos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "kicker": "PASIVO LABORAL · JUN 2026",
+          "fuente": "Estados financieros de Pemex, junio 2026",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 1510000,
+            "etiqueta": "millones de pesos en beneficios a empleados"
+          }
+        },
+        {
+          "id": "b6-02",
+          "tipo": "frase",
+          "vo": "Un dos coma siete por ciento más que seis meses antes y un diez coma nueve por ciento más en un año. Según el Instituto Mexicano para la Competitividad, equivale al treinta y siete coma seis por ciento de todos los pasivos.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "IMCO, agosto 2026",
+          "texto": "Casi *cuatro de cada diez pesos* que debe Pemex son pensiones."
+        },
+        {
+          "id": "b6-03",
+          "tipo": "objeto",
+          "vo": "Detrás hay unos ciento cuarenta mil trabajadores en plantilla y las jubilaciones ya causadas. Es una obligación que no se refinancia, no se renegocia con un banco y no baja porque suba el precio del barril.",
+          "voz": {
+            "speed": 0.99
+          },
+          "fuente": "IMCO / Expansión, agosto 2026",
+          "objeto": "sala"
+        },
+        {
+          "id": "b6-04",
+          "tipo": "frase",
+          "vo": "Aquí está el resumen del vídeo en una frase. La deuda con mercados baja porque alguien la paga. La deuda con proveedores y jubilados sube porque nadie la paga todavía.",
+          "voz": {
+            "speed": 0.93
+          },
+          "texto": "La deuda financiera se *amortiza*. La otra solo se *aplaza*.",
+          "night": true
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "La operacion",
+      "planos": [
+        {
+          "id": "b7-01",
+          "tipo": "contador",
+          "vo": "¿Y la operación? Mejor de lo que dice su reputación. En el segundo trimestre de dos mil veintiséis, Pemex produjo dos millones cuatrocientos cuarenta y siete mil barriles diarios equivalentes, un cuatro coma seis por ciento más que un año antes.",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "PRODUCCIÓN 2T 2026",
+          "fuente": "Pemex, resultados 2T 2026",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 2447,
+            "etiqueta": "Mbpced de hidrocarburos, 2T 2026"
+          }
+        },
+        {
+          "id": "b7-02",
+          "tipo": "frase",
+          "vo": "Un millón seiscientos cincuenta y ocho mil barriles diarios de líquidos, apoyados en campos como Ixachi, Bakté, Itta y Maloob. Y las refinerías procesaron mil ocho mil barriles diarios de crudo, un dos coma nueve por ciento más.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "Pemex, resultados 2T 2026",
+          "texto": "Proceso de crudo: *1.008 Mbd*, un +2,9% anual."
+        },
+        {
+          "id": "b7-03",
+          "tipo": "barras",
+          "vo": "Las ventas del trimestre fueron de quinientos diez mil cuatrocientos millones de pesos. Un treinta coma tres por ciento más que un año antes y el mayor nivel en catorce trimestres.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "VENTAS 2T 2026",
+          "fuente": "Pemex, resultados 2T 2026",
+          "barras": {
+            "unidad": "miles de millones de pesos",
+            "datos": [
+              {
+                "etiqueta": "Ventas 2T 2026",
+                "valor": 510.4,
+                "tono": "verde",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b7-04",
+          "tipo": "frase",
+          "vo": "Con todo eso, la utilidad neta del trimestre fue de dieciocho mil veinticuatro millones de pesos. Pero en el acumulado de enero a junio, Pemex seguía perdiendo veintisiete mil novecientos sesenta y ocho millones.",
+          "voz": {
+            "speed": 0.98
+          },
+          "fuente": "Pemex, resultados 2T 2026",
+          "texto": "Trimestre en positivo. Semestre en *pérdidas*.",
+          "night": true
+        },
+        {
+          "id": "b7-05",
+          "tipo": "barras",
+          "vo": "El primer trimestre había cerrado con una pérdida de cuarenta y cinco mil novecientos noventa y tres millones de pesos, el peor arranque de año desde dos mil veinte, y eso con una inyección pública de cincuenta y ocho mil trescientos millones.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "1T 2026",
+          "fuente": "Pemex / IMCO, 1T 2026",
+          "barras": {
+            "unidad": "miles de millones de pesos",
+            "datos": [
+              {
+                "etiqueta": "Pérdida 1T 2026",
+                "valor": 46,
+                "tono": "carmin",
+                "decimales": 0
+              },
+              {
+                "etiqueta": "Inyección pública 1T",
+                "valor": 58.3,
+                "tono": "ocre",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b7-06",
+          "tipo": "barras",
+          "vo": "Y hay un dato geológico que ninguna reforma financiera arregla. El pico de producción de crudo fue en dos mil cuatro, con tres coma cuatro millones de barriles diarios. Al cierre de dos mil veinticinco eran un millón trescientos sesenta y siete mil.",
+          "voz": {
+            "speed": 0.99
+          },
+          "kicker": "PRODUCCIÓN DE CRUDO",
+          "fuente": "Pemex / El Financiero, agosto 2025",
+          "barras": {
+            "unidad": "millones de barriles diarios",
+            "datos": [
+              {
+                "etiqueta": "2004",
+                "valor": 3.4,
+                "tono": "ink",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "2018",
+                "valor": 1.833,
+                "tono": "ocre",
+                "decimales": 2
+              },
+              {
+                "etiqueta": "2025",
+                "valor": 1.367,
+                "tono": "carmin",
+                "decimales": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "b7-07",
+          "tipo": "objeto",
+          "vo": "El campo estrella lo resume. Ku Maloob Zaap pasó de ochocientos setenta y cuatro mil barriles diarios al inicio del sexenio anterior a quinientos treinta mil al cierre de dos mil veinticinco.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "KU-MALOOB-ZAAP",
+          "fuente": "Datos de producción de Pemex, cierre 2025",
+          "objeto": "grua"
+        },
+        {
+          "id": "b7-08",
+          "tipo": "frase",
+          "vo": "El geólogo Luca Ferrari, de la Universidad Nacional Autónoma de México, lo cuantifica así. En dos mil cuatro bastaban doscientos pozos en Cantarell. En dos mil veinticinco hacen falta más de cuatro mil pozos para sacar un coma seis millones de barriles.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "Luca Ferrari, UNAM",
+          "texto": "Productividad por pozo: *–67%*. Costes de extracción: *x5*."
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b8-01",
+          "tipo": "frase",
+          "vo": "Toca el bloque incómodo. Hay al menos tres formas de rebatir lo que llevamos dicho, y todas tienen datos detrás.",
+          "voz": {
+            "speed": 1.02
+          },
+          "texto": "Tres objeciones *razonables*."
+        },
+        {
+          "id": "b8-02",
+          "tipo": "barras",
+          "vo": "Primera. Pemex es la petrolera más endeudada del mundo, sí, pero por poco. Petrobras cerró junio de dos mil veintiséis con setenta mil ochocientos millones de dólares de deuda bruta. La brecha es de menos del diez por ciento.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "DEUDA BRUTA · JUN 2026",
+          "fuente": "Petrobras, resultados 2T 2026; Pemex 2T 2026",
+          "barras": {
+            "unidad": "miles de millones de USD",
+            "datos": [
+              {
+                "etiqueta": "Pemex",
+                "valor": 77.5,
+                "tono": "carmin",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Petrobras",
+                "valor": 70.8,
+                "tono": "ink",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b8-03",
+          "tipo": "frase",
+          "vo": "El contraste real no es el saldo, es la capacidad de pagarlo. Petrobras ganó cincuenta y dos mil cuatrocientos millones de reales en el segundo trimestre, unos diez mil cuatrocientos millones de dólares, un noventa y siete por ciento más que un año antes.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "Petrobras, resultados 2T 2026",
+          "texto": "Misma deuda. *Resultados opuestos*.",
+          "night": true
+        },
+        {
+          "id": "b8-04",
+          "tipo": "objeto",
+          "vo": "Segunda objeción. Fuera del sector petrolero, Pemex ni siquiera destaca. El mayor fabricante de coches de Europa debe varias veces lo que debe Pemex. Por eso la comparación pertinente es dentro de la industria, no contra cualquier empresa.",
+          "voz": {
+            "speed": 1
+          },
+          "objeto": "interrogante"
+        },
+        {
+          "id": "b8-05",
+          "tipo": "frase",
+          "vo": "Como referencia sectorial, Aramco cerró junio de dos mil veintiséis con un apalancamiento del seis coma dos por ciento sobre su capital. Ese es el otro extremo de la escala.",
+          "voz": {
+            "speed": 0.99
+          },
+          "fuente": "Saudi Aramco, resultados a junio de 2026",
+          "texto": "Aramco: gearing del *6,2%*."
+        },
+        {
+          "id": "b8-06",
+          "tipo": "frase",
+          "vo": "Tercera. El argumento de que el Estado exprime a Pemex describe el pasado. Desde el dieciocho de marzo de dos mil veinticinco hay un derecho petrolero único del treinta por ciento sobre el valor extraído, y la empresa queda exenta del impuesto sobre la renta.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "Reforma fiscal de Pemex, 18 de marzo de 2025",
+          "texto": "Tasa única del *30%*. Sin impuesto sobre sociedades."
+        },
+        {
+          "id": "b8-07",
+          "tipo": "frase",
+          "vo": "Quien hoy diga que Pemex paga el setenta por ciento está usando cifras de otra década. La carga fiscal ya se aligeró. Y aun así la empresa perdió dinero en el semestre.",
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Le bajaron los impuestos. *Y siguió perdiendo dinero*.",
+          "night": true
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "El contagio al soberano",
+      "planos": [
+        {
+          "id": "b9-01",
+          "tipo": "objeto",
+          "vo": "En el segundo semestre de dos mil veinticinco pasó algo que no ocurría desde dos mil trece. Las calificadoras subieron la nota de Pemex. Fitch, tres escalones. Moody's, dos.",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "2S 2025",
+          "fuente": "Fitch Ratings y Moody's Ratings, segundo semestre de 2025",
+          "objeto": "carta"
+        },
+        {
+          "id": "b9-02",
+          "tipo": "frase",
+          "vo": "En mayo de dos mil veintiséis, Moody's ratificó a Pemex en B uno con perspectiva estable. Sigue siendo categoría especulativa, a cuatro escalones del grado de inversión.",
+          "voz": {
+            "speed": 0.99
+          },
+          "fuente": "Moody's Ratings, mayo 2026",
+          "texto": "B1 estable. A *cuatro escalones* del grado de inversión."
+        },
+        {
+          "id": "b9-03",
+          "tipo": "retrato",
+          "vo": "La razón de esa nota la explicó la propia analista de la agencia. La calificación refleja la expectativa de que el gobierno de México seguirá dando a la compañía un apoyo muy alto y oportuno.",
+          "voz": {
+            "speed": 0.97
+          },
+          "fuente": "Moody's Ratings, mayo 2026",
+          "retrato": {
+            "nombre": "Roxana Muñoz",
+            "papel": "Vicepresidenta y Analista Senior de Crédito, Moody's Ratings",
+            "fecha": "Mayo 2026",
+            "titular": "La nota de Pemex es la nota del respaldo estatal"
+          }
+        },
+        {
+          "id": "b9-04",
+          "tipo": "frase",
+          "vo": "Porque la evaluación crediticia base, la que mide a la empresa sin contar con el rescate, sigue en ce a. La categoría más baja antes del impago. Flujo de caja libre negativo de forma persistente y capacidad interna limitada.",
+          "voz": {
+            "speed": 0.96
+          },
+          "fuente": "Moody's Ratings, evaluación crediticia base de Pemex",
+          "texto": "Con el Estado: *B1*. Sin el Estado: *ca*.",
+          "night": true
+        },
+        {
+          "id": "b9-05",
+          "tipo": "mapa",
+          "vo": "Y el respaldo tiene precio. En mayo de dos mil veintiséis, Moody's bajó a México a Baa tres, el último peldaño del grado de inversión, citando el deterioro de las finanzas públicas y la carga del rescate permanente.",
+          "voz": {
+            "speed": 0.98
+          },
+          "kicker": "MÉXICO · Baa2 → Baa3",
+          "fuente": "Moody's Ratings, mayo 2026",
+          "mapa": {
+            "region": "norteamerica",
+            "destaca": [
+              "mexico"
+            ]
+          }
+        },
+        {
+          "id": "b9-06",
+          "tipo": "frase",
+          "vo": "Standard and Poor's lo dijo con otras palabras. El apoyo fiscal sustancial y continuo a Pemex y a la Comisión Federal de Electricidad seguiría agravando el margen de maniobra fiscal de México.",
+          "voz": {
+            "speed": 0.97
+          },
+          "fuente": "S&P Global Ratings",
+          "texto": "El rescate ya no lo paga la empresa. Lo paga *la prima de riesgo del país*."
+        },
+        {
+          "id": "b9-07",
+          "tipo": "contador",
+          "vo": "La ingeniería financiera lo confirma. En julio de dos mil veinticinco se colocaron doce mil millones de dólares en notas precapitalizadas con vencimiento en dos mil treinta. Hubo demanda por veintitrés mil cuatrocientos millones de doscientos noventa y cinco inversores.",
+          "voz": {
+            "speed": 1.02
+          },
+          "kicker": "P-CAPS · JULIO 2025",
+          "fuente": "SHCP, colocación de 29 de julio de 2025",
+          "de": {
+            "valor": 0,
+            "etiqueta": ""
+          },
+          "a": {
+            "valor": 12000,
+            "etiqueta": "millones de USD colocados con respaldo estatal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "La promesa de 2027",
+      "planos": [
+        {
+          "id": "b10-01",
+          "tipo": "objeto",
+          "vo": "A eso hay que sumar el vehículo financiero creado por Banobras, la banca de desarrollo mexicana, con doscientos cincuenta mil millones de pesos, unos trece mil trescientos cincuenta millones de dólares, para obras y pagos a proveedores.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "BANOBRAS · AGOSTO 2025",
+          "fuente": "El Financiero, agosto 2025",
+          "objeto": "maletero"
+        },
+        {
+          "id": "b10-02",
+          "tipo": "retrato",
+          "vo": "Sobre ese andamiaje descansa una promesa concreta. En agosto de dos mil veinticinco, la presidenta de México afirmó que para dos mil veintisiete Pemex no va a necesitar apoyo de la Secretaría de Hacienda.",
+          "voz": {
+            "speed": 0.97
+          },
+          "fuente": "Declaraciones públicas, agosto 2025",
+          "retrato": {
+            "nombre": "Claudia Sheinbaum Pardo",
+            "papel": "Presidenta de México",
+            "fecha": "Agosto 2025",
+            "titular": "\"Para 2027, Pemex no va a necesitar apoyo de Hacienda\""
+          }
+        },
+        {
+          "id": "b10-03",
+          "tipo": "barras",
+          "vo": "Moody's estima las necesidades de financiamiento de Pemex en unos catorce mil novecientos millones de dólares al año entre dos mil veintiséis y dos mil veintiocho. Es una proyección de la agencia, no un dato cerrado.",
+          "voz": {
+            "speed": 0.99
+          },
+          "kicker": "PROYECCIÓN MOODY'S",
+          "fuente": "Moody's Ratings (proyección 2026–2028)",
+          "barras": {
+            "unidad": "miles de millones de USD al año",
+            "datos": [
+              {
+                "etiqueta": "Necesidades 2026-28",
+                "valor": 14.9,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b10-04",
+          "tipo": "frase",
+          "vo": "Ahí está la tensión. Una promesa de autosuficiencia en dos mil veintisiete frente a una necesidad estimada de casi quince mil millones anuales. Una de las dos cosas tendrá que ceder.",
+          "voz": {
+            "speed": 0.94
+          },
+          "texto": "Autosuficiencia en 2027 frente a *15.000 millones al año*.",
+          "night": true
+        },
+        {
+          "id": "b10-05",
+          "tipo": "frase",
+          "vo": "El plan estratégico oficial fija dos metas. Un coma ocho millones de barriles diarios de líquidos y cinco mil millones de pies cúbicos de gas en dos mil veintiocho, y reducir un veinticinco por ciento la deuda financiera hacia dos mil treinta.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "Pemex, Plan Estratégico 2025-2035 (metas, no datos)",
+          "texto": "Metas oficiales, no resultados: *1,8 Mbd en 2028*."
+        },
+        {
+          "id": "b10-06",
+          "tipo": "retrato",
+          "vo": "Quien tiene que cumplirlas lleva en el cargo desde el catorce de mayo de dos mil veintiséis. Antes fue director de Finanzas de la propia Pemex. Diseñó la reducción de deuda y ahora la administra desde arriba.",
+          "voz": {
+            "speed": 0.99
+          },
+          "retrato": {
+            "nombre": "Juan Carlos Carpio Fragoso",
+            "papel": "Director general de Pemex",
+            "fecha": "Nombrado el 14 de mayo de 2026",
+            "titular": "Director de Finanzas de Pemex desde octubre de 2024"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "nombre": "Que significa",
+      "planos": [
+        {
+          "id": "b11-01",
+          "tipo": "frase",
+          "vo": "Recapitulemos con honradez. La deuda financiera de Pemex baja y está en mínimos de doce años. Eso es cierto y es la parte buena.",
+          "voz": {
+            "speed": 0.98
+          },
+          "texto": "La mejora es real. *No es propia*."
+        },
+        {
+          "id": "b11-02",
+          "tipo": "barras",
+          "vo": "Pero la baja se financia con capital público, mientras los pasivos con proveedores y jubilados siguen creciendo. Solo el pasivo laboral subió un diez coma nueve por ciento en un año.",
+          "voz": {
+            "speed": 1
+          },
+          "kicker": "VARIACIÓN ANUAL",
+          "fuente": "Pemex, junio 2026; IMCO",
+          "barras": {
+            "unidad": "variación anual",
+            "sufijo": "%",
+            "datos": [
+              {
+                "etiqueta": "Deuda financiera (6 meses)",
+                "valor": -9.1,
+                "tono": "verde",
+                "decimales": 1
+              },
+              {
+                "etiqueta": "Pasivo laboral (12 meses)",
+                "valor": 10.9,
+                "tono": "carmin",
+                "decimales": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "b11-03",
+          "tipo": "objeto",
+          "vo": "Existe además una proyección de la Agencia Internacional de la Energía, en su informe Oil dos mil veinticinco, según la cual México podría convertirse en importador neto de petróleo hacia dos mil treinta. Es una proyección, no un hecho.",
+          "voz": {
+            "speed": 1
+          },
+          "fuente": "AIE, informe Oil 2025 (proyección)",
+          "objeto": "plano"
+        },
+        {
+          "id": "b11-04",
+          "tipo": "frase",
+          "vo": "Trabajos académicos independientes apuntan en la misma dirección. Escenarios de declinación de en torno a un coma veinticinco millones de barriles diarios en dos mil treinta sin recursos no convencionales.",
+          "voz": {
+            "speed": 0.98
+          },
+          "fuente": "Scielo México (escenarios de declinación)",
+          "texto": "Escenario académico: *1,25 millones de barriles diarios en 2030*."
+        },
+        {
+          "id": "b11-05",
+          "tipo": "frase",
+          "vo": "Lo que esto significa para ti, si miras a México desde fuera, es sencillo. Pemex ya no se analiza como riesgo corporativo. Se analiza como una línea del balance del Estado mexicano.",
+          "voz": {
+            "speed": 0.93
+          },
+          "texto": "Ya no es riesgo de empresa. Es *riesgo soberano con otro nombre*.",
+          "night": true
+        },
+        {
+          "id": "b11-06",
+          "tipo": "frase",
+          "vo": "Y ese es el titular honesto de dos mil veintiséis. Pemex debe menos a los bancos y más a todos los demás. La diferencia la está pagando el contribuyente mexicano.",
+          "voz": {
+            "speed": 0.92
+          },
+          "texto": "El rescate no cancela la deuda. La *cambia de acreedor*.",
+          "night": true
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b12-01",
+          "tipo": "cierre",
+          "vo": "En el próximo vídeo miramos la otra mitad del rescate mexicano. La Comisión Federal de Electricidad y la factura eléctrica que se está aplazando.",
+          "voz": {
+            "speed": 0.98
+          },
+          "cierre": {
+            "siguiente": "CFE: LA OTRA FACTURA",
+            "sub": "La eléctrica pública que también depende de Hacienda"
+          }
+        },
+        {
+          "id": "b12-02",
+          "tipo": "cierre",
+          "vo": "Si te sirve este formato, con datos y con la parte que estropea la historia, suscríbete. Aquí seguimos.",
+          "voz": {
+            "speed": 1
+          },
+          "cierre": {
+            "suscribete": true
+          }
         }
       ]
     }
   ],
   "publicacion": {
-    "titulo": "Sin guion todavía",
-    "descripcion": "Marcador de posición.",
-    "etiquetas": []
+    "titulo": "PEMEX: debe menos a los bancos y más a todos los demás",
+    "descripcion": "La deuda financiera de Pemex ha caído de más de 100.000 millones de dólares en 2023 a 77.500 millones en junio de 2026. Es una mejora real y está documentada. Lo que casi nunca se cuenta es con qué dinero se ha pagado esa caída, y qué está pasando al mismo tiempo con los pasivos que no son deuda de mercado: proveedores y pensiones.\n\nEn este vídeo separamos las tres deudas de Pemex. La que baja, la que sube y la que ya se ha trasladado al balance del Estado mexicano, con 1,88 billones de pesos de apoyo federal entre 2019 y junio de 2026 y una rebaja de la calificación soberana de México en mayo de 2026 que cita expresamente el rescate de la petrolera.\n\nIncluye el bloque de contraargumentos: la deuda en mínimos desde 2014, el regreso al mercado local de capitales en febrero de 2026, la comparación con Petrobras y el hecho de que el régimen fiscal de Pemex ya se aligeró en 2025 hasta una tasa única del 30% con exención del impuesto sobre la renta.\n\nCAPÍTULOS\n00:00 El dato: 77.500 millones de dólares\n01:00 Qué vamos a ver\n01:35 De dónde sale la deuda: 2010-2018\n03:00 Lo que juega en contra de esta tesis\n04:20 Quién está pagando: 1,88 billones de pesos\n06:10 Proveedores: el pasivo que no cuadra\n07:40 Pensiones: 1,51 billones de pesos\n08:40 La operación: producción, ventas y pérdidas\n10:20 Petrobras, Aramco y el régimen fiscal\n11:30 Del riesgo corporativo al riesgo soberano\n12:30 La promesa de 2027\n13:20 Qué significa\n\nFUENTES\nPemex, comunicado y reporte de resultados del 2T 2026 (31 de julio de 2026)\nPemex, reporte del 1T 2026 y reporte a la Bolsa Mexicana de Valores\nPemex, Plan Estratégico 2025-2035 (metas, no datos)\nIMCO, análisis del apoyo federal a Pemex y del pasivo laboral, agosto de 2026\nMéxico Evalúa, Números de Erario (septiembre de 2025) y análisis sobre cifras de la SHCP\nSHCP, colocación de Notas Estructuradas Precapitalizadas, 29 de julio de 2025\nPresupuesto de Egresos de la Federación 2026\nMoody's Ratings, ratificación de Pemex en B1 y bajada de México a Baa3, mayo de 2026\nS&P Global Ratings, comentarios sobre apoyo fiscal a Pemex y CFE\nFitch Ratings, mejora de calificación de Pemex, segundo semestre de 2025\nReuters, deuda con proveedores reportada por Pemex, septiembre de 2025\nAMESPAC, estimación del rezago con la industria de servicios, 21 de agosto de 2026\nInforme de barreras comerciales de la USTR, abril de 2026\nCenter on Global Energy Policy, Columbia SIPA, evolución de la deuda 2010-2018\nPetrobras, resultados del 2T 2026\nSaudi Aramco, resultados a junio de 2026\nLuca Ferrari, UNAM, productividad por pozo y costes de extracción\nAgencia Internacional de la Energía, informe Oil 2025 (proyección)\nScielo México, escenarios de declinación de producción a 2030\n\nLas cifras de este vídeo están cerradas a agosto de 2026. Cuando un número es proyección o estimación de un tercero, se dice en la locución.",
+    "etiquetas": [
+      "pemex",
+      "deuda pemex",
+      "mexico economia",
+      "macroeconomia",
+      "petroleo mexico",
+      "deuda soberana",
+      "moodys",
+      "calificacion crediticia",
+      "sheinbaum",
+      "petrobras",
+      "empresas publicas",
+      "hacienda mexico",
+      "finanzas publicas",
+      "rescate financiero",
+      "proveedores pemex",
+      "pensiones pemex",
+      "produccion de crudo",
+      "capital x",
+      "datos economicos",
+      "riesgo pais"
+    ]
   }
 }
