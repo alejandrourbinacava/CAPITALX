@@ -107,6 +107,7 @@ jobs:
     timeout-minutes: 330
     permissions:
       contents: write
+      actions: write      # para borrar los artefactos viejos
     # "secrets" no existe dentro de un "if" de paso; "env" si. Asi se puede
     # preguntar si el secreto esta puesto sin ensenar su valor.
     env:
@@ -173,6 +174,25 @@ jobs:
           AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
         run: node scripts/tts.mjs content/diario.json
 
+      # Lo primero que se hace despues de locutar es guardarlo. Veinte mil
+      # creditos no pueden depender de que el render y la entrega salgan bien:
+      # con esto, un fallo posterior cuesta minutos de maquina, no dinero.
+      # Va con always() a proposito: si la locucion se corta a medias, tts.mjs
+      # ya ha escrito los tiempos de lo hecho y manana sigue por ahi.
+      - name: Guardar el guion y la locución
+        if: ${{ always() && !inputs.solo_guion }}
+        run: |
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content/diario.json content/diario.timings.json public/voice assets/voice
+          if git diff --cached --quiet; then
+            echo "nada nuevo que guardar"
+          else
+            git commit -m "Guion y locución de $(node -e "console.log(require('./content/diario.json').slug)")"
+            git pull --rebase --autostash -q
+            git push
+          fi
+
       # ---- 3. Imagen ------------------------------------------------------
       - name: Renderizar
         if: ${{ !inputs.solo_guion }}
@@ -219,17 +239,31 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png
 
-      # Aquí es donde recoges el vídeo cada mañana. Treinta días disponible.
+      # El plan gratuito da 500 MB de artefactos para toda la cuenta, y un
+      # video son ochenta. Se borran los diarios viejos antes de subir el de
+      # hoy; los de irlanda, noruega, mexico y corea no se tocan.
+      - name: Hacer sitio borrando los diarios viejos
+        if: ${{ always() && !inputs.solo_guion }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          IDS=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" --jq '.artifacts[] | select(.name | startswith("diario-")) | .id')
+          for ID in $IDS; do
+            echo "borro el artefacto $ID"
+            gh api -X DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$ID" || true
+          done
+
+      # Aquí es donde recoges el vídeo cada mañana.
       - uses: actions/upload-artifact@v4
         if: ${{ always() && !inputs.solo_guion }}
+        continue-on-error: true
         with:
           name: diario-${{ needs.decidir.outputs.fecha }}
           path: |
             out/diario-master.mp4
             out/portada.png
-            content/diario.json
-            content/fichas/
-          retention-days: 30
+          retention-days: 7
           compression-level: 0
 
       # ---- 5. Archivar y avanzar la cola ----------------------------------
@@ -261,8 +295,9 @@ jobs:
 
           git config user.name "capital-x-bot"
           git config user.email "actions@github.com"
-          git add content public/voice assets/voice
+          git add content
           git commit -m "Vídeo del ${{ needs.decidir.outputs.fecha }}: $SLUG" || echo "nada que guardar"
+          git pull --rebase --autostash -q
           git push
 
       - name: Aviso si algo ha fallado
@@ -272,5 +307,8 @@ jobs:
             echo "### El vídeo de hoy no ha salido"
             echo ""
             echo "La cola **no** ha avanzado: mañana se reintenta el mismo tema."
-            echo "Mira qué paso ha fallado arriba."
+            echo ""
+            echo "Si ya había llegado a locutar, el guion y los audios están"
+            echo "guardados en el repositorio y el reintento **no** vuelve a"
+            echo "gastar créditos."
           } >> "$GITHUB_STEP_SUMMARY"
