@@ -102,9 +102,3 @@ jobs:
           echo "## $TITULO" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "[Descargar el vídeo]($(gh release view "$ETIQUETA" --json url --jq .url))" >> "$GITHUB_STEP_SUMMARY"
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ${{ inputs.video }}-master
-          path: out/${{ inputs.video }}-master.mp4
-          retention-days: 30
-          compression-level: 0
