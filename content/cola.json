@@ -16,16 +16,15 @@
     {
       "slug": "corea",
       "titulo": "COREA DEL SUR: Dejó de Caer (Y Sigue Siendo Tarde)"
+    },
+    {
+      "slug": "pemex",
+      "titulo": "PEMEX: debe menos a los bancos y más a todos los demás",
+      "fecha": "2026-08-28",
+      "video": null
     }
   ],
   "cola": [
-    {
-      "slug": "pemex",
-      "titulo": "PEMEX: Debe Menos A Los Bancos Y Más A Todos Los Demás",
-      "angulo": "Prometida en las tarjetas finales de México y de Corea, así que va primero. OJO con la premisa: la investigación ya demostró que 'la empresa más endeudada del mundo' es falso (es la PETROLERA más endeudada) y que la cifra de cien mil millones lleva dos años desfasada: la deuda financiera bajó a 77.500 millones de dólares en junio de 2026. El ángulo bueno no es cuánto debe, sino quién lo está pagando: la deuda financiera baja porque la absorbe el Estado, mientras los pasivos con proveedores y el pasivo laboral crecen. Es deuda soberana disfrazada de deuda corporativa.",
-      "region": "norteamerica",
-      "pais": "mexico"
-    },
     {
       "slug": "portugal",
       "titulo": "PORTUGAL: Vendieron el País y Ahora No Pueden Vivir En Él",

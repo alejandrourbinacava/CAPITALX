@@ -1,0 +1,452 @@
+{
+  "b0-01": {
+    "audio": "voice/pemex-b0-01.mp3",
+    "duration": 11.911837,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b0-02": {
+    "audio": "voice/pemex-b0-02.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b0-03": {
+    "audio": "voice/pemex-b0-03.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b0-04": {
+    "audio": "voice/pemex-b0-04.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 311
+  },
+  "b0-05": {
+    "audio": "voice/pemex-b0-05.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b0-06": {
+    "audio": "voice/pemex-b0-06.mp3",
+    "duration": 13.479184,
+    "transcript": null,
+    "credit_cost": 335
+  },
+  "b1-01": {
+    "audio": "voice/pemex-b1-01.mp3",
+    "duration": 6.243265,
+    "transcript": null,
+    "credit_cost": 148
+  },
+  "b1-02": {
+    "audio": "voice/pemex-b1-02.mp3",
+    "duration": 5.929796,
+    "transcript": null,
+    "credit_cost": 131
+  },
+  "b1-03": {
+    "audio": "voice/pemex-b1-03.mp3",
+    "duration": 7.497143,
+    "transcript": null,
+    "credit_cost": 178
+  },
+  "b1-04": {
+    "audio": "voice/pemex-b1-04.mp3",
+    "duration": 7.78449,
+    "transcript": null,
+    "credit_cost": 167
+  },
+  "b2-01": {
+    "audio": "voice/pemex-b2-01.mp3",
+    "duration": 11.885714,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b2-02": {
+    "audio": "voice/pemex-b2-02.mp3",
+    "duration": 9.717551,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b2-03": {
+    "audio": "voice/pemex-b2-03.mp3",
+    "duration": 7.392653,
+    "transcript": null,
+    "credit_cost": 173
+  },
+  "b2-04": {
+    "audio": "voice/pemex-b2-04.mp3",
+    "duration": 11.990204,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b2-05": {
+    "audio": "voice/pemex-b2-05.mp3",
+    "duration": 8.411429,
+    "transcript": null,
+    "credit_cost": 179
+  },
+  "b2-06": {
+    "audio": "voice/pemex-b2-06.mp3",
+    "duration": 11.154286,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b3-01": {
+    "audio": "voice/pemex-b3-01.mp3",
+    "duration": 8.907755,
+    "transcript": null,
+    "credit_cost": 229
+  },
+  "b3-02": {
+    "audio": "voice/pemex-b3-02.mp3",
+    "duration": 11.937959,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b3-03": {
+    "audio": "voice/pemex-b3-03.mp3",
+    "duration": 11.52,
+    "transcript": null,
+    "credit_cost": 293
+  },
+  "b3-04": {
+    "audio": "voice/pemex-b3-04.mp3",
+    "duration": 13.453061,
+    "transcript": null,
+    "credit_cost": 341
+  },
+  "b3-05": {
+    "audio": "voice/pemex-b3-05.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b3-06": {
+    "audio": "voice/pemex-b3-06.mp3",
+    "duration": 5.982041,
+    "transcript": null,
+    "credit_cost": 147
+  },
+  "b4-01": {
+    "audio": "voice/pemex-b4-01.mp3",
+    "duration": 11.859592,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b4-02": {
+    "audio": "voice/pemex-b4-02.mp3",
+    "duration": 10.997551,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b4-03": {
+    "audio": "voice/pemex-b4-03.mp3",
+    "duration": 12.486531,
+    "transcript": null,
+    "credit_cost": 335
+  },
+  "b4-04": {
+    "audio": "voice/pemex-b4-04.mp3",
+    "duration": 14.262857,
+    "transcript": null,
+    "credit_cost": 365
+  },
+  "b4-05": {
+    "audio": "voice/pemex-b4-05.mp3",
+    "duration": 10.684082,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b4-06": {
+    "audio": "voice/pemex-b4-06.mp3",
+    "duration": 14.132245,
+    "transcript": null,
+    "credit_cost": 363
+  },
+  "b4-07": {
+    "audio": "voice/pemex-b4-07.mp3",
+    "duration": 14.994286,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b5-01": {
+    "audio": "voice/pemex-b5-01.mp3",
+    "duration": 14.680816,
+    "transcript": null,
+    "credit_cost": 379
+  },
+  "b5-02": {
+    "audio": "voice/pemex-b5-02.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 241
+  },
+  "b5-03": {
+    "audio": "voice/pemex-b5-03.mp3",
+    "duration": 11.572245,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b5-04": {
+    "audio": "voice/pemex-b5-04.mp3",
+    "duration": 11.755102,
+    "transcript": null,
+    "credit_cost": 322
+  },
+  "b5-05": {
+    "audio": "voice/pemex-b5-05.mp3",
+    "duration": 11.964082,
+    "transcript": null,
+    "credit_cost": 292
+  },
+  "b5-06": {
+    "audio": "voice/pemex-b5-06.mp3",
+    "duration": 12.068571,
+    "transcript": null,
+    "credit_cost": 332
+  },
+  "b6-01": {
+    "audio": "voice/pemex-b6-01.mp3",
+    "duration": 9.900408,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b6-02": {
+    "audio": "voice/pemex-b6-02.mp3",
+    "duration": 12.434286,
+    "transcript": null,
+    "credit_cost": 328
+  },
+  "b6-03": {
+    "audio": "voice/pemex-b6-03.mp3",
+    "duration": 12.042449,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b6-04": {
+    "audio": "voice/pemex-b6-04.mp3",
+    "duration": 9.900408,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b7-01": {
+    "audio": "voice/pemex-b7-01.mp3",
+    "duration": 13.583673,
+    "transcript": null,
+    "credit_cost": 362
+  },
+  "b7-02": {
+    "audio": "voice/pemex-b7-02.mp3",
+    "duration": 13.688163,
+    "transcript": null,
+    "credit_cost": 336
+  },
+  "b7-03": {
+    "audio": "voice/pemex-b7-03.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b7-04": {
+    "audio": "voice/pemex-b7-04.mp3",
+    "duration": 12.068571,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b7-05": {
+    "audio": "voice/pemex-b7-05.mp3",
+    "duration": 12.930612,
+    "transcript": null,
+    "credit_cost": 358
+  },
+  "b7-06": {
+    "audio": "voice/pemex-b7-06.mp3",
+    "duration": 13.688163,
+    "transcript": null,
+    "credit_cost": 366
+  },
+  "b7-07": {
+    "audio": "voice/pemex-b7-07.mp3",
+    "duration": 11.650612,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b7-08": {
+    "audio": "voice/pemex-b7-08.mp3",
+    "duration": 14.132245,
+    "transcript": null,
+    "credit_cost": 373
+  },
+  "b8-01": {
+    "audio": "voice/pemex-b8-01.mp3",
+    "duration": 6.50449,
+    "transcript": null,
+    "credit_cost": 164
+  },
+  "b8-02": {
+    "audio": "voice/pemex-b8-02.mp3",
+    "duration": 14.053878,
+    "transcript": null,
+    "credit_cost": 332
+  },
+  "b8-03": {
+    "audio": "voice/pemex-b8-03.mp3",
+    "duration": 14.106122,
+    "transcript": null,
+    "credit_cost": 376
+  },
+  "b8-04": {
+    "audio": "voice/pemex-b8-04.mp3",
+    "duration": 14.28898,
+    "transcript": null,
+    "credit_cost": 353
+  },
+  "b8-05": {
+    "audio": "voice/pemex-b8-05.mp3",
+    "duration": 9.691429,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b8-06": {
+    "audio": "voice/pemex-b8-06.mp3",
+    "duration": 14.706939,
+    "transcript": null,
+    "credit_cost": 382
+  },
+  "b8-07": {
+    "audio": "voice/pemex-b8-07.mp3",
+    "duration": 10.553469,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b9-01": {
+    "audio": "voice/pemex-b9-01.mp3",
+    "duration": 11.258776,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b9-02": {
+    "audio": "voice/pemex-b9-02.mp3",
+    "duration": 10.004898,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b9-03": {
+    "audio": "voice/pemex-b9-03.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b9-04": {
+    "audio": "voice/pemex-b9-04.mp3",
+    "duration": 14.027755,
+    "transcript": null,
+    "credit_cost": 330
+  },
+  "b9-05": {
+    "audio": "voice/pemex-b9-05.mp3",
+    "duration": 13.479184,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b9-06": {
+    "audio": "voice/pemex-b9-06.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b9-07": {
+    "audio": "voice/pemex-b9-07.mp3",
+    "duration": 14.132245,
+    "transcript": null,
+    "credit_cost": 399
+  },
+  "b10-01": {
+    "audio": "voice/pemex-b10-01.mp3",
+    "duration": 13.374694,
+    "transcript": null,
+    "credit_cost": 348
+  },
+  "b10-02": {
+    "audio": "voice/pemex-b10-02.mp3",
+    "duration": 12.225306,
+    "transcript": null,
+    "credit_cost": 301
+  },
+  "b10-03": {
+    "audio": "voice/pemex-b10-03.mp3",
+    "duration": 8.515918,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b10-04": {
+    "audio": "voice/pemex-b10-04.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b10-05": {
+    "audio": "voice/pemex-b10-05.mp3",
+    "duration": 12.826122,
+    "transcript": null,
+    "credit_cost": 358
+  },
+  "b10-06": {
+    "audio": "voice/pemex-b10-06.mp3",
+    "duration": 11.180408,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b11-01": {
+    "audio": "voice/pemex-b11-01.mp3",
+    "duration": 8.071837,
+    "transcript": null,
+    "credit_cost": 188
+  },
+  "b11-02": {
+    "audio": "voice/pemex-b11-02.mp3",
+    "duration": 10.919184,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b11-03": {
+    "audio": "voice/pemex-b11-03.mp3",
+    "duration": 14.027755,
+    "transcript": null,
+    "credit_cost": 348
+  },
+  "b11-04": {
+    "audio": "voice/pemex-b11-04.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b11-05": {
+    "audio": "voice/pemex-b11-05.mp3",
+    "duration": 11.598367,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b11-06": {
+    "audio": "voice/pemex-b11-06.mp3",
+    "duration": 10.161633,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b12-01": {
+    "audio": "voice/pemex-b12-01.mp3",
+    "duration": 8.333061,
+    "transcript": null,
+    "credit_cost": 213
+  },
+  "b12-02": {
+    "audio": "voice/pemex-b12-02.mp3",
+    "duration": 6.321633,
+    "transcript": null,
+    "credit_cost": 151
+  }
+}
