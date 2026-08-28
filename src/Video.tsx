@@ -135,8 +135,33 @@ export const duracionesDe = (g: Guion, t: Tiempos) =>
 export const duracionTotalDe = (g: Guion, t: Tiempos) =>
   duracionesDe(g, t).reduce((a, b) => a + b, 0);
 
-/** Lo que dura como poco una escena. Por debajo de esto no se lee nada. */
-const MINIMO = Math.round(1.1 * VIDEO.fps);
+/**
+ * Lo que dura como poco una escena. Tres segundos parecian dinamicos y en
+ * realidad no dan tiempo a leer un grafico: cuando aparece el ultimo dato,
+ * ya se ha cortado. Cinco es el suelo real.
+ */
+const MINIMO = Math.round(4.2 * VIDEO.fps);
+
+/**
+ * Cuanto pide cada tipo.
+ *
+ * No todo se lee igual de rapido. Un grafico de barras hay que recorrerlo con
+ * la vista, comparar dos alturas y leer dos etiquetas; una frase de siete
+ * palabras se lee de un golpe. Repartir a partes iguales castiga justo a lo
+ * que lleva el dato.
+ */
+const PESO: Record<string, number> = {
+  barras: 1.5,
+  lineas: 1.5,
+  gente: 1.5,
+  contador: 1.3,
+  mapa: 1.2,
+  lista: 1.2,
+  retrato: 1,
+  clip: 1,
+  objeto: 0.85,
+  frase: 0.85,
+};
 
 /**
  * Reparte la duracion del plano entre sus escenas.
@@ -157,7 +182,7 @@ export const repartir = (
   const usadas = es.slice(0, caben);
   if (usadas.length < 2) return [{ escena: usadas[0], desde: 0, largo: total, solo: true }];
 
-  const pesos = usadas.map((e) => Math.max(0.4, e.peso ?? 1));
+  const pesos = usadas.map((e) => Math.max(0.4, e.peso ?? PESO[e.tipo] ?? 1));
   const suma = pesos.reduce((a, b) => a + b, 0);
 
   const out = [];

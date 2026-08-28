@@ -203,14 +203,22 @@ Cada plano:
 
 Un plano dura lo que dura su locución: unos once segundos. Nadie aguanta once segundos mirando el mismo dibujo, así que **cada plano se parte en varias escenas** que se reparten ese tiempo. La voz sigue siendo una sola frase continua; lo que cambia por debajo es la imagen, cada dos o tres segundos.
 
-Es la regla más importante de todo este documento. Un plano de once segundos con una sola imagen es un plano mal escrito.
+Un plano de quince segundos con una sola imagen es un plano mal escrito. Pero uno de seis segundos partido en tres tampoco vale: se lee peor que si no se hubiera partido.
 
-Cuántas escenas: **una por cada 45 caracteres de "vo"**, mínimo dos y máximo seis.
+Cuánto dura una escena: **entre cinco y siete segundos**. Menos no da tiempo a leer.
 
-    "vo" de 90 caracteres  → 2 escenas
-    "vo" de 140 caracteres → 3 escenas
-    "vo" de 180 caracteres → 4 escenas
-    "vo" de 230 caracteres → 5 escenas
+Esto es importante y es fácil equivocarse en la dirección contraria. Tres segundos suenan dinámicos, pero un gráfico de barras hay que recorrerlo con la vista, comparar dos alturas y leer dos etiquetas: cuando el espectador llega al último dato, ya se ha cortado. El ritmo no se consigue troceando más, se consigue con lo que se mueve **dentro** de cada escena: los tags que entran escalonados, el barrido de las barras, el contador subiendo.
+
+La locución va a unos dieciséis caracteres por segundo, así que:
+
+    "vo" de 90 caracteres  →  5,7 s  →  1 escena
+    "vo" de 140 caracteres →  8,9 s  →  2 escenas
+    "vo" de 180 caracteres → 11,4 s  →  2 escenas
+    "vo" de 240 caracteres → 15,2 s  →  3 escenas
+
+La cuenta: **una escena por cada 85 caracteres de "vo"**, mínimo una y máximo tres. Un plano corto se queda con una sola imagen, y está bien.
+
+El reparto dentro del plano no es a partes iguales: los gráficos, los mapas y los contadores se llevan más tiempo que las frases, porque cuestan más de leer. De eso se encarga el montaje solo, no tienes que hacer nada.
 
 Cada escena lleva su "tipo" y lo que ese tipo necesite, exactamente igual que antes. Puede llevar además "kicker", "fuente", "rotulo", "tags" y "camara" propios:
 
@@ -231,7 +239,7 @@ Cada escena lleva su "tipo" y lo que ese tipo necesite, exactamente igual que an
 
 Reglas de las escenas:
 
-- **Dos escenas seguidas nunca son del mismo "tipo".** Alterna gráfico, frase, objeto, mapa, retrato.
+- **Dos escenas seguidas nunca son del mismo "tipo".** Alterna gráfico, frase, objeto, mapa, retrato, clip.
 - La primera escena es la que sostiene el dato. Las siguientes lo desarrollan, lo ilustran o lo rematan.
 - El "fuente" va en la escena donde se ve la cifra, no en todas.
 - "peso" es opcional y sirve para que una escena dure más que sus hermanas. Úsalo poco: por defecto reparten a partes iguales.
@@ -437,6 +445,11 @@ async function reescenificar(doc) {
             `Lo que había antes en cada plano te sirve de punto de partida: normalmente`,
             `esa era la primera escena y le faltaban las siguientes.`,
             ``,
+            `EN ESTA TANDA: mete uno o dos planos de tipo "clip", en los que mejor`,
+            `encajen. Van repartidos por todo el vídeo, y esta tanda es su parte.`,
+            `Si de verdad ninguno pide metraje, no fuerces: mejor ninguno que uno`,
+            `pegado con calzador.`,
+            ``,
             JSON.stringify(tanda, null, 1),
             ``,
             `Devuelve SOLO un JSON con esta forma, dentro de un bloque \`\`\`json:`,
@@ -574,12 +587,23 @@ function validar(doc, tema) {
     if (p.tipo === "cierre") continue;
     const n = (p.escenas ?? []).length;
     escenasTotales += Math.max(n, 1);
-    const hacen = Math.min(6, Math.max(2, Math.ceil((p.vo?.length ?? 0) / 45)));
+    // Cinco o seis segundos por escena: menos no da tiempo a leer un grafico,
+    // mas se queda quieto. El ritmo lo pone lo que se mueve dentro.
+    const largo = p.vo?.length ?? 0;
+    const segundos = largo / 15.8;
+    const hacen = Math.min(3, Math.max(1, Math.round(largo / 85)));
     if (n < hacen) {
       di(
-        `${p.id}: ${n === 0 ? "no tiene 'escenas'" : `solo tiene ${n} escenas`}. ` +
-          `Con ${p.vo?.length ?? 0} caracteres de locución hacen falta ${hacen}, ` +
-          `o la imagen se queda quieta ${((p.vo?.length ?? 0) / 15.8 / Math.max(n, 1)).toFixed(0)} segundos.`
+        `${p.id}: ${n === 0 ? "no tiene 'escenas'" : `solo tiene ${n}`}. ` +
+          `Son ${segundos.toFixed(0)} segundos de locución y hacen falta ${hacen} escenas, ` +
+          `o la imagen se queda quieta ${(segundos / Math.max(n, 1)).toFixed(0)} segundos.`
+      );
+    }
+    if (n > hacen + 1) {
+      di(
+        `${p.id}: ${n} escenas para ${segundos.toFixed(0)} segundos salen a ` +
+          `${(segundos / n).toFixed(1)} s cada una. Con menos de cinco no da tiempo a leer: ` +
+          `déjalo en ${hacen}.`
       );
     }
     for (let i = 1; i < (p.escenas ?? []).length; i++) {
