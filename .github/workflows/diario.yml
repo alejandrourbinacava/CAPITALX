@@ -184,7 +184,7 @@ jobs:
         run: |
           git config user.name "capital-x-bot"
           git config user.email "actions@github.com"
-          git add content/diario.json content/diario.timings.json public/voice assets/voice
+          git add content/diario.json content/diario.timings.json content/diario.creditos.txt public/voice assets/voice
           if git diff --cached --quiet; then
             echo "nada nuevo que guardar"
           else
@@ -194,6 +194,15 @@ jobs:
           fi
 
       # ---- 3. Imagen ------------------------------------------------------
+      # Los clips se bajan en cada render, no se versionan: pesan demasiado.
+      # La eleccion sí queda escrita en el guion, asi que siempre baja el mismo
+      # y el video sale igual la proxima vez.
+      - name: Traer los clips de archivo
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: node scripts/clips.mjs "content/diario.json"
+
       - name: Renderizar
         if: ${{ !inputs.solo_guion }}
         run: npx remotion render diario out/diario.mp4 --jpeg-quality=80 --log=info

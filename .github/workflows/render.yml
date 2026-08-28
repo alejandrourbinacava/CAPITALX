@@ -79,8 +79,17 @@ jobs:
           node scripts/guion.mjs --reescenificar "content/${{ inputs.video }}.json"
           git config user.name "capital-x-bot"
           git config user.email "actions@github.com"
-          git add "content/${{ inputs.video }}.json"
+          git add "content/${{ inputs.video }}.json" "content/${{ inputs.video }}.creditos.txt"
           git diff --cached --quiet || { git commit -m "Escenas nuevas para ${{ inputs.video }}"; git pull --rebase --autostash -q; git push; }
+
+      # Los clips se bajan en cada render, no se versionan: pesan demasiado.
+      # La eleccion sí queda escrita en el guion, asi que siempre baja el mismo
+      # y el video sale igual la proxima vez.
+      - name: Traer los clips de archivo
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: node scripts/clips.mjs "content/${{ inputs.video }}.json"
 
       - name: Renderizar
         run: |

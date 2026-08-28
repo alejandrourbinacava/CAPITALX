@@ -26,7 +26,7 @@ const MODELO = process.env.ANTHROPIC_MODEL || "claude-opus-5";
 // vacio: por eso se valida contra estas listas antes de gastar un solo credito.
 const TIPOS = [
   "mapa", "barras", "lineas", "contador", "gente", "lista",
-  "frase", "objeto", "retrato", "torres", "dublin", "cierre",
+  "frase", "objeto", "retrato", "clip", "torres", "dublin", "cierre",
 ];
 const OBJETOS = [
   "aeropuerto", "balanza", "carpeta", "carta", "casa", "contable", "dosEpocas",
@@ -278,6 +278,15 @@ Cualquier escena puede llevar etiquetas que aparecen y desaparecen encima del di
 
 - "retrato" · "retrato": { "nombre": "Nombre Apellido", "papel": "<cargo exacto>", "fecha": "<opcional>", "titular": "<opcional>" }
   Ficha tipográfica de prensa. NUNCA pongas el campo "foto": las fotos se preparan a mano, con licencia comprobada.
+
+- "clip" · "clip": { "buscar": "<qué buscar, EN INGLÉS>", "tono": "ocre|carmin" }
+  Metraje de archivo, tratado en blanco y negro con la tinta del canal, igual que todo lo demás. Sirve para respirar entre gráficos y para dar sitio: una refinería, una cola en un banco, una obra parada.
+
+  La búsqueda va **en inglés** y describe una imagen, no una idea. "oil refinery at night" funciona; "economic decline" no devuelve nada útil. Que sea genérico y visual: pides una textura, no una prueba documental.
+
+  **Un clip nunca sostiene un dato.** Ninguna cifra se cuenta sobre metraje: las cifras van en gráficos, que es lo que este canal sabe hacer. El clip es el respiro de al lado.
+
+  Entre **ocho y quince clips** en todo el vídeo, y como mucho uno por bloque. Si pones más, el canal deja de ser lo que es y se convierte en un montaje de banco de imágenes, que es justo lo que no queremos.
 
 - "torres" y "dublin": decorados fijos. Como mucho uno de cada por vídeo, y solo si encaja.
 
@@ -533,6 +542,11 @@ function revisarVisual(p, di) {
   if (p.tipo === "retrato") {
     if (!p.retrato?.nombre) di(`${donde}: 'retrato' necesita 'nombre'`);
     if (p.retrato?.foto) di(`${donde}: quita 'foto'. Las fotos se preparan a mano con la licencia comprobada.`);
+  }
+  if (p.tipo === "clip") {
+    const b = p.clip?.buscar;
+    if (!b) di(`${donde}: 'clip' necesita 'clip': { "buscar": "..." } en inglés`);
+    else if (/[áéíóúñ¿¡]/i.test(b)) di(`${donde}: la búsqueda "${b}" tiene que ir en inglés`);
   }
   if (p.tipo === "cierre" && !p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
 }

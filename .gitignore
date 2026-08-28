@@ -6,3 +6,4 @@ assets/voice/*.mp3
 assets/voice/*.wav
 !assets/voice/.gitkeep
 .DS_Store
+public/clips/
