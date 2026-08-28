@@ -16,8 +16,14 @@ name: Vídeo diario
 
 on:
   schedule:
-    - cron: "12 3 * * *" # 05:12 en Madrid de finales de marzo a finales de octubre
-    - cron: "12 4 * * *" # 05:12 en Madrid el resto del año
+    # GitHub avisa de que retrasa o descarta las tareas programadas cuando hay
+    # carga, y los repositorios privados van los ultimos. Asi que en vez de una
+    # hora se ponen cuatro intentos: el primero que entre hace el video y los
+    # demas se descartan solos al ver que ya hay uno en marcha o hecho.
+    - cron: "12 3 * * *" #  05:12 en Madrid en verano · 04:12 en invierno
+    - cron: "42 3 * * *" #  05:42            ·           04:42
+    - cron: "12 4 * * *" #  06:12            ·           05:12
+    - cron: "42 4 * * *" #  06:42            ·           05:42
   workflow_dispatch:
     inputs:
       tema:
@@ -45,6 +51,11 @@ jobs:
   # la que no toca. Y si el día ya está hecho, no se repite.
   decidir:
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+    env:
+      GH_TOKEN: ${{ github.token }}
     outputs:
       seguir: ${{ steps.g.outputs.seguir }}
       fecha: ${{ steps.g.outputs.fecha }}
@@ -64,15 +75,25 @@ jobs:
             exit 0
           fi
 
-          # De las dos programaciones solo vale la que cae de madrugada
-          if [ "$HORA" != "05" ] && [ "$HORA" != "06" ]; then
-            echo "No es la hora buena en Madrid. Esta ejecución se descarta."
+          # Solo valen las programaciones de madrugada
+          case "$HORA" in
+            04|05|06) ;;
+            *) echo "No es la hora buena en Madrid. Se descarta."
+               echo "seguir=false" >> "$GITHUB_OUTPUT"; exit 0 ;;
+          esac
+
+          if grep -q "\"fecha\": \"$HOY\"" content/cola.json; then
+            echo "El vídeo de hoy ya está hecho."
             echo "seguir=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          if grep -q "\"fecha\": \"$HOY\"" content/cola.json; then
-            echo "El vídeo de hoy ya está hecho."
+          # Con cuatro intentos al dia hay que mirar tambien si ya hay uno
+          # corriendo. Si no, el segundo se pondria en cola detras del primero
+          # y acabariamos con dos videos y el doble de creditos.
+          OTROS=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/diario.yml/runs?per_page=30" --jq "[.workflow_runs[] | select(.status != \"completed\") | select(.id != $GITHUB_RUN_ID)] | length")
+          if [ "${OTROS:-0}" -gt 0 ]; then
+            echo "Ya hay $OTROS ejecución(es) en marcha. Esta se descarta."
             echo "seguir=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
