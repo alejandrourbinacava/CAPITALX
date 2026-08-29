@@ -20,7 +20,13 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const API = "https://api.anthropic.com/v1/messages";
+// Investigar y escribir de cero necesitan el modelo bueno: ahi se decide si
+// el video vale algo. Reescenificar no: es traducir un guion ya escrito a
+// escenas siguiendo un esquema cerrado, y eso lo hace igual de bien un modelo
+// mas barato. Cobrarlo a precio de Opus era tirar dinero, y son trece
+// llamadas por pasada.
 const MODELO = process.env.ANTHROPIC_MODEL || "claude-opus-5";
+const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 
 // Lo que el montaje sabe dibujar. Si el guion pide otra cosa, el plano sale
 // vacio: por eso se valida contra estas listas antes de gastar un solo credito.
@@ -52,9 +58,9 @@ function loadEnv() {
   }
 }
 
-async function claude({ system, mensajes, buscar = false, maxTokens = 16000 }) {
+async function claude({ system, mensajes, buscar = false, maxTokens = 16000, modelo = MODELO }) {
   const body = {
-    model: MODELO,
+    model: modelo,
     max_tokens: maxTokens,
     system,
     messages: mensajes,
@@ -412,10 +418,20 @@ async function redactar(tema, ficha, correcciones = null) {
  * Va por tandas de seis planos porque una peticion con los setenta y cinco de
  * golpe se queda sin espacio de respuesta y devuelve el JSON cortado.
  */
-async function reescenificar(doc) {
-  const planos = doc.bloques.flatMap((b) => b.planos);
-  const conEscenas = new Map();
+async function reescenificar(doc, ruta) {
+  const todos = doc.bloques.flatMap((b) => b.planos);
   const TANDA = 6;
+
+  // Se salta lo que ya esta bien: asi un fallo a mitad no obliga a rehacer
+  // las trece tandas, solo las que falten.
+  const cuantasTocan = (p) => Math.min(3, Math.max(1, Math.round((p.vo?.length ?? 0) / 85)));
+  const planos = todos.filter((p) => (p.escenas?.length ?? 0) !== cuantasTocan(p));
+  const hechos = todos.length - planos.length;
+  if (hechos) console.log(`  ${hechos} planos ya estaban bien, se saltan`);
+  if (!planos.length) {
+    console.log("  no hay nada que rehacer");
+    return doc;
+  }
 
   const claves = {
     europa: REGIONES.europa(),
@@ -429,6 +445,7 @@ async function reescenificar(doc) {
 
     const { texto } = await claude({
       system: sistemaRedactar(),
+      modelo: MODELO_ESCENAS,
       maxTokens: 16000,
       mensajes: [
         {
@@ -466,26 +483,21 @@ async function reescenificar(doc) {
     const lote = JSON.parse(m[1]);
     let n = 0;
     for (const [id, escenas] of Object.entries(lote)) {
-      if (Array.isArray(escenas) && escenas.length) {
-        conEscenas.set(id, escenas);
-        n += escenas.length;
+      const p = todos.find((x) => x.id === id);
+      if (!p || !Array.isArray(escenas) || !escenas.length) continue;
+      // Se conservan id, vo y voz: los mp3 estan atados a ellos.
+      for (const k of Object.keys(p)) {
+        if (!["id", "vo", "voz"].includes(k)) delete p[k];
       }
+      p.tipo = escenas[0].tipo;
+      p.escenas = escenas;
+      n += escenas.length;
     }
     console.log(`${n} escenas`);
-  }
 
-  // Se monta el guion nuevo conservando id, vo y voz intactos.
-  for (const p of planos) {
-    const es = conEscenas.get(p.id);
-    if (!es) {
-      console.warn(`  AVISO: ${p.id} se queda sin escenas, mantiene la imagen que tenía`);
-      continue;
-    }
-    for (const k of Object.keys(p)) {
-      if (!["id", "vo", "voz"].includes(k)) delete p[k];
-    }
-    p.tipo = es[0].tipo;
-    p.escenas = es;
+    // Guardar tras cada tanda. Trece llamadas a la API no pueden depender de
+    // que las trece salgan: lo hecho se queda hecho.
+    if (ruta) fs.writeFileSync(ruta, JSON.stringify(doc, null, 2));
   }
   return doc;
 }
@@ -694,7 +706,7 @@ async function main() {
     const ruta = args[args.indexOf("--reescenificar") + 1] || "content/diario.json";
     const doc = leerJson(ruta);
     console.log(`reescenificando ${doc.titulo}`);
-    const nuevo = await reescenificar(doc);
+    const nuevo = await reescenificar(doc, ruta);
 
     const fallos = validar(nuevo, { slug: nuevo.slug }).filter((f) => !/caracteres|publicacion|descripción|etiquetas/.test(f));
     if (fallos.length) {
