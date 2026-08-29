@@ -88,11 +88,17 @@ async function buscarPixabay(q) {
 /**
  * Se prefiere el clip corto: uno de treinta segundos del que solo se ven tres
  * es metraje de relleno, y ademas son megas que no se aprovechan.
+ *
+ * Y no se repite ninguno. Dos busquedas parecidas devuelven el mismo primer
+ * resultado, asi que sin esto sale tres veces la misma refineria en un video
+ * de catorce minutos, que es peor que no poner nada.
  */
-const mejor = (lista) =>
-  lista.sort((a, b) => Math.abs(a.duracion - 9) - Math.abs(b.duracion - 9))[0];
+const mejor = (lista, usados) => {
+  const orden = lista.sort((a, b) => Math.abs(a.duracion - 9) - Math.abs(b.duracion - 9));
+  return orden.find((c) => !usados.has(`${c.fuente}-${c.id}`)) ?? null;
+};
 
-async function resolver(busqueda) {
+async function resolver(busqueda, usados) {
   const intentos = [];
   if (process.env.PEXELS_API_KEY) intentos.push(buscarPexels);
   if (process.env.PIXABAY_API_KEY) intentos.push(buscarPixabay);
@@ -101,7 +107,8 @@ async function resolver(busqueda) {
   for (const buscar of intentos) {
     try {
       const r = await buscar(busqueda);
-      if (r.length) return mejor(r);
+      const elegido = mejor(r, usados);
+      if (elegido) return elegido;
     } catch (e) {
       console.log(`    (${e.message})`);
     }
@@ -139,13 +146,18 @@ async function main() {
 
   let mb = 0;
   const creditos = [];
+  const usados = new Set();
+  // Los que ya vengan elegidos de una pasada anterior tambien cuentan.
+  for (const { e } of conClip) {
+    if (e.clip?.elegido) usados.add(`${e.clip.elegido.fuente}-${e.clip.elegido.id}`);
+  }
   for (const { e, id } of conClip) {
     const c = e.clip;
     if (rebuscar) delete c.elegido;
 
     if (!c.elegido) {
       process.stdout.write(`  ${id}  "${c.buscar}" … `);
-      const hallado = await resolver(c.buscar);
+      const hallado = await resolver(c.buscar, usados);
       if (!hallado) {
         console.log("SIN RESULTADOS");
         // Sin clip no se deja un hueco negro: el plano se cae a tipografia.
@@ -155,6 +167,7 @@ async function main() {
         continue;
       }
       c.elegido = hallado;
+      usados.add(`${hallado.fuente}-${hallado.id}`);
       console.log(`${hallado.fuente} #${hallado.id} (${hallado.duracion}s, ${hallado.autor})`);
     }
 

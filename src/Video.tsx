@@ -331,15 +331,57 @@ const Contador: React.FC<{ p: Visual }> = ({ p }) => {
   );
 };
 
+/**
+ * ¿Tiene esta escena lo que necesita para dibujarse?
+ *
+ * El render murio al noventa y ocho por ciento porque una escena de cierre
+ * venia sin su objeto `cierre` y el componente leyo una propiedad de
+ * undefined. Cincuenta minutos de maquina por un campo que faltaba. Un dato
+ * ausente tiene que degradar el plano, nunca tumbar el video: lo que sale es
+ * el papel con su rotulo, que es feo pero se entiende.
+ */
+const listo = (p: Visual): boolean => {
+  switch (p.tipo) {
+    case "cierre":
+      return !!p.cierre;
+    case "lista":
+      return !!p.lista?.puntos?.length;
+    case "barras":
+      return !!p.barras?.datos?.length;
+    case "lineas":
+      return !!p.lineas?.series?.length;
+    case "contador":
+      return typeof p.a?.valor === "number";
+    case "gente":
+      return typeof p.gente?.total === "number" && typeof p.gente?.destacados === "number";
+    case "retrato":
+      return !!p.retrato?.nombre;
+    case "objeto":
+      return !!p.objeto;
+    case "mapa":
+      return !!p.mapa;
+    case "clip":
+      return !!p.clip?.fichero;
+    case "frase":
+      return !!p.texto;
+    default:
+      return true;
+  }
+};
+
 const PlanoView: React.FC<{ p: Visual }> = ({ p }) => {
   const night =
     p.tipo === "dublin" ||
     p.tipo === "clip" ||
     ((p.tipo === "frase" || p.tipo === "lista") && !!p.night);
 
+  const pintable = listo(p);
+
   return (
     <Surface night={night} grid={p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "clip"} frame>
       <Camara modo={p.camara}>
+        {!pintable ? null : (
+        <>
         {p.tipo === "dublin" ? <DublinNight encuadre={p.encuadre} dawn={p.amanecer} /> : null}
         {p.tipo === "torres" ? <Towers /> : null}
         {p.tipo === "gente" ? (
@@ -358,11 +400,13 @@ const PlanoView: React.FC<{ p: Visual }> = ({ p }) => {
         {p.tipo === "objeto" ? <Objeto nombre={p.objeto!} /> : null}
         {p.tipo === "retrato" ? <Retrato spec={p.retrato} /> : null}
         {p.tipo === "clip" ? <Clip spec={p.clip ?? {}} tono={p.clip?.tono} /> : null}
+        </>
+        )}
       </Camara>
 
-      {p.tipo === "frase" ? <Statement text={p.texto ?? ""} night={p.night} /> : null}
-      {p.tipo === "lista" ? <Lista spec={p.lista} night={night} /> : null}
-      {p.tipo === "cierre" ? <Cierre spec={p.cierre} /> : null}
+      {pintable && p.tipo === "frase" ? <Statement text={p.texto ?? ""} night={p.night} /> : null}
+      {pintable && p.tipo === "lista" ? <Lista spec={p.lista} night={night} /> : null}
+      {pintable && p.tipo === "cierre" ? <Cierre spec={p.cierre} /> : null}
 
       {p.anillo ? (
         <SketchRing cx={p.anillo.cx} cy={p.anillo.cy} rx={p.anillo.rx} ry={p.anillo.ry} delay={0.7} />

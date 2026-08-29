@@ -296,6 +296,8 @@ Cualquier escena puede llevar etiquetas que aparecen y desaparecen encima del di
 - "clip" · "clip": { "buscar": "<qué buscar, EN INGLÉS>", "tono": "ocre|carmin" }
   Metraje de archivo, tratado en blanco y negro con la tinta del canal, igual que todo lo demás. Sirve para respirar entre gráficos y para dar sitio: una refinería, una cola en un banco, una obra parada.
 
+  **Cada clip busca una cosa distinta.** Si en un vídeo sobre petróleo pides tres veces "oil refinery", sale tres veces el mismo plano y se nota muchísimo. Varía: la refinería, la plataforma en el mar, el camión cisterna, la sala de control, el oleoducto en el desierto.
+
   La búsqueda va **en inglés** y describe una imagen, no una idea. "oil refinery at night" funciona; "economic decline" no devuelve nada útil. Que sea genérico y visual: pides una textura, no una prueba documental.
 
   **Un clip nunca sostiene un dato.** Ninguna cifra se cuenta sobre metraje: las cifras van en gráficos, que es lo que este canal sabe hacer. El clip es el respiro de al lado.
