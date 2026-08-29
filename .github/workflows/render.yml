@@ -79,7 +79,7 @@ jobs:
           node scripts/guion.mjs --reescenificar "content/${{ inputs.video }}.json"
           git config user.name "capital-x-bot"
           git config user.email "actions@github.com"
-          git add "content/${{ inputs.video }}.json" "content/${{ inputs.video }}.creditos.txt"
+          git add content/
           git diff --cached --quiet || { git commit -m "Escenas nuevas para ${{ inputs.video }}"; git pull --rebase --autostash -q; git push; }
 
       # Los clips se bajan en cada render, no se versionan: pesan demasiado.
@@ -89,7 +89,12 @@ jobs:
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-        run: node scripts/clips.mjs "content/${{ inputs.video }}.json"
+        run: |
+          node scripts/clips.mjs "content/${{ inputs.video }}.json"
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content/
+          git diff --cached --quiet || { git commit -m "Clips elegidos para ${{ inputs.video }}"; git pull --rebase --autostash -q; git push; }
 
       - name: Renderizar
         run: |
