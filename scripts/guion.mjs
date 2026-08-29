@@ -271,12 +271,12 @@ Cada escena lleva su "tipo" y lo que ese tipo necesite, exactamente igual que an
 
 Este es el reparto que tiene que salir contando **todas** las escenas del vídeo. No es orientativo: el vídeo anterior salió con un 66 % de pantallas de texto y de gráficos, y se hacía pesadísimo.
 
-    clip        20 %   metraje de archivo
-    recorte     18 %   recortes de revista
-    objeto      14 %   dibujos a línea
-    barras/lineas/contador  20 %   los gráficos
+    clip        28 %   metraje de archivo
+    recorte     20 %   recortes de revista
+    objeto      12 %   dibujos a línea
+    barras/lineas/contador  16 %   los gráficos
     frase       12 %   pantallas de texto solo
-    mapa/lista/retrato/gente  16 %
+    mapa/lista/retrato/gente  12 %
 
 Lo que hay que vigilar, por orden:
 
@@ -539,10 +539,10 @@ async function reescenificar(doc, ruta) {
             `pero tú solo ves seis planos, así que aquí va tu parte ya calculada.`,
             `De las doce o trece escenas que vas a escribir:`,
             ``,
-            `    3 de tipo "clip"      metraje de archivo`,
-            `    2 de tipo "recorte"   recortes de revista`,
+            `    4 de tipo "clip"      metraje de archivo`,
+            `    3 de tipo "recorte"   recortes de revista`,
             `    2 como mucho de tipo "frase"`,
-            `    3 de gráfico          barras, líneas o contador`,
+            `    2 de gráfico          barras, líneas o contador`,
             `    el resto              objeto, mapa, lista, retrato`,
             ``,
             `Esto no es orientativo. La pasada anterior salió con el treinta por`,
@@ -770,10 +770,10 @@ function validar(doc, tema) {
     const pc = (n) => Math.round((n / escenas.length) * 100);
 
     const imagen = cuenta("clip", "recorte", "objeto", "retrato", "dublin", "torres");
-    if (pc(imagen) < 42) {
+    if (pc(imagen) < 55) {
       di(
         `solo el ${pc(imagen)} % de las escenas es imagen (clip, recorte, objeto, retrato). ` +
-          `Tiene que pasar del 45 %: cambia pantallas de texto y de gráfico por recortes y clips.`
+          `Tiene que pasar del 60 %: cambia pantallas de texto y de gráfico por recortes y clips.`
       );
     }
     const fr = cuenta("frase");
@@ -785,9 +785,9 @@ function validar(doc, tema) {
       di(`el ${pc(graf)} % son gráficos. El tope es 25 %: no todos los datos necesitan gráfico.`);
     }
     const cl = cuenta("clip");
-    if (pc(cl) < 12) di(`solo hay ${cl} clips (${pc(cl)} %). Tienen que ser cerca del 20 %.`);
+    if (pc(cl) < 20) di(`solo hay ${cl} clips (${pc(cl)} %). Tienen que ser cerca del 28 %.`);
     const rc = cuenta("recorte");
-    if (pc(rc) < 10) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 18 %.`);
+    if (pc(rc) < 14) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 20 %.`);
   }
 
   const ult = planos[planos.length - 1];

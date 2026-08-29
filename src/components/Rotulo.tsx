@@ -213,9 +213,33 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
 
-  // empuje continuo: el texto nunca se queda quieto
-  const zoom = interpolate(frame, [0, durationInFrames], [1.0, 1.055], {
+  // Empuje continuo. Antes era del cinco por ciento y no se notaba: la
+  // pantalla se quedaba muerta despues del primer segundo.
+  const zoom = interpolate(frame, [0, durationInFrames], [1.0, 1.11], {
     extrapolateRight: "clamp",
+  });
+  // Y una deriva lateral minima, que es lo que hace que la imagen respire.
+  const deriva = interpolate(frame, [0, durationInFrames], [14, -14], {
+    extrapolateRight: "clamp",
+  });
+
+  /**
+   * El resalte llega tarde, a proposito.
+   *
+   * Antes entraba con la palabra y todo el plano se resolvia en un segundo y
+   * medio; despues no pasaba nada durante cuatro segundos. Ahora la frase
+   * entra primero y el resalte cae despues, en el tercio de la escena: son
+   * dos tiempos en vez de uno, y la palabra marcada se lleva su golpe cuando
+   * la voz llega a ella.
+   */
+  const golpe = Math.max(10, durationInFrames * 0.3);
+
+  // Filete que se traza bajo la frase durante toda la escena. Es lo que
+  // sostiene la mirada cuando ya no entra nada nuevo.
+  const filete = interpolate(frame, [golpe, durationInFrames * 0.92], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+    easing: (x) => 1 - Math.pow(1 - x, 2),
   });
 
   const parts = text.split("*");
@@ -230,11 +254,12 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
         alignItems: "center",
         justifyContent: "center",
         padding: "0 200px",
-        transform: `scale(${zoom})`,
+        transform: `scale(${zoom}) translateX(${deriva}px)`,
       }}
     >
       <div
         style={{
+          position: "relative",
           fontFamily: FONT.sans,
           fontWeight: 700,
           fontSize: T.headline,
@@ -261,7 +286,7 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
                 // el resalte va por palabra, no por frase: asi nunca se corta
                 // al partir la linea, que es lo que pasaba antes
                 const kSlab = spring({
-                  frame: frame - 1 - idx * 2.6,
+                  frame: frame - golpe - idx * 1.8,
                   fps,
                   config: { damping: 20, mass: 0.6, stiffness: 130 },
                 });
@@ -300,6 +325,20 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
             </React.Fragment>
           );
         })}
+
+        {/* el filete se traza durante toda la escena: es lo que sigue
+            pasando cuando ya ha entrado todo el texto */}
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            bottom: "-0.45em",
+            height: 7,
+            width: `${filete * 100}%`,
+            background: night ? C.ocre : C.carmin,
+            opacity: 0.9,
+          }}
+        />
       </div>
     </div>
   );

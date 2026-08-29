@@ -32,12 +32,29 @@ export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
 
-  const crece = suave(
-    interpolate(frame, [5, Math.min(durationInFrames - 8, 5 + 1.5 * fps)], [0, 1], {
-      extrapolateLeft: "clamp",
-      extrapolateRight: "clamp",
-    })
-  );
+  /**
+   * Las barras ya no suben todas a la vez ni en el primer segundo.
+   *
+   * Antes crecian juntas en segundo y medio y el resto del plano se quedaba
+   * muerto: cinco segundos mirando un grafico quieto. Ahora cada barra tiene
+   * su turno, escalonadas, y la ultima termina pasada la mitad de la escena.
+   * Ver crecer una barra despues de otra es ademas lo que hace la
+   * comparacion: la segunda se mide contra la primera, que ya esta ahi.
+   */
+  const finBarras = Math.min(durationInFrames - 6, 5 + 2.6 * fps);
+  const creceDe = (i: number) =>
+    suave(
+      interpolate(frame, [5 + i * 0.42 * fps, finBarras + i * 0.42 * fps], [0, 1], {
+        extrapolateLeft: "clamp",
+        extrapolateRight: "clamp",
+      })
+    );
+  const crece = creceDe(0);
+
+  // Latido lento del conjunto, para que nada quede del todo inmovil.
+  const respira = interpolate(frame, [0, durationInFrames], [1, 1.028], {
+    extrapolateRight: "clamp",
+  });
 
   const valores = spec.datos.map((d) => d.valor);
   const tope = Math.max(...valores, spec.referencia?.max ?? 0) * 1.18;
@@ -75,6 +92,8 @@ export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
       viewBox="0 0 1920 1080"
     >
+      {/* latido lento: nada queda del todo inmovil */}
+      <g transform={`translate(960 ${BASE}) scale(${respira}) translate(-960 ${-BASE})`}>
       {/* franja de referencia: el contexto de lo que es normal */}
       {spec.referencia ? (
         <g opacity={crece}>
@@ -110,9 +129,10 @@ export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
 
       {spec.datos.map((d, i) => {
         const x = x0 + i * (ancho + hueco);
-        const h = alturaDe(d.valor) * crece;
+        const k = creceDe(i);
+        const h = alturaDe(d.valor) * k;
         const color = TONO[d.tono ?? "ink"];
-        const mostrado = d.valor * crece;
+        const mostrado = d.valor * k;
         return (
           <g key={i}>
             {/* sombra plana desplazada: el recurso del canal */}
@@ -172,6 +192,7 @@ export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
           {spec.unidad}
         </text>
       ) : null}
+      </g>
     </svg>
   );
 };
