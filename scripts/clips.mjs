@@ -16,8 +16,10 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { spawnSync } from "node:child_process";
 
 const DESTINO = "public/clips";
+const DESTINO_PNG = "public/recortes-auto";
 
 function loadEnv() {
   if (!fs.existsSync(".env")) return;
@@ -116,6 +118,87 @@ async function resolver(busqueda, usados) {
   return null;
 }
 
+/**
+ * Fotos, para los recortes de revista.
+ *
+ * Se pide vertical o cuadrada: lo que se busca es un sujeto que se pueda
+ * recortar del fondo, no un paisaje. Un panoramico deja un recorte diminuto
+ * en medio del cuadro.
+ */
+async function buscarFotoPexels(q) {
+  const url =
+    "https://api.pexels.com/v1/search?" +
+    new URLSearchParams({ query: q, per_page: "10", orientation: "portrait" });
+  const r = await fetch(url, { headers: { Authorization: process.env.PEXELS_API_KEY } });
+  if (!r.ok) throw new Error(`pexels fotos ${r.status}`);
+  const d = await r.json();
+  return (d.photos ?? []).map((f) => ({
+    fuente: "pexels",
+    id: String(f.id),
+    url: f.src?.large2x || f.src?.large,
+    autor: f.photographer,
+    pagina: f.url,
+  }));
+}
+
+async function buscarFotoPixabay(q) {
+  const url =
+    "https://pixabay.com/api/?" +
+    new URLSearchParams({
+      key: process.env.PIXABAY_API_KEY,
+      q,
+      per_page: "10",
+      image_type: "photo",
+      orientation: "vertical",
+    });
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`pixabay fotos ${r.status}`);
+  const d = await r.json();
+  return (d.hits ?? []).map((f) => ({
+    fuente: "pixabay",
+    id: String(f.id),
+    url: f.largeImageURL,
+    autor: f.user,
+    pagina: f.pageURL,
+  }));
+}
+
+/**
+ * Baja la foto y la pasa por el mismo tratamiento que las personas reales:
+ * recortada del fondo, en tinta, con el borde grueso de color y la sombra
+ * desplazada. Si el recorte sale sin sujeto claro, se descarta y se prueba
+ * con la siguiente: un recorte malo canta mas que no ponerlo.
+ */
+async function recortar(foto, tono) {
+  fs.mkdirSync(DESTINO_PNG, { recursive: true });
+  const bruto = path.join(DESTINO_PNG, `.${foto.fuente}-${foto.id}.src`);
+  const png = path.join(DESTINO_PNG, `${foto.fuente}-${foto.id}.png`);
+  if (fs.existsSync(png)) return png;
+
+  const r = await fetch(foto.url);
+  if (!r.ok) throw new Error(`descarga ${r.status}`);
+  fs.writeFileSync(bruto, Buffer.from(await r.arrayBuffer()));
+
+  const py = spawnSync(
+    process.env.PYTHON || "python",
+    [
+      "scripts/recortes.py",
+      "--entrada", bruto,
+      "--salida", png,
+      "--tono", tono ?? "ocre",
+      "--ajustar",
+    ],
+    { encoding: "utf8" }
+  );
+  fs.rmSync(bruto, { force: true });
+
+  if (py.status !== 0) {
+    fs.rmSync(png, { force: true });
+    throw new Error(`recorte descartado (${(py.stdout || py.stderr || "").trim().slice(0, 80)})`);
+  }
+  return png;
+}
+
 async function descargar(clip) {
   const dest = path.join(DESTINO, `${clip.fuente}-${clip.id}.mp4`);
   if (fs.existsSync(dest)) return { dest, mb: fs.statSync(dest).size / 1048576, cache: true };
@@ -137,19 +220,21 @@ async function main() {
     .flatMap((b) => b.planos)
     .flatMap((p) => (p.escenas ?? [p]).map((e) => ({ e, id: p.id })));
   const conClip = escenas.filter((x) => x.e.tipo === "clip" && x.e.clip?.buscar);
+  const conRecorte = escenas.filter((x) => x.e.tipo === "recorte" && x.e.recorte?.buscar);
 
-  if (!conClip.length) {
-    console.log("este guion no pide clips");
+  if (!conClip.length && !conRecorte.length) {
+    console.log("este guion no pide ni clips ni recortes");
     return;
   }
-  console.log(`${conClip.length} clips que resolver`);
+  console.log(`${conClip.length} clips y ${conRecorte.length} recortes que resolver`);
 
   let mb = 0;
   const creditos = [];
   const usados = new Set();
   // Los que ya vengan elegidos de una pasada anterior tambien cuentan.
-  for (const { e } of conClip) {
-    if (e.clip?.elegido) usados.add(`${e.clip.elegido.fuente}-${e.clip.elegido.id}`);
+  for (const { e } of [...conClip, ...conRecorte]) {
+    const el = e.clip?.elegido ?? e.recorte?.elegido;
+    if (el) usados.add(`${el.fuente}-${el.id}`);
   }
   for (const { e, id } of conClip) {
     const c = e.clip;
@@ -176,6 +261,53 @@ async function main() {
     mb += peso;
     if (!cache) console.log(`     ${peso.toFixed(1)} MB`);
     creditos.push(`${c.elegido.autor} (${c.elegido.fuente})`);
+  }
+
+  // ---- recortes de revista ----
+  for (const { e, id } of conRecorte) {
+    const c = e.recorte;
+    if (rebuscar) delete c.elegido;
+
+    if (c.elegido && c.fichero && fs.existsSync(path.join("public", c.fichero))) continue;
+
+    process.stdout.write(`  ${id}  recorte "${c.buscar}" … `);
+    let candidatos = [];
+    for (const buscar of [buscarFotoPexels, buscarFotoPixabay]) {
+      try {
+        candidatos = candidatos.concat(await buscar(c.buscar));
+      } catch (err) {
+        console.log(`(${err.message})`);
+      }
+    }
+    candidatos = candidatos.filter((f) => f.url && !usados.has(`${f.fuente}-${f.id}`));
+
+    let hecho = null;
+    // Se prueban hasta cuatro: el recorte falla a menudo, porque no toda foto
+    // tiene un sujeto que se pueda separar del fondo.
+    for (const f of candidatos.slice(0, 4)) {
+      try {
+        const png = await recortar(f, c.tono);
+        hecho = { foto: f, png };
+        break;
+      } catch (err) {
+        process.stdout.write(".");
+      }
+    }
+
+    if (!hecho) {
+      console.log(" ninguno recortable, se queda en tipografía");
+      e.tipo = "frase";
+      e.texto = e.texto ?? c.buscar;
+      delete e.recorte;
+      continue;
+    }
+
+    c.elegido = hecho.foto;
+    c.fichero = path.relative("public", hecho.png).split(path.sep).join("/");
+    usados.add(`${hecho.foto.fuente}-${hecho.foto.id}`);
+    creditos.push(`${hecho.foto.autor} (${hecho.foto.fuente})`);
+    mb += fs.statSync(hecho.png).size / 1048576;
+    console.log(` ${hecho.foto.fuente} #${hecho.foto.id} (${hecho.foto.autor})`);
   }
 
   fs.writeFileSync(ruta, JSON.stringify(doc, null, 2));

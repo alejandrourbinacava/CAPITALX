@@ -134,7 +134,59 @@ def borde(alfa, grosor):
     return m
 
 
-def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26):
+def solo_el_sujeto(alfa, minimo=0.04):
+    """
+    Se queda con la mancha mas grande y tira las demas.
+
+    rembg suele dejar trozos sueltos: una sombra en una esquina, un objeto del
+    fondo que confunde con el sujeto. En pantalla son manchas con borde de
+    color flotando en el vacio, y ademas ensanchan la caja de recorte, asi que
+    el sujeto acaba pequeno y descentrado.
+
+    Se conservan las manchas que llegan a un cuatro por ciento de la mayor:
+    asi no se pierde un brazo separado o un objeto que el sujeto sostiene.
+    """
+    try:
+        from scipy import ndimage
+    except ImportError:
+        return alfa
+
+    a = np.array(alfa) > 128
+    etiquetas, n = ndimage.label(a)
+    if n <= 1:
+        return alfa
+
+    areas = ndimage.sum(a, etiquetas, range(1, n + 1))
+    mayor = areas.max()
+    vivas = [i + 1 for i, x in enumerate(areas) if x >= mayor * minimo]
+    limpio = np.isin(etiquetas, vivas)
+    return Image.fromarray((np.array(alfa) * limpio).astype(np.uint8), "L")
+
+
+def ajustar_al_sujeto(im, alfa, margen=0.04):
+    """
+    Recorta la imagen a lo que ocupa el sujeto.
+
+    Una foto de archivo casi nunca lo trae centrado: sale a un lado, con medio
+    cuadro de fondo que al quitarlo deja un hueco enorme. En el montaje eso se
+    ve como una figura pegada a un borde. Se busca la caja del sujeto y se
+    recorta a ella con un respiro alrededor.
+    """
+    a = np.array(alfa)
+    filas = np.where(a.max(axis=1) > 8)[0]
+    cols = np.where(a.max(axis=0) > 8)[0]
+    if filas.size < 2 or cols.size < 2:
+        return im, alfa
+
+    h, w = a.shape
+    m = int(min(h, w) * margen)
+    y0, y1 = max(0, filas.min() - m), min(h, filas.max() + 1 + m)
+    x0, x1 = max(0, cols.min() - m), min(w, cols.max() + 1 + m)
+    caja = (x0, y0, x1, y1)
+    return im.crop(caja), alfa.crop(caja)
+
+
+def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26, ajustar=False):
     im = Image.open(entrada).convert("RGB")
     im = desencuadrar_circulo(im)
     f = ANCHO / im.size[0]
@@ -142,6 +194,9 @@ def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26):
 
     recortada = quitar_fondo(im)
     alfa = limpiar_alfa(recortada.split()[-1])
+    if ajustar:
+        alfa = solo_el_sujeto(alfa)
+        im, alfa = ajustar_al_sujeto(im, alfa)
     cobertura = np.array(alfa).mean() / 255
     sujeto = a_tinta(im, alfa)
 
@@ -182,7 +237,23 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--tono", default="carmin", choices=list(TONOS))
     ap.add_argument("--solo", help="procesa solo este nombre")
+    ap.add_argument("--entrada", help="una foto suelta, en vez de la carpeta")
+    ap.add_argument("--salida", help="donde dejarla")
+    ap.add_argument("--ajustar", action="store_true",
+                    help="recorta al sujeto; para fotos de archivo, que vienen descentradas")
     a = ap.parse_args()
+
+    # Una sola foto. Lo usa el flujo automatico: baja una imagen de archivo,
+    # la recorta y la trata aqui, y el resultado entra en el montaje como un
+    # PNG mas. Es el mismo tratamiento que se le da a las personas reales.
+    if a.entrada:
+        tam, cob = procesar(a.entrada, a.salida, a.tono, ajustar=a.ajustar)
+        print(f"{tam[0]}x{tam[1]}  sujeto {cob*100:.0f}% del cuadro")
+        if cob < 0.06 or cob > 0.92:
+            # Sin sujeto claro el recorte no dice nada: mejor avisar y que
+            # quien llama decida caerse a otra cosa.
+            raise SystemExit(3)
+        raise SystemExit(0)
 
     for f in sorted(os.listdir(FUENTE)):
         if not f.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):

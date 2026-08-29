@@ -32,7 +32,7 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 // vacio: por eso se valida contra estas listas antes de gastar un solo credito.
 const TIPOS = [
   "mapa", "barras", "lineas", "contador", "gente", "lista",
-  "frase", "objeto", "retrato", "clip", "torres", "dublin", "cierre",
+  "frase", "objeto", "retrato", "clip", "recorte", "torres", "dublin", "cierre",
 ];
 const OBJETOS = [
   "aeropuerto", "balanza", "carpeta", "carta", "casa", "contable", "dosEpocas",
@@ -180,6 +180,30 @@ Nada de "impactante", "brutal", "lo que nadie te cuenta", "prepárate". Nada de 
 
 Se dice lo que el dato dice, incluida la parte que estropea la historia. Un vídeo que reconoce el contraargumento es más creíble que uno que lo esconde.
 
+# Esto es un relato, no un informe
+
+El error que más se repite en este canal es encadenar cifras. Un dato detrás de otro detrás de otro: al minuto cuatro el espectador ha desconectado, aunque todas las cifras sean correctas y estén bien citadas.
+
+Un vídeo se sigue porque hay **una historia con tensión**, y los números son las pruebas que la sostienen. No al revés.
+
+Cómo se consigue:
+
+- **Un dato solo entra si va con su consecuencia humana.** "Setenta y siete mil quinientos millones de dólares" no dice nada. "Setenta y siete mil quinientos millones: cada mexicano debe mil quinientos dólares por una empresa en la que no ha trabajado nunca" sí.
+
+- **Una cifra por idea, y la siguiente no llega hasta que la primera ha aterrizado.** Si dos planos seguidos traen dos cifras distintas, la segunda borra a la primera.
+
+- **Compara con algo que se pueda imaginar.** Años de sueldo, veces el presupuesto de sanidad, cuántos hospitales. Nunca dos magnitudes abstractas entre sí.
+
+- **Pon gente.** Quién decidió, quién firmó, quién lo paga. Un nombre con cargo y fecha vale más que tres gráficos. Las decisiones las toman personas y en el vídeo tienen que aparecer.
+
+- **Cuenta escenas, no conceptos.** "En marzo de dos mil veintitrés, un domingo por la noche, el Gobierno suizo reunió a los dos bancos y no les dejó salir hasta que hubo acuerdo" se ve. "Se produjo una fusión forzada" no.
+
+- **Deja preguntas abiertas y respóndelas después.** Cada bloque tiene que terminar dejando algo pendiente que obligue a seguir viendo.
+
+- **Varía el ritmo de la frase.** Frases largas para explicar, frases de cinco palabras para rematar. Si todos los planos tienen la misma longitud, la locución suena a lista.
+
+Regla práctica: **como mucho la mitad de los planos llevan una cifra nueva.** La otra mitad explica, cuenta, compara o remata. Si al repasar el guion ves tres planos seguidos con tres cifras distintas, sobra una.
+
 # El formato JSON
 
 {
@@ -243,6 +267,23 @@ Cada escena lleva su "tipo" y lo que ese tipo necesite, exactamente igual que an
   ]
 }
 
+# Cuánto de cada cosa
+
+Este es el reparto que tiene que salir contando **todas** las escenas del vídeo. No es orientativo: el vídeo anterior salió con un 66 % de pantallas de texto y de gráficos, y se hacía pesadísimo.
+
+    clip        20 %   metraje de archivo
+    recorte     18 %   recortes de revista
+    objeto      14 %   dibujos a línea
+    barras/lineas/contador  20 %   los gráficos
+    frase       12 %   pantallas de texto solo
+    mapa/lista/retrato/gente  16 %
+
+Lo que hay que vigilar, por orden:
+
+- **"frase" es lo que más se dispara.** Es la escena más fácil de escribir y la más aburrida de ver. Una pantalla con una frase grande vale para un remate, no para explicar. Si una idea se puede enseñar con un recorte o un objeto, no va en tipografía.
+- **Los gráficos tampoco pueden encadenarse.** Tres barras seguidas son tres pantallas de números.
+- **Más de la mitad del vídeo tiene que ser imagen**: clips, recortes y objetos juntos. Ahora mismo salía un 26 %.
+
 Reglas de las escenas:
 
 - **Dos escenas seguidas nunca son del mismo "tipo".** Alterna gráfico, frase, objeto, mapa, retrato, clip.
@@ -303,6 +344,13 @@ Cualquier escena puede llevar etiquetas que aparecen y desaparecen encima del di
   **Un clip nunca sostiene un dato.** Ninguna cifra se cuenta sobre metraje: las cifras van en gráficos, que es lo que este canal sabe hacer. El clip es el respiro de al lado.
 
   Entre **ocho y quince clips** en todo el vídeo, y como mucho uno por bloque. Si pones más, el canal deja de ser lo que es y se convierte en un montaje de banco de imágenes, que es justo lo que no queremos.
+
+- "recorte" · "recorte": { "buscar": "<qué buscar, EN INGLÉS>", "tono": "ocre|carmin", "lado": "izq|der|centro", "nota": "<opcional, pie pequeño>" }
+  El recorte de revista: una foto con el fondo quitado, en blanco y negro, con borde grueso de color y una sombra plana desplazada por detrás. Es la marca visual de este canal y ahora mismo se usa poquísimo.
+
+  La búsqueda tiene que devolver **un sujeto recortable**: una persona, un objeto, una máquina, un edificio suelto. "businessman in suit", "oil worker with helmet", "empty office chair", "gas pump". Nunca paisajes, multitudes ni planos generales: si no hay un sujeto que separar del fondo, el recorte sale mal y la escena se cae a tipografía.
+
+  Úsalo para poner cara y cuerpo a lo que se está contando: el trabajador del que hablas, la máquina que compró la empresa, el edificio del ministerio.
 
 - "torres" y "dublin": decorados fijos. Como mucho uno de cada por vídeo, y solo si encaja.
 
@@ -598,9 +646,10 @@ function revisarVisual(p, di) {
     if (!p.retrato?.nombre) di(`${donde}: 'retrato' necesita 'nombre'`);
     if (p.retrato?.foto) di(`${donde}: quita 'foto'. Las fotos se preparan a mano con la licencia comprobada.`);
   }
-  if (p.tipo === "clip") {
-    const b = p.clip?.buscar;
-    if (!b) di(`${donde}: 'clip' necesita 'clip': { "buscar": "..." } en inglés`);
+  for (const [t, campo] of [["clip", "clip"], ["recorte", "recorte"]]) {
+    if (p.tipo !== t) continue;
+    const b = p[campo]?.buscar;
+    if (!b) di(`${donde}: '${t}' necesita '${campo}': { "buscar": "..." } en inglés`);
     else if (/[áéíóúñ¿¡]/i.test(b)) di(`${donde}: la búsqueda "${b}" tiene que ir en inglés`);
   }
   if (p.tipo === "cierre" && !p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
@@ -701,6 +750,34 @@ function validar(doc, tema) {
   }
   if (chars > 16000) {
     di(`el guion suma ${chars} caracteres y se pasa de quince minutos. Quita unos ${chars - 14000}: fusiona planos que digan lo mismo y corta los que no aporten un dato nuevo. No toques los bloques, quita planos.`);
+  }
+
+  // Reparto visual. El video anterior salio con dos tercios de la pantalla en
+  // texto o grafico y se hacia pesado; esto lo caza antes de renderizar.
+  const escenas = planos.flatMap((p) => p.escenas ?? [p]);
+  if (escenas.length > 40) {
+    const cuenta = (...ts) => escenas.filter((e) => ts.includes(e.tipo)).length;
+    const pc = (n) => Math.round((n / escenas.length) * 100);
+
+    const imagen = cuenta("clip", "recorte", "objeto", "retrato", "dublin", "torres");
+    if (pc(imagen) < 42) {
+      di(
+        `solo el ${pc(imagen)} % de las escenas es imagen (clip, recorte, objeto, retrato). ` +
+          `Tiene que pasar del 45 %: cambia pantallas de texto y de gráfico por recortes y clips.`
+      );
+    }
+    const fr = cuenta("frase");
+    if (pc(fr) > 18) {
+      di(`el ${pc(fr)} % de las escenas son pantallas de texto ("frase"). El tope es 15 %.`);
+    }
+    const graf = cuenta("barras", "lineas", "contador");
+    if (pc(graf) > 28) {
+      di(`el ${pc(graf)} % son gráficos. El tope es 25 %: no todos los datos necesitan gráfico.`);
+    }
+    const cl = cuenta("clip");
+    if (pc(cl) < 12) di(`solo hay ${cl} clips (${pc(cl)} %). Tienen que ser cerca del 20 %.`);
+    const rc = cuenta("recorte");
+    if (pc(rc) < 10) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 18 %.`);
   }
 
   const ult = planos[planos.length - 1];

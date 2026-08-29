@@ -197,7 +197,15 @@ jobs:
       # Los clips se bajan en cada render, no se versionan: pesan demasiado.
       # La eleccion sí queda escrita en el guion, asi que siempre baja el mismo
       # y el video sale igual la proxima vez.
-      - name: Traer los clips de archivo
+      # Los recortes de revista se hacen aqui: quitar el fondo necesita Python.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Herramientas de recorte
+        run: pip install --quiet "rembg[cpu]" pillow numpy scipy
+
+      - name: Traer los clips y los recortes
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}

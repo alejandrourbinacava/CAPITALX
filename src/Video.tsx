@@ -20,6 +20,7 @@ import { Objeto } from "./scenes/Objeto";
 import { Cierre, Lista, Mapa } from "./scenes/Mapa";
 import { Retrato } from "./scenes/Retrato";
 import { Clip } from "./scenes/Clip";
+import { Recorte } from "./scenes/Recorte";
 
 
 type TagSpec = {
@@ -72,6 +73,14 @@ export type Visual = {
   cierre?: any;
   retrato?: any;
   clip?: { buscar?: string; fichero?: string; desde?: number; tono?: "ocre" | "carmin" };
+  recorte?: {
+    buscar?: string;
+    fichero?: string;
+    tono?: "ocre" | "carmin";
+    lado?: "izq" | "der" | "centro";
+    escala?: number;
+    nota?: string;
+  };
   rotulo?: { kicker?: string; texto: string };
 };
 
@@ -224,6 +233,7 @@ const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
   const sobrePapel = !(p.tipo === "dublin" || (p.tipo === "frase" && p.night));
   if (p.tipo === "retrato") out.push({ at: 0.12, src: "papel", vol: 0.3 });
   if (p.tipo === "clip") out.push({ at: 0.05, src: "buzz", vol: 0.2 });
+  if (p.tipo === "recorte") out.push({ at: 0.08, src: "papel", vol: 0.32 });
 
   // 1. el corte
   out.push({ at: 0, src: "whoosh", vol: 0.3 });
@@ -362,6 +372,8 @@ const listo = (p: Visual): boolean => {
       return !!p.mapa;
     case "clip":
       return !!p.clip?.fichero;
+    case "recorte":
+      return !!p.recorte?.fichero;
     case "frase":
       return !!p.texto;
     default:
@@ -400,6 +412,7 @@ const PlanoView: React.FC<{ p: Visual }> = ({ p }) => {
         {p.tipo === "objeto" ? <Objeto nombre={p.objeto!} /> : null}
         {p.tipo === "retrato" ? <Retrato spec={p.retrato} /> : null}
         {p.tipo === "clip" ? <Clip spec={p.clip ?? {}} tono={p.clip?.tono} /> : null}
+        {p.tipo === "recorte" ? <Recorte spec={p.recorte ?? {}} /> : null}
         </>
         )}
       </Camara>

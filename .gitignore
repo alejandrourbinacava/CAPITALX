@@ -7,3 +7,4 @@ assets/voice/*.wav
 !assets/voice/.gitkeep
 .DS_Store
 public/clips/
+public/recortes-auto/
