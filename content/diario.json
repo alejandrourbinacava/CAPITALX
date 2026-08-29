@@ -80,7 +80,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery at dusk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35760122",
+                  "url": "https://videos.pexels.com/video-files/35760122/15159929_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/industrial-coastline-at-twilight-35760122/"
+                },
+                "fichero": "clips/pexels-35760122.mp4"
               }
             }
           ]
@@ -201,7 +211,15 @@
                 "buscar": "oil worker with helmet",
                 "tono": "carmin",
                 "lado": "der",
-                "nota": "Proveedores y jubilados, los últimos en cobrar"
+                "nota": "Proveedores y jubilados, los últimos en cobrar",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37793901",
+                  "url": "https://images.pexels.com/photos/37793901/pexels-photo-37793901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Asep  Fajar Sasmita",
+                  "pagina": "https://www.pexels.com/photo/pipeline-construction-inspection-by-engineers-37793901/"
+                },
+                "fichero": "recortes-auto/pexels-37793901.png"
               }
             }
           ]
@@ -244,7 +262,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock exchange ticker screen",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578632",
+                  "url": "https://videos.pexels.com/video-files/7578632/7578632-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-of-numbers-on-display-monitor-7578632/"
+                },
+                "fichero": "clips/pexels-7578632.mp4"
               }
             }
           ]
@@ -352,7 +380,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "elderly people queue outside bank",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8872087",
+                  "url": "https://videos.pexels.com/video-files/8872087/8872087-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-an-elderly-man-8872087/"
+                },
+                "fichero": "clips/pexels-8872087.mp4"
               }
             }
           ]
@@ -451,7 +489,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery at night",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "856627",
+                  "url": "https://videos.pexels.com/video-files/856627/856627-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/factory-at-night-856627/"
+                },
+                "fichero": "clips/pexels-856627.mp4"
               }
             }
           ]
@@ -491,7 +539,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil pump jack in desert black and white",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27822161",
+                  "url": "https://videos.pexels.com/video-files/27822161/12234180_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Julián Armando Santos",
+                  "pagina": "https://www.pexels.com/video/petroleo-pozo-petrolero-27822161/"
+                },
+                "fichero": "clips/pexels-27822161.mp4"
               },
               "kicker": "PRODUCCIÓN A LA BAJA",
               "tags": [
@@ -622,7 +680,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "financial trading terminal screens close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38395149",
+                  "url": "https://videos.pexels.com/video-files/38395149/16303540_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 19,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-trading-charts-in-cryptocurrency-market-38395149/"
+                },
+                "fichero": "clips/pexels-38395149.mp4"
               },
               "kicker": "LA PARTE QUE ESTROPEA LA HISTORIA"
             },
@@ -1482,7 +1550,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil tanker truck at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28801860",
+                  "url": "https://videos.pexels.com/video-files/28801860/12481537_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-cargo-vessel-in-istanbul-waters-28801860/"
+                },
+                "fichero": "clips/pexels-28801860.mp4"
               }
             }
           ]
@@ -1642,7 +1720,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery workers walking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12891229",
+                  "url": "https://videos.pexels.com/video-files/12891229/12891229-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Luke Nomad",
+                  "pagina": "https://www.pexels.com/video/clear-sky-over-refinery-12891229/"
+                },
+                "fichero": "clips/pexels-12891229.mp4"
               }
             }
           ]
@@ -1715,7 +1803,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "offshore oil platform",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37186126",
+                  "url": "https://videos.pexels.com/video-files/37186126/15753626_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "FD Visualzz",
+                  "pagina": "https://www.pexels.com/video/large-cargo-ship-navigating-the-ocean-waves-37186126/"
+                },
+                "fichero": "clips/pexels-37186126.mp4"
               }
             }
           ]
@@ -2029,7 +2127,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil pumpjack field at dusk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27256756",
+                  "url": "https://videos.pexels.com/video-files/27256756/12103706_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Julián Armando Santos",
+                  "pagina": "https://www.pexels.com/video/estacion-de-bombeo-de-pozo-petrolero-27256756/"
+                },
+                "fichero": "clips/pexels-27256756.mp4"
               }
             }
           ]
@@ -2086,7 +2194,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "offshore oil platform at sea",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9654558",
+                  "url": "https://videos.pexels.com/video-files/9654558/9654558-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Zahid Nisar",
+                  "pagina": "https://www.pexels.com/video/an-oil-tanker-traveling-across-the-sea-9654558/"
+                },
+                "fichero": "clips/pexels-9654558.mp4"
               }
             }
           ]
@@ -2253,7 +2371,15 @@
                 "buscar": "oil pump jack",
                 "tono": "ocre",
                 "lado": "der",
-                "nota": "Extracción petrolera"
+                "nota": "Extracción petrolera",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7392237",
+                  "url": "https://images.pexels.com/photos/7392237/pexels-photo-7392237.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Yuri Shkoda",
+                  "pagina": "https://www.pexels.com/photo/a-gray-steel-pumpjack-under-blue-sky-7392237/"
+                },
+                "fichero": "recortes-auto/pexels-7392237.png"
               }
             }
           ]
@@ -2327,7 +2453,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "car assembly line factory",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4468754",
+                  "url": "https://videos.pexels.com/video-files/4468754/4468754-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Engin Altundağ",
+                  "pagina": "https://www.pexels.com/video/pedestal-shot-of-a-car-manufacturing-facility-4468754/"
+                },
+                "fichero": "clips/pexels-4468754.mp4"
               }
             },
             {
@@ -2662,7 +2798,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery flare stack at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10386901",
+                  "url": "https://videos.pexels.com/video-files/10386901/10386901-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 36,
+                  "autor": "Tom Fisk",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-an-oil-refinery-10386901/"
+                },
+                "fichero": "clips/pexels-10386901.mp4"
               }
             }
           ]
@@ -2804,7 +2950,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock exchange trading floor",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4319342",
+                  "url": "https://videos.pexels.com/video-files/4319342/4319342-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/finance-nyse-wall-street-new-york-city-4319342/"
+                },
+                "fichero": "clips/pexels-4319342.mp4"
               }
             }
           ]
@@ -2828,7 +2984,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction site at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36620669",
+                  "url": "https://videos.pexels.com/video-files/36620669/15526293_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "SÀI GÒN CÔNG TY CP SẢN XUẤT - THƯƠNG MẠI",
+                  "pagina": "https://www.pexels.com/video/vibrant-nighttime-construction-by-the-waterfront-36620669/"
+                },
+                "fichero": "clips/pexels-36620669.mp4"
               }
             },
             {
@@ -3127,7 +3293,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil tanker at sea",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28801856",
+                  "url": "https://videos.pexels.com/video-files/28801856/12481542_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-shipping-vessel-in-bosphorus-28801856/"
+                },
+                "fichero": "clips/pexels-28801856.mp4"
               }
             },
             {
@@ -3254,7 +3430,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery at night",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30551253",
+                  "url": "https://videos.pexels.com/video-files/30551253/13085416_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-industrial-coastal-area-at-dusk-30551253/"
+                },
+                "fichero": "clips/pexels-30551253.mp4"
               },
               "tags": [
                 {
