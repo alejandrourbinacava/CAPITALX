@@ -418,6 +418,29 @@ async function redactar(tema, ficha, correcciones = null) {
  * Va por tandas de seis planos porque una peticion con los setenta y cinco de
  * golpe se queda sin espacio de respuesta y devuelve el JSON cortado.
  */
+/**
+ * Saca el JSON de una respuesta, perdonando lo que se perdona.
+ *
+ * Un modelo mas barato acierta el contenido pero a veces se deja una coma
+ * suelta antes de un cierre. Eso rompe JSON.parse y no vale la pena perder
+ * una tanda entera por una coma.
+ */
+function leerLote(texto) {
+  const m = texto.match(/```json\s*([\s\S]*?)```/) || texto.match(/(\{[\s\S]*\})/);
+  if (!m) return null;
+  const intentos = [
+    m[1],
+    m[1].replace(/,(\s*[}\]])/g, "$1"), // comas colgando
+    m[1].replace(/,(\s*[}\]])/g, "$1").replace(/}\s*{/g, "},{"),
+  ];
+  for (const t of intentos) {
+    try {
+      return JSON.parse(t);
+    } catch {}
+  }
+  return null;
+}
+
 async function reescenificar(doc, ruta) {
   const todos = doc.bloques.flatMap((b) => b.planos);
   const TANDA = 6;
@@ -478,9 +501,14 @@ async function reescenificar(doc, ruta) {
       ],
     });
 
-    const m = texto.match(/```json\s*([\s\S]*?)```/) || texto.match(/(\{[\s\S]*\})/);
-    if (!m) throw new Error("la respuesta no traía JSON:\n" + texto.slice(0, 400));
-    const lote = JSON.parse(m[1]);
+    // Una tanda mal formada no puede costar la pasada entera: se reintenta
+    // una vez y, si sigue ilegible, esos planos se quedan como estaban. Como
+    // esto es reanudable, la proxima pasada los recoge.
+    const lote = leerLote(texto);
+    if (!lote) {
+      console.log("JSON ilegible, esta tanda se queda como estaba");
+      continue;
+    }
     let n = 0;
     for (const [id, escenas] of Object.entries(lote)) {
       const p = todos.find((x) => x.id === id);
