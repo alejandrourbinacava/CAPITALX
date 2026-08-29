@@ -18,7 +18,39 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PEMEX · DEUDA FINANCIERA",
+              "fuente": "Pemex, Estados Financieros 2T 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 77500,
+                "etiqueta": "millones de dólares"
+              },
+              "tags": [
+                {
+                  "t": "−9,1% vs dic 2025",
+                  "x": 68,
+                  "y": 22,
+                  "in": 0.6,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery at night",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b0-02",
@@ -26,7 +58,23 @@
           "voz": {
             "speed": 0.96
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El balance está *peor* que hace dos años y medio.",
+              "night": true
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "old oil pump jack",
+                "tono": "carmin",
+                "lado": "der",
+                "nota": "Activos en declive"
+              }
+            }
+          ]
         },
         {
           "id": "b0-03",
@@ -34,7 +82,48 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "BALANCE · 1S 2026",
+              "fuente": "Pemex, Estados Financieros 2T 2026",
+              "barras": {
+                "unidad": "billones de pesos",
+                "datos": [
+                  {
+                    "etiqueta": "Activos",
+                    "valor": 2.1,
+                    "tono": "verde",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Pasivos",
+                    "valor": 4,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "Quiebra técnica",
+                  "x": 50,
+                  "y": 80,
+                  "in": 1.2,
+                  "tone": "ink",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil platform at sea",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b0-04",
@@ -42,7 +131,35 @@
           "voz": {
             "speed": 0.97
           },
-          "tipo": "contador"
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "government building mexico city",
+                "tono": "ocre",
+                "lado": "izq",
+                "nota": "Secretaría de Hacienda"
+              },
+              "tags": [
+                {
+                  "t": "1,88 billones MXN",
+                  "x": 66,
+                  "y": 28,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil tanker truck on highway",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b0-05",
@@ -50,7 +167,46 @@
           "voz": {
             "speed": 0.94
           },
-          "tipo": "frase"
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank headquarters entrance sign",
+                "tono": "ocre"
+              },
+              "kicker": "PEMEX · ACREEDORES",
+              "tags": [
+                {
+                  "t": "Menos bancos",
+                  "x": 20,
+                  "y": 78,
+                  "in": 0.4,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly pensioner counting coins",
+                "tono": "carmin",
+                "lado": "der",
+                "nota": "Jubilados, proveedores, contribuyente"
+              },
+              "tags": [
+                {
+                  "t": "Más carga aquí",
+                  "x": 62,
+                  "y": 30,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b0-06",
@@ -58,7 +214,64 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "mapa"
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "norteamerica",
+                "destaca": [
+                  "mexico"
+                ]
+              },
+              "kicker": "MOODY'S · MAYO 2026",
+              "fuente": "Moody's Investors Service",
+              "tags": [
+                {
+                  "t": "Baa2 → Baa3",
+                  "x": 30,
+                  "y": 25,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "Último escalón",
+                  "x": 30,
+                  "y": 40,
+                  "in": 1.2,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock exchange trading floor screens",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "financial analyst reviewing documents",
+                "tono": "carmin",
+                "lado": "izq",
+                "nota": "Rescate permanente de Pemex"
+              },
+              "tags": [
+                {
+                  "t": "Carga fiscal",
+                  "x": 60,
+                  "y": 68,
+                  "in": 0.7,
+                  "tone": "ink",
+                  "anim": "fade"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -72,7 +285,13 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Tres cosas. Una de ellas *juega en contra*."
+            }
+          ]
         },
         {
           "id": "b1-02",
@@ -80,7 +299,21 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "lista"
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Lo que vamos a ver",
+                "puntos": [
+                  "La deuda que sí baja",
+                  "La deuda que sube en otra forma",
+                  "Quién paga la diferencia"
+                ],
+                "activo": 0
+              }
+            }
+          ]
         },
         {
           "id": "b1-03",
@@ -88,7 +321,35 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "lista"
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "supplier waiting outside factory gate",
+                "tono": "ocre",
+                "lado": "izq",
+                "nota": "Proveedores sin cobrar"
+              },
+              "tags": [
+                {
+                  "t": "PASIVO NO FINANCIERO",
+                  "x": 60,
+                  "y": 20,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty pension office waiting room",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b1-04",
@@ -96,7 +357,38 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "mapa"
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "norteamerica",
+                "destaca": [
+                  "mexico"
+                ]
+              },
+              "kicker": "QUIÉN PAGA",
+              "tags": [
+                {
+                  "t": "ESTADO MEXICANO",
+                  "x": 30,
+                  "y": 70,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "government building mexico city",
+                "tono": "ocre",
+                "lado": "der",
+                "nota": "El aval prestado"
+              }
+            }
+          ]
         }
       ]
     },
@@ -110,7 +402,47 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DEUDA PEMEX · 2010-2018",
+              "fuente": "Pemex, Informe Anual 2018",
+              "barras": {
+                "unidad": "miles de millones de USD",
+                "datos": [
+                  {
+                    "etiqueta": "2010",
+                    "valor": 53.7,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2018",
+                    "valor": 105,
+                    "tono": "carmin"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "x2 en 8 años",
+                  "x": 65,
+                  "y": 25,
+                  "in": 1,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil drilling rig at night",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b2-02",
@@ -118,7 +450,44 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El *mecanismo* era sencillo.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pipeline in the desert",
+                "tono": "carmin"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE DEJÓ EL MECANISMO",
+              "fuente": "Pemex, Informe Anual 2018",
+              "de": {
+                "valor": 53700,
+                "etiqueta": "2010"
+              },
+              "a": {
+                "valor": 105000,
+                "etiqueta": "2018 · millones de USD"
+              },
+              "tags": [
+                {
+                  "t": "deuda para invertir",
+                  "x": 50,
+                  "y": 78,
+                  "in": 0.8,
+                  "tone": "ocre",
+                  "anim": "fade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b2-03",
@@ -126,7 +495,46 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "clip"
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pumpjack at dusk",
+                "tono": "ocre"
+              },
+              "kicker": "PRODUCCIÓN EN CAÍDA",
+              "tags": [
+                {
+                  "t": "Menos barriles",
+                  "x": 20,
+                  "y": 75,
+                  "in": 0.4,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil pump jack machine",
+                "tono": "carmin",
+                "lado": "der",
+                "nota": "Más deuda por barril"
+              },
+              "tags": [
+                {
+                  "t": "ESPIRAL",
+                  "x": 68,
+                  "y": 30,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b2-04",
@@ -134,7 +542,80 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DEUDA PEMEX · 2023-2026",
+              "fuente": "Pemex, Estados Financieros",
+              "barras": {
+                "unidad": "miles de millones de USD",
+                "datos": [
+                  {
+                    "etiqueta": "Cierre 2023",
+                    "valor": 104.9,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Junio 2026",
+                    "valor": 77.5,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "−23% en 2,5 años",
+                  "x": 60,
+                  "y": 65,
+                  "in": 1,
+                  "tone": "carmin",
+                  "anim": "slideUp"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pipeline in desert",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "MENOS DEUDA",
+                  "x": 25,
+                  "y": 20,
+                  "in": 0.5,
+                  "tone": "ocre",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "tipo": "contador",
+              "fuente": "Pemex, Estados Financieros",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 23,
+                "etiqueta": "caída en dos años y medio"
+              },
+              "tags": [
+                {
+                  "t": "%",
+                  "x": 55,
+                  "y": 45,
+                  "in": 0.3,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b2-05",
@@ -142,7 +623,33 @@
           "voz": {
             "speed": 0.95
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Sí bajó. La pregunta es *con qué dinero*.",
+              "night": true
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician speaking at podium",
+                "tono": "ocre",
+                "lado": "izq",
+                "nota": "El argumento oficial"
+              },
+              "tags": [
+                {
+                  "t": "GOBIERNO MEXICANO",
+                  "x": 65,
+                  "y": 78,
+                  "in": 0.5,
+                  "tone": "ocre",
+                  "anim": "slideR"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b2-06",
@@ -150,7 +657,41 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "objeto"
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "texto": "Dos formas de *desaparecer* una deuda"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "accountant writing in ledger",
+                "tono": "carmin"
+              },
+              "tags": [
+                {
+                  "t": "GANAR",
+                  "x": 22,
+                  "y": 30,
+                  "in": 0.4,
+                  "tone": "ink",
+                  "anim": "pop"
+                },
+                {
+                  "t": "TRASPASAR",
+                  "x": 68,
+                  "y": 60,
+                  "in": 1,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -164,7 +705,45 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "clip"
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bloomberg terminal trading floor",
+                "tono": "ocre"
+              },
+              "kicker": "LA OTRA CARA",
+              "tags": [
+                {
+                  "t": "El contraargumento",
+                  "x": 20,
+                  "y": 78,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "financial analyst with headset at desk",
+                "tono": "carmin",
+                "lado": "izq"
+              },
+              "tags": [
+                {
+                  "t": "10 segundos",
+                  "x": 68,
+                  "y": 22,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b3-02",
@@ -172,7 +751,47 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 79000,
+                "etiqueta": "millones de dólares, deuda financiera"
+              },
+              "fuente": "Pemex, Estados Financieros 1T 2026",
+              "kicker": "DEUDA · 31 MARZO 2026",
+              "tags": [
+                {
+                  "t": "Mínimo desde 2014",
+                  "x": 24,
+                  "y": 70,
+                  "in": 0.9,
+                  "tone": "ocre",
+                  "anim": "slideUp"
+                },
+                {
+                  "t": "-25% vs 2018",
+                  "x": 66,
+                  "y": 30,
+                  "in": 1.4,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pipeline desert aerial",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b3-03",
@@ -180,7 +799,32 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El compromiso es *endeudamiento neto cero*.",
+              "night": true
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "government ministry building facade mexico",
+                "tono": "ocre",
+                "lado": "der"
+              },
+              "tags": [
+                {
+                  "t": "Deuda/PIB: mínimo en 11 años",
+                  "x": 30,
+                  "y": 82,
+                  "in": 1,
+                  "tone": "ocre",
+                  "anim": "fade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b3-04",
@@ -188,7 +832,56 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 31500,
+                "etiqueta": "millones de pesos colocados en bonos"
+              },
+              "fuente": "Pemex, colocación de deuda, 13 febrero 2026",
+              "kicker": "REGRESO AL MERCADO",
+              "tags": [
+                {
+                  "t": "6 años de ausencia",
+                  "x": 22,
+                  "y": 24,
+                  "in": 0.5,
+                  "tone": "ink",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock exchange trading floor screens",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "texto": "Demanda *2,5 veces* superior"
+              },
+              "tags": [
+                {
+                  "t": "x2,5",
+                  "x": 60,
+                  "y": 40,
+                  "in": 0.8,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b3-05",
@@ -196,7 +889,47 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PEMEX · DEUDA 2024",
+              "fuente": "Pemex, Informe Anual 2024",
+              "barras": {
+                "unidad": "miles de millones de USD",
+                "datos": [
+                  {
+                    "etiqueta": "Vencimientos 2024",
+                    "valor": 18,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Colocación",
+                    "valor": 1.8,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "10 % del total",
+                  "x": 60,
+                  "y": 25,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery at night",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b3-06",
@@ -204,7 +937,22 @@
           "voz": {
             "speed": 0.93
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Todo esto es *cierto*.",
+              "night": true
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman looking down worried",
+                "tono": "carmin",
+                "lado": "der"
+              }
+            }
+          ]
         }
       ]
     },
@@ -218,7 +966,39 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PEMEX · RESCATE",
+              "fuente": "SHCP, Cuenta Pública 2024",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1490000,
+                "etiqueta": "Aportaciones de capital, millones de pesos"
+              },
+              "tags": [
+                {
+                  "t": "79,4 %",
+                  "x": 70,
+                  "y": 20,
+                  "in": 0.8,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stack of cash on table",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b4-02",
@@ -226,7 +1006,24 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "barras"
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government building exterior day",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "pile of mexican peso banknotes",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
         },
         {
           "id": "b4-03",
@@ -234,7 +1031,52 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "APORTACIONES DE CAPITAL · H1 2026",
+              "fuente": "SHCP, Informes sobre la Situación Económica",
+              "contador": {
+                "de": {
+                  "valor": 0,
+                  "etiqueta": ""
+                },
+                "a": {
+                  "valor": 100400,
+                  "etiqueta": "millones de pesos"
+                }
+              },
+              "tags": [
+                {
+                  "t": "+6,2% interanual",
+                  "x": 68,
+                  "y": 22,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "H1 2025: 94.500 M$",
+                  "x": 20,
+                  "y": 76,
+                  "in": 1.3,
+                  "tone": "ink",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil rig control room panel",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "La inversión *no frena*."
+              }
+            }
+          ]
         },
         {
           "id": "b4-04",
@@ -242,7 +1084,51 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "FLUJO FISCAL · H1 2026",
+              "fuente": "SHCP",
+              "barras": {
+                "unidad": "miles de millones de pesos",
+                "datos": [
+                  {
+                    "etiqueta": "Ingresos recibidos",
+                    "valor": 129.6,
+                    "tono": "ocre",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Devuelto en aportaciones",
+                    "valor": 100.4,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "Neto: 29.200 M$",
+                  "x": 50,
+                  "y": 86,
+                  "in": 1.4,
+                  "tone": "ink",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "finance ministry building mexico city",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "El Estado *se queda* con la diferencia."
+              }
+            }
+          ]
         },
         {
           "id": "b4-05",
@@ -250,7 +1136,42 @@
           "voz": {
             "speed": 0.95
           },
-          "tipo": "barras"
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil pump jack desert",
+                "tono": "carmin",
+                "lado": "izq",
+                "nota": "H1 2013"
+              },
+              "fuente": "SHCP, Cuenta Pública 2013",
+              "tags": [
+                {
+                  "t": "H1 2013: 750.900 M$",
+                  "x": 62,
+                  "y": 24,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "H1 2026: 29.200 M$",
+                  "x": 22,
+                  "y": 72,
+                  "in": 1.4,
+                  "tone": "ink",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "frase",
+              "texto": "El petróleo mexicano *ha pasado* de financiar el presupuesto a *competir* con él.",
+              "night": true
+            }
+          ]
         },
         {
           "id": "b4-06",
@@ -258,7 +1179,40 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "contador"
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "PRESUPUESTO PEMEX 2026",
+                "puntos": [
+                  "780.862 millones de pesos en total",
+                  "263.500 millones son transferencia federal",
+                  "Para amortizar deuda de ejercicios anteriores"
+                ],
+                "activo": 0
+              },
+              "fuente": "Paquete Económico 2026, SHCP"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil refinery worker with helmet",
+                "tono": "ocre",
+                "lado": "centro"
+              },
+              "rotulo": {
+                "texto": "Una tercera parte *ya está* comprometida."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pipeline in desert",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b4-07",
@@ -266,7 +1220,54 @@
           "voz": {
             "speed": 0.97
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRESUPUESTO 2026 · PROYECCIÓN",
+              "fuente": "SHCP · Paquete Económico 2026",
+              "barras": {
+                "unidad": "miles de millones de pesos",
+                "datos": [
+                  {
+                    "etiqueta": "Aporta",
+                    "valor": 233,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Recibe",
+                    "valor": 263,
+                    "tono": "carmin"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "-31.000 M$",
+                  "x": 50,
+                  "y": 85,
+                  "in": 1.2,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Primer saldo *negativo* desde un presupuesto"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery at night",
+                "tono": "carmin"
+              }
+            }
+          ]
         }
       ]
     },
@@ -280,7 +1281,47 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DEUDA A PROVEEDORES · PEMEX",
+              "fuente": "Pemex · Estados Financieros 2T 2026",
+              "barras": {
+                "unidad": "miles de millones de pesos",
+                "datos": [
+                  {
+                    "etiqueta": "Dic 2025",
+                    "valor": 436.7,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Jun 2026",
+                    "valor": 374.3,
+                    "tono": "verde",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil service worker with helmet",
+                "tono": "ocre",
+                "lado": "der",
+                "nota": "Proveedor de servicios petroleros"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pipeline in desert",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b5-02",
@@ -288,7 +1329,23 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La industria *no reconoce* ese número.",
+              "night": true
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman holding unpaid invoice",
+                "tono": "carmin",
+                "lado": "izq",
+                "nota": "Proveedores de Pemex"
+              }
+            }
+          ]
         },
         {
           "id": "b5-03",
@@ -296,7 +1353,34 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "contador"
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "fuente": "AMESPAC",
+              "rotulo": {
+                "texto": "Estimación del sector: *veintiún mil millones* de dólares"
+              },
+              "tags": [
+                {
+                  "t": "21.000 M USD",
+                  "x": 60,
+                  "y": 30,
+                  "in": 0.8,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil field workers at sunset",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b5-04",
@@ -304,7 +1388,47 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DEUDA · SOLO 2024",
+              "fuente": "Pemex, informes trimestrales",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 10000,
+                "etiqueta": "millones de dólares en un año"
+              },
+              "tags": [
+                {
+                  "t": "96% ya terminado",
+                  "x": 62,
+                  "y": 70,
+                  "in": 1,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "sin poder facturar",
+                  "x": 60,
+                  "y": 82,
+                  "in": 2,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "buscar": "oil pipeline worker",
+              "tono": "ocre",
+              "lado": "der",
+              "nota": "Trabajo entregado, factura pendiente"
+            }
+          ]
         },
         {
           "id": "b5-05",
@@ -312,7 +1436,37 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SEPTIEMBRE 2025",
+              "fuente": "Pemex, reporte trimestral",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 28000,
+                "etiqueta": "millones de dólares a proveedores"
+              },
+              "tags": [
+                {
+                  "t": "Dato de la propia Pemex",
+                  "x": 20,
+                  "y": 25,
+                  "in": 0.8,
+                  "tone": "ink",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "buscar": "oil refinery control room",
+              "tono": "ocre"
+            }
+          ]
         },
         {
           "id": "b5-06",
@@ -320,7 +1474,40 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "buscar": "american factory worker",
+              "tono": "carmin",
+              "lado": "izq",
+              "nota": "Proveedores de Estados Unidos",
+              "fuente": "Casa Blanca, informe de barreras comerciales 2026",
+              "tags": [
+                {
+                  "t": "2.500 M$",
+                  "x": 68,
+                  "y": 30,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "31 dic 2025",
+                  "x": 66,
+                  "y": 46,
+                  "in": 1.4,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "buscar": "cargo trucks border crossing",
+              "tono": "ocre"
+            }
+          ]
         }
       ]
     },
@@ -334,7 +1521,24 @@
           "voz": {
             "speed": 0.97
           },
-          "tipo": "objeto"
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "camara": "push",
+              "kicker": "PASIVO LABORAL · JUNIO 2026",
+              "fuente": "Pemex, estados financieros",
+              "rotulo": {
+                "texto": "Un billón quinientos diez mil millones de *pesos*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "buscar": "retired oil worker portrait",
+              "tono": "carmin"
+            }
+          ]
         },
         {
           "id": "b6-02",
@@ -342,7 +1546,52 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "id": "b6-02-e1",
+              "tipo": "barras",
+              "kicker": "PASIVO LABORAL · VARIACIÓN",
+              "fuente": "IMCO",
+              "barras": {
+                "unidad": "% variación",
+                "datos": [
+                  {
+                    "etiqueta": "6 meses",
+                    "valor": 2.7,
+                    "tono": "ocre",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "12 meses",
+                    "valor": 10.9,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "37,6% de todo el pasivo",
+                  "x": 60,
+                  "y": 20,
+                  "in": 1.2,
+                  "tone": "ink",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "id": "b6-02-e2",
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "stack of unpaid invoices on desk",
+                "tono": "ocre",
+                "lado": "der",
+                "nota": "Pasivos con proveedores"
+              }
+            }
+          ]
         },
         {
           "id": "b6-03",
@@ -350,7 +1599,38 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "gente"
+          "tipo": "gente",
+          "escenas": [
+            {
+              "id": "b6-03-e1",
+              "tipo": "gente",
+              "gente": {
+                "total": 140000,
+                "destacados": 0,
+                "escala": 1000,
+                "etiqueta": "trabajadores en plantilla",
+                "etiquetaDestacados": ""
+              },
+              "tags": [
+                {
+                  "t": "140.000 empleados",
+                  "x": 30,
+                  "y": 25,
+                  "in": 0.5,
+                  "tone": "ink",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "id": "b6-03-e2",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery workers walking",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b6-04",
@@ -358,7 +1638,23 @@
           "voz": {
             "speed": 0.93
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "id": "b6-04-e1",
+              "tipo": "frase",
+              "texto": "La deuda que *se paga* baja. La que *nadie paga* sube.",
+              "night": true
+            },
+            {
+              "id": "b6-04-e2",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty pension office waiting room",
+                "tono": "carmin"
+              }
+            }
+          ]
         }
       ]
     },
@@ -372,7 +1668,51 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "frase"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "id": "b7-01-e1",
+              "tipo": "contador",
+              "kicker": "PRODUCCIÓN · Q2 2026",
+              "fuente": "Pemex",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 2447000,
+                "etiqueta": "barriles diarios equivalentes"
+              },
+              "tags": [
+                {
+                  "t": "+4,6% interanual",
+                  "x": 65,
+                  "y": 70,
+                  "in": 1.5,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "id": "b7-01-e2",
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil pump jack",
+                "tono": "ocre",
+                "lado": "izq",
+                "nota": "Producción en aumento"
+              }
+            },
+            {
+              "id": "b7-01-e3",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "offshore oil drilling platform",
+                "tono": "ink"
+              }
+            }
+          ]
         },
         {
           "id": "b7-02",
@@ -380,7 +1720,46 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRODUCCIÓN · PEMEX 2T2024",
+              "fuente": "Pemex, reporte de resultados 2T2024",
+              "barras": {
+                "unidad": "miles de barriles diarios",
+                "datos": [
+                  {
+                    "etiqueta": "Líquidos",
+                    "valor": 1658,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Refinación",
+                    "valor": 1008,
+                    "tono": "carmin"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "+2,9%",
+                  "x": 70,
+                  "y": 24,
+                  "in": 0.6,
+                  "tone": "ocre",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pump jack field at dusk",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b7-03",
@@ -388,7 +1767,44 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman signing financial report",
+                "tono": "carmin",
+                "lado": "der",
+                "nota": "Ventas del trimestre"
+              },
+              "fuente": "Pemex, estados financieros 2T2024",
+              "tags": [
+                {
+                  "t": "$510.400 M",
+                  "x": 18,
+                  "y": 28,
+                  "in": 0.4,
+                  "tone": "ink",
+                  "anim": "pop"
+                },
+                {
+                  "t": "+30,3% interanual",
+                  "x": 20,
+                  "y": 50,
+                  "in": 1.2,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "Mexican peso banknotes stack",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b7-04",
@@ -396,7 +1812,40 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "UTILIDAD vs PÉRDIDA · 2024",
+              "fuente": "Pemex, estados financieros 2T2024",
+              "barras": {
+                "unidad": "miles de millones de pesos",
+                "datos": [
+                  {
+                    "etiqueta": "Utilidad 2T",
+                    "valor": 18,
+                    "tono": "verde",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Pérdida ene-jun",
+                    "valor": 27.97,
+                    "tono": "carmin",
+                    "decimales": 2
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "office building Pemex headquarters Mexico City",
+                "tono": "carmin",
+                "lado": "izq"
+              },
+              "camara": "push"
+            }
+          ]
         },
         {
           "id": "b7-05",
@@ -404,7 +1853,47 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "fuente": "Pemex, estados financieros 1T2024",
+              "rotulo": {
+                "texto": "El primer trimestre *se hundió*"
+              },
+              "tags": [
+                {
+                  "t": "-45.993 M$",
+                  "x": 24,
+                  "y": 30,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "+58.300 M$ inyección",
+                  "x": 60,
+                  "y": 60,
+                  "in": 1.3,
+                  "tone": "ocre",
+                  "anim": "slideR"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "finance ministry building Mexico City",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El *peor arranque de año* desde dos mil veinte.",
+              "night": true
+            }
+          ]
         },
         {
           "id": "b7-06",
@@ -412,7 +1901,62 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "frase"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRODUCCIÓN DE CRUDO",
+              "fuente": "Pemex / Sener",
+              "barras": {
+                "unidad": "millones de barriles diarios",
+                "datos": [
+                  {
+                    "etiqueta": "2004",
+                    "valor": 3.4,
+                    "tono": "ocre",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 1.37,
+                    "tono": "carmin",
+                    "decimales": 2
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "PICO HISTÓRICO",
+                  "x": 20,
+                  "y": 22,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "pop"
+                },
+                {
+                  "t": "−60% en 21 años",
+                  "x": 62,
+                  "y": 68,
+                  "in": 1.4,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pumpjack field mexico",
+                "tono": "ocre"
+              },
+              "camara": "pan"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ninguna reforma financiera *arregla* la geología.",
+              "night": true
+            }
+          ]
         },
         {
           "id": "b7-07",
@@ -420,7 +1964,55 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "KU MALOOB ZAAP",
+              "fuente": "Pemex",
+              "barras": {
+                "unidad": "miles de barriles diarios",
+                "datos": [
+                  {
+                    "etiqueta": "inicio sexenio",
+                    "valor": 874,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 530,
+                    "tono": "carmin"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "CAMPO ESTRELLA",
+                  "x": 24,
+                  "y": 18,
+                  "in": 0.3,
+                  "tone": "ink",
+                  "anim": "pop"
+                },
+                {
+                  "t": "−344.000 b/d",
+                  "x": 60,
+                  "y": 70,
+                  "in": 1.5,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "offshore oil platform gulf of mexico",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
         },
         {
           "id": "b7-08",
@@ -428,7 +2020,46 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "retrato"
+          "tipo": "retrato",
+          "escenas": [
+            {
+              "tipo": "retrato",
+              "retrato": {
+                "nombre": "Luca Ferrari",
+                "papel": "Geólogo, Universidad Nacional Autónoma de México",
+                "titular": "\"Antes 200 pozos bastaban; ahora hacen falta más de 4.000\""
+              },
+              "tags": [
+                {
+                  "t": "UNAM",
+                  "x": 18,
+                  "y": 80,
+                  "in": 0.4,
+                  "tone": "ocre",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil drilling rig worker",
+                "tono": "ocre",
+                "lado": "der",
+                "nota": "Cantarell, 2025"
+              },
+              "tags": [
+                {
+                  "t": "+4.000 pozos",
+                  "x": 66,
+                  "y": 30,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -442,7 +2073,35 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "objeto"
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "financial district office building mexico city",
+                "tono": "ocre"
+              },
+              "camara": "pan"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman reading report",
+                "tono": "carmin",
+                "lado": "izq"
+              },
+              "tags": [
+                {
+                  "t": "3 CONTRARGUMENTOS",
+                  "x": 60,
+                  "y": 24,
+                  "in": 0.5,
+                  "tone": "ink",
+                  "anim": "slideR"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b8-02",
@@ -450,7 +2109,60 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DEUDA BRUTA · JUNIO 2026",
+              "fuente": "Pemex / Petrobras, informes trimestrales 2026",
+              "barras": {
+                "unidad": "miles de millones de USD",
+                "datos": [
+                  {
+                    "etiqueta": "Pemex",
+                    "valor": 77.5,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Petrobras",
+                    "valor": 70.8,
+                    "tono": "ocre",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "77,5 mil M$",
+                  "x": 24,
+                  "y": 28,
+                  "in": 0.4,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "70,8 mil M$",
+                  "x": 68,
+                  "y": 28,
+                  "in": 0.9,
+                  "tone": "ocre",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery at night",
+                "tono": "carmin"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "La brecha es de *menos del diez por ciento*."
+            }
+          ]
         },
         {
           "id": "b8-03",
@@ -458,7 +2170,31 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "BENEFICIO TRIMESTRAL",
+              "fuente": "Petrobras, resultados segundo trimestre 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 10400,
+                "etiqueta": "millones de dólares de beneficio, +97% interanual"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil company executive in suit",
+                "tono": "ocre",
+                "lado": "der",
+                "nota": "Petrobras, resultados Q2 2026"
+              }
+            }
+          ]
         },
         {
           "id": "b8-04",
@@ -466,7 +2202,23 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "objeto"
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica",
+              "rotulo": {
+                "texto": "El mayor fabricante de coches de *Europa* debe más que Pemex"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "car assembly line factory",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b8-05",
@@ -474,7 +2226,36 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "barras"
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "fuente": "Saudi Aramco, estados financieros 2026",
+              "recorte": {
+                "buscar": "oil pump jack in desert",
+                "tono": "carmin",
+                "lado": "izq",
+                "nota": "Aramco, junio 2026"
+              },
+              "tags": [
+                {
+                  "t": "6,2%",
+                  "x": 50,
+                  "y": 70,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "desert oil refinery aerial view",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b8-06",
@@ -482,7 +2263,53 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "lista"
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "REFORMA FISCAL · 2025",
+              "fuente": "Diario Oficial de la Federación",
+              "lista": {
+                "titulo": "Nuevo régimen fiscal de Pemex",
+                "puntos": [
+                  "Derecho petrolero único: 30% del valor extraído",
+                  "Exención del Impuesto Sobre la Renta",
+                  "Vigente desde el 18 de marzo de 2025"
+                ],
+                "activo": 0
+              },
+              "tags": [
+                {
+                  "t": "30%",
+                  "x": 20,
+                  "y": 25,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "pop"
+                },
+                {
+                  "t": "ISR exento",
+                  "x": 68,
+                  "y": 55,
+                  "in": 1.2,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "buscar": "oil refinery worker with helmet",
+              "tono": "carmin",
+              "lado": "izq",
+              "nota": "Pemex, 2025"
+            },
+            {
+              "tipo": "clip",
+              "buscar": "oil pipeline in desert",
+              "tono": "ocre"
+            }
+          ]
         },
         {
           "id": "b8-07",
@@ -490,7 +2317,44 @@
           "voz": {
             "speed": 0.94
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CARGA FISCAL · PEMEX",
+              "fuente": "Secretaría de Hacienda",
+              "barras": {
+                "unidad": "% sobre valor extraído",
+                "datos": [
+                  {
+                    "etiqueta": "Antes de 2025",
+                    "valor": 70,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Desde 2025",
+                    "valor": 30,
+                    "tono": "ocre"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "-40 puntos",
+                  "x": 60,
+                  "y": 30,
+                  "in": 0.8,
+                  "tone": "ocre",
+                  "anim": "slideUp"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "buscar": "empty oil company office at night",
+              "tono": "carmin"
+            }
+          ]
         }
       ]
     },
@@ -504,7 +2368,46 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "objeto"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CALIFICADORAS · 2025",
+              "fuente": "Fitch Ratings, Moody's",
+              "barras": {
+                "unidad": "escalones de mejora",
+                "datos": [
+                  {
+                    "etiqueta": "Fitch",
+                    "valor": 3,
+                    "tono": "verde"
+                  },
+                  {
+                    "etiqueta": "Moody's",
+                    "valor": 2,
+                    "tono": "ocre"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "desde 2013",
+                  "x": 24,
+                  "y": 68,
+                  "in": 0.5,
+                  "tone": "ink",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "buscar": "financial analyst with laptop",
+              "tono": "ocre",
+              "lado": "der",
+              "nota": "Agencias calificadoras"
+            }
+          ]
         },
         {
           "id": "b9-02",
@@ -512,7 +2415,29 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Sigue siendo *categoría especulativa*.",
+              "night": true,
+              "tags": [
+                {
+                  "t": "B1",
+                  "x": 50,
+                  "y": 20,
+                  "in": 0.3,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "buscar": "stock market ticker board",
+              "tono": "carmin"
+            }
+          ]
         },
         {
           "id": "b9-03",
@@ -520,7 +2445,44 @@
           "voz": {
             "speed": 0.97
           },
-          "tipo": "retrato"
+          "tipo": "retrato",
+          "escenas": [
+            {
+              "tipo": "retrato",
+              "retrato": {
+                "nombre": "Nymia Almeida",
+                "papel": "Vicepresidenta Senior, Moody's Investors Service",
+                "titular": "La calificación refleja el apoyo estatal"
+              },
+              "tags": [
+                {
+                  "t": "MOODY'S",
+                  "x": 74,
+                  "y": 20,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery control room panel at night",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "APOYO OFICIAL",
+                  "x": 20,
+                  "y": 78,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b9-04",
@@ -528,7 +2490,65 @@
           "voz": {
             "speed": 0.96
           },
-          "tipo": "objeto"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PERFIL INDIVIDUAL VS FINAL",
+              "fuente": "Moody's Investors Service",
+              "barras": {
+                "unidad": "escala Moody's, 1 mejor y 21 peor",
+                "datos": [
+                  {
+                    "etiqueta": "Perfil individual (Ca)",
+                    "valor": 20,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Con respaldo estatal (Baa3)",
+                    "valor": 10,
+                    "tono": "ocre"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "10 escalones de distancia",
+                  "x": 60,
+                  "y": 70,
+                  "in": 1,
+                  "tone": "ink",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "empty office chair",
+                "tono": "carmin",
+                "lado": "izq",
+                "nota": "Flujo de caja negativo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pipeline in desert",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "CAPACIDAD LIMITADA",
+                  "x": 66,
+                  "y": 80,
+                  "in": 0.8,
+                  "tone": "carmin",
+                  "anim": "slideUp"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b9-05",
@@ -536,7 +2556,48 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "mapa"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DEGRADACIÓN SOBERANA · MOODY'S",
+              "fuente": "Moody's Investors Service, mayo 2026",
+              "barras": {
+                "unidad": "escala Moody's, 1 mejor y 21 peor",
+                "datos": [
+                  {
+                    "etiqueta": "México antes (Baa2)",
+                    "valor": 9,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "México ahora (Baa3)",
+                    "valor": 10,
+                    "tono": "carmin"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "ÚLTIMO PELDAÑO",
+                  "x": 58,
+                  "y": 68,
+                  "in": 1,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "government building facade mexico",
+                "tono": "carmin",
+                "lado": "der",
+                "nota": "Antes del grado especulativo"
+              }
+            }
+          ]
         },
         {
           "id": "b9-06",
@@ -544,7 +2605,31 @@
           "voz": {
             "speed": 0.97
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El respaldo *tiene precio*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "electricity power plant cooling towers",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "CFE",
+                  "x": 24,
+                  "y": 22,
+                  "in": 0.4,
+                  "tone": "ocre",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b9-07",
@@ -552,7 +2637,55 @@
           "voz": {
             "speed": 1.02
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "id": "b9-07-1",
+              "tipo": "contador",
+              "kicker": "NOTAS PRECAPITALIZADAS · 2030",
+              "fuente": "Pemex, colocación de deuda, julio 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 23400,
+                "etiqueta": "millones de dólares en demanda"
+              },
+              "tags": [
+                {
+                  "t": "12.000 M$ colocados",
+                  "x": 20,
+                  "y": 25,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "pop"
+                },
+                {
+                  "t": "295 inversores",
+                  "x": 66,
+                  "y": 70,
+                  "in": 1.4,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "id": "b9-07-2",
+              "tipo": "recorte",
+              "buscar": "stock exchange trader looking at screen",
+              "tono": "ocre",
+              "lado": "der",
+              "nota": "Inversores institucionales"
+            },
+            {
+              "id": "b9-07-3",
+              "tipo": "clip",
+              "buscar": "financial district skyline at night",
+              "tono": "carmin"
+            }
+          ]
         }
       ]
     },
@@ -566,7 +2699,23 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "clip"
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "id": "b10-01-1",
+              "tipo": "recorte",
+              "buscar": "development bank building facade",
+              "tono": "ocre",
+              "lado": "izq",
+              "nota": "Banobras, banca de desarrollo"
+            },
+            {
+              "id": "b10-01-2",
+              "tipo": "clip",
+              "buscar": "construction site heavy machinery",
+              "tono": "carmin"
+            }
+          ]
         },
         {
           "id": "b10-02",
@@ -574,7 +2723,25 @@
           "voz": {
             "speed": 0.97
           },
-          "tipo": "retrato"
+          "tipo": "retrato",
+          "escenas": [
+            {
+              "id": "b10-02-1",
+              "tipo": "retrato",
+              "retrato": {
+                "nombre": "Claudia Sheinbaum",
+                "papel": "Presidenta de México",
+                "fecha": "agosto de 2025",
+                "titular": "Pemex no va a necesitar apoyo de Hacienda"
+              }
+            },
+            {
+              "id": "b10-02-2",
+              "tipo": "frase",
+              "texto": "Una promesa para *dos mil veintisiete*.",
+              "night": true
+            }
+          ]
         },
         {
           "id": "b10-03",
@@ -582,7 +2749,42 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "id": "b10-03-1",
+              "tipo": "barras",
+              "kicker": "PROYECCIÓN · MOODY'S",
+              "fuente": "Moody's, 2025",
+              "barras": {
+                "unidad": "miles de millones de USD anuales",
+                "datos": [
+                  {
+                    "etiqueta": "2026-2028",
+                    "valor": 14.9,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "Proyección, no dato cerrado",
+                  "x": 24,
+                  "y": 78,
+                  "in": 0.6,
+                  "tone": "ink",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "id": "b10-03-2",
+              "tipo": "clip",
+              "buscar": "oil refinery control room",
+              "tono": "ocre"
+            }
+          ]
         },
         {
           "id": "b10-04",
@@ -590,7 +2792,39 @@
           "voz": {
             "speed": 0.94
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Ahí está *la tensión*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pumpjack at sunset",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "PROMESA 2027",
+                  "x": 22,
+                  "y": 24,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                },
+                {
+                  "t": "NECESIDAD ANUAL",
+                  "x": 60,
+                  "y": 68,
+                  "in": 1.1,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b10-05",
@@ -598,7 +2832,66 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "META 2030",
+              "fuente": "Pemex, Plan Estratégico 2025-2030",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 25,
+                "etiqueta": "% menos deuda para 2030"
+              },
+              "tags": [
+                {
+                  "t": "1,8 M b/d · 2028",
+                  "x": 20,
+                  "y": 22,
+                  "in": 0.4,
+                  "tone": "ocre",
+                  "anim": "pop"
+                },
+                {
+                  "t": "5.000 M pcf gas",
+                  "x": 62,
+                  "y": 30,
+                  "in": 1,
+                  "tone": "ink",
+                  "anim": "slideR"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "oil refinery worker with helmet",
+                "tono": "ocre",
+                "lado": "der",
+                "nota": "Plan Estratégico 2025-2030"
+              },
+              "tags": [
+                {
+                  "t": "PLAN 2025-2030",
+                  "x": 18,
+                  "y": 74,
+                  "in": 0.5,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil rig control room",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b10-06",
@@ -606,7 +2899,46 @@
           "voz": {
             "speed": 0.99
           },
-          "tipo": "retrato"
+          "tipo": "retrato",
+          "escenas": [
+            {
+              "tipo": "retrato",
+              "retrato": {
+                "nombre": "Director General de Pemex",
+                "papel": "Nombrado director general de Pemex",
+                "fecha": "14 de mayo de 2026"
+              },
+              "tags": [
+                {
+                  "t": "14 MAY 2026",
+                  "x": 24,
+                  "y": 78,
+                  "in": 0.4,
+                  "tone": "ink",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman in suit signing documents",
+                "tono": "carmin",
+                "lado": "izq",
+                "nota": "Ex director de Finanzas"
+              },
+              "tags": [
+                {
+                  "t": "EX DIRECTOR DE FINANZAS",
+                  "x": 58,
+                  "y": 30,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -620,7 +2952,58 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "frase"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DEUDA FINANCIERA · PEMEX",
+              "fuente": "Pemex, Informes Financieros",
+              "barras": {
+                "unidad": "miles de millones de USD",
+                "datos": [
+                  {
+                    "etiqueta": "Pico",
+                    "valor": 106.5,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Mínimo 12 años",
+                    "valor": 87.8,
+                    "tono": "verde",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "-12 AÑOS",
+                  "x": 66,
+                  "y": 26,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil tanker truck driving",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "LA PARTE BUENA",
+                  "x": 30,
+                  "y": 70,
+                  "in": 0.7,
+                  "tone": "ocre",
+                  "anim": "fade"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b11-02",
@@ -628,7 +3011,67 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "barras"
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PASIVO LABORAL · PEMEX",
+              "fuente": "Pemex, Informe Anual 2024",
+              "barras": {
+                "unidad": "índice, año anterior = 100",
+                "datos": [
+                  {
+                    "etiqueta": "Año anterior",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Año actual",
+                    "valor": 110.9,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "+10,9%",
+                  "x": 68,
+                  "y": 22,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "en un año",
+                  "x": 68,
+                  "y": 34,
+                  "in": 1.1,
+                  "tone": "ink",
+                  "anim": "fade"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly retired factory worker",
+                "tono": "ocre",
+                "lado": "izq",
+                "nota": "Proveedores y jubilados: la otra cara del balance."
+              },
+              "tags": [
+                {
+                  "t": "Pasivos al alza",
+                  "x": 60,
+                  "y": 72,
+                  "in": 0.6,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b11-03",
@@ -636,7 +3079,57 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "clip"
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pipeline in desert",
+                "tono": "ocre"
+              },
+              "kicker": "PROYECCIÓN · AIE, OIL 2025",
+              "tags": [
+                {
+                  "t": "Agencia Internacional de la Energía",
+                  "x": 20,
+                  "y": 18,
+                  "in": 0.3,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "mapa",
+              "fuente": "Agencia Internacional de la Energía, Oil 2025",
+              "mapa": {
+                "region": "norteamerica",
+                "destaca": [
+                  "mexico"
+                ]
+              },
+              "rotulo": {
+                "texto": "¿Importador neto en *dos mil treinta*?"
+              },
+              "tags": [
+                {
+                  "t": "Proyección, no dato",
+                  "x": 62,
+                  "y": 70,
+                  "in": 1,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "gas station fuel pump at night",
+                "tono": "carmin"
+              }
+            }
+          ]
         },
         {
           "id": "b11-04",
@@ -644,7 +3137,47 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "contador"
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DECLINACIÓN DE PRODUCCIÓN",
+              "fuente": "Trabajos académicos independientes, escenario base 2030",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1.25,
+                "etiqueta": "millones de barriles diarios sin recursos no convencionales"
+              },
+              "tags": [
+                {
+                  "t": "2030",
+                  "x": 24,
+                  "y": 26,
+                  "in": 0.4,
+                  "tone": "ocre",
+                  "anim": "pop"
+                },
+                {
+                  "t": "−1,25 Mb/d",
+                  "x": 60,
+                  "y": 60,
+                  "in": 1.2,
+                  "tone": "carmin",
+                  "anim": "grow"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "offshore oil platform ocean",
+                "tono": "ocre"
+              }
+            }
+          ]
         },
         {
           "id": "b11-05",
@@ -652,7 +3185,33 @@
           "voz": {
             "speed": 0.93
           },
-          "tipo": "frase"
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Pemex ya no se analiza como *riesgo corporativo*.",
+              "night": true
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "government building facade mexico",
+                "tono": "ocre",
+                "lado": "der",
+                "nota": "Se lee como una línea del balance del Estado."
+              },
+              "tags": [
+                {
+                  "t": "Balance del Estado",
+                  "x": 58,
+                  "y": 68,
+                  "in": 0.5,
+                  "tone": "ink",
+                  "anim": "slideR"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "b11-06",
@@ -660,7 +3219,54 @@
           "voz": {
             "speed": 0.92
           },
-          "tipo": "objeto"
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Menos bancos, *más contribuyente*"
+              },
+              "tags": [
+                {
+                  "t": "2026",
+                  "x": 20,
+                  "y": 20,
+                  "in": 0.3,
+                  "tone": "ink",
+                  "anim": "pop"
+                },
+                {
+                  "t": "Deuda con bancos ↓",
+                  "x": 68,
+                  "y": 30,
+                  "in": 0.9,
+                  "tone": "verde",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "mexican taxpayer paying bill",
+                "tono": "carmin",
+                "lado": "der",
+                "nota": "Paga el contribuyente mexicano"
+              },
+              "tags": [
+                {
+                  "t": "Factura trasladada",
+                  "x": 24,
+                  "y": 68,
+                  "in": 0.5,
+                  "tone": "carmin",
+                  "anim": "slideUp"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -674,7 +3280,16 @@
           "voz": {
             "speed": 0.98
           },
-          "tipo": "cierre"
+          "tipo": "cierre",
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "siguiente": "COMISIÓN FEDERAL DE ELECTRICIDAD",
+                "sub": "La otra mitad del rescate mexicano"
+              }
+            }
+          ]
         },
         {
           "id": "b12-02",
@@ -682,7 +3297,15 @@
           "voz": {
             "speed": 1
           },
-          "tipo": "cierre"
+          "tipo": "cierre",
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "suscribete": true
+              }
+            }
+          ]
         }
       ]
     }
