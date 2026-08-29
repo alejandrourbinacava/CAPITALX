@@ -611,7 +611,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35760122",
+                  "url": "https://videos.pexels.com/video-files/35760122/15159929_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/industrial-coastline-at-twilight-35760122/"
+                },
+                "fichero": "clips/pexels-35760122.mp4"
               },
               "rotulo": {
                 "texto": "La inversión, *financiada con deuda*"
@@ -1196,7 +1206,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock exchange trading floor",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4319342",
+                  "url": "https://videos.pexels.com/video-files/4319342/4319342-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/finance-nyse-wall-street-new-york-city-4319342/"
+                },
+                "fichero": "clips/pexels-4319342.mp4"
               }
             }
           ]
@@ -1413,7 +1433,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cash counting machine",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266290",
+                  "url": "https://videos.pexels.com/video-files/6266290/6266290-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/woman-counting-money-6266290/"
+                },
+                "fichero": "clips/pexels-6266290.mp4"
               }
             }
           ]
@@ -2457,7 +2487,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "offshore oil platform at sea",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9654558",
+                  "url": "https://videos.pexels.com/video-files/9654558/9654558-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Zahid Nisar",
+                  "pagina": "https://www.pexels.com/video/an-oil-tanker-traveling-across-the-sea-9654558/"
+                },
+                "fichero": "clips/pexels-9654558.mp4"
               }
             },
             {
@@ -2694,7 +2734,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery flare stack at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "856627",
+                  "url": "https://videos.pexels.com/video-files/856627/856627-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/factory-at-night-856627/"
+                },
+                "fichero": "clips/pexels-856627.mp4"
               },
               "tags": [
                 {
@@ -2840,7 +2890,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "offshore oil platform at sunset",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34294261",
+                  "url": "https://videos.pexels.com/video-files/34294261/14529098_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 17,
+                  "autor": "Dio Hasbi Saniskoro",
+                  "pagina": "https://www.pexels.com/video/dramatic-offshore-oil-rig-at-sunset-34294261/"
+                },
+                "fichero": "clips/pexels-34294261.mp4"
               },
               "tags": [
                 {
@@ -3259,7 +3319,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35760122",
+                  "url": "https://videos.pexels.com/video-files/35760122/15159929_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/industrial-coastline-at-twilight-35760122/"
+                },
+                "fichero": "clips/pexels-35760122.mp4"
               },
               "tags": [
                 {
@@ -3675,7 +3745,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35760122",
+                  "url": "https://videos.pexels.com/video-files/35760122/15159929_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/industrial-coastline-at-twilight-35760122/"
+                },
+                "fichero": "clips/pexels-35760122.mp4"
               },
               "tags": [
                 {
@@ -3825,7 +3905,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction workers pouring concrete at building site",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32268405",
+                  "url": "https://videos.pexels.com/video-files/32268405/13762650_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Usman AbdulrasheedGambo",
+                  "pagina": "https://www.pexels.com/video/construction-site-with-cement-truck-and-worker-32268405/"
+                },
+                "fichero": "clips/pexels-32268405.mp4"
               },
               "tags": [
                 {
@@ -4262,7 +4352,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil pumpjack field",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27822161",
+                  "url": "https://videos.pexels.com/video-files/27822161/12234180_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Julián Armando Santos",
+                  "pagina": "https://www.pexels.com/video/petroleo-pozo-petrolero-27822161/"
+                },
+                "fichero": "clips/pexels-27822161.mp4"
               },
               "tags": [
                 {
