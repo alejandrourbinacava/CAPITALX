@@ -493,7 +493,7 @@ function leerLote(texto) {
 
 async function reescenificar(doc, ruta) {
   const todos = doc.bloques.flatMap((b) => b.planos);
-  const TANDA = 6;
+  const TANDA = 4;
 
   // Se salta lo que ya esta bien: asi un fallo a mitad no obliga a rehacer
   // las trece tandas, solo las que falten.
@@ -516,14 +516,7 @@ async function reescenificar(doc, ruta) {
     const tanda = planos.slice(i, i + TANDA);
     process.stdout.write(`  planos ${i + 1}-${i + tanda.length} de ${planos.length} … `);
 
-    const { texto } = await claude({
-      system: sistemaRedactar(),
-      modelo: MODELO_ESCENAS,
-      maxTokens: 16000,
-      mensajes: [
-        {
-          role: "user",
-          content: [
+    const peticion = [
             `Estos planos ya están locutados: el texto y los identificadores NO se tocan.`,
             `Tu único trabajo es devolver las "escenas" de cada uno, siguiendo las reglas de ritmo.`,
             ``,
@@ -536,19 +529,19 @@ async function reescenificar(doc, ruta) {
             `esa era la primera escena y le faltaban las siguientes.`,
             ``,
             `CUOTA DE ESTA TANDA. Las proporciones del canal son del vídeo entero,`,
-            `pero tú solo ves seis planos, así que aquí va tu parte ya calculada.`,
-            `De las doce o trece escenas que vas a escribir:`,
+            `pero tú solo ves cuatro planos, así que aquí va tu parte ya calculada.`,
+            `De las ocho o nueve escenas que vas a escribir:`,
             ``,
-            `    4 de tipo "clip"      metraje de archivo`,
-            `    3 de tipo "recorte"   recortes de revista`,
-            `    2 como mucho de tipo "frase"`,
+            `    3 de tipo "clip"      metraje de archivo`,
+            `    2 de tipo "recorte"   recortes de revista`,
+            `    1 como mucho de tipo "frase"`,
             `    2 de gráfico          barras, líneas o contador`,
             `    el resto              objeto, mapa, lista, retrato`,
             ``,
             `Esto no es orientativo. La pasada anterior salió con el treinta por`,
             `ciento en pantallas de texto y un solo recorte en todo el vídeo,`,
-            `porque cada tanda miró sus seis planos y no le parecieron bastantes`,
-            `para gastar un clip. Con seis planos delante, esta es tu cuota.`,
+            `porque cada tanda miró sus pocos planos y no le parecieron bastantes`,
+            `para gastar un clip. Con estos delante, esta es tu cuota.`,
             ``,
             JSON.stringify(tanda, null, 1),
             ``,
@@ -556,17 +549,31 @@ async function reescenificar(doc, ruta) {
             `{ "b0-01": [ {escena}, {escena}, ... ], "b0-02": [ ... ] }`,
             ``,
             `Una entrada por cada plano de arriba, con su id exacto. Nada más.`,
-          ].join("\n"),
-        },
-      ],
+    ].join("\n");
+
+    const { texto } = await claude({
+      system: sistemaRedactar(),
+      modelo: MODELO_ESCENAS,
+      maxTokens: 26000,
+      mensajes: [{ role: "user", content: peticion }],
     });
 
     // Una tanda mal formada no puede costar la pasada entera: se reintenta
     // una vez y, si sigue ilegible, esos planos se quedan como estaban. Como
     // esto es reanudable, la proxima pasada los recoge.
-    const lote = leerLote(texto);
+    let lote = leerLote(texto);
     if (!lote) {
-      console.log("JSON ilegible, esta tanda se queda como estaba");
+      console.log(`JSON ilegible (${texto.length} caracteres), reintento`);
+      const otra = await claude({
+        system: sistemaRedactar(),
+        modelo: MODELO_ESCENAS,
+        maxTokens: 26000,
+        mensajes: [{ role: "user", content: peticion }],
+      });
+      lote = leerLote(otra.texto);
+    }
+    if (!lote) {
+      console.log("  sigue ilegible, esta tanda se queda como estaba");
       continue;
     }
     let n = 0;
@@ -617,7 +624,7 @@ function revisarVisual(p, di) {
     if (!REGIONES[r]) di(`${donde}: región "${r}" no existe. Las válidas: europa, norteamerica, asia`);
     else {
       const claves = REGIONES[r]();
-      for (const k of p.mapa.destaca ?? []) {
+      for (const k of p.mapa?.destaca ?? []) {
         if (!claves.includes(k)) di(`${donde}: "${k}" no está en la región ${r}. Disponibles: ${claves.join(", ")}`);
       }
     }
