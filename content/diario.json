@@ -1037,7 +1037,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery at night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30551253",
+                  "url": "https://videos.pexels.com/video-files/30551253/13085416_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-industrial-coastal-area-at-dusk-30551253/"
+                },
+                "fichero": "clips/pexels-30551253.mp4"
               }
             },
             {
@@ -2000,7 +2010,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil field workers at drilling site",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36713758",
+                  "url": "https://videos.pexels.com/video-files/36713758/15561206_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "abdo alshreef",
+                  "pagina": "https://www.pexels.com/video/nighttime-oil-field-maintenance-by-crew-36713758/"
+                },
+                "fichero": "clips/pexels-36713758.mp4"
               }
             }
           ]
