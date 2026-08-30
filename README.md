@@ -174,3 +174,24 @@ sube el vídeo al canal **en privado**, y los tres secretos que necesita salen
 de `node scripts/youtube-token.mjs`. Un aviso antes de meterte: YouTube deja
 bloqueados como privados los vídeos subidos por una API sin auditar, así que
 hasta pasar su auditoría no podrías publicarlos. Por eso hoy los descargas.
+
+### Correcciones: qué cuesta y qué no
+
+La mayoría de las correcciones **no necesitan ni una llamada a la API**. Antes
+de relanzar nada, mirar en qué capa está el problema:
+
+| Lo que se ve mal | Dónde se arregla | Coste |
+|---|---|---|
+| Un recorte cortado, un clip mal tratado | `scripts/recortes.py`, `Clip.tsx` | 0 |
+| Escenas largas o cortas, gráficos sin ritmo | `Video.tsx`, `Barras.tsx`, `Rotulo.tsx` | 0 |
+| Colores, tipografía, posiciones | `theme.ts` y componentes | 0 |
+| Un clip que no viene a cuento | cambiar `buscar` a mano en el JSON | 0 |
+| Falta variedad de escenas, reparto desequilibrado | reescenificar | 19 llamadas |
+| El texto está mal escrito o falta un dato | reescribir el guion | voz otra vez |
+
+Reescenificar **no rehace lo que ya está bien**. Solo con `--rehacer todo` se
+tiran las escenas buenas, y eso solo tiene sentido cuando cambia el reparto
+entero. Para retocar una parte, `--rehacer b3,b7`.
+
+Y el guion escrito no se toca nunca por una corrección visual: los mp3 están
+atados a su texto, así que reescribirlo son veinte mil créditos de voz.

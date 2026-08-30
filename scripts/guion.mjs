@@ -894,10 +894,32 @@ async function main() {
   const args = process.argv.slice(2);
   const pedido = args.includes("--tema") ? args[args.indexOf("--tema") + 1] : null;
 
-  // Solo cambiar la imagen de un guion ya locutado, sin gastar creditos.
+  // Solo cambiar la imagen de un guion ya locutado, sin gastar creditos de voz.
+  //
+  // Por defecto NO rehace lo que ya esta bien. Una correccion no puede costar
+  // las diecinueve tandas enteras: la mayoria de las veces lo que cambia es el
+  // montaje o el tratamiento de imagen, y eso no necesita ni una llamada.
+  //
+  //   --reescenificar                     solo lo que falte o este mal
+  //   --reescenificar --rehacer todo      todo, cuando cambia el reparto
+  //   --reescenificar --rehacer b3,b7     solo esos bloques
   if (args.includes("--reescenificar")) {
     const ruta = args[args.indexOf("--reescenificar") + 1] || "content/diario.json";
     const doc = leerJson(ruta);
+    const rehacer = args.includes("--rehacer") ? args[args.indexOf("--rehacer") + 1] : null;
+
+    if (rehacer === "todo") {
+      for (const b of doc.bloques) for (const p of b.planos) delete p.escenas;
+      console.log("se rehacen TODAS las escenas");
+    } else if (rehacer) {
+      const cuales = new Set(rehacer.split(","));
+      let n = 0;
+      for (const b of doc.bloques) {
+        if (!cuales.has(b.id)) continue;
+        for (const p of b.planos) if (p.escenas) { delete p.escenas; n++; }
+      }
+      console.log(`se rehacen ${n} planos de los bloques ${rehacer}`);
+    }
     console.log(`reescenificando ${doc.titulo}`);
     const nuevo = await reescenificar(doc, ruta);
 

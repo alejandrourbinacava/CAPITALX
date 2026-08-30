@@ -18,10 +18,15 @@ on:
         default: "80"
         type: string
       reescenificar:
-        description: "Rehacer solo la imagen antes de renderizar (no gasta créditos de voz)"
+        description: "Rehacer la imagen antes de renderizar (no gasta créditos de voz)"
         required: false
         default: false
         type: boolean
+      rehacer:
+        description: "Qué escenas rehacer: vacío = solo las que falten · todo · b3,b7"
+        required: false
+        default: ""
+        type: string
 
 permissions:
   contents: write
@@ -76,7 +81,9 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          node scripts/guion.mjs --reescenificar "content/${{ inputs.video }}.json"
+          REHACER=""
+          [ -n "${{ inputs.rehacer }}" ] && REHACER="--rehacer ${{ inputs.rehacer }}"
+          node scripts/guion.mjs --reescenificar "content/${{ inputs.video }}.json" $REHACER
           git config user.name "capital-x-bot"
           git config user.email "actions@github.com"
           git add content/
