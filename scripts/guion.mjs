@@ -49,6 +49,24 @@ const REGIONES = {
 
 const leerJson = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
 
+const SALTO = String.fromCharCode(10);
+
+/** Lo que se lleva gastado en esta ejecucion, para que no sea una sorpresa. */
+const GASTO = { entrada: 0, cacheEscrito: 0, cacheLeido: 0, salida: 0 };
+
+function contarGasto() {
+  const g = GASTO;
+  const total = g.entrada + g.cacheEscrito + g.cacheLeido;
+  console.log(
+    `${SALTO}tokens: ${total.toLocaleString("es")} de entrada ` +
+      `(${g.cacheLeido.toLocaleString("es")} desde caché) · ` +
+      `${g.salida.toLocaleString("es")} de salida`
+  );
+  if (g.cacheLeido) {
+    console.log(`la caché ha ahorrado unos ${Math.round((g.cacheLeido * 0.9) / 1000)}k tokens de pago`);
+  }
+}
+
 function loadEnv() {
   const f = path.join(process.cwd(), ".env");
   if (!fs.existsSync(f)) return;
@@ -62,7 +80,11 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
   const body = {
     model: modelo,
     max_tokens: maxTokens,
-    system,
+    // El prompt de sistema se marca para que quede en cache. Reescenificar son
+    // diecinueve llamadas seguidas con el mismo sistema de cuatro mil seiscientos
+    // tokens; sin esto se paga entero diecinueve veces, y eso era la mayor
+    // parte de la factura sin que se notara en ningun sitio.
+    system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
     messages: mensajes,
   };
   if (buscar) body.tools = [{ type: "web_search_20250305", name: "web_search", max_uses: 14 }];
@@ -99,7 +121,12 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
       .map((b) => b.text)
       .join("\n");
     const busquedas = (j.content || []).filter((b) => b.type === "server_tool_use").length;
-    return { texto, busquedas, uso: j.usage };
+    const u = j.usage || {};
+    GASTO.entrada += u.input_tokens || 0;
+    GASTO.cacheEscrito += u.cache_creation_input_tokens || 0;
+    GASTO.cacheLeido += u.cache_read_input_tokens || 0;
+    GASTO.salida += u.output_tokens || 0;
+    return { texto, busquedas, uso: u };
   }
   throw new Error("la API no respondio tras cuatro intentos");
 }
@@ -468,6 +495,30 @@ async function redactar(tema, ficha, correcciones = null) {
   return JSON.parse(m[1]);
 }
 
+/**
+ * El mismo prompt, sin lo que no hace falta para escenificar.
+ *
+ * Reescenificar no escribe ni una palabra: el texto ya esta. Mandarle las
+ * reglas de redaccion, el presupuesto de caracteres o como se escribe la
+ * descripcion de YouTube es pagar por tokens que no va a usar, y ademas
+ * diecinueve veces por pasada.
+ */
+const SEPARA_SECCION = new RegExp("\\n(?=# )");
+
+function sistemaEscenas() {
+  const fuera = [
+    "Esto es un relato, no un informe",
+    "El presupuesto de caracteres",
+    "La locución se lee en voz alta",
+    "La descripción de YouTube",
+    "Cómo se construye el vídeo",
+  ];
+  const partes = sistemaRedactar().split(SEPARA_SECCION);
+  return partes
+    .filter((p) => !fuera.some((f) => p.startsWith("# " + f)))
+    .join(SALTO);
+}
+
 /* ------------------------------------------------------------------ */
 /*  2b. Reescenificar                                                  */
 /* ------------------------------------------------------------------ */
@@ -566,7 +617,7 @@ async function reescenificar(doc, ruta) {
     ].join("\n");
 
     const { texto } = await claude({
-      system: sistemaRedactar(),
+      system: sistemaEscenas(),
       modelo: MODELO_ESCENAS,
       maxTokens: 26000,
       mensajes: [{ role: "user", content: peticion }],
@@ -579,7 +630,7 @@ async function reescenificar(doc, ruta) {
     if (!lote) {
       console.log(`JSON ilegible (${texto.length} caracteres), reintento`);
       const otra = await claude({
-        system: sistemaRedactar(),
+        system: sistemaEscenas(),
         modelo: MODELO_ESCENAS,
         maxTokens: 26000,
         mensajes: [{ role: "user", content: peticion }],
@@ -862,6 +913,7 @@ async function main() {
     console.log(`\n${ps.length} planos · ${total} escenas · ${(total / ps.length).toFixed(1)} por plano`);
     console.log(`la locución no se ha tocado: cero créditos`);
     console.log(`en ${ruta}`);
+    contarGasto();
     return;
   }
 
