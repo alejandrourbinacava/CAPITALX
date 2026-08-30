@@ -89,6 +89,21 @@ jobs:
           git add content/
           git diff --cached --quiet || { git commit -m "Escenas nuevas para ${{ inputs.video }}"; git pull --rebase --autostash -q; git push; }
 
+      # Los recortes que vengan sin texto al lado se lo ponen aqui: una sola
+      # llamada con un prompt corto, no las diecinueve del reescenificado.
+      - name: Poner titular a los recortes que falten
+        # Un titular que falta es cosmetico. No puede costar dos horas de
+        # render, que es justo el error que llevo repitiendo todo el dia.
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node scripts/titulares.mjs "content/${{ inputs.video }}.json"
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content/
+          git diff --cached --quiet || { git commit -m "Titulares de los recortes"; git pull --rebase --autostash -q; git push; }
+
       # Los clips se bajan en cada render, no se versionan: pesan demasiado.
       # La eleccion sí queda escrita en el guion, asi que siempre baja el mismo
       # y el video sale igual la proxima vez.
