@@ -176,6 +176,46 @@ const PESO: Record<string, number> = {
 };
 
 /**
+ * ¿Tiene esta escena lo que necesita para dibujarse?
+ *
+ * El render murio al noventa y ocho por ciento porque una escena de cierre
+ * venia sin su objeto `cierre` y el componente leyo una propiedad de
+ * undefined. Cincuenta minutos de maquina por un campo que faltaba. Un dato
+ * ausente tiene que degradar el plano, nunca tumbar el video: lo que sale es
+ * el papel con su rotulo, que es feo pero se entiende.
+ */
+const listo = (p: Visual): boolean => {
+  switch (p.tipo) {
+    case "cierre":
+      return !!p.cierre;
+    case "lista":
+      return !!p.lista?.puntos?.length;
+    case "barras":
+      return !!p.barras?.datos?.length;
+    case "lineas":
+      return !!p.lineas?.series?.length;
+    case "contador":
+      return typeof p.a?.valor === "number";
+    case "gente":
+      return typeof p.gente?.total === "number" && typeof p.gente?.destacados === "number";
+    case "retrato":
+      return !!p.retrato?.nombre;
+    case "objeto":
+      return !!p.objeto;
+    case "mapa":
+      return !!p.mapa;
+    case "clip":
+      return !!p.clip?.fichero;
+    case "recorte":
+      return !!p.recorte?.fichero;
+    case "frase":
+      return !!p.texto;
+    default:
+      return true;
+  }
+};
+
+/**
  * Reparte la duracion del plano entre sus escenas.
  *
  * El reparto va por `peso`, y los restos de la division se le dan a la
@@ -187,8 +227,13 @@ export const repartir = (
   p: Plano,
   total: number
 ): { escena: Visual; desde: number; largo: number; solo: boolean }[] => {
-  const es = p.escenas ?? [];
-  if (es.length < 2) return [{ escena: es[0] ?? p, desde: 0, largo: total, solo: true }];
+  // Una escena que no tiene con que pintarse no ocupa tiempo: su hueco se lo
+  // reparten las demas. Sin esto salian ochenta y seis segundos de pantalla
+  // vacia en Pemex, porque quince escenas declaraban "clip" o "recorte" sin
+  // decir que buscar y no habia nada que descargarles.
+  const es = (p.escenas ?? []).filter(listo);
+  if (!es.length) return [{ escena: p.escenas?.[0] ?? p, desde: 0, largo: total, solo: true }];
+  if (es.length < 2) return [{ escena: es[0], desde: 0, largo: total, solo: true }];
 
   const caben = Math.max(1, Math.min(es.length, Math.floor(total / MINIMO)));
   const usadas = es.slice(0, caben);
@@ -344,45 +389,6 @@ const Contador: React.FC<{ p: Visual }> = ({ p }) => {
   );
 };
 
-/**
- * ¿Tiene esta escena lo que necesita para dibujarse?
- *
- * El render murio al noventa y ocho por ciento porque una escena de cierre
- * venia sin su objeto `cierre` y el componente leyo una propiedad de
- * undefined. Cincuenta minutos de maquina por un campo que faltaba. Un dato
- * ausente tiene que degradar el plano, nunca tumbar el video: lo que sale es
- * el papel con su rotulo, que es feo pero se entiende.
- */
-const listo = (p: Visual): boolean => {
-  switch (p.tipo) {
-    case "cierre":
-      return !!p.cierre;
-    case "lista":
-      return !!p.lista?.puntos?.length;
-    case "barras":
-      return !!p.barras?.datos?.length;
-    case "lineas":
-      return !!p.lineas?.series?.length;
-    case "contador":
-      return typeof p.a?.valor === "number";
-    case "gente":
-      return typeof p.gente?.total === "number" && typeof p.gente?.destacados === "number";
-    case "retrato":
-      return !!p.retrato?.nombre;
-    case "objeto":
-      return !!p.objeto;
-    case "mapa":
-      return !!p.mapa;
-    case "clip":
-      return !!p.clip?.fichero;
-    case "recorte":
-      return !!p.recorte?.fichero;
-    case "frase":
-      return !!p.texto;
-    default:
-      return true;
-  }
-};
 
 const PlanoView: React.FC<{ p: Visual }> = ({ p }) => {
   const night =

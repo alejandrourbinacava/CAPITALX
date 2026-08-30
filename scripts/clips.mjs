@@ -310,6 +310,39 @@ async function main() {
     console.log(` ${hecho.foto.fuente} #${hecho.foto.id} (${hecho.foto.autor})`);
   }
 
+  // Ultima pasada: ningun plano puede quedarse sin nada que pintar.
+  //
+  // El montaje ya descarta las escenas que no tienen con que dibujarse y les
+  // reparte el hueco a sus hermanas, pero si NINGUNA se puede pintar el plano
+  // entero sale en blanco con la voz sonando encima. Se le pone un dibujo
+  // neutro: es pobre, pero se ve, y es honesto con que ahi no habia material.
+  const pintable = (e) => {
+    if (e.tipo === "clip") return !!e.clip?.fichero;
+    if (e.tipo === "recorte") return !!e.recorte?.fichero;
+    if (e.tipo === "contador") return typeof e.a?.valor === "number";
+    if (e.tipo === "frase") return !!e.texto;
+    if (e.tipo === "barras") return !!e.barras?.datos?.length;
+    if (e.tipo === "objeto") return !!e.objeto;
+    if (e.tipo === "mapa") return !!e.mapa;
+    return true;
+  };
+  const NEUTROS = ["carpeta", "balanza", "contable", "plano", "interrogante"];
+  let rescatados = 0;
+  for (const b of doc.bloques) {
+    for (const p of b.planos) {
+      const es = p.escenas ?? [];
+      if (!es.length || es.some(pintable)) continue;
+      const e = es[0];
+      for (const k of Object.keys(e)) if (k !== "peso") delete e[k];
+      e.tipo = "objeto";
+      e.objeto = NEUTROS[rescatados % NEUTROS.length];
+      p.tipo = "objeto";
+      rescatados++;
+      console.log(`  ${p.id}: sin nada que pintar, se le pone un dibujo neutro`);
+    }
+  }
+  if (rescatados) console.log(`${rescatados} planos rescatados de salir en blanco`);
+
   fs.writeFileSync(ruta, JSON.stringify(doc, null, 2));
 
   // La atribucion no la exigen ni Pexels ni Pixabay, pero cuesta una linea y
