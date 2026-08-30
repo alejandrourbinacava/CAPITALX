@@ -284,7 +284,7 @@ async function main() {
     let hecho = null;
     // Se prueban hasta cuatro: el recorte falla a menudo, porque no toda foto
     // tiene un sujeto que se pueda separar del fondo.
-    for (const f of candidatos.slice(0, 4)) {
+    for (const f of candidatos.slice(0, 7)) {
       try {
         const png = await recortar(f, c.tono);
         hecho = { foto: f, png };

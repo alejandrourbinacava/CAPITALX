@@ -345,10 +345,24 @@ Cualquier escena puede llevar etiquetas que aparecen y desaparecen encima del di
 
   Entre **ocho y quince clips** en todo el vídeo, y como mucho uno por bloque. Si pones más, el canal deja de ser lo que es y se convierte en un montaje de banco de imágenes, que es justo lo que no queremos.
 
-- "recorte" · "recorte": { "buscar": "<qué buscar, EN INGLÉS>", "tono": "ocre|carmin", "lado": "izq|der|centro", "nota": "<opcional, pie pequeño>" }
+- "recorte" · "recorte": { "buscar": "<qué buscar, EN INGLÉS>", "tono": "ocre|carmin", "lado": "izq|der", "cifra": "<opcional>", "titular": "<obligatorio>", "apoyo": "<opcional>" }
   El recorte de revista: una foto con el fondo quitado, en blanco y negro, con borde grueso de color y una sombra plana desplazada por detrás. Es la marca visual de este canal y ahora mismo se usa poquísimo.
 
-  La búsqueda tiene que devolver **un sujeto recortable**: una persona, un objeto, una máquina, un edificio suelto. "businessman in suit", "oil worker with helmet", "empty office chair", "gas pump". Nunca paisajes, multitudes ni planos generales: si no hay un sujeto que separar del fondo, el recorte sale mal y la escena se cae a tipografía.
+  La búsqueda tiene que devolver **una silueta maciza**, y esto es más estricto de lo que parece. El borde de color se dibuja engordando la silueta, así que cualquier sujeto calado —una torre de celosía, un balancín de petróleo, una grúa, un andamio, una antena— sale con los huecos rellenos y se ve como una mancha. No es un problema de ajuste: ese sujeto no se puede contar así, y el sistema lo rechaza solo.
+
+  **Sí funciona:** personas ("oil worker with helmet", "businessman in suit", "nurse in uniform"), objetos compactos ("gas pump", "briefcase", "empty office chair", "shopping cart", "hard hat"), vehículos, edificios macizos.
+
+  **No funciona:** estructuras metálicas abiertas, multitudes, paisajes, planos generales, cualquier cosa sin un sujeto claro contra el fondo.
+
+  Si dudas, elige una persona. Es lo que mejor recorta y además pone cara a lo que cuentas.
+
+  **El recorte nunca va solo.** Una figura recortada sola en medio del cuadro se ve pobre por muy bien tratada que esté. Va a un lado y en el otro entra el texto: "titular" es obligatorio, y "cifra" y "apoyo" lo acompañan cuando aportan.
+
+      { "tipo": "recorte", "lado": "der",
+        "recorte": { "buscar": "oil worker with helmet", "tono": "ocre",
+                     "cifra": "140.000",
+                     "titular": "Personas en plantilla",
+                     "apoyo": "Y un pasivo laboral de 1,51 billones de pesos, el 37,6 % de todo lo que debe." } }
 
   Úsalo para poner cara y cuerpo a lo que se está contando: el trabajador del que hablas, la máquina que compró la empresa, el edificio del ministerio.
 
@@ -668,6 +682,10 @@ function revisarVisual(p, di) {
     const b = p[campo]?.buscar;
     if (!b) di(`${donde}: '${t}' necesita '${campo}': { "buscar": "..." } en inglés`);
     else if (/[áéíóúñ¿¡]/i.test(b)) di(`${donde}: la búsqueda "${b}" tiene que ir en inglés`);
+    // Un recorte sin texto al lado se ve pobre, por muy bien tratado que esté.
+    if (t === "recorte" && !p.recorte?.titular) {
+      di(`${donde}: el recorte necesita 'titular': una figura sola en el cuadro se ve vacía`);
+    }
   }
   if (p.tipo === "cierre" && !p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
 }

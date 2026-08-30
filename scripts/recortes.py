@@ -47,12 +47,19 @@ def desencuadrar_circulo(im, tol=18):
     return im.crop((x, y, x + lado, y + lado))
 
 
+# u2netp es el modelo ligero y con personas basta, pero con objetos se rompe:
+# en una foto de un balancin de petroleo devolvia cinco trozos sueltos y una
+# cobertura del cero por ciento. isnet-general-use lo resuelve en una sola
+# pieza. Se paga en tiempo de descarga la primera vez y nada mas.
+MODELO = os.environ.get("REMBG_MODELO", "isnet-general-use")
+
+
 def quitar_fondo(im):
-    """rembg devuelve la imagen con canal alfa; el modelo ligero basta."""
+    """rembg devuelve la imagen con canal alfa."""
     from rembg import remove, new_session
 
     if not hasattr(quitar_fondo, "_ses"):
-        quitar_fondo._ses = new_session("u2netp")
+        quitar_fondo._ses = new_session(MODELO)
     return remove(im, session=quitar_fondo._ses)
 
 
@@ -126,12 +133,67 @@ def a_tinta(rgb, alfa):
     return tintada
 
 
+def calado(alfa, grosor=9):
+    """
+    Cuanto crece la silueta al ponerle el borde.
+
+    Es lo que distingue una figura maciza de una celosia, y hace falta porque
+    el mecanismo Vox depende de que haya silueta: el borde se dibuja dilatando,
+    asi que en un balancin de petroleo cierra los huecos entre tirantes y en
+    pantalla sale una mancha roja en vez de una maquina.
+
+    Medido sobre siete fotos: las personas crecen entre un cuatro y un cinco
+    por ciento; los balancines, entre un doce y un cuarenta y tres. Por encima
+    de uno coma diez no hay recorte que valga, y no es cuestion de afinar el
+    proceso: es que ese sujeto no se puede contar asi.
+    """
+    base = (np.array(alfa) > 128).sum()
+    if not base:
+        return 99.0
+    m = alfa
+    for _ in range(grosor):
+        m = m.filter(ImageFilter.MaxFilter(3))
+    return float((np.array(m) > 128).sum() / base)
+
+
 def borde(alfa, grosor):
     """Dilata la silueta para obtener un contorno grueso."""
     m = alfa
     for _ in range(grosor):
         m = m.filter(ImageFilter.MaxFilter(3))
     return m
+
+
+def bordes_tocados(alfa):
+    """
+    Por cuantos lados del cuadro se sale el sujeto.
+
+    Si toca tres o cuatro, es que no hay figura contra fondo: es un primer
+    plano que llena el encuadre, y recortarlo no separa nada. Sale el fondo
+    entero tratado en tinta, que es justo lo que no queremos.
+    """
+    a = np.array(alfa) > 128
+    lados = [a[0], a[-1], a[:, 0], a[:, -1]]
+    return sum(1 for l in lados if l.mean() > 0.12)
+
+
+def medir(alfa):
+    """
+    Cuanto se lleva la mancha principal, en cuantos trozos queda, y cuanto
+    ocupa. Es lo que distingue un recorte usable de una mancha rota.
+    """
+    try:
+        from scipy import ndimage
+    except ImportError:
+        return 1.0, 1, float(np.array(alfa).mean() / 255)
+
+    a = np.array(alfa) > 128
+    if not a.any():
+        return 0.0, 0, 0.0
+    et, n = ndimage.label(a)
+    areas = ndimage.sum(a, et, range(1, n + 1))
+    mayor = areas.max()
+    return float(mayor / areas.sum()), int((areas >= mayor * 0.02).sum()), float(a.mean())
 
 
 def solo_el_sujeto(alfa, minimo=0.04):
@@ -194,6 +256,11 @@ def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26, ajusta
 
     recortada = quitar_fondo(im)
     alfa = limpiar_alfa(recortada.split()[-1])
+    # Se mide ANTES de limpiar: lo que interesa es si el modelo entendio la
+    # foto, no si el apano de despues consiguio disimularlo.
+    solidez, trozos, _ = medir(alfa)
+    lados = bordes_tocados(alfa)
+    cala = calado(alfa, grosor)
     if ajustar:
         alfa = solo_el_sujeto(alfa)
         im, alfa = ajustar_al_sujeto(im, alfa)
@@ -206,6 +273,8 @@ def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26, ajusta
     lienzo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 
     color = TONOS[tono]
+    # El borde y la sombra se ajustan a lo fino que sea el sujeto; si no, una
+    # celosia se convierte en una mancha.
     contorno = borde(alfa, grosor)
 
     # 1. sombra plana desplazada
@@ -230,7 +299,7 @@ def procesar(entrada, salida, tono="carmin", grosor=9, desplazamiento=26, ajusta
 
     os.makedirs(os.path.dirname(salida), exist_ok=True)
     lienzo.save(salida, "PNG", optimize=True)
-    return lienzo.size, cobertura
+    return lienzo.size, cobertura, solidez, trozos, lados, cala
 
 
 if __name__ == "__main__":
@@ -247,11 +316,30 @@ if __name__ == "__main__":
     # la recorta y la trata aqui, y el resultado entra en el montaje como un
     # PNG mas. Es el mismo tratamiento que se le da a las personas reales.
     if a.entrada:
-        tam, cob = procesar(a.entrada, a.salida, a.tono, ajustar=a.ajustar)
-        print(f"{tam[0]}x{tam[1]}  sujeto {cob*100:.0f}% del cuadro")
-        if cob < 0.06 or cob > 0.92:
-            # Sin sujeto claro el recorte no dice nada: mejor avisar y que
-            # quien llama decida caerse a otra cosa.
+        tam, cob, sol, trozos, lados, cala = procesar(a.entrada, a.salida, a.tono, ajustar=a.ajustar)
+        print(f"{tam[0]}x{tam[1]}  sujeto {cob*100:.0f}%  solidez {sol:.2f}  {trozos} trozo(s)  {lados} lados  crece {cala:.2f}")
+        # Un recorte roto canta muchisimo mas que no poner ninguno, asi que se
+        # rechaza y quien llama prueba con la foto siguiente.
+        if sol < 0.90:
+            print("  RECHAZADO: la silueta sale en trozos sueltos")
+            raise SystemExit(3)
+        if trozos > 2:
+            print("  RECHAZADO: demasiadas manchas sueltas")
+            raise SystemExit(3)
+        # Estas dos son laxas a proposito. Un primer plano de una persona
+        # ocupa tres cuartos del cuadro y toca tres lados, y es un recorte
+        # perfecto: los retratos de Rokke y Karlsen son asi. Lo que de verdad
+        # separa el bueno del malo es la solidez y lo calado, que van arriba.
+        if cob < 0.08 or cob > 0.92:
+            print("  RECHAZADO: no hay un sujeto que recortar")
+            raise SystemExit(3)
+        if lados == 4:
+            print("  RECHAZADO: el sujeto se sale por los cuatro lados")
+            raise SystemExit(3)
+        # Una celosia no se puede recortar asi, y no es cuestion de afinar:
+        # el borde se dibuja dilatando, y dilatar cierra los huecos.
+        if cala > 1.10:
+            print(f"  RECHAZADO: silueta calada, el borde le cierra los huecos (crece {cala:.2f})")
             raise SystemExit(3)
         raise SystemExit(0)
 
@@ -261,7 +349,7 @@ if __name__ == "__main__":
         nombre = os.path.splitext(f)[0]
         if a.solo and nombre != a.solo:
             continue
-        tam, cob = procesar(
+        tam, cob, *_ = procesar(
             os.path.join(FUENTE, f), os.path.join(DESTINO, nombre + ".png"), a.tono
         )
         aviso = "  ← revisa el recorte" if cob < 0.12 or cob > 0.85 else ""

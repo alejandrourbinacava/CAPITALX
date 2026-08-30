@@ -80,6 +80,9 @@ export type Visual = {
     lado?: "izq" | "der" | "centro";
     escala?: number;
     nota?: string;
+    titular?: string;
+    apoyo?: string;
+    cifra?: string;
   };
   rotulo?: { kicker?: string; texto: string };
 };
