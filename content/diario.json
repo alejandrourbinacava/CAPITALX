@@ -84,7 +84,15 @@
                 "nota": "Activos en declive",
                 "titular": "Deuda a la baja, balance peor",
                 "cifra": "100.000 M$",
-                "apoyo": "Dos años y medio de descenso sin mejora real en las cuentas."
+                "apoyo": "Dos años y medio de descenso sin mejora real en las cuentas.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30743599",
+                  "url": "https://images.pexels.com/photos/30743599/pexels-photo-30743599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "James Collington",
+                  "pagina": "https://www.pexels.com/photo/vintage-union-gas-pump-at-sunset-30743599/"
+                },
+                "fichero": "recortes-auto/pexels-30743599.png"
               }
             }
           ]
@@ -157,16 +165,7 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "government building mexico city",
-                "tono": "ocre",
-                "lado": "izq",
-                "nota": "Secretaría de Hacienda",
-                "titular": "El rescate que sostiene a Pemex",
-                "cifra": "1,88 billones $",
-                "apoyo": "Inyección federal acumulada entre 2019 y 2026."
-              },
+              "tipo": "frase",
               "tags": [
                 {
                   "t": "1,88 billones MXN",
@@ -176,7 +175,8 @@
                   "tone": "carmin",
                   "anim": "pop"
                 }
-              ]
+              ],
+              "texto": "government building mexico city"
             },
             {
               "tipo": "clip",
@@ -234,15 +234,7 @@
               ]
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "elderly pensioner counting coins",
-                "tono": "carmin",
-                "lado": "der",
-                "nota": "Jubilados, proveedores, contribuyente",
-                "titular": "El pasivo que no se refinancia",
-                "apoyo": "Crece la deuda con proveedores, jubilados y contribuyentes."
-              },
+              "tipo": "frase",
               "tags": [
                 {
                   "t": "Más carga aquí",
@@ -252,7 +244,8 @@
                   "tone": "carmin",
                   "anim": "pop"
                 }
-              ]
+              ],
+              "texto": "elderly pensioner counting coins"
             }
           ]
         },
@@ -319,7 +312,15 @@
                 "nota": "Rescate permanente de Pemex",
                 "titular": "La rebaja que castiga al rescate",
                 "cifra": "Baa3",
-                "apoyo": "Moody's baja a México citando la carga fiscal de Pemex."
+                "apoyo": "Moody's baja a México citando la carga fiscal de Pemex.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "259006",
+                  "url": "https://images.pexels.com/photos/259006/pexels-photo-259006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/photo/person-holding-document-papers-259006/"
+                },
+                "fichero": "recortes-auto/pexels-259006.png"
               },
               "tags": [
                 {
@@ -385,15 +386,7 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "supplier waiting outside factory gate",
-                "tono": "ocre",
-                "lado": "der",
-                "nota": "Proveedores sin cobrar",
-                "titular": "Deudas que no se refinancian",
-                "apoyo": "Proveedores y pensiones no tienen bono a diez años."
-              },
+              "tipo": "frase",
               "tags": [
                 {
                   "t": "PASIVO NO FINANCIERO",
@@ -403,7 +396,8 @@
                   "tone": "ocre",
                   "anim": "slideL"
                 }
-              ]
+              ],
+              "texto": "supplier waiting outside factory gate"
             },
             {
               "tipo": "clip",
@@ -453,15 +447,8 @@
               ]
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "government building mexico city",
-                "tono": "ocre",
-                "lado": "izq",
-                "nota": "El aval prestado",
-                "titular": "El prestamista de última instancia",
-                "apoyo": "La mejora de Pemex depende del Estado mexicano."
-              }
+              "tipo": "frase",
+              "texto": "government building mexico city"
             }
           ]
         }
@@ -628,7 +615,15 @@
                 "lado": "der",
                 "nota": "Más deuda por barril",
                 "titular": "La espiral de menos y más",
-                "apoyo": "Menos barriles para sostener más deuda."
+                "apoyo": "Menos barriles para sostener más deuda.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9381031",
+                  "url": "https://images.pexels.com/photos/9381031/pexels-photo-9381031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mathias Reding",
+                  "pagina": "https://www.pexels.com/photo/a-vintage-red-gas-pump-9381031/"
+                },
+                "fichero": "recortes-auto/pexels-9381031.png"
               },
               "tags": [
                 {
@@ -755,7 +750,15 @@
                 "lado": "izq",
                 "nota": "El argumento oficial",
                 "titular": "La caída que no se disputa",
-                "apoyo": "La duda es con qué dinero se financió el descenso."
+                "apoyo": "La duda es con qué dinero se financió el descenso.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8847165",
+                  "url": "https://images.pexels.com/photos/8847165/pexels-photo-8847165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-behind-speech-desk-8847165/"
+                },
+                "fichero": "recortes-auto/pexels-8847165.png"
               },
               "tags": [
                 {
@@ -871,7 +874,15 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "El dato que desmonta el relato",
-                "apoyo": "Sin reconocerlo, cualquier analista te lo tumba en segundos."
+                "apoyo": "Sin reconocerlo, cualquier analista te lo tumba en segundos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8192046",
+                  "url": "https://images.pexels.com/photos/8192046/pexels-photo-8192046.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Antoni Shkraba",
+                  "pagina": "https://www.pexels.com/photo/woman-and-man-working-8192046/"
+                },
+                "fichero": "recortes-auto/pexels-8192046.png"
               },
               "tags": [
                 {
@@ -958,14 +969,7 @@
               "night": true
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "government ministry building facade mexico",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "Cero neto, deuda mínima",
-                "apoyo": "Deuda bruta sobre PIB en su nivel más bajo en once años."
-              },
+              "tipo": "frase",
               "tags": [
                 {
                   "t": "Deuda/PIB: mínimo en 11 años",
@@ -975,7 +979,8 @@
                   "tone": "ocre",
                   "anim": "fade"
                 }
-              ]
+              ],
+              "texto": "government ministry building facade mexico"
             }
           ]
         },
@@ -1124,7 +1129,15 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Cierto y aun así insolvente",
-                "apoyo": "Cumplir metas no basta para pagarse sola."
+                "apoyo": "Cumplir metas no basta para pagarse sola.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7927547",
+                  "url": "https://images.pexels.com/photos/7927547/pexels-photo-7927547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nicola Barts",
+                  "pagina": "https://www.pexels.com/photo/worried-man-in-a-shirt-and-tie-looking-at-a-document-7927547/"
+                },
+                "fichero": "recortes-auto/pexels-7927547.png"
               }
             }
           ]
@@ -1218,7 +1231,15 @@
                 "lado": "izq",
                 "titular": "Ayuda pública en tres formatos",
                 "cifra": "326.000 M$",
-                "apoyo": "Estímulos fiscales más apoyos extraordinarios, todo dinero del Estado."
+                "apoyo": "Estímulos fiscales más apoyos extraordinarios, todo dinero del Estado.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19773879",
+                  "url": "https://images.pexels.com/photos/19773879/pexels-photo-19773879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Gaby Lopez",
+                  "pagina": "https://www.pexels.com/photo/benjamin-franklin-picture-on-banknote-19773879/"
+                },
+                "fichero": "recortes-auto/pexels-19773879.png"
               }
             }
           ]
@@ -1365,7 +1386,15 @@
                 "nota": "H1 2013",
                 "titular": "El petróleo que compite con el gasto",
                 "cifra": "750.900 M$",
-                "apoyo": "De financiar el presupuesto a disputárselo."
+                "apoyo": "De financiar el presupuesto a disputárselo.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30743597",
+                  "url": "https://images.pexels.com/photos/30743597/pexels-photo-30743597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "James Collington",
+                  "pagina": "https://www.pexels.com/photo/vintage-texaco-gas-pump-at-sunset-30743597/"
+                },
+                "fichero": "recortes-auto/pexels-30743597.png"
               },
               "fuente": "SHCP, Cuenta Pública 2013",
               "tags": [
@@ -1416,18 +1445,11 @@
               "fuente": "Paquete Económico 2026, SHCP"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "oil refinery worker with helmet",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "El presupuesto que paga deuda vieja",
-                "cifra": "780.862 M$",
-                "apoyo": "263.500 millones son transferencia federal para amortizar deuda anterior."
-              },
+              "tipo": "frase",
               "rotulo": {
                 "texto": "Una tercera parte *ya está* comprometida."
-              }
+              },
+              "texto": "oil refinery worker with helmet"
             },
             {
               "tipo": "clip",
@@ -1558,7 +1580,15 @@
                 "nota": "Proveedor de servicios petroleros",
                 "titular": "La deuda con proveedores baja",
                 "cifra": "374.334 M$",
-                "apoyo": "De 436.704 a 374.334 millones de pesos en seis meses."
+                "apoyo": "De 436.704 a 374.334 millones de pesos en seis meses.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6301940",
+                  "url": "https://images.pexels.com/photos/6301940/pexels-photo-6301940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ethan  Tu",
+                  "pagina": "https://www.pexels.com/photo/person-wearing-a-brand-uniform-6301940/"
+                },
+                "fichero": "recortes-auto/pexels-6301940.png"
               }
             },
             {
@@ -1602,7 +1632,15 @@
                 "nota": "Proveedores de Pemex",
                 "titular": "La mejora que nadie ve",
                 "cifra": "62.000 M$",
-                "apoyo": "La industria proveedora no reconoce el ajuste contable."
+                "apoyo": "La industria proveedora no reconoce el ajuste contable.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7534803",
+                  "url": "https://images.pexels.com/photos/7534803/pexels-photo-7534803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/man-person-people-office-7534803/"
+                },
+                "fichero": "recortes-auto/pexels-7534803.png"
               }
             }
           ]
@@ -1861,7 +1899,15 @@
                 "nota": "Pasivos con proveedores",
                 "titular": "Un tercio del pasivo total",
                 "cifra": "37,6 %",
-                "apoyo": "Sube un 10,9 % en un año, según el IMCO."
+                "apoyo": "Sube un 10,9 % en un año, según el IMCO.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5900150",
+                  "url": "https://images.pexels.com/photos/5900150/pexels-photo-5900150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/woman-crying-over-unpaid-bills-5900150/"
+                },
+                "fichero": "recortes-auto/pexels-5900150.png"
               }
             }
           ]
@@ -1997,7 +2043,15 @@
                 "nota": "Producción en aumento",
                 "titular": "La producción que sí sube",
                 "cifra": "2.447.000 bpce",
-                "apoyo": "Un 4,6 % más que un año antes."
+                "apoyo": "Un 4,6 % más que un año antes.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30743596",
+                  "url": "https://images.pexels.com/photos/30743596/pexels-photo-30743596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "James Collington",
+                  "pagina": "https://www.pexels.com/photo/vintage-union-76-gasoline-pump-sign-close-up-30743596/"
+                },
+                "fichero": "recortes-auto/pexels-30743596.png"
               }
             },
             {
@@ -2094,7 +2148,15 @@
                 "nota": "Ventas del trimestre",
                 "titular": "El mejor trimestre en años",
                 "cifra": "510.400 M$",
-                "apoyo": "Ventas un 30,3 % más, el mayor nivel en catorce trimestres."
+                "apoyo": "Ventas un 30,3 % más, el mayor nivel en catorce trimestres.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8428068",
+                  "url": "https://images.pexels.com/photos/8428068/pexels-photo-8428068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/a-man-sitting-at-the-table-8428068/"
+                },
+                "fichero": "recortes-auto/pexels-8428068.png"
               },
               "fuente": "Pemex, estados financieros 2T2024",
               "tags": [
@@ -2173,7 +2235,15 @@
                 "lado": "izq",
                 "titular": "Beneficio trimestral, pérdida semestral",
                 "cifra": "-27.968 M$",
-                "apoyo": "En el semestre Pemex sigue perdiendo dinero."
+                "apoyo": "En el semestre Pemex sigue perdiendo dinero.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17837908",
+                  "url": "https://images.pexels.com/photos/17837908/pexels-photo-17837908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Israel Torres",
+                  "pagina": "https://www.pexels.com/photo/reforma-tower-in-mexico-city-downtown-17837908/"
+                },
+                "fichero": "recortes-auto/pexels-17837908.png"
               },
               "camara": "push"
             }
@@ -2403,16 +2473,7 @@
               ]
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "oil drilling rig worker",
-                "tono": "ocre",
-                "lado": "der",
-                "nota": "Cantarell, 2025",
-                "titular": "El agotamiento de Cantarell",
-                "cifra": "4.000 pozos",
-                "apoyo": "De 200 pozos en 2004 a más de 4.000 en 2025."
-              },
+              "tipo": "frase",
               "tags": [
                 {
                   "t": "+4.000 pozos",
@@ -2422,7 +2483,8 @@
                   "tone": "carmin",
                   "anim": "pop"
                 }
-              ]
+              ],
+              "texto": "oil drilling rig worker"
             }
           ]
         }
@@ -2465,7 +2527,15 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "Los argumentos en contra",
-                "apoyo": "Tres objeciones, todas con datos detrás."
+                "apoyo": "Tres objeciones, todas con datos detrás.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7877188",
+                  "url": "https://images.pexels.com/photos/7877188/pexels-photo-7877188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-corporate-attire-writing-on-a-document-7877188/"
+                },
+                "fichero": "recortes-auto/pexels-7877188.png"
               },
               "tags": [
                 {
@@ -2581,7 +2651,15 @@
                 "nota": "Petrobras, resultados Q2 2026",
                 "titular": "Petrobras, el contraejemplo",
                 "cifra": "10.400 M$",
-                "apoyo": "Ganó un 97 % más que un año antes."
+                "apoyo": "Ganó un 97 % más que un año antes.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20398744",
+                  "url": "https://images.pexels.com/photos/20398744/pexels-photo-20398744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/man-in-a-suit-leaning-against-a-glass-countertop-20398744/"
+                },
+                "fichero": "recortes-auto/pexels-20398744.png"
               }
             }
           ]
@@ -2629,17 +2707,8 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
+              "tipo": "frase",
               "fuente": "Saudi Aramco, estados financieros 2026",
-              "recorte": {
-                "buscar": "oil pump jack in desert",
-                "tono": "carmin",
-                "lado": "izq",
-                "nota": "Aramco, junio 2026",
-                "titular": "Aramco, el otro extremo",
-                "cifra": "6,2 %",
-                "apoyo": "Apalancamiento mínimo frente al capital."
-              },
               "tags": [
                 {
                   "t": "6,2%",
@@ -2649,7 +2718,8 @@
                   "tone": "carmin",
                   "anim": "pop"
                 }
-              ]
+              ],
+              "texto": "oil pump jack in desert"
             },
             {
               "tipo": "clip",
@@ -2953,7 +3023,15 @@
                 "lado": "der",
                 "nota": "Flujo de caja negativo",
                 "titular": "La nota que ignora el rescate",
-                "apoyo": "Flujo de caja libre negativo de forma persistente."
+                "apoyo": "Flujo de caja libre negativo de forma persistente.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5824550",
+                  "url": "https://images.pexels.com/photos/5824550/pexels-photo-5824550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Charlotte May",
+                  "pagina": "https://www.pexels.com/photo/cozy-workplace-near-window-in-apartment-5824550/"
+                },
+                "fichero": "recortes-auto/pexels-5824550.png"
               }
             },
             {
@@ -3024,16 +3102,8 @@
               ]
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "government building facade mexico",
-                "tono": "carmin",
-                "lado": "izq",
-                "nota": "Antes del grado especulativo",
-                "titular": "El precio del respaldo",
-                "cifra": "Baa3",
-                "apoyo": "Moody's cita el deterioro fiscal del rescate permanente."
-              }
+              "tipo": "frase",
+              "texto": "government building facade mexico"
             }
           ]
         },
@@ -3324,16 +3394,7 @@
               ]
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "oil refinery worker with helmet",
-                "tono": "ocre",
-                "lado": "der",
-                "nota": "Plan Estratégico 2025-2030",
-                "titular": "Las metas para 2028 y 2030",
-                "cifra": "1,8 M b/d",
-                "apoyo": "Reducir un 25 % la deuda financiera hacia 2030."
-              },
+              "tipo": "frase",
               "tags": [
                 {
                   "t": "PLAN 2025-2030",
@@ -3343,7 +3404,8 @@
                   "tone": "ocre",
                   "anim": "slideL"
                 }
-              ]
+              ],
+              "texto": "oil refinery worker with helmet"
             },
             {
               "tipo": "clip",
@@ -3398,7 +3460,15 @@
                 "lado": "izq",
                 "nota": "Ex director de Finanzas",
                 "titular": "El arquitecto de la deuda",
-                "apoyo": "Exdirector financiero de Pemex, ahora responsable del plan."
+                "apoyo": "Exdirector financiero de Pemex, ahora responsable del plan.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8730852",
+                  "url": "https://images.pexels.com/photos/8730852/pexels-photo-8730852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/a-man-signing-papers-8730852/"
+                },
+                "fichero": "recortes-auto/pexels-8730852.png"
               },
               "tags": [
                 {
@@ -3544,7 +3614,15 @@
                 "nota": "Proveedores y jubilados: la otra cara del balance.",
                 "titular": "El pasivo laboral que crece",
                 "cifra": "10,9 %",
-                "apoyo": "Mientras la deuda financiera baja con capital público."
+                "apoyo": "Mientras la deuda financiera baja con capital público.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36345065",
+                  "url": "https://images.pexels.com/photos/36345065/pexels-photo-36345065.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-reading-newspaper-in-printing-press-36345065/"
+                },
+                "fichero": "recortes-auto/pexels-36345065.png"
               },
               "tags": [
                 {
@@ -3709,15 +3787,7 @@
               "night": true
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "government building facade mexico",
-                "tono": "ocre",
-                "lado": "izq",
-                "nota": "Se lee como una línea del balance del Estado.",
-                "titular": "Una línea del balance estatal",
-                "apoyo": "Pemex ya no se mide como empresa, sino como riesgo país."
-              },
+              "tipo": "frase",
               "tags": [
                 {
                   "t": "Balance del Estado",
@@ -3727,7 +3797,8 @@
                   "tone": "ink",
                   "anim": "slideR"
                 }
-              ]
+              ],
+              "texto": "government building facade mexico"
             }
           ]
         },
@@ -3773,7 +3844,15 @@
                 "lado": "der",
                 "nota": "Paga el contribuyente mexicano",
                 "titular": "El contribuyente paga la diferencia",
-                "apoyo": "Menos deuda bancaria, más carga para todos los demás."
+                "apoyo": "Menos deuda bancaria, más carga para todos los demás.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4968385",
+                  "url": "https://images.pexels.com/photos/4968385/pexels-photo-4968385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/paying-with-cash-4968385/"
+                },
+                "fichero": "recortes-auto/pexels-4968385.png"
               },
               "tags": [
                 {
