@@ -81,7 +81,10 @@
                 "buscar": "old oil pump jack",
                 "tono": "carmin",
                 "lado": "der",
-                "nota": "Activos en declive"
+                "nota": "Activos en declive",
+                "titular": "Deuda a la baja, balance peor",
+                "cifra": "100.000 M$",
+                "apoyo": "Dos años y medio de descenso sin mejora real en las cuentas."
               }
             }
           ]
@@ -159,7 +162,10 @@
                 "buscar": "government building mexico city",
                 "tono": "ocre",
                 "lado": "izq",
-                "nota": "Secretaría de Hacienda"
+                "nota": "Secretaría de Hacienda",
+                "titular": "El rescate que sostiene a Pemex",
+                "cifra": "1,88 billones $",
+                "apoyo": "Inyección federal acumulada entre 2019 y 2026."
               },
               "tags": [
                 {
@@ -233,7 +239,9 @@
                 "buscar": "elderly pensioner counting coins",
                 "tono": "carmin",
                 "lado": "der",
-                "nota": "Jubilados, proveedores, contribuyente"
+                "nota": "Jubilados, proveedores, contribuyente",
+                "titular": "El pasivo que no se refinancia",
+                "apoyo": "Crece la deuda con proveedores, jubilados y contribuyentes."
               },
               "tags": [
                 {
@@ -308,7 +316,10 @@
                 "buscar": "financial analyst reviewing documents",
                 "tono": "carmin",
                 "lado": "izq",
-                "nota": "Rescate permanente de Pemex"
+                "nota": "Rescate permanente de Pemex",
+                "titular": "La rebaja que castiga al rescate",
+                "cifra": "Baa3",
+                "apoyo": "Moody's baja a México citando la carga fiscal de Pemex."
               },
               "tags": [
                 {
@@ -378,8 +389,10 @@
               "recorte": {
                 "buscar": "supplier waiting outside factory gate",
                 "tono": "ocre",
-                "lado": "izq",
-                "nota": "Proveedores sin cobrar"
+                "lado": "der",
+                "nota": "Proveedores sin cobrar",
+                "titular": "Deudas que no se refinancian",
+                "apoyo": "Proveedores y pensiones no tienen bono a diez años."
               },
               "tags": [
                 {
@@ -444,8 +457,10 @@
               "recorte": {
                 "buscar": "government building mexico city",
                 "tono": "ocre",
-                "lado": "der",
-                "nota": "El aval prestado"
+                "lado": "izq",
+                "nota": "El aval prestado",
+                "titular": "El prestamista de última instancia",
+                "apoyo": "La mejora de Pemex depende del Estado mexicano."
               }
             }
           ]
@@ -611,7 +626,9 @@
                 "buscar": "oil pump jack machine",
                 "tono": "carmin",
                 "lado": "der",
-                "nota": "Más deuda por barril"
+                "nota": "Más deuda por barril",
+                "titular": "La espiral de menos y más",
+                "apoyo": "Menos barriles para sostener más deuda."
               },
               "tags": [
                 {
@@ -736,7 +753,9 @@
                 "buscar": "politician speaking at podium",
                 "tono": "ocre",
                 "lado": "izq",
-                "nota": "El argumento oficial"
+                "nota": "El argumento oficial",
+                "titular": "La caída que no se disputa",
+                "apoyo": "La duda es con qué dinero se financió el descenso."
               },
               "tags": [
                 {
@@ -850,7 +869,9 @@
               "recorte": {
                 "buscar": "financial analyst with headset at desk",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "der",
+                "titular": "El dato que desmonta el relato",
+                "apoyo": "Sin reconocerlo, cualquier analista te lo tumba en segundos."
               },
               "tags": [
                 {
@@ -941,7 +962,9 @@
               "recorte": {
                 "buscar": "government ministry building facade mexico",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "izq",
+                "titular": "Cero neto, deuda mínima",
+                "apoyo": "Deuda bruta sobre PIB en su nivel más bajo en once años."
               },
               "tags": [
                 {
@@ -1099,7 +1122,9 @@
               "recorte": {
                 "buscar": "businessman looking down worried",
                 "tono": "carmin",
-                "lado": "der"
+                "lado": "der",
+                "titular": "Cierto y aun así insolvente",
+                "apoyo": "Cumplir metas no basta para pagarse sola."
               }
             }
           ]
@@ -1190,7 +1215,10 @@
               "recorte": {
                 "buscar": "pile of mexican peso banknotes",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "titular": "Ayuda pública en tres formatos",
+                "cifra": "326.000 M$",
+                "apoyo": "Estímulos fiscales más apoyos extraordinarios, todo dinero del Estado."
               }
             }
           ]
@@ -1333,8 +1361,11 @@
               "recorte": {
                 "buscar": "oil pump jack desert",
                 "tono": "carmin",
-                "lado": "izq",
-                "nota": "H1 2013"
+                "lado": "der",
+                "nota": "H1 2013",
+                "titular": "El petróleo que compite con el gasto",
+                "cifra": "750.900 M$",
+                "apoyo": "De financiar el presupuesto a disputárselo."
               },
               "fuente": "SHCP, Cuenta Pública 2013",
               "tags": [
@@ -1389,7 +1420,10 @@
               "recorte": {
                 "buscar": "oil refinery worker with helmet",
                 "tono": "ocre",
-                "lado": "centro"
+                "lado": "izq",
+                "titular": "El presupuesto que paga deuda vieja",
+                "cifra": "780.862 M$",
+                "apoyo": "263.500 millones son transferencia federal para amortizar deuda anterior."
               },
               "rotulo": {
                 "texto": "Una tercera parte *ya está* comprometida."
@@ -1521,7 +1555,10 @@
                 "buscar": "oil service worker with helmet",
                 "tono": "ocre",
                 "lado": "der",
-                "nota": "Proveedor de servicios petroleros"
+                "nota": "Proveedor de servicios petroleros",
+                "titular": "La deuda con proveedores baja",
+                "cifra": "374.334 M$",
+                "apoyo": "De 436.704 a 374.334 millones de pesos en seis meses."
               }
             },
             {
@@ -1562,7 +1599,10 @@
                 "buscar": "businessman holding unpaid invoice",
                 "tono": "carmin",
                 "lado": "izq",
-                "nota": "Proveedores de Pemex"
+                "nota": "Proveedores de Pemex",
+                "titular": "La mejora que nadie ve",
+                "cifra": "62.000 M$",
+                "apoyo": "La industria proveedora no reconoce el ajuste contable."
               }
             }
           ]
@@ -1818,7 +1858,10 @@
                 "buscar": "stack of unpaid invoices on desk",
                 "tono": "ocre",
                 "lado": "der",
-                "nota": "Pasivos con proveedores"
+                "nota": "Pasivos con proveedores",
+                "titular": "Un tercio del pasivo total",
+                "cifra": "37,6 %",
+                "apoyo": "Sube un 10,9 % en un año, según el IMCO."
               }
             }
           ]
@@ -1951,7 +1994,10 @@
                 "buscar": "oil pump jack",
                 "tono": "ocre",
                 "lado": "izq",
-                "nota": "Producción en aumento"
+                "nota": "Producción en aumento",
+                "titular": "La producción que sí sube",
+                "cifra": "2.447.000 bpce",
+                "apoyo": "Un 4,6 % más que un año antes."
               }
             },
             {
@@ -2045,7 +2091,10 @@
                 "buscar": "businessman signing financial report",
                 "tono": "carmin",
                 "lado": "der",
-                "nota": "Ventas del trimestre"
+                "nota": "Ventas del trimestre",
+                "titular": "El mejor trimestre en años",
+                "cifra": "510.400 M$",
+                "apoyo": "Ventas un 30,3 % más, el mayor nivel en catorce trimestres."
               },
               "fuente": "Pemex, estados financieros 2T2024",
               "tags": [
@@ -2121,7 +2170,10 @@
               "recorte": {
                 "buscar": "office building Pemex headquarters Mexico City",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "titular": "Beneficio trimestral, pérdida semestral",
+                "cifra": "-27.968 M$",
+                "apoyo": "En el semestre Pemex sigue perdiendo dinero."
               },
               "camara": "push"
             }
@@ -2356,7 +2408,10 @@
                 "buscar": "oil drilling rig worker",
                 "tono": "ocre",
                 "lado": "der",
-                "nota": "Cantarell, 2025"
+                "nota": "Cantarell, 2025",
+                "titular": "El agotamiento de Cantarell",
+                "cifra": "4.000 pozos",
+                "apoyo": "De 200 pozos en 2004 a más de 4.000 en 2025."
               },
               "tags": [
                 {
@@ -2408,7 +2463,9 @@
               "recorte": {
                 "buscar": "businessman reading report",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "titular": "Los argumentos en contra",
+                "apoyo": "Tres objeciones, todas con datos detrás."
               },
               "tags": [
                 {
@@ -2521,7 +2578,10 @@
                 "buscar": "oil company executive in suit",
                 "tono": "ocre",
                 "lado": "der",
-                "nota": "Petrobras, resultados Q2 2026"
+                "nota": "Petrobras, resultados Q2 2026",
+                "titular": "Petrobras, el contraejemplo",
+                "cifra": "10.400 M$",
+                "apoyo": "Ganó un 97 % más que un año antes."
               }
             }
           ]
@@ -2575,7 +2635,10 @@
                 "buscar": "oil pump jack in desert",
                 "tono": "carmin",
                 "lado": "izq",
-                "nota": "Aramco, junio 2026"
+                "nota": "Aramco, junio 2026",
+                "titular": "Aramco, el otro extremo",
+                "cifra": "6,2 %",
+                "apoyo": "Apalancamiento mínimo frente al capital."
               },
               "tags": [
                 {
@@ -2887,8 +2950,10 @@
               "recorte": {
                 "buscar": "empty office chair",
                 "tono": "carmin",
-                "lado": "izq",
-                "nota": "Flujo de caja negativo"
+                "lado": "der",
+                "nota": "Flujo de caja negativo",
+                "titular": "La nota que ignora el rescate",
+                "apoyo": "Flujo de caja libre negativo de forma persistente."
               }
             },
             {
@@ -2963,8 +3028,11 @@
               "recorte": {
                 "buscar": "government building facade mexico",
                 "tono": "carmin",
-                "lado": "der",
-                "nota": "Antes del grado especulativo"
+                "lado": "izq",
+                "nota": "Antes del grado especulativo",
+                "titular": "El precio del respaldo",
+                "cifra": "Baa3",
+                "apoyo": "Moody's cita el deterioro fiscal del rescate permanente."
               }
             }
           ]
@@ -3261,7 +3329,10 @@
                 "buscar": "oil refinery worker with helmet",
                 "tono": "ocre",
                 "lado": "der",
-                "nota": "Plan Estratégico 2025-2030"
+                "nota": "Plan Estratégico 2025-2030",
+                "titular": "Las metas para 2028 y 2030",
+                "cifra": "1,8 M b/d",
+                "apoyo": "Reducir un 25 % la deuda financiera hacia 2030."
               },
               "tags": [
                 {
@@ -3325,7 +3396,9 @@
                 "buscar": "businessman in suit signing documents",
                 "tono": "carmin",
                 "lado": "izq",
-                "nota": "Ex director de Finanzas"
+                "nota": "Ex director de Finanzas",
+                "titular": "El arquitecto de la deuda",
+                "apoyo": "Exdirector financiero de Pemex, ahora responsable del plan."
               },
               "tags": [
                 {
@@ -3467,8 +3540,11 @@
               "recorte": {
                 "buscar": "elderly retired factory worker",
                 "tono": "ocre",
-                "lado": "izq",
-                "nota": "Proveedores y jubilados: la otra cara del balance."
+                "lado": "der",
+                "nota": "Proveedores y jubilados: la otra cara del balance.",
+                "titular": "El pasivo laboral que crece",
+                "cifra": "10,9 %",
+                "apoyo": "Mientras la deuda financiera baja con capital público."
               },
               "tags": [
                 {
@@ -3637,8 +3713,10 @@
               "recorte": {
                 "buscar": "government building facade mexico",
                 "tono": "ocre",
-                "lado": "der",
-                "nota": "Se lee como una línea del balance del Estado."
+                "lado": "izq",
+                "nota": "Se lee como una línea del balance del Estado.",
+                "titular": "Una línea del balance estatal",
+                "apoyo": "Pemex ya no se mide como empresa, sino como riesgo país."
               },
               "tags": [
                 {
@@ -3693,7 +3771,9 @@
                 "buscar": "mexican taxpayer paying bill",
                 "tono": "carmin",
                 "lado": "der",
-                "nota": "Paga el contribuyente mexicano"
+                "nota": "Paga el contribuyente mexicano",
+                "titular": "El contribuyente paga la diferencia",
+                "apoyo": "Menos deuda bancaria, más carga para todos los demás."
               },
               "tags": [
                 {
