@@ -85,7 +85,7 @@ function loadEnv() {
  * eso se paga aunque nosotros no lo recibamos. En streaming van llegando los
  * trozos desde el primer segundo y la conexion no se cae.
  */
-async function leerStream(res) {
+async function leerStream(res, marca) {
   const lector = res.body.getReader();
   const dec = new TextDecoder();
   let resto = "";
@@ -96,6 +96,7 @@ async function leerStream(res) {
   for (;;) {
     const { done, value } = await lector.read();
     if (done) break;
+    if (marca) marca.recibido = true;
     resto += dec.decode(value, { stream: true });
     const lineas = resto.split(String.fromCharCode(10));
     resto = lineas.pop() ?? "";
@@ -139,8 +140,15 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
   };
   if (buscar) body.tools = [{ type: "web_search_20250305", name: "web_search", max_uses: 14 }];
 
+  // Si la conexion se cae DESPUES de empezar a recibir, el modelo ya esta
+  // escribiendo y eso se cobra. Reintentar seria pagarlo otra vez: fue lo que
+  // paso con Portugal, cuatro guiones generados y ninguno recibido, tres
+  // dolares. Solo se reintenta cuando no llego ni un byte.
+  const marca = { recibido: false };
+
   for (let intento = 1; intento <= 4; intento++) {
     let res;
+    marca.recibido = false;
     try {
       res = await fetch(API, {
         method: "POST",
@@ -152,10 +160,15 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
         body: JSON.stringify(body),
       });
     } catch (e) {
-      // La red se cae sin dar codigo de estado. Estas peticiones duran
-      // minutos, asi que pasa, y perder aqui el trabajo hecho seria absurdo.
-      console.log(`  la red ha fallado (${e.message}), reintento ${intento}`);
-      await new Promise((r) => setTimeout(r, intento * 20000));
+      if (marca.recibido) {
+        throw new Error(
+          `la conexion se corto con la respuesta a medias (${e.message}). ` +
+            `No se reintenta: el modelo ya habia escrito y eso se cobra igual. ` +
+            `Vuelve a lanzarlo tu si quieres pagarlo otra vez.`
+        );
+      }
+      console.log(`  la red ha fallado antes de empezar (${e.message}), reintento ${intento}`);
+      await new Promise((r) => setTimeout(r, intento * 15000));
       continue;
     }
     if (res.status === 429 || res.status >= 500) {
@@ -166,7 +179,15 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
     }
     // Un error de la API no viene en trozos, viene como JSON normal.
     if (!res.ok) throw new Error(await res.text());
-    const j = await leerStream(res);
+    let j;
+    try {
+      j = await leerStream(res, marca);
+    } catch (e) {
+      throw new Error(
+        `se corto la lectura de la respuesta (${e.message}). No se reintenta: ` +
+          `lo generado se cobra igual.`
+      );
+    }
     if (j.fin === "max_tokens") {
       throw new Error(
         "la respuesta se ha cortado por el limite de tokens: el guion no cabe. " +
