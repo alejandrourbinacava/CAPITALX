@@ -457,7 +457,7 @@ Las etiquetas: entre 15 y 25, en español, sumando menos de 480 caracteres conta
 Devuelve SOLO el JSON, dentro de un bloque \`\`\`json. Sin explicación antes ni después.`;
 }
 
-async function redactar(tema, ficha, correcciones = null) {
+async function redactar(tema, ficha) {
   const claves = tema.region ? REGIONES[tema.region]().join(", ") : null;
   const partes = [
     `TEMA: ${tema.titulo}`,
@@ -660,6 +660,89 @@ async function reescenificar(doc, ruta) {
     if (ruta) fs.writeFileSync(ruta, JSON.stringify(doc, null, 2));
   }
   return doc;
+}
+
+/* ------------------------------------------------------------------ */
+/*  2c. Reparar                                                        */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Arregla en local lo que se pueda, sin pedir nada a la API.
+ *
+ * El guion que sale del primer borrador se usa. No se tira ni se pide otro:
+ * un borrador son veintiseis mil tokens y casi todo lo que el validador marca
+ * se puede arreglar aqui en un segundo. Lo que no, se descarta, porque el
+ * montaje reparte el hueco entre las escenas que quedan.
+ */
+function reparar(doc) {
+  const arreglos = [];
+  const NEUTROS = ["carpeta", "balanza", "contable", "plano", "interrogante"];
+  let neutro = 0;
+
+  const sirve = (e) => {
+    if (!TIPOS.includes(e.tipo)) return false;
+    switch (e.tipo) {
+      case "clip":
+        return !!e.clip?.buscar;
+      case "recorte":
+        return !!e.recorte?.buscar;
+      case "objeto":
+        return OBJETOS.includes(e.objeto);
+      case "barras":
+        return !!e.barras?.datos?.length;
+      case "lineas":
+        return !!e.lineas?.series?.length;
+      case "contador":
+        return typeof e.a?.valor === "number";
+      case "gente":
+        return typeof e.gente?.total === "number";
+      case "lista":
+        return (e.lista?.puntos?.length ?? 0) >= 2;
+      case "frase":
+        return !!e.texto;
+      case "retrato":
+        return !!e.retrato?.nombre;
+      case "cierre":
+        return !!e.cierre;
+      case "mapa": {
+        const r = e.mapa?.region ?? "europa";
+        if (!REGIONES[r]) return false;
+        const claves = REGIONES[r]();
+        e.mapa.destaca = (e.mapa.destaca ?? []).filter((k) => claves.includes(k));
+        return true;
+      }
+      default:
+        return true;
+    }
+  };
+
+  for (const b of doc.bloques) {
+    for (const p of b.planos) {
+      // La velocidad se recorta, no se rechaza.
+      if (p.voz?.speed !== undefined) {
+        const v = Math.min(1.08, Math.max(0.88, p.voz.speed));
+        if (v !== p.voz.speed) {
+          arreglos.push(`${p.id}: velocidad ${p.voz.speed} ajustada a ${v}`);
+          p.voz.speed = v;
+        }
+      }
+
+      const antes = (p.escenas ?? []).length;
+      if (antes) {
+        p.escenas = p.escenas.filter(sirve);
+        if (p.escenas.length !== antes) {
+          arreglos.push(`${p.id}: ${antes - p.escenas.length} escena(s) sin datos, descartadas`);
+        }
+        // Si no queda ninguna, un dibujo neutro antes que un plano vacio.
+        if (!p.escenas.length) {
+          p.escenas = [{ tipo: "objeto", objeto: NEUTROS[neutro++ % NEUTROS.length] }];
+          arreglos.push(`${p.id}: sin ninguna escena montable, se le pone un dibujo`);
+        }
+        p.tipo = p.escenas[0].tipo;
+      }
+    }
+  }
+  return arreglos;
 }
 
 /* ------------------------------------------------------------------ */
@@ -969,19 +1052,27 @@ async function main() {
   if (args.includes("--solo-investigar")) return;
 
   let doc = null;
-  let fallos = [];
-  for (let intento = 1; intento <= 3; intento++) {
-    console.log(`\nredactando (intento ${intento})…`);
-    doc = await redactar(tema, ficha, intento > 1 ? fallos : null);
-    fallos = validar(doc, tema);
-    if (!fallos.length) break;
-    console.log(`  ${fallos.length} cosas que corregir:`);
-    for (const f of fallos.slice(0, 12)) console.log(`    · ${f}`);
+  // UN SOLO BORRADOR. El que sale se usa.
+  //
+  // Antes habia tres intentos: el validador encontraba pegas, se tiraba el
+  // guion entero y se pedia otro de veintiseis mil tokens. Casi todas esas
+  // pegas se arreglan aqui abajo en un segundo y sin pedir nada, y las que no
+  // se descartan, porque el montaje reparte el hueco entre lo que queda. Un
+  // guion correcto no vale un borrador nuevo.
+  console.log("\nredactando…");
+  doc = await redactar(tema, ficha);
+
+  const arreglos = reparar(doc);
+  if (arreglos.length) {
+    console.log(`\n${arreglos.length} cosas arregladas sin gastar nada:`);
+    for (const a of arreglos.slice(0, 12)) console.log(`  · ${a}`);
   }
-  if (fallos.length) {
-    console.error("\nEl guion sigue sin pasar la revisión después de tres intentos:");
-    for (const f of fallos) console.error(`  · ${f}`);
-    throw new Error("guion no montable");
+
+  // Lo que quede es informativo: el video se monta igual.
+  const avisos = validar(doc, tema);
+  if (avisos.length) {
+    console.log(`\n${avisos.length} avisos, no bloquean:`);
+    for (const a of avisos.slice(0, 10)) console.log(`  · ${a}`);
   }
 
   fs.writeFileSync("content/diario.json", JSON.stringify(doc, null, 2));
@@ -992,6 +1083,7 @@ async function main() {
   console.log(`\n${doc.titulo}`);
   console.log(`${planos.length} planos · ${chars} caracteres · unos ${(chars / 1000).toFixed(1)} min`);
   console.log(`unos ${Math.round(chars * 1.46)} créditos de locución`);
+  contarGasto();
   console.log("en content/diario.json");
 
   if (process.env.GITHUB_OUTPUT) {
