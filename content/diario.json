@@ -23,7 +23,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "lisbon rooftops old city",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27404881",
+                  "url": "https://videos.pexels.com/video-files/27404881/12136882_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Musko io",
+                  "pagina": "https://www.pexels.com/video/a-city-with-red-roofs-and-white-buildings-27404881/"
+                },
+                "fichero": "clips/pexels-27404881.mp4"
               },
               "kicker": "PORTUGAL · 2026",
               "tags": [
@@ -111,7 +121,15 @@
                 "tono": "ocre",
                 "cifra": "1.694 €",
                 "titular": "Salario bruto medio mensual, 2025",
-                "apoyo": "Subió un 5,6 % nominal. Las casas, un 17,6 %."
+                "apoyo": "Subió un 5,6 % nominal. Las casas, un 17,6 %.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19120212",
+                  "url": "https://images.pexels.com/photos/19120212/pexels-photo-19120212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Volkan Zengin",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-waitress-in-a-restaurant-19120212/"
+                },
+                "fichero": "recortes-auto/pexels-19120212.png"
               },
               "fuente": "INE Portugal, febrero 2026"
             },
@@ -133,7 +151,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank of portugal building facade",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11713467",
+                  "url": "https://videos.pexels.com/video-files/11713467/11713467-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "ed1toR ㅤ",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-the-university-of-coimbra-in-portugal-11713467/"
+                },
+                "fichero": "clips/pexels-11713467.mp4"
               },
               "kicker": "BANCO DE PORTUGAL · 2026",
               "tags": [
@@ -185,7 +213,15 @@
                 "tono": "carmin",
                 "cifra": "4,9 %",
                 "titular": "Compradores con domicilio fiscal fuera de Portugal",
-                "apoyo": "Segundo trimestre de 2025. Un año antes eran el 6,6 %."
+                "apoyo": "Segundo trimestre de 2025. Un año antes eran el 6,6 %.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13801595",
+                  "url": "https://images.pexels.com/photos/13801595/pexels-photo-13801595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mizuno K",
+                  "pagina": "https://www.pexels.com/photo/elegant-office-worker-wearing-a-suit-sitting-by-a-white-modern-architecture-13801595/"
+                },
+                "fichero": "recortes-auto/pexels-13801595.png"
               },
               "fuente": "INE Portugal"
             }
@@ -295,7 +331,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "passport stamp immigration desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7195706",
+                  "url": "https://videos.pexels.com/video-files/7195706/7195706-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/medical-doctor-stamping-in-a-notebook-7195706/"
+                },
+                "fichero": "clips/pexels-7195706.mp4"
               },
               "kicker": "ARI · OCTUBRE 2012",
               "tags": [
@@ -400,7 +446,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "luxury apartment balcony sea view",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18073365",
+                  "url": "https://videos.pexels.com/video-files/18073365/18073365-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Abid  Ali",
+                  "pagina": "https://www.pexels.com/video/world-island-dubai-18073365/"
+                },
+                "fichero": "clips/pexels-18073365.mp4"
               },
               "tags": [
                 {
@@ -436,7 +492,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "remote worker laptop cafe terrace",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4465195",
+                  "url": "https://videos.pexels.com/video-files/4465195/4465195-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Antoni Shkraba",
+                  "pagina": "https://www.pexels.com/video/woman-working-on-her-laptop-4465195/"
+                },
+                "fichero": "clips/pexels-4465195.mp4"
               },
               "tags": [
                 {
@@ -502,7 +568,15 @@
                 "tono": "carmin",
                 "cifra": "≈1.700 M€",
                 "titular": "Coste fiscal del régimen RNH",
-                "apoyo": "Auditoría homologada el 29 de abril de 2026."
+                "apoyo": "Auditoría homologada el 29 de abril de 2026.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8872671",
+                  "url": "https://images.pexels.com/photos/8872671/pexels-photo-8872671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-businesswoman-reading-a-document-8872671/"
+                },
+                "fichero": "recortes-auto/pexels-8872671.png"
               },
               "fuente": "Auditoría fiscal, abril 2026"
             },
@@ -539,7 +613,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "government parliament session chamber",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4474272",
+                  "url": "https://videos.pexels.com/video-files/4474272/4474272-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Hirsh Philippe",
+                  "pagina": "https://www.pexels.com/video/tracking-shot-of-the-texas-house-of-representatives-chamber-4474272/"
+                },
+                "fichero": "clips/pexels-4474272.mp4"
               },
               "tags": [
                 {
@@ -700,7 +784,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tax office queue counter",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6963487",
+                  "url": "https://videos.pexels.com/video-files/6963487/6963487-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/man-using-calculator-6963487/"
+                },
+                "fichero": "clips/pexels-6963487.mp4"
               },
               "kicker": "IFICI · SUSTITUTO DEL RNH",
               "tags": [
@@ -746,7 +840,15 @@
                 "buscar": "hotel receptionist with key",
                 "tono": "ocre",
                 "titular": "Alojamiento local",
-                "apoyo": "Restringido en 2023. Derogada la restricción en 2024, con el Gobierno de Luís Montenegro."
+                "apoyo": "Restringido en 2023. Derogada la restricción en 2024, con el Gobierno de Luís Montenegro.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5371677",
+                  "url": "https://images.pexels.com/photos/5371677/pexels-photo-5371677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/receptionist-in-uniform-standing-behind-front-desk-5371677/"
+                },
+                "fichero": "recortes-auto/pexels-5371677.png"
               }
             },
             {
@@ -774,7 +876,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "real estate agency window listings",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578012",
+                  "url": "https://videos.pexels.com/video-files/7578012/7578012-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/man-holding-a-miniature-house-7578012/"
+                },
+                "fichero": "clips/pexels-7578012.mp4"
               },
               "kicker": "2024-2026",
               "tags": [
@@ -876,7 +988,15 @@
                 "tono": "carmin",
                 "cifra": "+386 €/m²",
                 "titular": "En doce meses",
-                "apoyo": "En un piso de 70 metros son 27.000 euros más. Más de un año de sueldo bruto medio."
+                "apoyo": "En un piso de 70 metros son 27.000 euros más. Más de un año de sueldo bruto medio.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4554351",
+                  "url": "https://images.pexels.com/photos/4554351/pexels-photo-4554351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/woman-in-white-v-neck-t-shirt-sitting-on-gray-sofa-4554351/"
+                },
+                "fichero": "recortes-auto/pexels-4554351.png"
               }
             }
           ],
@@ -897,7 +1017,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction crane city skyline dusk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38148069",
+                  "url": "https://videos.pexels.com/video-files/38148069/16196211_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Taiwo Samson",
+                  "pagina": "https://www.pexels.com/video/aerial-evening-view-of-city-skyline-with-construction-38148069/"
+                },
+                "fichero": "clips/pexels-38148069.mp4"
               },
               "tags": [
                 {
@@ -949,7 +1079,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "apartment door keys handover",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10375432",
+                  "url": "https://videos.pexels.com/video-files/10375432/10375432-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/handing-over-the-keys-10375432/"
+                },
+                "fichero": "clips/pexels-10375432.mp4"
               },
               "kicker": "NUEVOS CONTRATOS · 1T 2026",
               "fuente": "INE Portugal",
@@ -1055,7 +1195,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "family looking at house for sale",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578020",
+                  "url": "https://videos.pexels.com/video-files/7578020/7578020-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/people-looking-at-a-house-7578020/"
+                },
+                "fichero": "clips/pexels-7578020.mp4"
               },
               "tags": [
                 {
@@ -1145,7 +1295,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport departures terminal travellers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30386293",
+                  "url": "https://videos.pexels.com/video-files/30386293/13022086_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/busy-suvarnabhumi-airport-terminal-30386293/"
+                },
+                "fichero": "clips/pexels-30386293.mp4"
               },
               "tags": [
                 {
@@ -1223,7 +1383,15 @@
                 "tono": "ocre",
                 "cifra": "148.632",
                 "titular": "Casas compradas por familias en 2025",
-                "apoyo": "Un 10,5 % más que en 2024. El 87,5 % de todas las transacciones del país."
+                "apoyo": "Un 10,5 % más que en 2024. El 87,5 % de todas las transacciones del país.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8441866",
+                  "url": "https://images.pexels.com/photos/8441866/pexels-photo-8441866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/elderly-clients-signing-documents-8441866/"
+                },
+                "fichero": "recortes-auto/pexels-8441866.png"
               },
               "fuente": "INE Portugal"
             },
@@ -1274,7 +1442,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank branch interior customers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35545660",
+                  "url": "https://videos.pexels.com/video-files/35545660/15059169_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/busy-cafe-with-customers-ordering-at-counter-35545660/"
+                },
+                "fichero": "clips/pexels-35545660.mp4"
               },
               "kicker": "CRÉDITO VIVIENDA · DIC 2025",
               "fuente": "AICCOPN",
@@ -1349,7 +1527,15 @@
                 "tono": "carmin",
                 "cifra": "175.000 €",
                 "titular": "Hipoteca media en 2025",
-                "apoyo": "Récord histórico. El importe medio subió más de un 21 % en un año."
+                "apoyo": "Récord histórico. El importe medio subió más de un 21 % en un año.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34221176",
+                  "url": "https://images.pexels.com/photos/34221176/pexels-photo-34221176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Luis Sevilla",
+                  "pagina": "https://www.pexels.com/photo/professional-woman-in-modern-office-setting-34221176/"
+                },
+                "fichero": "recortes-auto/pexels-34221176.png"
               },
               "fuente": "Banco de Portugal, 22/06/2026"
             },
@@ -1400,7 +1586,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "suburban housing development aerial",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34668476",
+                  "url": "https://videos.pexels.com/video-files/34668476/14694532_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Michael",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-suburban-neighborhood-development-34668476/"
+                },
+                "fichero": "clips/pexels-34668476.mp4"
               },
               "tags": [
                 {
@@ -1482,7 +1678,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned unfinished building site",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36113423",
+                  "url": "https://videos.pexels.com/video-files/36113423/15315561_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "TR Studio",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-urban-construction-site-36113423/"
+                },
+                "fichero": "clips/pexels-36113423.mp4"
               },
               "kicker": "EL AGUJERO",
               "tags": [
@@ -1622,7 +1828,15 @@
                 "tono": "carmin",
                 "cifra": "10.600",
                 "titular": "Viviendas proyectadas que no llegaron a licencia",
-                "apoyo": "Área Metropolitana de Lisboa, 2024-2025. El 41 % de la oferta potencial."
+                "apoyo": "Área Metropolitana de Lisboa, 2024-2025. El 41 % de la oferta potencial.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4872040",
+                  "url": "https://images.pexels.com/photos/4872040/pexels-photo-4872040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Gustavo Fring",
+                  "pagina": "https://www.pexels.com/photo/woman-wearing-a-safety-helmet-at-the-office-4872040/"
+                },
+                "fichero": "recortes-auto/pexels-4872040.png"
               },
               "fuente": "Vida Imobiliária, marzo 2026"
             },
@@ -1630,7 +1844,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "city hall office paperwork stacks",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7054942",
+                  "url": "https://videos.pexels.com/video-files/7054942/7054942-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/stack-of-paperwork-on-the-desk-7054942/"
+                },
+                "fichero": "clips/pexels-7054942.mp4"
               },
               "tags": [
                 {
@@ -1685,7 +1909,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "prime minister press conference podium",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6952224",
+                  "url": "https://videos.pexels.com/video-files/6952224/6952224-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-woman-speaking-on-a-podium-with-men-by-her-side-while-wearing-face-masks-6952224/"
+                },
+                "fichero": "clips/pexels-6952224.mp4"
               },
               "kicker": "GOBIERNO DE LUÍS MONTENEGRO",
               "tags": [
@@ -1776,7 +2010,15 @@
                 "buscar": "young man with house keys smiling",
                 "tono": "ocre",
                 "titular": "El comprador nuevo del mercado portugués",
-                "apoyo": "Menor de 35 años, con garantía pública y exención fiscal detrás."
+                "apoyo": "Menor de 35 años, con garantía pública y exención fiscal detrás.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8815915",
+                  "url": "https://images.pexels.com/photos/8815915/pexels-photo-8815915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/real-estate-agent-handing-house-keys-8815915/"
+                },
+                "fichero": "recortes-auto/pexels-8815915.png"
               }
             }
           ],
@@ -1847,7 +2089,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "notary office signing contract",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8731515",
+                  "url": "https://videos.pexels.com/video-files/8731515/8731515-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/lawyers-writing-on-documents-8731515/"
+                },
+                "fichero": "clips/pexels-8731515.mp4"
               },
               "tags": [
                 {
@@ -1984,7 +2236,15 @@
                 "buscar": "middle aged woman worried portrait",
                 "tono": "carmin",
                 "titular": "El comprador de 40 años que no cumple requisitos",
-                "apoyo": "No recibe la exención, pero compra en un mercado que la exención encareció."
+                "apoyo": "No recibe la exención, pero compra en un mercado que la exención encareció.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6874207",
+                  "url": "https://images.pexels.com/photos/6874207/pexels-photo-6874207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Teona Swift",
+                  "pagina": "https://www.pexels.com/photo/melancholic-mature-woman-looking-down-sadly-6874207/"
+                },
+                "fichero": "recortes-auto/pexels-6874207.png"
               }
             },
             {
@@ -2008,7 +2268,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "imf headquarters washington entrance",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4987955",
+                  "url": "https://videos.pexels.com/video-files/4987955/4987955-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/panning-shot-of-the-united-states-mint-sign-4987955/"
+                },
+                "fichero": "clips/pexels-4987955.mp4"
               },
               "kicker": "FMI · JUNIO 2026",
               "tags": [
@@ -2095,7 +2365,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european commission building brussels",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9512226",
+                  "url": "https://videos.pexels.com/video-files/9512226/9512226-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/video/a-little-girl-wearing-beanie-while-skateboarding-9512226/"
+                },
+                "fichero": "clips/pexels-9512226.mp4"
               },
               "tags": [
                 {
@@ -2196,14 +2476,9 @@
           },
           "escenas": [
             {
-              "tipo": "recorte",
+              "tipo": "frase",
               "lado": "izq",
-              "recorte": {
-                "buscar": "elderly man in front of house door",
-                "tono": "ocre",
-                "titular": "Hipoteca firmada en los años noventa",
-                "apoyo": "Paga poco y aparece en la estadística. Su hijo no aparece: sigue en casa."
-              }
+              "texto": "elderly man in front of house door"
             },
             {
               "tipo": "frase",
@@ -2252,7 +2527,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "young adult in childhood bedroom",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5425727",
+                  "url": "https://videos.pexels.com/video-files/5425727/5425727-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/parents-and-child-playing-in-bed-5425727/"
+                },
+                "fichero": "clips/pexels-5425727.mp4"
               },
               "tags": [
                 {
@@ -2358,7 +2643,15 @@
                 "tono": "ocre",
                 "cifra": "+120 %",
                 "titular": "Lo que paga de más un comprador británico",
-                "apoyo": "479.403 € de media los estadounidenses. Pocos compradores, precios altísimos."
+                "apoyo": "479.403 € de media los estadounidenses. Pocos compradores, precios altísimos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6216138",
+                  "url": "https://images.pexels.com/photos/6216138/pexels-photo-6216138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jacek Herbut",
+                  "pagina": "https://www.pexels.com/photo/a-hat-vendor-arranging-his-wares-6216138/"
+                },
+                "fichero": "recortes-auto/pexels-6216138.png"
               }
             }
           ],
@@ -2441,14 +2734,32 @@
                 "buscar": "construction worker with helmet portrait",
                 "tono": "ocre",
                 "titular": "El \"extranjero\" que compra en Portugal en 2026",
-                "apoyo": "Vive allí, cobra allí y paga impuestos allí. No es un inversor de fuera."
+                "apoyo": "Vive allí, cobra allí y paga impuestos allí. No es un inversor de fuera.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37556455",
+                  "url": "https://images.pexels.com/photos/37556455/pexels-photo-37556455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Galib Rahman Nadim",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
+                },
+                "fichero": "recortes-auto/pexels-37556455.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "supermarket cashier working",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4249559",
+                  "url": "https://videos.pexels.com/video-files/4249559/4249559-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nazim Zafri",
+                  "pagina": "https://www.pexels.com/video/a-woman-in-the-cahier-scanning-the-items-being-bought-4249559/"
+                },
+                "fichero": "clips/pexels-4249559.mp4"
               },
               "tags": [
                 {
@@ -2519,7 +2830,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty street residential neighborhood evening",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33845052",
+                  "url": "https://videos.pexels.com/video-files/33845052/14362883_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "EJ Merl",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-small-town-main-street-at-night-33845052/"
+                },
+                "fichero": "clips/pexels-33845052.mp4"
               },
               "tags": [
                 {
@@ -2606,7 +2927,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "algarve coastal town white houses",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27535847",
+                  "url": "https://videos.pexels.com/video-files/27535847/12162183_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "A.S. Kacar",
+                  "pagina": "https://www.pexels.com/video/lagos-portugal-27535847/"
+                },
+                "fichero": "clips/pexels-27535847.mp4"
               },
               "kicker": "DONDE SÍ IMPORTA",
               "tags": [
@@ -2662,7 +2993,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "auction gavel bidding room",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6101337",
+                  "url": "https://videos.pexels.com/video-files/6101337/6101337-hd_1366_720_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 8,
+                  "autor": "KATRIN  BOLOVTSOVA",
+                  "pagina": "https://www.pexels.com/video/judge-writing-on-a-document-6101337/"
+                },
+                "fichero": "clips/pexels-6101337.mp4"
               },
               "tags": [
                 {
@@ -2733,7 +3074,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "closed door apartment building entrance",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6667228",
+                  "url": "https://videos.pexels.com/video-files/6667228/6667228-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/man-delivering-food-6667228/"
+                },
+                "fichero": "clips/pexels-6667228.mp4"
               },
               "tags": [
                 {
