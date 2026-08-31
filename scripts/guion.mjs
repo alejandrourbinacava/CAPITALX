@@ -475,14 +475,6 @@ async function redactar(tema, ficha) {
     ``,
     `Escribe el guion completo. Usa únicamente cifras que estén en la ficha.`,
   ];
-  if (correcciones) {
-    partes.push(
-      ``,
-      `El intento anterior tenía estos fallos. Corrígelos todos y devuelve el JSON entero de nuevo:`,
-      correcciones.map((c) => `- ${c}`).join("\n")
-    );
-  }
-
   const { texto, uso } = await claude({
     system: sistemaRedactar(),
     maxTokens: 32000,
