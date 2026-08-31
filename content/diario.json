@@ -2789,7 +2789,8 @@
           "cierre": {
             "siguiente": "HOLANDA: LA BURBUJA QUE PAGAN LOS JUBILADOS",
             "sub": "El fondo de pensiones más grande de Europa y las casas que financia."
-          }
+          },
+          "tipo": "cierre"
         },
         {
           "id": "b13-02",
@@ -2799,7 +2800,8 @@
           },
           "cierre": {
             "suscribete": true
-          }
+          },
+          "tipo": "cierre"
         }
       ]
     }

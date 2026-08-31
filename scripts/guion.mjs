@@ -802,6 +802,15 @@ function reparar(doc) {
         }
       }
 
+      // Al plano de cierre se le dijo que va suelto, sin escenas, y por eso
+      // se queda tambien sin "tipo". Se deduce de lo que trae.
+      if (!p.tipo || p.tipo === "undefined") {
+        const deduce = ["cierre", "lista", "barras", "lineas", "mapa", "retrato", "gente"].find((k) => p[k]);
+        p.tipo = deduce ?? (p.texto ? "frase" : p.objeto ? "objeto" : typeof p.a?.valor === "number" ? "contador" : "objeto");
+        if (p.tipo === "objeto" && !p.objeto) p.objeto = "carpeta";
+        arreglos.push(`${p.id}: sin 'tipo', se deduce "${p.tipo}" de lo que trae`);
+      }
+
       const antes = (p.escenas ?? []).length;
       if (antes) {
         p.escenas = p.escenas.filter(sirve);
