@@ -76,6 +76,50 @@ function loadEnv() {
   }
 }
 
+/**
+ * Junta la respuesta que llega en trozos.
+ *
+ * Escribir un guion son varios minutos generando, y una peticion normal se
+ * queda esperando sin recibir nada hasta el final: la conexion se corta antes
+ * y da "fetch failed". Lo peor es que el servidor SI genero el guion, asi que
+ * eso se paga aunque nosotros no lo recibamos. En streaming van llegando los
+ * trozos desde el primer segundo y la conexion no se cae.
+ */
+async function leerStream(res) {
+  const lector = res.body.getReader();
+  const dec = new TextDecoder();
+  let resto = "";
+  const bloques = [];
+  const usage = {};
+
+  for (;;) {
+    const { done, value } = await lector.read();
+    if (done) break;
+    resto += dec.decode(value, { stream: true });
+    const lineas = resto.split(String.fromCharCode(10));
+    resto = lineas.pop() ?? "";
+
+    for (const l of lineas) {
+      if (!l.startsWith("data: ")) continue;
+      let d;
+      try {
+        d = JSON.parse(l.slice(6));
+      } catch {
+        continue;
+      }
+      if (d.type === "error") return { type: "error", error: d.error };
+      if (d.type === "message_start") Object.assign(usage, d.message?.usage ?? {});
+      if (d.type === "content_block_start") bloques[d.index] = { ...d.content_block, text: d.content_block?.text ?? "" };
+      if (d.type === "content_block_delta" && d.delta?.type === "text_delta") {
+        bloques[d.index] = bloques[d.index] ?? { type: "text", text: "" };
+        bloques[d.index].text += d.delta.text;
+      }
+      if (d.type === "message_delta") Object.assign(usage, d.usage ?? {});
+    }
+  }
+  return { content: bloques.filter(Boolean), usage };
+}
+
 async function claude({ system, mensajes, buscar = false, maxTokens = 16000, modelo = MODELO }) {
   const body = {
     model: modelo,
@@ -86,6 +130,8 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
     // parte de la factura sin que se notara en ningun sitio.
     system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
     messages: mensajes,
+    // Sin esto, las peticiones largas se caen por tiempo y se pagan igual.
+    stream: true,
   };
   if (buscar) body.tools = [{ type: "web_search_20250305", name: "web_search", max_uses: 14 }];
 
@@ -114,7 +160,9 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
       await new Promise((r) => setTimeout(r, espera));
       continue;
     }
-    const j = await res.json();
+    // Un error de la API no viene en trozos, viene como JSON normal.
+    if (!res.ok) throw new Error(await res.text());
+    const j = await leerStream(res);
     if (j.type === "error") throw new Error(JSON.stringify(j.error));
     const texto = (j.content || [])
       .filter((b) => b.type === "text")
