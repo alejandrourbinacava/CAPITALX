@@ -768,19 +768,22 @@ function validar(doc, tema) {
     // mas se queda quieto. El ritmo lo pone lo que se mueve dentro.
     const largo = p.vo?.length ?? 0;
     const segundos = largo / 15.8;
-    const hacen = Math.min(3, Math.max(1, Math.round(largo / 85)));
-    if (n < hacen) {
+    // Lo que se persigue es que ninguna escena se quede quieta mas de ocho
+    // segundos. Antes se exigia el reparto ideal de cinco o seis, y eso
+    // obligaba a reescribir el guion entero porque una escena duraba siete:
+    // un borrador de veintiseis mil tokens por un segundo de diferencia.
+    const hacen = Math.min(3, Math.max(1, Math.ceil(segundos / 8)));
+    if (segundos > 1 && n < hacen) {
       di(
         `${p.id}: ${n === 0 ? "no tiene 'escenas'" : `solo tiene ${n}`}. ` +
           `Son ${segundos.toFixed(0)} segundos de locución y hacen falta ${hacen} escenas, ` +
           `o la imagen se queda quieta ${(segundos / Math.max(n, 1)).toFixed(0)} segundos.`
       );
     }
-    if (n > hacen + 1) {
+    if (n > 1 && segundos / n < 3.5) {
       di(
         `${p.id}: ${n} escenas para ${segundos.toFixed(0)} segundos salen a ` +
-          `${(segundos / n).toFixed(1)} s cada una. Con menos de cinco no da tiempo a leer: ` +
-          `déjalo en ${hacen}.`
+          `${(segundos / n).toFixed(1)} s cada una. Con menos de cuatro no da tiempo a leer.`
       );
     }
     for (let i = 1; i < (p.escenas ?? []).length; i++) {
