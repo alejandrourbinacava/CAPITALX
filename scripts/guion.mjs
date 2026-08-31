@@ -91,6 +91,7 @@ async function leerStream(res) {
   let resto = "";
   const bloques = [];
   const usage = {};
+  let fin = null;
 
   for (;;) {
     const { done, value } = await lector.read();
@@ -114,10 +115,13 @@ async function leerStream(res) {
         bloques[d.index] = bloques[d.index] ?? { type: "text", text: "" };
         bloques[d.index].text += d.delta.text;
       }
-      if (d.type === "message_delta") Object.assign(usage, d.usage ?? {});
+      if (d.type === "message_delta") {
+        Object.assign(usage, d.usage ?? {});
+        if (d.delta?.stop_reason) fin = d.delta.stop_reason;
+      }
     }
   }
-  return { content: bloques.filter(Boolean), usage };
+  return { content: bloques.filter(Boolean), usage, fin };
 }
 
 async function claude({ system, mensajes, buscar = false, maxTokens = 16000, modelo = MODELO }) {
@@ -163,6 +167,12 @@ async function claude({ system, mensajes, buscar = false, maxTokens = 16000, mod
     // Un error de la API no viene en trozos, viene como JSON normal.
     if (!res.ok) throw new Error(await res.text());
     const j = await leerStream(res);
+    if (j.fin === "max_tokens") {
+      throw new Error(
+        "la respuesta se ha cortado por el limite de tokens: el guion no cabe. " +
+          "Sube maxTokens o parte el trabajo en dos."
+      );
+    }
     if (j.type === "error") throw new Error(JSON.stringify(j.error));
     const texto = (j.content || [])
       .filter((b) => b.type === "text")
@@ -525,7 +535,11 @@ async function redactar(tema, ficha) {
   ];
   const { texto, uso } = await claude({
     system: sistemaRedactar(),
-    maxTokens: 32000,
+    // Un guion con sus escenas pasa de los treinta y dos mil tokens: con ese
+    // limite la respuesta se cortaba a mitad del JSON y no habia manera de
+    // leerla. El limite alto no cuesta nada por si mismo, solo se paga lo que
+    // de verdad se escribe.
+    maxTokens: 64000,
     mensajes: [{ role: "user", content: partes.join("\n") }],
   });
   console.log(`  ${uso?.output_tokens ?? "?"} tokens`);
