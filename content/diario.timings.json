@@ -1,1 +1,464 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/portugal-b0-01.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 285
+  },
+  "b0-02": {
+    "audio": "voice/portugal-b0-02.mp3",
+    "duration": 10.527347,
+    "transcript": null,
+    "credit_cost": 285
+  },
+  "b0-03": {
+    "audio": "voice/portugal-b0-03.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b0-04": {
+    "audio": "voice/portugal-b0-04.mp3",
+    "duration": 12.538776,
+    "transcript": null,
+    "credit_cost": 301
+  },
+  "b0-05": {
+    "audio": "voice/portugal-b0-05.mp3",
+    "duration": 11.41551,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b1-01": {
+    "audio": "voice/portugal-b1-01.mp3",
+    "duration": 7.157551,
+    "transcript": null,
+    "credit_cost": 181
+  },
+  "b1-02": {
+    "audio": "voice/portugal-b1-02.mp3",
+    "duration": 10.13551,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b1-03": {
+    "audio": "voice/portugal-b1-03.mp3",
+    "duration": 10.579592,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b2-01": {
+    "audio": "voice/portugal-b2-01.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b2-02": {
+    "audio": "voice/portugal-b2-02.mp3",
+    "duration": 12.173061,
+    "transcript": null,
+    "credit_cost": 320
+  },
+  "b2-03": {
+    "audio": "voice/portugal-b2-03.mp3",
+    "duration": 13.609796,
+    "transcript": null,
+    "credit_cost": 320
+  },
+  "b2-04": {
+    "audio": "voice/portugal-b2-04.mp3",
+    "duration": 11.885714,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b2-05": {
+    "audio": "voice/portugal-b2-05.mp3",
+    "duration": 11.62449,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b2-06": {
+    "audio": "voice/portugal-b2-06.mp3",
+    "duration": 10.788571,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b3-01": {
+    "audio": "voice/portugal-b3-01.mp3",
+    "duration": 10.527347,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b3-02": {
+    "audio": "voice/portugal-b3-02.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b3-03": {
+    "audio": "voice/portugal-b3-03.mp3",
+    "duration": 13.296327,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b3-04": {
+    "audio": "voice/portugal-b3-04.mp3",
+    "duration": 12.643265,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b3-05": {
+    "audio": "voice/portugal-b3-05.mp3",
+    "duration": 12.199184,
+    "transcript": null,
+    "credit_cost": 323
+  },
+  "b3-06": {
+    "audio": "voice/portugal-b3-06.mp3",
+    "duration": 11.833469,
+    "transcript": null,
+    "credit_cost": 297
+  },
+  "b4-01": {
+    "audio": "voice/portugal-b4-01.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b4-02": {
+    "audio": "voice/portugal-b4-02.mp3",
+    "duration": 12.434286,
+    "transcript": null,
+    "credit_cost": 285
+  },
+  "b4-03": {
+    "audio": "voice/portugal-b4-03.mp3",
+    "duration": 10.919184,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b4-04": {
+    "audio": "voice/portugal-b4-04.mp3",
+    "duration": 11.154286,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b4-05": {
+    "audio": "voice/portugal-b4-05.mp3",
+    "duration": 12.199184,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b4-06": {
+    "audio": "voice/portugal-b4-06.mp3",
+    "duration": 9.456327,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b4-07": {
+    "audio": "voice/portugal-b4-07.mp3",
+    "duration": 11.885714,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b5-01": {
+    "audio": "voice/portugal-b5-01.mp3",
+    "duration": 8.568163,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b5-02": {
+    "audio": "voice/portugal-b5-02.mp3",
+    "duration": 12.69551,
+    "transcript": null,
+    "credit_cost": 338
+  },
+  "b5-03": {
+    "audio": "voice/portugal-b5-03.mp3",
+    "duration": 11.859592,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b5-04": {
+    "audio": "voice/portugal-b5-04.mp3",
+    "duration": 12.303673,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b5-05": {
+    "audio": "voice/portugal-b5-05.mp3",
+    "duration": 14.680816,
+    "transcript": null,
+    "credit_cost": 371
+  },
+  "b5-06": {
+    "audio": "voice/portugal-b5-06.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b6-01": {
+    "audio": "voice/portugal-b6-01.mp3",
+    "duration": 12.251429,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b6-02": {
+    "audio": "voice/portugal-b6-02.mp3",
+    "duration": 13.557551,
+    "transcript": null,
+    "credit_cost": 353
+  },
+  "b6-03": {
+    "audio": "voice/portugal-b6-03.mp3",
+    "duration": 11.075918,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b6-04": {
+    "audio": "voice/portugal-b6-04.mp3",
+    "duration": 12.016327,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b6-05": {
+    "audio": "voice/portugal-b6-05.mp3",
+    "duration": 10.736327,
+    "transcript": null,
+    "credit_cost": 285
+  },
+  "b7-01": {
+    "audio": "voice/portugal-b7-01.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b7-02": {
+    "audio": "voice/portugal-b7-02.mp3",
+    "duration": 12.042449,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b7-03": {
+    "audio": "voice/portugal-b7-03.mp3",
+    "duration": 11.389388,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b7-04": {
+    "audio": "voice/portugal-b7-04.mp3",
+    "duration": 15.673469,
+    "transcript": null,
+    "credit_cost": 408
+  },
+  "b7-05": {
+    "audio": "voice/portugal-b7-05.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b7-06": {
+    "audio": "voice/portugal-b7-06.mp3",
+    "duration": 13.296327,
+    "transcript": null,
+    "credit_cost": 338
+  },
+  "b7-07": {
+    "audio": "voice/portugal-b7-07.mp3",
+    "duration": 11.885714,
+    "transcript": null,
+    "credit_cost": 300
+  },
+  "b8-01": {
+    "audio": "voice/portugal-b8-01.mp3",
+    "duration": 11.650612,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b8-02": {
+    "audio": "voice/portugal-b8-02.mp3",
+    "duration": 12.878367,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b8-03": {
+    "audio": "voice/portugal-b8-03.mp3",
+    "duration": 13.217959,
+    "transcript": null,
+    "credit_cost": 349
+  },
+  "b8-04": {
+    "audio": "voice/portugal-b8-04.mp3",
+    "duration": 14.497959,
+    "transcript": null,
+    "credit_cost": 385
+  },
+  "b8-05": {
+    "audio": "voice/portugal-b8-05.mp3",
+    "duration": 11.964082,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b9-01": {
+    "audio": "voice/portugal-b9-01.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b9-02": {
+    "audio": "voice/portugal-b9-02.mp3",
+    "duration": 12.329796,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b9-03": {
+    "audio": "voice/portugal-b9-03.mp3",
+    "duration": 12.460408,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b9-04": {
+    "audio": "voice/portugal-b9-04.mp3",
+    "duration": 10.44898,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b9-05": {
+    "audio": "voice/portugal-b9-05.mp3",
+    "duration": 14.759184,
+    "transcript": null,
+    "credit_cost": 338
+  },
+  "b9-06": {
+    "audio": "voice/portugal-b9-06.mp3",
+    "duration": 12.8,
+    "transcript": null,
+    "credit_cost": 350
+  },
+  "b10-01": {
+    "audio": "voice/portugal-b10-01.mp3",
+    "duration": 9.116735,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b10-02": {
+    "audio": "voice/portugal-b10-02.mp3",
+    "duration": 13.453061,
+    "transcript": null,
+    "credit_cost": 320
+  },
+  "b10-03": {
+    "audio": "voice/portugal-b10-03.mp3",
+    "duration": 10.631837,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b10-04": {
+    "audio": "voice/portugal-b10-04.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b10-05": {
+    "audio": "voice/portugal-b10-05.mp3",
+    "duration": 10.161633,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "b10-06": {
+    "audio": "voice/portugal-b10-06.mp3",
+    "duration": 10.814694,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b10-07": {
+    "audio": "voice/portugal-b10-07.mp3",
+    "duration": 11.911837,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b11-01": {
+    "audio": "voice/portugal-b11-01.mp3",
+    "duration": 7.88898,
+    "transcript": null,
+    "credit_cost": 206
+  },
+  "b11-02": {
+    "audio": "voice/portugal-b11-02.mp3",
+    "duration": 14.053878,
+    "transcript": null,
+    "credit_cost": 340
+  },
+  "b11-03": {
+    "audio": "voice/portugal-b11-03.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b11-04": {
+    "audio": "voice/portugal-b11-04.mp3",
+    "duration": 11.441633,
+    "transcript": null,
+    "credit_cost": 292
+  },
+  "b11-05": {
+    "audio": "voice/portugal-b11-05.mp3",
+    "duration": 9.404082,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "b12-01": {
+    "audio": "voice/portugal-b12-01.mp3",
+    "duration": 11.964082,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b12-02": {
+    "audio": "voice/portugal-b12-02.mp3",
+    "duration": 10.997551,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b12-03": {
+    "audio": "voice/portugal-b12-03.mp3",
+    "duration": 11.232653,
+    "transcript": null,
+    "credit_cost": 292
+  },
+  "b12-04": {
+    "audio": "voice/portugal-b12-04.mp3",
+    "duration": 12.094694,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b12-05": {
+    "audio": "voice/portugal-b12-05.mp3",
+    "duration": 12.068571,
+    "transcript": null,
+    "credit_cost": 292
+  },
+  "b12-06": {
+    "audio": "voice/portugal-b12-06.mp3",
+    "duration": 10.292245,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b12-07": {
+    "audio": "voice/portugal-b12-07.mp3",
+    "duration": 8.176327,
+    "transcript": null,
+    "credit_cost": 185
+  },
+  "b13-01": {
+    "audio": "voice/portugal-b13-01.mp3",
+    "duration": 7.079184,
+    "transcript": null,
+    "credit_cost": 177
+  },
+  "b13-02": {
+    "audio": "voice/portugal-b13-02.mp3",
+    "duration": 6.217143,
+    "transcript": null,
+    "credit_cost": 148
+  }
+}
