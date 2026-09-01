@@ -36,7 +36,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish city apartment blocks skyline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31478214",
+                  "url": "https://videos.pexels.com/video-files/31478214/13421559_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-cityscape-view-black-and-white-skyline-31478214/"
+                },
+                "fichero": "clips/pexels-31478214.mp4"
               },
               "tags": [
                 {
@@ -68,7 +78,15 @@
                 "tono": "carmin",
                 "cifra": "14 · 05 · 2026",
                 "titular": "El supervisor descarta la burbuja",
-                "apoyo": "Sin tensionamiento de los hogares, sin originación desmedida de crédito, sin laxitud en los estándares."
+                "apoyo": "Sin tensionamiento de los hogares, sin originación desmedida de crédito, sin laxitud en los estándares.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6949979",
+                  "url": "https://images.pexels.com/photos/6949979/pexels-photo-6949979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/photo/man-standing-next-to-a-podium-in-a-conference-room-6949979/"
+                },
+                "fichero": "recortes-auto/pexels-6949979.png"
               }
             },
             {
@@ -99,7 +117,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old library books archive",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6549654",
+                  "url": "https://videos.pexels.com/video-files/6549654/6549654-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/librarian-reading-a-book-6549654/"
+                },
+                "fichero": "clips/pexels-6549654.mp4"
               }
             }
           ],
@@ -209,7 +237,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction crane residential building site",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5553426",
+                  "url": "https://videos.pexels.com/video-files/5553426/5553426-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "David Donesana Tacla",
+                  "pagina": "https://www.pexels.com/video/view-of-a-construction-site-5553426/"
+                },
+                "fichero": "clips/pexels-5553426.mp4"
               }
             }
           ],
@@ -293,7 +331,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "people walking busy city street spain",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6229552",
+                  "url": "https://videos.pexels.com/video-files/6229552/6229552-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Bonus Studio",
+                  "pagina": "https://www.pexels.com/video/video-of-a-crowded-street-6229552/"
+                },
+                "fichero": "clips/pexels-6229552.mp4"
               },
               "tags": [
                 {
@@ -332,7 +380,15 @@
                 "buscar": "construction worker with hard hat",
                 "tono": "ocre",
                 "titular": "El desplazamiento de 2026 no viene de un banco",
-                "apoyo": "Viene de una obra que no se hizo."
+                "apoyo": "Viene de una obra que no se hizo.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34670926",
+                  "url": "https://images.pexels.com/photos/34670926/pexels-photo-34670926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/construction-worker-in-safety-gear-outdoors-34670926/"
+                },
+                "fichero": "recortes-auto/pexels-34670926.png"
               }
             }
           ],
@@ -453,7 +509,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "mediterranean coast apartment buildings aerial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28007514",
+                  "url": "https://videos.pexels.com/video-files/28007514/12287340_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Vizual Production",
+                  "pagina": "https://www.pexels.com/video/cyprus-limassol-28007514/"
+                },
+                "fichero": "clips/pexels-28007514.mp4"
               }
             }
           ],
@@ -523,7 +589,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank branch interior counter customers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6192871",
+                  "url": "https://videos.pexels.com/video-files/6192871/6192871-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/woman-on-dentist-office-reception-6192871/"
+                },
+                "fichero": "clips/pexels-6192871.mp4"
               },
               "tags": [
                 {
@@ -586,7 +662,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "estate agent signing documents desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8814718",
+                  "url": "https://videos.pexels.com/video-files/8814718/8814718-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/woman-signing-the-contract-8814718/"
+                },
+                "fichero": "clips/pexels-8814718.mp4"
               }
             }
           ],
@@ -607,7 +693,15 @@
                 "buscar": "woman office worker with folder",
                 "tono": "carmin",
                 "titular": "Senda alcista, nivel contenido",
-                "apoyo": "El crédito acompaña a los precios. Todavía no los empuja."
+                "apoyo": "El crédito acompaña a los precios. Todavía no los empuja.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8466235",
+                  "url": "https://images.pexels.com/photos/8466235/pexels-photo-8466235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/woman-in-blue-polo-shirt-holding-yellow-folder-8466235/"
+                },
+                "fichero": "recortes-auto/pexels-8466235.png"
               }
             },
             {
@@ -677,7 +771,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "for sale sign house window",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7348157",
+                  "url": "https://videos.pexels.com/video-files/7348157/7348157-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/a-female-realtor-holding-a-for-sale-sign-indoors-7348157/"
+                },
+                "fichero": "clips/pexels-7348157.mp4"
               }
             }
           ],
@@ -810,7 +914,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "auction room bidding hands raised",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9465320",
+                  "url": "https://videos.pexels.com/video-files/9465320/9465320-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "ROCKETMANN TEAM",
+                  "pagina": "https://www.pexels.com/video/video-of-raising-hands-with-open-palms-9465320/"
+                },
+                "fichero": "clips/pexels-9465320.mp4"
               },
               "tags": [
                 {
@@ -893,7 +1007,15 @@
                 "buscar": "young couple with keys",
                 "tono": "ocre",
                 "titular": "El comprador que queda necesita hipoteca",
-                "apoyo": "En una euforia, el dinero sin banco sube. En España está bajando."
+                "apoyo": "En una euforia, el dinero sin banco sube. En España está bajando.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8470840",
+                  "url": "https://images.pexels.com/photos/8470840/pexels-photo-8470840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Thirdman",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-blue-long-sleeves-holding-a-key-while-standing-beside-a-woman-wearing-beige-long-sleeves-8470840/"
+                },
+                "fichero": "recortes-auto/pexels-8470840.png"
               }
             }
           ],
@@ -915,7 +1037,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "family looking at empty apartment",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578506",
+                  "url": "https://videos.pexels.com/video-files/7578506/7578506-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/people-inside-an-empty-room-7578506/"
+                },
+                "fichero": "clips/pexels-7578506.mp4"
               }
             }
           ],
@@ -1020,7 +1152,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty rental apartment living room",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27975847",
+                  "url": "https://videos.pexels.com/video-files/27975847/12278949_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/the-kitchen-and-dining-area-of-a-small-apartment-27975847/"
+                },
+                "fichero": "clips/pexels-27975847.mp4"
               }
             }
           ],
@@ -1119,7 +1261,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tourists with suitcases airport arrivals",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18478923",
+                  "url": "https://videos.pexels.com/video-files/18478923/18478923-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Damrongsak Sattabut",
+                  "pagina": "https://www.pexels.com/video/baggage-claim-18478923/"
+                },
+                "fichero": "clips/pexels-18478923.mp4"
               }
             }
           ],
@@ -1203,7 +1355,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "coastal resort town beach promenade",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39013469",
+                  "url": "https://videos.pexels.com/video-files/39013469/16601285_1920_1080_28fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Nikos B",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-coastal-town-at-dusk-39013469/"
+                },
+                "fichero": "clips/pexels-39013469.mp4"
               }
             }
           ],
@@ -1225,7 +1387,15 @@
                 "tono": "ocre",
                 "cifra": "7,4 %",
                 "titular": "El comprador que no depende del euríbor",
-                "apoyo": "En 2007 era la mitad de eso. Y no se concentraba tanto."
+                "apoyo": "En 2007 era la mitad de eso. Y no se concentraba tanto.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17492498",
+                  "url": "https://images.pexels.com/photos/17492498/pexels-photo-17492498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Daniel Olivier",
+                  "pagina": "https://www.pexels.com/photo/man-posing-in-white-shirt-and-sunglasses-17492498/"
+                },
+                "fichero": "recortes-auto/pexels-17492498.png"
               }
             },
             {
@@ -1261,7 +1431,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned unfinished building concrete shell",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26579272",
+                  "url": "https://videos.pexels.com/video-files/26579272/11964040_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "yunus er",
+                  "pagina": "https://www.pexels.com/video/tamamlanmamis-cami-26579272/"
+                },
+                "fichero": "clips/pexels-26579272.mp4"
               }
             }
           ],
@@ -1381,7 +1561,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank headquarters facade columns",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10218426",
+                  "url": "https://videos.pexels.com/video-files/10218426/10218426-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/bank-exterior-with-logo-10218426/"
+                },
+                "fichero": "clips/pexels-10218426.mp4"
               }
             }
           ],
@@ -1402,7 +1592,15 @@
                 "buscar": "accountant with calculator and papers",
                 "tono": "carmin",
                 "titular": "Aquí no tengo el dato exacto",
-                "apoyo": "El 55 % de 2007 circula sin fuente primaria. Lo dejo como aproximación."
+                "apoyo": "El 55 % de 2007 circula sin fuente primaria. Lo dejo como aproximación.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8296969",
+                  "url": "https://images.pexels.com/photos/8296969/pexels-photo-8296969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/a-woman-computing-with-a-calculator-8296969/"
+                },
+                "fichero": "recortes-auto/pexels-8296969.png"
               }
             },
             {
@@ -1460,7 +1658,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "clock face close up mechanism",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4824781",
+                  "url": "https://videos.pexels.com/video-files/4824781/4824781-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "emirkhan bal",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-rotating-cogwheels-4824781/"
+                },
+                "fichero": "clips/pexels-4824781.mp4"
               },
               "tags": [
                 {
@@ -1511,7 +1719,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "real estate agency window listings",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578012",
+                  "url": "https://videos.pexels.com/video-files/7578012/7578012-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/man-holding-a-miniature-house-7578012/"
+                },
+                "fichero": "clips/pexels-7578012.mp4"
               }
             }
           ],
@@ -1572,7 +1790,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "supermarket price tags shelves",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2016743",
+                  "url": "https://videos.pexels.com/video-files/2016743/2016743-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Carlos Prieto",
+                  "pagina": "https://www.pexels.com/video/variety-of-foods-in-display-at-a-supermarket-2016743/"
+                },
+                "fichero": "clips/pexels-2016743.mp4"
               }
             }
           ],
@@ -1621,7 +1849,15 @@
                 "buscar": "man reading newspaper close up",
                 "tono": "carmin",
                 "titular": "Los dos datos son verdad",
-                "apoyo": "El titular se queda con el que asusta más."
+                "apoyo": "El titular se queda con el que asusta más.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7256407",
+                  "url": "https://images.pexels.com/photos/7256407/pexels-photo-7256407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-man-reading-a-newspaper-7256407/"
+                },
+                "fichero": "recortes-auto/pexels-7256407.png"
               }
             }
           ],
@@ -1646,7 +1882,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "payslip and calculator on table",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6963487",
+                  "url": "https://videos.pexels.com/video-files/6963487/6963487-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/man-using-calculator-6963487/"
+                },
+                "fichero": "clips/pexels-6963487.mp4"
               }
             }
           ],
@@ -1739,7 +1985,15 @@
                 "buscar": "economist woman presenting chart",
                 "tono": "ocre",
                 "titular": "BBVA Research dice lo contrario",
-                "apoyo": "Menos tipos y más salario compensaron la subida del precio, según su Observatorio de noviembre de 2025."
+                "apoyo": "Menos tipos y más salario compensaron la subida del precio, según su Observatorio de noviembre de 2025.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8067863",
+                  "url": "https://images.pexels.com/photos/8067863/pexels-photo-8067863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alena Shekhovtcova",
+                  "pagina": "https://www.pexels.com/photo/a-woman-writing-on-a-whiteboard-8067863/"
+                },
+                "fichero": "recortes-auto/pexels-8067863.png"
               }
             },
             {
@@ -1772,7 +2026,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty office chair boardroom",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7648403",
+                  "url": "https://videos.pexels.com/video-files/7648403/7648403-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/an-empty-conference-room-7648403/"
+                },
+                "fichero": "clips/pexels-7648403.mp4"
               }
             }
           ],
@@ -1797,7 +2061,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "large residential complex courtyard blocks",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38407753",
+                  "url": "https://videos.pexels.com/video-files/38407753/16309055_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-residential-complex-with-disabled-parking-38407753/"
+                },
+                "fichero": "clips/pexels-38407753.mp4"
               }
             }
           ],
@@ -1819,7 +2093,15 @@
                 "tono": "carmin",
                 "cifra": "1.050 M€",
                 "titular": "Blackstone vende Fidere a Brookfield",
-                "apoyo": "47 edificios, unas 5.000 viviendas. Firmado el 30 de marzo de 2026."
+                "apoyo": "47 edificios, unas 5.000 viviendas. Firmado el 30 de marzo de 2026.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8730984",
+                  "url": "https://images.pexels.com/photos/8730984/pexels-photo-8730984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/men-in-agreement-8730984/"
+                },
+                "fichero": "recortes-auto/pexels-8730984.png"
               }
             },
             {
@@ -1898,7 +2180,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "apartment building balconies facade",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35081930",
+                  "url": "https://videos.pexels.com/video-files/35081930/14861930_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nothing Ahead",
+                  "pagina": "https://www.pexels.com/video/modern-apartment-building-with-balconies-35081930/"
+                },
+                "fichero": "clips/pexels-35081930.mp4"
               }
             }
           ],
@@ -1926,14 +2218,9 @@
               "fuente": "Expansión, recogido por Infobae, oct. 2025"
             },
             {
-              "tipo": "recorte",
+              "tipo": "frase",
               "lado": "izq",
-              "recorte": {
-                "buscar": "woman standing in doorway of home",
-                "tono": "ocre",
-                "titular": "Le ofrecen comprar el piso en el que ya vive",
-                "apoyo": "El fondo prefiere el dinero de la venta a la renta de los próximos años."
-              }
+              "texto": "woman standing in doorway of home"
             }
           ],
           "tipo": "lista",
@@ -1973,7 +2260,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "barcelona street buildings balconies",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7809651",
+                  "url": "https://videos.pexels.com/video-files/7809651/7809651-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Dario Fernandez Ruz",
+                  "pagina": "https://www.pexels.com/video/flag-and-flowers-on-display-on-the-building-balconies-7809651/"
+                },
+                "fichero": "clips/pexels-7809651.mp4"
               },
               "tags": [
                 {
@@ -2021,7 +2318,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office glass tower reflection",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26547144",
+                  "url": "https://videos.pexels.com/video-files/26547144/11957910_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Allen Boguslavsky",
+                  "pagina": "https://www.pexels.com/video/a-tall-building-with-a-glass-facade-and-a-blue-sky-26547144/"
+                },
+                "fichero": "clips/pexels-26547144.mp4"
               }
             }
           ],
@@ -2050,7 +2357,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "queue of people outside bank",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27433529",
+                  "url": "https://videos.pexels.com/video-files/27433529/12142940_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Ivan Keyframe",
+                  "pagina": "https://www.pexels.com/video/suasana-di-terminal-di-jakarta-indonesia-jakartas-s-bus-station-ambience-indonesia-44-27433529/"
+                },
+                "fichero": "clips/pexels-27433529.mp4"
               }
             }
           ],
@@ -2099,7 +2416,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european central bank building frankfurt",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27946285",
+                  "url": "https://videos.pexels.com/video-files/27946285/12269000_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tobi",
+                  "pagina": "https://www.pexels.com/video/frankfurt-skyline-27946285/"
+                },
+                "fichero": "clips/pexels-27946285.mp4"
               }
             }
           ],
@@ -2133,7 +2460,15 @@
                 "buscar": "central banker at press conference microphone",
                 "tono": "carmin",
                 "titular": "Primera subida en casi tres años",
-                "apoyo": "El 23 de julio de 2026 el BCE decidió mantenerlos en el 2,25 %."
+                "apoyo": "El 23 de julio de 2026 el BCE decidió mantenerlos en el 2,25 %.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6950231",
+                  "url": "https://images.pexels.com/photos/6950231/pexels-photo-6950231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/photo/journalists-hands-holding-microphones-around-man-in-suit-6950231/"
+                },
+                "fichero": "recortes-auto/pexels-6950231.png"
               }
             }
           ],
@@ -2164,7 +2499,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock exchange screen numbers close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578632",
+                  "url": "https://videos.pexels.com/video-files/7578632/7578632-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-of-numbers-on-display-monitor-7578632/"
+                },
+                "fichero": "clips/pexels-7578632.mp4"
               }
             }
           ],
@@ -2225,7 +2570,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calendar page with circled date",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9057678",
+                  "url": "https://videos.pexels.com/video-files/9057678/9057678-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "SHVETS production",
+                  "pagina": "https://www.pexels.com/video/a-person-encircling-the-date-on-the-calendar-9057678/"
+                },
+                "fichero": "clips/pexels-9057678.mp4"
               }
             }
           ],
@@ -2294,7 +2649,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty construction site fenced plot",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4631865",
+                  "url": "https://videos.pexels.com/video-files/4631865/4631865-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "abdo mahyou",
+                  "pagina": "https://www.pexels.com/video/a-time-lapse-of-a-neighborhood-4631865/"
+                },
+                "fichero": "clips/pexels-4631865.mp4"
               }
             }
           ],
@@ -2345,7 +2710,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "young person looking at rental listings phone",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31907490",
+                  "url": "https://videos.pexels.com/video-files/31907490/13591484_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Esra Afşar",
+                  "pagina": "https://www.pexels.com/video/browsing-real-estate-listings-on-mobile-phone-31907490/"
+                },
+                "fichero": "clips/pexels-31907490.mp4"
               }
             }
           ],
@@ -2472,7 +2847,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "notary office signing contract pen",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841584",
+                  "url": "https://videos.pexels.com/video-files/7841584/7841584-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-contract-and-ballpens-7841584/"
+                },
+                "fichero": "clips/pexels-7841584.mp4"
               }
             }
           ],
@@ -2536,7 +2921,15 @@
                 "tono": "carmin",
                 "cifra": "2,95 %",
                 "titular": "La variable que decide tu cuota",
-                "apoyo": "Quinta subida del euríbor en 2026. Tipo medio de las nuevas hipotecas: 2,98 %."
+                "apoyo": "Quinta subida del euríbor en 2026. Tipo medio de las nuevas hipotecas: 2,98 %.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6962992",
+                  "url": "https://images.pexels.com/photos/6962992/pexels-photo-6962992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-budgeting-her-bills-6962992/"
+                },
+                "fichero": "recortes-auto/pexels-6962992.png"
               }
             },
             {
@@ -2562,7 +2955,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "architect blueprints on table drawing",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6615523",
+                  "url": "https://videos.pexels.com/video-files/6615523/6615523-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/blue-plans-6615523/"
+                },
+                "fichero": "clips/pexels-6615523.mp4"
               }
             }
           ],
@@ -2585,7 +2988,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "keys hanging on hook empty room",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35585638",
+                  "url": "https://videos.pexels.com/video-files/35585638/15079674_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "khezez  | خزاز",
+                  "pagina": "https://www.pexels.com/video/close-up-of-weightlifting-equipment-in-gym-35585638/"
+                },
+                "fichero": "clips/pexels-35585638.mp4"
               }
             }
           ],
