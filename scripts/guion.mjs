@@ -807,7 +807,7 @@ function reparar(doc) {
 
       // Al plano de cierre se le dijo que va suelto, sin escenas, y por eso
       // se queda tambien sin "tipo". Se deduce de lo que trae.
-      if (!p.tipo || p.tipo === "undefined") {
+      if ((!p.tipo || p.tipo === "undefined") && !p.escenas?.length) {
         const deduce = ["cierre", "lista", "barras", "lineas", "mapa", "retrato", "gente"].find((k) => p[k]);
         p.tipo = deduce ?? (p.texto ? "frase" : p.objeto ? "objeto" : typeof p.a?.valor === "number" ? "contador" : "objeto");
         if (p.tipo === "objeto" && !p.objeto) p.objeto = "carpeta";
@@ -968,6 +968,19 @@ function validar(doc, tema) {
     if (!p.id) di("hay un plano sin 'id'");
     else if (vistos.has(p.id)) di(`el id ${p.id} está repetido`);
     vistos.add(p.id);
+
+    // La locucion se comprueba SIEMPRE, tenga escenas o no. Antes el
+    // "continue" de abajo se la saltaba, y como ya todos los planos tienen
+    // escenas el recuento daba 198 caracteres en un guion de 14.925.
+    if (!p.vo || typeof p.vo !== "string") di(`${donde}: falta 'vo'`);
+    else {
+      chars += p.vo.length;
+      if (p.vo.length < 22) di(`${donde}: el 'vo' es demasiado corto (${p.vo.length} caracteres)`);
+      if (p.vo.length > 320) di(`${donde}: el 'vo' es demasiado largo (${p.vo.length} caracteres, máximo 260). Pártelo en dos planos.`);
+      if (/\d/.test(p.vo)) di(`${donde}: el 'vo' lleva cifras en número. Se lee en voz alta: escríbelas con letras.`);
+    }
+    const vel = p.voz?.speed;
+    if (vel !== undefined && (vel < 0.88 || vel > 1.08)) di(`${donde}: 'speed' ${vel} fuera del rango 0,88 a 1,08`);
 
     // Cada escena se valida como si fuera un plano: lo que dibuja es lo mismo.
     for (const [i, e] of (p.escenas ?? []).entries()) {
