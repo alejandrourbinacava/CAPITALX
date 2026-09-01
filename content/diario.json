@@ -10,85 +10,32 @@
   "bloques": [
     {
       "id": "b0",
-      "nombre": "Apertura en frío",
+      "nombre": "Apertura en frio",
       "planos": [
         {
           "id": "b0-01",
-          "vo": "Portugal hizo exactamente lo que medio internet le pedía. Cerró la puerta del ladrillo a los inversores extranjeros. Y al año siguiente las casas subieron más que nunca en la historia del país.",
+          "vo": "En dos mil veinticinco los precios de la vivienda en Portugal subieron un diecisiete coma seis por ciento. Es la mayor subida desde que existe la serie, que empezó en dos mil nueve.",
           "voz": {
             "speed": 0.97
           },
           "escenas": [
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "lisbon rooftops old city",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "27404881",
-                  "url": "https://videos.pexels.com/video-files/27404881/12136882_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 11,
-                  "autor": "Musko io",
-                  "pagina": "https://www.pexels.com/video/a-city-with-red-roofs-and-white-buildings-27404881/"
-                },
-                "fichero": "clips/pexels-27404881.mp4"
+              "tipo": "contador",
+              "kicker": "PRECIOS DE LA VIVIENDA · 2025",
+              "fuente": "INE Portugal",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
               },
-              "kicker": "PORTUGAL · 2026",
-              "tags": [
-                {
-                  "t": "Cerraron la puerta",
-                  "x": 20,
-                  "y": 26,
-                  "in": 0.5,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "frase",
-              "texto": "Y los precios subieron *más que nunca*.",
-              "night": true
-            }
-          ],
-          "tipo": "clip"
-        },
-        {
-          "id": "b0-02",
-          "vo": "Diecisiete coma seis por ciento en dos mil veinticinco. Es el mayor aumento del precio de la vivienda desde que el Instituto Nacional de Estadística portugués empezó a medirlo en dos mil nueve.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "barras",
-              "kicker": "PRECIO VIVIENDA · VARIACIÓN ANUAL",
-              "fuente": "INE Portugal, 4T 2025",
-              "barras": {
-                "unidad": "variación anual, %",
-                "sufijo": "%",
-                "datos": [
-                  {
-                    "etiqueta": "2024",
-                    "valor": 9.1,
-                    "tono": "ink",
-                    "decimales": 1
-                  },
-                  {
-                    "etiqueta": "2025",
-                    "valor": 17.6,
-                    "tono": "carmin",
-                    "decimales": 1
-                  }
-                ]
+              "a": {
+                "valor": 17.6,
+                "etiqueta": "% de subida en un año"
               },
               "tags": [
                 {
                   "t": "Máximo de la serie",
-                  "x": 66,
-                  "y": 24,
+                  "x": 62,
+                  "y": 26,
                   "in": 1.4,
                   "tone": "carmin",
                   "anim": "pop"
@@ -96,137 +43,184 @@
               ]
             },
             {
-              "tipo": "objeto",
-              "objeto": "casa",
-              "camara": "push",
-              "rotulo": {
-                "texto": "El récord llegó *después* del cierre"
-              }
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b0-03",
-          "vo": "Y mientras las casas subían un diecisiete y medio, el salario medio portugués subió un cinco coma seis por ciento. Mil seiscientos noventa y cuatro euros brutos al mes.",
-          "voz": {
-            "speed": 0.98
-          },
-          "escenas": [
-            {
               "tipo": "recorte",
               "lado": "der",
               "recorte": {
-                "buscar": "waitress in uniform portrait",
-                "tono": "ocre",
-                "cifra": "1.694 €",
-                "titular": "Salario bruto medio mensual, 2025",
-                "apoyo": "Subió un 5,6 % nominal. Las casas, un 17,6 %.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "19120212",
-                  "url": "https://images.pexels.com/photos/19120212/pexels-photo-19120212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Volkan Zengin",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-waitress-in-a-restaurant-19120212/"
-                },
-                "fichero": "recortes-auto/pexels-19120212.png"
-              },
-              "fuente": "INE Portugal, febrero 2026"
-            },
-            {
-              "tipo": "frase",
-              "texto": "Tres veces más rápido *la casa que el sueldo*."
-            }
-          ],
-          "tipo": "recorte"
-        },
-        {
-          "id": "b0-04",
-          "vo": "El Banco de Portugal lo dice sin adornos: el precio de la vivienda creció por encima de la renta disponible de las familias. La distancia entre lo que ganas y lo que cuesta vivir se ensanchó otro año más.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "bank of portugal building facade",
+                "buscar": "real estate for sale sign",
                 "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "11713467",
-                  "url": "https://videos.pexels.com/video-files/11713467/11713467-hd_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 9,
-                  "autor": "ed1toR ㅤ",
-                  "pagina": "https://www.pexels.com/video/drone-footage-of-the-university-of-coimbra-in-portugal-11713467/"
-                },
-                "fichero": "clips/pexels-11713467.mp4"
-              },
-              "kicker": "BANCO DE PORTUGAL · 2026",
-              "tags": [
-                {
-                  "t": "Precios: +17,6 %",
-                  "x": 22,
-                  "y": 30,
-                  "in": 0.6,
-                  "tone": "carmin",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "Renta disponible: +5,7 %",
-                  "x": 22,
-                  "y": 44,
-                  "in": 1.8,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "balanza",
-              "rotulo": {
-                "texto": "La brecha *se ensancha*"
+                "cifra": "+8,5 p.p.",
+                "titular": "Más que en 2024",
+                "apoyo": "La subida de 2025 fue ocho puntos y medio superior a la del año anterior."
               }
             }
           ],
-          "tipo": "clip"
+          "tipo": "contador",
+          "objeto": "carpeta"
         },
         {
-          "id": "b0-05",
-          "vo": "La historia que se cuenta siempre es la misma. Vinieron los de fuera, compraron el país, echaron a los portugueses. Es una historia limpia y tiene un problema: los números dicen otra cosa.",
+          "id": "b0-02",
+          "vo": "El salario medio subió un cinco coma seis. Y aquí empieza lo interesante: no es que Portugal no hiciera nada. Es que hizo exactamente lo que todo el mundo le pedía.",
           "voz": {
             "speed": 1
           },
           "escenas": [
             {
+              "tipo": "barras",
+              "kicker": "2025 · VARIACIÓN NOMINAL",
+              "fuente": "INE Portugal",
+              "barras": {
+                "unidad": "%",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Vivienda",
+                    "valor": 17.6,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Salario medio",
+                    "valor": 5.6,
+                    "tono": "ink",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
               "tipo": "frase",
-              "texto": "La historia limpia tiene *un problema*.",
+              "texto": "Portugal *hizo la reversión*.",
               "night": true
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b0-03",
+          "vo": "Cerró la vía inmobiliaria del visado dorado en octubre de dos mil veintitrés. Cerró el régimen fiscal de los residentes no habituales a partir de enero de dos mil veinticuatro.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Lei n.º 56/2023 · *octubre de 2023*"
+              }
             },
             {
               "tipo": "recorte",
               "lado": "izq",
               "recorte": {
                 "buscar": "businessman in suit with briefcase",
-                "tono": "carmin",
-                "cifra": "4,9 %",
-                "titular": "Compradores con domicilio fiscal fuera de Portugal",
-                "apoyo": "Segundo trimestre de 2025. Un año antes eran el 6,6 %.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "13801595",
-                  "url": "https://images.pexels.com/photos/13801595/pexels-photo-13801595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mizuno K",
-                  "pagina": "https://www.pexels.com/photo/elegant-office-worker-wearing-a-suit-sitting-by-a-white-modern-architecture-13801595/"
-                },
-                "fichero": "recortes-auto/pexels-13801595.png"
-              },
-              "fuente": "INE Portugal"
+                "tono": "ocre",
+                "titular": "Se acabó comprar un piso para conseguir el permiso",
+                "apoyo": "La vía inmobiliaria residencial quedó cerrada a nuevos solicitantes."
+              }
             }
           ],
-          "tipo": "frase"
+          "tipo": "objeto",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b0-04",
+          "vo": "Los compradores de fuera llevan tres años retirándose. En dos mil veinticinco compraron ocho mil cuatrocientas setenta y una viviendas, un trece coma tres por ciento menos que el año anterior.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "COMPRAS DE NO RESIDENTES FISCALES",
+              "fuente": "INE Portugal",
+              "barras": {
+                "unidad": "viviendas compradas en el año",
+                "datos": [
+                  {
+                    "etiqueta": "2024",
+                    "valor": 9770,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 8471,
+                    "tono": "carmin"
+                  }
+                ]
+              },
+              "tags": [
+                {
+                  "t": "−13,3 %",
+                  "x": 74,
+                  "y": 32,
+                  "in": 1.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "lisbon tram old street",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "Tercer año consecutivo de caída",
+                  "x": 20,
+                  "y": 78,
+                  "in": 0.8,
+                  "tone": "paper",
+                  "anim": "slideUp"
+                }
+              ]
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b0-05",
+          "vo": "Y los precios subieron más que nunca. En el primer trimestre de dos mil veintiséis, un diecisiete coma ocho por ciento interanual.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Se fueron los de fuera. *Los precios se dispararon igual.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa",
+              "rotulo": {
+                "texto": "1.er trimestre de 2026 · *+17,8 %*"
+              }
+            }
+          ],
+          "tipo": "frase",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b0-06",
+          "vo": "La historia ya no es que Portugal vendiera el país. Es que dejó de venderlo y no sirvió de nada.",
+          "voz": {
+            "speed": 0.93
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Dejó de venderlo. *Y no sirvió de nada.*",
+              "night": true
+            }
+          ],
+          "tipo": "frase",
+          "objeto": "carpeta"
         }
       ]
     },
@@ -236,30 +230,42 @@
       "planos": [
         {
           "id": "b1-01",
-          "vo": "Este vídeo va sobre un experimento que ya se ha hecho. Portugal cerró el grifo, y aquí vas a ver qué pasó de verdad después.",
+          "vo": "Vamos a ver primero cuánto se ha abierto la distancia entre lo que cuesta una casa y lo que cobra un portugués.",
           "voz": {
             "speed": 1
           },
           "escenas": [
             {
               "tipo": "lista",
-              "kicker": "LO QUE VIENE",
               "lista": {
-                "titulo": "El experimento portugués",
+                "titulo": "Lo que vamos a ver",
+                "activo": 0,
                 "puntos": [
-                  "Qué cerró exactamente Portugal",
-                  "Quién compra las casas hoy",
-                  "Por qué el Estado empeoró el problema"
-                ],
-                "activo": 0
+                  "El desacople entre precios y sueldos",
+                  "Lo que Portugal vendió y lo que cerró",
+                  "Quién compra de verdad hoy",
+                  "Por qué no hay casas"
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "young woman with backpack",
+                "tono": "ocre",
+                "cifra": "28,9 años",
+                "titular": "Edad media de emancipación en Portugal",
+                "apoyo": "Frente a 26,2 años de media en la Unión Europea. Eurostat, dato de 2024."
               }
             }
           ],
-          "tipo": "lista"
+          "tipo": "lista",
+          "objeto": "carpeta"
         },
         {
           "id": "b1-02",
-          "vo": "Primero, qué cerró exactamente y qué dejó abierto, porque casi todo el mundo lo cuenta mal. Segundo, quién compra hoy las casas portuguesas, con nombre y domicilio fiscal.",
+          "vo": "Después, el catálogo completo de lo que Portugal puso a la venta entre dos mil doce y dos mil veintitrés, y qué queda hoy de todo aquello. Que es más de lo que te han contado.",
           "voz": {
             "speed": 1
           },
@@ -267,62 +273,349 @@
             {
               "tipo": "lista",
               "lista": {
-                "titulo": "El experimento portugués",
+                "titulo": "Lo que vamos a ver",
+                "activo": 1,
                 "puntos": [
-                  "Qué cerró exactamente Portugal",
-                  "Quién compra las casas hoy",
-                  "Por qué el Estado empeoró el problema"
-                ],
-                "activo": 1
+                  "El desacople entre precios y sueldos",
+                  "Lo que Portugal vendió y lo que cerró",
+                  "Quién compra de verdad hoy",
+                  "Por qué no hay casas"
+                ]
               }
             },
             {
               "tipo": "objeto",
-              "objeto": "carpeta",
+              "objeto": "villa",
               "camara": "push",
               "rotulo": {
-                "texto": "Con *nombre* y fecha"
+                "texto": "El visado dorado *sigue vivo* en 2026"
               }
             }
           ],
-          "tipo": "lista"
+          "tipo": "lista",
+          "objeto": "carpeta"
         },
         {
           "id": "b1-03",
-          "vo": "Y tercero, la parte que nadie quiere firmar: el Estado portugués puso miles de millones para que los jóvenes pudieran comprar, y hay estudios que dicen que eso hizo subir los precios.",
+          "vo": "Y al final, la parte incómoda: quién está comprando ahora, con qué dinero, y por qué el Estado portugués es hoy parte del problema que dice estar resolviendo.",
           "voz": {
-            "speed": 0.97
+            "speed": 0.98
           },
           "escenas": [
             {
               "tipo": "lista",
               "lista": {
-                "titulo": "El experimento portugués",
+                "titulo": "Lo que vamos a ver",
+                "activo": 2,
                 "puntos": [
-                  "Qué cerró exactamente Portugal",
-                  "Quién compra las casas hoy",
-                  "Por qué el Estado empeoró el problema"
-                ],
-                "activo": 2
+                  "El desacople entre precios y sueldos",
+                  "Lo que Portugal vendió y lo que cerró",
+                  "Quién compra de verdad hoy",
+                  "Por qué no hay casas"
+                ]
               }
             },
             {
               "tipo": "frase",
-              "texto": "Ayudar a comprar *encareció la casa*.",
-              "night": true
+              "texto": "El comprador que faltaba *lo puso el Estado*."
             }
           ],
-          "tipo": "lista"
+          "tipo": "lista",
+          "objeto": "carpeta"
         }
       ]
     },
     {
       "id": "b2",
-      "nombre": "Qué era el golden visa",
+      "nombre": "El desacople",
       "planos": [
         {
           "id": "b2-01",
-          "vo": "Empecemos por el principio. En octubre de dos mil doce Portugal abrió una ventanilla: si comprabas una casa por encima de cierto precio, te daban un permiso de residencia europeo.",
+          "vo": "Empecemos por el metro cuadrado. En el primer trimestre de dos mil veinticinco, el precio mediano de una vivienda vendida en Portugal era de mil novecientos cincuenta y un euros el metro. Un año después, dos mil trescientos treinta y siete.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRECIO MEDIANO POR M²",
+              "fuente": "INE, Estatísticas de Preços da Habitação",
+              "barras": {
+                "unidad": "euros por m²",
+                "datos": [
+                  {
+                    "etiqueta": "1T 2025",
+                    "valor": 1951,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1T 2026",
+                    "valor": 2337,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "texto": "*386 euros* más por metro, en doce meses"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "apartment building facade sunlight",
+                "tono": "ocre"
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b2-02",
+          "vo": "En un piso de setenta metros cuadrados, eso son unos veintisiete mil euros más. En un solo año. Sin que la casa haya cambiado en nada.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "*27.000 euros más* por el mismo piso."
+            },
+            {
+              "tipo": "recorte",
+              "lado": "izq",
+              "recorte": {
+                "buscar": "woman carrying moving cardboard box",
+                "tono": "carmin",
+                "titular": "Lo mismo, más caro",
+                "apoyo": "La diferencia de un año equivale a más de dos años de salario mediano neto."
+              }
+            }
+          ],
+          "tipo": "frase",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b2-03",
+          "vo": "Porque el sueldo no acompaña. La remuneración bruta media en Portugal fue de mil seiscientos noventa y cuatro euros al mes en dos mil veinticinco. El salario mediano neto, el último publicado, se quedaba en unos novecientos ochenta euros.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "SALARIOS EN PORTUGAL",
+              "fuente": "INE Portugal (mediana neta: dato de 2024)",
+              "barras": {
+                "unidad": "euros al mes",
+                "datos": [
+                  {
+                    "etiqueta": "Bruto medio 2025",
+                    "valor": 1694,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Mediano neto 2024",
+                    "valor": 980,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "texto": "El valor más alto desde 2011. Y aún *por debajo de mil euros*."
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b2-04",
+          "vo": "Lo que más sube no es la obra nueva. Es lo que ya existe. La vivienda usada subió un diecinueve coma siete por ciento; la nueva, un doce coma seis.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "1.er TRIMESTRE 2026 · INTERANUAL",
+              "fuente": "INE Portugal",
+              "barras": {
+                "unidad": "%",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Existente",
+                    "valor": 19.7,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Nueva",
+                    "valor": 12.6,
+                    "tono": "ink",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Sube *el stock que ya estaba ahí*."
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b2-05",
+          "vo": "Y mientras tanto se vende menos. Treinta y siete mil setecientas cuarenta y cinco viviendas transaccionadas en el primer trimestre de dos mil veintiséis: un ocho coma siete por ciento menos que un año antes.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Menos operaciones, *precios más altos*"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "TRANSACCIONES · 1T 2026",
+              "fuente": "INE Portugal",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 37745,
+                "etiqueta": "viviendas vendidas en el trimestre"
+              },
+              "tags": [
+                {
+                  "t": "−8,7 % interanual",
+                  "x": 68,
+                  "y": 70,
+                  "in": 1.8,
+                  "tone": "carmin",
+                  "anim": "slideL"
+                }
+              ]
+            }
+          ],
+          "tipo": "objeto",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b2-06",
+          "vo": "La OCDE mide el acceso a la vivienda en treinta países. En el tercer trimestre de dos mil veinticuatro, Portugal marcó el peor registro de los treinta: un treinta y seis por ciento por encima de la media.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "kicker": "ACCESIBILIDAD · PEOR DE LA OCDE",
+              "fuente": "OCDE, 3T 2024",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "portugal"
+                ]
+              },
+              "tags": [
+                {
+                  "t": "157,7 puntos",
+                  "x": 24,
+                  "y": 40,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "Máximo desde 2015",
+                  "x": 24,
+                  "y": 52,
+                  "in": 1.6,
+                  "tone": "ink",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "young man sitting on suitcase",
+                "tono": "ocre",
+                "titular": "El peor acceso a la vivienda de los treinta países medidos",
+                "apoyo": "Último dato disponible de esa serie: tercer trimestre de 2024."
+              }
+            }
+          ],
+          "tipo": "mapa",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b2-07",
+          "vo": "Todo esto tiene una consecuencia que se ve sin gráficos: los jóvenes portugueses se van de casa de sus padres a los veintiocho años y nueve meses. La media europea es a los veintiséis y dos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EDAD DE EMANCIPACIÓN · 2024",
+              "fuente": "Eurostat",
+              "barras": {
+                "unidad": "años",
+                "datos": [
+                  {
+                    "etiqueta": "Portugal",
+                    "valor": 28.9,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Media UE",
+                    "valor": 26.2,
+                    "tono": "ink",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion",
+              "rotulo": {
+                "texto": "Casi *tres años* más en la habitación de siempre"
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Lo que Portugal puso a la venta",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Para entender por qué todo el mundo culpa a los extranjeros, hay que volver a dos mil doce. Portugal estaba intervenido, el crédito no existía y el Gobierno decidió vender residencia a cambio de inversión.",
           "voz": {
             "speed": 0.98
           },
@@ -330,74 +623,79 @@
             {
               "tipo": "clip",
               "clip": {
-                "buscar": "passport stamp immigration desk",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7195706",
-                  "url": "https://videos.pexels.com/video-files/7195706/7195706-hd_1366_720_25fps.mp4",
-                  "ancho": 1366,
-                  "duracion": 10,
-                  "autor": "https://kaboompics.com/",
-                  "pagina": "https://www.pexels.com/video/medical-doctor-stamping-in-a-notebook-7195706/"
-                },
-                "fichero": "clips/pexels-7195706.mp4"
+                "buscar": "bank office interior counter",
+                "tono": "carmin"
               },
-              "kicker": "ARI · OCTUBRE 2012",
               "tags": [
                 {
-                  "t": "Compra una casa",
-                  "x": 24,
-                  "y": 28,
-                  "in": 0.6,
+                  "t": "2012 · país rescatado",
+                  "x": 20,
+                  "y": 76,
+                  "in": 0.7,
                   "tone": "paper",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "Recibe residencia europea",
-                  "x": 24,
-                  "y": 44,
-                  "in": 2,
-                  "tone": "ocre",
-                  "anim": "slideL"
+                  "anim": "slideUp"
                 }
               ]
             },
             {
               "tipo": "objeto",
-              "objeto": "villa",
+              "objeto": "dosEpocas",
               "rotulo": {
-                "texto": "La ventanilla estuvo abierta *once años*"
+                "texto": "Autorização de Residência para Investimento"
               }
             }
           ],
-          "tipo": "clip"
+          "tipo": "clip",
+          "objeto": "carpeta"
         },
         {
-          "id": "b2-02",
-          "vo": "Hasta enero de dos mil veintitrés se concedieron once mil seiscientos veintiocho visados dorados. Captaron unos seis mil setecientos millones de euros. Y el ochenta y nueve por ciento de ese dinero se fue al ladrillo.",
+          "id": "b3-02",
+          "vo": "Entre octubre de dos mil doce y enero de dos mil veintitrés se concedieron once mil seiscientos veintiocho visados dorados. Entraron unos seis mil setecientos millones de euros.",
           "voz": {
-            "speed": 0.96
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "contador",
-              "kicker": "GOLDEN VISA · 2012-2023",
-              "fuente": "SEF, enero 2023",
+              "kicker": "VISADOS DORADOS · 2012-2023",
+              "fuente": "SEF (organismo hoy extinto)",
               "de": {
                 "valor": 0,
                 "etiqueta": ""
               },
               "a": {
                 "valor": 11628,
-                "etiqueta": "visados dorados concedidos"
+                "etiqueta": "autorizaciones de residencia concedidas"
               }
             },
             {
+              "tipo": "recorte",
+              "lado": "izq",
+              "recorte": {
+                "buscar": "man in suit signing document",
+                "tono": "ocre",
+                "cifra": "6.700 M€",
+                "titular": "Capital captado en diez años",
+                "apoyo": "Último dato del régimen inmobiliario, publicado en enero de 2023."
+              }
+            }
+          ],
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b3-03",
+          "vo": "El ochenta y nueve por ciento de ese dinero fue a ladrillo. Diez mil seiscientos sesenta y ocho personas obtuvieron el permiso simplemente comprando una casa.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
               "tipo": "barras",
-              "fuente": "SEF, enero 2023",
+              "kicker": "DESTINO DEL CAPITAL ARI",
+              "fuente": "Lusa sobre datos del SEF, enero 2023",
               "barras": {
-                "unidad": "destino del dinero captado",
+                "unidad": "% del montante total",
                 "sufijo": "%",
                 "datos": [
                   {
@@ -414,121 +712,86 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "Casi todo *era ladrillo*."
+              "tipo": "objeto",
+              "objeto": "casa",
+              "camara": "push",
+              "rotulo": {
+                "texto": "*10.668* permisos comprando vivienda"
+              }
             }
           ],
-          "tipo": "contador"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b2-03",
-          "vo": "Diez mil seiscientos sesenta y ocho personas consiguieron su permiso comprando una vivienda. La lista la encabezaba China con cinco mil doscientos cincuenta y ocho. Después Brasil, Estados Unidos, Turquía y Sudáfrica.",
+          "id": "b3-04",
+          "vo": "El primer país de origen fue China, con cinco mil doscientos cincuenta y ocho visados. Después Brasil, con mil ciento setenta y ocho. Y Estados Unidos, con quinientos cincuenta y ocho.",
           "voz": {
-            "speed": 0.97
+            "speed": 1.02
           },
           "escenas": [
             {
               "tipo": "lista",
-              "kicker": "NACIONALIDADES · ARI",
-              "fuente": "SEF vía Lusa, enero 2023",
               "lista": {
-                "titulo": "Quién compró el permiso",
+                "titulo": "Origen de los visados dorados",
+                "activo": 0,
                 "puntos": [
-                  "China: 5.258",
-                  "Brasil: 1.178",
-                  "Estados Unidos: 558",
-                  "Turquía: 547"
-                ],
-                "activo": 0
+                  "China · 5.258",
+                  "Brasil · 1.178",
+                  "Estados Unidos · 558",
+                  "Turquía · 547 y Sudáfrica · 508"
+                ]
               }
             },
             {
               "tipo": "clip",
               "clip": {
-                "buscar": "luxury apartment balcony sea view",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "18073365",
-                  "url": "https://videos.pexels.com/video-files/18073365/18073365-hd_1920_1080_60fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 9,
-                  "autor": "Abid  Ali",
-                  "pagina": "https://www.pexels.com/video/world-island-dubai-18073365/"
-                },
-                "fichero": "clips/pexels-18073365.mp4"
-              },
-              "tags": [
-                {
-                  "t": "10.668 permisos por comprar casa",
-                  "x": 20,
-                  "y": 70,
-                  "in": 1.2,
-                  "tone": "carmin",
-                  "anim": "slideUp"
-                }
-              ]
+                "buscar": "airport arrivals hall passengers",
+                "tono": "ocre"
+              }
             }
           ],
-          "tipo": "lista"
+          "tipo": "lista",
+          "objeto": "carpeta"
         },
         {
-          "id": "b2-04",
-          "vo": "En paralelo funcionaba otra ventanilla, menos vistosa y mucho más grande: el régimen de residente no habitual. Si te mudabas a Portugal, pagabas impuestos como casi nadie en Europa.",
+          "id": "b3-05",
+          "vo": "Pero el visado dorado era el programa pequeño. El grande era fiscal: el régimen de residentes no habituales, que ofrecía un tipo fijo del veinte por ciento a quien trasladara su residencia a Portugal.",
           "voz": {
             "speed": 0.98
           },
           "escenas": [
             {
-              "tipo": "objeto",
-              "objeto": "contable",
-              "camara": "push",
-              "kicker": "RNH · RESIDENTE NO HABITUAL",
-              "rotulo": {
-                "texto": "Un tipo fijo del *20 %*"
-              }
+              "tipo": "frase",
+              "texto": "El visado dorado era *el programa pequeño*.",
+              "night": true
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "remote worker laptop cafe terrace",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "4465195",
-                  "url": "https://videos.pexels.com/video-files/4465195/4465195-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 9,
-                  "autor": "Antoni Shkraba",
-                  "pagina": "https://www.pexels.com/video/woman-working-on-her-laptop-4465195/"
-                },
-                "fichero": "clips/pexels-4465195.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Mudarse tenía premio fiscal",
-                  "x": 22,
-                  "y": 30,
-                  "in": 1,
-                  "tone": "paper",
-                  "anim": "pop"
-                }
-              ]
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "accountant working with calculator",
+                "tono": "carmin",
+                "cifra": "20 %",
+                "titular": "Tipo fijo para las rentas de fuente portuguesa",
+                "apoyo": "Régimen de Residente Não Habitual, en vigor desde 2009."
+              }
             }
           ],
-          "tipo": "objeto"
+          "tipo": "frase",
+          "objeto": "carpeta"
         },
         {
-          "id": "b2-05",
-          "vo": "En dos mil diecinueve había cuarenta y un mil doscientos veintinueve beneficiarios. En dos mil veinticuatro, ciento veintiocho mil novecientos cincuenta y ocho. Se triplicaron en cinco años.",
+          "id": "b3-06",
+          "vo": "En dos mil diecinueve había cuarenta y un mil doscientos veintinueve beneficiarios. En dos mil veinticuatro, ciento veintiocho mil novecientos cincuenta y ocho. Se triplicó en cinco años.",
           "voz": {
-            "speed": 0.96
+            "speed": 0.98
           },
           "escenas": [
             {
               "tipo": "barras",
               "kicker": "RESIDENTES NO HABITUALES",
-              "fuente": "Auditoría fiscal homologada, abril 2026",
+              "fuente": "Auditoría fiscal homologada el 29/04/2026",
               "barras": {
                 "unidad": "beneficiarios registrados",
                 "datos": [
@@ -546,437 +809,130 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "Se *triplicaron* en cinco años.",
-              "night": true
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b2-06",
-          "vo": "El coste de ese régimen para las cuentas públicas ronda los mil setecientos millones de euros. La auditoría añade un detalle incómodo, y es el que da sentido a todo lo que viene después.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "recorte",
-              "lado": "der",
-              "recorte": {
-                "buscar": "tax auditor with folder",
-                "tono": "carmin",
-                "cifra": "≈1.700 M€",
-                "titular": "Coste fiscal del régimen RNH",
-                "apoyo": "Auditoría homologada el 29 de abril de 2026.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "8872671",
-                  "url": "https://images.pexels.com/photos/8872671/pexels-photo-8872671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "MART  PRODUCTION",
-                  "pagina": "https://www.pexels.com/photo/a-businesswoman-reading-a-document-8872671/"
-                },
-                "fichero": "recortes-auto/pexels-8872671.png"
-              },
-              "fuente": "Auditoría fiscal, abril 2026"
-            },
-            {
-              "tipo": "frase",
-              "texto": "El coste siguió creciendo *después de cerrarlo*."
-            }
-          ],
-          "tipo": "recorte"
-        }
-      ]
-    },
-    {
-      "id": "b3",
-      "nombre": "El cierre y quién lo firmó",
-      "planos": [
-        {
-          "id": "b3-01",
-          "vo": "Octubre de dos mil veintitrés. La ley cincuenta y seis barra dos mil veintitrés cierra la vía inmobiliaria del visado dorado. Ya no puedes comprar una casa y llevarte el permiso.",
-          "voz": {
-            "speed": 0.98
-          },
-          "escenas": [
-            {
-              "tipo": "objeto",
-              "objeto": "carta",
-              "camara": "push",
-              "kicker": "LEI N.º 56/2023 · OCTUBRE 2023",
-              "rotulo": {
-                "texto": "Fin de la vía *inmobiliaria*"
-              }
-            },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "government parliament session chamber",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "4474272",
-                  "url": "https://videos.pexels.com/video-files/4474272/4474272-hd_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 7,
-                  "autor": "Hirsh Philippe",
-                  "pagina": "https://www.pexels.com/video/tracking-shot-of-the-texas-house-of-representatives-chamber-4474272/"
-                },
-                "fichero": "clips/pexels-4474272.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Se cierra la compra de vivienda",
-                  "x": 20,
-                  "y": 68,
-                  "in": 1.2,
-                  "tone": "carmin",
-                  "anim": "slideUp"
-                }
-              ]
-            }
-          ],
-          "tipo": "objeto"
-        },
-        {
-          "id": "b3-02",
-          "vo": "Aquí hay que ser preciso, porque casi todos los vídeos sobre este tema fallan en la misma frase. Portugal no eliminó el visado dorado. Sigue vivo en dos mil veintiséis.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "frase",
-              "texto": "Portugal *no eliminó* el visado dorado.",
-              "night": true
-            },
-            {
-              "tipo": "mapa",
-              "mapa": {
-                "region": "europa",
-                "destaca": [
-                  "portugal"
-                ]
-              },
-              "kicker": "ARI · SIGUE ACTIVO EN 2026",
-              "tags": [
-                {
-                  "t": "Fondos · 500.000 €",
-                  "x": 62,
-                  "y": 34,
-                  "in": 1,
-                  "tone": "ocre",
-                  "anim": "pop"
-                },
-                {
-                  "t": "7 días al año de presencia",
-                  "x": 62,
-                  "y": 50,
-                  "in": 2.2,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
-            }
-          ],
-          "tipo": "frase"
-        },
-        {
-          "id": "b3-03",
-          "vo": "Lo que quedó abierto fueron las otras vías: fondos de inversión, investigación científica, creación de empleo y patrimonio cultural. La de fondos, con medio millón de euros, concentra hoy la mayoría de solicitudes.",
-          "voz": {
-            "speed": 0.98
-          },
-          "escenas": [
-            {
-              "tipo": "lista",
-              "kicker": "VÍAS QUE SIGUEN ABIERTAS",
-              "lista": {
-                "titulo": "Golden visa en 2026",
-                "puntos": [
-                  "Fondos de inversión cualificados",
-                  "Investigación científica",
-                  "Creación de empleo",
-                  "Patrimonio cultural"
-                ],
-                "activo": 0
-              }
-            },
-            {
               "tipo": "objeto",
               "objeto": "maletero",
               "rotulo": {
-                "texto": "El mismo pasaporte, *otra puerta*"
+                "texto": "Sueldos de fuera, *impuestos de dentro*"
               }
             }
           ],
-          "tipo": "lista"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b3-04",
-          "vo": "Con el régimen fiscal pasa algo parecido. Se cerró a nuevos inscritos, pero quien entró antes del uno de enero de dos mil veinticuatro mantiene su ventaja diez años. Es decir, hasta dos mil treinta y tres.",
+          "id": "b3-07",
+          "vo": "El coste fiscal de ese régimen ronda los mil setecientos millones de euros. La auditoría no precisa a qué ejercicio corresponde exactamente esa cifra, así que la doy con esa reserva.",
           "voz": {
             "speed": 0.96
           },
           "escenas": [
             {
-              "tipo": "lineas",
-              "kicker": "RNH · VIGENCIA DE LOS BENEFICIOS",
-              "fuente": "Normativa IRS portuguesa",
-              "lineas": {
-                "unidad": "año",
-                "series": [
-                  {
-                    "nombre": "Beneficio activo",
-                    "tono": "carmin",
-                    "puntos": [
-                      [
-                        "2024",
-                        1
-                      ],
-                      [
-                        "2029",
-                        1
-                      ],
-                      [
-                        "2033",
-                        1
-                      ]
-                    ]
-                  }
-                ]
-              },
-              "tags": [
-                {
-                  "t": "Cerrado a nuevos",
-                  "x": 24,
-                  "y": 24,
-                  "in": 0.8,
-                  "tone": "ink",
-                  "anim": "pop"
-                },
-                {
-                  "t": "Efectos hasta 2033",
-                  "x": 58,
-                  "y": 40,
-                  "in": 2,
-                  "tone": "carmin",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
               "tipo": "frase",
-              "texto": "Cerrar una ventanilla *no vacía la sala*."
-            }
-          ],
-          "tipo": "lineas"
-        },
-        {
-          "id": "b3-05",
-          "vo": "Y a quien se hizo residente en dos mil veinticuatro se le dio de plazo hasta el treinta y uno de marzo de dos mil veinticinco para registrarse. El sustituto se llama IFICI y mantiene ese tipo fijo del veinte por ciento.",
-          "voz": {
-            "speed": 0.98
-          },
-          "escenas": [
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "tax office queue counter",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "6963487",
-                  "url": "https://videos.pexels.com/video-files/6963487/6963487-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/video/man-using-calculator-6963487/"
-                },
-                "fichero": "clips/pexels-6963487.mp4"
-              },
-              "kicker": "IFICI · SUSTITUTO DEL RNH",
-              "tags": [
-                {
-                  "t": "20 % fijo",
-                  "x": 24,
-                  "y": 30,
-                  "in": 0.6,
-                  "tone": "carmin",
-                  "anim": "pop"
-                },
-                {
-                  "t": "Criterios más estrictos",
-                  "x": 24,
-                  "y": 46,
-                  "in": 1.9,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
+              "texto": "*1.700 millones* de coste fiscal.",
+              "night": true
             },
             {
               "tipo": "objeto",
-              "objeto": "dosEpocas",
+              "objeto": "carta",
               "rotulo": {
-                "texto": "Cambia el nombre, *no el tipo*"
+                "texto": "La fuente no especifica el ejercicio. Lo digo."
               }
             }
           ],
-          "tipo": "clip"
+          "tipo": "frase",
+          "objeto": "carpeta"
         },
         {
-          "id": "b3-06",
-          "vo": "Y con el alojamiento turístico ocurrió lo contrario de lo que casi todo el mundo cree. Las restricciones de dos mil veintitrés se derogaron en dos mil veinticuatro. Nunca llegaron a aplicarse de verdad.",
+          "id": "b3-08",
+          "vo": "Con ese cóctel, la conclusión parecía evidente. Lisboa y el Algarve se llenaron de compradores que ganaban en otra moneda y tributaban a la mitad. Y llegó la reacción política.",
           "voz": {
-            "speed": 0.96
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "recorte",
               "lado": "izq",
               "recorte": {
-                "buscar": "hotel receptionist with key",
+                "buscar": "tourist with suitcase walking",
                 "tono": "ocre",
-                "titular": "Alojamiento local",
-                "apoyo": "Restringido en 2023. Derogada la restricción en 2024, con el Gobierno de Luís Montenegro.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "5371677",
-                  "url": "https://images.pexels.com/photos/5371677/pexels-photo-5371677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/receptionist-in-uniform-standing-behind-front-desk-5371677/"
-                },
-                "fichero": "recortes-auto/pexels-5371677.png"
+                "titular": "Ganar fuera, pagar dentro, comprar en el centro",
+                "apoyo": "El marco que dominó el debate portugués entre 2018 y 2023."
               }
             },
             {
               "tipo": "frase",
-              "texto": "La restricción *duró un año*.",
+              "texto": "Y entonces Portugal *cerró la puerta*.",
               "night": true
             }
           ],
-          "tipo": "recorte"
+          "tipo": "recorte",
+          "objeto": "carpeta"
         }
       ]
     },
     {
       "id": "b4",
-      "nombre": "Y aun así subió",
+      "nombre": "La reversion y su letra pequena",
       "planos": [
         {
           "id": "b4-01",
-          "vo": "Así que el experimento estaba en marcha. Cerrada la vía inmobiliaria del visado, cerrado el régimen fiscal a nuevos entrantes. Ahora tocaba ver bajar los precios.",
+          "vo": "Octubre de dos mil veintitrés. La ley cincuenta y seis barra dos mil veintitrés cierra la vía inmobiliaria del visado dorado a nuevos solicitantes. Comprar un piso deja de dar residencia.",
           "voz": {
             "speed": 0.98
           },
           "escenas": [
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "real estate agency window listings",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7578012",
-                  "url": "https://videos.pexels.com/video-files/7578012/7578012-hd_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 8,
-                  "autor": "Kindel Media",
-                  "pagina": "https://www.pexels.com/video/man-holding-a-miniature-house-7578012/"
-                },
-                "fichero": "clips/pexels-7578012.mp4"
-              },
-              "kicker": "2024-2026",
-              "tags": [
-                {
-                  "t": "El grifo, cerrado",
-                  "x": 22,
-                  "y": 28,
-                  "in": 0.7,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "camara": "push",
+              "rotulo": {
+                "texto": "*Lei n.º 56/2023* · octubre de 2023"
+              }
             },
             {
-              "tipo": "frase",
-              "texto": "Tocaba *ver bajar* los precios."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government building columns exterior",
+                "tono": "carmin"
+              }
             }
           ],
-          "tipo": "clip"
+          "tipo": "objeto",
+          "objeto": "carpeta"
         },
         {
           "id": "b4-02",
-          "vo": "El primer trimestre de dos mil veintiséis, el índice de precios de la vivienda subió un diecisiete coma ocho por ciento interanual. La vivienda usada, casi un veinte. La nueva, un doce y medio.",
+          "vo": "Aquí conviene ser exacto, porque se repite mucho lo contrario: el visado dorado no se eliminó. Sigue vivo en dos mil veintiséis.",
           "voz": {
-            "speed": 0.96
+            "speed": 0.95
           },
           "escenas": [
             {
-              "tipo": "barras",
-              "kicker": "IPHab · 1T 2026",
-              "fuente": "INE Portugal, 23/06/2026",
-              "barras": {
-                "unidad": "variación interanual",
-                "sufijo": "%",
-                "datos": [
-                  {
-                    "etiqueta": "Total",
-                    "valor": 17.8,
-                    "tono": "carmin",
-                    "decimales": 1
-                  },
-                  {
-                    "etiqueta": "Existente",
-                    "valor": 19.7,
-                    "tono": "ocre",
-                    "decimales": 1
-                  },
-                  {
-                    "etiqueta": "Nueva",
-                    "valor": 12.6,
-                    "tono": "ink",
-                    "decimales": 1
-                  }
-                ]
-              }
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "casa",
-              "rotulo": {
-                "texto": "La casa vieja sube *más que la nueva*"
-              }
+              "tipo": "frase",
+              "texto": "El visado dorado *no se eliminó*.",
+              "night": true
             }
           ],
-          "tipo": "barras"
+          "tipo": "frase",
+          "objeto": "carpeta"
         },
         {
           "id": "b4-03",
-          "vo": "Y esto se traduce en algo que puedes tocar. El metro cuadrado mediano de una vivienda vendida pasó de mil novecientos cincuenta y un euros a dos mil trescientos treinta y siete en un solo año.",
+          "vo": "Lo que quedaron fueron las otras vías: fondos de inversión, investigación científica, creación de empleo y patrimonio cultural. Y la que concentra hoy la mayoría de solicitudes es la de fondos, con quinientos mil euros.",
           "voz": {
-            "speed": 0.97
+            "speed": 1
           },
           "escenas": [
             {
-              "tipo": "barras",
-              "kicker": "PRECIO MEDIANO · €/m²",
-              "fuente": "INE Portugal, 17/07/2026",
-              "barras": {
-                "unidad": "euros por metro cuadrado",
-                "datos": [
-                  {
-                    "etiqueta": "1T 2025",
-                    "valor": 1951,
-                    "tono": "ink"
-                  },
-                  {
-                    "etiqueta": "1T 2026",
-                    "valor": 2337,
-                    "tono": "carmin"
-                  }
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Vías abiertas del ARI en 2026",
+                "activo": 0,
+                "puntos": [
+                  "Fondos de inversión cualificados · 500.000 €",
+                  "Investigación científica",
+                  "Creación de empleo",
+                  "Patrimonio cultural"
                 ]
               }
             },
@@ -984,203 +940,337 @@
               "tipo": "recorte",
               "lado": "der",
               "recorte": {
-                "buscar": "young woman with moving box",
-                "tono": "carmin",
-                "cifra": "+386 €/m²",
-                "titular": "En doce meses",
-                "apoyo": "En un piso de 70 metros son 27.000 euros más. Más de un año de sueldo bruto medio.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "4554351",
-                  "url": "https://images.pexels.com/photos/4554351/pexels-photo-4554351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/woman-in-white-v-neck-t-shirt-sitting-on-gray-sofa-4554351/"
-                },
-                "fichero": "recortes-auto/pexels-4554351.png"
+                "buscar": "businesswoman in suit portrait",
+                "tono": "ocre",
+                "cifra": "7 días",
+                "titular": "Presencia física exigida al año",
+                "apoyo": "Y al final del recorrido, la misma vía hacia el pasaporte de la Unión Europea."
               }
             }
           ],
-          "tipo": "barras"
+          "tipo": "lista",
+          "objeto": "carpeta"
         },
         {
           "id": "b4-04",
-          "vo": "Hay una buena noticia, y conviene decirla bien. Ese diecisiete coma ocho es la primera desaceleración desde mediados de dos mil veinticuatro. Un coma un punto menos que el trimestre anterior.",
+          "vo": "Con el régimen fiscal pasó algo parecido. Se cerró a nuevos adherentes, sí. Pero quien se inscribió antes del uno de enero de dos mil veinticuatro conserva el beneficio durante diez años.",
           "voz": {
             "speed": 0.98
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Primera desaceleración *en año y medio*."
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "texto": "Cerrado a los nuevos. *Intacto para los antiguos.*"
+              }
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "construction crane city skyline dusk",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "38148069",
-                  "url": "https://videos.pexels.com/video-files/38148069/16196211_1920_1080_60fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "Taiwo Samson",
-                  "pagina": "https://www.pexels.com/video/aerial-evening-view-of-city-skyline-with-construction-38148069/"
-                },
-                "fichero": "clips/pexels-38148069.mp4"
-              },
-              "tags": [
-                {
-                  "t": "−1,1 puntos",
-                  "x": 24,
-                  "y": 30,
-                  "in": 0.8,
-                  "tone": "ocre",
-                  "anim": "pop"
-                }
-              ]
+              "tipo": "frase",
+              "texto": "El régimen cerrado en 2024 *paga hasta 2033*.",
+              "night": true
             }
           ],
-          "tipo": "frase"
+          "tipo": "objeto",
+          "objeto": "carpeta"
         },
         {
           "id": "b4-05",
-          "vo": "Pero desacelerar la subida no es bajar. La tasa media anual se quedó en diecisiete coma nueve por ciento, otro máximo de toda la serie. Los precios siguen subiendo, solo un poco menos deprisa.",
+          "vo": "Y hubo prórroga. Quien se hizo residente durante dos mil veinticuatro pudo registrarse hasta el treinta y uno de marzo de dos mil veinticinco, con beneficios hasta dos mil treinta y tres.",
           "voz": {
-            "speed": 0.95
+            "speed": 1
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Desacelerar *no es bajar*.",
-              "night": true
+              "tipo": "contador",
+              "kicker": "AÑOS DE VIGENCIA RESTANTES",
+              "fuente": "Normativa IRS · Portugal",
+              "de": {
+                "valor": 2024,
+                "etiqueta": "cierre a nuevos"
+              },
+              "a": {
+                "valor": 2033,
+                "etiqueta": "último año con beneficio"
+              }
             },
             {
               "tipo": "objeto",
-              "objeto": "grua",
-              "camara": "push",
-              "kicker": "TASA MEDIA ANUAL · 17,9 %",
-              "rotulo": {
-                "texto": "Nuevo *máximo* de la serie"
-              },
-              "fuente": "INE Portugal, junio 2026"
+              "objeto": "carta"
             }
           ],
-          "tipo": "frase"
+          "tipo": "contador",
+          "objeto": "carpeta"
         },
         {
           "id": "b4-06",
-          "vo": "Y en el alquiler igual. La renta mediana de los nuevos contratos llegó a nueve coma cuarenta y seis euros por metro cuadrado, un nueve por ciento más que un año antes.",
-          "voz": {
-            "speed": 0.98
-          },
-          "escenas": [
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "apartment door keys handover",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "10375432",
-                  "url": "https://videos.pexels.com/video-files/10375432/10375432-hd_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "RDNE Stock project",
-                  "pagina": "https://www.pexels.com/video/handing-over-the-keys-10375432/"
-                },
-                "fichero": "clips/pexels-10375432.mp4"
-              },
-              "kicker": "NUEVOS CONTRATOS · 1T 2026",
-              "fuente": "INE Portugal",
-              "tags": [
-                {
-                  "t": "9,46 €/m²",
-                  "x": 24,
-                  "y": 28,
-                  "in": 0.6,
-                  "tone": "carmin",
-                  "anim": "pop"
-                },
-                {
-                  "t": "+9,1 % interanual",
-                  "x": 24,
-                  "y": 44,
-                  "in": 1.8,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "habitacion",
-              "rotulo": {
-                "texto": "Y en Lisboa, *el doble*"
-              }
-            }
-          ],
-          "tipo": "clip"
-        },
-        {
-          "id": "b4-07",
-          "vo": "En el municipio de Lisboa, diecisiete coma cuarenta y dos euros el metro. Alquilar sesenta metros en la capital cuesta más de mil euros al mes, con un salario medio de mil seiscientos noventa y cuatro brutos.",
+          "vo": "El veintinueve de abril de dos mil veintiséis, la Secretaria de Estado de Asuntos Fiscales, Cláudia Reis Duarte, homologó la auditoría del régimen. Su conclusión más incómoda: el coste fiscal siguió creciendo después de decidir extinguirlo.",
           "voz": {
             "speed": 0.96
           },
           "escenas": [
             {
-              "tipo": "barras",
-              "kicker": "RENTA MEDIANA · €/m²",
-              "fuente": "INE Portugal, 1T 2026",
-              "barras": {
-                "unidad": "euros por metro cuadrado",
-                "datos": [
-                  {
-                    "etiqueta": "Lisboa",
-                    "valor": 17.42,
-                    "tono": "carmin",
-                    "decimales": 2
-                  },
-                  {
-                    "etiqueta": "G. Lisboa",
-                    "valor": 14.38,
-                    "tono": "ocre",
-                    "decimales": 2
-                  },
-                  {
-                    "etiqueta": "Algarve",
-                    "valor": 10.71,
-                    "tono": "ink",
-                    "decimales": 2
-                  },
-                  {
-                    "etiqueta": "Portugal",
-                    "valor": 9.46,
-                    "tono": "ink",
-                    "decimales": 2
-                  }
-                ]
+              "tipo": "retrato",
+              "retrato": {
+                "nombre": "Cláudia Reis Duarte",
+                "papel": "Secretaria de Estado de Asuntos Fiscales",
+                "fecha": "29 de abril de 2026",
+                "titular": "Homologa la auditoría del régimen de residentes no habituales"
               }
             },
             {
               "tipo": "frase",
-              "texto": "Mil euros de alquiler. *Mil seiscientos* de sueldo."
+              "texto": "Se decidió extinguirlo. *Y siguió creciendo.*",
+              "night": true
             }
           ],
-          "tipo": "barras"
+          "tipo": "retrato",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b4-07",
+          "vo": "Además, el régimen tiene sucesor. Se llama IFICI, mantiene el mismo tipo del veinte por ciento sobre las rentas de fuente portuguesa, y solo endurece quién puede acogerse.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "lado": "izq",
+              "recorte": {
+                "buscar": "man working on laptop office",
+                "tono": "carmin",
+                "cifra": "20 %",
+                "titular": "El tipo no cambió. Cambió la lista de elegibles.",
+                "apoyo": "Artículo 58.º-A del Código do IRS, Lei n.º 82/2023."
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "rotulo": {
+                "texto": "Y el alojamiento local restringido en 2023 *se liberalizó en 2024*"
+              }
+            }
+          ],
+          "tipo": "recorte",
+          "objeto": "carpeta"
         }
       ]
     },
     {
       "id": "b5",
-      "nombre": "Quién compra de verdad",
+      "nombre": "Los extranjeros se van",
       "planos": [
         {
           "id": "b5-01",
-          "vo": "La pregunta entonces es evidente. Si los de fuera ya no pueden comprar el permiso de residencia con una casa, quién está comprando todas estas casas.",
+          "vo": "Aun con toda esa letra pequeña, el efecto sobre el mercado fue real y medible. Y va en la dirección que nadie esperaba.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El efecto fue real. *Y al revés.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "coastal town aerial view portugal",
+                "tono": "ocre"
+              }
+            }
+          ],
+          "tipo": "frase",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b5-02",
+          "vo": "En el segundo trimestre de dos mil veinticinco, los compradores con domicilio fiscal fuera de Portugal fueron el cuatro coma nueve por ciento de las operaciones. Un año antes eran el seis coma seis.",
           "voz": {
             "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PESO DE LOS COMPRADORES EXTRANJEROS",
+              "fuente": "INE Portugal",
+              "barras": {
+                "unidad": "% de las transacciones",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "2T 2024",
+                    "valor": 6.6,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2T 2025",
+                    "valor": 4.9,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "texto": "Se fueron *justo en el año del récord*"
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b5-03",
+          "vo": "En el conjunto de dos mil veinticinco se vendieron ciento sesenta y nueve mil ochocientas doce viviendas. Ciento sesenta y una mil trescientas cuarenta y una las compró alguien con domicilio fiscal en Portugal.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "QUIÉN COMPRÓ EN 2025",
+              "fuente": "INE Portugal",
+              "gente": {
+                "total": 169812,
+                "destacados": 8471,
+                "escala": 1000,
+                "etiqueta": "Total de viviendas vendidas",
+                "etiquetaDestacados": "Compradas por no residentes fiscales"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El *95 %* del mercado es doméstico."
+            }
+          ],
+          "tipo": "gente",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b5-04",
+          "vo": "Es el peso relativo más alto de la serie, que arranca en dos mil diecinueve. Nunca los portugueses habían comprado tanta proporción de su propio mercado como en el año de la mayor subida de precios.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "couple holding house keys",
+                "tono": "ocre",
+                "cifra": "95 %",
+                "titular": "Peso récord del comprador residente",
+                "apoyo": "El máximo de una serie que empieza en 2019."
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ],
+          "tipo": "recorte",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b5-05",
+          "vo": "En dinero, la foto es la misma. De los cuarenta y un mil doscientos millones de euros movidos en compraventa, la inversión extranjera fueron tres mil cuatrocientos. Un ocho coma dos por ciento.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "VOLUMEN DE COMPRAVENTA · 2025",
+              "fuente": "INE Portugal",
+              "barras": {
+                "unidad": "miles de millones de euros",
+                "datos": [
+                  {
+                    "etiqueta": "Total",
+                    "valor": 41.2,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Extranjero",
+                    "valor": 3.4,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "texto": "Ocho de cada cien euros"
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b5-06",
+          "vo": "Y en dos mil veintiséis se acelera la salida. Mil setecientas setenta ventas a compradores de fuera en el primer trimestre: un quince coma seis por ciento menos. La mayor caída, la de los compradores de la Unión Europea.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "VENTAS A NO RESIDENTES · 1T 2026",
+              "fuente": "INE Portugal",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1770,
+                "etiqueta": "viviendas en el trimestre"
+              },
+              "tags": [
+                {
+                  "t": "−15,6 %",
+                  "x": 70,
+                  "y": 30,
+                  "in": 1.5,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "UE: −16,8 %",
+                  "x": 70,
+                  "y": 44,
+                  "in": 2.2,
+                  "tone": "ocre",
+                  "anim": "slideL"
+                }
+              ]
+            },
+            {
+              "tipo": "frase",
+              "texto": "Cae la demanda de fuera. *Sube el precio.*",
+              "night": true
+            }
+          ],
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b5-07",
+          "vo": "Así que la pregunta cambia. Si los de fuera se retiran y las casas suben como nunca, alguien está comprando en su lugar. Y no es un misterio: está en las estadísticas de crédito.",
+          "voz": {
+            "speed": 0.97
           },
           "escenas": [
             {
@@ -1188,313 +1278,125 @@
               "objeto": "interrogante",
               "camara": "push",
               "rotulo": {
-                "texto": "Entonces, *quién compra*"
+                "texto": "¿Quién ocupó ese hueco?"
               }
             },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "family looking at house for sale",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7578020",
-                  "url": "https://videos.pexels.com/video-files/7578020/7578020-hd_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 9,
-                  "autor": "Kindel Media",
-                  "pagina": "https://www.pexels.com/video/people-looking-at-a-house-7578020/"
-                },
-                "fichero": "clips/pexels-7578020.mp4"
-              },
-              "tags": [
-                {
-                  "t": "169.812 viviendas vendidas en 2025",
-                  "x": 20,
-                  "y": 70,
-                  "in": 1.2,
-                  "tone": "paper",
-                  "anim": "slideUp"
-                }
-              ]
-            }
-          ],
-          "tipo": "objeto"
-        },
-        {
-          "id": "b5-02",
-          "vo": "De las ciento sesenta y nueve mil ochocientas doce viviendas vendidas en dos mil veinticinco, ciento sesenta y una mil trescientas cuarenta y una las compró alguien con domicilio fiscal en Portugal. El noventa y cinco por ciento.",
-          "voz": {
-            "speed": 0.95
-          },
-          "escenas": [
-            {
-              "tipo": "gente",
-              "kicker": "COMPRADORES · 2025",
-              "fuente": "INE Portugal",
-              "gente": {
-                "total": 169812,
-                "destacados": 8471,
-                "escala": 1000,
-                "etiqueta": "viviendas vendidas en 2025",
-                "etiquetaDestacados": "compradas desde fuera de Portugal"
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Noventa y cinco de cada cien: *portuguesas*."
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "casa"
-            }
-          ],
-          "tipo": "gente"
-        },
-        {
-          "id": "b5-03",
-          "vo": "Es el peso doméstico más alto desde que existe la serie, que arranca en dos mil diecinueve. Y no es un accidente de un año: dos mil veinticinco fue el tercer ejercicio consecutivo de caída en las compras desde fuera.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "barras",
-              "kicker": "COMPRAS DESDE FUERA DE PORTUGAL",
-              "fuente": "INE Portugal",
-              "barras": {
-                "unidad": "viviendas adquiridas",
-                "datos": [
-                  {
-                    "etiqueta": "2025",
-                    "valor": 8471,
-                    "tono": "carmin"
-                  }
-                ]
-              },
-              "tags": [
-                {
-                  "t": "−13,3 % frente a 2024",
-                  "x": 60,
-                  "y": 34,
-                  "in": 1,
-                  "tone": "ocre",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "−20,6 % frente a 2022",
-                  "x": 60,
-                  "y": 50,
-                  "in": 2.2,
-                  "tone": "ink",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "airport departures terminal travellers",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "30386293",
-                  "url": "https://videos.pexels.com/video-files/30386293/13022086_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "Emrul Kausar Emon",
-                  "pagina": "https://www.pexels.com/video/busy-suvarnabhumi-airport-terminal-30386293/"
-                },
-                "fichero": "clips/pexels-30386293.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Tercer año consecutivo de caída",
-                  "x": 20,
-                  "y": 68,
-                  "in": 1,
-                  "tone": "paper",
-                  "anim": "slideUp"
-                }
-              ]
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b5-04",
-          "vo": "Y en dos mil veintiséis la retirada se acelera. Mil setecientas setenta ventas a compradores de fuera en el primer trimestre, un quince y medio por ciento menos. La mayor contracción la protagoniza la Unión Europea.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "mapa",
-              "mapa": {
-                "region": "europa",
-                "destaca": [
-                  "portugal",
-                  "reinounido",
-                  "francia",
-                  "alemania"
-                ]
-              },
-              "kicker": "1T 2026 · COMPRADORES DE FUERA",
-              "fuente": "INE Portugal",
-              "tags": [
-                {
-                  "t": "1.770 ventas",
-                  "x": 60,
-                  "y": 26,
-                  "in": 0.8,
-                  "tone": "carmin",
-                  "anim": "pop"
-                },
-                {
-                  "t": "−16,8 % los de la UE",
-                  "x": 60,
-                  "y": 42,
-                  "in": 2,
-                  "tone": "ocre",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "frase",
-              "texto": "Se van. Y los precios *siguen subiendo*.",
-              "night": true
-            }
-          ],
-          "tipo": "mapa"
-        },
-        {
-          "id": "b5-05",
-          "vo": "Mientras tanto, las familias portuguesas compraron ciento cuarenta y ocho mil seiscientas treinta y dos casas, un diez y medio por ciento más. Treinta y cinco mil setecientos millones de euros. El ochenta y siete y medio por ciento de todo el mercado.",
-          "voz": {
-            "speed": 0.95
-          },
-          "escenas": [
             {
               "tipo": "recorte",
-              "lado": "der",
+              "lado": "izq",
               "recorte": {
-                "buscar": "couple signing documents at desk",
-                "tono": "ocre",
-                "cifra": "148.632",
-                "titular": "Casas compradas por familias en 2025",
-                "apoyo": "Un 10,5 % más que en 2024. El 87,5 % de todas las transacciones del país.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "8441866",
-                  "url": "https://images.pexels.com/photos/8441866/pexels-photo-8441866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Kampus Production",
-                  "pagina": "https://www.pexels.com/photo/elderly-clients-signing-documents-8441866/"
-                },
-                "fichero": "recortes-auto/pexels-8441866.png"
-              },
-              "fuente": "INE Portugal"
-            },
-            {
-              "tipo": "frase",
-              "texto": "El comprador del récord *era portugués*."
-            }
-          ],
-          "tipo": "recorte"
-        },
-        {
-          "id": "b5-06",
-          "vo": "Esto rompe el relato de raíz. El año del mayor encarecimiento de la historia portuguesa fue también el año en que los extranjeros pesaron menos. Falta explicar de dónde salió el dinero.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "frase",
-              "texto": "Falta saber *de dónde salió el dinero*.",
-              "night": true
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "contable",
-              "camara": "push",
-              "rotulo": {
-                "texto": "Y ahí entra *el Estado*"
+                "buscar": "bank clerk at desk with client",
+                "tono": "carmin",
+                "titular": "La respuesta está en la ventanilla del banco",
+                "apoyo": "No en el aeropuerto."
               }
             }
           ],
-          "tipo": "frase"
+          "tipo": "objeto",
+          "objeto": "carpeta"
         }
       ]
     },
     {
       "id": "b6",
-      "nombre": "El crédito",
+      "nombre": "Quien compro de verdad",
       "planos": [
         {
           "id": "b6-01",
-          "vo": "Salió de los bancos, con permiso del Banco Central Europeo. Los tipos del crédito hipotecario portugués cerraron dos mil veinticinco en tres coma trece por ciento, casi un punto menos que un año antes.",
+          "vo": "En dos mil veinticinco, las familias con domicilio fiscal portugués compraron ciento cuarenta y ocho mil seiscientas treinta y dos viviendas. Un diez coma cinco por ciento más que el año anterior.",
           "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "bank branch interior customers",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "35545660",
-                  "url": "https://videos.pexels.com/video-files/35545660/15059169_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "Sururi Ballıdağ Director",
-                  "pagina": "https://www.pexels.com/video/busy-cafe-with-customers-ordering-at-counter-35545660/"
-                },
-                "fichero": "clips/pexels-35545660.mp4"
-              },
-              "kicker": "CRÉDITO VIVIENDA · DIC 2025",
-              "fuente": "AICCOPN",
-              "tags": [
-                {
-                  "t": "3,13 %",
-                  "x": 24,
-                  "y": 28,
-                  "in": 0.6,
-                  "tone": "carmin",
-                  "anim": "pop"
-                },
-                {
-                  "t": "−96 puntos básicos en un año",
-                  "x": 24,
-                  "y": 44,
-                  "in": 1.9,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "balanza",
-              "rotulo": {
-                "texto": "Baja el interés, *sube la puja*"
-              }
-            }
-          ],
-          "tipo": "clip"
-        },
-        {
-          "id": "b6-02",
-          "vo": "Y cuando baja el precio del dinero, cada comprador puede ofrecer más por la misma casa. El nuevo crédito a la vivienda de dos mil veinticinco fue de veintitrés mil trescientos veinticinco millones de euros. Un treinta y uno por ciento más.",
-          "voz": {
-            "speed": 0.96
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "contador",
-              "kicker": "NUEVO CRÉDITO VIVIENDA · 2025",
+              "kicker": "COMPRAS DE FAMILIAS RESIDENTES · 2025",
+              "fuente": "INE Portugal",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 148632,
+                "etiqueta": "viviendas compradas por familias residentes"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "family moving into new apartment",
+                "tono": "ocre"
+              },
+              "tags": [
+                {
+                  "t": "+10,5 % en un año",
+                  "x": 22,
+                  "y": 78,
+                  "in": 0.9,
+                  "tone": "paper",
+                  "anim": "slideUp"
+                }
+              ]
+            }
+          ],
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b6-02",
+          "vo": "Treinta y cinco mil setecientos millones de euros. El ochenta y siete coma cinco por ciento de todas las transacciones del país, el peso más elevado desde dos mil diecinueve.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PESO DE LAS FAMILIAS RESIDENTES",
+              "fuente": "INE Portugal",
+              "barras": {
+                "unidad": "% de las transacciones",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Familias residentes",
+                    "valor": 87.5,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Resto",
+                    "valor": 12.5,
+                    "tono": "ink",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El mercado portugués lo mueve *Portugal*."
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b6-03",
+          "vo": "¿Con qué dinero? Con crédito. El nuevo crédito a la vivienda, sin contar renegociaciones, alcanzó veintitrés mil trescientos veinticinco millones de euros en dos mil veinticinco. Un treinta y uno por ciento más.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "texto": "Crédito nuevo, sin renegociaciones"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "NUEVO CRÉDITO A LA VIVIENDA · 2025",
               "fuente": "AICCOPN",
               "de": {
                 "valor": 0,
@@ -1502,69 +1404,98 @@
               },
               "a": {
                 "valor": 23325,
-                "etiqueta": "millones de euros en nuevo crédito"
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Un *31 %* más que el año anterior."
+                "etiqueta": "millones de euros concedidos"
+              },
+              "tags": [
+                {
+                  "t": "+31,1 %",
+                  "x": 72,
+                  "y": 68,
+                  "in": 1.9,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
             }
           ],
-          "tipo": "contador"
+          "tipo": "objeto",
+          "objeto": "carpeta"
         },
         {
-          "id": "b6-03",
-          "vo": "La hipoteca media portuguesa alcanzó ciento setenta y cinco mil euros, con el importe medio subiendo más de un veintiuno por ciento. Los dos son récords, y los dos los publica el Banco de Portugal.",
+          "id": "b6-04",
+          "vo": "Porque el precio del dinero bajó. En diciembre de dos mil veinticinco, el tipo del crédito a la vivienda estaba en el tres coma trece por ciento, casi un punto menos que un año antes.",
           "voz": {
-            "speed": 0.97
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "recorte",
-              "lado": "izq",
+              "lado": "der",
               "recorte": {
-                "buscar": "bank clerk at desk portrait",
-                "tono": "carmin",
-                "cifra": "175.000 €",
-                "titular": "Hipoteca media en 2025",
-                "apoyo": "Récord histórico. El importe medio subió más de un 21 % en un año.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "34221176",
-                  "url": "https://images.pexels.com/photos/34221176/pexels-photo-34221176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Luis Sevilla",
-                  "pagina": "https://www.pexels.com/photo/professional-woman-in-modern-office-setting-34221176/"
-                },
-                "fichero": "recortes-auto/pexels-34221176.png"
-              },
-              "fuente": "Banco de Portugal, 22/06/2026"
+                "buscar": "man in suit calculating with pen",
+                "tono": "ocre",
+                "cifra": "3,13 %",
+                "titular": "Tipo del crédito a la vivienda en diciembre de 2025",
+                "apoyo": "Noventa y seis puntos básicos por debajo del año anterior. AICCOPN."
+              }
             },
             {
               "tipo": "objeto",
-              "objeto": "casa",
-              "rotulo": {
-                "texto": "Ciento tres veces *el sueldo mensual medio*"
-              }
+              "objeto": "balanza"
             }
           ],
-          "tipo": "recorte"
+          "tipo": "recorte",
+          "objeto": "carpeta"
         },
         {
-          "id": "b6-04",
-          "vo": "El saldo total de crédito a la vivienda en Portugal está en ciento dieciséis mil ochocientos millones de euros, un once por ciento más que doce meses antes. La deuda hipotecaria del país crece a dos dígitos.",
+          "id": "b6-05",
+          "vo": "Y cuando baja el tipo, sube lo que el banco te deja pedir. El importe medio de las hipotecas firmadas en dos mil veinticinco fue de ciento setenta y cinco mil euros: más de un veintiuno por ciento más, y récord histórico.",
           "voz": {
-            "speed": 0.96
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "HIPOTECA MEDIA · 2025",
+              "fuente": "Banco de Portugal, 22/06/2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 175000,
+                "etiqueta": "euros de hipoteca media"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Récord de importe. *Récord de precios.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ],
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b6-06",
+          "vo": "El saldo total del crédito a la vivienda en Portugal ronda los ciento diecisiete mil millones de euros, un once por ciento más que el año anterior.",
+          "voz": {
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "barras",
-              "kicker": "STOCK DE CRÉDITO VIVIENDA",
+              "kicker": "STOCK DE CRÉDITO A LA VIVIENDA",
               "fuente": "Banco de Portugal",
               "barras": {
                 "unidad": "miles de millones de euros",
                 "datos": [
                   {
-                    "etiqueta": "Stock",
+                    "etiqueta": "Junio 2026",
                     "valor": 116.8,
                     "tono": "carmin",
                     "decimales": 1
@@ -1574,420 +1505,90 @@
               "tags": [
                 {
                   "t": "+10,9 % interanual",
-                  "x": 60,
-                  "y": 36,
-                  "in": 1.2,
-                  "tone": "ocre",
+                  "x": 62,
+                  "y": 34,
+                  "in": 1.4,
+                  "tone": "ink",
                   "anim": "slideL"
                 }
               ]
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "suburban housing development aerial",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "34668476",
-                  "url": "https://videos.pexels.com/video-files/34668476/14694532_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 13,
-                  "autor": "Michael",
-                  "pagina": "https://www.pexels.com/video/aerial-view-of-suburban-neighborhood-development-34668476/"
-                },
-                "fichero": "clips/pexels-34668476.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Y aún no hemos hablado de la oferta",
-                  "x": 20,
-                  "y": 70,
-                  "in": 1.4,
-                  "tone": "paper",
-                  "anim": "slideUp"
-                }
-              ]
+              "tipo": "objeto",
+              "objeto": "grua"
             }
           ],
-          "tipo": "barras"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b6-05",
-          "vo": "Fíjate en lo que ha pasado. Se retiró a un comprador que era el cinco por ciento del mercado, y se metió más crédito para el noventa y cinco por ciento restante. El resultado no es un misterio.",
+          "id": "b6-07",
+          "vo": "Esta es la mecánica entera, sin adornos. Más capacidad de endeudamiento, el mismo número de casas, y el precio ajustando la diferencia. No hace falta ningún extranjero para que funcione.",
           "voz": {
-            "speed": 0.98
+            "speed": 0.95
           },
           "escenas": [
             {
               "tipo": "frase",
-              "texto": "Menos compradores de fuera. *Más crédito dentro*.",
+              "texto": "Más crédito. *Las mismas casas.*",
               "night": true
             },
             {
-              "tipo": "objeto",
-              "objeto": "dosEpocas",
-              "rotulo": {
-                "texto": "El resultado *no es un misterio*"
+              "tipo": "recorte",
+              "lado": "izq",
+              "recorte": {
+                "buscar": "real estate agent handing over keys",
+                "tono": "carmin",
+                "titular": "El precio ajusta la diferencia",
+                "apoyo": "Y lo hace contra el comprador que llega más tarde."
               }
             }
           ],
-          "tipo": "frase"
+          "tipo": "frase",
+          "objeto": "carpeta"
         }
       ]
     },
     {
       "id": "b7",
-      "nombre": "El déficit de oferta",
-      "planos": [
-        {
-          "id": "b7-01",
-          "vo": "Porque el problema de fondo estaba en el otro lado de la ecuación. El Banco de Portugal estima que en la última década faltaron unas trescientas mil viviendas respecto a las que el país necesitaba.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "contador",
-              "kicker": "ESTIMACIÓN · DÉFICIT ACUMULADO",
-              "fuente": "Banco de Portugal, junio 2026",
-              "de": {
-                "valor": 0,
-                "etiqueta": ""
-              },
-              "a": {
-                "valor": 300000,
-                "etiqueta": "viviendas que faltaron en diez años"
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Es una *estimación*, no un censo."
-            }
-          ],
-          "tipo": "contador"
-        },
-        {
-          "id": "b7-02",
-          "vo": "Trescientas mil viviendas. Con una media de dos personas y media por hogar, ahí cabría la población de una ciudad como Oporto varias veces. Ese es el agujero que Portugal arrastra desde la crisis.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "abandoned unfinished building site",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "36113423",
-                  "url": "https://videos.pexels.com/video-files/36113423/15315561_1920_1080_24fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 9,
-                  "autor": "TR Studio",
-                  "pagina": "https://www.pexels.com/video/aerial-view-of-urban-construction-site-36113423/"
-                },
-                "fichero": "clips/pexels-36113423.mp4"
-              },
-              "kicker": "EL AGUJERO",
-              "tags": [
-                {
-                  "t": "Una década sin construir",
-                  "x": 22,
-                  "y": 30,
-                  "in": 0.8,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "plano",
-              "rotulo": {
-                "texto": "No es un problema *de quién compra*"
-              }
-            }
-          ],
-          "tipo": "clip"
-        },
-        {
-          "id": "b7-03",
-          "vo": "Portugal ha empezado a construir otra vez. Cuarenta y ocho mil ochocientas cuarenta y cuatro viviendas licenciadas en dos mil veinticinco, un catorce y medio por ciento más, el mejor dato desde dos mil once.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "barras",
-              "kicker": "VIVIENDAS LICENCIADAS",
-              "fuente": "INE Portugal, julio 2026",
-              "barras": {
-                "unidad": "licencias concedidas",
-                "datos": [
-                  {
-                    "etiqueta": "2024",
-                    "valor": 42612,
-                    "tono": "ink"
-                  },
-                  {
-                    "etiqueta": "2025",
-                    "valor": 48844,
-                    "tono": "verde"
-                  }
-                ]
-              }
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "grua",
-              "camara": "push",
-              "rotulo": {
-                "texto": "Mejor dato *desde 2011*"
-              }
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b7-04",
-          "vo": "Aquí hay que declarar una discrepancia. El Banco de Portugal habla de cuarenta y un mil novecientas licencias de obra nueva, la asociación del sector de cuarenta y un mil quinientas, y el instituto de estadística de cuarenta y ocho mil ochocientas con rehabilitación incluida.",
-          "voz": {
-            "speed": 0.94
-          },
-          "escenas": [
-            {
-              "tipo": "lista",
-              "kicker": "TRES CIFRAS, TRES DEFINICIONES",
-              "fuente": "BdP / AICCOPN / INE",
-              "lista": {
-                "titulo": "Viviendas licenciadas en 2025",
-                "puntos": [
-                  "Banco de Portugal: 41.900 (obra nueva)",
-                  "AICCOPN: 41.592 (construcción nueva)",
-                  "INE: 48.844 (total con rehabilitación)"
-                ],
-                "activo": 0
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "No miden *lo mismo*."
-            }
-          ],
-          "tipo": "lista"
-        },
-        {
-          "id": "b7-05",
-          "vo": "Pero el dato que de verdad importa es otro. Licenciadas, cuarenta y ocho mil. Terminadas, treinta mil cuatrocientas veinticinco. Un permiso no es una casa donde puedas dormir.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "barras",
-              "kicker": "2025 · PERMISO VS. LLAVE",
-              "fuente": "INE Portugal",
-              "barras": {
-                "unidad": "viviendas",
-                "datos": [
-                  {
-                    "etiqueta": "Licenciadas",
-                    "valor": 48844,
-                    "tono": "ocre"
-                  },
-                  {
-                    "etiqueta": "Terminadas",
-                    "valor": 30425,
-                    "tono": "carmin"
-                  }
-                ]
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Un permiso *no es una casa*.",
-              "night": true
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b7-06",
-          "vo": "En el área metropolitana de Lisboa, entre dos mil veinticuatro y dos mil veinticinco, el cuarenta y uno por ciento de la oferta proyectada se quedó en el cajón. Diez mil seiscientas viviendas que se dibujaron y no se licenciaron.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "recorte",
-              "lado": "der",
-              "recorte": {
-                "buscar": "architect with rolled blueprints",
-                "tono": "carmin",
-                "cifra": "10.600",
-                "titular": "Viviendas proyectadas que no llegaron a licencia",
-                "apoyo": "Área Metropolitana de Lisboa, 2024-2025. El 41 % de la oferta potencial.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "4872040",
-                  "url": "https://images.pexels.com/photos/4872040/pexels-photo-4872040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Gustavo Fring",
-                  "pagina": "https://www.pexels.com/photo/woman-wearing-a-safety-helmet-at-the-office-4872040/"
-                },
-                "fichero": "recortes-auto/pexels-4872040.png"
-              },
-              "fuente": "Vida Imobiliária, marzo 2026"
-            },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "city hall office paperwork stacks",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7054942",
-                  "url": "https://videos.pexels.com/video-files/7054942/7054942-hd_1920_1080_24fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 8,
-                  "autor": "Kindel Media",
-                  "pagina": "https://www.pexels.com/video/stack-of-paperwork-on-the-desk-7054942/"
-                },
-                "fichero": "clips/pexels-7054942.mp4"
-              },
-              "tags": [
-                {
-                  "t": "El cuello de botella está en la ventanilla",
-                  "x": 20,
-                  "y": 68,
-                  "in": 1.2,
-                  "tone": "paper",
-                  "anim": "slideUp"
-                }
-              ]
-            }
-          ],
-          "tipo": "recorte"
-        },
-        {
-          "id": "b7-07",
-          "vo": "Y el propio Banco de Portugal avisa: aunque se construya a este ritmo, no basta por sí solo para cerrar el déficit acumulado. Vamos a tardar años en tener las casas que ya nos faltaban en dos mil quince.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "frase",
-              "texto": "Construir a este ritmo *no basta*.",
-              "night": true
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "fabrica",
-              "rotulo": {
-                "texto": "El supervisor lo dice *él mismo*"
-              }
-            }
-          ],
-          "tipo": "frase"
-        }
-      ]
-    },
-    {
-      "id": "b8",
       "nombre": "El Estado como comprador",
       "planos": [
         {
-          "id": "b8-01",
-          "vo": "Con esa oferta corta, el Gobierno portugués decidió actuar por el lado de la demanda. Exención de impuesto de transmisiones para los jóvenes y garantía pública para que el banco financiara el cien por cien.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "prime minister press conference podium",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "6952224",
-                  "url": "https://videos.pexels.com/video-files/6952224/6952224-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 12,
-                  "autor": "Werner Pfennig",
-                  "pagina": "https://www.pexels.com/video/a-woman-speaking-on-a-podium-with-men-by-her-side-while-wearing-face-masks-6952224/"
-                },
-                "fichero": "clips/pexels-6952224.mp4"
-              },
-              "kicker": "GOBIERNO DE LUÍS MONTENEGRO",
-              "tags": [
-                {
-                  "t": "Exención de IMT",
-                  "x": 22,
-                  "y": 28,
-                  "in": 0.7,
-                  "tone": "paper",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "Garantía pública del Estado",
-                  "x": 22,
-                  "y": 44,
-                  "in": 2,
-                  "tone": "ocre",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "sala",
-              "rotulo": {
-                "texto": "Consejo de Ministros, *25 de septiembre de 2025*"
-              }
-            }
-          ],
-          "tipo": "clip"
-        },
-        {
-          "id": "b8-02",
-          "vo": "El siete de enero de dos mil veintiséis, el ministro de Finanzas Joaquim Miranda Sarmento compareció en la comisión de presupuesto y puso números: unos setenta mil jóvenes beneficiados por la exención fiscal.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "retrato",
-              "kicker": "COMISIÓN DE PRESUPUESTO · 07/01/2026",
-              "retrato": {
-                "nombre": "Joaquim Miranda Sarmento",
-                "papel": "Ministro de Finanzas de Portugal",
-                "fecha": "7 de enero de 2026",
-                "titular": "Unos 70.000 jóvenes con exención de IMT e Impuesto de Timbre"
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Y veintitrés mil con *garantía del Estado*."
-            }
-          ],
-          "tipo": "retrato"
-        },
-        {
-          "id": "b8-03",
-          "vo": "El efecto en el mercado fue inmediato. Los jóvenes de dieciocho a treinta y cinco años concentraron el cincuenta y ocho por ciento de los nuevos créditos para vivienda habitual en dos mil veinticinco. Once puntos más que el año anterior.",
+          "id": "b7-01",
+          "vo": "Y ahora la parte que casi nadie cuenta. Esa demanda doméstica no apareció sola. La financió el Estado portugués, con dinero público y con avales.",
           "voz": {
             "speed": 0.96
           },
           "escenas": [
             {
+              "tipo": "frase",
+              "texto": "Esa demanda *la puso el Estado*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "parliament session chamber",
+                "tono": "carmin"
+              }
+            }
+          ],
+          "tipo": "frase",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b7-02",
+          "vo": "En dos mil veinticinco, los menores de treinta y cinco años firmaron el cincuenta y ocho por ciento de todos los nuevos créditos para vivienda propia. Once puntos más que el año anterior.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
               "tipo": "barras",
-              "kicker": "NUEVOS CRÉDITOS · 18-35 AÑOS",
+              "kicker": "NUEVOS CRÉDITOS · JÓVENES 18-35",
               "fuente": "Banco de Portugal",
               "barras": {
-                "unidad": "cuota de nuevos contratos",
+                "unidad": "% de los nuevos contratos",
                 "sufijo": "%",
                 "datos": [
                   {
@@ -2004,31 +1605,21 @@
               }
             },
             {
-              "tipo": "recorte",
-              "lado": "izq",
-              "recorte": {
-                "buscar": "young man with house keys smiling",
-                "tono": "ocre",
-                "titular": "El comprador nuevo del mercado portugués",
-                "apoyo": "Menor de 35 años, con garantía pública y exención fiscal detrás.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "8815915",
-                  "url": "https://images.pexels.com/photos/8815915/pexels-photo-8815915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Kampus Production",
-                  "pagina": "https://www.pexels.com/photo/real-estate-agent-handing-house-keys-8815915/"
-                },
-                "fichero": "recortes-auto/pexels-8815915.png"
+              "tipo": "objeto",
+              "objeto": "sala",
+              "rotulo": {
+                "texto": "El comprador típico cambió de edad"
               }
             }
           ],
-          "tipo": "barras"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b8-04",
-          "vo": "En el año del mayor encarecimiento de la historia, los créditos con garantía pública fueron el cuarenta y dos coma siete por ciento de toda la financiación a menores de treinta y cinco. Y el veintitrés y medio por ciento de todo el crédito hipotecario del país.",
+          "id": "b7-03",
+          "vo": "De toda la financiación concedida a esos jóvenes, el cuarenta y dos coma siete por ciento llevaba garantía pública del Estado. Uno de cada cuatro euros de crédito hipotecario del país entero.",
           "voz": {
-            "speed": 0.95
+            "speed": 0.98
           },
           "escenas": [
             {
@@ -2036,7 +1627,7 @@
               "kicker": "CRÉDITO CON GARANTÍA PÚBLICA · 2025",
               "fuente": "Banco de Portugal",
               "barras": {
-                "unidad": "porcentaje",
+                "unidad": "% del crédito",
                 "sufijo": "%",
                 "datos": [
                   {
@@ -2046,7 +1637,7 @@
                     "decimales": 1
                   },
                   {
-                    "etiqueta": "De todo el país",
+                    "etiqueta": "Del total país",
                     "valor": 23.5,
                     "tono": "ocre",
                     "decimales": 1
@@ -2055,106 +1646,141 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "Uno de cada cuatro euros *lo avala el Estado*."
-            },
-            {
               "tipo": "objeto",
-              "objeto": "carpeta"
+              "objeto": "carpeta",
+              "camara": "push",
+              "rotulo": {
+                "texto": "El aval lo firma *el contribuyente*"
+              }
             }
           ],
-          "tipo": "barras"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b8-05",
-          "vo": "Hasta marzo de dos mil veintiséis se habían firmado treinta y dos mil trescientos contratos con aval del Estado, por seis mil quinientos millones de euros. Eso es dinero público empujando la demanda hacia arriba.",
+          "id": "b7-04",
+          "vo": "Hasta marzo de dos mil veintiséis se habían firmado treinta y dos mil trescientos contratos con garantía del Estado, por seis mil quinientos millones de euros.",
           "voz": {
-            "speed": 0.97
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "contador",
-              "kicker": "AVAL DEL ESTADO · HASTA MARZO 2026",
-              "fuente": "Banco de Portugal",
+              "kicker": "CONTRATOS CON AVAL PÚBLICO",
+              "fuente": "Banco de Portugal, marzo 2026",
               "de": {
                 "valor": 0,
                 "etiqueta": ""
               },
               "a": {
-                "valor": 6500,
-                "etiqueta": "millones de euros avalados"
-              }
-            },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "notary office signing contract",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "8731515",
-                  "url": "https://videos.pexels.com/video-files/8731515/8731515-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 13,
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/video/lawyers-writing-on-documents-8731515/"
-                },
-                "fichero": "clips/pexels-8731515.mp4"
+                "valor": 32300,
+                "etiqueta": "hipotecas avaladas por el Estado"
               },
               "tags": [
                 {
-                  "t": "32.300 contratos",
-                  "x": 22,
+                  "t": "6.500 M€",
+                  "x": 70,
                   "y": 30,
-                  "in": 0.9,
+                  "in": 1.7,
                   "tone": "carmin",
                   "anim": "pop"
                 }
               ]
+            },
+            {
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "young couple signing contract",
+                "tono": "ocre",
+                "titular": "Y una exención de impuestos encima",
+                "apoyo": "Exención de IMT e Impuesto de Timbre para la primera vivienda de los jóvenes."
+              }
             }
           ],
-          "tipo": "contador"
-        }
-      ]
-    },
-    {
-      "id": "b9",
-      "nombre": "La ayuda que se come el vendedor",
-      "planos": [
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
         {
-          "id": "b9-01",
-          "vo": "Y aquí llega la parte que más incomoda. Hay un estudio del ISCTE de Lisboa, citado por el diario Público, que mide qué pasó con la exención de impuestos para jóvenes compradores.",
+          "id": "b7-05",
+          "vo": "El siete de enero de dos mil veintiséis, el ministro de Finanzas, Joaquim Miranda Sarmento, dio las cifras en la comisión parlamentaria: unos setenta mil jóvenes beneficiados por la exención de impuestos y veintitrés mil por la garantía pública.",
           "voz": {
             "speed": 0.98
           },
           "escenas": [
             {
-              "tipo": "objeto",
-              "objeto": "contable",
-              "camara": "push",
-              "kicker": "ISCTE-IUL · ESTUDIO ACADÉMICO",
-              "rotulo": {
-                "texto": "Qué pasó con *el ahorro fiscal*"
+              "tipo": "retrato",
+              "retrato": {
+                "nombre": "Joaquim Miranda Sarmento",
+                "papel": "Ministro de Finanzas de Portugal",
+                "fecha": "7 de enero de 2026",
+                "titular": "70.000 jóvenes con exención fiscal; 23.000 con garantía del Estado"
               }
             },
             {
-              "tipo": "frase",
-              "texto": "La respuesta no gusta *a nadie*."
+              "tipo": "objeto",
+              "objeto": "contable"
             }
           ],
-          "tipo": "objeto"
+          "tipo": "retrato",
+          "objeto": "carpeta"
         },
         {
-          "id": "b9-02",
-          "vo": "La conclusión es que el ahorro fiscal se lo come la subida de precios. En las viviendas más baratas, en tres o cuatro meses ya ha desaparecido. En los segmentos más caros, en menos de quince meses.",
+          "id": "b7-06",
+          "vo": "Un estudio del ISCTE de Lisboa fue a mirar qué había pasado con ese ahorro fiscal. Comparó la evolución de precios en Portugal con la de España, usada como mercado de control.",
           "voz": {
-            "speed": 0.96
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "kicker": "MÉTODO: DIFERENCIAS EN DIFERENCIAS",
+              "fuente": "ISCTE-IUL, vía Público",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "portugal",
+                  "espana"
+                ]
+              },
+              "tags": [
+                {
+                  "t": "Tratamiento",
+                  "x": 22,
+                  "y": 44,
+                  "in": 0.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                },
+                {
+                  "t": "Control",
+                  "x": 46,
+                  "y": 38,
+                  "in": 1.5,
+                  "tone": "ink",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "frase",
+              "texto": "Es un estudio académico, *no una estadística oficial*."
+            }
+          ],
+          "tipo": "mapa",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b7-07",
+          "vo": "El resultado: el ahorro fiscal se lo come la subida de precios. En las viviendas más baratas desaparece en tres o cuatro meses. En las más caras, en menos de quince.",
+          "voz": {
+            "speed": 0.97
           },
           "escenas": [
             {
               "tipo": "barras",
-              "kicker": "TIEMPO HASTA QUE EL AHORRO DESAPARECE",
-              "fuente": "Estudio ISCTE-IUL vía Público",
+              "kicker": "TIEMPO HASTA QUE SE EVAPORA EL AHORRO",
+              "fuente": "ISCTE-IUL (preprint)",
               "barras": {
                 "unidad": "meses",
                 "datos": [
@@ -2166,293 +1792,318 @@
                   {
                     "etiqueta": "Vivienda cara",
                     "valor": 15,
-                    "tono": "ocre"
+                    "tono": "ink"
                   }
                 ]
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "El descuento acabó *en el precio*.",
-              "night": true
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b9-03",
-          "vo": "Hay que decir cómo está hecho. Comparan la evolución del precio por metro cuadrado de los anuncios entre enero de dos mil veintitrés y diciembre de dos mil veinticuatro, usando España como mercado de control.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "mapa",
-              "mapa": {
-                "region": "europa",
-                "destaca": [
-                  "portugal",
-                  "espana"
-                ]
-              },
-              "kicker": "METODOLOGÍA · DIFERENCIAS EN DIFERENCIAS",
-              "tags": [
-                {
-                  "t": "Portugal: con exención",
-                  "x": 58,
-                  "y": 30,
-                  "in": 0.8,
-                  "tone": "carmin",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "España: control",
-                  "x": 58,
-                  "y": 46,
-                  "in": 2,
-                  "tone": "ink",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "frase",
-              "texto": "Es un estudio académico, *no una estadística oficial*."
-            }
-          ],
-          "tipo": "mapa"
-        },
-        {
-          "id": "b9-04",
-          "vo": "Y el efecto no se queda en quien recibe la ayuda. El estudio señala que también lo pagan los compradores que no cumplen los requisitos, porque se encuentran un mercado con precios más altos.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "recorte",
-              "lado": "der",
-              "recorte": {
-                "buscar": "middle aged woman worried portrait",
-                "tono": "carmin",
-                "titular": "El comprador de 40 años que no cumple requisitos",
-                "apoyo": "No recibe la exención, pero compra en un mercado que la exención encareció.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "6874207",
-                  "url": "https://images.pexels.com/photos/6874207/pexels-photo-6874207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Teona Swift",
-                  "pagina": "https://www.pexels.com/photo/melancholic-mature-woman-looking-down-sadly-6874207/"
-                },
-                "fichero": "recortes-auto/pexels-6874207.png"
               }
             },
             {
               "tipo": "objeto",
               "objeto": "balanza",
               "rotulo": {
-                "texto": "Ayudas a unos, *precio para todos*"
+                "texto": "Y el precio más alto lo paga *también quien no tiene la ayuda*"
               }
             }
           ],
-          "tipo": "recorte"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b9-05",
-          "vo": "El Fondo Monetario Internacional dice lo mismo en junio de dos mil veintiséis, y con una recomendación clara: los apoyos a la compra de primera vivienda aumentaron la demanda y agravaron los desequilibrios. Habría que retirarlos.",
+          "id": "b7-08",
+          "vo": "El Fondo Monetario Internacional llegó a la misma conclusión: los apoyos a los jóvenes para comprar aumentaron la demanda, agravaron los desequilibrios y deberían retirarse. Mientras tanto, el Gobierno de Luís Montenegro aprobó en septiembre de dos mil veinticinco el IVA reducido en construcción.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "retrato",
+              "retrato": {
+                "nombre": "Luís Montenegro",
+                "papel": "Primer Ministro de Portugal",
+                "fecha": "Consejo de Ministros, 25 de septiembre de 2025",
+                "titular": "IVA al 6 % en construcción de vivienda hasta 648.000 euros"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El FMI pide *retirar los apoyos a la demanda*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ],
+          "tipo": "retrato",
+          "objeto": "carpeta"
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "La oferta que no llega",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Porque el problema de fondo no está en quién compra. Está en cuántas casas hay. Y ahí el Banco de Portugal tiene una estimación que ordena todo el debate.",
           "voz": {
             "speed": 0.96
           },
           "escenas": [
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "imf headquarters washington entrance",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "4987955",
-                  "url": "https://videos.pexels.com/video-files/4987955/4987955-hd_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 9,
-                  "autor": "CityXcape",
-                  "pagina": "https://www.pexels.com/video/panning-shot-of-the-united-states-mint-sign-4987955/"
-                },
-                "fichero": "clips/pexels-4987955.mp4"
-              },
-              "kicker": "FMI · JUNIO 2026",
-              "tags": [
-                {
-                  "t": "\"Deberían retirarse\"",
-                  "x": 22,
-                  "y": 30,
-                  "in": 1,
-                  "tone": "carmin",
-                  "anim": "pop"
-                }
-              ]
+              "tipo": "frase",
+              "texto": "No es quién compra. *Es cuántas hay.*",
+              "night": true
             },
             {
-              "tipo": "frase",
-              "texto": "Nadie quiere ser quien *quite la ayuda*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty construction site concrete",
+                "tono": "ocre"
+              }
             }
           ],
-          "tipo": "clip"
+          "tipo": "frase",
+          "objeto": "carpeta"
         },
         {
-          "id": "b9-06",
-          "vo": "El mismo Fondo calcula que a cierre de dos mil veinticinco el ratio entre precios y rentas estaba más de dos desviaciones típicas por encima de la media de veinte años. Su horquilla de sobrevaloración va del veinte al cuarenta por ciento.",
+          "id": "b8-02",
+          "vo": "Unas trescientas mil viviendas de déficit acumulado en la última década. Es una estimación, no un dato: mide la diferencia entre lo que se construyó y lo que habría hecho falta construir.",
           "voz": {
-            "speed": 0.95
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DÉFICIT ACUMULADO · ESTIMACIÓN",
+              "fuente": "Banco de Portugal, junio 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 300000,
+                "etiqueta": "viviendas que faltan (estimación)"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "texto": "Es una *estimación de modelo*, no una estadística"
+              }
+            }
+          ],
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b8-03",
+          "vo": "Trescientas mil viviendas son, al ritmo actual de obra terminada, casi diez años construyendo solo para tapar el agujero de la década pasada. Sin atender a nadie que nazca o llegue mientras tanto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "*Diez años* de obra solo para empatar."
+            },
+            {
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "construction worker with helmet portrait",
+                "tono": "carmin",
+                "cifra": "30.425",
+                "titular": "Viviendas terminadas en 2025",
+                "apoyo": "Un 8,7 % más que el año anterior. INE, julio de 2026."
+              }
+            }
+          ],
+          "tipo": "frase",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b8-04",
+          "vo": "Y no es que no se esté construyendo. En dos mil veinticinco se licenciaron cuarenta y ocho mil ochocientas cuarenta y cuatro viviendas, un catorce coma seis por ciento más: el valor más alto desde dos mil once.",
+          "voz": {
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "barras",
-              "kicker": "SOBREVALORACIÓN ESTIMADA",
-              "fuente": "FMI, junio 2026 · Comisión Europea, dic. 2025",
+              "kicker": "LICENCIAS DE VIVIENDA",
+              "fuente": "INE Portugal, julio 2026",
               "barras": {
-                "unidad": "estimaciones",
-                "sufijo": "%",
+                "unidad": "viviendas licenciadas",
                 "datos": [
                   {
-                    "etiqueta": "FMI mínimo",
-                    "valor": 20,
+                    "etiqueta": "2024",
+                    "valor": 42612,
                     "tono": "ink"
                   },
                   {
-                    "etiqueta": "Comisión UE",
-                    "valor": 25,
+                    "etiqueta": "2025",
+                    "valor": 48844,
                     "tono": "ocre"
-                  },
-                  {
-                    "etiqueta": "FMI máximo",
-                    "valor": 40,
-                    "tono": "carmin"
                   }
                 ]
               }
             },
             {
-              "tipo": "frase",
-              "texto": "Son *modelos*, no verdades."
+              "tipo": "objeto",
+              "objeto": "fabrica",
+              "rotulo": {
+                "texto": "Máximo desde 2011"
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b8-05",
+          "vo": "Aquí hay que declarar una discrepancia entre fuentes. El Banco de Portugal habla de cuarenta y un mil novecientas viviendas nuevas; el instituto estadístico, de cuarenta y ocho mil ochocientas totales. No miden lo mismo: uno cuenta obra nueva, el otro incluye rehabilitación.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Tres cifras que no son la misma cosa",
+                "activo": 1,
+                "puntos": [
+                  "Banco de Portugal · 41.900 nuevas",
+                  "AICCOPN · 41.592 obra nueva",
+                  "INE · 48.844 totales, rehabilitación incluida"
+                ]
+              }
             },
             {
               "tipo": "objeto",
               "objeto": "interrogante"
             }
           ],
-          "tipo": "barras"
-        }
-      ]
-    },
-    {
-      "id": "b10",
-      "nombre": "Lo que contradice la tesis",
-      "planos": [
+          "tipo": "lista",
+          "objeto": "carpeta"
+        },
         {
-          "id": "b10-01",
-          "vo": "Ahora la parte que estropea el vídeo. Hay un dato europeo que dice que Portugal no está tan mal, y si no lo cuento yo lo va a contar alguien en los comentarios.",
+          "id": "b8-06",
+          "vo": "Pero el papel no es hormigón. En el área metropolitana de Lisboa, en dos mil veinticuatro y dos mil veinticinco, el cuarenta y uno por ciento de la oferta prevista se quedó sin licenciar. Diez mil seiscientas viviendas que no existen.",
           "voz": {
-            "speed": 0.99
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "ÁREA METROPOLITANA DE LISBOA",
+              "fuente": "Vida Imobiliária, marzo 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 10600,
+                "etiqueta": "viviendas proyectadas que no se licenciaron"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "lisbon rooftops city view",
+                "tono": "carmin"
+              },
+              "tags": [
+                {
+                  "t": "41 % de la oferta potencial, sin concretar",
+                  "x": 18,
+                  "y": 76,
+                  "in": 1,
+                  "tone": "paper",
+                  "anim": "slideUp"
+                }
+              ]
+            }
+          ],
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b8-07",
+          "vo": "Y el propio supervisor avisa: incluso con el mejor año de licencias desde la crisis, la oferta nueva no basta por sí sola para compensar el déficit acumulado.",
+          "voz": {
+            "speed": 0.95
           },
           "escenas": [
             {
               "tipo": "frase",
-              "texto": "El dato que *estropea el vídeo*.",
+              "texto": "El mejor año en quince. *Y sigue sin bastar.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua",
+              "camara": "push"
+            }
+          ],
+          "tipo": "frase",
+          "objeto": "carpeta"
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Hasta aquí, el relato encaja. Ahora los datos que lo estropean, porque existen y hay que ponerlos.",
+          "voz": {
+            "speed": 0.94
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Lo que estropea la historia.",
               "night": true
             },
             {
               "tipo": "clip",
               "clip": {
-                "buscar": "european commission building brussels",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "9512226",
-                  "url": "https://videos.pexels.com/video-files/9512226/9512226-hd_1366_720_25fps.mp4",
-                  "ancho": 1366,
-                  "duracion": 9,
-                  "autor": "Ron Lach",
-                  "pagina": "https://www.pexels.com/video/a-little-girl-wearing-beanie-while-skateboarding-9512226/"
-                },
-                "fichero": "clips/pexels-9512226.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Eurostat, 2024",
-                  "x": 24,
-                  "y": 30,
-                  "in": 0.8,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
+                "buscar": "newspaper printing press close up",
+                "tono": "ocre"
+              }
             }
           ],
-          "tipo": "frase"
+          "tipo": "frase",
+          "objeto": "carpeta"
         },
         {
-          "id": "b10-02",
-          "vo": "En dos mil veinticuatro, el ocho coma dos por ciento de los europeos gastaba el cuarenta por ciento o más de su renta en vivienda. En Portugal, el seis coma nueve. Portugal está mejor que la media de la Unión Europea.",
+          "id": "b9-02",
+          "vo": "El primero. La tasa de sobrecarga de costes de vivienda mide cuánta gente destina el cuarenta por ciento o más de su renta a la casa. En Portugal era del seis coma nueve por ciento de la población en dos mil veinticuatro. En la Unión Europea, del ocho coma dos.",
           "voz": {
-            "speed": 0.96
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "barras",
-              "kicker": "SOBRECARGA DE COSTES DE VIVIENDA · 2024",
-              "fuente": "Eurostat, 23/09/2025",
+              "kicker": "SOBRECARGA DE COSTES · 2024",
+              "fuente": "Eurostat",
               "barras": {
-                "unidad": "población que gasta ≥40 % de su renta",
+                "unidad": "% de la población",
                 "sufijo": "%",
                 "datos": [
-                  {
-                    "etiqueta": "Media UE",
-                    "valor": 8.2,
-                    "tono": "carmin",
-                    "decimales": 1
-                  },
                   {
                     "etiqueta": "Portugal",
                     "valor": 6.9,
-                    "tono": "verde",
-                    "decimales": 1
-                  }
-                ]
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Portugal, *por debajo* de la media."
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b10-03",
-          "vo": "Y con los jóvenes lo mismo: ocho coma cuatro por ciento en Portugal frente a nueve coma siete en la Unión Europea. Este dato es verdadero y hay que explicar por qué no contradice lo anterior.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "barras",
-              "kicker": "JÓVENES CON SOBRECARGA · 2024",
-              "fuente": "Eurostat",
-              "barras": {
-                "unidad": "porcentaje de jóvenes",
-                "sufijo": "%",
-                "datos": [
-                  {
-                    "etiqueta": "Media UE",
-                    "valor": 9.7,
-                    "tono": "carmin",
+                    "tono": "ocre",
                     "decimales": 1
                   },
                   {
-                    "etiqueta": "Portugal",
-                    "valor": 8.4,
-                    "tono": "verde",
+                    "etiqueta": "Media UE",
+                    "valor": 8.2,
+                    "tono": "ink",
                     "decimales": 1
                   }
                 ]
@@ -2460,175 +2111,187 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "casa",
+              "objeto": "balanza",
               "rotulo": {
-                "texto": "Ese indicador mide *el stock*"
+                "texto": "Portugal sale *mejor* que la media europea"
               }
             }
           ],
-          "tipo": "barras"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b10-04",
-          "vo": "El indicador mide a quien ya vive en una casa. Portugal es un país de propietarios con hipotecas viejas o pagadas, y esa gente gasta poco. No mide a quien intenta entrar hoy al mercado.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "frase",
-              "lado": "izq",
-              "texto": "elderly man in front of house door"
-            },
-            {
-              "tipo": "frase",
-              "texto": "No aparece quien *no ha podido entrar*.",
-              "night": true
-            }
-          ],
-          "tipo": "recorte"
-        },
-        {
-          "id": "b10-05",
-          "vo": "Y ese hijo tiene una cifra. Los jóvenes portugueses se van de casa de sus padres a los veintiocho coma nueve años. La media europea es veintiséis coma dos.",
+          "id": "b9-03",
+          "vo": "Entre los jóvenes pasa lo mismo: ocho coma cuatro por ciento en Portugal, nueve coma siete en la media europea. Es el dato más incómodo de todo el vídeo y por eso está aquí.",
           "voz": {
             "speed": 0.97
           },
           "escenas": [
             {
               "tipo": "barras",
-              "kicker": "EDAD DE EMANCIPACIÓN · 2024",
-              "fuente": "Eurostat, 23/09/2025",
+              "kicker": "SOBRECARGA · JÓVENES, 2024",
+              "fuente": "Eurostat",
               "barras": {
-                "unidad": "años",
+                "unidad": "% de los jóvenes",
+                "sufijo": "%",
                 "datos": [
                   {
-                    "etiqueta": "Media UE",
-                    "valor": 26.2,
-                    "tono": "ink",
-                    "decimales": 1
-                  },
-                  {
                     "etiqueta": "Portugal",
-                    "valor": 28.9,
-                    "tono": "carmin",
+                    "valor": 8.4,
+                    "tono": "ocre",
                     "decimales": 1
                   },
                   {
-                    "etiqueta": "España",
-                    "valor": 30,
-                    "tono": "ocre",
+                    "etiqueta": "Media UE",
+                    "valor": 9.7,
+                    "tono": "ink",
                     "decimales": 1
                   }
                 ]
               }
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "young adult in childhood bedroom",
+              "tipo": "recorte",
+              "lado": "izq",
+              "recorte": {
+                "buscar": "elderly man sitting in armchair",
                 "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "5425727",
-                  "url": "https://videos.pexels.com/video-files/5425727/5425727-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "Werner Pfennig",
-                  "pagina": "https://www.pexels.com/video/parents-and-child-playing-in-bed-5425727/"
-                },
-                "fichero": "clips/pexels-5425727.mp4"
+                "titular": "El indicador mide a los que ya están dentro",
+                "apoyo": "Propietarios con la hipoteca antigua o pagada. No mide a quien entra hoy al mercado."
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b9-04",
+          "vo": "El segundo. Hay una trampa estadística en la palabra extranjero. Por domicilio fiscal son el cinco por ciento del mercado. Por nacionalidad de origen, compraron cuarenta y un mil ochenta y seis viviendas en dos mil veinticinco.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "COMPRAS POR NATURALIDAD EXTRANJERA",
+              "fuente": "INE Portugal",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 41086,
+                "etiqueta": "viviendas compradas en 2025"
               },
               "tags": [
                 {
-                  "t": "Casi tres años más que la media UE",
-                  "x": 20,
-                  "y": 68,
-                  "in": 1.2,
-                  "tone": "paper",
-                  "anim": "slideUp"
+                  "t": "+6,6 % interanual",
+                  "x": 70,
+                  "y": 66,
+                  "in": 1.9,
+                  "tone": "ocre",
+                  "anim": "slideL"
                 }
               ]
+            },
+            {
+              "tipo": "frase",
+              "texto": "Dos definiciones. *Dos historias distintas.*"
             }
           ],
-          "tipo": "barras"
+          "tipo": "contador",
+          "objeto": "carpeta"
         },
         {
-          "id": "b10-06",
-          "vo": "Y hay una segunda contradicción, esta a favor del relato original. El promedio nacional del cinco por ciento esconde lo que pasa en sitios concretos y en segmentos concretos.",
+          "id": "b9-05",
+          "vo": "Pero incluso con esa definición amplia, su peso baja: el veintisiete coma seis por ciento de las compras de las familias, el porcentaje más bajo desde dos mil veintiuno. En el pico de dos mil veintitrés llegaron al treinta y uno.",
           "voz": {
             "speed": 0.98
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "El promedio *esconde el mapa*."
+              "tipo": "barras",
+              "kicker": "PESO EN COMPRAS FAMILIARES",
+              "fuente": "INE Portugal",
+              "barras": {
+                "unidad": "% del total",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "2023",
+                    "valor": 31,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 27.6,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
             },
             {
-              "tipo": "mapa",
-              "mapa": {
-                "region": "europa",
-                "destaca": [
-                  "portugal"
-                ]
-              },
-              "kicker": "1T 2026 · CAÍDA DE TRANSACCIONES",
-              "tags": [
-                {
-                  "t": "Madeira −25,6 %",
-                  "x": 60,
-                  "y": 28,
-                  "in": 0.8,
-                  "tone": "carmin",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "Azores −11,4 %",
-                  "x": 60,
-                  "y": 42,
-                  "in": 1.8,
-                  "tone": "ocre",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "Algarve −10,7 %",
-                  "x": 60,
-                  "y": 56,
-                  "in": 2.8,
-                  "tone": "ink",
-                  "anim": "slideL"
-                }
-              ]
+              "tipo": "objeto",
+              "objeto": "casa"
             }
           ],
-          "tipo": "frase"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b10-07",
-          "vo": "Cada casa comprada por alguien con domicilio fiscal portugués costó de media doscientos treinta y cuatro mil euros. Las compradas por británicos, quinientos doce mil. Más del doble por la misma casa nominal.",
+          "id": "b9-06",
+          "vo": "Y el país que más creció fue Brasil, con nueve mil ochocientas ocho operaciones, un veintisiete coma cinco por ciento más. Es decir: el extranjero que compra hoy en Portugal es, sobre todo, un inmigrante que vive y trabaja allí.",
           "voz": {
-            "speed": 0.96
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "restaurant worker in uniform portrait",
+                "tono": "ocre",
+                "cifra": "9.808",
+                "titular": "Compras de ciudadanos brasileños en 2025",
+                "apoyo": "El 23,9 % de todas las compras de personas nacidas fuera de Portugal."
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "No es un inversor de fuera. *Es un vecino.*",
+              "night": true
+            }
+          ],
+          "tipo": "recorte",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b9-07",
+          "vo": "Y el tercero, que rescata media tesis. La media nacional esconde el segmento. Cada vivienda comprada por un residente fiscal portugués costó de media doscientos treinta y cuatro mil euros. Cada una comprada por un británico, quinientos doce mil.",
+          "voz": {
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "barras",
-              "kicker": "PRECIO MEDIO POR TRANSACCIÓN · 2025",
-              "fuente": "INE Portugal",
+              "kicker": "PRECIO MEDIO POR ORIGEN DEL COMPRADOR",
+              "fuente": "INE Portugal, 2025",
               "barras": {
                 "unidad": "euros por vivienda",
                 "datos": [
                   {
-                    "etiqueta": "Portugal",
+                    "etiqueta": "Residente PT",
                     "valor": 234120,
                     "tono": "ink"
                   },
                   {
-                    "etiqueta": "Resto UE",
+                    "etiqueta": "Unión Europea",
                     "valor": 335640,
                     "tono": "ocre"
                   },
                   {
-                    "etiqueta": "R. Unido",
+                    "etiqueta": "Británico",
                     "valor": 512585,
                     "tono": "carmin"
                   }
@@ -2636,168 +2299,46 @@
               }
             },
             {
-              "tipo": "recorte",
-              "lado": "der",
-              "recorte": {
-                "buscar": "british tourist couple with hats",
-                "tono": "ocre",
-                "cifra": "+120 %",
-                "titular": "Lo que paga de más un comprador británico",
-                "apoyo": "479.403 € de media los estadounidenses. Pocos compradores, precios altísimos.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "6216138",
-                  "url": "https://images.pexels.com/photos/6216138/pexels-photo-6216138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Jacek Herbut",
-                  "pagina": "https://www.pexels.com/photo/a-hat-vendor-arranging-his-wares-6216138/"
-                },
-                "fichero": "recortes-auto/pexels-6216138.png"
-              }
-            }
-          ],
-          "tipo": "barras"
-        }
-      ]
-    },
-    {
-      "id": "b11",
-      "nombre": "Quién es hoy el extranjero",
-      "planos": [
-        {
-          "id": "b11-01",
-          "vo": "Queda una trampa estadística que hay que desmontar, porque de ella depende todo el juicio moral del asunto. Depende de qué llames extranjero.",
-          "voz": {
-            "speed": 0.98
-          },
-          "escenas": [
-            {
               "tipo": "objeto",
-              "objeto": "interrogante",
-              "camara": "push",
+              "objeto": "villa",
               "rotulo": {
-                "texto": "¿Qué es un *extranjero*?"
+                "texto": "Más del *doble* por operación"
               }
-            },
-            {
-              "tipo": "frase",
-              "texto": "De esto depende *todo el juicio*.",
-              "night": true
             }
           ],
-          "tipo": "objeto"
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b11-02",
-          "vo": "Si lo mides por domicilio fiscal, los extranjeros son el cinco por ciento del mercado. Si lo mides por país de nacimiento, compraron cuarenta y un mil ochenta y seis viviendas en dos mil veinticinco, un seis y medio por ciento más.",
+          "id": "b9-08",
+          "vo": "Y por eso, cuando el dinero de fuera se retira, no se nota en la media del país: se nota en el mapa. En el primer trimestre de dos mil veintiséis las transacciones cayeron un veinticinco coma seis por ciento en Madeira y un diez coma siete en el Algarve.",
           "voz": {
-            "speed": 0.95
+            "speed": 1
           },
           "escenas": [
             {
               "tipo": "barras",
-              "kicker": "DOS FORMAS DE CONTAR",
+              "kicker": "CAÍDA DE TRANSACCIONES · 1T 2026",
               "fuente": "INE Portugal",
               "barras": {
-                "unidad": "viviendas compradas en 2025",
-                "datos": [
-                  {
-                    "etiqueta": "Domicilio fuera",
-                    "valor": 8471,
-                    "tono": "ink"
-                  },
-                  {
-                    "etiqueta": "Naturalidad extranjera",
-                    "valor": 41086,
-                    "tono": "carmin"
-                  }
-                ]
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Cinco por ciento o *veintisiete*."
-            }
-          ],
-          "tipo": "barras"
-        },
-        {
-          "id": "b11-03",
-          "vo": "La diferencia son los inmigrantes que viven y trabajan en Portugal. El instituto de estadística lo dice así: el aumento se explica por la mayor dinámica de transacciones de los inmigrantes residentes.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "recorte",
-              "lado": "izq",
-              "recorte": {
-                "buscar": "construction worker with helmet portrait",
-                "tono": "ocre",
-                "titular": "El \"extranjero\" que compra en Portugal en 2026",
-                "apoyo": "Vive allí, cobra allí y paga impuestos allí. No es un inversor de fuera.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "37556455",
-                  "url": "https://images.pexels.com/photos/37556455/pexels-photo-37556455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Galib Rahman Nadim",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
-                },
-                "fichero": "recortes-auto/pexels-37556455.png"
-              }
-            },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "supermarket cashier working",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "4249559",
-                  "url": "https://videos.pexels.com/video-files/4249559/4249559-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 9,
-                  "autor": "Nazim Zafri",
-                  "pagina": "https://www.pexels.com/video/a-woman-in-the-cahier-scanning-the-items-being-bought-4249559/"
-                },
-                "fichero": "clips/pexels-4249559.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Brasil: 9.808 compras, +27,5 %",
-                  "x": 20,
-                  "y": 68,
-                  "in": 1.2,
-                  "tone": "paper",
-                  "anim": "slideUp"
-                }
-              ]
-            }
-          ],
-          "tipo": "recorte"
-        },
-        {
-          "id": "b11-04",
-          "vo": "Brasil encabeza la lista con nueve mil ochocientas ocho transacciones, casi una cuarta parte de todas las compras de extranjeros por nacimiento. Y aun así el peso relativo de ese grupo está bajando.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "barras",
-              "kicker": "PESO DE COMPRADORES DE NATURALIDAD EXTRANJERA",
-              "fuente": "INE Portugal",
-              "barras": {
-                "unidad": "sobre compras de familias",
+                "unidad": "% interanual",
                 "sufijo": "%",
                 "datos": [
                   {
-                    "etiqueta": "2023",
-                    "valor": 31,
-                    "tono": "carmin"
+                    "etiqueta": "Madeira",
+                    "valor": -25.6,
+                    "tono": "carmin",
+                    "decimales": 1
                   },
                   {
-                    "etiqueta": "2025",
-                    "valor": 27.6,
+                    "etiqueta": "Azores",
+                    "valor": -11.4,
+                    "tono": "ocre",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Algarve",
+                    "valor": -10.7,
                     "tono": "ink",
                     "decimales": 1
                   }
@@ -2805,350 +2346,321 @@
               }
             },
             {
-              "tipo": "objeto",
-              "objeto": "dosEpocas",
-              "rotulo": {
-                "texto": "El porcentaje más bajo *desde 2021*"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "algarve coastline cliffs sea",
+                "tono": "ocre"
               }
             }
           ],
-          "tipo": "barras"
+          "tipo": "barras",
+          "objeto": "carpeta"
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Que significa esto",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "¿Y dónde deja todo esto al mercado portugués? Según el Fondo Monetario Internacional, con una sobrevaloración estimada entre el veinte y el cuarenta por ciento. La Comisión Europea la sitúa en torno al veinticinco: la mayor de la Unión.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "SOBREVALORACIÓN ESTIMADA",
+              "fuente": "FMI (jun. 2026) y Comisión Europea (dic. 2025)",
+              "barras": {
+                "unidad": "% sobre el valor de equilibrio",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Rango FMI",
+                    "valor": 40,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Comisión Europea",
+                    "valor": 25,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Son *modelos*, no mediciones."
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
         },
         {
-          "id": "b11-05",
-          "vo": "Así que el marco cambia. La pregunta ya no es si dejamos entrar a los de fuera. La pregunta es si hay casas para la gente que ya vive dentro. Y no las hay.",
+          "id": "b10-02",
+          "vo": "El Banco de Portugal lo dice con más prudencia: la generalidad de los modelos apunta a precios por encima del equilibrio, con magnitudes muy distintas según la metodología, y pide interpretarlos con cuidado.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "lado": "izq",
+              "recorte": {
+                "buscar": "central bank building entrance",
+                "tono": "carmin",
+                "titular": "Por encima del equilibrio, pero sin saber cuánto",
+                "apoyo": "La cautela es del propio supervisor, no mía."
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ],
+          "tipo": "recorte",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b10-03",
+          "vo": "Y para quien no compra, queda el alquiler. La renta mediana de los nuevos contratos firmados en el primer trimestre de dos mil veintiséis fue de nueve coma cuarenta y seis euros por metro cuadrado, un nueve por ciento más que un año antes.",
+          "voz": {
+            "speed": 1
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "NUEVOS CONTRATOS DE ALQUILER · 1T 2026",
+              "fuente": "INE, Estatísticas de Rendas da Habitação",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 9.46,
+                "etiqueta": "euros por m² al mes (mediana)"
+              },
+              "tags": [
+                {
+                  "t": "+9,1 %",
+                  "x": 72,
+                  "y": 30,
+                  "in": 1.6,
+                  "tone": "carmin",
+                  "anim": "pop"
+                }
+              ]
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "young woman looking at apartment window",
+                "tono": "ocre"
+              }
+            }
+          ],
+          "tipo": "contador",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b10-04",
+          "vo": "En el municipio de Lisboa la mediana sube a diecisiete coma cuarenta y dos euros el metro. En un piso de setenta metros, unos mil doscientos veinte euros al mes.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "RENTA MEDIANA · NUEVOS CONTRATOS",
+              "fuente": "INE Portugal, 1T 2026",
+              "barras": {
+                "unidad": "euros por m²",
+                "datos": [
+                  {
+                    "etiqueta": "Lisboa",
+                    "valor": 17.42,
+                    "tono": "carmin",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "Gran Lisboa",
+                    "valor": 14.38,
+                    "tono": "ocre",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "Portugal",
+                    "valor": 9.46,
+                    "tono": "ink",
+                    "decimales": 2
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion",
+              "rotulo": {
+                "texto": "*1.220 euros* al mes por setenta metros"
+              }
+            }
+          ],
+          "tipo": "barras",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b10-05",
+          "vo": "Recuerda el otro número: el salario mediano neto en Portugal era de unos novecientos ochenta euros. El alquiler mediano de un piso normal en Lisboa se come el sueldo entero y pide más.",
           "voz": {
             "speed": 0.95
           },
           "escenas": [
             {
               "tipo": "frase",
-              "texto": "La pregunta ya no es *quién entra*.",
+              "texto": "El alquiler *se come el sueldo entero*.",
               "night": true
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "empty street residential neighborhood evening",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "33845052",
-                  "url": "https://videos.pexels.com/video-files/33845052/14362883_1920_1080_60fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 11,
-                  "autor": "EJ Merl",
-                  "pagina": "https://www.pexels.com/video/aerial-view-of-small-town-main-street-at-night-33845052/"
-                },
-                "fichero": "clips/pexels-33845052.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Faltan ≈300.000 viviendas",
-                  "x": 22,
-                  "y": 30,
-                  "in": 1,
-                  "tone": "carmin",
-                  "anim": "pop"
-                }
-              ]
-            }
-          ],
-          "tipo": "frase"
-        }
-      ]
-    },
-    {
-      "id": "b12",
-      "nombre": "Qué significa para ti",
-      "planos": [
-        {
-          "id": "b12-01",
-          "vo": "Recapitulemos el experimento, porque es la parte útil de todo esto. Portugal cerró la vía inmobiliaria del visado dorado en dos mil veintitrés y cerró el régimen fiscal a nuevos entrantes en dos mil veinticuatro.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "lista",
-              "kicker": "EL EXPERIMENTO, RESUMIDO",
-              "lista": {
-                "titulo": "Lo que hizo Portugal",
-                "puntos": [
-                  "Cerró la vía inmobiliaria del golden visa",
-                  "Cerró el RNH a nuevos entrantes",
-                  "Y subvencionó la compra doméstica"
-                ],
-                "activo": 0
-              }
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "carpeta"
-            }
-          ],
-          "tipo": "lista"
-        },
-        {
-          "id": "b12-02",
-          "vo": "Los compradores de fuera se retiraron tres años seguidos. Y los precios firmaron el mayor aumento de la serie histórica justo entonces, con el noventa y cinco por ciento de las compras hechas desde dentro.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "lista",
-              "lista": {
-                "titulo": "Lo que hizo Portugal",
-                "puntos": [
-                  "Cerró la vía inmobiliaria del golden visa",
-                  "Cerró el RNH a nuevos entrantes",
-                  "Y subvencionó la compra doméstica"
-                ],
-                "activo": 2
-              }
-            },
-            {
-              "tipo": "frase",
-              "texto": "Se fueron. Y subió *un 17,6 %*.",
-              "night": true
-            }
-          ],
-          "tipo": "lista"
-        },
-        {
-          "id": "b12-03",
-          "vo": "La lección no es que los extranjeros no influyan. Pagan más del doble por vivienda y concentran su presión en Lisboa, el Algarve y las islas. La lección es que eran el cinco por ciento del problema.",
-          "voz": {
-            "speed": 0.97
-          },
-          "escenas": [
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "algarve coastal town white houses",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "27535847",
-                  "url": "https://videos.pexels.com/video-files/27535847/12162183_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "A.S. Kacar",
-                  "pagina": "https://www.pexels.com/video/lagos-portugal-27535847/"
-                },
-                "fichero": "clips/pexels-27535847.mp4"
-              },
-              "kicker": "DONDE SÍ IMPORTA",
-              "tags": [
-                {
-                  "t": "Lisboa",
-                  "x": 24,
-                  "y": 26,
-                  "in": 0.6,
-                  "tone": "carmin",
-                  "anim": "pop"
-                },
-                {
-                  "t": "Algarve",
-                  "x": 24,
-                  "y": 40,
-                  "in": 1.6,
-                  "tone": "ocre",
-                  "anim": "pop"
-                },
-                {
-                  "t": "Madeira y Azores",
-                  "x": 24,
-                  "y": 54,
-                  "in": 2.6,
-                  "tone": "paper",
-                  "anim": "pop"
-                }
-              ]
-            },
-            {
-              "tipo": "frase",
-              "texto": "Eran el cinco por ciento *del problema*."
-            }
-          ],
-          "tipo": "clip"
-        },
-        {
-          "id": "b12-04",
-          "vo": "El noventa y cinco por ciento restante es más aburrido y mucho más difícil: no se han construido casas durante una década, y cuando el crédito se abarató todo ese dinero fue a pujar por el mismo stock.",
-          "voz": {
-            "speed": 0.96
-          },
-          "escenas": [
-            {
-              "tipo": "objeto",
-              "objeto": "grua",
-              "camara": "push",
-              "rotulo": {
-                "texto": "Una década *sin construir*"
-              }
-            },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "auction gavel bidding room",
+              "tipo": "recorte",
+              "lado": "der",
+              "recorte": {
+                "buscar": "nurse in uniform portrait",
                 "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "6101337",
-                  "url": "https://videos.pexels.com/video-files/6101337/6101337-hd_1366_720_30fps.mp4",
-                  "ancho": 1366,
-                  "duracion": 8,
-                  "autor": "KATRIN  BOLOVTSOVA",
-                  "pagina": "https://www.pexels.com/video/judge-writing-on-a-document-6101337/"
-                },
-                "fichero": "clips/pexels-6101337.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Más dinero, mismas casas",
-                  "x": 22,
-                  "y": 30,
-                  "in": 1,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
+                "cifra": "980 €",
+                "titular": "Salario mediano neto mensual",
+                "apoyo": "Último dato publicado, referido a 2024. El más alto desde 2011."
+              }
             }
           ],
-          "tipo": "objeto"
+          "tipo": "frase",
+          "objeto": "carpeta"
         },
         {
-          "id": "b12-05",
-          "vo": "Si vives en España, el paralelismo es directo. Aquí también se discute el visado dorado, aquí también hay ayudas públicas a la compra joven, y aquí la emancipación llega a los treinta años clavados.",
+          "id": "b10-06",
+          "vo": "Hay una señal de giro, pequeña. Los precios pedidos en los anuncios de alquiler bajaron un dos coma nueve por ciento en mayo de dos mil veintiséis. Son precios de anuncio, no de contrato firmado: la propia fuente lo advierte.",
           "voz": {
-            "speed": 0.97
+            "speed": 1
           },
           "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carta",
+              "rotulo": {
+                "texto": "Precio *pedido*, no precio firmado"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "OFERTA EN ANUNCIOS · MAYO 2026",
+              "fuente": "Idealista",
+              "barras": {
+                "unidad": "euros por m² pedidos",
+                "datos": [
+                  {
+                    "etiqueta": "Portugal",
+                    "valor": 16.3,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Lisboa",
+                    "valor": 21.8,
+                    "tono": "ocre",
+                    "decimales": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "tipo": "objeto",
+          "objeto": "carpeta"
+        },
+        {
+          "id": "b10-07",
+          "vo": "La conclusión no es cómoda para nadie. Portugal hizo lo que media Europa está pidiendo: cerrar la puerta al comprador extranjero. Y los precios firmaron su mayor subida en toda la serie justo después.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Cerró la puerta. *Y subió más que nunca.*",
+              "night": true
+            },
             {
               "tipo": "mapa",
+              "kicker": "EL CASO QUE OBSERVA ESPAÑA",
+              "fuente": "Elaboración propia",
               "mapa": {
                 "region": "europa",
                 "destaca": [
-                  "espana",
-                  "portugal"
+                  "portugal",
+                  "espana"
                 ]
               },
-              "kicker": "EL MISMO DEBATE, DOS PAÍSES",
-              "fuente": "Eurostat, 2024",
               "tags": [
                 {
-                  "t": "España: 30,0 años",
-                  "x": 58,
-                  "y": 32,
-                  "in": 0.9,
+                  "t": "El experimento ya se hizo",
+                  "x": 24,
+                  "y": 62,
+                  "in": 1.2,
                   "tone": "carmin",
-                  "anim": "slideL"
-                },
-                {
-                  "t": "Portugal: 28,9 años",
-                  "x": 58,
-                  "y": 48,
-                  "in": 2,
-                  "tone": "ocre",
-                  "anim": "slideL"
+                  "anim": "slideUp"
                 }
               ]
-            },
-            {
-              "tipo": "frase",
-              "texto": "El experimento *ya se hizo al lado*."
             }
           ],
-          "tipo": "mapa"
+          "tipo": "frase",
+          "objeto": "carpeta"
         },
         {
-          "id": "b12-06",
-          "vo": "Portugal hizo lo que se le pedía. Cerró la puerta, y el precio de la casa subió más que en ningún año registrado. La conclusión es incómoda porque no señala a nadie de fuera.",
+          "id": "b10-08",
+          "vo": "Porque el cuello de botella no estaba en la puerta. Estaba en la licencia, en la obra y en un Estado que puso dinero público del lado de la demanda mientras la oferta seguía sin llegar.",
           "voz": {
             "speed": 0.94
           },
           "escenas": [
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "closed door apartment building entrance",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "6667228",
-                  "url": "https://videos.pexels.com/video-files/6667228/6667228-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "Kampus Production",
-                  "pagina": "https://www.pexels.com/video/man-delivering-food-6667228/"
-                },
-                "fichero": "clips/pexels-6667228.mp4"
-              },
-              "tags": [
-                {
-                  "t": "Cerró la puerta",
-                  "x": 24,
-                  "y": 30,
-                  "in": 0.8,
-                  "tone": "paper",
-                  "anim": "slideL"
-                }
-              ]
-            },
-            {
-              "tipo": "frase",
-              "texto": "No hay nadie de fuera *a quien señalar*.",
-              "night": true
-            }
-          ],
-          "tipo": "clip"
-        },
-        {
-          "id": "b12-07",
-          "vo": "No vendieron el país. Simplemente dejaron de construirlo, y luego pusieron dinero público a competir por lo poco que quedaba.",
-          "voz": {
-            "speed": 0.93
-          },
-          "escenas": [
-            {
-              "tipo": "frase",
-              "texto": "No lo vendieron. *Dejaron de construirlo*.",
-              "night": true
-            },
-            {
               "tipo": "objeto",
               "objeto": "plano",
-              "camara": "push"
+              "camara": "push",
+              "rotulo": {
+                "texto": "El cuello de botella está *antes de la obra*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crane silhouette construction skyline",
+                "tono": "carmin"
+              }
             }
           ],
-          "tipo": "frase"
+          "tipo": "objeto",
+          "objeto": "carpeta"
         }
       ]
     },
     {
-      "id": "b13",
+      "id": "b11",
       "nombre": "Cierre",
       "planos": [
         {
-          "id": "b13-01",
-          "vo": "En el próximo vídeo, el país donde la vivienda dejó de ser un problema de mercado y pasó a ser un problema de pensiones.",
-          "voz": {
-            "speed": 0.98
-          },
+          "id": "b11-01",
           "cierre": {
-            "siguiente": "HOLANDA: LA BURBUJA QUE PAGAN LOS JUBILADOS",
-            "sub": "El fondo de pensiones más grande de Europa y las casas que financia."
+            "siguiente": "ESPAÑA: EL MISMO EXPERIMENTO",
+            "sub": "Qué pasa cuando la ayuda a la compra llega antes que la casa."
           },
           "tipo": "cierre"
         },
         {
-          "id": "b13-02",
-          "vo": "Si te interesa este tipo de análisis, con las fuentes en pantalla y sin adjetivos de más, suscríbete.",
-          "voz": {
-            "speed": 1
-          },
+          "id": "b11-02",
           "cierre": {
             "suscribete": true
           },
@@ -3158,29 +2670,29 @@
     }
   ],
   "publicacion": {
-    "titulo": "PORTUGAL: cerró el golden visa y la vivienda subió más que nunca",
-    "descripcion": "Portugal hizo lo que medio internet le pedía: cerró la vía inmobiliaria del golden visa en octubre de 2023 y cerró el régimen fiscal para extranjeros a nuevos entrantes en 2024. Al año siguiente los precios de la vivienda subieron un 17,6 %, el mayor aumento desde que el INE portugués mide el indicador. Y los compradores con domicilio fiscal fuera del país fueron solo el 5 % del mercado.\n\nEste vídeo cuenta el experimento completo, incluida la parte que estropea el relato habitual. Porque el año del récord de precios fue también el año en que los extranjeros pesaron menos, y el comprador que sostuvo la subida fue una familia portuguesa con crédito barato y aval del Estado.\n\nTambién repasamos el dato más incómodo: en la tasa de sobrecarga de costes de vivienda, Portugal está por debajo de la media de la Unión Europea. Explicamos por qué ese indicador mide el stock de propietarios y no a quien intenta entrar hoy al mercado.\n\nCAPÍTULOS\n00:00 El récord llegó después del cierre\n01:05 Qué vas a ver\n01:40 Qué era el golden visa y qué era el RNH\n03:45 Lo que Portugal cerró de verdad (y lo que no)\n05:50 Y aun así los precios subieron\n08:00 Quién compra las casas portuguesas\n10:10 El crédito: 23.325 millones en un año\n11:50 El déficit de oferta: 300.000 viviendas\n14:00 El Estado como comprador\n15:50 La ayuda que se come el vendedor\n18:00 Lo que contradice la tesis\n20:40 Quién es hoy el \"extranjero\"\n22:30 Qué significa para España\n\nFUENTES\nINE Portugal — Índice de Preços da Habitação, 4.º trimestre 2025 y 1.º trimestre 2026 (publicado 23/06/2026)\nINE Portugal — Estatísticas de Preços da Habitação ao nível local, 17/07/2026\nINE Portugal — Estatísticas de Rendas da Habitação, 1.º trimestre 2026\nINE Portugal — Remunerações e ganhos, 13/02/2026\nINE Portugal — Licenciamento e conclusão de obras, julio 2026\nBanco de Portugal — Relatório de Estabilidade Financeira, junio 2026\nBanco de Portugal — Relatório de Acompanhamento dos Mercados de Crédito, 22/06/2026\nAICCOPN — Boletim de conjuntura, crédito à habitação 2025\nSEF (extinto) — datos de Autorizações de Residência para Investimento, enero 2023, vía Lusa\nLei n.º 56/2023, de 6 de outubro (Mais Habitação)\nAutoridade Tributária — informe de auditoría del régimen de Residentes Não Habituais, homologado el 29/04/2026\nCódigo do IRS, art. 58.º-A (IFICI), Lei n.º 82/2023\nFondo Monetario Internacional — Article IV Portugal, junio 2026\nComisión Europea — estimaciones de sobrevaloración inmobiliaria, diciembre 2025\nOCDE — índice de accesibilidad de la vivienda, 3.º trimestre 2024\nEurostat — Housing cost overburden rate y edad de salida del hogar parental, 23/09/2025 y 12/11/2025\nEstudio ISCTE-IUL sobre la exención de IMT para jóvenes, citado por Público (metodología de diferencias en diferencias con España como control)\nVida Imobiliária — oferta potencial no concretada en el AML, marzo 2026\nIdealista Portugal — precios de oferta de alquiler, mayo 2026\nComissão de Orçamento, Finanças e Administração Pública — audiencia del Ministro de Finanzas, 07/01/2026",
+    "titulo": "PORTUGAL: cerró el golden visa inmobiliario y la vivienda subió más que nunca",
+    "descripcion": "Portugal cerró la vía inmobiliaria del visado dorado en 2023 y el régimen fiscal de residentes no habituales en 2024. Los compradores extranjeros llevan tres años retirándose del mercado. Y en 2025 los precios de la vivienda subieron un 17,6 %, la mayor subida desde que existe la serie.\n\nEste vídeo cuenta por qué la reversión que media Europa pide ya se hizo en Portugal y no funcionó: el 95 % de las viviendas vendidas en 2025 las compró alguien con domicilio fiscal portugués, el crédito nuevo creció un 31 %, la hipoteca media batió récord en 175.000 euros y casi una cuarta parte de todo el crédito hipotecario del país llevó garantía pública del Estado. Mientras tanto, el déficit de oferta estimado por el Banco de Portugal ronda las 300.000 viviendas.\n\nTambién están los datos que estropean la tesis, porque existen: la tasa de sobrecarga de costes de vivienda en Portugal está por debajo de la media de la Unión Europea, y el \"extranjero\" que compra hoy en Portugal es mayoritariamente un inmigrante residente, no un inversor de fuera.\n\nCAPÍTULOS\n00:00 El dato que no encaja\n01:05 Lo que vamos a ver\n01:40 Precios contra sueldos\n03:50 Lo que Portugal puso a la venta\n06:15 La reversión y su letra pequeña\n08:20 Los extranjeros se retiran\n10:20 Quién compró de verdad\n12:10 El Estado financiando la demanda\n14:30 La oferta que no llega\n16:20 Lo que contradice la tesis\n18:40 Alquiler, sobrevaloración y conclusión\n\nFUENTES\nINE Portugal — Índice de Preços da Habitação, 4.º trim. 2025 y 1.º trim. 2026\nINE Portugal — Estatísticas de Preços da Habitação ao nível local, 17/07/2026\nINE Portugal — Estatísticas de Rendas da Habitação, 1.º trim. 2026\nINE Portugal — Remunerações do trabalho, 13/02/2026\nINE Portugal — Licenciamento e conclusão de obras, julio 2026\nBanco de Portugal — Relatório de Acompanhamento dos Mercados de Crédito, 22/06/2026\nBanco de Portugal — estimación de déficit de oferta, junio 2026\nAICCOPN — crédito a la vivienda y licencias, 2025\nSEF (vía Lusa) — balance del régimen ARI, enero 2023\nAuditoría al régimen de Residente Não Habitual, homologada el 29/04/2026\nEurostat — edad de emancipación (23/09/2025) y sobrecarga de costes de vivienda, 2024\nOCDE — índice de accesibilidad de la vivienda, 3.º trim. 2024\nFMI — evaluación del mercado inmobiliario portugués, junio 2026\nComisión Europea — estimación de sobrevaloración, diciembre 2025\nISCTE-IUL (vía Público) — efecto de la exención de IMT, estudio académico\nVida Imobiliária — brecha entre proyecto y licencia en el Área Metropolitana de Lisboa, marzo 2026\nIdealista — precios de oferta en alquiler, mayo 2026\n\nLas estimaciones de sobrevaloración y el déficit de oferta son modelos, no mediciones, y se identifican como tales en la locución.",
     "etiquetas": [
       "portugal",
       "vivienda portugal",
       "golden visa",
-      "precio vivienda",
-      "lisboa alquiler",
-      "burbuja inmobiliaria",
-      "residente no habitual",
-      "macroeconomia",
-      "capital x",
-      "banco de portugal",
-      "vivienda espana",
-      "hipotecas",
-      "salarios portugal",
-      "eurostat",
-      "fmi",
-      "ayudas compra vivienda",
-      "deficit de vivienda",
+      "visado dorado",
+      "precios vivienda",
       "alquiler lisboa",
-      "economia europea",
-      "datos economicos"
+      "burbuja inmobiliaria",
+      "residentes no habituales",
+      "economia portugal",
+      "macroeconomia",
+      "banco de portugal",
+      "mercado inmobiliario",
+      "salarios portugal",
+      "crisis vivienda",
+      "hipotecas",
+      "vivienda espana",
+      "inversion extranjera",
+      "capital x",
+      "datos economicos",
+      "politica de vivienda"
     ]
   }
 }
