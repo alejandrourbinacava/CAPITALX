@@ -1,1 +1,518 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/burbuja-espana-b0-01.mp3",
+    "duration": 10.34449,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b0-02": {
+    "audio": "voice/burbuja-espana-b0-02.mp3",
+    "duration": 10.710204,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b0-03": {
+    "audio": "voice/burbuja-espana-b0-03.mp3",
+    "duration": 8.411429,
+    "transcript": null,
+    "credit_cost": 229
+  },
+  "b0-04": {
+    "audio": "voice/burbuja-espana-b0-04.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b0-05": {
+    "audio": "voice/burbuja-espana-b0-05.mp3",
+    "duration": 12.199184,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b0-06": {
+    "audio": "voice/burbuja-espana-b0-06.mp3",
+    "duration": 4.832653,
+    "transcript": null,
+    "credit_cost": 103
+  },
+  "b1-01": {
+    "audio": "voice/burbuja-espana-b1-01.mp3",
+    "duration": 7.079184,
+    "transcript": null,
+    "credit_cost": 167
+  },
+  "b1-02": {
+    "audio": "voice/burbuja-espana-b1-02.mp3",
+    "duration": 7.053061,
+    "transcript": null,
+    "credit_cost": 174
+  },
+  "b1-03": {
+    "audio": "voice/burbuja-espana-b1-03.mp3",
+    "duration": 7.157551,
+    "transcript": null,
+    "credit_cost": 190
+  },
+  "b2-01": {
+    "audio": "voice/burbuja-espana-b2-01.mp3",
+    "duration": 8.881633,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b2-02": {
+    "audio": "voice/burbuja-espana-b2-02.mp3",
+    "duration": 9.142857,
+    "transcript": null,
+    "credit_cost": 224
+  },
+  "b2-03": {
+    "audio": "voice/burbuja-espana-b2-03.mp3",
+    "duration": 12.8,
+    "transcript": null,
+    "credit_cost": 326
+  },
+  "b2-04": {
+    "audio": "voice/burbuja-espana-b2-04.mp3",
+    "duration": 12.251429,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b2-05": {
+    "audio": "voice/burbuja-espana-b2-05.mp3",
+    "duration": 10.004898,
+    "transcript": null,
+    "credit_cost": 197
+  },
+  "b2-06": {
+    "audio": "voice/burbuja-espana-b2-06.mp3",
+    "duration": 12.617143,
+    "transcript": null,
+    "credit_cost": 320
+  },
+  "b2-07": {
+    "audio": "voice/burbuja-espana-b2-07.mp3",
+    "duration": 8.907755,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b3-01": {
+    "audio": "voice/burbuja-espana-b3-01.mp3",
+    "duration": 10.44898,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b3-02": {
+    "audio": "voice/burbuja-espana-b3-02.mp3",
+    "duration": 10.501224,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b3-03": {
+    "audio": "voice/burbuja-espana-b3-03.mp3",
+    "duration": 11.702857,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b3-04": {
+    "audio": "voice/burbuja-espana-b3-04.mp3",
+    "duration": 13.740408,
+    "transcript": null,
+    "credit_cost": 323
+  },
+  "b3-05": {
+    "audio": "voice/burbuja-espana-b3-05.mp3",
+    "duration": 12.120816,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b3-06": {
+    "audio": "voice/burbuja-espana-b3-06.mp3",
+    "duration": 12.747755,
+    "transcript": null,
+    "credit_cost": 320
+  },
+  "b3-07": {
+    "audio": "voice/burbuja-espana-b3-07.mp3",
+    "duration": 11.180408,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b3-08": {
+    "audio": "voice/burbuja-espana-b3-08.mp3",
+    "duration": 5.799184,
+    "transcript": null,
+    "credit_cost": 141
+  },
+  "b3-09": {
+    "audio": "voice/burbuja-espana-b3-09.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b4-01": {
+    "audio": "voice/burbuja-espana-b4-01.mp3",
+    "duration": 9.795918,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b4-02": {
+    "audio": "voice/burbuja-espana-b4-02.mp3",
+    "duration": 10.213878,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b4-03": {
+    "audio": "voice/burbuja-espana-b4-03.mp3",
+    "duration": 12.826122,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b4-04": {
+    "audio": "voice/burbuja-espana-b4-04.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b4-05": {
+    "audio": "voice/burbuja-espana-b4-05.mp3",
+    "duration": 12.773878,
+    "transcript": null,
+    "credit_cost": 323
+  },
+  "b4-06": {
+    "audio": "voice/burbuja-espana-b4-06.mp3",
+    "duration": 13.557551,
+    "transcript": null,
+    "credit_cost": 347
+  },
+  "b4-07": {
+    "audio": "voice/burbuja-espana-b4-07.mp3",
+    "duration": 12.982857,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b4-08": {
+    "audio": "voice/burbuja-espana-b4-08.mp3",
+    "duration": 12.59102,
+    "transcript": null,
+    "credit_cost": 349
+  },
+  "b4-09": {
+    "audio": "voice/burbuja-espana-b4-09.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b5-01": {
+    "audio": "voice/burbuja-espana-b5-01.mp3",
+    "duration": 7.68,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b5-02": {
+    "audio": "voice/burbuja-espana-b5-02.mp3",
+    "duration": 11.781224,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b5-03": {
+    "audio": "voice/burbuja-espana-b5-03.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b5-04": {
+    "audio": "voice/burbuja-espana-b5-04.mp3",
+    "duration": 12.016327,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b6-01": {
+    "audio": "voice/burbuja-espana-b6-01.mp3",
+    "duration": 6.817959,
+    "transcript": null,
+    "credit_cost": 169
+  },
+  "b6-02": {
+    "audio": "voice/burbuja-espana-b6-02.mp3",
+    "duration": 10.422857,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b6-03": {
+    "audio": "voice/burbuja-espana-b6-03.mp3",
+    "duration": 10.03102,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b6-04": {
+    "audio": "voice/burbuja-espana-b6-04.mp3",
+    "duration": 12.617143,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b6-05": {
+    "audio": "voice/burbuja-espana-b6-05.mp3",
+    "duration": 13.087347,
+    "transcript": null,
+    "credit_cost": 339
+  },
+  "b6-06": {
+    "audio": "voice/burbuja-espana-b6-06.mp3",
+    "duration": 10.422857,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b6-07": {
+    "audio": "voice/burbuja-espana-b6-07.mp3",
+    "duration": 11.363265,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b6-08": {
+    "audio": "voice/burbuja-espana-b6-08.mp3",
+    "duration": 10.684082,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b7-01": {
+    "audio": "voice/burbuja-espana-b7-01.mp3",
+    "duration": 6.765714,
+    "transcript": null,
+    "credit_cost": 164
+  },
+  "b7-02": {
+    "audio": "voice/burbuja-espana-b7-02.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 278
+  },
+  "b7-03": {
+    "audio": "voice/burbuja-espana-b7-03.mp3",
+    "duration": 9.900408,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b7-04": {
+    "audio": "voice/burbuja-espana-b7-04.mp3",
+    "duration": 9.743673,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b7-05": {
+    "audio": "voice/burbuja-espana-b7-05.mp3",
+    "duration": 8.698776,
+    "transcript": null,
+    "credit_cost": 221
+  },
+  "b7-06": {
+    "audio": "voice/burbuja-espana-b7-06.mp3",
+    "duration": 7.418776,
+    "transcript": null,
+    "credit_cost": 188
+  },
+  "b7-07": {
+    "audio": "voice/burbuja-espana-b7-07.mp3",
+    "duration": 9.900408,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b7-08": {
+    "audio": "voice/burbuja-espana-b7-08.mp3",
+    "duration": 10.266122,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b7-09": {
+    "audio": "voice/burbuja-espana-b7-09.mp3",
+    "duration": 13.897143,
+    "transcript": null,
+    "credit_cost": 339
+  },
+  "b8-01": {
+    "audio": "voice/burbuja-espana-b8-01.mp3",
+    "duration": 9.900408,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b8-02": {
+    "audio": "voice/burbuja-espana-b8-02.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 206
+  },
+  "b8-03": {
+    "audio": "voice/burbuja-espana-b8-03.mp3",
+    "duration": 13.035102,
+    "transcript": null,
+    "credit_cost": 320
+  },
+  "b8-04": {
+    "audio": "voice/burbuja-espana-b8-04.mp3",
+    "duration": 11.781224,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b8-05": {
+    "audio": "voice/burbuja-espana-b8-05.mp3",
+    "duration": 11.232653,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b8-06": {
+    "audio": "voice/burbuja-espana-b8-06.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b8-07": {
+    "audio": "voice/burbuja-espana-b8-07.mp3",
+    "duration": 10.945306,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b8-08": {
+    "audio": "voice/burbuja-espana-b8-08.mp3",
+    "duration": 9.508571,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b8-09": {
+    "audio": "voice/burbuja-espana-b8-09.mp3",
+    "duration": 10.997551,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b9-01": {
+    "audio": "voice/burbuja-espana-b9-01.mp3",
+    "duration": 7.523265,
+    "transcript": null,
+    "credit_cost": 178
+  },
+  "b9-02": {
+    "audio": "voice/burbuja-espana-b9-02.mp3",
+    "duration": 11.833469,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b9-03": {
+    "audio": "voice/burbuja-espana-b9-03.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b9-04": {
+    "audio": "voice/burbuja-espana-b9-04.mp3",
+    "duration": 11.72898,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b9-05": {
+    "audio": "voice/burbuja-espana-b9-05.mp3",
+    "duration": 12.826122,
+    "transcript": null,
+    "credit_cost": 310
+  },
+  "b9-06": {
+    "audio": "voice/burbuja-espana-b9-06.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b9-07": {
+    "audio": "voice/burbuja-espana-b9-07.mp3",
+    "duration": 11.467755,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b9-08": {
+    "audio": "voice/burbuja-espana-b9-08.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b10-01": {
+    "audio": "voice/burbuja-espana-b10-01.mp3",
+    "duration": 5.799184,
+    "transcript": null,
+    "credit_cost": 148
+  },
+  "b10-02": {
+    "audio": "voice/burbuja-espana-b10-02.mp3",
+    "duration": 11.41551,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b10-03": {
+    "audio": "voice/burbuja-espana-b10-03.mp3",
+    "duration": 10.370612,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b10-04": {
+    "audio": "voice/burbuja-espana-b10-04.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b10-05": {
+    "audio": "voice/burbuja-espana-b10-05.mp3",
+    "duration": 14.968163,
+    "transcript": null,
+    "credit_cost": 394
+  },
+  "b10-06": {
+    "audio": "voice/burbuja-espana-b10-06.mp3",
+    "duration": 9.795918,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b11-01": {
+    "audio": "voice/burbuja-espana-b11-01.mp3",
+    "duration": 10.44898,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b11-02": {
+    "audio": "voice/burbuja-espana-b11-02.mp3",
+    "duration": 9.482449,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b11-03": {
+    "audio": "voice/burbuja-espana-b11-03.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b11-04": {
+    "audio": "voice/burbuja-espana-b11-04.mp3",
+    "duration": 10.161633,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b11-05": {
+    "audio": "voice/burbuja-espana-b11-05.mp3",
+    "duration": 8.280816,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b11-06": {
+    "audio": "voice/burbuja-espana-b11-06.mp3",
+    "duration": 13.322449,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b12-01": {
+    "audio": "voice/burbuja-espana-b12-01.mp3",
+    "duration": 6.870204,
+    "transcript": null,
+    "credit_cost": 172
+  },
+  "b12-02": {
+    "audio": "voice/burbuja-espana-b12-02.mp3",
+    "duration": 5.01551,
+    "transcript": null,
+    "credit_cost": 118
+  }
+}
