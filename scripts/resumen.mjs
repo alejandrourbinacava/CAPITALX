@@ -22,10 +22,46 @@ const mb = fs.existsSync(video) ? (fs.statSync(video).size / 1048576).toFixed(0)
 const pub = doc.publicacion ?? {};
 const cerca = "```";
 
+/**
+ * Los capitulos, sacados de la duracion real de la locucion.
+ *
+ * Antes los escribia el guionista a ojo y salian inventados: en el video de
+ * la burbuja llegaban hasta 19:40 cuando el video dura 15:26, y asi YouTube
+ * ni los acepta. Aqui se miden.
+ */
+const mmss = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
+
+/**
+ * Quita de la descripcion los capitulos y el anuncio del proximo video.
+ *
+ * Los guiones viejos los traen escritos dentro: los capitulos inventados a
+ * ojo, y una promesa del video siguiente que deja de cumplirse en cuanto
+ * cambia el orden de la cola. Los capitulos buenos se calculan abajo.
+ */
+function limpiar(texto) {
+  const salto = String.fromCharCode(10);
+  const corta = new RegExp(salto + "(?=(?:⏱️|▶️|🔔|CAPÍTULOS|FUENTES))");
+  return String(texto ?? "")
+    .split(corta)
+    .filter((t) => !/^(⏱️|▶️|🔔|CAPÍTULOS)/.test(t.trim()))
+    .join(salto)
+    .trim();
+}
+const capitulos = [];
+{
+  let t = 0;
+  for (const b of doc.bloques) {
+    capitulos.push(`${mmss(t)}  ${b.nombre}`);
+    for (const p of b.planos) t += (tiempos[p.id]?.duration ?? 0) + 0.34;
+  }
+  // YouTube exige que el primero sea 0:00
+  if (capitulos.length) capitulos[0] = capitulos[0].replace(/^\d+:\d+/, "0:00");
+}
+
 const salida = [
   `## ${pub.titulo ?? doc.titulo}`,
   ``,
-  `El vídeo está abajo del todo, en **Artifacts**.`,
+  `El vídeo está publicado: mira el enlace en el paso "Publicar el vídeo".`,
   ``,
   `| | |`,
   `|---|---|`,
@@ -45,7 +81,12 @@ const salida = [
   `<details><summary>Descripción</summary>`,
   ``,
   cerca,
-  pub.descripcion ?? "",
+  limpiar(pub.descripcion),
+  ``,
+  `⏱️ CAPÍTULOS`,
+  ...capitulos,
+  ``,
+  `🔔 Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.`,
   cerca,
   ``,
   `</details>`,

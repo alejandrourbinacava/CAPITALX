@@ -477,8 +477,8 @@ Cualquier escena puede llevar etiquetas que aparecen y desaparecen encima del di
 
 - "torres" y "dublin": decorados fijos. Como mucho uno de cada por vídeo, y solo si encaja.
 
-- "cierre" · "cierre": { "siguiente": "<TEMA>", "sub": "<una frase>" } o { "suscribete": true }
-  Los dos últimos planos del vídeo, en ese orden.
+- "cierre" · "cierre": { "suscribete": true }
+  El último plano del vídeo. **Nunca anuncies el vídeo siguiente**: el orden de la cola cambia y prometer un tema que luego no sale deja el vídeo desmentido para siempre. El cierre es solo la marca del canal y la llamada a suscribirse.
 
 # Cómo se construye el vídeo
 
@@ -503,7 +503,7 @@ Estructura:
 - bloques centrales: el desarrollo. Cada uno con su propia pregunta y su respuesta.
 - un bloque dedicado a lo que contradice la tesis. No es opcional.
 - bloque final: qué significa para el espectador.
-- cierre: el plano "siguiente" y el plano "suscribete".
+- cierre: un solo plano, el de "suscribete".
 
 Ritmo visual: nunca tres planos seguidos del mismo tipo. Alterna gráfico, frase, mapa, objeto. Después de dos gráficos seguidos, una frase.
 
@@ -530,7 +530,7 @@ En los rótulos y etiquetas de pantalla, en cambio, los números van en cifra: a
 
 # La descripción de YouTube
 
-Entre 1.500 y 3.000 caracteres. Empieza con dos frases que reenganchen. Después los capítulos con marcas de tiempo aproximadas. Después las fuentes, una por línea. Sin hashtags dentro del texto.
+Entre 1.500 y 3.000 caracteres. Empieza con dos frases que reenganchen. Después las fuentes, una por línea. Sin hashtags dentro del texto. **No escribas los capítulos ni anuncies el vídeo siguiente**: los capítulos se calculan solos con la duración real de la locución, y los tuyos saldrían inventados.
 
 Las etiquetas: entre 15 y 25, en español, sumando menos de 480 caracteres contando las comas.
 
@@ -908,7 +908,10 @@ function revisarVisual(p, di) {
       di(`${donde}: el recorte necesita 'titular': una figura sola en el cuadro se ve vacía`);
     }
   }
-  if (p.tipo === "cierre" && !p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
+  if (p.tipo === "cierre") {
+    if (!p.cierre) di(`${donde}: 'cierre' necesita 'cierre'`);
+    else if (p.cierre.siguiente) di(`${donde}: quita 'siguiente'. No se anuncia el próximo vídeo.`);
+  }
 }
 
 function validar(doc, tema) {
