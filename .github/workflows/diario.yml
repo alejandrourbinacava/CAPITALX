@@ -14,16 +14,14 @@ name: Vídeo diario
 #   YT_CLIENT_SECRET    ) subir al canal — node scripts/youtube-token.mjs
 #   YT_REFRESH_TOKEN    )
 
+# El disparo automatico esta QUITADO. Se lanza a mano desde Actions.
+#
+# Estuvo programado a las 05:12 de Madrid con cuatro intentos, y la noche del
+# 1 de septiembre entraron cuatro a la vez: el control de "ya hay uno en
+# marcha" no los freno, y se locuto un guion que ya estaba pagado. Hasta que
+# eso este resuelto de verdad, nada corre solo.
+
 on:
-  schedule:
-    # GitHub avisa de que retrasa o descarta las tareas programadas cuando hay
-    # carga, y los repositorios privados van los ultimos. Asi que en vez de una
-    # hora se ponen cuatro intentos: el primero que entre hace el video y los
-    # demas se descartan solos al ver que ya hay uno en marcha o hecho.
-    - cron: "12 3 * * *" #  05:12 en Madrid en verano · 04:12 en invierno
-    - cron: "42 3 * * *" #  05:42            ·           04:42
-    - cron: "12 4 * * *" #  06:12            ·           05:12
-    - cron: "42 4 * * *" #  06:42            ·           05:42
   workflow_dispatch:
     inputs:
       tema:
