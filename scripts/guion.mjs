@@ -253,7 +253,10 @@ async function investigar(tema) {
   const { texto, busquedas, uso } = await claude({
     system: SISTEMA_INVESTIGAR,
     buscar: true,
-    maxTokens: 12000,
+    // Doce mil se quedaron cortos: con trece busquedas, las consultas y sus
+    // resultados cuentan como salida ademas de la ficha, y se corto a medias.
+    // El limite alto no cuesta por si mismo, solo se paga lo que se escribe.
+    maxTokens: 32000,
     mensajes: [
       {
         role: "user",
