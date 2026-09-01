@@ -22,16 +22,15 @@
       "titulo": "PEMEX: debe menos a los bancos y más a todos los demás",
       "fecha": "2026-08-28",
       "video": null
+    },
+    {
+      "slug": "portugal",
+      "titulo": "PORTUGAL: cerró el golden visa y las casas subieron más que nunca",
+      "fecha": "2026-09-01",
+      "video": null
     }
   ],
   "cola": [
-    {
-      "slug": "portugal",
-      "titulo": "PORTUGAL: Vendieron el País y Ahora No Pueden Vivir En Él",
-      "angulo": "Golden visa, alojamiento turístico y extranjeros con sueldo de fuera. Qué pasó con los precios frente a los sueldos portugueses, qué se ha revertido desde 2023 y si ha servido de algo. Muy cercano a la audiencia española.",
-      "region": "europa",
-      "pais": "portugal"
-    },
     {
       "slug": "holanda",
       "titulo": "HOLANDA: El País Donde Ya No Cabe Nadie",
