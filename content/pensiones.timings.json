@@ -1,1 +1,446 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/pensiones-b0-01.mp3",
+    "duration": 7.079184,
+    "transcript": null,
+    "credit_cost": 161
+  },
+  "b0-02": {
+    "audio": "voice/pensiones-b0-02.mp3",
+    "duration": 5.355102,
+    "transcript": null,
+    "credit_cost": 144
+  },
+  "b0-03": {
+    "audio": "voice/pensiones-b0-03.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b0-04": {
+    "audio": "voice/pensiones-b0-04.mp3",
+    "duration": 7.993469,
+    "transcript": null,
+    "credit_cost": 173
+  },
+  "b0-05": {
+    "audio": "voice/pensiones-b0-05.mp3",
+    "duration": 10.553469,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b0-06": {
+    "audio": "voice/pensiones-b0-06.mp3",
+    "duration": 9.508571,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b1-01": {
+    "audio": "voice/pensiones-b1-01.mp3",
+    "duration": 5.590204,
+    "transcript": null,
+    "credit_cost": 143
+  },
+  "b1-02": {
+    "audio": "voice/pensiones-b1-02.mp3",
+    "duration": 4.937143,
+    "transcript": null,
+    "credit_cost": 128
+  },
+  "b1-03": {
+    "audio": "voice/pensiones-b1-03.mp3",
+    "duration": 5.642449,
+    "transcript": null,
+    "credit_cost": 144
+  },
+  "b1-04": {
+    "audio": "voice/pensiones-b1-04.mp3",
+    "duration": 6.765714,
+    "transcript": null,
+    "credit_cost": 147
+  },
+  "b2-01": {
+    "audio": "voice/pensiones-b2-01.mp3",
+    "duration": 7.57551,
+    "transcript": null,
+    "credit_cost": 200
+  },
+  "b2-02": {
+    "audio": "voice/pensiones-b2-02.mp3",
+    "duration": 8.097959,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b2-03": {
+    "audio": "voice/pensiones-b2-03.mp3",
+    "duration": 8.933878,
+    "transcript": null,
+    "credit_cost": 205
+  },
+  "b2-04": {
+    "audio": "voice/pensiones-b2-04.mp3",
+    "duration": 7.68,
+    "transcript": null,
+    "credit_cost": 190
+  },
+  "b3-01": {
+    "audio": "voice/pensiones-b3-01.mp3",
+    "duration": 7.131429,
+    "transcript": null,
+    "credit_cost": 195
+  },
+  "b3-02": {
+    "audio": "voice/pensiones-b3-02.mp3",
+    "duration": 9.325714,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b3-03": {
+    "audio": "voice/pensiones-b3-03.mp3",
+    "duration": 11.702857,
+    "transcript": null,
+    "credit_cost": 278
+  },
+  "b3-04": {
+    "audio": "voice/pensiones-b3-04.mp3",
+    "duration": 5.01551,
+    "transcript": null,
+    "credit_cost": 124
+  },
+  "b4-01": {
+    "audio": "voice/pensiones-b4-01.mp3",
+    "duration": 8.724898,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b4-02": {
+    "audio": "voice/pensiones-b4-02.mp3",
+    "duration": 10.318367,
+    "transcript": null,
+    "credit_cost": 241
+  },
+  "b4-03": {
+    "audio": "voice/pensiones-b4-03.mp3",
+    "duration": 12.329796,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b4-04": {
+    "audio": "voice/pensiones-b4-04.mp3",
+    "duration": 9.456327,
+    "transcript": null,
+    "credit_cost": 212
+  },
+  "b4-05": {
+    "audio": "voice/pensiones-b4-05.mp3",
+    "duration": 8.437551,
+    "transcript": null,
+    "credit_cost": 203
+  },
+  "b4-06": {
+    "audio": "voice/pensiones-b4-06.mp3",
+    "duration": 11.389388,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b4-07": {
+    "audio": "voice/pensiones-b4-07.mp3",
+    "duration": 8.986122,
+    "transcript": null,
+    "credit_cost": 216
+  },
+  "b4-08": {
+    "audio": "voice/pensiones-b4-08.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b5-01": {
+    "audio": "voice/pensiones-b5-01.mp3",
+    "duration": 4.989388,
+    "transcript": null,
+    "credit_cost": 128
+  },
+  "b5-02": {
+    "audio": "voice/pensiones-b5-02.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b5-03": {
+    "audio": "voice/pensiones-b5-03.mp3",
+    "duration": 11.598367,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b5-04": {
+    "audio": "voice/pensiones-b5-04.mp3",
+    "duration": 7.993469,
+    "transcript": null,
+    "credit_cost": 200
+  },
+  "b5-05": {
+    "audio": "voice/pensiones-b5-05.mp3",
+    "duration": 11.911837,
+    "transcript": null,
+    "credit_cost": 309
+  },
+  "b5-06": {
+    "audio": "voice/pensiones-b5-06.mp3",
+    "duration": 7.392653,
+    "transcript": null,
+    "credit_cost": 174
+  },
+  "b5-07": {
+    "audio": "voice/pensiones-b5-07.mp3",
+    "duration": 9.16898,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b5-08": {
+    "audio": "voice/pensiones-b5-08.mp3",
+    "duration": 11.128163,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b6-01": {
+    "audio": "voice/pensiones-b6-01.mp3",
+    "duration": 4.101224,
+    "transcript": null,
+    "credit_cost": 86
+  },
+  "b6-02": {
+    "audio": "voice/pensiones-b6-02.mp3",
+    "duration": 12.068571,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b6-03": {
+    "audio": "voice/pensiones-b6-03.mp3",
+    "duration": 10.553469,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b6-04": {
+    "audio": "voice/pensiones-b6-04.mp3",
+    "duration": 8.019592,
+    "transcript": null,
+    "credit_cost": 195
+  },
+  "b6b-01": {
+    "audio": "voice/pensiones-b6b-01.mp3",
+    "duration": 10.318367,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b6b-02": {
+    "audio": "voice/pensiones-b6b-02.mp3",
+    "duration": 8.097959,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b6b-03": {
+    "audio": "voice/pensiones-b6b-03.mp3",
+    "duration": 8.881633,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b6b-04": {
+    "audio": "voice/pensiones-b6b-04.mp3",
+    "duration": 10.997551,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b6b-05": {
+    "audio": "voice/pensiones-b6b-05.mp3",
+    "duration": 11.467755,
+    "transcript": null,
+    "credit_cost": 241
+  },
+  "b6b-06": {
+    "audio": "voice/pensiones-b6b-06.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b6b-07": {
+    "audio": "voice/pensiones-b6b-07.mp3",
+    "duration": 13.583673,
+    "transcript": null,
+    "credit_cost": 333
+  },
+  "b6c-01": {
+    "audio": "voice/pensiones-b6c-01.mp3",
+    "duration": 8.176327,
+    "transcript": null,
+    "credit_cost": 205
+  },
+  "b6c-02": {
+    "audio": "voice/pensiones-b6c-02.mp3",
+    "duration": 10.579592,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b6c-03": {
+    "audio": "voice/pensiones-b6c-03.mp3",
+    "duration": 10.657959,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b6c-04": {
+    "audio": "voice/pensiones-b6c-04.mp3",
+    "duration": 9.586939,
+    "transcript": null,
+    "credit_cost": 241
+  },
+  "b6c-05": {
+    "audio": "voice/pensiones-b6c-05.mp3",
+    "duration": 10.579592,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b7-01": {
+    "audio": "voice/pensiones-b7-01.mp3",
+    "duration": 6.112653,
+    "transcript": null,
+    "credit_cost": 144
+  },
+  "b7-02": {
+    "audio": "voice/pensiones-b7-02.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b7-03": {
+    "audio": "voice/pensiones-b7-03.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b7-04": {
+    "audio": "voice/pensiones-b7-04.mp3",
+    "duration": 10.945306,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b7-05": {
+    "audio": "voice/pensiones-b7-05.mp3",
+    "duration": 12.486531,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b7-06": {
+    "audio": "voice/pensiones-b7-06.mp3",
+    "duration": 11.31102,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b8-01": {
+    "audio": "voice/pensiones-b8-01.mp3",
+    "duration": 4.231837,
+    "transcript": null,
+    "credit_cost": 119
+  },
+  "b8-02": {
+    "audio": "voice/pensiones-b8-02.mp3",
+    "duration": 9.534694,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b8-03": {
+    "audio": "voice/pensiones-b8-03.mp3",
+    "duration": 8.359184,
+    "transcript": null,
+    "credit_cost": 205
+  },
+  "b8-04": {
+    "audio": "voice/pensiones-b8-04.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b8-05": {
+    "audio": "voice/pensiones-b8-05.mp3",
+    "duration": 8.463673,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b9-01": {
+    "audio": "voice/pensiones-b9-01.mp3",
+    "duration": 4.649796,
+    "transcript": null,
+    "credit_cost": 108
+  },
+  "b9-02": {
+    "audio": "voice/pensiones-b9-02.mp3",
+    "duration": 9.195102,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "b9-03": {
+    "audio": "voice/pensiones-b9-03.mp3",
+    "duration": 10.083265,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b9-04": {
+    "audio": "voice/pensiones-b9-04.mp3",
+    "duration": 6.817959,
+    "transcript": null,
+    "credit_cost": 172
+  },
+  "b9-05": {
+    "audio": "voice/pensiones-b9-05.mp3",
+    "duration": 10.187755,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b9-06": {
+    "audio": "voice/pensiones-b9-06.mp3",
+    "duration": 8.724898,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b9-07": {
+    "audio": "voice/pensiones-b9-07.mp3",
+    "duration": 10.684082,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b10-01": {
+    "audio": "voice/pensiones-b10-01.mp3",
+    "duration": 10.187755,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b10-02": {
+    "audio": "voice/pensiones-b10-02.mp3",
+    "duration": 12.120816,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b10-03": {
+    "audio": "voice/pensiones-b10-03.mp3",
+    "duration": 9.691429,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b10-04": {
+    "audio": "voice/pensiones-b10-04.mp3",
+    "duration": 10.44898,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b10-05": {
+    "audio": "voice/pensiones-b10-05.mp3",
+    "duration": 8.907755,
+    "transcript": null,
+    "credit_cost": 200
+  },
+  "b10-06": {
+    "audio": "voice/pensiones-b10-06.mp3",
+    "duration": 5.067755,
+    "transcript": null,
+    "credit_cost": 136
+  }
+}
