@@ -105,6 +105,21 @@ Para que la locución funcione en la nube hay que crear el secreto
 
 ---
 
+## Cómo se hace un vídeo
+
+El guion —investigar y escribir— se hace **en la conversación, no con la API**.
+Ahí es donde se iba el dinero: veinte guiones investigados y escritos que se
+tiraron por fallos de la cadena. Ahora solo se paga la voz.
+
+    1. Se elige el tema y se investiga con búsqueda web
+    2. Se escribe content/<tema>.json a mano, con el esquema de siempre
+    3. npm run revisar content/<tema>.json          comprueba sin gastar nada
+    4. Actions > Generar locución    (video: <tema>)  ~20.000 créditos
+    5. Actions > Renderizar vídeo    (video: <tema>)  gratis
+
+`scripts/guion.mjs` sigue ahí y funciona, pero ya no se usa en el día a día:
+son unos 1,84 dólares por vídeo y lo mismo se hace aquí sin coste de API.
+
 ## El vídeo de cada mañana
 
 `.github/workflows/diario.yml` se despierta solo a las 05:12 de Madrid. Sobre

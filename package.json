@@ -17,7 +17,8 @@
     "subir": "node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png",
     "youtube-token": "node scripts/youtube-token.mjs",
     "probar-guion": "node scripts/probar-guion.mjs",
-    "probar-stream": "node scripts/probar-stream.mjs"
+    "probar-stream": "node scripts/probar-stream.mjs",
+    "revisar": "node scripts/revisar.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.428",
