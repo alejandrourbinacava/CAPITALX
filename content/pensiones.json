@@ -87,7 +87,15 @@
                 "lado": "der",
                 "cifra": "38 años y 3 meses",
                 "titular": "Lo que hay que cotizar para irse a los 65",
-                "apoyo": "Sin paro largo, sin excedencias, sin años en negro."
+                "apoyo": "Sin paro largo, sin excedencias, sin años en negro.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37556455",
+                  "url": "https://images.pexels.com/photos/37556455/pexels-photo-37556455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Galib Rahman Nadim",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
+                },
+                "fichero": "recortes-auto/pexels-37556455.png"
               }
             },
             {
@@ -108,7 +116,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "man thinking looking away window",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5944695",
+                  "url": "https://videos.pexels.com/video-files/5944695/5944695-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Theo  Decker",
+                  "pagina": "https://www.pexels.com/video/middle-aged-man-posing-looking-away-5944695/"
+                },
+                "fichero": "clips/pexels-5944695.mp4"
               },
               "rotulo": {
                 "texto": "El dato que *le da la vuelta* a todo."
@@ -280,7 +298,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty bank vault interior",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39294468",
+                  "url": "https://videos.pexels.com/video-files/39294468/16720599_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Anh Nguyen",
+                  "pagina": "https://www.pexels.com/video/elegant-historic-building-with-grand-staircase-39294468/"
+                },
+                "fichero": "clips/pexels-39294468.mp4"
               },
               "rotulo": {
                 "texto": "No hay *ninguna hucha* con tu nombre"
@@ -293,7 +321,15 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Lo que cotizaste ya se gastó",
-                "apoyo": "No hay ninguna cuenta con tu nombre: se pagó la pensión de otro."
+                "apoyo": "No hay ninguna cuenta con tu nombre: se pagó la pensión de otro.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31859485",
+                  "url": "https://images.pexels.com/photos/31859485/pexels-photo-31859485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nguyen Duc Toan",
+                  "pagina": "https://www.pexels.com/photo/night-street-view-of-bank-atm-in-saigon-31859485/"
+                },
+                "fichero": "recortes-auto/pexels-31859485.png"
               }
             }
           ]
@@ -348,7 +384,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "busy office workers walking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7651686",
+                  "url": "https://videos.pexels.com/video-files/7651686/7651686-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/man-walking-on-hallway-7651686/"
+                },
+                "fichero": "clips/pexels-7651686.mp4"
               }
             }
           ]
@@ -369,7 +415,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "graph chart screen rising",
-                "tono": "verde"
+                "tono": "verde",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35446607",
+                  "url": "https://videos.pexels.com/video-files/35446607/15017664_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/dynamic-crypto-trading-screen-analysis-35446607/"
+                },
+                "fichero": "clips/pexels-35446607.mp4"
               }
             }
           ]
@@ -395,7 +451,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Récord histórico de afiliados",
-                "apoyo": "Nunca había habido tanta gente cotizando a la vez en España."
+                "apoyo": "Nunca había habido tanta gente cotizando a la vez en España.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28607476",
+                  "url": "https://images.pexels.com/photos/28607476/pexels-photo-28607476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Wolf  Art",
+                  "pagina": "https://www.pexels.com/photo/young-professional-woman-using-laptop-indoors-28607476/"
+                },
+                "fichero": "recortes-auto/pexels-28607476.png"
               },
               "fuente": "Seguridad Social · afiliación"
             },
@@ -403,7 +467,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "modern office building workers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4992295",
+                  "url": "https://videos.pexels.com/video-files/4992295/4992295-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ketut Subiyanto",
+                  "pagina": "https://www.pexels.com/video/video-of-a-woman-going-down-the-stairs-4992295/"
+                },
+                "fichero": "clips/pexels-4992295.mp4"
               }
             }
           ]
@@ -442,7 +516,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office workers busy corridor",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37192945",
+                  "url": "https://videos.pexels.com/video-files/37192945/15755715_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "yuki kiki",
+                  "pagina": "https://www.pexels.com/video/silhouette-people-in-urban-glass-building-37192945/"
+                },
+                "fichero": "clips/pexels-37192945.mp4"
               },
               "rotulo": {
                 "texto": "De dos a *dos coma cuarenta y seis*."
@@ -462,7 +546,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "diverse workers construction site",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8487956",
+                  "url": "https://videos.pexels.com/video-files/8487956/8487956-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/female-construction-workers-posing-together-8487956/"
+                },
+                "fichero": "clips/pexels-8487956.mp4"
               },
               "rotulo": {
                 "kicker": "La explicación incómoda",
@@ -525,7 +619,15 @@
                 "lado": "der",
                 "cifra": "+5,7 %",
                 "titular": "Lo que subió el gasto en un año",
-                "apoyo": "Más pensionistas, y cada pensión nueva más alta que la que sustituye."
+                "apoyo": "Más pensionistas, y cada pensión nueva más alta que la que sustituye.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11106825",
+                  "url": "https://images.pexels.com/photos/11106825/pexels-photo-11106825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Safari  Consoler",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-elderly-woman-smiling-11106825/"
+                },
+                "fichero": "recortes-auto/pexels-11106825.png"
               }
             }
           ]
@@ -565,7 +667,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "senior couple walking park",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26753905",
+                  "url": "https://videos.pexels.com/video-files/26753905/12000210_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Celeste 2305",
+                  "pagina": "https://www.pexels.com/video/morning-life-in-vietnam-26753905/"
+                },
+                "fichero": "clips/pexels-26753905.mp4"
               }
             }
           ]
@@ -612,7 +724,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro banknotes stack close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31750574",
+                  "url": "https://videos.pexels.com/video-files/31750574/13527179_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/close-up-of-hands-handling-stacks-of-currency-31750574/"
+                },
+                "fichero": "clips/pexels-31750574.mp4"
               },
               "rotulo": {
                 "texto": "De diez mil a *cincuenta y dos mil* en quince años."
@@ -636,14 +758,32 @@
                 "lado": "izq",
                 "cifra": "x5",
                 "titular": "Lo que ha crecido la aportación del Estado",
-                "apoyo": "De unos 10.000 millones en 2010 a más de 52.000 en 2025."
+                "apoyo": "De unos 10.000 millones en 2010 a más de 52.000 en 2025.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37425926",
+                  "url": "https://images.pexels.com/photos/37425926/pexels-photo-37425926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Dinara Guseinova",
+                  "pagina": "https://www.pexels.com/photo/neoclassical-building-with-columns-in-belarus-37425926/"
+                },
+                "fichero": "recortes-auto/pexels-37425926.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "euro banknotes counting close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31424892",
+                  "url": "https://videos.pexels.com/video-files/31424892/13404840_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/hands-counting-euro-bills-for-financial-planning-31424892/"
+                },
+                "fichero": "clips/pexels-31424892.mp4"
               }
             }
           ]
@@ -660,7 +800,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "press conference microphones podium",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11336628",
+                  "url": "https://videos.pexels.com/video-files/11336628/11336628-hd_1366_720_50fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 12,
+                  "autor": "TREEDEO.ST",
+                  "pagina": "https://www.pexels.com/video/a-man-in-a-black-suit-giving-a-speech-11336628/"
+                },
+                "fichero": "clips/pexels-11336628.mp4"
               },
               "rotulo": {
                 "kicker": "Con las transferencias dentro",
@@ -722,7 +872,15 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Quien lo dice no es la oposición",
-                "apoyo": "Fedea, un centro de análisis económico, sobre cómo se presentan las cuentas."
+                "apoyo": "Fedea, un centro de análisis económico, sobre cómo se presentan las cuentas.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8297229",
+                  "url": "https://images.pexels.com/photos/8297229/pexels-photo-8297229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/man-in-a-white-dress-shirt-working-8297229/"
+                },
+                "fichero": "recortes-auto/pexels-8297229.png"
               }
             }
           ]
@@ -739,7 +897,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tax office documents stamp",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7195706",
+                  "url": "https://videos.pexels.com/video-files/7195706/7195706-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/medical-doctor-stamping-in-a-notebook-7195706/"
+                },
+                "fichero": "clips/pexels-7195706.mp4"
               },
               "rotulo": {
                 "texto": "Cotizaciones *más impuestos*. Siempre."
@@ -796,7 +964,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowd of people street walking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27433005",
+                  "url": "https://videos.pexels.com/video-files/27433005/12142876_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ivan Keyframe",
+                  "pagina": "https://www.pexels.com/video/suasana-di-terminal-di-jakarta-indonesia-jakartas-s-bus-station-ambience-indonesia-28-27433005/"
+                },
+                "fichero": "clips/pexels-27433005.mp4"
               }
             }
           ]
@@ -826,7 +1004,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "birth certificate documents old",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8523701",
+                  "url": "https://videos.pexels.com/video-files/8523701/8523701-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/a-person-signing-the-certificate-8523701/"
+                },
+                "fichero": "clips/pexels-8523701.mp4"
               },
               "rotulo": {
                 "texto": "No es una previsión. Es *una fecha de nacimiento*."
@@ -855,7 +1043,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "balance scale weights metal",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8431825",
+                  "url": "https://videos.pexels.com/video-files/8431825/8431825-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/chess-pieces-on-the-weighing-scale-8431825/"
+                },
+                "fichero": "clips/pexels-8431825.mp4"
               },
               "rotulo": {
                 "texto": "Cuenta *doble*."
@@ -911,7 +1109,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty factory floor machines",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30183328",
+                  "url": "https://videos.pexels.com/video-files/30183328/12942974_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Nova lv",
+                  "pagina": "https://www.pexels.com/video/modern-factory-textile-production-line-in-action-30183328/"
+                },
+                "fichero": "clips/pexels-30183328.mp4"
               },
               "rotulo": {
                 "texto": "Ya necesita ayuda *con dos y medio*."
@@ -953,7 +1161,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hospital corridor nurse walking",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36718656",
+                  "url": "https://videos.pexels.com/video-files/36718656/15562316_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Erkan Avanoğlu",
+                  "pagina": "https://www.pexels.com/video/empty-hospital-corridor-with-medical-equipment-36718656/"
+                },
+                "fichero": "clips/pexels-36718656.mp4"
               },
               "rotulo": {
                 "texto": "Tres puntos de PIB *salen de algún sitio*"
@@ -984,7 +1202,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "De dónde sale ese dinero",
-                "apoyo": "Cada punto de PIB en pensiones es un punto que no está en otra parte."
+                "apoyo": "Cada punto de PIB en pensiones es un punto que no está en otra parte.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5722166",
+                  "url": "https://images.pexels.com/photos/5722166/pexels-photo-5722166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-scrubs-holding-a-clipboard-5722166/"
+                },
+                "fichero": "recortes-auto/pexels-5722166.png"
               }
             }
           ]
@@ -1010,7 +1236,15 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "Mira tu última nómina",
-                "apoyo": "El ajuste no es una amenaza futura: ya te lo están descontando."
+                "apoyo": "El ajuste no es una amenaza futura: ya te lo están descontando.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6919779",
+                  "url": "https://images.pexels.com/photos/6919779/pexels-photo-6919779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nataliya Vaitkevich",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-covering-her-face-with-white-printer-paper-6919779/"
+                },
+                "fichero": "recortes-auto/pexels-6919779.png"
               }
             }
           ]
@@ -1035,7 +1269,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "payroll documents desk calculator",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7593891",
+                  "url": "https://videos.pexels.com/video-files/7593891/7593891-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-person-using-calculator-7593891/"
+                },
+                "fichero": "clips/pexels-7593891.mp4"
               }
             }
           ]
@@ -1095,7 +1339,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "young worker warehouse boxes",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15462031",
+                  "url": "https://videos.pexels.com/video-files/15462031/15462031-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Romit  Majumdar",
+                  "pagina": "https://www.pexels.com/video/a-young-man-working-at-a-warehouse-15462031/"
+                },
+                "fichero": "clips/pexels-15462031.mp4"
               },
               "rotulo": {
                 "texto": "Veinticuatro años pagando *de más*."
@@ -1109,7 +1363,15 @@
                 "lado": "izq",
                 "cifra": "24 años",
                 "titular": "Lo que vas a cotizar de más",
-                "apoyo": "El mecanismo de tu nómina sigue vigente hasta 2050."
+                "apoyo": "El mecanismo de tu nómina sigue vigente hasta 2050.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4483865",
+                  "url": "https://images.pexels.com/photos/4483865/pexels-photo-4483865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tiger Lily",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-brown-and-beige-long-sleeves-wearing-red-cap-4483865/"
+                },
+                "fichero": "recortes-auto/pexels-4483865.png"
               }
             }
           ]
@@ -1132,7 +1394,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european union flags building",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16953740",
+                  "url": "https://videos.pexels.com/video-files/16953740/16953740-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Andrey Muntean",
+                  "pagina": "https://www.pexels.com/video/adunarea-na-ionala-moldova-europeana-16953740/"
+                },
+                "fichero": "clips/pexels-16953740.mp4"
               },
               "rotulo": {
                 "texto": "¿Por qué cuesta *más que el de los demás*?"
@@ -1159,14 +1431,32 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Tasa de sustitución",
-                "apoyo": "Qué parte de tu último sueldo te sustituye la pensión."
+                "apoyo": "Qué parte de tu último sueldo te sustituye la pensión.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17049771",
+                  "url": "https://images.pexels.com/photos/17049771/pexels-photo-17049771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tran Nhu Tuan",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-businessman-in-a-suit-17049771/"
+                },
+                "fichero": "recortes-auto/pexels-17049771.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "hands holding coins savings",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36036680",
+                  "url": "https://videos.pexels.com/video-files/36036680/15283235_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nothing Ahead",
+                  "pagina": "https://www.pexels.com/video/close-up-of-coins-in-hand-outdoors-36036680/"
+                },
+                "fichero": "clips/pexels-36036680.mp4"
               }
             }
           ]
@@ -1204,7 +1494,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "retired couple home kitchen",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7477413",
+                  "url": "https://videos.pexels.com/video-files/7477413/7477413-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/elderly-couple-cleaning-the-glasswares-while-talking-7477413/"
+                },
+                "fichero": "clips/pexels-7477413.mp4"
               }
             }
           ]
@@ -1225,14 +1525,32 @@
                 "lado": "der",
                 "cifra": "+7 puntos",
                 "titular": "Lo que ha subido en un solo informe",
-                "apoyo": "Del 73 % al 80 % del último salario. Solo Grecia paga más en toda la OCDE."
+                "apoyo": "Del 73 % al 80 % del último salario. Solo Grecia paga más en toda la OCDE.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "407422",
+                  "url": "https://images.pexels.com/photos/407422/pexels-photo-407422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Martin  Péchy",
+                  "pagina": "https://www.pexels.com/photo/person-in-red-coat-sitting-on-chair-407422/"
+                },
+                "fichero": "recortes-auto/pexels-407422.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "greece athens street view",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38043956",
+                  "url": "https://videos.pexels.com/video-files/38043956/16147718_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/colorful-urban-street-art-in-vibrant-city-street-38043956/"
+                },
+                "fichero": "clips/pexels-38043956.mp4"
               }
             }
           ]
@@ -1249,7 +1567,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "grandparents with grandchildren park",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7844084",
+                  "url": "https://videos.pexels.com/video-files/7844084/7844084-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/grandfather-playing-with-his-grandchildren-7844084/"
+                },
+                "fichero": "clips/pexels-7844084.mp4"
               },
               "rotulo": {
                 "kicker": "No es un defecto",
@@ -1309,7 +1637,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowded metro station commuters",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3893422",
+                  "url": "https://videos.pexels.com/video-files/3893422/3893422-hd_1920_802_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Fernanda Nascimento",
+                  "pagina": "https://www.pexels.com/video/people-waiting-for-the-train-3893422/"
+                },
+                "fichero": "clips/pexels-3893422.mp4"
               }
             }
           ]
@@ -1332,7 +1670,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish parliament congress interior",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27359930",
+                  "url": "https://videos.pexels.com/video-files/27359930/12124081_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Atlantic Ambience",
+                  "pagina": "https://www.pexels.com/video/the-interior-of-a-church-with-ornate-decorations-27359930/"
+                },
+                "fichero": "clips/pexels-27359930.mp4"
               },
               "rotulo": {
                 "texto": "Se ha hecho. Y *bastante*"
@@ -1360,14 +1708,32 @@
                 "lado": "izq",
                 "cifra": "13 años",
                 "titular": "Lo que lleva aplicándose la subida",
-                "apoyo": "De 65 a 67 años, mes a mes, desde 2013. Casi nadie lo notó."
+                "apoyo": "De 65 a 67 años, mes a mes, desde 2013. Casi nadie lo notó.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38072267",
+                  "url": "https://images.pexels.com/photos/38072267/pexels-photo-38072267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alexas Fotos",
+                  "pagina": "https://www.pexels.com/photo/classic-vintage-alarm-clock-in-black-and-white-38072267/"
+                },
+                "fichero": "recortes-auto/pexels-38072267.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "office worker looking out window",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9034492",
+                  "url": "https://videos.pexels.com/video-files/9034492/9034492-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/a-woman-holding-a-folder-looking-afar-9034492/"
+                },
+                "fichero": "clips/pexels-9034492.mp4"
               }
             }
           ]
@@ -1392,7 +1758,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spreadsheet numbers screen close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7688065",
+                  "url": "https://videos.pexels.com/video-files/7688065/7688065-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/a-person-using-a-calculator-7688065/"
+                },
+                "fichero": "clips/pexels-7688065.mp4"
               }
             }
           ]
@@ -1409,7 +1785,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "business district skyscrapers morning",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30284660",
+                  "url": "https://videos.pexels.com/video-files/30284660/12981803_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Siarhei Dalivelia",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-modern-city-skyline-in-fog-30284660/"
+                },
+                "fichero": "clips/pexels-30284660.mp4"
               },
               "rotulo": {
                 "kicker": "Sobre los sueldos altos",
@@ -1423,7 +1809,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Y sobre los que más ganan",
-                "apoyo": "Una cuota adicional que también sube cada año hasta 2045."
+                "apoyo": "Una cuota adicional que también sube cada año hasta 2045.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27086922",
+                  "url": "https://images.pexels.com/photos/27086922/pexels-photo-27086922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Helena Lopes",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-a-business-suit-smiling-27086922/"
+                },
+                "fichero": "recortes-auto/pexels-27086922.png"
               }
             }
           ]
@@ -1440,7 +1834,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "newspaper printing press headlines",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38826405",
+                  "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/video/high-speed-newspaper-printing-process-close-up-38826405/"
+                },
+                "fichero": "clips/pexels-38826405.mp4"
               },
               "rotulo": {
                 "texto": "Ninguna se anunció como *un recorte*"
@@ -1530,7 +1934,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "economists meeting discussion table",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7844857",
+                  "url": "https://videos.pexels.com/video-files/7844857/7844857-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/woman-talking-in-a-meeting-7844857/"
+                },
+                "fichero": "clips/pexels-7844857.mp4"
               }
             }
           ]
@@ -1550,7 +1964,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Diez años anunciando el colapso",
-                "apoyo": "Y diez años en que la proporción de cotizantes ha ido a mejor, no a peor."
+                "apoyo": "Y diez años en que la proporción de cotizantes ha ido a mejor, no a peor.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4996315",
+                  "url": "https://images.pexels.com/photos/4996315/pexels-photo-4996315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Muhammad-Taha Ibrahim",
+                  "pagina": "https://www.pexels.com/photo/laughing-black-man-reading-newspaper-4996315/"
+                },
+                "fichero": "recortes-auto/pexels-4996315.png"
               }
             },
             {
@@ -1597,7 +2019,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "courtroom empty chairs",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951298",
+                  "url": "https://videos.pexels.com/video-files/6951298/6951298-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/monitors-and-microphones-in-a-conference-room-6951298/"
+                },
+                "fichero": "clips/pexels-6951298.mp4"
               },
               "rotulo": {
                 "texto": "Ni desaparecen mañana, ni *esto se arregla solo*."
@@ -1660,7 +2092,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "parliament chamber voting session",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103392",
+                  "url": "https://videos.pexels.com/video-files/7103392/7103392-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/video/people-putting-their-votes-on-a-ballot-box-7103392/"
+                },
+                "fichero": "clips/pexels-7103392.mp4"
               },
               "rotulo": {
                 "texto": "*Ochenta y uno* a favor, veintiuno en contra"
@@ -1684,7 +2126,15 @@
                 "lado": "izq",
                 "cifra": "1970",
                 "titular": "Los nacidos después de ese año",
-                "apoyo": "En Dinamarca trabajarán hasta los setenta. Es ley desde mayo de 2025."
+                "apoyo": "En Dinamarca trabajarán hasta los setenta. Es ley desde mayo de 2025.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4486212",
+                  "url": "https://images.pexels.com/photos/4486212/pexels-photo-4486212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Littlehampton Bricks",
+                  "pagina": "https://www.pexels.com/photo/content-machine-operator-near-equipment-at-work-4486212/"
+                },
+                "fichero": "recortes-auto/pexels-4486212.png"
               }
             },
             {
@@ -1739,7 +2189,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "blueprint drawing desk architect",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6615523",
+                  "url": "https://videos.pexels.com/video-files/6615523/6615523-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/blue-plans-6615523/"
+                },
+                "fichero": "clips/pexels-6615523.mp4"
               },
               "rotulo": {
                 "texto": "Lo difícil no fue subirla. Fue *decidirlo veinte años antes*."
@@ -1762,7 +2222,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Ni al país que lo hizo le convence",
-                "apoyo": "La primera ministra danesa dijo que subir la edad automáticamente no es sostenible."
+                "apoyo": "La primera ministra danesa dijo que subir la edad automáticamente no es sostenible.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8847165",
+                  "url": "https://images.pexels.com/photos/8847165/pexels-photo-8847165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-behind-speech-desk-8847165/"
+                },
+                "fichero": "recortes-auto/pexels-8847165.png"
               },
               "fuente": "Declaraciones de Mette Frederiksen, 2025"
             },
@@ -1809,14 +2277,32 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Nadie las va a suprimir",
-                "apoyo": "Diez millones de votantes cobran una. Lo que pasa es más silencioso."
+                "apoyo": "Diez millones de votantes cobran una. Lo que pasa es más silencioso.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103166",
+                  "url": "https://images.pexels.com/photos/7103166/pexels-photo-7103166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/photo/a-male-voter-reviewing-his-ballot-7103166/"
+                },
+                "fichero": "recortes-auto/pexels-7103166.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old man sitting bench alone",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32156036",
+                  "url": "https://videos.pexels.com/video-files/32156036/13710407_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Igor Vieira",
+                  "pagina": "https://www.pexels.com/video/man-sitting-in-urban-park-observing-traffic-32156036/"
+                },
+                "fichero": "clips/pexels-32156036.mp4"
               }
             }
           ]
@@ -1896,7 +2382,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calendar pages turning close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5283827",
+                  "url": "https://videos.pexels.com/video-files/5283827/5283827-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/pages-of-a-book-being-flipped-5283827/"
+                },
+                "fichero": "clips/pexels-5283827.mp4"
               }
             }
           ]
@@ -1913,21 +2409,25 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "long empty corridor walking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28829130",
+                  "url": "https://videos.pexels.com/video-files/28829130/12488365_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 4,
+                  "autor": "Bofforss",
+                  "pagina": "https://www.pexels.com/video/moody-underground-tunnel-walk-with-neon-lights-28829130/"
+                },
+                "fichero": "clips/pexels-28829130.mp4"
               },
               "rotulo": {
                 "texto": "Despacio, sin anuncios, y *sin que nadie vote nada*."
               }
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "man walking corridor alone",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "Sin que nadie vote nada",
-                "apoyo": "Un año más de trabajo cada década, sin un solo anuncio."
-              }
+              "tipo": "frase",
+              "texto": "man walking corridor alone"
             }
           ]
         },
@@ -1946,7 +2446,15 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "La pregunta no es si habrá pensión",
-                "apoyo": "La habrá. La pregunta es a qué edad, y qué parte de tu sueldo sustituirá."
+                "apoyo": "La habrá. La pregunta es a qué edad, y qué parte de tu sueldo sustituirá.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8424446",
+                  "url": "https://images.pexels.com/photos/8424446/pexels-photo-8424446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-and-red-turtleneck-shirt-8424446/"
+                },
+                "fichero": "recortes-auto/pexels-8424446.png"
               }
             },
             {
@@ -1977,7 +2485,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "city street people commuting morning",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39020639",
+                  "url": "https://videos.pexels.com/video-files/39020639/16604323_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ivan Chumak",
+                  "pagina": "https://www.pexels.com/video/busy-urban-tram-intersection-on-sunny-day-39020639/"
+                },
+                "fichero": "clips/pexels-39020639.mp4"
               }
             }
           ]
@@ -2007,7 +2525,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank vault door heavy",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34800569",
+                  "url": "https://videos.pexels.com/video-files/34800569/14755338_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/historic-doors-interior-with-warm-lighting-34800569/"
+                },
+                "fichero": "clips/pexels-34800569.mp4"
               },
               "rotulo": {
                 "texto": "En su mejor momento, y *no se paga solo*."
@@ -2034,7 +2562,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sand slipping through fingers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26588319",
+                  "url": "https://videos.pexels.com/video-files/26588319/11966282_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Rustem Muratov",
+                  "pagina": "https://www.pexels.com/video/hands-take-sand-26588319/"
+                },
+                "fichero": "clips/pexels-26588319.mp4"
               },
               "rotulo": {
                 "texto": "Para que *no se note*."
@@ -2093,7 +2631,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sunrise city skyline calm",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17281262",
+                  "url": "https://videos.pexels.com/video-files/17281262/17281262-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Henrique Farina",
+                  "pagina": "https://www.pexels.com/video/a-view-of-the-ocean-and-city-skyline-from-a-beach-17281262/"
+                },
+                "fichero": "clips/pexels-17281262.mp4"
               }
             }
           ]
