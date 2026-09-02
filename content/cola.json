@@ -33,6 +33,11 @@
       "slug": "burbuja-espana",
       "titulo": "Las 5 Etapas de una Burbuja Inmobiliaria (España No Está en la 3)",
       "fecha": "2026-09-01"
+    },
+    {
+      "slug": "pensiones",
+      "titulo": "Por Qué No Te Vas a Jubilar a Los 65 (Y No Es Por Lo Que Crees)",
+      "fecha": "2026-09-01"
     }
   ],
   "cola": [
@@ -77,13 +82,6 @@
       "angulo": "Calendario real de vencimientos, tipo medio al que se refinancia, quién la compra ahora que el BCE ya no, y el peso del envejecimiento.",
       "region": "europa",
       "pais": "italia"
-    },
-    {
-      "slug": "pensiones",
-      "titulo": "Por Qué Nunca Vas a Jubilarte a Los 65",
-      "angulo": "Ratio de cotizantes por pensionista, edad legal ya aprobada, déficit de la Seguridad Social y qué países ya lo han movido. Formato que ya funcionó en el canal.",
-      "region": "europa",
-      "pais": "espana"
     },
     {
       "slug": "medicos-francia",

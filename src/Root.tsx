@@ -16,6 +16,8 @@ import mexico from "../content/mexico.json";
 import corea from "../content/corea.json";
 import mexicoT from "../content/mexico.timings.json";
 import coreaT from "../content/corea.timings.json";
+import pensiones from "../content/pensiones.json";
+import pensionesT from "../content/pensiones.timings.json";
 import diario from "../content/diario.json";
 import diarioT from "../content/diario.timings.json";
 
@@ -26,6 +28,7 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "mexico", guion: mexico as any, tiempos: mexicoT as any },
   { id: "corea", guion: corea as any, tiempos: coreaT as any },
   // El de cada manana. Lo sobrescribe el flujo diario antes de renderizar.
+  { id: "pensiones", guion: pensiones as any, tiempos: pensionesT as any },
   { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 

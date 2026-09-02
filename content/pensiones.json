@@ -1,0 +1,2145 @@
+{
+  "slug": "pensiones",
+  "titulo": "Por Qué No Te Vas a Jubilar a Los 65 (Y No Es Por Lo Que Crees)",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frio",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "Si te jubilas este año en España, la edad legal no son sesenta y cinco. Son sesenta y seis años y diez meses.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EDAD LEGAL · 2026",
+              "fuente": "Seguridad Social",
+              "de": {
+                "valor": 65,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 66,
+                "etiqueta": "años y diez meses"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "El año que viene serán sesenta y siete. Y ahí se queda, según la ley que está en vigor ahora mismo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA SUBIDA YA APROBADA",
+              "fuente": "Ley 27/2011 y reformas posteriores",
+              "barras": {
+                "unidad": "Edad legal de jubilación",
+                "datos": [
+                  {
+                    "etiqueta": "2011",
+                    "valor": 65,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2026",
+                    "valor": 66.8,
+                    "tono": "ocre",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2027",
+                    "valor": 67,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Puedes irte a los sesenta y cinco, sí. Pero solo si has cotizado treinta y ocho años y tres meses. Es decir, si empezaste a trabajar con veintiséis y no paraste nunca.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "construction worker portrait helmet",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "38 años y 3 meses",
+                "titular": "Lo que hay que cotizar para irse a los 65",
+                "apoyo": "Sin paro largo, sin excedencias, sin años en negro."
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Empezar a los veintiséis y *no parar nunca*."
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Hasta aquí, lo que ya sabías. Ahora viene el dato que casi nadie cuenta, y que le da la vuelta a toda la conversación.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "man thinking looking away window",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "El dato que *le da la vuelta* a todo."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "En dos mil veintiséis hay dos coma cuarenta y seis cotizantes por cada pensionista. Es la mejor proporción desde dos mil once, y la mejor de los últimos treinta años sin contar los de la burbuja.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "COTIZANTES POR PENSIONISTA",
+              "fuente": "Seguridad Social · 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 246,
+                "etiqueta": "centésimas de cotizante por pensionista"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "La mejor proporción *en quince años*."
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "El sistema está en su mejor momento en quince años. Y aun así, el Estado tuvo que ponerle cincuenta y dos mil millones de euros para poder pagar las pensiones.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TRANSFERENCIAS DEL ESTADO · 2025",
+              "fuente": "Ministerio de Inclusión y Seguridad Social",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 52000,
+                "etiqueta": "millones de euros"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "En su mejor momento. Y *no se paga solo*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "La promesa",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Vamos a ver tres cosas, y la segunda va en contra de casi todo lo que se dice sobre las pensiones.",
+          "voz": {
+            "speed": 1.02
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Primero, qué está pagando de verdad tu pensión hoy, porque no son solo las cotizaciones.",
+          "voz": {
+            "speed": 1.02
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Qué vamos a ver",
+                "puntos": [
+                  "Quién paga las pensiones hoy",
+                  "Por qué el mejor dato en 15 años no basta",
+                  "Qué pasa cuando ese dato empeore"
+                ],
+                "activo": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Segundo, por qué el sistema no se sostiene ni con la mejor proporción de cotizantes en quince años.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Qué vamos a ver",
+                "puntos": [
+                  "Quién paga las pensiones hoy",
+                  "Por qué el mejor dato en 15 años no basta",
+                  "Qué pasa cuando ese dato empeore"
+                ],
+                "activo": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "Y tercero, qué pasa cuando esa proporción empeore. Porque va a empeorar, y sabemos cuándo y por qué.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Qué vamos a ver",
+                "puntos": [
+                  "Quién paga las pensiones hoy",
+                  "Por qué el mejor dato en 15 años no basta",
+                  "Qué pasa cuando ese dato empeore"
+                ],
+                "activo": 2
+              },
+              "rotulo": {
+                "kicker": "Y esto ya está fechado",
+                "texto": "Sabemos *cuándo* y *por qué*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Quien paga tu pension",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Empecemos por lo básico, porque casi todo el mundo lo tiene mal. Tu pensión no sale de un fondo donde esté guardado lo que tú cotizaste.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty bank vault interior",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "No hay *ninguna hucha* con tu nombre"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "bank teller counter window",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Lo que cotizaste ya se gastó",
+                "apoyo": "No hay ninguna cuenta con tu nombre: se pagó la pensión de otro."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Sale de lo que cotizan hoy los que están trabajando. Tú pagaste las pensiones de tus padres, y los que trabajan ahora pagan las de los jubilados de ahora.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "REPARTO, NO CAPITALIZACIÓN",
+              "gente": {
+                "total": 21000000,
+                "destacados": 8500000,
+                "escala": 100000,
+                "etiqueta": "Cotizantes",
+                "etiquetaDestacados": "Pensionistas"
+              },
+              "fuente": "Seguridad Social · afiliación media y pensiones contributivas"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "Se llama reparto",
+                "texto": "Los de hoy pagan a *los de hoy*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Por eso la proporción entre unos y otros lo es todo. Si hay muchos trabajando por cada jubilado, el sistema respira. Si hay pocos, se ahoga.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Toda la discusión cabe en *una proporción*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "busy office workers walking",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Y aquí está lo que no encaja con el relato habitual. Esa proporción no está en mínimos. Está en su mejor nivel desde dos mil once.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No está en mínimos. Está en *máximos de quince años*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "graph chart screen rising",
+                "tono": "verde"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "El mejor dato en quince anos",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "España tiene hoy el récord de afiliados a la Seguridad Social de toda su historia. Nunca había habido tanta gente cotizando a la vez.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman working laptop office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Récord histórico de afiliados",
+                "apoyo": "Nunca había habido tanta gente cotizando a la vez en España."
+              },
+              "fuente": "Seguridad Social · afiliación"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "modern office building workers",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Dos coma cuarenta y seis cotizantes por pensionista. Para que te hagas una idea, en dos mil trece, en lo peor de la crisis, la proporción rondaba los dos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "COTIZANTES POR PENSIONISTA",
+              "fuente": "Seguridad Social",
+              "barras": {
+                "unidad": "Cotizantes por cada pensionista",
+                "datos": [
+                  {
+                    "etiqueta": "2013",
+                    "valor": 2,
+                    "tono": "carmin",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "2026",
+                    "valor": 2.46,
+                    "tono": "verde",
+                    "decimales": 2
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "office workers busy corridor",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "De dos a *dos coma cuarenta y seis*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Y buena parte de esa mejora tiene una explicación que incomoda a mucha gente: la inmigración. Sin los cotizantes extranjeros llegados en la última década, la proporción sería bastante peor.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "diverse workers construction site",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "La explicación incómoda",
+                "texto": "Sin ellos, la proporción sería *peor*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Con ese viento a favor, el sistema debería sobrarle dinero. Vamos a ver si le sobra.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Con todo a favor. Vamos a ver *si le sobra*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Los cincuenta y dos mil millones",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "En dos mil veinticinco, el gasto en pensiones fue de ciento ochenta y dos mil quinientos millones de euros. Un cinco coma siete por ciento más que el año anterior.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "GASTO EN PENSIONES · 2025",
+              "fuente": "Seguridad Social",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 182526,
+                "etiqueta": "millones de euros"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly woman portrait smiling",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "+5,7 %",
+                "titular": "Lo que subió el gasto en un año",
+                "apoyo": "Más pensionistas, y cada pensión nueva más alta que la que sustituye."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Sube por dos motivos a la vez. Hay más pensionistas, y cada pensión nueva es más alta que la que sustituye, porque quien se jubila ahora cotizó por sueldos mayores.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "POR QUÉ SUBE EL GASTO",
+              "fuente": "Seguridad Social · 2025",
+              "barras": {
+                "unidad": "Variación anual",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Más pensionistas",
+                    "valor": 1.5,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Pensión media más alta",
+                    "valor": 4.4,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "senior couple walking park",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Y aquí está el número que sostiene este vídeo. Para cuadrar esas cuentas, el Estado transfirió a la Seguridad Social cuarenta y ocho mil millones en dos mil veinticuatro, y más de cincuenta y dos mil el año pasado.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "TRANSFERENCIAS DEL ESTADO",
+              "fuente": "Ministerio de Inclusión y Seguridad Social",
+              "barras": {
+                "unidad": "Miles de millones de euros",
+                "datos": [
+                  {
+                    "etiqueta": "2010",
+                    "valor": 10,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2020",
+                    "valor": 26,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "2024",
+                    "valor": 48,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 52,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro banknotes stack close up",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "De diez mil a *cincuenta y dos mil* en quince años."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "En dos mil diez esas transferencias eran unos diez mil millones. Se han multiplicado por cinco en quince años, mientras el empleo batía récords.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "government building columns facade",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "x5",
+                "titular": "Lo que ha crecido la aportación del Estado",
+                "apoyo": "De unos 10.000 millones en 2010 a más de 52.000 en 2025."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro banknotes counting close up",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Con ese dinero dentro, las cuentas dan superávit. Y el Gobierno lo presenta así, con toda legitimidad, porque es lo que dicen los números.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "press conference microphones podium",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Con las transferencias dentro",
+                "texto": "Las cuentas dan *superávit*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Quítalo, y la Seguridad Social cierra con un déficit de en torno al cero coma cuatro por ciento del producto interior bruto. Es el cálculo de la Autoridad Independiente de Responsabilidad Fiscal.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SIN LAS TRANSFERENCIAS",
+              "fuente": "AIReF · cierre estimado de 2025",
+              "estatico": true,
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4,
+                "etiqueta": "décimas de PIB de déficit"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Sin ese dinero, *déficit*."
+            }
+          ]
+        },
+        {
+          "id": "b4-07",
+          "vo": "La Fundación de Estudios de Economía Aplicada lo resume en cinco palabras: contar las transferencias como ingresos propios es una ilusión contable.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Contar eso como ingreso propio es *una ilusión contable*.",
+              "night": true,
+              "fuente": "Fedea"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "accountant reviewing documents desk",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Quien lo dice no es la oposición",
+                "apoyo": "Fedea, un centro de análisis económico, sobre cómo se presentan las cuentas."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-08",
+          "vo": "Dicho de otra forma: el sistema no se paga con lo que cotizas. Se paga con lo que cotizas más una inyección de impuestos generales que ya equivale a casi un tercio del gasto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tax office documents stamp",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Cotizaciones *más impuestos*. Siempre."
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Lo que viene: seis coma seis millones",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Y ahora la parte que convierte un problema de contabilidad en un problema de calendario.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "De problema contable a *problema de calendario*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Entre mil novecientos cincuenta y ocho y mil novecientos setenta y siete nacieron en España casi catorce millones de personas. Es el llamado baby boom, y fue el mayor de Europa en proporción.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "NACIDOS ENTRE 1958 Y 1977",
+              "fuente": "INE",
+              "gente": {
+                "total": 14000000,
+                "destacados": 6600000,
+                "escala": 100000,
+                "etiqueta": "El baby boom español",
+                "etiquetaDestacados": "Se jubilan en las próximas dos décadas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowd of people street walking",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "De esa generación, seis coma seis millones de personas se van a jubilar en las próximas dos décadas. No es una estimación difusa: son gente que ya está viva y cuya fecha de nacimiento conocemos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "JUBILACIONES DEL BABY BOOM",
+              "fuente": "AIReF",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 6600000,
+                "etiqueta": "personas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "birth certificate documents old",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "No es una previsión. Es *una fecha de nacimiento*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Y aquí está lo importante: cada uno de ellos deja de estar en la columna de los que cotizan y pasa a la de los que cobran. Cuenta doble.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Cada jubilación",
+                "texto": "Resta de un lado y *suma del otro*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "balance scale weights metal",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Cuenta *doble*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Por eso la proporción de la que hablábamos antes, esos dos coma cuarenta y seis que hoy son récord, se va a estropear. La Autoridad Fiscal la sitúa entre uno coma siete y uno coma ocho en las próximas décadas.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "COTIZANTES POR PENSIONISTA",
+              "fuente": "AIReF · proyección",
+              "barras": {
+                "unidad": "Cotizantes por cada pensionista",
+                "datos": [
+                  {
+                    "etiqueta": "Hoy",
+                    "valor": 2.46,
+                    "tono": "verde",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "Proyección",
+                    "valor": 1.75,
+                    "tono": "carmin",
+                    "decimales": 2
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "De dos coma cuarenta y seis a *uno coma siete*."
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "Menos de dos trabajadores por jubilado. Y el sistema ya necesita cincuenta y dos mil millones de ayuda con dos y medio.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty factory floor machines",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Ya necesita ayuda *con dos y medio*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-07",
+          "vo": "La Autoridad Fiscal proyecta que el gasto en pensiones pase del trece por ciento del producto interior bruto de hoy a un dieciséis coma dos por ciento en dos mil cincuenta.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "GASTO EN PENSIONES SOBRE EL PIB",
+              "fuente": "AIReF",
+              "barras": {
+                "unidad": "Porcentaje del PIB",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Hoy",
+                    "valor": 13,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2050",
+                    "valor": 16.2,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hospital corridor nurse walking",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Tres puntos de PIB *salen de algún sitio*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-08",
+          "vo": "Tres puntos de producto interior bruto son, más o menos, todo el presupuesto sanitario de varias comunidades juntas. No es un matiz contable: es dinero que hay que sacar de otro sitio.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "Tres puntos de PIB",
+                "texto": "Hay que *sacarlo de otro sitio*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "nurse in uniform portrait",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "De dónde sale ese dinero",
+                "apoyo": "Cada punto de PIB en pensiones es un punto que no está en otra parte."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Lo que ya estas pagando",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Y esto no es un problema del futuro. Mira tu última nómina.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "person holding payslip paper",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Mira tu última nómina",
+                "apoyo": "El ajuste no es una amenaza futura: ya te lo están descontando."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Desde dos mil veintitrés existe el Mecanismo de Equidad Intergeneracional. Es una cotización adicional que sale de tu sueldo y del bolsillo de tu empresa, y su único objetivo es tapar este agujero.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carta",
+              "rotulo": {
+                "kicker": "Desde 2023",
+                "texto": "Mecanismo de *Equidad Intergeneracional*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "payroll documents desk calculator",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "En dos mil veintiséis es el cero coma nueve por ciento de tu base de cotización. En dos mil veintinueve llegará al uno coma dos, y ahí se quedará hasta dos mil cincuenta.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL MEI, AÑO A AÑO",
+              "fuente": "Seguridad Social",
+              "barras": {
+                "unidad": "Cotización adicional sobre la base",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "2023",
+                    "valor": 0.6,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2026",
+                    "valor": 0.9,
+                    "tono": "ocre",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2029",
+                    "valor": 1.2,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Y ahí se queda *hasta dos mil cincuenta*."
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Veinticuatro años cotizando de más para sostener un sistema que, cuando te toque a ti, tendrá menos de dos trabajadores por jubilado.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "young worker warehouse boxes",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Veinticuatro años pagando *de más*."
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young man warehouse worker portrait",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "24 años",
+                "titular": "Lo que vas a cotizar de más",
+                "apoyo": "El mecanismo de tu nómina sigue vigente hasta 2050."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6b",
+      "nombre": "Por que cuesta tanto",
+      "planos": [
+        {
+          "id": "b6b-01",
+          "vo": "Y llegados aquí falta responder a una pregunta que casi nunca se hace. Si España tiene una proporción de cotizantes normal para Europa, ¿por qué su sistema cuesta más que el de los demás?",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european union flags building",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "¿Por qué cuesta *más que el de los demás*?"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b6b-02",
+          "vo": "La respuesta está en un número que se llama tasa de sustitución. Mide qué parte de tu último sueldo te sustituye la pensión cuando dejas de trabajar.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman suit portrait serious",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Tasa de sustitución",
+                "apoyo": "Qué parte de tu último sueldo te sustituye la pensión."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hands holding coins savings",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6b-03",
+          "vo": "En España es del ochenta por ciento en términos brutos. La media de la Organización para la Cooperación y el Desarrollo Económico es del cincuenta y seis.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "TASA DE SUSTITUCIÓN BRUTA",
+              "fuente": "OCDE · Pensions at a Glance",
+              "barras": {
+                "unidad": "Porcentaje del último salario que cubre la pensión",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Media OCDE",
+                    "valor": 56,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "España",
+                    "valor": 80,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "retired couple home kitchen",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6b-04",
+          "vo": "Ochenta contra cincuenta y seis. Solo Grecia paga más que España en toda la organización. Y en el informe anterior España estaba en el setenta y tres: ha subido siete puntos.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly woman reading newspaper",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "+7 puntos",
+                "titular": "Lo que ha subido en un solo informe",
+                "apoyo": "Del 73 % al 80 % del último salario. Solo Grecia paga más en toda la OCDE."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "greece athens street view",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6b-05",
+          "vo": "Y esto es importante decirlo bien: no es un defecto. Es una decisión. España decidió que sus jubilados no perdieran nivel de vida al retirarse, y eso es defendible.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "grandparents with grandchildren park",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "No es un defecto",
+                "texto": "Es *una decisión*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Que no pierdan nivel de vida. Y eso *es defendible*."
+            }
+          ]
+        },
+        {
+          "id": "b6b-06",
+          "vo": "Pero una decisión así se paga, y la factura la conocemos. Sin nuevas reformas, España sería el país de toda la organización que más parte de su riqueza dedicaría a pensiones en dos mil cincuenta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "espana"
+                ]
+              },
+              "kicker": "SIN NUEVAS REFORMAS · 2050",
+              "fuente": "OCDE"
+            },
+            {
+              "tipo": "frase",
+              "texto": "El país que más *de toda la OCDE*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b6b-07",
+          "vo": "Ahí está el nudo de todo esto. No es que haya demasiados jubilados. Es que cada pensión española es muy alta en relación al sueldo que sustituye, y eso, multiplicado por seis coma seis millones de personas, no cabe en la caja.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "El nudo",
+                "texto": "No son *demasiados*. Es *cuánto cobra cada uno*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowded metro station commuters",
+                "tono": "carmin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6c",
+      "nombre": "Lo que ya se ha tocado",
+      "planos": [
+        {
+          "id": "b6c-01",
+          "vo": "Y ahora una cosa que conviene saber, porque circula la idea de que en España no se ha hecho nada con las pensiones. Se ha hecho, y bastante.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spanish parliament congress interior",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Se ha hecho. Y *bastante*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b6c-02",
+          "vo": "Se subió la edad legal de sesenta y cinco a sesenta y siete, escalonadamente y desde dos mil trece. Ese ajuste lleva trece años aplicándose sin que casi nadie lo notara.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "clock face close up time",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "13 años",
+                "titular": "Lo que lleva aplicándose la subida",
+                "apoyo": "De 65 a 67 años, mes a mes, desde 2013. Casi nadie lo notó."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "office worker looking out window",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6c-03",
+          "vo": "Se alargó el número de años que se usan para calcular tu pensión. Cuantos más años cuentan, más pesan los sueldos bajos del principio de tu carrera, y más baja sale la cuenta.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "El cambio más silencioso",
+                "texto": "Más años contando *bajan la pensión*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spreadsheet numbers screen close up",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6c-04",
+          "vo": "Se creó la cotización adicional de tu nómina, que ya hemos visto. Y se puso una cuota de solidaridad sobre los sueldos más altos, que también irá subiendo cada año.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "business district skyscrapers morning",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "kicker": "Sobre los sueldos altos",
+                "texto": "Una *cuota de solidaridad*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "executive woman office portrait",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Y sobre los que más ganan",
+                "apoyo": "Una cuota adicional que también sube cada año hasta 2045."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6c-05",
+          "vo": "Cuatro reformas en quince años, y ninguna se anunció como un recorte. Todas se presentaron como ajustes técnicos. Esa es exactamente la forma en que esto se hace.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper printing press headlines",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Ninguna se anunció como *un recorte*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ajustes técnicos. *Cuatro veces*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Ahora la parte que estropea la historia. Porque si me quedo aquí, te estoy contando media película.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La parte que *estropea la historia*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Primero: el Gobierno no comparte esa proyección. Sostiene que el gasto se mantendrá en torno al catorce por ciento del producto interior bruto hasta dos mil cincuenta, no en el dieciséis.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DOS PROYECCIONES DISTINTAS · 2050",
+              "fuente": "AIReF y Gobierno de España",
+              "barras": {
+                "unidad": "Gasto en pensiones sobre el PIB en 2050",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Gobierno",
+                    "valor": 14,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "AIReF",
+                    "valor": 16.2,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Dos puntos de diferencia. *No es un detalle*."
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Dos puntos de diferencia son unos treinta mil millones al año. Y no es que uno mienta: dependen de supuestos distintos sobre empleo, inmigración y productividad.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "rotulo": {
+                "kicker": "No es que uno mienta",
+                "texto": "Son *supuestos distintos*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "economists meeting discussion table",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Segundo: la proporción de cotizantes lleva años mejorando, no empeorando. Quien lleva una década anunciando el colapso inmediato lleva una década equivocándose.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man reading newspaper serious",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Diez años anunciando el colapso",
+                "apoyo": "Y diez años en que la proporción de cotizantes ha ido a mejor, no a peor."
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Quien anuncia el colapso inmediato *lleva años fallando*."
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Y tercero: que un sistema se financie en parte con impuestos generales no es una anomalía. Muchos países lo hacen y no pasa nada. Lo discutible no es que ocurra, sino la velocidad a la que crece.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "espana",
+                  "francia",
+                  "alemania"
+                ]
+              },
+              "kicker": "NO ES UNA RAREZA ESPAÑOLA"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Lo discutible no es que pase. Es *a qué velocidad*."
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Nada de esto desmonta el problema. Pero si alguien te dice que las pensiones desaparecen mañana, te está vendiendo miedo. Lo que hay es una factura creciente y una decisión pendiente.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "courtroom empty chairs",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Ni desaparecen mañana, ni *esto se arregla solo*."
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Dinamarca y los setenta",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Para ver hacia dónde va esto, mira lo que ha hecho el país que decidió no esperar.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "dinamarca"
+                ]
+              },
+              "kicker": "DINAMARCA · MAYO DE 2025"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "En mayo de dos mil veinticinco, el Parlamento danés aprobó subir la edad de jubilación a setenta años. Ochenta y un votos a favor, veintiuno en contra.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PARLAMENTO DANÉS · MAYO 2025",
+              "fuente": "Folketing",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 70,
+                "etiqueta": "años de edad de jubilación"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "parliament chamber voting session",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "*Ochenta y uno* a favor, veintiuno en contra"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Se aplica a los nacidos después de mil novecientos setenta. Si naciste ese año o después y vives en Dinamarca, trabajarás hasta los setenta.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older worker factory portrait",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "1970",
+                "titular": "Los nacidos después de ese año",
+                "apoyo": "En Dinamarca trabajarán hasta los setenta. Es ley desde mayo de 2025."
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LA ESCALERA DANESA",
+              "fuente": "Folketing",
+              "barras": {
+                "unidad": "Edad de jubilación en Dinamarca",
+                "datos": [
+                  {
+                    "etiqueta": "Hoy",
+                    "valor": 67,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2030",
+                    "valor": 68,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "2035",
+                    "valor": 69,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "2040",
+                    "valor": 70,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Y no lo decidieron en dos mil veinticinco. Lo decidieron en dos mil seis, cuando aprobaron que la edad de jubilación subiera sola cada cinco años según creciera la esperanza de vida.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "La ley es de 2006",
+                "texto": "Sube *sola* cada cinco años"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "blueprint drawing desk architect",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Lo difícil no fue subirla. Fue *decidirlo veinte años antes*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Lo interesante es lo que dijo después la propia primera ministra danesa, Mette Frederiksen: que ese aumento automático no le parece sostenible.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician speaking podium serious",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Ni al país que lo hizo le convence",
+                "apoyo": "La primera ministra danesa dijo que subir la edad automáticamente no es sostenible."
+              },
+              "fuente": "Declaraciones de Mette Frederiksen, 2025"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ni al país que lo hizo *le convence del todo*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y ahora la parte de este vídeo que va de ti, no de las cuentas del Estado.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La parte que va *de ti*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Nadie va a anunciar que las pensiones se acaban. Eso no ocurre nunca, porque hay diez millones de votantes que cobran una. Lo que ocurre es más silencioso.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly man voting ballot box",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Nadie las va a suprimir",
+                "apoyo": "Diez millones de votantes cobran una. Lo que pasa es más silencioso."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old man sitting bench alone",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Se sube la edad legal un poco cada año, como ya ha pasado. Se cotiza un poco más, como con el mecanismo de tu nómina. Y se alarga el número de años que se usan para calcular tu pensión.",
+          "voz": {
+            "speed": 0.99
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "CÓMO SE AJUSTA DE VERDAD",
+              "lista": {
+                "titulo": "Tres palancas, todas discretas",
+                "puntos": [
+                  "Subir la edad un poco cada año",
+                  "Cotizar un poco más cada mes",
+                  "Alargar los años que cuentan para el cálculo"
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Ninguna de las tres da un titular. Las tres juntas cambian por completo lo que vas a cobrar y cuándo lo vas a cobrar.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Ninguna da un titular. Juntas *lo cambian todo*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "La edad real a la que se jubila la gente hoy en España son sesenta y cinco coma dos años. La Autoridad Fiscal calcula que en dos mil treinta y cinco serán sesenta y seis coma dos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EDAD REAL DE JUBILACIÓN",
+              "fuente": "AIReF",
+              "barras": {
+                "unidad": "Edad efectiva media",
+                "datos": [
+                  {
+                    "etiqueta": "Hoy",
+                    "valor": 65.2,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2035",
+                    "valor": 66.2,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar pages turning close up",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Un año más de trabajo en diez años. Ese es el ritmo real al que se mueve esto: despacio, sin anuncios, y sin que nadie vote nada.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "long empty corridor walking",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Despacio, sin anuncios, y *sin que nadie vote nada*."
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man walking corridor alone",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Sin que nadie vote nada",
+                "apoyo": "Un año más de trabajo cada década, sin un solo anuncio."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-07",
+          "vo": "Si tienes menos de cuarenta y cinco años, la pregunta útil no es si habrá pensión. La habrá. La pregunta es a qué edad, y qué parte de tu sueldo va a sustituir.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young professional woman thinking",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "La pregunta no es si habrá pensión",
+                "apoyo": "La habrá. La pregunta es a qué edad, y qué parte de tu sueldo sustituirá."
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "El sistema de pensiones español no está roto. Está funcionando en su mejor momento en quince años, con empleo récord y la mejor proporción de cotizantes desde dos mil once.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No está roto. Está en *su mejor momento*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "city street people commuting morning",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "Y aun así necesita cincuenta y dos mil millones de euros al año que no salen de las cotizaciones. Ese es el dato incómodo, y no lo dice la oposición: lo dicen la Autoridad Fiscal y las propias cuentas del Ministerio.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "Y AUN ASÍ",
+              "fuente": "AIReF · Ministerio de Inclusión y Seguridad Social",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 52000,
+                "etiqueta": "millones que no salen de cotizaciones"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank vault door heavy",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "En su mejor momento, y *no se paga solo*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "Lo que viene no es un colapso. Es una cuenta que crece mientras la proporción de gente que la sostiene se reduce, y un ajuste que se hará en trozos pequeños para que no se note.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "rotulo": {
+                "texto": "Un ajuste *en trozos pequeños*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sand slipping through fingers",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Para que *no se note*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Sesenta y cinco años fue una promesa de una época en la que se cotizaba cuarenta años y se cobraba pensión durante doce. Hoy se cobra durante veinte, y esa cuenta ya no sale.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "AÑOS COBRANDO PENSIÓN",
+              "fuente": "INE · esperanza de vida a los 65 años",
+              "barras": {
+                "unidad": "Años de pensión por jubilado",
+                "datos": [
+                  {
+                    "etiqueta": "Años 80",
+                    "valor": 12,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Hoy",
+                    "valor": 20,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Vivimos más. Y eso *hay que pagarlo*."
+            }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "Y esa es la parte que casi nunca se dice en voz alta: el problema de las pensiones es, sobre todo, la consecuencia de una buena noticia.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Es la consecuencia de *una buena noticia*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sunrise city skyline calm",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-06",
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Por Qué No Te Vas a Jubilar a Los 65 (Y No Es Por Lo Que Crees)",
+    "descripcion": "Si te jubilas este año en España, la edad legal no son 65 años. Son 66 años y 10 meses. El año que viene serán 67. Puedes irte a los 65, sí, pero solo si has cotizado 38 años y 3 meses: haber empezado a trabajar con 26 y no haber parado nunca.\n\nHasta aquí, lo que ya sabías. Lo que casi nadie cuenta es el dato que le da la vuelta a toda la conversación: el sistema de pensiones español está hoy en su mejor momento en quince años.\n\nHay 2,46 cotizantes por cada pensionista, la mejor proporción desde 2011 y la mejor en treinta años sin contar los de la burbuja. España tiene el récord histórico de afiliados a la Seguridad Social. Y aun así, el Estado tuvo que transferirle más de 52.000 millones de euros para poder pagar las pensiones. En 2010 esa transferencia eran unos 10.000 millones: se ha multiplicado por cinco mientras el empleo batía récords.\n\nCon ese dinero dentro, las cuentas dan superávit. Sin él, la Seguridad Social cierra con un déficit del 0,4 % del PIB, según la AIReF. Fedea lo llama por su nombre: una ilusión contable.\n\nEn este vídeo vemos quién paga de verdad tu pensión, por qué el sistema no se sostiene ni con el mejor dato en quince años, y qué pasa cuando ese dato empeore. Porque va a empeorar y sabemos cuándo: 6,6 millones de personas del baby boom se jubilan en las próximas dos décadas, y la proporción de cotizantes cae hacia 1,7.\n\nTambién está la razón que casi nunca se menciona, y que explica por qué el sistema español cuesta más que el de sus vecinos: la pensión española sustituye el 80 % del último salario, frente al 56 % de media en la OCDE. Solo Grecia paga más. Eso no es un defecto, es una decisión, pero es una decisión que se paga.\n\nY la parte que estropea la historia, que también está: el Gobierno no comparte la proyección de la AIReF, quien lleva una década anunciando el colapso lleva una década equivocándose, y financiar pensiones con impuestos generales no es ninguna rareza española.\n\nSi tienes menos de 45 años, la pregunta útil no es si habrá pensión. La habrá. La pregunta es a qué edad, y qué parte de tu sueldo va a sustituir.\n\nFUENTES\nSeguridad Social — edad legal de jubilación 2026 y 2027, afiliación y pensiones contributivas\nMinisterio de Inclusión, Seguridad Social y Migraciones — transferencias del Estado 2024 y 2025\nAIReF — Informe de evaluación de la regla de gasto de pensiones y proyecciones a 2050\nFedea — análisis sobre la contabilización de las transferencias del Estado\nOCDE — Pensions at a Glance, tasa de sustitución bruta y neta\nINE — nacimientos 1958-1977 y esperanza de vida a los 65 años\nFolketing (Parlamento de Dinamarca) — reforma de la edad de jubilación, mayo de 2025\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\nNota: la proyección de gasto en 2050 tiene dos versiones, la de la AIReF (16,2 % del PIB) y la del Gobierno (en torno al 14 %). En el vídeo aparecen las dos, porque dependen de supuestos distintos sobre empleo, inmigración y productividad.\n\n#Pensiones #Jubilación #Economía",
+    "etiquetas": [
+      "pensiones",
+      "jubilacion",
+      "edad de jubilacion",
+      "pension espana",
+      "seguridad social",
+      "cotizantes por pensionista",
+      "mei",
+      "mecanismo de equidad intergeneracional",
+      "airef",
+      "fedea",
+      "tasa de sustitucion",
+      "ocde",
+      "baby boom",
+      "deficit seguridad social",
+      "reforma de las pensiones",
+      "dinamarca jubilacion 70",
+      "esperanza de vida",
+      "economia espana",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "jubilarse a los 65",
+      "cuanto cobrare de pension",
+      "pension publica"
+    ]
+  }
+}
