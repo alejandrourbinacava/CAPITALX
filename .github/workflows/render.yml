@@ -5,6 +5,29 @@ name: Renderizar vídeo
 # desde la sección Artifacts de esa ejecución.
 
 on:
+  workflow_call:
+    inputs:
+      video:
+        required: true
+        type: string
+      calidad:
+        required: false
+        default: "80"
+        type: string
+      reescenificar:
+        required: false
+        default: false
+        type: boolean
+      rehacer:
+        required: false
+        default: ""
+        type: string
+    secrets:
+      PEXELS_API_KEY:
+        required: false
+      PIXABAY_API_KEY:
+        required: false
+
   workflow_dispatch:
     inputs:
       video:

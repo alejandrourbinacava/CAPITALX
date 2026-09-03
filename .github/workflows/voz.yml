@@ -6,6 +6,19 @@ name: Generar locución
 # Necesita el secreto AI33_API_KEY en Settings > Secrets and variables > Actions.
 
 on:
+  workflow_call:
+    inputs:
+      video:
+        required: true
+        type: string
+      solo_contar:
+        required: false
+        default: false
+        type: boolean
+    secrets:
+      AI33_API_KEY:
+        required: true
+
   workflow_dispatch:
     inputs:
       video:
@@ -75,5 +88,11 @@ jobs:
             echo "No hay audio nuevo: ya estaba todo locutado."
           else
             git commit -m "Locución de ${{ inputs.video }}"
-            git push
+            # Si main se ha movido mientras locutabamos, el push se rechaza y
+            # se pierde la locucion ya pagada. Reintegramos antes de empujar.
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push rechazado, reintento $i"
+              sleep 5
+            done
           fi
