@@ -38,6 +38,11 @@
       "slug": "pensiones",
       "titulo": "Por Qué No Te Vas a Jubilar a Los 65 (Y No Es Por Lo Que Crees)",
       "fecha": "2026-09-01"
+    },
+    {
+      "slug": "alemania-trabajo",
+      "titulo": "¿Por Qué Nadie Quiere Trabajar Ya en ALEMANIA? (El Dato Que Nadie Enseña)",
+      "fecha": "2026-09-03"
     }
   ],
   "cola": [
@@ -89,13 +94,6 @@
       "angulo": "Desiertos médicos, cuántos franceses no tienen médico de cabecera, sueldos comparados con Alemania y Suiza, y el numerus clausus que lo causó hace treinta años.",
       "region": "europa",
       "pais": "francia"
-    },
-    {
-      "slug": "alemania-trabajo",
-      "titulo": "¿Por Qué Nadie Quiere Trabajar Ya en ALEMANIA?",
-      "angulo": "Horas trabajadas por persona, bajas laborales, jubilación de la generación del baby boom y vacantes sin cubrir.",
-      "region": "europa",
-      "pais": "alemania"
     },
     {
       "slug": "corralito",

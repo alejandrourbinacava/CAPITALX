@@ -1,0 +1,2102 @@
+{
+  "slug": "alemania-trabajo",
+  "titulo": "¿Por Qué Nadie Quiere Trabajar Ya en ALEMANIA? (El Dato Que Nadie Enseña)",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frio",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "En mayo de dos mil veinticinco, el canciller alemán dijo esta frase en público: con la semana de cuatro días y el equilibrio entre vida y trabajo no vamos a mantener la prosperidad de este país.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german chancellor podium press conference",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "MAYO DE 2025",
+                "texto": "\"No vamos a mantener *la prosperidad de este país*\""
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "german politician suit portrait serious",
+                "lado": "der",
+                "titular": "El canciller, en mayo de 2025",
+                "apoyo": "\"Con la semana de cuatro días y el equilibrio entre vida y trabajo no vamos a mantener la prosperidad de este país.\"",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Y tenía un número para respaldarlo. El trabajador alemán medio trabaja mil trescientas treinta y dos horas al año. Es la cifra más baja de todo el mundo desarrollado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "HORAS TRABAJADAS AL AÑO POR PERSONA",
+              "fuente": "IAB · OCDE, 2025",
+              "barras": {
+                "unidad": "Horas anuales por persona ocupada",
+                "datos": [
+                  {
+                    "etiqueta": "Grecia",
+                    "valor": 1898,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Portugal",
+                    "valor": 1716,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Alemania",
+                    "valor": 1332,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty office desks evening",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "A eso se le suma otro dato que sale en todos los titulares: el trabajador alemán se cogió diecinueve coma cinco días de baja el año pasado. A mediados de los dos mil eran ocho.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "sick man in bed thermometer",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "19,5 días",
+                "titular": "De baja al año, por trabajador",
+                "apoyo": "A mediados de los dos mil eran algo más de ocho."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "pharmacy medicine shelf close up",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Con esos dos números el titular se escribe solo: los alemanes ya no quieren trabajar. Es redondo, es fácil de contar, y encaja con lo que mucha gente ya piensa.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper printing press headlines",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "El titular *se escribe solo*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "person reading newspaper cafe morning",
+                "lado": "izq",
+                "titular": "Y encaja con lo que ya piensas",
+                "apoyo": "Un titular redondo, fácil de contar, y que confirma lo que el lector ya creía.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "El problema es que hay un tercer número que casi nunca aparece al lado de los otros dos. Y ese tercero le da la vuelta a toda la historia.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Hay un tercer número",
+                "texto": "Y le da *la vuelta a todo*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "man thinking looking away window",
+                "tono": "ocre"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "El tercer numero",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "En dos mil veinticinco había cuarenta y cinco coma nueve millones de personas trabajando en Alemania. Es prácticamente el máximo histórico del país.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PERSONAS OCUPADAS EN ALEMANIA",
+              "fuente": "IAB · Destatis, 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 45980000,
+                "etiqueta": "personas trabajando"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowd commuters train station morning",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Y sumando las horas de todos ellos, la economía alemana trabajó sesenta y un mil doscientos sesenta millones de horas. Nunca en la historia de la Alemania reunificada se habían trabajado tantas.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "industrial workers assembly line factory",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "HORAS TOTALES DE LA ECONOMÍA",
+                "texto": "61.260 *millones de horas*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "warehouse worker portrait logistics",
+                "lado": "der",
+                "cifra": "61.260 millones",
+                "titular": "Horas trabajadas por la economía alemana",
+                "apoyo": "Nunca en la historia de la Alemania reunificada se habían trabajado tantas.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Ahí está la contradicción. Cada alemán trabaja menos horas que nadie en el mundo rico. Y a la vez, entre todos, trabajan más horas que en ningún otro momento de su historia.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Menos *cada uno*. Más *entre todos*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Las dos cosas son ciertas *a la vez*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "En este vídeo vemos cuál de los dos motivos es el de Alemania, por qué el dato de las bajas está peor contado de lo que parece, y cuál es el problema real, que existe y es más grave que el del titular.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "LO QUE VEMOS AQUÍ",
+              "lista": {
+                "titulo": "Tres cosas",
+                "puntos": [
+                  "Por qué baja la media alemana",
+                  "Por qué el dato de las bajas está mal contado",
+                  "Cuál es el problema de verdad"
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german flag building government berlin",
+                "tono": "ocre"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "La media que miente",
+      "planos": [
+        {
+          "id": "b2-02",
+          "vo": "Una media puede bajar por dos motivos. El primero es que cada persona trabaje menos horas. El segundo es que entre mucha gente nueva al mercado laboral en trabajos de pocas horas.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "diverse people entering office building",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Motivo dos",
+                "texto": "Entra *más gente*, con *menos horas*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "time card punch clock workplace hand",
+                "lado": "izq",
+                "titular": "Y baja aunque nadie recorte su jornada",
+                "apoyo": "Basta con que entre gente nueva en trabajos de pocas horas.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "El dato que separa los dos motivos es la tasa de trabajo a tiempo parcial. En Alemania está en el treinta y nueve coma nueve por ciento. Es la más alta jamás registrada en el país.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TASA DE TIEMPO PARCIAL",
+              "fuente": "IAB, cálculo de tiempo de trabajo 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 39.9,
+                "etiqueta": "por ciento, máximo histórico",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "woman working part time cafe counter",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Cuatro de cada diez personas que trabajan en Alemania lo hacen a tiempo parcial, con una media de dieciocho coma siete horas a la semana. Eso arrastra la media del país hacia abajo, mucho.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "CUATRO DE CADA DIEZ",
+              "fuente": "IAB, 2025",
+              "gente": {
+                "total": 10,
+                "destacados": 4,
+                "escala": 1,
+                "etiqueta": "Personas que trabajan",
+                "etiquetaDestacados": "A tiempo parcial"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "supermarket cashier working",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Y ahora el número que rompe el argumento del canciller. Los alemanes que trabajan a jornada completa hacen cuarenta coma dos horas a la semana. La media de la Unión Europea es de cuarenta coma tres.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "JORNADA COMPLETA, HORAS SEMANALES",
+              "fuente": "Eurostat",
+              "barras": {
+                "unidad": "Horas a la semana a jornada completa",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "Media UE",
+                    "valor": 40.3,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Alemania",
+                    "valor": 40.2,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Una décima. *Prácticamente idénticos*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Una décima de hora. Seis minutos a la semana. El alemán que trabaja a jornada completa trabaja lo mismo que cualquier otro europeo.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "engineer working desk computer office",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Seis minutos *a la semana*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "construction worker portrait helmet site",
+                "lado": "der",
+                "cifra": "6 minutos",
+                "titular": "Toda la diferencia con Europa",
+                "apoyo": "40,2 horas semanales a jornada completa en Alemania. 40,3 de media en la Unión Europea.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Así que el motivo no es el primero. Es el segundo. La media alemana no es baja porque los alemanes hayan recortado su jornada. Es baja porque Alemania metió a muchísima gente en trabajos de media jornada.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "El motivo es el segundo",
+                "texto": "No recortaron. *Repartieron*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shift workers changing over factory",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Alemania *repartió el trabajo*."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "De donde salio la media jornada",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Y ahora la pregunta interesante. ¿Quién ocupa esos cuatro de cada diez puestos de media jornada? Porque no están repartidos al azar.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "office people walking corridor blur",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "No están repartidos *al azar*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "El sesenta y ocho por ciento de las madres alemanas que trabajan lo hacen a tiempo parcial. Si el hijo tiene menos de tres años, la cifra sube al setenta y tres por ciento.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "MADRES QUE TRABAJAN A TIEMPO PARCIAL",
+              "fuente": "Destatis, 2024",
+              "barras": {
+                "unidad": "Porcentaje de madres ocupadas",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Con hijos menores de 18",
+                    "valor": 68,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Con hijos menores de 3",
+                    "valor": 73,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "mother with young child kitchen home",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Y aquí está la comparación que lo deja claro. Solo el veintisiete por ciento de las madres alemanas trabaja a jornada completa. Entre los padres, la cifra es del noventa y uno por ciento.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "A JORNADA COMPLETA, CON HIJOS",
+              "fuente": "Destatis",
+              "barras": {
+                "unidad": "Porcentaje que trabaja a jornada completa",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Madres",
+                    "valor": 27,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Padres",
+                    "valor": 91,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "father child hand walking park",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Veintisiete contra noventa y uno. Ese hueco no lo explica ninguna preferencia cultural. Lo explican dos cosas muy concretas del sistema alemán.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman office worker portrait serious",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "27 % y 91 %",
+                "titular": "El hueco entre madres y padres",
+                "apoyo": "No lo explica ninguna preferencia cultural. Lo explica el sistema."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty kindergarten classroom chairs",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "La primera son los minijobs. Cuatro millones y medio de mujeres alemanas trabajan en uno: empleos de unas dieciocho horas semanales, con el sueldo limitado y con derechos laborales muy reducidos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "waitress restaurant working service",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "4,5 millones",
+                "titular": "Mujeres alemanas en un minijob",
+                "apoyo": "Unas 18 horas a la semana, con sueldo limitado y casi sin derechos."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cleaning staff hotel corridor work",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "La segunda son las plazas de guardería. Durante décadas no hubo suficientes, y una madre sin plaza para su hijo no elige entre jornada completa y media jornada: elige entre media jornada y nada.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "nursery children playing toys daycare",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "No elige entre completa y media. Elige entre *media y nada*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion"
+            }
+          ]
+        },
+        {
+          "id": "b3-07",
+          "vo": "Así que ese cuarenta por ciento de media jornada no es una moda de bienestar laboral. Es en buena parte lo que hizo un sistema con millones de mujeres.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "woman commuting bus window thoughtful",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "kicker": "No es una moda",
+                "texto": "Es *el resultado de un sistema*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Millones de mujeres, *la mitad de horas*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Las bajas y el titular",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Vamos ahora con el otro dato, el de las bajas por enfermedad. Diecinueve coma cinco días al año por trabajador. Es una barbaridad, y es cierto.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "doctor writing prescription clinic desk",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "19,5 días",
+                "titular": "De baja al año, por trabajador",
+                "apoyo": "Es una barbaridad. Y es un dato cierto."
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Y la evolución impresiona todavía más. A mediados de los dos mil, el trabajador alemán se cogía poco más de ocho días. En dos mil veintiuno eran trece. Hoy son casi veinte.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DÍAS DE BAJA POR TRABAJADOR Y AÑO",
+              "fuente": "Destatis · aseguradoras públicas alemanas",
+              "barras": {
+                "unidad": "Días de baja al año",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "Mediados de los 2000",
+                    "valor": 8.1,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2021",
+                    "valor": 13,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 19.5,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person resting sofa blanket ill",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Multiplicado por dos y medio en veinte años. Con ese gráfico delante, cualquiera concluye que Alemania se ha vuelto un país de gente que se pone mala.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper stack headlines print",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Multiplicado *por dos y medio*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "newspaper editor desk printing",
+                "lado": "izq",
+                "titular": "Con ese gráfico, la conclusión es obvia",
+                "apoyo": "Y por eso el dato de las bajas alemanas ha dado la vuelta a media Europa.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Y aquí es donde hay que tener cuidado, porque hay una fecha que lo cambia todo: dos mil veintidós.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Hay una fecha",
+                "texto": "*2022*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "En dos mil veintidós Alemania cambió la forma de contar las bajas. Sustituyó el parte de papel por un parte electrónico que el médico manda directamente a la aseguradora del trabajador.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "doctor computer screen medical records",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "2022",
+                "texto": "El parte pasó *de papel a electrónico*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "stack of paper forms office desk",
+                "lado": "der",
+                "titular": "Antes: un papel que enviabas tú",
+                "apoyo": "Desde 2022 lo manda el médico directamente a la aseguradora, sin que el trabajador toque nada.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Parece un detalle administrativo. No lo es. Antes, un trabajador con dos días de resfriado iba al médico, cogía el papel, y muchas veces no llegaba a mandarlo. Esa baja no se contaba en ningún sitio.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "crumpled paper hand desk",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El papel que nadie enviaba",
+                "apoyo": "Dos días de resfriado, un parte en el bolsillo, y una baja que no existía para las estadísticas."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "mailbox letters envelope post",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-07",
+          "vo": "Desde dos mil veintidós ya no hace falta que el trabajador mande nada. El sistema lo registra solo. Y de golpe aparecieron millones de bajas cortas que siempre habían existido, pero que nadie había contado.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "server room data center lights",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Millones de bajas *que siempre existieron*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b4-08",
+          "vo": "El centro de investigación económica de Mannheim lo estudió y su conclusión es clara: el principal motivo del aumento de los días de baja en Alemania es el cambio en la forma de registrarlos.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "researcher analyzing data charts office",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "La conclusión del ZEW de Mannheim",
+                "apoyo": "El principal motivo de la subida no es la salud. Es la forma de contar."
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "No cambió la salud. Cambió *el recuento*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b4-09",
+          "vo": "Ojo, no digo que no haya subido nada. La salud mental sí ha empeorado de verdad: las bajas por depresión pasaron de ciento veintidós a ciento ochenta y tres días por cada cien empleados en un solo año.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "BAJAS POR DEPRESIÓN",
+              "fuente": "Informes de las aseguradoras públicas alemanas",
+              "barras": {
+                "unidad": "Días de baja por cada 100 empleados",
+                "datos": [
+                  {
+                    "etiqueta": "Año anterior",
+                    "valor": 122,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2024",
+                    "valor": 183,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person sitting window alone thoughtful",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-10",
+          "vo": "Pero una cosa es que la salud mental haya empeorado, y otra muy distinta que los alemanes se hayan vuelto unos vagos. El dato no dice lo segundo.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tired worker office night desk",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "No es lo mismo. Y el dato *no dice eso*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "tired man face portrait window light",
+                "lado": "izq",
+                "titular": "Enfermar más no es querer menos",
+                "apoyo": "Que la salud mental empeore y que la gente se haya vuelto vaga son dos afirmaciones distintas.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "El problema de verdad",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Y ahora, después de haber desmontado los dos datos del titular, viene la parte incómoda. Porque Alemania sí tiene un problema laboral muy grave. Solo que no es el que se cuenta.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Sí hay un problema",
+                "texto": "Pero *no es ese*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german industrial plant smoke chimney",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "En dos mil veinticinco, por primera vez desde la reunificación, el número de personas disponibles para trabajar en Alemania bajó. Fueron unas cuarenta mil menos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty factory floor abandoned industrial",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "kicker": "PRIMERA VEZ DESDE LA REUNIFICACIÓN",
+                "texto": "La población activa *bajó*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Cuarenta mil suena a poco. Lo importante no es el número, es el signo. Durante treinta y cinco años esa cifra siempre subió. Este año, por primera vez, tiene un menos delante.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "thermometer red mercury close up",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Lo importante no es el número. Es *el signo*."
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman looking down serious office",
+                "lado": "der",
+                "cifra": "-40.000",
+                "titular": "Lo importante no es el número: es el signo",
+                "apoyo": "Durante 35 años esa cifra siempre subió. Este año lleva un menos delante.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Y a partir de aquí la pendiente se hace muy pronunciada. La población en edad de trabajar pasa de cincuenta y cinco millones de personas hoy a cincuenta y uno coma dos millones en dos mil treinta y seis.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "POBLACIÓN EN EDAD DE TRABAJAR",
+              "fuente": "Agencia Federal de Empleo de Alemania",
+              "barras": {
+                "unidad": "Millones de personas",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "2025",
+                    "valor": 55,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2036",
+                    "valor": 51.2,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "elderly people bench park germany",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Casi cuatro millones de personas menos en once años. Y el desajuste entre lo que la economía alemana necesita y lo que va a tener se calcula en cuatro coma tres millones de trabajadores para dos mil treinta y seis.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "BRECHA PREVISTA PARA 2036",
+              "fuente": "Agencia Federal de Empleo de Alemania",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4300000,
+                "etiqueta": "trabajadores que van a faltar"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hiring sign shop window closed",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "El motivo es el mismo que en España, pero llega antes y llega más fuerte: la generación del baby boom alemán se está jubilando en bloque, y detrás no viene nadie del mismo tamaño.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "SE VAN, Y NO VIENE NADIE DEL MISMO TAMAÑO",
+              "fuente": "Agencia Federal de Empleo de Alemania",
+              "gente": {
+                "total": 10,
+                "destacados": 6,
+                "escala": 1,
+                "etiqueta": "Trabajadores hoy",
+                "etiquetaDestacados": "Se jubilan en las próximas dos décadas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "retirement farewell office colleagues",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-07",
+          "vo": "Los economistas del instituto de investigación del mercado laboral alemán calculan que el país necesita unos trescientos mil trabajadores cualificados nuevos cada año solo para mantener la plantilla que ya tiene.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "engineer worker portrait industrial helmet",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "300.000",
+                "titular": "Al año, solo para no perder plantilla",
+                "apoyo": "No para crecer. Para quedarse exactamente donde está."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "airport arrivals people luggage",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-08",
+          "vo": "Y de ahí sale el dato que explica media política alemana de la última década. En septiembre de dos mil veinticinco había cinco coma siete millones de extranjeros cotizando: el dieciséis coma cuatro por ciento del total. Uno de cada seis.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EXTRANJEROS COTIZANDO EN ALEMANIA",
+              "fuente": "Agencia Federal de Empleo · septiembre de 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 5700000,
+                "etiqueta": "trabajadores extranjeros · 16,4 % del total"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "multicultural workers construction team",
+                "tono": "ocre"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "La economia parada",
+      "planos": [
+        {
+          "id": "b6-02",
+          "vo": "En dos mil veintitrés la economía alemana se contrajo un cero coma tres por ciento. En dos mil veinticuatro creció un cero coma dos. En dos mil veinticinco, un cero coma cuatro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CRECIMIENTO DEL PIB ALEMÁN",
+              "fuente": "Destatis",
+              "barras": {
+                "unidad": "Variación anual del PIB",
+                "sufijo": "%",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "2023",
+                    "valor": -0.3,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "2024",
+                    "valor": 0.2,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 0.4,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock market screen red numbers",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Tres años moviéndose entre el menos cero coma tres y el más cero coma cuatro. En la práctica, tres años parada. A la mayor economía de Europa.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "alemania"
+                ]
+              },
+              "kicker": "LA MAYOR ECONOMÍA DE EUROPA, PARADA",
+              "fuente": "Destatis"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "traffic jam highway standstill",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Tres años *sin moverse*."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Y aquí aparece una trampa muy peligrosa. Con la economía parada, las empresas alemanas han dejado de contratar. En dos mil veintiséis se habla ya de un frenazo claro en las ofertas de empleo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty desks office chairs unused",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "kicker": "La trampa",
+                "texto": "Con la economía parada, *dejan de contratar*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y cuando nadie contrata, la falta de trabajadores desaparece de la conversación. No porque se haya arreglado, sino porque nadie está buscando.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man looking at empty street window",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "El problema no se fue: se tapó",
+                "apoyo": "Cuando nadie contrata, la falta de trabajadores desaparece de las noticias."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dust sheet covered furniture room",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Sigue ahí. *Tapado*."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y ahora, como siempre en este canal, la parte que juega en contra de lo que acabo de contar. Porque hay tres cosas que le dan la razón, al menos en parte, al canciller.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Lo que juega en contra",
+                "texto": "Tres cosas *que le dan la razón*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "debate panel discussion microphones",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "La primera es que el volumen total de horas de Alemania ya no crece. El propio instituto que publica el dato lo dice con estas palabras: la época de los récords se acabó.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "analyst reviewing report documents desk",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "\"La época de los récords se acabó\"",
+                "apoyo": "Lo dice el propio instituto que publica el dato del volumen de trabajo."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "graph line flat screen data",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "En dos mil veinticinco el volumen de horas bajó un cero coma dos por ciento y las personas ocupadas cayeron en cinco mil. Es poco, pero por primera vez en mucho tiempo el crecimiento se ha parado del todo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "assembly line stopped factory machinery",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "kicker": "2025",
+                "texto": "-0,2 % de horas. -5.000 *ocupados*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "La segunda es que si Alemania quiere sostener su nivel de vida con menos gente, alguien va a tener que trabajar más horas. La aritmética del canciller es discutible, pero el problema que señala es real.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "worker late shift industrial night",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Su aritmética es discutible. *El problema es real*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "night shift worker portrait factory",
+                "lado": "izq",
+                "titular": "Su aritmética es discutible. El problema, no",
+                "apoyo": "Con menos gente y el mismo nivel de vida, alguien va a tener que trabajar más horas.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Y la tercera es el debate sobre las ayudas. Más de la mitad de los alemanes cree que con el salario mínimo no compensa trabajar, porque la distancia con lo que se cobra sin trabajar es pequeña.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "person counting euro banknotes hands",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "52 %",
+                "titular": "Cree que no compensa trabajar",
+                "apoyo": "La distancia entre el salario mínimo y la ayuda social es pequeña."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "unemployment office waiting room",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Por eso en dos mil veintiséis el parlamento aprobó, por trescientos veintiún votos contra doscientos sesenta y ocho, sustituir la ayuda social por un sistema de sanciones mucho más duras. Afecta a cinco millones de personas.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "VOTACIÓN EN EL BUNDESTAG",
+              "fuente": "Bundestag, 2026",
+              "barras": {
+                "unidad": "Votos",
+                "datos": [
+                  {
+                    "etiqueta": "A favor",
+                    "valor": 321,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "En contra",
+                    "valor": 268,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "parliament chamber session voting",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-07",
+          "vo": "Quien falte tres veces a una cita con el servicio de empleo puede quedarse sin la ayuda entera. Entra en vigor en julio.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government office desk paperwork queue",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "kicker": "Desde julio · 5 millones de personas",
+                "texto": "A la tercera falta, *se queda sin nada*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Menos horas y mas riqueza",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Pero hay un dato que hay que poner encima de la mesa antes de sacar conclusiones sobre las horas, y es lo que produce cada una de esas horas.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "precision machinery manufacturing close up",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Lo que produce *cada hora*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Una hora de trabajo en Alemania produce alrededor de ochenta y tres dólares. Una hora de trabajo en España produce sesenta y dos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PIB POR HORA TRABAJADA",
+              "fuente": "OCDE, Compendio de Productividad 2025",
+              "barras": {
+                "unidad": "Dólares por hora trabajada",
+                "datos": [
+                  {
+                    "etiqueta": "España",
+                    "valor": 62,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Alemania",
+                    "valor": 83,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "automated robotic arm factory",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "El alemán trabaja mil trescientas treinta y dos horas al año. El español trabaja bastantes más. Y aun así, cada hora alemana produce un tercio más de riqueza que la española.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german engineering workshop tools",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "Menos horas. *Un tercio más por hora*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Trabajar más horas *no es producir más*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Y esta es la regla más incómoda de toda la economía del trabajo: los países que más horas trabajan suelen ser los que menos producen por hora.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "greece taverna worker service street",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "La regla incómoda",
+                "texto": "Más horas suele ser *menos por hora*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Grecia trabaja quinientas sesenta y seis horas más al año que Alemania, y es bastante más pobre. Las horas nunca han sido la variable que hace rico a un país.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "alemania",
+                  "grecia"
+                ]
+              },
+              "kicker": "566 HORAS MÁS AL AÑO, Y MÁS POBRE",
+              "fuente": "OCDE"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Las horas *nunca fueron la variable*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y ahora la parte que no va de Alemania, sino de ti, vivas donde vivas.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La parte que va *de ti*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Lo que ha hecho Alemania durante treinta años tiene un nombre: repartir el trabajo. Meter a mucha más gente en el mercado laboral dándole a cada uno menos horas.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "office open space many workers",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Tiene un nombre",
+                "texto": "*Repartir el trabajo*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Y funcionó muy bien. Alemania pasó de ser el enfermo de Europa en los noventa a tener el récord de personas trabajando de toda su historia.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "berlin wall historic photo city",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Del enfermo de Europa al récord de empleo",
+                "apoyo": "El reparto del trabajo funcionó durante treinta años. Y funcionó muy bien."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "modern berlin skyline day",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Pero repartir el trabajo solo funciona mientras te queda gente a la que repartírselo. Alemania metió a las mujeres, metió a los mayores, metió a los inmigrantes. Y ahora se ha quedado sin nadie más a quien meter.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty waiting hall chairs station",
+                "tono": "carmin"
+              },
+              "rotulo": {
+                "texto": "Se ha quedado *sin nadie más a quien meter*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El reparto se acaba cuando *se acaba la gente*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Ese es el punto exacto en el que está el país ahora mismo. Y cuando ya no puedes añadir personas, solo te quedan dos salidas: que cada persona trabaje más horas, o que cada hora produzca más.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "SOLO QUEDAN DOS SALIDAS",
+              "lista": {
+                "titulo": "Cuando ya no puedes añadir gente",
+                "puntos": [
+                  "Que cada persona trabaje más horas",
+                  "Que cada hora produzca más"
+                ]
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "El canciller ha elegido la primera, que es la que se puede pedir en un discurso. La segunda es más lenta, más cara y no da titulares, pero es la que ha funcionado siempre.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "robotics engineer laboratory technology",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "La lenta es la que *ha funcionado siempre*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "robotics engineer laboratory portrait",
+                "lado": "der",
+                "titular": "La salida lenta",
+                "apoyo": "Que cada hora produzca más. Es más cara, no da titulares, y es la que ha funcionado siempre.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-07",
+          "vo": "Y si estás en España o en México, esto te importa por un motivo muy concreto: los dos países van a llegar al mismo punto que Alemania. Solo que con la mitad de productividad por hora para amortiguarlo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young worker warehouse spain latin",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "España y México llegan al mismo punto",
+                "apoyo": "Con la diferencia de que llegan con bastante menos producto por hora trabajada."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "city street crowd walking daytime",
+                "tono": "ocre"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Así que volvamos a la pregunta del principio. ¿Por qué nadie quiere trabajar ya en Alemania?",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "camara": "push",
+              "rotulo": {
+                "texto": "¿Por qué nadie quiere *trabajar ya*?"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "La respuesta es que la pregunta está mal hecha. Hay casi cuarenta y seis millones de personas trabajando, prácticamente el máximo histórico, y entre todas suman más horas que nunca.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "busy city street people rush hour",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "texto": "La pregunta *está mal hecha*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "crowd of people street portrait city",
+                "lado": "izq",
+                "cifra": "46 millones",
+                "titular": "Personas trabajando en Alemania",
+                "apoyo": "Prácticamente el máximo histórico. Y entre todas, más horas que en ningún momento del pasado.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "La media por persona es baja porque cuatro de cada diez trabajan a media jornada, y eso es en gran parte obra de un sistema de guarderías y minijobs.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "woman worker retail store shift",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Por eso baja la media",
+                "texto": "Cuatro de cada diez, *a media jornada*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Y las bajas se dispararon sobre todo porque el país empezó a contarlas de verdad. Las que aparecieron de golpe llevaban décadas ocurriendo sin que nadie las apuntara.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "medical records archive screen digital",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Empezó a contarlas de verdad",
+                "apoyo": "Las bajas que aparecieron de golpe llevaban décadas ocurriendo sin que nadie las apuntara."
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Llevaban décadas ahí. *Sin apuntar*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "El problema alemán no es que nadie quiera trabajar. Es que se le está acabando la gente a la que darle el trabajo, y ha construido treinta años de crecimiento dándole a cada persona cada vez menos horas.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push",
+              "rotulo": {
+                "texto": "No es que no quieran. Es que *se acaba la gente*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "aging population elderly street germany",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-06",
+          "vo": "Cuando un país te dice que sus ciudadanos se han vuelto vagos, casi siempre es más barato que admitir que se ha quedado sin ciudadanos.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Es más barato que admitir que *se ha quedado sin ciudadanos*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty village street old houses",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-07",
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "¿Por Qué Nadie Quiere Trabajar Ya en ALEMANIA? (El Dato Que Nadie Enseña)",
+    "descripcion": "En mayo de 2025 el canciller alemán dijo que con la semana de cuatro días y el equilibrio entre vida y trabajo no se mantiene la prosperidad de un país. Y tenía dos números detrás.\n\nEl primero: el trabajador alemán medio hace 1.332 horas al año, la cifra más baja de todo el mundo desarrollado. Grecia hace 1.898. Portugal, 1.716.\n\nEl segundo: 19,5 días de baja por trabajador en 2025, frente a poco más de 8 a mediados de los dos mil.\n\nCon esos dos datos el titular se escribe solo. El problema es el tercer número, que casi nunca aparece al lado: en 2025 había 45,9 millones de personas trabajando en Alemania, prácticamente el máximo histórico, y entre todas sumaron 61.260 millones de horas. Nunca en la historia de la Alemania reunificada se habían trabajado tantas.\n\nLas dos cosas son ciertas a la vez, y no se contradicen. Una media puede bajar porque cada persona trabaje menos, o porque entre mucha gente nueva en trabajos de pocas horas. En Alemania es lo segundo: la tasa de tiempo parcial está en el 39,9 %, la más alta jamás registrada. Y el alemán que trabaja a jornada completa hace 40,2 horas a la semana, frente a las 40,3 de media europea. Seis minutos de diferencia.\n\nVemos también de dónde salió esa media jornada, que no es ninguna moda de bienestar laboral: el 68 % de las madres empleadas trabaja a tiempo parcial, el 73 % si el hijo tiene menos de tres años, y solo el 27 % de las madres está a jornada completa frente al 91 % de los padres. Con 4,5 millones de mujeres en minijobs de unas 18 horas semanales.\n\nY el dato de las bajas tiene una fecha que lo cambia todo: 2022, cuando Alemania sustituyó el parte de papel por el parte electrónico. El ZEW de Mannheim concluye que el principal motivo del aumento de los días de baja es el cambio en la forma de registrarlos, no un desplome de la salud. Aunque la salud mental sí ha empeorado de verdad: las bajas por depresión pasaron de 122 a 183 días por cada 100 empleados en un año.\n\nDespués está el problema real, que existe y es mucho más grave que el del titular: en 2025 la población activa alemana bajó por primera vez desde la reunificación, la población en edad de trabajar cae de 55 a 51,2 millones en 2036, y la brecha prevista es de 4,3 millones de trabajadores. Alemania necesita unos 300.000 trabajadores cualificados al año solo para no perder plantilla, y ya tiene 5,7 millones de extranjeros cotizando: uno de cada seis.\n\nY la parte que juega en contra de todo lo anterior, que también está: el volumen de horas cayó un 0,2 % en 2025 y el propio instituto que publica el dato dice que la época de los récords se acabó.\n\nFUENTES\nIAB (Instituto de Investigación del Mercado Laboral) — cálculo del tiempo de trabajo 2025: volumen de horas, ocupados, tasa de tiempo parcial\nOCDE — horas trabajadas por país y PIB por hora trabajada, Compendio de Productividad 2025\nDestatis (Oficina Federal de Estadística) — ocupación, días de baja y trabajo de madres y padres\nZEW Mannheim — estudio sobre el efecto del parte electrónico de baja en las estadísticas\nAgencia Federal de Empleo de Alemania — proyección de población activa a 2036 y trabajadores extranjeros\nEurostat — jornada semanal a tiempo completo en la Unión Europea\nBundestag — votación de la reforma de la ayuda social, 2026\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\nNota: la tasa de tiempo parcial del 39,9 % es la del IAB, que cuenta también los empleos secundarios y los minijobs. Con la definición de Eurostat, más estrecha, Alemania sale en torno al 29-30 %. En el vídeo se usa la primera y se dice de dónde sale.\n\n#Alemania #Economía #Trabajo",
+    "etiquetas": [
+      "alemania",
+      "economia alemana",
+      "por que nadie quiere trabajar",
+      "horas trabajadas alemania",
+      "tiempo parcial",
+      "minijob",
+      "bajas laborales alemania",
+      "krankenstand",
+      "merz",
+      "semana de cuatro dias",
+      "productividad",
+      "ocde",
+      "escasez de mano de obra",
+      "poblacion activa",
+      "baby boom aleman",
+      "inmigracion laboral",
+      "burgergeld",
+      "eurostat",
+      "destatis",
+      "iab",
+      "zew",
+      "economia europea",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "jornada laboral",
+      "conciliacion",
+      "trabajar menos horas"
+    ]
+  }
+}

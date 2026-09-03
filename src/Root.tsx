@@ -17,7 +17,9 @@ import corea from "../content/corea.json";
 import mexicoT from "../content/mexico.timings.json";
 import coreaT from "../content/corea.timings.json";
 import pensiones from "../content/pensiones.json";
+import alemaniaTrabajo from "../content/alemania-trabajo.json";
 import pensionesT from "../content/pensiones.timings.json";
+import alemaniaTrabajoT from "../content/alemania-trabajo.timings.json";
 import diario from "../content/diario.json";
 import diarioT from "../content/diario.timings.json";
 
@@ -29,6 +31,7 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "corea", guion: corea as any, tiempos: coreaT as any },
   // El de cada manana. Lo sobrescribe el flujo diario antes de renderizar.
   { id: "pensiones", guion: pensiones as any, tiempos: pensionesT as any },
+  { id: "alemania-trabajo", guion: alemaniaTrabajo as any, tiempos: alemaniaTrabajoT as any },
   { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 
