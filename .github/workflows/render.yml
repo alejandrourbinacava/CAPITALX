@@ -54,6 +54,11 @@ on:
 permissions:
   contents: write
 
+# Un disparo duplicado del mismo video quemaba dos runners en paralelo.
+concurrency:
+  group: render-${{ inputs.video }}
+  cancel-in-progress: false
+
 jobs:
   render:
     runs-on: ubuntu-latest

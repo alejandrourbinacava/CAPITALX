@@ -32,6 +32,12 @@ on:
         default: false
         type: boolean
 
+# Dos locuciones del mismo video a la vez se pisan al subir el audio y se
+# paga dos veces. Nunca se cancela una en curso: ya esta pagada.
+concurrency:
+  group: voz-${{ inputs.video }}
+  cancel-in-progress: false
+
 jobs:
   locutar:
     runs-on: ubuntu-latest
