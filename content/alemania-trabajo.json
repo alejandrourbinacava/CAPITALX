@@ -24,7 +24,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german chancellor podium press conference",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11336628",
+                  "url": "https://videos.pexels.com/video-files/11336628/11336628-hd_1366_720_50fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 12,
+                  "autor": "TREEDEO.ST",
+                  "pagina": "https://www.pexels.com/video/a-man-in-a-black-suit-giving-a-speech-11336628/"
+                },
+                "fichero": "clips/pexels-11336628.mp4"
               },
               "rotulo": {
                 "kicker": "MAYO DE 2025",
@@ -38,7 +48,15 @@
                 "lado": "der",
                 "titular": "El canciller, en mayo de 2025",
                 "apoyo": "\"Con la semana de cuatro días y el equilibrio entre vida y trabajo no vamos a mantener la prosperidad de este país.\"",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20348408",
+                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
+                },
+                "fichero": "recortes-auto/pexels-20348408.png"
               }
             }
           ]
@@ -80,7 +98,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty office desks evening",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8347240",
+                  "url": "https://videos.pexels.com/video-files/8347240/8347240-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/an-empty-office-8347240/"
+                },
+                "fichero": "clips/pexels-8347240.mp4"
               }
             }
           ]
@@ -101,14 +129,32 @@
                 "lado": "izq",
                 "cifra": "19,5 días",
                 "titular": "De baja al año, por trabajador",
-                "apoyo": "A mediados de los dos mil eran algo más de ocho."
+                "apoyo": "A mediados de los dos mil eran algo más de ocho.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4114012",
+                  "url": "https://images.pexels.com/photos/4114012/pexels-photo-4114012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/woman-in-white-hijab-holding-white-pen-4114012/"
+                },
+                "fichero": "recortes-auto/pexels-4114012.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "pharmacy medicine shelf close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7033928",
+                  "url": "https://videos.pexels.com/video-files/7033928/7033928-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-medicines-on-a-blister-pack-7033928/"
+                },
+                "fichero": "clips/pexels-7033928.mp4"
               }
             }
           ]
@@ -125,7 +171,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "newspaper printing press headlines",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38826405",
+                  "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/video/high-speed-newspaper-printing-process-close-up-38826405/"
+                },
+                "fichero": "clips/pexels-38826405.mp4"
               },
               "rotulo": {
                 "texto": "El titular *se escribe solo*"
@@ -138,7 +194,15 @@
                 "lado": "izq",
                 "titular": "Y encaja con lo que ya piensas",
                 "apoyo": "Un titular redondo, fácil de contar, y que confirma lo que el lector ya creía.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3116224",
+                  "url": "https://images.pexels.com/photos/3116224/pexels-photo-3116224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jonnas Duarte",
+                  "pagina": "https://www.pexels.com/photo/man-wearing-yellow-crew-neck-shirt-holding-newspaper-3116224/"
+                },
+                "fichero": "recortes-auto/pexels-3116224.png"
               }
             }
           ]
@@ -164,7 +228,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "man thinking looking away window",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5944695",
+                  "url": "https://videos.pexels.com/video-files/5944695/5944695-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Theo  Decker",
+                  "pagina": "https://www.pexels.com/video/middle-aged-man-posing-looking-away-5944695/"
+                },
+                "fichero": "clips/pexels-5944695.mp4"
               }
             }
           ]
@@ -200,7 +274,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowd commuters train station morning",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35361280",
+                  "url": "https://videos.pexels.com/video-files/35361280/14982371_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Orhan Pergel",
+                  "pagina": "https://www.pexels.com/video/crowded-metro-station-with-passengers-boarding-35361280/"
+                },
+                "fichero": "clips/pexels-35361280.mp4"
               }
             }
           ]
@@ -217,7 +301,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "industrial workers assembly line factory",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30283093",
+                  "url": "https://videos.pexels.com/video-files/30283093/12981246_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 18,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/motorcycle-assembly-line-at-factory-30283093/"
+                },
+                "fichero": "clips/pexels-30283093.mp4"
               },
               "rotulo": {
                 "kicker": "HORAS TOTALES DE LA ECONOMÍA",
@@ -232,7 +326,15 @@
                 "cifra": "61.260 millones",
                 "titular": "Horas trabajadas por la economía alemana",
                 "apoyo": "Nunca en la historia de la Alemania reunificada se habían trabajado tantas.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4483865",
+                  "url": "https://images.pexels.com/photos/4483865/pexels-photo-4483865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tiger Lily",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-brown-and-beige-long-sleeves-wearing-red-cap-4483865/"
+                },
+                "fichero": "recortes-auto/pexels-4483865.png"
               }
             }
           ]
@@ -284,7 +386,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german flag building government berlin",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35919428",
+                  "url": "https://videos.pexels.com/video-files/35919428/15238505_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ivan Chumak",
+                  "pagina": "https://www.pexels.com/video/snowy-day-at-berlin-s-reichstag-building-35919428/"
+                },
+                "fichero": "clips/pexels-35919428.mp4"
               }
             }
           ]
@@ -307,7 +419,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "diverse people entering office building",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18514339",
+                  "url": "https://videos.pexels.com/video-files/18514339/18514339-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Max Medyk",
+                  "pagina": "https://www.pexels.com/video/entering-through-a-revolving-door-18514339/"
+                },
+                "fichero": "clips/pexels-18514339.mp4"
               },
               "rotulo": {
                 "kicker": "Motivo dos",
@@ -321,7 +443,15 @@
                 "lado": "izq",
                 "titular": "Y baja aunque nadie recorte su jornada",
                 "apoyo": "Basta con que entre gente nueva en trabajos de pocas horas.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29413976",
+                  "url": "https://images.pexels.com/photos/29413976/pexels-photo-29413976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ali Berke GÜL",
+                  "pagina": "https://www.pexels.com/photo/classic-wall-clock-with-green-lighting-effect-29413976/"
+                },
+                "fichero": "recortes-auto/pexels-29413976.png"
               }
             }
           ]
@@ -353,7 +483,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "woman working part time cafe counter",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6683741",
+                  "url": "https://videos.pexels.com/video-files/6683741/6683741-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/woman-working-at-cafeteria-6683741/"
+                },
+                "fichero": "clips/pexels-6683741.mp4"
               }
             }
           ]
@@ -382,7 +522,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "supermarket cashier working",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4249559",
+                  "url": "https://videos.pexels.com/video-files/4249559/4249559-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nazim Zafri",
+                  "pagina": "https://www.pexels.com/video/a-woman-in-the-cahier-scanning-the-items-being-bought-4249559/"
+                },
+                "fichero": "clips/pexels-4249559.mp4"
               }
             }
           ]
@@ -435,7 +585,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "engineer working desk computer office",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7989732",
+                  "url": "https://videos.pexels.com/video-files/7989732/7989732-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/man-using-a-computer-7989732/"
+                },
+                "fichero": "clips/pexels-7989732.mp4"
               },
               "rotulo": {
                 "texto": "Seis minutos *a la semana*"
@@ -449,7 +609,15 @@
                 "cifra": "6 minutos",
                 "titular": "Toda la diferencia con Europa",
                 "apoyo": "40,2 horas semanales a jornada completa en Alemania. 40,3 de media en la Unión Europea.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37556455",
+                  "url": "https://images.pexels.com/photos/37556455/pexels-photo-37556455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Galib Rahman Nadim",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
+                },
+                "fichero": "recortes-auto/pexels-37556455.png"
               }
             }
           ]
@@ -475,7 +643,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "shift workers changing over factory",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31656808",
+                  "url": "https://videos.pexels.com/video-files/31656808/13487794_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "EqualStock IN",
+                  "pagina": "https://www.pexels.com/video/indian-textile-workers-in-factory-setting-31656808/"
+                },
+                "fichero": "clips/pexels-31656808.mp4"
               },
               "rotulo": {
                 "texto": "Alemania *repartió el trabajo*."
@@ -501,7 +679,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office people walking corridor blur",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7651686",
+                  "url": "https://videos.pexels.com/video-files/7651686/7651686-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/man-walking-on-hallway-7651686/"
+                },
+                "fichero": "clips/pexels-7651686.mp4"
               },
               "rotulo": {
                 "texto": "No están repartidos *al azar*"
@@ -546,7 +734,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "mother with young child kitchen home",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4941895",
+                  "url": "https://videos.pexels.com/video-files/4941895/4941895-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Taryn Elliott",
+                  "pagina": "https://www.pexels.com/video/mother-and-son-preparing-to-cook-4941895/"
+                },
+                "fichero": "clips/pexels-4941895.mp4"
               }
             }
           ]
@@ -584,7 +782,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "father child hand walking park",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8524218",
+                  "url": "https://videos.pexels.com/video-files/8524218/8524218-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/a-family-walking-while-holding-hands-8524218/"
+                },
+                "fichero": "clips/pexels-8524218.mp4"
               }
             }
           ]
@@ -605,14 +813,32 @@
                 "lado": "der",
                 "cifra": "27 % y 91 %",
                 "titular": "El hueco entre madres y padres",
-                "apoyo": "No lo explica ninguna preferencia cultural. Lo explica el sistema."
+                "apoyo": "No lo explica ninguna preferencia cultural. Lo explica el sistema.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5699505",
+                  "url": "https://images.pexels.com/photos/5699505/pexels-photo-5699505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alex Green",
+                  "pagina": "https://www.pexels.com/photo/calm-female-with-clipboard-standing-against-white-wall-5699505/"
+                },
+                "fichero": "recortes-auto/pexels-5699505.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty kindergarten classroom chairs",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5734745",
+                  "url": "https://videos.pexels.com/video-files/5734745/5734745-hd_1366_576_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/empty-classroom-5734745/"
+                },
+                "fichero": "clips/pexels-5734745.mp4"
               }
             }
           ]
@@ -633,14 +859,32 @@
                 "lado": "izq",
                 "cifra": "4,5 millones",
                 "titular": "Mujeres alemanas en un minijob",
-                "apoyo": "Unas 18 horas a la semana, con sueldo limitado y casi sin derechos."
+                "apoyo": "Unas 18 horas a la semana, con sueldo limitado y casi sin derechos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33934080",
+                  "url": "https://images.pexels.com/photos/33934080/pexels-photo-33934080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Michael  koneckiy",
+                  "pagina": "https://www.pexels.com/photo/restaurant-staff-posing-in-uniforms-outdoors-33934080/"
+                },
+                "fichero": "recortes-auto/pexels-33934080.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "cleaning staff hotel corridor work",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6390310",
+                  "url": "https://videos.pexels.com/video-files/6390310/6390310-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Phillips Vinegar",
+                  "pagina": "https://www.pexels.com/video/person-sweeping-a-corridor-floor-6390310/"
+                },
+                "fichero": "clips/pexels-6390310.mp4"
               }
             }
           ]
@@ -657,7 +901,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "nursery children playing toys daycare",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8435425",
+                  "url": "https://videos.pexels.com/video-files/8435425/8435425-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Yan Krukau",
+                  "pagina": "https://www.pexels.com/video/kids-playing-in-the-playroom-8435425/"
+                },
+                "fichero": "clips/pexels-8435425.mp4"
               },
               "rotulo": {
                 "texto": "No elige entre completa y media. Elige entre *media y nada*"
@@ -681,7 +935,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "woman commuting bus window thoughtful",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31064199",
+                  "url": "https://videos.pexels.com/video-files/31064199/13276096_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Hoi Wai",
+                  "pagina": "https://www.pexels.com/video/urban-commute-on-a-city-bus-with-passengers-31064199/"
+                },
+                "fichero": "clips/pexels-31064199.mp4"
               },
               "rotulo": {
                 "kicker": "No es una moda",
@@ -717,7 +981,15 @@
                 "lado": "der",
                 "cifra": "19,5 días",
                 "titular": "De baja al año, por trabajador",
-                "apoyo": "Es una barbaridad. Y es un dato cierto."
+                "apoyo": "Es una barbaridad. Y es un dato cierto.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8376190",
+                  "url": "https://images.pexels.com/photos/8376190/pexels-photo-8376190.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-eyeglasses-while-writing-on-the-paper-8376190/"
+                },
+                "fichero": "recortes-auto/pexels-8376190.png"
               }
             },
             {
@@ -764,7 +1036,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "person resting sofa blanket ill",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5858728",
+                  "url": "https://videos.pexels.com/video-files/5858728/5858728-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/a-sick-kid-watching-television-5858728/"
+                },
+                "fichero": "clips/pexels-5858728.mp4"
               }
             }
           ]
@@ -781,7 +1063,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "newspaper stack headlines print",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10284759",
+                  "url": "https://videos.pexels.com/video-files/10284759/10284759-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Oleg Gamulinskii",
+                  "pagina": "https://www.pexels.com/video/a-black-and-white-image-of-a-newspaper-10284759/"
+                },
+                "fichero": "clips/pexels-10284759.mp4"
               },
               "rotulo": {
                 "texto": "Multiplicado *por dos y medio*"
@@ -794,7 +1086,15 @@
                 "lado": "izq",
                 "titular": "Con ese gráfico, la conclusión es obvia",
                 "apoyo": "Y por eso el dato de las bajas alemanas ha dado la vuelta a media Europa.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37078711",
+                  "url": "https://images.pexels.com/photos/37078711/pexels-photo-37078711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Rob Volz",
+                  "pagina": "https://www.pexels.com/photo/newspaper-on-wooden-table-indoors-37078711/"
+                },
+                "fichero": "recortes-auto/pexels-37078711.png"
               }
             }
           ]
@@ -830,7 +1130,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "doctor computer screen medical records",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5998385",
+                  "url": "https://videos.pexels.com/video-files/5998385/5998385-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/a-lady-doctor-using-a-laptop-for-her-work-5998385/"
+                },
+                "fichero": "clips/pexels-5998385.mp4"
               },
               "rotulo": {
                 "kicker": "2022",
@@ -844,7 +1154,15 @@
                 "lado": "der",
                 "titular": "Antes: un papel que enviabas tú",
                 "apoyo": "Desde 2022 lo manda el médico directamente a la aseguradora, sin que el trabajador toque nada.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9222427",
+                  "url": "https://images.pexels.com/photos/9222427/pexels-photo-9222427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/photo/a-person-holding-documents-9222427/"
+                },
+                "fichero": "recortes-auto/pexels-9222427.png"
               }
             }
           ]
@@ -858,20 +1176,24 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "crumpled paper hand desk",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "El papel que nadie enviaba",
-                "apoyo": "Dos días de resfriado, un parte en el bolsillo, y una baja que no existía para las estadísticas."
-              }
+              "tipo": "frase",
+              "texto": "crumpled paper hand desk"
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "mailbox letters envelope post",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6994430",
+                  "url": "https://videos.pexels.com/video-files/6994430/6994430-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/packages-on-the-doorstep-6994430/"
+                },
+                "fichero": "clips/pexels-6994430.mp4"
               }
             }
           ]
@@ -888,7 +1210,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "server room data center lights",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7140928",
+                  "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "MrColo",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-cpu-7140928/"
+                },
+                "fichero": "clips/pexels-7140928.mp4"
               },
               "rotulo": {
                 "texto": "Millones de bajas *que siempre existieron*"
@@ -915,7 +1247,15 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "La conclusión del ZEW de Mannheim",
-                "apoyo": "El principal motivo de la subida no es la salud. Es la forma de contar."
+                "apoyo": "El principal motivo de la subida no es la salud. Es la forma de contar.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7173007",
+                  "url": "https://images.pexels.com/photos/7173007/pexels-photo-7173007.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nataliya Vaitkevich",
+                  "pagina": "https://www.pexels.com/photo/a-trader-analyzing-data-7173007/"
+                },
+                "fichero": "recortes-auto/pexels-7173007.png"
               }
             },
             {
@@ -957,7 +1297,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "person sitting window alone thoughtful",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6654152",
+                  "url": "https://videos.pexels.com/video-files/6654152/6654152-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Alena Darmel",
+                  "pagina": "https://www.pexels.com/video/upset-woman-sitting-by-the-window-6654152/"
+                },
+                "fichero": "clips/pexels-6654152.mp4"
               }
             }
           ]
@@ -974,7 +1324,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tired worker office night desk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7581346",
+                  "url": "https://videos.pexels.com/video-files/7581346/7581346-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/man-sleeping-on-a-table-7581346/"
+                },
+                "fichero": "clips/pexels-7581346.mp4"
               },
               "rotulo": {
                 "texto": "No es lo mismo. Y el dato *no dice eso*"
@@ -987,7 +1347,15 @@
                 "lado": "izq",
                 "titular": "Enfermar más no es querer menos",
                 "apoyo": "Que la salud mental empeore y que la gente se haya vuelto vaga son dos afirmaciones distintas.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31295157",
+                  "url": "https://images.pexels.com/photos/31295157/pexels-photo-31295157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Natalia Olivera",
+                  "pagina": "https://www.pexels.com/photo/moody-black-and-white-portrait-of-tired-man-31295157/"
+                },
+                "fichero": "recortes-auto/pexels-31295157.png"
               }
             }
           ]
@@ -1019,7 +1387,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german industrial plant smoke chimney",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29648572",
+                  "url": "https://videos.pexels.com/video-files/29648572/12756335_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "IslandHopper X",
+                  "pagina": "https://www.pexels.com/video/industrial-chimney-emitting-smoke-at-twilight-29648572/"
+                },
+                "fichero": "clips/pexels-29648572.mp4"
               }
             }
           ]
@@ -1036,7 +1414,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty factory floor abandoned industrial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13939576",
+                  "url": "https://videos.pexels.com/video-files/13939576/13939576-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-the-interior-of-an-abandoned-building-13939576/"
+                },
+                "fichero": "clips/pexels-13939576.mp4"
               },
               "rotulo": {
                 "kicker": "PRIMERA VEZ DESDE LA REUNIFICACIÓN",
@@ -1061,7 +1449,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "thermometer red mercury close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6761615",
+                  "url": "https://videos.pexels.com/video-files/6761615/6761615-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Michelle Leman",
+                  "pagina": "https://www.pexels.com/video/heart-shaped-chocolates-in-a-glass-6761615/"
+                },
+                "fichero": "clips/pexels-6761615.mp4"
               },
               "rotulo": {
                 "texto": "Lo importante no es el número. Es *el signo*."
@@ -1075,7 +1473,15 @@
                 "cifra": "-40.000",
                 "titular": "Lo importante no es el número: es el signo",
                 "apoyo": "Durante 35 años esa cifra siempre subió. Este año lleva un menos delante.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5685758",
+                  "url": "https://images.pexels.com/photos/5685758/pexels-photo-5685758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-button-up-shirt-in-deep-thoughts-5685758/"
+                },
+                "fichero": "recortes-auto/pexels-5685758.png"
               }
             }
           ]
@@ -1113,7 +1519,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "elderly people bench park germany",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "856130",
+                  "url": "https://videos.pexels.com/video-files/856130/856130-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/old-people-sitting-on-a-bench-856130/"
+                },
+                "fichero": "clips/pexels-856130.mp4"
               }
             }
           ]
@@ -1143,7 +1559,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hiring sign shop window closed",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6354516",
+                  "url": "https://videos.pexels.com/video-files/6354516/6354516-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Greg Thames",
+                  "pagina": "https://www.pexels.com/video/a-signage-in-a-window-6354516/"
+                },
+                "fichero": "clips/pexels-6354516.mp4"
               }
             }
           ]
@@ -1172,7 +1598,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "retirement farewell office colleagues",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7413685",
+                  "url": "https://videos.pexels.com/video-files/7413685/7413685-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/congratulating-colleague-for-proposal-7413685/"
+                },
+                "fichero": "clips/pexels-7413685.mp4"
               }
             }
           ]
@@ -1193,14 +1629,32 @@
                 "lado": "izq",
                 "cifra": "300.000",
                 "titular": "Al año, solo para no perder plantilla",
-                "apoyo": "No para crecer. Para quedarse exactamente donde está."
+                "apoyo": "No para crecer. Para quedarse exactamente donde está.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36673026",
+                  "url": "https://images.pexels.com/photos/36673026/pexels-photo-36673026.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "abdo alshreef",
+                  "pagina": "https://www.pexels.com/photo/construction-worker-at-industrial-site-36673026/"
+                },
+                "fichero": "recortes-auto/pexels-36673026.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "airport arrivals people luggage",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19959356",
+                  "url": "https://videos.pexels.com/video-files/19959356/19959356-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/a-woman-walking-through-an-airport-with-luggage-19959356/"
+                },
+                "fichero": "clips/pexels-19959356.mp4"
               }
             }
           ]
@@ -1230,7 +1684,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "multicultural workers construction team",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8964728",
+                  "url": "https://videos.pexels.com/video-files/8964728/8964728-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Mikael Blomkvist",
+                  "pagina": "https://www.pexels.com/video/man-and-woman-having-a-conversation-8964728/"
+                },
+                "fichero": "clips/pexels-8964728.mp4"
               }
             }
           ]
@@ -1280,7 +1744,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock market screen red numbers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578632",
+                  "url": "https://videos.pexels.com/video-files/7578632/7578632-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-of-numbers-on-display-monitor-7578632/"
+                },
+                "fichero": "clips/pexels-7578632.mp4"
               }
             }
           ]
@@ -1308,7 +1782,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "traffic jam highway standstill",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14359967",
+                  "url": "https://videos.pexels.com/video-files/14359967/14359967-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Ahmet Akpolat",
+                  "pagina": "https://www.pexels.com/video/traffic-on-highway-14359967/"
+                },
+                "fichero": "clips/pexels-14359967.mp4"
               },
               "rotulo": {
                 "texto": "Tres años *sin moverse*."
@@ -1328,7 +1812,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty desks office chairs unused",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951298",
+                  "url": "https://videos.pexels.com/video-files/6951298/6951298-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/monitors-and-microphones-in-a-conference-room-6951298/"
+                },
+                "fichero": "clips/pexels-6951298.mp4"
               },
               "rotulo": {
                 "kicker": "La trampa",
@@ -1356,14 +1850,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "El problema no se fue: se tapó",
-                "apoyo": "Cuando nadie contrata, la falta de trabajadores desaparece de las noticias."
+                "apoyo": "Cuando nadie contrata, la falta de trabajadores desaparece de las noticias.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15335664",
+                  "url": "https://images.pexels.com/photos/15335664/pexels-photo-15335664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Civan D.",
+                  "pagina": "https://www.pexels.com/photo/man-standing-and-looking-through-the-window-15335664/"
+                },
+                "fichero": "recortes-auto/pexels-15335664.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "dust sheet covered furniture room",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7348145",
+                  "url": "https://videos.pexels.com/video-files/7348145/7348145-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/new-furnitures-covered-with-plastic-7348145/"
+                },
+                "fichero": "clips/pexels-7348145.mp4"
               },
               "rotulo": {
                 "texto": "Sigue ahí. *Tapado*."
@@ -1398,7 +1910,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "debate panel discussion microphones",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951715",
+                  "url": "https://videos.pexels.com/video-files/6951715/6951715-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-woman-talking-on-a-microphone-while-wearing-a-face-mask-6951715/"
+                },
+                "fichero": "clips/pexels-6951715.mp4"
               }
             }
           ]
@@ -1418,14 +1940,32 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "\"La época de los récords se acabó\"",
-                "apoyo": "Lo dice el propio instituto que publica el dato del volumen de trabajo."
+                "apoyo": "Lo dice el propio instituto que publica el dato del volumen de trabajo.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "259006",
+                  "url": "https://images.pexels.com/photos/259006/pexels-photo-259006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/photo/person-holding-document-papers-259006/"
+                },
+                "fichero": "recortes-auto/pexels-259006.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "graph line flat screen data",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7947518",
+                  "url": "https://videos.pexels.com/video-files/7947518/7947518-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 17,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/viewing-graphs-on-a-monitor-7947518/"
+                },
+                "fichero": "clips/pexels-7947518.mp4"
               }
             }
           ]
@@ -1442,7 +1982,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "assembly line stopped factory machinery",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29351001",
+                  "url": "https://videos.pexels.com/video-files/29351001/12649153_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/worker-assembling-motorcycle-engines-in-factory-29351001/"
+                },
+                "fichero": "clips/pexels-29351001.mp4"
               },
               "rotulo": {
                 "kicker": "2025",
@@ -1467,7 +2017,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "worker late shift industrial night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7006654",
+                  "url": "https://videos.pexels.com/video-files/7006654/7006654-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/a-person-shaking-off-dirty-hands-7006654/"
+                },
+                "fichero": "clips/pexels-7006654.mp4"
               },
               "rotulo": {
                 "texto": "Su aritmética es discutible. *El problema es real*"
@@ -1480,7 +2040,15 @@
                 "lado": "izq",
                 "titular": "Su aritmética es discutible. El problema, no",
                 "apoyo": "Con menos gente y el mismo nivel de vida, alguien va a tener que trabajar más horas.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16984315",
+                  "url": "https://images.pexels.com/photos/16984315/pexels-photo-16984315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Sahil Ansari",
+                  "pagina": "https://www.pexels.com/photo/man-standing-in-darkness-16984315/"
+                },
+                "fichero": "recortes-auto/pexels-16984315.png"
               }
             }
           ]
@@ -1501,14 +2069,32 @@
                 "lado": "der",
                 "cifra": "52 %",
                 "titular": "Cree que no compensa trabajar",
-                "apoyo": "La distancia entre el salario mínimo y la ayuda social es pequeña."
+                "apoyo": "La distancia entre el salario mínimo y la ayuda social es pequeña.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34975698",
+                  "url": "https://images.pexels.com/photos/34975698/pexels-photo-34975698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/photo/person-counting-cash-with-notepad-and-banknotes-34975698/"
+                },
+                "fichero": "recortes-auto/pexels-34975698.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "unemployment office waiting room",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37664701",
+                  "url": "https://videos.pexels.com/video-files/37664701/15966523_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "Daryl John Quiming",
+                  "pagina": "https://www.pexels.com/video/busy-hospital-wait-room-with-diverse-patients-37664701/"
+                },
+                "fichero": "clips/pexels-37664701.mp4"
               }
             }
           ]
@@ -1545,7 +2131,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "parliament chamber session voting",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103392",
+                  "url": "https://videos.pexels.com/video-files/7103392/7103392-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/video/people-putting-their-votes-on-a-ballot-box-7103392/"
+                },
+                "fichero": "clips/pexels-7103392.mp4"
               }
             }
           ]
@@ -1562,7 +2158,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "government office desk paperwork queue",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103529",
+                  "url": "https://videos.pexels.com/video-files/7103529/7103529-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/video/a-man-giving-out-forms-to-people-7103529/"
+                },
+                "fichero": "clips/pexels-7103529.mp4"
               },
               "rotulo": {
                 "kicker": "Desde julio · 5 millones de personas",
@@ -1593,7 +2199,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "precision machinery manufacturing close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14132388",
+                  "url": "https://videos.pexels.com/video-files/14132388/14132388-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 8,
+                  "autor": "Emre Vonal",
+                  "pagina": "https://www.pexels.com/video/cooling-system-in-an-industrial-machine-14132388/"
+                },
+                "fichero": "clips/pexels-14132388.mp4"
               },
               "rotulo": {
                 "texto": "Lo que produce *cada hora*"
@@ -1637,7 +2253,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "automated robotic arm factory",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32386532",
+                  "url": "https://videos.pexels.com/video-files/32386532/13814823_1920_1080_100fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Usman AbdulrasheedGambo",
+                  "pagina": "https://www.pexels.com/video/industrial-robot-arm-in-high-tech-factory-32386532/"
+                },
+                "fichero": "clips/pexels-32386532.mp4"
               }
             }
           ]
@@ -1654,7 +2280,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german engineering workshop tools",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31016921",
+                  "url": "https://videos.pexels.com/video-files/31016921/13258055_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/engineer-operating-lathe-machine-in-workshop-31016921/"
+                },
+                "fichero": "clips/pexels-31016921.mp4"
               },
               "rotulo": {
                 "texto": "Menos horas. *Un tercio más por hora*"
@@ -1679,7 +2315,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "greece taverna worker service street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6096712",
+                  "url": "https://videos.pexels.com/video-files/6096712/6096712-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Laura James",
+                  "pagina": "https://www.pexels.com/video/healthcare-worker-buying-cup-of-coffee-6096712/"
+                },
+                "fichero": "clips/pexels-6096712.mp4"
               },
               "rotulo": {
                 "kicker": "La regla incómoda",
@@ -1752,7 +2398,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office open space many workers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4116375",
+                  "url": "https://videos.pexels.com/video-files/4116375/4116375-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Marcus Aurelius",
+                  "pagina": "https://www.pexels.com/video/a-woman-on-a-wheelchair-in-the-office-4116375/"
+                },
+                "fichero": "clips/pexels-4116375.mp4"
               },
               "rotulo": {
                 "kicker": "Tiene un nombre",
@@ -1780,14 +2436,32 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Del enfermo de Europa al récord de empleo",
-                "apoyo": "El reparto del trabajo funcionó durante treinta años. Y funcionó muy bien."
+                "apoyo": "El reparto del trabajo funcionó durante treinta años. Y funcionó muy bien.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18576933",
+                  "url": "https://images.pexels.com/photos/18576933/pexels-photo-18576933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nino Keller",
+                  "pagina": "https://www.pexels.com/photo/simple-building-with-window-behind-wall-18576933/"
+                },
+                "fichero": "recortes-auto/pexels-18576933.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "modern berlin skyline day",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37593626",
+                  "url": "https://videos.pexels.com/video-files/37593626/15932798_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ivan Chumak",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-berlin-s-iconic-tv-tower-37593626/"
+                },
+                "fichero": "clips/pexels-37593626.mp4"
               }
             }
           ]
@@ -1804,7 +2478,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty waiting hall chairs station",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38273961",
+                  "url": "https://videos.pexels.com/video-files/38273961/16251117_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/quiet-airport-seating-area-with-passengers-38273961/"
+                },
+                "fichero": "clips/pexels-38273961.mp4"
               },
               "rotulo": {
                 "texto": "Se ha quedado *sin nadie más a quien meter*"
@@ -1854,7 +2538,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "robotics engineer laboratory technology",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32386519",
+                  "url": "https://videos.pexels.com/video-files/32386519/13814707_1920_1080_100fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Usman AbdulrasheedGambo",
+                  "pagina": "https://www.pexels.com/video/industrial-robotic-arm-operating-in-a-laboratory-32386519/"
+                },
+                "fichero": "clips/pexels-32386519.mp4"
               },
               "rotulo": {
                 "texto": "La lenta es la que *ha funcionado siempre*"
@@ -1867,7 +2561,15 @@
                 "lado": "der",
                 "titular": "La salida lenta",
                 "apoyo": "Que cada hora produzca más. Es más cara, no da titulares, y es la que ha funcionado siempre.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8439002",
+                  "url": "https://images.pexels.com/photos/8439002/pexels-photo-8439002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/scientists-testing-a-device-8439002/"
+                },
+                "fichero": "recortes-auto/pexels-8439002.png"
               }
             }
           ]
@@ -1887,14 +2589,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "España y México llegan al mismo punto",
-                "apoyo": "Con la diferencia de que llegan con bastante menos producto por hora trabajada."
+                "apoyo": "Con la diferencia de que llegan con bastante menos producto por hora trabajada.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38905049",
+                  "url": "https://images.pexels.com/photos/38905049/pexels-photo-38905049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "GB  The Green Brand",
+                  "pagina": "https://www.pexels.com/photo/efficient-warehouse-order-preparation-in-spain-38905049/"
+                },
+                "fichero": "recortes-auto/pexels-38905049.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "city street crowd walking daytime",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37677782",
+                  "url": "https://videos.pexels.com/video-files/37677782/15974167_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Eleonora Vokueva",
+                  "pagina": "https://www.pexels.com/video/busy-urban-street-with-diverse-crowd-walking-37677782/"
+                },
+                "fichero": "clips/pexels-37677782.mp4"
               }
             }
           ]
@@ -1935,7 +2655,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "busy city street people rush hour",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "853998",
+                  "url": "https://videos.pexels.com/video-files/853998/853998-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Coverr",
+                  "pagina": "https://www.pexels.com/video/out-of-focus-video-of-people-and-cars-853998/"
+                },
+                "fichero": "clips/pexels-853998.mp4"
               },
               "rotulo": {
                 "texto": "La pregunta *está mal hecha*"
@@ -1949,7 +2679,15 @@
                 "cifra": "46 millones",
                 "titular": "Personas trabajando en Alemania",
                 "apoyo": "Prácticamente el máximo histórico. Y entre todas, más horas que en ningún momento del pasado.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "24960299",
+                  "url": "https://images.pexels.com/photos/24960299/pexels-photo-24960299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Dmitry Ovsyannikov",
+                  "pagina": "https://www.pexels.com/photo/brunette-in-black-and-white-24960299/"
+                },
+                "fichero": "recortes-auto/pexels-24960299.png"
               }
             }
           ]
@@ -1966,7 +2704,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "woman worker retail store shift",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5699960",
+                  "url": "https://videos.pexels.com/video-files/5699960/5699960-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/woman-standing-in-front-of-a-mirror-5699960/"
+                },
+                "fichero": "clips/pexels-5699960.mp4"
               },
               "rotulo": {
                 "kicker": "Por eso baja la media",
@@ -1988,14 +2736,8 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "medical records archive screen digital",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "Empezó a contarlas de verdad",
-                "apoyo": "Las bajas que aparecieron de golpe llevaban décadas ocurriendo sin que nadie las apuntara."
-              }
+              "tipo": "frase",
+              "texto": "medical records archive screen digital"
             },
             {
               "tipo": "frase",
@@ -2024,7 +2766,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "aging population elderly street germany",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33918561",
+                  "url": "https://videos.pexels.com/video-files/33918561/14393819_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Lukas Kosc",
+                  "pagina": "https://www.pexels.com/video/strolling-through-bratislava-streets-33918561/"
+                },
+                "fichero": "clips/pexels-33918561.mp4"
               }
             }
           ]
@@ -2046,7 +2798,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty village street old houses",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5362813",
+                  "url": "https://videos.pexels.com/video-files/5362813/5362813-hd_1282_720_25fps.mp4",
+                  "ancho": 1282,
+                  "duracion": 7,
+                  "autor": "Adrien JACTA",
+                  "pagina": "https://www.pexels.com/video/small-building-by-the-road-5362813/"
+                },
+                "fichero": "clips/pexels-5362813.mp4"
               }
             }
           ]
