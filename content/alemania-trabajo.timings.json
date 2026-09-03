@@ -1,1 +1,422 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/alemania-trabajo-b0-01.mp3",
+    "duration": 11.990204,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b0-02": {
+    "audio": "voice/alemania-trabajo-b0-02.mp3",
+    "duration": 9.639184,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b0-04": {
+    "audio": "voice/alemania-trabajo-b0-04.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b0-05": {
+    "audio": "voice/alemania-trabajo-b0-05.mp3",
+    "duration": 10.34449,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b0-06": {
+    "audio": "voice/alemania-trabajo-b0-06.mp3",
+    "duration": 8.124082,
+    "transcript": null,
+    "credit_cost": 203
+  },
+  "b1-01": {
+    "audio": "voice/alemania-trabajo-b1-01.mp3",
+    "duration": 8.698776,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b1-02": {
+    "audio": "voice/alemania-trabajo-b1-02.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b1-03": {
+    "audio": "voice/alemania-trabajo-b1-03.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b1-05": {
+    "audio": "voice/alemania-trabajo-b1-05.mp3",
+    "duration": 10.893061,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b2-02": {
+    "audio": "voice/alemania-trabajo-b2-02.mp3",
+    "duration": 10.34449,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b2-03": {
+    "audio": "voice/alemania-trabajo-b2-03.mp3",
+    "duration": 10.527347,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b2-04": {
+    "audio": "voice/alemania-trabajo-b2-04.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b2-05": {
+    "audio": "voice/alemania-trabajo-b2-05.mp3",
+    "duration": 11.493878,
+    "transcript": null,
+    "credit_cost": 292
+  },
+  "b2-06": {
+    "audio": "voice/alemania-trabajo-b2-06.mp3",
+    "duration": 8.489796,
+    "transcript": null,
+    "credit_cost": 192
+  },
+  "b2-07": {
+    "audio": "voice/alemania-trabajo-b2-07.mp3",
+    "duration": 12.382041,
+    "transcript": null,
+    "credit_cost": 301
+  },
+  "b3-01": {
+    "audio": "voice/alemania-trabajo-b3-01.mp3",
+    "duration": 7.967347,
+    "transcript": null,
+    "credit_cost": 194
+  },
+  "b3-02": {
+    "audio": "voice/alemania-trabajo-b3-02.mp3",
+    "duration": 9.795918,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b3-03": {
+    "audio": "voice/alemania-trabajo-b3-03.mp3",
+    "duration": 10.814694,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b3-04": {
+    "audio": "voice/alemania-trabajo-b3-04.mp3",
+    "duration": 9.116735,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b3-05": {
+    "audio": "voice/alemania-trabajo-b3-05.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b3-06": {
+    "audio": "voice/alemania-trabajo-b3-06.mp3",
+    "duration": 12.355918,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b3-07": {
+    "audio": "voice/alemania-trabajo-b3-07.mp3",
+    "duration": 8.620408,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b4-01": {
+    "audio": "voice/alemania-trabajo-b4-01.mp3",
+    "duration": 9.613061,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b4-02": {
+    "audio": "voice/alemania-trabajo-b4-02.mp3",
+    "duration": 11.128163,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b4-03": {
+    "audio": "voice/alemania-trabajo-b4-03.mp3",
+    "duration": 8.907755,
+    "transcript": null,
+    "credit_cost": 221
+  },
+  "b4-04": {
+    "audio": "voice/alemania-trabajo-b4-04.mp3",
+    "duration": 6.164898,
+    "transcript": null,
+    "credit_cost": 143
+  },
+  "b4-05": {
+    "audio": "voice/alemania-trabajo-b4-05.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b4-06": {
+    "audio": "voice/alemania-trabajo-b4-06.mp3",
+    "duration": 12.90449,
+    "transcript": null,
+    "credit_cost": 293
+  },
+  "b4-07": {
+    "audio": "voice/alemania-trabajo-b4-07.mp3",
+    "duration": 12.669388,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b4-08": {
+    "audio": "voice/alemania-trabajo-b4-08.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b4-09": {
+    "audio": "voice/alemania-trabajo-b4-09.mp3",
+    "duration": 13.00898,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b4-10": {
+    "audio": "voice/alemania-trabajo-b4-10.mp3",
+    "duration": 6.896327,
+    "transcript": null,
+    "credit_cost": 213
+  },
+  "b5-01": {
+    "audio": "voice/alemania-trabajo-b5-01.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b5-02": {
+    "audio": "voice/alemania-trabajo-b5-02.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b5-03": {
+    "audio": "voice/alemania-trabajo-b5-03.mp3",
+    "duration": 11.232653,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b5-04": {
+    "audio": "voice/alemania-trabajo-b5-04.mp3",
+    "duration": 11.258776,
+    "transcript": null,
+    "credit_cost": 300
+  },
+  "b5-05": {
+    "audio": "voice/alemania-trabajo-b5-05.mp3",
+    "duration": 12.956735,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b5-06": {
+    "audio": "voice/alemania-trabajo-b5-06.mp3",
+    "duration": 10.370612,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b5-07": {
+    "audio": "voice/alemania-trabajo-b5-07.mp3",
+    "duration": 11.833469,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b5-08": {
+    "audio": "voice/alemania-trabajo-b5-08.mp3",
+    "duration": 14.315102,
+    "transcript": null,
+    "credit_cost": 349
+  },
+  "b6-02": {
+    "audio": "voice/alemania-trabajo-b6-02.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b6-03": {
+    "audio": "voice/alemania-trabajo-b6-03.mp3",
+    "duration": 8.411429,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b6-04": {
+    "audio": "voice/alemania-trabajo-b6-04.mp3",
+    "duration": 11.52,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b6-05": {
+    "audio": "voice/alemania-trabajo-b6-05.mp3",
+    "duration": 8.96,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b7-01": {
+    "audio": "voice/alemania-trabajo-b7-01.mp3",
+    "duration": 9.848163,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b7-02": {
+    "audio": "voice/alemania-trabajo-b7-02.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b7-03": {
+    "audio": "voice/alemania-trabajo-b7-03.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b7-04": {
+    "audio": "voice/alemania-trabajo-b7-04.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 297
+  },
+  "b7-05": {
+    "audio": "voice/alemania-trabajo-b7-05.mp3",
+    "duration": 11.075918,
+    "transcript": null,
+    "credit_cost": 285
+  },
+  "b7-06": {
+    "audio": "voice/alemania-trabajo-b7-06.mp3",
+    "duration": 13.296327,
+    "transcript": null,
+    "credit_cost": 330
+  },
+  "b7-07": {
+    "audio": "voice/alemania-trabajo-b7-07.mp3",
+    "duration": 7.053061,
+    "transcript": null,
+    "credit_cost": 177
+  },
+  "b8-01": {
+    "audio": "voice/alemania-trabajo-b8-01.mp3",
+    "duration": 7.836735,
+    "transcript": null,
+    "credit_cost": 206
+  },
+  "b8-02": {
+    "audio": "voice/alemania-trabajo-b8-02.mp3",
+    "duration": 7.288163,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b8-03": {
+    "audio": "voice/alemania-trabajo-b8-03.mp3",
+    "duration": 11.31102,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b8-04": {
+    "audio": "voice/alemania-trabajo-b8-04.mp3",
+    "duration": 8.228571,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b8-05": {
+    "audio": "voice/alemania-trabajo-b8-05.mp3",
+    "duration": 9.560816,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b9-01": {
+    "audio": "voice/alemania-trabajo-b9-01.mp3",
+    "duration": 4.728163,
+    "transcript": null,
+    "credit_cost": 102
+  },
+  "b9-02": {
+    "audio": "voice/alemania-trabajo-b9-02.mp3",
+    "duration": 9.404082,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b9-03": {
+    "audio": "voice/alemania-trabajo-b9-03.mp3",
+    "duration": 8.071837,
+    "transcript": null,
+    "credit_cost": 204
+  },
+  "b9-04": {
+    "audio": "voice/alemania-trabajo-b9-04.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b9-05": {
+    "audio": "voice/alemania-trabajo-b9-05.mp3",
+    "duration": 11.702857,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b9-06": {
+    "audio": "voice/alemania-trabajo-b9-06.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b9-07": {
+    "audio": "voice/alemania-trabajo-b9-07.mp3",
+    "duration": 11.572245,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b10-01": {
+    "audio": "voice/alemania-trabajo-b10-01.mp3",
+    "duration": 5.537959,
+    "transcript": null,
+    "credit_cost": 135
+  },
+  "b10-02": {
+    "audio": "voice/alemania-trabajo-b10-02.mp3",
+    "duration": 10.684082,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b10-03": {
+    "audio": "voice/alemania-trabajo-b10-03.mp3",
+    "duration": 8.515918,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b10-04": {
+    "audio": "voice/alemania-trabajo-b10-04.mp3",
+    "duration": 9.325714,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b10-05": {
+    "audio": "voice/alemania-trabajo-b10-05.mp3",
+    "duration": 12.120816,
+    "transcript": null,
+    "credit_cost": 300
+  },
+  "b10-06": {
+    "audio": "voice/alemania-trabajo-b10-06.mp3",
+    "duration": 7.340408,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b10-07": {
+    "audio": "voice/alemania-trabajo-b10-07.mp3",
+    "duration": 4.832653,
+    "transcript": null,
+    "credit_cost": 136
+  }
+}
