@@ -17,7 +17,12 @@ const cola = JSON.parse(fs.readFileSync("content/cola.json", "utf8"));
 
 const planos = doc.bloques.flatMap((b) => b.planos);
 const seg = planos.reduce((a, p) => a + (tiempos[p.id] ? tiempos[p.id].duration + 0.34 : 0), 0);
-const dur = `${Math.floor(seg / 60)}:${String(Math.round(seg % 60)).padStart(2, "0")}`;
+// Redondear los segundos sueltos daba "6:60", que YouTube no admite como capitulo.
+const mmss = (s) => {
+  const t = Math.floor(s);
+  return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`;
+};
+const dur = mmss(seg);
 const mb = fs.existsSync(video) ? (fs.statSync(video).size / 1048576).toFixed(0) : "?";
 const pub = doc.publicacion ?? {};
 const cerca = "```";
@@ -29,7 +34,7 @@ const cerca = "```";
  * la burbuja llegaban hasta 19:40 cuando el video dura 15:26, y asi YouTube
  * ni los acepta. Aqui se miden.
  */
-const mmss = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
+
 
 /**
  * Quita de la descripcion los capitulos y el anuncio del proximo video.
