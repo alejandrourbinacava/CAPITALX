@@ -1,0 +1,2047 @@
+{
+  "slug": "china-inmobiliario",
+  "titulo": "CHINA: El Colapso Que Lleva Cuatro Años En Silencio",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frio",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "En julio de dos mil veintiséis, el precio de la vivienda en China bajó por trigésimo séptimo mes consecutivo. Treinta y siete meses seguidos cayendo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese city skyline apartment towers",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "JULIO DE 2026",
+                "texto": "*37 meses seguidos* cayendo"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "unfinished concrete tower abandoned",
+                "lado": "der",
+                "cifra": "-40 %",
+                "titular": "Lo que perdió la vivienda china",
+                "apoyo": "Entre 2021 y 2025. La mayor destrucción de riqueza inmobiliaria de la historia moderna.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Entre dos mil veintiuno y dos mil veinticinco, la vivienda china perdió alrededor del cuarenta por ciento de su valor. Es la mayor destrucción de riqueza inmobiliaria de la historia moderna.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRECIO DE LA VIVIENDA EN CHINA",
+              "fuente": "Reuters · encuesta a analistas, 2026",
+              "barras": {
+                "unidad": "Índice, 2021 = 100",
+                "datos": [
+                  {
+                    "etiqueta": "2021",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 60,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty apartment building windows dark",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Y ahora dime en qué día pasó. No hay ninguno. No hubo un lunes negro, ni colas en los bancos, ni un banco central compareciendo de madrugada.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank building facade columns quiet",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "¿En qué día *pasó*?"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "En dos mil ocho, Estados Unidos tuvo su día: el quince de septiembre, con Lehman Brothers. España tuvo el suyo. China lleva cuatro años cayendo y no tiene fecha.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "stock trader panic screens 2008",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "15 de septiembre",
+                "titular": "El día que Estados Unidos sí tuvo",
+                "apoyo": "Lehman Brothers, 2008. China lleva cuatro años cayendo y no tiene fecha."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper front page financial crisis",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Y mientras eso pasaba, la economía china creció un cinco por ciento en dos mil veinticinco. Cumplió su objetivo oficial exacto.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "CRECIMIENTO DEL PIB CHINO EN 2025",
+              "fuente": "Oficina Nacional de Estadística de China",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 5,
+                "etiqueta": "por ciento, el objetivo oficial exacto",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shanghai financial district aerial day",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Un colapso inmobiliario del cuarenta por ciento, dentro de una economía que crece al cinco. Eso no debería poder pasar a la vez, y es exactamente lo que vamos a explicar.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Las dos cosas *a la vez*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese factory workers production line",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Lo que vamos a ver",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Vemos cómo se construyó la burbuja más grande jamás vista, quién ha pagado la factura, y por qué no ha habido un solo día de pánico.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "LO QUE VEMOS AQUÍ",
+              "lista": {
+                "titulo": "Tres preguntas",
+                "puntos": [
+                  "Cómo se construyó la burbuja más grande jamás vista",
+                  "Quién ha pagado la factura",
+                  "Por qué no ha habido un día de pánico"
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese construction cranes skyline",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Y al final, lo que esto significa para ti aunque vivas a diez mil kilómetros, que es más de lo que parece.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "container ship port cargo loading",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "A diez mil kilómetros. Y *te llega*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Porque el problema chino no es que se hayan caído unas casas. Es dónde estaba metido el ahorro de cuatrocientos millones de familias.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese family apartment interior home",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "El problema no son las casas",
+                "texto": "Es *dónde estaba el ahorro*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Como se construyo",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Para entender la caída hay que entender cómo se levantó. Y el sistema chino de vivienda tenía dos piezas que encajaban perfectamente entre sí.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "architect blueprint plans hands desk",
+                "lado": "der",
+                "titular": "Dos piezas que encajaban",
+                "apoyo": "Para entender la caída hay que entender cómo se levantó todo esto.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "La primera: en China las casas se venden antes de existir. Pagas el piso entero, o pides la hipoteca entera, sobre un solar en el que todavía no hay nada.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "empty construction site fence dirt",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Pagas el piso antes de que exista",
+                "apoyo": "La hipoteca entera sobre un solar en el que todavía no hay nada levantado."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "real estate showroom model buildings",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Ese dinero no espera en una cuenta. La promotora lo usa para comprar el siguiente solar y empezar la siguiente torre, que también vende sobre plano.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crane construction site tower rising",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "Ese dinero compra *el siguiente solar*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "La segunda pieza está en el ayuntamiento. En China el suelo es del Estado, y los gobiernos locales se financian vendiendo derechos de uso a las promotoras.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government building chinese official architecture",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "La segunda pieza",
+                "texto": "El suelo *es del Estado*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "En dos mil veintiuno, esa venta de suelo dio a los ayuntamientos chinos ocho coma siete billones de yuanes. Cerca del veinte por ciento de todos sus ingresos salía de ahí.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "VENTA DE SUELO A LOS AYUNTAMIENTOS · 2021",
+              "fuente": "Ministerio de Finanzas de China",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 8700000000000,
+                "etiqueta": "yuanes · el 20 % de sus ingresos"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese city street hospital school",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Así que el circuito quedó cerrado. La familia paga por adelantado, la promotora compra suelo, el ayuntamiento cobra, y con ese dinero construye hospitales, colegios y carreteras.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Un circuito *cerrado*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "highway bridge infrastructure china",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Funciona mientras los precios suban. En el momento en que dejan de subir, las tres piezas caen a la vez. Y eso es lo que hay que tener en la cabeza a partir de aquí.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "domino tiles falling chain",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Las tres piezas caen *a la vez*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "El dia que cortaron el credito",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "En dos mil veinte, el gobierno chino decidió que aquello era una burbuja y la pinchó a propósito. Puso tres límites de deuda a las promotoras y las que no cumplían dejaban de recibir crédito.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "chinese official government meeting formal",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "2020",
+                "titular": "La pincharon a propósito",
+                "apoyo": "Tres límites de deuda. Quien no cumplía, dejaba de recibir crédito."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank vault door closing metal",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Esto es importante y casi nunca se dice: la crisis inmobiliaria china no fue un accidente del mercado. Fue una decisión política, tomada y anunciada.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "press conference microphones podium",
+                "tono": "carmin"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "kicker": "No fue un accidente",
+                "texto": "Fue *una decisión*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "La primera en caer fue Evergrande, que era la mayor promotora del mundo. Debía dos coma tres nueve billones de yuanes: unos trescientos treinta y tres mil millones de dólares.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DEUDA DE EVERGRANDE",
+              "fuente": "Tribunal Superior de Hong Kong",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 333000000000,
+                "etiqueta": "dólares de deuda"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "abandoned construction site rusty rebar",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Para que te hagas una idea, esa cifra es más o menos lo que produce Portugal en un año entero. Una sola empresa.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "portugal"
+                ]
+              },
+              "kicker": "LA DEUDA DE UNA SOLA EMPRESA",
+              "fuente": "Banco Mundial · PIB de Portugal"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "lisbon city view portugal",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "En enero de dos mil veinticuatro, un tribunal de Hong Kong ordenó su liquidación. En agosto de dos mil veinticinco la sacaron de la bolsa. Se acabó.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "courthouse judge gavel legal",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "Enero de 2024",
+                "titular": "Un tribunal ordena la liquidación",
+                "apoyo": "En agosto de 2025 la sacaron de la bolsa. La mayor promotora del mundo, cerrada."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock exchange trading floor screens",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "Y sin embargo, cuando eso ocurrió, no pasó nada. No hubo pánico bursátil, ni corralito, ni rescate de urgencia. Ese silencio es el tema de este vídeo.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "quiet empty street night city",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Y *no pasó nada*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ese silencio es *el tema*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Los pisos que nunca llegaron",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Ahora la parte humana, que es la que casi nunca sale en los gráficos. Si pagaste un piso sobre plano y la promotora quiebra, tú sigues pagando la hipoteca de algo que no existe.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman looking worried window apartment",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Sigues pagando la hipoteca de algo que no existe",
+                "apoyo": "Pagaste sobre plano. La promotora quebró. El piso no está, la deuda sí."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "unfinished apartment interior bare concrete",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Y aquí va el dato que resume toda la crisis. De todas las viviendas vendidas sobre plano en China entre dos mil trece y dos mil veinte, solo se entregó alrededor del sesenta por ciento.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "VIVIENDAS VENDIDAS SOBRE PLANO, 2013-2020",
+              "fuente": "Estimaciones del sector · Goldman Sachs",
+              "barras": {
+                "unidad": "Porcentaje del total",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Entregadas",
+                    "valor": 60,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Sin entregar",
+                    "valor": 40,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "abandoned residential towers empty",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Cuatro de cada diez pisos pagados no llegaron a su dueño. En China se les llama las colas podridas: torres a medio levantar, con el hormigón a la intemperie, en cientos de ciudades.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "derelict concrete tower weeds abandoned",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "Las llaman así",
+                "texto": "*Las colas podridas*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "rusty scaffolding abandoned tower",
+                "lado": "izq",
+                "titular": "Torres a medio levantar en cientos de ciudades",
+                "apoyo": "Hormigón a la intemperie, y una hipoteca pagándose cada mes por dentro.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "En dos mil veintidós, los compradores de más de doscientos treinta promociones en ochenta y seis ciudades hicieron algo insólito en China: se organizaron y dejaron de pagar sus hipotecas.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA HUELGA DE HIPOTECAS DE 2022",
+              "fuente": "Recuento de promociones afectadas",
+              "barras": {
+                "unidad": "Promociones y ciudades",
+                "datos": [
+                  {
+                    "etiqueta": "Promociones",
+                    "valor": 230,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Ciudades",
+                    "valor": 86,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "protest crowd banners street asia",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Una huelga de hipotecas en un país donde protestar sale caro. Llegó a afectar a préstamos por valor de dos billones de yuanes, casi trescientos mil millones de dólares.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man holding documents serious portrait",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "295.000 M$",
+                "titular": "En préstamos afectados",
+                "apoyo": "Una huelga de hipotecas en un país donde protestar sale caro."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "police street order city asia",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "El Estado reaccionó rápido, obligó a terminar muchas de esas torres y la protesta se apagó. Pero para entonces la confianza ya se había roto, y esa no se reconstruye con una orden.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "broken glass window shattered",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La confianza *no se arregla con una orden*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ya estaba *rota*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "El agujero de los ayuntamientos",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Vamos ahora a la segunda pieza que se cayó, la del ayuntamiento. Si las promotoras quiebran, nadie compra suelo. Y si nadie compra suelo, el ayuntamiento se queda sin su principal ingreso.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty land plot city outskirts",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "texto": "Nadie compra suelo. *Nadie cobra*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Los ingresos por venta de suelo residencial han caído un sesenta y cinco por ciento desde su máximo de dos mil veinte. El total pasó de ocho coma siete billones de yuanes a cuatro coma uno cinco.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "INGRESOS POR VENTA DE SUELO",
+              "fuente": "Caixin · Ministerio de Finanzas de China",
+              "barras": {
+                "unidad": "Billones de yuanes",
+                "decimales": 2,
+                "datos": [
+                  {
+                    "etiqueta": "Máximo de 2021",
+                    "valor": 8.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 4.15,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty government office desk chairs",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "La mitad. Los ayuntamientos chinos han perdido la mitad del dinero con el que pagaban hospitales, colegios, carreteras y sueldos de funcionarios.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hospital corridor empty beds",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "Lo que pagaba ese dinero",
+                "texto": "Hospitales, colegios, *carreteras*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "school classroom empty desks",
+                "lado": "der",
+                "titular": "Lo que pagaba la venta de suelo",
+                "apoyo": "Hospitales, colegios, carreteras y sueldos de funcionarios. La mitad ha desaparecido.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Y esto es lo que hace que la crisis china no se parezca a la española. En España quebraron las cajas. En China lo que se ha quedado sin dinero es el presupuesto de las ciudades.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "city hall building facade formal",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Aquí quebraron las cajas. Allí, la ciudad",
+                "apoyo": "El agujero chino no está en la banca: está en el presupuesto municipal."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "road works unfinished construction street",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Un banco que quiebra sale en el telediario. Un ayuntamiento que deja de asfaltar y tarda en pagar a sus proveedores no sale en ningún sitio. Y eso es parte de la respuesta al silencio.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "pothole damaged road asphalt",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "texto": "Eso *no sale en ningún sitio*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Parte de la respuesta *al silencio*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Donde estaba el ahorro",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Y llegamos a la pieza que de verdad importa, porque es donde estaba el dinero de la gente.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese elderly couple apartment home",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Donde estaba *el dinero de la gente*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "El setenta por ciento del patrimonio de una familia urbana china está en su vivienda. En España la vivienda pesa mucho, pero no tanto, y aquí tenemos depósitos, planes de pensiones y fondos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "PATRIMONIO DE UNA FAMILIA URBANA CHINA",
+              "fuente": "Estimaciones sobre datos del Banco Popular de China",
+              "gente": {
+                "total": 10,
+                "destacados": 7,
+                "escala": 1,
+                "etiqueta": "Su patrimonio",
+                "etiquetaDestacados": "Está en el piso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese residential neighborhood buildings",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Siete de cada diez yuanes de una familia china están dentro de un piso. No hay plan B. El piso no es donde vives: es tu jubilación, la universidad de tu hijo y tu seguro médico.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "asian family portrait home living room",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "70 %",
+                "titular": "De su patrimonio, dentro del piso",
+                "apoyo": "No es donde viven. Es la jubilación, la universidad del hijo y el seguro médico."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "piggy bank savings coins hand",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Así que cuando el precio de la vivienda cae un cuarenta por ciento, lo que ha caído no es un activo financiero. Es el ahorro de toda una vida de cientos de millones de personas.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty wallet hands open",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "El ahorro de *toda una vida*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "De *cientos de millones* de personas.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y cuando una familia se siente más pobre, hace lo mismo en todas partes del mundo: deja de gastar. Guarda, por si acaso.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty shopping mall corridor stores",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "Y entonces hace lo de siempre",
+                "texto": "*Deja de gastar*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "closed shop shutters street",
+                "lado": "izq",
+                "titular": "Y entonces la familia deja de gastar",
+                "apoyo": "Pasa igual en todo el mundo: cuando te sientes más pobre, guardas por si acaso.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "Ahí está la enfermedad real de China ahora mismo. No es una crisis bancaria: es un país entero que ha dejado de consumir porque se ha quedado sin la mitad de su riqueza.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "La enfermedad real",
+                "texto": "Un país que *dejó de consumir*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "quiet restaurant empty tables evening",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Por que no hubo un Lehman",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Volvamos entonces a la pregunta del principio. ¿Por qué esto no ha tenido un día de pánico? Hay tres motivos, y ninguno es que la crisis sea pequeña.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Tres motivos. Y ninguno es que *sea pequeña*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calm city street morning quiet asia",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "El primero: en China los bancos grandes son del Estado. Un banco público no quiebra en una mañana, porque su dueño decide si quiebra o no.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "large bank headquarters building asia",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Los bancos grandes son del Estado",
+                "apoyo": "Un banco público no quiebra en una mañana: su dueño decide si quiebra."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank branch counter customers quiet",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "El segundo: no hay mercado libre de precios. Cuando el precio de la vivienda no puede desplomarse de golpe, lo que se congela son las ventas. Los precios bajan poco a poco, mes a mes.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "real estate agency window listings",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "texto": "No se desploma. *Se congela*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Treinta y siete meses seguidos de caídas pequeñas hacen el mismo agujero que un desplome, pero no dan ni una sola portada. Un uno por ciento mensual no es noticia en ningún país.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar pages turning close up",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "El mismo agujero",
+                "texto": "Y *ni una sola portada*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Un 1 % al mes *no es noticia*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Y el tercero, el más importante: la pérdida no está concentrada en un banco ni en un fondo. Está repartida entre cuatrocientos millones de familias, un poco en cada una.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "crowd of people walking city china",
+                "lado": "der",
+                "cifra": "400 millones",
+                "titular": "Familias entre las que se reparte la pérdida",
+                "apoyo": "No está concentrada en un banco ni en un fondo. Está un poco en cada casa.",
+                "tono": "carmin"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Una pérdida concentrada explota. Una pérdida repartida se aguanta en silencio, durante años, sin que nadie salga a la calle. Es más lenta y hace exactamente el mismo daño.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "single person walking alone street dusk",
+                "tono": "carmin"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "Concentrada explota. Repartida *se aguanta*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Más lenta. *El mismo daño*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Y ahora, como siempre, lo que juega en contra de todo lo que acabo de contar. Porque llamar colapso a esto tiene un problema, y es serio.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Lo que juega en contra",
+                "texto": "Llamarlo colapso *tiene un problema*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "balance scales weighing comparison",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "China creció un cinco por ciento en dos mil veinticinco y se espera que crezca cerca del cuatro y medio en dos mil veintiséis. Ningún país occidental se acerca a esas cifras.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CRECIMIENTO DEL PIB",
+              "fuente": "Oficina Nacional de Estadística de China · previsiones 2026",
+              "barras": {
+                "unidad": "Variación anual",
+                "sufijo": "%",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "China 2025",
+                    "valor": 5,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "China 2026 (prev.)",
+                    "valor": 4.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Alemania 2025",
+                    "valor": 0.4,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "modern electric car factory assembly",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Y hay un motivo concreto: el ladrillo lo ha sustituido otra cosa. Las exportaciones chinas llegaron a tres coma nueve billones de dólares, y las de vehículos subieron un cuarenta y ocho por ciento en un año.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EXPORTACIÓN DE VEHÍCULOS",
+              "fuente": "Aduanas de China, 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 48.3,
+                "etiqueta": "por ciento más en un año",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo ship cars export port",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Coches eléctricos, baterías, paneles solares y semiconductores. El Estado chino sacó el dinero del ladrillo y lo metió ahí, deliberadamente. Y de momento le está saliendo bien.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "solar panel field industrial installation",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "Sacó el dinero del ladrillo *y lo metió ahí*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "battery factory robotic production line",
+                "lado": "der",
+                "titular": "Coches, baterías, paneles y semiconductores",
+                "apoyo": "El Estado sacó el dinero del ladrillo y lo metió ahí. De momento le sale bien.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Y la tercera objeción es la más incómoda para quien lleva años anunciando el hundimiento chino: no ha habido crisis bancaria. Estados Unidos sí la tuvo en dos mil ocho, y España también.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "bank sign facade american street",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Aquí sí hubo crisis bancaria. Allí no",
+                "apoyo": "Es la objeción más incómoda para quien lleva años anunciando el hundimiento."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty spanish coastal development buildings",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-06",
+          "vo": "Así que hay una lectura honesta que dice lo contrario: China ha desmontado la mayor burbuja de la historia sin llevarse por delante su sistema financiero. Y eso, técnicamente, es un éxito.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "controlled demolition building dust",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Sin llevarse por delante *el sistema financiero*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Técnicamente, *es un éxito*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Las casas vacias y la gente que falta",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Pero hay un dato que la lectura optimista no consigue explicar, y es el que hace que esto no tenga suelo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "vast empty housing estate aerial",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "El dato que hace que *no tenga suelo*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Las estimaciones hablan de entre sesenta y cinco y ochenta millones de viviendas vacías en China. No a medio construir: terminadas, vendidas y sin nadie dentro.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "VIVIENDAS VACÍAS EN CHINA",
+              "fuente": "Estimaciones sobre datos oficiales y del sector",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 80000000,
+                "etiqueta": "viviendas terminadas y sin nadie dentro"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty apartment blocks night no lights",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Un antiguo subdirector de la oficina nacional de estadística lo dijo en público con una frase que se hizo famosa: probablemente mil cuatrocientos millones de personas no bastan para llenarlas.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older asian man speaking portrait formal",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "\"1.400 millones no bastan para llenarlas\"",
+                "apoyo": "Lo dijo en público un antiguo subdirector de la oficina nacional de estadística."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty corridor apartment building doors",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Y a esas casas vacías les está pasando lo peor que les puede pasar: cada año hay menos chinos. La población lleva cuatro años seguidos cayendo, y en dos mil veinticinco bajó en tres coma cuatro millones de personas.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "NACIMIENTOS EN CHINA",
+              "fuente": "Oficina Nacional de Estadística de China",
+              "barras": {
+                "unidad": "Millones de nacimientos",
+                "decimales": 2,
+                "datos": [
+                  {
+                    "etiqueta": "2024",
+                    "valor": 9.54,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 7.92,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty playground swings city",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Siete coma nueve millones de nacimientos en dos mil veinticinco, frente a nueve coma cinco el año anterior. Un desplome del diecisiete por ciento en un solo año.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty kindergarten classroom chairs",
+                "tono": "carmin"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "-17 % *en un solo año*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion"
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Y aquí está el nudo de todo. Ochenta millones de casas vacías esperando compradores, en un país donde cada año nacen menos personas que el anterior. Esa cuenta no se arregla con política monetaria.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "El nudo",
+                "texto": "Casas de sobra. Gente *de menos*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Eso no lo arregla *bajar los tipos*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Y ahora la parte que va de ti, aunque esto pase a diez mil kilómetros.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La parte que va *de ti*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "Cuando cuatrocientos millones de familias dejan de gastar, las fábricas chinas siguen produciendo igual y tienen que colocar esa producción en algún sitio. Ese sitio es fuera.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "container port cranes containers stacked",
+                "tono": "ocre"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "texto": "Tienen que colocarlo *fuera*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "Por eso los coches, los paneles solares y las baterías chinas llegan tan baratos a España y a México. Estás comprando el excedente de un país que se ha quedado sin clientes en casa.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "electric car dealership showroom customer",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Por eso llegan tan baratos",
+                "apoyo": "Estás comprando el excedente de un país que se quedó sin clientes en casa."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "solar panels rooftop installation home",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Para tu bolsillo, eso es bueno a corto plazo. Para la fábrica de tu ciudad que hace lo mismo, no lo es. Esa es la discusión de los aranceles europeos, contada desde su origen real.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european factory workers industrial plant",
+                "tono": "carmin"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "Bueno para ti. Malo *para esa fábrica*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El origen real *de los aranceles*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "Y hay una segunda lección, más incómoda, para cualquiera que viva en España o en México. Un país donde el ahorro de la gente está metido en ladrillo no tiene un plan B cuando el ladrillo baja.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "spanish apartment buildings street facade",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Sin plan B cuando el ladrillo baja",
+                "apoyo": "Es la lección incómoda para cualquier país donde el ahorro vive en una casa."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "for sale sign house window",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b10-06",
+          "vo": "España ya vivió eso en dos mil ocho y lo pagó rápido y de golpe. China lo está pagando despacio y en silencio. No está claro cuál de las dos formas es peor.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "abandoned unfinished spanish development",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Rápido y de golpe. O *despacio y en silencio*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b11-01",
+          "vo": "Así que, resumiendo: China pinchó a propósito la mayor burbuja inmobiliaria de la historia y lleva cuatro años desinflándola despacio.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "deflating balloon slow air",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Cuatro años *desinflándola*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "chinese skyline dusk towers",
+                "lado": "izq",
+                "cifra": "4 años",
+                "titular": "Desinflándola despacio",
+                "apoyo": "La mayor burbuja inmobiliaria de la historia, pinchada a propósito y a cámara lenta.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b11-02",
+          "vo": "Ha evitado la crisis bancaria que se llevó por delante a España y a Estados Unidos, y ha conseguido que su economía siga creciendo al cinco por ciento vendiendo coches al resto del mundo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "electric cars lined up port export",
+                "lado": "izq",
+                "titular": "Y mientras tanto, creciendo al 5 %",
+                "apoyo": "Sin la crisis bancaria que se llevó por delante a España y a Estados Unidos.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        },
+        {
+          "id": "b11-03",
+          "vo": "Pero la factura la han pagado cientos de millones de familias con el setenta por ciento de su patrimonio dentro de un piso que hoy vale un cuarenta por ciento menos.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "asian woman looking out window pensive",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "-40 %",
+                "titular": "Lo que vale hoy ese piso",
+                "apoyo": "Con el 70 % del patrimonio de la familia dentro."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty apartment room bare walls",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b11-04",
+          "vo": "Y con ochenta millones de casas vacías y siete millones y medio de nacimientos al año, no hay ninguna cifra que indique que esto vaya a recuperarse.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty residential towers fog horizon",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Ninguna cifra dice que *vaya a recuperarse*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b11-05",
+          "vo": "La lección es que un colapso no necesita un día. Puede durar cuatro años, no salir en ninguna portada, y ser aun así el mayor de todos.",
+          "voz": {
+            "speed": 0.91
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Un colapso *no necesita un día*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "quiet empty street dawn city",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b11-06",
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "CHINA: El Colapso Que Lleva Cuatro Años En Silencio",
+    "descripcion": "En julio de 2026 el precio de la vivienda en China bajó por trigésimo séptimo mes consecutivo. Entre 2021 y 2025 la vivienda china perdió alrededor del 40 % de su valor: la mayor destrucción de riqueza inmobiliaria de la historia moderna.\n\nAhora dime en qué día pasó. No hay ninguno. No hubo un lunes negro, ni colas en los bancos, ni un banco central compareciendo de madrugada. Estados Unidos tuvo su fecha en 2008. España tuvo la suya. China lleva cuatro años cayendo y no tiene ninguna.\n\nY mientras eso ocurría, la economía china creció un 5,0 % en 2025, su objetivo oficial exacto.\n\nUn colapso inmobiliario del 40 % dentro de una economía que crece al 5 %. Eso no debería poder pasar a la vez, y este vídeo explica por qué pasa.\n\nVemos cómo se montó el sistema: en China las casas se venden antes de existir, y ese dinero adelantado la promotora lo usa para comprar el siguiente solar. El suelo es del Estado, y en 2021 su venta dio a los ayuntamientos 8,7 billones de yuanes, cerca del 20 % de todos sus ingresos. Un circuito cerrado que funcionaba mientras los precios subieran.\n\nEn 2020 el gobierno decidió que aquello era una burbuja y la pinchó a propósito. Evergrande, la mayor promotora del mundo, debía 333.000 millones de dólares: aproximadamente lo que produce Portugal en un año entero. Un tribunal de Hong Kong ordenó su liquidación en enero de 2024 y en agosto de 2025 la sacaron de la bolsa. Country Garden ha terminado la reestructuración de sus 14.100 millones de deuda exterior después de más de dos años.\n\nDe todas las viviendas vendidas sobre plano entre 2013 y 2020, solo se entregó alrededor del 60 %. En 2022 los compradores de más de 230 promociones en 86 ciudades dejaron de pagar sus hipotecas. Los ingresos por venta de suelo residencial han caído un 65 % desde el máximo, y los ayuntamientos han perdido la mitad del dinero con el que pagaban hospitales, colegios y carreteras.\n\nY la pieza que de verdad importa: el 70 % del patrimonio de una familia urbana china está dentro de su vivienda. Cuando el precio cae un 40 %, lo que cae no es un activo financiero. Es el ahorro de toda una vida de cientos de millones de personas. Por eso la enfermedad real de China hoy no es bancaria: es un país entero que ha dejado de consumir.\n\nTambién está lo que juega en contra de esta tesis, y es fuerte: China creció al 5 %, exportó 3,9 billones de dólares, sus exportaciones de vehículos subieron un 48 %, y ha desmontado la mayor burbuja de la historia sin llevarse por delante su sistema financiero. Técnicamente, eso es un éxito.\n\nLo que no encaja son 65 a 80 millones de viviendas vacías en un país donde los nacimientos cayeron de 9,54 a 7,92 millones en un solo año.\n\nFUENTES\nOficina Nacional de Estadística de China — PIB, población, nacimientos y precios de la vivienda\nTribunal Superior de Hong Kong — orden de liquidación de Evergrande y cifra de deuda\nCaixin y Ministerio de Finanzas de China — ingresos por venta de suelo, 2021-2025\nGoldman Sachs y estimaciones del sector — viviendas vendidas sobre plano y entregadas\nReuters y S&P Global Ratings — caída acumulada de precios y previsiones para 2026\nFitch Ratings — previsión de ventas de vivienda nueva en 2026\nAduanas de China — exportaciones totales y de vehículos\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\nNota: la cifra de viviendas vacías es una estimación, no un dato oficial. China no publica ese número. El rango de 65 a 80 millones procede de estimaciones del sector, y hay expertos que lo sitúan bastante más arriba.\n\n#China #Economía #Vivienda",
+    "etiquetas": [
+      "china",
+      "crisis inmobiliaria china",
+      "evergrande",
+      "country garden",
+      "burbuja inmobiliaria",
+      "vivienda china",
+      "economia china",
+      "pib china",
+      "colapso china",
+      "deuda china",
+      "ahorro familias china",
+      "casas vacias china",
+      "natalidad china",
+      "poblacion china",
+      "exportaciones china",
+      "coches electricos china",
+      "aranceles",
+      "deflacion",
+      "venta de suelo",
+      "gobiernos locales china",
+      "hipotecas sin entregar",
+      "preventa vivienda",
+      "economia explicada",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "china 2026",
+      "que pasa en china"
+    ]
+  }
+}

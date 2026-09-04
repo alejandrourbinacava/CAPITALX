@@ -43,6 +43,11 @@
       "slug": "alemania-trabajo",
       "titulo": "¿Por Qué Nadie Quiere Trabajar Ya en ALEMANIA? (El Dato Que Nadie Enseña)",
       "fecha": "2026-09-03"
+    },
+    {
+      "slug": "china-inmobiliario",
+      "titulo": "CHINA: El Colapso Que Lleva Cuatro Años En Silencio",
+      "fecha": "2026-09-04"
     }
   ],
   "cola": [
@@ -66,13 +71,6 @@
       "angulo": "Peso del ladrillo en el PIB frente a la manufactura, ratio precio/renta en Toronto y Vancouver, y el frenazo migratorio de 2024-2025 como reacción.",
       "region": "norteamerica",
       "pais": "canada"
-    },
-    {
-      "slug": "china-inmobiliario",
-      "titulo": "CHINA: El Colapso Que Lleva Cuatro Años En Silencio",
-      "angulo": "Evergrande y Country Garden como cara visible, pisos vendidos y sin entregar, caída de la inversión inmobiliaria y qué parte del ahorro de las familias estaba ahí.",
-      "region": "asia",
-      "pais": "china"
     },
     {
       "slug": "vivienda-espana",
