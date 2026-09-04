@@ -1,1 +1,416 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/china-inmobiliario-b0-01.mp3",
+    "duration": 9.482449,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b0-02": {
+    "audio": "voice/china-inmobiliario-b0-02.mp3",
+    "duration": 10.004898,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b0-03": {
+    "audio": "voice/china-inmobiliario-b0-03.mp3",
+    "duration": 9.012245,
+    "transcript": null,
+    "credit_cost": 206
+  },
+  "b0-04": {
+    "audio": "voice/china-inmobiliario-b0-04.mp3",
+    "duration": 11.232653,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b0-05": {
+    "audio": "voice/china-inmobiliario-b0-05.mp3",
+    "duration": 7.88898,
+    "transcript": null,
+    "credit_cost": 187
+  },
+  "b0-06": {
+    "audio": "voice/china-inmobiliario-b0-06.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b1-01": {
+    "audio": "voice/china-inmobiliario-b1-01.mp3",
+    "duration": 7.418776,
+    "transcript": null,
+    "credit_cost": 194
+  },
+  "b1-02": {
+    "audio": "voice/china-inmobiliario-b1-02.mp3",
+    "duration": 6.582857,
+    "transcript": null,
+    "credit_cost": 155
+  },
+  "b1-03": {
+    "audio": "voice/china-inmobiliario-b1-03.mp3",
+    "duration": 7.209796,
+    "transcript": null,
+    "credit_cost": 195
+  },
+  "b2-01": {
+    "audio": "voice/china-inmobiliario-b2-01.mp3",
+    "duration": 8.333061,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b2-02": {
+    "audio": "voice/china-inmobiliario-b2-02.mp3",
+    "duration": 8.777143,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b2-03": {
+    "audio": "voice/china-inmobiliario-b2-03.mp3",
+    "duration": 8.411429,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b2-04": {
+    "audio": "voice/china-inmobiliario-b2-04.mp3",
+    "duration": 9.404082,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "b2-05": {
+    "audio": "voice/china-inmobiliario-b2-05.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b2-06": {
+    "audio": "voice/china-inmobiliario-b2-06.mp3",
+    "duration": 12.094694,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b2-07": {
+    "audio": "voice/china-inmobiliario-b2-07.mp3",
+    "duration": 9.822041,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b3-01": {
+    "audio": "voice/china-inmobiliario-b3-01.mp3",
+    "duration": 12.199184,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b3-02": {
+    "audio": "voice/china-inmobiliario-b3-02.mp3",
+    "duration": 10.710204,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b3-03": {
+    "audio": "voice/china-inmobiliario-b3-03.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b3-04": {
+    "audio": "voice/china-inmobiliario-b3-04.mp3",
+    "duration": 6.687347,
+    "transcript": null,
+    "credit_cost": 164
+  },
+  "b3-05": {
+    "audio": "voice/china-inmobiliario-b3-05.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b3-06": {
+    "audio": "voice/china-inmobiliario-b3-06.mp3",
+    "duration": 10.945306,
+    "transcript": null,
+    "credit_cost": 221
+  },
+  "b4-01": {
+    "audio": "voice/china-inmobiliario-b4-01.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b4-02": {
+    "audio": "voice/china-inmobiliario-b4-02.mp3",
+    "duration": 10.788571,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b4-03": {
+    "audio": "voice/china-inmobiliario-b4-03.mp3",
+    "duration": 11.572245,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b4-04": {
+    "audio": "voice/china-inmobiliario-b4-04.mp3",
+    "duration": 11.049796,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b4-05": {
+    "audio": "voice/china-inmobiliario-b4-05.mp3",
+    "duration": 10.213878,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b4-06": {
+    "audio": "voice/china-inmobiliario-b4-06.mp3",
+    "duration": 11.363265,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b5-01": {
+    "audio": "voice/china-inmobiliario-b5-01.mp3",
+    "duration": 11.389388,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b5-02": {
+    "audio": "voice/china-inmobiliario-b5-02.mp3",
+    "duration": 11.964082,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b5-03": {
+    "audio": "voice/china-inmobiliario-b5-03.mp3",
+    "duration": 9.795918,
+    "transcript": null,
+    "credit_cost": 213
+  },
+  "b5-04": {
+    "audio": "voice/china-inmobiliario-b5-04.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b5-05": {
+    "audio": "voice/china-inmobiliario-b5-05.mp3",
+    "duration": 11.31102,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b6-01": {
+    "audio": "voice/china-inmobiliario-b6-01.mp3",
+    "duration": 5.146122,
+    "transcript": null,
+    "credit_cost": 131
+  },
+  "b6-02": {
+    "audio": "voice/china-inmobiliario-b6-02.mp3",
+    "duration": 11.572245,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b6-03": {
+    "audio": "voice/china-inmobiliario-b6-03.mp3",
+    "duration": 11.755102,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b6-04": {
+    "audio": "voice/china-inmobiliario-b6-04.mp3",
+    "duration": 9.926531,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b6-05": {
+    "audio": "voice/china-inmobiliario-b6-05.mp3",
+    "duration": 7.653878,
+    "transcript": null,
+    "credit_cost": 177
+  },
+  "b6-06": {
+    "audio": "voice/china-inmobiliario-b6-06.mp3",
+    "duration": 10.34449,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b7-01": {
+    "audio": "voice/china-inmobiliario-b7-01.mp3",
+    "duration": 8.907755,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b7-02": {
+    "audio": "voice/china-inmobiliario-b7-02.mp3",
+    "duration": 8.333061,
+    "transcript": null,
+    "credit_cost": 203
+  },
+  "b7-03": {
+    "audio": "voice/china-inmobiliario-b7-03.mp3",
+    "duration": 11.493878,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b7-04": {
+    "audio": "voice/china-inmobiliario-b7-04.mp3",
+    "duration": 10.44898,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b7-05": {
+    "audio": "voice/china-inmobiliario-b7-05.mp3",
+    "duration": 10.919184,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b7-06": {
+    "audio": "voice/china-inmobiliario-b7-06.mp3",
+    "duration": 12.094694,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b8-01": {
+    "audio": "voice/china-inmobiliario-b8-01.mp3",
+    "duration": 8.228571,
+    "transcript": null,
+    "credit_cost": 201
+  },
+  "b8-02": {
+    "audio": "voice/china-inmobiliario-b8-02.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b8-03": {
+    "audio": "voice/china-inmobiliario-b8-03.mp3",
+    "duration": 11.885714,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b8-04": {
+    "audio": "voice/china-inmobiliario-b8-04.mp3",
+    "duration": 11.72898,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b8-05": {
+    "audio": "voice/china-inmobiliario-b8-05.mp3",
+    "duration": 11.859592,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b8-06": {
+    "audio": "voice/china-inmobiliario-b8-06.mp3",
+    "duration": 12.721633,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b9-01": {
+    "audio": "voice/china-inmobiliario-b9-01.mp3",
+    "duration": 6.112653,
+    "transcript": null,
+    "credit_cost": 154
+  },
+  "b9-02": {
+    "audio": "voice/china-inmobiliario-b9-02.mp3",
+    "duration": 10.13551,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b9-03": {
+    "audio": "voice/china-inmobiliario-b9-03.mp3",
+    "duration": 11.52,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b9-04": {
+    "audio": "voice/china-inmobiliario-b9-04.mp3",
+    "duration": 13.00898,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b9-05": {
+    "audio": "voice/china-inmobiliario-b9-05.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b9-06": {
+    "audio": "voice/china-inmobiliario-b9-06.mp3",
+    "duration": 12.329796,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b10-01": {
+    "audio": "voice/china-inmobiliario-b10-01.mp3",
+    "duration": 4.519184,
+    "transcript": null,
+    "credit_cost": 102
+  },
+  "b10-02": {
+    "audio": "voice/china-inmobiliario-b10-02.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b10-03": {
+    "audio": "voice/china-inmobiliario-b10-03.mp3",
+    "duration": 10.657959,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b10-04": {
+    "audio": "voice/china-inmobiliario-b10-04.mp3",
+    "duration": 11.154286,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b10-05": {
+    "audio": "voice/china-inmobiliario-b10-05.mp3",
+    "duration": 12.199184,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b10-06": {
+    "audio": "voice/china-inmobiliario-b10-06.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 229
+  },
+  "b11-01": {
+    "audio": "voice/china-inmobiliario-b11-01.mp3",
+    "duration": 8.254694,
+    "transcript": null,
+    "credit_cost": 197
+  },
+  "b11-02": {
+    "audio": "voice/china-inmobiliario-b11-02.mp3",
+    "duration": 10.44898,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b11-03": {
+    "audio": "voice/china-inmobiliario-b11-03.mp3",
+    "duration": 9.247347,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b11-04": {
+    "audio": "voice/china-inmobiliario-b11-04.mp3",
+    "duration": 8.568163,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b11-05": {
+    "audio": "voice/china-inmobiliario-b11-05.mp3",
+    "duration": 10.13551,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b11-06": {
+    "audio": "voice/china-inmobiliario-b11-06.mp3",
+    "duration": 5.276735,
+    "transcript": null,
+    "credit_cost": 136
+  }
+}
