@@ -24,7 +24,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese city skyline apartment towers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36926188",
+                  "url": "https://videos.pexels.com/video-files/36926188/15643143_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Paul Bill",
+                  "pagina": "https://www.pexels.com/video/shanghai-skyline-at-night-with-oriental-pearl-tower-36926188/"
+                },
+                "fichero": "clips/pexels-36926188.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -40,7 +50,15 @@
                 "cifra": "-40 %",
                 "titular": "Lo que perdió la vivienda china",
                 "apoyo": "Entre 2021 y 2025. La mayor destrucción de riqueza inmobiliaria de la historia moderna.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6035467",
+                  "url": "https://images.pexels.com/photos/6035467/pexels-photo-6035467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Addie Douglas",
+                  "pagina": "https://www.pexels.com/photo/unfinished-buildings-under-blue-sky-6035467/"
+                },
+                "fichero": "recortes-auto/pexels-6035467.png"
               }
             }
           ]
@@ -77,7 +95,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty apartment building windows dark",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31802192",
+                  "url": "https://videos.pexels.com/video-files/31802192/13548894_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/abandoned-room-with-graffiti-interior-scene-31802192/"
+                },
+                "fichero": "clips/pexels-31802192.mp4"
               },
               "camara": "pull"
             }
@@ -95,7 +123,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank building facade columns quiet",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4319342",
+                  "url": "https://videos.pexels.com/video-files/4319342/4319342-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/finance-nyse-wall-street-new-york-city-4319342/"
+                },
+                "fichero": "clips/pexels-4319342.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -124,14 +162,32 @@
                 "lado": "izq",
                 "cifra": "15 de septiembre",
                 "titular": "El día que Estados Unidos sí tuvo",
-                "apoyo": "Lehman Brothers, 2008. China lleva cuatro años cayendo y no tiene fecha."
+                "apoyo": "Lehman Brothers, 2008. China lleva cuatro años cayendo y no tiene fecha.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7989073",
+                  "url": "https://images.pexels.com/photos/7989073/pexels-photo-7989073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/person-holding-black-smartphone-7989073/"
+                },
+                "fichero": "recortes-auto/pexels-7989073.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "newspaper front page financial crisis",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8134311",
+                  "url": "https://videos.pexels.com/video-files/8134311/8134311-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/man-reading-a-newspaper-8134311/"
+                },
+                "fichero": "clips/pexels-8134311.mp4"
               },
               "camara": "push"
             }
@@ -164,7 +220,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "shanghai financial district aerial day",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36338854",
+                  "url": "https://videos.pexels.com/video-files/36338854/15412839_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-shanghai-cityscape-and-skyscraper-36338854/"
+                },
+                "fichero": "clips/pexels-36338854.mp4"
               },
               "camara": "pull"
             }
@@ -190,7 +256,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese factory workers production line",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32243782",
+                  "url": "https://videos.pexels.com/video-files/32243782/13751666_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Usman AbdulrasheedGambo",
+                  "pagina": "https://www.pexels.com/video/textile-factory-worker-examining-machinery-32243782/"
+                },
+                "fichero": "clips/pexels-32243782.mp4"
               },
               "camara": "panL"
             }
@@ -226,7 +302,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese construction cranes skyline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6164052",
+                  "url": "https://videos.pexels.com/video-files/6164052/6164052-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Site Engine",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-building-under-construction-6164052/"
+                },
+                "fichero": "clips/pexels-6164052.mp4"
               },
               "camara": "panR"
             }
@@ -244,7 +330,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "container ship port cargo loading",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4778079",
+                  "url": "https://videos.pexels.com/video-files/4778079/4778079-hd_1282_720_25fps.mp4",
+                  "ancho": 1282,
+                  "duracion": 9,
+                  "autor": "Marian Croitoru",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-a-docked-cargo-ship-at-the-loading-area-4778079/"
+                },
+                "fichero": "clips/pexels-4778079.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -265,7 +361,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese family apartment interior home",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6691375",
+                  "url": "https://videos.pexels.com/video-files/6691375/6691375-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/chinese-new-year-decorations-on-display-6691375/"
+                },
+                "fichero": "clips/pexels-6691375.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -300,7 +406,15 @@
                 "lado": "der",
                 "titular": "Dos piezas que encajaban",
                 "apoyo": "Para entender la caída hay que entender cómo se levantó todo esto.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7190383",
+                  "url": "https://images.pexels.com/photos/7190383/pexels-photo-7190383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Marco Ottaviano",
+                  "pagina": "https://www.pexels.com/photo/man-s-fist-with-watch-on-blueprint-7190383/"
+                },
+                "fichero": "recortes-auto/pexels-7190383.png"
               }
             },
             {
@@ -318,20 +432,24 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "empty construction site fence dirt",
-                "tono": "ocre",
-                "lado": "der",
-                "titular": "Pagas el piso antes de que exista",
-                "apoyo": "La hipoteca entera sobre un solar en el que todavía no hay nada levantado."
-              }
+              "tipo": "frase",
+              "texto": "empty construction site fence dirt"
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "real estate showroom model buildings",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7577618",
+                  "url": "https://videos.pexels.com/video-files/7577618/7577618-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/man-holding-a-miniature-house-7577618/"
+                },
+                "fichero": "clips/pexels-7577618.mp4"
               },
               "camara": "push"
             }
@@ -349,7 +467,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crane construction site tower rising",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28692146",
+                  "url": "https://videos.pexels.com/video-files/28692146/12453856_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/skyscraper-construction-with-tower-cranes-28692146/"
+                },
+                "fichero": "clips/pexels-28692146.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -374,7 +502,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "government building chinese official architecture",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30179035",
+                  "url": "https://videos.pexels.com/video-files/30179035/12940747_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "João  Pavese",
+                  "pagina": "https://www.pexels.com/video/brasilia-s-iconic-congress-building-reflecting-pool-30179035/"
+                },
+                "fichero": "clips/pexels-30179035.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -413,7 +551,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese city street hospital school",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38939445",
+                  "url": "https://videos.pexels.com/video-files/38939445/16562895_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/explore-nanning-s-vibrant-chagee-tea-shop-38939445/"
+                },
+                "fichero": "clips/pexels-38939445.mp4"
               },
               "camara": "panL"
             }
@@ -439,7 +587,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "highway bridge infrastructure china",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36101153",
+                  "url": "https://videos.pexels.com/video-files/36101153/15310018_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "umar muazu",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-modern-suspension-bridge-over-river-36101153/"
+                },
+                "fichero": "clips/pexels-36101153.mp4"
               },
               "camara": "pull"
             }
@@ -457,7 +615,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "domino tiles falling chain",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6830135",
+                  "url": "https://videos.pexels.com/video-files/6830135/6830135-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/people-playing-domino-6830135/"
+                },
+                "fichero": "clips/pexels-6830135.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -485,21 +653,24 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "chinese official government meeting formal",
-                "tono": "carmin",
-                "lado": "izq",
-                "cifra": "2020",
-                "titular": "La pincharon a propósito",
-                "apoyo": "Tres límites de deuda. Quien no cumplía, dejaba de recibir crédito."
-              }
+              "tipo": "frase",
+              "texto": "chinese official government meeting formal"
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "bank vault door closing metal",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31750573",
+                  "url": "https://videos.pexels.com/video-files/31750573/13527135_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/close-up-of-coins-in-a-counting-machine-31750573/"
+                },
+                "fichero": "clips/pexels-31750573.mp4"
               },
               "camara": "push"
             }
@@ -517,7 +688,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "press conference microphones podium",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11336628",
+                  "url": "https://videos.pexels.com/video-files/11336628/11336628-hd_1366_720_50fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 12,
+                  "autor": "TREEDEO.ST",
+                  "pagina": "https://www.pexels.com/video/a-man-in-a-black-suit-giving-a-speech-11336628/"
+                },
+                "fichero": "clips/pexels-11336628.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -556,7 +737,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned construction site rusty rebar",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4876791",
+                  "url": "https://videos.pexels.com/video-files/4876791/4876791-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nathan Cain | artist",
+                  "pagina": "https://www.pexels.com/video/debris-from-a-torn-down-building-4876791/"
+                },
+                "fichero": "clips/pexels-4876791.mp4"
               },
               "camara": "panL"
             }
@@ -585,7 +776,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "lisbon city view portugal",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27404881",
+                  "url": "https://videos.pexels.com/video-files/27404881/12136882_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Musko io",
+                  "pagina": "https://www.pexels.com/video/a-city-with-red-roofs-and-white-buildings-27404881/"
+                },
+                "fichero": "clips/pexels-27404881.mp4"
               },
               "camara": "pull"
             }
@@ -607,14 +808,32 @@
                 "lado": "der",
                 "cifra": "Enero de 2024",
                 "titular": "Un tribunal ordena la liquidación",
-                "apoyo": "En agosto de 2025 la sacaron de la bolsa. La mayor promotora del mundo, cerrada."
+                "apoyo": "En agosto de 2025 la sacaron de la bolsa. La mayor promotora del mundo, cerrada.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6077328",
+                  "url": "https://images.pexels.com/photos/6077328/pexels-photo-6077328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "KATRIN  BOLOVTSOVA",
+                  "pagina": "https://www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-6077328/"
+                },
+                "fichero": "recortes-auto/pexels-6077328.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "stock exchange trading floor screens",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38557069",
+                  "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-stock-market-display-analysis-38557069/"
+                },
+                "fichero": "clips/pexels-38557069.mp4"
               },
               "camara": "push"
             }
@@ -632,7 +851,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "quiet empty street night city",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37281800",
+                  "url": "https://videos.pexels.com/video-files/37281800/15793897_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Marc Espejo",
+                  "pagina": "https://www.pexels.com/video/nighttime-street-view-with-cars-in-motion-37281800/"
+                },
+                "fichero": "clips/pexels-37281800.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -667,14 +896,32 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "Sigues pagando la hipoteca de algo que no existe",
-                "apoyo": "Pagaste sobre plano. La promotora quebró. El piso no está, la deuda sí."
+                "apoyo": "Pagaste sobre plano. La promotora quebró. El piso no está, la deuda sí.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6874549",
+                  "url": "https://images.pexels.com/photos/6874549/pexels-photo-6874549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Teona Swift",
+                  "pagina": "https://www.pexels.com/photo/serious-senior-woman-sitting-near-window-6874549/"
+                },
+                "fichero": "recortes-auto/pexels-6874549.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "unfinished apartment interior bare concrete",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26579272",
+                  "url": "https://videos.pexels.com/video-files/26579272/11964040_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "yunus er",
+                  "pagina": "https://www.pexels.com/video/tamamlanmamis-cami-26579272/"
+                },
+                "fichero": "clips/pexels-26579272.mp4"
               },
               "camara": "panR"
             }
@@ -713,7 +960,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned residential towers empty",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17416991",
+                  "url": "https://videos.pexels.com/video-files/17416991/17416991-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/the-view-from-the-top-of-a-building-with-rubble-17416991/"
+                },
+                "fichero": "clips/pexels-17416991.mp4"
               },
               "camara": "push"
             }
@@ -731,7 +988,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "derelict concrete tower weeds abandoned",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12992121",
+                  "url": "https://videos.pexels.com/video-files/12992121/12992121-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Matthias Groeneveld",
+                  "pagina": "https://www.pexels.com/video/an-abandoned-building-surrounded-by-vegetation-12992121/"
+                },
+                "fichero": "clips/pexels-12992121.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -746,7 +1013,15 @@
                 "lado": "izq",
                 "titular": "Torres a medio levantar en cientos de ciudades",
                 "apoyo": "Hormigón a la intemperie, y una hipoteca pagándose cada mes por dentro.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36625677",
+                  "url": "https://images.pexels.com/photos/36625677/pexels-photo-36625677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "nn.TON.nn",
+                  "pagina": "https://www.pexels.com/photo/industrial-chimney-against-clear-blue-sky-36625677/"
+                },
+                "fichero": "recortes-auto/pexels-36625677.png"
               }
             }
           ]
@@ -783,7 +1058,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "protest crowd banners street asia",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6258028",
+                  "url": "https://videos.pexels.com/video-files/6258028/6258028-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/group-of-protesters-on-the-street-6258028/"
+                },
+                "fichero": "clips/pexels-6258028.mp4"
               },
               "camara": "push"
             }
@@ -805,14 +1090,32 @@
                 "lado": "der",
                 "cifra": "295.000 M$",
                 "titular": "En préstamos afectados",
-                "apoyo": "Una huelga de hipotecas en un país donde protestar sale caro."
+                "apoyo": "Una huelga de hipotecas en un país donde protestar sale caro.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7534783",
+                  "url": "https://images.pexels.com/photos/7534783/pexels-photo-7534783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/a-bearded-man-holding-a-document-7534783/"
+                },
+                "fichero": "recortes-auto/pexels-7534783.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "police street order city asia",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26632130",
+                  "url": "https://videos.pexels.com/video-files/26632130/11981122_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Owen Yu",
+                  "pagina": "https://www.pexels.com/video/a-police-officer-stands-at-the-crosswalk-in-a-city-26632130/"
+                },
+                "fichero": "clips/pexels-26632130.mp4"
               },
               "camara": "panR"
             }
@@ -830,7 +1133,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "broken glass window shattered",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5244401",
+                  "url": "https://videos.pexels.com/video-files/5244401/5244401-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/people-rooftop-buildings-friends-5244401/"
+                },
+                "fichero": "clips/pexels-5244401.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -862,7 +1175,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty land plot city outskirts",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33700589",
+                  "url": "https://videos.pexels.com/video-files/33700589/14313613_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Toàn BDS",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-developing-residential-area-33700589/"
+                },
+                "fichero": "clips/pexels-33700589.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -908,7 +1231,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty government office desk chairs",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841615",
+                  "url": "https://videos.pexels.com/video-files/7841615/7841615-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/video-of-a-office-place-7841615/"
+                },
+                "fichero": "clips/pexels-7841615.mp4"
               },
               "camara": "push"
             }
@@ -926,7 +1259,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hospital corridor empty beds",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6151283",
+                  "url": "https://videos.pexels.com/video-files/6151283/6151283-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Mister Edits",
+                  "pagina": "https://www.pexels.com/video/a-footage-inside-a-hospital-6151283/"
+                },
+                "fichero": "clips/pexels-6151283.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -935,14 +1278,8 @@
               }
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "school classroom empty desks",
-                "lado": "der",
-                "titular": "Lo que pagaba la venta de suelo",
-                "apoyo": "Hospitales, colegios, carreteras y sueldos de funcionarios. La mitad ha desaparecido.",
-                "tono": "ocre"
-              }
+              "tipo": "frase",
+              "texto": "school classroom empty desks"
             }
           ]
         },
@@ -955,20 +1292,24 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "city hall building facade formal",
-                "tono": "carmin",
-                "lado": "izq",
-                "titular": "Aquí quebraron las cajas. Allí, la ciudad",
-                "apoyo": "El agujero chino no está en la banca: está en el presupuesto municipal."
-              }
+              "tipo": "frase",
+              "texto": "city hall building facade formal"
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "road works unfinished construction street",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14058340",
+                  "url": "https://videos.pexels.com/video-files/14058340/14058340-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "utopia 36",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-construction-workers-on-top-of-a-building-14058340/"
+                },
+                "fichero": "clips/pexels-14058340.mp4"
               },
               "camara": "push"
             }
@@ -986,7 +1327,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "pothole damaged road asphalt",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8979138",
+                  "url": "https://videos.pexels.com/video-files/8979138/8979138-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "PNW Production",
+                  "pagina": "https://www.pexels.com/video/the-painted-floor-of-a-basketball-court-8979138/"
+                },
+                "fichero": "clips/pexels-8979138.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1018,7 +1369,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese elderly couple apartment home",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7361608",
+                  "url": "https://videos.pexels.com/video-files/7361608/7361608-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Angela Roma",
+                  "pagina": "https://www.pexels.com/video/a-boy-looking-inside-the-envelope-7361608/"
+                },
+                "fichero": "clips/pexels-7361608.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1051,7 +1412,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese residential neighborhood buildings",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32905199",
+                  "url": "https://videos.pexels.com/video-files/32905199/14023909_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Usman AbdulrasheedGambo",
+                  "pagina": "https://www.pexels.com/video/cityscape-at-sunset-with-vibrant-sky-32905199/"
+                },
+                "fichero": "clips/pexels-32905199.mp4"
               },
               "camara": "panR"
             }
@@ -1073,14 +1444,32 @@
                 "lado": "der",
                 "cifra": "70 %",
                 "titular": "De su patrimonio, dentro del piso",
-                "apoyo": "No es donde viven. Es la jubilación, la universidad del hijo y el seguro médico."
+                "apoyo": "No es donde viven. Es la jubilación, la universidad del hijo y el seguro médico.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9016529",
+                  "url": "https://images.pexels.com/photos/9016529/pexels-photo-9016529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kevin  Malik",
+                  "pagina": "https://www.pexels.com/photo/a-family-sitting-on-a-couch-9016529/"
+                },
+                "fichero": "recortes-auto/pexels-9016529.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "piggy bank savings coins hand",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34282980",
+                  "url": "https://videos.pexels.com/video-files/34282980/14524403_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Just For Music And Film",
+                  "pagina": "https://www.pexels.com/video/euro-coins-falling-into-glass-jar-for-savings-34282980/"
+                },
+                "fichero": "clips/pexels-34282980.mp4"
               },
               "camara": "push"
             }
@@ -1098,7 +1487,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty wallet hands open",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36021186",
+                  "url": "https://videos.pexels.com/video-files/36021186/15275285_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/hand-holding-wallet-with-cash-and-cards-36021186/"
+                },
+                "fichero": "clips/pexels-36021186.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1124,7 +1523,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty shopping mall corridor stores",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34738710",
+                  "url": "https://videos.pexels.com/video-files/34738710/14726375_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Ous Njie",
+                  "pagina": "https://www.pexels.com/video/luxurious-shopping-mall-tour-in-the-city-34738710/"
+                },
+                "fichero": "clips/pexels-34738710.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1133,14 +1542,8 @@
               }
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "closed shop shutters street",
-                "lado": "izq",
-                "titular": "Y entonces la familia deja de gastar",
-                "apoyo": "Pasa igual en todo el mundo: cuando te sientes más pobre, guardas por si acaso.",
-                "tono": "carmin"
-              }
+              "tipo": "frase",
+              "texto": "closed shop shutters street"
             }
           ]
         },
@@ -1165,7 +1568,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "quiet restaurant empty tables evening",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32201484",
+                  "url": "https://videos.pexels.com/video-files/32201484/13733468_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Alex Moschopoulos",
+                  "pagina": "https://www.pexels.com/video/cozy-nighttime-outdoor-cafe-ambiance-32201484/"
+                },
+                "fichero": "clips/pexels-32201484.mp4"
               },
               "camara": "pull"
             }
@@ -1197,7 +1610,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calm city street morning quiet asia",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32501539",
+                  "url": "https://videos.pexels.com/video-files/32501539/13858994_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/early-morning-streets-of-guangzhou-china-32501539/"
+                },
+                "fichero": "clips/pexels-32501539.mp4"
               },
               "camara": "panR"
             }
@@ -1218,14 +1641,32 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Los bancos grandes son del Estado",
-                "apoyo": "Un banco público no quiebra en una mañana: su dueño decide si quiebra."
+                "apoyo": "Un banco público no quiebra en una mañana: su dueño decide si quiebra.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38351398",
+                  "url": "https://images.pexels.com/photos/38351398/pexels-photo-38351398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Blackcurrant Great",
+                  "pagina": "https://www.pexels.com/photo/futuristic-architectural-design-of-hsbc-building-38351398/"
+                },
+                "fichero": "recortes-auto/pexels-38351398.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "bank branch counter customers quiet",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35545660",
+                  "url": "https://videos.pexels.com/video-files/35545660/15059169_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/busy-cafe-with-customers-ordering-at-counter-35545660/"
+                },
+                "fichero": "clips/pexels-35545660.mp4"
               },
               "camara": "push"
             }
@@ -1243,7 +1684,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "real estate agency window listings",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578012",
+                  "url": "https://videos.pexels.com/video-files/7578012/7578012-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/man-holding-a-miniature-house-7578012/"
+                },
+                "fichero": "clips/pexels-7578012.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1268,7 +1719,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calendar pages turning close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5283827",
+                  "url": "https://videos.pexels.com/video-files/5283827/5283827-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/pages-of-a-book-being-flipped-5283827/"
+                },
+                "fichero": "clips/pexels-5283827.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1292,15 +1753,8 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "crowd of people walking city china",
-                "lado": "der",
-                "cifra": "400 millones",
-                "titular": "Familias entre las que se reparte la pérdida",
-                "apoyo": "No está concentrada en un banco ni en un fondo. Está un poco en cada casa.",
-                "tono": "carmin"
-              }
+              "tipo": "frase",
+              "texto": "crowd of people walking city china"
             },
             {
               "tipo": "objeto",
@@ -1320,7 +1774,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "single person walking alone street dusk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31454393",
+                  "url": "https://videos.pexels.com/video-files/31454393/13413247_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Willy Méndez",
+                  "pagina": "https://www.pexels.com/video/silhouette-walk-through-urban-tunnel-31454393/"
+                },
+                "fichero": "clips/pexels-31454393.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -1361,7 +1825,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "balance scales weighing comparison",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8431825",
+                  "url": "https://videos.pexels.com/video-files/8431825/8431825-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/chess-pieces-on-the-weighing-scale-8431825/"
+                },
+                "fichero": "clips/pexels-8431825.mp4"
               },
               "camara": "panR"
             }
@@ -1406,7 +1880,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "modern electric car factory assembly",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4468754",
+                  "url": "https://videos.pexels.com/video-files/4468754/4468754-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Engin Altundağ",
+                  "pagina": "https://www.pexels.com/video/pedestal-shot-of-a-car-manufacturing-facility-4468754/"
+                },
+                "fichero": "clips/pexels-4468754.mp4"
               },
               "camara": "panL"
             }
@@ -1439,7 +1923,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cargo ship cars export port",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28801586",
+                  "url": "https://videos.pexels.com/video-files/28801586/12481349_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-busy-shipping-port-with-cranes-28801586/"
+                },
+                "fichero": "clips/pexels-28801586.mp4"
               },
               "camara": "push"
             }
@@ -1457,7 +1951,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "solar panel field industrial installation",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32974895",
+                  "url": "https://videos.pexels.com/video-files/32974895/14054079_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "George Angeludis",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-solar-panels-on-farmland-32974895/"
+                },
+                "fichero": "clips/pexels-32974895.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -1471,7 +1975,15 @@
                 "lado": "der",
                 "titular": "Coches, baterías, paneles y semiconductores",
                 "apoyo": "El Estado sacó el dinero del ladrillo y lo metió ahí. De momento le sale bien.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29988954",
+                  "url": "https://images.pexels.com/photos/29988954/pexels-photo-29988954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Cemrecan Yurtman",
+                  "pagina": "https://www.pexels.com/photo/industrial-worker-in-safety-gear-at-factory-29988954/"
+                },
+                "fichero": "recortes-auto/pexels-29988954.png"
               }
             }
           ]
@@ -1491,14 +2003,32 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Aquí sí hubo crisis bancaria. Allí no",
-                "apoyo": "Es la objeción más incómoda para quien lleva años anunciando el hundimiento."
+                "apoyo": "Es la objeción más incómoda para quien lleva años anunciando el hundimiento.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8363135",
+                  "url": "https://images.pexels.com/photos/8363135/pexels-photo-8363135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Erik Mclean",
+                  "pagina": "https://www.pexels.com/photo/sign-above-entrance-to-the-bank-at-night-8363135/"
+                },
+                "fichero": "recortes-auto/pexels-8363135.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty spanish coastal development buildings",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36506451",
+                  "url": "https://videos.pexels.com/video-files/36506451/15479885_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "XT7 Core",
+                  "pagina": "https://www.pexels.com/video/la-manga-coastal-architecture-and-palm-trees-36506451/"
+                },
+                "fichero": "clips/pexels-36506451.mp4"
               },
               "camara": "push"
             }
@@ -1516,7 +2046,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "controlled demolition building dust",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4876780",
+                  "url": "https://videos.pexels.com/video-files/4876780/4876780-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nathan Cain | artist",
+                  "pagina": "https://www.pexels.com/video/a-demolished-building-4876780/"
+                },
+                "fichero": "clips/pexels-4876780.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1548,7 +2088,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "vast empty housing estate aerial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4457655",
+                  "url": "https://videos.pexels.com/video-files/4457655/4457655-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Kamran Rejniak-Choudhury",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-brown-houses-4457655/"
+                },
+                "fichero": "clips/pexels-4457655.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1582,7 +2132,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty apartment blocks night no lights",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "856442",
+                  "url": "https://videos.pexels.com/video-files/856442/856442-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/blinking-lights-856442/"
+                },
+                "fichero": "clips/pexels-856442.mp4"
               },
               "camara": "panL"
             }
@@ -1603,14 +2163,32 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "\"1.400 millones no bastan para llenarlas\"",
-                "apoyo": "Lo dijo en público un antiguo subdirector de la oficina nacional de estadística."
+                "apoyo": "Lo dijo en público un antiguo subdirector de la oficina nacional de estadística.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39212747",
+                  "url": "https://images.pexels.com/photos/39212747/pexels-photo-39212747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Parash World",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-traditional-nepali-hat-39212747/"
+                },
+                "fichero": "recortes-auto/pexels-39212747.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty corridor apartment building doors",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6279418",
+                  "url": "https://videos.pexels.com/video-files/6279418/6279418-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Yaroslav Shuraev",
+                  "pagina": "https://www.pexels.com/video/lights-turning-on-one-by-one-in-the-alley-6279418/"
+                },
+                "fichero": "clips/pexels-6279418.mp4"
               },
               "camara": "push"
             }
@@ -1649,7 +2227,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty playground swings city",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20054012",
+                  "url": "https://videos.pexels.com/video-files/20054012/20054012-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Ammad Rasool",
+                  "pagina": "https://www.pexels.com/video/colourful-swing-20054012/"
+                },
+                "fichero": "clips/pexels-20054012.mp4"
               },
               "camara": "pull"
             }
@@ -1667,7 +2255,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty kindergarten classroom chairs",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5734745",
+                  "url": "https://videos.pexels.com/video-files/5734745/5734745-hd_1366_576_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/empty-classroom-5734745/"
+                },
+                "fichero": "clips/pexels-5734745.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -1737,7 +2335,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "container port cranes containers stacked",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37099184",
+                  "url": "https://videos.pexels.com/video-files/37099184/15716678_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Wolfgang Weiser",
+                  "pagina": "https://www.pexels.com/video/heavy-cargo-operations-at-hamburg-s-container-port-37099184/"
+                },
+                "fichero": "clips/pexels-37099184.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1765,14 +2373,32 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Por eso llegan tan baratos",
-                "apoyo": "Estás comprando el excedente de un país que se quedó sin clientes en casa."
+                "apoyo": "Estás comprando el excedente de un país que se quedó sin clientes en casa.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7144183",
+                  "url": "https://images.pexels.com/photos/7144183/pexels-photo-7144183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Antoni Shkraba",
+                  "pagina": "https://www.pexels.com/photo/man-in-blue-business-suit-holding-blue-folder-7144183/"
+                },
+                "fichero": "recortes-auto/pexels-7144183.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "solar panels rooftop installation home",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29543198",
+                  "url": "https://videos.pexels.com/video-files/29543198/12717359_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "TR Studio",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-rooftop-solar-panels-29543198/"
+                },
+                "fichero": "clips/pexels-29543198.mp4"
               },
               "camara": "push"
             }
@@ -1790,7 +2416,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european factory workers industrial plant",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31370992",
+                  "url": "https://videos.pexels.com/video-files/31370992/13386637_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "EqualStock IN",
+                  "pagina": "https://www.pexels.com/video/textile-factory-workers-operating-machinery-31370992/"
+                },
+                "fichero": "clips/pexels-31370992.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -1819,14 +2455,32 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "Sin plan B cuando el ladrillo baja",
-                "apoyo": "Es la lección incómoda para cualquier país donde el ahorro vive en una casa."
+                "apoyo": "Es la lección incómoda para cualquier país donde el ahorro vive en una casa.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35839417",
+                  "url": "https://images.pexels.com/photos/35839417/pexels-photo-35839417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "urtimud.89",
+                  "pagina": "https://www.pexels.com/photo/historic-urban-apartment-buildings-in-barcelona-35839417/"
+                },
+                "fichero": "recortes-auto/pexels-35839417.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "for sale sign house window",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7348157",
+                  "url": "https://videos.pexels.com/video-files/7348157/7348157-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/a-female-realtor-holding-a-for-sale-sign-indoors-7348157/"
+                },
+                "fichero": "clips/pexels-7348157.mp4"
               },
               "camara": "pull"
             }
@@ -1844,7 +2498,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned unfinished spanish development",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35652526",
+                  "url": "https://videos.pexels.com/video-files/35652526/15108515_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "Alejandro De Roa",
+                  "pagina": "https://www.pexels.com/video/daring-parkour-on-abandoned-building-rooftop-35652526/"
+                },
+                "fichero": "clips/pexels-35652526.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1875,7 +2539,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "deflating balloon slow air",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7292558",
+                  "url": "https://videos.pexels.com/video-files/7292558/7292558-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/video/colorful-balloons-7292558/"
+                },
+                "fichero": "clips/pexels-7292558.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1890,7 +2564,15 @@
                 "cifra": "4 años",
                 "titular": "Desinflándola despacio",
                 "apoyo": "La mayor burbuja inmobiliaria de la historia, pinchada a propósito y a cámara lenta.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19208780",
+                  "url": "https://images.pexels.com/photos/19208780/pexels-photo-19208780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "daydream",
+                  "pagina": "https://www.pexels.com/photo/modern-skyscrapers-in-a-city-at-dusk-19208780/"
+                },
+                "fichero": "recortes-auto/pexels-19208780.png"
               }
             }
           ]
@@ -1910,7 +2592,15 @@
                 "lado": "izq",
                 "titular": "Y mientras tanto, creciendo al 5 %",
                 "apoyo": "Sin la crisis bancaria que se llevó por delante a España y a Estados Unidos.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32472668",
+                  "url": "https://images.pexels.com/photos/32472668/pexels-photo-32472668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Haberdoedas Photography",
+                  "pagina": "https://www.pexels.com/photo/yellow-electric-car-charging-on-street-32472668/"
+                },
+                "fichero": "recortes-auto/pexels-32472668.png"
               }
             },
             {
@@ -1935,14 +2625,32 @@
                 "lado": "der",
                 "cifra": "-40 %",
                 "titular": "Lo que vale hoy ese piso",
-                "apoyo": "Con el 70 % del patrimonio de la familia dentro."
+                "apoyo": "Con el 70 % del patrimonio de la familia dentro.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38352212",
+                  "url": "https://images.pexels.com/photos/38352212/pexels-photo-38352212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Sóc Năng Động",
+                  "pagina": "https://www.pexels.com/photo/woman-gazing-through-window-in-urban-setting-38352212/"
+                },
+                "fichero": "recortes-auto/pexels-38352212.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty apartment room bare walls",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6474389",
+                  "url": "https://videos.pexels.com/video-files/6474389/6474389-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/home-renovation-text-in-a-construction-6474389/"
+                },
+                "fichero": "clips/pexels-6474389.mp4"
               },
               "camara": "push"
             }
@@ -1960,7 +2668,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty residential towers fog horizon",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13381188",
+                  "url": "https://videos.pexels.com/video-files/13381188/13381188-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "FÁBIO REIS DE ABREU (PORTUGA)",
+                  "pagina": "https://www.pexels.com/video/smog-and-tall-buildings-in-city-13381188/"
+                },
+                "fichero": "clips/pexels-13381188.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1990,7 +2708,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "quiet empty street dawn city",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9834835",
+                  "url": "https://videos.pexels.com/video-files/9834835/9834835-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kakhraman Nazarov",
+                  "pagina": "https://www.pexels.com/video/street-in-town-at-sunset-9834835/"
+                },
+                "fichero": "clips/pexels-9834835.mp4"
               },
               "camara": "push"
             }
