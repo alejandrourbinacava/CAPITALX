@@ -432,8 +432,14 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "empty construction site fence dirt"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "builder man portrait hard hat",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Pagas el piso antes de que exista",
+                "apoyo": "La hipoteca entera sobre un solar en el que todavía no hay nada levantado."
+              }
             },
             {
               "tipo": "clip",
@@ -653,8 +659,15 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "chinese official government meeting formal"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man in suit portrait formal",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "2020",
+                "titular": "La pincharon a propósito",
+                "apoyo": "Tres límites de deuda. Quien no cumplía, dejaba de recibir crédito."
+              }
             },
             {
               "tipo": "clip",
@@ -1278,8 +1291,14 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "school classroom empty desks"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "teacher woman portrait smiling",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Lo que pagaba la venta de suelo",
+                "apoyo": "Hospitales, colegios, carreteras y sueldos de funcionarios. La mitad ha desaparecido."
+              }
             }
           ]
         },
@@ -1292,8 +1311,14 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "city hall building facade formal"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "office worker man portrait tie",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Aquí quebraron las cajas. Allí, la ciudad",
+                "apoyo": "El agujero chino no está en la banca: está en el presupuesto municipal."
+              }
             },
             {
               "tipo": "clip",
@@ -1542,8 +1567,14 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "closed shop shutters street"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "shopkeeper woman portrait apron",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Y entonces la familia deja de gastar",
+                "apoyo": "Pasa igual en todo el mundo: cuando te sientes más pobre, guardas por si acaso."
+              }
             }
           ]
         },
@@ -1753,8 +1784,15 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "crowd of people walking city china"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "asian man portrait standing",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "400 millones",
+                "titular": "Familias entre las que se reparte la pérdida",
+                "apoyo": "No está concentrada en un banco ni en un fondo. Está un poco en cada casa."
+              }
             },
             {
               "tipo": "objeto",

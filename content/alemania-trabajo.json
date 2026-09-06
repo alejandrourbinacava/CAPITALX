@@ -1176,8 +1176,14 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "crumpled paper hand desk"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man holding paper portrait",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El papel que nadie enviaba",
+                "apoyo": "Dos días de resfriado, un parte en el bolsillo, y una baja que no existía para las estadísticas."
+              }
             },
             {
               "tipo": "clip",
@@ -2736,8 +2742,14 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "medical records archive screen digital"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "doctor portrait white coat",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Empezó a contarlas de verdad",
+                "apoyo": "Las bajas que aparecieron de golpe llevaban décadas ocurriendo sin que nadie las apuntara."
+              }
             },
             {
               "tipo": "frase",

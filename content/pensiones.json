@@ -2426,8 +2426,14 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "man walking corridor alone"
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait walking suit",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Sin que nadie vote nada",
+                "apoyo": "Un año más de trabajo cada década, sin un solo anuncio."
+              }
             }
           ]
         },

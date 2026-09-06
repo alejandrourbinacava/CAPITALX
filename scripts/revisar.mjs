@@ -53,6 +53,30 @@ if (rest.includes("--arreglar")) {
 }
 
 const fallos = validar(doc, { slug: doc.slug });
+
+/**
+ * El recorte separa UN SUJETO del fondo. Si la busqueda describe una escena
+ * -un aula vacia, una fachada, una multitud- no hay nada que recortar, falla,
+ * y el plano se cae a tipografia.
+ *
+ * En China fallaron seis por esto: "school classroom empty desks",
+ * "city hall building facade", "crowd of people walking city china".
+ */
+const SUJETO = new Set(["man","men","woman","women","person","people","portrait",
+  "worker","workers","boy","girl","hand","hands","face","couple","family","child",
+  "children","doctor","nurse","teacher","builder","engineer","shopkeeper","farmer",
+  "executive","official","politician","student","customer","passenger","elderly",
+  "businessman","businesswoman","accountant","researcher","analyst","editor",
+  "journalist","clerk","manager","driver","retiree","pensioner","adult","crowd"]);
+const tieneSujeto = (q) => q.toLowerCase().split(/[^a-z]+/).some((w) => SUJETO.has(w));
+for (const p of planos) {
+  for (const e of p.escenas ?? [p]) {
+    const q = e.recorte?.buscar;
+    if (q && !tieneSujeto(q)) {
+      fallos.push(`${p.id}: el recorte busca "${q}", que es una escena y no un sujeto. Nombra a alguien o algo recortable.`);
+    }
+  }
+}
 console.log(doc.titulo);
 console.log(`${planos.length} planos · ${chars.toLocaleString("es")} caracteres · unos ${(chars / 1000).toFixed(1)} min`);
 console.log(`locución: unos ${Math.round(chars * 1.46).toLocaleString("es")} créditos`);

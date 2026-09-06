@@ -210,6 +210,20 @@ async function descargar(clip) {
   return { dest, mb: buf.length / 1048576, cache: false };
 }
 
+/**
+ * Texto de repuesto cuando no hay imagen que pintar.
+ *
+ * Antes se caia a `c.buscar`, y el termino de busqueda en ingles acababa
+ * escrito a pantalla completa: en el video de China salio "school classroom
+ * empty desks". Aqui se coge lo que ya estaba redactado en castellano para
+ * ese plano, y si no hay nada se devuelve null: la escena se queda sin
+ * pintar y `repartir` reparte su tiempo entre las demas.
+ */
+const textoDeRepuesto = (e) => {
+  const r = e.recorte ?? {};
+  return e.texto ?? e.rotulo?.texto ?? r.titular ?? r.apoyo ?? null;
+};
+
 async function main() {
   loadEnv();
   const [, , ruta = "content/diario.json", ...rest] = process.argv;
@@ -247,7 +261,7 @@ async function main() {
         console.log("SIN RESULTADOS");
         // Sin clip no se deja un hueco negro: el plano se cae a tipografia.
         e.tipo = "frase";
-        e.texto = e.texto ?? c.buscar;
+        e.texto = textoDeRepuesto(e);
         delete e.clip;
         continue;
       }
@@ -297,7 +311,7 @@ async function main() {
     if (!hecho) {
       console.log(" ninguno recortable, se queda en tipografía");
       e.tipo = "frase";
-      e.texto = e.texto ?? c.buscar;
+      e.texto = textoDeRepuesto(e);
       delete e.recorte;
       continue;
     }
