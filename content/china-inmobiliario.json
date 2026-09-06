@@ -53,12 +53,12 @@
                 "tono": "carmin",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6035467",
-                  "url": "https://images.pexels.com/photos/6035467/pexels-photo-6035467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Addie Douglas",
-                  "pagina": "https://www.pexels.com/photo/unfinished-buildings-under-blue-sky-6035467/"
+                  "id": "27898964",
+                  "url": "https://images.pexels.com/photos/27898964/pexels-photo-27898964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Marco Antonio  Casique Reyes",
+                  "pagina": "https://www.pexels.com/photo/edificio-abandonado-en-blanco-y-negro-27898964/"
                 },
-                "fichero": "recortes-auto/pexels-6035467.png"
+                "fichero": "recortes-auto/pexels-27898964.png"
               }
             }
           ]
@@ -165,12 +165,12 @@
                 "apoyo": "Lehman Brothers, 2008. China lleva cuatro años cayendo y no tiene fecha.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7989073",
-                  "url": "https://images.pexels.com/photos/7989073/pexels-photo-7989073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/person-holding-black-smartphone-7989073/"
+                  "id": "6771900",
+                  "url": "https://images.pexels.com/photos/6771900/pexels-photo-6771900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alesia  Kozik",
+                  "pagina": "https://www.pexels.com/photo/person-holding-a-smartphone-6771900/"
                 },
-                "fichero": "recortes-auto/pexels-7989073.png"
+                "fichero": "recortes-auto/pexels-6771900.png"
               }
             },
             {
@@ -400,22 +400,8 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "architect blueprint plans hands desk",
-                "lado": "der",
-                "titular": "Dos piezas que encajaban",
-                "apoyo": "Para entender la caída hay que entender cómo se levantó todo esto.",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7190383",
-                  "url": "https://images.pexels.com/photos/7190383/pexels-photo-7190383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Marco Ottaviano",
-                  "pagina": "https://www.pexels.com/photo/man-s-fist-with-watch-on-blueprint-7190383/"
-                },
-                "fichero": "recortes-auto/pexels-7190383.png"
-              }
+              "tipo": "frase",
+              "texto": "Dos piezas que encajaban"
             },
             {
               "tipo": "objeto",
@@ -438,7 +424,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Pagas el piso antes de que exista",
-                "apoyo": "La hipoteca entera sobre un solar en el que todavía no hay nada levantado."
+                "apoyo": "La hipoteca entera sobre un solar en el que todavía no hay nada levantado.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7788227",
+                  "url": "https://images.pexels.com/photos/7788227/pexels-photo-7788227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hanna Payasnikava",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-wearing-a-yellow-helmet-7788227/"
+                },
+                "fichero": "recortes-auto/pexels-7788227.png"
               }
             },
             {
@@ -666,7 +660,15 @@
                 "lado": "izq",
                 "cifra": "2020",
                 "titular": "La pincharon a propósito",
-                "apoyo": "Tres límites de deuda. Quien no cumplía, dejaba de recibir crédito."
+                "apoyo": "Tres límites de deuda. Quien no cumplía, dejaba de recibir crédito.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26820703",
+                  "url": "https://images.pexels.com/photos/26820703/pexels-photo-26820703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Wanas Rosa",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-an-elegant-man-in-a-studio-26820703/"
+                },
+                "fichero": "recortes-auto/pexels-26820703.png"
               }
             },
             {
@@ -814,23 +816,8 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "courthouse judge gavel legal",
-                "tono": "carmin",
-                "lado": "der",
-                "cifra": "Enero de 2024",
-                "titular": "Un tribunal ordena la liquidación",
-                "apoyo": "En agosto de 2025 la sacaron de la bolsa. La mayor promotora del mundo, cerrada.",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "6077328",
-                  "url": "https://images.pexels.com/photos/6077328/pexels-photo-6077328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "KATRIN  BOLOVTSOVA",
-                  "pagina": "https://www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-6077328/"
-                },
-                "fichero": "recortes-auto/pexels-6077328.png"
-              }
+              "tipo": "frase",
+              "texto": "Un tribunal ordena la liquidación"
             },
             {
               "tipo": "clip",
@@ -912,12 +899,12 @@
                 "apoyo": "Pagaste sobre plano. La promotora quebró. El piso no está, la deuda sí.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6874549",
-                  "url": "https://images.pexels.com/photos/6874549/pexels-photo-6874549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Teona Swift",
-                  "pagina": "https://www.pexels.com/photo/serious-senior-woman-sitting-near-window-6874549/"
+                  "id": "7493574",
+                  "url": "https://images.pexels.com/photos/7493574/pexels-photo-7493574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Вальдемар",
+                  "pagina": "https://www.pexels.com/photo/woman-standing-in-room-near-window-and-table-7493574/"
                 },
-                "fichero": "recortes-auto/pexels-6874549.png"
+                "fichero": "recortes-auto/pexels-7493574.png"
               }
             },
             {
@@ -1029,12 +1016,12 @@
                 "tono": "carmin",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "36625677",
-                  "url": "https://images.pexels.com/photos/36625677/pexels-photo-36625677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "nn.TON.nn",
-                  "pagina": "https://www.pexels.com/photo/industrial-chimney-against-clear-blue-sky-36625677/"
+                  "id": "723905",
+                  "url": "https://images.pexels.com/photos/723905/pexels-photo-723905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tom Swinnen",
+                  "pagina": "https://www.pexels.com/photo/gray-metal-tower-on-top-of-house-723905/"
                 },
-                "fichero": "recortes-auto/pexels-36625677.png"
+                "fichero": "recortes-auto/pexels-723905.png"
               }
             }
           ]
@@ -1106,12 +1093,12 @@
                 "apoyo": "Una huelga de hipotecas en un país donde protestar sale caro.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7534783",
-                  "url": "https://images.pexels.com/photos/7534783/pexels-photo-7534783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/a-bearded-man-holding-a-document-7534783/"
+                  "id": "6326063",
+                  "url": "https://images.pexels.com/photos/6326063/pexels-photo-6326063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Vanessa Garcia",
+                  "pagina": "https://www.pexels.com/photo/photo-of-man-carrying-black-envelope-6326063/"
                 },
-                "fichero": "recortes-auto/pexels-7534783.png"
+                "fichero": "recortes-auto/pexels-6326063.png"
               }
             },
             {
@@ -1297,7 +1284,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Lo que pagaba la venta de suelo",
-                "apoyo": "Hospitales, colegios, carreteras y sueldos de funcionarios. La mitad ha desaparecido."
+                "apoyo": "Hospitales, colegios, carreteras y sueldos de funcionarios. La mitad ha desaparecido.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8423069",
+                  "url": "https://images.pexels.com/photos/8423069/pexels-photo-8423069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-a-notebook-8423069/"
+                },
+                "fichero": "recortes-auto/pexels-8423069.png"
               }
             }
           ]
@@ -1317,7 +1312,15 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "Aquí quebraron las cajas. Allí, la ciudad",
-                "apoyo": "El agujero chino no está en la banca: está en el presupuesto municipal."
+                "apoyo": "El agujero chino no está en la banca: está en el presupuesto municipal.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9363120",
+                  "url": "https://images.pexels.com/photos/9363120/pexels-photo-9363120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Lara Jameson",
+                  "pagina": "https://www.pexels.com/photo/man-in-blue-suit-jacket-wearing-black-framed-eyeglasses-9363120/"
+                },
+                "fichero": "recortes-auto/pexels-9363120.png"
               }
             },
             {
@@ -1472,12 +1475,12 @@
                 "apoyo": "No es donde viven. Es la jubilación, la universidad del hijo y el seguro médico.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "9016529",
-                  "url": "https://images.pexels.com/photos/9016529/pexels-photo-9016529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Kevin  Malik",
-                  "pagina": "https://www.pexels.com/photo/a-family-sitting-on-a-couch-9016529/"
+                  "id": "5691845",
+                  "url": "https://images.pexels.com/photos/5691845/pexels-photo-5691845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alex Green",
+                  "pagina": "https://www.pexels.com/photo/cheerful-asian-grandmother-spending-time-with-kids-5691845/"
                 },
-                "fichero": "recortes-auto/pexels-9016529.png"
+                "fichero": "recortes-auto/pexels-5691845.png"
               }
             },
             {
@@ -1573,7 +1576,15 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "Y entonces la familia deja de gastar",
-                "apoyo": "Pasa igual en todo el mundo: cuando te sientes más pobre, guardas por si acaso."
+                "apoyo": "Pasa igual en todo el mundo: cuando te sientes más pobre, guardas por si acaso.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16810621",
+                  "url": "https://images.pexels.com/photos/16810621/pexels-photo-16810621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Edgar Santos T.",
+                  "pagina": "https://www.pexels.com/photo/candid-portrait-of-an-elderly-woman-wearing-an-apron-16810621/"
+                },
+                "fichero": "recortes-auto/pexels-16810621.png"
               }
             }
           ]
@@ -1675,12 +1686,12 @@
                 "apoyo": "Un banco público no quiebra en una mañana: su dueño decide si quiebra.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "38351398",
-                  "url": "https://images.pexels.com/photos/38351398/pexels-photo-38351398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Blackcurrant Great",
-                  "pagina": "https://www.pexels.com/photo/futuristic-architectural-design-of-hsbc-building-38351398/"
+                  "id": "37182538",
+                  "url": "https://images.pexels.com/photos/37182538/pexels-photo-37182538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Arian Fernandez",
+                  "pagina": "https://www.pexels.com/photo/tall-skyscrapers-in-downtown-singapore-37182538/"
                 },
-                "fichero": "recortes-auto/pexels-38351398.png"
+                "fichero": "recortes-auto/pexels-37182538.png"
               }
             },
             {
@@ -1791,7 +1802,15 @@
                 "lado": "der",
                 "cifra": "400 millones",
                 "titular": "Familias entre las que se reparte la pérdida",
-                "apoyo": "No está concentrada en un banco ni en un fondo. Está un poco en cada casa."
+                "apoyo": "No está concentrada en un banco ni en un fondo. Está un poco en cada casa.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37281839",
+                  "url": "https://images.pexels.com/photos/37281839/pexels-photo-37281839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kyi HtetLinn",
+                  "pagina": "https://www.pexels.com/photo/young-man-in-black-leather-jacket-outdoors-37281839/"
+                },
+                "fichero": "recortes-auto/pexels-37281839.png"
               }
             },
             {
@@ -2007,22 +2026,8 @@
               }
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "battery factory robotic production line",
-                "lado": "der",
-                "titular": "Coches, baterías, paneles y semiconductores",
-                "apoyo": "El Estado sacó el dinero del ladrillo y lo metió ahí. De momento le sale bien.",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "29988954",
-                  "url": "https://images.pexels.com/photos/29988954/pexels-photo-29988954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Cemrecan Yurtman",
-                  "pagina": "https://www.pexels.com/photo/industrial-worker-in-safety-gear-at-factory-29988954/"
-                },
-                "fichero": "recortes-auto/pexels-29988954.png"
-              }
+              "tipo": "frase",
+              "texto": "Coches, baterías, paneles y semiconductores"
             }
           ]
         },
@@ -2044,12 +2049,12 @@
                 "apoyo": "Es la objeción más incómoda para quien lleva años anunciando el hundimiento.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8363135",
-                  "url": "https://images.pexels.com/photos/8363135/pexels-photo-8363135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Erik Mclean",
-                  "pagina": "https://www.pexels.com/photo/sign-above-entrance-to-the-bank-at-night-8363135/"
+                  "id": "26974689",
+                  "url": "https://images.pexels.com/photos/26974689/pexels-photo-26974689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Diogo Miranda",
+                  "pagina": "https://www.pexels.com/photo/street-sign-pole-26974689/"
                 },
-                "fichero": "recortes-auto/pexels-8363135.png"
+                "fichero": "recortes-auto/pexels-26974689.png"
               }
             },
             {
@@ -2204,12 +2209,12 @@
                 "apoyo": "Lo dijo en público un antiguo subdirector de la oficina nacional de estadística.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "39212747",
-                  "url": "https://images.pexels.com/photos/39212747/pexels-photo-39212747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Parash World",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-traditional-nepali-hat-39212747/"
+                  "id": "7643893",
+                  "url": "https://images.pexels.com/photos/7643893/pexels-photo-7643893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/man-wearing-eyeglasses-talking-at-the-meeting-7643893/"
                 },
-                "fichero": "recortes-auto/pexels-39212747.png"
+                "fichero": "recortes-auto/pexels-7643893.png"
               }
             },
             {
@@ -2414,12 +2419,12 @@
                 "apoyo": "Estás comprando el excedente de un país que se quedó sin clientes en casa.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7144183",
-                  "url": "https://images.pexels.com/photos/7144183/pexels-photo-7144183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7144261",
+                  "url": "https://images.pexels.com/photos/7144261/pexels-photo-7144261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Antoni Shkraba",
-                  "pagina": "https://www.pexels.com/photo/man-in-blue-business-suit-holding-blue-folder-7144183/"
+                  "pagina": "https://www.pexels.com/photo/a-man-in-a-car-dealership-7144261/"
                 },
-                "fichero": "recortes-auto/pexels-7144183.png"
+                "fichero": "recortes-auto/pexels-7144261.png"
               }
             },
             {
@@ -2496,12 +2501,12 @@
                 "apoyo": "Es la lección incómoda para cualquier país donde el ahorro vive en una casa.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "35839417",
-                  "url": "https://images.pexels.com/photos/35839417/pexels-photo-35839417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "urtimud.89",
-                  "pagina": "https://www.pexels.com/photo/historic-urban-apartment-buildings-in-barcelona-35839417/"
+                  "id": "18957062",
+                  "url": "https://images.pexels.com/photos/18957062/pexels-photo-18957062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Miguel  Saddi Vitorino",
+                  "pagina": "https://www.pexels.com/photo/elegant-residential-building-with-balconies-18957062/"
                 },
-                "fichero": "recortes-auto/pexels-35839417.png"
+                "fichero": "recortes-auto/pexels-18957062.png"
               }
             },
             {
@@ -2595,23 +2600,8 @@
               }
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "chinese skyline dusk towers",
-                "lado": "izq",
-                "cifra": "4 años",
-                "titular": "Desinflándola despacio",
-                "apoyo": "La mayor burbuja inmobiliaria de la historia, pinchada a propósito y a cámara lenta.",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "19208780",
-                  "url": "https://images.pexels.com/photos/19208780/pexels-photo-19208780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "daydream",
-                  "pagina": "https://www.pexels.com/photo/modern-skyscrapers-in-a-city-at-dusk-19208780/"
-                },
-                "fichero": "recortes-auto/pexels-19208780.png"
-              }
+              "tipo": "frase",
+              "texto": "Desinflándola despacio"
             }
           ]
         },
@@ -2624,22 +2614,8 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "electric cars lined up port export",
-                "lado": "izq",
-                "titular": "Y mientras tanto, creciendo al 5 %",
-                "apoyo": "Sin la crisis bancaria que se llevó por delante a España y a Estados Unidos.",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "32472668",
-                  "url": "https://images.pexels.com/photos/32472668/pexels-photo-32472668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Haberdoedas Photography",
-                  "pagina": "https://www.pexels.com/photo/yellow-electric-car-charging-on-street-32472668/"
-                },
-                "fichero": "recortes-auto/pexels-32472668.png"
-              }
+              "tipo": "frase",
+              "texto": "Y mientras tanto, creciendo al 5 %"
             },
             {
               "tipo": "objeto",
@@ -2666,12 +2642,12 @@
                 "apoyo": "Con el 70 % del patrimonio de la familia dentro.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "38352212",
-                  "url": "https://images.pexels.com/photos/38352212/pexels-photo-38352212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Sóc Năng Động",
-                  "pagina": "https://www.pexels.com/photo/woman-gazing-through-window-in-urban-setting-38352212/"
+                  "id": "15848164",
+                  "url": "https://images.pexels.com/photos/15848164/pexels-photo-15848164.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "芝士 芝士",
+                  "pagina": "https://www.pexels.com/photo/beautiful-woman-looking-out-the-window-15848164/"
                 },
-                "fichero": "recortes-auto/pexels-38352212.png"
+                "fichero": "recortes-auto/pexels-15848164.png"
               }
             },
             {
