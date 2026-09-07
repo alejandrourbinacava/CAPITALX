@@ -41,7 +41,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german election campaign rally crowd",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103565",
+                  "url": "https://videos.pexels.com/video-files/7103565/7103565-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/video/a-man-protesting-on-the-street-7103565/"
+                },
+                "fichero": "clips/pexels-7103565.mp4"
               },
               "camara": "push"
             }
@@ -62,14 +72,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Sacar a Alemania del euro",
-                "apoyo": "Ya no es una pregunta de barra de bar: es una posición con un 28 % detrás."
+                "apoyo": "Ya no es una pregunta de barra de bar: es una posición con un 28 % detrás.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8847165",
+                  "url": "https://images.pexels.com/photos/8847165/pexels-photo-8847165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-behind-speech-desk-8847165/"
+                },
+                "fichero": "recortes-auto/pexels-8847165.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "euro banknotes close up currency",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "855388",
+                  "url": "https://videos.pexels.com/video-files/855388/855388-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/counting-money-855388/"
+                },
+                "fichero": "clips/pexels-855388.mp4"
               },
               "camara": "pull"
             }
@@ -96,7 +124,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sunrise over european city skyline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "1096625",
+                  "url": "https://videos.pexels.com/video-files/1096625/1096625-hd_1440_1080_30fps.mp4",
+                  "ancho": 1440,
+                  "duracion": 7,
+                  "autor": "Denis Coppeland",
+                  "pagina": "https://www.pexels.com/video/time-lapse-footage-of-sunset-and-london-bridge-1096625/"
+                },
+                "fichero": "clips/pexels-1096625.mp4"
               },
               "camara": "panR"
             }
@@ -114,7 +152,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "financial newspaper headlines numbers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27616566",
+                  "url": "https://videos.pexels.com/video-files/27616566/12186398_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Lukasz Radziejewski",
+                  "pagina": "https://www.pexels.com/video/a-stack-of-money-on-top-of-a-newspaper-27616566/"
+                },
+                "fichero": "clips/pexels-27616566.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -143,14 +191,32 @@
                 "lado": "izq",
                 "cifra": "1990",
                 "titular": "Alemania ya cambió de moneda una vez",
-                "apoyo": "No hace falta imaginarse nada: sabemos exactamente lo que pasó."
+                "apoyo": "No hace falta imaginarse nada: sabemos exactamente lo que pasó.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34287322",
+                  "url": "https://images.pexels.com/photos/34287322/pexels-photo-34287322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ebahir",
+                  "pagina": "https://www.pexels.com/photo/black-and-white-portrait-of-elderly-man-with-mustache-34287322/"
+                },
+                "fichero": "recortes-auto/pexels-34287322.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "berlin wall historic crowd",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38072382",
+                  "url": "https://videos.pexels.com/video-files/38072382/16162987_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ivan Chumak",
+                  "pagina": "https://www.pexels.com/video/busy-berlin-bus-stop-timelapse-footage-38072382/"
+                },
+                "fichero": "clips/pexels-38072382.mp4"
               },
               "camara": "push"
             }
@@ -168,7 +234,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "balance scales weighing metal",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8431825",
+                  "url": "https://videos.pexels.com/video-files/8431825/8431825-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/chess-pieces-on-the-weighing-scale-8431825/"
+                },
+                "fichero": "clips/pexels-8431825.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -212,7 +288,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german flag parliament building",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35919428",
+                  "url": "https://videos.pexels.com/video-files/35919428/15238505_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ivan Chumak",
+                  "pagina": "https://www.pexels.com/video/snowy-day-at-berlin-s-reichstag-building-35919428/"
+                },
+                "fichero": "clips/pexels-35919428.mp4"
               },
               "camara": "panR"
             }
@@ -230,7 +316,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "person checking wallet money hands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34987234",
+                  "url": "https://videos.pexels.com/video-files/34987234/14822073_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/counting-polish-zloty-in-leather-wallet-closeup-34987234/"
+                },
+                "fichero": "clips/pexels-34987234.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -265,14 +361,32 @@
                 "lado": "der",
                 "cifra": "1 de julio de 1990",
                 "titular": "El día que se unieron las dos monedas",
-                "apoyo": "Esto es dato, y está documentado hasta el último marco."
+                "apoyo": "Esto es dato, y está documentado hasta el último marco.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36808678",
+                  "url": "https://images.pexels.com/photos/36808678/pexels-photo-36808678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "César O'neill",
+                  "pagina": "https://www.pexels.com/photo/businessman-signing-documents-at-conference-36808678/"
+                },
+                "fichero": "recortes-auto/pexels-36808678.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "east german city street historic",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36600485",
+                  "url": "https://videos.pexels.com/video-files/36600485/15517648_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ivan Chumak",
+                  "pagina": "https://www.pexels.com/video/iconic-brandenburg-gate-at-dusk-36600485/"
+                },
+                "fichero": "clips/pexels-36600485.mp4"
               },
               "camara": "panL"
             }
@@ -290,7 +404,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old banknotes exchange counter hands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266257",
+                  "url": "https://videos.pexels.com/video-files/6266257/6266257-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/a-woman-counting-paper-bills-6266257/"
+                },
+                "fichero": "clips/pexels-6266257.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -305,7 +429,15 @@
                 "lado": "der",
                 "titular": "Sueldos, pensiones y ahorros pequeños",
                 "apoyo": "Un marco del este por un marco del oeste. Uno por uno.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5900188",
+                  "url": "https://images.pexels.com/photos/5900188/pexels-photo-5900188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/woman-counting-money-and-receipts-on-a-calculator-5900188/"
+                },
+                "fichero": "recortes-auto/pexels-5900188.png"
               }
             }
           ]
@@ -322,7 +454,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "street money exchange hands cash",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37080143",
+                  "url": "https://videos.pexels.com/video-files/37080143/15708449_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Murisiku Amure",
+                  "pagina": "https://www.pexels.com/video/nigerian-market-woman-counting-cash-outdoors-37080143/"
+                },
+                "fichero": "clips/pexels-37080143.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -359,7 +501,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old factory machinery worker industrial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31016915",
+                  "url": "https://videos.pexels.com/video-files/31016915/13257992_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/senior-machinist-operating-metal-lathe-in-workshop-31016915/"
+                },
+                "fichero": "clips/pexels-31016915.mp4"
               },
               "camara": "push"
             },
@@ -370,7 +522,15 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Vendiendo por debajo de lo que costaba fabricar",
-                "apoyo": "Menos de una quinta parte de la industria del este aguantaba ese tipo de cambio."
+                "apoyo": "Menos de una quinta parte de la industria del este aguantaba ese tipo de cambio.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3066791",
+                  "url": "https://images.pexels.com/photos/3066791/pexels-photo-3066791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/gray-machine-3066791/"
+                },
+                "fichero": "recortes-auto/pexels-3066791.png"
               }
             }
           ]
@@ -409,7 +569,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned factory empty industrial hall",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13939576",
+                  "url": "https://videos.pexels.com/video-files/13939576/13939576-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-the-interior-of-an-abandoned-building-13939576/"
+                },
+                "fichero": "clips/pexels-13939576.mp4"
               },
               "camara": "pull"
             }
@@ -440,7 +610,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "people waiting queue line outdoors",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27433034",
+                  "url": "https://videos.pexels.com/video-files/27433034/12142835_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ivan Keyframe",
+                  "pagina": "https://www.pexels.com/video/suasana-di-terminal-di-jakarta-indonesia-jakartas-s-bus-station-ambience-indonesia-31-27433034/"
+                },
+                "fichero": "clips/pexels-27433034.mp4"
               },
               "camara": "panL"
             }
@@ -462,14 +642,32 @@
                 "lado": "izq",
                 "cifra": "+20 %",
                 "titular": "El paro del este en 1991",
-                "apoyo": "El organismo liquidador llegó a tener 8.000 empresas y 40.000 fábricas en sus manos."
+                "apoyo": "El organismo liquidador llegó a tener 8.000 empresas y 40.000 fábricas en sus manos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7565176",
+                  "url": "https://images.pexels.com/photos/7565176/pexels-photo-7565176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/close-up-shot-a-man-wearing-a-gray-vest-7565176/"
+                },
+                "fichero": "recortes-auto/pexels-7565176.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "closed factory gate padlock chain",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3999356",
+                  "url": "https://videos.pexels.com/video-files/3999356/3999356-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/a-closed-rusty-gate-with-padlock-3999356/"
+                },
+                "fichero": "clips/pexels-3999356.mp4"
               },
               "camara": "push"
             }
@@ -487,7 +685,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty town street decay buildings",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16569205",
+                  "url": "https://videos.pexels.com/video-files/16569205/16569205-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Erik Mclean",
+                  "pagina": "https://www.pexels.com/video/a-truck-is-parked-in-front-of-a-building-16569205/"
+                },
+                "fichero": "clips/pexels-16569205.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -519,7 +727,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chess board pieces strategy game",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "855386",
+                  "url": "https://videos.pexels.com/video-files/855386/855386-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/queen-check-in-chess-855386/"
+                },
+                "fichero": "clips/pexels-855386.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -548,7 +766,15 @@
                 "lado": "izq",
                 "titular": "¿Cuánto valdría el marco?",
                 "apoyo": "La primera pregunta del escenario, y la que decide todas las demás.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33535657",
+                  "url": "https://images.pexels.com/photos/33535657/pexels-photo-33535657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Aesthos AR. Photography",
+                  "pagina": "https://www.pexels.com/photo/young-professional-at-workstation-in-moody-lighting-33535657/"
+                },
+                "fichero": "recortes-auto/pexels-33535657.png"
               }
             },
             {
@@ -590,7 +816,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "gold bars vault bank finance",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8370140",
+                  "url": "https://videos.pexels.com/video-files/8370140/8370140-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/bank-notes-on-a-wooden-table-8370140/"
+                },
+                "fichero": "clips/pexels-8370140.mp4"
               },
               "camara": "push"
             }
@@ -622,7 +858,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "container port cranes ship loading",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15187012",
+                  "url": "https://videos.pexels.com/video-files/15187012/15187012-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Cyriac von Czapiewski",
+                  "pagina": "https://www.pexels.com/video/containers-on-a-cargo-ship-at-port-15187012/"
+                },
+                "fichero": "clips/pexels-15187012.mp4"
               },
               "camara": "panL"
             }
@@ -644,14 +890,32 @@
                 "lado": "der",
                 "cifra": "83 %",
                 "titular": "No es un país que exporta",
-                "apoyo": "Es un país que existe para exportar. Y una moneda más cara le sube el precio a todo."
+                "apoyo": "Es un país que existe para exportar. Y una moneda más cara le sube el precio a todo.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4486212",
+                  "url": "https://images.pexels.com/photos/4486212/pexels-photo-4486212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Littlehampton Bricks",
+                  "pagina": "https://www.pexels.com/photo/content-machine-operator-near-equipment-at-work-4486212/"
+                },
+                "fichero": "recortes-auto/pexels-4486212.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "cars lined up export terminal",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28801586",
+                  "url": "https://videos.pexels.com/video-files/28801586/12481349_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-busy-shipping-port-with-cranes-28801586/"
+                },
+                "fichero": "clips/pexels-28801586.mp4"
               },
               "camara": "pull"
             }
@@ -677,7 +941,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "automotive assembly robots production",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4468754",
+                  "url": "https://videos.pexels.com/video-files/4468754/4468754-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Engin Altundağ",
+                  "pagina": "https://www.pexels.com/video/pedestal-shot-of-a-car-manufacturing-facility-4468754/"
+                },
+                "fichero": "clips/pexels-4468754.mp4"
               },
               "camara": "panR"
             }
@@ -701,7 +975,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "swiss alps mountain village landscape",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14346124",
+                  "url": "https://videos.pexels.com/video-files/14346124/14346124-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "The4KTravelChannel Travel",
+                  "pagina": "https://www.pexels.com/video/people-on-street-in-swiss-village-14346124/"
+                },
+                "fichero": "clips/pexels-14346124.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -731,14 +1015,32 @@
                 "lado": "izq",
                 "cifra": "15 de enero de 2015",
                 "titular": "La mañana que Suiza soltó su moneda",
-                "apoyo": "Tres años sosteniéndola para que no subiera frente al euro. Y dejó de hacerlo sin avisar."
+                "apoyo": "Tres años sosteniéndola para que no subiera frente al euro. Y dejó de hacerlo sin avisar.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5060987",
+                  "url": "https://images.pexels.com/photos/5060987/pexels-photo-5060987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Thirdman",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-vest-and-white-dress-shirt-5060987/"
+                },
+                "fichero": "recortes-auto/pexels-5060987.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "trading floor screens panic finance",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38557069",
+                  "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-stock-market-display-analysis-38557069/"
+                },
+                "fichero": "clips/pexels-38557069.mp4"
               },
               "camara": "push"
             }
@@ -772,7 +1074,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock chart spike screen red",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38736274",
+                  "url": "https://videos.pexels.com/video-files/38736274/16457004_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 20,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-finance-chart-display-in-dark-room-38736274/"
+                },
+                "fichero": "clips/pexels-38736274.mp4"
               },
               "camara": "pull"
             }
@@ -793,14 +1105,32 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Todo amaneció un 14 % más caro",
-                "apoyo": "Para su cliente alemán, francés o italiano. Sin que el producto hubiera cambiado en nada."
+                "apoyo": "Para su cliente alemán, francés o italiano. Sin que el producto hubiera cambiado en nada.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8327533",
+                  "url": "https://images.pexels.com/photos/8327533/pexels-photo-8327533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/a-man-with-white-hair-fixing-a-watch-while-wearing-magnifying-loupe-glass-8327533/"
+                },
+                "fichero": "recortes-auto/pexels-8327533.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "swiss factory precision manufacturing",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14132388",
+                  "url": "https://videos.pexels.com/video-files/14132388/14132388-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 8,
+                  "autor": "Emre Vonal",
+                  "pagina": "https://www.pexels.com/video/cooling-system-in-an-industrial-machine-14132388/"
+                },
+                "fichero": "clips/pexels-14132388.mp4"
               },
               "camara": "panR"
             }
@@ -818,7 +1148,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "warehouse worker packing boxes shipping",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4292578",
+                  "url": "https://videos.pexels.com/video-files/4292578/4292578-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tiger Lily",
+                  "pagina": "https://www.pexels.com/video/man-lifting-box-inside-the-warehouse-4292578/"
+                },
+                "fichero": "clips/pexels-4292578.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -832,7 +1172,15 @@
                 "lado": "izq",
                 "titular": "Sin haber hecho nada mal",
                 "apoyo": "No cambió el producto ni subieron los costes. Solo cambió la moneda.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4487597",
+                  "url": "https://images.pexels.com/photos/4487597/pexels-photo-4487597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tiger Lily",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-brown-long-sleeves-wearing-red-cap-4487597/"
+                },
+                "fichero": "recortes-auto/pexels-4487597.png"
               }
             }
           ]
@@ -849,7 +1197,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "industrial port germany ships cargo",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35872101",
+                  "url": "https://videos.pexels.com/video-files/35872101/15213679_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 35,
+                  "autor": "willy one",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-cargo-port-on-a-sunny-day-35872101/"
+                },
+                "fichero": "clips/pexels-35872101.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -885,7 +1243,15 @@
                 "lado": "der",
                 "titular": "El argumento que sale en todas partes",
                 "apoyo": "Y el peor explicado de todos. Esto vuelve a ser dato.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33680301",
+                  "url": "https://images.pexels.com/photos/33680301/pexels-photo-33680301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nascimento Jr.",
+                  "pagina": "https://www.pexels.com/photo/man-reading-folha-de-s-paulo-newspaper-outdoors-33680301/"
+                },
+                "fichero": "recortes-auto/pexels-33680301.png"
               }
             },
             {
@@ -919,7 +1285,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank headquarters building frankfurt",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27946285",
+                  "url": "https://videos.pexels.com/video-files/27946285/12269000_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tobi",
+                  "pagina": "https://www.pexels.com/video/frankfurt-skyline-27946285/"
+                },
+                "fichero": "clips/pexels-27946285.mp4"
               },
               "camara": "push"
             }
@@ -937,7 +1313,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "person confused reading documents desk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7581277",
+                  "url": "https://videos.pexels.com/video-files/7581277/7581277-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/man-signing-documents-7581277/"
+                },
+                "fichero": "clips/pexels-7581277.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -951,7 +1337,15 @@
                 "lado": "der",
                 "titular": "Ni un préstamo ni una deuda",
                 "apoyo": "Es donde casi todo el mundo se equivoca al explicar esta cifra.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7654446",
+                  "url": "https://images.pexels.com/photos/7654446/pexels-photo-7654446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/a-woman-holding-a-brown-folder-7654446/"
+                },
+                "fichero": "recortes-auto/pexels-7654446.png"
               }
             }
           ]
@@ -971,14 +1365,32 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Es un registro contable, no un préstamo",
-                "apoyo": "Cada vez que alguien compra un coche alemán, ese saldo sube un poco."
+                "apoyo": "Cada vez que alguien compra un coche alemán, ese saldo sube un poco.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8927644",
+                  "url": "https://images.pexels.com/photos/8927644/pexels-photo-8927644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nataliya Vaitkevich",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-pink-and-white-papers-8927644/"
+                },
+                "fichero": "recortes-auto/pexels-8927644.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "car dealership showroom customer buying",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7154224",
+                  "url": "https://videos.pexels.com/video-files/7154224/7154224-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Antoni Shkraba",
+                  "pagina": "https://www.pexels.com/video/a-happy-woman-holding-the-car-key-7154224/"
+                },
+                "fichero": "clips/pexels-7154224.mp4"
               },
               "camara": "push"
             }
@@ -996,7 +1408,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "official document seal signature paper",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841634",
+                  "url": "https://videos.pexels.com/video-files/7841634/7841634-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/a-divorce-agreement-form-7841634/"
+                },
+                "fichero": "clips/pexels-7841634.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1030,7 +1452,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty conference room negotiation table",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951392",
+                  "url": "https://videos.pexels.com/video-files/6951392/6951392-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-conference-room-6951392/"
+                },
+                "fichero": "clips/pexels-6951392.mp4"
               },
               "camara": "panL"
             }
@@ -1054,7 +1486,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "law books library shelves old",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18969594",
+                  "url": "https://videos.pexels.com/video-files/18969594/18969594-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "Maksim Smirnov",
+                  "pagina": "https://www.pexels.com/video/a-large-library-with-many-books-on-shelves-18969594/"
+                },
+                "fichero": "clips/pexels-18969594.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1093,7 +1535,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "judge gavel courtroom desk legal",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5636977",
+                  "url": "https://videos.pexels.com/video-files/5636977/5636977-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sora Shimazaki",
+                  "pagina": "https://www.pexels.com/video/balance-scales-and-gavel-placed-on-a-wooden-desk-5636977/"
+                },
+                "fichero": "clips/pexels-5636977.mp4"
               },
               "camara": "panR"
             }
@@ -1114,14 +1566,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Lo que Alemania no puede tocar",
-                "apoyo": "Un contrato bajo ley extranjera se sigue pagando en euros, diga lo que diga Berlín."
+                "apoyo": "Un contrato bajo ley extranjera se sigue pagando en euros, diga lo que diga Berlín.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841835",
+                  "url": "https://images.pexels.com/photos/7841835/pexels-photo-7841835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/a-man-holding-gray-folder-7841835/"
+                },
+                "fichero": "recortes-auto/pexels-7841835.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "signed contract pen paper hands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8061370",
+                  "url": "https://videos.pexels.com/video-files/8061370/8061370-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/man-signing-the-paper-8061370/"
+                },
+                "fichero": "clips/pexels-8061370.mp4"
               },
               "camara": "push"
             }
@@ -1139,7 +1609,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "paris courthouse building facade",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13067561",
+                  "url": "https://videos.pexels.com/video-files/13067561/13067561-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Martyn Day",
+                  "pagina": "https://www.pexels.com/video/supreme-court-logo-on-wall-13067561/"
+                },
+                "fichero": "clips/pexels-13067561.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1164,7 +1644,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "broken piggy bank coins spilled",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34263260",
+                  "url": "https://videos.pexels.com/video-files/34263260/14517218_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Just For Music And Film",
+                  "pagina": "https://www.pexels.com/video/falling-euro-coins-into-glass-jar-for-savings-34263260/"
+                },
+                "fichero": "clips/pexels-34263260.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1193,7 +1683,15 @@
                 "lado": "izq",
                 "titular": "Ya no es un problema de tipo de cambio",
                 "apoyo": "Multiplicado por miles de empresas y por todo el sistema bancario, es una crisis financiera.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6325030",
+                  "url": "https://images.pexels.com/photos/6325030/pexels-photo-6325030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Igor Mashkov",
+                  "pagina": "https://www.pexels.com/photo/offended-stylish-man-in-dark-room-6325030/"
+                },
+                "fichero": "recortes-auto/pexels-6325030.png"
               }
             },
             {
@@ -1230,7 +1728,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "debate microphones panel discussion",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951715",
+                  "url": "https://videos.pexels.com/video-files/6951715/6951715-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-woman-talking-on-a-microphone-while-wearing-a-face-mask-6951715/"
+                },
+                "fichero": "clips/pexels-6951715.mp4"
               },
               "camara": "panR"
             }
@@ -1252,14 +1760,32 @@
                 "lado": "izq",
                 "cifra": "15-25 %",
                 "titular": "Una subvención permanente a la exportación",
-                "apoyo": "Es la misma cifra del FMI, leída del otro lado."
+                "apoyo": "Es la misma cifra del FMI, leída del otro lado.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29988954",
+                  "url": "https://images.pexels.com/photos/29988954/pexels-photo-29988954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Cemrecan Yurtman",
+                  "pagina": "https://www.pexels.com/photo/industrial-worker-in-safety-gear-at-factory-29988954/"
+                },
+                "fichero": "recortes-auto/pexels-29988954.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "cargo containers loading crane port",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36694992",
+                  "url": "https://videos.pexels.com/video-files/36694992/15555125_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Wolfgang Weiser",
+                  "pagina": "https://www.pexels.com/video/container-terminal-operations-in-hamburg-port-36694992/"
+                },
+                "fichero": "clips/pexels-36694992.mp4"
               },
               "camara": "push"
             }
@@ -1316,7 +1842,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "ship container terminal aerial view",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32746863",
+                  "url": "https://videos.pexels.com/video-files/32746863/13960919_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 19,
+                  "autor": "Toàn BDS",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-bustling-container-port-operations-32746863/"
+                },
+                "fichero": "clips/pexels-32746863.mp4"
               },
               "camara": "panL"
             }
@@ -1334,7 +1870,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "report document graphs official desk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7413680",
+                  "url": "https://videos.pexels.com/video-files/7413680/7413680-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/close-up-footage-of-graph-reports-on-a-surface-7413680/"
+                },
+                "fichero": "clips/pexels-7413680.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1348,7 +1894,15 @@
                 "lado": "izq",
                 "titular": "Lo ha puesto por escrito el FMI",
                 "apoyo": "Quien dice que el euro está montado a favor de Alemania no dice una tontería.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8353801",
+                  "url": "https://images.pexels.com/photos/8353801/pexels-photo-8353801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/woman-in-dark-blue-suit-holding-documents-8353801/"
+                },
+                "fichero": "recortes-auto/pexels-8353801.png"
               }
             }
           ]
@@ -1365,7 +1919,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "man thinking looking away window",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5944695",
+                  "url": "https://videos.pexels.com/video-files/5944695/5944695-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Theo  Decker",
+                  "pagina": "https://www.pexels.com/video/middle-aged-man-posing-looking-away-5944695/"
+                },
+                "fichero": "clips/pexels-5944695.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1401,7 +1965,15 @@
                 "cifra": "27,9 %",
                 "titular": "Con un partido pidiéndolo",
                 "apoyo": "La pregunta práctica: qué probabilidad real hay de que esto llegue a ocurrir.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8846408",
+                  "url": "https://images.pexels.com/photos/8846408/pexels-photo-8846408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/person-handing-out-paper-8846408/"
+                },
+                "fichero": "recortes-auto/pexels-8846408.png"
               }
             },
             {
@@ -1434,7 +2006,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european flags waving building",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16953740",
+                  "url": "https://videos.pexels.com/video-files/16953740/16953740-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Andrey Muntean",
+                  "pagina": "https://www.pexels.com/video/adunarea-na-ionala-moldova-europeana-16953740/"
+                },
+                "fichero": "clips/pexels-16953740.mp4"
               },
               "camara": "push"
             }
@@ -1473,7 +2055,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "party meeting hall people seated",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8244321",
+                  "url": "https://videos.pexels.com/video-files/8244321/8244321-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Henri Mathieu-Saint-Laurent",
+                  "pagina": "https://www.pexels.com/video/chairs-in-the-conference-room-8244321/"
+                },
+                "fichero": "clips/pexels-8244321.mp4"
               },
               "camara": "panL"
             }
@@ -1495,14 +2087,32 @@
                 "lado": "der",
                 "cifra": "45 %",
                 "titular": "Ni su propia base la compra",
-                "apoyo": "Una promesa que da titulares y moviliza, pero que menos de la mitad de los suyos votaría."
+                "apoyo": "Una promesa que da titulares y moviliza, pero que menos de la mitad de los suyos votaría.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16382941",
+                  "url": "https://images.pexels.com/photos/16382941/pexels-photo-16382941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Paulo Oliveira",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-flag-among-people-16382941/"
+                },
+                "fichero": "recortes-auto/pexels-16382941.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "political poster street campaign",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6257972",
+                  "url": "https://videos.pexels.com/video-files/6257972/6257972-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/a-man-holding-a-poster-6257972/"
+                },
+                "fichero": "clips/pexels-6257972.mp4"
               },
               "camara": "push"
             }
@@ -1520,7 +2130,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "treaty document signing ceremony official",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841707",
+                  "url": "https://videos.pexels.com/video-files/7841707/7841707-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/male-lawyer-reading-a-legal-document-7841707/"
+                },
+                "fichero": "clips/pexels-7841707.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1536,7 +2156,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european council meeting flags room",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6952152",
+                  "url": "https://videos.pexels.com/video-files/6952152/6952152-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-woman-in-a-podium-giving-a-speech-6952152/"
+                },
+                "fichero": "clips/pexels-6952152.mp4"
               },
               "camara": "panR"
             }
@@ -1575,7 +2205,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro coin close up macro",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35996678",
+                  "url": "https://videos.pexels.com/video-files/35996678/15263098_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Alex Dos Santos",
+                  "pagina": "https://www.pexels.com/video/black-and-white-close-up-of-coins-on-surface-35996678/"
+                },
+                "fichero": "clips/pexels-35996678.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1603,14 +2243,32 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Sobre el papel, buena noticia",
-                "apoyo": "Vender fuera se abarata: el aceite, el coche y el turismo se vuelven más competitivos."
+                "apoyo": "Vender fuera se abarata: el aceite, el coche y el turismo se vuelven más competitivos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29505948",
+                  "url": "https://images.pexels.com/photos/29505948/pexels-photo-29505948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "İbrahim Yazgan",
+                  "pagina": "https://www.pexels.com/photo/elderly-woman-harvesting-olives-in-orchard-29505948/"
+                },
+                "fichero": "recortes-auto/pexels-29505948.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "tourists beach spain summer coast",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38787673",
+                  "url": "https://videos.pexels.com/video-files/38787673/16482483_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Atlantic Ambience",
+                  "pagina": "https://www.pexels.com/video/relaxing-summer-day-at-picturesque-tenerife-pier-38787673/"
+                },
+                "fichero": "clips/pexels-38787673.mp4"
               },
               "camara": "panR"
             }
@@ -1628,7 +2286,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "gas station fuel pump prices",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15556113",
+                  "url": "https://videos.pexels.com/video-files/15556113/15556113-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "African  Creator",
+                  "pagina": "https://www.pexels.com/video/fuel-pump-15556113/"
+                },
+                "fichero": "clips/pexels-15556113.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1643,7 +2311,15 @@
                 "lado": "der",
                 "titular": "Y todo lo que compras fuera se encarece",
                 "apoyo": "El petróleo, el gas, los coches y prácticamente toda la tecnología.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8422697",
+                  "url": "https://images.pexels.com/photos/8422697/pexels-photo-8422697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/woman-doing-shopping-at-a-grocery-8422697/"
+                },
+                "fichero": "recortes-auto/pexels-8422697.png"
               }
             }
           ]
@@ -1663,14 +2339,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Inflación importada",
-                "apoyo": "Exactamente lo que viviste en 2022. Y no vino de ninguna decisión que tomara tu país."
+                "apoyo": "Exactamente lo que viviste en 2022. Y no vino de ninguna decisión que tomara tu país.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26184235",
+                  "url": "https://images.pexels.com/photos/26184235/pexels-photo-26184235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Chirayu Vyas",
+                  "pagina": "https://www.pexels.com/photo/woman-leaning-on-a-shopping-cart-26184235/"
+                },
+                "fichero": "recortes-auto/pexels-26184235.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "receipt paper long grocery bill",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5981292",
+                  "url": "https://videos.pexels.com/video-files/5981292/5981292-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 11,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/a-women-having-problem-with-finances-5981292/"
+                },
+                "fichero": "clips/pexels-5981292.mp4"
               },
               "camara": "pull"
             }
@@ -1688,7 +2382,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hands holding coins together group",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36036680",
+                  "url": "https://videos.pexels.com/video-files/36036680/15283235_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nothing Ahead",
+                  "pagina": "https://www.pexels.com/video/close-up-of-coins-in-hand-outdoors-36036680/"
+                },
+                "fichero": "clips/pexels-36036680.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1702,7 +2406,15 @@
                 "lado": "der",
                 "titular": "La lección de fondo",
                 "apoyo": "Sirve para cualquier moneda compartida, no solo para el euro.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30681948",
+                  "url": "https://images.pexels.com/photos/30681948/pexels-photo-30681948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tinku Dronography",
+                  "pagina": "https://www.pexels.com/photo/young-man-in-striped-sweater-outdoors-30681948/"
+                },
+                "fichero": "recortes-auto/pexels-30681948.png"
               }
             }
           ]
@@ -1727,7 +2439,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rope pulling tension hands two",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5851868",
+                  "url": "https://videos.pexels.com/video-files/5851868/5851868-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/a-man-pulling-a-rope-5851868/"
+                },
+                "fichero": "clips/pexels-5851868.mp4"
               },
               "camara": "panR"
             }
@@ -1769,7 +2491,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german factory production line workers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16695613",
+                  "url": "https://videos.pexels.com/video-files/16695613/16695613-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Konsta Nurkkala",
+                  "pagina": "https://www.pexels.com/video/glass-factory-16695613/"
+                },
+                "fichero": "clips/pexels-16695613.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1799,14 +2531,32 @@
                 "lado": "izq",
                 "cifra": "1,03 billones",
                 "titular": "El apunte que se vuelve negociación",
-                "apoyo": "Y las empresas cobrando en moneda cara y pagando en moneda barata."
+                "apoyo": "Y las empresas cobrando en moneda cara y pagando en moneda barata.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7927336",
+                  "url": "https://images.pexels.com/photos/7927336/pexels-photo-7927336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nicola Barts",
+                  "pagina": "https://www.pexels.com/photo/unhappy-old-man-in-suit-thinking-7927336/"
+                },
+                "fichero": "recortes-auto/pexels-7927336.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty negotiation table chairs room",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951298",
+                  "url": "https://videos.pexels.com/video-files/6951298/6951298-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/monitors-and-microphones-in-a-conference-room-6951298/"
+                },
+                "fichero": "clips/pexels-6951298.mp4"
               },
               "camara": "push"
             }
@@ -1824,7 +2574,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "historic photo factory workers old",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15459709",
+                  "url": "https://videos.pexels.com/video-files/15459709/15459709-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Romit  Majumdar",
+                  "pagina": "https://www.pexels.com/video/factory-workers-15459709/"
+                },
+                "fichero": "clips/pexels-15459709.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1839,7 +2599,15 @@
                 "cifra": "2015",
                 "titular": "Y Suiza soltó la suya",
                 "apoyo": "Su moneda subió un 14 % frente al euro en una sola mañana.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8327609",
+                  "url": "https://images.pexels.com/photos/8327609/pexels-photo-8327609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/a-man-repairing-a-clock-8327609/"
+                },
+                "fichero": "recortes-auto/pexels-8327609.png"
               }
             },
             {
@@ -1861,7 +2629,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "price tag label store product",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5889450",
+                  "url": "https://videos.pexels.com/video-files/5889450/5889450-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Max Fischer",
+                  "pagina": "https://www.pexels.com/video/red-color-sale-tags-5889450/"
+                },
+                "fichero": "clips/pexels-5889450.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1892,7 +2670,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "berlin skyline dusk city lights",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29208604",
+                  "url": "https://videos.pexels.com/video-files/29208604/12609924_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Nuray",
+                  "pagina": "https://www.pexels.com/video/sunset-in-berlin-with-modern-architecture-29208604/"
+                },
+                "fichero": "clips/pexels-29208604.mp4"
               },
               "camara": "pull"
             }
