@@ -1,0 +1,1949 @@
+{
+  "slug": "alemania-euro",
+  "titulo": "¿Qué Pasaría Si ALEMANIA Sale Del Euro? (Ya Lo Hizo Una Vez)",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frio",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "En septiembre de dos mil veintiséis, el partido más votado en las encuestas alemanas es Alternativa por Alemania, con un veintisiete coma nueve por ciento. Ningún otro se le acerca.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "INTENCIÓN DE VOTO EN ALEMANIA · SEPTIEMBRE DE 2026",
+              "fuente": "Media de encuestas",
+              "barras": {
+                "unidad": "Porcentaje de voto",
+                "sufijo": "%",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "AfD",
+                    "valor": 27.9,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german election campaign rally crowd",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Y su líder ha prometido, entre otras cosas, sacar a Alemania del euro. Así que esto ya no es una pregunta de barra de bar: es una posición política con un veintiocho por ciento detrás.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman politician portrait speaking",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Sacar a Alemania del euro",
+                "apoyo": "Ya no es una pregunta de barra de bar: es una posición con un 28 % detrás."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro banknotes close up currency",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "La pregunta interesante no es si Alemania puede irse. Puede. La pregunta es qué pasaría el día siguiente. Y ahí hay una respuesta bastante clara, aunque casi nadie la cuenta bien.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "La pregunta no es si puede",
+                "texto": "Es *qué pasa al día siguiente*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sunrise over european city skyline",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Porque casi todo lo que se lee sobre esto habla de un billón de euros que Alemania supuestamente perdería. Ese número existe, es real, y es la parte menos importante de todo el asunto.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "financial newspaper headlines numbers",
+                "tono": "ocre"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "texto": "Existe. Y es *lo menos importante*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Lo importante es otra cosa, y para explicarla no hace falta imaginarse nada, porque Alemania ya cambió de moneda una vez. En mil novecientos noventa. Y sabemos exactamente lo que pasó.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait historic photo serious",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "1990",
+                "titular": "Alemania ya cambió de moneda una vez",
+                "apoyo": "No hace falta imaginarse nada: sabemos exactamente lo que pasó."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "berlin wall historic crowd",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Aviso antes de empezar: la mitad de este vídeo son datos y la otra mitad es un escenario. Voy a decirte en cada momento cuál de las dos cosas estás oyendo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "balance scales weighing metal",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "Aviso",
+                "texto": "Te diré qué es *dato* y qué es *escenario*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Lo que vamos a ver",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Vemos lo que le pasó a Alemania la última vez que cambió de moneda, qué le ocurriría al nuevo marco, y por qué el famoso billón de euros no es el problema que te han contado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "LO QUE VEMOS AQUÍ",
+              "lista": {
+                "titulo": "Tres cosas",
+                "puntos": [
+                  "Qué pasó en 1990, con datos",
+                  "Qué le pasaría al nuevo marco",
+                  "Por qué el billón de euros no es el problema"
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german flag parliament building",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Y al final, lo que le pasaría a España y a México si esto ocurriera de verdad, que es la parte que a ti te toca el bolsillo.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person checking wallet money hands",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La parte que *te toca el bolsillo*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "1990: la vez que ya paso",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Uno de julio de mil novecientos noventa. Alemania Occidental y Alemania Oriental unen sus monedas. Esto es dato, y está documentado hasta el último marco.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man in suit signing document portrait",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "1 de julio de 1990",
+                "titular": "El día que se unieron las dos monedas",
+                "apoyo": "Esto es dato, y está documentado hasta el último marco."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "east german city street historic",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "La decisión política fue cambiar los sueldos, las pensiones y los ahorros pequeños a uno por uno. Un marco del este por un marco del oeste.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old banknotes exchange counter hands",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "LA DECISIÓN",
+                "texto": "Uno por uno"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older woman portrait counting money",
+                "lado": "der",
+                "titular": "Sueldos, pensiones y ahorros pequeños",
+                "apoyo": "Un marco del este por un marco del oeste. Uno por uno.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Era generosa y políticamente comprensible. También era una barbaridad económica, porque en el mercado negro hacían falta muchos más marcos del este para comprar uno del oeste.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "street money exchange hands cash",
+                "tono": "carmin"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "Generosa. Y *una barbaridad económica*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "En un solo día los sueldos de la industria del este se multiplicaron en términos reales, sin que su productividad cambiara nada. Menos de una quinta parte de esa industria seguía siendo competitiva a ese tipo de cambio, y el resto amaneció vendiendo por debajo de lo que le costaba fabricar.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "INDUSTRIA DEL ESTE COMPETITIVA AL CAMBIO 1:1",
+              "fuente": "Estudios sobre la unificación monetaria alemana",
+              "gente": {
+                "total": 10,
+                "destacados": 2,
+                "escala": 1,
+                "etiqueta": "Su industria",
+                "etiquetaDestacados": "Seguía siendo competitiva"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old factory machinery worker industrial",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "factory worker portrait old machinery",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Vendiendo por debajo de lo que costaba fabricar",
+                "apoyo": "Menos de una quinta parte de la industria del este aguantaba ese tipo de cambio."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Lo que vino después no es una opinión. La producción industrial del este cayó alrededor de un cuarenta por ciento en un solo año, y el producto interior bruto se hundió un quince coma uno por ciento.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "ALEMANIA DEL ESTE, 1990",
+              "fuente": "NBER · reconstrucción económica del este",
+              "barras": {
+                "unidad": "Caída en un solo año",
+                "sufijo": "%",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "PIB",
+                    "valor": -15.1,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Producción industrial",
+                    "valor": -40,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "abandoned factory empty industrial hall",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "En el año siguiente a la unión monetaria, entre seis coma ocho y ocho millones de trabajadores del este cobraron ayudas por reducción de jornada. Eso es hasta el noventa por ciento de su fuerza laboral.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TRABAJADORES CON AYUDA POR REDUCCIÓN DE JORNADA",
+              "fuente": "Estudios sobre la unificación monetaria alemana",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 8000000,
+                "etiqueta": "trabajadores · hasta el 90 % de la plantilla del este"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "people waiting queue line outdoors",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "El paro superó el veinte por ciento en mil novecientos noventa y uno. Y el organismo que liquidó todo aquello llegó a tener más de ocho mil empresas y cuarenta mil fábricas en sus manos.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older worker portrait serious factory",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "+20 %",
+                "titular": "El paro del este en 1991",
+                "apoyo": "El organismo liquidador llegó a tener 8.000 empresas y 40.000 fábricas en sus manos."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed factory gate padlock chain",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b2-08",
+          "vo": "Y todo eso, insisto, no lo provocó una guerra ni una crisis financiera. Lo provocó cambiar de moneda al tipo de cambio equivocado.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty town street decay buildings",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Solo *el tipo de cambio equivocado*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ni guerra, ni crisis financiera.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Cuanto valdria el nuevo marco",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Con esa lección en la mano vamos al escenario. Y a partir de aquí ya no es dato: es un ejercicio, aunque esté construido sobre cifras reales.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chess board pieces strategy game",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "A PARTIR DE AQUÍ",
+                "texto": "Ya no es dato. Es *escenario*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Si Alemania recupera el marco, la primera pregunta es cuánto valdría. Y hay un dato del Fondo Monetario Internacional que la responde bastante bien.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait looking at screen",
+                "lado": "izq",
+                "titular": "¿Cuánto valdría el marco?",
+                "apoyo": "La primera pregunta del escenario, y la que decide todas las demás.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "El Fondo calcula que el euro está infravalorado para Alemania entre un quince y un veinticinco por ciento. Traducido: una moneda solo alemana valdría bastante más que el euro de hoy.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "INFRAVALORACIÓN DEL EURO PARA ALEMANIA",
+              "fuente": "Fondo Monetario Internacional",
+              "barras": {
+                "unidad": "Estimación del FMI",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Estimación baja",
+                    "valor": 15,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Estimación alta",
+                    "valor": 25,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "gold bars vault bank finance",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Y esa es la mala noticia, no la buena. Porque en Alemania el comercio exterior equivale a cerca del ochenta y tres por ciento de todo lo que produce el país.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PESO DEL COMERCIO EXTERIOR EN ALEMANIA",
+              "fuente": "Banco Mundial · Destatis",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 83,
+                "etiqueta": "por ciento de todo lo que produce el país",
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "container port cranes ship loading",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Alemania no es un país que exporta. Es un país que existe para exportar. Y una moneda un veinte por ciento más cara le sube el precio a todo lo que vende, de un día para otro.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "engineer portrait machinery factory",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "83 %",
+                "titular": "No es un país que exporta",
+                "apoyo": "Es un país que existe para exportar. Y una moneda más cara le sube el precio a todo."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cars lined up export terminal",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "Es el mismo mecanismo de mil novecientos noventa, pero al revés y a lo grande. Entonces se quedó fuera de precio la industria del este. Ahora se quedaría fuera de precio la industria alemana entera.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push",
+              "rotulo": {
+                "texto": "El mismo mecanismo. *A lo grande*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "automotive assembly robots production",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Suiza, enero de 2015",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Y si crees que esto es teoría, hay un país que lo vivió hace once años, en directo y en cuestión de minutos. Volvemos a los datos.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "swiss alps mountain village landscape",
+                "tono": "ocre"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "VOLVEMOS A LOS DATOS",
+                "texto": "Un país lo vivió *en directo*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Quince de enero de dos mil quince. El banco central suizo llevaba tres años sosteniendo su moneda para que no subiera frente al euro. Esa mañana, sin avisar, dejó de hacerlo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man in suit portrait banker serious",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "15 de enero de 2015",
+                "titular": "La mañana que Suiza soltó su moneda",
+                "apoyo": "Tres años sosteniéndola para que no subiera frente al euro. Y dejó de hacerlo sin avisar."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "trading floor screens panic finance",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "El franco suizo se disparó alrededor de un catorce por ciento frente al euro en cuestión de minutos. En el peor momento del día llegó a moverse mucho más que eso.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL FRANCO SUIZO, 15 DE ENERO DE 2015",
+              "fuente": "Datos de mercado",
+              "barras": {
+                "unidad": "Subida frente al euro",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "En minutos",
+                    "valor": 14,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock chart spike screen red",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Un catorce por ciento en una mañana. Para un exportador suizo eso significa que todo lo que vende amaneció un catorce por ciento más caro para su cliente alemán, francés o italiano.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "watchmaker craftsman portrait working",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Todo amaneció un 14 % más caro",
+                "apoyo": "Para su cliente alemán, francés o italiano. Sin que el producto hubiera cambiado en nada."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "swiss factory precision manufacturing",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Sin que el producto hubiera cambiado, sin que sus costes hubieran subido y sin que hubieran hecho nada mal. Solo cambió la moneda. Y la zona euro es, con diferencia, su primer mercado.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "warehouse worker packing boxes shipping",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Solo cambió *la moneda*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "warehouse worker portrait boxes",
+                "lado": "izq",
+                "titular": "Sin haber hecho nada mal",
+                "apoyo": "No cambió el producto ni subieron los costes. Solo cambió la moneda.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Ahora imagina eso mismo, pero con una subida del veinte por ciento en vez del catorce, en el país exportador más grande de Europa. Eso es lo que significaría el nuevo marco.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "industrial port germany ships cargo",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "Ahora con un 20 %",
+                "texto": "Y en *el mayor exportador de Europa*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Eso es *el nuevo marco*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "El billon de TARGET2",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Vamos ahora con el famoso billón de euros, que es el argumento que sale en todas partes y el peor explicado de todos. Esto vuelve a ser dato.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "journalist portrait newspaper reading",
+                "lado": "der",
+                "titular": "El argumento que sale en todas partes",
+                "apoyo": "Y el peor explicado de todos. Esto vuelve a ser dato.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "A treinta y uno de julio de dos mil veintiséis, el banco central alemán tenía un saldo a su favor dentro del sistema de pagos del euro de un billón treinta y siete mil millones de euros.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SALDO DEL BUNDESBANK · 31 DE JULIO DE 2026",
+              "fuente": "Deutsche Bundesbank",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1037000000000,
+                "etiqueta": "euros a su favor en el sistema de pagos"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank headquarters building frankfurt",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Un billón. Y aquí es donde casi todo el mundo se equivoca, porque eso no es un préstamo que Alemania le haya hecho a nadie, ni un dinero que nadie le deba devolver.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person confused reading documents desk",
+                "tono": "carmin"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "texto": "No es un préstamo. *No es una deuda*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "accountant portrait glasses documents",
+                "lado": "der",
+                "titular": "Ni un préstamo ni una deuda",
+                "apoyo": "Es donde casi todo el mundo se equivoca al explicar esta cifra.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Es el registro contable de que durante veinte años ha entrado más dinero en Alemania del que ha salido. Cada vez que un español compra un coche alemán, ese saldo sube un poco.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "accountant portrait ledger documents",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Es un registro contable, no un préstamo",
+                "apoyo": "Cada vez que alguien compra un coche alemán, ese saldo sube un poco."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "car dealership showroom customer buying",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "El propio banco central alemán lo dice con todas las letras: no hay ningún riesgo en ese saldo mientras el euro siga existiendo tal y como es hoy.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "official document seal signature paper",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "\"Ningún riesgo *mientras el euro exista*\""
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "Y ahí está la trampa de la frase. Mientras el euro siga existiendo. El día que Alemania se va, ese saldo deja de ser un apunte contable y se convierte en la pregunta más cara de Europa: ¿quién paga ese billón?",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "La trampa de la frase",
+                "texto": "¿Quién paga *ese billón*?"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty conference room negotiation table",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "La trampa legal",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Pero hay un problema todavía más incómodo que ese, y es puramente legal. Se llama, en latín, la ley de la moneda.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "law books library shelves old",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "En latín",
+                "texto": "*Lex monetae*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Dice que cada Estado decide cuál es su moneda, y puede convertir a ella todos los contratos firmados bajo su propia ley. Los sueldos, los depósitos, las hipotecas, su deuda pública interna.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "LO QUE ALEMANIA PODRÍA CONVERTIR A MARCOS",
+              "lista": {
+                "titulo": "Todo lo firmado bajo ley alemana",
+                "puntos": [
+                  "Los sueldos y las pensiones",
+                  "Los depósitos de los bancos",
+                  "Las hipotecas y los préstamos",
+                  "Su propia deuda pública interna"
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "judge gavel courtroom desk legal",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Hasta aquí, sencillo. El problema es lo que está firmado bajo ley extranjera, porque eso Alemania no lo puede tocar.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "lawyer portrait office documents",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Lo que Alemania no puede tocar",
+                "apoyo": "Un contrato bajo ley extranjera se sigue pagando en euros, diga lo que diga Berlín."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "signed contract pen paper hands",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Si una empresa alemana emitió un bono en París, un juez francés dirá que ese bono se paga en euros. Y esa empresa cobra en marcos, que ahora valen un veinte por ciento más.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "paris courthouse building facade",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "texto": "Cobra en marcos. Paga *en euros*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Ingresas en una moneda cara y debes en una moneda barata. Eso es un agujero que aparece solo, de la noche a la mañana, en el balance de cada empresa que tenga deuda emitida fuera.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "broken piggy bank coins spilled",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "El agujero aparece solo",
+                "texto": "Cobras caro. *Debes barato*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "Y multiplicado por miles de empresas y por todo el sistema bancario, eso ya no es un problema de tipo de cambio. Es una crisis financiera, y esta sí sería exactamente igual que las de siempre.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "bank customer portrait worried queue",
+                "lado": "izq",
+                "titular": "Ya no es un problema de tipo de cambio",
+                "apoyo": "Multiplicado por miles de empresas y por todo el sistema bancario, es una crisis financiera.",
+                "tono": "carmin"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Y esta sí, *igual que las de siempre*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y ahora, como siempre en este canal, lo que juega en contra de todo lo que acabo de contar. Porque quien defiende la salida del euro tiene un argumento bueno, y conviene decirlo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Lo que juega en contra",
+                "texto": "Tienen *un argumento bueno*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "debate microphones panel discussion",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Ese quince o veinticinco por ciento de infravaloración que calcula el Fondo Monetario funciona, visto al revés, como una subvención permanente a la exportación alemana.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "factory worker portrait hard hat",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "15-25 %",
+                "titular": "Una subvención permanente a la exportación",
+                "apoyo": "Es la misma cifra del FMI, leída del otro lado."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo containers loading crane port",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Alemania vende con una moneda más barata de lo que le correspondería, y sus vecinos compran con una moneda más cara de lo que les correspondería. Esa ventaja no se la ha ganado: se la da el euro.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "alemania"
+                ]
+              },
+              "kicker": "VENDE BARATO, SUS VECINOS COMPRAN CARO",
+              "fuente": "Fondo Monetario Internacional"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Esa ventaja *se la da el euro*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Y de ahí sale el superávit comercial alemán, que en la primera mitad de dos mil veinticinco fue de ciento cuatro mil quinientos millones de euros en solo seis meses.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SUPERÁVIT COMERCIAL ALEMÁN · PRIMER SEMESTRE DE 2025",
+              "fuente": "Destatis",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 104500000000,
+                "etiqueta": "euros en seis meses"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ship container terminal aerial view",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Así que quien dice que el euro está montado a favor de Alemania no está diciendo una tontería. Está diciendo algo que el Fondo Monetario Internacional ha puesto por escrito.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "report document graphs official desk",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "No es una tontería. Está *por escrito*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist portrait presenting report",
+                "lado": "izq",
+                "titular": "Lo ha puesto por escrito el FMI",
+                "apoyo": "Quien dice que el euro está montado a favor de Alemania no dice una tontería.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Lo que no se sostiene es la conclusión. Que el arreglo favorezca a Alemania no significa que a Alemania le convenga romperlo: significa exactamente lo contrario.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "man thinking looking away window",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Le favorece. Por eso *no le conviene romperlo*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Significa *lo contrario*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Por que no va a pasar",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Y llegados aquí toca la pregunta práctica. Con un partido al veintiocho por ciento pidiéndolo, ¿qué probabilidad real hay de que esto ocurra? Volvemos al dato.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "voter portrait ballot hand",
+                "lado": "der",
+                "cifra": "27,9 %",
+                "titular": "Con un partido pidiéndolo",
+                "apoyo": "La pregunta práctica: qué probabilidad real hay de que esto llegue a ocurrir.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "El noventa por ciento de los alemanes está a favor de seguir en la Unión Europea. No es una mayoría ajustada: son nueve de cada diez.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "ALEMANES A FAVOR DE SEGUIR EN LA UNIÓN EUROPEA",
+              "fuente": "Encuestas de opinión alemanas",
+              "gente": {
+                "total": 10,
+                "destacados": 9,
+                "escala": 1,
+                "etiqueta": "Alemanes",
+                "etiquetaDestacados": "Quieren seguir dentro"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european flags waving building",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Y el dato que remata el asunto: ni siquiera dentro del partido que lo propone hay mayoría. Solo el cuarenta y cinco por ciento de sus propios miembros votaría por salir.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "VOTARÍA POR SALIR DE LA UNIÓN EUROPEA",
+              "fuente": "Encuestas entre miembros del partido",
+              "barras": {
+                "unidad": "Porcentaje",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Alemanes en general",
+                    "valor": 10,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Miembros del propio AfD",
+                    "valor": 45,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "party meeting hall people seated",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Menos de la mitad de los suyos. Es una promesa que da titulares y moviliza, pero que ni su propia base compra del todo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait crowd rally serious",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "45 %",
+                "titular": "Ni su propia base la compra",
+                "apoyo": "Una promesa que da titulares y moviliza, pero que menos de la mitad de los suyos votaría."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "political poster street campaign",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Y falta lo más importante de todo: los tratados europeos no tienen ningún procedimiento para salir del euro. Está previsto salir de la Unión entera, pero no quedarse dentro con otra moneda. Habría que negociarlo desde cero con los otros diecinueve países, y todos tendrían que decir que sí.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "treaty document signing ceremony official",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "No existe *un procedimiento*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Salir del euro es *salir de todo*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european council meeting flags room",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y ahora la parte que te toca a ti, que vives en España o en México y no tienes nada que ver con el marco alemán.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La parte que va *de ti*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Si Alemania se fuera, el euro que quedaría sería una moneda sin su economía más grande dentro. Y una moneda a la que le quitas su miembro más fuerte se abarata, no se encarece.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro coin close up macro",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Sin su miembro más fuerte, *se abarata*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Para un exportador español eso sería, sobre el papel, una buena noticia: vender fuera se abarata. El aceite, el coche y el turismo se vuelven más competitivos de golpe.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "farmer portrait olive field spain",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Sobre el papel, buena noticia",
+                "apoyo": "Vender fuera se abarata: el aceite, el coche y el turismo se vuelven más competitivos."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tourists beach spain summer coast",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Pero todo lo que compras fuera se encarece en la misma proporción. Y lo que compras fuera es el petróleo, el gas, los coches y prácticamente toda la tecnología.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "gas station fuel pump prices",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "Y en la misma proporción",
+                "texto": "Todo lo que compras fuera *se encarece*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait shopping basket store",
+                "lado": "der",
+                "titular": "Y todo lo que compras fuera se encarece",
+                "apoyo": "El petróleo, el gas, los coches y prácticamente toda la tecnología.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Eso tiene un nombre: inflación importada. Es exactamente lo que viviste en dos mil veintidós, y no vino de ninguna decisión española.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait supermarket shopping worried",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Inflación importada",
+                "apoyo": "Exactamente lo que viviste en 2022. Y no vino de ninguna decisión que tomara tu país."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "receipt paper long grocery bill",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Y hay una lección de fondo que sirve para cualquier moneda compartida, y que es la verdadera respuesta a la pregunta del título.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hands holding coins together group",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La verdadera respuesta *al título*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young man portrait thinking street",
+                "lado": "der",
+                "titular": "La lección de fondo",
+                "apoyo": "Sirve para cualquier moneda compartida, no solo para el euro.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-07",
+          "vo": "Compartir moneda con alguien es aceptar que ya no puedes ajustar tu precio frente a él. Le regalas competitividad si eres fuerte, y se la quitas si eres débil. Salir no deshace eso: solo lo hace de golpe.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Salir no lo deshace. *Lo hace de golpe*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rope pulling tension hands two",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Así que volvamos a la pregunta del título. ¿Qué pasaría si Alemania sale del euro?",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "camara": "push",
+              "rotulo": {
+                "texto": "¿Qué pasaría *si sale*?"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "El nuevo marco subiría entre un quince y un veinticinco por ciento, según el propio Fondo Monetario. Y el ochenta y tres por ciento de la economía alemana depende de vender fuera.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german factory production line workers",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "El nuevo marco",
+                "texto": "+15 a 25 %, sobre un país que *vive de vender fuera*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "Las empresas con deuda emitida fuera cobrarían en una moneda cara y pagarían en una barata. Y el billón del sistema de pagos dejaría de ser un apunte para convertirse en una negociación imposible.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman portrait worried office",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "1,03 billones",
+                "titular": "El apunte que se vuelve negociación",
+                "apoyo": "Y las empresas cobrando en moneda cara y pagando en moneda barata."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty negotiation table chairs room",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Nada de esto hay que imaginárselo. Alemania cambió de moneda en mil novecientos noventa y su industria del este perdió el cuarenta por ciento de la producción en un año. Suiza soltó la suya en dos mil quince y su moneda subió un catorce por ciento en una mañana.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "historic photo factory workers old",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "1990 y 2015. *Los dos ya pasaron*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "swiss man portrait watchmaker",
+                "lado": "izq",
+                "cifra": "2015",
+                "titular": "Y Suiza soltó la suya",
+                "apoyo": "Su moneda subió un 14 % frente al euro en una sola mañana.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "Los dos casos ya ocurrieron, con nombre y fecha. Y los dos dicen lo mismo: el problema nunca es la moneda que eliges. Es lo que le pasa a tus precios el día que cambias de moneda.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "price tag label store product",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "El problema nunca es la moneda",
+                "texto": "Es *lo que le pasa a tus precios*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b10-06",
+          "vo": "Por eso el país que más se queja del euro es también el que más tiene que perder si desaparece. Y esa es la razón, mucho más que los tratados, por la que Alemania no se va a ir.",
+          "voz": {
+            "speed": 0.91
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El que más se queja es *el que más pierde*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "berlin skyline dusk city lights",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b10-07",
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "¿Qué Pasaría Si ALEMANIA Sale Del Euro? (Ya Lo Hizo Una Vez)",
+    "descripcion": "En septiembre de 2026 el partido más votado en las encuestas alemanas es AfD, con un 27,9 %. Su líder ha prometido, entre otras cosas, sacar a Alemania del euro. Así que esto ya no es una pregunta de barra de bar.\n\nLa pregunta interesante no es si Alemania puede irse. Puede. La pregunta es qué pasaría al día siguiente. Y para responderla no hace falta imaginarse nada, porque Alemania ya cambió de moneda una vez: el 1 de julio de 1990.\n\nAquel día se convirtieron sueldos, pensiones y ahorros pequeños del este a uno por uno con el marco occidental. Era generoso y políticamente comprensible, y era una barbaridad económica. Menos de una quinta parte de la industria del este seguía siendo competitiva a ese cambio. La producción industrial cayó alrededor de un 40 % en un solo año, el PIB se hundió un 15,1 %, entre 6,8 y 8 millones de trabajadores cobraron ayudas por reducción de jornada, y el paro superó el 20 % en 1991. No lo provocó una guerra ni una crisis financiera: lo provocó cambiar de moneda al tipo de cambio equivocado.\n\nCon eso en la mano vamos al escenario, y lo aviso claramente en el vídeo: la mitad son datos y la otra mitad es un ejercicio.\n\nEl FMI calcula que el euro está infravalorado para Alemania entre un 15 y un 25 %. Un marco alemán valdría bastante más que el euro de hoy. Y esa es la mala noticia, no la buena: el comercio exterior equivale a cerca del 83 % de lo que produce Alemania. No es un país que exporta, es un país que existe para exportar.\n\nSuiza vivió exactamente eso el 15 de enero de 2015, cuando su banco central soltó el franco y la moneda se disparó un 14 % frente al euro en cuestión de minutos. Todo lo que vendían sus exportadores amaneció un 14 % más caro sin que hubieran hecho nada mal.\n\nVemos también el famoso billón de euros, que casi nadie explica bien: a 31 de julio de 2026 el Bundesbank tenía 1,037 billones a su favor en el sistema de pagos del euro. No es un préstamo ni una deuda: es el registro contable de veinte años entrando más dinero del que salía. El propio Bundesbank dice que no hay riesgo mientras el euro siga existiendo tal y como es. Ahí está la trampa de la frase.\n\nY el problema legal, que es el peor de todos: la lex monetae permite convertir a marcos todo lo firmado bajo ley alemana, pero no lo firmado bajo ley extranjera. Un bono emitido en París se seguiría pagando en euros. Cobrar en moneda cara y deber en moneda barata, multiplicado por miles de empresas, ya no es un problema de tipo de cambio: es una crisis financiera.\n\nTambién está lo que juega a favor de quien defiende la salida, porque tiene un argumento bueno: esa infravaloración funciona, leída al revés, como una subvención permanente a la exportación alemana. De ahí salen los 104.500 millones de superávit comercial de solo seis meses de 2025.\n\nFUENTES\nDeutsche Bundesbank — saldos TARGET del sistema de pagos, julio de 2026\nFondo Monetario Internacional — infravaloración del tipo de cambio real alemán\nNBER y estudios sobre la unificación monetaria alemana de 1990 — caída del PIB y de la producción industrial del este, reducción de jornada y paro\nBanco Nacional de Suiza y datos de mercado — 15 de enero de 2015\nDestatis — superávit comercial alemán y peso del comercio exterior\nBanco Mundial — comercio sobre PIB\nEncuestas de intención de voto y de opinión en Alemania, 2026\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\nNota importante: en este vídeo se distingue en todo momento entre dato y escenario. 1990, 2015, los saldos del Bundesbank y las cifras comerciales son datos comprobables. Lo que le pasaría al nuevo marco es un ejercicio construido sobre esas cifras, no una predicción.\n\n#Alemania #Euro #Economía",
+    "etiquetas": [
+      "alemania",
+      "euro",
+      "salir del euro",
+      "dexit",
+      "marco aleman",
+      "deutsche mark",
+      "afd",
+      "target2",
+      "bundesbank",
+      "fmi",
+      "tipo de cambio",
+      "exportaciones alemania",
+      "reunificacion alemana",
+      "1990",
+      "union monetaria",
+      "franco suizo",
+      "banco nacional de suiza",
+      "lex monetae",
+      "deuda",
+      "zona euro",
+      "inflacion importada",
+      "superavit comercial",
+      "economia europea",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "que pasaria si",
+      "moneda unica"
+    ]
+  }
+}

@@ -48,6 +48,11 @@
       "slug": "china-inmobiliario",
       "titulo": "CHINA: El Colapso Que Lleva Cuatro Años En Silencio",
       "fecha": "2026-09-04"
+    },
+    {
+      "slug": "alemania-euro",
+      "titulo": "¿Qué Pasaría Si ALEMANIA Sale Del Euro? (Ya Lo Hizo Una Vez)",
+      "fecha": "2026-09-07"
     }
   ],
   "cola": [
@@ -162,13 +167,6 @@
       "angulo": "El yuan digital y sus pruebas reales en China: caducidad programada, trazabilidad, cuánto se usa de verdad. El euro digital contado a través de un caso concreto en vez de en abstracto.",
       "region": "asia",
       "pais": "china"
-    },
-    {
-      "slug": "alemania-euro",
-      "titulo": "¿Qué Pasaría Si ALEMANIA Sale Del Euro?",
-      "angulo": "Ejercicio de escenario anclado en cifras reales: saldos TARGET2, peso exportador, y qué pasaría con la deuda denominada en euros. Dejar muy claro qué es dato y qué es escenario.",
-      "region": "europa",
-      "pais": "alemania"
     },
     {
       "slug": "petrodolar",
