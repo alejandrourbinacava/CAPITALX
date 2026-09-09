@@ -53,6 +53,11 @@
       "slug": "alemania-euro",
       "titulo": "¿Qué Pasaría Si ALEMANIA Sale Del Euro? (Ya Lo Hizo Una Vez)",
       "fecha": "2026-09-07"
+    },
+    {
+      "slug": "argentina",
+      "titulo": "ARGENTINA: Cien Años Cayendo (Y Nunca Fue Tan Rica Como Crees)",
+      "fecha": "2026-09-09"
     }
   ],
   "cola": [
@@ -188,13 +193,6 @@
       "angulo": "Coste de los cuidados y de las residencias frente al patrimonio medio de un jubilado, esperanza de vida, e impuesto de sucesiones por comunidad.",
       "region": "europa",
       "pais": "espana"
-    },
-    {
-      "slug": "argentina",
-      "titulo": "ARGENTINA: Cien Años Cayendo",
-      "angulo": "De estar entre los países más ricos del mundo a hoy: renta per cápita comparada a lo largo del siglo, inflación e impagos. Sin mapa: no hay datos de Sudamérica en el sistema.",
-      "region": null,
-      "pais": null
     },
     {
       "slug": "sudafrica",

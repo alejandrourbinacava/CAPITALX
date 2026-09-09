@@ -1,0 +1,1986 @@
+{
+  "slug": "argentina",
+  "titulo": "ARGENTINA: Cien Años Cayendo (Y Nunca Fue Tan Rica Como Crees)",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frio",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "En mil ochocientos noventa y cinco, el país con la renta por habitante más alta del mundo no era Estados Unidos, ni Reino Unido, ni Alemania. Era Argentina.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait vintage historic formal",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "1895",
+                "titular": "El país más rico del mundo por habitante",
+                "apoyo": "No era Estados Unidos, ni Reino Unido, ni Alemania. Era Argentina."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "buenos aires historic architecture street",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Y no era un espejismo de un año. En mil novecientos diez seguía por delante de Francia y de Alemania. En mil novecientos cuarenta y siete todavía estaba entre los diez primeros del mundo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PUESTO DE ARGENTINA EN RENTA POR HABITANTE",
+              "fuente": "Maddison · Our World in Data",
+              "barras": {
+                "unidad": "Puesto mundial",
+                "datos": [
+                  {
+                    "etiqueta": "1895",
+                    "valor": 1,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "1947",
+                    "valor": 10,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old grain port ships historic",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Hoy la renta por habitante de Argentina son unos catorce mil trescientos cincuenta dólares. La de Australia, sesenta y cinco mil seiscientos.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "RENTA POR HABITANTE EN 2025",
+              "fuente": "Banco Mundial",
+              "barras": {
+                "unidad": "Dólares por habitante",
+                "datos": [
+                  {
+                    "etiqueta": "Argentina",
+                    "valor": 14350,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Australia",
+                    "valor": 65656,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sydney harbour modern city skyline",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Cuatro veces y media por debajo. Y elijo Australia a propósito, porque en mil novecientos los dos países eran casi la misma cosa: campo enorme, poca gente, exportadores de carne y grano.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cattle field farm landscape wide",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "kicker": "En 1900 eran lo mismo",
+                "texto": "Campo enorme, poca gente, *carne y grano*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Empezaron en el mismo sitio y terminaron a cuatro veces y media de distancia. Y hay una explicación fácil para eso, que es la que oyes siempre y es incompleta.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "two paths diverging road landscape",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La explicación fácil *está incompleta*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Porque la caída argentina no empezó con quien tú crees. Empezó mucho antes, y empezó con algo que estaba mal desde el principio, justo en los años en que el país parecía el más rico del planeta.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait looking down thoughtful",
+                "lado": "izq",
+                "titular": "Estaba mal desde el principio",
+                "apoyo": "Justo en los años en que el país parecía el más rico del planeta.",
+                "tono": "carmin"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Justo cuando parecía *el más rico del planeta*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Lo que vamos a ver",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Vemos de qué estaba hecha esa riqueza, por qué se deshizo, y qué está pasando ahora mismo, que es lo más interesante de todo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "LO QUE VEMOS AQUÍ",
+              "lista": {
+                "titulo": "Tres cosas",
+                "puntos": [
+                  "De qué estaba hecha aquella riqueza",
+                  "Por qué se deshizo, con fechas",
+                  "Qué está pasando ahora mismo"
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "argentina flag building government",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Y al final, por qué esto le importa a alguien que vive en México o en España. Porque el mecanismo argentino no es exótico: es solo más rápido.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person walking city street thoughtful",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "No es exótico. Es *más rápido*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "De que estaba hecha la riqueza",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Empecemos por la riqueza, porque era completamente real. Argentina tenía la pampa: una de las tierras más fértiles del planeta, llana, sin piedras y sin apenas necesidad de trabajo previo para dar cosecha.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "vast wheat field flat horizon",
+                "tono": "ocre"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "LA PAMPA",
+                "texto": "De las tierras más fértiles *del planeta*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Justo cuando aparecieron el barco frigorífico y el ferrocarril, es decir, justo cuando Europa se podía comer esa carne. Argentina se hizo rica vendiéndole comida a un continente entero.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "grua",
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old steam train railway historic",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Vendiéndole comida *a un continente*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "dock worker portrait historic port",
+                "lado": "der",
+                "titular": "El barco frigorífico y el ferrocarril",
+                "apoyo": "Justo cuando Europa se podía comer esa carne. El momento lo era todo.",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Y llegó gente. Millones de italianos y de españoles cruzaron el Atlántico para trabajar allí, en la misma época en que otros iban a Nueva York. Buenos Aires se construyó imitando a París.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "immigrant family portrait vintage luggage",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Millones cruzaron el Atlántico",
+                "apoyo": "Italianos y españoles, en la misma época en que otros iban a Nueva York."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "grand european style building facade",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Para hacerse una idea de la escala: en aquellos años, para un italiano o un español pobre, Buenos Aires era un destino tan razonable como Nueva York. Y muchísimos eligieron Buenos Aires.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young man portrait vintage immigrant cap",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Tan razonable como Nueva York",
+                "acuerdo": "",
+                "apoyo": "Para un italiano o un español pobre, Buenos Aires era el otro gran destino."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowded ship deck passengers historic",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Aquello no era propaganda. Era un país que de verdad estaba arriba del todo, y que además lo parecía.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "opera house grand interior ornate",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Estaba arriba. Y además *lo parecía*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Pero fíjate en cómo se generaba esa riqueza, porque ahí está todo. Argentina era rica por lo que salía de su suelo, no por lo que sabían hacer sus habitantes.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hands holding soil earth farming",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "Aquí está todo",
+                "texto": "Rica por *su suelo*, no por *su gente*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Y eso *no es lo mismo*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "La grieta que ya estaba",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Y aquí llega el dato que cambia toda la historia, y que casi nunca aparece cuando se cuenta la Argentina de mil novecientos.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "historian portrait books archive",
+                "lado": "der",
+                "titular": "El dato que cambia toda la historia",
+                "apoyo": "Y que casi nunca aparece cuando se cuenta la Argentina de 1900.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "En mil ochocientos noventa y cinco, cuando Argentina era el país más rico del mundo por habitante, sabía leer y escribir el cuarenta y seis coma siete por ciento de su población.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "ALFABETIZACIÓN EN ARGENTINA · 1895",
+              "fuente": "Censos históricos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 46.7,
+                "etiqueta": "por ciento sabía leer y escribir",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old classroom desks vintage school",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Menos de la mitad. En Australia, en mil novecientos, era el setenta y tres por ciento. En Canadá, el ochenta y dos coma nueve.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "SABÍAN LEER Y ESCRIBIR, HACIA 1900",
+              "fuente": "Censos históricos comparados",
+              "barras": {
+                "unidad": "Porcentaje de la población",
+                "sufijo": "%",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "Argentina",
+                    "valor": 46.7,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Australia",
+                    "valor": 73,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Canadá",
+                    "valor": 82.9,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "child reading book old photo",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Los tres países eran igual de ricos y exportaban lo mismo. Pero dos de ellos tenían una población capaz de leer un manual, y el tercero no.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worker portrait reading manual tools",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Dos podían leer un manual",
+                "apoyo": "Los tres eran igual de ricos y exportaban lo mismo. La diferencia estaba en otra parte."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "engineering workshop old tools bench",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Y hay una segunda pieza que encaja con esa. La pampa era tan fértil y tan fácil de explotar que no hacía falta inventar nada para ganar dinero con ella. Solo hacía falta tenerla.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "large estate farmland aerial fields",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "No hacía falta inventar nada. *Solo tenerla*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "villa"
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "Y la tenían muy pocos. Una élite terrateniente concentrada, que cobraba una renta enorme sin necesidad de mejorar nada, ni de montar una industria, ni de formar a nadie.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "wealthy man portrait vintage suit estate",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Una élite muy pequeña",
+                "apoyo": "Cobraba una renta enorme sin mejorar nada, sin industria y sin formar a nadie."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "grand mansion interior old wealth",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-09",
+          "vo": "Y no es que faltara dinero para escuelas: el país era el más rico del mundo. Es que a quien mandaba no le hacía falta un país instruido para seguir cobrando por su tierra.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "schoolboy portrait old vintage",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "No es que faltara el dinero",
+                "apoyo": "Era el país más rico del mundo. Es que a quien mandaba no le hacía falta."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rural village old house poor",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-07",
+          "vo": "Australia y Canadá tenían recursos peores. Y por eso tuvieron que aprender a hacer cosas con ellos. Argentina no tuvo que aprender nada, porque el suelo ya se lo daba hecho.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "camara": "push",
+              "rotulo": {
+                "texto": "Tenían peores recursos. Por eso *aprendieron*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "factory workers assembly historic",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b3-08",
+          "vo": "Ese es el defecto que estaba ahí desde el primer día. Argentina nunca fue un país productivo que se hizo rico. Fue un país con suerte geológica al que le pagaban muy bien por su tierra.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "golden wheat close up harvest",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "El defecto del primer día",
+                "texto": "Suerte geológica, *no productividad*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Y por la suerte *no siempre pagan igual*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "La caida, medida",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Y en cuanto dejaron de pagar bien por la tierra, se vio. El primer quiebre está fechado: mil novecientos treinta y cinco, justo después del golpe militar de mil novecientos treinta.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "military officer portrait historic uniform",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "1935",
+                "titular": "El primer quiebre está fechado",
+                "apoyo": "Justo después del golpe militar de 1930, cuando el país empieza a cerrarse."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "depression era street historic photo",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "A partir de ahí Argentina se cierra. Sustituye lo que compraba fuera por industria propia protegida con aranceles, en un mercado interno pequeño y sin competencia que la obligue a mejorar.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed border gate barrier",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "texto": "Industria propia, *sin competencia*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Y la caída se puede medir con un solo número. La renta argentina comparada con la media de los países ricos era el ochenta y cuatro por ciento en mil novecientos cincuenta.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "downward staircase concrete perspective",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "kicker": "1950",
+                "texto": "El *84 %* de los países ricos"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "En mil novecientos setenta y tres había bajado al sesenta y cinco por ciento. Y en mil novecientos ochenta y siete, al cuarenta y tres.",
+          "voz": {
+            "speed": 0.97
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "RENTA ARGENTINA FRENTE A LA MEDIA DE LOS PAÍSES RICOS",
+              "fuente": "Della Paolera y Taylor",
+              "barras": {
+                "unidad": "Porcentaje de la renta media de la OCDE",
+                "sufijo": "%",
+                "datos": [
+                  {
+                    "etiqueta": "1950",
+                    "valor": 84,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1973",
+                    "valor": 65,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1987",
+                    "valor": 43,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "abandoned industrial building decay",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Y hay un segundo quiebre fechado, en mil novecientos setenta y cinco. A partir de ahí Estados Unidos acelera y Argentina se frena, y la distancia deja de abrirse despacio para abrirse deprisa.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait 1970s vintage serious",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "1975",
+                "titular": "El segundo quiebre",
+                "apoyo": "Estados Unidos acelera, Argentina se frena, y la distancia se abre deprisa."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old city street 1970s cars",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Del ochenta y cuatro al cuarenta y tres en treinta y siete años. Argentina no se hundió de golpe: se fue quedando quieta mientras los demás seguían andando. Que es la forma más silenciosa de empobrecerse.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "escalator people moving station",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Se quedó quieta *mientras los demás andaban*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "La forma más silenciosa *de empobrecerse*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "La maquina de imprimir",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Y cuando un país deja de producir suficiente pero no quiere gastar menos, aparece siempre el mismo atajo: imprimir el dinero que falta.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "printing press money banknotes",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "Siempre el mismo atajo",
+                "texto": "*Imprimir el dinero que falta*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "En mil novecientos ochenta y nueve, la inflación argentina fue del cuatro mil novecientos veintitrés por ciento. No es una errata: casi cinco mil por ciento en un año.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "INFLACIÓN EN ARGENTINA · 1989",
+              "fuente": "INDEC",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4923,
+                "etiqueta": "por ciento en un solo año",
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "supermarket empty shelves crowd",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Y medido entre marzo de mil novecientos ochenta y nueve y marzo de mil novecientos noventa, superó el veinte mil por ciento.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait shopping worried market",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "+20.000 %",
+                "titular": "De marzo de 1989 a marzo de 1990",
+                "apoyo": "Los precios cambiaban dos veces el mismo día en el mismo comercio."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "price tags labels store many",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "A ese nivel, el dinero deja de funcionar. Los precios cambian dos veces el mismo día y ahorrar en tu propia moneda se convierte en una forma segura de perder dinero.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old banknotes pile worthless currency",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Ahorrar en tu moneda es *perder dinero*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Y ahí nace la costumbre argentina de ahorrar en dólares, que no es una manía cultural. Es lo que hace cualquiera cuando su moneda le ha fallado dos generaciones seguidas.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dollar bills hands counting cash",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "No es una manía cultural",
+                "texto": "Es lo que harías *tú*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Su moneda falló *dos generaciones seguidas*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Nueve impagos",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Y cuando ni imprimiendo llega, se deja de pagar. Argentina ha dejado de pagar su deuda soberana nueve veces desde que es independiente, en mil ochocientos dieciséis.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "IMPAGOS DE DEUDA SOBERANA DESDE 1816",
+              "fuente": "Recuento histórico de impagos soberanos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 9,
+                "etiqueta": "veces que ha dejado de pagar"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stamped document rejected paper",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Nueve. Y el de dos mil uno fue, en su momento, el mayor impago de la historia: más de cien mil millones de dólares, y por algunas cuentas bastante más de cien.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait protest crowd angry",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "2001",
+                "titular": "El mayor impago de la historia",
+                "apoyo": "Más de cien mil millones de dólares. Con cinco presidentes en once días."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank closed shutters crowd protest",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Aquello vino con corralito: la gente no pudo sacar su propio dinero del banco. Hubo cinco presidentes en once días. Y muchos ahorros de toda una vida se convirtieron en otra cosa por decreto.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "atm queue people waiting night",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "EL CORRALITO",
+                "texto": "No pudieron sacar *su propio dinero*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b6-07",
+          "vo": "Y conviene entender lo que eso significa para una familia normal. No es una cifra en un periódico: es abrir el banco un lunes y descubrir que tu dinero ya no es tuyo del todo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older woman portrait worried holding papers",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Para una familia normal",
+                "apoyo": "Abrir el banco un lunes y descubrir que tu dinero ya no es del todo tuyo."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty bank counter closed window",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Y no fue el último. Volvió a dejar de pagar en dos mil catorce y otra vez en dos mil veinte. Tres impagos en veinte años.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "IMPAGOS DESDE 2001",
+              "fuente": "Parlamento Europeo · informes sobre la deuda argentina",
+              "barras": {
+                "unidad": "Año del impago",
+                "datos": [
+                  {
+                    "etiqueta": "2001",
+                    "valor": 2001,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "2014",
+                    "valor": 2014,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2020",
+                    "valor": 2020,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar dates paper wall",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y esto tiene una consecuencia que dura décadas. Un país que ha fallado nueve veces paga un interés altísimo cuando pide prestado, si es que alguien se lo presta.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "trading screen bond yields numbers",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Paga *un interés altísimo*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "Y si el dinero cuesta carísimo, nadie construye una fábrica que tarde quince años en devolverlo. Por eso la desconfianza no es un problema del pasado: es lo que impide crecer hoy.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "unfinished construction site stopped",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "No es un problema del pasado",
+                "texto": "Es lo que *impide crecer hoy*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Nadie construye a quince años *con ese interés*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Y ahora dejo de caer",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y ahora la parte que hace que este vídeo no sea solo historia, porque en los últimos dos años ha pasado algo medible.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait city street hopeful",
+                "lado": "izq",
+                "titular": "En dos años ha pasado algo medible",
+                "apoyo": "Y esta es la parte que hace que este vídeo no sea solo historia.",
+                "tono": "ocre"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "En diciembre de dos mil veintitrés, los precios subían un veinticinco coma cinco por ciento en un solo mes. En julio de dos mil veintiséis subían un dos coma uno por ciento mensual.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "INFLACIÓN MENSUAL EN ARGENTINA",
+              "fuente": "INDEC",
+              "barras": {
+                "unidad": "Subida de precios en un mes",
+                "sufijo": "%",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "Diciembre de 2023",
+                    "valor": 25.5,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Julio de 2026",
+                    "valor": 2.1,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "grocery store shelves prices calm",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "En términos anuales, del doscientos once por ciento en dos mil veinticuatro al treinta y tres coma ocho en julio de dos mil veintiséis. Sigue siendo altísimo para cualquier país, y es una caída enorme.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "line chart descending screen data",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Del *211 %* al *33,8 %*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "La pobreza cayó al veintiocho coma dos por ciento en el segundo semestre de dos mil veinticinco: casi diez puntos menos que un año antes, y el nivel más bajo en seis años.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "family portrait home simple kitchen",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "28,2 %",
+                "titular": "La pobreza, en mínimo de seis años",
+                "apoyo": "Casi diez puntos menos que un año antes."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "neighbourhood street houses people",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Las reservas del banco central pasaron de veintiún mil millones de dólares a más de cincuenta mil. Y el producto interior bruto rebotó un cuatro coma cuatro por ciento en dos mil veinticinco.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "RESERVAS DEL BANCO CENTRAL",
+              "fuente": "Banco Central de la República Argentina",
+              "de": {
+                "valor": 21000000000,
+                "etiqueta": "diciembre de 2023"
+              },
+              "a": {
+                "valor": 50000000000,
+                "etiqueta": "dólares en 2026"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank vault gold reserves secure",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b7-07",
+          "vo": "Y el peso ya no flota libremente ni está fijado a la fuerza: se mueve dentro de una banda que el Gobierno ajustó en enero de dos mil veintiséis. Un punto intermedio entre las dos cosas que Argentina ya probó.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait counting pesos money",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Ni libre ni fijado",
+                "apoyo": "El peso se mueve dentro de una banda ajustada en enero de 2026."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "currency exchange office window sign",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Después de cien años cayendo, y de nueve impagos, eso es una noticia de verdad. Y hay que decirlo con la misma claridad con la que se dice lo malo.",
+          "voz": {
+            "speed": 0.93
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person looking up hopeful sky",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Es una noticia *de verdad*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Y ahora, como siempre, la parte que juega en contra. Porque hay tres cosas que impiden cantar victoria, y la tercera es la más importante de todo el vídeo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Lo que juega en contra",
+                "texto": "Y la tercera es *la más importante*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty office chairs meeting room",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "La primera: el paro ha subido. Del cinco coma siete por ciento a finales de dos mil veintitrés al siete coma ocho en el segundo trimestre de dos mil veintiséis. Un millón ochocientas mil personas.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DESEMPLEO EN ARGENTINA",
+              "fuente": "INDEC",
+              "barras": {
+                "unidad": "Tasa de paro",
+                "sufijo": "%",
+                "decimales": 1,
+                "datos": [
+                  {
+                    "etiqueta": "Finales de 2023",
+                    "valor": 5.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Segundo trimestre de 2026",
+                    "valor": 7.8,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "man portrait job search worried",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "La segunda: el crecimiento previsto para dos mil veintiséis ha ido bajando. El Fondo Monetario proyectaba un tres coma cinco por ciento, y en julio la estimación ya era del dos coma siete.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist portrait presenting charts",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "La previsión de 2026 va bajando",
+                "apoyo": "Del 3,5 % del FMI al 2,7 % estimado en julio."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock chart flat screen finance",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Y la tercera, que es la que de verdad importa: Argentina ya había hecho esto antes. En mil novecientos noventa y uno ató su moneda al dólar y la inflación desapareció durante diez años.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old newspaper archive headlines historic",
+                "tono": "carmin"
+              },
+              "camara": "panR",
+              "rotulo": {
+                "kicker": "1991",
+                "texto": "Ya lo había hecho *antes*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Diez años de precios estables, de inversión extranjera y de artículos diciendo que Argentina por fin lo había entendido. Y terminó en el corralito y en el mayor impago de la historia.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "journalist portrait newspaper serious",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "\"Argentina por fin lo ha entendido\"",
+                "apoyo": "Se escribió durante diez años. Y acabó en el corralito y en el mayor impago de la historia."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank crisis protest street people",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-06",
+          "vo": "Así que la pregunta útil no es si la inflación está bajando, porque está bajando. Es si esta vez ha cambiado lo de debajo: la productividad, la educación, y la confianza en pagar lo que se debe.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "foundation construction concrete base",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "¿Ha cambiado *lo de debajo*?"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Productividad, educación *y confianza*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y ahora la parte que no va de Argentina, sino de ti.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La parte que va *de ti*.",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Porque el error de fondo de Argentina no fue de izquierdas ni de derechas. Fue confundir tener un recurso valioso con ser un país productivo. Y en eso ha caído mucha gente.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil pump field extraction sunset",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "rotulo": {
+                "kicker": "El error de fondo",
+                "texto": "Tener un recurso *no es ser productivo*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "México lo vimos en este canal: tiene petróleo, tiene la frontera con la mayor economía del mundo, y su productividad lleva treinta y un años cayendo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worker portrait factory latin america",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "31 años",
+                "titular": "México, con petróleo y la mejor frontera del mundo",
+                "apoyo": "Y su productividad total de los factores lleva treinta y un años cayendo."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "border crossing trucks highway",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "España tuvo su versión con el ladrillo: veinte años en que construir casas parecía una industria, hasta que dejó de parecerlo en dos mil ocho.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "unfinished apartment blocks spain coast",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Construir casas *parecía una industria*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "construction worker portrait spain site",
+                "lado": "der",
+                "titular": "España tuvo su versión con el ladrillo",
+                "apoyo": "Veinte años en que construir casas parecía una industria. Hasta 2008.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "El patrón se repite. Un país encuentra algo que le da dinero fácil, deja de invertir en lo aburrido, y cuando ese algo deja de dar dinero descubre que no había construido nada más.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "teacher portrait classroom students",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Lo aburrido es lo que aguanta",
+                "apoyo": "Educación, instituciones y productividad. Nunca da titulares y es lo único que queda."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "students classroom learning study",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Y lo aburrido son siempre las mismas tres cosas: educación, instituciones que funcionen, y una moneda en la que la gente se fíe de ahorrar. Argentina falló en las tres a la vez, y tardó un siglo en notarlo del todo.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "LO ABURRIDO, QUE ES LO QUE AGUANTA",
+              "lista": {
+                "titulo": "Las tres de siempre",
+                "puntos": [
+                  "Educación",
+                  "Instituciones que funcionen",
+                  "Una moneda en la que fiarse"
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "library books shelves quiet",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Así que volvamos al principio. Argentina fue el país más rico del mundo por habitante en mil ochocientos noventa y cinco, y hoy está cuatro veces y media por debajo de Australia.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old photograph album vintage sepia",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Del primero del mundo a *cuatro veces y media abajo*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older man portrait looking back",
+                "lado": "izq",
+                "titular": "Del primero del mundo a cuatro veces y media abajo",
+                "apoyo": "En poco más de un siglo, y sin un solo día de hundimiento.",
+                "tono": "carmin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "Y la respuesta no es un presidente, ni un partido, ni una década. Es que aquella riqueza salía del suelo, y menos de la mitad del país sabía leer mientras salía.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "farmer portrait field hat weathered",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "46,7 %",
+                "titular": "Sabía leer, siendo el país más rico del mundo",
+                "apoyo": "Australia estaba en el 73 % y Canadá en el 82,9 %."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "wheat harvest field golden machinery",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "Todo lo demás vino detrás: cerrarse al mundo, imprimir para tapar el agujero, nueve impagos y dos generaciones ahorrando en una moneda extranjera dentro de su propio país.",
+          "voz": {
+            "speed": 0.95
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dollar bills hidden drawer cash",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Ahorrando en moneda extranjera *en su propio país*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Hoy ha dejado de caer, y eso es verdad y es importante. Pero Argentina ya dejó de caer en mil novecientos noventa y uno, y aquello terminó en el mayor impago de la historia diez años después.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "clock hands time close up",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "kicker": "Ya dejó de caer una vez",
+                "texto": "Y duró *diez años*"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "Por eso la lección de Argentina no es sobre inflación. Es que un país puede ser el más rico del mundo y no ser bueno en nada, y tardar cien años en enterarse.",
+          "voz": {
+            "speed": 0.91
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Ser el más rico del mundo *y no ser bueno en nada*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "buenos aires street evening city",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b10-06",
+          "vo": "Suscríbete si quieres entender cómo se rompen los países ricos antes de que le toque al tuyo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "ARGENTINA: Cien Años Cayendo (Y Nunca Fue Tan Rica Como Crees)",
+    "descripcion": "En 1895 el país con la renta por habitante más alta del mundo no era Estados Unidos, ni Reino Unido, ni Alemania. Era Argentina. En 1910 seguía por delante de Francia y de Alemania, y en 1947 todavía estaba entre los diez primeros del planeta.\n\nHoy su renta por habitante son unos 14.350 dólares. La de Australia, 65.656. Cuatro veces y media por debajo.\n\nElijo Australia a propósito: en 1900 los dos países eran casi la misma cosa. Campo enorme, poca gente, exportadores de carne y grano. Empezaron en el mismo sitio y terminaron a cuatro veces y media de distancia.\n\nY la explicación que oyes siempre está incompleta, porque la caída argentina no empezó con quien tú crees. Empezó con algo que ya estaba mal en los años en que el país parecía el más rico del planeta.\n\nEn 1895, siendo la primera renta del mundo, en Argentina sabía leer y escribir el 46,7 % de la población. En Australia era el 73 % y en Canadá el 82,9 %. Los tres países eran igual de ricos y exportaban lo mismo, pero dos tenían una población capaz de leer un manual y el tercero no.\n\nY encaja con la segunda pieza: la pampa era tan fértil y tan fácil de explotar que no hacía falta inventar nada para ganar dinero con ella, solo tenerla. Y la tenían muy pocos. Australia y Canadá tenían recursos peores, y por eso tuvieron que aprender a hacer cosas con ellos.\n\nDespués vino todo lo demás, y se puede fechar. El primer quiebre en 1935, tras el golpe de 1930, cuando el país se cierra. El segundo en 1975. La renta argentina comparada con la media de los países ricos pasó del 84 % en 1950 al 65 % en 1973 y al 43 % en 1987. Argentina no se hundió de golpe: se quedó quieta mientras los demás seguían andando.\n\nLuego la máquina de imprimir: 4.923 % de inflación en 1989, y más de 20.000 % entre marzo de 1989 y marzo de 1990. Y nueve impagos de deuda soberana desde 1816, con el de 2001 —más de 100.000 millones de dólares— como el mayor de la historia en su momento, corralito incluido.\n\nY la parte que hace que esto no sea solo historia: en los últimos dos años ha pasado algo medible. La inflación mensual bajó del 25,5 % de diciembre de 2023 al 2,1 % de julio de 2026. La anual, del 211 % al 33,8 %. La pobreza cayó al 28,2 %, mínimo de seis años. Las reservas pasaron de 21.000 a más de 50.000 millones de dólares.\n\nTambién está lo que juega en contra, y es serio: el paro subió del 5,7 % al 7,8 %, la previsión de crecimiento para 2026 bajó del 3,5 % al 2,7 %, y sobre todo Argentina ya había hecho esto antes. En 1991 ató su moneda al dólar, la inflación desapareció durante diez años, se escribieron mil artículos diciendo que por fin lo había entendido, y terminó en el corralito y en el mayor impago de la historia.\n\nFUENTES\nMaddison Project y Our World in Data — renta por habitante histórica y puesto mundial de Argentina\nDella Paolera y Taylor — renta argentina frente a la media de la OCDE, 1950-1987\nCensos históricos de Argentina, Australia y Canadá — alfabetización hacia 1900\nINDEC — inflación, pobreza y desempleo\nBanco Central de la República Argentina — reservas internacionales\nParlamento Europeo y recuentos de impagos soberanos — los nueve defaults y el de 2001\nFondo Monetario Internacional — previsiones de crecimiento para 2026\nBanco Mundial — renta por habitante de Argentina y Australia en 2025\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#Argentina #Economía #Inflación",
+    "etiquetas": [
+      "argentina",
+      "economia argentina",
+      "por que argentina es pobre",
+      "inflacion argentina",
+      "hiperinflacion",
+      "corralito",
+      "default argentino",
+      "impago deuda",
+      "milei",
+      "peso argentino",
+      "indec",
+      "pobreza argentina",
+      "argentina 1900",
+      "pais mas rico del mundo",
+      "australia",
+      "alfabetizacion",
+      "pampa",
+      "productividad",
+      "peronismo",
+      "dolar blue",
+      "reservas banco central",
+      "decadencia economica",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "argentina 2026",
+      "historia economica"
+    ]
+  }
+}
