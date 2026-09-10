@@ -1,0 +1,1519 @@
+{
+  "slug": "vivienda-espana",
+  "titulo": "Todos Vamos Justos. Alguien Está Comprando España (Y No Son Los Fondos)",
+  "voz": { "id": "clone_2333475", "nombre": "VOZ DETRAS DEL ENIGMA" },
+  "wpm": 145,
+  "musica": "mystery.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura en frio",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "En España se venden hoy menos casas que hace un año. Las compraventas de vivienda llevan dos trimestres seguidos cayendo. Y el precio del metro cuadrado acaba de marcar el máximo de toda la serie histórica.",
+          "voz": { "speed": 0.94 },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman looking at estate agent window portrait",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "2.487",
+                "titular": "Euros por metro cuadrado",
+                "apoyo": "Máximo histórico. Con menos compradores que hace un año."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "madrid apartment buildings rooftops aerial", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Dos mil cuatrocientos ochenta y siete euros por metro cuadrado. Un nueve por ciento más caro que hace un año, con menos gente comprando que hace un año.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRECIO MEDIO DE LA VIVIENDA · ESPAÑA",
+              "fuente": "Colegio de Registradores · 2T 2026",
+              "barras": {
+                "unidad": "Euros por metro cuadrado",
+                "datos": [
+                  { "etiqueta": "2T 2025", "valor": 2278, "tono": "ink" },
+                  { "etiqueta": "2T 2026", "valor": 2487, "tono": "carmin" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "spanish city street balconies facade", "tono": "ocre" },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Y hay un índice que mide solo la misma vivienda vendida dos veces, para que no haga trampa la mezcla de pisos. Ese índice dice que hoy estamos un treinta y nueve por ciento por encima del pico de dos mil siete.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LA MISMA VIVIENDA, REVENDIDA · SOBRE EL PICO DE 2007",
+              "fuente": "Índice de Precios de Vivienda de Ventas Repetidas",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 39.31, "etiqueta": "por encima del máximo de la burbuja", "decimales": 1, "sufijo": "%" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "abandoned construction site spain crane", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Por encima del pico. No cerca del pico: por encima. Del máximo de la mayor burbuja inmobiliaria que ha vivido este país en toda su historia.",
+          "voz": { "speed": 0.92 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Un *treinta y nueve por ciento* por encima de 2007.", "night": true },
+            { "tipo": "objeto", "objeto": "casa" }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Menos compradores y precio récord a la vez. Eso solo puede pasar por una razón: el que se está retirando del mercado no es el que pone el precio.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "COMPRAVENTAS DE VIVIENDA · VARIACIÓN TRIMESTRAL",
+              "fuente": "Colegio de Registradores · 2T 2026",
+              "barras": {
+                "unidad": "Por ciento",
+                "datos": [
+                  { "etiqueta": "Operaciones", "valor": -5.7, "tono": "carmin" },
+                  { "etiqueta": "Precio", "valor": 2.4, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "for sale sign apartment building spain", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Así que la pregunta no es por qué sube. La pregunta es quién sigue comprando cuando todo el mundo dice que no llega a fin de mes.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Todos vamos justos. *Alguien está comprando.*", "night": true },
+            { "tipo": "objeto", "objeto": "interrogante" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Lo que vamos a ver",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Vamos a ver tres cosas, con datos oficiales y con fecha. Quién compra de verdad en España hoy. Por qué el villano que todos nombramos es el ocho por ciento del problema. Y por qué el precio no puede bajar aunque el comprador desaparezca.",
+          "voz": { "speed": 0.98 },
+          "tipo": "lista",
+          "escenas": [
+            {
+              "tipo": "lista",
+              "kicker": "LO QUE VEMOS AQUÍ",
+              "lista": {
+                "titulo": "Tres cosas",
+                "puntos": [
+                  "Quién compra de verdad, con nombre y cifra",
+                  "Por qué el culpable habitual es el ocho por ciento",
+                  "Por qué el precio no puede bajar"
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "housing keys handover close up", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Te adelanto la conclusión, porque no le va a gustar a nadie. El que está comprando España no es un fondo de Wall Street. Es tu vecino. Y un jubilado holandés.",
+          "voz": { "speed": 0.94 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "villa" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "alicante coast apartments beach sunny", "tono": "ocre" },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Y el motivo por el que ellos pueden comprar es exactamente el mismo motivo por el que tú no puedes: que ya tenían una casa antes.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Compran *porque ya tenían*.", "night": true },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly couple portrait smiling",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El comprador medio ya era propietario",
+                "apoyo": "La casa nueva la paga la casa vieja."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Los tres escalones",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Empecemos por abajo. Por el que todavía no tiene nada. El alquiler medio que paga una persona joven en España son mil ciento setenta y seis euros al mes.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "ALQUILER MEDIO DE UNA PERSONA JOVEN",
+              "fuente": "Observatorio de Emancipación · Consejo de la Juventud",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 1176, "etiqueta": "euros al mes", "decimales": 0, "sufijo": " €" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "small apartment interior young person", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "El salario neto mediano de una persona joven son catorce mil doscientos noventa y dos euros al año. Haz la división. El alquiler se come el noventa y nueve por ciento de lo que cobra.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "ALQUILER SOBRE SALARIO · PERSONA JOVEN",
+              "fuente": "Consejo de la Juventud de España · 2026",
+              "barras": {
+                "unidad": "Por ciento del salario",
+                "datos": [
+                  { "etiqueta": "Alquiler", "valor": 98.7, "tono": "carmin" },
+                  { "etiqueta": "Le queda", "valor": 1.3, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young woman worried portrait indoor",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "98,7 %",
+                "titular": "Del sueldo, al alquiler",
+                "apoyo": "Emanciparse en solitario ya no es una decisión: es una imposibilidad aritmética."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Por eso solo se emancipa el catorce coma cinco por ciento de los jóvenes de dieciséis a veintinueve años. Es el mínimo desde que existe el registro. La edad media para irse de casa está ya en los treinta.",
+          "voz": { "speed": 0.98 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TASA DE EMANCIPACIÓN · 16 A 29 AÑOS",
+              "fuente": "Consejo de la Juventud de España · mayo de 2026",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 14.5, "etiqueta": "por ciento vive fuera de casa de sus padres", "decimales": 1, "sufijo": "%" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "teenager bedroom family home spain", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Segundo escalón. El que compra su primera vivienda. Ese dedica un treinta y dos por ciento de sus ingresos a la hipoteca, con una cuota media de setecientos sesenta y nueve euros al mes.",
+          "voz": { "speed": 0.96 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "casa" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "couple signing mortgage papers bank office", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Y ahora el tercer escalón, que es donde está toda la historia. El que compra su segunda vivienda. Gana cinco mil trescientos cincuenta y seis euros al mes. Y paga por ella quinientos ochenta y nueve.",
+          "voz": { "speed": 0.96 },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman portrait suit relaxed",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "42,7",
+                "titular": "La edad media del que compra la segunda",
+                "apoyo": "Gana 5.356 € al mes. Paga 589 € de hipoteca."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "coastal villa terrace sea view spain", "tono": "ocre" },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Menos cuota que el que compra la primera. Un once por ciento de sus ingresos. La segunda casa le sale más barata de sostener que la primera casa a cualquiera de los otros dos.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PORCENTAJE DE LOS INGRESOS QUE SE VA EN VIVIENDA",
+              "fuente": "Consejo de la Juventud · barómetros hipotecarios 2026",
+              "barras": {
+                "unidad": "Por ciento de los ingresos",
+                "datos": [
+                  { "etiqueta": "Joven de alquiler", "valor": 98.7, "tono": "carmin" },
+                  { "etiqueta": "Primera vivienda", "valor": 32.7, "tono": "ocre" },
+                  { "etiqueta": "Segunda vivienda", "valor": 11, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "swimming pool holiday house spain", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Noventa y nueve por ciento. Treinta y dos por ciento. Once por ciento. Ese es el país entero resumido en tres números. Cuanto más tienes, más barato te sale tener más.",
+          "voz": { "speed": 0.92 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Cuanto más tienes, *más barato te sale tener más*.", "night": true },
+            { "tipo": "objeto", "objeto": "balanza" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "El villano que no es",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Ahora vamos al culpable. Si preguntas por la calle quién ha comprado España, la respuesta llega en dos segundos y es siempre la misma. Los fondos.",
+          "voz": { "speed": 0.96 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "maletero" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "glass office towers financial district", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "El Ministerio de Consumo, junto con el Consejo Superior de Investigaciones Científicas, contó una por una las viviendas de alquiler de este país. Los fondos y las empresas tienen doscientas veintitrés mil.",
+          "voz": { "speed": 0.98 },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "DE CADA CIEN PISOS DE ALQUILER EN ESPAÑA",
+              "fuente": "Ministerio de Consumo y CSIC · datos de 2023",
+              "gente": {
+                "total": 100,
+                "destacados": 8,
+                "escala": 0.6,
+                "etiqueta": "Pisos de alquiler",
+                "etiquetaDestacados": "Son de fondos o empresas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "residential block windows repeating pattern", "tono": "ocre" },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Doscientas veintitrés mil sobre un parque de dos millones y medio de viviendas alquiladas. Es el ocho por ciento. El villano oficial de todos los debates es el ocho por ciento.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "ALQUILER EN MANOS DE FONDOS Y EMPRESAS",
+              "fuente": "Ministerio de Consumo y CSIC",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 8, "etiqueta": "por ciento del parque de alquiler", "decimales": 0, "sufijo": "%" }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "executive man portrait office window",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "8 %",
+                "titular": "Todo el ruido, para esta cifra",
+                "apoyo": "223.552 viviendas sobre un parque de 2,57 millones."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "¿Y el resto? Un cuarenta y tres por ciento está en manos de particulares que tienen más de una vivienda. Personas físicas. Con nombre, con dos apellidos y con tres pisos.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DE QUIÉN SON LOS PISOS DE ALQUILER",
+              "fuente": "Ministerio de Consumo y CSIC · datos de 2023",
+              "barras": {
+                "unidad": "Por ciento del parque",
+                "datos": [
+                  { "etiqueta": "Fondos y empresas", "valor": 8, "tono": "ink" },
+                  { "etiqueta": "Vivienda pública", "valor": 9, "tono": "ocre" },
+                  { "etiqueta": "Particular con varios", "valor": 43, "tono": "carmin" },
+                  { "etiqueta": "Particular con uno", "valor": 40, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "neighbourhood street spain apartment doorway", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "De los pisos de alquiler que pertenecen a particulares, más de la mitad, un cincuenta y tres por ciento, son de alguien que tiene varios. El pequeño casero mayoritario es un mito estadístico.",
+          "voz": { "speed": 0.96 },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait keys hand casual",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "52,8 %",
+                "titular": "El casero medio no tiene un piso",
+                "apoyo": "Más de la mitad del alquiler particular es de multipropietarios."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "mailboxes apartment entrance hall", "tono": "ocre" },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "Y el dato que lo remata. Solo el cinco coma siete por ciento de los adultos españoles cobra un alquiler. Más de uno de cada cinco lo paga.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Lo cobra el *5,7 %*. Lo paga *más del 20 %*.", "night": true },
+            { "tipo": "objeto", "objeto": "balanza" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Discutiendo el medio por ciento",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Segundo culpable de la lista. El extranjero rico que compra con la golden visa. Ese permiso de residencia que España daba a quien invirtiera medio millón de euros en ladrillo.",
+          "voz": { "speed": 0.96 },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "wealthy man portrait passport documents",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "500.000 €",
+                "titular": "El precio de una residencia española",
+                "apoyo": "Invertir esa cantidad en vivienda daba permiso para vivir aquí."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "luxury apartment marbella terrace", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Se aprobó en dos mil trece. En once años se concedieron catorce mil quinientas setenta y seis. En total. En once años enteros.",
+          "voz": { "speed": 0.94 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "GOLDEN VISA CONCEDIDAS · 2013 A 2023",
+              "fuente": "Ministerio de Vivienda · Portal de Transparencia",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 14576, "etiqueta": "en once años", "decimales": 0 }
+            },
+            { "tipo": "objeto", "objeto": "carpeta" }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "En España se venden más de medio millón de viviendas al año. Las golden visa afectaban a menos del uno por ciento de las compraventas. Al cero coma cinco, según los cálculos del sector.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PESO REAL DE LA GOLDEN VISA EN EL MERCADO",
+              "fuente": "Estimación del sector inmobiliario · abril de 2025",
+              "barras": {
+                "unidad": "Por ciento de las compraventas",
+                "datos": [
+                  { "etiqueta": "Golden visa", "valor": 0.5, "tono": "carmin" },
+                  { "etiqueta": "Todo lo demás", "valor": 99.5, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "spanish notary office documents desk", "tono": "ocre" },
+              "camara": "estatico"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "El tres de abril de dos mil veinticinco entró en vigor la ley orgánica que las eliminó por completo. Se acabó. Doce años después, llegó la medida estrella contra el comprador extranjero.",
+          "voz": { "speed": 0.96 },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician man portrait podium speech",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "3 abr 2025",
+                "titular": "España pone fin a la golden visa",
+                "apoyo": "Ley Orgánica 1/2025. Doce años después de crearla."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "government building madrid facade columns", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Un año y tres meses más tarde, la compra de vivienda por extranjeros marcó su máximo histórico. Veintiséis mil ochocientas operaciones. En un solo trimestre.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "COMPRAS DE VIVIENDA POR EXTRANJEROS",
+              "fuente": "Colegio de Registradores · 2T 2026",
+              "barras": {
+                "unidad": "Operaciones",
+                "datos": [
+                  { "etiqueta": "Golden visa en 11 años", "valor": 14576, "tono": "ink" },
+                  { "etiqueta": "Extranjeros en 1 trimestre", "valor": 26800, "tono": "carmin" }
+                ]
+              }
+            },
+            { "tipo": "objeto", "objeto": "aeropuerto" }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Veintiséis mil ochocientas en tres meses, contra catorce mil quinientas de golden visa en once años. Estábamos discutiendo el titular, no el mecanismo.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Estábamos discutiendo *el 0,5 %*.", "night": true },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "newspaper headlines printing press", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "El comprador que si existe",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Casi el dieciséis por ciento de las viviendas que se venden en España las compra un extranjero. Es el porcentaje más alto de toda la serie histórica del Colegio de Registradores.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "COMPRAS DE VIVIENDA POR EXTRANJEROS · 2T 2026",
+              "fuente": "Colegio de Registradores de España",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 15.98, "etiqueta": "por ciento del total, máximo histórico", "decimales": 2, "sufijo": "%" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "tourists walking spanish seaside promenade", "tono": "ocre" },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Y no vienen de donde te imaginas. Más de la mitad son de la Unión Europea. Los tres primeros son británicos, neerlandeses y alemanes, y cada uno ronda el siete por ciento del total.",
+          "voz": { "speed": 0.96 },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": { "region": "europa", "destaca": ["reinounido", "holanda", "alemania"] },
+              "kicker": "DE DÓNDE VIENE EL COMPRADOR EXTRANJERO",
+              "fuente": "Colegio de Registradores · 2T 2026"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "british retiree man portrait smiling",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "6,99 %",
+                "titular": "Los británicos, los primeros",
+                "apoyo": "Neerlandeses el 6,94 %. Alemanes el 6,11 %."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "No es un fondo buitre. Es un señor de Manchester, uno de Róterdam y uno de Múnich. Comprando con un sueldo del norte de Europa una casa con precio del sur de Europa.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "NACIONALIDADES QUE MÁS COMPRAN",
+              "fuente": "Colegio de Registradores · 2T 2026",
+              "barras": {
+                "unidad": "Por ciento de la compra extranjera",
+                "datos": [
+                  { "etiqueta": "Reino Unido", "valor": 6.99, "tono": "carmin" },
+                  { "etiqueta": "Países Bajos", "valor": 6.94, "tono": "ocre" },
+                  { "etiqueta": "Alemania", "valor": 6.11, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "expat couple cafe terrace mediterranean", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Y se concentran mucho. En Baleares son el treinta y dos por ciento de las compras. En la Comunidad Valenciana, el treinta y uno. En la provincia de Alicante, el cuarenta y seis.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "COMPRA EXTRANJERA EN ALICANTE",
+              "fuente": "Colegio de Registradores · 2T 2026",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 46.43, "etiqueta": "por ciento de las compras de la provincia", "decimales": 1, "sufijo": "%" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "benidorm skyline beach apartments", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Casi una de cada dos casas que se venden en la provincia de Alicante la compra alguien que no vive en España. Léelo otra vez: una de cada dos.",
+          "voz": { "speed": 0.92 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "En Alicante, *una de cada dos*.", "night": true },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "estate agent woman portrait office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El mercado local dejó de ser local",
+                "apoyo": "El precio ya no lo fija quien vive y trabaja allí."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "Y el Banco de España añade el matiz que importa. Las compras de no residentes son el siete coma cuatro por ciento del total. En el boom de dos mil siete eran el tres coma ocho. Se ha duplicado.",
+          "voz": { "speed": 0.98 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "COMPRAS DE NO RESIDENTES SOBRE EL TOTAL",
+              "fuente": "Banco de España · Informe Anual 2025",
+              "barras": {
+                "unidad": "Por ciento de las operaciones",
+                "datos": [
+                  { "etiqueta": "Boom de 2007", "valor": 3.8, "tono": "ink" },
+                  { "etiqueta": "Hoy", "valor": 7.4, "tono": "carmin" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "airplane landing coastal airport spain", "tono": "ocre" },
+              "camara": "panR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "El mapa de las hipotecas",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Hay una forma de saber quién compra sin preguntárselo a nadie. Mirar cuántos piden una hipoteca. Porque el que necesita una hipoteca es el que necesita un sueldo.",
+          "voz": { "speed": 0.96 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "contable" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "bank branch counter customer waiting", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "En España, algo más del setenta por ciento de las viviendas vendidas se compran con financiación. El resto, casi un treinta por ciento, se paga sin pedirle nada a ningún banco.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "VIVIENDAS COMPRADAS SIN HIPOTECA",
+              "fuente": "UVE Valoraciones sobre datos del INE · 2026",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 28.44, "etiqueta": "por ciento se paga sin financiación", "decimales": 1, "sufijo": "%" }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man counting money portrait serious",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "28 %",
+                "titular": "Casi un tercio se paga entero",
+                "apoyo": "Ese comprador no necesita nómina. Ya tenía el dinero."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Y esa proporción se está moviendo. En dos mil veinte se financiaba el ochenta y dos por ciento de las compras. Hoy, el setenta y dos. Cada año hay más gente que paga a tocateja.",
+          "voz": { "speed": 0.96 },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Compras con hipoteca",
+                "series": [
+                  {
+                    "nombre": "Con financiación",
+                    "tono": "carmin",
+                    "sufijo": " %",
+                    "puntos": [["2020", 81.6], ["2026", 71.6]]
+                  }
+                ],
+                "nota": "Cada punto de caída es un comprador que no necesitaba banco"
+              },
+              "fuente": "UVE Valoraciones sobre datos del INE",
+              "rotulo": { "kicker": "Compras con hipoteca", "texto": "Del 82 % al *72 %*" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "cash euro banknotes table close up", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Pero lo interesante de verdad es el mapa. En Álava se financia el noventa y ocho por ciento de las compras. En Madrid, el noventa y cinco. En Vizcaya, el noventa y cinco también.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PROVINCIAS DONDE CASI TODO SE COMPRA CON HIPOTECA",
+              "fuente": "UVE Valoraciones sobre datos del INE",
+              "barras": {
+                "unidad": "Por ciento con financiación",
+                "datos": [
+                  { "etiqueta": "Álava", "valor": 98.5, "tono": "ink" },
+                  { "etiqueta": "Madrid", "valor": 94.8, "tono": "ink" },
+                  { "etiqueta": "Vizcaya", "valor": 94.5, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "madrid office workers commuting street", "tono": "ocre" },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y en la provincia de Alicante, solo el cuarenta y cinco. En Teruel, el treinta y siete. Más de la mitad de las casas se pagan enteras, sin pisar un banco.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PROVINCIAS DONDE CASI NADIE NECESITA HIPOTECA",
+              "fuente": "UVE Valoraciones sobre datos del INE",
+              "barras": {
+                "unidad": "Por ciento con financiación",
+                "datos": [
+                  { "etiqueta": "Alicante", "valor": 45.4, "tono": "carmin" },
+                  { "etiqueta": "Ávila", "valor": 43.5, "tono": "carmin" },
+                  { "etiqueta": "Teruel", "valor": 37.1, "tono": "carmin" }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly man portrait sunglasses coast",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Aquí el banco sobra",
+                "apoyo": "Donde el dinero llega de fuera, la hipoteca es innecesaria."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "Ahí tienes las dos Españas del ladrillo. Donde compra el que vive y trabaja allí, hace falta un banco. Donde el dinero viene de fuera, el banco sobra.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "El mapa de las hipotecas es *el mapa de quién trabaja*.", "night": true },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "aerial contrast city and coastline spain", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Por que no baja el precio",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Ahora la pregunta incómoda. Si los compradores nacionales se están retirando, y las compraventas caen dos trimestres seguidos, ¿por qué demonios no baja el precio?",
+          "voz": { "speed": 0.96 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "interrogante" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "empty estate agent window listings", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Porque debajo de todo esto hay una resta que no depende de quién compre ni de a qué precio. España crea unos doscientos cuarenta mil hogares nuevos cada año.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "HOGARES NUEVOS QUE SE CREAN CADA AÑO",
+              "fuente": "Banco de España · Informe Anual 2025",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 240000, "etiqueta": "hogares nuevos al año", "decimales": 0 }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "young family moving boxes apartment", "tono": "ocre" },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Y en dos mil veinticinco terminó de construir noventa y dos mil viviendas. Doscientas cuarenta mil casas que hacen falta, contra noventa y dos mil casas que aparecen.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE HACE FALTA CONTRA LO QUE SE CONSTRUYE",
+              "fuente": "Banco de España · Informe Anual 2025",
+              "barras": {
+                "unidad": "Viviendas al año",
+                "datos": [
+                  { "etiqueta": "Hogares creados", "valor": 240000, "tono": "carmin" },
+                  { "etiqueta": "Viviendas terminadas", "valor": 92000, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "construction worker portrait helmet site",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "92.000",
+                "titular": "Todo lo que España terminó en 2025",
+                "apoyo": "Menos de la mitad de lo que hacía falta."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "El Banco de España lleva sumando esa resta desde dos mil veintiuno. El agujero acumulado son setecientas cincuenta mil viviendas. Un tres coma siete por ciento de todos los hogares del país.",
+          "voz": { "speed": 0.98 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DÉFICIT ACUMULADO DE VIVIENDA · 2021 A 2025",
+              "fuente": "Banco de España · Informe Anual 2025",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 750000, "etiqueta": "viviendas que faltan", "decimales": 0 }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "housing construction cranes skyline dusk", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Hace un año la propia institución calculaba seiscientas mil. Ha subido un veinticinco por ciento en doce meses. Y avisa de que va a seguir subiendo.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CÓMO CRECE EL AGUJERO",
+              "fuente": "Banco de España · informes anuales",
+              "barras": {
+                "unidad": "Viviendas que faltan",
+                "datos": [
+                  { "etiqueta": "Estimación anterior", "valor": 600000, "tono": "ink" },
+                  { "etiqueta": "Estimación de 2026", "valor": 750000, "tono": "carmin" }
+                ]
+              }
+            },
+            { "tipo": "objeto", "objeto": "grua" }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "La mitad de ese agujero está en seis provincias. Madrid, Barcelona, Alicante, Valencia, Murcia y Málaga. Italia tiene un déficit del uno y medio. Francia está en equilibrio. Alemania construyó de más.",
+          "voz": { "speed": 0.98 },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": { "region": "europa", "destaca": ["espana", "italia", "francia", "alemania"] },
+              "kicker": "QUIÉN CONSTRUYE LO QUE NECESITA",
+              "fuente": "Banco de España · comparativa europea"
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "german residential construction site housing", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Lo que contradice la tesis",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Y ahora la parte que casi nadie cuenta, porque estropea el discurso. Hay señales serias de que esto se está enfriando.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Lo que juega *en contra* de todo esto.", "night": true },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "rain on window city grey day", "tono": "ocre" },
+              "camara": "estatico"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Las compraventas cayeron un cinco coma siete por ciento en un solo trimestre. La vivienda nueva cayó un once y medio. Y su precio bajó, poco pero bajó, por primera vez en mucho tiempo.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE SE ENFRÍA · 2T 2026",
+              "fuente": "Colegio de Registradores",
+              "barras": {
+                "unidad": "Variación trimestral, por ciento",
+                "datos": [
+                  { "etiqueta": "Compraventas", "valor": -5.7, "tono": "ink" },
+                  { "etiqueta": "Vivienda nueva", "valor": -11.5, "tono": "carmin" },
+                  { "etiqueta": "Precio nueva", "valor": -0.7, "tono": "ocre" }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "analyst woman portrait charts screen",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "El primer frenazo en años",
+                "apoyo": "Dos trimestres consecutivos de caída en operaciones."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Y una encuesta de la asociación de usuarios financieros dice que la compra con intención de invertir se ha desplomado. Del cincuenta y seis por ciento de las operaciones al treinta y cuatro.",
+          "voz": { "speed": 0.98 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "COMPRA CON FINES DE INVERSIÓN",
+              "fuente": "Barómetro de Asufin · encuesta de febrero de 2026",
+              "de": { "valor": 56.2, "etiqueta": "" },
+              "a": { "valor": 33.7, "etiqueta": "por ciento, según la encuesta", "decimales": 1, "sufijo": "%" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "stock market screen numbers falling", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Es una encuesta, no un registro, así que hay que cogerla con pinzas. Pero apunta en la misma dirección que todo lo demás: el dinero especulativo se está retirando de la vivienda.",
+          "voz": { "speed": 0.96 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "maletero" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "empty office desk leaving briefcase", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Y aun así el precio sigue en máximo histórico. Que el mercado se enfríe no significa que baje. Significa que se queda quieto en el sitio más alto en el que ha estado nunca.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Enfriarse *no es bajar*.", "night": true },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait looking up building tall",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Quieto, pero arriba del todo",
+                "apoyo": "El precio no cae: deja de subir tan rápido."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "El alquiler es donde acaba todo",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Todo lo anterior desemboca en el mismo sitio. El que no puede comprar, alquila. Y alquilar en España cuesta hoy quince euros con treinta por metro cuadrado. Máximo histórico también.",
+          "voz": { "speed": 0.96 },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PRECIO DEL ALQUILER · JUNIO DE 2026",
+              "fuente": "Idealista",
+              "de": { "valor": 0, "etiqueta": "" },
+              "a": { "valor": 15.3, "etiqueta": "euros por metro cuadrado al mes", "decimales": 1, "sufijo": " €" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "rental sign apartment window spain", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Un cuatro coma dos por ciento más caro que hace un año. Y aquí llega el dato que rompe la intuición de todo el mundo. No es que haya menos pisos en alquiler.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "SUBIDA DEL ALQUILER EN UN AÑO",
+              "fuente": "Idealista · junio de 2026",
+              "barras": {
+                "unidad": "Por ciento interanual",
+                "datos": [{ "etiqueta": "Alquiler", "valor": 4.2, "tono": "carmin" }]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait moving boxes doorway",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Máximo histórico otra vez",
+                "apoyo": "Y no es porque falten pisos en alquiler."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "En dos mil dieciséis había un millón novecientas mil viviendas alquiladas en España. En dos mil veintitrés había dos millones quinientas setenta mil. Hay más alquiler que nunca.",
+          "voz": { "speed": 0.96 },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Viviendas en alquiler",
+                "series": [
+                  {
+                    "nombre": "Parque de alquiler",
+                    "tono": "ocre",
+                    "sufijo": " M",
+                    "puntos": [["2016", 1.9], ["2023", 2.57]]
+                  }
+                ],
+                "nota": "Más pisos en alquiler que nunca, y más caros que nunca"
+              },
+              "fuente": "Ministerio de Consumo y CSIC",
+              "rotulo": { "kicker": "Parque de alquiler", "texto": "De 1,9 a *2,57 millones*" }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "apartment blocks dense residential area", "tono": "ocre" },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Lo que ha cambiado es de quién son. En esos siete años, los propietarios de un solo piso ampliaron su cartera un treinta por ciento. Los que ya tenían varios la ampliaron un cuarenta.",
+          "voz": { "speed": 0.96 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CRECIMIENTO DE LA CARTERA · 2016 A 2023",
+              "fuente": "Ministerio de Consumo y CSIC",
+              "barras": {
+                "unidad": "Por ciento de crecimiento",
+                "datos": [
+                  { "etiqueta": "Tenía un piso", "valor": 30.4, "tono": "ink" },
+                  { "etiqueta": "Tenía varios", "valor": 39.9, "tono": "carmin" }
+                ]
+              }
+            },
+            { "tipo": "objeto", "objeto": "carpeta" }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Cada año que pasa, el mismo parque de vivienda está en menos manos. No porque llegue un fondo de fuera. Porque el que ya tenía dos compra la tercera.",
+          "voz": { "speed": 0.96 },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "ADULTOS ESPAÑOLES QUE COBRAN UN ALQUILER",
+              "fuente": "Ministerio de Consumo y CSIC",
+              "gente": {
+                "total": 100,
+                "destacados": 6,
+                "escala": 0.6,
+                "etiqueta": "Adultos",
+                "etiquetaDestacados": "Cobran alquiler"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "hands holding many keys close up", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "El alquiler no es caro porque falten pisos para alquilar. Es caro porque los pisos que hay están cada vez más concentrados, y el que los tiene no tiene ninguna prisa.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "No falta oferta. *Falta reparto.*", "night": true },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "landlord man portrait armchair calm",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El que los tiene no tiene prisa",
+                "apoyo": "Un piso vacío le cuesta poco. Bajarlo de precio, mucho."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Vamos a juntarlo todo, porque por separado cada uno de estos datos parece una anécdota, y puestos en fila son otra cosa muy distinta.",
+          "voz": { "speed": 0.94 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "plano" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "city at dusk lights apartments windows", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "La vivienda en España dejó de ser un sitio donde vivir. Es el mecanismo por el que un patrimonio que ya existe se reproduce solo, sin que su dueño tenga que hacer nada.",
+          "voz": { "speed": 0.94 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE CUESTA LA VIVIENDA SEGÚN QUIÉN SEAS",
+              "fuente": "Consejo de la Juventud · barómetros hipotecarios 2026",
+              "barras": {
+                "unidad": "Por ciento de los ingresos",
+                "datos": [
+                  { "etiqueta": "No tiene nada", "valor": 98.7, "tono": "carmin" },
+                  { "etiqueta": "Compra la primera", "valor": 32.7, "tono": "ocre" },
+                  { "etiqueta": "Compra la segunda", "valor": 11, "tono": "ink" }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "old family photograph album hands", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "El que compró antes de dos mil ocho no fue más listo que tú. Llegó antes. Y ese orden de llegada se ha convertido en la variable que más decide cuánto vas a tener en toda tu vida.",
+          "voz": { "speed": 0.96 },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "middle aged couple portrait home kitchen",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "2008",
+                "titular": "La línea que parte el país",
+                "apoyo": "Antes de esa fecha, comprar. Después, alquilar."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "vintage spanish street eighties archive", "tono": "ocre" },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Más que tu carrera. Más que tu sueldo. Más que lo que consigas ahorrar. Compró la casa antes, y eso ya no se recupera trabajando.",
+          "voz": { "speed": 0.92 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "Eso ya *no se recupera trabajando*.", "night": true },
+            { "tipo": "objeto", "objeto": "balanza" }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "Y por eso el debate político va del cero coma cinco por ciento de las golden visa y del ocho por ciento de los fondos. Porque el cuarenta y tres por ciento restante son votantes.",
+          "voz": { "speed": 0.96 },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "DE QUIÉN SE HABLA Y DE QUIÉN NO",
+              "fuente": "Ministerio de Consumo y CSIC",
+              "gente": {
+                "total": 100,
+                "destacados": 43,
+                "escala": 0.6,
+                "etiqueta": "Pisos de alquiler",
+                "etiquetaDestacados": "Son de particulares con varios"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "polling station voters queue spain", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b10-06",
+          "vo": "Nadie va a ganar unas elecciones diciéndole a más de dos millones de españoles que el problema es el segundo piso que compraron para los hijos.",
+          "voz": { "speed": 0.94 },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "QUIÉN COBRA Y QUIÉN PAGA EL ALQUILER",
+              "fuente": "Ministerio de Consumo y CSIC",
+              "barras": {
+                "unidad": "Por ciento de los adultos",
+                "datos": [
+                  { "etiqueta": "Lo cobra", "valor": 5.7, "tono": "ink" },
+                  { "etiqueta": "Lo paga", "valor": 20, "tono": "carmin" }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician woman portrait interview microphone",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El votante también es el casero",
+                "apoyo": "Por eso la ley siempre apunta al 8 %, nunca al 43 %."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b11-01",
+          "vo": "Así que la próxima vez que veas que el precio sube mientras todo el mundo dice que no llega a fin de mes, ya sabes que las dos cosas no se contradicen. Son la misma frase.",
+          "voz": { "speed": 0.94 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "No se contradicen. *Son la misma frase.*", "night": true },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "supermarket receipt hands close up", "tono": "ocre" },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b11-02",
+          "vo": "Sube precisamente porque el que no llega ya no está en la subasta. Y el precio de una subasta lo pone siempre el que puja, nunca el que se queda mirando.",
+          "voz": { "speed": 0.94 },
+          "tipo": "objeto",
+          "escenas": [
+            { "tipo": "objeto", "objeto": "sala" },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "auction room raised hands bidding", "tono": "ocre" },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b11-03",
+          "vo": "Y mientras la resta siga siendo doscientas cuarenta mil contra noventa y dos mil, ningún impuesto, ningún tope y ninguna ley va a cambiar quién se queda las casas.",
+          "voz": { "speed": 0.96 },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait signing document desk",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "240.000",
+                "titular": "Contra 92.000",
+                "apoyo": "Mientras esa resta no cambie, lo demás es reparto."
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": { "buscar": "unfinished housing development empty plots", "tono": "ocre" },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b11-04",
+          "vo": "Cambiará el reparto. No cambiará el número. Y el número es lo único que decide si tú vas a poder vivir donde has crecido.",
+          "voz": { "speed": 0.92 },
+          "tipo": "frase",
+          "escenas": [
+            { "tipo": "frase", "texto": "El reparto se puede cambiar. *El número, no.*", "night": true },
+            { "tipo": "objeto", "objeto": "casa" }
+          ]
+        },
+        {
+          "id": "b11-05",
+          "vo": "Suscríbete si quieres entender cómo se reparte la riqueza antes de que te toque explicárselo a alguien.",
+          "voz": { "speed": 1 },
+          "tipo": "cierre",
+          "cierre": { "suscribete": true }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Todos Vamos Justos. Alguien Está Comprando España (Y No Son Los Fondos)",
+    "descripcion": "Las compraventas de vivienda en España llevan dos trimestres cayendo. Y el precio del metro cuadrado acaba de marcar el máximo de toda la serie histórica: 2.487 euros. El índice que mide la misma vivienda vendida dos veces dice que estamos un 39,31 % por encima del pico de 2007.\n\nMenos compradores y precio récord a la vez. Eso solo pasa si el que se retira del mercado no es el que pone el precio.\n\nAsí que la pregunta no es por qué sube. Es quién sigue comprando cuando todo el mundo dice que no llega a fin de mes. Y la respuesta que dan los datos oficiales no es la que se repite en televisión.\n\nDATOS CLAVE\n\n• El país entero cabe en tres cifras. Una persona joven de alquiler se deja el 98,7 % de su salario. El que compra su primera vivienda, el 32,67 %. El que compra la segunda gana 5.356 € al mes y paga 589 € de hipoteca: el 11 % de sus ingresos. La segunda casa sale más barata de sostener que la primera.\n\n• El villano habitual es el 8 %. El Ministerio de Consumo y el CSIC contaron el parque de alquiler: fondos y empresas tienen 223.552 viviendas sobre 2,57 millones. Los particulares con más de una vivienda tienen el 43 %.\n\n• Solo el 5,7 % de los adultos españoles cobra un alquiler. Más de uno de cada cinco lo paga.\n\n• La golden visa se concedió 14.576 veces en once años y afectaba al 0,5 % de las compraventas. Se eliminó el 3 de abril de 2025. Quince meses después, los extranjeros compraron 26.800 viviendas en un solo trimestre: máximo histórico, el 15,98 % del mercado.\n\n• Los que más compran son británicos (6,99 %), neerlandeses (6,94 %) y alemanes (6,11 %). En Baleares son el 32,27 % de las compras; en la Comunidad Valenciana, el 31,03 %; en la provincia de Alicante, el 46,43 %.\n\n• El Banco de España lo confirma por otra vía: las compras de no residentes son el 7,4 % del total, el doble del 3,8 % del boom de 2007.\n\n• El mapa de las hipotecas es el mapa de quién necesita un sueldo. En Álava se financia el 98,46 % de las compras; en Madrid, el 94,79 %. En Alicante, solo el 45,41 %; en Teruel, el 37,06 %. Donde el dinero viene de fuera, el banco sobra.\n\n• Y debajo de todo hay una resta que no depende de quién compre: España crea unos 240.000 hogares al año y en 2025 terminó 92.000 viviendas. El déficit acumulado desde 2021 son 750.000 viviendas, un 25 % más que la estimación del año anterior.\n\nTambién se cuenta lo que juega en contra de la tesis: las compraventas cayeron un 5,7 % en un trimestre, la vivienda nueva un 11,5 %, y su precio bajó por primera vez en mucho tiempo. Pero enfriarse no es bajar.\n\nFUENTES\nColegio de Registradores de España (Estadística Registral Inmobiliaria, 2T 2026) · Banco de España (Informe Anual 2025) · Ministerio de Consumo y CSIC · Consejo de la Juventud de España (Observatorio de Emancipación, 2026) · INE · UVE Valoraciones · Idealista · Asufin\n\nCAPÍTULOS\n0:00 Menos compradores, precio récord\n\nSi te ha servido, suscríbete. Aquí se explican los números que deciden tu vida sin pedirte permiso.",
+    "etiquetas": [
+      "vivienda españa",
+      "precio vivienda",
+      "quien compra vivienda en españa",
+      "burbuja inmobiliaria",
+      "alquiler españa",
+      "precio alquiler",
+      "fondos buitre vivienda",
+      "grandes tenedores",
+      "golden visa",
+      "compradores extranjeros",
+      "hipoteca",
+      "banco de españa",
+      "deficit de vivienda",
+      "emancipacion jovenes",
+      "no puedo comprar casa",
+      "mercado inmobiliario español",
+      "segunda vivienda",
+      "casero",
+      "ley de vivienda",
+      "alicante vivienda",
+      "madrid vivienda",
+      "economia española",
+      "divulgacion economica",
+      "macroeconomia",
+      "capital x",
+      "vivienda 2026"
+    ]
+  }
+}

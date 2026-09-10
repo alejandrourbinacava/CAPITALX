@@ -58,6 +58,10 @@
       "slug": "argentina",
       "titulo": "ARGENTINA: Cien Años Cayendo (Y Nunca Fue Tan Rica Como Crees)",
       "fecha": "2026-09-09"
+    },
+    {
+      "slug": "vivienda-espana",
+      "titulo": "Todos Vamos Justos. Alguien Está Comprando España (Y No Son Los Fondos)"
     }
   ],
   "cola": [
@@ -81,13 +85,6 @@
       "angulo": "Peso del ladrillo en el PIB frente a la manufactura, ratio precio/renta en Toronto y Vancouver, y el frenazo migratorio de 2024-2025 como reacción.",
       "region": "norteamerica",
       "pais": "canada"
-    },
-    {
-      "slug": "vivienda-espana",
-      "titulo": "Tu Casa Ya No Es Tuya: Quién Está Comprando España Piso a Piso",
-      "angulo": "Compras de fondos y de extranjeros sobre el total, precio frente a salario medio, y las medidas de 2025-2026. El vídeo más cercano al bolsillo del espectador.",
-      "region": "europa",
-      "pais": "espana"
     },
     {
       "slug": "italia-2027",

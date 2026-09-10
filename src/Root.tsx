@@ -21,11 +21,13 @@ import alemaniaTrabajo from "../content/alemania-trabajo.json";
 import chinaInmobiliario from "../content/china-inmobiliario.json";
 import alemaniaEuro from "../content/alemania-euro.json";
 import argentina from "../content/argentina.json";
+import viviendaEspana from "../content/vivienda-espana.json";
 import pensionesT from "../content/pensiones.timings.json";
 import alemaniaTrabajoT from "../content/alemania-trabajo.timings.json";
 import chinaInmobiliarioT from "../content/china-inmobiliario.timings.json";
 import alemaniaEuroT from "../content/alemania-euro.timings.json";
 import argentinaT from "../content/argentina.timings.json";
+import viviendaEspanaT from "../content/vivienda-espana.timings.json";
 import diario from "../content/diario.json";
 import diarioT from "../content/diario.timings.json";
 
@@ -41,6 +43,7 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "china-inmobiliario", guion: chinaInmobiliario as any, tiempos: chinaInmobiliarioT as any },
   { id: "alemania-euro", guion: alemaniaEuro as any, tiempos: alemaniaEuroT as any },
   { id: "argentina", guion: argentina as any, tiempos: argentinaT as any },
+  { id: "vivienda-espana", guion: viviendaEspana as any, tiempos: viviendaEspanaT as any },
   { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 
