@@ -62,6 +62,10 @@
     {
       "slug": "vivienda-espana",
       "titulo": "Todos Vamos Justos. Alguien Está Comprando España (Y No Son Los Fondos)"
+    },
+    {
+      "slug": "china-deuda-usa",
+      "titulo": "China Lleva Trece Años Vendiendo Deuda Americana. No Ha Pasado Nada"
     }
   ],
   "cola": [
@@ -174,13 +178,6 @@
       "slug": "petrodolar",
       "titulo": "¿Qué Pasaría Si El Petróleo Deja De Venderse En Dólares?",
       "angulo": "Cuánto del comercio de crudo se liquida ya fuera del dólar, qué acuerdos existen de verdad, y separar el dato del mito que circula.",
-      "region": "asia",
-      "pais": "china"
-    },
-    {
-      "slug": "china-deuda-usa",
-      "titulo": "¿Qué Pasaría Si CHINA Vende La Deuda Americana De Golpe?",
-      "angulo": "Cuánta deuda del Tesoro tiene China hoy, cuánto ha vendido ya en los últimos años, y por qué el escenario de la venta de golpe se cuenta mal.",
       "region": "asia",
       "pais": "china"
     },
