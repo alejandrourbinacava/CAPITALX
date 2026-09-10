@@ -28,14 +28,32 @@
                 "lado": "der",
                 "cifra": "1895",
                 "titular": "El país más rico del mundo por habitante",
-                "apoyo": "No era Estados Unidos, ni Reino Unido, ni Alemania. Era Argentina."
+                "apoyo": "No era Estados Unidos, ni Reino Unido, ni Alemania. Era Argentina.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33715859",
+                  "url": "https://images.pexels.com/photos/33715859/pexels-photo-33715859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alejandra Dal Favero",
+                  "pagina": "https://www.pexels.com/photo/historic-fashion-portrait-in-buenos-aires-33715859/"
+                },
+                "fichero": "recortes-auto/pexels-33715859.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "buenos aires historic architecture street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19897024",
+                  "url": "https://videos.pexels.com/video-files/19897024/19897024-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "LISTOS PARA RODAR | Productora",
+                  "pagina": "https://www.pexels.com/video/obelisco-argentina-19897024/"
+                },
+                "fichero": "clips/pexels-19897024.mp4"
               },
               "camara": "push"
             }
@@ -73,7 +91,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old grain port ships historic",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36849831",
+                  "url": "https://videos.pexels.com/video-files/36849831/15612726_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Wolfgang Weiser",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-elbbrucken-bridge-in-hamburg-36849831/"
+                },
+                "fichero": "clips/pexels-36849831.mp4"
               },
               "camara": "panL"
             }
@@ -111,7 +139,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sydney harbour modern city skyline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16079441",
+                  "url": "https://videos.pexels.com/video-files/16079441/16079441-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Amit",
+                  "pagina": "https://www.pexels.com/video/timelapse-night-city-16079441/"
+                },
+                "fichero": "clips/pexels-16079441.mp4"
               },
               "camara": "pull"
             }
@@ -129,7 +167,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cattle field farm landscape wide",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12869244",
+                  "url": "https://videos.pexels.com/video-files/12869244/12869244-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Denis Zhyravlev",
+                  "pagina": "https://www.pexels.com/video/cows-on-grassland-12869244/"
+                },
+                "fichero": "clips/pexels-12869244.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -155,7 +203,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "two paths diverging road landscape",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27896529",
+                  "url": "https://videos.pexels.com/video-files/27896529/12255849_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Yasin Caylak",
+                  "pagina": "https://www.pexels.com/video/an-aerial-view-of-a-road-with-a-curve-27896529/"
+                },
+                "fichero": "clips/pexels-27896529.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -183,7 +241,15 @@
                 "lado": "izq",
                 "titular": "Estaba mal desde el principio",
                 "apoyo": "Justo en los años en que el país parecía el más rico del planeta.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15012253",
+                  "url": "https://images.pexels.com/photos/15012253/pexels-photo-15012253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Renan Rezende",
+                  "pagina": "https://www.pexels.com/photo/man-in-warm-jacket-15012253/"
+                },
+                "fichero": "recortes-auto/pexels-15012253.png"
               }
             },
             {
@@ -223,7 +289,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "argentina flag building government",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39427943",
+                  "url": "https://videos.pexels.com/video-files/39427943/16789823_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Belén Montero",
+                  "pagina": "https://www.pexels.com/video/argentinian-flag-waving-against-clear-sky-39427943/"
+                },
+                "fichero": "clips/pexels-39427943.mp4"
               },
               "camara": "panR"
             }
@@ -241,7 +317,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "person walking city street thoughtful",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7388176",
+                  "url": "https://videos.pexels.com/video-files/7388176/7388176-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "John Diez",
+                  "pagina": "https://www.pexels.com/video/man-looking-up-7388176/"
+                },
+                "fichero": "clips/pexels-7388176.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -272,7 +358,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "vast wheat field flat horizon",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "24869109",
+                  "url": "https://videos.pexels.com/video-files/24869109/11898791_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Orhan Pergel",
+                  "pagina": "https://www.pexels.com/video/a-field-with-a-green-grass-and-mountains-in-the-background-24869109/"
+                },
+                "fichero": "clips/pexels-24869109.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -303,7 +399,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old steam train railway historic",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33157847",
+                  "url": "https://videos.pexels.com/video-files/33157847/14131580_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/vintage-steam-train-on-rustic-tracks-33157847/"
+                },
+                "fichero": "clips/pexels-33157847.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -311,14 +417,8 @@
               }
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "dock worker portrait historic port",
-                "lado": "der",
-                "titular": "El barco frigorífico y el ferrocarril",
-                "apoyo": "Justo cuando Europa se podía comer esa carne. El momento lo era todo.",
-                "tono": "ocre"
-              }
+              "tipo": "frase",
+              "texto": "El barco frigorífico y el ferrocarril"
             }
           ]
         },
@@ -331,20 +431,24 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "immigrant family portrait vintage luggage",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "Millones cruzaron el Atlántico",
-                "apoyo": "Italianos y españoles, en la misma época en que otros iban a Nueva York."
-              }
+              "tipo": "frase",
+              "texto": "Millones cruzaron el Atlántico"
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "grand european style building facade",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38972172",
+                  "url": "https://videos.pexels.com/video-files/38972172/16578511_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Furkan  Aktaş",
+                  "pagina": "https://www.pexels.com/video/historic-architectural-facades-under-blue-sky-38972172/"
+                },
+                "fichero": "clips/pexels-38972172.mp4"
               },
               "camara": "pull"
             }
@@ -366,14 +470,32 @@
                 "lado": "der",
                 "titular": "Tan razonable como Nueva York",
                 "acuerdo": "",
-                "apoyo": "Para un italiano o un español pobre, Buenos Aires era el otro gran destino."
+                "apoyo": "Para un italiano o un español pobre, Buenos Aires era el otro gran destino.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15352530",
+                  "url": "https://images.pexels.com/photos/15352530/pexels-photo-15352530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Maksim Veter",
+                  "pagina": "https://www.pexels.com/photo/young-man-in-a-suit-smoking-a-cigarette-15352530/"
+                },
+                "fichero": "recortes-auto/pexels-15352530.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "crowded ship deck passengers historic",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29460162",
+                  "url": "https://videos.pexels.com/video-files/29460162/12682452_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-galata-bridge-in-istanbul-29460162/"
+                },
+                "fichero": "clips/pexels-29460162.mp4"
               },
               "camara": "pull"
             }
@@ -391,7 +513,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "opera house grand interior ornate",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37644973",
+                  "url": "https://videos.pexels.com/video-files/37644973/15956953_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ch  Jawad",
+                  "pagina": "https://www.pexels.com/video/ornate-ceiling-dome-in-historic-theater-37644973/"
+                },
+                "fichero": "clips/pexels-37644973.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -412,7 +544,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hands holding soil earth farming",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7655567",
+                  "url": "https://videos.pexels.com/video-files/7655567/7655567-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/a-man-holding-a-basket-with-vegetables-7655567/"
+                },
+                "fichero": "clips/pexels-7655567.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -448,7 +590,15 @@
                 "lado": "der",
                 "titular": "El dato que cambia toda la historia",
                 "apoyo": "Y que casi nunca aparece cuando se cuenta la Argentina de 1900.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8872405",
+                  "url": "https://images.pexels.com/photos/8872405/pexels-photo-8872405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-man-reading-documents-in-a-folder-8872405/"
+                },
+                "fichero": "recortes-auto/pexels-8872405.png"
               }
             },
             {
@@ -484,7 +634,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old classroom desks vintage school",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5734745",
+                  "url": "https://videos.pexels.com/video-files/5734745/5734745-hd_1366_576_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/empty-classroom-5734745/"
+                },
+                "fichero": "clips/pexels-5734745.mp4"
               },
               "camara": "panL"
             }
@@ -529,7 +689,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "child reading book old photo",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6949587",
+                  "url": "https://videos.pexels.com/video-files/6949587/6949587-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/children-looking-a-photo-album-6949587/"
+                },
+                "fichero": "clips/pexels-6949587.mp4"
               },
               "camara": "push"
             }
@@ -550,14 +720,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Dos podían leer un manual",
-                "apoyo": "Los tres eran igual de ricos y exportaban lo mismo. La diferencia estaba en otra parte."
+                "apoyo": "Los tres eran igual de ricos y exportaban lo mismo. La diferencia estaba en otra parte.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4687215",
+                  "url": "https://images.pexels.com/photos/4687215/pexels-photo-4687215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Rulo Davila",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-with-blue-hardhat-holding-two-wrenches-4687215/"
+                },
+                "fichero": "recortes-auto/pexels-4687215.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "engineering workshop old tools bench",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8986481",
+                  "url": "https://videos.pexels.com/video-files/8986481/8986481-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Artem Podrez",
+                  "pagina": "https://www.pexels.com/video/a-person-getting-a-plastic-container-from-the-table-8986481/"
+                },
+                "fichero": "clips/pexels-8986481.mp4"
               },
               "camara": "panR"
             }
@@ -575,7 +763,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "large estate farmland aerial fields",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35044846",
+                  "url": "https://videos.pexels.com/video-files/35044846/14845200_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Jay's Photography",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-lush-green-farmlands-at-sunrise-35044846/"
+                },
+                "fichero": "clips/pexels-35044846.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -603,14 +801,32 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "Una élite muy pequeña",
-                "apoyo": "Cobraba una renta enorme sin mejorar nada, sin industria y sin formar a nadie."
+                "apoyo": "Cobraba una renta enorme sin mejorar nada, sin industria y sin formar a nadie.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3831733",
+                  "url": "https://images.pexels.com/photos/3831733/pexels-photo-3831733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andrea Piacquadio",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-wearing-eyeglasses-3831733/"
+                },
+                "fichero": "recortes-auto/pexels-3831733.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "grand mansion interior old wealth",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37793064",
+                  "url": "https://videos.pexels.com/video-files/37793064/16030732_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "David Pickup |  Advertising & Marketing  🇬🇧",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-historic-island-mansion-37793064/"
+                },
+                "fichero": "clips/pexels-37793064.mp4"
               },
               "camara": "push"
             }
@@ -631,14 +847,32 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "No es que faltara el dinero",
-                "apoyo": "Era el país más rico del mundo. Es que a quien mandaba no le hacía falta."
+                "apoyo": "Era el país más rico del mundo. Es que a quien mandaba no le hacía falta.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11298600",
+                  "url": "https://images.pexels.com/photos/11298600/pexels-photo-11298600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mariamna Popova",
+                  "pagina": "https://www.pexels.com/photo/sepia-toned-image-of-a-boy-standing-on-a-corridor-and-looking-up-11298600/"
+                },
+                "fichero": "recortes-auto/pexels-11298600.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "rural village old house poor",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19585708",
+                  "url": "https://videos.pexels.com/video-files/19585708/19585708-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Salih Sezgen",
+                  "pagina": "https://www.pexels.com/video/a-house-in-the-middle-of-the-woods-19585708/"
+                },
+                "fichero": "clips/pexels-19585708.mp4"
               },
               "camara": "push"
             }
@@ -664,7 +898,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "factory workers assembly historic",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16695613",
+                  "url": "https://videos.pexels.com/video-files/16695613/16695613-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Konsta Nurkkala",
+                  "pagina": "https://www.pexels.com/video/glass-factory-16695613/"
+                },
+                "fichero": "clips/pexels-16695613.mp4"
               },
               "camara": "panL"
             }
@@ -682,7 +926,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "golden wheat close up harvest",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37685629",
+                  "url": "https://videos.pexels.com/video-files/37685629/15978632_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Eleonora Vokueva",
+                  "pagina": "https://www.pexels.com/video/golden-wheat-field-swaying-in-the-breeze-37685629/"
+                },
+                "fichero": "clips/pexels-37685629.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -719,14 +973,32 @@
                 "lado": "der",
                 "cifra": "1935",
                 "titular": "El primer quiebre está fechado",
-                "apoyo": "Justo después del golpe militar de 1930, cuando el país empieza a cerrarse."
+                "apoyo": "Justo después del golpe militar de 1930, cuando el país empieza a cerrarse.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33920002",
+                  "url": "https://images.pexels.com/photos/33920002/pexels-photo-33920002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kari Alfonso",
+                  "pagina": "https://www.pexels.com/photo/military-uniform-portrait-in-historic-setting-33920002/"
+                },
+                "fichero": "recortes-auto/pexels-33920002.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "depression era street historic photo",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4230107",
+                  "url": "https://videos.pexels.com/video-files/4230107/4230107-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Gül Işık",
+                  "pagina": "https://www.pexels.com/video/video-of-person-looking-at-old-photos-4230107/"
+                },
+                "fichero": "clips/pexels-4230107.mp4"
               },
               "camara": "push"
             }
@@ -744,7 +1016,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "closed border gate barrier",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3725903",
+                  "url": "https://videos.pexels.com/video-files/3725903/3725903-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 12,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/an-old-iron-gate-in-front-of-a-house-3725903/"
+                },
+                "fichero": "clips/pexels-3725903.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -769,7 +1051,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "downward staircase concrete perspective",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6711918",
+                  "url": "https://videos.pexels.com/video-files/6711918/6711918-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Martina Tomšič",
+                  "pagina": "https://www.pexels.com/video/person-walking-down-the-stairs-6711918/"
+                },
+                "fichero": "clips/pexels-6711918.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -821,7 +1113,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned industrial building decay",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "25383914",
+                  "url": "https://videos.pexels.com/video-files/25383914/11900656_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Kerem Kaplan",
+                  "pagina": "https://www.pexels.com/video/a-large-building-with-a-green-sky-behind-it-25383914/"
+                },
+                "fichero": "clips/pexels-25383914.mp4"
               },
               "camara": "panR"
             }
@@ -843,14 +1145,32 @@
                 "lado": "izq",
                 "cifra": "1975",
                 "titular": "El segundo quiebre",
-                "apoyo": "Estados Unidos acelera, Argentina se frena, y la distancia se abre deprisa."
+                "apoyo": "Estados Unidos acelera, Argentina se frena, y la distancia se abre deprisa.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29465003",
+                  "url": "https://images.pexels.com/photos/29465003/pexels-photo-29465003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mert Coşkun",
+                  "pagina": "https://www.pexels.com/photo/retro-black-and-white-portrait-of-man-outdoors-29465003/"
+                },
+                "fichero": "recortes-auto/pexels-29465003.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old city street 1970s cars",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32206951",
+                  "url": "https://videos.pexels.com/video-files/32206951/13736334_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "J.S. McDuff",
+                  "pagina": "https://www.pexels.com/video/vintage-1960s-highway-traffic-footage-32206951/"
+                },
+                "fichero": "clips/pexels-32206951.mp4"
               },
               "camara": "panL"
             }
@@ -868,7 +1188,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "escalator people moving station",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36679921",
+                  "url": "https://videos.pexels.com/video-files/36679921/15549827_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/exploring-a-metro-escalator-in-guangzhou-36679921/"
+                },
+                "fichero": "clips/pexels-36679921.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -900,7 +1230,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "printing press money banknotes",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5651774",
+                  "url": "https://videos.pexels.com/video-files/5651774/5651774-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/us-dollars-on-the-table-5651774/"
+                },
+                "fichero": "clips/pexels-5651774.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -940,7 +1280,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "supermarket empty shelves crowd",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13752470",
+                  "url": "https://videos.pexels.com/video-files/13752470/13752470-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Erick Gouma",
+                  "pagina": "https://www.pexels.com/video/blurred-video-of-market-interior-13752470/"
+                },
+                "fichero": "clips/pexels-13752470.mp4"
               },
               "camara": "push"
             }
@@ -962,14 +1312,32 @@
                 "lado": "der",
                 "cifra": "+20.000 %",
                 "titular": "De marzo de 1989 a marzo de 1990",
-                "apoyo": "Los precios cambiaban dos veces el mismo día en el mismo comercio."
+                "apoyo": "Los precios cambiaban dos veces el mismo día en el mismo comercio.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16837817",
+                  "url": "https://images.pexels.com/photos/16837817/pexels-photo-16837817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Israel Torres",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-woman-16837817/"
+                },
+                "fichero": "recortes-auto/pexels-16837817.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "price tags labels store many",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5889450",
+                  "url": "https://videos.pexels.com/video-files/5889450/5889450-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Max Fischer",
+                  "pagina": "https://www.pexels.com/video/red-color-sale-tags-5889450/"
+                },
+                "fichero": "clips/pexels-5889450.mp4"
               },
               "camara": "panR"
             }
@@ -987,7 +1355,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old banknotes pile worthless currency",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "855197",
+                  "url": "https://videos.pexels.com/video-files/855197/855197-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/money-falling-855197/"
+                },
+                "fichero": "clips/pexels-855197.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1012,7 +1390,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dollar bills hands counting cash",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5466780",
+                  "url": "https://videos.pexels.com/video-files/5466780/5466780-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/a-person-holding-hundred-dollar-bills-on-both-hands-5466780/"
+                },
+                "fichero": "clips/pexels-5466780.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1058,7 +1446,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stamped document rejected paper",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7195706",
+                  "url": "https://videos.pexels.com/video-files/7195706/7195706-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/medical-doctor-stamping-in-a-notebook-7195706/"
+                },
+                "fichero": "clips/pexels-7195706.mp4"
               },
               "camara": "push"
             }
@@ -1080,14 +1478,32 @@
                 "lado": "izq",
                 "cifra": "2001",
                 "titular": "El mayor impago de la historia",
-                "apoyo": "Más de cien mil millones de dólares. Con cinco presidentes en once días."
+                "apoyo": "Más de cien mil millones de dólares. Con cinco presidentes en once días.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8899000",
+                  "url": "https://images.pexels.com/photos/8899000/pexels-photo-8899000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Lara Jameson",
+                  "pagina": "https://www.pexels.com/photo/a-protester-with-a-cardboard-placard-8899000/"
+                },
+                "fichero": "recortes-auto/pexels-8899000.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "bank closed shutters crowd protest",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5286466",
+                  "url": "https://videos.pexels.com/video-files/5286466/5286466-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Joseph Eulo",
+                  "pagina": "https://www.pexels.com/video/people-protesting-on-the-street-5286466/"
+                },
+                "fichero": "clips/pexels-5286466.mp4"
               },
               "camara": "panL"
             }
@@ -1105,7 +1521,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "atm queue people waiting night",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28894958",
+                  "url": "https://videos.pexels.com/video-files/28894958/12507461_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/bustling-airport-baggage-claim-scene-28894958/"
+                },
+                "fichero": "clips/pexels-28894958.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1134,14 +1560,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "Para una familia normal",
-                "apoyo": "Abrir el banco un lunes y descubrir que tu dinero ya no es del todo tuyo."
+                "apoyo": "Abrir el banco un lunes y descubrir que tu dinero ya no es del todo tuyo.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6927564",
+                  "url": "https://images.pexels.com/photos/6927564/pexels-photo-6927564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Polina Tankilevitch",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-black-blazer-holding-documents-6927564/"
+                },
+                "fichero": "recortes-auto/pexels-6927564.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty bank counter closed window",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8346903",
+                  "url": "https://videos.pexels.com/video-files/8346903/8346903-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/computer-monitors-on-the-table-8346903/"
+                },
+                "fichero": "clips/pexels-8346903.mp4"
               },
               "camara": "push"
             }
@@ -1184,7 +1628,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calendar dates paper wall",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4378032",
+                  "url": "https://videos.pexels.com/video-files/4378032/4378032-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ketut Subiyanto",
+                  "pagina": "https://www.pexels.com/video/calendar-hanged-on-a-wall-4378032/"
+                },
+                "fichero": "clips/pexels-4378032.mp4"
               },
               "camara": "panR"
             }
@@ -1202,7 +1656,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "trading screen bond yields numbers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578632",
+                  "url": "https://videos.pexels.com/video-files/7578632/7578632-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-of-numbers-on-display-monitor-7578632/"
+                },
+                "fichero": "clips/pexels-7578632.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1227,7 +1691,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "unfinished construction site stopped",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36113476",
+                  "url": "https://videos.pexels.com/video-files/36113476/15315463_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "TR Studio",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-unfinished-building-construction-site-36113476/"
+                },
+                "fichero": "clips/pexels-36113476.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1263,7 +1737,15 @@
                 "lado": "izq",
                 "titular": "En dos años ha pasado algo medible",
                 "apoyo": "Y esta es la parte que hace que este vídeo no sea solo historia.",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37007820",
+                  "url": "https://images.pexels.com/photos/37007820/pexels-photo-37007820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Guillermo Berlin",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-woman-with-headscarf-on-city-street-37007820/"
+                },
+                "fichero": "recortes-auto/pexels-37007820.png"
               }
             },
             {
@@ -1306,7 +1788,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "grocery store shelves prices calm",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39221946",
+                  "url": "https://videos.pexels.com/video-files/39221946/16690560_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kiwi and Camera",
+                  "pagina": "https://www.pexels.com/video/vibrant-supermarket-aisle-with-soft-drinks-39221946/"
+                },
+                "fichero": "clips/pexels-39221946.mp4"
               },
               "camara": "panL"
             }
@@ -1324,7 +1816,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "line chart descending screen data",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36328573",
+                  "url": "https://videos.pexels.com/video-files/36328573/15406868_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/tablet-displaying-financial-data-analytics-36328573/"
+                },
+                "fichero": "clips/pexels-36328573.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1353,14 +1855,32 @@
                 "lado": "der",
                 "cifra": "28,2 %",
                 "titular": "La pobreza, en mínimo de seis años",
-                "apoyo": "Casi diez puntos menos que un año antes."
+                "apoyo": "Casi diez puntos menos que un año antes.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6338793",
+                  "url": "https://images.pexels.com/photos/6338793/pexels-photo-6338793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Arina Krasnikova",
+                  "pagina": "https://www.pexels.com/photo/a-family-standing-beside-the-table-6338793/"
+                },
+                "fichero": "recortes-auto/pexels-6338793.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "neighbourhood street houses people",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11841273",
+                  "url": "https://videos.pexels.com/video-files/11841273/11841273-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Braeson Holland",
+                  "pagina": "https://www.pexels.com/video/drone-video-of-a-residential-area-11841273/"
+                },
+                "fichero": "clips/pexels-11841273.mp4"
               },
               "camara": "push"
             }
@@ -1391,7 +1911,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank vault gold reserves secure",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5849613",
+                  "url": "https://videos.pexels.com/video-files/5849613/5849613-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Monstera Production",
+                  "pagina": "https://www.pexels.com/video/animation-of-bank-5849613/"
+                },
+                "fichero": "clips/pexels-5849613.mp4"
               },
               "camara": "panR"
             }
@@ -1412,14 +1942,32 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Ni libre ni fijado",
-                "apoyo": "El peso se mueve dentro de una banda ajustada en enero de 2026."
+                "apoyo": "El peso se mueve dentro de una banda ajustada en enero de 2026.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36095524",
+                  "url": "https://images.pexels.com/photos/36095524/pexels-photo-36095524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Walter Medina Foto",
+                  "pagina": "https://www.pexels.com/photo/man-counting-argentine-pesos-in-buenos-aires-36095524/"
+                },
+                "fichero": "recortes-auto/pexels-36095524.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "currency exchange office window sign",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8479282",
+                  "url": "https://videos.pexels.com/video-files/8479282/8479282-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/video/person-counting-money-8479282/"
+                },
+                "fichero": "clips/pexels-8479282.mp4"
               },
               "camara": "panR"
             }
@@ -1437,7 +1985,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "person looking up hopeful sky",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8033617",
+                  "url": "https://videos.pexels.com/video-files/8033617/8033617-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Anastasia  Shuraeva",
+                  "pagina": "https://www.pexels.com/video/woman-reaching-the-sky-8033617/"
+                },
+                "fichero": "clips/pexels-8033617.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1477,7 +2035,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty office chairs meeting room",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7648403",
+                  "url": "https://videos.pexels.com/video-files/7648403/7648403-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/an-empty-conference-room-7648403/"
+                },
+                "fichero": "clips/pexels-7648403.mp4"
               },
               "camara": "panL"
             }
@@ -1517,7 +2085,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "man portrait job search worried",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6332726",
+                  "url": "https://videos.pexels.com/video-files/6332726/6332726-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/a-man-holding-his-head-6332726/"
+                },
+                "fichero": "clips/pexels-6332726.mp4"
               },
               "camara": "push"
             }
@@ -1538,14 +2116,32 @@
                 "tono": "carmin",
                 "lado": "izq",
                 "titular": "La previsión de 2026 va bajando",
-                "apoyo": "Del 3,5 % del FMI al 2,7 % estimado en julio."
+                "apoyo": "Del 3,5 % del FMI al 2,7 % estimado en julio.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7877020",
+                  "url": "https://images.pexels.com/photos/7877020/pexels-photo-7877020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-corporate-attire-talking-while-doing-hand-gestures-7877020/"
+                },
+                "fichero": "recortes-auto/pexels-7877020.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "stock chart flat screen finance",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38512646",
+                  "url": "https://videos.pexels.com/video-files/38512646/16355433_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/crypto-market-analysis-on-dual-screens-38512646/"
+                },
+                "fichero": "clips/pexels-38512646.mp4"
               },
               "camara": "pull"
             }
@@ -1563,7 +2159,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old newspaper archive headlines historic",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10284759",
+                  "url": "https://videos.pexels.com/video-files/10284759/10284759-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Oleg Gamulinskii",
+                  "pagina": "https://www.pexels.com/video/a-black-and-white-image-of-a-newspaper-10284759/"
+                },
+                "fichero": "clips/pexels-10284759.mp4"
               },
               "camara": "panR",
               "rotulo": {
@@ -1592,14 +2198,32 @@
                 "tono": "carmin",
                 "lado": "der",
                 "titular": "\"Argentina por fin lo ha entendido\"",
-                "apoyo": "Se escribió durante diez años. Y acabó en el corralito y en el mayor impago de la historia."
+                "apoyo": "Se escribió durante diez años. Y acabó en el corralito y en el mayor impago de la historia.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17181611",
+                  "url": "https://images.pexels.com/photos/17181611/pexels-photo-17181611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Luigie Estrella",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-brunette-17181611/"
+                },
+                "fichero": "recortes-auto/pexels-17181611.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "bank crisis protest street people",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4848249",
+                  "url": "https://videos.pexels.com/video-files/4848249/4848249-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/people-protesting-on-the-streets-4848249/"
+                },
+                "fichero": "clips/pexels-4848249.mp4"
               },
               "camara": "push"
             }
@@ -1617,7 +2241,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "foundation construction concrete base",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30836670",
+                  "url": "https://videos.pexels.com/video-files/30836670/13186860_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "AMIT PANDEY",
+                  "pagina": "https://www.pexels.com/video/concrete-mixer-pouring-fresh-cement-outdoors-30836670/"
+                },
+                "fichero": "clips/pexels-30836670.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1664,7 +2298,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil pump field extraction sunset",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19288817",
+                  "url": "https://videos.pexels.com/video-files/19288817/19288817-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "LEONARDO DOURADO",
+                  "pagina": "https://www.pexels.com/video/petrobras-e-bandeira-do-brasil-19288817/"
+                },
+                "fichero": "clips/pexels-19288817.mp4"
               },
               "camara": "panL",
               "rotulo": {
@@ -1694,14 +2338,32 @@
                 "lado": "izq",
                 "cifra": "31 años",
                 "titular": "México, con petróleo y la mejor frontera del mundo",
-                "apoyo": "Y su productividad total de los factores lleva treinta y un años cayendo."
+                "apoyo": "Y su productividad total de los factores lleva treinta y un años cayendo.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10039988",
+                  "url": "https://images.pexels.com/photos/10039988/pexels-photo-10039988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Los Muertos Crew",
+                  "pagina": "https://www.pexels.com/photo/agave-processing-at-tequila-distillery-10039988/"
+                },
+                "fichero": "recortes-auto/pexels-10039988.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "border crossing trucks highway",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36353757",
+                  "url": "https://videos.pexels.com/video-files/36353757/15419222_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Erkan Avanoğlu",
+                  "pagina": "https://www.pexels.com/video/urban-intersection-with-vehicles-passing-36353757/"
+                },
+                "fichero": "clips/pexels-36353757.mp4"
               },
               "camara": "push"
             }
@@ -1719,7 +2381,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "unfinished apartment blocks spain coast",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34157665",
+                  "url": "https://videos.pexels.com/video-files/34157665/14481823_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Carlos Sedano",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-malaga-s-waterfront-promenade-34157665/"
+                },
+                "fichero": "clips/pexels-34157665.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1733,7 +2405,15 @@
                 "lado": "der",
                 "titular": "España tuvo su versión con el ladrillo",
                 "apoyo": "Veinte años en que construir casas parecía una industria. Hasta 2008.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34670926",
+                  "url": "https://images.pexels.com/photos/34670926/pexels-photo-34670926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/construction-worker-in-safety-gear-outdoors-34670926/"
+                },
+                "fichero": "recortes-auto/pexels-34670926.png"
               }
             }
           ]
@@ -1753,14 +2433,32 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Lo aburrido es lo que aguanta",
-                "apoyo": "Educación, instituciones y productividad. Nunca da titulares y es lo único que queda."
+                "apoyo": "Educación, instituciones y productividad. Nunca da titulares y es lo único que queda.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8617627",
+                  "url": "https://images.pexels.com/photos/8617627/pexels-photo-8617627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Yan Krukau",
+                  "pagina": "https://www.pexels.com/photo/man-in-dress-shirt-standing-beside-a-girl-8617627/"
+                },
+                "fichero": "recortes-auto/pexels-8617627.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "students classroom learning study",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5198160",
+                  "url": "https://videos.pexels.com/video-files/5198160/5198160-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Max Fischer",
+                  "pagina": "https://www.pexels.com/video/a-young-male-student-writing-on-his-notebook-5198160/"
+                },
+                "fichero": "clips/pexels-5198160.mp4"
               },
               "camara": "panR"
             }
@@ -1790,7 +2488,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "library books shelves quiet",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34811324",
+                  "url": "https://videos.pexels.com/video-files/34811324/14759306_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Loveleen Cherub",
+                  "pagina": "https://www.pexels.com/video/quiet-library-interior-with-people-reading-34811324/"
+                },
+                "fichero": "clips/pexels-34811324.mp4"
               },
               "camara": "push"
             }
@@ -1814,7 +2522,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old photograph album vintage sepia",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7546430",
+                  "url": "https://videos.pexels.com/video-files/7546430/7546430-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "SHVETS production",
+                  "pagina": "https://www.pexels.com/video/elderly-woman-holding-a-old-photo-7546430/"
+                },
+                "fichero": "clips/pexels-7546430.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1828,7 +2546,15 @@
                 "lado": "izq",
                 "titular": "Del primero del mundo a cuatro veces y media abajo",
                 "apoyo": "En poco más de un siglo, y sin un solo día de hundimiento.",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30418922",
+                  "url": "https://images.pexels.com/photos/30418922/pexels-photo-30418922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "İrem Çevik",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-vintage-coat-at-indoor-market-30418922/"
+                },
+                "fichero": "recortes-auto/pexels-30418922.png"
               }
             }
           ]
@@ -1849,14 +2575,32 @@
                 "lado": "izq",
                 "cifra": "46,7 %",
                 "titular": "Sabía leer, siendo el país más rico del mundo",
-                "apoyo": "Australia estaba en el 73 % y Canadá en el 82,9 %."
+                "apoyo": "Australia estaba en el 73 % y Canadá en el 82,9 %.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27643388",
+                  "url": "https://images.pexels.com/photos/27643388/pexels-photo-27643388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Luciana Evrard",
+                  "pagina": "https://www.pexels.com/photo/an-old-man-with-a-hat-and-a-stick-27643388/"
+                },
+                "fichero": "recortes-auto/pexels-27643388.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "wheat harvest field golden machinery",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38447773",
+                  "url": "https://videos.pexels.com/video-files/38447773/16326417_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ali Akdemir",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-combine-harvesting-wheat-field-38447773/"
+                },
+                "fichero": "clips/pexels-38447773.mp4"
               },
               "camara": "panL"
             }
@@ -1874,7 +2618,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dollar bills hidden drawer cash",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4393482",
+                  "url": "https://videos.pexels.com/video-files/4393482/4393482-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/a-person-putting-the-dollar-bills-on-the-table-4393482/"
+                },
+                "fichero": "clips/pexels-4393482.mp4"
               },
               "camara": "pull",
               "rotulo": {
@@ -1899,7 +2653,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "clock hands time close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4169072",
+                  "url": "https://videos.pexels.com/video-files/4169072/4169072-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Wendy Laplume",
+                  "pagina": "https://www.pexels.com/video/racking-focus-on-an-old-clock-4169072/"
+                },
+                "fichero": "clips/pexels-4169072.mp4"
               },
               "camara": "push",
               "rotulo": {
@@ -1930,7 +2694,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "buenos aires street evening city",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36422291",
+                  "url": "https://videos.pexels.com/video-files/36422291/15443515_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Andres Idda Bianchi",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-buenos-aires-at-sunset-36422291/"
+                },
+                "fichero": "clips/pexels-36422291.mp4"
               },
               "camara": "pull"
             }
