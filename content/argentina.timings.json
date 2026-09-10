@@ -1,1 +1,398 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/argentina-b0-01.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 229
+  },
+  "b0-02": {
+    "audio": "voice/argentina-b0-02.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b0-03": {
+    "audio": "voice/argentina-b0-03.mp3",
+    "duration": 8.568163,
+    "transcript": null,
+    "credit_cost": 206
+  },
+  "b0-04": {
+    "audio": "voice/argentina-b0-04.mp3",
+    "duration": 12.303673,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b0-05": {
+    "audio": "voice/argentina-b0-05.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b0-06": {
+    "audio": "voice/argentina-b0-06.mp3",
+    "duration": 12.303673,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b1-01": {
+    "audio": "voice/argentina-b1-01.mp3",
+    "duration": 7.653878,
+    "transcript": null,
+    "credit_cost": 185
+  },
+  "b1-02": {
+    "audio": "voice/argentina-b1-02.mp3",
+    "duration": 8.881633,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b2-01": {
+    "audio": "voice/argentina-b2-01.mp3",
+    "duration": 13.296327,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b2-02": {
+    "audio": "voice/argentina-b2-02.mp3",
+    "duration": 11.023673,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b2-03": {
+    "audio": "voice/argentina-b2-03.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b2-06": {
+    "audio": "voice/argentina-b2-06.mp3",
+    "duration": 11.467755,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b2-04": {
+    "audio": "voice/argentina-b2-04.mp3",
+    "duration": 6.478367,
+    "transcript": null,
+    "credit_cost": 148
+  },
+  "b2-05": {
+    "audio": "voice/argentina-b2-05.mp3",
+    "duration": 9.900408,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b3-01": {
+    "audio": "voice/argentina-b3-01.mp3",
+    "duration": 6.948571,
+    "transcript": null,
+    "credit_cost": 181
+  },
+  "b3-02": {
+    "audio": "voice/argentina-b3-02.mp3",
+    "duration": 9.900408,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b3-03": {
+    "audio": "voice/argentina-b3-03.mp3",
+    "duration": 9.221224,
+    "transcript": null,
+    "credit_cost": 186
+  },
+  "b3-04": {
+    "audio": "voice/argentina-b3-04.mp3",
+    "duration": 8.437551,
+    "transcript": null,
+    "credit_cost": 204
+  },
+  "b3-05": {
+    "audio": "voice/argentina-b3-05.mp3",
+    "duration": 10.736327,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b3-06": {
+    "audio": "voice/argentina-b3-06.mp3",
+    "duration": 10.657959,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b3-09": {
+    "audio": "voice/argentina-b3-09.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b3-07": {
+    "audio": "voice/argentina-b3-07.mp3",
+    "duration": 10.945306,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b3-08": {
+    "audio": "voice/argentina-b3-08.mp3",
+    "duration": 11.075918,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b4-01": {
+    "audio": "voice/argentina-b4-01.mp3",
+    "duration": 10.736327,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b4-02": {
+    "audio": "voice/argentina-b4-02.mp3",
+    "duration": 10.997551,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b4-03": {
+    "audio": "voice/argentina-b4-03.mp3",
+    "duration": 10.266122,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b4-04": {
+    "audio": "voice/argentina-b4-04.mp3",
+    "duration": 8.176327,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b4-06": {
+    "audio": "voice/argentina-b4-06.mp3",
+    "duration": 12.094694,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b4-05": {
+    "audio": "voice/argentina-b4-05.mp3",
+    "duration": 12.669388,
+    "transcript": null,
+    "credit_cost": 301
+  },
+  "b5-01": {
+    "audio": "voice/argentina-b5-01.mp3",
+    "duration": 8.489796,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b5-02": {
+    "audio": "voice/argentina-b5-02.mp3",
+    "duration": 9.534694,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b5-03": {
+    "audio": "voice/argentina-b5-03.mp3",
+    "duration": 7.235918,
+    "transcript": null,
+    "credit_cost": 181
+  },
+  "b5-04": {
+    "audio": "voice/argentina-b5-04.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b5-05": {
+    "audio": "voice/argentina-b5-05.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b6-01": {
+    "audio": "voice/argentina-b6-01.mp3",
+    "duration": 10.083265,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b6-02": {
+    "audio": "voice/argentina-b6-02.mp3",
+    "duration": 11.990204,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b6-03": {
+    "audio": "voice/argentina-b6-03.mp3",
+    "duration": 11.676735,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b6-07": {
+    "audio": "voice/argentina-b6-07.mp3",
+    "duration": 10.893061,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b6-04": {
+    "audio": "voice/argentina-b6-04.mp3",
+    "duration": 7.88898,
+    "transcript": null,
+    "credit_cost": 178
+  },
+  "b6-05": {
+    "audio": "voice/argentina-b6-05.mp3",
+    "duration": 9.926531,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b6-06": {
+    "audio": "voice/argentina-b6-06.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b7-01": {
+    "audio": "voice/argentina-b7-01.mp3",
+    "duration": 6.582857,
+    "transcript": null,
+    "credit_cost": 172
+  },
+  "b7-02": {
+    "audio": "voice/argentina-b7-02.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b7-03": {
+    "audio": "voice/argentina-b7-03.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b7-04": {
+    "audio": "voice/argentina-b7-04.mp3",
+    "duration": 10.187755,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b7-05": {
+    "audio": "voice/argentina-b7-05.mp3",
+    "duration": 10.736327,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b7-07": {
+    "audio": "voice/argentina-b7-07.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b7-06": {
+    "audio": "voice/argentina-b7-06.mp3",
+    "duration": 8.829388,
+    "transcript": null,
+    "credit_cost": 216
+  },
+  "b8-01": {
+    "audio": "voice/argentina-b8-01.mp3",
+    "duration": 10.03102,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "b8-02": {
+    "audio": "voice/argentina-b8-02.mp3",
+    "duration": 11.467755,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b8-03": {
+    "audio": "voice/argentina-b8-03.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b8-04": {
+    "audio": "voice/argentina-b8-04.mp3",
+    "duration": 11.911837,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b8-05": {
+    "audio": "voice/argentina-b8-05.mp3",
+    "duration": 10.814694,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b8-06": {
+    "audio": "voice/argentina-b8-06.mp3",
+    "duration": 12.303673,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b9-01": {
+    "audio": "voice/argentina-b9-01.mp3",
+    "duration": 3.265306,
+    "transcript": null,
+    "credit_cost": 75
+  },
+  "b9-02": {
+    "audio": "voice/argentina-b9-02.mp3",
+    "duration": 9.926531,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b9-03": {
+    "audio": "voice/argentina-b9-03.mp3",
+    "duration": 9.273469,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b9-04": {
+    "audio": "voice/argentina-b9-04.mp3",
+    "duration": 8.672653,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b9-05": {
+    "audio": "voice/argentina-b9-05.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b9-06": {
+    "audio": "voice/argentina-b9-06.mp3",
+    "duration": 13.897143,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b10-01": {
+    "audio": "voice/argentina-b10-01.mp3",
+    "duration": 10.422857,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b10-02": {
+    "audio": "voice/argentina-b10-02.mp3",
+    "duration": 9.456327,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b10-03": {
+    "audio": "voice/argentina-b10-03.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b10-04": {
+    "audio": "voice/argentina-b10-04.mp3",
+    "duration": 11.755102,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b10-05": {
+    "audio": "voice/argentina-b10-05.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b10-06": {
+    "audio": "voice/argentina-b10-06.mp3",
+    "duration": 5.041633,
+    "transcript": null,
+    "credit_cost": 136
+  }
+}
