@@ -1,7 +1,10 @@
 {
   "slug": "vivienda-espana",
   "titulo": "Todos Vamos Justos. Alguien Está Comprando España (Y No Son Los Fondos)",
-  "voz": { "id": "clone_2333475", "nombre": "VOZ DETRAS DEL ENIGMA" },
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
   "wpm": 145,
   "musica": "mystery.wav",
   "bloques": [
@@ -12,7 +15,9 @@
         {
           "id": "b0-01",
           "vo": "En España se venden hoy menos casas que hace un año. Las compraventas de vivienda llevan dos trimestres seguidos cayendo. Y el precio del metro cuadrado acaba de marcar el máximo de toda la serie histórica.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -23,12 +28,33 @@
                 "lado": "der",
                 "cifra": "2.487",
                 "titular": "Euros por metro cuadrado",
-                "apoyo": "Máximo histórico. Con menos compradores que hace un año."
+                "apoyo": "Máximo histórico. Con menos compradores que hace un año.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7937216",
+                  "url": "https://images.pexels.com/photos/7937216/pexels-photo-7937216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-jacket-holding-red-and-white-fore-sale-sign-7937216/"
+                },
+                "fichero": "recortes-auto/pexels-7937216.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "madrid apartment buildings rooftops aerial", "tono": "ocre" },
+              "clip": {
+                "buscar": "madrid apartment buildings rooftops aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7069320",
+                  "url": "https://videos.pexels.com/video-files/7069320/7069320-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Oleg Khudyakov",
+                  "pagina": "https://www.pexels.com/video/aerial-footage-of-a-big-city-7069320/"
+                },
+                "fichero": "clips/pexels-7069320.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -36,7 +62,9 @@
         {
           "id": "b0-02",
           "vo": "Dos mil cuatrocientos ochenta y siete euros por metro cuadrado. Un nueve por ciento más caro que hace un año, con menos gente comprando que hace un año.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -46,14 +74,35 @@
               "barras": {
                 "unidad": "Euros por metro cuadrado",
                 "datos": [
-                  { "etiqueta": "2T 2025", "valor": 2278, "tono": "ink" },
-                  { "etiqueta": "2T 2026", "valor": 2487, "tono": "carmin" }
+                  {
+                    "etiqueta": "2T 2025",
+                    "valor": 2278,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2T 2026",
+                    "valor": 2487,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "spanish city street balconies facade", "tono": "ocre" },
+              "clip": {
+                "buscar": "spanish city street balconies facade",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7809651",
+                  "url": "https://videos.pexels.com/video-files/7809651/7809651-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Dario Fernandez Ruz",
+                  "pagina": "https://www.pexels.com/video/flag-and-flowers-on-display-on-the-building-balconies-7809651/"
+                },
+                "fichero": "clips/pexels-7809651.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -61,19 +110,42 @@
         {
           "id": "b0-03",
           "vo": "Y hay un índice que mide solo la misma vivienda vendida dos veces, para que no haga trampa la mezcla de pisos. Ese índice dice que hoy estamos un treinta y nueve por ciento por encima del pico de dos mil siete.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "LA MISMA VIVIENDA, REVENDIDA · SOBRE EL PICO DE 2007",
               "fuente": "Índice de Precios de Vivienda de Ventas Repetidas",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 39.31, "etiqueta": "por encima del máximo de la burbuja", "decimales": 1, "sufijo": "%" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 39.31,
+                "etiqueta": "por encima del máximo de la burbuja",
+                "decimales": 1,
+                "sufijo": "%"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "abandoned construction site spain crane", "tono": "ocre" },
+              "clip": {
+                "buscar": "abandoned construction site spain crane",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28823325",
+                  "url": "https://videos.pexels.com/video-files/28823325/12486024_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/sunset-over-construction-site-with-crane-28823325/"
+                },
+                "fichero": "clips/pexels-28823325.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -81,17 +153,28 @@
         {
           "id": "b0-04",
           "vo": "Por encima del pico. No cerca del pico: por encima. Del máximo de la mayor burbuja inmobiliaria que ha vivido este país en toda su historia.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Un *treinta y nueve por ciento* por encima de 2007.", "night": true },
-            { "tipo": "objeto", "objeto": "casa" }
+            {
+              "tipo": "frase",
+              "texto": "Un *treinta y nueve por ciento* por encima de 2007.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
           ]
         },
         {
           "id": "b0-05",
           "vo": "Menos compradores y precio récord a la vez. Eso solo puede pasar por una razón: el que se está retirando del mercado no es el que pone el precio.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -101,14 +184,35 @@
               "barras": {
                 "unidad": "Por ciento",
                 "datos": [
-                  { "etiqueta": "Operaciones", "valor": -5.7, "tono": "carmin" },
-                  { "etiqueta": "Precio", "valor": 2.4, "tono": "ink" }
+                  {
+                    "etiqueta": "Operaciones",
+                    "valor": -5.7,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Precio",
+                    "valor": 2.4,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "for sale sign apartment building spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "for sale sign apartment building spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7347588",
+                  "url": "https://videos.pexels.com/video-files/7347588/7347588-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/a-real-estate-agent-holding-cardboard-stating-for-sale-7347588/"
+                },
+                "fichero": "clips/pexels-7347588.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -116,11 +220,20 @@
         {
           "id": "b0-06",
           "vo": "Así que la pregunta no es por qué sube. La pregunta es quién sigue comprando cuando todo el mundo dice que no llega a fin de mes.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Todos vamos justos. *Alguien está comprando.*", "night": true },
-            { "tipo": "objeto", "objeto": "interrogante" }
+            {
+              "tipo": "frase",
+              "texto": "Todos vamos justos. *Alguien está comprando.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
           ]
         }
       ]
@@ -132,7 +245,9 @@
         {
           "id": "b1-01",
           "vo": "Vamos a ver tres cosas, con datos oficiales y con fecha. Quién compra de verdad en España hoy. Por qué el villano que todos nombramos es el ocho por ciento del problema. Y por qué el precio no puede bajar aunque el comprador desaparezca.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "lista",
           "escenas": [
             {
@@ -149,7 +264,20 @@
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "housing keys handover close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "housing keys handover close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8471048",
+                  "url": "https://videos.pexels.com/video-files/8471048/8471048-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Thirdman",
+                  "pagina": "https://www.pexels.com/video/a-sold-signboard-and-a-person-holding-keys-8471048/"
+                },
+                "fichero": "clips/pexels-8471048.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -157,13 +285,31 @@
         {
           "id": "b1-02",
           "vo": "Te adelanto la conclusión, porque no le va a gustar a nadie. El que está comprando España no es un fondo de Wall Street. Es tu vecino. Y un jubilado holandés.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "villa" },
+            {
+              "tipo": "objeto",
+              "objeto": "villa"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "alicante coast apartments beach sunny", "tono": "ocre" },
+              "clip": {
+                "buscar": "alicante coast apartments beach sunny",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30160702",
+                  "url": "https://videos.pexels.com/video-files/30160702/12933432_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Andreas Weissweiler",
+                  "pagina": "https://www.pexels.com/video/calpe-beachfront-with-penon-de-ifach-view-30160702/"
+                },
+                "fichero": "clips/pexels-30160702.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -171,10 +317,16 @@
         {
           "id": "b1-03",
           "vo": "Y el motivo por el que ellos pueden comprar es exactamente el mismo motivo por el que tú no puedes: que ya tenían una casa antes.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Compran *porque ya tenían*.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "Compran *porque ya tenían*.",
+              "night": true
+            },
             {
               "tipo": "recorte",
               "recorte": {
@@ -182,7 +334,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "El comprador medio ya era propietario",
-                "apoyo": "La casa nueva la paga la casa vieja."
+                "apoyo": "La casa nueva la paga la casa vieja.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6625770",
+                  "url": "https://images.pexels.com/photos/6625770/pexels-photo-6625770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alex Green",
+                  "pagina": "https://www.pexels.com/photo/man-in-blue-jacket-beside-woman-in-blue-shirt-6625770/"
+                },
+                "fichero": "recortes-auto/pexels-6625770.png"
               }
             }
           ]
@@ -196,19 +356,42 @@
         {
           "id": "b2-01",
           "vo": "Empecemos por abajo. Por el que todavía no tiene nada. El alquiler medio que paga una persona joven en España son mil ciento setenta y seis euros al mes.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "ALQUILER MEDIO DE UNA PERSONA JOVEN",
               "fuente": "Observatorio de Emancipación · Consejo de la Juventud",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 1176, "etiqueta": "euros al mes", "decimales": 0, "sufijo": " €" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1176,
+                "etiqueta": "euros al mes",
+                "decimales": 0,
+                "sufijo": " €"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "small apartment interior young person", "tono": "ocre" },
+              "clip": {
+                "buscar": "small apartment interior young person",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7480503",
+                  "url": "https://videos.pexels.com/video-files/7480503/7480503-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/man-using-a-smartphone-for-video-call-7480503/"
+                },
+                "fichero": "clips/pexels-7480503.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -216,7 +399,9 @@
         {
           "id": "b2-02",
           "vo": "El salario neto mediano de una persona joven son catorce mil doscientos noventa y dos euros al año. Haz la división. El alquiler se come el noventa y nueve por ciento de lo que cobra.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -226,8 +411,16 @@
               "barras": {
                 "unidad": "Por ciento del salario",
                 "datos": [
-                  { "etiqueta": "Alquiler", "valor": 98.7, "tono": "carmin" },
-                  { "etiqueta": "Le queda", "valor": 1.3, "tono": "ink" }
+                  {
+                    "etiqueta": "Alquiler",
+                    "valor": 98.7,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Le queda",
+                    "valor": 1.3,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
@@ -239,7 +432,15 @@
                 "lado": "der",
                 "cifra": "98,7 %",
                 "titular": "Del sueldo, al alquiler",
-                "apoyo": "Emanciparse en solitario ya no es una decisión: es una imposibilidad aritmética."
+                "apoyo": "Emanciparse en solitario ya no es una decisión: es una imposibilidad aritmética.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6382637",
+                  "url": "https://images.pexels.com/photos/6382637/pexels-photo-6382637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Liza Summer",
+                  "pagina": "https://www.pexels.com/photo/stressed-young-ethnic-woman-grabbing-head-while-sitting-on-chair-6382637/"
+                },
+                "fichero": "recortes-auto/pexels-6382637.png"
               }
             }
           ]
@@ -247,19 +448,42 @@
         {
           "id": "b2-03",
           "vo": "Por eso solo se emancipa el catorce coma cinco por ciento de los jóvenes de dieciséis a veintinueve años. Es el mínimo desde que existe el registro. La edad media para irse de casa está ya en los treinta.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "TASA DE EMANCIPACIÓN · 16 A 29 AÑOS",
               "fuente": "Consejo de la Juventud de España · mayo de 2026",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 14.5, "etiqueta": "por ciento vive fuera de casa de sus padres", "decimales": 1, "sufijo": "%" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 14.5,
+                "etiqueta": "por ciento vive fuera de casa de sus padres",
+                "decimales": 1,
+                "sufijo": "%"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "teenager bedroom family home spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "teenager bedroom family home spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10387909",
+                  "url": "https://videos.pexels.com/video-files/10387909/10387909-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 21,
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/video/elderly-man-lying-on-bed-while-reading-a-book-10387909/"
+                },
+                "fichero": "clips/pexels-10387909.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -267,13 +491,31 @@
         {
           "id": "b2-04",
           "vo": "Segundo escalón. El que compra su primera vivienda. Ese dedica un treinta y dos por ciento de sus ingresos a la hipoteca, con una cuota media de setecientos sesenta y nueve euros al mes.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "casa" },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "couple signing mortgage papers bank office", "tono": "ocre" },
+              "clip": {
+                "buscar": "couple signing mortgage papers bank office",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8814710",
+                  "url": "https://videos.pexels.com/video-files/8814710/8814710-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/real-estate-agent-showing-the-contract-to-the-couple-8814710/"
+                },
+                "fichero": "clips/pexels-8814710.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -281,7 +523,9 @@
         {
           "id": "b2-05",
           "vo": "Y ahora el tercer escalón, que es donde está toda la historia. El que compra su segunda vivienda. Gana cinco mil trescientos cincuenta y seis euros al mes. Y paga por ella quinientos ochenta y nueve.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -292,12 +536,33 @@
                 "lado": "izq",
                 "cifra": "42,7",
                 "titular": "La edad media del que compra la segunda",
-                "apoyo": "Gana 5.356 € al mes. Paga 589 € de hipoteca."
+                "apoyo": "Gana 5.356 € al mes. Paga 589 € de hipoteca.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34299170",
+                  "url": "https://images.pexels.com/photos/34299170/pexels-photo-34299170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Moisés Sánchez",
+                  "pagina": "https://www.pexels.com/photo/professional-man-in-stylish-grey-suit-34299170/"
+                },
+                "fichero": "recortes-auto/pexels-34299170.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "coastal villa terrace sea view spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "coastal villa terrace sea view spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34874522",
+                  "url": "https://videos.pexels.com/video-files/34874522/14777085_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Rene Strgar",
+                  "pagina": "https://www.pexels.com/video/luxurious-outdoor-patio-with-scenic-view-34874522/"
+                },
+                "fichero": "clips/pexels-34874522.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -305,7 +570,9 @@
         {
           "id": "b2-06",
           "vo": "Menos cuota que el que compra la primera. Un once por ciento de sus ingresos. La segunda casa le sale más barata de sostener que la primera casa a cualquiera de los otros dos.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -315,15 +582,40 @@
               "barras": {
                 "unidad": "Por ciento de los ingresos",
                 "datos": [
-                  { "etiqueta": "Joven de alquiler", "valor": 98.7, "tono": "carmin" },
-                  { "etiqueta": "Primera vivienda", "valor": 32.7, "tono": "ocre" },
-                  { "etiqueta": "Segunda vivienda", "valor": 11, "tono": "ink" }
+                  {
+                    "etiqueta": "Joven de alquiler",
+                    "valor": 98.7,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Primera vivienda",
+                    "valor": 32.7,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Segunda vivienda",
+                    "valor": 11,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "swimming pool holiday house spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "swimming pool holiday house spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4300850",
+                  "url": "https://videos.pexels.com/video-files/4300850/4300850-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 12,
+                  "autor": "Joash",
+                  "pagina": "https://www.pexels.com/video/drone-shot-of-the-beautiful-houses-in-the-village-4300850/"
+                },
+                "fichero": "clips/pexels-4300850.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -331,11 +623,20 @@
         {
           "id": "b2-07",
           "vo": "Noventa y nueve por ciento. Treinta y dos por ciento. Once por ciento. Ese es el país entero resumido en tres números. Cuanto más tienes, más barato te sale tener más.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Cuanto más tienes, *más barato te sale tener más*.", "night": true },
-            { "tipo": "objeto", "objeto": "balanza" }
+            {
+              "tipo": "frase",
+              "texto": "Cuanto más tienes, *más barato te sale tener más*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
           ]
         }
       ]
@@ -347,13 +648,31 @@
         {
           "id": "b3-01",
           "vo": "Ahora vamos al culpable. Si preguntas por la calle quién ha comprado España, la respuesta llega en dos segundos y es siempre la misma. Los fondos.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "maletero" },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "glass office towers financial district", "tono": "ocre" },
+              "clip": {
+                "buscar": "glass office towers financial district",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38863598",
+                  "url": "https://videos.pexels.com/video-files/38863598/16520124_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "WeStarMoney  Rec",
+                  "pagina": "https://www.pexels.com/video/majestic-city-skyscrapers-under-a-clear-sky-38863598/"
+                },
+                "fichero": "clips/pexels-38863598.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -361,7 +680,9 @@
         {
           "id": "b3-02",
           "vo": "El Ministerio de Consumo, junto con el Consejo Superior de Investigaciones Científicas, contó una por una las viviendas de alquiler de este país. Los fondos y las empresas tienen doscientas veintitrés mil.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "gente",
           "escenas": [
             {
@@ -378,7 +699,20 @@
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "residential block windows repeating pattern", "tono": "ocre" },
+              "clip": {
+                "buscar": "residential block windows repeating pattern",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8639871",
+                  "url": "https://videos.pexels.com/video-files/8639871/8639871-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Alan W",
+                  "pagina": "https://www.pexels.com/video/exterior-of-residential-buildings-at-daytime-8639871/"
+                },
+                "fichero": "clips/pexels-8639871.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -386,15 +720,25 @@
         {
           "id": "b3-03",
           "vo": "Doscientas veintitrés mil sobre un parque de dos millones y medio de viviendas alquiladas. Es el ocho por ciento. El villano oficial de todos los debates es el ocho por ciento.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "ALQUILER EN MANOS DE FONDOS Y EMPRESAS",
               "fuente": "Ministerio de Consumo y CSIC",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 8, "etiqueta": "por ciento del parque de alquiler", "decimales": 0, "sufijo": "%" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 8,
+                "etiqueta": "por ciento del parque de alquiler",
+                "decimales": 0,
+                "sufijo": "%"
+              }
             },
             {
               "tipo": "recorte",
@@ -404,7 +748,15 @@
                 "lado": "der",
                 "cifra": "8 %",
                 "titular": "Todo el ruido, para esta cifra",
-                "apoyo": "223.552 viviendas sobre un parque de 2,57 millones."
+                "apoyo": "223.552 viviendas sobre un parque de 2,57 millones.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10417388",
+                  "url": "https://images.pexels.com/photos/10417388/pexels-photo-10417388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jordan Bergendahl",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-looking-at-the-window-10417388/"
+                },
+                "fichero": "recortes-auto/pexels-10417388.png"
               }
             }
           ]
@@ -412,7 +764,9 @@
         {
           "id": "b3-04",
           "vo": "¿Y el resto? Un cuarenta y tres por ciento está en manos de particulares que tienen más de una vivienda. Personas físicas. Con nombre, con dos apellidos y con tres pisos.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -422,16 +776,45 @@
               "barras": {
                 "unidad": "Por ciento del parque",
                 "datos": [
-                  { "etiqueta": "Fondos y empresas", "valor": 8, "tono": "ink" },
-                  { "etiqueta": "Vivienda pública", "valor": 9, "tono": "ocre" },
-                  { "etiqueta": "Particular con varios", "valor": 43, "tono": "carmin" },
-                  { "etiqueta": "Particular con uno", "valor": 40, "tono": "ink" }
+                  {
+                    "etiqueta": "Fondos y empresas",
+                    "valor": 8,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Vivienda pública",
+                    "valor": 9,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Particular con varios",
+                    "valor": 43,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Particular con uno",
+                    "valor": 40,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "neighbourhood street spain apartment doorway", "tono": "ocre" },
+              "clip": {
+                "buscar": "neighbourhood street spain apartment doorway",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16606951",
+                  "url": "https://videos.pexels.com/video-files/16606951/16606951-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Atlantic Ambience",
+                  "pagina": "https://www.pexels.com/video/colourful-houses-in-tenerife-canary-islands-16606951/"
+                },
+                "fichero": "clips/pexels-16606951.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -439,7 +822,9 @@
         {
           "id": "b3-05",
           "vo": "De los pisos de alquiler que pertenecen a particulares, más de la mitad, un cincuenta y tres por ciento, son de alguien que tiene varios. El pequeño casero mayoritario es un mito estadístico.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -450,12 +835,33 @@
                 "lado": "izq",
                 "cifra": "52,8 %",
                 "titular": "El casero medio no tiene un piso",
-                "apoyo": "Más de la mitad del alquiler particular es de multipropietarios."
+                "apoyo": "Más de la mitad del alquiler particular es de multipropietarios.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10546976",
+                  "url": "https://images.pexels.com/photos/10546976/pexels-photo-10546976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Guto Macedo",
+                  "pagina": "https://www.pexels.com/photo/a-man-with-his-hands-clasped-10546976/"
+                },
+                "fichero": "recortes-auto/pexels-10546976.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "mailboxes apartment entrance hall", "tono": "ocre" },
+              "clip": {
+                "buscar": "mailboxes apartment entrance hall",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578548",
+                  "url": "https://videos.pexels.com/video-files/7578548/7578548-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/video-of-a-house-hallway-7578548/"
+                },
+                "fichero": "clips/pexels-7578548.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -463,11 +869,20 @@
         {
           "id": "b3-06",
           "vo": "Y el dato que lo remata. Solo el cinco coma siete por ciento de los adultos españoles cobra un alquiler. Más de uno de cada cinco lo paga.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Lo cobra el *5,7 %*. Lo paga *más del 20 %*.", "night": true },
-            { "tipo": "objeto", "objeto": "balanza" }
+            {
+              "tipo": "frase",
+              "texto": "Lo cobra el *5,7 %*. Lo paga *más del 20 %*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
           ]
         }
       ]
@@ -479,7 +894,9 @@
         {
           "id": "b4-01",
           "vo": "Segundo culpable de la lista. El extranjero rico que compra con la golden visa. Ese permiso de residencia que España daba a quien invirtiera medio millón de euros en ladrillo.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -490,12 +907,33 @@
                 "lado": "der",
                 "cifra": "500.000 €",
                 "titular": "El precio de una residencia española",
-                "apoyo": "Invertir esa cantidad en vivienda daba permiso para vivir aquí."
+                "apoyo": "Invertir esa cantidad en vivienda daba permiso para vivir aquí.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5778659",
+                  "url": "https://images.pexels.com/photos/5778659/pexels-photo-5778659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/businessmen-having-a-contract-signing-5778659/"
+                },
+                "fichero": "recortes-auto/pexels-5778659.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "luxury apartment marbella terrace", "tono": "ocre" },
+              "clip": {
+                "buscar": "luxury apartment marbella terrace",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17874866",
+                  "url": "https://videos.pexels.com/video-files/17874866/17874866-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Vizual Production",
+                  "pagina": "https://www.pexels.com/video/a-general-sea-view-or-a-sea-view-taken-from-the-apartment-17874866/"
+                },
+                "fichero": "clips/pexels-17874866.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -503,23 +941,37 @@
         {
           "id": "b4-02",
           "vo": "Se aprobó en dos mil trece. En once años se concedieron catorce mil quinientas setenta y seis. En total. En once años enteros.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "GOLDEN VISA CONCEDIDAS · 2013 A 2023",
               "fuente": "Ministerio de Vivienda · Portal de Transparencia",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 14576, "etiqueta": "en once años", "decimales": 0 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 14576,
+                "etiqueta": "en once años",
+                "decimales": 0
+              }
             },
-            { "tipo": "objeto", "objeto": "carpeta" }
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
           ]
         },
         {
           "id": "b4-03",
           "vo": "En España se venden más de medio millón de viviendas al año. Las golden visa afectaban a menos del uno por ciento de las compraventas. Al cero coma cinco, según los cálculos del sector.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -529,14 +981,35 @@
               "barras": {
                 "unidad": "Por ciento de las compraventas",
                 "datos": [
-                  { "etiqueta": "Golden visa", "valor": 0.5, "tono": "carmin" },
-                  { "etiqueta": "Todo lo demás", "valor": 99.5, "tono": "ink" }
+                  {
+                    "etiqueta": "Golden visa",
+                    "valor": 0.5,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Todo lo demás",
+                    "valor": 99.5,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "spanish notary office documents desk", "tono": "ocre" },
+              "clip": {
+                "buscar": "spanish notary office documents desk",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8731441",
+                  "url": "https://videos.pexels.com/video-files/8731441/8731441-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/a-person-holding-a-pen-and-paper-8731441/"
+                },
+                "fichero": "clips/pexels-8731441.mp4"
+              },
               "camara": "estatico"
             }
           ]
@@ -544,7 +1017,9 @@
         {
           "id": "b4-04",
           "vo": "El tres de abril de dos mil veinticinco entró en vigor la ley orgánica que las eliminó por completo. Se acabó. Doce años después, llegó la medida estrella contra el comprador extranjero.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -555,12 +1030,33 @@
                 "lado": "izq",
                 "cifra": "3 abr 2025",
                 "titular": "España pone fin a la golden visa",
-                "apoyo": "Ley Orgánica 1/2025. Doce años después de crearla."
+                "apoyo": "Ley Orgánica 1/2025. Doce años después de crearla.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8847165",
+                  "url": "https://images.pexels.com/photos/8847165/pexels-photo-8847165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-behind-speech-desk-8847165/"
+                },
+                "fichero": "recortes-auto/pexels-8847165.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "government building madrid facade columns", "tono": "ocre" },
+              "clip": {
+                "buscar": "government building madrid facade columns",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28454582",
+                  "url": "https://videos.pexels.com/video-files/28454582/12388283_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/a-large-building-with-a-flag-on-top-of-it-28454582/"
+                },
+                "fichero": "clips/pexels-28454582.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -568,7 +1064,9 @@
         {
           "id": "b4-05",
           "vo": "Un año y tres meses más tarde, la compra de vivienda por extranjeros marcó su máximo histórico. Veintiséis mil ochocientas operaciones. En un solo trimestre.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -578,24 +1076,54 @@
               "barras": {
                 "unidad": "Operaciones",
                 "datos": [
-                  { "etiqueta": "Golden visa en 11 años", "valor": 14576, "tono": "ink" },
-                  { "etiqueta": "Extranjeros en 1 trimestre", "valor": 26800, "tono": "carmin" }
+                  {
+                    "etiqueta": "Golden visa en 11 años",
+                    "valor": 14576,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Extranjeros en 1 trimestre",
+                    "valor": 26800,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
-            { "tipo": "objeto", "objeto": "aeropuerto" }
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto"
+            }
           ]
         },
         {
           "id": "b4-06",
           "vo": "Veintiséis mil ochocientas en tres meses, contra catorce mil quinientas de golden visa en once años. Estábamos discutiendo el titular, no el mecanismo.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Estábamos discutiendo *el 0,5 %*.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "Estábamos discutiendo *el 0,5 %*.",
+              "night": true
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "newspaper headlines printing press", "tono": "ocre" },
+              "clip": {
+                "buscar": "newspaper headlines printing press",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38826405",
+                  "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/video/high-speed-newspaper-printing-process-close-up-38826405/"
+                },
+                "fichero": "clips/pexels-38826405.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -609,19 +1137,42 @@
         {
           "id": "b5-01",
           "vo": "Casi el dieciséis por ciento de las viviendas que se venden en España las compra un extranjero. Es el porcentaje más alto de toda la serie histórica del Colegio de Registradores.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "COMPRAS DE VIVIENDA POR EXTRANJEROS · 2T 2026",
               "fuente": "Colegio de Registradores de España",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 15.98, "etiqueta": "por ciento del total, máximo histórico", "decimales": 2, "sufijo": "%" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 15.98,
+                "etiqueta": "por ciento del total, máximo histórico",
+                "decimales": 2,
+                "sufijo": "%"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "tourists walking spanish seaside promenade", "tono": "ocre" },
+              "clip": {
+                "buscar": "tourists walking spanish seaside promenade",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34157665",
+                  "url": "https://videos.pexels.com/video-files/34157665/14481823_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Carlos Sedano",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-malaga-s-waterfront-promenade-34157665/"
+                },
+                "fichero": "clips/pexels-34157665.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -629,12 +1180,21 @@
         {
           "id": "b5-02",
           "vo": "Y no vienen de donde te imaginas. Más de la mitad son de la Unión Europea. Los tres primeros son británicos, neerlandeses y alemanes, y cada uno ronda el siete por ciento del total.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "mapa",
           "escenas": [
             {
               "tipo": "mapa",
-              "mapa": { "region": "europa", "destaca": ["reinounido", "holanda", "alemania"] },
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "reinounido",
+                  "holanda",
+                  "alemania"
+                ]
+              },
               "kicker": "DE DÓNDE VIENE EL COMPRADOR EXTRANJERO",
               "fuente": "Colegio de Registradores · 2T 2026"
             },
@@ -646,7 +1206,15 @@
                 "lado": "der",
                 "cifra": "6,99 %",
                 "titular": "Los británicos, los primeros",
-                "apoyo": "Neerlandeses el 6,94 %. Alemanes el 6,11 %."
+                "apoyo": "Neerlandeses el 6,94 %. Alemanes el 6,11 %.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6293175",
+                  "url": "https://images.pexels.com/photos/6293175/pexels-photo-6293175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/shirtless-man-with-gray-facial-hair-6293175/"
+                },
+                "fichero": "recortes-auto/pexels-6293175.png"
               }
             }
           ]
@@ -654,7 +1222,9 @@
         {
           "id": "b5-03",
           "vo": "No es un fondo buitre. Es un señor de Manchester, uno de Róterdam y uno de Múnich. Comprando con un sueldo del norte de Europa una casa con precio del sur de Europa.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -664,15 +1234,40 @@
               "barras": {
                 "unidad": "Por ciento de la compra extranjera",
                 "datos": [
-                  { "etiqueta": "Reino Unido", "valor": 6.99, "tono": "carmin" },
-                  { "etiqueta": "Países Bajos", "valor": 6.94, "tono": "ocre" },
-                  { "etiqueta": "Alemania", "valor": 6.11, "tono": "ink" }
+                  {
+                    "etiqueta": "Reino Unido",
+                    "valor": 6.99,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Países Bajos",
+                    "valor": 6.94,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Alemania",
+                    "valor": 6.11,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "expat couple cafe terrace mediterranean", "tono": "ocre" },
+              "clip": {
+                "buscar": "expat couple cafe terrace mediterranean",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8538214",
+                  "url": "https://videos.pexels.com/video-files/8538214/8538214-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Vlada Karpovich",
+                  "pagina": "https://www.pexels.com/video/a-couple-on-a-date-8538214/"
+                },
+                "fichero": "clips/pexels-8538214.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -680,19 +1275,42 @@
         {
           "id": "b5-04",
           "vo": "Y se concentran mucho. En Baleares son el treinta y dos por ciento de las compras. En la Comunidad Valenciana, el treinta y uno. En la provincia de Alicante, el cuarenta y seis.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "COMPRA EXTRANJERA EN ALICANTE",
               "fuente": "Colegio de Registradores · 2T 2026",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 46.43, "etiqueta": "por ciento de las compras de la provincia", "decimales": 1, "sufijo": "%" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 46.43,
+                "etiqueta": "por ciento de las compras de la provincia",
+                "decimales": 1,
+                "sufijo": "%"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "benidorm skyline beach apartments", "tono": "ocre" },
+              "clip": {
+                "buscar": "benidorm skyline beach apartments",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31068279",
+                  "url": "https://videos.pexels.com/video-files/31068279/13276945_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Andreas Weissweiler",
+                  "pagina": "https://www.pexels.com/video/breathtaking-view-of-benidorm-beachfront-31068279/"
+                },
+                "fichero": "clips/pexels-31068279.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -700,10 +1318,16 @@
         {
           "id": "b5-05",
           "vo": "Casi una de cada dos casas que se venden en la provincia de Alicante la compra alguien que no vive en España. Léelo otra vez: una de cada dos.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "En Alicante, *una de cada dos*.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "En Alicante, *una de cada dos*.",
+              "night": true
+            },
             {
               "tipo": "recorte",
               "recorte": {
@@ -711,7 +1335,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "El mercado local dejó de ser local",
-                "apoyo": "El precio ya no lo fija quien vive y trabaja allí."
+                "apoyo": "El precio ya no lo fija quien vive y trabaja allí.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30781748",
+                  "url": "https://images.pexels.com/photos/30781748/pexels-photo-30781748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Luan Albarracin",
+                  "pagina": "https://www.pexels.com/photo/professional-woman-in-green-suit-indoor-portrait-30781748/"
+                },
+                "fichero": "recortes-auto/pexels-30781748.png"
               }
             }
           ]
@@ -719,7 +1351,9 @@
         {
           "id": "b5-06",
           "vo": "Y el Banco de España añade el matiz que importa. Las compras de no residentes son el siete coma cuatro por ciento del total. En el boom de dos mil siete eran el tres coma ocho. Se ha duplicado.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -729,14 +1363,35 @@
               "barras": {
                 "unidad": "Por ciento de las operaciones",
                 "datos": [
-                  { "etiqueta": "Boom de 2007", "valor": 3.8, "tono": "ink" },
-                  { "etiqueta": "Hoy", "valor": 7.4, "tono": "carmin" }
+                  {
+                    "etiqueta": "Boom de 2007",
+                    "valor": 3.8,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Hoy",
+                    "valor": 7.4,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "airplane landing coastal airport spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "airplane landing coastal airport spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37627449",
+                  "url": "https://videos.pexels.com/video-files/37627449/15948545_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "James Anthony",
+                  "pagina": "https://www.pexels.com/video/iberia-aircraft-taxiing-at-airport-runway-37627449/"
+                },
+                "fichero": "clips/pexels-37627449.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -750,13 +1405,31 @@
         {
           "id": "b6-01",
           "vo": "Hay una forma de saber quién compra sin preguntárselo a nadie. Mirar cuántos piden una hipoteca. Porque el que necesita una hipoteca es el que necesita un sueldo.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "contable" },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "bank branch counter customer waiting", "tono": "ocre" },
+              "clip": {
+                "buscar": "bank branch counter customer waiting",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7754470",
+                  "url": "https://videos.pexels.com/video-files/7754470/7754470-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/receptionist-talking-to-a-client-7754470/"
+                },
+                "fichero": "clips/pexels-7754470.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -764,15 +1437,25 @@
         {
           "id": "b6-02",
           "vo": "En España, algo más del setenta por ciento de las viviendas vendidas se compran con financiación. El resto, casi un treinta por ciento, se paga sin pedirle nada a ningún banco.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "VIVIENDAS COMPRADAS SIN HIPOTECA",
               "fuente": "UVE Valoraciones sobre datos del INE · 2026",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 28.44, "etiqueta": "por ciento se paga sin financiación", "decimales": 1, "sufijo": "%" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 28.44,
+                "etiqueta": "por ciento se paga sin financiación",
+                "decimales": 1,
+                "sufijo": "%"
+              }
             },
             {
               "tipo": "recorte",
@@ -782,7 +1465,15 @@
                 "lado": "der",
                 "cifra": "28 %",
                 "titular": "Casi un tercio se paga entero",
-                "apoyo": "Ese comprador no necesita nómina. Ya tenía el dinero."
+                "apoyo": "Ese comprador no necesita nómina. Ya tenía el dinero.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5920581",
+                  "url": "https://images.pexels.com/photos/5920581/pexels-photo-5920581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-counting-money-5920581/"
+                },
+                "fichero": "recortes-auto/pexels-5920581.png"
               }
             }
           ]
@@ -790,7 +1481,9 @@
         {
           "id": "b6-03",
           "vo": "Y esa proporción se está moviendo. En dos mil veinte se financiaba el ochenta y dos por ciento de las compras. Hoy, el setenta y dos. Cada año hay más gente que paga a tocateja.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "lineas",
           "escenas": [
             {
@@ -802,17 +1495,42 @@
                     "nombre": "Con financiación",
                     "tono": "carmin",
                     "sufijo": " %",
-                    "puntos": [["2020", 81.6], ["2026", 71.6]]
+                    "puntos": [
+                      [
+                        "2020",
+                        81.6
+                      ],
+                      [
+                        "2026",
+                        71.6
+                      ]
+                    ]
                   }
                 ],
                 "nota": "Cada punto de caída es un comprador que no necesitaba banco"
               },
               "fuente": "UVE Valoraciones sobre datos del INE",
-              "rotulo": { "kicker": "Compras con hipoteca", "texto": "Del 82 % al *72 %*" }
+              "rotulo": {
+                "kicker": "Compras con hipoteca",
+                "texto": "Del 82 % al *72 %*"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "cash euro banknotes table close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "cash euro banknotes table close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30712587",
+                  "url": "https://videos.pexels.com/video-files/30712587/13139655_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "TimePRO TV",
+                  "pagina": "https://www.pexels.com/video/euro-banknotes-with-coffee-and-calculator-setup-30712587/"
+                },
+                "fichero": "clips/pexels-30712587.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -820,7 +1538,9 @@
         {
           "id": "b6-04",
           "vo": "Pero lo interesante de verdad es el mapa. En Álava se financia el noventa y ocho por ciento de las compras. En Madrid, el noventa y cinco. En Vizcaya, el noventa y cinco también.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -830,15 +1550,40 @@
               "barras": {
                 "unidad": "Por ciento con financiación",
                 "datos": [
-                  { "etiqueta": "Álava", "valor": 98.5, "tono": "ink" },
-                  { "etiqueta": "Madrid", "valor": 94.8, "tono": "ink" },
-                  { "etiqueta": "Vizcaya", "valor": 94.5, "tono": "ink" }
+                  {
+                    "etiqueta": "Álava",
+                    "valor": 98.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Madrid",
+                    "valor": 94.8,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Vizcaya",
+                    "valor": 94.5,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "madrid office workers commuting street", "tono": "ocre" },
+              "clip": {
+                "buscar": "madrid office workers commuting street",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37592771",
+                  "url": "https://videos.pexels.com/video-files/37592771/15932712_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Paul Bredt",
+                  "pagina": "https://www.pexels.com/video/traffic-around-puerta-de-alcala-in-madrid-37592771/"
+                },
+                "fichero": "clips/pexels-37592771.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -846,7 +1591,9 @@
         {
           "id": "b6-05",
           "vo": "Y en la provincia de Alicante, solo el cuarenta y cinco. En Teruel, el treinta y siete. Más de la mitad de las casas se pagan enteras, sin pisar un banco.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -856,9 +1603,21 @@
               "barras": {
                 "unidad": "Por ciento con financiación",
                 "datos": [
-                  { "etiqueta": "Alicante", "valor": 45.4, "tono": "carmin" },
-                  { "etiqueta": "Ávila", "valor": 43.5, "tono": "carmin" },
-                  { "etiqueta": "Teruel", "valor": 37.1, "tono": "carmin" }
+                  {
+                    "etiqueta": "Alicante",
+                    "valor": 45.4,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Ávila",
+                    "valor": 43.5,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Teruel",
+                    "valor": 37.1,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
@@ -869,7 +1628,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Aquí el banco sobra",
-                "apoyo": "Donde el dinero llega de fuera, la hipoteca es innecesaria."
+                "apoyo": "Donde el dinero llega de fuera, la hipoteca es innecesaria.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19370642",
+                  "url": "https://images.pexels.com/photos/19370642/pexels-photo-19370642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Emrecan Dora",
+                  "pagina": "https://www.pexels.com/photo/photo-of-a-man-standing-by-the-lake-19370642/"
+                },
+                "fichero": "recortes-auto/pexels-19370642.png"
               }
             }
           ]
@@ -877,13 +1644,32 @@
         {
           "id": "b6-06",
           "vo": "Ahí tienes las dos Españas del ladrillo. Donde compra el que vive y trabaja allí, hace falta un banco. Donde el dinero viene de fuera, el banco sobra.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "El mapa de las hipotecas es *el mapa de quién trabaja*.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "El mapa de las hipotecas es *el mapa de quién trabaja*.",
+              "night": true
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "aerial contrast city and coastline spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "aerial contrast city and coastline spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28356654",
+                  "url": "https://videos.pexels.com/video-files/28356654/12366665_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "David Pickup |  Advertising & Marketing  🇬🇧",
+                  "pagina": "https://www.pexels.com/video/marbella-28356654/"
+                },
+                "fichero": "clips/pexels-28356654.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -897,13 +1683,31 @@
         {
           "id": "b7-01",
           "vo": "Ahora la pregunta incómoda. Si los compradores nacionales se están retirando, y las compraventas caen dos trimestres seguidos, ¿por qué demonios no baja el precio?",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "interrogante" },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "empty estate agent window listings", "tono": "ocre" },
+              "clip": {
+                "buscar": "empty estate agent window listings",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7348157",
+                  "url": "https://videos.pexels.com/video-files/7348157/7348157-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/a-female-realtor-holding-a-for-sale-sign-indoors-7348157/"
+                },
+                "fichero": "clips/pexels-7348157.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -911,19 +1715,41 @@
         {
           "id": "b7-02",
           "vo": "Porque debajo de todo esto hay una resta que no depende de quién compre ni de a qué precio. España crea unos doscientos cuarenta mil hogares nuevos cada año.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "HOGARES NUEVOS QUE SE CREAN CADA AÑO",
               "fuente": "Banco de España · Informe Anual 2025",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 240000, "etiqueta": "hogares nuevos al año", "decimales": 0 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 240000,
+                "etiqueta": "hogares nuevos al año",
+                "decimales": 0
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "young family moving boxes apartment", "tono": "ocre" },
+              "clip": {
+                "buscar": "young family moving boxes apartment",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7647569",
+                  "url": "https://videos.pexels.com/video-files/7647569/7647569-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Anastasia  Shuraeva",
+                  "pagina": "https://www.pexels.com/video/a-couple-sitting-on-the-floor-7647569/"
+                },
+                "fichero": "clips/pexels-7647569.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -931,7 +1757,9 @@
         {
           "id": "b7-03",
           "vo": "Y en dos mil veinticinco terminó de construir noventa y dos mil viviendas. Doscientas cuarenta mil casas que hacen falta, contra noventa y dos mil casas que aparecen.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -941,8 +1769,16 @@
               "barras": {
                 "unidad": "Viviendas al año",
                 "datos": [
-                  { "etiqueta": "Hogares creados", "valor": 240000, "tono": "carmin" },
-                  { "etiqueta": "Viviendas terminadas", "valor": 92000, "tono": "ink" }
+                  {
+                    "etiqueta": "Hogares creados",
+                    "valor": 240000,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Viviendas terminadas",
+                    "valor": 92000,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
@@ -954,7 +1790,15 @@
                 "lado": "der",
                 "cifra": "92.000",
                 "titular": "Todo lo que España terminó en 2025",
-                "apoyo": "Menos de la mitad de lo que hacía falta."
+                "apoyo": "Menos de la mitad de lo que hacía falta.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37556455",
+                  "url": "https://images.pexels.com/photos/37556455/pexels-photo-37556455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Galib Rahman Nadim",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
+                },
+                "fichero": "recortes-auto/pexels-37556455.png"
               }
             }
           ]
@@ -962,19 +1806,41 @@
         {
           "id": "b7-04",
           "vo": "El Banco de España lleva sumando esa resta desde dos mil veintiuno. El agujero acumulado son setecientas cincuenta mil viviendas. Un tres coma siete por ciento de todos los hogares del país.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "DÉFICIT ACUMULADO DE VIVIENDA · 2021 A 2025",
               "fuente": "Banco de España · Informe Anual 2025",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 750000, "etiqueta": "viviendas que faltan", "decimales": 0 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 750000,
+                "etiqueta": "viviendas que faltan",
+                "decimales": 0
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "housing construction cranes skyline dusk", "tono": "ocre" },
+              "clip": {
+                "buscar": "housing construction cranes skyline dusk",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5553426",
+                  "url": "https://videos.pexels.com/video-files/5553426/5553426-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "David Donesana Tacla",
+                  "pagina": "https://www.pexels.com/video/view-of-a-construction-site-5553426/"
+                },
+                "fichero": "clips/pexels-5553426.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -982,7 +1848,9 @@
         {
           "id": "b7-05",
           "vo": "Hace un año la propia institución calculaba seiscientas mil. Ha subido un veinticinco por ciento en doce meses. Y avisa de que va a seguir subiendo.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -992,29 +1860,63 @@
               "barras": {
                 "unidad": "Viviendas que faltan",
                 "datos": [
-                  { "etiqueta": "Estimación anterior", "valor": 600000, "tono": "ink" },
-                  { "etiqueta": "Estimación de 2026", "valor": 750000, "tono": "carmin" }
+                  {
+                    "etiqueta": "Estimación anterior",
+                    "valor": 600000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Estimación de 2026",
+                    "valor": 750000,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
-            { "tipo": "objeto", "objeto": "grua" }
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
           ]
         },
         {
           "id": "b7-06",
           "vo": "La mitad de ese agujero está en seis provincias. Madrid, Barcelona, Alicante, Valencia, Murcia y Málaga. Italia tiene un déficit del uno y medio. Francia está en equilibrio. Alemania construyó de más.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "mapa",
           "escenas": [
             {
               "tipo": "mapa",
-              "mapa": { "region": "europa", "destaca": ["espana", "italia", "francia", "alemania"] },
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "espana",
+                  "italia",
+                  "francia",
+                  "alemania"
+                ]
+              },
               "kicker": "QUIÉN CONSTRUYE LO QUE NECESITA",
               "fuente": "Banco de España · comparativa europea"
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "german residential construction site housing", "tono": "ocre" },
+              "clip": {
+                "buscar": "german residential construction site housing",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17088573",
+                  "url": "https://videos.pexels.com/video-files/17088573/17088573-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Tom Schönmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-the-city-at-sunset-17088573/"
+                },
+                "fichero": "clips/pexels-17088573.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1028,13 +1930,32 @@
         {
           "id": "b8-01",
           "vo": "Y ahora la parte que casi nadie cuenta, porque estropea el discurso. Hay señales serias de que esto se está enfriando.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Lo que juega *en contra* de todo esto.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "Lo que juega *en contra* de todo esto.",
+              "night": true
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "rain on window city grey day", "tono": "ocre" },
+              "clip": {
+                "buscar": "rain on window city grey day",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11738477",
+                  "url": "https://videos.pexels.com/video-files/11738477/11738477-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Ammad Rasool",
+                  "pagina": "https://www.pexels.com/video/close-up-of-raindrops-on-window-11738477/"
+                },
+                "fichero": "clips/pexels-11738477.mp4"
+              },
               "camara": "estatico"
             }
           ]
@@ -1042,7 +1963,9 @@
         {
           "id": "b8-02",
           "vo": "Las compraventas cayeron un cinco coma siete por ciento en un solo trimestre. La vivienda nueva cayó un once y medio. Y su precio bajó, poco pero bajó, por primera vez en mucho tiempo.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1052,9 +1975,21 @@
               "barras": {
                 "unidad": "Variación trimestral, por ciento",
                 "datos": [
-                  { "etiqueta": "Compraventas", "valor": -5.7, "tono": "ink" },
-                  { "etiqueta": "Vivienda nueva", "valor": -11.5, "tono": "carmin" },
-                  { "etiqueta": "Precio nueva", "valor": -0.7, "tono": "ocre" }
+                  {
+                    "etiqueta": "Compraventas",
+                    "valor": -5.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Vivienda nueva",
+                    "valor": -11.5,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Precio nueva",
+                    "valor": -0.7,
+                    "tono": "ocre"
+                  }
                 ]
               }
             },
@@ -1065,7 +2000,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "El primer frenazo en años",
-                "apoyo": "Dos trimestres consecutivos de caída en operaciones."
+                "apoyo": "Dos trimestres consecutivos de caída en operaciones.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567528",
+                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                },
+                "fichero": "recortes-auto/pexels-7567528.png"
               }
             }
           ]
@@ -1073,19 +2016,42 @@
         {
           "id": "b8-03",
           "vo": "Y una encuesta de la asociación de usuarios financieros dice que la compra con intención de invertir se ha desplomado. Del cincuenta y seis por ciento de las operaciones al treinta y cuatro.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "COMPRA CON FINES DE INVERSIÓN",
               "fuente": "Barómetro de Asufin · encuesta de febrero de 2026",
-              "de": { "valor": 56.2, "etiqueta": "" },
-              "a": { "valor": 33.7, "etiqueta": "por ciento, según la encuesta", "decimales": 1, "sufijo": "%" }
+              "de": {
+                "valor": 56.2,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 33.7,
+                "etiqueta": "por ciento, según la encuesta",
+                "decimales": 1,
+                "sufijo": "%"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "stock market screen numbers falling", "tono": "ocre" },
+              "clip": {
+                "buscar": "stock market screen numbers falling",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578632",
+                  "url": "https://videos.pexels.com/video-files/7578632/7578632-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-of-numbers-on-display-monitor-7578632/"
+                },
+                "fichero": "clips/pexels-7578632.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1093,13 +2059,31 @@
         {
           "id": "b8-04",
           "vo": "Es una encuesta, no un registro, así que hay que cogerla con pinzas. Pero apunta en la misma dirección que todo lo demás: el dinero especulativo se está retirando de la vivienda.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "maletero" },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "empty office desk leaving briefcase", "tono": "ocre" },
+              "clip": {
+                "buscar": "empty office desk leaving briefcase",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8346903",
+                  "url": "https://videos.pexels.com/video-files/8346903/8346903-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/computer-monitors-on-the-table-8346903/"
+                },
+                "fichero": "clips/pexels-8346903.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1107,10 +2091,16 @@
         {
           "id": "b8-05",
           "vo": "Y aun así el precio sigue en máximo histórico. Que el mercado se enfríe no significa que baje. Significa que se queda quieto en el sitio más alto en el que ha estado nunca.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Enfriarse *no es bajar*.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "Enfriarse *no es bajar*.",
+              "night": true
+            },
             {
               "tipo": "recorte",
               "recorte": {
@@ -1118,7 +2108,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Quieto, pero arriba del todo",
-                "apoyo": "El precio no cae: deja de subir tan rápido."
+                "apoyo": "El precio no cae: deja de subir tan rápido.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31258448",
+                  "url": "https://images.pexels.com/photos/31258448/pexels-photo-31258448.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Airam Dato-on",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-gazing-up-in-urban-setting-31258448/"
+                },
+                "fichero": "recortes-auto/pexels-31258448.png"
               }
             }
           ]
@@ -1132,19 +2130,42 @@
         {
           "id": "b9-01",
           "vo": "Todo lo anterior desemboca en el mismo sitio. El que no puede comprar, alquila. Y alquilar en España cuesta hoy quince euros con treinta por metro cuadrado. Máximo histórico también.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "PRECIO DEL ALQUILER · JUNIO DE 2026",
               "fuente": "Idealista",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 15.3, "etiqueta": "euros por metro cuadrado al mes", "decimales": 1, "sufijo": " €" }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 15.3,
+                "etiqueta": "euros por metro cuadrado al mes",
+                "decimales": 1,
+                "sufijo": " €"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "rental sign apartment window spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "rental sign apartment window spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8960132",
+                  "url": "https://videos.pexels.com/video-files/8960132/8960132-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Ivan S",
+                  "pagina": "https://www.pexels.com/video/a-placard-of-house-for-rent-8960132/"
+                },
+                "fichero": "clips/pexels-8960132.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1152,7 +2173,9 @@
         {
           "id": "b9-02",
           "vo": "Un cuatro coma dos por ciento más caro que hace un año. Y aquí llega el dato que rompe la intuición de todo el mundo. No es que haya menos pisos en alquiler.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1161,7 +2184,13 @@
               "fuente": "Idealista · junio de 2026",
               "barras": {
                 "unidad": "Por ciento interanual",
-                "datos": [{ "etiqueta": "Alquiler", "valor": 4.2, "tono": "carmin" }]
+                "datos": [
+                  {
+                    "etiqueta": "Alquiler",
+                    "valor": 4.2,
+                    "tono": "carmin"
+                  }
+                ]
               }
             },
             {
@@ -1171,7 +2200,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Máximo histórico otra vez",
-                "apoyo": "Y no es porque falten pisos en alquiler."
+                "apoyo": "Y no es porque falten pisos en alquiler.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4554351",
+                  "url": "https://images.pexels.com/photos/4554351/pexels-photo-4554351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/woman-in-white-v-neck-t-shirt-sitting-on-gray-sofa-4554351/"
+                },
+                "fichero": "recortes-auto/pexels-4554351.png"
               }
             }
           ]
@@ -1179,7 +2216,9 @@
         {
           "id": "b9-03",
           "vo": "En dos mil dieciséis había un millón novecientas mil viviendas alquiladas en España. En dos mil veintitrés había dos millones quinientas setenta mil. Hay más alquiler que nunca.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "lineas",
           "escenas": [
             {
@@ -1191,17 +2230,42 @@
                     "nombre": "Parque de alquiler",
                     "tono": "ocre",
                     "sufijo": " M",
-                    "puntos": [["2016", 1.9], ["2023", 2.57]]
+                    "puntos": [
+                      [
+                        "2016",
+                        1.9
+                      ],
+                      [
+                        "2023",
+                        2.57
+                      ]
+                    ]
                   }
                 ],
                 "nota": "Más pisos en alquiler que nunca, y más caros que nunca"
               },
               "fuente": "Ministerio de Consumo y CSIC",
-              "rotulo": { "kicker": "Parque de alquiler", "texto": "De 1,9 a *2,57 millones*" }
+              "rotulo": {
+                "kicker": "Parque de alquiler",
+                "texto": "De 1,9 a *2,57 millones*"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "apartment blocks dense residential area", "tono": "ocre" },
+              "clip": {
+                "buscar": "apartment blocks dense residential area",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20569351",
+                  "url": "https://videos.pexels.com/video-files/20569351/20569351-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Vitalis Nwenyi",
+                  "pagina": "https://www.pexels.com/video/1004-building-lagos-nigeria-ascending-20569351/"
+                },
+                "fichero": "clips/pexels-20569351.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -1209,7 +2273,9 @@
         {
           "id": "b9-04",
           "vo": "Lo que ha cambiado es de quién son. En esos siete años, los propietarios de un solo piso ampliaron su cartera un treinta por ciento. Los que ya tenían varios la ampliaron un cuarenta.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1219,18 +2285,31 @@
               "barras": {
                 "unidad": "Por ciento de crecimiento",
                 "datos": [
-                  { "etiqueta": "Tenía un piso", "valor": 30.4, "tono": "ink" },
-                  { "etiqueta": "Tenía varios", "valor": 39.9, "tono": "carmin" }
+                  {
+                    "etiqueta": "Tenía un piso",
+                    "valor": 30.4,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Tenía varios",
+                    "valor": 39.9,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
-            { "tipo": "objeto", "objeto": "carpeta" }
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
           ]
         },
         {
           "id": "b9-05",
           "vo": "Cada año que pasa, el mismo parque de vivienda está en menos manos. No porque llegue un fondo de fuera. Porque el que ya tenía dos compra la tercera.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "gente",
           "escenas": [
             {
@@ -1247,7 +2326,20 @@
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "hands holding many keys close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "hands holding many keys close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8293496",
+                  "url": "https://videos.pexels.com/video-files/8293496/8293496-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/a-couple-kissing-while-holding-a-house-key-8293496/"
+                },
+                "fichero": "clips/pexels-8293496.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1255,10 +2347,16 @@
         {
           "id": "b9-06",
           "vo": "El alquiler no es caro porque falten pisos para alquilar. Es caro porque los pisos que hay están cada vez más concentrados, y el que los tiene no tiene ninguna prisa.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "No falta oferta. *Falta reparto.*", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "No falta oferta. *Falta reparto.*",
+              "night": true
+            },
             {
               "tipo": "recorte",
               "recorte": {
@@ -1266,7 +2364,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "El que los tiene no tiene prisa",
-                "apoyo": "Un piso vacío le cuesta poco. Bajarlo de precio, mucho."
+                "apoyo": "Un piso vacío le cuesta poco. Bajarlo de precio, mucho.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9876667",
+                  "url": "https://images.pexels.com/photos/9876667/pexels-photo-9876667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Maksim Smirnov",
+                  "pagina": "https://www.pexels.com/photo/man-sitting-on-the-floor-and-leaning-against-an-armchair-9876667/"
+                },
+                "fichero": "recortes-auto/pexels-9876667.png"
               }
             }
           ]
@@ -1280,13 +2386,31 @@
         {
           "id": "b10-01",
           "vo": "Vamos a juntarlo todo, porque por separado cada uno de estos datos parece una anécdota, y puestos en fila son otra cosa muy distinta.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "plano" },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "city at dusk lights apartments windows", "tono": "ocre" },
+              "clip": {
+                "buscar": "city at dusk lights apartments windows",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28872831",
+                  "url": "https://videos.pexels.com/video-files/28872831/12501174_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "AP Vibes",
+                  "pagina": "https://www.pexels.com/video/nighttime-cityscape-view-from-a-window-28872831/"
+                },
+                "fichero": "clips/pexels-28872831.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1294,7 +2418,9 @@
         {
           "id": "b10-02",
           "vo": "La vivienda en España dejó de ser un sitio donde vivir. Es el mecanismo por el que un patrimonio que ya existe se reproduce solo, sin que su dueño tenga que hacer nada.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1304,15 +2430,40 @@
               "barras": {
                 "unidad": "Por ciento de los ingresos",
                 "datos": [
-                  { "etiqueta": "No tiene nada", "valor": 98.7, "tono": "carmin" },
-                  { "etiqueta": "Compra la primera", "valor": 32.7, "tono": "ocre" },
-                  { "etiqueta": "Compra la segunda", "valor": 11, "tono": "ink" }
+                  {
+                    "etiqueta": "No tiene nada",
+                    "valor": 98.7,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Compra la primera",
+                    "valor": 32.7,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Compra la segunda",
+                    "valor": 11,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "old family photograph album hands", "tono": "ocre" },
+              "clip": {
+                "buscar": "old family photograph album hands",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7546434",
+                  "url": "https://videos.pexels.com/video-files/7546434/7546434-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "SHVETS production",
+                  "pagina": "https://www.pexels.com/video/elderly-woman-looking-through-old-photos-7546434/"
+                },
+                "fichero": "clips/pexels-7546434.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1320,7 +2471,9 @@
         {
           "id": "b10-03",
           "vo": "El que compró antes de dos mil ocho no fue más listo que tú. Llegó antes. Y ese orden de llegada se ha convertido en la variable que más decide cuánto vas a tener en toda tu vida.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -1331,12 +2484,33 @@
                 "lado": "der",
                 "cifra": "2008",
                 "titular": "La línea que parte el país",
-                "apoyo": "Antes de esa fecha, comprar. Después, alquilar."
+                "apoyo": "Antes de esa fecha, comprar. Después, alquilar.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6248817",
+                  "url": "https://images.pexels.com/photos/6248817/pexels-photo-6248817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Gary  Barnes",
+                  "pagina": "https://www.pexels.com/photo/adult-ethnic-man-cooking-in-kitchen-near-happy-wife-6248817/"
+                },
+                "fichero": "recortes-auto/pexels-6248817.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "vintage spanish street eighties archive", "tono": "ocre" },
+              "clip": {
+                "buscar": "vintage spanish street eighties archive",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31432212",
+                  "url": "https://videos.pexels.com/video-files/31432212/13406803_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "J.S. McDuff",
+                  "pagina": "https://www.pexels.com/video/vintage-suburban-street-with-classic-vibes-31432212/"
+                },
+                "fichero": "clips/pexels-31432212.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -1344,17 +2518,28 @@
         {
           "id": "b10-04",
           "vo": "Más que tu carrera. Más que tu sueldo. Más que lo que consigas ahorrar. Compró la casa antes, y eso ya no se recupera trabajando.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Eso ya *no se recupera trabajando*.", "night": true },
-            { "tipo": "objeto", "objeto": "balanza" }
+            {
+              "tipo": "frase",
+              "texto": "Eso ya *no se recupera trabajando*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
           ]
         },
         {
           "id": "b10-05",
           "vo": "Y por eso el debate político va del cero coma cinco por ciento de las golden visa y del ocho por ciento de los fondos. Porque el cuarenta y tres por ciento restante son votantes.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "gente",
           "escenas": [
             {
@@ -1371,7 +2556,20 @@
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "polling station voters queue spain", "tono": "ocre" },
+              "clip": {
+                "buscar": "polling station voters queue spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39361694",
+                  "url": "https://videos.pexels.com/video-files/39361694/16755236_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/busy-bus-station-with-diverse-crowd-39361694/"
+                },
+                "fichero": "clips/pexels-39361694.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1379,7 +2577,9 @@
         {
           "id": "b10-06",
           "vo": "Nadie va a ganar unas elecciones diciéndole a más de dos millones de españoles que el problema es el segundo piso que compraron para los hijos.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1389,8 +2589,16 @@
               "barras": {
                 "unidad": "Por ciento de los adultos",
                 "datos": [
-                  { "etiqueta": "Lo cobra", "valor": 5.7, "tono": "ink" },
-                  { "etiqueta": "Lo paga", "valor": 20, "tono": "carmin" }
+                  {
+                    "etiqueta": "Lo cobra",
+                    "valor": 5.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Lo paga",
+                    "valor": 20,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
@@ -1401,7 +2609,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "El votante también es el casero",
-                "apoyo": "Por eso la ley siempre apunta al 8 %, nunca al 43 %."
+                "apoyo": "Por eso la ley siempre apunta al 8 %, nunca al 43 %.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29917130",
+                  "url": "https://images.pexels.com/photos/29917130/pexels-photo-29917130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Sami  Abdullah",
+                  "pagina": "https://www.pexels.com/photo/young-woman-interview-at-seaside-with-camera-29917130/"
+                },
+                "fichero": "recortes-auto/pexels-29917130.png"
               }
             }
           ]
@@ -1415,13 +2631,32 @@
         {
           "id": "b11-01",
           "vo": "Así que la próxima vez que veas que el precio sube mientras todo el mundo dice que no llega a fin de mes, ya sabes que las dos cosas no se contradicen. Son la misma frase.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "No se contradicen. *Son la misma frase.*", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "No se contradicen. *Son la misma frase.*",
+              "night": true
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "supermarket receipt hands close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "supermarket receipt hands close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8992554",
+                  "url": "https://videos.pexels.com/video-files/8992554/8992554-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Artem Podrez",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-person-writing-on-a-paper-8992554/"
+                },
+                "fichero": "clips/pexels-8992554.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1429,13 +2664,31 @@
         {
           "id": "b11-02",
           "vo": "Sube precisamente porque el que no llega ya no está en la subasta. Y el precio de una subasta lo pone siempre el que puja, nunca el que se queda mirando.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "sala" },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "auction room raised hands bidding", "tono": "ocre" },
+              "clip": {
+                "buscar": "auction room raised hands bidding",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9465320",
+                  "url": "https://videos.pexels.com/video-files/9465320/9465320-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "ROCKETMANN TEAM",
+                  "pagina": "https://www.pexels.com/video/video-of-raising-hands-with-open-palms-9465320/"
+                },
+                "fichero": "clips/pexels-9465320.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1443,7 +2696,9 @@
         {
           "id": "b11-03",
           "vo": "Y mientras la resta siga siendo doscientas cuarenta mil contra noventa y dos mil, ningún impuesto, ningún tope y ninguna ley va a cambiar quién se queda las casas.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -1454,12 +2709,33 @@
                 "lado": "der",
                 "cifra": "240.000",
                 "titular": "Contra 92.000",
-                "apoyo": "Mientras esa resta no cambie, lo demás es reparto."
+                "apoyo": "Mientras esa resta no cambie, lo demás es reparto.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7644145",
+                  "url": "https://images.pexels.com/photos/7644145/pexels-photo-7644145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-businessman-signing-documents-7644145/"
+                },
+                "fichero": "recortes-auto/pexels-7644145.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "unfinished housing development empty plots", "tono": "ocre" },
+              "clip": {
+                "buscar": "unfinished housing development empty plots",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33051077",
+                  "url": "https://videos.pexels.com/video-files/33051077/14087108_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "mg shotz",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-unfinished-suburban-houses-33051077/"
+                },
+                "fichero": "clips/pexels-33051077.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -1467,19 +2743,32 @@
         {
           "id": "b11-04",
           "vo": "Cambiará el reparto. No cambiará el número. Y el número es lo único que decide si tú vas a poder vivir donde has crecido.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "El reparto se puede cambiar. *El número, no.*", "night": true },
-            { "tipo": "objeto", "objeto": "casa" }
+            {
+              "tipo": "frase",
+              "texto": "El reparto se puede cambiar. *El número, no.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
           ]
         },
         {
           "id": "b11-05",
           "vo": "Suscríbete si quieres entender cómo se reparte la riqueza antes de que te toque explicárselo a alguien.",
-          "voz": { "speed": 1 },
+          "voz": {
+            "speed": 1
+          },
           "tipo": "cierre",
-          "cierre": { "suscribete": true }
+          "cierre": {
+            "suscribete": true
+          }
         }
       ]
     }
