@@ -75,12 +75,18 @@ jobs:
 
       # Remotion arranca un Chrome sin cabeza: necesita estas librerías
       - name: Dependencias del sistema
+        # Con reintentos: un espejo caido no puede tirar un render que ya
+        # tiene la locucion pagada.
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends \
-            ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 \
-            libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
-            libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2t64
+          paquetes="ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2t64"
+          for i in 1 2 3; do
+            if sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends $paquetes; then
+              exit 0
+            fi
+            echo "apt fallo, reintento $i"
+            sleep 10
+          done
+          exit 1
 
       - name: Instalar dependencias
         run: npm ci

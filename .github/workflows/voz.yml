@@ -54,7 +54,22 @@ jobs:
           cache: "npm"
 
       - name: ffprobe para medir la duración de cada audio
-        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg
+        # El runner de Ubuntu ya trae ffmpeg: solo se instala si faltara,
+        # y con reintentos.
+        run: |
+          if command -v ffprobe >/dev/null; then
+            ffprobe -version | head -1
+            exit 0
+          fi
+          paquetes="ffmpeg"
+          for i in 1 2 3; do
+            if sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends $paquetes; then
+              exit 0
+            fi
+            echo "apt fallo, reintento $i"
+            sleep 10
+          done
+          exit 1
 
       - name: Instalar dependencias
         run: npm ci
