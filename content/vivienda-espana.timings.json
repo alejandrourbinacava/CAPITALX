@@ -1,1 +1,410 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/vivienda-espana-b0-01.mp3",
+    "duration": 11.389388,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b0-02": {
+    "audio": "voice/vivienda-espana-b0-02.mp3",
+    "duration": 8.75102,
+    "transcript": null,
+    "credit_cost": 224
+  },
+  "b0-03": {
+    "audio": "voice/vivienda-espana-b0-03.mp3",
+    "duration": 12.329796,
+    "transcript": null,
+    "credit_cost": 310
+  },
+  "b0-04": {
+    "audio": "voice/vivienda-espana-b0-04.mp3",
+    "duration": 9.142857,
+    "transcript": null,
+    "credit_cost": 205
+  },
+  "b0-05": {
+    "audio": "voice/vivienda-espana-b0-05.mp3",
+    "duration": 8.777143,
+    "transcript": null,
+    "credit_cost": 213
+  },
+  "b0-06": {
+    "audio": "voice/vivienda-espana-b0-06.mp3",
+    "duration": 7.366531,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b1-01": {
+    "audio": "voice/vivienda-espana-b1-01.mp3",
+    "duration": 13.531429,
+    "transcript": null,
+    "credit_cost": 349
+  },
+  "b1-02": {
+    "audio": "voice/vivienda-espana-b1-02.mp3",
+    "duration": 10.213878,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b1-03": {
+    "audio": "voice/vivienda-espana-b1-03.mp3",
+    "duration": 8.385306,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b2-01": {
+    "audio": "voice/vivienda-espana-b2-01.mp3",
+    "duration": 9.116735,
+    "transcript": null,
+    "credit_cost": 225
+  },
+  "b2-02": {
+    "audio": "voice/vivienda-espana-b2-02.mp3",
+    "duration": 10.501224,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b2-03": {
+    "audio": "voice/vivienda-espana-b2-03.mp3",
+    "duration": 11.52,
+    "transcript": null,
+    "credit_cost": 301
+  },
+  "b2-04": {
+    "audio": "voice/vivienda-espana-b2-04.mp3",
+    "duration": 11.049796,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b2-05": {
+    "audio": "voice/vivienda-espana-b2-05.mp3",
+    "duration": 11.702857,
+    "transcript": null,
+    "credit_cost": 293
+  },
+  "b2-06": {
+    "audio": "voice/vivienda-espana-b2-06.mp3",
+    "duration": 9.717551,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b2-07": {
+    "audio": "voice/vivienda-espana-b2-07.mp3",
+    "duration": 11.859592,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b3-01": {
+    "audio": "voice/vivienda-espana-b3-01.mp3",
+    "duration": 9.273469,
+    "transcript": null,
+    "credit_cost": 215
+  },
+  "b3-02": {
+    "audio": "voice/vivienda-espana-b3-02.mp3",
+    "duration": 11.441633,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b3-03": {
+    "audio": "voice/vivienda-espana-b3-03.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b3-04": {
+    "audio": "voice/vivienda-espana-b3-04.mp3",
+    "duration": 10.579592,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b3-05": {
+    "audio": "voice/vivienda-espana-b3-05.mp3",
+    "duration": 11.755102,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b3-06": {
+    "audio": "voice/vivienda-espana-b3-06.mp3",
+    "duration": 8.489796,
+    "transcript": null,
+    "credit_cost": 203
+  },
+  "b4-01": {
+    "audio": "voice/vivienda-espana-b4-01.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b4-02": {
+    "audio": "voice/vivienda-espana-b4-02.mp3",
+    "duration": 8.85551,
+    "transcript": null,
+    "credit_cost": 186
+  },
+  "b4-03": {
+    "audio": "voice/vivienda-espana-b4-03.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b4-04": {
+    "audio": "voice/vivienda-espana-b4-04.mp3",
+    "duration": 11.389388,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b4-05": {
+    "audio": "voice/vivienda-espana-b4-05.mp3",
+    "duration": 10.292245,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "b4-06": {
+    "audio": "voice/vivienda-espana-b4-06.mp3",
+    "duration": 9.482449,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b5-01": {
+    "audio": "voice/vivienda-espana-b5-01.mp3",
+    "duration": 9.926531,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b5-02": {
+    "audio": "voice/vivienda-espana-b5-02.mp3",
+    "duration": 10.893061,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b5-03": {
+    "audio": "voice/vivienda-espana-b5-03.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b5-04": {
+    "audio": "voice/vivienda-espana-b5-04.mp3",
+    "duration": 10.631837,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b5-05": {
+    "audio": "voice/vivienda-espana-b5-05.mp3",
+    "duration": 8.306939,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b5-06": {
+    "audio": "voice/vivienda-espana-b5-06.mp3",
+    "duration": 11.702857,
+    "transcript": null,
+    "credit_cost": 285
+  },
+  "b6-01": {
+    "audio": "voice/vivienda-espana-b6-01.mp3",
+    "duration": 9.377959,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b6-02": {
+    "audio": "voice/vivienda-espana-b6-02.mp3",
+    "duration": 9.874286,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b6-03": {
+    "audio": "voice/vivienda-espana-b6-03.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b6-04": {
+    "audio": "voice/vivienda-espana-b6-04.mp3",
+    "duration": 10.919184,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b6-05": {
+    "audio": "voice/vivienda-espana-b6-05.mp3",
+    "duration": 9.848163,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b6-06": {
+    "audio": "voice/vivienda-espana-b6-06.mp3",
+    "duration": 9.639184,
+    "transcript": null,
+    "credit_cost": 221
+  },
+  "b7-01": {
+    "audio": "voice/vivienda-espana-b7-01.mp3",
+    "duration": 9.090612,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b7-02": {
+    "audio": "voice/vivienda-espana-b7-02.mp3",
+    "duration": 8.698776,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "b7-03": {
+    "audio": "voice/vivienda-espana-b7-03.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b7-04": {
+    "audio": "voice/vivienda-espana-b7-04.mp3",
+    "duration": 11.128163,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b7-05": {
+    "audio": "voice/vivienda-espana-b7-05.mp3",
+    "duration": 8.594286,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b7-06": {
+    "audio": "voice/vivienda-espana-b7-06.mp3",
+    "duration": 14.863673,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b8-01": {
+    "audio": "voice/vivienda-espana-b8-01.mp3",
+    "duration": 7.653878,
+    "transcript": null,
+    "credit_cost": 173
+  },
+  "b8-02": {
+    "audio": "voice/vivienda-espana-b8-02.mp3",
+    "duration": 11.232653,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b8-03": {
+    "audio": "voice/vivienda-espana-b8-03.mp3",
+    "duration": 10.34449,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b8-04": {
+    "audio": "voice/vivienda-espana-b8-04.mp3",
+    "duration": 10.292245,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b8-05": {
+    "audio": "voice/vivienda-espana-b8-05.mp3",
+    "duration": 9.456327,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b9-01": {
+    "audio": "voice/vivienda-espana-b9-01.mp3",
+    "duration": 11.154286,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b9-02": {
+    "audio": "voice/vivienda-espana-b9-02.mp3",
+    "duration": 9.247347,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "b9-03": {
+    "audio": "voice/vivienda-espana-b9-03.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b9-04": {
+    "audio": "voice/vivienda-espana-b9-04.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b9-05": {
+    "audio": "voice/vivienda-espana-b9-05.mp3",
+    "duration": 9.06449,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b9-06": {
+    "audio": "voice/vivienda-espana-b9-06.mp3",
+    "duration": 9.325714,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b10-01": {
+    "audio": "voice/vivienda-espana-b10-01.mp3",
+    "duration": 8.385306,
+    "transcript": null,
+    "credit_cost": 195
+  },
+  "b10-02": {
+    "audio": "voice/vivienda-espana-b10-02.mp3",
+    "duration": 9.508571,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b10-03": {
+    "audio": "voice/vivienda-espana-b10-03.mp3",
+    "duration": 11.075918,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b10-04": {
+    "audio": "voice/vivienda-espana-b10-04.mp3",
+    "duration": 8.829388,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b10-05": {
+    "audio": "voice/vivienda-espana-b10-05.mp3",
+    "duration": 9.848163,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b10-06": {
+    "audio": "voice/vivienda-espana-b10-06.mp3",
+    "duration": 7.993469,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b11-01": {
+    "audio": "voice/vivienda-espana-b11-01.mp3",
+    "duration": 9.639184,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b11-02": {
+    "audio": "voice/vivienda-espana-b11-02.mp3",
+    "duration": 8.777143,
+    "transcript": null,
+    "credit_cost": 225
+  },
+  "b11-03": {
+    "audio": "voice/vivienda-espana-b11-03.mp3",
+    "duration": 9.221224,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b11-04": {
+    "audio": "voice/vivienda-espana-b11-04.mp3",
+    "duration": 7.601633,
+    "transcript": null,
+    "credit_cost": 178
+  },
+  "b11-05": {
+    "audio": "voice/vivienda-espana-b11-05.mp3",
+    "duration": 5.32898,
+    "transcript": null,
+    "credit_cost": 151
+  }
+}
