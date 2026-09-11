@@ -31,12 +31,12 @@
                 "apoyo": "Máximo histórico. Con menos compradores que hace un año.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7937216",
-                  "url": "https://images.pexels.com/photos/7937216/pexels-photo-7937216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Pavel Danilyuk",
-                  "pagina": "https://www.pexels.com/photo/man-in-black-jacket-holding-red-and-white-fore-sale-sign-7937216/"
+                  "id": "7415025",
+                  "url": "https://images.pexels.com/photos/7415025/pexels-photo-7415025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-woman-standing-while-holding-a-placard-7415025/"
                 },
-                "fichero": "recortes-auto/pexels-7937216.png",
+                "fichero": "recortes-auto/pexels-7415025.png",
                 "icono": "casa"
               }
             },
@@ -62,7 +62,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty real estate agency window night",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35738744",
+                  "url": "https://videos.pexels.com/video-files/35738744/15148711_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "umar muazu",
+                  "pagina": "https://www.pexels.com/video/modern-cityscape-at-night-with-illuminated-windows-35738744/"
+                },
+                "fichero": "clips/pexels-35738744.mp4"
               },
               "camara": "panR"
             }
@@ -297,7 +307,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish apartment blocks dense aerial",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16033405",
+                  "url": "https://videos.pexels.com/video-files/16033405/16033405-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Josefina2000 Franco",
+                  "pagina": "https://www.pexels.com/video/an-aerial-view-of-a-city-with-many-buildings-16033405/"
+                },
+                "fichero": "clips/pexels-16033405.mp4"
               },
               "camara": "panL"
             }
@@ -358,12 +378,12 @@
                 "apoyo": "La casa nueva la paga la casa vieja.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6625770",
-                  "url": "https://images.pexels.com/photos/6625770/pexels-photo-6625770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Alex Green",
-                  "pagina": "https://www.pexels.com/photo/man-in-blue-jacket-beside-woman-in-blue-shirt-6625770/"
+                  "id": "20320648",
+                  "url": "https://images.pexels.com/photos/20320648/pexels-photo-20320648.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Rodry Fotografias",
+                  "pagina": "https://www.pexels.com/photo/black-and-white-portrait-of-an-elderly-couple-20320648/"
                 },
-                "fichero": "recortes-auto/pexels-6625770.png",
+                "fichero": "recortes-auto/pexels-20320648.png",
                 "icono": "casa"
               }
             }
@@ -457,12 +477,12 @@
                 "apoyo": "Emanciparse en solitario ya no es una decisión: es una imposibilidad aritmética.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6382637",
-                  "url": "https://images.pexels.com/photos/6382637/pexels-photo-6382637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Liza Summer",
-                  "pagina": "https://www.pexels.com/photo/stressed-young-ethnic-woman-grabbing-head-while-sitting-on-chair-6382637/"
+                  "id": "5699871",
+                  "url": "https://images.pexels.com/photos/5699871/pexels-photo-5699871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alex Green",
+                  "pagina": "https://www.pexels.com/photo/thoughtful-ethnic-woman-touching-face-on-white-background-5699871/"
                 },
-                "fichero": "recortes-auto/pexels-6382637.png",
+                "fichero": "recortes-auto/pexels-5699871.png",
                 "icono": "moneda"
               }
             },
@@ -470,7 +490,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "young woman counting coins kitchen table",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31568471",
+                  "url": "https://videos.pexels.com/video-files/31568471/13453562_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/hand-sorting-euro-banknotes-on-wooden-table-31568471/"
+                },
+                "fichero": "clips/pexels-31568471.mp4"
               },
               "camara": "pull"
             }
@@ -578,12 +608,12 @@
                 "apoyo": "Gana 5.356 € al mes. Paga 589 € de hipoteca.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "34299170",
-                  "url": "https://images.pexels.com/photos/34299170/pexels-photo-34299170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Moisés Sánchez",
-                  "pagina": "https://www.pexels.com/photo/professional-man-in-stylish-grey-suit-34299170/"
+                  "id": "4903780",
+                  "url": "https://images.pexels.com/photos/4903780/pexels-photo-4903780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Анна Хазова",
+                  "pagina": "https://www.pexels.com/photo/positive-young-guy-in-suit-drinking-alcohol-in-studio-4903780/"
                 },
-                "fichero": "recortes-auto/pexels-34299170.png",
+                "fichero": "recortes-auto/pexels-4903780.png",
                 "icono": "persona"
               }
             },
@@ -609,7 +639,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "second home coastal apartment balcony",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38942463",
+                  "url": "https://videos.pexels.com/video-files/38942463/16564028_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kiwi and Camera",
+                  "pagina": "https://www.pexels.com/video/modern-auckland-apartment-exterior-view-38942463/"
+                },
+                "fichero": "clips/pexels-38942463.mp4"
               },
               "camara": "panL"
             }
@@ -771,7 +811,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office building corporate lobby empty",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18514339",
+                  "url": "https://videos.pexels.com/video-files/18514339/18514339-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Max Medyk",
+                  "pagina": "https://www.pexels.com/video/entering-through-a-revolving-door-18514339/"
+                },
+                "fichero": "clips/pexels-18514339.mp4"
               },
               "camara": "panR"
             }
@@ -811,12 +861,12 @@
                 "apoyo": "223.552 viviendas sobre un parque de 2,57 millones.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "10417388",
-                  "url": "https://images.pexels.com/photos/10417388/pexels-photo-10417388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Jordan Bergendahl",
-                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-looking-at-the-window-10417388/"
+                  "id": "15612252",
+                  "url": "https://images.pexels.com/photos/15612252/pexels-photo-15612252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Anas Jawed",
+                  "pagina": "https://www.pexels.com/photo/window-reflection-of-a-man-in-a-suit-15612252/"
                 },
-                "fichero": "recortes-auto/pexels-10417388.png",
+                "fichero": "recortes-auto/pexels-15612252.png",
                 "icono": "aviso"
               }
             },
@@ -824,7 +874,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "apartment facade windows repeating spain",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pixabay",
+                  "id": "154511",
+                  "url": "https://cdn.pixabay.com/video/2023/03/13/154511-807726725_large.mp4",
+                  "ancho": 3840,
+                  "duracion": 10,
+                  "autor": "Asif_khanAK",
+                  "pagina": "https://pixabay.com/videos/id-154511/"
+                },
+                "fichero": "clips/pixabay-154511.mp4"
               },
               "camara": "push"
             }
@@ -907,12 +967,12 @@
                 "apoyo": "Más de la mitad del alquiler particular es de multipropietarios.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "10546976",
-                  "url": "https://images.pexels.com/photos/10546976/pexels-photo-10546976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Guto Macedo",
-                  "pagina": "https://www.pexels.com/photo/a-man-with-his-hands-clasped-10546976/"
+                  "id": "18650117",
+                  "url": "https://images.pexels.com/photos/18650117/pexels-photo-18650117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ahmed Akar",
+                  "pagina": "https://www.pexels.com/photo/man-with-circle-gesture-over-eye-18650117/"
                 },
-                "fichero": "recortes-auto/pexels-10546976.png",
+                "fichero": "recortes-auto/pexels-18650117.png",
                 "icono": "persona"
               }
             },
@@ -938,7 +998,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "man opening apartment door keys",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8292929",
+                  "url": "https://videos.pexels.com/video-files/8292929/8292929-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-person-s-hand-holding-house-keys-8292929/"
+                },
+                "fichero": "clips/pexels-8292929.mp4"
               },
               "camara": "panL"
             }
@@ -988,12 +1058,12 @@
                 "apoyo": "Invertir esa cantidad en vivienda daba permiso para vivir aquí.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "5778659",
-                  "url": "https://images.pexels.com/photos/5778659/pexels-photo-5778659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "RDNE Stock project",
-                  "pagina": "https://www.pexels.com/photo/businessmen-having-a-contract-signing-5778659/"
+                  "id": "3831733",
+                  "url": "https://images.pexels.com/photos/3831733/pexels-photo-3831733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andrea Piacquadio",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-wearing-eyeglasses-3831733/"
                 },
-                "fichero": "recortes-auto/pexels-5778659.png",
+                "fichero": "recortes-auto/pexels-3831733.png",
                 "icono": "documento"
               }
             },
@@ -1019,7 +1089,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "private jet tarmac luxury travel",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pixabay",
+                  "id": "51021",
+                  "url": "https://cdn.pixabay.com/video/2020/09/27/51021-462807831_large.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Josh_Malic",
+                  "pagina": "https://pixabay.com/videos/id-51021/"
+                },
+                "fichero": "clips/pixabay-51021.mp4"
               },
               "camara": "pull"
             }
@@ -1124,12 +1204,12 @@
                 "apoyo": "Ley Orgánica 1/2025. Doce años después de crearla.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8847165",
-                  "url": "https://images.pexels.com/photos/8847165/pexels-photo-8847165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "8847181",
+                  "url": "https://images.pexels.com/photos/8847181/pexels-photo-8847181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-behind-speech-desk-8847165/"
+                  "pagina": "https://www.pexels.com/photo/woman-politician-behind-speech-desk-8847181/"
                 },
-                "fichero": "recortes-auto/pexels-8847165.png",
+                "fichero": "recortes-auto/pexels-8847181.png",
                 "icono": "candado"
               }
             },
@@ -1155,7 +1235,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "official stamp document signing desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8523701",
+                  "url": "https://videos.pexels.com/video-files/8523701/8523701-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/a-person-signing-the-certificate-8523701/"
+                },
+                "fichero": "clips/pexels-8523701.mp4"
               },
               "camara": "push"
             }
@@ -1313,12 +1403,12 @@
                 "apoyo": "Neerlandeses el 6,94 %. Alemanes el 6,11 %.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6293175",
-                  "url": "https://images.pexels.com/photos/6293175/pexels-photo-6293175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/shirtless-man-with-gray-facial-hair-6293175/"
+                  "id": "6667746",
+                  "url": "https://images.pexels.com/photos/6667746/pexels-photo-6667746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-an-elderly-man-smiling-6667746/"
                 },
-                "fichero": "recortes-auto/pexels-6293175.png",
+                "fichero": "recortes-auto/pexels-6667746.png",
                 "icono": "barco"
               }
             },
@@ -1326,7 +1416,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport arrivals passengers luggage",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pixabay",
+                  "id": "1383",
+                  "url": "https://cdn.pixabay.com/video/2015/11/26/1383-147055496_large.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Activedia",
+                  "pagina": "https://pixabay.com/videos/id-1383/"
+                },
+                "fichero": "clips/pixabay-1383.mp4"
               },
               "camara": "pull"
             }
@@ -1430,7 +1530,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "mediterranean marina boats sunny",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12154598",
+                  "url": "https://videos.pexels.com/video-files/12154598/12154598-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Glenn Langhorst",
+                  "pagina": "https://www.pexels.com/video/boats-and-yachts-in-marina-12154598/"
+                },
+                "fichero": "clips/pexels-12154598.mp4"
               },
               "camara": "panR"
             }
@@ -1459,12 +1569,12 @@
                 "apoyo": "El precio ya no lo fija quien vive y trabaja allí.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "30781748",
-                  "url": "https://images.pexels.com/photos/30781748/pexels-photo-30781748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Luan Albarracin",
-                  "pagina": "https://www.pexels.com/photo/professional-woman-in-green-suit-indoor-portrait-30781748/"
+                  "id": "7414918",
+                  "url": "https://images.pexels.com/photos/7414918/pexels-photo-7414918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-business-attire-holding-clipboard-while-having-phone-call-7414918/"
                 },
-                "fichero": "recortes-auto/pexels-30781748.png",
+                "fichero": "recortes-auto/pexels-7414918.png",
                 "icono": "aviso"
               }
             }
@@ -1520,7 +1630,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tourists beach spain summer crowd",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5562953",
+                  "url": "https://videos.pexels.com/video-files/5562953/5562953-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Joash",
+                  "pagina": "https://www.pexels.com/video/young-men-doing-dance-show-at-beach-resort-5562953/"
+                },
+                "fichero": "clips/pexels-5562953.mp4"
               },
               "camara": "push"
             }
@@ -1598,12 +1718,12 @@
                 "apoyo": "Ese comprador no necesita nómina. Ya tenía el dinero.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "5920581",
-                  "url": "https://images.pexels.com/photos/5920581/pexels-photo-5920581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-counting-money-5920581/"
+                  "id": "6266307",
+                  "url": "https://images.pexels.com/photos/6266307/pexels-photo-6266307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-sweater-holding-100-us-dollar-bill-6266307/"
                 },
-                "fichero": "recortes-auto/pexels-5920581.png",
+                "fichero": "recortes-auto/pexels-6266307.png",
                 "icono": "moneda"
               }
             },
@@ -1611,7 +1731,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cash euro notes counted hands",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pixabay",
+                  "id": "4853",
+                  "url": "https://cdn.pixabay.com/video/2016/08/31/4853-180863249_large.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "klimkin",
+                  "pagina": "https://pixabay.com/videos/id-4853/"
+                },
+                "fichero": "clips/pixabay-4853.mp4"
               },
               "camara": "panL"
             }
@@ -1733,7 +1863,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "madrid street commuters morning",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6229552",
+                  "url": "https://videos.pexels.com/video-files/6229552/6229552-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Bonus Studio",
+                  "pagina": "https://www.pexels.com/video/video-of-a-crowded-street-6229552/"
+                },
+                "fichero": "clips/pexels-6229552.mp4"
               },
               "camara": "panR"
             }
@@ -1782,12 +1922,12 @@
                 "apoyo": "Donde el dinero llega de fuera, la hipoteca es innecesaria.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "19370642",
-                  "url": "https://images.pexels.com/photos/19370642/pexels-photo-19370642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Emrecan Dora",
-                  "pagina": "https://www.pexels.com/photo/photo-of-a-man-standing-by-the-lake-19370642/"
+                  "id": "12847284",
+                  "url": "https://images.pexels.com/photos/12847284/pexels-photo-12847284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Arturo Añez.",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-wearing-a-hat-12847284/"
                 },
-                "fichero": "recortes-auto/pexels-19370642.png",
+                "fichero": "recortes-auto/pexels-12847284.png",
                 "icono": "candado"
               }
             }
@@ -1945,12 +2085,12 @@
                 "apoyo": "Menos de la mitad de lo que hacía falta.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37556455",
-                  "url": "https://images.pexels.com/photos/37556455/pexels-photo-37556455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Galib Rahman Nadim",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
+                  "id": "34670926",
+                  "url": "https://images.pexels.com/photos/34670926/pexels-photo-34670926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/construction-worker-in-safety-gear-outdoors-34670926/"
                 },
-                "fichero": "recortes-auto/pexels-37556455.png",
+                "fichero": "recortes-auto/pexels-34670926.png",
                 "icono": "fabrica"
               }
             }
@@ -2000,7 +2140,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "unfinished apartment building scaffolding",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34832006",
+                  "url": "https://videos.pexels.com/video-files/34832006/14771145_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "TR Studio",
+                  "pagina": "https://www.pexels.com/video/urban-high-rise-building-under-construction-34832006/"
+                },
+                "fichero": "clips/pexels-34832006.mp4"
               },
               "camara": "push"
             }
@@ -2168,12 +2318,12 @@
                 "apoyo": "Dos trimestres consecutivos de caída en operaciones.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567528",
-                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                  "id": "7876451",
+                  "url": "https://images.pexels.com/photos/7876451/pexels-photo-7876451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/woman-talking-on-a-phone-in-an-office-7876451/"
                 },
-                "fichero": "recortes-auto/pexels-7567528.png",
+                "fichero": "recortes-auto/pexels-7876451.png",
                 "icono": "baja"
               }
             },
@@ -2181,7 +2331,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "for sale signs row houses",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10375441",
+                  "url": "https://videos.pexels.com/video-files/10375441/10375441-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/a-person-holding-a-placard-10375441/"
+                },
+                "fichero": "clips/pexels-10375441.mp4"
               },
               "camara": "pull"
             }
@@ -2293,12 +2453,12 @@
                 "apoyo": "El precio no cae: deja de subir tan rápido.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "31258448",
-                  "url": "https://images.pexels.com/photos/31258448/pexels-photo-31258448.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Airam Dato-on",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-gazing-up-in-urban-setting-31258448/"
+                  "id": "7255305",
+                  "url": "https://images.pexels.com/photos/7255305/pexels-photo-7255305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/man-wearing-a-black-blazer-standing-on-the-sidewalk-7255305/"
                 },
-                "fichero": "recortes-auto/pexels-31258448.png",
+                "fichero": "recortes-auto/pexels-7255305.png",
                 "icono": "reloj"
               }
             }
@@ -2355,7 +2515,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rental apartment small room interior",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27975847",
+                  "url": "https://videos.pexels.com/video-files/27975847/12278949_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/the-kitchen-and-dining-area-of-a-small-apartment-27975847/"
+                },
+                "fichero": "clips/pexels-27975847.mp4"
               },
               "camara": "panL"
             }
@@ -2394,12 +2564,12 @@
                 "apoyo": "Y no es porque falten pisos en alquiler.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "4554351",
-                  "url": "https://images.pexels.com/photos/4554351/pexels-photo-4554351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/woman-in-white-v-neck-t-shirt-sitting-on-gray-sofa-4554351/"
+                  "id": "4246122",
+                  "url": "https://images.pexels.com/photos/4246122/pexels-photo-4246122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ketut Subiyanto",
+                  "pagina": "https://www.pexels.com/photo/focused-young-female-writing-on-cardboard-boxes-and-preparing-for-relocation-4246122/"
                 },
-                "fichero": "recortes-auto/pexels-4554351.png",
+                "fichero": "recortes-auto/pexels-4246122.png",
                 "icono": "sube"
               }
             }
@@ -2464,7 +2634,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "apartment windows lit evening block",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pixabay",
+                  "id": "6962",
+                  "url": "https://cdn.pixabay.com/video/2016/12/31/6962-197634410_large.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "TeeFarm",
+                  "pagina": "https://pixabay.com/videos/id-6962/"
+                },
+                "fichero": "clips/pixabay-6962.mp4"
               },
               "camara": "pull"
             }
@@ -2506,7 +2686,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "many keys hanging board close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34143147",
+                  "url": "https://videos.pexels.com/video-files/34143147/14476466_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Michael Markhof",
+                  "pagina": "https://www.pexels.com/video/vintage-typewriter-typing-paper-close-up-34143147/"
+                },
+                "fichero": "clips/pexels-34143147.mp4"
               },
               "camara": "panR"
             }
@@ -2575,12 +2765,12 @@
                 "apoyo": "Un piso vacío le cuesta poco. Bajarlo de precio, mucho.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "9876667",
-                  "url": "https://images.pexels.com/photos/9876667/pexels-photo-9876667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Maksim Smirnov",
-                  "pagina": "https://www.pexels.com/photo/man-sitting-on-the-floor-and-leaning-against-an-armchair-9876667/"
+                  "id": "6333942",
+                  "url": "https://images.pexels.com/photos/6333942/pexels-photo-6333942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/a-man-sitting-on-a-black-armchair-while-holding-his-ipad-6333942/"
                 },
-                "fichero": "recortes-auto/pexels-9876667.png",
+                "fichero": "recortes-auto/pexels-6333942.png",
                 "icono": "reloj"
               }
             }
@@ -2696,12 +2886,12 @@
                 "apoyo": "Antes de esa fecha, comprar. Después, alquilar.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6248817",
-                  "url": "https://images.pexels.com/photos/6248817/pexels-photo-6248817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Gary  Barnes",
-                  "pagina": "https://www.pexels.com/photo/adult-ethnic-man-cooking-in-kitchen-near-happy-wife-6248817/"
+                  "id": "6657797",
+                  "url": "https://images.pexels.com/photos/6657797/pexels-photo-6657797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/photograph-of-a-man-with-eyeglasses-pouring-wine-from-a-bottle-6657797/"
                 },
-                "fichero": "recortes-auto/pexels-6248817.png",
+                "fichero": "recortes-auto/pexels-6657797.png",
                 "icono": "balanza"
               }
             },
@@ -2790,7 +2980,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish parliament chamber seats",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4474272",
+                  "url": "https://videos.pexels.com/video-files/4474272/4474272-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Hirsh Philippe",
+                  "pagina": "https://www.pexels.com/video/tracking-shot-of-the-texas-house-of-representatives-chamber-4474272/"
+                },
+                "fichero": "clips/pexels-4474272.mp4"
               },
               "camara": "panL"
             }
@@ -2834,12 +3034,12 @@
                 "apoyo": "Por eso la ley siempre apunta al 8 %, nunca al 43 %.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "29917130",
-                  "url": "https://images.pexels.com/photos/29917130/pexels-photo-29917130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Sami  Abdullah",
-                  "pagina": "https://www.pexels.com/photo/young-woman-interview-at-seaside-with-camera-29917130/"
+                  "id": "10464465",
+                  "url": "https://images.pexels.com/photos/10464465/pexels-photo-10464465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/a-woman-reporting-on-the-scene-10464465/"
                 },
-                "fichero": "recortes-auto/pexels-29917130.png",
+                "fichero": "recortes-auto/pexels-10464465.png",
                 "icono": "balanza"
               }
             }
@@ -2935,12 +3135,12 @@
                 "apoyo": "Mientras esa resta no cambie, lo demás es reparto.",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7644145",
-                  "url": "https://images.pexels.com/photos/7644145/pexels-photo-7644145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "MART  PRODUCTION",
-                  "pagina": "https://www.pexels.com/photo/a-businessman-signing-documents-7644145/"
+                  "id": "4427543",
+                  "url": "https://images.pexels.com/photos/4427543/pexels-photo-4427543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "August de Richelieu",
+                  "pagina": "https://www.pexels.com/photo/businessman-signing-a-document-4427543/"
                 },
-                "fichero": "recortes-auto/pexels-7644145.png",
+                "fichero": "recortes-auto/pexels-4427543.png",
                 "icono": "fabrica"
               }
             },
