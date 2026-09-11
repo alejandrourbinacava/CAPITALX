@@ -30,6 +30,13 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 
 // Lo que el montaje sabe dibujar. Si el guion pide otra cosa, el plano sale
 // vacio: por eso se valida contra estas listas antes de gastar un solo credito.
+// Suelo de cada tipo en segundos. Espejo de MINIMO_POR_TIPO en src/Video.tsx:
+// si cambia alli, cambia aqui.
+const MINIMO = {
+  barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, mapa: 3.4,
+  frase: 2.3, retrato: 2.0, recorte: 1.7, objeto: 1.5, clip: 1.3,
+};
+
 const TIPOS = [
   "mapa", "barras", "lineas", "contador", "gente", "lista",
   "frase", "objeto", "retrato", "clip", "recorte", "torres", "dublin", "cierre",
@@ -937,26 +944,29 @@ function validar(doc, tema) {
     if (p.tipo === "cierre") continue;
     const n = (p.escenas ?? []).length;
     escenasTotales += Math.max(n, 1);
-    // Cinco o seis segundos por escena: menos no da tiempo a leer un grafico,
-    // mas se queda quieto. El ritmo lo pone lo que se mueve dentro.
     const largo = p.vo?.length ?? 0;
     const segundos = largo / 15.8;
-    // Lo que se persigue es que ninguna escena se quede quieta mas de ocho
-    // segundos. Antes se exigia el reparto ideal de cinco o seis, y eso
-    // obligaba a reescribir el guion entero porque una escena duraba siete:
-    // un borrador de veintiseis mil tokens por un segundo de diferencia.
-    const hacen = Math.min(3, Math.max(1, Math.ceil(segundos / 8)));
+    // Antes se pedian escenas de cinco o seis segundos y se prohibian las de
+    // menos de tres y medio, igual para todos los tipos. Medido sobre los
+    // cuatro ultimos videos, el 94 % de las escenas caia entre cuatro y siete
+    // segundos y ninguna bajaba de tres y medio: no habia ritmo, habia
+    // metronomo. Ahora se pide mas trozos y cada uno responde por su tipo.
+    const hacen = Math.min(5, Math.max(1, Math.ceil(segundos / 5.5)));
     if (segundos > 1 && n < hacen) {
       di(
         `${p.id}: ${n === 0 ? "no tiene 'escenas'" : `solo tiene ${n}`}. ` +
-          `Son ${segundos.toFixed(0)} segundos de locución y hacen falta ${hacen} escenas, ` +
+          `Son ${segundos.toFixed(0)} segundos de locución y piden ${hacen} escenas, ` +
           `o la imagen se queda quieta ${(segundos / Math.max(n, 1)).toFixed(0)} segundos.`
       );
     }
-    if (n > 1 && segundos / n < 3.5) {
+    // Lo que hay que leer necesita su tiempo; lo que solo hay que ver, no. El
+    // suelo es el mismo que aplica el render en src/Video.tsx.
+    const cabe = (p.escenas ?? []).reduce((a, e) => a + (MINIMO[e.tipo] ?? 3.0), 0);
+    if (n > 1 && cabe > segundos) {
+      const detalle = (p.escenas ?? []).map((e) => `${e.tipo} ${MINIMO[e.tipo] ?? 3.0}s`).join(" + ");
       di(
-        `${p.id}: ${n} escenas para ${segundos.toFixed(0)} segundos salen a ` +
-          `${(segundos / n).toFixed(1)} s cada una. Con menos de cuatro no da tiempo a leer.`
+        `${p.id}: ${n} escenas piden ${cabe.toFixed(1)} s como mínimo (${detalle}) ` +
+          `y el plano dura ${segundos.toFixed(0)} s. Quita una escena o alarga el 'vo'.`
       );
     }
     for (let i = 1; i < (p.escenas ?? []).length; i++) {

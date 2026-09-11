@@ -148,11 +148,35 @@ export const duracionTotalDe = (g: Guion, t: Tiempos) =>
   duracionesDe(g, t).reduce((a, b) => a + b, 0);
 
 /**
- * Lo que dura como poco una escena. Tres segundos parecian dinamicos y en
- * realidad no dan tiempo a leer un grafico: cuando aparece el ultimo dato,
- * ya se ha cortado. Cinco es el suelo real.
+ * Lo que dura como poco cada escena, por tipo.
+ *
+ * Antes esto era un solo numero, 4,2 s para todo. La razon era buena -un
+ * grafico cortado antes de que llegue el ultimo dato no se lee- pero se
+ * aplicaba igual a un clip, y un clip se entiende en cuanto aparece.
+ *
+ * El resultado medido sobre los cuatro ultimos videos: el 94 % de las escenas
+ * duraba entre cuatro y siete segundos y ninguna bajaba de tres y medio. No
+ * habia ritmo, habia metronomo. El suelo unico era la causa.
+ *
+ * Ahora lo que hay que leer conserva su tiempo y lo que solo hay que ver
+ * puede durar segundo y medio.
  */
-const MINIMO = Math.round(4.2 * VIDEO.fps);
+const MINIMO_POR_TIPO: Record<string, number> = {
+  barras: 4.2,
+  lineas: 4.2,
+  gente: 4.2,
+  contador: 4.0,
+  lista: 3.8,
+  mapa: 3.4,
+  frase: 2.3,
+  retrato: 2.0,
+  recorte: 1.7,
+  objeto: 1.5,
+  clip: 1.3,
+};
+const MINIMO_POR_DEFECTO = 3.0;
+const minimoDe = (e: { tipo?: string }) =>
+  Math.round((MINIMO_POR_TIPO[e.tipo ?? ""] ?? MINIMO_POR_DEFECTO) * VIDEO.fps);
 
 /**
  * Cuanto pide cada tipo.
@@ -163,16 +187,20 @@ const MINIMO = Math.round(4.2 * VIDEO.fps);
  * que lleva el dato.
  */
 const PESO: Record<string, number> = {
-  barras: 1.5,
-  lineas: 1.5,
+  barras: 1.6,
+  lineas: 1.6,
   gente: 1.5,
-  contador: 1.3,
+  contador: 1.4,
+  lista: 1.3,
   mapa: 1.2,
-  lista: 1.2,
-  retrato: 1,
-  clip: 1,
-  objeto: 0.85,
-  frase: 0.85,
+  frase: 0.9,
+  retrato: 0.7,
+  // Los tres de imagen van bajos a proposito: se quedan con su minimo y poco
+  // mas, para que el sobrante se lo lleve lo que hay que leer. Son el corte
+  // rapido entre dos cosas que piden tiempo.
+  recorte: 0.6,
+  objeto: 0.5,
+  clip: 0.45,
 };
 
 /**
@@ -235,10 +263,24 @@ export const repartir = (
   if (!es.length) return [{ escena: p.escenas?.[0] ?? p, desde: 0, largo: total, solo: true }];
   if (es.length < 2) return [{ escena: es[0], desde: 0, largo: total, solo: true }];
 
-  const caben = Math.max(1, Math.min(es.length, Math.floor(total / MINIMO)));
-  const usadas = es.slice(0, caben);
-  if (usadas.length < 2) return [{ escena: usadas[0], desde: 0, largo: total, solo: true }];
+  // Caben las que quepan con su propio minimo, no con un minimo comun. Asi un
+  // plano de doce segundos puede ser grafico + clip + clip + recorte en vez de
+  // dos escenas de seis, que es lo que salia antes.
+  const usadas: typeof es = [];
+  let reservado = 0;
+  for (const e of es) {
+    const m = minimoDe(e);
+    if (usadas.length >= 1 && reservado + m > total) break;
+    usadas.push(e);
+    reservado += m;
+  }
+  if (usadas.length < 2) return [{ escena: usadas[0] ?? es[0], desde: 0, largo: total, solo: true }];
 
+  // Cada escena se queda su minimo y el sobrante se reparte por peso. Lo que
+  // hay que leer se lleva la mayor parte del regalo; los clips se quedan
+  // cortos a proposito.
+  const mins = usadas.map(minimoDe);
+  const sobrante = Math.max(0, total - mins.reduce((a, b) => a + b, 0));
   const pesos = usadas.map((e) => Math.max(0.4, e.peso ?? PESO[e.tipo] ?? 1));
   const suma = pesos.reduce((a, b) => a + b, 0);
 
@@ -246,7 +288,9 @@ export const repartir = (
   let desde = 0;
   for (let i = 0; i < usadas.length; i++) {
     const largo =
-      i === usadas.length - 1 ? total - desde : Math.max(MINIMO, Math.round((pesos[i] / suma) * total));
+      i === usadas.length - 1
+        ? total - desde
+        : mins[i] + Math.round((pesos[i] / suma) * sobrante);
     out.push({ escena: usadas[i], desde, largo, solo: false });
     desde += largo;
   }
@@ -390,7 +434,23 @@ const Contador: React.FC<{ p: Visual }> = ({ p }) => {
 };
 
 
-const PlanoView: React.FC<{ p: Visual }> = ({ p }) => {
+/**
+ * Movimiento cuando el guion no pide ninguno.
+ *
+ * Dos tercios de las escenas no declaraban camara, y sin camara el defecto era
+ * "estatico": una imagen fija en pantalla cinco segundos. Eso es la mitad de
+ * la sensacion de lentitud.
+ *
+ * Solo se aplica a lo que es imagen. Un grafico quieto se lee; un grafico que
+ * se mueve, no. Y el ciclo de cuatro evita que salgan dos iguales seguidos.
+ */
+const DERIVA = ["push", "panR", "pull", "panL"] as const;
+const porDefecto = (p: Visual, orden: number): Visual["camara"] =>
+  p.tipo === "clip" || p.tipo === "recorte" || p.tipo === "objeto" || p.tipo === "retrato"
+    ? DERIVA[orden % DERIVA.length]
+    : "estatico";
+
+const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) => {
   const night =
     p.tipo === "dublin" ||
     p.tipo === "clip" ||
@@ -400,7 +460,7 @@ const PlanoView: React.FC<{ p: Visual }> = ({ p }) => {
 
   return (
     <Surface night={night} grid={p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "clip"} frame>
-      <Camara modo={p.camara}>
+      <Camara modo={p.camara ?? porDefecto(p, orden)}>
         {!pintable ? null : (
         <>
         {p.tipo === "dublin" ? <DublinNight encuadre={p.encuadre} dawn={p.amanecer} /> : null}
@@ -499,7 +559,7 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
                 durationInFrames={t.largo}
                 name={t.solo ? p.id : `${p.id}.${k + 1}`}
               >
-                <PlanoView p={t.escena} />
+                <PlanoView p={t.escena} orden={i + k} />
                 {/* cada cambio de imagen suena, o el corte se nota vacio */}
                 {k > 0 ? <Sfx at={0} src="papel" vol={0.22} /> : null}
               </Sequence>

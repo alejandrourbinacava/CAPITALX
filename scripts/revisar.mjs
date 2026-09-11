@@ -33,10 +33,13 @@ const hacer = (re) => new Function("TIPOS", "OBJETOS", "REGIONES", "leerJson", "
 
 const revisarVisual = hacer(/function revisarVisual\(p, di\)[\s\S]*?\n}/);
 const reparar = hacer(/function reparar\(doc\)[\s\S]*?\n}/);
+// El suelo por tipo vive en guion.mjs y lo usa el chequeo de ritmo.
+const MINIMO = new Function("return " + trozo(/const MINIMO = \{[\s\S]*?\};/).replace("const MINIMO =", "").replace(/;\s*$/, ""))();
+
 const validar = new Function(
-  "TIPOS", "OBJETOS", "REGIONES", "leerJson", "revisarVisual",
+  "TIPOS", "OBJETOS", "REGIONES", "leerJson", "revisarVisual", "MINIMO",
   "return " + trozo(/function validar\(doc, tema\)[\s\S]*?\n}/)
-)(...ctx, revisarVisual);
+)(...ctx, revisarVisual, MINIMO);
 
 const doc = leerJson(ruta);
 const planos = doc.bloques.flatMap((b) => b.planos);
