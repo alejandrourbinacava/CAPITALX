@@ -1,5 +1,6 @@
 import React from "react";
 import { Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Icono, PorPalabras, type NombreIcono } from "../components/Icono";
 import { C, FONT } from "../theme";
 
 /**
@@ -22,6 +23,7 @@ export const Recorte: React.FC<{
     titular?: string;
     apoyo?: string;
     cifra?: string;
+    icono?: string;
   };
 }> = ({ spec }) => {
   const frame = useCurrentFrame();
@@ -110,8 +112,23 @@ export const Recorte: React.FC<{
             </div>
           ) : null}
 
-          {spec.titular ? (
+          {spec.icono ? (
             <div
+              style={{
+                display: "flex",
+                justifyContent: lado === "der" ? "flex-start" : "flex-end",
+                marginBottom: 14,
+              }}
+            >
+              <Icono nombre={spec.icono as NombreIcono} tamano={84} desde={5} dura={17} />
+            </div>
+          ) : null}
+
+          {spec.titular ? (
+            <PorPalabras
+              texto={spec.titular}
+              desde={spec.cifra ? 13 : 9}
+              paso={2.2}
               style={{
                 fontFamily: FONT.sans,
                 fontWeight: 700,
@@ -120,12 +137,8 @@ export const Recorte: React.FC<{
                 letterSpacing: "-0.035em",
                 color: C.ink,
                 marginTop: spec.cifra ? 18 : 0,
-                opacity: linea(1),
-                transform: `translateY(${interpolate(linea(1), [0, 1], [26, 0])}px)`,
               }}
-            >
-              {spec.titular}
-            </div>
+            />
           ) : null}
 
           {/* filete bajo el titular, trazandose */}

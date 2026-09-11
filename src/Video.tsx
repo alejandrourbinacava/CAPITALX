@@ -83,6 +83,7 @@ export type Visual = {
     titular?: string;
     apoyo?: string;
     cifra?: string;
+    icono?: string;
   };
   rotulo?: { kicker?: string; texto: string };
 };
@@ -562,6 +563,10 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
                 <PlanoView p={t.escena} orden={i + k} />
                 {/* cada cambio de imagen suena, o el corte se nota vacio */}
                 {k > 0 ? <Sfx at={0} src="papel" vol={0.22} /> : null}
+                {/* el icono del recorte se traza en medio segundo: suena al
+                    cerrarse el trazo, no al empezar, o se adelanta a la imagen */}
+                {t.escena.recorte?.icono ? <Sfx at={0.72} src="tick" vol={0.3} /> : null}
+                {t.escena.recorte?.cifra ? <Sfx at={0.3} src="pixel" vol={0.26} /> : null}
               </Sequence>
             ))}
             {tiempos[p.id] ? <Audio src={staticFile(tiempos[p.id].audio)} /> : null}
