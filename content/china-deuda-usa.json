@@ -1,7 +1,10 @@
 {
   "slug": "china-deuda-usa",
   "titulo": "China Lleva Trece Años Vendiendo Deuda Americana. No Ha Pasado Nada",
-  "voz": { "id": "clone_2333475", "nombre": "VOZ DETRAS DEL ENIGMA" },
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
   "wpm": 145,
   "musica": "mystery.wav",
   "bloques": [
@@ -12,7 +15,9 @@
         {
           "id": "b0-01",
           "vo": "Hay una frase que llevas años oyendo. Que China tiene cogido a Estados Unidos por el cuello. Que el día que decida vender la deuda americana de golpe, se acabó.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -22,12 +27,33 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "El arma que todo el mundo nombra",
-                "apoyo": "Vender la deuda americana de golpe y hundir a Estados Unidos."
+                "apoyo": "Vender la deuda americana de golpe y hundir a Estados Unidos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20348408",
+                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
+                },
+                "fichero": "recortes-auto/pexels-20348408.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "beijing government building flags", "tono": "ocre" },
+              "clip": {
+                "buscar": "beijing government building flags",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33009797",
+                  "url": "https://videos.pexels.com/video-files/33009797/14074594_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Maciej Głowiński",
+                  "pagina": "https://www.pexels.com/video/night-timelapse-of-tiananmen-square-beijing-33009797/"
+                },
+                "fichero": "clips/pexels-33009797.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -35,19 +61,41 @@
         {
           "id": "b0-02",
           "vo": "Vamos a poner los dos números que hacen falta para juzgar esa frase. China tiene hoy seiscientos treinta y tres mil millones de dólares en deuda del Tesoro americano.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "DEUDA AMERICANA EN MANOS DE CHINA · JUNIO DE 2026",
               "fuente": "Departamento del Tesoro de EEUU · datos TIC",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 633.4, "etiqueta": "miles de millones de dólares", "decimales": 1 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 633.4,
+                "etiqueta": "miles de millones de dólares",
+                "decimales": 1
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "us treasury building washington facade", "tono": "ocre" },
+              "clip": {
+                "buscar": "us treasury building washington facade",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4987955",
+                  "url": "https://videos.pexels.com/video-files/4987955/4987955-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/panning-shot-of-the-united-states-mint-sign-4987955/"
+                },
+                "fichero": "clips/pexels-4987955.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -55,7 +103,9 @@
         {
           "id": "b0-03",
           "vo": "Y el mercado de deuda americana mueve, de media, un billón doscientos mil millones de dólares cada día. Cada día laborable, sin que pase nada especial.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -65,14 +115,35 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "Lo que tiene China", "valor": 633, "tono": "carmin" },
-                  { "etiqueta": "Un día normal de mercado", "valor": 1204, "tono": "ink" }
+                  {
+                    "etiqueta": "Lo que tiene China",
+                    "valor": 633,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Un día normal de mercado",
+                    "valor": 1204,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "trading floor screens fast market", "tono": "ocre" },
+              "clip": {
+                "buscar": "trading floor screens fast market",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38557069",
+                  "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-stock-market-display-analysis-38557069/"
+                },
+                "fichero": "clips/pexels-38557069.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -80,17 +151,28 @@
         {
           "id": "b0-04",
           "vo": "Todo lo que China tiene cabría dentro de medio día de negociación normal. Esa es el arma con la que supuestamente tiene cogido a Estados Unidos por el cuello. Media sesión.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "El arma entera cabe en *media sesión*.", "night": true },
-            { "tipo": "objeto", "objeto": "balanza" }
+            {
+              "tipo": "frase",
+              "texto": "El arma entera cabe en *media sesión*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
           ]
         },
         {
           "id": "b0-05",
           "vo": "Y hay algo más incómodo todavía. Esto no es una hipótesis. China lleva trece años vendiendo deuda americana, sin parar, y ya ha vendido más de la mitad de lo que tenía.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "lineas",
           "escenas": [
             {
@@ -101,17 +183,42 @@
                   {
                     "nombre": "Miles de millones de dólares",
                     "tono": "carmin",
-                    "puntos": [["2013", 1320], ["2026", 633]]
+                    "puntos": [
+                      [
+                        "2013",
+                        1320
+                      ],
+                      [
+                        "2026",
+                        633
+                      ]
+                    ]
                   }
                 ],
                 "nota": "Del pico de noviembre de 2013 al dato de junio de 2026"
               },
               "fuente": "Departamento del Tesoro de EEUU · datos TIC",
-              "rotulo": { "kicker": "Trece años vendiendo", "texto": "De 1,32 billones a *633.000 millones*" }
+              "rotulo": {
+                "kicker": "Trece años vendiendo",
+                "texto": "De 1,32 billones a *633.000 millones*"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "shanghai financial district skyline", "tono": "ocre" },
+              "clip": {
+                "buscar": "shanghai financial district skyline",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36926188",
+                  "url": "https://videos.pexels.com/video-files/36926188/15643143_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Paul Bill",
+                  "pagina": "https://www.pexels.com/video/shanghai-skyline-at-night-with-oriental-pearl-tower-36926188/"
+                },
+                "fichero": "clips/pexels-36926188.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -119,11 +226,20 @@
         {
           "id": "b0-06",
           "vo": "El escenario que te venden como catástrofe futura ya ha ocurrido. A cámara lenta. Y no ha pasado nada de lo que se supone que tenía que pasar.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Ya ocurrió. *A cámara lenta.*", "night": true },
-            { "tipo": "objeto", "objeto": "interrogante" }
+            {
+              "tipo": "frase",
+              "texto": "Ya ocurrió. *A cámara lenta.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
           ]
         }
       ]
@@ -135,7 +251,9 @@
         {
           "id": "b1-01",
           "vo": "Vamos a ver cuatro cosas. Cuánta deuda americana tiene China de verdad. Qué pasó las dos veces que vendió en serio. Por qué venderlo todo la arruinaría a ella primero. Y quién sí puede mover ese mercado.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "lista",
           "escenas": [
             {
@@ -153,7 +271,20 @@
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "bond certificates paper documents close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "bond certificates paper documents close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8061370",
+                  "url": "https://videos.pexels.com/video-files/8061370/8061370-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/man-signing-the-paper-8061370/"
+                },
+                "fichero": "clips/pexels-8061370.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -161,13 +292,31 @@
         {
           "id": "b1-02",
           "vo": "Te adelanto el final. El que puede tumbar el mercado de deuda americana no es un Estado. Son unos fondos apalancados que tienen el triple que China y van con dinero prestado.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "maletero" },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "hedge fund office night city view", "tono": "ocre" },
+              "clip": {
+                "buscar": "hedge fund office night city view",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28872831",
+                  "url": "https://videos.pexels.com/video-files/28872831/12501174_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "AP Vibes",
+                  "pagina": "https://www.pexels.com/video/nighttime-cityscape-view-from-a-window-28872831/"
+                },
+                "fichero": "clips/pexels-28872831.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -175,10 +324,16 @@
         {
           "id": "b1-03",
           "vo": "Y todos los datos que vas a ver salen del propio Tesoro americano, que publica cada mes quién tiene su deuda. No hace falta creerse a nadie.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "El Tesoro publica *quién tiene su deuda*. Cada mes.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "El Tesoro publica *quién tiene su deuda*. Cada mes.",
+              "night": true
+            },
             {
               "tipo": "recorte",
               "recorte": {
@@ -186,7 +341,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Los datos TIC del Tesoro",
-                "apoyo": "Publicados mensualmente, país por país, desde el año 2000."
+                "apoyo": "Publicados mensualmente, país por país, desde el año 2000.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567528",
+                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                },
+                "fichero": "recortes-auto/pexels-7567528.png"
               }
             }
           ]
@@ -200,7 +363,9 @@
         {
           "id": "b2-01",
           "vo": "Primer dato. Ni siquiera es el mayor tenedor extranjero. Japón tiene un billón cien mil millones. Reino Unido, novecientos cuarenta mil. China es la tercera.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -210,15 +375,40 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "Japón", "valor": 1117, "tono": "ink" },
-                  { "etiqueta": "Reino Unido", "valor": 940, "tono": "ocre" },
-                  { "etiqueta": "China", "valor": 633, "tono": "carmin" }
+                  {
+                    "etiqueta": "Japón",
+                    "valor": 1117,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Reino Unido",
+                    "valor": 940,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "China",
+                    "valor": 633,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "tokyo financial district buildings", "tono": "ocre" },
+              "clip": {
+                "buscar": "tokyo financial district buildings",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20391410",
+                  "url": "https://videos.pexels.com/video-files/20391410/20391410-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Cheng",
+                  "pagina": "https://www.pexels.com/video/a-view-of-a-city-from-a-high-rise-building-20391410/"
+                },
+                "fichero": "clips/pexels-20391410.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -226,12 +416,20 @@
         {
           "id": "b2-02",
           "vo": "Y fíjate en que nadie escribe artículos sobre lo que pasaría si Japón vendiera de golpe, ni documentales sobre el arma financiera japonesa. Y Japón tiene casi el doble.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "mapa",
           "escenas": [
             {
               "tipo": "mapa",
-              "mapa": { "region": "asia", "destaca": ["japon", "china"] },
+              "mapa": {
+                "region": "asia",
+                "destaca": [
+                  "japon",
+                  "china"
+                ]
+              },
               "kicker": "EL PRIMERO Y EL TERCERO",
               "fuente": "Tesoro de EEUU · junio de 2026"
             },
@@ -243,7 +441,15 @@
                 "lado": "der",
                 "cifra": "1,12 billones",
                 "titular": "Japón tiene casi el doble",
-                "apoyo": "Y no aparece en ningún titular sobre armas financieras."
+                "apoyo": "Y no aparece en ningún titular sobre armas financieras.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7845291",
+                  "url": "https://images.pexels.com/photos/7845291/pexels-photo-7845291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-black-suit-smiling-7845291/"
+                },
+                "fichero": "recortes-auto/pexels-7845291.png"
               }
             }
           ]
@@ -251,19 +457,41 @@
         {
           "id": "b2-03",
           "vo": "Segundo dato, y es el que más gente desconoce. La deuda americana que está en el mercado, la que se puede comprar y vender, son casi treinta y dos billones de dólares.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "DEUDA DEL TESORO NEGOCIABLE · AGOSTO DE 2026",
               "fuente": "SIFMA",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 31.8, "etiqueta": "billones de dólares en circulación", "decimales": 1 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 31.8,
+                "etiqueta": "billones de dólares en circulación",
+                "decimales": 1
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "printing press money paper industrial", "tono": "ocre" },
+              "clip": {
+                "buscar": "printing press money paper industrial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38826405",
+                  "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/video/high-speed-newspaper-printing-process-close-up-38826405/"
+                },
+                "fichero": "clips/pexels-38826405.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -271,7 +499,9 @@
         {
           "id": "b2-04",
           "vo": "Sobre esos casi treinta y dos billones, los seiscientos treinta y tres mil millones de China son el dos por ciento. Dos. De cada cien dólares de deuda americana, China tiene dos.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "gente",
           "escenas": [
             {
@@ -288,7 +518,20 @@
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "dollar bills counting machine bank", "tono": "ocre" },
+              "clip": {
+                "buscar": "dollar bills counting machine bank",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266262",
+                  "url": "https://videos.pexels.com/video-files/6266262/6266262-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/person-using-calculator-while-counting-money-6266262/"
+                },
+                "fichero": "clips/pexels-6266262.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -296,7 +539,9 @@
         {
           "id": "b2-05",
           "vo": "Y sobre el total que está en manos extranjeras, que son nueve billones trescientos mil millones, China es menos del siete por ciento.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -306,8 +551,16 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "China", "valor": 633, "tono": "carmin" },
-                  { "etiqueta": "Resto de países", "valor": 8666, "tono": "ink" }
+                  {
+                    "etiqueta": "China",
+                    "valor": 633,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Resto de países",
+                    "valor": 8666,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
@@ -319,7 +572,15 @@
                 "lado": "izq",
                 "cifra": "6,8 %",
                 "titular": "Su parte del dinero extranjero",
-                "apoyo": "Nueve billones están fuera de Estados Unidos. Solo esa fracción es china."
+                "apoyo": "Nueve billones están fuera de Estados Unidos. Solo esa fracción es china.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12128750",
+                  "url": "https://images.pexels.com/photos/12128750/pexels-photo-12128750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Rizky Sabriansyah",
+                  "pagina": "https://www.pexels.com/photo/a-grayscale-of-a-woman-looking-at-a-transparent-globe-12128750/"
+                },
+                "fichero": "recortes-auto/pexels-12128750.png"
               }
             }
           ]
@@ -327,11 +588,20 @@
         {
           "id": "b2-06",
           "vo": "Un dos por ciento no es tener a nadie cogido por el cuello. Es ser un cliente grande. Y un cliente grande, por grande que sea, no puede cerrar la tienda.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "No es un cuello. *Es un cliente.*", "night": true },
-            { "tipo": "objeto", "objeto": "balanza" }
+            {
+              "tipo": "frase",
+              "texto": "No es un cuello. *Es un cliente.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
           ]
         }
       ]
@@ -343,13 +613,31 @@
         {
           "id": "b3-01",
           "vo": "Ahora la parte que convierte esto en algo comprobable. Porque la pregunta no es qué pasaría si China vendiera. Es qué pasó cuando lo hizo.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "dosEpocas" },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "archive newspaper stack library", "tono": "ocre" },
+              "clip": {
+                "buscar": "archive newspaper stack library",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6550146",
+                  "url": "https://videos.pexels.com/video-files/6550146/6550146-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/woman-holding-books-6550146/"
+                },
+                "fichero": "clips/pexels-6550146.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -357,19 +645,41 @@
         {
           "id": "b3-02",
           "vo": "El máximo de China fue en noviembre de dos mil trece. Un billón trescientos veinte mil millones de dólares en deuda americana. Nunca ha vuelto a estar tan arriba.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "EL MÁXIMO DE CHINA · NOVIEMBRE DE 2013",
               "fuente": "Departamento del Tesoro de EEUU",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 1.32, "etiqueta": "billones de dólares", "decimales": 2 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1.32,
+                "etiqueta": "billones de dólares",
+                "decimales": 2
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "container port cranes cargo ships china", "tono": "ocre" },
+              "clip": {
+                "buscar": "container port cranes cargo ships china",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13372582",
+                  "url": "https://videos.pexels.com/video-files/13372582/13372582-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "FÁBIO REIS DE ABREU (PORTUGA)",
+                  "pagina": "https://www.pexels.com/video/container-ship-in-harbor-13372582/"
+                },
+                "fichero": "clips/pexels-13372582.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -377,7 +687,9 @@
         {
           "id": "b3-03",
           "vo": "Desde entonces no ha parado de bajar. En octubre de dos mil veinticinco tocó el nivel más bajo desde noviembre de dos mil ocho. Diecisiete años atrás.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -387,8 +699,16 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "Noviembre de 2013", "valor": 1320, "tono": "ink" },
-                  { "etiqueta": "Junio de 2026", "valor": 633, "tono": "carmin" }
+                  {
+                    "etiqueta": "Noviembre de 2013",
+                    "valor": 1320,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Junio de 2026",
+                    "valor": 633,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
@@ -400,7 +720,15 @@
                 "lado": "der",
                 "cifra": "-52 %",
                 "titular": "Más de la mitad, vendida",
-                "apoyo": "Trece años seguidos bajando, sin una sola crisis de deuda americana."
+                "apoyo": "Trece años seguidos bajando, sin una sola crisis de deuda americana.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567435",
+                  "url": "https://images.pexels.com/photos/7567435/pexels-photo-7567435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/a-bearded-man-working-in-his-office-7567435/"
+                },
+                "fichero": "recortes-auto/pexels-7567435.png"
               }
             }
           ]
@@ -408,13 +736,31 @@
         {
           "id": "b3-04",
           "vo": "Más de la mitad de su posición. Seiscientos ochenta mil millones de dólares salieron de las manos chinas. Y busca ahora la crisis de deuda americana de esos trece años.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "interrogante" },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "calm empty stock exchange hall", "tono": "ocre" },
+              "clip": {
+                "buscar": "calm empty stock exchange hall",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7579945",
+                  "url": "https://videos.pexels.com/video-files/7579945/7579945-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 18,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/a-man-analyzing-the-stock-market-7579945/"
+                },
+                "fichero": "clips/pexels-7579945.mp4"
+              },
               "camara": "estatico"
             }
           ]
@@ -422,7 +768,9 @@
         {
           "id": "b3-05",
           "vo": "No la vas a encontrar, porque no la hubo. Estados Unidos siguió colocando toda su deuda, subasta tras subasta, mientras su segundo mayor acreedor extranjero se retiraba a la mitad.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -432,12 +780,33 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Todas las subastas se cubrieron",
-                "apoyo": "Trece años de retirada china sin una sola subasta fallida."
+                "apoyo": "Trece años de retirada china sin una sola subasta fallida.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8151453",
+                  "url": "https://images.pexels.com/photos/8151453/pexels-photo-8151453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Bryce Carithers",
+                  "pagina": "https://www.pexels.com/photo/man-in-a-uniform-giving-a-speech-8151453/"
+                },
+                "fichero": "recortes-auto/pexels-8151453.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "washington capitol building daytime", "tono": "ocre" },
+              "clip": {
+                "buscar": "washington capitol building daytime",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6581283",
+                  "url": "https://videos.pexels.com/video-files/6581283/6581283-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/video-of-a-road-and-cars-6581283/"
+                },
+                "fichero": "clips/pexels-6581283.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -445,11 +814,20 @@
         {
           "id": "b3-06",
           "vo": "Y la razón es sencilla, aunque nadie la diga. Alguien compró cada uno de esos bonos. Siempre hay alguien al otro lado.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Siempre hay *alguien al otro lado*.", "night": true },
-            { "tipo": "objeto", "objeto": "balanza" }
+            {
+              "tipo": "frase",
+              "texto": "Siempre hay *alguien al otro lado*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
           ]
         }
       ]
@@ -461,13 +839,31 @@
         {
           "id": "b4-01",
           "vo": "Pero hay un caso todavía mejor, porque fue rápido y brutal. Dos mil quince. China no vendió despacio: vendió como si le fuera la vida.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "grua" },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "chinese stock market crowd crash", "tono": "ocre" },
+              "clip": {
+                "buscar": "chinese stock market crowd crash",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36749607",
+                  "url": "https://videos.pexels.com/video-files/36749607/15578319_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/vibrant-day-at-shangxiajiu-pedestrian-street-guangzhou-36749607/"
+                },
+                "fichero": "clips/pexels-36749607.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -475,19 +871,41 @@
         {
           "id": "b4-02",
           "vo": "En ese año las reservas de divisas de China cayeron quinientos doce mil millones de dólares. La mayor caída anual jamás registrada por ningún país.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "CAÍDA DE LAS RESERVAS CHINAS EN 2015",
               "fuente": "Banco Popular de China",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 512.66, "etiqueta": "miles de millones de dólares en un año", "decimales": 1 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 512.66,
+                "etiqueta": "miles de millones de dólares en un año",
+                "decimales": 1
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "yuan banknotes currency close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "yuan banknotes currency close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31750574",
+                  "url": "https://videos.pexels.com/video-files/31750574/13527179_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/close-up-of-hands-handling-stacks-of-currency-31750574/"
+                },
+                "fichero": "clips/pexels-31750574.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -495,7 +913,9 @@
         {
           "id": "b4-03",
           "vo": "Solo en agosto de aquel año se fueron noventa y cuatro mil millones. En un mes. Y no lo hacía por geopolítica: vendía dólares para frenar la caída del yuan.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -504,7 +924,13 @@
               "fuente": "Banco Popular de China",
               "barras": {
                 "unidad": "Miles de millones de dólares",
-                "datos": [{ "etiqueta": "Reservas que se fueron", "valor": 94, "tono": "carmin" }]
+                "datos": [
+                  {
+                    "etiqueta": "Reservas que se fueron",
+                    "valor": 94,
+                    "tono": "carmin"
+                  }
+                ]
               }
             },
             {
@@ -514,7 +940,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Vendía para defender su moneda",
-                "apoyo": "No era un ataque a nadie. Era una defensa desesperada."
+                "apoyo": "No era un ataque a nadie. Era una defensa desesperada.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6950231",
+                  "url": "https://images.pexels.com/photos/6950231/pexels-photo-6950231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/photo/journalists-hands-holding-microphones-around-man-in-suit-6950231/"
+                },
+                "fichero": "recortes-auto/pexels-6950231.png"
               }
             }
           ]
@@ -522,7 +956,9 @@
         {
           "id": "b4-04",
           "vo": "Ahí tienes el experimento perfecto. El mayor vendedor de deuda americana del planeta, soltando medio billón de dólares en doce meses, sin disimulo y a la vista de todos.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -533,12 +969,33 @@
                 "lado": "izq",
                 "cifra": "2015",
                 "titular": "El experimento ya se hizo",
-                "apoyo": "Medio billón de dólares vendidos en doce meses, a la vista de todos."
+                "apoyo": "Medio billón de dólares vendidos en doce meses, a la vista de todos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567426",
+                  "url": "https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-wearing-eyeglasses-sitting-in-front-of-laptop-feeling-pensive-7567426/"
+                },
+                "fichero": "recortes-auto/pexels-7567426.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "bond market screens graphs falling", "tono": "ocre" },
+              "clip": {
+                "buscar": "bond market screens graphs falling",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38581107",
+                  "url": "https://videos.pexels.com/video-files/38581107/16386442_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 19,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-cryptocurrency-trading-screens-38581107/"
+                },
+                "fichero": "clips/pexels-38581107.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -546,7 +1003,9 @@
         {
           "id": "b4-05",
           "vo": "¿Y qué hizo el bono americano a diez años, el que marca el precio del dinero en medio mundo? El cinco de julio de dos mil dieciséis cerró por debajo del uno y medio por ciento.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "lineas",
           "escenas": [
             {
@@ -558,17 +1017,42 @@
                     "nombre": "Bono a diez años",
                     "tono": "ocre",
                     "sufijo": " %",
-                    "puntos": [["2014", 3.0], ["jul 2016", 1.37]]
+                    "puntos": [
+                      [
+                        "2014",
+                        3
+                      ],
+                      [
+                        "jul 2016",
+                        1.37
+                      ]
+                    ]
                   }
                 ],
                 "nota": "Mientras China vendía medio billón, el dinero americano se abarataba"
               },
               "fuente": "Departamento del Tesoro de EEUU",
-              "rotulo": { "kicker": "5 de julio de 2016", "texto": "Mínimo histórico: *1,375 %*" }
+              "rotulo": {
+                "kicker": "5 de julio de 2016",
+                "texto": "Mínimo histórico: *1,375 %*"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "calendar pages turning close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "calendar pages turning close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5283827",
+                  "url": "https://videos.pexels.com/video-files/5283827/5283827-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/pages-of-a-book-being-flipped-5283827/"
+                },
+                "fichero": "clips/pexels-5283827.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -576,11 +1060,20 @@
         {
           "id": "b4-06",
           "vo": "Mínimo histórico. El más bajo de toda la historia de Estados Unidos hasta ese momento. China vendía medio billón y el dinero americano se abarataba hasta el récord.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Vendió medio billón. El bono marcó *su mínimo histórico*.", "night": true },
-            { "tipo": "objeto", "objeto": "dosEpocas" }
+            {
+              "tipo": "frase",
+              "texto": "Vendió medio billón. El bono marcó *su mínimo histórico*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
           ]
         }
       ]
@@ -592,13 +1085,31 @@
         {
           "id": "b5-01",
           "vo": "Ahora la pregunta de verdad. Aunque quisiera hacerlo por venganza, y no por defender su moneda, ¿podría? Y la respuesta empieza por entender de dónde salen esos dólares.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "fabrica" },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "chinese factory assembly line workers", "tono": "ocre" },
+              "clip": {
+                "buscar": "chinese factory assembly line workers",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30075964",
+                  "url": "https://videos.pexels.com/video-files/30075964/12899884_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/motorcycle-components-assembly-line-in-factory-30075964/"
+                },
+                "fichero": "clips/pexels-30075964.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -606,19 +1117,41 @@
         {
           "id": "b5-02",
           "vo": "China no tiene dólares porque se los preste nadie. Los tiene porque vende cosas. En dos mil veinticinco su superávit comercial fue de casi un billón doscientos mil millones de dólares. Récord absoluto.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "SUPERÁVIT COMERCIAL DE CHINA EN 2025",
               "fuente": "Aduanas de China",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 1.189, "etiqueta": "billones de dólares, máximo histórico", "decimales": 3 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1.189,
+                "etiqueta": "billones de dólares, máximo histórico",
+                "decimales": 3
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "cargo containers loading export port", "tono": "ocre" },
+              "clip": {
+                "buscar": "cargo containers loading export port",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10472326",
+                  "url": "https://videos.pexels.com/video-files/10472326/10472326-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Thanh Văn",
+                  "pagina": "https://www.pexels.com/video/moving-container-with-excavator-10472326/"
+                },
+                "fichero": "clips/pexels-10472326.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -626,7 +1159,9 @@
         {
           "id": "b5-03",
           "vo": "Fíjate en lo que significa eso. En un solo año le entran casi el doble de dólares de los que tiene guardados en deuda americana. El superávit de un año pesa más que todo el arsenal.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -636,8 +1171,16 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "Superávit de un año", "valor": 1189, "tono": "ink" },
-                  { "etiqueta": "Deuda americana que tiene", "valor": 633, "tono": "carmin" }
+                  {
+                    "etiqueta": "Superávit de un año",
+                    "valor": 1189,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Deuda americana que tiene",
+                    "valor": 633,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
@@ -648,7 +1191,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "El dólar le entra solo",
-                "apoyo": "Vender fuera es su modelo. Y vender fuera se cobra en dólares."
+                "apoyo": "Vender fuera es su modelo. Y vender fuera se cobra en dólares.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29988954",
+                  "url": "https://images.pexels.com/photos/29988954/pexels-photo-29988954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Cemrecan Yurtman",
+                  "pagina": "https://www.pexels.com/photo/industrial-worker-in-safety-gear-at-factory-29988954/"
+                },
+                "fichero": "recortes-auto/pexels-29988954.png"
               }
             }
           ]
@@ -656,13 +1207,31 @@
         {
           "id": "b5-04",
           "vo": "Así que si vende todos los bonos, ¿qué recibe a cambio? Dólares. Una montaña de dólares que tiene que poner en algún sitio. Y no hay ningún mercado en el mundo lo bastante grande.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "maletero" },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "vault door bank security heavy", "tono": "ocre" },
+              "clip": {
+                "buscar": "vault door bank security heavy",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6573544",
+                  "url": "https://videos.pexels.com/video-files/6573544/6573544-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/close-up-footage-of-a-vault-6573544/"
+                },
+                "fichero": "clips/pexels-6573544.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -670,7 +1239,9 @@
         {
           "id": "b5-05",
           "vo": "Y si decide cambiarlos por yuanes, entonces sí pasa algo. Está comprando su propia moneda a lo bestia. El yuan se dispara.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -680,14 +1251,35 @@
               "barras": {
                 "unidad": "Efecto sobre el yuan",
                 "datos": [
-                  { "etiqueta": "Compra yuanes", "valor": 100, "tono": "carmin" },
-                  { "etiqueta": "Yuan se encarece", "valor": 100, "tono": "carmin" }
+                  {
+                    "etiqueta": "Compra yuanes",
+                    "valor": 100,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Yuan se encarece",
+                    "valor": 100,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "currency exchange board rates numbers", "tono": "ocre" },
+              "clip": {
+                "buscar": "currency exchange board rates numbers",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578632",
+                  "url": "https://videos.pexels.com/video-files/7578632/7578632-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-of-numbers-on-display-monitor-7578632/"
+                },
+                "fichero": "clips/pexels-7578632.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -695,7 +1287,9 @@
         {
           "id": "b5-06",
           "vo": "Un yuan más caro significa que todo lo que China fabrica se encarece para el resto del mundo. Es decir: le pega un tiro a lo único que sostiene su economía.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -705,12 +1299,33 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "El arma dispara hacia dentro",
-                "apoyo": "Vender los bonos encarece el yuan. Un yuan caro mata la exportación."
+                "apoyo": "Vender los bonos encarece el yuan. Un yuan caro mata la exportación.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12445157",
+                  "url": "https://images.pexels.com/photos/12445157/pexels-photo-12445157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mohamed elamine  M'siouri",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-the-store-12445157/"
+                },
+                "fichero": "recortes-auto/pexels-12445157.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "closed factory gates industrial empty", "tono": "ocre" },
+              "clip": {
+                "buscar": "closed factory gates industrial empty",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3557443",
+                  "url": "https://videos.pexels.com/video-files/3557443/3557443-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nazar Matveichev",
+                  "pagina": "https://www.pexels.com/video/a-man-walking-a-the-side-of-an-abandoned-factory-3557443/"
+                },
+                "fichero": "clips/pexels-3557443.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -718,11 +1333,20 @@
         {
           "id": "b5-07",
           "vo": "Por eso durante trece años ha vendido despacio y con cuidado, no de golpe. No es contención diplomática. Es que la otra opción es suicida.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "No es contención. *Es que la otra opción es suicida.*", "night": true },
-            { "tipo": "objeto", "objeto": "balanza" }
+            {
+              "tipo": "frase",
+              "texto": "No es contención. *Es que la otra opción es suicida.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
           ]
         }
       ]
@@ -734,13 +1358,31 @@
         {
           "id": "b6-01",
           "vo": "Y aquí llega la parte que nadie cuenta, porque no tiene bandera y no da titulares buenos. Sí hay alguien capaz de mover el mercado de deuda americana. Pero no es un país.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "sala" },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "london canary wharf office towers night", "tono": "ocre" },
+              "clip": {
+                "buscar": "london canary wharf office towers night",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2325093",
+                  "url": "https://videos.pexels.com/video-files/2325093/2325093-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Videogrammer .com",
+                  "pagina": "https://www.pexels.com/video/time-lapse-low-angle-shot-of-buildings-2325093/"
+                },
+                "fichero": "clips/pexels-2325093.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -748,19 +1390,41 @@
         {
           "id": "b6-02",
           "vo": "A cierre de dos mil veinticinco, los fondos de cobertura tenían dos billones de dólares en deuda del Tesoro americano. Dos billones. El siete por ciento de todo el mercado.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "DEUDA AMERICANA EN MANOS DE HEDGE FUNDS",
               "fuente": "Office of Financial Research · cierre de 2025",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 2, "etiqueta": "billones de dólares, el 7 % del mercado", "decimales": 1 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 2,
+                "etiqueta": "billones de dólares, el 7 % del mercado",
+                "decimales": 1
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "traders working desks multiple monitors", "tono": "ocre" },
+              "clip": {
+                "buscar": "traders working desks multiple monitors",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8480286",
+                  "url": "https://videos.pexels.com/video-files/8480286/8480286-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/video/man-working-at-home-8480286/"
+                },
+                "fichero": "clips/pexels-8480286.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -768,7 +1432,9 @@
         {
           "id": "b6-03",
           "vo": "Compáralo. China, el dos por ciento. Los fondos de cobertura, el siete. Tienen más del triple que el país al que dedicamos todos los documentales.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -778,8 +1444,16 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "China", "valor": 633, "tono": "carmin" },
-                  { "etiqueta": "Hedge funds", "valor": 2000, "tono": "ink" }
+                  {
+                    "etiqueta": "China",
+                    "valor": 633,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Hedge funds",
+                    "valor": 2000,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
@@ -791,7 +1465,15 @@
                 "lado": "der",
                 "cifra": "x3",
                 "titular": "Más del triple que China",
-                "apoyo": "Y nadie ha hecho un documental sobre ellos."
+                "apoyo": "Y nadie ha hecho un documental sobre ellos.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8353832",
+                  "url": "https://images.pexels.com/photos/8353832/pexels-photo-8353832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-with-arms-crossed-8353832/"
+                },
+                "fichero": "recortes-auto/pexels-8353832.png"
               }
             }
           ]
@@ -799,7 +1481,9 @@
         {
           "id": "b6-04",
           "vo": "Y hace cinco años tenían seiscientos sesenta y siete mil millones. Se han triplicado, mientras la deuda americana total crecía solo un veintinueve por ciento.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "lineas",
           "escenas": [
             {
@@ -810,17 +1494,42 @@
                   {
                     "nombre": "Miles de millones de dólares",
                     "tono": "carmin",
-                    "puntos": [["2020", 667], ["2025", 2000]]
+                    "puntos": [
+                      [
+                        "2020",
+                        667
+                      ],
+                      [
+                        "2025",
+                        2000
+                      ]
+                    ]
                   }
                 ],
                 "nota": "Se triplicaron mientras el mercado crecía un 29 %"
               },
               "fuente": "Office of Financial Research",
-              "rotulo": { "kicker": "En cinco años", "texto": "De 667.000 millones a *2 billones*" }
+              "rotulo": {
+                "kicker": "En cinco años",
+                "texto": "De 667.000 millones a *2 billones*"
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "server room data center blinking lights", "tono": "ocre" },
+              "clip": {
+                "buscar": "server room data center blinking lights",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7140928",
+                  "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "MrColo",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-cpu-7140928/"
+                },
+                "fichero": "clips/pexels-7140928.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -828,13 +1537,31 @@
         {
           "id": "b6-05",
           "vo": "Y la diferencia que importa. China compra con dinero suyo, ganado vendiendo cosas. Los fondos compran con dinero prestado, renovado cada noche en el mercado de repos.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "grua" },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "tower of cards balancing fragile", "tono": "ocre" },
+              "clip": {
+                "buscar": "tower of cards balancing fragile",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8086922",
+                  "url": "https://videos.pexels.com/video-files/8086922/8086922-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 8,
+                  "autor": "Yaroslav Shuraev",
+                  "pagina": "https://www.pexels.com/video/old-people-playing-cards-8086922/"
+                },
+                "fichero": "clips/pexels-8086922.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -842,7 +1569,9 @@
         {
           "id": "b6-06",
           "vo": "A eso se le llama el basis trade, y los cálculos de la Reserva Federal y del Banco de Pagos lo sitúan entre trescientos cincuenta mil millones y un billón y medio de dólares.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -852,8 +1581,16 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "Estimación baja", "valor": 350, "tono": "ocre" },
-                  { "etiqueta": "Estimación alta", "valor": 1500, "tono": "carmin" }
+                  {
+                    "etiqueta": "Estimación baja",
+                    "valor": 350,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Estimación alta",
+                    "valor": 1500,
+                    "tono": "carmin"
+                  }
                 ]
               }
             },
@@ -864,7 +1601,15 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Ni la Reserva Federal sabe cuánto es",
-                "apoyo": "Las estimaciones bailan entre 350.000 millones y 1,5 billones."
+                "apoyo": "Las estimaciones bailan entre 350.000 millones y 1,5 billones.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12911736",
+                  "url": "https://images.pexels.com/photos/12911736/pexels-photo-12911736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mizuno K",
+                  "pagina": "https://www.pexels.com/photo/businesswoman-in-suit-considering-paperwork-12911736/"
+                },
+                "fichero": "recortes-auto/pexels-12911736.png"
               }
             }
           ]
@@ -872,11 +1617,20 @@
         {
           "id": "b6-07",
           "vo": "Que ni el banco central del país sepa el tamaño exacto de la posición apalancada sobre su propia deuda te dice dónde está el riesgo de verdad.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "El riesgo no lleva bandera. *Lleva apalancamiento.*", "night": true },
-            { "tipo": "objeto", "objeto": "interrogante" }
+            {
+              "tipo": "frase",
+              "texto": "El riesgo no lleva bandera. *Lleva apalancamiento.*",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
           ]
         }
       ]
@@ -888,7 +1642,9 @@
         {
           "id": "b7-01",
           "vo": "Y todo esto no es teoría, porque ya lo hemos visto ensayado. Abril de dos mil veinticinco. Estados Unidos anuncia aranceles y el mercado de deuda se descompone en cuestión de horas.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -899,12 +1655,33 @@
                 "lado": "der",
                 "cifra": "abril 2025",
                 "titular": "La peor semana desde la pandemia",
-                "apoyo": "El mercado de deuda americana se descompuso en horas."
+                "apoyo": "El mercado de deuda americana se descompuso en horas.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7580851",
+                  "url": "https://images.pexels.com/photos/7580851/pexels-photo-7580851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/man-talking-on-the-telephone-7580851/"
+                },
+                "fichero": "recortes-auto/pexels-7580851.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "stock exchange red screens chaos", "tono": "ocre" },
+              "clip": {
+                "buscar": "stock exchange red screens chaos",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38919826",
+                  "url": "https://videos.pexels.com/video-files/38919826/16551768_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 21,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-cryptocurrency-trading-screen-footage-38919826/"
+                },
+                "fichero": "clips/pexels-38919826.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -912,13 +1689,31 @@
         {
           "id": "b7-02",
           "vo": "Los rendimientos se disparan. Y en cuestión de horas la explicación está en todas partes, incluida la portada de Forbes el nueve de abril. China está vendiendo deuda americana.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "carta" },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "newspaper front page headlines printing", "tono": "ocre" },
+              "clip": {
+                "buscar": "newspaper front page headlines printing",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10284759",
+                  "url": "https://videos.pexels.com/video-files/10284759/10284759-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Oleg Gamulinskii",
+                  "pagina": "https://www.pexels.com/video/a-black-and-white-image-of-a-newspaper-10284759/"
+                },
+                "fichero": "clips/pexels-10284759.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -926,13 +1721,32 @@
         {
           "id": "b7-03",
           "vo": "Era el escenario del titular, ocurriendo en directo. La venganza china. El arma financiera. Todo lo que llevábamos años esperando, por fin.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Por fin estaba pasando. *O eso parecía.*", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "Por fin estaba pasando. *O eso parecía.*",
+              "night": true
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "news anchor studio broadcast breaking", "tono": "ocre" },
+              "clip": {
+                "buscar": "news anchor studio broadcast breaking",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6952253",
+                  "url": "https://videos.pexels.com/video-files/6952253/6952253-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/woman-talking-to-the-press-6952253/"
+                },
+                "fichero": "clips/pexels-6952253.mp4"
+              },
               "camara": "estatico"
             }
           ]
@@ -940,7 +1754,9 @@
         {
           "id": "b7-04",
           "vo": "Y no era China. Cuando se revisaron los datos, lo que había estallado era el basis trade: fondos apalancados deshaciendo posiciones a la vez porque el mercado de repos se les cerraba.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -950,12 +1766,33 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "No era Pekín",
-                "apoyo": "Fondos apalancados deshaciendo posiciones todos a la vez."
+                "apoyo": "Fondos apalancados deshaciendo posiciones todos a la vez.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7681134",
+                  "url": "https://images.pexels.com/photos/7681134/pexels-photo-7681134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/man-in-gray-suit-holding-headphones-7681134/"
+                },
+                "fichero": "recortes-auto/pexels-7681134.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "dominoes falling chain reaction", "tono": "ocre" },
+              "clip": {
+                "buscar": "dominoes falling chain reaction",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38003914",
+                  "url": "https://videos.pexels.com/video-files/38003914/16128190_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nicola Narracci",
+                  "pagina": "https://www.pexels.com/video/dynamic-domino-effect-animation-38003914/"
+                },
+                "fichero": "clips/pexels-38003914.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -963,7 +1800,9 @@
         {
           "id": "b7-05",
           "vo": "La Reserva Federal, el Banco de Pagos Internacionales y el Financial Times llegaron todos a la misma conclusión. El culpable no estaba en Pekín. Estaba en Londres y en Nueva York.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -973,14 +1812,35 @@
               "barras": {
                 "unidad": "Miles de millones de dólares en juego",
                 "datos": [
-                  { "etiqueta": "Basis trade", "valor": 1500, "tono": "carmin" },
-                  { "etiqueta": "Toda la deuda china", "valor": 633, "tono": "ink" }
+                  {
+                    "etiqueta": "Basis trade",
+                    "valor": 1500,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Toda la deuda china",
+                    "valor": 633,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "new york wall street street sign", "tono": "ocre" },
+              "clip": {
+                "buscar": "new york wall street street sign",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5630360",
+                  "url": "https://videos.pexels.com/video-files/5630360/5630360-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ono  Kosuki",
+                  "pagina": "https://www.pexels.com/video/signage-of-the-streets-in-new-york-5630360/"
+                },
+                "fichero": "clips/pexels-5630360.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -988,11 +1848,20 @@
         {
           "id": "b7-06",
           "vo": "Tuvimos la simulación completa del escenario que da miedo. Y resultó que el enemigo tenía oficina a diez minutos del Tesoro.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "El enemigo tenía oficina *a diez minutos del Tesoro*.", "night": true },
-            { "tipo": "objeto", "objeto": "sala" }
+            {
+              "tipo": "frase",
+              "texto": "El enemigo tenía oficina *a diez minutos del Tesoro*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
           ]
         }
       ]
@@ -1004,13 +1873,31 @@
         {
           "id": "b8-01",
           "vo": "Ahora la parte honesta, la que estropea todo lo que acabo de contarte. Porque ese dato de seiscientos treinta y tres mil millones tiene un problema serio.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "carpeta" },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "magnifying glass documents inspection", "tono": "ocre" },
+              "clip": {
+                "buscar": "magnifying glass documents inspection",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7947467",
+                  "url": "https://videos.pexels.com/video-files/7947467/7947467-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/person-using-a-magnifying-glass-7947467/"
+                },
+                "fichero": "clips/pexels-7947467.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1018,12 +1905,20 @@
         {
           "id": "b8-02",
           "vo": "El Tesoro americano cuenta dónde está guardado el bono, no de quién es. Y China guarda buena parte de los suyos a través de custodios europeos, sobre todo en Bélgica.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "mapa",
           "escenas": [
             {
               "tipo": "mapa",
-              "mapa": { "region": "europa", "destaca": ["belgica", "luxemburgo"] },
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "belgica",
+                  "luxemburgo"
+                ]
+              },
               "kicker": "DONDE SE GUARDA LO QUE NO SE CUENTA",
               "fuente": "Datos TIC del Tesoro de EEUU"
             },
@@ -1034,7 +1929,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Cuenta el custodio, no el dueño",
-                "apoyo": "Los datos TIC registran dónde está el bono, no de quién es."
+                "apoyo": "Los datos TIC registran dónde está el bono, no de quién es.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8872341",
+                  "url": "https://images.pexels.com/photos/8872341/pexels-photo-8872341.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-bearded-man-in-suspenders-8872341/"
+                },
+                "fichero": "recortes-auto/pexels-8872341.png"
               }
             }
           ]
@@ -1042,7 +1945,9 @@
         {
           "id": "b8-03",
           "vo": "Bélgica aparece con cuatrocientos ochenta mil millones de dólares en deuda americana. Luxemburgo, con más de cuatrocientos mil. Dos países diminutos entre los mayores acreedores del planeta.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1052,14 +1957,35 @@
               "barras": {
                 "unidad": "Miles de millones de dólares",
                 "datos": [
-                  { "etiqueta": "Bélgica", "valor": 482, "tono": "carmin" },
-                  { "etiqueta": "Luxemburgo", "valor": 425, "tono": "ocre" }
+                  {
+                    "etiqueta": "Bélgica",
+                    "valor": 482,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Luxemburgo",
+                    "valor": 425,
+                    "tono": "ocre"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "brussels european quarter buildings", "tono": "ocre" },
+              "clip": {
+                "buscar": "brussels european quarter buildings",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9512226",
+                  "url": "https://videos.pexels.com/video-files/9512226/9512226-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/video/a-little-girl-wearing-beanie-while-skateboarding-9512226/"
+                },
+                "fichero": "clips/pexels-9512226.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -1067,7 +1993,9 @@
         {
           "id": "b8-04",
           "vo": "No es que Bélgica se haya vuelto rica: es que Euroclear, uno de los mayores depositarios del mundo, está domiciliado allí. Y analistas como Brad Setser llevan años avisando de lo mismo.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -1077,12 +2005,33 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "Lo que China tiene de verdad es más",
-                "apoyo": "Parte de la caída es un cambio de custodio, no una venta."
+                "apoyo": "Parte de la caída es un cambio de custodio, no una venta.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841835",
+                  "url": "https://images.pexels.com/photos/7841835/pexels-photo-7841835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/a-man-holding-gray-folder-7841835/"
+                },
+                "fichero": "recortes-auto/pexels-7841835.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "safe deposit boxes rows metal", "tono": "ocre" },
+              "clip": {
+                "buscar": "safe deposit boxes rows metal",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5457501",
+                  "url": "https://videos.pexels.com/video-files/5457501/5457501-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Bilal Moazzam",
+                  "pagina": "https://www.pexels.com/video/aluminum-boxes-with-designs-5457501/"
+                },
+                "fichero": "clips/pexels-5457501.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1090,13 +2039,32 @@
         {
           "id": "b8-05",
           "vo": "Así que la frase correcta no es que China haya vendido la mitad. Es que la mitad ha dejado de contarse como suya. Y no sabemos exactamente cuánto de cada cosa hay.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Vendió menos de lo que parece. Y *sigue siendo poco*.", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "Vendió menos de lo que parece. Y *sigue siendo poco*.",
+              "night": true
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "fog over city buildings unclear", "tono": "ocre" },
+              "clip": {
+                "buscar": "fog over city buildings unclear",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16072272",
+                  "url": "https://videos.pexels.com/video-files/16072272/16072272-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Amit",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-moving-clouds-over-the-city-16072272/"
+                },
+                "fichero": "clips/pexels-16072272.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1104,13 +2072,31 @@
         {
           "id": "b8-06",
           "vo": "Pero fíjate en que eso no salva el argumento del arma. Al contrario: si tiene más de lo que dice el papel, sigue sin poder venderlo, y sigue sin ser suficiente para tumbar nada.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "balanza" },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "chess board pieces strategy close up", "tono": "ocre" },
+              "clip": {
+                "buscar": "chess board pieces strategy close up",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "855386",
+                  "url": "https://videos.pexels.com/video-files/855386/855386-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/queen-check-in-chess-855386/"
+                },
+                "fichero": "clips/pexels-855386.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1124,13 +2110,31 @@
         {
           "id": "b9-01",
           "vo": "Entonces, si no está huyendo del dólar en pánico, ¿qué está haciendo China exactamente? Y aquí el dato es precioso, porque desmonta las dos versiones a la vez.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "contable" },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "gold bars stacked vault", "tono": "ocre" },
+              "clip": {
+                "buscar": "gold bars stacked vault",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8369987",
+                  "url": "https://videos.pexels.com/video-files/8369987/8369987-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/stacked-of-bitcoins-on-the-table-8369987/"
+                },
+                "fichero": "clips/pexels-8369987.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1138,19 +2142,41 @@
         {
           "id": "b9-02",
           "vo": "Las reservas totales de China están hoy en tres billones cuatrocientos mil millones de dólares. Máximo de la última década. No está liquidando nada: está más llena que nunca.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "RESERVAS DE DIVISAS DE CHINA · JULIO DE 2026",
               "fuente": "Banco Popular de China",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 3.419, "etiqueta": "billones de dólares, máximo de la década", "decimales": 3 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 3.419,
+                "etiqueta": "billones de dólares, máximo de la década",
+                "decimales": 3
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "beijing central bank building exterior", "tono": "ocre" },
+              "clip": {
+                "buscar": "beijing central bank building exterior",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10218426",
+                  "url": "https://videos.pexels.com/video-files/10218426/10218426-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/bank-exterior-with-logo-10218426/"
+                },
+                "fichero": "clips/pexels-10218426.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1158,10 +2184,16 @@
         {
           "id": "b9-03",
           "vo": "Lo que ha cambiado no es cuánto tiene, sino en qué. Menos bonos americanos y más de otra cosa. Y esa otra cosa es tan antigua que da risa.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "No está vaciando la caja. *Está cambiando lo que hay dentro.*", "night": true },
+            {
+              "tipo": "frase",
+              "texto": "No está vaciando la caja. *Está cambiando lo que hay dentro.*",
+              "night": true
+            },
             {
               "tipo": "recorte",
               "recorte": {
@@ -1169,7 +2201,15 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "Menos papel, más metal",
-                "apoyo": "La caja no se vacía: cambia de contenido."
+                "apoyo": "La caja no se vacía: cambia de contenido.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8370780",
+                  "url": "https://images.pexels.com/photos/8370780/pexels-photo-8370780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/holding-golden-shiny-bitcoin-coin-8370780/"
+                },
+                "fichero": "recortes-auto/pexels-8370780.png"
               }
             }
           ]
@@ -1177,7 +2217,9 @@
         {
           "id": "b9-04",
           "vo": "El Banco Popular de China lleva veintiún meses seguidos comprando oro. Veintiún meses sin fallar uno. A cierre de junio de dos mil veintiséis tenía unas dos mil trescientas cuarenta toneladas.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1186,12 +2228,31 @@
               "fuente": "Banco Popular de China · junio de 2026",
               "barras": {
                 "unidad": "Toneladas",
-                "datos": [{ "etiqueta": "Oro en reservas", "valor": 2346, "tono": "ocre" }]
+                "datos": [
+                  {
+                    "etiqueta": "Oro en reservas",
+                    "valor": 2346,
+                    "tono": "ocre"
+                  }
+                ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "gold ingots weighing scale precious", "tono": "ocre" },
+              "clip": {
+                "buscar": "gold ingots weighing scale precious",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8431825",
+                  "url": "https://videos.pexels.com/video-files/8431825/8431825-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/chess-pieces-on-the-weighing-scale-8431825/"
+                },
+                "fichero": "clips/pexels-8431825.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -1199,7 +2260,9 @@
         {
           "id": "b9-05",
           "vo": "Eso no es un ataque. Es un seguro. Un país que fabrica un arma la apunta a alguien. Un país que compra oro está pensando en el día en que le congelen las cuentas.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -1210,12 +2273,33 @@
                 "lado": "izq",
                 "cifra": "21 meses",
                 "titular": "Comprando oro sin fallar uno",
-                "apoyo": "No es un arma. Es lo que compras cuando temes que te congelen las cuentas."
+                "apoyo": "No es un arma. Es lo que compras cuando temes que te congelen las cuentas.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15108230",
+                  "url": "https://images.pexels.com/photos/15108230/pexels-photo-15108230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Özkan Keklik",
+                  "pagina": "https://www.pexels.com/photo/man-among-bank-deposit-lockers-15108230/"
+                },
+                "fichero": "recortes-auto/pexels-15108230.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "frozen bank account screen locked", "tono": "ocre" },
+              "clip": {
+                "buscar": "frozen bank account screen locked",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266436",
+                  "url": "https://videos.pexels.com/video-files/6266436/6266436-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/a-woman-working-on-her-computer-6266436/"
+                },
+                "fichero": "clips/pexels-6266436.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1223,13 +2307,31 @@
         {
           "id": "b9-06",
           "vo": "Es exactamente lo que le pasó a Rusia en dos mil veintidós, cuando le inmovilizaron las reservas en el extranjero. China tomó nota y se está comprando un paracaídas.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "maletero" },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "parachute opening sky descent", "tono": "ocre" },
+              "clip": {
+                "buscar": "parachute opening sky descent",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28806751",
+                  "url": "https://videos.pexels.com/video-files/28806751/12482644_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Evgenij Mikhailov",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-tandem-paragliding-over-ocean-28806751/"
+                },
+                "fichero": "clips/pexels-28806751.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1243,13 +2345,31 @@
         {
           "id": "b10-01",
           "vo": "Vamos a juntarlo todo, porque esto que parece lejísimos, un asunto de dos superpotencias, acaba llegando a la cuota que pagas tú cada mes.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "casa" },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "family house keys mortgage documents", "tono": "ocre" },
+              "clip": {
+                "buscar": "family house keys mortgage documents",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7577972",
+                  "url": "https://videos.pexels.com/video-files/7577972/7577972-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/person-holding-a-key-and-paper-7577972/"
+                },
+                "fichero": "clips/pexels-7577972.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1257,7 +2377,9 @@
         {
           "id": "b10-02",
           "vo": "El bono americano a diez años es el precio de referencia del dinero en medio mundo. Cuando sube, sube el coste de financiarse en todas partes, y las hipotecas europeas lo notan.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1267,14 +2389,35 @@
               "barras": {
                 "unidad": "Referencia del precio del dinero",
                 "datos": [
-                  { "etiqueta": "Bono americano", "valor": 100, "tono": "ink" },
-                  { "etiqueta": "Todo lo demás", "valor": 92, "tono": "ocre" }
+                  {
+                    "etiqueta": "Bono americano",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Todo lo demás",
+                    "valor": 92,
+                    "tono": "ocre"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "mortgage rate board bank window", "tono": "ocre" },
+              "clip": {
+                "buscar": "mortgage rate board bank window",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7821606",
+                  "url": "https://videos.pexels.com/video-files/7821606/7821606-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/video-of-credit-card-documents-7821606/"
+                },
+                "fichero": "clips/pexels-7821606.mp4"
+              },
               "camara": "panR"
             }
           ]
@@ -1282,19 +2425,41 @@
         {
           "id": "b10-03",
           "vo": "Y lo que de verdad decide ese precio no es Pekín. Es cuánto papel nuevo emite Estados Unidos. En los ocho primeros meses de dos mil veintiséis emitió veintiún billones de dólares en bruto.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "contador",
           "escenas": [
             {
               "tipo": "contador",
               "kicker": "EMISIÓN BRUTA DEL TESORO · ENERO A AGOSTO DE 2026",
               "fuente": "SIFMA",
-              "de": { "valor": 0, "etiqueta": "" },
-              "a": { "valor": 21.8, "etiqueta": "billones de dólares emitidos", "decimales": 1 }
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 21.8,
+                "etiqueta": "billones de dólares emitidos",
+                "decimales": 1
+              }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "printing press rolling paper fast", "tono": "ocre" },
+              "clip": {
+                "buscar": "printing press rolling paper fast",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30183329",
+                  "url": "https://videos.pexels.com/video-files/30183329/12942982_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nova lv",
+                  "pagina": "https://www.pexels.com/video/printing-press-in-action-with-spinning-rollers-30183329/"
+                },
+                "fichero": "clips/pexels-30183329.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1302,7 +2467,9 @@
         {
           "id": "b10-04",
           "vo": "Un once por ciento más que el año anterior. El problema del mercado de deuda americana no es que falte un comprador chino. Es que sobra papel americano.",
-          "voz": { "speed": 0.96 },
+          "voz": {
+            "speed": 0.96
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -1312,12 +2479,33 @@
                 "tono": "ocre",
                 "lado": "der",
                 "titular": "No falta comprador. Sobra papel",
-                "apoyo": "21,8 billones emitidos en ocho meses, un 11,8 % más que en 2025."
+                "apoyo": "21,8 billones emitidos en ocho meses, un 11,8 % más que en 2025.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8872384",
+                  "url": "https://images.pexels.com/photos/8872384/pexels-photo-8872384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/man-carrying-stack-of-books-between-book-shelves-8872384/"
+                },
+                "fichero": "recortes-auto/pexels-8872384.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "endless paper stack office overflow", "tono": "ocre" },
+              "clip": {
+                "buscar": "endless paper stack office overflow",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7054942",
+                  "url": "https://videos.pexels.com/video-files/7054942/7054942-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/stack-of-paperwork-on-the-desk-7054942/"
+                },
+                "fichero": "clips/pexels-7054942.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1325,7 +2513,9 @@
         {
           "id": "b10-05",
           "vo": "Y ahí está el truco de por qué se cuenta mal. Un enemigo con bandera se explica en un titular. Un problema de déficit propio, no. El primero da audiencia. El segundo da elecciones perdidas.",
-          "voz": { "speed": 0.98 },
+          "voz": {
+            "speed": 0.98
+          },
           "tipo": "gente",
           "escenas": [
             {
@@ -1342,7 +2532,20 @@
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "television studio political debate", "tono": "ocre" },
+              "clip": {
+                "buscar": "television studio political debate",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6952221",
+                  "url": "https://videos.pexels.com/video-files/6952221/6952221-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/senior-man-giving-a-speech-6952221/"
+                },
+                "fichero": "clips/pexels-6952221.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1350,11 +2553,20 @@
         {
           "id": "b10-06",
           "vo": "Por eso el arma china aparece cada vez que hay una crisis, y desaparece en cuanto alguien mira los números. Es una historia demasiado buena para comprobarla.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "Demasiado buena *para comprobarla*.", "night": true },
-            { "tipo": "objeto", "objeto": "interrogante" }
+            {
+              "tipo": "frase",
+              "texto": "Demasiado buena *para comprobarla*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
           ]
         }
       ]
@@ -1366,13 +2578,31 @@
         {
           "id": "b11-01",
           "vo": "Así que la próxima vez que oigas que China puede hundir Estados Unidos vendiendo su deuda, quédate con tres números y ya no vas a necesitar nada más.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "objeto",
           "escenas": [
-            { "tipo": "objeto", "objeto": "plano" },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            },
             {
               "tipo": "clip",
-              "clip": { "buscar": "quiet library reading room desk", "tono": "ocre" },
+              "clip": {
+                "buscar": "quiet library reading room desk",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6550141",
+                  "url": "https://videos.pexels.com/video-files/6550141/6550141-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/man-and-woman-at-the-library-6550141/"
+                },
+                "fichero": "clips/pexels-6550141.mp4"
+              },
               "camara": "push"
             }
           ]
@@ -1380,7 +2610,9 @@
         {
           "id": "b11-02",
           "vo": "Dos por ciento de la deuda americana. Media sesión de mercado. Y trece años vendiendo sin que se rompiera nada.",
-          "voz": { "speed": 0.92 },
+          "voz": {
+            "speed": 0.92
+          },
           "tipo": "barras",
           "escenas": [
             {
@@ -1390,14 +2622,35 @@
               "barras": {
                 "unidad": "Peso de China sobre el mercado",
                 "datos": [
-                  { "etiqueta": "China", "valor": 2, "tono": "carmin" },
-                  { "etiqueta": "Hedge funds", "valor": 7, "tono": "ink" }
+                  {
+                    "etiqueta": "China",
+                    "valor": 2,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Hedge funds",
+                    "valor": 7,
+                    "tono": "ink"
+                  }
                 ]
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "clock ticking close up mechanism", "tono": "ocre" },
+              "clip": {
+                "buscar": "clock ticking close up mechanism",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "854314",
+                  "url": "https://videos.pexels.com/video-files/854314/854314-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-clock-hands-854314/"
+                },
+                "fichero": "clips/pexels-854314.mp4"
+              },
               "camara": "pull"
             }
           ]
@@ -1405,7 +2658,9 @@
         {
           "id": "b11-03",
           "vo": "El arma existe, pero no es un arma: es un depósito. Y el que lo tiene no puede vaciarlo sin quedarse él sin fábrica.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "recorte",
           "escenas": [
             {
@@ -1415,12 +2670,33 @@
                 "tono": "ocre",
                 "lado": "izq",
                 "titular": "No es un arma. Es un depósito",
-                "apoyo": "Y vaciarlo le encarece el yuan y le cierra la fábrica."
+                "apoyo": "Y vaciarlo le encarece el yuan y le cierra la fábrica.",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19544217",
+                  "url": "https://images.pexels.com/photos/19544217/pexels-photo-19544217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hoang NC",
+                  "pagina": "https://www.pexels.com/photo/industrial-worker-in-helmet-19544217/"
+                },
+                "fichero": "recortes-auto/pexels-19544217.png"
               }
             },
             {
               "tipo": "clip",
-              "clip": { "buscar": "warehouse shelves goods storage", "tono": "ocre" },
+              "clip": {
+                "buscar": "warehouse shelves goods storage",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37208833",
+                  "url": "https://videos.pexels.com/video-files/37208833/15762443_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Mahadi Hassan Molla",
+                  "pagina": "https://www.pexels.com/video/industrial-warehouse-storage-aisle-with-packed-shelves-37208833/"
+                },
+                "fichero": "clips/pexels-37208833.mp4"
+              },
               "camara": "panL"
             }
           ]
@@ -1428,19 +2704,32 @@
         {
           "id": "b11-04",
           "vo": "El riesgo de verdad no tiene bandera ni ministerio. Está apalancado, se renueva cada noche y ya nos enseñó en abril lo que sabe hacer.",
-          "voz": { "speed": 0.94 },
+          "voz": {
+            "speed": 0.94
+          },
           "tipo": "frase",
           "escenas": [
-            { "tipo": "frase", "texto": "El riesgo *no tiene bandera*.", "night": true },
-            { "tipo": "objeto", "objeto": "sala" }
+            {
+              "tipo": "frase",
+              "texto": "El riesgo *no tiene bandera*.",
+              "night": true
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
           ]
         },
         {
           "id": "b11-05",
           "vo": "Suscríbete si prefieres los números a los titulares, aunque los números den mucho menos miedo.",
-          "voz": { "speed": 1 },
+          "voz": {
+            "speed": 1
+          },
           "tipo": "cierre",
-          "cierre": { "suscribete": true }
+          "cierre": {
+            "suscribete": true
+          }
         }
       ]
     }
