@@ -969,9 +969,15 @@ function validar(doc, tema) {
           `y el plano dura ${segundos.toFixed(0)} s. Quita una escena o alarga el 'vo'.`
       );
     }
+    // Dos escenas seguidas del mismo tipo se ven como una sola que no cambia.
+    // El clip es la excepcion: dos clips seguidos son dos imagenes distintas,
+    // que es justo el recurso del plano de recurso. Prohibirlo obligaba a
+    // meter un objeto entre medias cada vez, y de ahi salian los videos llenos
+    // de dibujos nuestros.
     for (let i = 1; i < (p.escenas ?? []).length; i++) {
-      if (p.escenas[i].tipo === p.escenas[i - 1].tipo) {
-        di(`${p.id}: las escenas ${i} y ${i + 1} son las dos "${p.escenas[i].tipo}". Cambia una.`);
+      const t = p.escenas[i].tipo;
+      if (t !== "clip" && t === p.escenas[i - 1].tipo) {
+        di(`${p.id}: las escenas ${i} y ${i + 1} son las dos "${t}". Cambia una.`);
       }
     }
   }

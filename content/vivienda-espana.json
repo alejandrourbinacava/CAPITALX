@@ -6,7 +6,7 @@
     "nombre": "VOZ DETRAS DEL ENIGMA"
   },
   "wpm": 145,
-  "musica": "mystery.wav",
+  "musica": "pulso.wav",
   "bloques": [
     {
       "id": "b0",
@@ -36,7 +36,8 @@
                   "autor": "Pavel Danilyuk",
                   "pagina": "https://www.pexels.com/photo/man-in-black-jacket-holding-red-and-white-fore-sale-sign-7937216/"
                 },
-                "fichero": "recortes-auto/pexels-7937216.png"
+                "fichero": "recortes-auto/pexels-7937216.png",
+                "icono": "casa"
               }
             },
             {
@@ -56,6 +57,14 @@
                 "fichero": "clips/pexels-7069320.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty real estate agency window night",
+                "tono": "carmin"
+              },
+              "camara": "panR"
             }
           ]
         },
@@ -147,6 +156,10 @@
                 "fichero": "clips/pexels-28823325.mp4"
               },
               "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
             }
           ]
         },
@@ -279,6 +292,14 @@
                 "fichero": "clips/pexels-8471048.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spanish apartment blocks dense aerial",
+                "tono": "ocre"
+              },
+              "camara": "panL"
             }
           ]
         },
@@ -342,7 +363,8 @@
                   "autor": "Alex Green",
                   "pagina": "https://www.pexels.com/photo/man-in-blue-jacket-beside-woman-in-blue-shirt-6625770/"
                 },
-                "fichero": "recortes-auto/pexels-6625770.png"
+                "fichero": "recortes-auto/pexels-6625770.png",
+                "icono": "casa"
               }
             }
           ]
@@ -440,8 +462,17 @@
                   "autor": "Liza Summer",
                   "pagina": "https://www.pexels.com/photo/stressed-young-ethnic-woman-grabbing-head-while-sitting-on-chair-6382637/"
                 },
-                "fichero": "recortes-auto/pexels-6382637.png"
+                "fichero": "recortes-auto/pexels-6382637.png",
+                "icono": "moneda"
               }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "young woman counting coins kitchen table",
+                "tono": "carmin"
+              },
+              "camara": "pull"
             }
           ]
         },
@@ -485,6 +516,10 @@
                 "fichero": "clips/pexels-10387909.mp4"
               },
               "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion"
             }
           ]
         },
@@ -517,6 +552,10 @@
                 "fichero": "clips/pexels-8814710.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
             }
           ]
         },
@@ -544,7 +583,8 @@
                   "autor": "Moisés Sánchez",
                   "pagina": "https://www.pexels.com/photo/professional-man-in-stylish-grey-suit-34299170/"
                 },
-                "fichero": "recortes-auto/pexels-34299170.png"
+                "fichero": "recortes-auto/pexels-34299170.png",
+                "icono": "persona"
               }
             },
             {
@@ -564,6 +604,14 @@
                 "fichero": "clips/pexels-34874522.mp4"
               },
               "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "second home coastal apartment balcony",
+                "tono": "carmin"
+              },
+              "camara": "panL"
             }
           ]
         },
@@ -617,6 +665,10 @@
                 "fichero": "clips/pexels-4300850.mp4"
               },
               "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
             }
           ]
         },
@@ -714,6 +766,14 @@
                 "fichero": "clips/pexels-8639871.mp4"
               },
               "camara": "panL"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "office building corporate lobby empty",
+                "tono": "ocre"
+              },
+              "camara": "panR"
             }
           ]
         },
@@ -756,8 +816,17 @@
                   "autor": "Jordan Bergendahl",
                   "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-looking-at-the-window-10417388/"
                 },
-                "fichero": "recortes-auto/pexels-10417388.png"
+                "fichero": "recortes-auto/pexels-10417388.png",
+                "icono": "aviso"
               }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "apartment facade windows repeating spain",
+                "tono": "carmin"
+              },
+              "camara": "push"
             }
           ]
         },
@@ -843,7 +912,8 @@
                   "autor": "Guto Macedo",
                   "pagina": "https://www.pexels.com/photo/a-man-with-his-hands-clasped-10546976/"
                 },
-                "fichero": "recortes-auto/pexels-10546976.png"
+                "fichero": "recortes-auto/pexels-10546976.png",
+                "icono": "persona"
               }
             },
             {
@@ -863,6 +933,14 @@
                 "fichero": "clips/pexels-7578548.mp4"
               },
               "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "man opening apartment door keys",
+                "tono": "ocre"
+              },
+              "camara": "panL"
             }
           ]
         },
@@ -915,7 +993,8 @@
                   "autor": "RDNE Stock project",
                   "pagina": "https://www.pexels.com/photo/businessmen-having-a-contract-signing-5778659/"
                 },
-                "fichero": "recortes-auto/pexels-5778659.png"
+                "fichero": "recortes-auto/pexels-5778659.png",
+                "icono": "documento"
               }
             },
             {
@@ -935,6 +1014,14 @@
                 "fichero": "clips/pexels-17874866.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "private jet tarmac luxury travel",
+                "tono": "ocre"
+              },
+              "camara": "pull"
             }
           ]
         },
@@ -1011,6 +1098,10 @@
                 "fichero": "clips/pexels-8731441.mp4"
               },
               "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
             }
           ]
         },
@@ -1038,7 +1129,8 @@
                   "autor": "Mikhail Nilov",
                   "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-behind-speech-desk-8847165/"
                 },
-                "fichero": "recortes-auto/pexels-8847165.png"
+                "fichero": "recortes-auto/pexels-8847165.png",
+                "icono": "candado"
               }
             },
             {
@@ -1058,6 +1150,14 @@
                 "fichero": "clips/pexels-28454582.mp4"
               },
               "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "official stamp document signing desk",
+                "tono": "ocre"
+              },
+              "camara": "push"
             }
           ]
         },
@@ -1174,6 +1274,10 @@
                 "fichero": "clips/pexels-34157665.mp4"
               },
               "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto"
             }
           ]
         },
@@ -1214,8 +1318,17 @@
                   "autor": "cottonbro studio",
                   "pagina": "https://www.pexels.com/photo/shirtless-man-with-gray-facial-hair-6293175/"
                 },
-                "fichero": "recortes-auto/pexels-6293175.png"
+                "fichero": "recortes-auto/pexels-6293175.png",
+                "icono": "barco"
               }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "airport arrivals passengers luggage",
+                "tono": "carmin"
+              },
+              "camara": "pull"
             }
           ]
         },
@@ -1312,6 +1425,14 @@
                 "fichero": "clips/pexels-31068279.mp4"
               },
               "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "mediterranean marina boats sunny",
+                "tono": "ocre"
+              },
+              "camara": "panR"
             }
           ]
         },
@@ -1343,7 +1464,8 @@
                   "autor": "Luan Albarracin",
                   "pagina": "https://www.pexels.com/photo/professional-woman-in-green-suit-indoor-portrait-30781748/"
                 },
-                "fichero": "recortes-auto/pexels-30781748.png"
+                "fichero": "recortes-auto/pexels-30781748.png",
+                "icono": "aviso"
               }
             }
           ]
@@ -1393,6 +1515,14 @@
                 "fichero": "clips/pexels-37627449.mp4"
               },
               "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tourists beach spain summer crowd",
+                "tono": "ocre"
+              },
+              "camara": "push"
             }
           ]
         }
@@ -1473,8 +1603,17 @@
                   "autor": "cottonbro studio",
                   "pagina": "https://www.pexels.com/photo/bearded-man-counting-money-5920581/"
                 },
-                "fichero": "recortes-auto/pexels-5920581.png"
+                "fichero": "recortes-auto/pexels-5920581.png",
+                "icono": "moneda"
               }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cash euro notes counted hands",
+                "tono": "carmin"
+              },
+              "camara": "panL"
             }
           ]
         },
@@ -1532,6 +1671,10 @@
                 "fichero": "clips/pexels-30712587.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
             }
           ]
         },
@@ -1585,6 +1728,14 @@
                 "fichero": "clips/pexels-37592771.mp4"
               },
               "camara": "panL"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "madrid street commuters morning",
+                "tono": "ocre"
+              },
+              "camara": "panR"
             }
           ]
         },
@@ -1636,7 +1787,8 @@
                   "autor": "Emrecan Dora",
                   "pagina": "https://www.pexels.com/photo/photo-of-a-man-standing-by-the-lake-19370642/"
                 },
-                "fichero": "recortes-auto/pexels-19370642.png"
+                "fichero": "recortes-auto/pexels-19370642.png",
+                "icono": "candado"
               }
             }
           ]
@@ -1798,7 +1950,8 @@
                   "autor": "Galib Rahman Nadim",
                   "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
                 },
-                "fichero": "recortes-auto/pexels-37556455.png"
+                "fichero": "recortes-auto/pexels-37556455.png",
+                "icono": "fabrica"
               }
             }
           ]
@@ -1842,6 +1995,14 @@
                 "fichero": "clips/pexels-5553426.mp4"
               },
               "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "unfinished apartment building scaffolding",
+                "tono": "carmin"
+              },
+              "camara": "push"
             }
           ]
         },
@@ -1918,6 +2079,10 @@
                 "fichero": "clips/pexels-17088573.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
             }
           ]
         }
@@ -2008,8 +2173,17 @@
                   "autor": "Tima Miroshnichenko",
                   "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
                 },
-                "fichero": "recortes-auto/pexels-7567528.png"
+                "fichero": "recortes-auto/pexels-7567528.png",
+                "icono": "baja"
               }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "for sale signs row houses",
+                "tono": "ocre"
+              },
+              "camara": "pull"
             }
           ]
         },
@@ -2053,6 +2227,10 @@
                 "fichero": "clips/pexels-7578632.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
             }
           ]
         },
@@ -2085,6 +2263,10 @@
                 "fichero": "clips/pexels-8346903.mp4"
               },
               "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
             }
           ]
         },
@@ -2116,7 +2298,8 @@
                   "autor": "Airam Dato-on",
                   "pagina": "https://www.pexels.com/photo/bearded-man-gazing-up-in-urban-setting-31258448/"
                 },
-                "fichero": "recortes-auto/pexels-31258448.png"
+                "fichero": "recortes-auto/pexels-31258448.png",
+                "icono": "reloj"
               }
             }
           ]
@@ -2167,6 +2350,14 @@
                 "fichero": "clips/pexels-8960132.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rental apartment small room interior",
+                "tono": "ocre"
+              },
+              "camara": "panL"
             }
           ]
         },
@@ -2208,7 +2399,8 @@
                   "autor": "cottonbro studio",
                   "pagina": "https://www.pexels.com/photo/woman-in-white-v-neck-t-shirt-sitting-on-gray-sofa-4554351/"
                 },
-                "fichero": "recortes-auto/pexels-4554351.png"
+                "fichero": "recortes-auto/pexels-4554351.png",
+                "icono": "sube"
               }
             }
           ]
@@ -2267,6 +2459,14 @@
                 "fichero": "clips/pexels-20569351.mp4"
               },
               "camara": "panL"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "apartment windows lit evening block",
+                "tono": "carmin"
+              },
+              "camara": "pull"
             }
           ]
         },
@@ -2301,6 +2501,14 @@
             {
               "tipo": "objeto",
               "objeto": "carpeta"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "many keys hanging board close up",
+                "tono": "ocre"
+              },
+              "camara": "panR"
             }
           ]
         },
@@ -2372,7 +2580,8 @@
                   "autor": "Maksim Smirnov",
                   "pagina": "https://www.pexels.com/photo/man-sitting-on-the-floor-and-leaning-against-an-armchair-9876667/"
                 },
-                "fichero": "recortes-auto/pexels-9876667.png"
+                "fichero": "recortes-auto/pexels-9876667.png",
+                "icono": "reloj"
               }
             }
           ]
@@ -2492,7 +2701,8 @@
                   "autor": "Gary  Barnes",
                   "pagina": "https://www.pexels.com/photo/adult-ethnic-man-cooking-in-kitchen-near-happy-wife-6248817/"
                 },
-                "fichero": "recortes-auto/pexels-6248817.png"
+                "fichero": "recortes-auto/pexels-6248817.png",
+                "icono": "balanza"
               }
             },
             {
@@ -2512,6 +2722,10 @@
                 "fichero": "clips/pexels-31432212.mp4"
               },
               "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
             }
           ]
         },
@@ -2571,6 +2785,14 @@
                 "fichero": "clips/pexels-39361694.mp4"
               },
               "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spanish parliament chamber seats",
+                "tono": "carmin"
+              },
+              "camara": "panL"
             }
           ]
         },
@@ -2617,7 +2839,8 @@
                   "autor": "Sami  Abdullah",
                   "pagina": "https://www.pexels.com/photo/young-woman-interview-at-seaside-with-camera-29917130/"
                 },
-                "fichero": "recortes-auto/pexels-29917130.png"
+                "fichero": "recortes-auto/pexels-29917130.png",
+                "icono": "balanza"
               }
             }
           ]
@@ -2717,7 +2940,8 @@
                   "autor": "MART  PRODUCTION",
                   "pagina": "https://www.pexels.com/photo/a-businessman-signing-documents-7644145/"
                 },
-                "fichero": "recortes-auto/pexels-7644145.png"
+                "fichero": "recortes-auto/pexels-7644145.png",
+                "icono": "fabrica"
               }
             },
             {
