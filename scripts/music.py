@@ -26,6 +26,56 @@ NOTES = {
 }
 
 
+# Ambientes. Todos los videos sonaban igual porque solo existia un lecho:
+# mystery.wav, el mismo bucle de 32 s en re menor, en los once guiones. La
+# musica es sintesis propia, asi que variarla no cuesta nada y no toca ningun
+# derecho de autor: basta con transponer, cambiar el pulso y reescribir el
+# motivo.
+#
+# "mystery" se deja exactamente como estaba: los videos ya renderizados usan
+# ese fichero y no queremos que cambie bajo sus pies.
+MOTIVO_BASE = [
+    (0.5, "D4", 0.085), (3.2, "F4", 0.070), (6.8, "C4", 0.060),
+    (9.4, "Bb3", 0.075), (13.1, "A3", 0.065), (16.4, "D4", 0.080),
+    (19.0, "E3", 0.055), (22.6, "F4", 0.062), (26.2, "A3", 0.058),
+    (29.0, "Bb3", 0.050),
+]
+
+AMBIENTES = {
+    # El de siempre. Para temas de intriga: algo se rompio y no sabemos cuando.
+    "mystery": dict(semis=0, pulso=2.0, latido=0.11, aire=0.020,
+                    decay=3.1, brillo=0.8, motivo=MOTIVO_BASE),
+    # Analitico y seco. Menos latido, mas aire: para desmontar un mito con datos.
+    "frio": dict(semis=3, pulso=3.4, latido=0.05, aire=0.034,
+                 decay=4.2, brillo=0.5, motivo=[
+                     (1.2, "A3", 0.070), (7.5, "C4", 0.055), (14.0, "F3", 0.060),
+                     (21.2, "A3", 0.050), (27.8, "D3", 0.045),
+                 ]),
+    # Urgente. El pulso aprieta: para lo que esta pasando ahora mismo.
+    "pulso": dict(semis=-2, pulso=1.35, latido=0.16, aire=0.016,
+                  decay=2.2, brillo=1.0, motivo=[
+                      (0.4, "D4", 0.080), (2.1, "F4", 0.072), (4.0, "D4", 0.060),
+                      (6.2, "Bb3", 0.078), (8.0, "C4", 0.058), (10.4, "F4", 0.070),
+                      (12.6, "A3", 0.062), (15.0, "D4", 0.082), (17.4, "E3", 0.056),
+                      (19.6, "Bb3", 0.070), (22.0, "F4", 0.066), (24.8, "C4", 0.058),
+                      (27.2, "A3", 0.062), (29.6, "D4", 0.074),
+                  ]),
+    # Sin latido. Solo drones largos: para la decadencia de cien anos.
+    "elegia": dict(semis=5, pulso=None, latido=0.0, aire=0.040,
+                   decay=5.0, brillo=0.45, motivo=[
+                       (2.0, "D3", 0.065), (11.5, "F3", 0.055), (20.0, "A3", 0.050),
+                       (28.4, "D3", 0.042),
+                   ]),
+    # Grave y a disgusto. Para cuando el desenlace todavia no ha llegado.
+    "tenso": dict(semis=-4, pulso=2.6, latido=0.14, aire=0.024,
+                  decay=2.8, brillo=0.9, motivo=[
+                      (0.8, "Bb3", 0.082), (4.6, "E3", 0.074), (8.2, "A3", 0.058),
+                      (11.0, "Bb3", 0.068), (15.6, "E3", 0.078), (18.8, "C4", 0.052),
+                      (23.4, "A3", 0.064), (26.0, "Bb3", 0.070), (30.2, "E3", 0.048),
+                  ]),
+}
+
+
 def lowpass(x, cutoff_hz, sr=SR):
     """Filtro paso bajo de un polo. Sin scipy."""
     dt = 1.0 / sr
@@ -101,43 +151,44 @@ def air(total, sr, amp, seed):
     return filt * swell * amp
 
 
-def build(seconds, seed=7):
+def build(seconds, seed=7, ambiente="mystery"):
+    a = AMBIENTES[ambiente]
+    # Transponer entero es la forma barata de cambiar de tonalidad sin tener
+    # que escribir una tabla de frecuencias por cada ambiente.
+    tono = 2.0 ** (a["semis"] / 12.0)
+    f = lambda name: NOTES[name] * tono
+
     total = int(seconds * SR)
     t = np.arange(total) / SR
     mix = np.zeros(total)
 
-    # 1. Fundamento: quinta de re, muy grave
-    mix += drone(t, NOTES["D1"], 0.30) * breathe(t, 17.0, 0.30)
-    mix += drone(t, NOTES["A1"], 0.16) * breathe(t, 23.0, 0.36, phase=1.9)
+    # 1. Fundamento: quinta de la tonica, muy grave
+    mix += drone(t, f("D1"), 0.30) * breathe(t, 17.0, 0.30)
+    mix += drone(t, f("A1"), 0.16) * breathe(t, 23.0, 0.36, phase=1.9)
 
-    # 2. Colchon medio: re menor con septima
+    # 2. Colchon medio: menor con septima
     for name, amp, per, ph in (
         ("D3", 0.075, 13.0, 0.0),
         ("F3", 0.058, 19.0, 2.2),
         ("A3", 0.046, 15.5, 4.1),
         ("C4", 0.030, 21.0, 5.6),
     ):
-        mix += drone(t, NOTES[name], amp, detune=0.35, harmonics=(1.0, 0.2)) * breathe(t, per, 0.55, ph)
+        mix += drone(t, f(name), amp, detune=0.35, harmonics=(1.0, 0.2)) * breathe(t, per, 0.55, ph)
 
     # 3. Motivo: notas sueltas, irregulares, tension sin resolver
-    motif = [
-        (0.5, "D4", 0.085), (3.2, "F4", 0.070), (6.8, "C4", 0.060),
-        (9.4, "Bb3", 0.075), (13.1, "A3", 0.065), (16.4, "D4", 0.080),
-        (19.0, "E3", 0.055), (22.6, "F4", 0.062), (26.2, "A3", 0.058),
-        (29.0, "Bb3", 0.050),
-    ]
-    for start, note, amp in motif:
+    for start, note, amp in a["motivo"]:
         if start >= seconds:
             continue
-        sig, n0 = pluck(total, SR, start, NOTES[note], amp, decay=3.1, bright=0.8)
+        sig, n0 = pluck(total, SR, start, f(note), amp, decay=a["decay"], bright=a["brillo"])
         if sig is not None:
             mix[n0:n0 + sig.size] += sig
 
-    # 4. Pulso
-    mix += heartbeat(total, SR, 2.0, 0.11)
+    # 4. Pulso. "elegia" no lleva: solo drones, sin nada que marque el tiempo.
+    if a["pulso"] is not None and a["latido"] > 0:
+        mix += heartbeat(total, SR, a["pulso"], a["latido"])
 
     # 5. Aire
-    mix += air(total, SR, 0.020, seed)
+    mix += air(total, SR, a["aire"], seed)
 
     # Costura de bucle: mezcla la cola con la cabeza
     xf = int(1.6 * SR)
@@ -178,8 +229,13 @@ def write_wav(path, stereo):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--seconds", type=float, default=32.0)
-    ap.add_argument("--out", default="assets/music/mystery.wav")
+    ap.add_argument("--ambiente", default="mystery", choices=sorted(AMBIENTES))
+    ap.add_argument("--out", default=None)
+    ap.add_argument("--todos", action="store_true", help="genera los cinco ambientes")
     a = ap.parse_args()
-    audio = build(a.seconds)
-    write_wav(a.out, audio)
-    print(f"escrito {a.out}  {a.seconds:.1f}s  {SR} Hz estereo")
+
+    pedidos = sorted(AMBIENTES) if a.todos else [a.ambiente]
+    for nombre in pedidos:
+        destino = a.out if (a.out and not a.todos) else f"assets/music/{nombre}.wav"
+        write_wav(destino, build(a.seconds, ambiente=nombre))
+        print(f"escrito {destino}  {a.seconds:.1f}s  {SR} Hz estereo  [{nombre}]")

@@ -149,6 +149,11 @@ jobs:
       - name: Herramientas de recorte
         run: pip install --quiet "rembg[cpu]" pillow numpy scipy
 
+      # Los lechos musicales son sintesis propia y deterministas: 17 segundos
+      # de CPU salen mas baratos que 49 MB de WAV versionados en el repo.
+      - name: Generar los lechos musicales
+        run: python scripts/music.py --todos && cp assets/music/*.wav public/music/
+
       - name: Traer los clips y los recortes
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}

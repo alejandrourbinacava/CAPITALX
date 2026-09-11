@@ -126,7 +126,7 @@ export type Plano = {
 };
 
 export type Tiempos = Record<string, { audio: string; duration: number }>;
-export type Guion = { slug: string; wpm?: number; bloques: { planos: Plano[] }[] };
+export type Guion = { slug: string; wpm?: number; musica?: string; bloques: { planos: Plano[] }[] };
 
 /** Cola de aire tras cada frase para que el corte no pise la ultima silaba. */
 const COLA = 0.34;
@@ -514,7 +514,7 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
 
       {Array.from({ length: musicLoops }).map((_, i) => (
         <Sequence key={`m${i}`} from={i * 32 * fps} durationInFrames={32 * fps} name={`musica-${i}`}>
-          <Audio src={staticFile("music/mystery.wav")} volume={0.085} />
+          <Audio src={staticFile(`music/${guion.musica ?? "mystery.wav"}`)} volume={0.085} />
         </Sequence>
       ))}
     </AbsoluteFill>

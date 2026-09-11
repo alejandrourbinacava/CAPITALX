@@ -8,3 +8,11 @@ assets/voice/*.wav
 .DS_Store
 public/clips/
 public/recortes-auto/
+
+# Lechos musicales generados. Son sintesis propia y deterministas: los crea
+# scripts/music.py en cada render, asi que no hace falta versionar 6 MB por
+# ambiente. mystery.wav se queda porque ya venia versionado.
+assets/music/*.wav
+public/music/*.wav
+!assets/music/mystery.wav
+!public/music/mystery.wav
