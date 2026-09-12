@@ -7,7 +7,7 @@
     "reescenificar": "true rehace la imagen antes de renderizar. No gasta creditos de voz",
     "rehacer": "vacio = solo las escenas que falten. 'todo', o 'b3,b7' para bloques sueltos"
   },
-  "video": "",
+  "video": "petrodolar",
   "solo_render": false,
   "calidad": "80",
   "reescenificar": false,
