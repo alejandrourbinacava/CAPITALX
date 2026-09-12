@@ -29,14 +29,32 @@
                 "cifra": "28 feb",
                 "titular": "Empieza la guerra",
                 "apoyo": "Y con ella, el cierre del estrecho por el que pasa el petróleo del Golfo.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33670934",
+                  "url": "https://images.pexels.com/photos/33670934/pexels-photo-33670934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "VIOLA STUDIO PHOTO",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-military-officer-in-formal-uniform-33670934/"
+                },
+                "fichero": "recortes-auto/pexels-33670934.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "oil tanker ship sea aerial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28801860",
+                  "url": "https://videos.pexels.com/video-files/28801860/12481537_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-cargo-vessel-in-istanbul-waters-28801860/"
+                },
+                "fichero": "clips/pexels-28801860.mp4"
               },
               "camara": "panR"
             },
@@ -44,7 +62,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cargo ship strait narrow passage",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28800676",
+                  "url": "https://videos.pexels.com/video-files/28800676/12480979_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-bosphorus-bridge-in-istanbul-28800676/"
+                },
+                "fichero": "clips/pexels-28800676.mp4"
               },
               "camara": "pull"
             }
@@ -77,7 +105,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "narrow strait shipping lane satellite",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38914744",
+                  "url": "https://videos.pexels.com/video-files/38914744/16549323_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/ferries-crossing-the-bosphorus-in-istanbul-38914744/"
+                },
+                "fichero": "clips/pexels-38914744.mp4"
               },
               "camara": "pull"
             },
@@ -89,7 +127,15 @@
                 "lado": "izq",
                 "titular": "El cuello de botella del planeta",
                 "apoyo": "Una quinta parte del crudo mundial pasa por ahí. O pasaba.",
-                "icono": "barco"
+                "icono": "barco",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5416228",
+                  "url": "https://images.pexels.com/photos/5416228/pexels-photo-5416228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/a-man-holding-a-binoculars-5416228/"
+                },
+                "fichero": "recortes-auto/pexels-5416228.png"
               }
             }
           ]
@@ -121,7 +167,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery flames night industrial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "856627",
+                  "url": "https://videos.pexels.com/video-files/856627/856627-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/factory-at-night-856627/"
+                },
+                "fichero": "clips/pexels-856627.mp4"
               },
               "camara": "push"
             },
@@ -129,7 +185,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "burning gas flare industrial night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8828892",
+                  "url": "https://videos.pexels.com/video-files/8828892/8828892-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Hardlight: Overlays for Edits / iOS / Android",
+                  "pagina": "https://www.pexels.com/video/close-up-of-burnign-paper-8828892/"
+                },
+                "fichero": "clips/pexels-8828892.mp4"
               },
               "camara": "panR"
             }
@@ -176,7 +242,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "petrol station price board numbers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4581485",
+                  "url": "https://videos.pexels.com/video-files/4581485/4581485-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/video/an-abandoned-gas-station-4581485/"
+                },
+                "fichero": "clips/pexels-4581485.mp4"
               },
               "camara": "panL"
             },
@@ -212,7 +288,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dollar bills stacked close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266286",
+                  "url": "https://videos.pexels.com/video-files/6266286/6266286-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/pile-of-money-6266286/"
+                },
+                "fichero": "clips/pexels-6266286.mp4"
               },
               "camara": "push"
             },
@@ -224,7 +310,15 @@
                 "lado": "der",
                 "titular": "El dólar subió",
                 "apoyo": "Superó los cien el 13 de marzo, por primera vez en el año.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567435",
+                  "url": "https://images.pexels.com/photos/7567435/pexels-photo-7567435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/a-bearded-man-working-in-his-office-7567435/"
+                },
+                "fichero": "recortes-auto/pexels-7567435.png"
               }
             }
           ]
@@ -246,7 +340,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty highway fuel shortage cars queue",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34371928",
+                  "url": "https://videos.pexels.com/video-files/34371928/14561007_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-highway-and-gas-station-34371928/"
+                },
+                "fichero": "clips/pexels-34371928.mp4"
               },
               "camara": "estatico"
             },
@@ -283,7 +387,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "idle oil rig platform still",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19130305",
+                  "url": "https://videos.pexels.com/video-files/19130305/19130305-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "isgandar Ganbarov",
+                  "pagina": "https://www.pexels.com/video/oil-industry-19130305/"
+                },
+                "fichero": "clips/pexels-19130305.mp4"
               },
               "camara": "pull"
             },
@@ -315,7 +429,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old archive documents typewriter seventies",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9758366",
+                  "url": "https://videos.pexels.com/video-files/9758366/9758366-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 8,
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-typewriter-with-paper-9758366/"
+                },
+                "fichero": "clips/pexels-9758366.mp4"
               },
               "camara": "push"
             },
@@ -328,7 +452,15 @@
                 "cifra": "1974",
                 "titular": "La versión que todos repiten",
                 "apoyo": "Un pacto secreto de cincuenta años. Petróleo solo en dólares.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29464973",
+                  "url": "https://images.pexels.com/photos/29464973/pexels-photo-29464973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mert Coşkun",
+                  "pagina": "https://www.pexels.com/photo/retro-styled-young-man-in-urban-setting-29464973/"
+                },
+                "fichero": "recortes-auto/pexels-29464973.png"
               }
             }
           ]
@@ -349,14 +481,32 @@
                 "lado": "der",
                 "titular": "Armas a cambio de dólares",
                 "apoyo": "Esa es la historia. Y es casi toda falsa.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8441789",
+                  "url": "https://images.pexels.com/photos/8441789/pexels-photo-8441789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-wearing-eyeglasses-shaking-hands-with-a-man-8441789/"
+                },
+                "fichero": "recortes-auto/pexels-8441789.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "desert oil field pumpjack sunset",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27822161",
+                  "url": "https://videos.pexels.com/video-files/27822161/12234180_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Julián Armando Santos",
+                  "pagina": "https://www.pexels.com/video/petroleo-pozo-petrolero-27822161/"
+                },
+                "fichero": "clips/pexels-27822161.mp4"
               },
               "camara": "panR"
             },
@@ -364,7 +514,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "briefcase money exchange hands",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266652",
+                  "url": "https://videos.pexels.com/video-files/6266652/6266652-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/high-angle-shot-of-bank-notes-in-the-attache-case-6266652/"
+                },
+                "fichero": "clips/pexels-6266652.mp4"
               },
               "camara": "push"
             }
@@ -382,7 +542,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "social media phone screen scrolling news",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5201210",
+                  "url": "https://videos.pexels.com/video-files/5201210/5201210-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "DMC Filmes",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-person-surfing-online-using-a-smartphone-5201210/"
+                },
+                "fichero": "clips/pexels-5201210.mp4"
               },
               "camara": "push"
             },
@@ -394,7 +564,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "newspaper printing press headlines fast",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38826405",
+                  "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/video/high-speed-newspaper-printing-process-close-up-38826405/"
+                },
+                "fichero": "clips/pexels-38826405.mp4"
               },
               "camara": "panL"
             }
@@ -416,14 +596,32 @@
                 "lado": "izq",
                 "titular": "No expiró nada",
                 "apoyo": "El pacto de 1974 era de cooperación económica y no tenía plazo.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3649240",
+                  "url": "https://images.pexels.com/photos/3649240/pexels-photo-3649240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "emre keshavarz",
+                  "pagina": "https://www.pexels.com/photo/woman-using-typewriter-3649240/"
+                },
+                "fichero": "recortes-auto/pexels-3649240.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "magnifying glass paper document inspect",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7947467",
+                  "url": "https://videos.pexels.com/video-files/7947467/7947467-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/person-using-a-magnifying-glass-7947467/"
+                },
+                "fichero": "clips/pexels-7947467.mp4"
               },
               "camara": "pull"
             },
@@ -450,7 +648,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty archive shelves folders",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6549656",
+                  "url": "https://videos.pexels.com/video-files/6549656/6549656-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/people-in-a-library-6549656/"
+                },
+                "fichero": "clips/pexels-6549656.mp4"
               },
               "camara": "push"
             },
@@ -476,7 +684,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "us treasury bond certificate paper",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5651774",
+                  "url": "https://videos.pexels.com/video-files/5651774/5651774-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/us-dollars-on-the-table-5651774/"
+                },
+                "fichero": "clips/pexels-5651774.mp4"
               },
               "camara": "panR"
             },
@@ -488,7 +706,15 @@
                 "lado": "der",
                 "titular": "No era el petróleo. Era la deuda",
                 "apoyo": "El compromiso real fue reciclar los dólares comprando bonos americanos.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5060559",
+                  "url": "https://images.pexels.com/photos/5060559/pexels-photo-5060559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Thirdman",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-dress-shirt-holding-black-smartphone-5060559/"
+                },
+                "fichero": "recortes-auto/pexels-5060559.png"
               }
             }
           ]
@@ -515,7 +741,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "commodity trading screens prices",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38557069",
+                  "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-stock-market-display-analysis-38557069/"
+                },
+                "fichero": "clips/pexels-38557069.mp4"
               },
               "camara": "push"
             },
@@ -527,7 +763,15 @@
                 "lado": "izq",
                 "titular": "Un mercado, un precio",
                 "apoyo": "No es una ley. Es que comparar cargamentos exige una vara común.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6771900",
+                  "url": "https://images.pexels.com/photos/6771900/pexels-photo-6771900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alesia  Kozik",
+                  "pagina": "https://www.pexels.com/photo/person-holding-a-smartphone-6771900/"
+                },
+                "fichero": "recortes-auto/pexels-6771900.png"
               }
             }
           ]
@@ -544,7 +788,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "container port rotterdam cranes",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32694836",
+                  "url": "https://videos.pexels.com/video-files/32694836/13938697_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Wolfgang Weiser",
+                  "pagina": "https://www.pexels.com/video/container-loading-at-hamburg-port-terminal-32694836/"
+                },
+                "fichero": "clips/pexels-32694836.mp4"
               },
               "camara": "panL"
             },
@@ -556,7 +810,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil tanker unloading terminal pipes",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37186126",
+                  "url": "https://videos.pexels.com/video-files/37186126/15753626_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "FD Visualzz",
+                  "pagina": "https://www.pexels.com/video/large-cargo-ship-navigating-the-ocean-waves-37186126/"
+                },
+                "fichero": "clips/pexels-37186126.mp4"
               },
               "camara": "pull"
             }
@@ -594,7 +858,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "north sea oil platform waves",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35371141",
+                  "url": "https://videos.pexels.com/video-files/35371141/14986646_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Rohingya Creative Production (RCP)",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-waves-crashing-on-shore-35371141/"
+                },
+                "fichero": "clips/pexels-35371141.mp4"
               },
               "camara": "push"
             },
@@ -621,7 +895,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "currency exchange rates board",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38540415",
+                  "url": "https://videos.pexels.com/video-files/38540415/16369024_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-cryptocurrency-trading-monitor-setup-38540415/"
+                },
+                "fichero": "clips/pexels-38540415.mp4"
               },
               "camara": "panR"
             },
@@ -629,7 +913,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "question mark neon sign wall",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7677715",
+                  "url": "https://videos.pexels.com/video-files/7677715/7677715-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Ivan S",
+                  "pagina": "https://www.pexels.com/video/neon-sign-on-a-bricked-wall-7677715/"
+                },
+                "fichero": "clips/pexels-7677715.mp4"
               },
               "camara": "panL"
             }
@@ -667,7 +961,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil barrels rows industrial yard",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31559827",
+                  "url": "https://videos.pexels.com/video-files/31559827/13450416_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Juan Camilo Trujillo  Botero 🇨🇴📸",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-industrial-freight-trains-31559827/"
+                },
+                "fichero": "clips/pexels-31559827.mp4"
               },
               "camara": "push"
             },
@@ -704,7 +1008,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "money counting machine banknotes",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266257",
+                  "url": "https://videos.pexels.com/video-files/6266257/6266257-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/a-woman-counting-paper-bills-6266257/"
+                },
+                "fichero": "clips/pexels-6266257.mp4"
               },
               "camara": "pull"
             },
@@ -717,7 +1031,15 @@
                 "cifra": "3,1 bn",
                 "titular": "Todo el crudo de un año",
                 "apoyo": "Cien millones de barriles diarios a los precios de 2026.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7654627",
+                  "url": "https://images.pexels.com/photos/7654627/pexels-photo-7654627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-business-attire-holding-a-calculator-in-the-office-7654627/"
+                },
+                "fichero": "recortes-auto/pexels-7654627.png"
               }
             }
           ]
@@ -754,7 +1076,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "trading floor busy screens motion",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7580441",
+                  "url": "https://videos.pexels.com/video-files/7580441/7580441-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 13,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/woman-looking-at-the-screen-7580441/"
+                },
+                "fichero": "clips/pexels-7580441.mp4"
               },
               "camara": "push"
             },
@@ -781,7 +1113,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office clock wall working day",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31423124",
+                  "url": "https://videos.pexels.com/video-files/31423124/13404368_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Cheng Shi Song",
+                  "pagina": "https://www.pexels.com/video/minimalist-wall-clock-in-motion-31423124/"
+                },
+                "fichero": "clips/pexels-31423124.mp4"
               },
               "camara": "estatico"
             },
@@ -789,7 +1131,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "wall clock office hours passing",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "854715",
+                  "url": "https://videos.pexels.com/video-files/854715/854715-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Pixabay",
+                  "pagina": "https://www.pexels.com/video/ticking-clock-854715/"
+                },
+                "fichero": "clips/pexels-854715.mp4"
               },
               "camara": "pull"
             }
@@ -811,14 +1163,32 @@
                 "lado": "izq",
                 "titular": "La palanca es pequeña",
                 "apoyo": "El crudo mueve en un año lo que las divisas mueven en una mañana.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8424462",
+                  "url": "https://images.pexels.com/photos/8424462/pexels-photo-8424462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/woman-standing-near-a-whiteboard-8424462/"
+                },
+                "fichero": "recortes-auto/pexels-8424462.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "lever machinery mechanical close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8822534",
+                  "url": "https://videos.pexels.com/video-files/8822534/8822534-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/person-driving-a-fishing-boat-8822534/"
+                },
+                "fichero": "clips/pexels-8822534.mp4"
               },
               "camara": "panL"
             },
@@ -850,7 +1220,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "us treasury building columns facade",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4987955",
+                  "url": "https://videos.pexels.com/video-files/4987955/4987955-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/panning-shot-of-the-united-states-mint-sign-4987955/"
+                },
+                "fichero": "clips/pexels-4987955.mp4"
               },
               "camara": "push"
             },
@@ -862,7 +1242,15 @@
                 "lado": "der",
                 "titular": "La pista estaba en 1974",
                 "apoyo": "El compromiso no era vender en dólares. Era comprar deuda con ellos.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20348408",
+                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
+                },
+                "fichero": "recortes-auto/pexels-20348408.png"
               }
             }
           ]
@@ -893,7 +1281,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "vault interior safe deposit rows",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5849641",
+                  "url": "https://videos.pexels.com/video-files/5849641/5849641-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Monstera Production",
+                  "pagina": "https://www.pexels.com/video/illustration-of-saving-5849641/"
+                },
+                "fichero": "clips/pexels-5849641.mp4"
               },
               "camara": "pull"
             },
@@ -901,7 +1299,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank vault interior corridor",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34388305",
+                  "url": "https://videos.pexels.com/video-files/34388305/14567637_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Samar Layek",
+                  "pagina": "https://www.pexels.com/video/majestic-brick-corridor-with-gothic-arches-34388305/"
+                },
+                "fichero": "clips/pexels-34388305.mp4"
               },
               "camara": "panR"
             }
@@ -931,7 +1339,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cargo ship containers export sea",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38288270",
+                  "url": "https://videos.pexels.com/video-files/38288270/16259036_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Wolfgang Weiser",
+                  "pagina": "https://www.pexels.com/video/red-cargo-ship-on-elbe-river-in-germany-38288270/"
+                },
+                "fichero": "clips/pexels-38288270.mp4"
               },
               "camara": "panR"
             },
@@ -958,7 +1376,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "warehouse shelves storage vast",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37208833",
+                  "url": "https://videos.pexels.com/video-files/37208833/15762443_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Mahadi Hassan Molla",
+                  "pagina": "https://www.pexels.com/video/industrial-warehouse-storage-aisle-with-packed-shelves-37208833/"
+                },
+                "fichero": "clips/pexels-37208833.mp4"
               },
               "camara": "push"
             },
@@ -990,7 +1418,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "desert oil pipeline infrastructure",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38683852",
+                  "url": "https://videos.pexels.com/video-files/38683852/16431755_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Durga mani Iyer",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-industrial-oil-refinery-38683852/"
+                },
+                "fichero": "clips/pexels-38683852.mp4"
               },
               "camara": "panR"
             },
@@ -1003,7 +1441,15 @@
                 "cifra": "2000",
                 "titular": "Ya se probó de verdad",
                 "apoyo": "Un país dejó de cobrar su petróleo en dólares. Pasó.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36753418",
+                  "url": "https://images.pexels.com/photos/36753418/pexels-photo-36753418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Emrah Nas",
+                  "pagina": "https://www.pexels.com/photo/middle-eastern-man-in-traditional-attire-outdoors-36753418/"
+                },
+                "fichero": "recortes-auto/pexels-36753418.png"
               }
             }
           ]
@@ -1025,14 +1471,32 @@
                 "cifra": "oct 2000",
                 "titular": "Naciones Unidas dijo que sí",
                 "apoyo": "Irak pasó a cobrar su crudo en euros. No fue un gesto: se hizo.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4427546",
+                  "url": "https://images.pexels.com/photos/4427546/pexels-photo-4427546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "August de Richelieu",
+                  "pagina": "https://www.pexels.com/photo/lawyer-working-on-his-computer-4427546/"
+                },
+                "fichero": "recortes-auto/pexels-4427546.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "united nations building flags",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36692221",
+                  "url": "https://videos.pexels.com/video-files/36692221/15553828_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Wade Torcuan",
+                  "pagina": "https://www.pexels.com/video/vibrant-display-of-international-flags-in-qatar-36692221/"
+                },
+                "fichero": "clips/pexels-36692221.mp4"
               },
               "camara": "push"
             },
@@ -1040,7 +1504,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro banknotes counting close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31424892",
+                  "url": "https://videos.pexels.com/video-files/31424892/13404840_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/hands-counting-euro-bills-for-financial-planning-31424892/"
+                },
+                "fichero": "clips/pexels-31424892.mp4"
               },
               "camara": "pull"
             }
@@ -1086,7 +1560,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "currency trading screen rising chart",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38374731",
+                  "url": "https://videos.pexels.com/video-files/38374731/16296687_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 20,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-trading-charts-on-monitors-38374731/"
+                },
+                "fichero": "clips/pexels-38374731.mp4"
               },
               "camara": "push"
             },
@@ -1108,7 +1592,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "newspaper archive headline print",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37715200",
+                  "url": "https://videos.pexels.com/video-files/37715200/15994689_1920_1080_59fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tawseef Ahmad",
+                  "pagina": "https://www.pexels.com/video/woman-reading-morning-kashmir-newspaper-37715200/"
+                },
+                "fichero": "clips/pexels-37715200.mp4"
               },
               "camara": "panL"
             },
@@ -1120,14 +1614,32 @@
                 "lado": "izq",
                 "titular": "Le salió a cuenta",
                 "apoyo": "Cientos de millones de euros ganados solo por el cambio de moneda.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9757566",
+                  "url": "https://images.pexels.com/photos/9757566/pexels-photo-9757566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/photo/man-sitting-and-looking-down-at-typewriter-on-table-9757566/"
+                },
+                "fichero": "recortes-auto/pexels-9757566.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "printing press newspapers rolling",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12345283",
+                  "url": "https://videos.pexels.com/video-files/12345283/12345283-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Mr Pixel",
+                  "pagina": "https://www.pexels.com/video/newspapers-in-newsagent-12345283/"
+                },
+                "fichero": "clips/pexels-12345283.mp4"
               },
               "camara": "push"
             }
@@ -1165,7 +1677,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty conference room chairs",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7648403",
+                  "url": "https://videos.pexels.com/video-files/7648403/7648403-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/an-empty-conference-room-7648403/"
+                },
+                "fichero": "clips/pexels-7648403.mp4"
               },
               "camara": "pull"
             },
@@ -1192,7 +1714,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "single figure walking empty plaza",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32917024",
+                  "url": "https://videos.pexels.com/video-files/32917024/14029080_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Bashir Hussaini Ahmed",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-pedestrian-on-urban-bridge-32917024/"
+                },
+                "fichero": "clips/pexels-32917024.mp4"
               },
               "camara": "estatico"
             },
@@ -1224,7 +1756,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "shanghai skyline financial towers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36926188",
+                  "url": "https://videos.pexels.com/video-files/36926188/15643143_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Paul Bill",
+                  "pagina": "https://www.pexels.com/video/shanghai-skyline-at-night-with-oriental-pearl-tower-36926188/"
+                },
+                "fichero": "clips/pexels-36926188.mp4"
               },
               "camara": "push"
             },
@@ -1236,7 +1778,15 @@
                 "lado": "izq",
                 "titular": "Esta parte sí es real",
                 "apoyo": "El petróleo fuera del dólar existe y está creciendo.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33100431",
+                  "url": "https://images.pexels.com/photos/33100431/pexels-photo-33100431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tran Nhu Tuan",
+                  "pagina": "https://www.pexels.com/photo/confident-professional-man-holding-smartphone-33100431/"
+                },
+                "fichero": "recortes-auto/pexels-33100431.png"
               }
             }
           ]
@@ -1264,7 +1814,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "yuan banknotes chinese currency",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8479050",
+                  "url": "https://videos.pexels.com/video-files/8479050/8479050-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/video/counting-money-8479050/"
+                },
+                "fichero": "clips/pexels-8479050.mp4"
               },
               "camara": "pull"
             },
@@ -1272,7 +1832,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "suitcase cash border customs",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28894958",
+                  "url": "https://videos.pexels.com/video-files/28894958/12507461_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/bustling-airport-baggage-claim-scene-28894958/"
+                },
+                "fichero": "clips/pexels-28894958.mp4"
               },
               "camara": "push"
             }
@@ -1295,14 +1865,32 @@
                 "cifra": "sep 2025",
                 "titular": "La primera de la historia",
                 "apoyo": "China y Arabia Saudí, petróleo liquidado en yuan digital.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7644145",
+                  "url": "https://images.pexels.com/photos/7644145/pexels-photo-7644145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-businessman-signing-documents-7644145/"
+                },
+                "fichero": "recortes-auto/pexels-7644145.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "digital payment phone screen transaction",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7822029",
+                  "url": "https://videos.pexels.com/video-files/7822029/7822029-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-person-using-a-cellphone-7822029/"
+                },
+                "fichero": "clips/pexels-7822029.mp4"
               },
               "camara": "push"
             },
@@ -1324,7 +1912,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "indian refinery industrial pipes",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37151630",
+                  "url": "https://videos.pexels.com/video-files/37151630/15738797_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "Julián Armando Santos",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-industrial-oil-refinery-37151630/"
+                },
+                "fichero": "clips/pexels-37151630.mp4"
               },
               "camara": "panL"
             },
@@ -1336,14 +1934,32 @@
                 "lado": "izq",
                 "titular": "Barcos que zarparon de verdad",
                 "apoyo": "Refinerías indias pagando crudo iraní en yuanes, bajo sanciones.",
-                "icono": "barco"
+                "icono": "barco",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37556455",
+                  "url": "https://images.pexels.com/photos/37556455/pexels-photo-37556455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Galib Rahman Nadim",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-in-safety-gear-37556455/"
+                },
+                "fichero": "recortes-auto/pexels-37556455.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "tanker leaving port night lights",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28801856",
+                  "url": "https://videos.pexels.com/video-files/28801856/12481542_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-shipping-vessel-in-bosphorus-28801856/"
+                },
+                "fichero": "clips/pexels-28801856.mp4"
               },
               "camara": "pull"
             }
@@ -1382,7 +1998,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank transfer screen data network",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3125427",
+                  "url": "https://videos.pexels.com/video-files/3125427/3125427-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pressmaster",
+                  "pagina": "https://www.pexels.com/video/digital-projection-of-geometrical-distance-of-earth-s-land-mass-end-points-3125427/"
+                },
+                "fichero": "clips/pexels-3125427.mp4"
               },
               "camara": "push"
             },
@@ -1424,7 +2050,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "global network map connections abstract",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3125396",
+                  "url": "https://videos.pexels.com/video-files/3125396/3125396-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pressmaster",
+                  "pagina": "https://www.pexels.com/video/virtual-reality-projection-of-the-earth-and-projection-of-distances-of-land-mass-from-one-point-to-another-3125396/"
+                },
+                "fichero": "clips/pexels-3125396.mp4"
               },
               "camara": "pull"
             },
@@ -1437,7 +2073,15 @@
                 "cifra": "3,13 %",
                 "titular": "La quinta moneda del mundo",
                 "apoyo": "Eso es el yuan hoy, después de toda la desdolarización.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6627907",
+                  "url": "https://images.pexels.com/photos/6627907/pexels-photo-6627907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/man-and-woman-standing-at-the-counter-6627907/"
+                },
+                "fichero": "recortes-auto/pexels-6627907.png"
               }
             }
           ]
@@ -1483,7 +2127,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "central bank building classical facade",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14994490",
+                  "url": "https://videos.pexels.com/video-files/14994490/14994490-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Artem Kulinych",
+                  "pagina": "https://www.pexels.com/video/timelapse-night-dublin-ireland-14994490/"
+                },
+                "fichero": "clips/pexels-14994490.mp4"
               },
               "camara": "panR"
             },
@@ -1510,7 +2164,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hourglass sand falling slow",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "1196530",
+                  "url": "https://videos.pexels.com/video-files/1196530/1196530-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Samer Daboul",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-a-sand-timer-1196530/"
+                },
+                "fichero": "clips/pexels-1196530.mp4"
               },
               "camara": "estatico"
             },
@@ -1518,7 +2182,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sand timer close up desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7392980",
+                  "url": "https://videos.pexels.com/video-files/7392980/7392980-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Ivan S",
+                  "pagina": "https://www.pexels.com/video/a-hourglass-with-pink-sand-7392980/"
+                },
+                "fichero": "clips/pexels-7392980.mp4"
               },
               "camara": "panL"
             }
@@ -1546,7 +2220,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "closed door office corridor",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7651686",
+                  "url": "https://videos.pexels.com/video-files/7651686/7651686-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/man-walking-on-hallway-7651686/"
+                },
+                "fichero": "clips/pexels-7651686.mp4"
               },
               "camara": "push"
             },
@@ -1558,7 +2242,15 @@
                 "lado": "izq",
                 "titular": "La pregunta que nadie hace",
                 "apoyo": "Si es tan buen negocio, ¿por qué no lo hacen todos?",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7643785",
+                  "url": "https://images.pexels.com/photos/7643785/pexels-photo-7643785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-man-wearing-a-blazer-with-his-arms-crossed-7643785/"
+                },
+                "fichero": "recortes-auto/pexels-7643785.png"
               }
             }
           ]
@@ -1575,7 +2267,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hands holding cash decision",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6326940",
+                  "url": "https://videos.pexels.com/video-files/6326940/6326940-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 11,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/person-sitting-on-the-sofa-is-counting-money-6326940/"
+                },
+                "fichero": "clips/pexels-6326940.mp4"
               },
               "camara": "push"
             },
@@ -1587,7 +2289,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank vault door closing heavy",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31750573",
+                  "url": "https://videos.pexels.com/video-files/31750573/13527135_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/close-up-of-coins-in-a-counting-machine-31750573/"
+                },
+                "fichero": "clips/pexels-31750573.mp4"
               },
               "camara": "pull"
             }
@@ -1609,14 +2321,32 @@
                 "lado": "der",
                 "titular": "El dinero no sale cuando quieres",
                 "apoyo": "Controles de capital: tus yuanes solo compran cosas chinas.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "23732345",
+                  "url": "https://images.pexels.com/photos/23732345/pexels-photo-23732345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Brian Jiz",
+                  "pagina": "https://www.pexels.com/photo/police-officer-on-street-23732345/"
+                },
+                "fichero": "recortes-auto/pexels-23732345.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese factory goods production line",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32386618",
+                  "url": "https://videos.pexels.com/video-files/32386618/13814681_1920_1080_100fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Usman AbdulrasheedGambo",
+                  "pagina": "https://www.pexels.com/video/automated-warehouse-with-workers-managing-packages-32386618/"
+                },
+                "fichero": "clips/pexels-32386618.mp4"
               },
               "camara": "panL"
             },
@@ -1658,7 +2388,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "city night lights markets open",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29162627",
+                  "url": "https://videos.pexels.com/video-files/29162627/12595203_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/vibrant-night-market-bustling-with-food-stalls-29162627/"
+                },
+                "fichero": "clips/pexels-29162627.mp4"
               },
               "camara": "push"
             },
@@ -1666,7 +2406,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "night market stalls open late",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29162597",
+                  "url": "https://videos.pexels.com/video-files/29162597/12595281_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/vibrant-asian-night-market-scene-29162597/"
+                },
+                "fichero": "clips/pexels-29162597.mp4"
               },
               "camara": "pull"
             }
@@ -1689,7 +2439,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "shopping street payment terminal card",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5240924",
+                  "url": "https://videos.pexels.com/video-files/5240924/5240924-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/a-person-putting-products-in-a-shopping-bag-5240924/"
+                },
+                "fichero": "clips/pexels-5240924.mp4"
               },
               "camara": "panR"
             },
@@ -1726,7 +2486,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "summit leaders meeting table flags",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951392",
+                  "url": "https://videos.pexels.com/video-files/6951392/6951392-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-conference-room-6951392/"
+                },
+                "fichero": "clips/pexels-6951392.mp4"
               },
               "camara": "push"
             },
@@ -1752,14 +2522,32 @@
                 "lado": "der",
                 "titular": "Una cifra de parte",
                 "apoyo": "La da quien más interés tiene en que suene alta. Aun así, es mucho.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8847165",
+                  "url": "https://images.pexels.com/photos/8847165/pexels-photo-8847165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-behind-speech-desk-8847165/"
+                },
+                "fichero": "recortes-auto/pexels-8847165.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "press conference microphones cameras",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6952253",
+                  "url": "https://videos.pexels.com/video-files/6952253/6952253-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/woman-talking-to-the-press-6952253/"
+                },
+                "fichero": "clips/pexels-6952253.mp4"
               },
               "camara": "panR"
             },
@@ -1767,7 +2555,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "shipping containers stacked colourful",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11736687",
+                  "url": "https://videos.pexels.com/video-files/11736687/11736687-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Peter Erb",
+                  "pagina": "https://www.pexels.com/video/birds-eye-view-of-cargo-containers-11736687/"
+                },
+                "fichero": "clips/pexels-11736687.mp4"
               },
               "camara": "pull"
             }
@@ -1796,7 +2594,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "storm clouds gathering dark sky",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10832340",
+                  "url": "https://videos.pexels.com/video-files/10832340/10832340-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ilya Klimenko",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-rain-clouds-10832340/"
+                },
+                "fichero": "clips/pexels-10832340.mp4"
               },
               "camara": "estatico"
             },
@@ -1823,14 +2631,32 @@
                 "cifra": "2022",
                 "titular": "El día que el ahorro dejó de ser suyo",
                 "apoyo": "Congelar reservas enseñó a todos que el dólar tiene un interruptor.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28186645",
+                  "url": "https://images.pexels.com/photos/28186645/pexels-photo-28186645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Halid Elosman",
+                  "pagina": "https://www.pexels.com/photo/business-meeting-28186645/"
+                },
+                "fichero": "recortes-auto/pexels-28186645.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "frozen account screen locked access",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2075168",
+                  "url": "https://videos.pexels.com/video-files/2075168/2075168-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Rob  Cot",
+                  "pagina": "https://www.pexels.com/video/key-on-ignition-2075168/"
+                },
+                "fichero": "clips/pexels-2075168.mp4"
               },
               "camara": "push"
             },
@@ -1867,7 +2693,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "gold bars vault stacked",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7080934",
+                  "url": "https://videos.pexels.com/video-files/7080934/7080934-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/pots-filled-with-gold-coins-7080934/"
+                },
+                "fichero": "clips/pexels-7080934.mp4"
               },
               "camara": "pull"
             },
@@ -1875,7 +2711,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "gold bullion hands weighing",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11102752",
+                  "url": "https://videos.pexels.com/video-files/11102752/11102752-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Cezar Bulat",
+                  "pagina": "https://www.pexels.com/video/close-up-on-person-cooking-in-pot-11102752/"
+                },
+                "fichero": "clips/pexels-11102752.mp4"
               },
               "camara": "panR"
             }
@@ -1897,14 +2743,32 @@
                 "lado": "der",
                 "titular": "Crece a ráfagas, no en línea recta",
                 "apoyo": "Cada crisis deja contrapartes nuevas dispuestas a cobrar en yuan.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8035297",
+                  "url": "https://images.pexels.com/photos/8035297/pexels-photo-8035297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-eyeglasses-sitting-at-the-table-with-pieces-of-paper-8035297/"
+                },
+                "fichero": "recortes-auto/pexels-8035297.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "ripples water spreading surface",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36117653",
+                  "url": "https://videos.pexels.com/video-files/36117653/15317170_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Salim Da",
+                  "pagina": "https://www.pexels.com/video/rippling-water-surface-at-twilight-36117653/"
+                },
+                "fichero": "clips/pexels-36117653.mp4"
               },
               "camara": "push"
             },
@@ -1958,7 +2822,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tide marks rocks waterline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4100560",
+                  "url": "https://videos.pexels.com/video-files/4100560/4100560-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ravi Kant",
+                  "pagina": "https://www.pexels.com/video/crashing-waves-on-a-rocky-shore-4100560/"
+                },
+                "fichero": "clips/pexels-4100560.mp4"
               },
               "camara": "panL"
             },
@@ -1985,7 +2859,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chess pieces board strategy move",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6058640",
+                  "url": "https://videos.pexels.com/video-files/6058640/6058640-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Vlada Karpovich",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-a-person-moving-a-chess-piece-6058640/"
+                },
+                "fichero": "clips/pexels-6058640.mp4"
               },
               "camara": "push"
             },
@@ -2017,7 +2901,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "naval ships patrol gulf water",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30556822",
+                  "url": "https://videos.pexels.com/video-files/30556822/13087553_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Thierry De Munsthal",
+                  "pagina": "https://www.pexels.com/video/peaceful-boat-ride-on-calm-ocean-waters-30556822/"
+                },
+                "fichero": "clips/pexels-30556822.mp4"
               },
               "camara": "panR"
             },
@@ -2029,7 +2923,15 @@
                 "lado": "izq",
                 "titular": "El experimento que nadie pidió",
                 "apoyo": "Marzo de 2026 contestó la pregunta de este vídeo en directo.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567528",
+                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                },
+                "fichero": "recortes-auto/pexels-7567528.png"
               }
             }
           ]
@@ -2046,7 +2948,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cargo ship dark sea night sailing",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35321162",
+                  "url": "https://videos.pexels.com/video-files/35321162/14964340_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-illuminated-ship-at-night-35321162/"
+                },
+                "fichero": "clips/pexels-35321162.mp4"
               },
               "camara": "push"
             },
@@ -2054,7 +2966,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "ship hull ocean night moving",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39246716",
+                  "url": "https://videos.pexels.com/video-files/39246716/16700452_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Judi Jutras",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-ship-bow-cutting-through-water-39246716/"
+                },
+                "fichero": "clips/pexels-39246716.mp4"
               },
               "camara": "push"
             },
@@ -2062,7 +2984,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "port crane loading containers dusk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15187012",
+                  "url": "https://videos.pexels.com/video-files/15187012/15187012-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Cyriac von Czapiewski",
+                  "pagina": "https://www.pexels.com/video/containers-on-a-cargo-ship-at-port-15187012/"
+                },
+                "fichero": "clips/pexels-15187012.mp4"
               },
               "camara": "pull"
             }
@@ -2100,7 +3032,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock exchange board green numbers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14003675",
+                  "url": "https://videos.pexels.com/video-files/14003675/14003675-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Gilmer Diaz Estela",
+                  "pagina": "https://www.pexels.com/video/numbers-changing-14003675/"
+                },
+                "fichero": "clips/pexels-14003675.mp4"
               },
               "camara": "push"
             },
@@ -2127,7 +3069,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "people running crowd panic street",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33048343",
+                  "url": "https://videos.pexels.com/video-files/33048343/14085581_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "ed1toR ㅤ",
+                  "pagina": "https://www.pexels.com/video/energetic-marathon-scene-in-coastal-cascais-33048343/"
+                },
+                "fichero": "clips/pexels-33048343.mp4"
               },
               "camara": "estatico"
             },
@@ -2146,21 +3098,24 @@
           "tipo": "recorte",
           "escenas": [
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "man portrait umbrella storm shelter",
-                "tono": "ocre",
-                "lado": "der",
-                "titular": "Es un refugio, no un motor",
-                "apoyo": "El dólar no sube porque lo empuje el crudo. Sube porque hay miedo.",
-                "icono": "casa"
-              }
+              "tipo": "frase",
+              "texto": "Es un refugio, no un motor"
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "lighthouse storm waves night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32844046",
+                  "url": "https://videos.pexels.com/video-files/32844046/13998920_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Bisan Subba",
+                  "pagina": "https://www.pexels.com/video/lonely-lighthouse-amidst-stormy-sea-waves-32844046/"
+                },
+                "fichero": "clips/pexels-32844046.mp4"
               },
               "camara": "panL"
             },
@@ -2192,7 +3147,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "supermarket shelves shopping trolley",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13752470",
+                  "url": "https://videos.pexels.com/video-files/13752470/13752470-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Erick Gouma",
+                  "pagina": "https://www.pexels.com/video/blurred-video-of-market-interior-13752470/"
+                },
+                "fichero": "clips/pexels-13752470.mp4"
               },
               "camara": "push"
             },
@@ -2204,7 +3169,15 @@
                 "lado": "izq",
                 "titular": "Te toca por el precio",
                 "apoyo": "El crudo se paga en dólares y tú cobras en euros.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26184232",
+                  "url": "https://images.pexels.com/photos/26184232/pexels-photo-26184232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Chirayu Vyas",
+                  "pagina": "https://www.pexels.com/photo/a-young-woman-holding-product-in-her-hand-while-shopping-in-a-supermarket-26184232/"
+                },
+                "fichero": "recortes-auto/pexels-26184232.png"
               }
             }
           ]
@@ -2241,7 +3214,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "electricity bill paper hands home",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35402332",
+                  "url": "https://videos.pexels.com/video-files/35402332/14999615_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Giorgio Tomassetti",
+                  "pagina": "https://www.pexels.com/video/close-up-of-energy-bill-review-with-hands-35402332/"
+                },
+                "fichero": "clips/pexels-35402332.mp4"
               },
               "camara": "pull"
             },
@@ -2263,7 +3246,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "petrol pump nozzle car refuel",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9109484",
+                  "url": "https://videos.pexels.com/video-files/9109484/9109484-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Design With Riyas",
+                  "pagina": "https://www.pexels.com/video/a-person-refilling-gas-on-a-car-9109484/"
+                },
+                "fichero": "clips/pexels-9109484.mp4"
               },
               "camara": "push"
             },
@@ -2275,14 +3268,32 @@
                 "lado": "der",
                 "titular": "Dos subidas a la vez",
                 "apoyo": "El barril y la moneda en la que se paga el barril.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9519969",
+                  "url": "https://images.pexels.com/photos/9519969/pexels-photo-9519969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-shirt-sitting-inside-car-9519969/"
+                },
+                "fichero": "recortes-auto/pexels-9519969.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "european city traffic street cars",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29219077",
+                  "url": "https://videos.pexels.com/video-files/29219077/12613051_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Xavier Pad",
+                  "pagina": "https://www.pexels.com/video/busy-intersection-in-barcelona-spain-29219077/"
+                },
+                "fichero": "clips/pexels-29219077.mp4"
               },
               "camara": "panR"
             }
@@ -2312,7 +3323,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "television news studio broadcast",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14367163",
+                  "url": "https://videos.pexels.com/video-files/14367163/14367163-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "INOCENTE SANCHEZ GUADARRAMA",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-a-crew-working-at-a-tv-studio-14367163/"
+                },
+                "fichero": "clips/pexels-14367163.mp4"
               },
               "camara": "estatico"
             },
@@ -2339,7 +3360,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "auction gavel bonds paper desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8061655",
+                  "url": "https://videos.pexels.com/video-files/8061655/8061655-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/lady-justice-statue-8061655/"
+                },
+                "fichero": "clips/pexels-8061655.mp4"
               },
               "camara": "push"
             },
@@ -2347,7 +3378,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "accountant desk ledger lamp",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6780089",
+                  "url": "https://videos.pexels.com/video-files/6780089/6780089-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Artem Podrez",
+                  "pagina": "https://www.pexels.com/video/person-using-calculator-6780089/"
+                },
+                "fichero": "clips/pexels-6780089.mp4"
               },
               "camara": "panL"
             }
@@ -2375,14 +3416,32 @@
                 "lado": "izq",
                 "titular": "La respuesta es aburrida",
                 "apoyo": "El primer año no pasaría casi nada. Y esa es la noticia.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5061003",
+                  "url": "https://images.pexels.com/photos/5061003/pexels-photo-5061003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Thirdman",
+                  "pagina": "https://www.pexels.com/photo/close-up-shot-of-a-man-5061003/"
+                },
+                "fichero": "recortes-auto/pexels-5061003.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "calm sea horizon still morning",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20151722",
+                  "url": "https://videos.pexels.com/video-files/20151722/20151722-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Giorgi Chkhaidze",
+                  "pagina": "https://www.pexels.com/video/steady-drone-shot-of-ocean-sunrise-20151722/"
+                },
+                "fichero": "clips/pexels-20151722.mp4"
               },
               "camara": "pull"
             },
@@ -2424,7 +3483,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty trading floor night screens",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38581103",
+                  "url": "https://videos.pexels.com/video-files/38581103/16386460_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-crypto-trading-screens-at-night-38581103/"
+                },
+                "fichero": "clips/pexels-38581103.mp4"
               },
               "camara": "push"
             },
@@ -2451,7 +3520,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sediment layers rock geology close",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35979010",
+                  "url": "https://videos.pexels.com/video-files/35979010/15255844_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "chuan wang",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-pink-rock-formations-35979010/"
+                },
+                "fichero": "clips/pexels-35979010.mp4"
               },
               "camara": "panL"
             },
@@ -2477,14 +3556,32 @@
                 "lado": "der",
                 "titular": "Ya pasó una vez",
                 "apoyo": "La libra dejó de mandar sin que nadie firmara su final.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27563237",
+                  "url": "https://images.pexels.com/photos/27563237/pexels-photo-27563237.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andres Idda Bianchi",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-a-suit-and-tie-standing-in-front-of-a-window-27563237/"
+                },
+                "fichero": "recortes-auto/pexels-27563237.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old london city archive street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6138311",
+                  "url": "https://videos.pexels.com/video-files/6138311/6138311-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Sam Jae",
+                  "pagina": "https://www.pexels.com/video/modern-skyscraper-among-old-design-buildings-6138311/"
+                },
+                "fichero": "clips/pexels-6138311.mp4"
               },
               "camara": "push"
             },
