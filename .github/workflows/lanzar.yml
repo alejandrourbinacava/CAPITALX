@@ -1,0 +1,108 @@
+name: Lanzar desde el repositorio
+
+# Lanza la cadena escribiendo un fichero, no pulsando un boton.
+#
+# El problema que resuelve: para despachar un workflow hace falta un token de
+# GitHub, y en el ordenador donde se escriben los guiones no hay ninguno
+# autenticado. Resultado: cada video terminado se quedaba esperando a que
+# alguien entrase en la pestana Actions y le diera a "Run workflow".
+#
+# Para empujar un commit, en cambio, no hace falta nada extra: las
+# credenciales de git ya estan. Asi que el disparador es un push sobre un
+# unico fichero, `lanzar.json`, que dice que video hay que hacer.
+#
+# Se dispara SOLO cuando cambia ese fichero. No es un cron: no se despierta
+# solo ni a diario, unicamente cuando alguien escribe ahi un slug.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "lanzar.json"
+
+# Dos cadenas del mismo video se pisarian al subir el audio y se pagaria la
+# locucion dos veces. Nunca se cancela una en curso: ya esta pagada.
+concurrency:
+  group: lanzar-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  leer:
+    runs-on: ubuntu-latest
+    outputs:
+      video: ${{ steps.ficha.outputs.video }}
+      calidad: ${{ steps.ficha.outputs.calidad }}
+      reescenificar: ${{ steps.ficha.outputs.reescenificar }}
+      rehacer: ${{ steps.ficha.outputs.rehacer }}
+      solo_render: ${{ steps.ficha.outputs.solo_render }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Leer lanzar.json
+        id: ficha
+        run: |
+          set -e
+          if [ ! -f lanzar.json ]; then
+            echo "No hay lanzar.json. No se hace nada."
+            echo "video=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          video=$(jq -r '.video // ""' lanzar.json)
+          if [ -z "$video" ] || [ "$video" = "null" ]; then
+            echo "lanzar.json no nombra ningun video. No se hace nada."
+            echo "video=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Un slug que no existe tumbaria el render cuarenta minutos mas
+          # tarde. Se comprueba aqui, que cuesta un segundo.
+          if [ ! -f "content/${video}.json" ]; then
+            echo "No existe content/${video}.json"
+            echo "Disponibles:"
+            ls content/*.json | grep -v timings | sed 's|content/||;s|\.json||'
+            exit 1
+          fi
+
+          {
+            echo "video=${video}"
+            echo "calidad=$(jq -r '.calidad // "80"' lanzar.json)"
+            echo "reescenificar=$(jq -r '.reescenificar // false' lanzar.json)"
+            echo "rehacer=$(jq -r '.rehacer // ""' lanzar.json)"
+            echo "solo_render=$(jq -r '.solo_render // false' lanzar.json)"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "### Lanzando \`${video}\`" >> "$GITHUB_STEP_SUMMARY"
+          jq . lanzar.json >> "$GITHUB_STEP_SUMMARY"
+
+  # Se salta cuando solo_render es true: un rerender de un video ya locutado
+  # no debe pasar por aqui ni de milagro.
+  voz:
+    needs: leer
+    if: needs.leer.outputs.video != '' && needs.leer.outputs.solo_render != 'true'
+    uses: ./.github/workflows/voz.yml
+    with:
+      video: ${{ needs.leer.outputs.video }}
+      solo_contar: false
+    secrets: inherit
+
+  render:
+    needs: [leer, voz]
+    # `always()` porque voz puede venir saltado a proposito. Lo que no se
+    # tolera es que voz haya fallado: si la locucion se rompio, renderizar
+    # produce un video mudo a medias.
+    if: >-
+      always()
+      && needs.leer.outputs.video != ''
+      && needs.leer.result == 'success'
+      && (needs.voz.result == 'success' || needs.voz.result == 'skipped')
+    uses: ./.github/workflows/render.yml
+    with:
+      video: ${{ needs.leer.outputs.video }}
+      calidad: ${{ needs.leer.outputs.calidad }}
+      reescenificar: ${{ fromJSON(needs.leer.outputs.reescenificar) }}
+      rehacer: ${{ needs.leer.outputs.rehacer }}
+    secrets: inherit
