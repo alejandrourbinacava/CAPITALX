@@ -66,6 +66,10 @@
     {
       "slug": "china-deuda-usa",
       "titulo": "China Lleva Trece Años Vendiendo Deuda Americana. No Ha Pasado Nada"
+    },
+    {
+      "slug": "petrodolar",
+      "titulo": "El Mayor Shock Petrolero De La Historia Acaba De Pasar. El Dólar Subió"
     }
   ],
   "cola": [
@@ -171,13 +175,6 @@
       "slug": "yuan-digital",
       "titulo": "El País Que Ya Probó El Dinero Que Caduca",
       "angulo": "El yuan digital y sus pruebas reales en China: caducidad programada, trazabilidad, cuánto se usa de verdad. El euro digital contado a través de un caso concreto en vez de en abstracto.",
-      "region": "asia",
-      "pais": "china"
-    },
-    {
-      "slug": "petrodolar",
-      "titulo": "¿Qué Pasaría Si El Petróleo Deja De Venderse En Dólares?",
-      "angulo": "Cuánto del comercio de crudo se liquida ya fuera del dólar, qué acuerdos existen de verdad, y separar el dato del mito que circula.",
       "region": "asia",
       "pais": "china"
     },

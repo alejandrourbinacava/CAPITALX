@@ -1,0 +1,2543 @@
+{
+  "slug": "petrodolar",
+  "titulo": "El Mayor Shock Petrolero De La Historia Acaba De Pasar. El Dólar Subió",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "tenso.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Ormuz, veintiocho de febrero",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "El veintiocho de febrero de dos mil veintiséis, Estados Unidos e Israel empezaron una guerra aérea contra Irán. La respuesta de Irán fue cerrar el estrecho de Ormuz.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "military official man portrait uniform serious",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "28 feb",
+                "titular": "Empieza la guerra",
+                "apoyo": "Y con ella, el cierre del estrecho por el que pasa el petróleo del Golfo.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil tanker ship sea aerial",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo ship strait narrow passage",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Por ese estrecho pasa alrededor de una quinta parte de todo el petróleo del mundo. Es el cuello de botella más importante del planeta, y estuvo cerrado.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PETRÓLEO MUNDIAL QUE PASA POR ORMUZ",
+              "fuente": "Agencia Internacional de la Energía",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 20,
+                "etiqueta": "por ciento del suministro mundial",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "narrow strait shipping lane satellite",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "sailor man portrait ship deck",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El cuello de botella del planeta",
+                "apoyo": "Una quinta parte del crudo mundial pasa por ahí. O pasaba.",
+                "icono": "barco"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "En marzo la oferta mundial de petróleo se desplomó en diez coma un millones de barriles al día. El Banco Mundial lo llamó la mayor perturbación de la historia del mercado del petróleo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CAÍDA DE LA OFERTA MUNDIAL · MARZO DE 2026",
+              "fuente": "Banco Mundial",
+              "barras": {
+                "unidad": "Millones de barriles al día",
+                "datos": [
+                  {
+                    "etiqueta": "Oferta que desapareció",
+                    "valor": 10.1,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery flames night industrial",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "burning gas flare industrial night",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "El barril llegó a ciento veintiséis dólares. Un sesenta y cinco por ciento más caro en cuestión de semanas. Todo lo que se supone que tenía que pasar, pasó.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Precio del barril de Brent",
+                "series": [
+                  {
+                    "nombre": "Brent",
+                    "tono": "carmin",
+                    "sufijo": " $",
+                    "puntos": [
+                      [
+                        "feb 2026",
+                        76
+                      ],
+                      [
+                        "mar 2026",
+                        126
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "El mayor salto mensual registrado"
+              },
+              "fuente": "Banco Mundial · precios de materias primas",
+              "rotulo": {
+                "kicker": "En cuestión de semanas",
+                "texto": "Hasta *126 dólares*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "petrol station price board numbers",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Y ahora la parte que no encaja. Si el dólar se sostiene sobre el petróleo, como llevas años oyendo, aquello tenía que haberlo hundido. Hizo exactamente lo contrario.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "ÍNDICE DEL DÓLAR · 13 DE MARZO DE 2026",
+              "fuente": "Mercados de divisas",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 100,
+                "etiqueta": "supera los cien por primera vez en 2026",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dollar bills stacked close up",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "trader man portrait screens green",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "El dólar subió",
+                "apoyo": "Superó los cien el 13 de marzo, por primera vez en el año.",
+                "icono": "sube"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "El mayor shock petrolero registrado, y el dólar se puso más fuerte. Esto no es una opinión sobre el futuro. Es lo que acaba de ocurrir.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Se cerró Ormuz. Y el dólar *subió*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty highway fuel shortage cars queue",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b0-07",
+          "vo": "Y no fue cosa de un mes. Para el segundo trimestre, el Banco Mundial preveía una caída de seis coma nueve millones de barriles diarios: la mayor desde la pandemia.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CAÍDA DE LA OFERTA · SEGUNDO TRIMESTRE DE 2026",
+              "fuente": "Banco Mundial",
+              "barras": {
+                "unidad": "Millones de barriles al día",
+                "datos": [
+                  {
+                    "etiqueta": "Oferta perdida",
+                    "valor": 6.9,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "idle oil rig platform still",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "El acuerdo que nadie firmo",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Para entender por qué, hay que empezar por deshacer la historia que te han contado. La versión popular dice así.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old archive documents typewriter seventies",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician man portrait vintage seventies",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "1974",
+                "titular": "La versión que todos repiten",
+                "apoyo": "Un pacto secreto de cincuenta años. Petróleo solo en dólares.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "En mil novecientos setenta y cuatro, Estados Unidos y Arabia Saudí firman un acuerdo de cincuenta años. Los saudíes venden su petróleo únicamente en dólares. A cambio, Washington les da armas y protección.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "diplomat men portrait handshake formal",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Armas a cambio de dólares",
+                "apoyo": "Esa es la historia. Y es casi toda falsa.",
+                "icono": "balanza"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "desert oil field pumpjack sunset",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "briefcase money exchange hands",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "En junio de dos mil veinticuatro la historia dio la vuelta al mundo otra vez. El acuerdo había expirado. Arabia Saudí quedaba libre para vender en otras monedas. Titulares, hilos, vídeos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "social media phone screen scrolling news",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper printing press headlines fast",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "La agencia France Presse fue a comprobarlo. El acuerdo de mil novecientos setenta y cuatro existe, pero era un pacto de cooperación económica y no tenía ningún plazo de cincuenta años. No expiró nada.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "journalist woman portrait newsroom desk",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No expiró nada",
+                "apoyo": "El pacto de 1974 era de cooperación económica y no tenía plazo.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "magnifying glass paper document inspect",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "Y el Atlantic Council lo dice todavía más claro. No existe ningún acuerdo oficial entre Estados Unidos y Arabia Saudí que obligue a vender el petróleo en dólares. Nunca lo hubo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "*No existe* ese acuerdo. Nunca existió.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty archive shelves folders",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b1-06",
+          "vo": "Lo que sí hubo fue otra cosa, y es la pista de todo lo que viene después. Un compromiso saudí de coger los dólares del petróleo y usarlos para comprar deuda del Tesoro americano.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "us treasury bond certificate paper",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "banker man portrait ledger desk",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "No era el petróleo. Era la deuda",
+                "apoyo": "El compromiso real fue reciclar los dólares comprando bonos americanos.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Por que se factura en dolares",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Entonces, si nadie obliga, ¿por qué el petróleo del mundo se factura en dólares? Por la razón más aburrida que existe: porque un mercado único necesita un precio único.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "commodity trading screens prices",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "broker man portrait phone trading",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Un mercado, un precio",
+                "apoyo": "No es una ley. Es que comparar cargamentos exige una vara común.",
+                "icono": "balanza"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Un cargamento sale de Arabia Saudí, se revende tres veces en el aire y acaba en Róterdam. Si cada tramo se cotiza en una moneda distinta, nadie sabe si está pagando caro o barato.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "container port rotterdam cranes",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil tanker unloading terminal pipes",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "El Brent y el West Texas no son monedas ni son tratados. Son dos referencias que el mercado eligió porque le venía bien. Y lo que el mercado elige, el mercado lo puede cambiar.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LAS DOS REFERENCIAS DEL CRUDO",
+              "fuente": "Mercados de materias primas",
+              "barras": {
+                "unidad": "Referencia de precio",
+                "datos": [
+                  {
+                    "etiqueta": "Brent",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "West Texas",
+                    "valor": 96,
+                    "tono": "verde"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "north sea oil platform waves",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Así que la pregunta de verdad no es si se puede vender petróleo en otra moneda. Claro que se puede, y ya se hace. La pregunta es qué pasaría si se hiciera con todo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Claro que se puede. *¿Y qué pasaría?*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "currency exchange rates board",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "question mark neon sign wall",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Cuanto pesa el petroleo de verdad",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Para contestarlo hay que medir el petróleo, y aquí casi todo el mundo se lleva una sorpresa. El mundo consume unos cien millones de barriles al día.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "CONSUMO MUNDIAL DE PETRÓLEO",
+              "fuente": "Agencia Internacional de la Energía",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 100,
+                "etiqueta": "millones de barriles al día",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil barrels rows industrial yard",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "A los precios que maneja el Banco Mundial para este año, eso son unos tres billones de dólares al año. Todo el petróleo del planeta, doce meses, tres billones.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "VALOR DEL PETRÓLEO MUNDIAL EN UN AÑO",
+              "fuente": "Cálculo sobre AIE y Banco Mundial · 2026",
+              "barras": {
+                "unidad": "Billones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "Un año entero de crudo",
+                    "valor": 3.1,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "money counting machine banknotes",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "analyst man portrait calculator desk",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "3,1 bn",
+                "titular": "Todo el crudo de un año",
+                "apoyo": "Cien millones de barriles diarios a los precios de 2026.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Y ahora el número con el que hay que compararlo. El mercado mundial de divisas movía, en abril de dos mil veinticinco, nueve coma seis billones de dólares. Al día.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "UN AÑO DE PETRÓLEO CONTRA UN DÍA DE DIVISAS",
+              "fuente": "BIS · encuesta trienal de abril de 2025",
+              "barras": {
+                "unidad": "Billones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "Petróleo, un año",
+                    "valor": 3.1,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Divisas, un día",
+                    "valor": 9.6,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "trading floor busy screens motion",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Haz la cuenta. Todo el petróleo que quema el planeta en un año entero cabe dentro de ocho horas de mercado de divisas. Una jornada de oficina.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Un año de crudo = *ocho horas* de divisas.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "office clock wall working day",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "wall clock office hours passing",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Esa es la escala real de la palanca. Si mañana el cien por cien del petróleo se facturara en otra moneda, el mercado de divisas lo absorbería antes de la hora de comer.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist woman portrait chart wall",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La palanca es pequeña",
+                "apoyo": "El crudo mueve en un año lo que las divisas mueven en una mañana.",
+                "icono": "balanza"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "lever machinery mechanical close up",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Lo que si sostiene al dolar",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Si no es el petróleo, ¿qué es? Y aquí volvemos a la pista que dejamos en mil novecientos setenta y cuatro, la del compromiso de comprar bonos.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "us treasury building columns facade",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait government office",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "La pista estaba en 1974",
+                "apoyo": "El compromiso no era vender en dólares. Era comprar deuda con ellos.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "El mercado de deuda del Tesoro americano son casi treinta y dos billones de dólares en circulación. Es el sitio más grande del mundo donde aparcar dinero, y con diferencia.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DEUDA DEL TESORO NEGOCIABLE · AGOSTO DE 2026",
+              "fuente": "SIFMA",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 31.8,
+                "etiqueta": "billones de dólares en circulación",
+                "decimales": 1
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "vault interior safe deposit rows",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank vault interior corridor",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Y ahí está el mecanismo entero. Cualquier país que exporte más de lo que importa acumula dólares, y esos dólares tienen que ir a algún sitio que sea grande, líquido y aburrido.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "QUIÉN ACUMULA DÓLARES",
+              "fuente": "Balanzas por cuenta corriente · FMI",
+              "gente": {
+                "total": 60,
+                "destacados": 24,
+                "escala": 0.8,
+                "etiqueta": "Países",
+                "etiquetaDestacados": "Exportan más de lo que importan"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo ship containers export sea",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "El petróleo es un flujo. La deuda es el almacén. Y los relatos sobre el fin del dólar siempre miran el flujo, porque es el que sale en las noticias.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El petróleo es el flujo. *La deuda es el almacén.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "warehouse shelves storage vast",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "El pais que ya lo hizo",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Y aquí viene lo mejor, porque este experimento ya se hizo. No en un modelo ni en un artículo: en la realidad, hace veintiséis años, con un país entero y con petróleo de verdad.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "desert oil pipeline infrastructure",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait historic archive middle east",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "2000",
+                "titular": "Ya se probó de verdad",
+                "apoyo": "Un país dejó de cobrar su petróleo en dólares. Pasó.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "En octubre del año dos mil, Naciones Unidas autorizó a Irak a cobrar su petróleo en euros en lugar de en dólares. Sadam Husein lo pidió para plantarle cara a Washington, y se ejecutó.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "diplomat man portrait united nations",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "oct 2000",
+                "titular": "Naciones Unidas dijo que sí",
+                "apoyo": "Irak pasó a cobrar su crudo en euros. No fue un gesto: se hizo.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "united nations building flags",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro banknotes counting close up",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Vendió su crudo en euros durante casi tres años. ¿Y qué le pasó por atreverse? Que ganó dinero. El euro subió en ese periodo y el cambio de moneda le salió a favor.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Euro frente al dólar",
+                "series": [
+                  {
+                    "nombre": "Euro",
+                    "tono": "verde",
+                    "puntos": [
+                      [
+                        "2000",
+                        85
+                      ],
+                      [
+                        "2003",
+                        108
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "Cobrar en euros le salió rentable"
+              },
+              "fuente": "Tipos de cambio históricos",
+              "rotulo": {
+                "kicker": "Mientras Irak cobraba en euros",
+                "texto": "El euro *subió*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "currency trading screen rising chart",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "En febrero de dos mil tres, el Guardian calculó que aquella decisión le había reportado a Irak cientos de millones de euros. El titular decía que Bagdad había hecho un negocio redondo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper archive headline print",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "editor man portrait newspaper desk",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Le salió a cuenta",
+                "apoyo": "Cientos de millones de euros ganados solo por el cambio de moneda.",
+                "icono": "moneda"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "printing press newspapers rolling",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Así que ahí tienes la respuesta empírica a la pregunta del título. Un país grande dejó de vender petróleo en dólares, le fue bien, y el sistema no se movió ni un milímetro.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRODUCTORES QUE SIGUIERON EL EJEMPLO",
+              "fuente": "Recuento de cambios de moneda de facturación, 2000-2003",
+              "barras": {
+                "unidad": "Países",
+                "datos": [
+                  {
+                    "etiqueta": "Lo hicieron",
+                    "valor": 1,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Le copiaron",
+                    "valor": 0,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty conference room chairs",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "Nadie le copió. Ni un solo productor grande siguió el ejemplo, aunque el ejemplo era rentable y estaba a la vista de todo el mundo. Esa es la parte que hay que explicar.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Le salió bien. *Y nadie le copió.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "single figure walking empty plaza",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "El petroyuan que si existe",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Dicho todo eso, hay una parte de la historia que es verdad, y conviene contarla bien porque casi nadie lo hace. Sí se está vendiendo petróleo fuera del dólar. Y cada vez más.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shanghai skyline financial towers",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "chinese executive man portrait office",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Esta parte sí es real",
+                "apoyo": "El petróleo fuera del dólar existe y está creciendo.",
+                "icono": "sube"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Rusia, Irán, Venezuela, Arabia Saudí, los Emiratos y Egipto llevan desde principios de dos mil veinticinco haciendo al menos una parte de su comercio de crudo en yuanes.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "asia",
+                "destaca": [
+                  "china"
+                ]
+              },
+              "kicker": "QUIÉN YA COBRA EN YUANES",
+              "fuente": "Recuentos de operaciones · 2025 y 2026"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "yuan banknotes chinese currency",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "suitcase cash border customs",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "En septiembre de dos mil veinticinco, China y Arabia Saudí liquidaron su primera operación de petróleo con yuan digital. La primera de la historia.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait signing agreement",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "sep 2025",
+                "titular": "La primera de la historia",
+                "apoyo": "China y Arabia Saudí, petróleo liquidado en yuan digital.",
+                "icono": "moneda"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "digital payment phone screen transaction",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Y durante la crisis de Ormuz las refinerías indias pagaron cargamentos iraníes en yuanes, esquivando las sanciones americanas. Eso no es teoría. Son barcos que zarparon.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "indian refinery industrial pipes",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worker portrait refinery helmet india",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Barcos que zarparon de verdad",
+                "apoyo": "Refinerías indias pagando crudo iraní en yuanes, bajo sanciones.",
+                "icono": "barco"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tanker leaving port night lights",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Pero mira el tamano",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Ahora pon ese crecimiento al lado de su tamaño, que es donde el relato se cae. En enero de dos mil veintiséis el yuan subió un puesto en los pagos mundiales. Llegó al quinto.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "CUOTA DEL YUAN EN PAGOS MUNDIALES · ENERO DE 2026",
+              "fuente": "SWIFT · Global Currency Tracker",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 3.13,
+                "etiqueta": "por ciento de los pagos, quinta moneda",
+                "decimales": 2,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank transfer screen data network",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Tres coma uno por ciento. Después de años de acuerdos, de cumbres y de titulares sobre el fin del dólar, el yuan mueve tres de cada cien pagos del mundo. El dólar, cerca de cincuenta.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PAGOS MUNDIALES POR MONEDA",
+              "fuente": "SWIFT · enero de 2026",
+              "barras": {
+                "unidad": "Por ciento de los pagos",
+                "datos": [
+                  {
+                    "etiqueta": "Dólar",
+                    "valor": 50,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Yuan",
+                    "valor": 3.13,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "global network map connections abstract",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "clerk woman portrait bank counter",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "3,13 %",
+                "titular": "La quinta moneda del mundo",
+                "apoyo": "Eso es el yuan hoy, después de toda la desdolarización.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "En las reservas de los bancos centrales la historia es distinta, y ahí sí hay movimiento. El dólar era el setenta y uno por ciento en mil novecientos noventa y nueve. Hoy es el cincuenta y ocho.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Cuota del dólar en reservas mundiales",
+                "series": [
+                  {
+                    "nombre": "Dólar",
+                    "tono": "carmin",
+                    "sufijo": " %",
+                    "puntos": [
+                      [
+                        "1999",
+                        71
+                      ],
+                      [
+                        "2026",
+                        58.4
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "Baja despacio, y lo que sube no es el yuan"
+              },
+              "fuente": "FMI · Atlantic Council",
+              "rotulo": {
+                "kicker": "En veintisiete años",
+                "texto": "Del 71 % al *58 %*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank building classical facade",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Trece puntos en veintisiete años. Es una caída real y hay que decirlo. Pero a ese ritmo, el dólar deja de ser mayoritario dentro de veinte años largos, no el martes que viene.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Trece puntos en *veintisiete años*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hourglass sand falling slow",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sand timer close up desk",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Por que no despega",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Y llegamos a la pregunta que casi nadie hace. Si vender en yuanes es tan buena idea, ¿por qué no lo hace todo el mundo ya? La respuesta es de una sencillez incómoda.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed door office corridor",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businessman portrait thinking window",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La pregunta que nadie hace",
+                "apoyo": "Si es tan buen negocio, ¿por qué no lo hacen todos?",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Si vendes tu petróleo en yuanes, lo que tienes al final del día son yuanes. Y entonces te toca la parte difícil: decidir qué haces con ellos.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hands holding cash decision",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank vault door closing heavy",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "China tiene controles de capital. No puedes sacar el dinero del país cuando te dé la gana ni en la cantidad que quieras. Tus yuanes sirven para comprar cosas chinas o deuda china.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official portrait border control checkpoint",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "El dinero no sale cuando quieres",
+                "apoyo": "Controles de capital: tus yuanes solo compran cosas chinas.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese factory goods production line",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Con dólares, en cambio, compras lo que quieras en el sitio que quieras y a la hora que quieras. Puedes vender a las tres de la mañana y siempre hay alguien al otro lado.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE PUEDES HACER CON CADA MONEDA",
+              "fuente": "Convertibilidad y controles de capital",
+              "barras": {
+                "unidad": "Libertad de uso",
+                "datos": [
+                  {
+                    "etiqueta": "Dólar",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Yuan",
+                    "valor": 32,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "city night lights markets open",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "night market stalls open late",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "No es lealtad a Estados Unidos. No es un pacto secreto. Es que el dólar se puede gastar, y esa es una ventaja que no se compra con acuerdos ni con cumbres.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No es lealtad. Es que *el dólar se puede gastar*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shopping street payment terminal card",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b8-07",
+          "vo": "Y el ministro de Exteriores ruso afirmó a principios de dos mil veintiséis que el sesenta y siete por ciento del comercio entre los países BRICS ya se liquida en monedas locales.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "COMERCIO INTRA-BRICS EN MONEDAS LOCALES",
+              "fuente": "Declaración de Serguéi Lavrov · principios de 2026",
+              "barras": {
+                "unidad": "Por ciento del comercio",
+                "datos": [
+                  {
+                    "etiqueta": "Fuera del dólar",
+                    "valor": 67,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "summit leaders meeting table flags",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b8-08",
+          "vo": "Es una cifra de parte y conviene cogerla con pinzas, porque la da quien más interés tiene en que suene alta. Pero aunque fuera la mitad, seguiría siendo un cambio enorme en cuatro años.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician man portrait microphone podium",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Una cifra de parte",
+                "apoyo": "La da quien más interés tiene en que suene alta. Aun así, es mucho.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "press conference microphones cameras",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shipping containers stacked colourful",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y ahora la parte que estropea todo lo que llevo dicho, porque es seria y hay que ponerla encima de la mesa.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Lo que juega *en contra* de todo esto.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "storm clouds gathering dark sky",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "En dos mil veintidós, a Rusia le inmovilizaron las reservas que tenía en el extranjero. De un día para otro, la mitad de su ahorro dejó de ser suyo. Todo país que exporta tomó nota.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait press conference stern",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "2022",
+                "titular": "El día que el ahorro dejó de ser suyo",
+                "apoyo": "Congelar reservas enseñó a todos que el dólar tiene un interruptor.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "frozen account screen locked access",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Desde entonces el banco central chino lleva veintiún meses seguidos comprando oro. No es un capricho: es lo que compras cuando piensas que algún día pueden apagarte las cuentas.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "MESES SEGUIDOS COMPRANDO ORO",
+              "fuente": "Banco Popular de China · julio de 2026",
+              "barras": {
+                "unidad": "Meses consecutivos",
+                "datos": [
+                  {
+                    "etiqueta": "Compras sin fallar una",
+                    "valor": 21,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "gold bars vault stacked",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "gold bullion hands weighing",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Y hay un argumento todavía mejor contra mi tesis. El petroyuan no crece poco a poco: crece a ráfagas, cada vez que hay una crisis. Y cada ráfaga deja residuo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "researcher man portrait papers analysis",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Crece a ráfagas, no en línea recta",
+                "apoyo": "Cada crisis deja contrapartes nuevas dispuestas a cobrar en yuan.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ripples water spreading surface",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Cuando pasa la crisis, el uso del yuan baja otra vez y parece que no ha cambiado nada. Pero no vuelve al punto de partida. Se queda un poco más arriba que antes.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Uso del yuan en el crudo",
+                "series": [
+                  {
+                    "nombre": "Con cada crisis",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "antes",
+                        10
+                      ],
+                      [
+                        "crisis",
+                        34
+                      ],
+                      [
+                        "después",
+                        18
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "Baja, pero nunca vuelve donde estaba"
+              },
+              "fuente": "Patrón descrito por analistas del sector",
+              "rotulo": {
+                "kicker": "Después de cada crisis",
+                "texto": "No vuelve: *se queda arriba*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tide marks rocks waterline",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Así que las sanciones americanas son, sin querer, el mejor comercial que tiene Pekín. Cada vez que Washington usa el dólar como arma, le da a alguien una razón para buscar otra.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El arma que se gasta *al usarla*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chess pieces board strategy move",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Lo que enseno Ormuz",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Volvamos a marzo, porque la crisis de Ormuz fue el mejor experimento que podíamos pedir. Las dos cosas ocurrieron a la vez y en direcciones contrarias.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "naval ships patrol gulf water",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "analyst woman portrait screens data",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El experimento que nadie pidió",
+                "apoyo": "Marzo de 2026 contestó la pregunta de este vídeo en directo.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "En las rutas sancionadas, el yuan ganó terreno. Cargamentos que antes no se movían encontraron comprador porque había una forma de cobrarlos que no pasaba por Nueva York.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo ship dark sea night sailing",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ship hull ocean night moving",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "port crane loading containers dusk",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "Y en todo lo demás, en el noventa y tanto por ciento del mundo que no está sancionado, el dinero corrió hacia el dólar. El índice superó los cien el trece de marzo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LAS DOS COSAS A LA VEZ · MARZO DE 2026",
+              "fuente": "Mercados de divisas y rutas de crudo",
+              "barras": {
+                "unidad": "Dirección del movimiento",
+                "datos": [
+                  {
+                    "etiqueta": "Yuan en rutas sancionadas",
+                    "valor": 34,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Dólar en todo lo demás",
+                    "valor": 100,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock exchange board green numbers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Porque cuando hay miedo, el mundo no sale corriendo a comprar petróleo. Sale corriendo a comprar seguridad. Y la seguridad sigue vendiéndose en dólares.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Con miedo no se compra crudo. *Se compra refugio.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "people running crowd panic street",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "Ese es el punto que se pierde en todos los hilos sobre el fin del dólar. El dólar no es fuerte porque el petróleo lo empuje. Es fuerte porque es donde se esconde la gente cuando algo va mal.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait umbrella storm shelter",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Es un refugio, no un motor",
+                "apoyo": "El dólar no sube porque lo empuje el crudo. Sube porque hay miedo.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "lighthouse storm waves night",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "villa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b11-01",
+          "vo": "Vamos a juntarlo, porque esto te toca de una forma bastante directa aunque no lo parezca desde aquí.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "supermarket shelves shopping trolley",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "customer woman portrait supermarket aisle",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Te toca por el precio",
+                "apoyo": "El crudo se paga en dólares y tú cobras en euros.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b11-02",
+          "vo": "Europa compra su petróleo en dólares y cobra sus sueldos en euros. Así que cuando el dólar sube, la factura energética sube dos veces: por el barril y por la moneda.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA FACTURA SUBE DOS VECES",
+              "fuente": "Mecánica del precio de la energía en Europa",
+              "barras": {
+                "unidad": "Efecto sobre lo que pagas",
+                "datos": [
+                  {
+                    "etiqueta": "Sube el barril",
+                    "valor": 65,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Sube el dólar",
+                    "valor": 100,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "electricity bill paper hands home",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b11-03",
+          "vo": "Por eso marzo de dos mil veintiséis se notó tanto aquí. No fue solo que el crudo se encareciera un sesenta y cinco por ciento. Es que lo hizo en la moneda que también se estaba encareciendo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "petrol pump nozzle car refuel",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "driver man portrait car window worried",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Dos subidas a la vez",
+                "apoyo": "El barril y la moneda en la que se paga el barril.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european city traffic street cars",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b11-04",
+          "vo": "Y por eso el relato del fin del petrodólar es tan cómodo. Da un villano, una fecha y un culpable, que es lo que pide el cuerpo. Lo que de verdad decide el precio de tu gasolina no cabe en un titular.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "DE CADA CIEN PAGOS DEL MUNDO",
+              "fuente": "SWIFT · enero de 2026",
+              "gente": {
+                "total": 100,
+                "destacados": 3,
+                "escala": 0.6,
+                "etiqueta": "Pagos mundiales",
+                "etiquetaDestacados": "Se hacen en yuanes"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "television news studio broadcast",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b11-05",
+          "vo": "El día que el petróleo se venda en yuanes no habrá pasado gran cosa. El día que los bancos centrales dejen de comprar deuda americana, ese sí.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Mira la deuda, *no el barril*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "auction gavel bonds paper desk",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "accountant desk ledger lamp",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b12-01",
+          "vo": "Así que la respuesta a la pregunta del título es aburrida y es esta. Si el petróleo dejara de venderse en dólares mañana, no pasaría casi nada el primer año.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait calm office answer",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La respuesta es aburrida",
+                "apoyo": "El primer año no pasaría casi nada. Y esa es la noticia.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calm sea horizon still morning",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b12-02",
+          "vo": "Porque lo que sostiene al dólar no son los barriles. Son treinta y dos billones de deuda que se pueden vender a las tres de la mañana, y un mundo que sigue sin construir nada parecido.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE DE VERDAD SOSTIENE AL DÓLAR",
+              "fuente": "SIFMA y cálculos sobre AIE",
+              "barras": {
+                "unidad": "Billones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "Petróleo, un año",
+                    "valor": 3.1,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Deuda del Tesoro",
+                    "valor": 31.8,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty trading floor night screens",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b12-03",
+          "vo": "Y no va a haber un día. No habrá un titular que diga se acabó. Habrá crisis, y cada crisis dejará su residuo, y un día alguien mirará los números y dirá que ya llevaba años pasando.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No habrá un día. *Habrá residuo.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sediment layers rock geology close",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b12-04",
+          "vo": "Igual que pasó con la libra esterlina, que dejó de mandar sin que nadie firmara nada y sin que ningún periódico lo contara el día correcto.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "vintage british banker man portrait",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Ya pasó una vez",
+                "apoyo": "La libra dejó de mandar sin que nadie firmara su final.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old london city archive street",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b12-05",
+          "vo": "Suscríbete si te gusta que te cuenten el número antes que el titular, aunque el número tarde más.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "El Mayor Shock Petrolero De La Historia Acaba De Pasar. El Dólar Subió",
+    "descripcion": "El 28 de febrero de 2026, Estados Unidos e Israel empezaron una guerra aérea contra Irán y la respuesta iraní fue cerrar el estrecho de Ormuz, por donde pasa alrededor de una quinta parte del petróleo del mundo.\n\nEn marzo la oferta mundial de crudo se desplomó en 10,1 millones de barriles al día. El Banco Mundial lo llamó la mayor perturbación de la historia del mercado del petróleo. El barril llegó a 126 dólares, un 65 % más caro en semanas.\n\nY el dólar subió. El índice superó los 100 el 13 de marzo, por primera vez en el año.\n\nSi el dólar se sostuviera sobre el petróleo, eso no debería haber pasado. Este vídeo explica por qué pasó.\n\nDATOS CLAVE\n\n• El acuerdo del petrodólar, tal como se cuenta, no existe. La AFP verificó que el pacto de 1974 entre Estados Unidos y Arabia Saudí era de cooperación económica y no tenía plazo de 50 años, así que nada expiró en junio de 2024. El Atlantic Council lo dice sin rodeos: no hay ningún acuerdo oficial que obligue a vender petróleo en dólares.\n\n• Lo que sí hubo en 1974 fue otra cosa, y es la clave: un compromiso saudí de usar los dólares del petróleo para comprar deuda del Tesoro americano.\n\n• El petróleo pesa mucho menos de lo que parece. Cien millones de barriles al día a los precios de 2026 son unos 3,1 billones de dólares al año. El mercado de divisas movía 9,6 billones AL DÍA en abril de 2025 (BIS). Todo el crudo del planeta en un año cabe en ocho horas de mercado de divisas.\n\n• Lo que sostiene al dólar son los 31,8 billones de deuda del Tesoro en circulación: el sitio más grande del mundo donde aparcar dinero. El petróleo es un flujo; la deuda es el almacén.\n\n• El petroyuan es real. Rusia, Irán, Venezuela, Arabia Saudí, Emiratos y Egipto ya hacen parte de su comercio de crudo en yuanes, y en septiembre de 2025 China y Arabia Saudí liquidaron su primera operación con yuan digital.\n\n• Pero mira el tamaño: en enero de 2026 el yuan era la quinta moneda en pagos mundiales con un 3,13 %. El dólar ronda el 50 %.\n\n• En reservas sí hay movimiento real: el dólar era el 71 % en 1999 y hoy es el 58,4 %. Trece puntos en veintisiete años.\n\n• Y la razón por la que no despega: China tiene controles de capital. Si cobras en yuanes solo puedes comprar cosas chinas o deuda china. Con dólares compras lo que quieras donde quieras. No es lealtad: es que el dólar se puede gastar.\n\nEl vídeo incluye lo que juega en contra de la tesis, y es fuerte: congelar las reservas rusas en 2022 enseñó a todo exportador que el dólar tiene un interruptor, el banco central chino lleva 21 meses seguidos comprando oro, y el petroyuan no crece en línea recta sino a ráfagas — cada crisis deja residuo y el uso nunca vuelve a donde estaba.\n\nFUENTES\nAgencia Internacional de la Energía — informes del mercado del petróleo de 2026\nBanco Mundial — caída de la oferta y precios del crudo tras el cierre de Ormuz\nAFP Factuel — verificación del supuesto acuerdo de 50 años\nAtlantic Council — inexistencia de un acuerdo oficial de venta en dólares\nBIS — encuesta trienal de abril de 2025, volumen del mercado de divisas\nSWIFT — Global Currency Tracker, cuota del yuan en pagos mundiales\nSIFMA — deuda del Tesoro negociable en circulación\nFMI — composición de las reservas mundiales\nBanco Popular de China — compras de oro\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#Petróleo #Dólar #Economía",
+    "etiquetas": [
+      "petrodolar",
+      "fin del petrodolar",
+      "petroleo dolares",
+      "estrecho de ormuz",
+      "crisis ormuz 2026",
+      "precio del petroleo",
+      "brent",
+      "petroyuan",
+      "yuan",
+      "desdolarizacion",
+      "brics",
+      "reservas de divisas",
+      "deuda de estados unidos",
+      "bonos del tesoro",
+      "arabia saudi",
+      "iran",
+      "sanciones",
+      "oro banco central",
+      "indice dolar",
+      "inflacion energia",
+      "gasolina precio",
+      "geopolitica economica",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "economia 2026"
+    ]
+  }
+}
