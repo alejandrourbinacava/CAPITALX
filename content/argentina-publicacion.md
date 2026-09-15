@@ -7,9 +7,20 @@ Duración real: **11:29** · 692 MB · 66 planos · 16.052 créditos
 
 ## TÍTULO
 
+Recomendado — el país va dentro, no delante, y la contradicción es la tesis del vídeo:
+
 ```
-ARGENTINA: Cien Años Cayendo (Y Nunca Fue Tan Rica Como Crees)
+Argentina Fue El País Más Rico Del Mundo. La Mitad No Sabía Leer
 ```
+
+Alternativa sin país, más agresiva:
+
+```
+Fue El País Más Rico Del Mundo Y La Mitad De Su Gente No Sabía Leer
+```
+
+Se renderizó como `ARGENTINA: Cien Años Cayendo (Y Nunca Fue Tan Rica Como Crees)`.
+Cambiar el título en YouTube no obliga a tocar el vídeo.
 
 ## DESCRIPCIÓN
 
@@ -22,21 +33,31 @@ Elijo Australia a propósito: en 1900 los dos países eran casi la misma cosa. C
 
 Y la explicación que oyes siempre está incompleta, porque la caída argentina no empezó con quien tú crees. Empezó con algo que ya estaba mal en los años en que el país parecía el más rico del planeta.
 
-En 1895, siendo la primera renta del mundo, en Argentina sabía leer y escribir el 46,7 % de la población. En Australia era el 73 % y en Canadá el 82,9 %. Los tres países eran igual de ricos y exportaban lo mismo, pero dos tenían una población capaz de leer un manual y el tercero no.
+DATOS CLAVE
 
-Y encaja con la segunda pieza: la pampa era tan fértil y tan fácil de explotar que no hacía falta inventar nada para ganar dinero con ella, solo tenerla. Y la tenían muy pocos. Australia y Canadá tenían recursos peores, y por eso tuvieron que aprender a hacer cosas con ellos.
+• En 1895, siendo la primera renta del mundo, sabía leer y escribir el 46,7 % de los argentinos. En Australia era el 73 % y en Canadá el 82,9 %. Los tres países eran igual de ricos y exportaban lo mismo, pero dos tenían una población capaz de leer un manual y el tercero no.
 
-Después vino todo lo demás, y se puede fechar. El primer quiebre en 1935, tras el golpe de 1930, cuando el país se cierra. El segundo en 1975. La renta argentina comparada con la media de los países ricos pasó del 84 % en 1950 al 65 % en 1973 y al 43 % en 1987. Argentina no se hundió de golpe: se quedó quieta mientras los demás seguían andando.
+• La segunda pieza encaja con la primera: la pampa era tan fértil y tan fácil de explotar que no hacía falta inventar nada para ganar dinero con ella, solo tenerla. Y la tenían muy pocos. Australia y Canadá tenían recursos peores, y por eso tuvieron que aprender a hacer cosas con ellos.
 
-Luego la máquina de imprimir: 4.923 % de inflación en 1989, y más de 20.000 % entre marzo de 1989 y marzo de 1990. Y nueve impagos de deuda soberana desde 1816, con el de 2001 —más de 100.000 millones de dólares— como el mayor de la historia en su momento, corralito incluido.
+• Argentina nunca fue un país productivo que se hizo rico. Fue un país con suerte geológica al que le pagaban muy bien por su tierra.
 
-Y la parte que hace que esto no sea solo historia: en los últimos dos años ha pasado algo medible. La inflación mensual bajó del 25,5 % de diciembre de 2023 al 2,1 % de julio de 2026. La anual, del 211 % al 33,8 %. La pobreza cayó al 28,2 %, mínimo de seis años. Las reservas pasaron de 21.000 a más de 50.000 millones de dólares.
+• La caída se puede fechar. Primer quiebre en 1935, tras el golpe de 1930, cuando el país se cierra. Segundo en 1975. La renta argentina comparada con la media de los países ricos pasó del 84 % en 1950 al 65 % en 1973 y al 43 % en 1987.
+
+• Y no se hundió de golpe: se quedó quieta mientras los demás seguían andando. Esa es la forma real de la decadencia, y por eso cuesta tanto verla desde dentro.
+
+• Después, la máquina de imprimir: 4.923 % de inflación en 1989, y más de 20.000 % entre marzo de 1989 y marzo de 1990.
+
+• Nueve impagos de deuda soberana desde 1816. El de 2001 —más de 100.000 millones de dólares— fue el mayor de la historia en su momento, corralito incluido.
+
+• Lo que está pasando ahora sí es medible: la inflación mensual bajó del 25,5 % de diciembre de 2023 al 2,1 % de julio de 2026, la anual del 211 % al 33,8 %, la pobreza cayó al 28,2 % (mínimo de seis años) y las reservas pasaron de 21.000 a más de 50.000 millones de dólares.
 
 También está lo que juega en contra, y es serio: el paro subió del 5,7 % al 7,8 %, la previsión de crecimiento para 2026 bajó del 3,5 % al 2,7 %, y sobre todo Argentina ya había hecho esto antes. En 1991 ató su moneda al dólar, la inflación desapareció durante diez años, se escribieron mil artículos diciendo que por fin lo había entendido, y terminó en el corralito y en el mayor impago de la historia.
 
+La pregunta útil no es si baja la inflación. Es si ha cambiado lo de debajo.
+
 CAPÍTULOS
 0:00 El país más rico del mundo
-1:06 Lo que vamos a ver
+1:06 Las tres cosas que vamos a ver
 1:23 De qué estaba hecha aquella riqueza
 2:29 La grieta que ya estaba en 1895
 3:59 La caída, medida y fechada
@@ -74,7 +95,7 @@ argentina, economia argentina, por que argentina es pobre, inflacion argentina, 
 
 ## Comprobación posterior al render
 
-Cero escenas cayeron a tipografía con la búsqueda en inglés. Es el primer guion
-escrito entero bajo el `textoDeRepuesto` de `scripts/clips.mjs` y la regla del
-sujeto en `scripts/revisar.mjs`, así que era el primer examen de verdad de las
-dos correcciones. Lo pasó.
+Cero escenas cayeron a tipografía con la búsqueda en inglés. Argentina fue el
+primer guion escrito entero bajo el `textoDeRepuesto` de `scripts/clips.mjs` y
+la regla del sujeto en `scripts/revisar.mjs`, así que era el primer examen de
+verdad de las dos correcciones. Lo pasó.
