@@ -99,8 +99,13 @@ jobs:
           fi
           node scripts/tts.mjs "content/${{ inputs.video }}.json"
 
+      # `always()` a proposito: si "Locutar" se cae a mitad, los planos que ya
+      # se sintetizaron estan pagados y el mp3 esta en disco. Sin esto, el
+      # trabajo muere sin hacer commit y ese dinero se tira. El script salta
+      # los planos que ya tienen audio, asi que el siguiente intento continua
+      # donde se quedo en vez de pagar otra vez desde el principio.
       - name: Guardar los audios en el repositorio
-        if: ${{ inputs.solo_contar == false }}
+        if: ${{ always() && inputs.solo_contar == false }}
         run: |
           git config user.name "capital-x-bot"
           git config user.email "actions@github.com"

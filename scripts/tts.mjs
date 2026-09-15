@@ -90,6 +90,18 @@ const durationOf = (file) =>
  * Sin esto, un identificador equivocado se descubre despues de haber gastado
  * miles de creditos con la voz que no era.
  */
+/**
+ * Creditos que quedan en la cuenta.
+ *
+ * Sin esto, quedarse sin saldo a mitad de locucion mata el trabajo despues de
+ * haber pagado media: paso con el Miercoles Negro, que murio en el plano que
+ * cruzo el cero. Consultarlo antes es gratis.
+ */
+async function creditos() {
+  const r = await api("/v3/credits");
+  return typeof r.credits === "number" ? r.credits : null;
+}
+
 async function comprobarVoz(voiceId, nombreEsperado) {
   const r = await api("/v3/voices?provider=clone");
   if (!r.success) throw new Error("no se pudo consultar la lista de voces: " + JSON.stringify(r));
@@ -146,6 +158,32 @@ async function main() {
   const chars = planos.reduce((n, p) => n + p.vo.length, 0);
   console.log(`${planos.length} planos · ${chars} caracteres`);
   console.log(`voz: ${voz.name} (${voz.voice_id}) · ${voz.language ?? "?"}`);
+
+  // Lo que falta por locutar, no el guion entero: si ya hay audio de la mitad
+  // de los planos, solo se paga el resto.
+  const faltan = planos.filter(
+    (p) => !(timings[p.id]?.audio && fs.existsSync(path.join("public", timings[p.id].audio)))
+  );
+  const necesita = Math.round(faltan.reduce((n, p) => n + p.vo.length, 0) * 1.46);
+  const saldo = await creditos();
+  console.log(
+    `quedan ${faltan.length} planos por locutar · hacen falta unos ${necesita} creditos` +
+      (saldo === null ? "" : ` · en la cuenta hay ${saldo}`)
+  );
+  if (saldo !== null && necesita > saldo) {
+    throw new Error(
+      [
+        `Saldo insuficiente en ai33.`,
+        `  hacen falta:  ${necesita} creditos`,
+        `  disponibles:  ${saldo}`,
+        `  faltan:       ${necesita - saldo}`,
+        ``,
+        `No se ha sintetizado nada. Recarga la cuenta y vuelve a lanzar:`,
+        `el script salta los planos que ya tengan audio, asi que no se paga`,
+        `dos veces por lo mismo.`,
+      ].join("\n")
+    );
+  }
   if (dry) return;
 
   let credits = 0;
