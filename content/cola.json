@@ -70,6 +70,10 @@
     {
       "slug": "petrodolar",
       "titulo": "El Mayor Shock Petrolero De La Historia Acaba De Pasar. El Dólar Subió"
+    },
+    {
+      "slug": "soros-1992",
+      "titulo": "Soros Quebró El Banco De Inglaterra. En Realidad Fue Alemania"
     }
   ],
   "cola": [
@@ -135,13 +139,6 @@
       "angulo": "2008 contado desde el único sitio donde acabó distinto: cuántos condenados, cuántos años, y qué pasó después con la economía.",
       "region": "europa",
       "pais": "islandia"
-    },
-    {
-      "slug": "soros-1992",
-      "titulo": "El Hombre Que Quebró El Banco De Inglaterra",
-      "angulo": "Miércoles Negro, 16 de septiembre de 1992. Historia con villano, cara y fecha: cuánto ganó Soros, cuánto perdió el Tesoro británico, y el mecanismo del ataque a la libra.",
-      "region": "europa",
-      "pais": "reinounido"
     },
     {
       "slug": "turquia",

@@ -1,0 +1,2396 @@
+{
+  "slug": "soros-1992",
+  "titulo": "Soros Quebró El Banco De Inglaterra. En Realidad Fue Alemania",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "frio.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Nueve horas de septiembre",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "A las diez y media de la mañana del dieciséis de septiembre de mil novecientos noventa y dos, el gobierno británico subió el tipo de interés del diez al doce por ciento.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician man portrait suit nineties",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "10:30",
+                "titular": "Del diez al doce por ciento",
+                "apoyo": "Primera subida del día. Y no fue la última.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "london city street nineties archive",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "clerk man portrait desk telephone nineties",
+                "titular": "Y todavía era por la mañana",
+                "apoyo": "Quedaban ocho horas y media de jornada.",
+                "icono": "reloj",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Aquello no funcionó. Por la tarde anunciaron que lo subirían otra vez, hasta el quince. Tampoco funcionó. El dinero seguía saliendo de la libra a la misma velocidad.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Tipo de interés británico ese día",
+                "series": [
+                  {
+                    "nombre": "Tipo base",
+                    "tono": "carmin",
+                    "sufijo": " %",
+                    "puntos": [
+                      [
+                        "mañana",
+                        10
+                      ],
+                      [
+                        "10:30",
+                        12
+                      ],
+                      [
+                        "tarde",
+                        15
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "Tres niveles distintos en una sola jornada"
+              },
+              "fuente": "Banco de Inglaterra · 16 de septiembre de 1992",
+              "rotulo": {
+                "kicker": "En nueve horas",
+                "texto": "Del 10 al *15 por ciento*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "trading floor panic phones shouting",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "A las siete de la tarde, el ministro de Economía salió a la puerta del Tesoro y anunció que el Reino Unido abandonaba el mecanismo de cambios europeo. Se había acabado.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait press statement doorway night",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "19:00",
+                "titular": "Se acabó",
+                "apoyo": "El Reino Unido abandona el mecanismo de cambios europeo.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government building door night reporters",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "television news archive broadcast old",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Y al día siguiente el tipo de interés volvió al diez por ciento, donde había empezado. Tres decisiones de política monetaria en nueve horas, y todas quedaron en nada.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL VIAJE DE IDA Y VUELTA",
+              "fuente": "Banco de Inglaterra · 16 y 17 de septiembre de 1992",
+              "barras": {
+                "unidad": "Tipo de interés, por ciento",
+                "datos": [
+                  {
+                    "etiqueta": "Antes",
+                    "valor": 10,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Durante",
+                    "valor": 15,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Al día siguiente",
+                    "valor": 10,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "clock hands spinning fast time",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Ese día un hombre ganó más de mil millones de libras apostando contra la moneda británica. Desde entonces lo llaman el hombre que quebró el Banco de Inglaterra.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE GANÓ EN UN DÍA",
+              "fuente": "Estimaciones del Quantum Fund",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1000,
+                "etiqueta": "millones de libras",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "pound sterling banknotes close up",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly financier man portrait glasses",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "El hombre que quebró el banco",
+                "apoyo": "Mil millones de libras en una sola jornada.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Es una historia perfecta. Un solo hombre contra un banco central de trescientos años. Y en la parte que importa, es falsa.",
+          "voz": {
+            "speed": 0.92
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Historia perfecta. *Y falsa.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank of england building facade columns",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b0-07",
+          "vo": "Y no fue solo la libra. Ese mismo día la lira italiana salió del sistema, y Suecia llegó a poner su tipo de interés a un día en el quinientos por ciento para defender su moneda.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TIPO A UN DÍA EN SUECIA · SEPTIEMBRE DE 1992",
+              "fuente": "Riksbank",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 500,
+                "etiqueta": "por ciento anual",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stockholm city winter archive",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Por que Reino Unido se ato",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Para ver por qué, hay que retroceder dos años. En octubre de mil novecientos noventa, el Reino Unido entró en el mecanismo de cambios europeo a dos coma noventa y cinco marcos por libra.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LA PARIDAD DE ENTRADA · OCTUBRE DE 1990",
+              "fuente": "Mecanismo de cambios europeo",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 2.95,
+                "etiqueta": "marcos alemanes por libra",
+                "decimales": 2
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "deutsche mark banknotes vintage",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait signing treaty",
+                "titular": "Atarse y no poder soltarse",
+                "apoyo": "Entrar fue una decisión. Salir, una humillación.",
+                "icono": "candado",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "El mecanismo funcionaba así: cada moneda tenía que moverse dentro de una banda estrecha frente a las demás. La libra no podía bajar de dos coma setenta y siete marcos. Ese era el suelo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA BANDA DE LA LIBRA",
+              "fuente": "Mecanismo de cambios europeo",
+              "barras": {
+                "unidad": "Marcos por libra",
+                "datos": [
+                  {
+                    "etiqueta": "Paridad central",
+                    "valor": 2.95,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Suelo",
+                    "valor": 2.773,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tightrope walker balance rope",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "banker man portrait office nineties",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "2,773",
+                "titular": "El suelo que no se podía cruzar",
+                "apoyo": "Por debajo de ahí, el Banco de Inglaterra tenía que intervenir.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "¿Y por qué se ató el Reino Unido a eso? Por una razón que en su momento parecía sensata: para importar la credibilidad del Bundesbank y matar su propia inflación por contagio.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "reinounido",
+                  "alemania"
+                ]
+              },
+              "kicker": "ATARSE AL MARCO PARA IMPORTAR DISCIPLINA",
+              "fuente": "Mecanismo de cambios europeo · 1990"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "frankfurt skyline banks germany",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "El razonamiento era: si me ato a la moneda del país que mejor controla los precios de Europa, los mercados me creerán a mí también. Prestado el prestigio, prestada la disciplina.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chain links metal strong close up",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait central bank germany",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Prestigio prestado",
+                "apoyo": "Atarse al marco para que los mercados te crean a ti.",
+                "icono": "balanza"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german factory precision engineering",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "Lo que nadie calculó es que atarse a un banco central extranjero significa aceptar que resuelva sus problemas, no los tuyos. Y Alemania estaba a punto de tener un problema enorme.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Atarte a otro es aceptar *sus* problemas.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "berlin wall crowd historic archive",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "El problema era aleman",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "En octubre de mil novecientos noventa, tres días antes de que la libra entrara en el mecanismo, Alemania se reunificó. Y reunificar un país cuesta dinero. Muchísimo dinero.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "crowd people celebration historic germany",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "1990",
+                "titular": "Alemania se reunifica",
+                "apoyo": "Tres días antes de que la libra entrara en el mecanismo.",
+                "icono": "persona"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "east germany buildings old grey",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "builder portrait construction site helmet",
+                "titular": "Reconstruir un país entero",
+                "apoyo": "Carreteras, fábricas, pensiones y salarios. Todo a la vez.",
+                "icono": "fabrica",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "El gobierno alemán se puso a reconstruir la antigua Alemania del Este a base de gasto público. Carreteras, fábricas, pensiones, salarios. Todo a la vez y todo pagado con deuda.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "construction site cranes rebuilding city",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "road construction machinery workers",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Eso genera inflación, y el Bundesbank tenía una sola obsesión desde los años veinte: que en Alemania no vuelva a haber inflación nunca. Así que hizo lo único que sabe hacer un banco central.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "vintage hyperinflation money archive",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "central banker man portrait stern formal",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Una sola obsesión",
+                "apoyo": "Que en Alemania no vuelva a haber inflación. Nunca.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "El dieciséis de julio de mil novecientos noventa y dos, el Bundesbank subió su tipo de descuento al ocho coma setenta y cinco por ciento. El más alto en cuarenta y siete años.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TIPO DE DESCUENTO ALEMÁN · JULIO DE 1992",
+              "fuente": "Bundesbank",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 8.75,
+                "etiqueta": "por ciento, el más alto en 47 años",
+                "decimales": 2,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bundesbank building frankfurt exterior",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist man portrait germany office",
+                "titular": "El más alto en 47 años",
+                "apoyo": "El Bundesbank no estaba gestionando Europa.",
+                "icono": "sube",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Estados Unidos protestó. La Comunidad Europea protestó. El Bundesbank se encogió de hombros y siguió. No estaba gestionando Europa: estaba gestionando Alemania, que era su trabajo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "A QUIÉN LE RENDÍA CUENTAS EL BUNDESBANK",
+              "fuente": "Mandato del Bundesbank",
+              "barras": {
+                "unidad": "Responsabilidad",
+                "datos": [
+                  {
+                    "etiqueta": "Alemania",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "El resto de Europa",
+                    "valor": 0,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty meeting room chairs table",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician woman portrait protest podium",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Las protestas no sirvieron",
+                "apoyo": "Washington y Bruselas pidieron bajadas. Fráncfort siguió.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Y ahí está el nudo entero de esta historia. En el mecanismo europeo, si Alemania subía tipos, todos los demás tenían que subirlos también o su moneda se hundía.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Si Alemania subía, *subían todos*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dominoes row falling chain",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "La trampa britanica",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Y el Reino Unido, en mil novecientos noventa y dos, estaba en recesión. El paro subiendo, las empresas cerrando, el mercado inmobiliario desplomado. Necesitaba tipos más bajos, no más altos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "unemployed man portrait queue nineties",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Recesión, paro y casas sin vender",
+                "apoyo": "Justo cuando el mecanismo exigía subir los tipos.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed shop boarded window street",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Así que aquí tienes la trampa completa. La economía británica pedía a gritos dinero barato, y el compromiso europeo la obligaba a hacer exactamente lo contrario.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE PEDÍA CADA UNO",
+              "fuente": "Situación británica y exigencia del mecanismo",
+              "barras": {
+                "unidad": "Dirección de los tipos",
+                "datos": [
+                  {
+                    "etiqueta": "La economía pedía",
+                    "valor": -100,
+                    "tono": "verde"
+                  },
+                  {
+                    "etiqueta": "El mecanismo exigía",
+                    "valor": 100,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tug of war rope opposite directions",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Estaba usando la política monetaria de otro país para resolver un problema que ese país no tenía. Y esa contradicción no se sostiene, se paga. Solo faltaba saber cuándo y cuánto.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cracked wall structure pressure",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dam water pressure structure",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Y eso es lo que vieron los mercados. No una moneda mal gestionada, sino una promesa aritméticamente imposible de cumplir. Cualquiera que supiera sumar podía verlo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No era un ataque. *Era una resta.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calculator numbers hands desk",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Y en el Reino Unido eso se nota en casa el mismo mes, porque casi todas las hipotecas eran a tipo variable. Cada punto que subía el Banco de Inglaterra aparecía en el recibo de millones de familias.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "family portrait kitchen table bills nineties",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "En el recibo del mes siguiente",
+                "apoyo": "Casi todas las hipotecas británicas eran a tipo variable.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "suburban houses street britain rows",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "La frase que abrio la puerta",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "El catorce de septiembre, dos días antes del desastre, el Bundesbank hizo un gesto. Recortó uno de sus tipos. Poco, pero lo recortó. Los mercados de medio mundo subieron de alegría.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock market screens green rising",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "trader man portrait celebrating floor",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "14 sep",
+                "titular": "El gesto que llegó tarde",
+                "apoyo": "Un recorte pequeño. Los mercados lo celebraron dos días.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper financial pages headlines",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Pero esa misma noche, el presidente del Bundesbank habló con la prensa alemana y dijo algo que no debía salir. Que hacía falta un realineamiento de monedas más amplio.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait interview journalist night",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Una frase de más",
+                "apoyo": "Hacía falta un realineamiento de monedas más amplio.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "printing press newspaper rolling night",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Traducido: las paridades actuales no se sostienen y alguien va a tener que devaluar. Dicho por el hombre que decidía los tipos de la moneda ancla de todo el sistema.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Traducción: *alguien va a devaluar*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "megaphone announcement sound waves",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Él sostuvo después que había hablado en confianza y que no esperaba que se publicara. Da igual. Se publicó, y el mercado entendió perfectamente lo que significaba.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspapers stack morning delivery",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "phones ringing office desks busy",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Que hizo Soros de verdad",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Y ahora sí, el famoso especulador. Lo que hizo no fue adivinar el futuro ni conspirar con nadie. Fue leer la misma aritmética que estaba a la vista de todo el mundo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "investor man portrait thinking office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No adivinó nada",
+                "apoyo": "Leyó una aritmética que estaba a la vista de cualquiera.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chart graph paper analysis desk",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Su fondo llevaba semanas construyendo una posición corta enorme contra la libra. En cristiano: pedir libras prestadas, venderlas, y esperar a recomprarlas más baratas cuando cayeran.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "money changing hands transaction",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "trader man portrait phone order",
+                "titular": "Pedir prestado y vender",
+                "apoyo": "Recomprar más barato cuando caiga. Eso es todo.",
+                "icono": "baja",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Y no estaba solo. Muchísimos operadores hicieron lo mismo, porque la operación era obvia. Él simplemente apostó más fuerte que nadie y aguantó más tiempo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "CUÁNTOS ESTABAN HACIENDO LO MISMO",
+              "fuente": "Crónicas del mercado de divisas, septiembre de 1992",
+              "gente": {
+                "total": 60,
+                "destacados": 1,
+                "escala": 0.8,
+                "etiqueta": "Operadores vendiendo libras",
+                "etiquetaDestacados": "El que salió en la portada"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowded trading floor many traders",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "El Banco de Inglaterra se pasó el día comprando libras con sus reservas para sostener el suelo. Miles de millones de marcos, gastados en unas horas, contra un mercado infinitamente más grande.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA DEFENSA IMPOSIBLE",
+              "fuente": "Banco de Inglaterra · 16 de septiembre de 1992",
+              "barras": {
+                "unidad": "Fuerza relativa",
+                "datos": [
+                  {
+                    "etiqueta": "Reservas del banco",
+                    "valor": 12,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "El mercado",
+                    "valor": 100,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bucket water flood overwhelmed",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Un banco central tiene reservas finitas. El mercado de divisas no tiene fondo. Esa pelea está decidida antes de empezar, y lo estaba también aquel miércoles.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Reservas finitas contra *un mercado sin fondo*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ocean waves vast horizon",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "Y conviene entender qué significa defender una moneda, porque suena heroico y es aritmética. El banco central compra su propia moneda con las reservas que tiene en divisa extranjera.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank counter exchange transaction hands",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "bank official woman portrait counter",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Defender es comprar",
+                "apoyo": "Cada libra que compra el banco es una libra que alguien le vende.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Lo que costo de verdad",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Durante años se dijo que aquel día le costó al contribuyente británico veintisiete mil millones de libras. Esa cifra se repitió en periódicos, libros y documentales durante más de una década.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "library archive newspapers stacked",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait reading newspaper serious",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "27.000 M",
+                "titular": "La cifra que todos repetían",
+                "apoyo": "Durante más de una década. Y estaba mal.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "documentary film reel archive",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "En febrero de dos mil cinco, el Tesoro británico tuvo que abrir sus papeles por una petición de transparencia. Y la cifra real era otra: tres mil trescientos millones de libras.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "COSTE REAL SEGÚN EL TESORO · 2005",
+              "fuente": "Documentos liberados bajo la ley de transparencia",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 3300,
+                "etiqueta": "millones de libras",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government archive files opening",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "archivist woman portrait files boxes",
+                "titular": "Los papeles que tuvieron que abrir",
+                "apoyo": "Febrero de 2005, por una petición de transparencia.",
+                "icono": "documento",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Ocho veces menos de lo que se contaba. Y de esa cantidad, las pérdidas de las operaciones de agosto y septiembre fueron unos ochocientos millones. El resto era otra cosa.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL MITO CONTRA EL DOCUMENTO",
+              "fuente": "Tesoro británico · estimaciones de 1997 y 2005",
+              "barras": {
+                "unidad": "Millones de libras",
+                "datos": [
+                  {
+                    "etiqueta": "Lo que se decía",
+                    "valor": 27000,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Lo que costó",
+                    "valor": 3300,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "scales balance weights comparison",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "accountant man portrait documents ledger",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Ocho veces menos",
+                "apoyo": "Y las pérdidas de operaciones fueron unos 800 millones.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Es una cantidad seria, no la estoy minimizando. Pero no es la ruina nacional que cuenta la leyenda, y la diferencia entre las dos cifras es justo el tamaño del mito.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La diferencia entre las cifras *es el mito*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "fog clearing landscape revealing",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y hay un detalle que dice mucho de cómo funciona un mito. Esa cifra de veintisiete mil millones nunca salió de un documento oficial: salió de sumar mal cosas que no se suman.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "journalist man portrait typewriter desk",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Nunca salió de un documento",
+                "apoyo": "Salió de sumar mal cosas que no se suman.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calculator paper tape numbers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y ahora la parte que estropea lo que llevo dicho, porque decir que la culpa fue de Alemania es demasiado cómodo y no es del todo justo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Lo que juega *en contra* de esta tesis.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "storm clouds dark gathering",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Nadie obligó al Reino Unido a entrar. Y nadie le obligó a entrar a dos coma noventa y cinco marcos, una paridad que bastantes economistas consideraban demasiado alta ya en el momento de firmarla.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist man portrait warning lecture",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "2,95",
+                "titular": "Ya lo avisaron entonces",
+                "apoyo": "Bastantes economistas dijeron que esa paridad era demasiado alta.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "signing document official ceremony",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Entrar caro significa que tu industria exporta cara desde el primer día. La trampa no la puso solo el Bundesbank: una parte la firmó Londres con su propia mano.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "british factory workers production nineties",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty industrial hall closed plant",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Y el coste de verdad no fue el de los tres mil trescientos millones. Fue el de las hipotecas al doce por ciento, las empresas que no llegaron al invierno y el paro de aquella recesión.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worried couple portrait kitchen bills",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "El coste no salió en la contabilidad",
+                "apoyo": "Hipotecas al 12 %, empresas cerradas, paro. Eso no se liberó en 2005.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "repossession sign house for sale",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Y hubo un coste político que duró décadas. El partido que gobernaba perdió aquel día su fama de saber manejar la economía, y tardó dieciocho años en volver a gobernar en solitario.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE TARDÓ EN VOLVER EL PARTIDO DE GOBIERNO",
+              "fuente": "Resultados electorales británicos",
+              "barras": {
+                "unidad": "Años fuera del gobierno",
+                "datos": [
+                  {
+                    "etiqueta": "Desde 1992",
+                    "valor": 18,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "polling station voters queue britain",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Veintitres dias despues",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Y aquí viene el giro que casi nadie cuenta, porque estropea la moraleja. Veintitrés días después del peor día de la economía británica pasó algo importante.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sunrise city skyline morning",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait calendar office wall",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "23 días",
+                "titular": "El giro que estropea la moraleja",
+                "apoyo": "Del peor día de la economía británica a lo que vino después.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "El nueve de octubre de mil novecientos noventa y dos, el Reino Unido adoptó los objetivos de inflación. Por primera vez su política monetaria se basaba en una cifra propia, no en un tipo de cambio ajeno.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "central banker man portrait speech podium",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "9 oct 1992",
+                "titular": "Una cifra propia",
+                "apoyo": "Por primera vez, la política monetaria dejó de mirar a Fráncfort.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank of england interior hall",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Y desde ahí empezó el periodo de crecimiento más largo de la historia británica registrada. Casi dieciséis años seguidos. Sesenta y tres trimestres sin una sola caída, hasta dos mil ocho.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Trimestres consecutivos de crecimiento",
+                "series": [
+                  {
+                    "nombre": "Reino Unido",
+                    "tono": "verde",
+                    "puntos": [
+                      [
+                        "1992",
+                        0
+                      ],
+                      [
+                        "2008",
+                        63
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "La expansión más larga registrada en el país"
+              },
+              "fuente": "Oficina Nacional de Estadística británica",
+              "rotulo": {
+                "kicker": "Desde el Miércoles Negro",
+                "texto": "*63 trimestres* sin caer"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "london construction boom skyline growth",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worker portrait building site london boom",
+                "titular": "Y luego vinieron dieciséis años",
+                "apoyo": "63 trimestres seguidos de crecimiento, hasta 2008.",
+                "icono": "sube",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Por eso hay quien lo llama el Miércoles Blanco. No porque el especulador fuera un héroe, sino porque salir de una paridad imposible siempre es mejor que seguir defendiéndola.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Hay quien lo llama el *Miércoles Blanco*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "white light doorway opening bright",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Y la libra, liberada del suelo que la ahogaba, cayó. Las exportaciones británicas se abarataron de golpe y la industria respiró por primera vez en años.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "british factory production line working",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "factory worker portrait smiling britain",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La industria respiró",
+                "apoyo": "Sin el suelo que la ahogaba, la libra cayó y exportar salió barato.",
+                "icono": "fabrica"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo ship leaving port export",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bE",
+      "nombre": "Lo que le paso a Espana",
+      "planos": [
+        {
+          "id": "bE-01",
+          "vo": "Y ahora quítate de la cabeza que esto fue una anécdota británica, porque España estaba metida en la misma trampa y la pagó más veces que nadie.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "espana",
+                  "reinounido",
+                  "italia"
+                ]
+              },
+              "kicker": "LOS QUE ESTABAN EN LA MISMA TRAMPA",
+              "fuente": "Sistema Monetario Europeo · 1992"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "madrid street nineties archive spain",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "bE-02",
+          "vo": "El diecisiete de septiembre, al día siguiente del Miércoles Negro, España devaluó la peseta un cinco por ciento. La lira italiana ya había salido del sistema junto con la libra.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "spanish official man portrait government nineties",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "17 sep",
+                "titular": "Primera devaluación",
+                "apoyo": "Un 5 %, al día siguiente de la caída de la libra.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "peseta coins spanish currency old",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "bE-03",
+          "vo": "El veintiuno de noviembre hubo que devaluarla otra vez, un seis por ciento más. Y el trece de mayo del año siguiente, una tercera, del ocho por ciento.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LAS TRES DEVALUACIONES DE LA PESETA",
+              "fuente": "Banco de España · 1992 y 1993",
+              "barras": {
+                "unidad": "Por ciento de devaluación",
+                "datos": [
+                  {
+                    "etiqueta": "17 sep 1992",
+                    "valor": 5,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "21 nov 1992",
+                    "valor": 6,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "13 may 1993",
+                    "valor": 8,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper spanish archive economy",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "bE-04",
+          "vo": "Tres devaluaciones en nueve meses. Entre el uno de septiembre de mil novecientos noventa y dos y el veinte de mayo de mil novecientos noventa y tres, la peseta perdió un catorce coma ocho por ciento frente al marco.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE PERDIÓ LA PESETA FRENTE AL MARCO",
+              "fuente": "Funcas · septiembre de 1992 a mayo de 1993",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 14.8,
+                "etiqueta": "por ciento en nueve meses",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "falling graph line down red",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worried shopkeeper man portrait spain",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "14,8 %",
+                "titular": "Tres veces en nueve meses",
+                "apoyo": "Lo que perdió la peseta frente al marco alemán.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bE-05",
+          "vo": "Y aquello no fue gratis. España entró en la peor recesión desde la Transición, con el paro disparado y una destrucción de empleo que tardó años en revertirse.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "unemployment office queue spain nineties",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed factory gates industrial spain",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "bE-06",
+          "vo": "Con una diferencia que conviene retener para lo que viene ahora. España pudo devaluar. Le dolió, pero pudo. La peseta bajó y las exportaciones españolas se abarataron de golpe.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Le dolió. Pero *pudo devaluar*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo port spain export containers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y ahora la parte que te toca, porque esto no es una anécdota británica de hace treinta y cuatro años. Es exactamente la discusión que tenemos hoy aquí.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "espana",
+                  "italia",
+                  "grecia"
+                ]
+              },
+              "kicker": "LA MISMA DISCUSIÓN, OTRA MONEDA",
+              "fuente": "Zona euro"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro coins currency close up",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "El euro es, en el fondo, el mismo mecanismo que hizo saltar la libra. Un tipo de interés común para economías que no van al mismo ritmo, decidido en Fráncfort.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official woman portrait european institution",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Un tipo para todos",
+                "apoyo": "Decidido en Fráncfort, igual que en 1992.",
+                "icono": "balanza"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european central bank building frankfurt",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait bank teller euro",
+                "titular": "El mismo sistema, otra moneda",
+                "apoyo": "Un tipo de interés común para economías distintas.",
+                "icono": "balanza",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Con una diferencia que lo cambia todo. Del mecanismo de cambios se podía salir en una tarde, como hizo el Reino Unido. Del euro no.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA DIFERENCIA QUE LO CAMBIA TODO",
+              "fuente": "Mecanismo de cambios frente a unión monetaria",
+              "barras": {
+                "unidad": "Facilidad de salida",
+                "datos": [
+                  {
+                    "etiqueta": "Mecanismo de 1992",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Euro",
+                    "valor": 4,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "one way door exit sign",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Y cuando una moneda no encaja con tu economía, el ajuste lo paga alguien. En el mecanismo lo pagaba el tipo de cambio: la libra caía y se acababa el problema en una noche.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "pressure valve steam release industrial",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "currency board rates changing numbers",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "En el euro no existe esa válvula. Así que el ajuste se hace por dentro: bajando salarios, subiendo el paro y esperando años a que los precios se recoloquen solos. Se llama devaluación interna.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worker portrait factory tired spain",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Devaluación interna",
+                "apoyo": "Sin válvula de tipo de cambio, el ajuste lo pagan los salarios.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "job centre queue people waiting",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Y contra eso no puede apostar ningún especulador, porque no hay nada que vender. No hay un miércoles negro que te avise de golpe. Hay diez años de sueldos que no suben.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No hay miércoles negro. Hay *diez años*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar pages years passing slow",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Así que la próxima vez que oigas que un hombre quebró el Banco de Inglaterra, ya sabes qué falta en esa frase. El banco no lo quebró nadie: estaba defendiendo algo que no se podía defender.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait bank building historic",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Nadie lo quebró",
+                "apoyo": "Defendía algo que la aritmética no permitía defender.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old bank vault door heavy historic",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "El especulador no creó la grieta. Solo apostó a que existía, y tenía razón. La grieta la habían abierto entre la reunificación alemana y una paridad que Londres eligió demasiado alta.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "QUIÉN ABRIÓ LA GRIETA",
+              "fuente": "Reconstrucción de la crisis de 1992",
+              "barras": {
+                "unidad": "Peso en el desenlace",
+                "datos": [
+                  {
+                    "etiqueta": "Reunificación alemana",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "La paridad elegida",
+                    "valor": 70,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "El especulador",
+                    "valor": 12,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crack in wall widening structure",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "Los relatos con villano son cómodos porque te ahorran entender el mecanismo. Y el mecanismo, en este caso, sigue montado. Solo que ahora se llama euro y no tiene puerta de salida.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El mecanismo *sigue montado*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "machinery gears turning mechanism",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Suscríbete si prefieres saber cómo funciona la máquina antes que a quién echarle la culpa.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Soros Quebró El Banco De Inglaterra. En Realidad Fue Alemania",
+    "descripcion": "A las 10:30 de la mañana del 16 de septiembre de 1992, el gobierno británico subió el tipo de interés del 10 al 12 %. Por la tarde anunció que lo subiría al 15 %. A las siete de la tarde, el ministro de Economía salió a la puerta del Tesoro y anunció que el Reino Unido abandonaba el mecanismo de cambios europeo. Al día siguiente el tipo volvió al 10 %.\n\nTres decisiones de política monetaria en nueve horas, y todas quedaron en nada. Ese día George Soros ganó más de mil millones de libras apostando contra la libra, y desde entonces lo llaman el hombre que quebró el Banco de Inglaterra.\n\nEs una historia perfecta. Y en la parte que importa, es falsa.\n\nDATOS CLAVE\n\n• El Reino Unido entró en el mecanismo en octubre de 1990 a 2,95 marcos por libra, con un suelo de 2,773. La idea era importar la credibilidad antiinflacionista del Bundesbank.\n\n• Tres días antes de esa entrada, Alemania se reunificó. Reconstruir la antigua RDA con gasto público generó inflación, y el Bundesbank hizo lo único que sabe hacer: el 16 de julio de 1992 subió su tipo de descuento al 8,75 %, el más alto en 47 años. Estados Unidos y la Comunidad Europea protestaron. Siguió igual.\n\n• Ahí está el nudo: en el mecanismo, si Alemania subía tipos, todos los demás tenían que subirlos o su moneda se hundía. Y el Reino Unido estaba en recesión, con el paro subiendo y el mercado inmobiliario desplomado. Necesitaba dinero barato y el compromiso le obligaba a lo contrario.\n\n• El 14 de septiembre el presidente del Bundesbank habló con la prensa alemana y mencionó la necesidad de \"un realineamiento de monedas más amplio\". Traducido: alguien va a tener que devaluar. Eso abrió la puerta.\n\n• Soros no adivinó nada ni conspiró con nadie. Leyó una aritmética que estaba a la vista, apostó más fuerte que los demás y aguantó más tiempo. No estaba solo: medio mercado hacía lo mismo.\n\n• Y el coste no fue el que se repitió durante una década. La cifra de 27.000 millones de libras circuló en periódicos, libros y documentales hasta que en febrero de 2005 el Tesoro tuvo que abrir sus papeles por una petición de transparencia: el coste real fueron 3.300 millones. Ocho veces menos.\n\n• Veintitrés días después del desastre, el 9 de octubre de 1992, el Reino Unido adoptó los objetivos de inflación. Y desde ahí empezó el periodo de crecimiento más largo de su historia registrada: casi 16 años, 63 trimestres consecutivos sin una sola caída, hasta 2008. Por eso hay quien lo llama el Miércoles Blanco.\n\nEl vídeo incluye lo que juega en contra de la tesis: nadie obligó a Londres a entrar, ni a entrar a 2,95, una paridad que bastantes economistas consideraban demasiado alta ya entonces. Y el coste de verdad no fueron los 3.300 millones, sino las hipotecas al 12 %, las empresas que no llegaron al invierno y el paro de aquella recesión.\n\nY termina donde importa: el euro es el mismo mecanismo, con una diferencia. Del sistema de 1992 se podía salir en una tarde. Del euro no. Cuando una moneda no encaja, el ajuste lo paga alguien: allí lo pagaba el tipo de cambio en una noche; aquí lo pagan los salarios durante diez años. Y contra eso no puede apostar ningún especulador, porque no hay nada que vender.\n\nFUENTES\nBanco de Inglaterra — cronología del 16 de septiembre de 1992 y tipos de interés\nTesoro británico — documentos liberados en 2005 bajo la ley de transparencia\nBundesbank — tipo de descuento de julio de 1992\nOficina Nacional de Estadística británica — la expansión de 1992 a 2008\nHemeroteca de 1992 — Los Angeles Times, The New York Times y Christian Science Monitor\nDiscurso de Mervyn King sobre los veinte años de objetivos de inflación\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#MiércolesNegro #Soros #Economía",
+    "etiquetas": [
+      "miercoles negro",
+      "black wednesday",
+      "soros",
+      "banco de inglaterra",
+      "libra esterlina",
+      "1992",
+      "mecanismo de cambios",
+      "sistema monetario europeo",
+      "bundesbank",
+      "reunificacion alemana",
+      "especulacion divisas",
+      "devaluacion",
+      "tipos de interes",
+      "norman lamont",
+      "euro",
+      "devaluacion interna",
+      "zona euro",
+      "crisis monetaria",
+      "historia economica",
+      "objetivos de inflacion",
+      "reino unido economia",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "economia explicada"
+    ]
+  }
+}
