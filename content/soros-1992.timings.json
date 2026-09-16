@@ -1,1 +1,386 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/soros-1992-b0-01.mp3",
+    "duration": 8.907755,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b0-02": {
+    "audio": "voice/soros-1992-b0-02.mp3",
+    "duration": 9.586939,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b0-03": {
+    "audio": "voice/soros-1992-b0-03.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b0-04": {
+    "audio": "voice/soros-1992-b0-04.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b0-05": {
+    "audio": "voice/soros-1992-b0-05.mp3",
+    "duration": 9.377959,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b0-06": {
+    "audio": "voice/soros-1992-b0-06.mp3",
+    "duration": 8.097959,
+    "transcript": null,
+    "credit_cost": 179
+  },
+  "b0-07": {
+    "audio": "voice/soros-1992-b0-07.mp3",
+    "duration": 9.822041,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b1-01": {
+    "audio": "voice/soros-1992-b1-01.mp3",
+    "duration": 10.318367,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b1-02": {
+    "audio": "voice/soros-1992-b1-02.mp3",
+    "duration": 11.572245,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b1-03": {
+    "audio": "voice/soros-1992-b1-03.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b1-04": {
+    "audio": "voice/soros-1992-b1-04.mp3",
+    "duration": 10.945306,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b1-05": {
+    "audio": "voice/soros-1992-b1-05.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b2-01": {
+    "audio": "voice/soros-1992-b2-01.mp3",
+    "duration": 10.631837,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b2-02": {
+    "audio": "voice/soros-1992-b2-02.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b2-03": {
+    "audio": "voice/soros-1992-b2-03.mp3",
+    "duration": 11.441633,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b2-04": {
+    "audio": "voice/soros-1992-b2-04.mp3",
+    "duration": 10.213878,
+    "transcript": null,
+    "credit_cost": 258
+  },
+  "b2-05": {
+    "audio": "voice/soros-1992-b2-05.mp3",
+    "duration": 11.859592,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b2-06": {
+    "audio": "voice/soros-1992-b2-06.mp3",
+    "duration": 9.717551,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b3-01": {
+    "audio": "voice/soros-1992-b3-01.mp3",
+    "duration": 13.00898,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b3-02": {
+    "audio": "voice/soros-1992-b3-02.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b3-03": {
+    "audio": "voice/soros-1992-b3-03.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b3-04": {
+    "audio": "voice/soros-1992-b3-04.mp3",
+    "duration": 10.34449,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b3-05": {
+    "audio": "voice/soros-1992-b3-05.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 292
+  },
+  "b4-01": {
+    "audio": "voice/soros-1992-b4-01.mp3",
+    "duration": 12.617143,
+    "transcript": null,
+    "credit_cost": 266
+  },
+  "b4-02": {
+    "audio": "voice/soros-1992-b4-02.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b4-03": {
+    "audio": "voice/soros-1992-b4-03.mp3",
+    "duration": 9.404082,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b4-04": {
+    "audio": "voice/soros-1992-b4-04.mp3",
+    "duration": 9.769796,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b5-01": {
+    "audio": "voice/soros-1992-b5-01.mp3",
+    "duration": 10.004898,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b5-02": {
+    "audio": "voice/soros-1992-b5-02.mp3",
+    "duration": 11.31102,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b5-03": {
+    "audio": "voice/soros-1992-b5-03.mp3",
+    "duration": 8.803265,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b5-04": {
+    "audio": "voice/soros-1992-b5-04.mp3",
+    "duration": 11.72898,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b5-05": {
+    "audio": "voice/soros-1992-b5-05.mp3",
+    "duration": 10.631837,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "b5-06": {
+    "audio": "voice/soros-1992-b5-06.mp3",
+    "duration": 9.822041,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b6-01": {
+    "audio": "voice/soros-1992-b6-01.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b6-02": {
+    "audio": "voice/soros-1992-b6-02.mp3",
+    "duration": 11.389388,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b6-03": {
+    "audio": "voice/soros-1992-b6-03.mp3",
+    "duration": 9.874286,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b6-04": {
+    "audio": "voice/soros-1992-b6-04.mp3",
+    "duration": 9.142857,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b6-05": {
+    "audio": "voice/soros-1992-b6-05.mp3",
+    "duration": 9.822041,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b7-01": {
+    "audio": "voice/soros-1992-b7-01.mp3",
+    "duration": 8.228571,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b7-02": {
+    "audio": "voice/soros-1992-b7-02.mp3",
+    "duration": 11.075918,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b7-03": {
+    "audio": "voice/soros-1992-b7-03.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b7-04": {
+    "audio": "voice/soros-1992-b7-04.mp3",
+    "duration": 10.475102,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b7-05": {
+    "audio": "voice/soros-1992-b7-05.mp3",
+    "duration": 10.34449,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b8-01": {
+    "audio": "voice/soros-1992-b8-01.mp3",
+    "duration": 9.848163,
+    "transcript": null,
+    "credit_cost": 229
+  },
+  "b8-02": {
+    "audio": "voice/soros-1992-b8-02.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 300
+  },
+  "b8-03": {
+    "audio": "voice/soros-1992-b8-03.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b8-04": {
+    "audio": "voice/soros-1992-b8-04.mp3",
+    "duration": 9.534694,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b8-05": {
+    "audio": "voice/soros-1992-b8-05.mp3",
+    "duration": 9.795918,
+    "transcript": null,
+    "credit_cost": 224
+  },
+  "bE-01": {
+    "audio": "voice/soros-1992-bE-01.mp3",
+    "duration": 8.96,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "bE-02": {
+    "audio": "voice/soros-1992-bE-02.mp3",
+    "duration": 10.187755,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "bE-03": {
+    "audio": "voice/soros-1992-bE-03.mp3",
+    "duration": 9.717551,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "bE-04": {
+    "audio": "voice/soros-1992-bE-04.mp3",
+    "duration": 12.747755,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "bE-05": {
+    "audio": "voice/soros-1992-bE-05.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "bE-06": {
+    "audio": "voice/soros-1992-bE-06.mp3",
+    "duration": 11.41551,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b9-01": {
+    "audio": "voice/soros-1992-b9-01.mp3",
+    "duration": 8.646531,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b9-02": {
+    "audio": "voice/soros-1992-b9-02.mp3",
+    "duration": 10.840816,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b9-03": {
+    "audio": "voice/soros-1992-b9-03.mp3",
+    "duration": 8.359184,
+    "transcript": null,
+    "credit_cost": 192
+  },
+  "b9-04": {
+    "audio": "voice/soros-1992-b9-04.mp3",
+    "duration": 10.44898,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b9-05": {
+    "audio": "voice/soros-1992-b9-05.mp3",
+    "duration": 12.277551,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b9-06": {
+    "audio": "voice/soros-1992-b9-06.mp3",
+    "duration": 10.057143,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b10-01": {
+    "audio": "voice/soros-1992-b10-01.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 278
+  },
+  "b10-02": {
+    "audio": "voice/soros-1992-b10-02.mp3",
+    "duration": 11.937959,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b10-03": {
+    "audio": "voice/soros-1992-b10-03.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b10-04": {
+    "audio": "voice/soros-1992-b10-04.mp3",
+    "duration": 4.728163,
+    "transcript": null,
+    "credit_cost": 131
+  }
+}
