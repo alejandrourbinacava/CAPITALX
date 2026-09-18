@@ -1,0 +1,2271 @@
+{
+  "slug": "yuan-digital",
+  "titulo": "El Dinero Que Caduca Se Inventó En 1932. Funcionó Tan Bien Que Lo Prohibieron",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "elegia.wav",
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Worgl, julio de mil novecientos treinta y dos",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "Hay una cosa que te han contado como el futuro más siniestro que viene: dinero que caduca. Que se te borra si no lo gastas. Quiero enseñarte dónde se inventó eso, porque no fue en un despacho de Pekín.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait holding old banknote vintage",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Dinero que caduca",
+                "apoyo": "Lo cuentan como el futuro. Es de hace noventa y cuatro años.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old alpine town austria archive",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "En julio de mil novecientos treinta y dos, un pueblo austríaco llamado Wörgl empezó a imprimir su propio dinero. Cuatro mil habitantes, en mitad de la Gran Depresión, con un tercio del pueblo sin trabajo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "austria"
+                ]
+              },
+              "kicker": "WÖRGL, TIROL · JULIO DE 1932",
+              "fuente": "Instituto Unterguggenberger"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "depression era unemployed men queue archive",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait small town mayor vintage",
+                "titular": "Cuatro mil habitantes",
+                "apoyo": "Un tercio del pueblo sin trabajo, en mitad de la Gran Depresión.",
+                "icono": "persona",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Emitieron mil seiscientos chelines en vales, en billetes de uno, cinco y diez. Y le pusieron una condición que no tenía ningún otro dinero del mundo: cada mes valía un uno por ciento menos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE PERDÍA CADA MES",
+              "fuente": "Certificados de compensación de Wörgl · 1932",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1,
+                "etiqueta": "por ciento de su valor, cada mes",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "vintage banknote paper texture close",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Trece meses y medio duró aquello. Y en ese tiempo el paro en Wörgl bajó un dieciséis por ciento, mientras en el resto de Austria subía un diecinueve.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PARO DURANTE EL EXPERIMENTO",
+              "fuente": "Instituto Unterguggenberger · 1932-1933",
+              "barras": {
+                "unidad": "Variación, por ciento",
+                "datos": [
+                  {
+                    "etiqueta": "Wörgl",
+                    "valor": -16,
+                    "tono": "verde"
+                  },
+                  {
+                    "etiqueta": "Resto de Austria",
+                    "valor": 19,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "workers building road nineteen thirties",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "worker portrait vintage thirties cap",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "13,5",
+                "titular": "Meses que duró",
+                "apoyo": "El paro bajó aquí mientras subía en todo el país.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "La prensa austríaca lo llamó el milagro de Wörgl. Venían delegaciones de media Europa a verlo. Y en septiembre de mil novecientos treinta y tres el banco central lo prohibió.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait stern archive thirties",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "1933",
+                "titular": "El banco central lo prohibió",
+                "apoyo": "No porque fallara. Justo lo contrario.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old newspaper archive headlines german",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Y ese es el vídeo. Porque el dinero que caduca no es una distopía que viene. Es un invento de la Gran Depresión que funcionó demasiado bien.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No es el futuro. *Es 1932.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "clock face old mechanism ticking",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "El sello de cada mes",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Vamos a ver primero cómo funcionaba, porque el mecanismo es de una sencillez que da risa y no necesita ni ordenadores ni bases de datos.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "postage stamps sheet vintage close up",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "clerk man portrait stamping document",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Sin ordenadores ni bases de datos",
+                "apoyo": "Un sello de papel pegado cada mes. Eso era todo.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Cada billete llevaba doce casillas en el reverso, una por mes. El último día de cada mes había que comprar un sello que costaba el uno por ciento del valor y pegarlo en la casilla.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hands holding paper certificate stamps",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "counter shop vintage cash register",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Si no lo pegabas, el billete dejaba de valer. Así que el que lo tenía en el bolsillo el día treinta tenía dos opciones: pagar por guardarlo, o gastarlo antes.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LAS DOS OPCIONES DEL QUE LO TENÍA",
+              "fuente": "Mecánica del dinero con sello",
+              "barras": {
+                "unidad": "Coste de cada decisión",
+                "datos": [
+                  {
+                    "etiqueta": "Guardarlo",
+                    "valor": 1,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Gastarlo",
+                    "valor": 0,
+                    "tono": "verde"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty wallet hands decision",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait counting coins shop vintage",
+                "titular": "Guardar costaba dinero",
+                "apoyo": "Por primera vez, esperar era la opción cara.",
+                "icono": "moneda",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "La idea no era suya. Venía de un economista alemán, Silvio Gesell, que llevaba treinta años diciendo que el problema del dinero es que se puede guardar sin coste mientras las cosas que compra se pudren.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist man portrait beard vintage",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "La idea era de Silvio Gesell",
+                "apoyo": "El dinero se guarda gratis. El pan, el grano y las casas, no.",
+                "icono": "persona"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "grain sacks warehouse old storage",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "Su argumento era ese. El trigo se pudre, la casa hay que repararla, la máquina se oxida. El dinero es lo único que puedes meter en un cajón y sacar intacto diez años después. Y eso, decía, no es neutral.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Todo se estropea. *El dinero no.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rusting machinery abandoned decay",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Por que funciono",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Y aquí está la razón de que aquello funcionara, que no tiene nada de mágica. En una depresión el dinero no desaparece: se esconde. La gente deja de gastar, y al dejar de gastar, deja sin ingresos al de al lado.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed shop shutters empty street",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "shopkeeper man portrait empty shop vintage",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "El dinero no se va: se esconde",
+                "apoyo": "Y el que deja de gastar deja sin ingresos al de al lado.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "El sello daba la vuelta a ese incentivo de golpe. Guardar costaba dinero. Así que en cuanto cobrabas, corrías a gastarlo, y el que te lo vendía corría a gastarlo otra vez.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "busy market stalls people buying vintage",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hands exchanging money market",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Y esa es la medición que de verdad importa de todo el experimento. Aquellos vales circularon entre nueve y diez veces más rápido que el chelín austríaco normal.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "VELOCIDAD DE CIRCULACIÓN",
+              "fuente": "Instituto Unterguggenberger",
+              "barras": {
+                "unidad": "Veces más rápido",
+                "datos": [
+                  {
+                    "etiqueta": "Chelín normal",
+                    "valor": 1,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Vales de Wörgl",
+                    "valor": 9.5,
+                    "tono": "verde"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "fast motion crowd street blur",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Diez veces más rápido significa que los mismos mil seiscientos chelines hacían el trabajo de dieciséis mil. No imprimieron más dinero. Hicieron que el poco que había no se parara nunca.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE SE EMITIÓ EN TOTAL",
+              "fuente": "Certificados de compensación de Wörgl",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1600,
+                "etiqueta": "chelines, en billetes de 1, 5 y 10",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "water wheel turning river motion",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "engineer portrait water wheel mill",
+                "titular": "El mismo dinero, diez veces",
+                "apoyo": "1.600 chelines haciendo el trabajo de dieciséis mil.",
+                "icono": "sube",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Es la diferencia entre tener más agua y hacer que el agua deje de estar quieta. En una depresión no falta dinero. Falta que se mueva.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No faltaba dinero. *Faltaba movimiento.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "still pond stagnant water surface",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Lo que se construyo",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Y con eso hicieron cosas que siguen en pie. El ayuntamiento pagaba a los parados con esos vales para obras públicas, y los comercios los aceptaban porque el propio ayuntamiento los admitía para pagar impuestos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "mayor man portrait town hall vintage",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "El truco que lo sostenía",
+                "apoyo": "El ayuntamiento los aceptaba para pagar impuestos. Por eso valían.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old town hall building alpine",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Pavimentaron calles. Hicieron la canalización del pueblo. Levantaron el puente de Müllnertal, que sigue ahí. Y abrieron una pista de esquí en febrero de mil novecientos treinta y tres.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stone bridge alpine river old",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "builder portrait bridge construction vintage",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "1933",
+                "titular": "El puente sigue ahí",
+                "apoyo": "Calles, canalización, un puente y una pista de esquí.",
+                "icono": "fabrica"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ski slope mountain snow vintage",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Unas cien personas trabajando: entre cincuenta y sesenta parados en las obras, y treinta o cuarenta más en las empresas que les vendían materiales. En un pueblo de cuatro mil habitantes eso se nota en la calle.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "EMPLEADOS POR EL EXPERIMENTO",
+              "fuente": "Instituto Unterguggenberger",
+              "gente": {
+                "total": 100,
+                "destacados": 55,
+                "escala": 0.6,
+                "etiqueta": "Personas trabajando",
+                "etiquetaDestacados": "Directamente en las obras"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "construction workers group vintage site",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Y llegó a cruzar la frontera. La ciudad vecina de Kirchbichl hizo su piscina pública con lo mismo, y en toda Austria había pueblos preparando su propia versión.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "public swimming pool vintage outdoor",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "villa"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "austrian village alps historic view",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Quien lo mato",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Y justo ahí, cuando empezaba a extenderse, se acabó. El quince de septiembre de mil novecientos treinta y tres hubo que retirar todos los vales. Y el dieciocho de noviembre el Tribunal Administrativo lo confirmó.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "judge man portrait court vintage formal",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "15 sep 1933",
+                "titular": "Retirada obligatoria",
+                "apoyo": "Confirmado por el Tribunal Administrativo el 18 de noviembre.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old courthouse interior columns",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "La pregunta interesante es por qué. Y la respuesta no es que fallara, porque no falló. Es que el banco central tenía el monopolio de emitir dinero y aquello era, legalmente, una moneda paralela.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "POR QUÉ SE PROHIBIÓ",
+              "fuente": "Banco Nacional de Austria · 1933",
+              "barras": {
+                "unidad": "Peso del motivo",
+                "datos": [
+                  {
+                    "etiqueta": "Porque falló",
+                    "valor": 0,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Por el monopolio",
+                    "valor": 100,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank vault old heavy door",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Y hay un motivo todavía más concreto y menos noble. El ministro de Hacienda austríaco empujó la prohibición porque el país estaba negociando un préstamo con la Sociedad de Naciones.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician man portrait negotiation vintage",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Había un préstamo de por medio",
+                "apoyo": "Austria negociaba con la Sociedad de Naciones. Una moneda paralela estorbaba.",
+                "icono": "moneda"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "diplomats meeting table vintage geneva",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Un pueblo de cuatro mil habitantes con mil seiscientos chelines de papel estorbaba una negociación internacional. No por su tamaño, evidentemente. Por lo que demostraba.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No estorbaba por su tamaño. *Por lo que demostraba.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "small town aerial tiny alpine valley",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Y ahora la parte honesta, porque contar Wörgl como una utopía asesinada es muy cómodo y no aguanta del todo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Lo que *estropea* esta historia.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "faded photograph album old edges",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Primero: fueron trece meses en un pueblo de cuatro mil personas. Eso no demuestra que funcione en un país de cuarenta y ocho millones, y quien te diga lo contrario te está vendiendo algo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "EL TAMAÑO DE LA PRUEBA",
+              "fuente": "Población de Wörgl en 1932",
+              "gente": {
+                "total": 100,
+                "destacados": 1,
+                "escala": 0.6,
+                "etiqueta": "Un país",
+                "etiquetaDestacados": "Un pueblo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "magnifying glass small detail paper",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Segundo, y esto casi nadie lo cuenta: se intentó en Estados Unidos y no siempre salió bien. Irving Fisher, el economista más importante del país en aquel momento, escribió un libro entero defendiéndolo en mil novecientos treinta y tres.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "professor man portrait books study vintage",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "1933",
+                "titular": "Irving Fisher escribió un libro",
+                "apoyo": "El economista más importante de Estados Unidos lo defendió.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old book pages printing press",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Varias ciudades americanas lo probaron. En algunas se abandonó por pura falta de entusiasmo. No es una fórmula mágica: necesita que el ayuntamiento lo acepte para los impuestos y que el pueblo se lo crea.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "american small town main street thirties",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait doubtful small town vintage",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No siempre salió bien",
+                "apoyo": "En varias ciudades se abandonó por falta de entusiasmo.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty storefront closed sign vintage",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Y tercero, el matiz que más importa para lo que viene ahora. En Wörgl el dinero perdía valor. No se borraba, no se congelaba y nadie sabía en qué lo gastabas. Eso es otra cosa.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Perdía valor. *No te vigilaba.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "anonymous hands paying cash counter",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Shenzhen, octubre de dos mil veinte",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Ochenta y ocho años después de Wörgl, en octubre de dos mil veinte, el distrito de Luohu en Shenzhen repartió diez millones de yuanes entre sus vecinos. Pero no en billetes.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "asia",
+                "destaca": [
+                  "china"
+                ]
+              },
+              "kicker": "SHENZHEN, LUOHU · OCTUBRE DE 2020",
+              "fuente": "Gobierno de Shenzhen y Banco Popular de China"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shenzhen city skyline night modern",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "chinese official man portrait modern city",
+                "titular": "Diez millones de yuanes",
+                "apoyo": "Repartidos entre los vecinos de un solo distrito. Pero no en billetes.",
+                "icono": "moneda",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Cincuenta mil sobres rojos digitales, de doscientos yuanes cada uno, repartidos por sorteo. Los ganadores se bajaban una aplicación y ahí les aparecía el dinero.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SOBRES REPARTIDOS POR SORTEO",
+              "fuente": "Gobierno de Shenzhen · octubre de 2020",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 50000,
+                "etiqueta": "sobres de 200 yuanes cada uno",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "phone payment app screen china",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Y aquel dinero venía con tres instrucciones dentro. La primera: se podía gastar desde las seis de la tarde del doce de octubre hasta el dieciocho. Seis días. Después, se evaporaba.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young woman portrait phone shopping china",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "6 días",
+                "titular": "Del 12 al 18 de octubre",
+                "apoyo": "Después, el dinero dejaba de existir.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "countdown timer digital display",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "La segunda instrucción era dónde. Solo en unos tres mil trescientos comercios de ese distrito concreto, equipados con el lector nuevo. A dos calles de allí, el mismo dinero no valía nada.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DÓNDE SE PODÍA GASTAR",
+              "fuente": "Gobierno de Shenzhen · octubre de 2020",
+              "barras": {
+                "unidad": "Comercios",
+                "datos": [
+                  {
+                    "etiqueta": "En el distrito de Luohu",
+                    "valor": 3300,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "En el resto de China",
+                    "valor": 0,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shop entrance payment terminal china",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y la tercera, la que no hace falta escribir porque va de serie: cada pago quedaba registrado en la infraestructura del banco central. No en la de un banco privado. En la del banco central.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Cuándo. Dónde. *Y quién.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "server racks data centre blue lights",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Dinero con instrucciones",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y esa es la diferencia entre el sello de papel de mil novecientos treinta y dos y lo que existe hoy. En Wörgl la regla estaba impresa en el billete, la veía todo el mundo y era la misma para todos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "printed banknote detail texture macro",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait reading banknote close",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La regla iba impresa",
+                "apoyo": "La veía todo el mundo y era la misma para todos.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "En un dinero digital del banco central la regla va en el código, se puede cambiar sin avisar, y no tiene por qué ser la misma para ti que para tu vecino.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "code screen programming lines dark",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "programmer man portrait screens code",
+                "titular": "La regla va en el código",
+                "apoyo": "Se puede cambiar sin avisar. Y no tiene que ser igual para todos.",
+                "icono": "candado",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Y eso no es una sospecha: es la funcionalidad que se anuncia. Subvenciones que solo se pueden gastar en categorías concretas. Vales con límite de tiempo. Pagos condicionados a que ocurra algo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "engineer woman portrait screens system",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "No es sospecha: es el catálogo",
+                "apoyo": "Subvenciones por categoría, vales con caducidad, pagos condicionados.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "conditional flowchart diagram screen",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Fíjate en que todo eso tiene usos buenísimos. Una ayuda de comedor que no se pueda gastar en tabaco. Un bono de reconstrucción que se quede en el pueblo inundado. El problema nunca es el primer uso.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El problema nunca es *el primer uso*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "school canteen children eating",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "El tamano real del yuan digital",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Ahora, cuánto de esto existe de verdad, porque aquí se exagera en las dos direcciones. El yuan digital lleva desde dos mil veinte y acumula siete billones de yuanes en operaciones.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "OPERACIONES ACUMULADAS DESDE 2020",
+              "fuente": "Banco Popular de China",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 7,
+                "etiqueta": "billones de yuanes",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chinese city crowd shopping street",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "chinese shopper woman portrait phone",
+                "titular": "Siete billones de yuanes",
+                "apoyo": "Acumulados desde 2020. No es un juguete.",
+                "icono": "sube",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Mil ochocientos millones de monederos abiertos y veintiséis ciudades en el piloto. Son números enormes y conviene no restarles importancia.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL PILOTO MÁS GRANDE DEL MUNDO",
+              "fuente": "Banco Popular de China · marzo de 2026",
+              "barras": {
+                "unidad": "Millones de monederos",
+                "datos": [
+                  {
+                    "etiqueta": "Monederos abiertos",
+                    "valor": 1800,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "many phones screens people using",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Y a la vez, seis años después, el banco central chino sigue sin anunciar una fecha de lanzamiento nacional. Sigue llamándose piloto. Y compite con Alipay y con WeChat, que ya estaban ahí y funcionan.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "customer paying phone qr code shop",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Seis años y sigue siendo piloto",
+                "apoyo": "Compite con Alipay y WeChat, que ya estaban y funcionan.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "qr code payment sign market stall",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Eso dice algo que se pierde en el debate. Que la gente adopte un dinero nuevo es dificilísimo, aunque lo empuje un Estado que puede empujar mucho.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Cambiar el dinero de la gente *es dificilísimo*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cash and card wallet hands choice",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Donde esta el euro digital",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y llegamos a lo que te preocupa de verdad, que es el euro. Porque el euro digital existe, es un proyecto real y va en serio. Pero está bastante menos avanzado de lo que se dice.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "espana",
+                  "alemania",
+                  "francia",
+                  "italia"
+                ]
+              },
+              "kicker": "EL EURO DIGITAL, PASO A PASO",
+              "fuente": "Banco Central Europeo y Banco de España"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european central bank frankfurt building",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "european official man portrait institution",
+                "titular": "El euro digital va en serio",
+                "apoyo": "Y está menos avanzado de lo que se dice.",
+                "icono": "documento",
+                "tono": "carmin",
+                "lado": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "En octubre de dos mil veinticinco el Banco Central Europeo pasó a la fase de despliegue práctico. El piloto interno está previsto para dos mil veintisiete, y el posible lanzamiento para dos mil veintinueve.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Calendario del euro digital",
+                "series": [
+                  {
+                    "nombre": "Fase",
+                    "tono": "ocre",
+                    "puntos": [
+                      [
+                        "2025",
+                        1
+                      ],
+                      [
+                        "2027",
+                        2
+                      ],
+                      [
+                        "2029",
+                        3
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "Despliegue, piloto interno y posible lanzamiento"
+              },
+              "fuente": "Banco de España · calendario del proyecto",
+              "rotulo": {
+                "kicker": "Posible lanzamiento",
+                "texto": "*2029*, si hay ley en 2026"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar planning wall dates",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Y con una condición que casi nunca se menciona: todo eso depende de que el Parlamento Europeo y el Consejo aprueben antes la ley. El propio banco dice que empezar esta fase no significa que se haya decidido emitirlo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official woman portrait parliament chamber",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Todavía no está decidido",
+                "apoyo": "El BCE solo puede emitirlo si el Parlamento y el Consejo aprueban la ley.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european parliament seats chamber",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Y el diseño que hay sobre la mesa tiene dos límites duros. No daría intereses, igual que el efectivo. Y la cantidad que podrías tener estaría limitada, con análisis técnicos que barajan hasta tres mil euros por persona.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LÍMITE DE TENENCIA QUE SE BARAJA",
+              "fuente": "Banco Central Europeo · análisis técnico",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 3000,
+                "etiqueta": "euros por persona",
+                "decimales": 0,
+                "sufijo": " €"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro banknotes wallet limited",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Y ese límite no está puesto para controlarte a ti. Está puesto para que en una crisis la gente no saque el dinero de su banco y lo meta en el banco central, y se lleve por delante al sistema bancario.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank run queue people outside branch",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "banker man portrait worried branch",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "El límite protege a los bancos",
+                "apoyo": "Sin él, en una crisis todo el dinero se iría al banco central.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Lo que dice el banco y lo que no",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Y aquí viene la parte que más contradice el tono alarmista de este vídeo, así que te la doy entera y con la frase exacta.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Y ahora *la frase exacta*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "official document reading glasses desk",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "El Banco Central Europeo dice, en sus preguntas frecuentes y recogiendo lo que pone la propuesta de reglamento: el euro digital nunca sería dinero programable.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait european institution formal",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Nunca sería dinero programable",
+                "apoyo": "Lo dice el BCE, recogiendo la propuesta de reglamento de la Comisión.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "legal text document pages official",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        },
+        {
+          "id": "b10-03",
+          "vo": "Y añade más. Que en los pagos sin conexión solo el que paga y el que cobra conocerían los datos. Y que ni con conexión ni sin ella podría el Eurosistema vincular directamente las operaciones a personas concretas.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE PROMETE EL DISEÑO",
+              "fuente": "BCE · preguntas frecuentes sobre el euro digital",
+              "barras": {
+                "unidad": "Compromisos declarados",
+                "datos": [
+                  {
+                    "etiqueta": "Programable",
+                    "valor": 0,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Sin intereses",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Sin vincular a personas",
+                    "valor": 100,
+                    "tono": "verde"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "privacy lock digital shield concept",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b10-04",
+          "vo": "Así que si alguien te dice que el euro digital va a caducar y que van a poder mirar en qué te lo gastas, el texto oficial dice lo contrario. Eso hay que decirlo claro.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "social media misinformation phone scroll",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "printed regulation paper stack official",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b10-05",
+          "vo": "Con un matiz, y es el único que me parece que hay que vigilar. La misma frase que dice que nunca sería programable añade que sí podría facilitar pagos condicionados.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "analyst man portrait reading fine print",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "La letra que sigue",
+                "apoyo": "Nunca programable, pero sí podría facilitar pagos condicionados.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "fine print magnifying document",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza"
+            }
+          ]
+        },
+        {
+          "id": "b10-06",
+          "vo": "La diferencia técnica entre las dos cosas existe y es real: una condiciona el pago, la otra condiciona el dinero. Pero es una línea fina, y las líneas finas se mueven cuando cambia quien las escribe.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Las líneas finas *se mueven*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "thin line drawn sand erasing",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b11-01",
+          "vo": "Vamos a juntarlo, porque la conclusión no es ninguna de las dos que se gritan por ahí.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "quiet library reading desk lamp",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "person portrait thinking window light",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Ni una cosa ni la otra",
+                "apoyo": "Ni distopía inminente ni invento inofensivo.",
+                "icono": "balanza"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b11-02",
+          "vo": "El dinero que caduca no es malo por naturaleza. En Wörgl sacó a cien personas del paro y dejó un puente construido que la gente sigue cruzando noventa años después.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stone bridge today crossing people",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly man portrait bridge walking",
+                "titular": "El puente sigue cruzándose",
+                "apoyo": "Noventa años después de pagarse con dinero que caducaba.",
+                "icono": "casa",
+                "tono": "ocre",
+                "lado": "der"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "alpine town modern day street",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b11-03",
+          "vo": "Y tampoco es inofensivo, porque la misma herramienta que dirige una ayuda al comedor escolar puede decidir que tu dinero no vale fuera de tu provincia. Es el mismo botón.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official hand pressing button control",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Es el mismo botón",
+                "apoyo": "Dirigir una ayuda y encerrar tu dinero son la misma función.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "control room switches operator",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala"
+            }
+          ]
+        },
+        {
+          "id": "b11-04",
+          "vo": "Así que la pregunta útil no es si el dinero puede caducar, porque ya sabemos que puede desde mil novecientos treinta y dos. La pregunta es quién tiene el interruptor y a quién rinde cuentas.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La pregunta es *quién tiene el interruptor*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "light switch wall finger",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante"
+            }
+          ]
+        },
+        {
+          "id": "b11-05",
+          "vo": "En Wörgl lo tenía un alcalde al que cuatro mil vecinos podían pararle por la calle. Y aun así, lo que acabó con el experimento fue una institución mucho más grande que decidió que aquello no le convenía.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "A CUÁNTA GENTE RENDÍA CUENTAS",
+              "fuente": "Población de Wörgl en 1932",
+              "gente": {
+                "total": 40,
+                "destacados": 40,
+                "escala": 0.9,
+                "etiqueta": "Vecinos",
+                "etiquetaDestacados": "Podían pararle por la calle"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "small town square people talking",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa"
+            }
+          ]
+        },
+        {
+          "id": "b11-06",
+          "vo": "Esa es la lección que de verdad deja Wörgl, y no va de tecnología. El experimento no murió por un fallo técnico. Murió porque molestaba a quien tenía el monopolio.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CÓMO MUEREN ESTAS COSAS",
+              "fuente": "Wörgl, 1933",
+              "barras": {
+                "unidad": "Causa del final",
+                "datos": [
+                  {
+                    "etiqueta": "Fallo técnico",
+                    "valor": 0,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Decisión política",
+                    "valor": 100,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "official stamp rejected document",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b12-01",
+          "vo": "Así que la próxima vez que alguien te enseñe el dinero que caduca como la última idea de un gobierno moderno, ya sabes de dónde viene.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly man portrait remembering archive",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "1932",
+                "titular": "Ya sabes de dónde viene",
+                "apoyo": "De un pueblo de cuatro mil personas en el Tirol.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old photograph album hands turning",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta"
+            }
+          ]
+        },
+        {
+          "id": "b12-02",
+          "vo": "De un pueblo de cuatro mil personas que en mitad de la peor crisis del siglo se inventó una forma de que el dinero no se parara, y la usó para pavimentar sus calles.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cobblestone street alpine village",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "mountain valley town sunset peaceful",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b12-03",
+          "vo": "Funcionó. Y por eso duró trece meses. Las cosas que no funcionan se mueren solas; a las que funcionan hay que prohibirlas.",
+          "voz": {
+            "speed": 0.9
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Funcionó. Y *por eso* duró trece meses.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "snow falling empty street night",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas"
+            }
+          ]
+        },
+        {
+          "id": "b12-04",
+          "vo": "Suscríbete si te gusta descubrir que casi nada de lo que nos venden como nuevo lo es.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "El Dinero Que Caduca Se Inventó En 1932. Funcionó Tan Bien Que Lo Prohibieron",
+    "descripcion": "Te lo han contado como el futuro más siniestro que viene: dinero que caduca, que se te borra si no lo gastas. No es el futuro. Es un invento de la Gran Depresión.\n\nEn julio de 1932, un pueblo austríaco de cuatro mil habitantes llamado Wörgl empezó a imprimir su propio dinero. Emitieron 1.600 chelines en vales que perdían un 1 % de su valor cada mes. En trece meses y medio el paro en Wörgl bajó un 16 % mientras en el resto de Austria subía un 19 %.\n\nLa prensa lo llamó el milagro de Wörgl. En septiembre de 1933, el banco central lo prohibió.\n\nDATOS CLAVE\n\n• El mecanismo no necesitaba ordenadores. Cada billete llevaba doce casillas en el reverso y el último día de cada mes había que comprar un sello del 1 % del valor y pegarlo. Si no, el billete dejaba de valer. La idea venía del economista alemán Silvio Gesell: el dinero es lo único que se puede guardar sin que se estropee, mientras el trigo se pudre y la máquina se oxida.\n\n• Por eso funcionó: aquellos vales circularon entre nueve y diez veces más rápido que el chelín austríaco. Los mismos 1.600 chelines hacían el trabajo de dieciséis mil. No imprimieron más dinero: hicieron que el poco que había no se parara.\n\n• Con eso pavimentaron calles, hicieron la canalización, levantaron el puente de Müllnertal —que sigue en pie— y abrieron una pista de esquí en febrero de 1933. Unas cien personas trabajando en un pueblo de cuatro mil.\n\n• Se prohibió el 15 de septiembre de 1933 y el Tribunal Administrativo lo confirmó el 18 de noviembre. No porque fallara: porque el banco central tenía el monopolio de emitir, y porque el ministro de Hacienda presionó mientras Austria negociaba un préstamo con la Sociedad de Naciones.\n\n• Ochenta y ocho años después, en octubre de 2020, el distrito de Luohu en Shenzhen repartió 10 millones de yuanes digitales en 50.000 sobres de 200. Con tres instrucciones dentro: se podía gastar del 12 al 18 de octubre y en unos 3.300 comercios de ese distrito. Dos calles más allá, no valía nada.\n\n• El yuan digital acumula 7 billones de yuanes en operaciones y 1.800 millones de monederos en 26 ciudades. Y aun así, seis años después, sigue llamándose piloto y sin fecha de lanzamiento nacional, compitiendo con Alipay y WeChat.\n\n• El euro digital: el BCE pasó a la fase de despliegue en octubre de 2025, con piloto interno previsto para 2027 y posible lanzamiento en 2029 — si el Parlamento Europeo y el Consejo aprueban antes la ley. El propio banco dice que empezar esta fase no significa que se haya decidido emitirlo.\n\nY el vídeo incluye lo que contradice su propio tono alarmista, con la frase exacta: el BCE afirma, recogiendo la propuesta de reglamento, que el euro digital nunca sería dinero programable, que no daría intereses, y que el Eurosistema no podría vincular directamente las operaciones a personas concretas. Los límites de tenencia que se barajan —hasta 3.000 euros— no están para controlarte, sino para que en una crisis el dinero no salga de los bancos hacia el banco central.\n\nEl único matiz que conviene vigilar es que la misma frase que dice que nunca sería programable añade que sí podría facilitar pagos condicionados. La diferencia técnica es real: una condiciona el pago, la otra condiciona el dinero. Pero es una línea fina.\n\nLa pregunta útil no es si el dinero puede caducar, porque sabemos que puede desde 1932. Es quién tiene el interruptor y a quién rinde cuentas.\n\nFUENTES\nInstituto Unterguggenberger (Wörgl) — cronología, emisión, velocidad de circulación y obras\nBernard Lietaer — El experimento de Wörgl, Austria 1932-1933\nIrving Fisher — Stamp Scrip, 1933\nGobierno de Shenzhen y Banco Popular de China — reparto de yuan digital de octubre de 2020\nBanco Popular de China — volumen acumulado y monederos del e-CNY\nBanco Central Europeo — preguntas frecuentes sobre el euro digital y nota de prensa del 30/10/2025\nBanco de España — calendario del proyecto del euro digital\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#EuroDigital #YuanDigital #Economía",
+    "etiquetas": [
+      "euro digital",
+      "yuan digital",
+      "dinero que caduca",
+      "dinero programable",
+      "cbdc",
+      "banco central europeo",
+      "bce",
+      "worgl",
+      "silvio gesell",
+      "freigeld",
+      "moneda local",
+      "gran depresion",
+      "irving fisher",
+      "banco popular de china",
+      "shenzhen",
+      "e-cny",
+      "pagos condicionados",
+      "privacidad pagos",
+      "limite de tenencia",
+      "fin del efectivo",
+      "historia del dinero",
+      "politica monetaria",
+      "velocidad del dinero",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "economia 2026"
+    ]
+  }
+}

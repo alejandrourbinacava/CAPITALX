@@ -74,6 +74,10 @@
     {
       "slug": "soros-1992",
       "titulo": "Soros Quebró El Banco De Inglaterra. En Realidad Fue Alemania"
+    },
+    {
+      "slug": "yuan-digital",
+      "titulo": "El Dinero Que Caduca Se Inventó En 1932. Funcionó Tan Bien Que Lo Prohibieron"
     }
   ],
   "cola": [
@@ -167,13 +171,6 @@
       "angulo": "Padrón de residentes en el exterior, edad y formación de quien se va, destinos, y comparación con la salida de 2012.",
       "region": "europa",
       "pais": "espana"
-    },
-    {
-      "slug": "yuan-digital",
-      "titulo": "El País Que Ya Probó El Dinero Que Caduca",
-      "angulo": "El yuan digital y sus pruebas reales en China: caducidad programada, trazabilidad, cuánto se usa de verdad. El euro digital contado a través de un caso concreto en vez de en abstracto.",
-      "region": "asia",
-      "pais": "china"
     },
     {
       "slug": "herencia",
