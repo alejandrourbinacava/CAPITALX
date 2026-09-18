@@ -28,14 +28,32 @@
                 "lado": "der",
                 "titular": "Dinero que caduca",
                 "apoyo": "Lo cuentan como el futuro. Es de hace noventa y cuatro años.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7721902",
+                  "url": "https://images.pexels.com/photos/7721902/pexels-photo-7721902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Martin Kesene",
+                  "pagina": "https://www.pexels.com/photo/man-wearing-button-up-shirt-holding-money-7721902/"
+                },
+                "fichero": "recortes-auto/pexels-7721902.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old alpine town austria archive",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33350333",
+                  "url": "https://videos.pexels.com/video-files/33350333/14200529_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Rohit Chandra Lal",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-peaceful-hallstatt-lake-town-33350333/"
+                },
+                "fichero": "clips/pexels-33350333.mp4"
               },
               "camara": "panR"
             },
@@ -68,7 +86,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "depression era unemployed men queue archive",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16118546",
+                  "url": "https://videos.pexels.com/video-files/16118546/16118546-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Hamza Awan",
+                  "pagina": "https://www.pexels.com/video/amazing-footage-of-poor-labours-16118546/"
+                },
+                "fichero": "clips/pexels-16118546.mp4"
               },
               "camara": "push"
             },
@@ -80,7 +108,15 @@
                 "apoyo": "Un tercio del pueblo sin trabajo, en mitad de la Gran Depresión.",
                 "icono": "persona",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19761782",
+                  "url": "https://images.pexels.com/photos/19761782/pexels-photo-19761782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Han",
+                  "pagina": "https://www.pexels.com/photo/smiling-elderly-man-in-jacket-19761782/"
+                },
+                "fichero": "recortes-auto/pexels-19761782.png"
               }
             }
           ]
@@ -112,7 +148,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "vintage banknote paper texture close",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4145892",
+                  "url": "https://videos.pexels.com/video-files/4145892/4145892-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Matthias Groeneveld",
+                  "pagina": "https://www.pexels.com/video/close-up-shot-of-currency-notes-4145892/"
+                },
+                "fichero": "clips/pexels-4145892.mp4"
               },
               "camara": "pull"
             },
@@ -154,7 +200,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "workers building road nineteen thirties",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27104380",
+                  "url": "https://videos.pexels.com/video-files/27104380/12073457_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Аман Смагулов",
+                  "pagina": "https://www.pexels.com/video/a-road-worker-is-working-on-a-road-27104380/"
+                },
+                "fichero": "clips/pexels-27104380.mp4"
               },
               "camara": "push"
             },
@@ -167,7 +223,15 @@
                 "cifra": "13,5",
                 "titular": "Meses que duró",
                 "apoyo": "El paro bajó aquí mientras subía en todo el país.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12576220",
+                  "url": "https://images.pexels.com/photos/12576220/pexels-photo-12576220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Simon Reza",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-wearing-a-button-down-shirt-12576220/"
+                },
+                "fichero": "recortes-auto/pexels-12576220.png"
               }
             }
           ]
@@ -189,14 +253,32 @@
                 "cifra": "1933",
                 "titular": "El banco central lo prohibió",
                 "apoyo": "No porque fallara. Justo lo contrario.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32132613",
+                  "url": "https://images.pexels.com/photos/32132613/pexels-photo-32132613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ab  Pixels",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-uniformed-officer-in-black-and-white-32132613/"
+                },
+                "fichero": "recortes-auto/pexels-32132613.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old newspaper archive headlines german",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10284759",
+                  "url": "https://videos.pexels.com/video-files/10284759/10284759-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Oleg Gamulinskii",
+                  "pagina": "https://www.pexels.com/video/a-black-and-white-image-of-a-newspaper-10284759/"
+                },
+                "fichero": "clips/pexels-10284759.mp4"
               },
               "camara": "panL"
             },
@@ -223,7 +305,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "clock face old mechanism ticking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8322039",
+                  "url": "https://videos.pexels.com/video-files/8322039/8322039-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/analogue-clocks-8322039/"
+                },
+                "fichero": "clips/pexels-8322039.mp4"
               },
               "camara": "estatico"
             },
@@ -255,7 +347,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "postage stamps sheet vintage close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6657751",
+                  "url": "https://videos.pexels.com/video-files/6657751/6657751-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/collection-of-stamps-on-an-album-6657751/"
+                },
+                "fichero": "clips/pexels-6657751.mp4"
               },
               "camara": "push"
             },
@@ -267,7 +369,15 @@
                 "lado": "izq",
                 "titular": "Sin ordenadores ni bases de datos",
                 "apoyo": "Un sello de papel pegado cada mes. Eso era todo.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7654118",
+                  "url": "https://images.pexels.com/photos/7654118/pexels-photo-7654118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-long-sleeve-shirt-holding-black-stamp-7654118/"
+                },
+                "fichero": "recortes-auto/pexels-7654118.png"
               }
             }
           ]
@@ -284,7 +394,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hands holding paper certificate stamps",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3838397",
+                  "url": "https://videos.pexels.com/video-files/3838397/3838397-hd_1366_720_50fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/stamping-a-piece-of-paper-with-the-word-no-using-letter-rubber-stamps-3838397/"
+                },
+                "fichero": "clips/pexels-3838397.mp4"
               },
               "camara": "push"
             },
@@ -296,7 +416,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "counter shop vintage cash register",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8421358",
+                  "url": "https://videos.pexels.com/video-files/8421358/8421358-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/couple-paying-for-their-groceries-8421358/"
+                },
+                "fichero": "clips/pexels-8421358.mp4"
               },
               "camara": "panR"
             }
@@ -334,7 +464,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty wallet hands decision",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34730118",
+                  "url": "https://videos.pexels.com/video-files/34730118/14722066_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/hand-grabbing-euro-banknotes-on-desk-34730118/"
+                },
+                "fichero": "clips/pexels-34730118.mp4"
               },
               "camara": "pull"
             },
@@ -346,7 +486,15 @@
                 "apoyo": "Por primera vez, esperar era la opción cara.",
                 "icono": "moneda",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35877823",
+                  "url": "https://images.pexels.com/photos/35877823/pexels-photo-35877823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Diego Fioravanti",
+                  "pagina": "https://www.pexels.com/photo/woman-counting-argentine-pesos-at-a-table-35877823/"
+                },
+                "fichero": "recortes-auto/pexels-35877823.png"
               }
             }
           ]
@@ -367,14 +515,32 @@
                 "lado": "der",
                 "titular": "La idea era de Silvio Gesell",
                 "apoyo": "El dinero se guarda gratis. El pan, el grano y las casas, no.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35722618",
+                  "url": "https://images.pexels.com/photos/35722618/pexels-photo-35722618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alexander Zvir",
+                  "pagina": "https://www.pexels.com/photo/vintage-portrait-of-a-bearded-man-outdoors-35722618/"
+                },
+                "fichero": "recortes-auto/pexels-35722618.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "grain sacks warehouse old storage",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4778069",
+                  "url": "https://videos.pexels.com/video-files/4778069/4778069-hd_1282_720_25fps.mp4",
+                  "ancho": 1282,
+                  "duracion": 10,
+                  "autor": "Marian Croitoru",
+                  "pagina": "https://www.pexels.com/video/ground-storage-tanks-inside-an-industrial-complex-4778069/"
+                },
+                "fichero": "clips/pexels-4778069.mp4"
               },
               "camara": "push"
             },
@@ -401,7 +567,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rusting machinery abandoned decay",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18549849",
+                  "url": "https://videos.pexels.com/video-files/18549849/18549849-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "utopia 36",
+                  "pagina": "https://www.pexels.com/video/a-tank-is-parked-in-front-of-a-building-18549849/"
+                },
+                "fichero": "clips/pexels-18549849.mp4"
               },
               "camara": "panL"
             },
@@ -433,7 +609,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "closed shop shutters empty street",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26233703",
+                  "url": "https://videos.pexels.com/video-files/26233703/11941313_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Adventist Asia",
+                  "pagina": "https://www.pexels.com/video/siem-reap-market-26233703/"
+                },
+                "fichero": "clips/pexels-26233703.mp4"
               },
               "camara": "push"
             },
@@ -445,7 +631,15 @@
                 "lado": "izq",
                 "titular": "El dinero no se va: se esconde",
                 "apoyo": "Y el que deja de gastar deja sin ingresos al de al lado.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12445157",
+                  "url": "https://images.pexels.com/photos/12445157/pexels-photo-12445157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mohamed elamine  M'siouri",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-the-store-12445157/"
+                },
+                "fichero": "recortes-auto/pexels-12445157.png"
               }
             }
           ]
@@ -462,7 +656,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "busy market stalls people buying vintage",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31451486",
+                  "url": "https://videos.pexels.com/video-files/31451486/13412587_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Perfect Pixel Studio",
+                  "pagina": "https://www.pexels.com/video/lively-outdoor-market-scene-with-vendors-31451486/"
+                },
+                "fichero": "clips/pexels-31451486.mp4"
               },
               "camara": "panR"
             },
@@ -474,7 +678,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hands exchanging money market",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27604363",
+                  "url": "https://videos.pexels.com/video-files/27604363/12183320_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pamela Monterde",
+                  "pagina": "https://www.pexels.com/video/vendor-27604363/"
+                },
+                "fichero": "clips/pexels-27604363.mp4"
               },
               "camara": "push"
             }
@@ -512,7 +726,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "fast motion crowd street blur",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3773325",
+                  "url": "https://videos.pexels.com/video-files/3773325/3773325-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Olam Musicali",
+                  "pagina": "https://www.pexels.com/video/a-blurry-video-of-people-walking-in-an-airport-terminal-3773325/"
+                },
+                "fichero": "clips/pexels-3773325.mp4"
               },
               "camara": "pull"
             },
@@ -548,20 +772,23 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "water wheel turning river motion",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39353425",
+                  "url": "https://videos.pexels.com/video-files/39353425/16750562_1920_1080_59fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "DΛVΞ GΛRCIΛ",
+                  "pagina": "https://www.pexels.com/video/rustic-water-wheel-in-motion-39353425/"
+                },
+                "fichero": "clips/pexels-39353425.mp4"
               },
               "camara": "push"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "engineer portrait water wheel mill",
-                "titular": "El mismo dinero, diez veces",
-                "apoyo": "1.600 chelines haciendo el trabajo de dieciséis mil.",
-                "icono": "sube",
-                "tono": "carmin",
-                "lado": "izq"
-              }
+              "tipo": "frase",
+              "texto": "El mismo dinero, diez veces"
             }
           ]
         },
@@ -582,7 +809,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "still pond stagnant water surface",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38679581",
+                  "url": "https://videos.pexels.com/video-files/38679581/16429769_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Scott Precious",
+                  "pagina": "https://www.pexels.com/video/peaceful-duck-floating-by-reed-lined-pond-38679581/"
+                },
+                "fichero": "clips/pexels-38679581.mp4"
               },
               "camara": "estatico"
             },
@@ -614,14 +851,32 @@
                 "lado": "der",
                 "titular": "El truco que lo sostenía",
                 "apoyo": "El ayuntamiento los aceptaba para pagar impuestos. Por eso valían.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "22931930",
+                  "url": "https://images.pexels.com/photos/22931930/pexels-photo-22931930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Djamd .",
+                  "pagina": "https://www.pexels.com/photo/building-with-tower-in-zittau-in-germany-22931930/"
+                },
+                "fichero": "recortes-auto/pexels-22931930.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old town hall building alpine",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103825",
+                  "url": "https://videos.pexels.com/video-files/7103825/7103825-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "djo discover",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-small-village-in-austria-7103825/"
+                },
+                "fichero": "clips/pexels-7103825.mp4"
               },
               "camara": "push"
             },
@@ -643,7 +898,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stone bridge alpine river old",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29415829",
+                  "url": "https://videos.pexels.com/video-files/29415829/12666480_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Sergey Guk",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-historic-stone-bridge-in-albania-29415829/"
+                },
+                "fichero": "clips/pexels-29415829.mp4"
               },
               "camara": "panR"
             },
@@ -656,14 +921,32 @@
                 "cifra": "1933",
                 "titular": "El puente sigue ahí",
                 "apoyo": "Calles, canalización, un puente y una pista de esquí.",
-                "icono": "fabrica"
+                "icono": "fabrica",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17649488",
+                  "url": "https://images.pexels.com/photos/17649488/pexels-photo-17649488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Gonzalo Mendiola",
+                  "pagina": "https://www.pexels.com/photo/worker-carrying-wooden-planks-17649488/"
+                },
+                "fichero": "recortes-auto/pexels-17649488.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "ski slope mountain snow vintage",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37483073",
+                  "url": "https://videos.pexels.com/video-files/37483073/15877913_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Robin Godefridi",
+                  "pagina": "https://www.pexels.com/video/breathtaking-sunny-mountain-ski-slope-in-winter-37483073/"
+                },
+                "fichero": "clips/pexels-37483073.mp4"
               },
               "camara": "pull"
             }
@@ -693,7 +976,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction workers group vintage site",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8487956",
+                  "url": "https://videos.pexels.com/video-files/8487956/8487956-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/female-construction-workers-posing-together-8487956/"
+                },
+                "fichero": "clips/pexels-8487956.mp4"
               },
               "camara": "push"
             },
@@ -715,7 +1008,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "public swimming pool vintage outdoor",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31786597",
+                  "url": "https://videos.pexels.com/video-files/31786597/13540895_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "J.S. McDuff",
+                  "pagina": "https://www.pexels.com/video/vintage-swimming-in-natural-rock-pool-31786597/"
+                },
+                "fichero": "clips/pexels-31786597.mp4"
               },
               "camara": "pull"
             },
@@ -727,7 +1030,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "austrian village alps historic view",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33628403",
+                  "url": "https://videos.pexels.com/video-files/33628403/14291740_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Rohit Chandra Lal",
+                  "pagina": "https://www.pexels.com/video/scenic-aerial-view-of-hallstatt-s-lush-alpine-landscape-33628403/"
+                },
+                "fichero": "clips/pexels-33628403.mp4"
               },
               "camara": "panL"
             }
@@ -756,14 +1069,32 @@
                 "cifra": "15 sep 1933",
                 "titular": "Retirada obligatoria",
                 "apoyo": "Confirmado por el Tribunal Administrativo el 18 de noviembre.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32800771",
+                  "url": "https://images.pexels.com/photos/32800771/pexels-photo-32800771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "the northern lense",
+                  "pagina": "https://www.pexels.com/photo/young-barrister-posing-in-legal-attire-32800771/"
+                },
+                "fichero": "recortes-auto/pexels-32800771.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old courthouse interior columns",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28988750",
+                  "url": "https://videos.pexels.com/video-files/28988750/12538516_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Gül Işık",
+                  "pagina": "https://www.pexels.com/video/ornate-architectural-interior-with-arched-ceiling-28988750/"
+                },
+                "fichero": "clips/pexels-28988750.mp4"
               },
               "camara": "push"
             },
@@ -805,7 +1136,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "central bank vault old heavy door",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34800569",
+                  "url": "https://videos.pexels.com/video-files/34800569/14755338_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/historic-doors-interior-with-warm-lighting-34800569/"
+                },
+                "fichero": "clips/pexels-34800569.mp4"
               },
               "camara": "pull"
             },
@@ -831,14 +1172,32 @@
                 "lado": "izq",
                 "titular": "Había un préstamo de por medio",
                 "apoyo": "Austria negociaba con la Sociedad de Naciones. Una moneda paralela estorbaba.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4427616",
+                  "url": "https://images.pexels.com/photos/4427616/pexels-photo-4427616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "August de Richelieu",
+                  "pagina": "https://www.pexels.com/photo/businessman-standing-with-his-hands-on-his-desk-4427616/"
+                },
+                "fichero": "recortes-auto/pexels-4427616.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "diplomats meeting table vintage geneva",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951392",
+                  "url": "https://videos.pexels.com/video-files/6951392/6951392-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-conference-room-6951392/"
+                },
+                "fichero": "clips/pexels-6951392.mp4"
               },
               "camara": "push"
             },
@@ -865,7 +1224,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "small town aerial tiny alpine valley",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9973870",
+                  "url": "https://videos.pexels.com/video-files/9973870/9973870-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Vitaliy Todo",
+                  "pagina": "https://www.pexels.com/video/drone-shot-of-mountain-town-9973870/"
+                },
+                "fichero": "clips/pexels-9973870.mp4"
               },
               "camara": "estatico"
             },
@@ -898,7 +1267,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "faded photograph album old edges",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7546434",
+                  "url": "https://videos.pexels.com/video-files/7546434/7546434-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "SHVETS production",
+                  "pagina": "https://www.pexels.com/video/elderly-woman-looking-through-old-photos-7546434/"
+                },
+                "fichero": "clips/pexels-7546434.mp4"
               },
               "camara": "estatico"
             },
@@ -932,7 +1311,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "magnifying glass small detail paper",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7947467",
+                  "url": "https://videos.pexels.com/video-files/7947467/7947467-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/person-using-a-magnifying-glass-7947467/"
+                },
+                "fichero": "clips/pexels-7947467.mp4"
               },
               "camara": "push"
             },
@@ -959,14 +1348,32 @@
                 "cifra": "1933",
                 "titular": "Irving Fisher escribió un libro",
                 "apoyo": "El economista más importante de Estados Unidos lo defendió.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6334769",
+                  "url": "https://images.pexels.com/photos/6334769/pexels-photo-6334769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/man-in-gray-suit-jacket-holding-white-tablet-computer-6334769/"
+                },
+                "fichero": "recortes-auto/pexels-6334769.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old book pages printing press",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5283818",
+                  "url": "https://videos.pexels.com/video-files/5283818/5283818-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 8,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/close-up-of-pages-of-a-book-5283818/"
+                },
+                "fichero": "clips/pexels-5283818.mp4"
               },
               "camara": "panR"
             },
@@ -988,7 +1395,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "american small town main street thirties",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18363377",
+                  "url": "https://videos.pexels.com/video-files/18363377/18363377-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sammy Marrco",
+                  "pagina": "https://www.pexels.com/video/a-google-street-view-image-of-a-street-with-cars-and-buildings-18363377/"
+                },
+                "fichero": "clips/pexels-18363377.mp4"
               },
               "camara": "push"
             },
@@ -1000,14 +1417,32 @@
                 "lado": "izq",
                 "titular": "No siempre salió bien",
                 "apoyo": "En varias ciudades se abandonó por falta de entusiasmo.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16434201",
+                  "url": "https://images.pexels.com/photos/16434201/pexels-photo-16434201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ömer Derinyar",
+                  "pagina": "https://www.pexels.com/photo/man-on-a-cobbled-alley-through-the-old-town-16434201/"
+                },
+                "fichero": "recortes-auto/pexels-16434201.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty storefront closed sign vintage",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6354518",
+                  "url": "https://videos.pexels.com/video-files/6354518/6354518-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Greg Thames",
+                  "pagina": "https://www.pexels.com/video/a-signage-on-the-glass-window-6354518/"
+                },
+                "fichero": "clips/pexels-6354518.mp4"
               },
               "camara": "pull"
             }
@@ -1030,7 +1465,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "anonymous hands paying cash counter",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7231747",
+                  "url": "https://videos.pexels.com/video-files/7231747/7231747-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/people-exchanging-goods-and-money-7231747/"
+                },
+                "fichero": "clips/pexels-7231747.mp4"
               },
               "camara": "estatico"
             },
@@ -1069,7 +1514,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "shenzhen city skyline night modern",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35720033",
+                  "url": "https://videos.pexels.com/video-files/35720033/15139584_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/stunning-night-skyline-of-shenzhen-china-35720033/"
+                },
+                "fichero": "clips/pexels-35720033.mp4"
               },
               "camara": "push"
             },
@@ -1081,7 +1536,15 @@
                 "apoyo": "Repartidos entre los vecinos de un solo distrito. Pero no en billetes.",
                 "icono": "moneda",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7595186",
+                  "url": "https://images.pexels.com/photos/7595186/pexels-photo-7595186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/man-wearing-red-satin-jacket-7595186/"
+                },
+                "fichero": "recortes-auto/pexels-7595186.png"
               }
             }
           ]
@@ -1112,7 +1575,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "phone payment app screen china",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7822029",
+                  "url": "https://videos.pexels.com/video-files/7822029/7822029-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-person-using-a-cellphone-7822029/"
+                },
+                "fichero": "clips/pexels-7822029.mp4"
               },
               "camara": "pull"
             },
@@ -1139,14 +1612,32 @@
                 "cifra": "6 días",
                 "titular": "Del 12 al 18 de octubre",
                 "apoyo": "Después, el dinero dejaba de existir.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36060517",
+                  "url": "https://images.pexels.com/photos/36060517/pexels-photo-36060517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "absior 江月",
+                  "pagina": "https://www.pexels.com/photo/young-woman-strolling-in-urban-setting-36060517/"
+                },
+                "fichero": "recortes-auto/pexels-36060517.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "countdown timer digital display",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33504957",
+                  "url": "https://videos.pexels.com/video-files/33504957/14250953_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Nicola Narracci",
+                  "pagina": "https://www.pexels.com/video/digital-countdown-animation-with-glowing-numbers-33504957/"
+                },
+                "fichero": "clips/pexels-33504957.mp4"
               },
               "camara": "push"
             },
@@ -1188,7 +1679,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "shop entrance payment terminal china",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8830512",
+                  "url": "https://videos.pexels.com/video-files/8830512/8830512-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/a-person-paying-bill-using-bank-card-8830512/"
+                },
+                "fichero": "clips/pexels-8830512.mp4"
               },
               "camara": "panL"
             },
@@ -1215,7 +1716,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "server racks data centre blue lights",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7140928",
+                  "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "MrColo",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-cpu-7140928/"
+                },
+                "fichero": "clips/pexels-7140928.mp4"
               },
               "camara": "push"
             },
@@ -1247,7 +1758,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "printed banknote detail texture macro",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7034339",
+                  "url": "https://videos.pexels.com/video-files/7034339/7034339-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/zoom-in-a-book-7034339/"
+                },
+                "fichero": "clips/pexels-7034339.mp4"
               },
               "camara": "pull"
             },
@@ -1259,7 +1780,15 @@
                 "lado": "izq",
                 "titular": "La regla iba impresa",
                 "apoyo": "La veía todo el mundo y era la misma para todos.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5911873",
+                  "url": "https://images.pexels.com/photos/5911873/pexels-photo-5911873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/man-with-dreadlocks-hair-holding-money-on-his-face-5911873/"
+                },
+                "fichero": "recortes-auto/pexels-5911873.png"
               }
             }
           ]
@@ -1276,7 +1805,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "code screen programming lines dark",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6804121",
+                  "url": "https://videos.pexels.com/video-files/6804121/6804121-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 17,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/running-codes-on-a-computer-6804121/"
+                },
+                "fichero": "clips/pexels-6804121.mp4"
               },
               "camara": "push"
             },
@@ -1292,7 +1831,15 @@
                 "apoyo": "Se puede cambiar sin avisar. Y no tiene que ser igual para todos.",
                 "icono": "candado",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6964161",
+                  "url": "https://images.pexels.com/photos/6964161/pexels-photo-6964161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-with-a-black-cap-6964161/"
+                },
+                "fichero": "recortes-auto/pexels-6964161.png"
               }
             }
           ]
@@ -1313,14 +1860,32 @@
                 "lado": "der",
                 "titular": "No es sospecha: es el catálogo",
                 "apoyo": "Subvenciones por categoría, vales con caducidad, pagos condicionados.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12899189",
+                  "url": "https://images.pexels.com/photos/12899189/pexels-photo-12899189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mizuno K",
+                  "pagina": "https://www.pexels.com/photo/back-view-of-a-blond-woman-in-an-office-looking-at-two-computer-screens-with-multicoloured-code-12899189/"
+                },
+                "fichero": "recortes-auto/pexels-12899189.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "conditional flowchart diagram screen",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9034463",
+                  "url": "https://videos.pexels.com/video-files/9034463/9034463-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/a-man-pointing-a-diagram-during-a-presentation-9034463/"
+                },
+                "fichero": "clips/pexels-9034463.mp4"
               },
               "camara": "push"
             },
@@ -1347,7 +1912,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "school canteen children eating",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8466196",
+                  "url": "https://videos.pexels.com/video-files/8466196/8466196-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Anastasia  Shuraeva",
+                  "pagina": "https://www.pexels.com/video/kids-eating-at-the-school-canteen-8466196/"
+                },
+                "fichero": "clips/pexels-8466196.mp4"
               },
               "camara": "estatico"
             },
@@ -1389,7 +1964,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chinese city crowd shopping street",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34530891",
+                  "url": "https://videos.pexels.com/video-files/34530891/14630469_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Cfq938888 Chen",
+                  "pagina": "https://www.pexels.com/video/bustling-nightlife-at-chinese-shopping-street-34530891/"
+                },
+                "fichero": "clips/pexels-34530891.mp4"
               },
               "camara": "push"
             },
@@ -1401,7 +1986,15 @@
                 "apoyo": "Acumulados desde 2020. No es un juguete.",
                 "icono": "sube",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4127620",
+                  "url": "https://images.pexels.com/photos/4127620/pexels-photo-4127620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Gustavo Fring",
+                  "pagina": "https://www.pexels.com/photo/happy-woman-with-shopping-bag-and-smartphone-4127620/"
+                },
+                "fichero": "recortes-auto/pexels-4127620.png"
               }
             }
           ]
@@ -1433,7 +2026,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "many phones screens people using",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8758264",
+                  "url": "https://videos.pexels.com/video-files/8758264/8758264-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kevin  Malik",
+                  "pagina": "https://www.pexels.com/video/men-sitting-on-a-couch-while-using-cellphone-8758264/"
+                },
+                "fichero": "clips/pexels-8758264.mp4"
               },
               "camara": "pull"
             },
@@ -1459,14 +2062,32 @@
                 "lado": "izq",
                 "titular": "Seis años y sigue siendo piloto",
                 "apoyo": "Compite con Alipay y WeChat, que ya estaban y funcionan.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4199524",
+                  "url": "https://images.pexels.com/photos/4199524/pexels-photo-4199524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jack Sparrow",
+                  "pagina": "https://www.pexels.com/photo/making-a-payment-with-a-smartphone-4199524/"
+                },
+                "fichero": "recortes-auto/pexels-4199524.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "qr code payment sign market stall",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36147818",
+                  "url": "https://videos.pexels.com/video-files/36147818/15329612_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Suhail Insights",
+                  "pagina": "https://www.pexels.com/video/colorful-street-food-vendor-at-busy-market-36147818/"
+                },
+                "fichero": "clips/pexels-36147818.mp4"
               },
               "camara": "panR"
             },
@@ -1493,7 +2114,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cash and card wallet hands choice",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34839621",
+                  "url": "https://videos.pexels.com/video-files/34839621/14768229_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/counting-euro-bills-at-a-desk-scene-34839621/"
+                },
+                "fichero": "clips/pexels-34839621.mp4"
               },
               "camara": "estatico"
             },
@@ -1535,7 +2166,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european central bank frankfurt building",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27946285",
+                  "url": "https://videos.pexels.com/video-files/27946285/12269000_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tobi",
+                  "pagina": "https://www.pexels.com/video/frankfurt-skyline-27946285/"
+                },
+                "fichero": "clips/pexels-27946285.mp4"
               },
               "camara": "push"
             },
@@ -1547,7 +2188,15 @@
                 "apoyo": "Y está menos avanzado de lo que se dice.",
                 "icono": "documento",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20348408",
+                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
+                },
+                "fichero": "recortes-auto/pexels-20348408.png"
               }
             }
           ]
@@ -1596,7 +2245,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calendar planning wall dates",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4378032",
+                  "url": "https://videos.pexels.com/video-files/4378032/4378032-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ketut Subiyanto",
+                  "pagina": "https://www.pexels.com/video/calendar-hanged-on-a-wall-4378032/"
+                },
+                "fichero": "clips/pexels-4378032.mp4"
               },
               "camara": "pull"
             },
@@ -1622,14 +2281,32 @@
                 "lado": "der",
                 "titular": "Todavía no está decidido",
                 "apoyo": "El BCE solo puede emitirlo si el Parlamento y el Consejo aprueban la ley.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6732200",
+                  "url": "https://images.pexels.com/photos/6732200/pexels-photo-6732200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ayazhan",
+                  "pagina": "https://www.pexels.com/photo/woman-sitting-behind-desk-in-office-6732200/"
+                },
+                "fichero": "recortes-auto/pexels-6732200.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "european parliament seats chamber",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28743038",
+                  "url": "https://videos.pexels.com/video-files/28743038/12463663_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Santi Chavez",
+                  "pagina": "https://www.pexels.com/video/cyclist-passing-european-parliament-building-28743038/"
+                },
+                "fichero": "clips/pexels-28743038.mp4"
               },
               "camara": "push"
             },
@@ -1666,7 +2343,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro banknotes wallet limited",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30712587",
+                  "url": "https://videos.pexels.com/video-files/30712587/13139655_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "TimePRO TV",
+                  "pagina": "https://www.pexels.com/video/euro-banknotes-with-coffee-and-calculator-setup-30712587/"
+                },
+                "fichero": "clips/pexels-30712587.mp4"
               },
               "camara": "panL"
             },
@@ -1692,7 +2379,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank run queue people outside branch",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27433034",
+                  "url": "https://videos.pexels.com/video-files/27433034/12142835_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ivan Keyframe",
+                  "pagina": "https://www.pexels.com/video/suasana-di-terminal-di-jakarta-indonesia-jakartas-s-bus-station-ambience-indonesia-31-27433034/"
+                },
+                "fichero": "clips/pexels-27433034.mp4"
               },
               "camara": "push"
             },
@@ -1704,7 +2401,15 @@
                 "lado": "izq",
                 "titular": "El límite protege a los bancos",
                 "apoyo": "Sin él, en una crisis todo el dinero se iría al banco central.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6325030",
+                  "url": "https://images.pexels.com/photos/6325030/pexels-photo-6325030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Igor Mashkov",
+                  "pagina": "https://www.pexels.com/photo/offended-stylish-man-in-dark-room-6325030/"
+                },
+                "fichero": "recortes-auto/pexels-6325030.png"
               }
             }
           ]
@@ -1732,7 +2437,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "official document reading glasses desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19288030",
+                  "url": "https://videos.pexels.com/video-files/19288030/19288030-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Max Medyk",
+                  "pagina": "https://www.pexels.com/video/checking-documents-19288030/"
+                },
+                "fichero": "clips/pexels-19288030.mp4"
               },
               "camara": "estatico"
             },
@@ -1758,14 +2473,32 @@
                 "lado": "der",
                 "titular": "Nunca sería dinero programable",
                 "apoyo": "Lo dice el BCE, recogiendo la propuesta de reglamento de la Comisión.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33757231",
+                  "url": "https://images.pexels.com/photos/33757231/pexels-photo-33757231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Emre Beyhan",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-traditional-hat-with-medals-33757231/"
+                },
+                "fichero": "recortes-auto/pexels-33757231.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "legal text document pages official",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841598",
+                  "url": "https://videos.pexels.com/video-files/7841598/7841598-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-contract-7841598/"
+                },
+                "fichero": "clips/pexels-7841598.mp4"
               },
               "camara": "push"
             },
@@ -1812,7 +2545,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "privacy lock digital shield concept",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11041433",
+                  "url": "https://videos.pexels.com/video-files/11041433/11041433-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Soumya",
+                  "pagina": "https://www.pexels.com/video/3d-animation-of-circuit-board-11041433/"
+                },
+                "fichero": "clips/pexels-11041433.mp4"
               },
               "camara": "pull"
             },
@@ -1834,7 +2577,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "social media misinformation phone scroll",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5201210",
+                  "url": "https://videos.pexels.com/video-files/5201210/5201210-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "DMC Filmes",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-person-surfing-online-using-a-smartphone-5201210/"
+                },
+                "fichero": "clips/pexels-5201210.mp4"
               },
               "camara": "push"
             },
@@ -1846,7 +2599,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "printed regulation paper stack official",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38826405",
+                  "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/video/high-speed-newspaper-printing-process-close-up-38826405/"
+                },
+                "fichero": "clips/pexels-38826405.mp4"
               },
               "camara": "panR"
             }
@@ -1868,14 +2631,32 @@
                 "lado": "izq",
                 "titular": "La letra que sigue",
                 "apoyo": "Nunca programable, pero sí podría facilitar pagos condicionados.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567310",
+                  "url": "https://images.pexels.com/photos/7567310/pexels-photo-7567310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-blazer-sitting-beside-glass-window-7567310/"
+                },
+                "fichero": "recortes-auto/pexels-7567310.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "fine print magnifying document",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841623",
+                  "url": "https://videos.pexels.com/video-files/7841623/7841623-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/person-highlighting-in-a-contract-7841623/"
+                },
+                "fichero": "clips/pexels-7841623.mp4"
               },
               "camara": "push"
             },
@@ -1902,7 +2683,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "thin line drawn sand erasing",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4733155",
+                  "url": "https://videos.pexels.com/video-files/4733155/4733155-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Максим Караганов",
+                  "pagina": "https://www.pexels.com/video/a-person-drawing-on-a-paper-4733155/"
+                },
+                "fichero": "clips/pexels-4733155.mp4"
               },
               "camara": "estatico"
             },
@@ -1934,7 +2725,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "quiet library reading desk lamp",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6550141",
+                  "url": "https://videos.pexels.com/video-files/6550141/6550141-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/man-and-woman-at-the-library-6550141/"
+                },
+                "fichero": "clips/pexels-6550141.mp4"
               },
               "camara": "push"
             },
@@ -1946,7 +2747,15 @@
                 "lado": "der",
                 "titular": "Ni una cosa ni la otra",
                 "apoyo": "Ni distopía inminente ni invento inofensivo.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14767306",
+                  "url": "https://images.pexels.com/photos/14767306/pexels-photo-14767306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Valentin Angel Fernandez",
+                  "pagina": "https://www.pexels.com/photo/side-view-of-a-young-man-14767306/"
+                },
+                "fichero": "recortes-auto/pexels-14767306.png"
               }
             }
           ]
@@ -1963,7 +2772,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stone bridge today crossing people",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35292380",
+                  "url": "https://videos.pexels.com/video-files/35292380/14952221_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/historic-stone-bridge-over-serene-river-35292380/"
+                },
+                "fichero": "clips/pexels-35292380.mp4"
               },
               "camara": "panR"
             },
@@ -1975,14 +2794,32 @@
                 "apoyo": "Noventa años después de pagarse con dinero que caducaba.",
                 "icono": "casa",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7522140",
+                  "url": "https://images.pexels.com/photos/7522140/pexels-photo-7522140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "beytlik",
+                  "pagina": "https://www.pexels.com/photo/gray-haired-male-walking-on-bridge-7522140/"
+                },
+                "fichero": "recortes-auto/pexels-7522140.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "alpine town modern day street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19671718",
+                  "url": "https://videos.pexels.com/video-files/19671718/19671718-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kmeel.com Videos",
+                  "pagina": "https://www.pexels.com/video/a-narrow-street-with-buildings-and-mountains-in-the-background-19671718/"
+                },
+                "fichero": "clips/pexels-19671718.mp4"
               },
               "camara": "pull"
             }
@@ -2004,14 +2841,32 @@
                 "lado": "izq",
                 "titular": "Es el mismo botón",
                 "apoyo": "Dirigir una ayuda y encerrar tu dinero son la misma función.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33159181",
+                  "url": "https://images.pexels.com/photos/33159181/pexels-photo-33159181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Warren  Adler",
+                  "pagina": "https://www.pexels.com/photo/person-pressing-crosswalk-button-at-traffic-light-33159181/"
+                },
+                "fichero": "recortes-auto/pexels-33159181.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "control room switches operator",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10895594",
+                  "url": "https://videos.pexels.com/video-files/10895594/10895594-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Luis Alberto Garcia Garcia",
+                  "pagina": "https://www.pexels.com/video/hand-holding-and-pushing-lever-among-buttons-10895594/"
+                },
+                "fichero": "clips/pexels-10895594.mp4"
               },
               "camara": "push"
             },
@@ -2038,7 +2893,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "light switch wall finger",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6520278",
+                  "url": "https://videos.pexels.com/video-files/6520278/6520278-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/person-flicking-switches-6520278/"
+                },
+                "fichero": "clips/pexels-6520278.mp4"
               },
               "camara": "estatico"
             },
@@ -2072,7 +2937,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "small town square people talking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28575210",
+                  "url": "https://videos.pexels.com/video-files/28575210/12424164_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Beyzaa Yurtkuran",
+                  "pagina": "https://www.pexels.com/video/charming-outdoor-cafe-scene-with-busy-vendor-28575210/"
+                },
+                "fichero": "clips/pexels-28575210.mp4"
               },
               "camara": "push"
             },
@@ -2114,7 +2989,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "official stamp rejected document",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6657746",
+                  "url": "https://videos.pexels.com/video-files/6657746/6657746-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/close-up-footage-of-a-person-wearing-gloves-6657746/"
+                },
+                "fichero": "clips/pexels-6657746.mp4"
               },
               "camara": "pull"
             },
@@ -2147,14 +3032,32 @@
                 "cifra": "1932",
                 "titular": "Ya sabes de dónde viene",
                 "apoyo": "De un pueblo de cuatro mil personas en el Tirol.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7545394",
+                  "url": "https://images.pexels.com/photos/7545394/pexels-photo-7545394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "SHVETS production",
+                  "pagina": "https://www.pexels.com/photo/an-elderly-woman-looking-at-a-photo-7545394/"
+                },
+                "fichero": "recortes-auto/pexels-7545394.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old photograph album hands turning",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8057621",
+                  "url": "https://videos.pexels.com/video-files/8057621/8057621-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/a-man-and-a-woman-looking-at-a-photo-album-8057621/"
+                },
+                "fichero": "clips/pexels-8057621.mp4"
               },
               "camara": "push"
             },
@@ -2176,7 +3079,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cobblestone street alpine village",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33746278",
+                  "url": "https://videos.pexels.com/video-files/33746278/14327107_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 19,
+                  "autor": "Attila Pergel",
+                  "pagina": "https://www.pexels.com/video/charming-szentendre-street-scene-in-hungary-33746278/"
+                },
+                "fichero": "clips/pexels-33746278.mp4"
               },
               "camara": "panL"
             },
@@ -2188,7 +3101,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "mountain valley town sunset peaceful",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17169512",
+                  "url": "https://videos.pexels.com/video-files/17169512/17169512-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Adili Family",
+                  "pagina": "https://www.pexels.com/video/beautiful-sunset-over-a-town-in-a-mountain-landscape-17169512/"
+                },
+                "fichero": "clips/pexels-17169512.mp4"
               },
               "camara": "pull"
             }
@@ -2211,7 +3134,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "snow falling empty street night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19504843",
+                  "url": "https://videos.pexels.com/video-files/19504843/19504843-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Milos Jevtic",
+                  "pagina": "https://www.pexels.com/video/snow-fall-during-a-winter-evening-a-tree-covered-in-snow-and-people-walking-19504843/"
+                },
+                "fichero": "clips/pexels-19504843.mp4"
               },
               "camara": "estatico"
             },
