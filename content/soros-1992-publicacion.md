@@ -75,7 +75,7 @@ Todos los datos que aparecen en pantalla llevan su fuente indicada en el propio 
 428 caracteres, dentro del tope de 500 de YouTube.
 
 ```
-miercoles negro, black wednesday, soros, banco de inglaterra, libra esterlina, 1992, mecanismo de cambios, sistema monetario europeo, bundesbank, reunificacion alemana, especulacion divisas, devaluacion peseta, tipos de interes, norman lamont, euro, devaluacion interna, zona euro, crisis monetaria, historia economica, objetivos de inflacion, reino unido economia, macroeconomia, divulgacion economica, capital x, economia explicada
+miercoles negro, black wednesday, soros, george soros, banco de inglaterra, libra esterlina, 1992, mecanismo de cambios, sistema monetario europeo, bundesbank, reunificacion alemana, especulacion divisas, ataque especulativo, devaluacion, devaluacion peseta, tipos de interes, norman lamont, euro, devaluacion interna, zona euro, crisis monetaria, historia economica, objetivos de inflacion, reino unido economia, quantum fund, macroeconomia, divulgacion economica, capital x, economia explicada
 ```
 
 ---
