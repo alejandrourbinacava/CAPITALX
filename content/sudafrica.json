@@ -28,14 +28,32 @@
                 "lado": "der",
                 "titular": "El relato que llega hasta aquí",
                 "apoyo": "Apagones, éxodo y un Estado que se cae a trozos.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35257126",
+                  "url": "https://images.pexels.com/photos/35257126/pexels-photo-35257126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Daniil Kondrashin",
+                  "pagina": "https://www.pexels.com/photo/man-holding-candle-in-festive-dimly-lit-room-35257126/"
+                },
+                "fichero": "recortes-auto/pexels-35257126.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "johannesburg skyline city africa",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33637718",
+                  "url": "https://videos.pexels.com/video-files/33637718/14294658_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/aerial-night-view-of-illuminated-cityscape-33637718/"
+                },
+                "fichero": "clips/pexels-33637718.mp4"
               },
               "camara": "panR"
             },
@@ -71,7 +89,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "city lights night skyline bright",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33637800",
+                  "url": "https://videos.pexels.com/video-files/33637800/14294712_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/stunning-aerial-timelapse-of-city-lights-at-night-33637800/"
+                },
+                "fichero": "clips/pexels-33637800.mp4"
               },
               "camara": "push"
             },
@@ -83,7 +111,15 @@
                 "apoyo": "Ni un solo corte programado desde mayo de 2025.",
                 "icono": "sube",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29206492",
+                  "url": "https://images.pexels.com/photos/29206492/pexels-photo-29206492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Stefan de Vries",
+                  "pagina": "https://www.pexels.com/photo/technician-inspecting-solar-power-equipment-indoors-29206492/"
+                },
+                "fichero": "recortes-auto/pexels-29206492.png"
               }
             }
           ]
@@ -132,7 +168,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "power station cooling towers working",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6216702",
+                  "url": "https://videos.pexels.com/video-files/6216702/6216702-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Andreu Marquès",
+                  "pagina": "https://www.pexels.com/video/aerial-footage-of-a-power-plant-6216702/"
+                },
+                "fichero": "clips/pexels-6216702.mp4"
               },
               "camara": "pull"
             },
@@ -145,7 +191,15 @@
                 "cifra": "16 may",
                 "titular": "Un año sin un segundo de corte",
                 "apoyo": "La racha más larga desde septiembre de 2018.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33915172",
+                  "url": "https://images.pexels.com/photos/33915172/pexels-photo-33915172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "snazzy  Photography",
+                  "pagina": "https://www.pexels.com/photo/young-engineer-at-electrical-substation-in-nigeria-33915172/"
+                },
+                "fichero": "recortes-auto/pexels-33915172.png"
               }
             }
           ]
@@ -167,7 +221,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowd walking street south africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38750363",
+                  "url": "https://videos.pexels.com/video-files/38750363/16465008_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mad Knoxx Deluxe",
+                  "pagina": "https://www.pexels.com/video/lively-african-street-market-scene-38750363/"
+                },
+                "fichero": "clips/pexels-38750363.mp4"
               },
               "camara": "estatico"
             },
@@ -209,7 +273,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dark city blackout candles windows",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36707859",
+                  "url": "https://videos.pexels.com/video-files/36707859/15559247_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-nightview-of-city-lights-in-black-and-white-36707859/"
+                },
+                "fichero": "clips/pexels-36707859.mp4"
               },
               "camara": "push"
             },
@@ -222,7 +296,15 @@
                 "cifra": "215",
                 "titular": "Días a oscuras en 2023",
                 "apoyo": "De trescientos sesenta y cinco. Hoy llevan 476 seguidos con luz.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15282036",
+                  "url": "https://images.pexels.com/photos/15282036/pexels-photo-15282036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Daniil Kondrashin",
+                  "pagina": "https://www.pexels.com/photo/photo-of-a-woman-with-two-lit-candles-15282036/"
+                },
+                "fichero": "recortes-auto/pexels-15282036.png"
               }
             }
           ]
@@ -249,7 +331,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "border crossing queue people africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29305358",
+                  "url": "https://videos.pexels.com/video-files/29305358/12637259_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "JMT 35",
+                  "pagina": "https://www.pexels.com/video/busy-international-airport-terminal-footage-29305358/"
+                },
+                "fichero": "clips/pexels-29305358.mp4"
               },
               "camara": "push"
             },
@@ -261,7 +353,15 @@
                 "lado": "der",
                 "titular": "Entra más gente de la que sale",
                 "apoyo": "Y esa parte no aparece en ningún reportaje.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12812035",
+                  "url": "https://images.pexels.com/photos/12812035/pexels-photo-12812035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Muhammad obaid ullah",
+                  "pagina": "https://www.pexels.com/photo/man-in-red-and-black-checkered-dress-shirt-carrying-bags-on-shoulder-12812035/"
+                },
+                "fichero": "recortes-auto/pexels-12812035.png"
               }
             }
           ]
@@ -292,7 +392,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "busy market street vendors africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30339600",
+                  "url": "https://videos.pexels.com/video-files/30339600/13005129_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "CHRISTIAN BARDOT",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-busy-african-market-street-30339600/"
+                },
+                "fichero": "clips/pexels-30339600.mp4"
               },
               "camara": "panL"
             },
@@ -304,7 +414,15 @@
                 "apoyo": "Vinieron a buscarse la vida. Eso no pasa en un país que se hunde.",
                 "icono": "persona",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38909240",
+                  "url": "https://images.pexels.com/photos/38909240/pexels-photo-38909240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "D Flamez",
+                  "pagina": "https://www.pexels.com/photo/nigerian-market-vendor-with-tomatoes-in-lagos-38909240/"
+                },
+                "fichero": "recortes-auto/pexels-38909240.png"
               }
             }
           ]
@@ -351,7 +469,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "workers construction site africa group",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27531033",
+                  "url": "https://videos.pexels.com/video-files/27531033/12161776_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Vitalis Nwenyi",
+                  "pagina": "https://www.pexels.com/video/construction-akoka-yaba-lagos-nigeria-27531033/"
+                },
+                "fichero": "clips/pexels-27531033.mp4"
               },
               "camara": "push"
             },
@@ -378,7 +506,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bus station arrivals passengers africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2895741",
+                  "url": "https://videos.pexels.com/video-files/2895741/2895741-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Ronald Hayward",
+                  "pagina": "https://www.pexels.com/video/basement-parking-and-public-bus-terminal-for-travelers-2895741/"
+                },
+                "fichero": "clips/pexels-2895741.mp4"
               },
               "camara": "estatico"
             },
@@ -434,7 +572,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport departures suitcase family",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32654544",
+                  "url": "https://videos.pexels.com/video-files/32654544/13922789_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/busy-airport-terminal-with-travelers-and-families-32654544/"
+                },
+                "fichero": "clips/pexels-32654544.mp4"
               },
               "camara": "push"
             },
@@ -468,7 +616,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airplane taking off runway evening",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11130977",
+                  "url": "https://videos.pexels.com/video-files/11130977/11130977-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Alireza Akhlaghi",
+                  "pagina": "https://www.pexels.com/video/a-plane-taking-off-on-a-cloudy-day-11130977/"
+                },
+                "fichero": "clips/pexels-11130977.mp4"
               },
               "camara": "pull"
             },
@@ -480,7 +638,15 @@
                 "lado": "izq",
                 "titular": "Países que piden titulados",
                 "apoyo": "Australia, Reino Unido, Estados Unidos, Nueva Zelanda y Alemania.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27086922",
+                  "url": "https://images.pexels.com/photos/27086922/pexels-photo-27086922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Helena Lopes",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-a-business-suit-smiling-27086922/"
+                },
+                "fichero": "recortes-auto/pexels-27086922.png"
               }
             }
           ]
@@ -517,7 +683,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "two directions arrows road sign",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19437875",
+                  "url": "https://videos.pexels.com/video-files/19437875/19437875-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Volkan Yılmaz",
+                  "pagina": "https://www.pexels.com/video/traffic-sky-skyscrapers-sony-19437875/"
+                },
+                "fichero": "clips/pexels-19437875.mp4"
               },
               "camara": "panR"
             },
@@ -544,7 +720,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "silhouette figures crowd distinct one",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19082212",
+                  "url": "https://videos.pexels.com/video-files/19082212/19082212-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Chris F",
+                  "pagina": "https://www.pexels.com/video/a-person-wearing-a-black-veil-and-a-black-hat-19082212/"
+                },
+                "fichero": "clips/pexels-19082212.mp4"
               },
               "camara": "estatico"
             },
@@ -596,7 +782,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "london street commuters walking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36523755",
+                  "url": "https://videos.pexels.com/video-files/36523755/15487098_1680_720_30fps.mp4",
+                  "ancho": 1680,
+                  "duracion": 11,
+                  "autor": "George Morina",
+                  "pagina": "https://www.pexels.com/video/bustling-activity-at-london-s-farringdon-station-36523755/"
+                },
+                "fichero": "clips/pexels-36523755.mp4"
               },
               "camara": "panL"
             },
@@ -628,7 +824,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "person filling survey form clipboard",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8060739",
+                  "url": "https://videos.pexels.com/video-files/8060739/8060739-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/close-up-footage-of-a-person-filling-up-the-form-8060739/"
+                },
+                "fichero": "clips/pexels-8060739.mp4"
               },
               "camara": "push"
             },
@@ -640,7 +846,15 @@
                 "lado": "izq",
                 "titular": "No mide a los que se fueron",
                 "apoyo": "Mide a los que lo están pensando. Que son muchos más.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37834635",
+                  "url": "https://images.pexels.com/photos/37834635/pexels-photo-37834635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Huỳnh Như Mavi",
+                  "pagina": "https://www.pexels.com/photo/woman-enjoying-drink-by-window-in-sunny-cafe-37834635/"
+                },
+                "fichero": "recortes-auto/pexels-37834635.png"
               }
             }
           ]
@@ -672,7 +886,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowd faces street south africa diverse",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31918480",
+                  "url": "https://videos.pexels.com/video-files/31918480/13596000_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "MC G'Zay",
+                  "pagina": "https://www.pexels.com/video/vibrant-city-protest-in-nairobi-kenya-31918480/"
+                },
+                "fichero": "clips/pexels-31918480.mp4"
               },
               "camara": "pull"
             },
@@ -694,7 +918,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rural school classroom africa children",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32778875",
+                  "url": "https://videos.pexels.com/video-files/32778875/13973002_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "TimePRO TV",
+                  "pagina": "https://www.pexels.com/video/engaged-students-learning-in-rural-classroom-32778875/"
+                },
+                "fichero": "clips/pexels-32778875.mp4"
               },
               "camara": "push"
             },
@@ -706,7 +940,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "village houses dirt road africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11326419",
+                  "url": "https://videos.pexels.com/video-files/11326419/11326419-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "African  Creator",
+                  "pagina": "https://www.pexels.com/video/street-in-slum-11326419/"
+                },
+                "fichero": "clips/pexels-11326419.mp4"
               },
               "camara": "panR"
             }
@@ -754,7 +998,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "graduation ceremony university caps",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8061030",
+                  "url": "https://videos.pexels.com/video-files/8061030/8061030-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/people-waving-their-graduation-hats-8061030/"
+                },
+                "fichero": "clips/pexels-8061030.mp4"
               },
               "camara": "pull"
             },
@@ -767,7 +1021,15 @@
                 "cifra": "42 %",
                 "titular": "Cuanto mejor te va, más te quieres ir",
                 "apoyo": "Diez por ciento con primaria. Cuarenta y dos entre los acomodados.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5804393",
+                  "url": "https://images.pexels.com/photos/5804393/pexels-photo-5804393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Luis Becerra  Fotógrafo",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-black-academic-dress-standing-5804393/"
+                },
+                "fichero": "recortes-auto/pexels-5804393.png"
               }
             }
           ]
@@ -789,7 +1051,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport departure board flights",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4684084",
+                  "url": "https://videos.pexels.com/video-files/4684084/4684084-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Taryn Elliott",
+                  "pagina": "https://www.pexels.com/video/low-angle-view-of-flight-schedules-on-a-board-4684084/"
+                },
+                "fichero": "clips/pexels-4684084.mp4"
               },
               "camara": "estatico"
             },
@@ -821,7 +1093,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tax form paperwork desk stamp",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7821663",
+                  "url": "https://videos.pexels.com/video-files/7821663/7821663-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/documents-on-the-table-7821663/"
+                },
+                "fichero": "clips/pexels-7821663.mp4"
               },
               "camara": "push"
             },
@@ -833,7 +1115,15 @@
                 "lado": "der",
                 "titular": "La medida que no miente",
                 "apoyo": "Declarar formalmente que dejas de ser residente fiscal.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34221176",
+                  "url": "https://images.pexels.com/photos/34221176/pexels-photo-34221176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Luis Sevilla",
+                  "pagina": "https://www.pexels.com/photo/professional-woman-in-modern-office-setting-34221176/"
+                },
+                "fichero": "recortes-auto/pexels-34221176.png"
               }
             }
           ]
@@ -864,7 +1154,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "checkbox form pen signature close",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841584",
+                  "url": "https://videos.pexels.com/video-files/7841584/7841584-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-a-contract-and-ballpens-7841584/"
+                },
+                "fichero": "clips/pexels-7841584.mp4"
               },
               "camara": "pull"
             },
@@ -898,7 +1198,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "young professionals office working",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7685822",
+                  "url": "https://videos.pexels.com/video-files/7685822/7685822-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/video/men-using-laptop-7685822/"
+                },
+                "fichero": "clips/pexels-7685822.mp4"
               },
               "camara": "push"
             },
@@ -911,7 +1221,15 @@
                 "cifra": "61 %",
                 "titular": "Entre 18 y 44 años",
                 "apoyo": "Se van justo cuando acaban de costar lo que cuestan y aún no han devuelto nada.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15093005",
+                  "url": "https://images.pexels.com/photos/15093005/pexels-photo-15093005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Uddab Bogati",
+                  "pagina": "https://www.pexels.com/photo/man-in-gown-after-graduation-15093005/"
+                },
+                "fichero": "recortes-auto/pexels-15093005.png"
               }
             }
           ]
@@ -933,7 +1251,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "single drop water ripple surface",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5573946",
+                  "url": "https://videos.pexels.com/video-files/5573946/5573946-hd_1920_1080_29fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 4,
+                  "autor": "Resty Jabines",
+                  "pagina": "https://www.pexels.com/video/a-container-full-of-water-5573946/"
+                },
+                "fichero": "clips/pexels-5573946.mp4"
               },
               "camara": "estatico"
             },
@@ -975,7 +1303,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "government office queue people waiting",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37664701",
+                  "url": "https://videos.pexels.com/video-files/37664701/15966523_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "Daryl John Quiming",
+                  "pagina": "https://www.pexels.com/video/busy-hospital-wait-room-with-diverse-patients-37664701/"
+                },
+                "fichero": "clips/pexels-37664701.mp4"
               },
               "camara": "panL"
             },
@@ -987,7 +1325,15 @@
                 "apoyo": "El registro es grande. Lo que se recauda sale de muy pocos.",
                 "icono": "documento",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5058929",
+                  "url": "https://images.pexels.com/photos/5058929/pexels-photo-5058929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Thirdman",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-vest-and-white-dress-shirt-5058929/"
+                },
+                "fichero": "recortes-auto/pexels-5058929.png"
               }
             }
           ]
@@ -1024,7 +1370,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "paperwork files stacked office",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7054942",
+                  "url": "https://videos.pexels.com/video-files/7054942/7054942-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/stack-of-paperwork-on-the-desk-7054942/"
+                },
+                "fichero": "clips/pexels-7054942.mp4"
               },
               "camara": "push"
             },
@@ -1058,7 +1414,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office tower workers business district",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10040756",
+                  "url": "https://videos.pexels.com/video-files/10040756/10040756-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Los Muertos Crew",
+                  "pagina": "https://www.pexels.com/video/businesswoman-talking-on-phone-in-city-10040756/"
+                },
+                "fichero": "clips/pexels-10040756.mp4"
               },
               "camara": "pull"
             },
@@ -1071,7 +1437,15 @@
                 "cifra": "980.000",
                 "titular": "Sostienen a 62 millones",
                 "apoyo": "El 12,5 % de los contribuyentes paga cerca del 60 % del IRPF.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34367745",
+                  "url": "https://images.pexels.com/photos/34367745/pexels-photo-34367745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Vladislav Lolenko",
+                  "pagina": "https://www.pexels.com/photo/confident-businesswoman-in-urban-setting-34367745/"
+                },
+                "fichero": "recortes-auto/pexels-34367745.png"
               }
             }
           ]
@@ -1108,7 +1482,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "luxury apartment balcony city view",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38630675",
+                  "url": "https://videos.pexels.com/video-files/38630675/16406923_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Zetong Li",
+                  "pagina": "https://www.pexels.com/video/modern-urban-high-rise-building-aerial-view-38630675/"
+                },
+                "fichero": "clips/pexels-38630675.mp4"
               },
               "camara": "push"
             },
@@ -1120,7 +1504,15 @@
                 "apoyo": "Casi un tercio de la recaudación sale de tres de cada cien.",
                 "icono": "moneda",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7519009",
+                  "url": "https://images.pexels.com/photos/7519009/pexels-photo-7519009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/a-man-reading-the-newspaper-7519009/"
+                },
+                "fichero": "recortes-auto/pexels-7519009.png"
               }
             }
           ]
@@ -1142,7 +1534,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "thin rope bridge fragile crossing",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35399373",
+                  "url": "https://videos.pexels.com/video-files/35399373/14998624_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "celal keser",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-bosphorus-bridge-at-daylight-35399373/"
+                },
+                "fichero": "clips/pexels-35399373.mp4"
               },
               "camara": "estatico"
             },
@@ -1174,7 +1576,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "highway traffic aerial moving cars",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28542236",
+                  "url": "https://videos.pexels.com/video-files/28542236/12414494_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Piotr Wojnowski",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-highway-with-cars-driving-on-it-28542236/"
+                },
+                "fichero": "clips/pexels-28542236.mp4"
               },
               "camara": "push"
             },
@@ -1186,7 +1598,15 @@
                 "lado": "izq",
                 "titular": "Sin cruzar ninguna frontera",
                 "apoyo": "Por eso no sale en ningún titular.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4569906",
+                  "url": "https://images.pexels.com/photos/4569906/pexels-photo-4569906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/man-in-gray-crew-neck-t-shirt-sitting-beside-woman-in-gray-tank-top-4569906/"
+                },
+                "fichero": "recortes-auto/pexels-4569906.png"
               }
             }
           ]
@@ -1217,7 +1637,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "minibus taxi rank crowded africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7121748",
+                  "url": "https://videos.pexels.com/video-files/7121748/7121748-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Steve B",
+                  "pagina": "https://www.pexels.com/video/vehicles-on-the-road-7121748/"
+                },
+                "fichero": "clips/pexels-7121748.mp4"
               },
               "camara": "panR"
             },
@@ -1229,7 +1659,15 @@
                 "apoyo": "Dentro del propio país, sin cruzar ninguna frontera.",
                 "icono": "casa",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "24811613",
+                  "url": "https://images.pexels.com/photos/24811613/pexels-photo-24811613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hector Portillo",
+                  "pagina": "https://www.pexels.com/photo/woman-checking-her-phone-in-bus-24811613/"
+                },
+                "fichero": "recortes-auto/pexels-24811613.png"
               }
             }
           ]
@@ -1266,7 +1704,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rural village empty houses africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5362813",
+                  "url": "https://videos.pexels.com/video-files/5362813/5362813-hd_1282_720_25fps.mp4",
+                  "ancho": 1282,
+                  "duracion": 7,
+                  "autor": "Adrien JACTA",
+                  "pagina": "https://www.pexels.com/video/small-building-by-the-road-5362813/"
+                },
+                "fichero": "clips/pexels-5362813.mp4"
               },
               "camara": "pull"
             },
@@ -1279,7 +1727,15 @@
                 "cifra": "9 a 1",
                 "titular": "Nueve veces más grande",
                 "apoyo": "Y no aparece en la conversación sobre Sudáfrica.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20284433",
+                  "url": "https://images.pexels.com/photos/20284433/pexels-photo-20284433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ekrem Doğan",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-elderly-woman-20284433/"
+                },
+                "fichero": "recortes-auto/pexels-20284433.png"
               }
             }
           ]
@@ -1301,7 +1757,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "long road horizon travelling africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13244344",
+                  "url": "https://videos.pexels.com/video-files/13244344/13244344-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/driving-along-the-road-on-a-cloudy-day-13244344/"
+                },
+                "fichero": "clips/pexels-13244344.mp4"
               },
               "camara": "estatico"
             },
@@ -1333,14 +1799,32 @@
                 "lado": "izq",
                 "titular": "Gauteng",
                 "apoyo": "La provincia más pequeña en superficie y la que tiene el dinero.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28426641",
+                  "url": "https://images.pexels.com/photos/28426641/pexels-photo-28426641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Filip Rankovic Grobgaard",
+                  "pagina": "https://www.pexels.com/photo/confident-businessman-in-modern-office-setting-28426641/"
+                },
+                "fichero": "recortes-auto/pexels-28426641.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "johannesburg business district towers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33644281",
+                  "url": "https://videos.pexels.com/video-files/33644281/14297443_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-sandton-skyline-south-africa-33644281/"
+                },
+                "fichero": "clips/pexels-33644281.mp4"
               },
               "camara": "push"
             },
@@ -1387,7 +1871,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dense urban township aerial africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33763292",
+                  "url": "https://videos.pexels.com/video-files/33763292/14333036_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Sadiq Hashim",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-dense-african-marketplace-33763292/"
+                },
+                "fichero": "clips/pexels-33763292.mp4"
               },
               "camara": "pull"
             },
@@ -1423,7 +1917,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "informal settlement expanding hillside",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28981128",
+                  "url": "https://videos.pexels.com/video-files/28981128/12535857_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Bashir Hussaini Ahmed",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-scenic-african-village-landscape-28981128/"
+                },
+                "fichero": "clips/pexels-28981128.mp4"
               },
               "camara": "push"
             },
@@ -1435,7 +1939,15 @@
                 "apoyo": "Y medio millón al Cabo Occidental.",
                 "icono": "sube",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37556452",
+                  "url": "https://images.pexels.com/photos/37556452/pexels-photo-37556452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Galib Rahman Nadim",
+                  "pagina": "https://www.pexels.com/photo/construction-worker-with-safety-gear-and-tool-37556452/"
+                },
+                "fichero": "recortes-auto/pexels-37556452.png"
               }
             }
           ]
@@ -1457,7 +1969,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cape town coast city mountain",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4873092",
+                  "url": "https://videos.pexels.com/video-files/4873092/4873092-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Taryn Elliott",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-coastal-landscape-against-mountain-background-4873092/"
+                },
+                "fichero": "clips/pexels-4873092.mp4"
               },
               "camara": "estatico"
             },
@@ -1483,14 +2005,32 @@
                 "lado": "der",
                 "titular": "La provincia más pequeña",
                 "apoyo": "El trozo menor del mapa concentra casi la mitad del IRPF.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29560008",
+                  "url": "https://images.pexels.com/photos/29560008/pexels-photo-29560008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ferhat  Kocakaya",
+                  "pagina": "https://www.pexels.com/photo/surveyor-with-theodolite-in-mountainous-terrain-29560008/"
+                },
+                "fichero": "recortes-auto/pexels-29560008.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "dense city aerial packed buildings",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29889770",
+                  "url": "https://videos.pexels.com/video-files/29889770/12832423_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Bashir Hussaini Ahmed",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-dense-urban-area-at-daytime-29889770/"
+                },
+                "fichero": "clips/pexels-29889770.mp4"
               },
               "camara": "push"
             },
@@ -1522,7 +2062,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hospital corridor empty beds",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6151283",
+                  "url": "https://videos.pexels.com/video-files/6151283/6151283-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Mister Edits",
+                  "pagina": "https://www.pexels.com/video/a-footage-inside-a-hospital-6151283/"
+                },
+                "fichero": "clips/pexels-6151283.mp4"
               },
               "camara": "push"
             },
@@ -1534,7 +2084,15 @@
                 "lado": "der",
                 "titular": "Aquí no es contabilidad",
                 "apoyo": "Es una consulta sin médico y una lista de espera más larga.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4270377",
+                  "url": "https://images.pexels.com/photos/4270377/pexels-photo-4270377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Cedric Fauntleroy",
+                  "pagina": "https://www.pexels.com/photo/a-woman-on-the-sofa-touching-her-head-4270377/"
+                },
+                "fichero": "recortes-auto/pexels-4270377.png"
               }
             }
           ]
@@ -1565,7 +2123,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "doctor walking hospital corridor modern",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8460395",
+                  "url": "https://videos.pexels.com/video-files/8460395/8460395-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Los Muertos Crew",
+                  "pagina": "https://www.pexels.com/video/person-wearing-personal-protective-equipment-walking-8460395/"
+                },
+                "fichero": "clips/pexels-8460395.mp4"
               },
               "camara": "panL"
             },
@@ -1607,7 +2175,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "medical students university lecture",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8196806",
+                  "url": "https://videos.pexels.com/video-files/8196806/8196806-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Yan Krukau",
+                  "pagina": "https://www.pexels.com/video/college-students-in-class-8196806/"
+                },
+                "fichero": "clips/pexels-8196806.mp4"
               },
               "camara": "push"
             },
@@ -1619,7 +2197,15 @@
                 "apoyo": "Los paga Sudáfrica. El trabajo lo cobra otro país.",
                 "icono": "documento",
                 "tono": "carmin",
-                "lado": "izq"
+                "lado": "izq",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35531445",
+                  "url": "https://images.pexels.com/photos/35531445/pexels-photo-35531445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jagaba Denis",
+                  "pagina": "https://www.pexels.com/photo/nigerian-university-graduate-studying-in-library-35531445/"
+                },
+                "fichero": "recortes-auto/pexels-35531445.png"
               }
             }
           ]
@@ -1641,7 +2227,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty consultation room chair desk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5734745",
+                  "url": "https://videos.pexels.com/video-files/5734745/5734745-hd_1366_576_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/empty-classroom-5734745/"
+                },
+                "fichero": "clips/pexels-5734745.mp4"
               },
               "camara": "estatico"
             },
@@ -1673,7 +2269,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dry tap no water close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7301194",
+                  "url": "https://videos.pexels.com/video-files/7301194/7301194-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Taryn Elliott",
+                  "pagina": "https://www.pexels.com/video/person-turning-a-faucet-on-7301194/"
+                },
+                "fichero": "clips/pexels-7301194.mp4"
               },
               "camara": "push"
             },
@@ -1685,7 +2291,15 @@
                 "lado": "izq",
                 "titular": "El problema se mudó",
                 "apoyo": "Volvió la luz. Se fue el agua.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27757410",
+                  "url": "https://images.pexels.com/photos/27757410/pexels-photo-27757410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Muhammad-Taha Ibrahim",
+                  "pagina": "https://www.pexels.com/photo/a-woman-carrying-a-bucket-of-water-on-her-head-27757410/"
+                },
+                "fichero": "recortes-auto/pexels-27757410.png"
               }
             }
           ]
@@ -1716,7 +2330,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "burst water pipe street flooding",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18640859",
+                  "url": "https://videos.pexels.com/video-files/18640859/18640859-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "D Goug",
+                  "pagina": "https://www.pexels.com/video/street-flooding-18640859/"
+                },
+                "fichero": "clips/pexels-18640859.mp4"
               },
               "camara": "pull"
             },
@@ -1753,7 +2377,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "water tanker truck queue containers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35355552",
+                  "url": "https://videos.pexels.com/video-files/35355552/14979590_1920_1080_100fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "Shutter  Break",
+                  "pagina": "https://www.pexels.com/video/yellow-tanker-truck-on-rainy-urban-street-35355552/"
+                },
+                "fichero": "clips/pexels-35355552.mp4"
               },
               "camara": "push"
             },
@@ -1766,7 +2400,15 @@
                 "cifra": "650 M",
                 "titular": "Rands en camiones cisterna",
                 "apoyo": "Repartiendo a mano el agua que la red ya no entrega.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18205265",
+                  "url": "https://images.pexels.com/photos/18205265/pexels-photo-18205265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "@akb.ph",
+                  "pagina": "https://www.pexels.com/photo/man-working-by-fountain-in-city-18205265/"
+                },
+                "fichero": "recortes-auto/pexels-18205265.png"
               }
             }
           ]
@@ -1783,7 +2425,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "protest crowd placards street africa",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6258028",
+                  "url": "https://videos.pexels.com/video-files/6258028/6258028-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/group-of-protesters-on-the-street-6258028/"
+                },
+                "fichero": "clips/pexels-6258028.mp4"
               },
               "camara": "push"
             },
@@ -1795,7 +2447,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty water reservoir infrastructure",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15860321",
+                  "url": "https://videos.pexels.com/video-files/15860321/15860321-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Prime Media Photography",
+                  "pagina": "https://www.pexels.com/video/uhd-4k-aerial-footage-of-an-lake-with-beautiful-landscape-in-pakistan-15860321/"
+                },
+                "fichero": "clips/pexels-15860321.mp4"
               },
               "camara": "panL"
             }
@@ -1817,14 +2479,32 @@
                 "lado": "izq",
                 "titular": "Los que pueden se salen",
                 "apoyo": "Depósitos, pozos y bombas. Como antes los generadores.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27546158",
+                  "url": "https://images.pexels.com/photos/27546158/pexels-photo-27546158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "addy  bronzzz",
+                  "pagina": "https://www.pexels.com/photo/a-man-sitting-on-a-chair-in-a-field-27546158/"
+                },
+                "fichero": "recortes-auto/pexels-27546158.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "water tank installation house garden",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39105111",
+                  "url": "https://videos.pexels.com/video-files/39105111/16638116_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Alef Morais",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-luxury-modern-home-with-solar-panels-39105111/"
+                },
+                "fichero": "clips/pexels-39105111.mp4"
               },
               "camara": "push"
             },
@@ -1851,7 +2531,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "generator machine backyard running",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32388311",
+                  "url": "https://videos.pexels.com/video-files/32388311/13815615_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Ahmet Kurt",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-gardener-mowing-green-lawn-32388311/"
+                },
+                "fichero": "clips/pexels-32388311.mp4"
               },
               "camara": "estatico"
             },
@@ -1885,7 +2575,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "gated community wall houses aerial",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20613233",
+                  "url": "https://videos.pexels.com/video-files/20613233/20613233-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/an-aerial-view-of-a-residential-area-with-trees-and-buildings-20613233/"
+                },
+                "fichero": "clips/pexels-20613233.mp4"
               },
               "camara": "pull"
             },
@@ -1918,7 +2618,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "storm clouds over city dark",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33906591",
+                  "url": "https://videos.pexels.com/video-files/33906591/14388683_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "†reny aleksa",
+                  "pagina": "https://www.pexels.com/video/dramatic-urban-skyline-with-storm-clouds-33906591/"
+                },
+                "fichero": "clips/pexels-33906591.mp4"
               },
               "camara": "estatico"
             },
@@ -1955,7 +2665,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "job seekers queue street africa",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31109368",
+                  "url": "https://videos.pexels.com/video-files/31109368/13292164_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Trumpet Studios",
+                  "pagina": "https://www.pexels.com/video/nigerian-worker-repairing-car-tire-outdoors-31109368/"
+                },
+                "fichero": "clips/pexels-31109368.mp4"
               },
               "camara": "push"
             },
@@ -1968,7 +2688,15 @@
                 "cifra": "32,7 %",
                 "titular": "Y subiendo",
                 "apoyo": "El paro más alto de cualquier economía grande del mundo.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9532194",
+                  "url": "https://images.pexels.com/photos/9532194/pexels-photo-9532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Timur Weber",
+                  "pagina": "https://www.pexels.com/photo/sad-jobless-man-sitting-on-stairs-9532194/"
+                },
+                "fichero": "recortes-auto/pexels-9532194.png"
               }
             }
           ]
@@ -1985,7 +2713,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "petrol station price sign africa",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14603998",
+                  "url": "https://videos.pexels.com/video-files/14603998/14603998-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Konsta Nurkkala",
+                  "pagina": "https://www.pexels.com/video/gas-station-at-night-14603998/"
+                },
+                "fichero": "clips/pexels-14603998.mp4"
               },
               "camara": "panR"
             },
@@ -1997,7 +2735,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil tanker port loading crude",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28801856",
+                  "url": "https://videos.pexels.com/video-files/28801856/12481542_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-shipping-vessel-in-bosphorus-28801856/"
+                },
+                "fichero": "clips/pexels-28801856.mp4"
               },
               "camara": "pull"
             }
@@ -2019,14 +2767,32 @@
                 "lado": "der",
                 "titular": "El límite de esta tesis",
                 "apoyo": "Que no se vacíe no significa que esté bien.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567528",
+                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                },
+                "fichero": "recortes-auto/pexels-7567528.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "township houses aerial dense poverty",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17812146",
+                  "url": "https://videos.pexels.com/video-files/17812146/17812146-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Sipho Ndebele",
+                  "pagina": "https://www.pexels.com/video/south-african-township-17812146/"
+                },
+                "fichero": "clips/pexels-17812146.mp4"
               },
               "camara": "push"
             },
@@ -2063,7 +2829,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "young people sitting street waiting africa",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7683338",
+                  "url": "https://videos.pexels.com/video-files/7683338/7683338-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/group-of-friends-resting-their-feet-7683338/"
+                },
+                "fichero": "clips/pexels-7683338.mp4"
               },
               "camara": "push"
             },
@@ -2076,7 +2852,15 @@
                 "cifra": "57 %",
                 "titular": "Más de uno de cada dos",
                 "apoyo": "Jóvenes que quieren trabajar y no encuentran.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34237086",
+                  "url": "https://images.pexels.com/photos/34237086/pexels-photo-34237086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hakim LEVEL",
+                  "pagina": "https://www.pexels.com/photo/stylish-man-leaning-on-van-in-urban-setting-34237086/"
+                },
+                "fichero": "recortes-auto/pexels-34237086.png"
               }
             }
           ]
@@ -2108,7 +2892,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "aerial contrast rich poor neighbourhoods",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13375416",
+                  "url": "https://videos.pexels.com/video-files/13375416/13375416-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Danilo Arenas",
+                  "pagina": "https://www.pexels.com/video/drone-video-of-bogota-city-in-colombia-13375416/"
+                },
+                "fichero": "clips/pexels-13375416.mp4"
               },
               "camara": "pull"
             },
@@ -2135,7 +2929,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "light bulb switching on dark room",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5119258",
+                  "url": "https://videos.pexels.com/video-files/5119258/5119258-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nothing Ahead",
+                  "pagina": "https://www.pexels.com/video/zoom-in-video-clip-of-a-bulb-5119258/"
+                },
+                "fichero": "clips/pexels-5119258.mp4"
               },
               "camara": "estatico"
             },
@@ -2174,7 +2978,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish city street people walking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35667578",
+                  "url": "https://videos.pexels.com/video-files/35667578/15114974_1920_1440_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Nestor fernando De León",
+                  "pagina": "https://www.pexels.com/video/vibrant-street-life-in-barranquilla-market-35667578/"
+                },
+                "fichero": "clips/pexels-35667578.mp4"
               },
               "camara": "push"
             },
@@ -2186,7 +3000,15 @@
                 "apoyo": "Base fiscal estrecha y gente que se concentra.",
                 "icono": "balanza",
                 "tono": "ocre",
-                "lado": "der"
+                "lado": "der",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35736641",
+                  "url": "https://images.pexels.com/photos/35736641/pexels-photo-35736641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Reinhard Bruckner",
+                  "pagina": "https://www.pexels.com/photo/historic-city-hall-building-in-pamplona-spain-35736641/"
+                },
+                "fichero": "recortes-auto/pexels-35736641.png"
               }
             }
           ]
@@ -2207,14 +3029,32 @@
                 "lado": "izq",
                 "titular": "Eso ya lo has visto",
                 "apoyo": "Se llama España vaciada y es exactamente el mismo mecanismo.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15666310",
+                  "url": "https://images.pexels.com/photos/15666310/pexels-photo-15666310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "azra irem Topcu",
+                  "pagina": "https://www.pexels.com/photo/side-view-of-an-elderly-man-with-a-walking-stick-standing-outside-15666310/"
+                },
+                "fichero": "recortes-auto/pexels-15666310.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned village spain empty houses",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34357279",
+                  "url": "https://videos.pexels.com/video-files/34357279/14554994_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Jesus  Alfonso",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-abandoned-rural-structures-34357279/"
+                },
+                "fichero": "clips/pexels-34357279.mp4"
               },
               "camara": "panL"
             },
@@ -2256,7 +3096,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "madrid aerial city dense urban",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7069320",
+                  "url": "https://videos.pexels.com/video-files/7069320/7069320-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Oleg Khudyakov",
+                  "pagina": "https://www.pexels.com/video/aerial-footage-of-a-big-city-7069320/"
+                },
+                "fichero": "clips/pexels-7069320.mp4"
               },
               "camara": "pull"
             },
@@ -2278,7 +3128,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rural road empty countryside spain",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34731148",
+                  "url": "https://videos.pexels.com/video-files/34731148/14722702_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Tom Jurman",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-scenic-rural-landscape-34731148/"
+                },
+                "fichero": "clips/pexels-34731148.mp4"
               },
               "camara": "push"
             },
@@ -2290,7 +3150,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "closed rural school building",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5886749",
+                  "url": "https://videos.pexels.com/video-files/5886749/5886749-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mary Taylor",
+                  "pagina": "https://www.pexels.com/video/close-up-shot-of-a-school-building-5886749/"
+                },
+                "fichero": "clips/pexels-5886749.mp4"
               },
               "camara": "pull"
             }
@@ -2313,7 +3183,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "funnel narrowing flow concept",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34247633",
+                  "url": "https://videos.pexels.com/video-files/34247633/14512527_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nicola Narracci",
+                  "pagina": "https://www.pexels.com/video/dynamic-abstract-animation-with-neon-lights-34247633/"
+                },
+                "fichero": "clips/pexels-34247633.mp4"
               },
               "camara": "estatico"
             },
@@ -2345,14 +3225,32 @@
                 "lado": "der",
                 "titular": "Los tres datos",
                 "apoyo": "476 días con luz, tres millones que entran, nueve que se mudan dentro.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33636670",
+                  "url": "https://images.pexels.com/photos/33636670/pexels-photo-33636670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Chris Harvey",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-young-man-in-johannesburg-black-and-white-33636670/"
+                },
+                "fichero": "recortes-auto/pexels-33636670.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "sunrise city africa morning light",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33644285",
+                  "url": "https://videos.pexels.com/video-files/33644285/14297342_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-sandton-suburban-neighborhood-33644285/"
+                },
+                "fichero": "clips/pexels-33644285.mp4"
               },
               "camara": "push"
             },
@@ -2399,7 +3297,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "train station commuters crowd africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30614059",
+                  "url": "https://videos.pexels.com/video-files/30614059/13109807_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Mihaela Claudia  Puscas",
+                  "pagina": "https://www.pexels.com/video/crowded-train-platform-in-italian-winter-30614059/"
+                },
+                "fichero": "clips/pexels-30614059.mp4"
               },
               "camara": "panR"
             },
@@ -2426,7 +3334,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bus departing dusty road africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34817024",
+                  "url": "https://videos.pexels.com/video-files/34817024/14761218_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Earth Photart",
+                  "pagina": "https://www.pexels.com/video/scenic-desert-bus-journey-in-morocco-34817024/"
+                },
+                "fichero": "clips/pexels-34817024.mp4"
               },
               "camara": "estatico"
             },
