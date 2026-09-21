@@ -33,8 +33,8 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 // Suelo de cada tipo en segundos. Espejo de MINIMO_POR_TIPO en src/Video.tsx:
 // si cambia alli, cambia aqui.
 const MINIMO = {
-  barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, mapa: 3.4,
-  frase: 2.3, retrato: 2.0, recorte: 1.7, objeto: 1.5, clip: 1.3,
+  barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, recorte: 3.6,
+  mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2,
 };
 
 const TIPOS = [
@@ -1067,6 +1067,30 @@ function validar(doc, tema) {
     }
     const cl = cuenta("clip");
     if (pc(cl) < 20) di(`solo hay ${cl} clips (${pc(cl)} %). Tienen que ser cerca del 28 %.`);
+    // Un objeto sin rotulo es un dibujo solo en pantalla, sin una palabra.
+    // En los cinco videos anteriores lo estaban TODOS: 218 escenas de un
+    // unico elemento, que es justo lo que se ve como poco dinamico.
+    const objs = escenas.filter((e) => e.tipo === "objeto");
+    const pelados = objs.filter((e) => !e.rotulo && !e.kicker);
+    if (pelados.length > objs.length * 0.4) {
+      di(
+        `${pelados.length} de ${objs.length} escenas de objeto van sin rótulo ni kicker: ` +
+          `un dibujo solo en pantalla. Ponles una frase encima o cámbialas por un clip.`
+      );
+    }
+
+    // Repetir el mismo dibujo cansa dentro del video y mucho mas entre
+    // videos. La balanza llego a salir ocho veces en un solo guion y en los
+    // cinco ultimos seguidos.
+    const veces = {};
+    for (const e of objs) veces[e.objeto] = (veces[e.objeto] ?? 0) + 1;
+    for (const [nombre, n] of Object.entries(veces)) {
+      if (n > 3) di(`el objeto "${nombre}" sale ${n} veces. El tope son 3 por guion: hay dieciséis distintos.`);
+    }
+    if (pc(objs.length) > 20) {
+      di(`el ${pc(objs.length)} % de las escenas son objetos (dibujos nuestros). El tope es 20 %: usa clips.`);
+    }
+
     const rc = cuenta("recorte");
     if (pc(rc) < 14) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 20 %.`);
   }

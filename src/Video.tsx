@@ -155,12 +155,14 @@ export const duracionTotalDe = (g: Guion, t: Tiempos) =>
  * grafico cortado antes de que llegue el ultimo dato no se lee- pero se
  * aplicaba igual a un clip, y un clip se entiende en cuanto aparece.
  *
- * El resultado medido sobre los cuatro ultimos videos: el 94 % de las escenas
- * duraba entre cuatro y siete segundos y ninguna bajaba de tres y medio. No
- * habia ritmo, habia metronomo. El suelo unico era la causa.
+ * El resultado medido sobre los cuatro videos anteriores: el 94 % de las
+ * escenas duraba entre cuatro y siete segundos y ninguna bajaba de tres y
+ * medio. No habia ritmo, habia metronomo. El suelo unico era la causa.
  *
- * Ahora lo que hay que leer conserva su tiempo y lo que solo hay que ver
- * puede durar segundo y medio.
+ * Pero la primera correccion se paso de frenada: con los suelos en 1,3 y 1,7
+ * el 41 % de las escenas bajo de tres segundos y el 8 % de dos. Un clip de
+ * segundo y medio es un parpadeo, y un recorte de dos segundos no se lee.
+ * Estos son los suelos de la segunda vuelta.
  */
 const MINIMO_POR_TIPO: Record<string, number> = {
   barras: 4.2,
@@ -168,12 +170,15 @@ const MINIMO_POR_TIPO: Record<string, number> = {
   gente: 4.2,
   contador: 4.0,
   lista: 3.8,
+  // El recorte no es una imagen: es una pantalla de texto con una foto al
+  // lado. Lleva cifra, titular y apoyo. Tenerlo en 1,7 s era pedirle al
+  // espectador que leyera tres lineas en dos segundos.
+  recorte: 3.6,
   mapa: 3.4,
-  frase: 2.3,
-  retrato: 2.0,
-  recorte: 1.7,
-  objeto: 1.5,
-  clip: 1.3,
+  frase: 2.6,
+  objeto: 2.6,
+  retrato: 2.6,
+  clip: 2.2,
 };
 const MINIMO_POR_DEFECTO = 3.0;
 const minimoDe = (e: { tipo?: string }) =>
@@ -194,14 +199,14 @@ const PESO: Record<string, number> = {
   contador: 1.4,
   lista: 1.3,
   mapa: 1.2,
+  // El recorte sube: se lee, asi que tambien merece parte del sobrante.
+  recorte: 1.0,
   frase: 0.9,
   retrato: 0.7,
-  // Los tres de imagen van bajos a proposito: se quedan con su minimo y poco
-  // mas, para que el sobrante se lo lleve lo que hay que leer. Son el corte
+  objeto: 0.7,
+  // El clip es lo unico que de verdad se entiende de un vistazo. Es el corte
   // rapido entre dos cosas que piden tiempo.
-  recorte: 0.6,
-  objeto: 0.5,
-  clip: 0.45,
+  clip: 0.5,
 };
 
 /**
