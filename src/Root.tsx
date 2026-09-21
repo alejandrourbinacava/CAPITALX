@@ -26,6 +26,7 @@ import chinaDeudaUsa from "../content/china-deuda-usa.json";
 import petrodolar from "../content/petrodolar.json";
 import soros1992 from "../content/soros-1992.json";
 import yuanDigital from "../content/yuan-digital.json";
+import sudafrica from "../content/sudafrica.json";
 import pensionesT from "../content/pensiones.timings.json";
 import alemaniaTrabajoT from "../content/alemania-trabajo.timings.json";
 import chinaInmobiliarioT from "../content/china-inmobiliario.timings.json";
@@ -36,6 +37,7 @@ import chinaDeudaUsaT from "../content/china-deuda-usa.timings.json";
 import petrodolarT from "../content/petrodolar.timings.json";
 import soros1992T from "../content/soros-1992.timings.json";
 import yuanDigitalT from "../content/yuan-digital.timings.json";
+import sudafricaT from "../content/sudafrica.timings.json";
 import diario from "../content/diario.json";
 import diarioT from "../content/diario.timings.json";
 
@@ -56,6 +58,7 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "petrodolar", guion: petrodolar as any, tiempos: petrodolarT as any },
   { id: "soros-1992", guion: soros1992 as any, tiempos: soros1992T as any },
   { id: "yuan-digital", guion: yuanDigital as any, tiempos: yuanDigitalT as any },
+  { id: "sudafrica", guion: sudafrica as any, tiempos: sudafricaT as any },
   { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 
