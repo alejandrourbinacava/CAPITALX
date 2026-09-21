@@ -78,7 +78,7 @@ Todos los datos que aparecen en pantalla llevan su fuente indicada en el propio 
 
 ## ETIQUETAS
 
-**431 caracteres**, 27 etiquetas. Por debajo del tope de 500 de YouTube.
+**399 caracteres**, 27 etiquetas. Por debajo del tope de 500 de YouTube.
 
 ```
 sudafrica, economia sudafrica, emigracion sudafrica, exodo sudafrica, apagones sudafrica, eskom, load shedding, paro sudafrica, desempleo, base fiscal, impuestos, sars, gauteng, johannesburgo, ciudad del cabo, migracion interna, españa vaciada, despoblacion, fuga de cerebros, medicos emigracion, zimbabue, mozambique, africa economia, macroeconomia, divulgacion economica, capital x, sudafrica 2026
