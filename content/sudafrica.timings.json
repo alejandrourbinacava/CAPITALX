@@ -1,1 +1,386 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/sudafrica-b0-01.mp3",
+    "duration": 11.075918,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b0-02": {
+    "audio": "voice/sudafrica-b0-02.mp3",
+    "duration": 12.512653,
+    "transcript": null,
+    "credit_cost": 324
+  },
+  "b0-03": {
+    "audio": "voice/sudafrica-b0-03.mp3",
+    "duration": 12.408163,
+    "transcript": null,
+    "credit_cost": 326
+  },
+  "b0-04": {
+    "audio": "voice/sudafrica-b0-04.mp3",
+    "duration": 9.299592,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b0-05": {
+    "audio": "voice/sudafrica-b0-05.mp3",
+    "duration": 11.911837,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b1-01": {
+    "audio": "voice/sudafrica-b1-01.mp3",
+    "duration": 9.482449,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b1-02": {
+    "audio": "voice/sudafrica-b1-02.mp3",
+    "duration": 11.128163,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b1-03": {
+    "audio": "voice/sudafrica-b1-03.mp3",
+    "duration": 12.669388,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b1-04": {
+    "audio": "voice/sudafrica-b1-04.mp3",
+    "duration": 10.187755,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b2-01": {
+    "audio": "voice/sudafrica-b2-01.mp3",
+    "duration": 10.13551,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b2-02": {
+    "audio": "voice/sudafrica-b2-02.mp3",
+    "duration": 11.702857,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b2-03": {
+    "audio": "voice/sudafrica-b2-03.mp3",
+    "duration": 9.952653,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "b2-04": {
+    "audio": "voice/sudafrica-b2-04.mp3",
+    "duration": 6.922449,
+    "transcript": null,
+    "credit_cost": 151
+  },
+  "b2-05": {
+    "audio": "voice/sudafrica-b2-05.mp3",
+    "duration": 11.937959,
+    "transcript": null,
+    "credit_cost": 300
+  },
+  "bQ-01": {
+    "audio": "voice/sudafrica-bQ-01.mp3",
+    "duration": 9.038367,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "bQ-02": {
+    "audio": "voice/sudafrica-bQ-02.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "bQ-03": {
+    "audio": "voice/sudafrica-bQ-03.mp3",
+    "duration": 9.848163,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "bQ-04": {
+    "audio": "voice/sudafrica-bQ-04.mp3",
+    "duration": 10.997551,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "bQ-05": {
+    "audio": "voice/sudafrica-bQ-05.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b3-01": {
+    "audio": "voice/sudafrica-b3-01.mp3",
+    "duration": 9.116735,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b3-02": {
+    "audio": "voice/sudafrica-b3-02.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 243
+  },
+  "b3-03": {
+    "audio": "voice/sudafrica-b3-03.mp3",
+    "duration": 11.41551,
+    "transcript": null,
+    "credit_cost": 310
+  },
+  "b3-04": {
+    "audio": "voice/sudafrica-b3-04.mp3",
+    "duration": 8.672653,
+    "transcript": null,
+    "credit_cost": 205
+  },
+  "b4-01": {
+    "audio": "voice/sudafrica-b4-01.mp3",
+    "duration": 10.083265,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b4-02": {
+    "audio": "voice/sudafrica-b4-02.mp3",
+    "duration": 8.568163,
+    "transcript": null,
+    "credit_cost": 209
+  },
+  "b4-03": {
+    "audio": "voice/sudafrica-b4-03.mp3",
+    "duration": 11.572245,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b4-04": {
+    "audio": "voice/sudafrica-b4-04.mp3",
+    "duration": 9.717551,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b4-05": {
+    "audio": "voice/sudafrica-b4-05.mp3",
+    "duration": 11.363265,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b5-01": {
+    "audio": "voice/sudafrica-b5-01.mp3",
+    "duration": 8.96,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b5-02": {
+    "audio": "voice/sudafrica-b5-02.mp3",
+    "duration": 8.228571,
+    "transcript": null,
+    "credit_cost": 181
+  },
+  "b5-03": {
+    "audio": "voice/sudafrica-b5-03.mp3",
+    "duration": 8.150204,
+    "transcript": null,
+    "credit_cost": 205
+  },
+  "b5-04": {
+    "audio": "voice/sudafrica-b5-04.mp3",
+    "duration": 7.627755,
+    "transcript": null,
+    "credit_cost": 192
+  },
+  "b6-01": {
+    "audio": "voice/sudafrica-b6-01.mp3",
+    "duration": 9.142857,
+    "transcript": null,
+    "credit_cost": 221
+  },
+  "b6-02": {
+    "audio": "voice/sudafrica-b6-02.mp3",
+    "duration": 12.878367,
+    "transcript": null,
+    "credit_cost": 359
+  },
+  "b6-03": {
+    "audio": "voice/sudafrica-b6-03.mp3",
+    "duration": 10.292245,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b6-04": {
+    "audio": "voice/sudafrica-b6-04.mp3",
+    "duration": 7.993469,
+    "transcript": null,
+    "credit_cost": 181
+  },
+  "b6-05": {
+    "audio": "voice/sudafrica-b6-05.mp3",
+    "duration": 11.337143,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b7-01": {
+    "audio": "voice/sudafrica-b7-01.mp3",
+    "duration": 7.627755,
+    "transcript": null,
+    "credit_cost": 201
+  },
+  "b7-02": {
+    "audio": "voice/sudafrica-b7-02.mp3",
+    "duration": 9.560816,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b7-03": {
+    "audio": "voice/sudafrica-b7-03.mp3",
+    "duration": 9.769796,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b7-04": {
+    "audio": "voice/sudafrica-b7-04.mp3",
+    "duration": 9.299592,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "bW-01": {
+    "audio": "voice/sudafrica-bW-01.mp3",
+    "duration": 9.247347,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "bW-02": {
+    "audio": "voice/sudafrica-bW-02.mp3",
+    "duration": 9.508571,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "bW-03": {
+    "audio": "voice/sudafrica-bW-03.mp3",
+    "duration": 10.004898,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "bW-04": {
+    "audio": "voice/sudafrica-bW-04.mp3",
+    "duration": 11.441633,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "bW-05": {
+    "audio": "voice/sudafrica-bW-05.mp3",
+    "duration": 9.743673,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "bW-06": {
+    "audio": "voice/sudafrica-bW-06.mp3",
+    "duration": 9.377959,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "bW-07": {
+    "audio": "voice/sudafrica-bW-07.mp3",
+    "duration": 14.837551,
+    "transcript": null,
+    "credit_cost": 355
+  },
+  "b8-01": {
+    "audio": "voice/sudafrica-b8-01.mp3",
+    "duration": 7.68,
+    "transcript": null,
+    "credit_cost": 203
+  },
+  "b8-02": {
+    "audio": "voice/sudafrica-b8-02.mp3",
+    "duration": 10.814694,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b8-03": {
+    "audio": "voice/sudafrica-b8-03.mp3",
+    "duration": 8.228571,
+    "transcript": null,
+    "credit_cost": 224
+  },
+  "b8-04": {
+    "audio": "voice/sudafrica-b8-04.mp3",
+    "duration": 9.586939,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b8-05": {
+    "audio": "voice/sudafrica-b8-05.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 278
+  },
+  "b8-06": {
+    "audio": "voice/sudafrica-b8-06.mp3",
+    "duration": 9.482449,
+    "transcript": null,
+    "credit_cost": 201
+  },
+  "b8-07": {
+    "audio": "voice/sudafrica-b8-07.mp3",
+    "duration": 9.404082,
+    "transcript": null,
+    "credit_cost": 213
+  },
+  "b9-01": {
+    "audio": "voice/sudafrica-b9-01.mp3",
+    "duration": 11.258776,
+    "transcript": null,
+    "credit_cost": 300
+  },
+  "b9-02": {
+    "audio": "voice/sudafrica-b9-02.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b9-03": {
+    "audio": "voice/sudafrica-b9-03.mp3",
+    "duration": 10.736327,
+    "transcript": null,
+    "credit_cost": 292
+  },
+  "b9-04": {
+    "audio": "voice/sudafrica-b9-04.mp3",
+    "duration": 9.795918,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b9-05": {
+    "audio": "voice/sudafrica-b9-05.mp3",
+    "duration": 11.807347,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b10-01": {
+    "audio": "voice/sudafrica-b10-01.mp3",
+    "duration": 7.653878,
+    "transcript": null,
+    "credit_cost": 201
+  },
+  "b10-02": {
+    "audio": "voice/sudafrica-b10-02.mp3",
+    "duration": 9.482449,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b10-03": {
+    "audio": "voice/sudafrica-b10-03.mp3",
+    "duration": 10.919184,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b10-04": {
+    "audio": "voice/sudafrica-b10-04.mp3",
+    "duration": 5.250612,
+    "transcript": null,
+    "credit_cost": 139
+  }
+}
