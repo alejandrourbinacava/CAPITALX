@@ -59,7 +59,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "maletero"
+              "objeto": "maletero",
+              "rotulo": {
+                "kicker": "El relato de siempre",
+                "texto": "Un país que se apaga"
+              }
             }
           ]
         },
@@ -236,8 +240,12 @@
               "camara": "estatico"
             },
             {
-              "tipo": "objeto",
-              "objeto": "interrogante"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowded street market people africa",
+                "tono": "carmin"
+              },
+              "camara": "pull"
             }
           ]
         },
@@ -325,7 +333,11 @@
           "escenas": [
             {
               "tipo": "objeto",
-              "objeto": "aeropuerto"
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "kicker": "Primera corrección",
+                "texto": "*Entra* más gente de la que sale"
+              }
             },
             {
               "tipo": "clip",
@@ -485,7 +497,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "grua"
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "De dónde vienen",
+                "texto": "Casi la mitad, de *Zimbabue*"
+              }
             }
           ]
         },
@@ -521,8 +537,12 @@
               "camara": "estatico"
             },
             {
-              "tipo": "objeto",
-              "objeto": "aeropuerto"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bus arriving station passengers africa",
+                "tono": "ocre"
+              },
+              "camara": "panR"
             }
           ]
         }
@@ -588,7 +608,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "maletero"
+              "objeto": "maletero",
+              "rotulo": {
+                "kicker": "Desde 1990",
+                "texto": "De 295.400 a *más de un millón*"
+              }
             }
           ]
         },
@@ -698,8 +722,12 @@
               "camara": "panR"
             },
             {
-              "tipo": "objeto",
-              "objeto": "balanza"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "scales weighing comparison balance",
+                "tono": "carmin"
+              },
+              "camara": "push"
             }
           ]
         },
@@ -733,10 +761,6 @@
                 "fichero": "clips/pexels-19082212.mp4"
               },
               "camara": "estatico"
-            },
-            {
-              "tipo": "objeto",
-              "objeto": "interrogante"
             }
           ]
         },
@@ -798,7 +822,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "aeropuerto"
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "kicker": "Dónde están",
+                "texto": "217.000 solo en *Reino Unido*"
+              }
             }
           ]
         }
@@ -818,7 +846,11 @@
           "escenas": [
             {
               "tipo": "objeto",
-              "objeto": "interrogante"
+              "objeto": "interrogante",
+              "rotulo": {
+                "kicker": "Lo que mide la encuesta",
+                "texto": "No a los que se fueron: a los que *lo piensan*"
+              }
             },
             {
               "tipo": "clip",
@@ -902,7 +934,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "sala"
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "Afrobarometer, 2024",
+                "texto": "El *27 %* se lo ha planteado"
+              }
             }
           ]
         },
@@ -934,7 +970,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "habitacion"
+              "objeto": "habitacion",
+              "rotulo": {
+                "kicker": "Con estudios primarios",
+                "texto": "Solo el *10 %*"
+              }
             },
             {
               "tipo": "clip",
@@ -1067,7 +1107,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "balanza"
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "El problema",
+                "texto": "Las ganas crecen *donde está el dinero*"
+              }
             }
           ]
         }
@@ -1087,7 +1131,11 @@
           "escenas": [
             {
               "tipo": "objeto",
-              "objeto": "carpeta"
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "Cómo se mide de verdad",
+                "texto": "Quién se borra de *Hacienda*"
+              }
             },
             {
               "tipo": "clip",
@@ -1170,7 +1218,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "carta"
+              "objeto": "carta",
+              "rotulo": {
+                "kicker": "Entre 2017 y 2024",
+                "texto": "*51.500* dejaron de ser residentes"
+              }
             }
           ]
         },
@@ -1266,8 +1318,12 @@
               "camara": "estatico"
             },
             {
-              "tipo": "objeto",
-              "objeto": "balanza"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "single coin dropped table close",
+                "tono": "ocre"
+              },
+              "camara": "panL"
             }
           ]
         }
@@ -1367,26 +1423,12 @@
               }
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "paperwork files stacked office",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7054942",
-                  "url": "https://videos.pexels.com/video-files/7054942/7054942-hd_1920_1080_24fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 8,
-                  "autor": "Kindel Media",
-                  "pagina": "https://www.pexels.com/video/stack-of-paperwork-on-the-desk-7054942/"
-                },
-                "fichero": "clips/pexels-7054942.mp4"
-              },
-              "camara": "push"
-            },
-            {
               "tipo": "objeto",
-              "objeto": "carpeta"
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "De 26 millones",
+                "texto": "Declaran *9,15*"
+              }
             }
           ]
         },
@@ -1550,7 +1592,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "balanza"
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "La cuenta",
+                "texto": "62 millones pagados por *980.000*"
+              }
             }
           ]
         }
@@ -1570,7 +1616,11 @@
           "escenas": [
             {
               "tipo": "objeto",
-              "objeto": "plano"
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "El movimiento real",
+                "texto": "Diez veces *más grande*"
+              }
             },
             {
               "tipo": "clip",
@@ -1634,24 +1684,6 @@
               }
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "minibus taxi rank crowded africa",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7121748",
-                  "url": "https://videos.pexels.com/video-files/7121748/7121748-hd_1920_1080_25fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 10,
-                  "autor": "Steve B",
-                  "pagina": "https://www.pexels.com/video/vehicles-on-the-road-7121748/"
-                },
-                "fichero": "clips/pexels-7121748.mp4"
-              },
-              "camara": "panR"
-            },
-            {
               "tipo": "recorte",
               "recorte": {
                 "buscar": "woman portrait bus window travelling",
@@ -1699,24 +1731,6 @@
                   }
                 ]
               }
-            },
-            {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "rural village empty houses africa",
-                "tono": "ocre",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "5362813",
-                  "url": "https://videos.pexels.com/video-files/5362813/5362813-hd_1282_720_25fps.mp4",
-                  "ancho": 1282,
-                  "duracion": 7,
-                  "autor": "Adrien JACTA",
-                  "pagina": "https://www.pexels.com/video/small-building-by-the-road-5362813/"
-                },
-                "fichero": "clips/pexels-5362813.mp4"
-              },
-              "camara": "pull"
             },
             {
               "tipo": "recorte",
@@ -1773,7 +1787,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "grua"
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "Dentro del país",
+                "texto": "Y ningún visado *lo frena*"
+              }
             }
           ]
         }
@@ -1830,7 +1848,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "sala"
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "Adónde van",
+                "texto": "A *Gauteng*"
+              }
             }
           ]
         },
@@ -1887,7 +1909,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "casa"
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "Gauteng",
+                "texto": "25 % de la gente, *47 % del IRPF*"
+              }
             }
           ]
         },
@@ -1984,8 +2010,12 @@
               "camara": "estatico"
             },
             {
-              "tipo": "objeto",
-              "objeto": "plano"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cape town coastline aerial city",
+                "tono": "carmin"
+              },
+              "camara": "pull"
             }
           ]
         },
@@ -2036,7 +2066,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "plano"
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "El detalle extremo",
+                "texto": "La provincia *más pequeña*"
+              }
             }
           ]
         }
@@ -2056,7 +2090,11 @@
           "escenas": [
             {
               "tipo": "objeto",
-              "objeto": "habitacion"
+              "objeto": "habitacion",
+              "rotulo": {
+                "kicker": "Donde sí se nota",
+                "texto": "Una consulta *sin médico*"
+              }
             },
             {
               "tipo": "clip",
@@ -2138,8 +2176,12 @@
               "camara": "panL"
             },
             {
-              "tipo": "objeto",
-              "objeto": "aeropuerto"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hospital corridor doctors walking",
+                "tono": "ocre"
+              },
+              "camara": "panR"
             }
           ]
         },
@@ -2243,7 +2285,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "habitacion"
+              "objeto": "habitacion",
+              "rotulo": {
+                "kicker": "Lo que no se mide",
+                "texto": "No hay balanza que lo recoja"
+              }
             }
           ]
         }
@@ -2263,7 +2309,11 @@
           "escenas": [
             {
               "tipo": "objeto",
-              "objeto": "dosEpocas"
+              "objeto": "dosEpocas",
+              "rotulo": {
+                "kicker": "El giro",
+                "texto": "El problema no se arregló: *se mudó*"
+              }
             },
             {
               "tipo": "clip",
@@ -2346,7 +2396,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "grua"
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "Johannesburgo",
+                "texto": "*140* roturas de tubería al día"
+              }
             }
           ]
         },
@@ -2441,7 +2495,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "carta"
+              "objeto": "carta",
+              "rotulo": {
+                "kicker": "Enero de 2026",
+                "texto": "*22* cortes en dos semanas"
+              }
             },
             {
               "tipo": "clip",
@@ -2510,7 +2568,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "villa"
+              "objeto": "villa",
+              "rotulo": {
+                "kicker": "Los que pueden",
+                "texto": "Depósitos, pozos y *bombas*"
+              }
             }
           ]
         },
@@ -2547,7 +2609,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "fabrica"
+              "objeto": "fabrica",
+              "rotulo": {
+                "kicker": "Antes generadores",
+                "texto": "Ahora *depósitos*"
+              }
             }
           ]
         },
@@ -2591,7 +2657,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "casa"
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "Secesión silenciosa",
+                "texto": "Dejar de *depender*"
+              }
             }
           ]
         }
@@ -2633,8 +2703,12 @@
               "camara": "estatico"
             },
             {
-              "tipo": "objeto",
-              "objeto": "balanza"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "storm clouds gathering city africa",
+                "tono": "carmin"
+              },
+              "camara": "push"
             }
           ]
         },
@@ -2729,7 +2803,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "fabrica"
+              "objeto": "fabrica",
+              "rotulo": {
+                "kicker": "El shock del petróleo",
+                "texto": "Ormuz se llevó la mejora"
+              }
             },
             {
               "tipo": "clip",
@@ -2798,7 +2876,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "casa"
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "El límite de la tesis",
+                "texto": "Que no se vacíe *no es que esté bien*"
+              }
             }
           ]
         },
@@ -2889,26 +2971,12 @@
               }
             },
             {
-              "tipo": "clip",
-              "clip": {
-                "buscar": "aerial contrast rich poor neighbourhoods",
-                "tono": "carmin",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "13375416",
-                  "url": "https://videos.pexels.com/video-files/13375416/13375416-hd_1920_1080_30fps.mp4",
-                  "ancho": 1920,
-                  "duracion": 14,
-                  "autor": "Danilo Arenas",
-                  "pagina": "https://www.pexels.com/video/drone-video-of-bogota-city-in-colombia-13375416/"
-                },
-                "fichero": "clips/pexels-13375416.mp4"
-              },
-              "camara": "pull"
-            },
-            {
               "tipo": "objeto",
-              "objeto": "balanza"
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "Desigualdad",
+                "texto": "El *primero* de la lista mundial"
+              }
             }
           ]
         },
@@ -2945,7 +3013,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "interrogante"
+              "objeto": "interrogante",
+              "rotulo": {
+                "kicker": "Las luces",
+                "texto": "Eran el síntoma, *no la enfermedad*"
+              }
             }
           ]
         }
@@ -3060,7 +3132,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "villa"
+              "objeto": "villa",
+              "rotulo": {
+                "kicker": "Esto ya lo has visto",
+                "texto": "Se llama *España vaciada*"
+              }
             }
           ]
         },
@@ -3112,7 +3188,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "plano"
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "En España",
+                "texto": "La mitad del problema, en *seis provincias*"
+              }
             }
           ]
         },
@@ -3143,8 +3223,12 @@
               "camara": "push"
             },
             {
-              "tipo": "objeto",
-              "objeto": "grua"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty rural road countryside dusk",
+                "tono": "ocre"
+              },
+              "camara": "panL"
             },
             {
               "tipo": "clip",
@@ -3198,8 +3282,12 @@
               "camara": "estatico"
             },
             {
-              "tipo": "objeto",
-              "objeto": "balanza"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "funnel narrowing sand flowing",
+                "tono": "carmin"
+              },
+              "camara": "pull"
             }
           ]
         }
@@ -3255,8 +3343,12 @@
               "camara": "push"
             },
             {
-              "tipo": "objeto",
-              "objeto": "plano"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sunrise over african city skyline",
+                "tono": "ocre"
+              },
+              "camara": "panR"
             }
           ]
         },
@@ -3313,7 +3405,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "sala"
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "Los tres números",
+                "texto": "3 entran · 1 se fue · *9 se mudaron*"
+              }
             }
           ]
         },
@@ -3350,7 +3446,11 @@
             },
             {
               "tipo": "objeto",
-              "objeto": "aeropuerto"
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "kicker": "El éxodo real",
+                "texto": "No sale por el *aeropuerto*"
+              }
             }
           ]
         },
