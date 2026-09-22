@@ -31,12 +31,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "35257126",
-                  "url": "https://images.pexels.com/photos/35257126/pexels-photo-35257126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Daniil Kondrashin",
-                  "pagina": "https://www.pexels.com/photo/man-holding-candle-in-festive-dimly-lit-room-35257126/"
+                  "id": "6387643",
+                  "url": "https://images.pexels.com/photos/6387643/pexels-photo-6387643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andrew Schwark",
+                  "pagina": "https://www.pexels.com/photo/a-man-sitting-near-stacks-of-books-6387643/"
                 },
-                "fichero": "recortes-auto/pexels-35257126.png"
+                "fichero": "recortes-auto/pexels-6387643.png"
               }
             },
             {
@@ -118,12 +118,12 @@
                 "lado": "izq",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "29206492",
-                  "url": "https://images.pexels.com/photos/29206492/pexels-photo-29206492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Stefan de Vries",
-                  "pagina": "https://www.pexels.com/photo/technician-inspecting-solar-power-equipment-indoors-29206492/"
+                  "id": "21812143",
+                  "url": "https://images.pexels.com/photos/21812143/pexels-photo-21812143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Shameer Vayalakkad Hydrose",
+                  "pagina": "https://www.pexels.com/photo/electrician-working-with-cables-21812143/"
                 },
-                "fichero": "recortes-auto/pexels-29206492.png"
+                "fichero": "recortes-auto/pexels-21812143.png"
               }
             }
           ]
@@ -198,12 +198,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "33915172",
-                  "url": "https://images.pexels.com/photos/33915172/pexels-photo-33915172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "snazzy  Photography",
-                  "pagina": "https://www.pexels.com/photo/young-engineer-at-electrical-substation-in-nigeria-33915172/"
+                  "id": "16442680",
+                  "url": "https://images.pexels.com/photos/16442680/pexels-photo-16442680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Marianna Zuzanna",
+                  "pagina": "https://www.pexels.com/photo/water-protection-pros-poland-jacket-and-trousers-double-welding-technique-fluorescent-colours-for-better-visibility-16442680/"
                 },
-                "fichero": "recortes-auto/pexels-33915172.png"
+                "fichero": "recortes-auto/pexels-16442680.png"
               }
             }
           ]
@@ -243,7 +243,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowded street market people africa",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35827781",
+                  "url": "https://videos.pexels.com/video-files/35827781/15191674_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "B. Aristotlè Guweh Jr",
+                  "pagina": "https://www.pexels.com/video/lively-west-african-market-scene-35827781/"
+                },
+                "fichero": "clips/pexels-35827781.mp4"
               },
               "camara": "pull"
             }
@@ -307,12 +317,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "15282036",
-                  "url": "https://images.pexels.com/photos/15282036/pexels-photo-15282036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Daniil Kondrashin",
-                  "pagina": "https://www.pexels.com/photo/photo-of-a-woman-with-two-lit-candles-15282036/"
+                  "id": "8725247",
+                  "url": "https://images.pexels.com/photos/8725247/pexels-photo-8725247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nadin Sh",
+                  "pagina": "https://www.pexels.com/photo/a-woman-lighting-up-her-cigarette-with-a-candle-8725247/"
                 },
-                "fichero": "recortes-auto/pexels-15282036.png"
+                "fichero": "recortes-auto/pexels-8725247.png"
               }
             }
           ]
@@ -368,12 +378,12 @@
                 "icono": "persona",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "12812035",
-                  "url": "https://images.pexels.com/photos/12812035/pexels-photo-12812035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Muhammad obaid ullah",
-                  "pagina": "https://www.pexels.com/photo/man-in-red-and-black-checkered-dress-shirt-carrying-bags-on-shoulder-12812035/"
+                  "id": "12116503",
+                  "url": "https://images.pexels.com/photos/12116503/pexels-photo-12116503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "veeru edits",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-carrying-a-backpack-12116503/"
                 },
-                "fichero": "recortes-auto/pexels-12812035.png"
+                "fichero": "recortes-auto/pexels-12116503.png"
               }
             }
           ]
@@ -429,12 +439,12 @@
                 "lado": "der",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "38909240",
-                  "url": "https://images.pexels.com/photos/38909240/pexels-photo-38909240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "D Flamez",
-                  "pagina": "https://www.pexels.com/photo/nigerian-market-vendor-with-tomatoes-in-lagos-38909240/"
+                  "id": "33490123",
+                  "url": "https://images.pexels.com/photos/33490123/pexels-photo-33490123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kold Shots",
+                  "pagina": "https://www.pexels.com/photo/young-woman-in-traditional-attire-at-market-33490123/"
                 },
-                "fichero": "recortes-auto/pexels-38909240.png"
+                "fichero": "recortes-auto/pexels-33490123.png"
               }
             }
           ]
@@ -540,7 +550,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bus arriving station passengers africa",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34787795",
+                  "url": "https://videos.pexels.com/video-files/34787795/14749430_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Earth Photart",
+                  "pagina": "https://www.pexels.com/video/modern-train-station-in-beni-mellal-morocco-34787795/"
+                },
+                "fichero": "clips/pexels-34787795.mp4"
               },
               "camara": "panR"
             }
@@ -665,12 +685,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "27086922",
-                  "url": "https://images.pexels.com/photos/27086922/pexels-photo-27086922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Helena Lopes",
-                  "pagina": "https://www.pexels.com/photo/a-woman-in-a-business-suit-smiling-27086922/"
+                  "id": "26728094",
+                  "url": "https://images.pexels.com/photos/26728094/pexels-photo-26728094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "HANUMAN PHOTO STUDIO🏕️📸",
+                  "pagina": "https://www.pexels.com/photo/smiling-woman-in-a-suit-26728094/"
                 },
-                "fichero": "recortes-auto/pexels-27086922.png"
+                "fichero": "recortes-auto/pexels-26728094.png"
               }
             }
           ]
@@ -725,7 +745,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "scales weighing comparison balance",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8431825",
+                  "url": "https://videos.pexels.com/video-files/8431825/8431825-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/chess-pieces-on-the-weighing-scale-8431825/"
+                },
+                "fichero": "clips/pexels-8431825.mp4"
               },
               "camara": "push"
             }
@@ -881,12 +911,12 @@
                 "icono": "persona",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37834635",
-                  "url": "https://images.pexels.com/photos/37834635/pexels-photo-37834635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Huỳnh Như Mavi",
-                  "pagina": "https://www.pexels.com/photo/woman-enjoying-drink-by-window-in-sunny-cafe-37834635/"
+                  "id": "31778733",
+                  "url": "https://images.pexels.com/photos/31778733/pexels-photo-31778733.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mayara Caroline  Mombelli",
+                  "pagina": "https://www.pexels.com/photo/thoughtful-woman-gazing-outside-a-window-31778733/"
                 },
-                "fichero": "recortes-auto/pexels-37834635.png"
+                "fichero": "recortes-auto/pexels-31778733.png"
               }
             }
           ]
@@ -1064,12 +1094,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "5804393",
-                  "url": "https://images.pexels.com/photos/5804393/pexels-photo-5804393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Luis Becerra  Fotógrafo",
-                  "pagina": "https://www.pexels.com/photo/a-woman-in-black-academic-dress-standing-5804393/"
+                  "id": "34501011",
+                  "url": "https://images.pexels.com/photos/34501011/pexels-photo-34501011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Lucretius  Mooka",
+                  "pagina": "https://www.pexels.com/photo/graduation-celebration-with-cap-and-gown-34501011/"
                 },
-                "fichero": "recortes-auto/pexels-5804393.png"
+                "fichero": "recortes-auto/pexels-34501011.png"
               }
             }
           ]
@@ -1166,12 +1196,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "34221176",
-                  "url": "https://images.pexels.com/photos/34221176/pexels-photo-34221176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Luis Sevilla",
-                  "pagina": "https://www.pexels.com/photo/professional-woman-in-modern-office-setting-34221176/"
+                  "id": "6538859",
+                  "url": "https://images.pexels.com/photos/6538859/pexels-photo-6538859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/fashion-people-woman-desk-6538859/"
                 },
-                "fichero": "recortes-auto/pexels-34221176.png"
+                "fichero": "recortes-auto/pexels-6538859.png"
               }
             }
           ]
@@ -1276,12 +1306,12 @@
                 "icono": "persona",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "15093005",
-                  "url": "https://images.pexels.com/photos/15093005/pexels-photo-15093005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Uddab Bogati",
-                  "pagina": "https://www.pexels.com/photo/man-in-gown-after-graduation-15093005/"
+                  "id": "32197561",
+                  "url": "https://images.pexels.com/photos/32197561/pexels-photo-32197561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Green odette",
+                  "pagina": "https://www.pexels.com/photo/young-graduate-with-diploma-celebrating-success-32197561/"
                 },
-                "fichero": "recortes-auto/pexels-15093005.png"
+                "fichero": "recortes-auto/pexels-32197561.png"
               }
             }
           ]
@@ -1321,7 +1351,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "single coin dropped table close",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34263260",
+                  "url": "https://videos.pexels.com/video-files/34263260/14517218_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Just For Music And Film",
+                  "pagina": "https://www.pexels.com/video/falling-euro-coins-into-glass-jar-for-savings-34263260/"
+                },
+                "fichero": "clips/pexels-34263260.mp4"
               },
               "camara": "panL"
             }
@@ -1384,12 +1424,12 @@
                 "lado": "izq",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "5058929",
-                  "url": "https://images.pexels.com/photos/5058929/pexels-photo-5058929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "5060816",
+                  "url": "https://images.pexels.com/photos/5060816/pexels-photo-5060816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Thirdman",
-                  "pagina": "https://www.pexels.com/photo/man-in-black-vest-and-white-dress-shirt-5058929/"
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-and-black-pants-5060816/"
                 },
-                "fichero": "recortes-auto/pexels-5058929.png"
+                "fichero": "recortes-auto/pexels-5060816.png"
               }
             }
           ]
@@ -1482,12 +1522,12 @@
                 "icono": "balanza",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "34367745",
-                  "url": "https://images.pexels.com/photos/34367745/pexels-photo-34367745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Vladislav Lolenko",
-                  "pagina": "https://www.pexels.com/photo/confident-businesswoman-in-urban-setting-34367745/"
+                  "id": "10041261",
+                  "url": "https://images.pexels.com/photos/10041261/pexels-photo-10041261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Los Muertos Crew",
+                  "pagina": "https://www.pexels.com/photo/businesswoman-in-office-10041261/"
                 },
-                "fichero": "recortes-auto/pexels-34367745.png"
+                "fichero": "recortes-auto/pexels-10041261.png"
               }
             }
           ]
@@ -1549,12 +1589,12 @@
                 "lado": "der",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7519009",
-                  "url": "https://images.pexels.com/photos/7519009/pexels-photo-7519009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Pavel Danilyuk",
-                  "pagina": "https://www.pexels.com/photo/a-man-reading-the-newspaper-7519009/"
+                  "id": "9198191",
+                  "url": "https://images.pexels.com/photos/9198191/pexels-photo-9198191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/a-man-wearing-a-black-suit-9198191/"
                 },
-                "fichero": "recortes-auto/pexels-7519009.png"
+                "fichero": "recortes-auto/pexels-9198191.png"
               }
             }
           ]
@@ -1651,12 +1691,12 @@
                 "icono": "casa",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "4569906",
-                  "url": "https://images.pexels.com/photos/4569906/pexels-photo-4569906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "4569889",
+                  "url": "https://images.pexels.com/photos/4569889/pexels-photo-4569889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/man-in-gray-crew-neck-t-shirt-sitting-beside-woman-in-gray-tank-top-4569906/"
+                  "pagina": "https://www.pexels.com/photo/man-in-black-crew-neck-shirt-sitting-beside-woman-in-white-long-sleeve-shirt-4569889/"
                 },
-                "fichero": "recortes-auto/pexels-4569906.png"
+                "fichero": "recortes-auto/pexels-4569889.png"
               }
             }
           ]
@@ -1694,12 +1734,12 @@
                 "lado": "izq",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "24811613",
-                  "url": "https://images.pexels.com/photos/24811613/pexels-photo-24811613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Hector Portillo",
-                  "pagina": "https://www.pexels.com/photo/woman-checking-her-phone-in-bus-24811613/"
+                  "id": "15889271",
+                  "url": "https://images.pexels.com/photos/15889271/pexels-photo-15889271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "lair arce",
+                  "pagina": "https://www.pexels.com/photo/woman-in-bus-15889271/"
                 },
-                "fichero": "recortes-auto/pexels-24811613.png"
+                "fichero": "recortes-auto/pexels-15889271.png"
               }
             }
           ]
@@ -1744,12 +1784,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "20284433",
-                  "url": "https://images.pexels.com/photos/20284433/pexels-photo-20284433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Ekrem Doğan",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-elderly-woman-20284433/"
+                  "id": "19513978",
+                  "url": "https://images.pexels.com/photos/19513978/pexels-photo-19513978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mehmet Altıntaş",
+                  "pagina": "https://www.pexels.com/photo/elderly-woman-in-shawl-19513978/"
                 },
-                "fichero": "recortes-auto/pexels-20284433.png"
+                "fichero": "recortes-auto/pexels-19513978.png"
               }
             }
           ]
@@ -1820,12 +1860,12 @@
                 "icono": "moneda",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "28426641",
-                  "url": "https://images.pexels.com/photos/28426641/pexels-photo-28426641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Filip Rankovic Grobgaard",
-                  "pagina": "https://www.pexels.com/photo/confident-businessman-in-modern-office-setting-28426641/"
+                  "id": "12940830",
+                  "url": "https://images.pexels.com/photos/12940830/pexels-photo-12940830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Atlantic Ambience",
+                  "pagina": "https://www.pexels.com/photo/man-holding-a-laptop-12940830/"
                 },
-                "fichero": "recortes-auto/pexels-28426641.png"
+                "fichero": "recortes-auto/pexels-12940830.png"
               }
             },
             {
@@ -1968,12 +2008,12 @@
                 "lado": "der",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37556452",
-                  "url": "https://images.pexels.com/photos/37556452/pexels-photo-37556452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Galib Rahman Nadim",
-                  "pagina": "https://www.pexels.com/photo/construction-worker-with-safety-gear-and-tool-37556452/"
+                  "id": "37704233",
+                  "url": "https://images.pexels.com/photos/37704233/pexels-photo-37704233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Bulat843 🌙",
+                  "pagina": "https://www.pexels.com/photo/construction-worker-on-site-with-tools-outdoors-37704233/"
                 },
-                "fichero": "recortes-auto/pexels-37556452.png"
+                "fichero": "recortes-auto/pexels-37704233.png"
               }
             }
           ]
@@ -2013,7 +2053,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cape town coastline aerial city",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4873159",
+                  "url": "https://videos.pexels.com/video-files/4873159/4873159-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Taryn Elliott",
+                  "pagina": "https://www.pexels.com/video/an-aerial-footage-of-a-coastal-city-4873159/"
+                },
+                "fichero": "clips/pexels-4873159.mp4"
               },
               "camara": "pull"
             }
@@ -2038,12 +2088,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "29560008",
-                  "url": "https://images.pexels.com/photos/29560008/pexels-photo-29560008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Ferhat  Kocakaya",
-                  "pagina": "https://www.pexels.com/photo/surveyor-with-theodolite-in-mountainous-terrain-29560008/"
+                  "id": "4640887",
+                  "url": "https://images.pexels.com/photos/4640887/pexels-photo-4640887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-dress-shirt-holding-map-4640887/"
                 },
-                "fichero": "recortes-auto/pexels-29560008.png"
+                "fichero": "recortes-auto/pexels-4640887.png"
               }
             },
             {
@@ -2125,12 +2175,12 @@
                 "icono": "persona",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "4270377",
-                  "url": "https://images.pexels.com/photos/4270377/pexels-photo-4270377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "4270373",
+                  "url": "https://images.pexels.com/photos/4270373/pexels-photo-4270373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Cedric Fauntleroy",
-                  "pagina": "https://www.pexels.com/photo/a-woman-on-the-sofa-touching-her-head-4270377/"
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-scrub-suit-holding-her-head-4270373/"
                 },
-                "fichero": "recortes-auto/pexels-4270377.png"
+                "fichero": "recortes-auto/pexels-4270373.png"
               }
             }
           ]
@@ -2179,7 +2229,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hospital corridor doctors walking",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6129925",
+                  "url": "https://videos.pexels.com/video-files/6129925/6129925-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/nurse-pushing-wheelchair-on-hospital-corridor-6129925/"
+                },
+                "fichero": "clips/pexels-6129925.mp4"
               },
               "camara": "panR"
             }
@@ -2242,12 +2302,12 @@
                 "lado": "izq",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "35531445",
-                  "url": "https://images.pexels.com/photos/35531445/pexels-photo-35531445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Jagaba Denis",
-                  "pagina": "https://www.pexels.com/photo/nigerian-university-graduate-studying-in-library-35531445/"
+                  "id": "32115955",
+                  "url": "https://images.pexels.com/photos/32115955/pexels-photo-32115955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Daniil Kondrashin",
+                  "pagina": "https://www.pexels.com/photo/confident-female-doctor-reading-in-study-32115955/"
                 },
-                "fichero": "recortes-auto/pexels-35531445.png"
+                "fichero": "recortes-auto/pexels-32115955.png"
               }
             }
           ]
@@ -2344,12 +2404,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "27757410",
-                  "url": "https://images.pexels.com/photos/27757410/pexels-photo-27757410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Muhammad-Taha Ibrahim",
-                  "pagina": "https://www.pexels.com/photo/a-woman-carrying-a-bucket-of-water-on-her-head-27757410/"
+                  "id": "10897543",
+                  "url": "https://images.pexels.com/photos/10897543/pexels-photo-10897543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Safari  Consoler",
+                  "pagina": "https://www.pexels.com/photo/a-woman-carrying-a-gas-can-10897543/"
                 },
-                "fichero": "recortes-auto/pexels-27757410.png"
+                "fichero": "recortes-auto/pexels-10897543.png"
               }
             }
           ]
@@ -2446,24 +2506,8 @@
               "camara": "push"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "man portrait filling bucket water truck",
-                "tono": "carmin",
-                "lado": "der",
-                "cifra": "650 M",
-                "titular": "Rands en camiones cisterna",
-                "apoyo": "Repartiendo a mano el agua que la red ya no entrega.",
-                "icono": "baja",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "18205265",
-                  "url": "https://images.pexels.com/photos/18205265/pexels-photo-18205265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "@akb.ph",
-                  "pagina": "https://www.pexels.com/photo/man-working-by-fountain-in-city-18205265/"
-                },
-                "fichero": "recortes-auto/pexels-18205265.png"
-              }
+              "tipo": "frase",
+              "texto": "Rands en camiones cisterna"
             }
           ]
         },
@@ -2540,12 +2584,12 @@
                 "icono": "casa",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "27546158",
-                  "url": "https://images.pexels.com/photos/27546158/pexels-photo-27546158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "addy  bronzzz",
-                  "pagina": "https://www.pexels.com/photo/a-man-sitting-on-a-chair-in-a-field-27546158/"
+                  "id": "32928799",
+                  "url": "https://images.pexels.com/photos/32928799/pexels-photo-32928799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ytalo Marcos",
+                  "pagina": "https://www.pexels.com/photo/young-man-in-black-tank-top-outdoors-32928799/"
                 },
-                "fichero": "recortes-auto/pexels-27546158.png"
+                "fichero": "recortes-auto/pexels-32928799.png"
               }
             },
             {
@@ -2706,7 +2750,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "storm clouds gathering city africa",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33615194",
+                  "url": "https://videos.pexels.com/video-files/33615194/14287988_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "†reny aleksa",
+                  "pagina": "https://www.pexels.com/video/dramatic-black-and-white-storm-clouds-timelapse-33615194/"
+                },
+                "fichero": "clips/pexels-33615194.mp4"
               },
               "camara": "push"
             }
@@ -2765,12 +2819,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "9532194",
-                  "url": "https://images.pexels.com/photos/9532194/pexels-photo-9532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "9532049",
+                  "url": "https://images.pexels.com/photos/9532049/pexels-photo-9532049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Timur Weber",
-                  "pagina": "https://www.pexels.com/photo/sad-jobless-man-sitting-on-stairs-9532194/"
+                  "pagina": "https://www.pexels.com/photo/man-in-black-jacket-sitting-on-brown-wooden-bench-9532049/"
                 },
-                "fichero": "recortes-auto/pexels-9532194.png"
+                "fichero": "recortes-auto/pexels-9532049.png"
               }
             }
           ]
@@ -2848,12 +2902,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567528",
-                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7567426",
+                  "url": "https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-wearing-eyeglasses-sitting-in-front-of-laptop-feeling-pensive-7567426/"
                 },
-                "fichero": "recortes-auto/pexels-7567528.png"
+                "fichero": "recortes-auto/pexels-7567426.png"
               }
             },
             {
@@ -2926,24 +2980,8 @@
               "camara": "push"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "young man portrait street waiting africa",
-                "tono": "carmin",
-                "lado": "izq",
-                "cifra": "57 %",
-                "titular": "Más de uno de cada dos",
-                "apoyo": "Jóvenes que quieren trabajar y no encuentran.",
-                "icono": "baja",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "34237086",
-                  "url": "https://images.pexels.com/photos/34237086/pexels-photo-34237086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Hakim LEVEL",
-                  "pagina": "https://www.pexels.com/photo/stylish-man-leaning-on-van-in-urban-setting-34237086/"
-                },
-                "fichero": "recortes-auto/pexels-34237086.png"
-              }
+              "tipo": "frase",
+              "texto": "Más de uno de cada dos"
             }
           ]
         },
@@ -3075,12 +3113,12 @@
                 "lado": "der",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "35736641",
-                  "url": "https://images.pexels.com/photos/35736641/pexels-photo-35736641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Reinhard Bruckner",
-                  "pagina": "https://www.pexels.com/photo/historic-city-hall-building-in-pamplona-spain-35736641/"
+                  "id": "6172490",
+                  "url": "https://images.pexels.com/photos/6172490/pexels-photo-6172490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-and-white-corporate-attire-standing-near-flags-6172490/"
                 },
-                "fichero": "recortes-auto/pexels-35736641.png"
+                "fichero": "recortes-auto/pexels-6172490.png"
               }
             }
           ]
@@ -3104,12 +3142,12 @@
                 "icono": "casa",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "15666310",
-                  "url": "https://images.pexels.com/photos/15666310/pexels-photo-15666310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "azra irem Topcu",
-                  "pagina": "https://www.pexels.com/photo/side-view-of-an-elderly-man-with-a-walking-stick-standing-outside-15666310/"
+                  "id": "36824406",
+                  "url": "https://images.pexels.com/photos/36824406/pexels-photo-36824406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mike Art 🎥 Visual Creator | Photography and Video 📸",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-relaxing-on-park-bench-in-valladolid-36824406/"
                 },
-                "fichero": "recortes-auto/pexels-15666310.png"
+                "fichero": "recortes-auto/pexels-36824406.png"
               }
             },
             {
@@ -3226,7 +3264,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty rural road countryside dusk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33954004",
+                  "url": "https://videos.pexels.com/video-files/33954004/14407864_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "MR VWolfsburg",
+                  "pagina": "https://www.pexels.com/video/scenic-drone-view-of-tree-on-country-road-at-sunset-33954004/"
+                },
+                "fichero": "clips/pexels-33954004.mp4"
               },
               "camara": "panL"
             },
@@ -3285,7 +3333,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "funnel narrowing sand flowing",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12866491",
+                  "url": "https://videos.pexels.com/video-files/12866491/12866491-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nick C",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-a-narrow-sandy-island-12866491/"
+                },
+                "fichero": "clips/pexels-12866491.mp4"
               },
               "camara": "pull"
             }
@@ -3316,12 +3374,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "33636670",
-                  "url": "https://images.pexels.com/photos/33636670/pexels-photo-33636670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Chris Harvey",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-young-man-in-johannesburg-black-and-white-33636670/"
+                  "id": "5932980",
+                  "url": "https://images.pexels.com/photos/5932980/pexels-photo-5932980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "blame photography",
+                  "pagina": "https://www.pexels.com/photo/ma-wearing-a-beanie-hat-and-hoodie-5932980/"
                 },
-                "fichero": "recortes-auto/pexels-33636670.png"
+                "fichero": "recortes-auto/pexels-5932980.png"
               }
             },
             {
@@ -3346,7 +3404,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sunrise over african city skyline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34818342",
+                  "url": "https://videos.pexels.com/video-files/34818342/14761824_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-dhaka-at-sunset-34818342/"
+                },
+                "fichero": "clips/pexels-34818342.mp4"
               },
               "camara": "panR"
             }
