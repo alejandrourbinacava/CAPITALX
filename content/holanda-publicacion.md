@@ -73,7 +73,7 @@ Todos los datos que aparecen en pantalla llevan su fuente indicada en el propio 
 
 ## ETIQUETAS
 
-**482 caracteres**, 31 etiquetas. Justo por debajo del tope de 500 de YouTube.
+**497 caracteres**, 31 etiquetas. Justo por debajo del tope de 500 de YouTube.
 
 ```
 holanda, paises bajos, vivienda holanda, crisis de vivienda, deficit de vivienda, crisis del nitrogeno, stikstofcrisis, agricultores holandeses, protestas tractores, consejo de estado, natura 2000, amoniaco, ganaderia, amsterdam, rotterdam, corazon verde, randstad, red electrica saturada, congestion de red, permisos de obra, licencias urbanisticas, burocracia, precio vivienda, alquiler, vivienda españa, urbanismo, economia europea, macroeconomia, divulgacion economica, capital x, holanda 2026
