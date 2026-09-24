@@ -43,7 +43,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "amsterdam canal houses row",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19810471",
+                  "url": "https://videos.pexels.com/video-files/19810471/19810471-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ali  Alcántara",
+                  "pagina": "https://www.pexels.com/video/a-boat-is-parked-in-front-of-a-building-19810471/"
+                },
+                "fichero": "clips/pexels-19810471.mp4"
               },
               "camara": "panR"
             },
@@ -56,7 +66,15 @@
                 "cifra": "4,8 %",
                 "titular": "Del parque de viviendas entero",
                 "apoyo": "Hace un año eran 400.000. El agujero crece.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35316898",
+                  "url": "https://images.pexels.com/photos/35316898/pexels-photo-35316898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jonathan Goncalves",
+                  "pagina": "https://www.pexels.com/photo/happy-couple-embracing-in-a-cozy-apartment-35316898/"
+                },
+                "fichero": "recortes-auto/pexels-35316898.png"
               }
             }
           ]
@@ -93,7 +111,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dutch housing estate aerial rows",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35391873",
+                  "url": "https://videos.pexels.com/video-files/35391873/14995141_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-residential-neighborhood-35391873/"
+                },
+                "fichero": "clips/pexels-35391873.mp4"
               },
               "camara": "push"
             },
@@ -139,7 +167,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction site cranes netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39597004",
+                  "url": "https://videos.pexels.com/video-files/39597004/16878596_1920_1080_120fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "celal keser",
+                  "pagina": "https://www.pexels.com/video/bridge-construction-timelapse-with-cranes-39597004/"
+                },
+                "fichero": "clips/pexels-39597004.mp4"
               },
               "camara": "pull"
             },
@@ -152,7 +190,15 @@
                 "cifra": "69.200",
                 "titular": "Tercer año seguido bajando",
                 "apoyo": "Con un objetivo de cien mil que no se ha rozado.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7788227",
+                  "url": "https://images.pexels.com/photos/7788227/pexels-photo-7788227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hanna Payasnikava",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-construction-worker-wearing-a-yellow-helmet-7788227/"
+                },
+                "fichero": "recortes-auto/pexels-7788227.png"
               }
             }
           ]
@@ -174,7 +220,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowded bicycle street amsterdam",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19810598",
+                  "url": "https://videos.pexels.com/video-files/19810598/19810598-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ali  Alcántara",
+                  "pagina": "https://www.pexels.com/video/people-are-walking-around-a-city-with-bicycles-19810598/"
+                },
+                "fichero": "clips/pexels-19810598.mp4"
               },
               "camara": "estatico"
             },
@@ -221,7 +277,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dutch farmland fields aerial green",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20335565",
+                  "url": "https://videos.pexels.com/video-files/20335565/20335565-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 31,
+                  "autor": "Matthias Groeneveld",
+                  "pagina": "https://www.pexels.com/video/a-field-with-a-large-green-grassy-area-20335565/"
+                },
+                "fichero": "clips/pexels-20335565.mp4"
               },
               "camara": "panL"
             },
@@ -267,7 +333,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dutch city aerial rooftops dense",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20583421",
+                  "url": "https://videos.pexels.com/video-files/20583421/20583421-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Leandro Barreto",
+                  "pagina": "https://www.pexels.com/video/stadhuis-van-gouda-20583421/"
+                },
+                "fichero": "clips/pexels-20583421.mp4"
               },
               "camara": "push"
             },
@@ -280,7 +356,15 @@
                 "cifra": "54 / 13",
                 "titular": "Campo contra ciudad",
                 "apoyo": "Cuatro veces más suelo agrícola que construido.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5484072",
+                  "url": "https://images.pexels.com/photos/5484072/pexels-photo-5484072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Maksim Goncharenok",
+                  "pagina": "https://www.pexels.com/photo/man-in-green-button-up-shirt-wearing-brown-straw-hat-5484072/"
+                },
+                "fichero": "recortes-auto/pexels-5484072.png"
               }
             }
           ]
@@ -308,7 +392,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "open green fields horizon netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20335571",
+                  "url": "https://videos.pexels.com/video-files/20335571/20335571-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 19,
+                  "autor": "Matthias Groeneveld",
+                  "pagina": "https://www.pexels.com/video/an-aerial-view-of-a-large-green-field-with-a-road-20335571/"
+                },
+                "fichero": "clips/pexels-20335571.mp4"
               },
               "camara": "pull"
             },
@@ -339,7 +433,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cows grazing meadow netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13312914",
+                  "url": "https://videos.pexels.com/video-files/13312914/13312914-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 17,
+                  "autor": "Mabel Amber",
+                  "pagina": "https://www.pexels.com/video/cows-lying-on-pasture-13312914/"
+                },
+                "fichero": "clips/pexels-13312914.mp4"
               },
               "camara": "estatico"
             },
@@ -379,7 +483,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport arrivals hall passengers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34782576",
+                  "url": "https://videos.pexels.com/video-files/34782576/14746154_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/bustling-activity-at-suvarnabhumi-airport-bangkok-34782576/"
+                },
+                "fichero": "clips/pexels-34782576.mp4"
               },
               "camara": "push"
             },
@@ -387,7 +501,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "train station commuters netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31617181",
+                  "url": "https://videos.pexels.com/video-files/31617181/13470773_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Tom Plant0",
+                  "pagina": "https://www.pexels.com/video/high-speed-train-at-dutch-railway-station-31617181/"
+                },
+                "fichero": "clips/pexels-31617181.mp4"
               },
               "camara": "panR"
             }
@@ -420,21 +544,23 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "quiet dutch town square people",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33401180",
+                  "url": "https://videos.pexels.com/video-files/33401180/14218256_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mustafa Gökhan Ertin",
+                  "pagina": "https://www.pexels.com/video/historic-den-haag-plaza-with-statue-33401180/"
+                },
+                "fichero": "clips/pexels-33401180.mp4"
               },
               "camara": "pull"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "elderly woman portrait dutch street",
-                "tono": "ocre",
-                "lado": "der",
-                "cifra": "18,13 M",
-                "titular": "Prácticamente parada",
-                "apoyo": "Menos de un 0,05 % de crecimiento en todo el año.",
-                "icono": "persona"
-              }
+              "tipo": "frase",
+              "texto": "Prácticamente parada"
             }
           ]
         },
@@ -470,7 +596,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty construction plot fenced",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3921221",
+                  "url": "https://videos.pexels.com/video-files/3921221/3921221-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "WeStarMoney  Rec",
+                  "pagina": "https://www.pexels.com/video/a-vacant-lot-between-buildings-3921221/"
+                },
+                "fichero": "clips/pexels-3921221.mp4"
               },
               "camara": "push"
             },
@@ -501,7 +637,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "still crane silent building site",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28823325",
+                  "url": "https://videos.pexels.com/video-files/28823325/12486024_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/sunset-over-construction-site-with-crane-28823325/"
+                },
+                "fichero": "clips/pexels-28823325.mp4"
               },
               "camara": "estatico"
             },
@@ -539,7 +685,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "single person apartment small kitchen",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6304748",
+                  "url": "https://videos.pexels.com/video-files/6304748/6304748-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/a-man-slicing-vegetables-6304748/"
+                },
+                "fichero": "clips/pexels-6304748.mp4"
               },
               "camara": "pull"
             },
@@ -551,7 +707,15 @@
                 "lado": "izq",
                 "titular": "Cada vez más gente vive sola",
                 "apoyo": "La población no crece y los hogares sí.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4980308",
+                  "url": "https://images.pexels.com/photos/4980308/pexels-photo-4980308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-tank-top-standing-near-white-wall-4980308/"
+                },
+                "fichero": "recortes-auto/pexels-4980308.png"
               }
             }
           ]
@@ -579,14 +743,32 @@
                 "cifra": "29 may 2019",
                 "titular": "El Consejo de Estado anula el sistema",
                 "apoyo": "Con él se daban todos los permisos de obra del país.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34850167",
+                  "url": "https://images.pexels.com/photos/34850167/pexels-photo-34850167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "unique bash Creative",
+                  "pagina": "https://www.pexels.com/photo/professional-portrait-of-a-barrister-in-court-attire-34850167/"
+                },
+                "fichero": "recortes-auto/pexels-34850167.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "courthouse building the hague exterior",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30217693",
+                  "url": "https://videos.pexels.com/video-files/30217693/12955219_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tamas Babai",
+                  "pagina": "https://www.pexels.com/video/skyscrapers-under-a-clear-sky-view-30217693/"
+                },
+                "fichero": "clips/pexels-30217693.mp4"
               },
               "camara": "push"
             },
@@ -620,7 +802,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "official stamp approval document desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8523701",
+                  "url": "https://videos.pexels.com/video-files/8523701/8523701-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/a-person-signing-the-certificate-8523701/"
+                },
+                "fichero": "clips/pexels-8523701.mp4"
               },
               "camara": "panR"
             },
@@ -628,7 +820,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction permits paperwork office",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6281081",
+                  "url": "https://videos.pexels.com/video-files/6281081/6281081-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Yaroslav Shuraev",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-floor-plans-6281081/"
+                },
+                "fichero": "clips/pexels-6281081.mp4"
               },
               "camara": "pull"
             }
@@ -650,14 +852,32 @@
                 "lado": "der",
                 "titular": "Lo llevó un activista",
                 "apoyo": "Y ganó: el permiso adelantado violaba la directiva europea de hábitats.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8553343",
+                  "url": "https://images.pexels.com/photos/8553343/pexels-photo-8553343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-brown-shirt-holding-a-cardboard-8553343/"
+                },
+                "fichero": "recortes-auto/pexels-8553343.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "protected wetland nature reserve birds",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35551381",
+                  "url": "https://videos.pexels.com/video-files/35551381/15062271_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "AP Vibes",
+                  "pagina": "https://www.pexels.com/video/serene-wetland-scene-with-reeds-and-birds-35551381/"
+                },
+                "fichero": "clips/pexels-35551381.mp4"
               },
               "camara": "push"
             },
@@ -665,7 +885,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european flags brussels institution",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18550804",
+                  "url": "https://videos.pexels.com/video-files/18550804/18550804-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "utopia 36",
+                  "pagina": "https://www.pexels.com/video/a-flag-and-flowers-are-placed-in-front-of-a-building-18550804/"
+                },
+                "fichero": "clips/pexels-18550804.mp4"
               },
               "camara": "panL"
             }
@@ -697,7 +927,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "abandoned construction site still crane",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5917216",
+                  "url": "https://videos.pexels.com/video-files/5917216/5917216-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Adam Fackelman",
+                  "pagina": "https://www.pexels.com/video/modern-skyscrapers-seen-from-moving-vehicle-5917216/"
+                },
+                "fichero": "clips/pexels-5917216.mp4"
               },
               "camara": "pull"
             },
@@ -729,7 +969,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "overgrown grass wild nature close",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18447690",
+                  "url": "https://videos.pexels.com/video-files/18447690/18447690-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Sigor  Skrampir",
+                  "pagina": "https://www.pexels.com/video/18447690/"
+                },
+                "fichero": "clips/pexels-18447690.mp4"
               },
               "camara": "push"
             },
@@ -741,14 +991,32 @@
                 "lado": "izq",
                 "titular": "No es contaminación del aire",
                 "apoyo": "Es fertilizante que cae donde no debe y arrasa la biodiversidad.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9543736",
+                  "url": "https://images.pexels.com/photos/9543736/pexels-photo-9543736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/photo/woman-in-brown-coat-holding-white-book-9543736/"
+                },
+                "fichero": "recortes-auto/pexels-9543736.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "heathland moss delicate plants",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8343759",
+                  "url": "https://videos.pexels.com/video-files/8343759/8343759-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/a-woman-walking-in-the-studio-with-plants-and-flowers-in-the-background-8343759/"
+                },
+                "fichero": "clips/pexels-8343759.mp4"
               },
               "camara": "panR"
             }
@@ -766,7 +1034,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "nature reserve boardwalk protected",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19190698",
+                  "url": "https://videos.pexels.com/video-files/19190698/19190698-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "FÁBIO REIS DE ABREU (PORTUGA)",
+                  "pagina": "https://www.pexels.com/video/uma-ponte-de-madeira-sobre-um-lago-19190698/"
+                },
+                "fichero": "clips/pexels-19190698.mp4"
               },
               "camara": "pull"
             },
@@ -774,7 +1052,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "nature reserve sign protected area",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39711404",
+                  "url": "https://videos.pexels.com/video-files/39711404/16932212_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Evgenij Mikhailov",
+                  "pagina": "https://www.pexels.com/video/scenic-cloudy-sky-over-lush-forest-landscape-39711404/"
+                },
+                "fichero": "clips/pexels-39711404.mp4"
               },
               "camara": "pull"
             },
@@ -782,7 +1070,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dunes coastal nature netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34118624",
+                  "url": "https://videos.pexels.com/video-files/34118624/14468334_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Leandro Barreto",
+                  "pagina": "https://www.pexels.com/video/scenic-drone-view-of-loonse-en-drunense-duinen-34118624/"
+                },
+                "fichero": "clips/pexels-34118624.mp4"
               },
               "camara": "push"
             }
@@ -804,14 +1102,32 @@
                 "lado": "der",
                 "titular": "Una obra emite. Poco, pero emite",
                 "apoyo": "Y si el tope es cero, poco ya es demasiado.",
-                "icono": "fabrica"
+                "icono": "fabrica",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19385675",
+                  "url": "https://images.pexels.com/photos/19385675/pexels-photo-19385675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Thanh Lâm",
+                  "pagina": "https://www.pexels.com/photo/man-sitting-and-controlling-excavator-19385675/"
+                },
+                "fichero": "recortes-auto/pexels-19385675.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "diesel excavator exhaust construction",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35647499",
+                  "url": "https://videos.pexels.com/video-files/35647499/15106465_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Val А",
+                  "pagina": "https://www.pexels.com/video/heavy-excavator-operating-on-construction-site-35647499/"
+                },
+                "fichero": "clips/pexels-35647499.mp4"
               },
               "camara": "push"
             },
@@ -819,7 +1135,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "concrete truck pouring site",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37665985",
+                  "url": "https://videos.pexels.com/video-files/37665985/15967151_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "SÀI GÒN CÔNG TY CP SẢN XUẤT - THƯƠNG MẠI",
+                  "pagina": "https://www.pexels.com/video/construction-workers-on-elevated-highway-bridge-37665985/"
+                },
+                "fichero": "clips/pexels-37665985.mp4"
               },
               "camara": "panL"
             }
@@ -851,7 +1177,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "statistics office data screen",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7580434",
+                  "url": "https://videos.pexels.com/video-files/7580434/7580434-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/man-touching-a-screen-7580434/"
+                },
+                "fichero": "clips/pexels-7580434.mp4"
               },
               "camara": "push"
             },
@@ -859,7 +1195,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dairy barn cows indoor farm",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19220536",
+                  "url": "https://videos.pexels.com/video-files/19220536/19220536-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/cows-in-a-barn-eating-from-a-trough-19220536/"
+                },
+                "fichero": "clips/pexels-19220536.mp4"
               },
               "camara": "panR"
             }
@@ -892,7 +1238,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "manure spreading tractor field",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11326888",
+                  "url": "https://videos.pexels.com/video-files/11326888/11326888-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Kenny the Drone",
+                  "pagina": "https://www.pexels.com/video/fertilizer-spreader-truck-driving-on-field-11326888/"
+                },
+                "fichero": "clips/pexels-11326888.mp4"
               },
               "camara": "pull"
             },
@@ -905,7 +1261,15 @@
                 "cifra": "91 %",
                 "titular": "Sale del purín",
                 "apoyo": "Nueve de cada diez gramos de amoníaco holandés.",
-                "icono": "fabrica"
+                "icono": "fabrica",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18320101",
+                  "url": "https://images.pexels.com/photos/18320101/pexels-photo-18320101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "yavuz selim korku",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-barn-in-black-and-white-18320101/"
+                },
+                "fichero": "recortes-auto/pexels-18320101.png"
               }
             }
           ]
@@ -934,7 +1298,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "cattle herd large farm netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14248875",
+                  "url": "https://videos.pexels.com/video-files/14248875/14248875-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Judas Isariot",
+                  "pagina": "https://www.pexels.com/video/white-cattles-on-the-field-14248875/"
+                },
+                "fichero": "clips/pexels-14248875.mp4"
               },
               "camara": "push"
             },
@@ -965,7 +1339,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "old farmhouse family home rural",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "1482017",
+                  "url": "https://videos.pexels.com/video-files/1482017/1482017-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Jake Heinemann",
+                  "pagina": "https://www.pexels.com/video/houses-along-a-hill-1482017/"
+                },
+                "fichero": "clips/pexels-1482017.mp4"
               },
               "camara": "estatico"
             },
@@ -997,7 +1381,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tractors protest highway blockade",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17802784",
+                  "url": "https://videos.pexels.com/video-files/17802784/17802784-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Egemen AYDIN",
+                  "pagina": "https://www.pexels.com/video/a-tractor-driving-down-the-road-with-a-trailer-17802784/"
+                },
+                "fichero": "clips/pexels-17802784.mp4"
               },
               "camara": "push"
             },
@@ -1009,14 +1403,32 @@
                 "lado": "der",
                 "titular": "Años de tractores",
                 "apoyo": "Bloqueando autopistas y rodeando La Haya.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20546234",
+                  "url": "https://images.pexels.com/photos/20546234/pexels-photo-20546234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Stefan",
+                  "pagina": "https://www.pexels.com/photo/tractors-in-manifestation-on-street-in-winter-20546234/"
+                },
+                "fichero": "recortes-auto/pexels-20546234.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "protest crowd flags upside down",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5286464",
+                  "url": "https://videos.pexels.com/video-files/5286464/5286464-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Joseph Eulo",
+                  "pagina": "https://www.pexels.com/video/people-protesting-on-the-street-5286464/"
+                },
+                "fichero": "clips/pexels-5286464.mp4"
               },
               "camara": "panR"
             }
@@ -1039,14 +1451,32 @@
                 "cifra": "2023",
                 "titular": "El partido de los agricultores gana",
                 "apoyo": "Fundado tres años antes. El más votado en las provinciales.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4669104",
+                  "url": "https://images.pexels.com/photos/4669104/pexels-photo-4669104.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-a-sign-4669104/"
+                },
+                "fichero": "recortes-auto/pexels-4669104.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "polling station voters rural village",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103544",
+                  "url": "https://videos.pexels.com/video-files/7103544/7103544-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/video/ballot-boxes-in-the-precinct-7103544/"
+                },
+                "fichero": "clips/pexels-7103544.mp4"
               },
               "camara": "pull"
             },
@@ -1092,7 +1522,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "parliament building the hague",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28721436",
+                  "url": "https://videos.pexels.com/video-files/28721436/12460517_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mustafa Gökhan Ertin",
+                  "pagina": "https://www.pexels.com/video/busy-street-scene-in-the-hague-netherlands-28721436/"
+                },
+                "fichero": "clips/pexels-28721436.mp4"
               },
               "camara": "push"
             },
@@ -1104,7 +1544,15 @@
                 "lado": "der",
                 "titular": "Los que buscan casa no tienen tractor",
                 "apoyo": "Y por eso pierden todas las veces.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34011808",
+                  "url": "https://images.pexels.com/photos/34011808/pexels-photo-34011808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "elif s.",
+                  "pagina": "https://www.pexels.com/photo/young-woman-posing-by-urban-window-light-34011808/"
+                },
+                "fichero": "recortes-auto/pexels-34011808.png"
               }
             }
           ]
@@ -1135,7 +1583,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "electricity pylons power lines sky",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15357261",
+                  "url": "https://videos.pexels.com/video-files/15357261/15357261-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "C A",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-moving-clouds-over-a-transmission-tower-15357261/"
+                },
+                "fichero": "clips/pexels-15357261.mp4"
               },
               "camara": "push"
             },
@@ -1143,7 +1601,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "electrical substation transformers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10008388",
+                  "url": "https://videos.pexels.com/video-files/10008388/10008388-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Andrey Kirievskiy",
+                  "pagina": "https://www.pexels.com/video/transformers-at-the-electrical-substation-10008388/"
+                },
+                "fichero": "clips/pexels-10008388.mp4"
               },
               "camara": "panL"
             }
@@ -1181,7 +1649,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty new houses estate finished",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34668476",
+                  "url": "https://videos.pexels.com/video-files/34668476/14694532_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Michael",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-suburban-neighborhood-development-34668476/"
+                },
+                "fichero": "clips/pexels-34668476.mp4"
               },
               "camara": "pull"
             },
@@ -1194,7 +1672,15 @@
                 "cifra": "300.000",
                 "titular": "Casas sin enchufe",
                 "apoyo": "La mitad de todas las conexiones solicitadas.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17842834",
+                  "url": "https://images.pexels.com/photos/17842834/pexels-photo-17842834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Fatih Yurtman",
+                  "pagina": "https://www.pexels.com/photo/man-in-hard-hat-and-eyeglasses-working-with-electric-equipment-17842834/"
+                },
+                "fichero": "recortes-auto/pexels-17842834.png"
               }
             }
           ]
@@ -1225,7 +1711,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "waiting queue office people clock",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27433034",
+                  "url": "https://videos.pexels.com/video-files/27433034/12142835_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ivan Keyframe",
+                  "pagina": "https://www.pexels.com/video/suasana-di-terminal-di-jakarta-indonesia-jakartas-s-bus-station-ambience-indonesia-31-27433034/"
+                },
+                "fichero": "clips/pexels-27433034.mp4"
               },
               "camara": "push"
             },
@@ -1264,7 +1760,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "high voltage lines landscape dusk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27427293",
+                  "url": "https://videos.pexels.com/video-files/27427293/12141084_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "정규송 Nui MALAMA",
+                  "pagina": "https://www.pexels.com/video/a-cloudy-sky-with-power-lines-and-a-field-27427293/"
+                },
+                "fichero": "clips/pexels-27427293.mp4"
               },
               "camara": "panR"
             },
@@ -1272,7 +1778,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "control room grid operators screens",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2890236",
+                  "url": "https://videos.pexels.com/video-files/2890236/2890236-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nino Souza",
+                  "pagina": "https://www.pexels.com/video/people-works-on-a-broadcast-of-an-event-2890236/"
+                },
+                "fichero": "clips/pexels-2890236.mp4"
               },
               "camara": "pull"
             }
@@ -1295,14 +1811,32 @@
                 "cifra": "+2 años",
                 "titular": "Objeciones legales de los vecinos",
                 "apoyo": "Nadie quiere la torre de alta tensión al lado de casa.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8924329",
+                  "url": "https://images.pexels.com/photos/8924329/pexels-photo-8924329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Thirdman",
+                  "pagina": "https://www.pexels.com/photo/people-protesting-on-top-of-a-vehicle-8924329/"
+                },
+                "fichero": "recortes-auto/pexels-8924329.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "pylon construction field workers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10223794",
+                  "url": "https://videos.pexels.com/video-files/10223794/10223794-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Videas Cl",
+                  "pagina": "https://www.pexels.com/video/men-working-on-electricial-grids-10223794/"
+                },
+                "fichero": "clips/pexels-10223794.mp4"
               },
               "camara": "push"
             },
@@ -1333,7 +1867,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "light switch dark empty room",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19217895",
+                  "url": "https://videos.pexels.com/video-files/19217895/19217895-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nino Souza",
+                  "pagina": "https://www.pexels.com/video/a-dark-hallway-with-a-light-on-the-floor-19217895/"
+                },
+                "fichero": "clips/pexels-19217895.mp4"
               },
               "camara": "estatico"
             },
@@ -1341,7 +1885,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crane silhouette dusk skyline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10860749",
+                  "url": "https://videos.pexels.com/video-files/10860749/10860749-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Davy Wong",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-promenade-by-river-in-city-10860749/"
+                },
+                "fichero": "clips/pexels-10860749.mp4"
               },
               "camara": "panR"
             }
@@ -1379,7 +1933,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "for sale sign dutch house canal",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20583216",
+                  "url": "https://videos.pexels.com/video-files/20583216/20583216-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Leandro Barreto",
+                  "pagina": "https://www.pexels.com/video/utrecht-city-20583216/"
+                },
+                "fichero": "clips/pexels-20583216.mp4"
               },
               "camara": "push"
             },
@@ -1387,7 +1951,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dutch terraced houses street row",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10883710",
+                  "url": "https://videos.pexels.com/video-files/10883710/10883710-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "C Sherives",
+                  "pagina": "https://www.pexels.com/video/residential-district-from-above-10883710/"
+                },
+                "fichero": "clips/pexels-10883710.mp4"
               },
               "camara": "push"
             }
@@ -1425,7 +1999,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "estate agent window listings prices",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7348157",
+                  "url": "https://videos.pexels.com/video-files/7348157/7348157-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/video/a-female-realtor-holding-a-for-sale-sign-indoors-7348157/"
+                },
+                "fichero": "clips/pexels-7348157.mp4"
               },
               "camara": "pull"
             },
@@ -1438,7 +2022,15 @@
                 "cifra": "+4,4 %",
                 "titular": "Compra y alquiler, a la par",
                 "apoyo": "Los dos suben lo mismo. No hay refugio en ninguno.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30781748",
+                  "url": "https://images.pexels.com/photos/30781748/pexels-photo-30781748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Luan Albarracin",
+                  "pagina": "https://www.pexels.com/photo/professional-woman-in-green-suit-indoor-portrait-30781748/"
+                },
+                "fichero": "recortes-auto/pexels-30781748.png"
               }
             }
           ]
@@ -1455,7 +2047,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "apartment building windows evening lights",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8064155",
+                  "url": "https://videos.pexels.com/video-files/8064155/8064155-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Antoni Shkraba",
+                  "pagina": "https://www.pexels.com/video/video-of-buildings-with-lights-opening-8064155/"
+                },
+                "fichero": "clips/pexels-8064155.mp4"
               },
               "camara": "panL"
             },
@@ -1463,7 +2065,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "keys handed over apartment door",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8293019",
+                  "url": "https://videos.pexels.com/video-files/8293019/8293019-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/woman-locking-a-door-8293019/"
+                },
+                "fichero": "clips/pexels-8293019.mp4"
               },
               "camara": "panL"
             },
@@ -1471,7 +2083,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rental contract signing table hands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8960547",
+                  "url": "https://videos.pexels.com/video-files/8960547/8960547-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ivan S",
+                  "pagina": "https://www.pexels.com/video/person-reading-a-contract-8960547/"
+                },
+                "fichero": "clips/pexels-8960547.mp4"
               },
               "camara": "push"
             }
@@ -1494,7 +2116,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bills paperwork kitchen table worry",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6963486",
+                  "url": "https://videos.pexels.com/video-files/6963486/6963486-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/couple-arguing-while-working-6963486/"
+                },
+                "fichero": "clips/pexels-6963486.mp4"
               },
               "camara": "estatico"
             },
@@ -1531,14 +2163,32 @@
                 "cifra": "2021",
                 "titular": "Una exención para las obras",
                 "apoyo": "El nitrógeno de construir dejaría de contar.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4427546",
+                  "url": "https://images.pexels.com/photos/4427546/pexels-photo-4427546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "August de Richelieu",
+                  "pagina": "https://www.pexels.com/photo/lawyer-working-on-his-computer-4427546/"
+                },
+                "fichero": "recortes-auto/pexels-4427546.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "parliament chamber vote netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28743038",
+                  "url": "https://videos.pexels.com/video-files/28743038/12463663_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Santi Chavez",
+                  "pagina": "https://www.pexels.com/video/cyclist-passing-european-parliament-building-28743038/"
+                },
+                "fichero": "clips/pexels-28743038.mp4"
               },
               "camara": "push"
             },
@@ -1564,7 +2214,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction site finishing works done",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6474091",
+                  "url": "https://videos.pexels.com/video-files/6474091/6474091-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/man-posing-with-polishing-machine-6474091/"
+                },
+                "fichero": "clips/pexels-6474091.mp4"
               },
               "camara": "panL"
             },
@@ -1580,7 +2240,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "completed new housing block sunny",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38942463",
+                  "url": "https://videos.pexels.com/video-files/38942463/16564028_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kiwi and Camera",
+                  "pagina": "https://www.pexels.com/video/modern-auckland-apartment-exterior-view-38942463/"
+                },
+                "fichero": "clips/pexels-38942463.mp4"
               },
               "camara": "pull"
             }
@@ -1612,7 +2282,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "gavel court decision desk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6101337",
+                  "url": "https://videos.pexels.com/video-files/6101337/6101337-hd_1366_720_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 8,
+                  "autor": "KATRIN  BOLOVTSOVA",
+                  "pagina": "https://www.pexels.com/video/judge-writing-on-a-document-6101337/"
+                },
+                "fichero": "clips/pexels-6101337.mp4"
               },
               "camara": "push"
             },
@@ -1624,7 +2304,15 @@
                 "lado": "izq",
                 "titular": "Tumbada otra vez",
                 "apoyo": "Mismo tribunal, mismo motivo: el derecho europeo.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7875991",
+                  "url": "https://images.pexels.com/photos/7875991/pexels-photo-7875991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-black-suit-holding-a-divorce-document-7875991/"
+                },
+                "fichero": "recortes-auto/pexels-7875991.png"
               }
             }
           ]
@@ -1646,7 +2334,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "brick wall dead end alley",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9362150",
+                  "url": "https://videos.pexels.com/video-files/9362150/9362150-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Kmeel.com Videos",
+                  "pagina": "https://www.pexels.com/video/a-narrow-alleyway-9362150/"
+                },
+                "fichero": "clips/pexels-9362150.mp4"
               },
               "camara": "estatico"
             },
@@ -1692,7 +2390,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "legal books law library shelves",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8731388",
+                  "url": "https://videos.pexels.com/video-files/8731388/8731388-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-law-book-8731388/"
+                },
+                "fichero": "clips/pexels-8731388.mp4"
               },
               "camara": "pull"
             },
@@ -1735,7 +2443,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "aerial green fields between cities",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39640414",
+                  "url": "https://videos.pexels.com/video-files/39640414/16899275_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "Major &Wang",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-modern-cityscape-and-green-fields-39640414/"
+                },
+                "fichero": "clips/pexels-39640414.mp4"
               },
               "camara": "push"
             },
@@ -1765,14 +2483,32 @@
                 "lado": "der",
                 "titular": "El Corazón Verde",
                 "apoyo": "El hueco entre Ámsterdam, Róterdam, La Haya y Utrecht. Protegido.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31983758",
+                  "url": "https://images.pexels.com/photos/31983758/pexels-photo-31983758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Rubenstein Rebello",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-farmer-outdoors-in-green-fields-31983758/"
+                },
+                "fichero": "recortes-auto/pexels-31983758.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "green meadows windmill netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28349691",
+                  "url": "https://videos.pexels.com/video-files/28349691/12364913_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "BAE  JUN",
+                  "pagina": "https://www.pexels.com/video/zaanse-schans-28349691/"
+                },
+                "fichero": "clips/pexels-28349691.mp4"
               },
               "camara": "panL"
             },
@@ -1780,7 +2516,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "city edge meets fields boundary",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32308134",
+                  "url": "https://videos.pexels.com/video-files/32308134/13778957_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-suburban-neighborhood-and-fields-32308134/"
+                },
+                "fichero": "clips/pexels-32308134.mp4"
               },
               "camara": "pull"
             }
@@ -1818,7 +2564,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "protected landscape sign countryside",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4169060",
+                  "url": "https://videos.pexels.com/video-files/4169060/4169060-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Wendy Laplume",
+                  "pagina": "https://www.pexels.com/video/sign-abandoned-danger-4169060/"
+                },
+                "fichero": "clips/pexels-4169060.mp4"
               },
               "camara": "push"
             },
@@ -1844,7 +2600,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "family walking park green space",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8912762",
+                  "url": "https://videos.pexels.com/video-files/8912762/8912762-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/family-walking-in-the-park-8912762/"
+                },
+                "fichero": "clips/pexels-8912762.mp4"
               },
               "camara": "panR"
             },
@@ -1856,14 +2622,32 @@
                 "lado": "izq",
                 "titular": "Y tiene defensa",
                 "apoyo": "Un país que se lo asfalta todo se queda sin un metro de verde.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10041283",
+                  "url": "https://images.pexels.com/photos/10041283/pexels-photo-10041283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Los Muertos Crew",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-woman-in-coat-holding-documents-10041283/"
+                },
+                "fichero": "recortes-auto/pexels-10041283.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "suburban sprawl endless houses aerial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29272987",
+                  "url": "https://videos.pexels.com/video-files/29272987/12626667_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Sadi Hockmuller",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-modern-canadian-suburb-29272987/"
+                },
+                "fichero": "clips/pexels-29272987.mp4"
               },
               "camara": "pull"
             }
@@ -1886,7 +2670,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty meadow fence morning mist",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3151478",
+                  "url": "https://videos.pexels.com/video-files/3151478/3151478-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 17,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/a-fence-built-as-boundary-identification-of-properties-3151478/"
+                },
+                "fichero": "clips/pexels-3151478.mp4"
               },
               "camara": "estatico"
             },
@@ -1894,7 +2688,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "politician avoiding question podium",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11336628",
+                  "url": "https://videos.pexels.com/video-files/11336628/11336628-hd_1366_720_50fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 12,
+                  "autor": "TREEDEO.ST",
+                  "pagina": "https://www.pexels.com/video/a-man-in-a-black-suit-giving-a-speech-11336628/"
+                },
+                "fichero": "clips/pexels-11336628.mp4"
               },
               "camara": "push"
             }
@@ -1923,7 +2727,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "grey clouds flat landscape horizon",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34423574",
+                  "url": "https://videos.pexels.com/video-files/34423574/14582891_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/overcast-sky-over-urban-landscape-34423574/"
+                },
+                "fichero": "clips/pexels-34423574.mp4"
               },
               "camara": "estatico"
             },
@@ -1931,7 +2745,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "flat grey polder landscape wide",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3987780",
+                  "url": "https://videos.pexels.com/video-files/3987780/3987780-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/calm-body-of-water-3987780/"
+                },
+                "fichero": "clips/pexels-3987780.mp4"
               },
               "camara": "pull"
             }
@@ -1969,20 +2793,23 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rotterdam skyline modern towers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37425859",
+                  "url": "https://videos.pexels.com/video-files/37425859/15850841_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sandra Ekelund",
+                  "pagina": "https://www.pexels.com/video/modern-urban-skyscraper-panorama-37425859/"
+                },
+                "fichero": "clips/pexels-37425859.mp4"
               },
               "camara": "push"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "commuter crowd train station dutch",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "Ahí sí está lleno",
-                "apoyo": "Casi la mitad del país en una quinta parte del suelo.",
-                "icono": "persona"
-              }
+              "tipo": "frase",
+              "texto": "Ahí sí está lleno"
             }
           ]
         },
@@ -1998,7 +2825,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "amsterdam busy square people evening",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19229628",
+                  "url": "https://videos.pexels.com/video-files/19229628/19229628-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Matheus Bertelli",
+                  "pagina": "https://www.pexels.com/video/a-city-street-with-people-riding-bikes-and-walking-19229628/"
+                },
+                "fichero": "clips/pexels-19229628.mp4"
               },
               "camara": "panL"
             },
@@ -2014,7 +2851,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty rural road flat fields",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34731148",
+                  "url": "https://videos.pexels.com/video-files/34731148/14722702_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Tom Jurman",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-scenic-rural-landscape-34731148/"
+                },
+                "fichero": "clips/pexels-34731148.mp4"
               },
               "camara": "pull"
             }
@@ -2036,14 +2883,32 @@
                 "lado": "der",
                 "titular": "Bajo el nivel del mar",
                 "apoyo": "Construir ahí exige drenaje, bombeo y rellenar.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34670926",
+                  "url": "https://images.pexels.com/photos/34670926/pexels-photo-34670926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/construction-worker-in-safety-gear-outdoors-34670926/"
+                },
+                "fichero": "recortes-auto/pexels-34670926.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "dutch dyke water pumping station",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17184646",
+                  "url": "https://videos.pexels.com/video-files/17184646/17184646-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Leandro Barreto",
+                  "pagina": "https://www.pexels.com/video/zaanse-schans-netherlands-17184646/"
+                },
+                "fichero": "clips/pexels-17184646.mp4"
               },
               "camara": "push"
             },
@@ -2051,7 +2916,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "polder canals drainage aerial",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38923208",
+                  "url": "https://videos.pexels.com/video-files/38923208/16553525_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ruben Boekeloo",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-traditional-dutch-windmill-in-summer-38923208/"
+                },
+                "fichero": "clips/pexels-38923208.mp4"
               },
               "camara": "panR"
             }
@@ -2097,7 +2972,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "housing construction progress site busy",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9554338",
+                  "url": "https://videos.pexels.com/video-files/9554338/9554338-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Daniel Moore",
+                  "pagina": "https://www.pexels.com/video/an-aerial-view-of-a-house-under-construction-9554338/"
+                },
+                "fichero": "clips/pexels-9554338.mp4"
               },
               "camara": "pull"
             },
@@ -2137,7 +3022,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calendar future planning dates",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4378032",
+                  "url": "https://videos.pexels.com/video-files/4378032/4378032-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ketut Subiyanto",
+                  "pagina": "https://www.pexels.com/video/calendar-hanged-on-a-wall-4378032/"
+                },
+                "fichero": "clips/pexels-4378032.mp4"
               },
               "camara": "push"
             },
@@ -2149,7 +3044,15 @@
                 "lado": "izq",
                 "titular": "Mejora, pero no alcanza",
                 "apoyo": "El déficit seguiría creciendo hasta 2027.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7989034",
+                  "url": "https://images.pexels.com/photos/7989034/pexels-photo-7989034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/a-close-up-shot-of-a-man-wearing-a-denim-shirt-7989034/"
+                },
+                "fichero": "recortes-auto/pexels-7989034.png"
               }
             }
           ]
@@ -2186,7 +3089,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "office meeting revising targets charts",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7687928",
+                  "url": "https://videos.pexels.com/video-files/7687928/7687928-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-papers-on-table-7687928/"
+                },
+                "fichero": "clips/pexels-7687928.mp4"
               },
               "camara": "push"
             },
@@ -2199,7 +3112,15 @@
                 "cifra": "2031",
                 "titular": "Ni siquiera en cinco años",
                 "apoyo": "El objetivo era 2,1 %. La previsión dice 3,9 %.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20348408",
+                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
+                },
+                "fichero": "recortes-auto/pexels-20348408.png"
               }
             }
           ]
@@ -2234,7 +3155,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish apartment blocks street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16033405",
+                  "url": "https://videos.pexels.com/video-files/16033405/16033405-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Josefina2000 Franco",
+                  "pagina": "https://www.pexels.com/video/an-aerial-view-of-a-city-with-many-buildings-16033405/"
+                },
+                "fichero": "clips/pexels-16033405.mp4"
               },
               "camara": "push"
             },
@@ -2280,7 +3211,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "housing estate under construction spain",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30823784",
+                  "url": "https://videos.pexels.com/video-files/30823784/13182747_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Marketing Propulsor",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-modern-construction-site-in-desert-30823784/"
+                },
+                "fichero": "clips/pexels-30823784.mp4"
               },
               "camara": "pull"
             },
@@ -2292,7 +3233,15 @@
                 "lado": "der",
                 "titular": "La misma película",
                 "apoyo": "Dos países ricos que no consiguen construir casas.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "22738119",
+                  "url": "https://images.pexels.com/photos/22738119/pexels-photo-22738119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andres Idda Bianchi",
+                  "pagina": "https://www.pexels.com/photo/models-in-1920s-style-costumes-22738119/"
+                },
+                "fichero": "recortes-auto/pexels-22738119.png"
               }
             }
           ]
@@ -2317,7 +3266,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stacks of files bureaucracy office",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7054942",
+                  "url": "https://videos.pexels.com/video-files/7054942/7054942-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/stack-of-paperwork-on-the-desk-7054942/"
+                },
+                "fichero": "clips/pexels-7054942.mp4"
               },
               "camara": "push"
             },
@@ -2325,7 +3284,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stamp approval desk waiting",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7195706",
+                  "url": "https://videos.pexels.com/video-files/7195706/7195706-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/medical-doctor-stamping-in-a-notebook-7195706/"
+                },
+                "fichero": "clips/pexels-7195706.mp4"
               },
               "camara": "panL"
             }
@@ -2355,7 +3324,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "town hall meeting residents seats",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39587339",
+                  "url": "https://videos.pexels.com/video-files/39587339/16873497_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Muslim Abbas",
+                  "pagina": "https://www.pexels.com/video/uniformed-students-gathered-in-auditorium-for-event-39587339/"
+                },
+                "fichero": "clips/pexels-39587339.mp4"
               },
               "camara": "pull"
             },
@@ -2367,7 +3346,15 @@
                 "lado": "izq",
                 "titular": "Todos pueden decir que no",
                 "apoyo": "Y basta uno para que la grúa no se mueva.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36612578",
+                  "url": "https://images.pexels.com/photos/36612578/pexels-photo-36612578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "bobest Imagery",
+                  "pagina": "https://www.pexels.com/photo/nigerian-uniformed-officer-in-official-attire-36612578/"
+                },
+                "fichero": "recortes-auto/pexels-36612578.png"
               }
             }
           ]
@@ -2410,7 +3397,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "aerial farmland meets town edge",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31240744",
+                  "url": "https://videos.pexels.com/video-files/31240744/13343315_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-rural-australian-town-at-sunset-31240744/"
+                },
+                "fichero": "clips/pexels-31240744.mp4"
               },
               "camara": "push"
             },
@@ -2440,14 +3437,32 @@
                 "lado": "der",
                 "titular": "El sitio está. Falta la firma",
                 "apoyo": "Y la firma la decide quien tiene tractores y votos.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18539246",
+                  "url": "https://images.pexels.com/photos/18539246/pexels-photo-18539246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Srijit Mudi",
+                  "pagina": "https://www.pexels.com/photo/flash-photograph-of-a-man-wearing-a-red-shirt-standing-by-a-closed-metal-gate-18539246/"
+                },
+                "fichero": "recortes-auto/pexels-18539246.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty plot land fence city edge",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31296777",
+                  "url": "https://videos.pexels.com/video-files/31296777/13363328_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Toàn BDS",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-empty-residential-plots-31296777/"
+                },
+                "fichero": "clips/pexels-31296777.mp4"
               },
               "camara": "pull"
             },
@@ -2455,7 +3470,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tractor field sunset netherlands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34078520",
+                  "url": "https://videos.pexels.com/video-files/34078520/14453825_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Juan Carlos Londoño Arenas",
+                  "pagina": "https://www.pexels.com/video/sunset-tractor-plowing-field-in-rural-landscape-34078520/"
+                },
+                "fichero": "clips/pexels-34078520.mp4"
               },
               "camara": "panR"
             }
