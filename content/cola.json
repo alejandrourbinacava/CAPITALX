@@ -82,16 +82,13 @@
     {
       "slug": "sudafrica",
       "titulo": "Sudáfrica No Se Está Vaciando. Se Está Concentrando, Y Eso Es Peor"
+    },
+    {
+      "slug": "holanda",
+      "titulo": "Holanda No Se Quedó Sin Sitio. Se Quedó Sin Permiso, Y Se Lo Quitan Las Vacas"
     }
   ],
   "cola": [
-    {
-      "slug": "holanda",
-      "titulo": "HOLANDA: El País Donde Ya No Cabe Nadie",
-      "angulo": "Escasez de vivienda medida en unidades, densidad, el freno a la construcción por la crisis del nitrógeno, y cómo eso se convirtió en política.",
-      "region": "europa",
-      "pais": "holanda"
-    },
     {
       "slug": "francia-deuda",
       "titulo": "FRANCIA: La Deuda Que Ya Nadie Va a Pagar",

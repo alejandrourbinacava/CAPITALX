@@ -1,0 +1,2511 @@
+{
+  "slug": "holanda",
+  "titulo": "Holanda No Se Quedó Sin Sitio. Se Quedó Sin Permiso, Y Se Lo Quitan Las Vacas",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "frio.wav",
+  "estilo": {
+    "acento": "verde",
+    "grid": false,
+    "marco": true
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Cuatrocientas diez mil que faltan",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "A los Países Bajos les faltan cuatrocientas diez mil viviendas. No es una estimación de un think tank: es la diferencia entre los hogares que hay y las casas que existen para meterlos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "VIVIENDAS QUE FALTAN · FEBRERO DE 2026",
+              "fuente": "Capital Value y ABF Research",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 410000,
+                "etiqueta": "viviendas de déficit",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "amsterdam canal houses row",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young couple portrait apartment search",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "4,8 %",
+                "titular": "Del parque de viviendas entero",
+                "apoyo": "Hace un año eran 400.000. El agujero crece.",
+                "icono": "casa"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Es el cuatro coma ocho por ciento de todas las casas del país. Y el año anterior eran cuatrocientas mil, así que el agujero no se está cerrando: se está abriendo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CÓMO CRECE EL DÉFICIT",
+              "fuente": "Capital Value y ABF Research · 2025 y 2026",
+              "barras": {
+                "unidad": "Miles de viviendas",
+                "datos": [
+                  {
+                    "etiqueta": "2025",
+                    "valor": 400,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2026",
+                    "valor": 410,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dutch housing estate aerial rows",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "El agujero",
+                "texto": "No se cierra: *se abre*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "En dos mil veinticinco se terminaron sesenta y nueve mil doscientas viviendas. El objetivo del gobierno eran cien mil. Y fue el tercer año consecutivo construyendo menos que el anterior.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE SE PROMETIÓ Y LO QUE SE HIZO · 2025",
+              "fuente": "Oficina Central de Estadística de los Países Bajos",
+              "barras": {
+                "unidad": "Viviendas terminadas",
+                "datos": [
+                  {
+                    "etiqueta": "Objetivo",
+                    "valor": 100000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Real",
+                    "valor": 69200,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "construction site cranes netherlands",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "builder man portrait site helmet",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "69.200",
+                "titular": "Tercer año seguido bajando",
+                "apoyo": "Con un objetivo de cien mil que no se ha rozado.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Y la explicación que oyes siempre es la fácil. Holanda es un pañuelo, está llenísima, ya no cabe nadie y por eso no hay casas. Vamos a comprobar esa frase antes de seguir, porque no aguanta ni el primer dato que vas a ver.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "«Es que ya *no cabe nadie*.»",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowded bicycle street amsterdam",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "rotulo": {
+                "kicker": "La explicación fácil",
+                "texto": "Y no aguanta *el primer dato*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "El cincuenta y cuatro por ciento es campo",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "La estadística oficial holandesa reparte el territorio del país por usos. Y el reparto es este: el cincuenta y cuatro por ciento de la superficie es suelo agrícola. Dos coma dos millones de hectáreas.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SUPERFICIE DEDICADA A LA AGRICULTURA",
+              "fuente": "Oficina Central de Estadística de los Países Bajos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 54,
+                "etiqueta": "por ciento del territorio",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dutch farmland fields aerial green",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "Suelo agrícola",
+                "texto": "*2,2 millones* de hectáreas"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "¿Y cuánto está construido? El trece por ciento. Medio millón de hectáreas. Todo: las ciudades, los pueblos, los polígonos, las carreteras y los aeropuertos de un país entero.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CÓMO SE REPARTE EL PAÍS",
+              "fuente": "Oficina Central de Estadística de los Países Bajos",
+              "barras": {
+                "unidad": "Por ciento de la superficie",
+                "datos": [
+                  {
+                    "etiqueta": "Campo",
+                    "valor": 54,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Construido",
+                    "valor": 13,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dutch city aerial rooftops dense",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "farmer man portrait field netherlands",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "54 / 13",
+                "titular": "Campo contra ciudad",
+                "apoyo": "Cuatro veces más suelo agrícola que construido.",
+                "icono": "balanza"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Cuatro veces más campo que ciudad. Un país donde el ochenta y siete por ciento del suelo no tiene un edificio encima no es un país que se haya quedado sin sitio para construir casas.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "holanda"
+                ]
+              },
+              "kicker": "EL 87 % DEL PAÍS NO TIENE UN EDIFICIO ENCIMA",
+              "fuente": "Oficina Central de Estadística de los Países Bajos"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "open green fields horizon netherlands",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "villa",
+              "rotulo": {
+                "kicker": "Sitio",
+                "texto": "Hay. *De sobra*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "Así que el problema de los Países Bajos no es el espacio, porque espacio hay de sobra y las cifras son oficiales. Es el permiso para usarlo. Y lo que se lo quita, por raro que suene al decirlo en voz alta, son las vacas.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No falta espacio. Falta *permiso*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cows grazing meadow netherlands",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica",
+              "rotulo": {
+                "kicker": "Y el permiso",
+                "texto": "Se lo quitan *las vacas*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bP",
+      "nombre": "La poblacion dejo de crecer",
+      "planos": [
+        {
+          "id": "bP-01",
+          "vo": "Antes de seguir hay que matar el otro argumento, el que dice que el problema es que llega demasiada gente. Porque ese tiene una respuesta muy corta y muy incómoda.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "rotulo": {
+                "kicker": "El otro argumento",
+                "texto": "«Es que *llega demasiada gente*»"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "airport arrivals hall passengers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "train station commuters netherlands",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "bP-02",
+          "vo": "A finales de dos mil veinticinco los Países Bajos tenían dieciocho coma trece millones de habitantes. Y durante ese año la población creció menos de un cero coma cero cinco por ciento.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "CRECIMIENTO DE LA POBLACIÓN EN 2025",
+              "fuente": "Oficina Central de Estadística de los Países Bajos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 0.05,
+                "etiqueta": "por ciento en todo el año",
+                "decimales": 2,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "quiet dutch town square people",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly woman portrait dutch street",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "18,13 M",
+                "titular": "Prácticamente parada",
+                "apoyo": "Menos de un 0,05 % de crecimiento en todo el año.",
+                "icono": "persona"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bP-03",
+          "vo": "Cero coma cero cinco. Prácticamente parada. Y en ese mismo año el déficit de vivienda subió de cuatrocientas mil casas a cuatrocientas diez mil.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "POBLACIÓN PARADA, AGUJERO CRECIENDO",
+              "fuente": "CBS y Capital Value · 2025 y 2026",
+              "barras": {
+                "unidad": "Variación en el año, por ciento",
+                "datos": [
+                  {
+                    "etiqueta": "Población",
+                    "valor": 0.05,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Déficit de vivienda",
+                    "valor": 2.5,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty construction plot fenced",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "La población no se movió",
+                "texto": "El agujero *sí*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bP-04",
+          "vo": "Ahí se acaba la discusión. Si el país no crece y aun así faltan diez mil casas más que el año anterior, el problema no es cuánta gente llega. Es cuántas casas se levantan.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No es cuánta gente llega. Es *cuánto se construye*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "still crane silent building site",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "La única variable",
+                "texto": "Lo que *no se levanta*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bP-05",
+          "vo": "Y hay un matiz que lo explica del todo. Aunque la población no crezca, los hogares sí, porque cada vez más gente vive sola. La misma gente necesita más casas que antes.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "LA MISMA GENTE, MÁS HOGARES",
+              "fuente": "Formación de hogares en los Países Bajos",
+              "gente": {
+                "total": 60,
+                "destacados": 22,
+                "escala": 0.8,
+                "etiqueta": "Personas",
+                "etiquetaDestacados": "Viven solas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "single person apartment small kitchen",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young man portrait studio apartment",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Cada vez más gente vive sola",
+                "apoyo": "La población no crece y los hogares sí.",
+                "icono": "casa"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Veintinueve de mayo de dos mil diecinueve",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Para entenderlo hay que ir a una sentencia. El veintinueve de mayo de dos mil diecinueve, el Consejo de Estado holandés anuló el sistema con el que el país daba permisos de obra desde hacía años.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "judge man portrait courtroom formal",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "29 may 2019",
+                "titular": "El Consejo de Estado anula el sistema",
+                "apoyo": "Con él se daban todos los permisos de obra del país.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "courthouse building the hague exterior",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "Una sentencia",
+                "texto": "Y se para *un país*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "El sistema se llamaba PAS y funcionaba así: te daba el permiso por adelantado, contando con que las medidas para reducir la contaminación por nitrógeno llegarían más tarde. Primero construyes, luego compensas.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "Cómo funcionaba el PAS",
+                "texto": "Permiso ahora, *compensación después*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "official stamp approval document desk",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "construction permits paperwork office",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Un activista ecologista lo llevó a los tribunales. Y el Consejo de Estado le dio la razón: eso violaba la directiva europea de hábitats, porque estabas autorizando el daño antes de saber si podrías repararlo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "activist man portrait nature protest",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Lo llevó un activista",
+                "apoyo": "Y ganó: el permiso adelantado violaba la directiva europea de hábitats.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "protected wetland nature reserve birds",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european flags brussels institution",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Y el efecto fue instantáneo. Dieciocho mil proyectos de construcción se quedaron congelados de un día para otro. Miles de millones de euros parados por una sentencia de un tribunal administrativo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PROYECTOS CONGELADOS POR LA SENTENCIA",
+              "fuente": "Consejo de Estado de los Países Bajos · 2019",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 18000,
+                "etiqueta": "proyectos parados de golpe",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "abandoned construction site still crane",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "De un día para otro",
+                "texto": "*18.000* proyectos parados"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Por que el nitrogeno para una grua",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Aquí hace falta una explicación, porque suena absurdo que un gas pare una grúa. El nitrógeno en exceso cae sobre el suelo y arrasa la biodiversidad: unas plantas crecen a lo bestia y ahogan a las demás.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "overgrown grass wild nature close",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "ecologist woman portrait field research",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No es contaminación del aire",
+                "apoyo": "Es fertilizante que cae donde no debe y arrasa la biodiversidad.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "heathland moss delicate plants",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Y los Países Bajos tienen un montón de espacios protegidos de la red europea Natura dos mil. La directiva dice que no puedes autorizar nada que aumente el nitrógeno que cae sobre ellos. Nada.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "nature reserve boardwalk protected",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "nature reserve sign protected area",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dunes coastal nature netherlands",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Y una obra emite nitrógeno. Las máquinas, los camiones, el hormigón. Poco, pero emite. Así que si no puedes aumentar nada, tampoco puedes levantar un edificio. Esa es la cadena completa.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "machine operator man portrait excavator",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Una obra emite. Poco, pero emite",
+                "apoyo": "Y si el tope es cero, poco ya es demasiado.",
+                "icono": "fabrica"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "diesel excavator exhaust construction",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "concrete truck pouring site",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Quien emite de verdad",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Y ahora la pregunta que lo ordena todo. Si el problema es el nitrógeno, ¿de dónde sale el nitrógeno holandés? Porque la respuesta está publicada y no la ha escondido nadie.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "rotulo": {
+                "kicker": "La pregunta que ordena todo",
+                "texto": "¿De dónde *sale*?"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "statistics office data screen",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dairy barn cows indoor farm",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "La oficina de estadística holandesa lo dice con una sola cifra. El noventa y uno por ciento de las emisiones de amoníaco del país vienen de la agricultura. Del purín, básicamente.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EMISIONES DE AMONÍACO QUE VIENEN DEL CAMPO",
+              "fuente": "Oficina Central de Estadística de los Países Bajos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 91,
+                "etiqueta": "por ciento del total nacional",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "manure spreading tractor field",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "dairy farmer man portrait barn cows",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "91 %",
+                "titular": "Sale del purín",
+                "apoyo": "Nueve de cada diez gramos de amoníaco holandés.",
+                "icono": "fabrica"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Noventa y uno de cada cien. Y la construcción, que es lo que se paró, es una rodaja finísima de lo que queda. Se congelaron dieciocho mil obras por un problema que las obras casi no causan.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "DE CADA CIEN GRAMOS DE AMONÍACO",
+              "fuente": "Oficina Central de Estadística de los Países Bajos",
+              "gente": {
+                "total": 100,
+                "destacados": 91,
+                "escala": 0.6,
+                "etiqueta": "Amoníaco",
+                "etiquetaDestacados": "Lo emite la agricultura"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cattle herd large farm netherlands",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "Se paró",
+                "texto": "Lo que *casi no emite*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "¿Y por qué se paró eso y no lo otro? Por lo de siempre. Parar una obra es firmar un papel. Cerrar una granja es quitarle el negocio a una familia que lleva cuatro generaciones ahí.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Se para lo que *es fácil de parar*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old farmhouse family home rural",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "Cerrar una granja",
+                "texto": "Son *cuatro generaciones*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Los tractores en La Haya",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Porque cuando el gobierno intentó tocar la ganadería, pasó lo que tenía que pasar. Miles de tractores bloqueando autopistas y rodeando La Haya, durante años.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tractors protest highway blockade",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "farmer protest portrait tractor flag",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Años de tractores",
+                "apoyo": "Bloqueando autopistas y rodeando La Haya.",
+                "icono": "persona"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "protest crowd flags upside down",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Y de ahí salió un partido nuevo, el de los agricultores, que en dos mil veintitrés ganó las elecciones provinciales holandesas. Un partido fundado tres años antes, el más votado del país.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "politician woman portrait rural campaign",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "2023",
+                "titular": "El partido de los agricultores gana",
+                "apoyo": "Fundado tres años antes. El más votado en las provinciales.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "polling station voters rural village",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta",
+              "rotulo": {
+                "kicker": "De la protesta",
+                "texto": "Al *primer puesto*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Así que la cuenta política quedó clara. Tocar el noventa y uno por ciento te cuesta el gobierno. Tocar la rodaja finísima no te cuesta nada, porque los que quieren una casa no salen con tractores.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL COSTE POLÍTICO DE CADA OPCIÓN",
+              "fuente": "Resultados electorales neerlandeses, 2019-2023",
+              "barras": {
+                "unidad": "Coste para quien gobierna",
+                "datos": [
+                  {
+                    "etiqueta": "Tocar la ganadería",
+                    "valor": 100,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Parar las obras",
+                    "valor": 8,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "parliament building the hague",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young woman portrait city apartment window",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Los que buscan casa no tienen tractor",
+                "apoyo": "Y por eso pierden todas las veces.",
+                "icono": "baja"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "El muro nuevo: el enchufe",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Y ahora viene la parte que hace que esto no sea una historia de hace siete años. Porque cuando por fin empezaban a desatascarse los permisos, apareció un muro nuevo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "rotulo": {
+                "kicker": "Cuando se desatascaba",
+                "texto": "Apareció *otro muro*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "electricity pylons power lines sky",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "electrical substation transformers",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "No hay electricidad. La red holandesa está saturada, y de las seiscientas mil viviendas cuya conexión se ha solicitado, unas trescientas mil no tienen capacidad disponible para enchufarse.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "VIVIENDAS QUE NO SE PUEDEN ENCHUFAR",
+              "fuente": "Operadores de red neerlandeses · septiembre de 2026",
+              "barras": {
+                "unidad": "Miles de viviendas solicitadas",
+                "datos": [
+                  {
+                    "etiqueta": "Con capacidad",
+                    "valor": 300,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Sin capacidad",
+                    "valor": 300,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty new houses estate finished",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "electrician portrait meter box house",
+                "tono": "carmin",
+                "lado": "izq",
+                "cifra": "300.000",
+                "titular": "Casas sin enchufe",
+                "apoyo": "La mitad de todas las conexiones solicitadas.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "La mitad. Los operadores regionales tienen a miles de hogares en lista de espera, con retrasos de hasta tres años solo para que les amplíen la conexión.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "ESPERA PARA AMPLIAR UNA CONEXIÓN",
+              "fuente": "Alliander, Enexis y Stedin · 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 3,
+                "etiqueta": "años de lista de espera",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "waiting queue office people clock",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "Solo para el enchufe",
+                "texto": "Hasta *tres años*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Las provincias peor están son Utrecht, Güeldres y Flevolanda. El operador de alta tensión dice, con esas palabras, que su capacidad está esencialmente al máximo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "holanda",
+                  "alemania",
+                  "belgica"
+                ]
+              },
+              "kicker": "LA RED, AL MÁXIMO",
+              "fuente": "TenneT · 2026"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "high voltage lines landscape dusk",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "control room grid operators screens",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y el remate. Las obras para ampliar la red se están retrasando otros dos años más por las objeciones legales de los vecinos que no quieren torres de alta tensión al lado.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "neighbours protest portrait sign field",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "+2 años",
+                "titular": "Objeciones legales de los vecinos",
+                "apoyo": "Nadie quiere la torre de alta tensión al lado de casa.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "pylon construction field workers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "Ampliar la red",
+                "texto": "Otros *dos años* de papeles"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "O sea que Holanda lleva siete años sin poder construir por un motivo, y justo cuando lo resuelve aparece otro. Primero no había permiso. Ahora no hay enchufe.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Antes el permiso. Ahora *el enchufe*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "light switch dark empty room",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crane silhouette dusk skyline",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bC",
+      "nombre": "Lo que cuesta ahora",
+      "planos": [
+        {
+          "id": "bC-01",
+          "vo": "Y todo esto tiene un precio que se puede mirar. En mayo de dos mil veintiséis, la vivienda usada media en los Países Bajos se vendió por cuatrocientos ochenta y siete mil euros.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PRECIO MEDIO DE UNA VIVIENDA USADA · MAYO DE 2026",
+              "fuente": "CBS y Registro Catastral neerlandés",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 487383,
+                "etiqueta": "euros de media",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "for sale sign dutch house canal",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dutch terraced houses street row",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "bC-02",
+          "vo": "Casi medio millón de euros por una casa de segunda mano. Y sigue subiendo: un cuatro coma cuatro por ciento en un año, aunque el ritmo se está frenando mes a mes.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "SUBIDA ANUAL",
+              "fuente": "CBS · 2026",
+              "barras": {
+                "unidad": "Por ciento interanual",
+                "datos": [
+                  {
+                    "etiqueta": "Precio de compra",
+                    "valor": 4.4,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Alquiler",
+                    "valor": 4.4,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "estate agent window listings prices",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "estate agent woman portrait office dutch",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "+4,4 %",
+                "titular": "Compra y alquiler, a la par",
+                "apoyo": "Los dos suben lo mismo. No hay refugio en ninguno.",
+                "icono": "sube"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bC-03",
+          "vo": "Y el alquiler subió exactamente lo mismo, un cuatro coma cuatro por ciento de media. Así que no hay escapatoria por ningún lado: comprar y alquilar se encarecen al mismo ritmo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "apartment building windows evening lights",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "keys handed over apartment door",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rental contract signing table hands",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "bC-04",
+          "vo": "Eso es lo que significan cuatrocientas diez mil casas que faltan, traducido a la vida de una persona concreta. Que pagues más cada año por exactamente lo mismo, hagas lo que hagas y ahorres lo que ahorres.",
+          "voz": {
+            "speed": 0.96
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Pagas más *por lo mismo*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bills paperwork kitchen table worry",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "Traducido",
+                "texto": "A la vida de *alguien*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bI",
+      "nombre": "Lo intentaron arreglar",
+      "planos": [
+        {
+          "id": "bI-01",
+          "vo": "Y no es que el gobierno se quedara de brazos cruzados. En dos mil veintiuno metió en la ley una exención para la fase de obra: el nitrógeno que emite construir no contaría para el cálculo.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "minister man portrait government desk",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "2021",
+                "titular": "Una exención para las obras",
+                "apoyo": "El nitrógeno de construir dejaría de contar.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "parliament chamber vote netherlands",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carta",
+              "rotulo": {
+                "kicker": "La solución",
+                "texto": "Sacar la obra *del cálculo*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bI-02",
+          "vo": "Tenía sentido. Si la construcción emite una porción minúscula y encima es temporal, porque la obra acaba, sacarla del cálculo desatascaba el país sin cargarse ningún espacio protegido.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "construction site finishing works done",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "La obra acaba",
+                "texto": "El purín *no*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "completed new housing block sunny",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "bI-03",
+          "vo": "El dos de noviembre de dos mil veintidós, el mismo Consejo de Estado tumbó también esa exención. Mismo motivo: incompatible con el derecho europeo de protección de la naturaleza.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LA SEGUNDA SENTENCIA",
+              "fuente": "Consejo de Estado · 2 de noviembre de 2022",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 2022,
+                "etiqueta": "la exención también cae",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "gavel court decision desk",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "lawyer woman portrait documents court",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Tumbada otra vez",
+                "apoyo": "Mismo tribunal, mismo motivo: el derecho europeo.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bI-04",
+          "vo": "O sea que en tres años el país intentó dos veces desatascar la construcción y las dos veces se estrelló contra la misma pared. No contra un gobierno: contra una directiva europea.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Dos intentos. *La misma pared.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "brick wall dead end alley",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "No es un gobierno",
+                "texto": "Es *una directiva*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bI-05",
+          "vo": "Y esa es la diferencia con cualquier otra crisis de vivienda que hayamos contado aquí. En las demás faltaba dinero, faltaba voluntad política o faltaba suelo urbanizado. En esta lo que falta es margen legal para firmar.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "QUÉ FALTA EN CADA CASO",
+              "fuente": "Comparación de crisis de vivienda",
+              "barras": {
+                "unidad": "El cuello de botella",
+                "datos": [
+                  {
+                    "etiqueta": "En otros países",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "En Holanda: margen legal",
+                    "valor": 12,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "legal books law library shelves",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "Lo que falta",
+                "texto": "*Margen legal*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bV",
+      "nombre": "El Corazon Verde",
+      "planos": [
+        {
+          "id": "bV-01",
+          "vo": "Y hay un detalle en el mapa holandés que resume la contradicción entera mejor que cualquier cifra que te haya dado hasta ahora. Está justo en medio de la zona más poblada del país.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "holanda"
+                ]
+              },
+              "kicker": "JUSTO EN MEDIO DE LA ZONA MÁS POBLADA",
+              "fuente": "Geografía de los Países Bajos"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "aerial green fields between cities",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "En el mapa",
+                "texto": "Un *hueco* en medio"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bV-02",
+          "vo": "Ámsterdam, Róterdam, La Haya y Utrecht forman un anillo de ciudades. Y en el hueco que dejan en el centro no hay nada construido. Se llama el Corazón Verde, y está protegido.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "farmer portrait green meadow dutch",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "El Corazón Verde",
+                "apoyo": "El hueco entre Ámsterdam, Róterdam, La Haya y Utrecht. Protegido.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "green meadows windmill netherlands",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "city edge meets fields boundary",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "bV-03",
+          "vo": "Es decir: el sitio con más demanda de vivienda de todo el país tiene un agujero vacío en el centro que la ley protege de la excavadora desde hace décadas.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA ZONA MÁS POBLADA",
+              "fuente": "Geografía de los Países Bajos",
+              "barras": {
+                "unidad": "Por ciento",
+                "datos": [
+                  {
+                    "etiqueta": "Población que vive ahí",
+                    "valor": 45,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Territorio que ocupa",
+                    "valor": 20,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "protected landscape sign countryside",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "Protegido",
+                "texto": "De la *excavadora*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bV-04",
+          "vo": "Y que conste que eso tiene defensa. Un país que se lo asfalta todo acaba sin un metro de verde y con las ciudades pegadas unas a otras. El Corazón Verde existe por una buena razón.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "family walking park green space",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "urban planner woman portrait model city",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Y tiene defensa",
+                "apoyo": "Un país que se lo asfalta todo se queda sin un metro de verde.",
+                "icono": "balanza"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "suburban sprawl endless houses aerial",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "bV-05",
+          "vo": "Pero es la decisión que nadie ha puesto encima de la mesa. Porque elegir entre un prado y cuatrocientas diez mil casas es una discusión que ningún político quiere abrir en campaña.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Un prado o *410.000 casas*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty meadow fence morning mist",
+                "tono": "ocre"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "politician avoiding question podium",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y ahora la parte que estropea el argumento fácil que acabo de hacerte, porque decir que sobra sitio es demasiado cómodo.",
+          "voz": {
+            "speed": 0.94
+          },
+          "tipo": "frase",
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "«Sobra sitio» es *demasiado cómodo*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "grey clouds flat landscape horizon",
+                "tono": "carmin"
+              },
+              "camara": "estatico"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "flat grey polder landscape wide",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Primero: la densidad sí es real donde importa. El cuarenta y cinco por ciento de los holandeses vive concentrado en el veinte por ciento del territorio, la zona de Ámsterdam, Róterdam y La Haya.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA CONCENTRACIÓN REAL",
+              "fuente": "Datos geográficos de los Países Bajos",
+              "barras": {
+                "unidad": "Por ciento",
+                "datos": [
+                  {
+                    "etiqueta": "De la población",
+                    "valor": 45,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Del territorio",
+                    "valor": 20,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rotterdam skyline modern towers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "commuter crowd train station dutch",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Ahí sí está lleno",
+                "apoyo": "Casi la mitad del país en una quinta parte del suelo.",
+                "icono": "persona"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Y la gente quiere vivir ahí, no en un prado a cien kilómetros. Que sobre campo en el norte no ayuda a quien busca piso en Ámsterdam. Eso es verdad y hay que decirlo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "clip",
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "amsterdam busy square people evening",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "kicker": "Sobra campo lejos",
+                "texto": "Y eso *no ayuda*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty rural road flat fields",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Segundo: ese suelo agrícola no se convierte en solar con firmar un papel. Media Holanda está por debajo del nivel del mar, y construir ahí exige drenaje, bombeo y rellenar el terreno.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "engineer portrait water works dyke",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "Bajo el nivel del mar",
+                "apoyo": "Construir ahí exige drenaje, bombeo y rellenar.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dutch dyke water pumping station",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "polder canals drainage aerial",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Y tercero, lo justo: la cosa está mejorando. Para dos mil veintiséis se esperan unas ochenta y ocho mil viviendas terminadas, casi veinte mil más que el año pasado.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "lineas",
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "lineas": {
+                "unidad": "Viviendas terminadas al año",
+                "series": [
+                  {
+                    "nombre": "Terminadas",
+                    "tono": "verde",
+                    "puntos": [
+                      [
+                        "2025",
+                        69.2
+                      ],
+                      [
+                        "2026",
+                        88
+                      ]
+                    ]
+                  }
+                ],
+                "nota": "En miles. La curva vuelve a subir"
+              },
+              "fuente": "Previsiones del sector de la construcción",
+              "rotulo": {
+                "kicker": "Para 2026",
+                "texto": "*88.000* viviendas previstas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "housing construction progress site busy",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion",
+              "rotulo": {
+                "kicker": "Y sube",
+                "texto": "Casi *veinte mil* más"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Pero aun con esa mejora, las previsiones dicen que el déficit seguirá por encima de las cuatrocientas cincuenta mil viviendas en dos mil veintisiete si el ritmo no se acelera más.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "contador",
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DÉFICIT PREVISTO PARA 2027",
+              "fuente": "Previsiones del sector inmobiliario neerlandés",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 453000,
+                "etiqueta": "viviendas de déficit",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar future planning dates",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait looking ahead office window",
+                "tono": "carmin",
+                "lado": "izq",
+                "titular": "Mejora, pero no alcanza",
+                "apoyo": "El déficit seguiría creciendo hasta 2027.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-07",
+          "vo": "Y hay un dato más que dice mucho sin decir nada. El objetivo era dejar el déficit en el dos coma uno por ciento del parque. Las previsiones actuales lo dejan en el tres coma nueve para dos mil treinta y uno.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL OBJETIVO Y LO QUE SE ESPERA · 2031",
+              "fuente": "Capital Value y ABF Research",
+              "barras": {
+                "unidad": "Déficit sobre el parque, por ciento",
+                "datos": [
+                  {
+                    "etiqueta": "Objetivo original",
+                    "valor": 2.1,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Previsión actual",
+                    "valor": 3.9,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "office meeting revising targets charts",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait presentation slides",
+                "tono": "carmin",
+                "lado": "der",
+                "cifra": "2031",
+                "titular": "Ni siquiera en cinco años",
+                "apoyo": "El objetivo era 2,1 %. La previsión dice 3,9 %.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Que significa para ti",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Y aquí es donde deja de ser un problema holandés. Porque lo que le pasa a Holanda es lo mismo que nos pasa aquí, solo que allí se ve con más nitidez.",
+          "voz": {
+            "speed": 0.98
+          },
+          "tipo": "mapa",
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "mapa": {
+                "region": "europa",
+                "destaca": [
+                  "espana",
+                  "holanda"
+                ]
+              },
+              "kicker": "EL MISMO PROBLEMA, OTRA EXCUSA",
+              "fuente": "Déficit de vivienda en Europa"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spanish apartment blocks street",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "Aquí también",
+                "texto": "Con *otra excusa*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "En España faltan setecientas cincuenta mil viviendas y se terminan noventa y dos mil al año. En Holanda faltan cuatrocientas diez mil y se terminaron sesenta y nueve mil. La misma película.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE FALTA EN CADA PAÍS",
+              "fuente": "Banco de España y Capital Value · 2026",
+              "barras": {
+                "unidad": "Miles de viviendas de déficit",
+                "datos": [
+                  {
+                    "etiqueta": "España",
+                    "valor": 750,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Países Bajos",
+                    "valor": 410,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "housing estate under construction spain",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "couple portrait viewing empty flat",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "La misma película",
+                "apoyo": "Dos países ricos que no consiguen construir casas.",
+                "icono": "casa"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "En los dos casos la traba no es que falte dinero ni que falte terreno. Es administrativa. Un papel que no llega, una sentencia, un plan que hay que revisar, una conexión que no existe.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "objeto",
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "maletero",
+              "rotulo": {
+                "kicker": "La traba",
+                "texto": "No es dinero. Es *un papel*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stacks of files bureaucracy office",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stamp approval desk waiting",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Y esa es la lección incómoda. Los países ricos ya no dejan de construir porque no puedan. Dejan de construir porque cada obra tiene que pasar por delante de mucha gente con derecho a decir que no.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "gente",
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "CUÁNTA GENTE PUEDE DECIR QUE NO",
+              "fuente": "Procedimientos de licencia y alegaciones",
+              "gente": {
+                "total": 60,
+                "destacados": 18,
+                "escala": 0.8,
+                "etiqueta": "Actores en el proceso",
+                "etiquetaDestacados": "Pueden bloquearlo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "town hall meeting residents seats",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "official man portrait public hearing",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Todos pueden decir que no",
+                "apoyo": "Y basta uno para que la grúa no se mueva.",
+                "icono": "candado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Así que si alguien te cuenta que en Holanda ya no caben más casas, tienes dos cifras para contestar. Cincuenta y cuatro por ciento del país es campo. Trece por ciento está construido.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "barras",
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LAS DOS CIFRAS QUE ZANJAN EL DEBATE",
+              "fuente": "Oficina Central de Estadística de los Países Bajos",
+              "barras": {
+                "unidad": "Por ciento del territorio",
+                "datos": [
+                  {
+                    "etiqueta": "Campo",
+                    "valor": 54,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Construido",
+                    "valor": 13,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "aerial farmland meets town edge",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "El país",
+                "texto": "*54 %* campo · *13 %* ciudad"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "El sitio está. Lo que no está es la firma. Y mientras el noventa y uno por ciento del nitrógeno lo emita quien tiene tractores y votos, la firma la va a seguir esperando el que busca piso en Ámsterdam.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "recorte",
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young man portrait waiting keys door",
+                "tono": "carmin",
+                "lado": "der",
+                "titular": "El sitio está. Falta la firma",
+                "apoyo": "Y la firma la decide quien tiene tractores y votos.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty plot land fence city edge",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tractor field sunset netherlands",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Suscríbete si prefieres saber qué traba de verdad las cosas antes que a quién culpar por ellas.",
+          "voz": {
+            "speed": 1
+          },
+          "tipo": "cierre",
+          "cierre": {
+            "suscribete": true
+          }
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Holanda No Se Quedó Sin Sitio. Se Quedó Sin Permiso, Y Se Lo Quitan Las Vacas",
+    "descripcion": "A los Países Bajos les faltan 410.000 viviendas: el 4,8 % de todo su parque. Hace un año eran 400.000, así que el agujero no se cierra, se abre. En 2025 se terminaron 69.200 casas cuando el objetivo eran 100.000, y fue el tercer año consecutivo construyendo menos que el anterior.\n\nLa explicación que oyes siempre es la fácil: Holanda es un pañuelo, ya no cabe nadie. No aguanta el primer dato.\n\nDATOS CLAVE\n\n• Según la oficina de estadística neerlandesa, el 54 % del territorio es suelo agrícola — 2,2 millones de hectáreas — y solo el 13 % está construido. Todo: ciudades, pueblos, polígonos, carreteras y aeropuertos. Cuatro veces más campo que ciudad.\n\n• El problema no es el espacio. Es el permiso. El 29 de mayo de 2019, el Consejo de Estado neerlandés anuló el PAS, el sistema con el que el país daba las licencias de obra: concedía el permiso por adelantado contando con compensar la contaminación por nitrógeno más tarde. Un activista ecologista lo llevó a los tribunales y ganó, porque violaba la directiva europea de hábitats.\n\n• El efecto fue instantáneo: 18.000 proyectos de construcción congelados de un día para otro.\n\n• ¿Y de dónde sale el nitrógeno neerlandés? El 91 % de las emisiones de amoníaco del país vienen de la agricultura. Del purín. Se paralizaron 18.000 obras por un problema que las obras casi no causan.\n\n• ¿Por qué se paró eso y no la ganadería? Porque parar una obra es firmar un papel y cerrar una granja es quitarle el negocio a una familia de cuatro generaciones. Cuando el gobierno lo intentó, hubo años de tractores bloqueando autopistas, y en 2023 el partido de los agricultores —fundado tres años antes— ganó las elecciones provinciales.\n\n• Y el muro nuevo, de este mismo mes: no hay electricidad. De las 600.000 viviendas cuya conexión se ha solicitado, unas 300.000 no tienen capacidad disponible en la red. La mitad. Los operadores tienen listas de espera de hasta tres años, las provincias de Utrecht, Güeldres y Flevolanda están al límite, y las obras para ampliar la red se retrasan otros dos años por las objeciones legales de los vecinos.\n\nEl vídeo incluye lo que juega en contra de su propia tesis: la densidad sí es real donde importa —el 45 % de los neerlandeses vive en el 20 % del territorio—, ese suelo agrícola no se convierte en solar con firmar un papel porque media Holanda está bajo el nivel del mar, y la construcción está mejorando: para 2026 se esperan unas 88.000 viviendas. Aun así, el déficit seguiría por encima de las 453.000 en 2027.\n\nY termina donde importa desde aquí: en España faltan 750.000 viviendas y se terminan 92.000 al año. En Holanda faltan 410.000 y se terminaron 69.200. La misma película. En los dos casos la traba no es que falte dinero ni terreno: es administrativa. Los países ricos ya no dejan de construir porque no puedan, sino porque cada obra tiene que pasar por delante de mucha gente con derecho a decir que no.\n\nFUENTES\nCapital Value y ABF Research — déficit de vivienda, febrero de 2026\nOficina Central de Estadística de los Países Bajos — usos del suelo y emisiones de amoníaco\nConsejo de Estado de los Países Bajos — sentencia de 29 de mayo de 2019 sobre el PAS\nOperadores de red neerlandeses y TenneT — saturación de la red eléctrica, 2026\nBanco de España — Informe Anual 2025, déficit español de vivienda\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#Holanda #Vivienda #Economía",
+    "etiquetas": [
+      "holanda",
+      "paises bajos",
+      "vivienda holanda",
+      "crisis de vivienda",
+      "deficit de vivienda",
+      "crisis del nitrogeno",
+      "stikstofcrisis",
+      "agricultores holandeses",
+      "protestas tractores",
+      "consejo de estado",
+      "natura 2000",
+      "amoniaco",
+      "ganaderia",
+      "amsterdam",
+      "rotterdam",
+      "red electrica saturada",
+      "congestion de red",
+      "permisos de obra",
+      "burocracia",
+      "vivienda españa",
+      "españa vaciada",
+      "urbanismo",
+      "economia europea",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "holanda 2026"
+    ]
+  }
+}
