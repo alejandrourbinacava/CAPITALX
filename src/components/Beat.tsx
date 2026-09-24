@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 export type Anim = "pop" | "slideL" | "slideR" | "slideUp" | "wipeX" | "grow" | "fade";
 
@@ -93,7 +93,7 @@ export const Tag: React.FC<{
   tone?: "ocre" | "carmin" | "ink" | "paper";
   size?: number;
 }> = ({ children, tone = "ocre", size = 40 }) => {
-  const bg = tone === "carmin" ? C.carmin : tone === "ink" ? C.ink : tone === "paper" ? C.paper : C.ocre;
+  const bg = tone === "carmin" ? ACENTO : tone === "ink" ? C.ink : tone === "paper" ? C.paper : C.ocre;
   const fg = tone === "carmin" || tone === "ink" ? C.paper : C.ink;
   return (
     <span
@@ -119,7 +119,7 @@ export const Leader: React.FC<{ w: number; h: number; flip?: boolean; color?: st
   w,
   h,
   flip,
-  color = C.carmin,
+  color = ACENTO,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -171,7 +171,7 @@ export const SketchRing: React.FC<{
       <path
         d={d}
         fill="none"
-        stroke={C.carmin}
+        stroke={ACENTO}
         strokeWidth="6"
         strokeLinecap="round"
         strokeDasharray={len}

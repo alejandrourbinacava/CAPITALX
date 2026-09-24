@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 /**
  * Rejilla de figuras.
@@ -67,8 +67,8 @@ export const PeopleGrid: React.FC<{
     const entra = Math.min(1, (aparecen - i) * 1.6);
     figuras.push(
       <g key={i} transform={`translate(${x} ${y}) scale(${0.86 * esc * entra})`} opacity={entra}>
-        <circle cx="17" cy="11" r="11" fill={destacada ? C.carmin : C.ink} />
-        <path d="M2 46 C2 30 8 25 17 25 C26 25 32 30 32 46 Z" fill={destacada ? C.carmin : C.ink} />
+        <circle cx="17" cy="11" r="11" fill={destacada ? ACENTO : C.ink} />
+        <path d="M2 46 C2 30 8 25 17 25 C26 25 32 30 32 46 Z" fill={destacada ? ACENTO : C.ink} />
       </g>
     );
   }
@@ -90,22 +90,22 @@ export const PeopleGrid: React.FC<{
               y={ultima.y + 46 * esc - Math.max(1.5, 40 * esc * resto)}
               width={Math.max(2.5, 22 * esc)}
               height={Math.max(1.5, 40 * esc * resto)}
-              fill={C.carmin}
+              fill={ACENTO}
             />
             <line
               x1={ultima.x + 20 * esc}
               y1={ultima.y + 44 * esc}
               x2={ultima.x + 150}
               y2={ultima.y + 150}
-              stroke={C.carmin}
+              stroke={ACENTO}
               strokeWidth="3"
             />
-            <circle cx={ultima.x + 20 * esc} cy={ultima.y + 44 * esc} r="7" fill={C.carmin} />
+            <circle cx={ultima.x + 20 * esc} cy={ultima.y + 44 * esc} r="7" fill={ACENTO} />
             {etiquetaDestacados ? (
               <text
                 x={ultima.x + 162}
                 y={ultima.y + 162}
-                fill={C.carmin}
+                fill={ACENTO}
                 fontFamily={FONT.sans}
                 fontWeight="700"
                 fontSize="40"
@@ -144,7 +144,7 @@ export const PeopleGrid: React.FC<{
             fontFamily: FONT.sans,
             fontWeight: 700,
             fontSize: 40,
-            color: C.carmin,
+            color: ACENTO,
           }}
         >
           {etiquetaDestacados}

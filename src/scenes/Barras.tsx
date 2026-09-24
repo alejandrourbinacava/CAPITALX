@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 export type Barra = {
   etiqueta: string;
@@ -22,7 +22,7 @@ export type BarrasSpec = {
   resaltaDiferencia?: boolean;
 };
 
-const TONO = { ink: C.ink, carmin: C.carmin, verde: C.verde, ocre: C.ocre };
+const TONO = { ink: C.ink, carmin: ACENTO, verde: C.verde, ocre: C.ocre };
 const suave = (x: number) => 1 - Math.pow(1 - x, 3);
 
 const BASE = 656;
@@ -136,7 +136,7 @@ export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
         return (
           <g key={i}>
             {/* sombra plana desplazada: el recurso del canal */}
-            <rect x={x + 16} y={BASE - h + 16} width={ancho} height={h} fill={C.carmin} opacity="0.2" />
+            <rect x={x + 16} y={BASE - h + 16} width={ancho} height={h} fill={ACENTO} opacity="0.2" />
             <rect x={x} y={BASE - h} width={ancho} height={h} fill={color} />
             <text
               x={x + ancho / 2}
@@ -170,14 +170,14 @@ export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
       {/* corchete que mide la diferencia entre las dos barras */}
       {hayDif ? (
         <g opacity={difOpacidad}>
-          <line x1={x0 + total + 60} y1={BASE - hA} x2={x0 + total + 60} y2={BASE - hB} stroke={C.carmin} strokeWidth="5" />
-          <line x1={x0 + total + 38} y1={BASE - hA} x2={x0 + total + 82} y2={BASE - hA} stroke={C.carmin} strokeWidth="5" />
-          <line x1={x0 + total + 38} y1={BASE - hB} x2={x0 + total + 82} y2={BASE - hB} stroke={C.carmin} strokeWidth="5" />
+          <line x1={x0 + total + 60} y1={BASE - hA} x2={x0 + total + 60} y2={BASE - hB} stroke={ACENTO} strokeWidth="5" />
+          <line x1={x0 + total + 38} y1={BASE - hA} x2={x0 + total + 82} y2={BASE - hA} stroke={ACENTO} strokeWidth="5" />
+          <line x1={x0 + total + 38} y1={BASE - hB} x2={x0 + total + 82} y2={BASE - hB} stroke={ACENTO} strokeWidth="5" />
           <text
             x={1744}
             y={BASE - hA - 26}
             textAnchor="end"
-            fill={C.carmin}
+            fill={ACENTO}
             fontFamily={FONT.sans}
             fontWeight="700"
             fontSize="38"
@@ -241,12 +241,12 @@ export const Lineas: React.FC<{
             />
             <line x1={sx(0, n)} y1={sy(s.puntos[0][1])} x2={xEnd} y2={yEnd} stroke={color} strokeWidth="7" strokeLinecap="round" />
             <circle cx={sx(0, n)} cy={sy(s.puntos[0][1])} r="12" fill={color} />
-            <circle cx={xEnd} cy={yEnd} r="14" fill={C.carmin} />
+            <circle cx={xEnd} cy={yEnd} r="14" fill={ACENTO} />
             <text x={sx(0, n)} y={sy(s.puntos[0][1]) - 34} textAnchor="middle" fill={C.ink} fontFamily={FONT.sans} fontWeight="700" fontSize="52">
               {s.puntos[0][1].toLocaleString("es-ES")}
               {s.sufijo ?? ""}
             </text>
-            <text x={xEnd} y={yEnd - 40} textAnchor="middle" fill={C.carmin} fontFamily={FONT.sans} fontWeight="700" fontSize="60" opacity={k}>
+            <text x={xEnd} y={yEnd - 40} textAnchor="middle" fill={ACENTO} fontFamily={FONT.sans} fontWeight="700" fontSize="60" opacity={k}>
               {(s.puntos[0][1] + (s.puntos[n - 1][1] - s.puntos[0][1]) * k).toLocaleString("es-ES", {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
@@ -268,7 +268,7 @@ export const Lineas: React.FC<{
         </text>
       ) : null}
       {spec.nota ? (
-        <text x={X1} y={196} textAnchor="end" fill={C.carmin} fontFamily={FONT.sans} fontWeight="700" fontSize="34" opacity={k}>
+        <text x={X1} y={196} textAnchor="end" fill={ACENTO} fontFamily={FONT.sans} fontWeight="700" fontSize="34" opacity={k}>
           {spec.nota}
         </text>
       ) : null}

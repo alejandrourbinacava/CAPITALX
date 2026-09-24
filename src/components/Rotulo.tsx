@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT, T } from "../theme";
+import { ACENTO, C, FONT, T } from "../theme";
 
 /**
  * Rotulo inferior izquierdo. Es la constante visual del canal: misma posicion
@@ -335,7 +335,7 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
             bottom: "-0.45em",
             height: 7,
             width: `${filete * 100}%`,
-            background: night ? C.ocre : C.carmin,
+            background: night ? C.ocre : ACENTO,
             opacity: 0.9,
           }}
         />

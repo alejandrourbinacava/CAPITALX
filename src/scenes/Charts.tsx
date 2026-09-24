@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 const PLOT = { x: 300, y: 250, w: 1420, h: 520 };
 
@@ -16,7 +16,7 @@ export const LineSeries: React.FC<{
   yLabel?: string;
   night?: boolean;
   color?: string;
-}> = ({ points, yMax, yLabel, night, color = C.carmin }) => {
+}> = ({ points, yMax, yLabel, night, color = ACENTO }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const grow = ease(
@@ -153,7 +153,7 @@ export const CompareBars: React.FC<{
     note?: string;
   }) => (
     <g>
-      <rect x={x + 16} y={base - h + 16} width="300" height={h} fill={C.carmin} opacity={0.9 * grow} />
+      <rect x={x + 16} y={base - h + 16} width="300" height={h} fill={ACENTO} opacity={0.9 * grow} />
       <rect x={x} y={base - h} width="300" height={h} fill={color} />
       <text x={x + 150} y={base - h - 34} textAnchor="middle" fill={C.ink} fontFamily={FONT.sans} fontWeight="700" fontSize="72">
         {Math.round(value * grow).toLocaleString("es-ES")}
@@ -181,10 +181,10 @@ export const CompareBars: React.FC<{
       ) : null}
       {/* la diferencia, marcada */}
       <g opacity={grow}>
-        <line x1="1420" y1={base - ha} x2="1420" y2={base - hb} stroke={C.carmin} strokeWidth="4" />
-        <line x1="1400" y1={base - ha} x2="1440" y2={base - ha} stroke={C.carmin} strokeWidth="4" />
-        <line x1="1400" y1={base - hb} x2="1440" y2={base - hb} stroke={C.carmin} strokeWidth="4" />
-        <text x={1460} y={base - (ha + hb) / 2} fill={C.carmin} fontFamily={FONT.sans} fontWeight="700" fontSize="44">
+        <line x1="1420" y1={base - ha} x2="1420" y2={base - hb} stroke={ACENTO} strokeWidth="4" />
+        <line x1="1400" y1={base - ha} x2="1440" y2={base - ha} stroke={ACENTO} strokeWidth="4" />
+        <line x1="1400" y1={base - hb} x2="1440" y2={base - hb} stroke={ACENTO} strokeWidth="4" />
+        <text x={1460} y={base - (ha + hb) / 2} fill={ACENTO} fontFamily={FONT.sans} fontWeight="700" fontSize="44">
           219.100
         </text>
       </g>

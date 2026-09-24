@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { C } from "../theme";
+import { ACENTO, C } from "../theme";
 
 /**
  * Biblioteca de objetos recortados.
@@ -19,7 +19,7 @@ const ConSombra: React.FC<Props> = ({ children, sx = 22, sy = 22 }) => {
   const k = spring({ frame: frame - 4, fps, config: { damping: 18, mass: 0.6, stiffness: 150 } });
   return (
     <>
-      <g fill={C.carmin} transform={`translate(${sx * k} ${sy * k})`} opacity={k}>
+      <g fill={ACENTO} transform={`translate(${sx * k} ${sy * k})`} opacity={k}>
         {children}
       </g>
       <g fill={C.ink}>{children}</g>

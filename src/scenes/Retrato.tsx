@@ -1,6 +1,6 @@
 import React from "react";
 import { Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 /**
  * Retrato en recorte de periódico.
@@ -169,7 +169,7 @@ const Recorte: React.FC<{
             style={{
               marginTop: 24,
               paddingLeft: 20,
-              borderLeft: `4px solid ${C.carmin}`,
+              borderLeft: `4px solid ${ACENTO}`,
               fontFamily: FONT.mono,
               fontSize: 26,
               lineHeight: 1.5,
@@ -244,7 +244,7 @@ export const Retrato: React.FC<{
           opacity={entra}
         >
           {/* sombra plana del recorte */}
-          <rect x={CLIP.x + 18} y={CLIP.y + 18} width={CLIP.w} height={CLIP.h + 172} fill={C.carmin} opacity="0.5" />
+          <rect x={CLIP.x + 18} y={CLIP.y + 18} width={CLIP.w} height={CLIP.h + 172} fill={ACENTO} opacity="0.5" />
           {/* el papel del recorte */}
           <rect x={CLIP.x} y={CLIP.y} width={CLIP.w} height={CLIP.h + 172} fill="#EFEADC" stroke={C.ink} strokeWidth="3" />
 

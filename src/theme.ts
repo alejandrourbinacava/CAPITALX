@@ -12,6 +12,16 @@ export const FONT = {
   serif: serif.fontFamily,
 };
 
+/**
+ * El color de acento del video.
+ *
+ * Es una variable CSS, no un valor fijo, porque cada guion elige el suyo en su
+ * bloque `estilo` y `Surface` la planta en el contenedor. Asi un guion con
+ * "acento": "verde" repinta los graficos, los recortes y los rotulos sin
+ * tocar un solo componente. El valor por defecto es el carmin de siempre.
+ */
+export const ACENTO = "var(--acento, #C8402C)";
+
 /** Paleta Capital X. El carmin es el unico color saturado del canal. */
 export const C = {
   paper: "#F2EFE6",

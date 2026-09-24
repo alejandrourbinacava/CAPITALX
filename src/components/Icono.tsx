@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, useCurrentFrame } from "remotion";
-import { C } from "../theme";
+import { ACENTO, C } from "../theme";
 
 /**
  * Iconos de trazo que se dibujan solos.
@@ -67,7 +67,7 @@ export const Icono: React.FC<{
     extrapolateRight: "clamp",
   });
 
-  const color = tono === "ink" ? C.ink : tono === "ocre" ? C.ocre : tono === "verde" ? C.verde : C.carmin;
+  const color = tono === "ink" ? C.ink : tono === "ocre" ? C.ocre : tono === "verde" ? C.verde : ACENTO;
 
   return (
     <svg

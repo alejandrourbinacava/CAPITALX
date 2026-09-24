@@ -1,7 +1,7 @@
 import React from "react";
 import { Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Icono, PorPalabras, type NombreIcono } from "../components/Icono";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 /**
  * El recorte de revista: el mecanismo Vox aplicado a una foto cualquiera.
@@ -102,7 +102,7 @@ export const Recorte: React.FC<{
                 fontSize: 128,
                 lineHeight: 0.95,
                 letterSpacing: "-0.05em",
-                color: C.carmin,
+                color: ACENTO,
                 fontVariantNumeric: "tabular-nums",
                 opacity: linea(0),
                 transform: `translateY(${interpolate(linea(0), [0, 1], [26, 0])}px)`,
@@ -147,7 +147,7 @@ export const Recorte: React.FC<{
               height: 7,
               width: `${filete * 100}%`,
               marginLeft: lado === "der" ? 0 : `${(1 - filete) * 100}%`,
-              background: C.carmin,
+              background: ACENTO,
               marginTop: 22,
             }}
           />

@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 /**
  * Torres de oficinas con la flecha del PIB subiendo por encima.
@@ -55,7 +55,7 @@ export const Towers: React.FC<{ etiqueta?: string }> = ({ etiqueta }) => {
           const cols = Math.max(2, Math.floor(t.w / 40));
           return (
             <g key={t.s}>
-              <rect x={t.x + 14} y={base - h + 14} width={t.w} height={h} fill={C.carmin} opacity={0.16} />
+              <rect x={t.x + 14} y={base - h + 14} width={t.w} height={h} fill={ACENTO} opacity={0.16} />
               <rect x={t.x} y={base - h} width={t.w} height={h} fill={C.ink} />
               {Array.from({ length: rows * cols }).map((_, k) => {
                 const c = k % cols;
@@ -83,13 +83,13 @@ export const Towers: React.FC<{ etiqueta?: string }> = ({ etiqueta }) => {
         <path
           d={`M${ax0} ${ay0} Q${(ax0 + cx) / 2} ${ay0 - (ay0 - cy) * 0.28} ${cx} ${cy}`}
           fill="none"
-          stroke={C.carmin}
+          stroke={ACENTO}
           strokeWidth="12"
           strokeLinecap="round"
         />
         {arrow > 0.08 ? (
           <g transform={`translate(${cx} ${cy}) rotate(-36)`}>
-            <path d="M0 0 L-40 -20 L-30 0 L-40 20 Z" fill={C.carmin} transform="rotate(180)" />
+            <path d="M0 0 L-40 -20 L-30 0 L-40 20 Z" fill={ACENTO} transform="rotate(180)" />
           </g>
         ) : null}
       </svg>

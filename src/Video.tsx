@@ -8,7 +8,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { C, FONT, VIDEO, framesForWords } from "./theme";
+import { ACENTO, C, FONT, VIDEO, framesForWords } from "./theme";
 import { Kicker, Source, Surface } from "./components/Surface";
 import { Rotulo, Statement } from "./components/Rotulo";
 import { Beat, SketchRing, Tag, type Anim } from "./components/Beat";
@@ -127,7 +127,40 @@ export type Plano = {
 };
 
 export type Tiempos = Record<string, { audio: string; duration: number }>;
-export type Guion = { slug: string; wpm?: number; musica?: string; bloques: { planos: Plano[] }[] };
+/**
+ * La identidad visual del video.
+ *
+ * Todos salian iguales porque el aspecto estaba cableado: papel, rejilla,
+ * marco y carmin, siempre. Esto deja que cada guion elija el suyo.
+ */
+export type Estilo = {
+  /** El unico color saturado. Repinta graficos, recortes y rotulos. */
+  acento?: "carmin" | "verde" | "ocre" | "pale";
+  // "fondo": "noche" todavia no. El Surface ya lo pinta, pero las barras, el
+  // mapa y la rejilla de gente escriben en C.ink y quedan ilegibles sobre
+  // oscuro: son 53 sitios que hay que volver night-aware antes de abrirlo.
+  /** La cuadricula de papel milimetrado. */
+  grid?: boolean;
+  /** Las escuadras de las esquinas. */
+  marco?: boolean;
+};
+
+export type Guion = {
+  slug: string;
+  wpm?: number;
+  musica?: string;
+  estilo?: Estilo;
+  bloques: { planos: Plano[] }[];
+};
+
+const ACENTOS: Record<string, string> = {
+  carmin: C.carmin,
+  verde: C.verde,
+  ocre: C.ocre,
+  pale: C.paleDim,
+};
+
+const EstiloCtx = React.createContext<Estilo>({});
 
 /** Cola de aire tras cada frase para que el corte no pise la ultima silaba. */
 const COLA = 0.34;
@@ -408,8 +441,8 @@ const Contador: React.FC<{ p: Visual }> = ({ p }) => {
     <>
       <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
         <line x1="300" y1="780" x2="1620" y2="780" stroke="#B4BBB2" strokeWidth="3" />
-        <line x1="300" y1="780" x2={300 + 1320 * t} y2="780" stroke={C.carmin} strokeWidth="9" />
-        <circle cx={300 + 1320 * t} cy="780" r="15" fill={C.carmin} />
+        <line x1="300" y1="780" x2={300 + 1320 * t} y2="780" stroke={ACENTO} strokeWidth="9" />
+        <circle cx={300 + 1320 * t} cy="780" r="15" fill={ACENTO} />
         <text x="300" y="836" fill={C.muted} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
           {p.de!.etiqueta}
         </text>
@@ -457,15 +490,23 @@ const porDefecto = (p: Visual, orden: number): Visual["camara"] =>
     : "estatico";
 
 const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) => {
+  const estilo = React.useContext(EstiloCtx);
+  // Con "fondo": "noche" el video entero va sobre el fondo oscuro, no solo
+  // los clips y las frases marcadas. Es el cambio de aspecto mas grande que
+  // se puede pedir con una palabra.
   const night =
     p.tipo === "dublin" ||
     p.tipo === "clip" ||
     ((p.tipo === "frase" || p.tipo === "lista") && !!p.night);
 
   const pintable = listo(p);
+  const grid =
+    estilo.grid === false
+      ? false
+      : p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "clip";
 
   return (
-    <Surface night={night} grid={p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "clip"} frame>
+    <Surface night={night} grid={grid} frame={estilo.marco !== false}>
       <Camara modo={p.camara ?? porDefecto(p, orden)}>
         {!pintable ? null : (
         <>
@@ -549,8 +590,15 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
   let cursor = 0;
   const musicLoops = Math.ceil(durationInFrames / (32 * fps)) + 1;
 
+  const estilo = guion.estilo ?? {};
+  // El acento va como variable CSS: ACENTO en theme.ts la lee, y con eso se
+  // repintan de golpe los cuarenta y cuatro sitios donde antes habia un
+  // carmin escrito a mano.
+  const acento = ACENTOS[estilo.acento ?? "carmin"] ?? C.carmin;
+
   return (
-    <AbsoluteFill style={{ background: C.night }}>
+    <EstiloCtx.Provider value={estilo}>
+    <AbsoluteFill style={{ background: C.night, ["--acento" as any]: acento }}>
       {planos.map((p, i) => {
         const from = cursor;
         cursor += duraciones[i];
@@ -588,5 +636,6 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
         </Sequence>
       ))}
     </AbsoluteFill>
+    </EstiloCtx.Provider>
   );
 };

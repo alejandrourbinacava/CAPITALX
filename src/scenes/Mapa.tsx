@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FONT } from "../theme";
+import { ACENTO, C, FONT } from "../theme";
 
 /**
  * Mapa de Europa muy simplificado.
@@ -106,7 +106,7 @@ export const Mapa: React.FC<{
         const s = spring({ frame: frame - 3 - i * 5, fps, config: { damping: 16, mass: 0.6, stiffness: 160 } });
         return (
           <g key={k} opacity={s}>
-            <path d={p.d} fill={C.carmin} transform={`translate(${16 * s} ${16 * s})`} opacity="0.5" />
+            <path d={p.d} fill={ACENTO} transform={`translate(${16 * s} ${16 * s})`} opacity="0.5" />
             <path d={p.d} fill={C.ocre} stroke={C.ink} strokeWidth="3.5" />
             <EtiquetaPais
               cx={p.cx}
@@ -125,8 +125,8 @@ export const Mapa: React.FC<{
         const s = spring({ frame: frame - 12 - i * 9, fps, config: { damping: 200, mass: 0.5 } });
         return (
           <g key={pt.nombre} opacity={s}>
-            <circle cx={x} cy={y} r="12" fill={C.carmin} />
-            <line x1={x} y1={y} x2={x} y2={y + 70 * s} stroke={C.carmin} strokeWidth="3" />
+            <circle cx={x} cy={y} r="12" fill={ACENTO} />
+            <line x1={x} y1={y} x2={x} y2={y + 70 * s} stroke={ACENTO} strokeWidth="3" />
             <rect x={x - 92} y={y + 70} width="184" height="62" fill={C.ink} />
             <text x={x} y={y + 112} textAnchor="middle" fill={C.paper} fontFamily={FONT.sans} fontWeight="700" fontSize="34">
               {pt.nombre} {pt.valor}
@@ -141,7 +141,7 @@ export const Mapa: React.FC<{
           <path
             d={`M528 439 C760 200 1300 300 ${528 + 1300 * arco} ${439 + 330 * Math.pow(arco, 1.7)}`}
             fill="none"
-            stroke={C.carmin}
+            stroke={ACENTO}
             strokeWidth="8"
             strokeDasharray="18 14"
             strokeLinecap="round"
@@ -207,7 +207,7 @@ export const Lista: React.FC<{
               style={{
                 fontFamily: FONT.mono,
                 fontSize: numerada ? 40 : 30,
-                color: activo ? C.carmin : night ? C.mutedNight : C.muted,
+                color: activo ? ACENTO : night ? C.mutedNight : C.muted,
                 minWidth: 70,
               }}
             >
@@ -264,7 +264,7 @@ export const Cierre: React.FC<{ spec: { siguiente?: string; sub?: string; suscri
             fontFamily: FONT.sans,
             fontWeight: 700,
             fontSize: 58,
-            background: C.carmin,
+            background: ACENTO,
             color: C.paper,
             padding: "18px 54px",
             transform: `scale(${interpolate(k, [0, 1], [0.9, 1])})`,

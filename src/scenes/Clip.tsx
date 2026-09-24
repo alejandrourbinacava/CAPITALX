@@ -1,6 +1,6 @@
 import React from "react";
 import { OffthreadVideo, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { C } from "../theme";
+import { ACENTO, C } from "../theme";
 
 /**
  * Metraje de archivo pasado por el mismo filtro que todo lo demas.
@@ -31,7 +31,7 @@ export const Clip: React.FC<{
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
-  const color = tono === "carmin" ? C.carmin : C.ocre;
+  const color = tono === "carmin" ? ACENTO : C.ocre;
 
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden", opacity: entrada }}>
