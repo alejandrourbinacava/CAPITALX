@@ -1,1 +1,368 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/holanda-b0-01.mp3",
+    "duration": 10.109388,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b0-02": {
+    "audio": "voice/holanda-b0-02.mp3",
+    "duration": 9.822041,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b0-03": {
+    "audio": "voice/holanda-b0-03.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b0-04": {
+    "audio": "voice/holanda-b0-04.mp3",
+    "duration": 12.956735,
+    "transcript": null,
+    "credit_cost": 327
+  },
+  "b1-01": {
+    "audio": "voice/holanda-b1-01.mp3",
+    "duration": 11.180408,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b1-02": {
+    "audio": "voice/holanda-b1-02.mp3",
+    "duration": 12.329796,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b1-03": {
+    "audio": "voice/holanda-b1-03.mp3",
+    "duration": 10.213878,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b1-04": {
+    "audio": "voice/holanda-b1-04.mp3",
+    "duration": 14.576327,
+    "transcript": null,
+    "credit_cost": 324
+  },
+  "bP-01": {
+    "audio": "voice/holanda-bP-01.mp3",
+    "duration": 9.116735,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "bP-02": {
+    "audio": "voice/holanda-bP-02.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "bP-03": {
+    "audio": "voice/holanda-bP-03.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 212
+  },
+  "bP-04": {
+    "audio": "voice/holanda-bP-04.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 251
+  },
+  "bP-05": {
+    "audio": "voice/holanda-bP-05.mp3",
+    "duration": 10.161633,
+    "transcript": null,
+    "credit_cost": 248
+  },
+  "b2-01": {
+    "audio": "voice/holanda-b2-01.mp3",
+    "duration": 11.206531,
+    "transcript": null,
+    "credit_cost": 287
+  },
+  "b2-02": {
+    "audio": "voice/holanda-b2-02.mp3",
+    "duration": 12.277551,
+    "transcript": null,
+    "credit_cost": 309
+  },
+  "b2-03": {
+    "audio": "voice/holanda-b2-03.mp3",
+    "duration": 12.016327,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b2-04": {
+    "audio": "voice/holanda-b2-04.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b3-01": {
+    "audio": "voice/holanda-b3-01.mp3",
+    "duration": 11.964082,
+    "transcript": null,
+    "credit_cost": 297
+  },
+  "b3-02": {
+    "audio": "voice/holanda-b3-02.mp3",
+    "duration": 10.527347,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b3-03": {
+    "audio": "voice/holanda-b3-03.mp3",
+    "duration": 11.937959,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b4-01": {
+    "audio": "voice/holanda-b4-01.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b4-02": {
+    "audio": "voice/holanda-b4-02.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b4-03": {
+    "audio": "voice/holanda-b4-03.mp3",
+    "duration": 11.023673,
+    "transcript": null,
+    "credit_cost": 278
+  },
+  "b4-04": {
+    "audio": "voice/holanda-b4-04.mp3",
+    "duration": 10.13551,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b5-01": {
+    "audio": "voice/holanda-b5-01.mp3",
+    "duration": 9.691429,
+    "transcript": null,
+    "credit_cost": 231
+  },
+  "b5-02": {
+    "audio": "voice/holanda-b5-02.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b5-03": {
+    "audio": "voice/holanda-b5-03.mp3",
+    "duration": 10.631837,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b6-01": {
+    "audio": "voice/holanda-b6-01.mp3",
+    "duration": 9.430204,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b6-02": {
+    "audio": "voice/holanda-b6-02.mp3",
+    "duration": 11.52,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b6-03": {
+    "audio": "voice/holanda-b6-03.mp3",
+    "duration": 8.933878,
+    "transcript": null,
+    "credit_cost": 224
+  },
+  "b6-04": {
+    "audio": "voice/holanda-b6-04.mp3",
+    "duration": 11.023673,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b6-05": {
+    "audio": "voice/holanda-b6-05.mp3",
+    "duration": 9.691429,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b6-06": {
+    "audio": "voice/holanda-b6-06.mp3",
+    "duration": 9.926531,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "bC-01": {
+    "audio": "voice/holanda-bC-01.mp3",
+    "duration": 9.822041,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "bC-02": {
+    "audio": "voice/holanda-bC-02.mp3",
+    "duration": 9.665306,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "bC-03": {
+    "audio": "voice/holanda-bC-03.mp3",
+    "duration": 9.874286,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "bC-04": {
+    "audio": "voice/holanda-bC-04.mp3",
+    "duration": 11.964082,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "bI-01": {
+    "audio": "voice/holanda-bI-01.mp3",
+    "duration": 10.396735,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "bI-02": {
+    "audio": "voice/holanda-bI-02.mp3",
+    "duration": 10.684082,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "bI-03": {
+    "audio": "voice/holanda-bI-03.mp3",
+    "duration": 10.605714,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "bI-04": {
+    "audio": "voice/holanda-bI-04.mp3",
+    "duration": 10.475102,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "bI-05": {
+    "audio": "voice/holanda-bI-05.mp3",
+    "duration": 12.068571,
+    "transcript": null,
+    "credit_cost": 323
+  },
+  "bV-01": {
+    "audio": "voice/holanda-bV-01.mp3",
+    "duration": 9.06449,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "bV-02": {
+    "audio": "voice/holanda-bV-02.mp3",
+    "duration": 11.546122,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "bV-03": {
+    "audio": "voice/holanda-bV-03.mp3",
+    "duration": 8.359184,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "bV-04": {
+    "audio": "voice/holanda-bV-04.mp3",
+    "duration": 9.926531,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "bV-05": {
+    "audio": "voice/holanda-bV-05.mp3",
+    "duration": 9.534694,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b7-01": {
+    "audio": "voice/holanda-b7-01.mp3",
+    "duration": 6.974694,
+    "transcript": null,
+    "credit_cost": 177
+  },
+  "b7-02": {
+    "audio": "voice/holanda-b7-02.mp3",
+    "duration": 10.919184,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b7-03": {
+    "audio": "voice/holanda-b7-03.mp3",
+    "duration": 9.508571,
+    "transcript": null,
+    "credit_cost": 242
+  },
+  "b7-04": {
+    "audio": "voice/holanda-b7-04.mp3",
+    "duration": 10.631837,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b7-05": {
+    "audio": "voice/holanda-b7-05.mp3",
+    "duration": 9.926531,
+    "transcript": null,
+    "credit_cost": 241
+  },
+  "b7-06": {
+    "audio": "voice/holanda-b7-06.mp3",
+    "duration": 10.24,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b7-07": {
+    "audio": "voice/holanda-b7-07.mp3",
+    "duration": 11.049796,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b8-01": {
+    "audio": "voice/holanda-b8-01.mp3",
+    "duration": 8.437551,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b8-02": {
+    "audio": "voice/holanda-b8-02.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 278
+  },
+  "b8-03": {
+    "audio": "voice/holanda-b8-03.mp3",
+    "duration": 11.337143,
+    "transcript": null,
+    "credit_cost": 271
+  },
+  "b8-04": {
+    "audio": "voice/holanda-b8-04.mp3",
+    "duration": 10.710204,
+    "transcript": null,
+    "credit_cost": 288
+  },
+  "b9-01": {
+    "audio": "voice/holanda-b9-01.mp3",
+    "duration": 10.866939,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b9-02": {
+    "audio": "voice/holanda-b9-02.mp3",
+    "duration": 10.945306,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b9-03": {
+    "audio": "voice/holanda-b9-03.mp3",
+    "duration": 5.01551,
+    "transcript": null,
+    "credit_cost": 139
+  }
+}
