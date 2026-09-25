@@ -70,10 +70,10 @@ Todos los datos que aparecen en pantalla llevan su fuente indicada en el propio 
 
 ## ETIQUETAS
 
-398 caracteres, dentro del tope de 500 de YouTube.
+**497 caracteres**, 29 etiquetas. Justo por debajo del tope de 500 de YouTube.
 
 ```
-china deuda americana, china vende bonos del tesoro, deuda de estados unidos, bonos del tesoro, treasuries, arma financiera china, guerra comercial, aranceles, hedge funds, basis trade, reserva federal, bono a 10 años, dolar, yuan, reservas de divisas, oro banco central, desdolarizacion, japon deuda americana, euroclear belgica, superavit comercial china, geopolitica economica, macroeconomia, divulgacion economica, capital x, china 2026
+china deuda americana, china vende bonos del tesoro, deuda de estados unidos, bonos del tesoro, treasuries, arma financiera china, guerra comercial, aranceles, hedge funds, basis trade, repo, reserva federal, bono a 10 años, dolar, yuan, reservas de divisas, oro banco central, desdolarizacion, japon deuda americana, reino unido deuda, euroclear belgica, datos tic, superavit comercial china, exportaciones china, geopolitica economica, macroeconomia, divulgacion economica, capital x, china 2026
 ```
 
 ---
