@@ -110,6 +110,34 @@ const PLANOS = [
       },
     ],
   },
+  {
+    id: "d-04",
+    vo:
+      "Se terminaron sesenta y nueve mil doscientas casas cuando el objetivo eran cien mil, " +
+      "y no es que falte terreno: es que el permiso se cortó de un día para otro y con él se " +
+      "paró todo lo que venía detrás, dieciocho mil proyectos a la vez.",
+    escenas: [
+      {
+        tipo: "ilustracion",
+        kicker: "SEIS DE CADA DIEZ",
+        fuente: "Capital Value y ABF Research · 2026",
+        ilustracion: { nombre: "ciudad", total: 10, hechas: 6 },
+        rotulo: { kicker: "El objetivo eran cien mil", texto: "Se hicieron *sesenta y nueve mil*" },
+      },
+      {
+        tipo: "ilustracion",
+        kicker: "EL PERMISO",
+        ilustracion: { nombre: "flujo", cortado: true, de: "Licencias", a: "Obra" },
+        rotulo: { kicker: "29 de mayo de 2019", texto: "El permiso *se corta*" },
+      },
+      {
+        tipo: "ilustracion",
+        kicker: "LO QUE VENÍA DETRÁS",
+        ilustracion: { nombre: "fabrica", parado: true },
+        rotulo: { kicker: "Dieciocho mil proyectos", texto: "Parados *a la vez*" },
+      },
+    ],
+  },
 ] as any;
 
 /** Un guion de muestra por plantilla, con el mismo material. */

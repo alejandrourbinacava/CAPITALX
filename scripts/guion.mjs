@@ -438,7 +438,8 @@ Este es el reparto que tiene que salir contando **todas** las escenas del vídeo
 
     clip        28 %   metraje de archivo
     recorte     20 %   recortes de revista
-    objeto      12 %   dibujos a línea
+    objeto       8 %   dibujos a línea, quietos
+    ilustracion  4 %   dibujos que se mueven y cuentan un mecanismo
     barras/lineas/contador  16 %   los gráficos
     frase       12 %   pantallas de texto solo
     mapa/lista/retrato/gente  12 %
@@ -456,6 +457,31 @@ Reglas de las escenas:
 - El "fuente" va en la escena donde se ve la cifra, no en todas.
 - "peso" es opcional y sirve para que una escena dure más que sus hermanas. Úsalo poco: por defecto reparten a partes iguales.
 - El plano ya no lleva "tipo" ni campos visuales propios: todo eso vive dentro de "escenas". La única excepción es el plano de tipo "cierre", que va suelto.
+
+# Las ilustraciones en movimiento
+
+Un \`objeto\` es una silueta quieta: señala una cosa. Una \`ilustracion\` es otra cosa: tiene varias piezas que se mueven durante toda la escena y juntas explican un mecanismo. No es un dibujo con animación de entrada, es el dato dibujado.
+
+Hay tres, y cada una lleva sus parámetros:
+
+    { "tipo": "ilustracion", "ilustracion": { "nombre": "ciudad", "total": 10, "hechas": 6 } }
+
+**ciudad** — una ciudad que se construye sola. Suben \`hechas\` edificios de \`total\`, con las ventanas encendiéndose, y los que faltan se quedan dibujados en línea de puntos. La grúa se planta justo en la frontera entre lo construido y lo que no. Para todo lo que sea vivienda, obra parada, objetivos de construcción o déficit de parque.
+
+    { "tipo": "ilustracion", "ilustracion": { "nombre": "flujo", "cortado": true, "de": "Licencias", "a": "Obra" } }
+
+**flujo** — un caudal entre dos puntos. Con \`cortado\` en true, a mitad de escena una válvula se cierra, el tramo de después se vacía, lo que no pasa se amontona detrás y el destino se apaga. Para embargos, sanciones, controles de capital, cierres de estrecho, crédito que se corta. Es el que mejor cuenta una decisión con consecuencia.
+
+    { "tipo": "ilustracion", "ilustracion": { "nombre": "fabrica", "parado": true } }
+
+**fabrica** — nave, chimenea con humo, engranajes y una cinta con cajas. Con \`parado\` en true todo frena hasta pararse y aparece el cartel. Para producción, industria, cadenas de suministro, plantas cerradas.
+
+Reglas:
+
+- **Como mucho dos por vídeo.** Una ilustración que se repite dentro del mismo vídeo pierde todo el efecto, y tres ya son una muletilla.
+- **Necesitan tiempo**: cinco segundos o más. Cortar la ciudad antes de que suban todos los edificios, o el flujo antes de que se corte la válvula, es contar media cosa. El validador ya lo vigila.
+- **Llevan rótulo siempre.** El dibujo enseña el mecanismo; el rótulo pone la cifra.
+- No sustituyen a un gráfico. Si lo que hay que enseñar es cuánto, van barras. Si es cómo funciona o qué pasó, va ilustración.
 
 # Los elementos que entran y salen: "tags"
 

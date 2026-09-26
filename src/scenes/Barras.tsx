@@ -1,7 +1,7 @@
 import React from "react";
 import { interpolate, useVideoConfig } from "remotion";
 import { ACENTO, APAGADO, C, FONT, REALCE, TINTA } from "../theme";
-import { useFrame } from "../estilo";
+import { familiaDe, pesoDe, useFrame, usePlantilla } from "../estilo";
 
 export type Barra = {
   etiqueta: string;
@@ -29,7 +29,8 @@ const suave = (x: number) => 1 - Math.pow(1 - x, 3);
 const BASE = 656;
 const ALTO = 392;
 
-export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
+/* ---------- columnas: barras verticales. La de siempre. ---------- */
+const Columnas: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
   const frame = useFrame();
   const { fps, durationInFrames } = useVideoConfig();
 
@@ -199,6 +200,202 @@ export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
 };
 
 /** Serie temporal simple: dos extremos y la pendiente entre ellos. */
+
+/* ================================================================== */
+/* filas: barras horizontales. El ojo baja por las etiquetas en vez de */
+/* recorrer el pie, y caben etiquetas largas sin partirlas.            */
+/* ================================================================== */
+const Filas: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
+  const frame = useFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const p = usePlantilla();
+
+  const n = spec.datos.length;
+  const alto = n <= 2 ? 124 : n === 3 ? 96 : 72;
+  const hueco = n <= 2 ? 78 : 52;
+  const totalAlto = n * alto + (n - 1) * hueco;
+  const y0 = 540 - totalAlto / 2 + 40;
+
+  const X = 700;
+  const LARGO = 1020;
+  const tope = Math.max(...spec.datos.map((d) => d.valor)) * 1.16;
+
+  const fin = Math.min(durationInFrames - 6, 5 + 2.4 * fps);
+  const creceDe = (i: number) =>
+    suave(
+      interpolate(frame, [5 + i * 0.36 * fps, fin + i * 0.36 * fps], [0, 1], {
+        extrapolateLeft: "clamp",
+        extrapolateRight: "clamp",
+      })
+    );
+
+  const fmt = (v: number, d: Barra) => {
+    const escalado = v / (d.escala ?? 1);
+    const txt = escalado.toLocaleString("es-ES", {
+      minimumFractionDigits: d.decimales ?? 0,
+      maximumFractionDigits: d.decimales ?? 0,
+    });
+    return `${spec.prefijo ?? ""}${txt}${spec.sufijo ?? ""}`;
+  };
+
+  return (
+    <svg
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+      viewBox="0 0 1920 1080"
+    >
+      {spec.unidad ? (
+        <text x={180} y={y0 - 78} fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="4">
+          {spec.unidad}
+        </text>
+      ) : null}
+
+      {/* el eje vertical del que cuelgan todas */}
+      <line x1={X} y1={y0 - 34} x2={X} y2={y0 + totalAlto + 14} stroke={TINTA} strokeWidth="4" />
+
+      {spec.datos.map((d, i) => {
+        const y = y0 + i * (alto + hueco);
+        const k = creceDe(i);
+        const w = (d.valor / tope) * LARGO * k;
+        const color = TONO[d.tono ?? "ink"];
+        return (
+          <g key={i}>
+            <text
+              x={X - 34}
+              y={y + alto * 0.68}
+              textAnchor="end"
+              fill={APAGADO}
+              fontFamily={FONT.mono}
+              fontSize={n <= 3 ? 30 : 26}
+              letterSpacing="2"
+            >
+              {d.etiqueta}
+            </text>
+            <rect x={X} y={y} width={w} height={alto} fill={color} />
+            <text
+              x={X + w + 26}
+              y={y + alto * 0.74}
+              fill={TINTA}
+              fontFamily={familiaDe(p)}
+              fontWeight={pesoDe(p)}
+              fontSize={n <= 2 ? 68 : 50}
+              letterSpacing="-0.03em"
+            >
+              {fmt(d.valor * k, d)}
+            </text>
+          </g>
+        );
+      })}
+    </svg>
+  );
+};
+
+/* ================================================================== */
+/* puntos: casi todo papel en blanco. Un filete por dato y un punto    */
+/* gordo en el valor. Compara posiciones, no areas.                    */
+/* ================================================================== */
+const Puntos: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
+  const frame = useFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const p = usePlantilla();
+
+  const n = spec.datos.length;
+  const paso = n <= 2 ? 190 : n === 3 ? 150 : 112;
+  const totalAlto = (n - 1) * paso;
+  const y0 = 540 - totalAlto / 2;
+
+  const X = 660;
+  const LARGO = 1020;
+  const tope = Math.max(...spec.datos.map((d) => d.valor)) * 1.2;
+
+  const fin = Math.min(durationInFrames - 6, 5 + 2.2 * fps);
+  const creceDe = (i: number) =>
+    suave(
+      interpolate(frame, [5 + i * 0.4 * fps, fin + i * 0.4 * fps], [0, 1], {
+        extrapolateLeft: "clamp",
+        extrapolateRight: "clamp",
+      })
+    );
+
+  const fmt = (v: number, d: Barra) => {
+    const escalado = v / (d.escala ?? 1);
+    const txt = escalado.toLocaleString("es-ES", {
+      minimumFractionDigits: d.decimales ?? 0,
+      maximumFractionDigits: d.decimales ?? 0,
+    });
+    return `${spec.prefijo ?? ""}${txt}${spec.sufijo ?? ""}`;
+  };
+
+  return (
+    <svg
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+      viewBox="0 0 1920 1080"
+    >
+      {spec.unidad ? (
+        <text x={180} y={y0 - 120} fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="4">
+          {spec.unidad}
+        </text>
+      ) : null}
+
+      {spec.datos.map((d, i) => {
+        const y = y0 + i * paso;
+        const k = creceDe(i);
+        const x = X + (d.valor / tope) * LARGO * k;
+        const color = TONO[d.tono ?? "ink"];
+        return (
+          <g key={i}>
+            {/* el carril entero, para que se vea contra que se compara */}
+            <line x1={X} y1={y} x2={X + LARGO} y2={y} stroke={APAGADO} strokeWidth="2" opacity="0.3" />
+            <line x1={X} y1={y} x2={x} y2={y} stroke={color} strokeWidth="8" />
+            <circle cx={x} cy={y} r={26} fill={color} />
+            <text
+              x={X - 34}
+              y={y + 11}
+              textAnchor="end"
+              fill={APAGADO}
+              fontFamily={FONT.mono}
+              fontSize={n <= 3 ? 30 : 26}
+              letterSpacing="2"
+            >
+              {d.etiqueta}
+            </text>
+            <text
+              x={x + 44}
+              y={y + 20}
+              fill={TINTA}
+              fontFamily={familiaDe(p)}
+              fontWeight={pesoDe(p)}
+              fontSize={n <= 2 ? 64 : 48}
+              letterSpacing="-0.02em"
+            >
+              {fmt(d.valor * k, d)}
+            </text>
+          </g>
+        );
+      })}
+    </svg>
+  );
+};
+
+/**
+ * El mismo dato, con la forma que pida la plantilla.
+ *
+ * Un grafico de barras verticales centrado era la unica forma que tenia el
+ * canal, y las barras son entre el diez y el dieciseis por ciento de las
+ * escenas de cada video. Tres formas distintas de leer lo mismo.
+ */
+export const Barras: React.FC<{ spec: BarrasSpec }> = ({ spec }) => {
+  const p = usePlantilla();
+  if (!spec?.datos?.length) return null;
+  // El corchete de diferencia y la franja de referencia solo estan dibujados
+  // en columnas: si el guion los pide, manda la forma que sabe pintarlos.
+  if (spec.referencia || (spec.diferencia && spec.datos.length === 2)) {
+    return <Columnas spec={spec} />;
+  }
+  if (p.grafico === "filas") return <Filas spec={spec} />;
+  if (p.grafico === "puntos") return <Puntos spec={spec} />;
+  return <Columnas spec={spec} />;
+};
+
 export const Lineas: React.FC<{
   spec: {
     unidad?: string;

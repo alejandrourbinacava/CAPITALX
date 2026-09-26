@@ -30,6 +30,7 @@ import { Cierre, Lista, Mapa } from "./scenes/Mapa";
 import { Retrato } from "./scenes/Retrato";
 import { Clip } from "./scenes/Clip";
 import { Recorte } from "./scenes/Recorte";
+import { Ilustracion, type EspecIlustracion } from "./scenes/Ilustracion";
 
 
 type TagSpec = {
@@ -74,6 +75,7 @@ export type Visual = {
   de?: { valor: number; etiqueta: string };
   a?: { valor: number; etiqueta: string };
   objeto?: string;
+  ilustracion?: EspecIlustracion;
   amanecer?: boolean;
   barras?: any;
   lineas?: any;
@@ -124,6 +126,7 @@ export type Plano = {
   de?: { valor: number; etiqueta: string };
   a?: { valor: number; etiqueta: string };
   objeto?: string;
+  ilustracion?: EspecIlustracion;
   amanecer?: boolean;
   barras?: any;
   lineas?: any;
@@ -196,6 +199,9 @@ const MINIMO_POR_TIPO: Record<string, number> = {
   gente: 4.2,
   contador: 4.0,
   lista: 3.8,
+  // La ilustracion no se mira, se sigue: la ciudad se construye, el caudal se
+  // corta, la fabrica se para. Cortarla antes del final es contar media cosa.
+  ilustracion: 4.6,
   // El recorte no es una imagen: es una pantalla de texto con una foto al
   // lado. Lleva cifra, titular y apoyo. Tenerlo en 1,7 s era pedirle al
   // espectador que leyera tres lineas en dos segundos.
@@ -224,6 +230,7 @@ const PESO: Record<string, number> = {
   gente: 1.5,
   contador: 1.4,
   lista: 1.3,
+  ilustracion: 1.7,
   mapa: 1.2,
   // El recorte sube: se lee, asi que tambien merece parte del sobrante.
   recorte: 1.0,
@@ -262,6 +269,8 @@ const listo = (p: Visual): boolean => {
       return !!p.retrato?.nombre;
     case "objeto":
       return !!p.objeto;
+    case "ilustracion":
+      return !!p.ilustracion?.nombre;
     case "mapa":
       return !!p.mapa;
     case "clip":
@@ -532,6 +541,7 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
         {p.tipo === "lineas" ? <Lineas spec={p.lineas} /> : null}
         {p.tipo === "mapa" ? <Mapa spec={p.mapa} /> : null}
         {p.tipo === "objeto" ? <Objeto nombre={p.objeto!} /> : null}
+        {p.tipo === "ilustracion" ? <Ilustracion spec={p.ilustracion!} /> : null}
         {p.tipo === "retrato" ? <Retrato spec={p.retrato} /> : null}
         {p.tipo === "clip" ? <Clip spec={p.clip ?? {}} tono={p.clip?.tono} /> : null}
         {p.tipo === "recorte" ? <Recorte spec={p.recorte ?? {}} /> : null}
@@ -549,7 +559,10 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
 
       {/* Velo inferior: el rotulo tiene que leerse sobre cualquier dibujo,
           tanto en papel como en noche. */}
-      {p.rotulo && !["frase", "contador", "lista", "cierre", "barras", "lineas"].includes(p.tipo) ? (
+      {p.rotulo &&
+      !["frase", "contador", "lista", "cierre", "barras", "lineas", "ilustracion"].includes(
+        p.tipo
+      ) ? (
         <div
           style={{
             position: "absolute",

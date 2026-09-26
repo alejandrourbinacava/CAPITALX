@@ -293,7 +293,9 @@ export const Source: React.FC<{ children: React.ReactNode; night?: boolean }> = 
       style={{
         position: "absolute",
         right: 128,
-        bottom: 92,
+        // Con el rotulo en barra, la franja ocupa el pie del cuadro entero y
+        // la fuente quedaba escrita dentro de ella.
+        bottom: p.rotulo === "barra" ? 232 : 92,
         textAlign: "right",
         fontFamily: FONT.mono,
         fontSize: T.source,

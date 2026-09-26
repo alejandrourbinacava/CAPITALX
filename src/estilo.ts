@@ -109,6 +109,16 @@ export type Plantilla = {
    */
   sostener: "deriva" | "parallax" | "reencuadre" | "quieto";
 
+  /**
+   * La forma del grafico de barras.
+   *
+   * Era siempre la misma: barras verticales centradas. Un grafico de barras
+   * horizontales se lee de otra manera -el ojo baja por las etiquetas en vez
+   * de recorrer el pie- y un grafico de puntos es casi todo papel en blanco.
+   * Con el mismo dato, tres lecturas distintas.
+   */
+  grafico: "columnas" | "filas" | "puntos";
+
   /** El corte entre escenas de un mismo plano. */
   transicion: "corte" | "desliza" | "barrido" | "flash" | "negro";
   /** Fotogramas por paso de animacion. 1 es fluido; 3 son diez por segundo. */
@@ -164,6 +174,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     entrada: "sube",
     maqueta: "lateral",
     sostener: "deriva",
+    grafico: "columnas",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -192,6 +203,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     entrada: "desmonta",
     maqueta: "esquina",
     sostener: "quieto",
+    grafico: "filas",
     transicion: "desliza",
     // Doce por segundo sobre treinta: el paso de tres es el que se ve a saltos
     // de verdad. El temblor que llevaba encima se quito: era el recurso mas
@@ -229,6 +241,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     entrada: "mascara",
     maqueta: "banda",
     sostener: "reencuadre",
+    grafico: "filas",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -256,6 +269,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     entrada: "escala",
     maqueta: "lateral",
     sostener: "parallax",
+    grafico: "puntos",
     transicion: "barrido",
     paso: 2,
     temblor: false,
@@ -283,6 +297,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     entrada: "golpe",
     maqueta: "banda",
     sostener: "quieto",
+    grafico: "columnas",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -310,6 +325,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     entrada: "maquina",
     maqueta: "tarjeta",
     sostener: "quieto",
+    grafico: "filas",
     transicion: "flash",
     paso: 3,
     temblor: false,
@@ -337,6 +353,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     entrada: "escala",
     maqueta: "sangre",
     sostener: "deriva",
+    grafico: "columnas",
     transicion: "desliza",
     paso: 2,
     temblor: false,
