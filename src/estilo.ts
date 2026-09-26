@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame } from "remotion";
-import { C } from "./theme";
+import { C, FONT } from "./theme";
 
 /**
  * Plantillas de edicion.
@@ -65,6 +65,50 @@ export type Plantilla = {
   /** Tratamiento del recorte fotografico. */
   recorte: "mancha" | "orla" | "bloque" | "limpio";
 
+  /**
+   * Como entra cada elemento en pantalla.
+   *
+   * Este es el campo que de verdad separa un montaje de otro, y el que
+   * faltaba. Cambiar el papel, el color y la tipografia deja siete videos
+   * distintos de lejos y el mismo video de cerca, porque todo seguia
+   * entrando igual: subir veinte pixeles y aparecer. Aqui hay seis maneras
+   * mecanicamente distintas de que algo llegue a pantalla.
+   *
+   *   sube      sube y aparece. Lo de siempre.
+   *   mascara   se descubre tras un borde que barre. No hay desvanecido.
+   *   golpe     esta o no esta. Cero animacion, solo un golpe de escala.
+   *   maquina   se escribe, caracter a caracter.
+   *   escala    crece desde pequeno y se pasa de frenada al asentarse.
+   *   desmonta  cada pieza llega de un borde distinto, escalonadas.
+   */
+  entrada: "sube" | "mascara" | "golpe" | "maquina" | "escala" | "desmonta";
+
+  /**
+   * Donde se colocan las cosas.
+   *
+   * El otro motivo de que todos se parecieran: el recorte siempre iba a un
+   * lado con el texto al otro, y la frase siempre iba centrada. Cinco
+   * maquetas distintas cambian el reparto del cuadro, que es lo primero que
+   * se ve antes de leer nada.
+   *
+   *   lateral   figura a un lado, texto al otro. La de siempre.
+   *   banda     figura a sangre por la derecha, texto en bloque a la izquierda.
+   *   sangre    figura a pantalla completa, texto encima sobre un velo.
+   *   tarjeta   figura y texto en dos fichas con borde, como un tablero.
+   *   esquina   la cifra se come el cuadro y la figura se va a una esquina.
+   */
+  maqueta: "lateral" | "banda" | "sangre" | "tarjeta" | "esquina";
+
+  /**
+   * Que pasa una vez ha entrado todo.
+   *
+   *   deriva      la camara empuja o panea. Lo de siempre.
+   *   parallax    figura y texto se mueven a distinta velocidad.
+   *   reencuadre  a mitad de escena la maqueta se recoloca de un golpe.
+   *   quieto      no se mueve nada. Es una decision, no una falta.
+   */
+  sostener: "deriva" | "parallax" | "reencuadre" | "quieto";
+
   /** El corte entre escenas de un mismo plano. */
   transicion: "corte" | "desliza" | "barrido" | "flash" | "negro";
   /** Fotogramas por paso de animacion. 1 es fluido; 3 son diez por segundo. */
@@ -117,6 +161,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     resalte: "slab",
     icono: "trazo",
     recorte: "mancha",
+    entrada: "sube",
+    maqueta: "lateral",
+    sostener: "deriva",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -142,6 +189,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     resalte: "caja",
     icono: "solido",
     recorte: "orla",
+    entrada: "desmonta",
+    maqueta: "esquina",
+    sostener: "quieto",
     transicion: "desliza",
     // Doce por segundo sobre treinta: el paso de tres es el que se ve a saltos
     // de verdad, y con el temblor encima parece pelicula proyectada.
@@ -173,6 +223,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     resalte: "color",
     icono: "trazo",
     recorte: "limpio",
+    entrada: "mascara",
+    maqueta: "banda",
+    sostener: "reencuadre",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -197,6 +250,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     resalte: "caja",
     icono: "trazo",
     recorte: "bloque",
+    entrada: "escala",
+    maqueta: "lateral",
+    sostener: "parallax",
     transicion: "barrido",
     paso: 2,
     temblor: false,
@@ -221,6 +277,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     resalte: "subrayado",
     icono: "ninguno",
     recorte: "orla",
+    entrada: "golpe",
+    maqueta: "banda",
+    sostener: "quieto",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -245,6 +304,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     resalte: "caja",
     icono: "chapa",
     recorte: "bloque",
+    entrada: "maquina",
+    maqueta: "tarjeta",
+    sostener: "quieto",
     transicion: "flash",
     paso: 3,
     temblor: false,
@@ -269,6 +331,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     resalte: "slab",
     icono: "solido",
     recorte: "bloque",
+    entrada: "escala",
+    maqueta: "sangre",
+    sostener: "deriva",
     transicion: "desliza",
     paso: 2,
     temblor: true,
@@ -325,6 +390,14 @@ export const variablesDe = (p: Plantilla): React.CSSProperties =>
     "--acento": p.acento,
     "--realce": p.realce,
   }) as React.CSSProperties;
+
+/** La familia del titular y del rotulo, segun la plantilla. */
+export const familiaDe = (p: Plantilla) =>
+  p.titular === "serif" ? FONT.serif : p.titular === "mono" ? FONT.mono : FONT.sans;
+
+/** Un titular mono o serif no lleva el mismo peso que el sans. */
+export const pesoDe = (p: Plantilla) =>
+  p.titular === "serif" ? 400 : p.titular === "mono" ? 500 : 700;
 
 export const PlantillaCtx = React.createContext<Plantilla>(POR_DEFECTO);
 export const usePlantilla = () => React.useContext(PlantillaCtx);

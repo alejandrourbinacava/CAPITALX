@@ -1,13 +1,10 @@
 import React from "react";
 import { interpolate, spring, useVideoConfig } from "remotion";
 import { ACENTO, APAGADO, C, FONT, REALCE, T, TINTA } from "../theme";
-import { usePlantilla, useFrame, type Plantilla } from "../estilo";
+import { familiaDe, pesoDe, usePlantilla, useFrame, type Plantilla } from "../estilo";
+import { useEntrada } from "./Entrada";
 
-export const familiaDe = (p: Plantilla) =>
-  p.titular === "serif" ? FONT.serif : p.titular === "mono" ? FONT.mono : FONT.sans;
-
-/** El titular de una plantilla mono o serif no lleva el mismo peso que el sans. */
-const pesoDe = (p: Plantilla) => (p.titular === "serif" ? 400 : p.titular === "mono" ? 500 : 700);
+export { familiaDe };
 
 /**
  * La palabra resaltada.
@@ -134,8 +131,12 @@ export const Rotulo: React.FC<{
   const { fps } = useVideoConfig();
   const p = usePlantilla();
 
-  const enter = spring({ frame: frame - delay, fps, config: { damping: 200, mass: 0.6 } });
+  // El rotulo entra como entra todo lo demas en esta plantilla. Antes subia
+  // veintiseis pixeles con un desvanecido en los siete estilos, que es
+  // exactamente lo que hacia que los siete parecieran el mismo montaje.
+  const enter = useEntrada(0, delay, p.rotulo === "barra" ? "abajo" : "izq");
   const slab = spring({ frame: frame - delay - 5, fps, config: { damping: 200, mass: 0.5 } });
+  const visible = enter.opacity === undefined ? 1 : (enter.opacity as number);
 
   const color = night ? C.paper : TINTA;
   const familia = familiaDe(p);
@@ -167,11 +168,10 @@ export const Rotulo: React.FC<{
           right: 0,
           bottom: 84,
           zIndex: 40,
-          opacity: enter,
-          transform: `translateY(${interpolate(enter, [0, 1], [30, 0])}px)`,
+          ...enter,
         }}
       >
-        <div style={{ height: 3, background: ACENTO, transformOrigin: "left center", transform: `scaleX(${enter})` }} />
+        <div style={{ height: 3, background: ACENTO, transformOrigin: "left center", transform: `scaleX(${visible})` }} />
         <div style={{ display: "flex", alignItems: "flex-end", gap: 28, padding: "26px 128px 0" }}>
           <div style={{ width: 14, height: 68, background: ACENTO, flex: "0 0 auto" }} />
           <div>
@@ -195,8 +195,7 @@ export const Rotulo: React.FC<{
           bottom: 96,
           maxWidth: 1180,
           zIndex: 40,
-          opacity: enter,
-          transform: `translateY(${interpolate(enter, [0, 1], [24, 0])}px)`,
+          ...enter,
           border: `2px solid ${ACENTO}`,
           padding: "26px 34px 30px",
           background: night ? "rgba(10,18,16,0.72)" : "rgba(0,0,0,0.06)",
@@ -222,7 +221,7 @@ export const Rotulo: React.FC<{
           zIndex: 40,
           display: "flex",
           gap: 30,
-          opacity: enter,
+          ...enter,
         }}
       >
         <div
@@ -231,10 +230,10 @@ export const Rotulo: React.FC<{
             background: ACENTO,
             flex: "0 0 auto",
             transformOrigin: "bottom center",
-            transform: `scaleY(${enter})`,
+            transform: `scaleY(${visible})`,
           }}
         />
-        <div style={{ transform: `translateY(${interpolate(enter, [0, 1], [22, 0])}px)` }}>
+        <div>
           {kicker ? <div style={rotulillo}>{kicker}</div> : null}
           <div style={cuerpo}>
             <Texto text={text} k={slab} p={p} night={night} />
@@ -254,8 +253,8 @@ export const Rotulo: React.FC<{
           bottom: 96,
           maxWidth: 1160,
           zIndex: 40,
-          opacity: enter,
-          transform: `rotate(-0.7deg) translateY(${interpolate(enter, [0, 1], [26, 0])}px)`,
+          ...enter,
+          transform: `rotate(-0.7deg) ${enter.transform ?? ""}`,
         }}
       >
         {kicker ? (
@@ -287,8 +286,7 @@ export const Rotulo: React.FC<{
         bottom: 88,
         maxWidth: 1080,
         zIndex: 40,
-        opacity: enter,
-        transform: `translateY(${interpolate(enter, [0, 1], [26, 0])}px)`,
+        ...enter,
       }}
     >
       {kicker ? <div style={rotulillo}>{kicker}</div> : null}
@@ -398,9 +396,10 @@ export const BigNumber: React.FC<{
 /**
  * Tarjeta de frase.
  *
- * Nada aqui es estatico: el bloque entero empuja hacia la camara durante todo
- * el plano, cada palabra sube escalonada, y el resalte se despliega por debajo
- * del texto en vez de aparecer de golpe.
+ * Era la escena mas repetida del canal despues del recorte y siempre salia
+ * igual: texto centrado, palabra a palabra subiendo, empuje de camara y un
+ * filete debajo. Ahora la coloca la maqueta de la plantilla y las palabras
+ * llegan con la mecanica de entrada, que es lo que de verdad la cambia.
  *
  * El fondo lo decide Surface con `!!p.night`, asi que aqui el valor por
  * defecto tiene que ser el mismo. Cuando era `true`, un plano que no declaraba
@@ -411,10 +410,10 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
   const { fps, durationInFrames } = useVideoConfig();
   const p = usePlantilla();
 
-  // Empuje continuo. Antes era del cinco por ciento y no se notaba: la
-  // pantalla se quedaba muerta despues del primer segundo. En las plantillas
-  // de camara quieta el empuje se recorta, que es parte de su caracter.
-  const amplitud = p.camara === "quieta" ? 0.035 : p.camara === "lenta" ? 0.07 : 0.11;
+  // Empuje continuo, salvo que la plantilla pida quedarse quieta. Quieta es
+  // una decision de montaje, no una falta de movimiento: en el estilo
+  // tipografico internacional la pagina no se mueve.
+  const amplitud = p.camara === "quieta" ? 0 : p.camara === "lenta" ? 0.06 : 0.11;
   const zoom = interpolate(frame, [0, durationInFrames], [1.0, 1 + amplitud], {
     extrapolateRight: "clamp",
   });
@@ -431,6 +430,68 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
     easing: (x) => 1 - Math.pow(1 - x, 2),
   });
 
+  /** Como llega cada palabra, segun la mecanica de la plantilla. */
+  const palabraEntra = (idx: number): React.CSSProperties => {
+    const t0 = 3 + idx * (p.entrada === "golpe" ? 0 : p.entrada === "maquina" ? 1.4 : 2.6);
+    const f = frame - t0;
+    if (p.entrada === "golpe") return { opacity: frame >= 3 ? 1 : 0 };
+    if (p.entrada === "mascara") {
+      const k = interpolate(f, [0, 9], [0, 1], {
+        extrapolateLeft: "clamp",
+        extrapolateRight: "clamp",
+        easing: (x) => 1 - Math.pow(1 - x, 3),
+      });
+      return { clipPath: `inset(0 ${(1 - k) * 100}% 0 0)` };
+    }
+    if (p.entrada === "escala") {
+      const k = spring({ frame: f, fps, config: { damping: 12, mass: 0.6, stiffness: 150 } });
+      return {
+        opacity: interpolate(f, [0, 4], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+        transform: `scale(${interpolate(k, [0, 1], [0.6, 1])})`,
+      };
+    }
+    if (p.entrada === "desmonta") {
+      const lados = [[-1, 0], [0, -1], [1, 0], [0, 1]][idx % 4];
+      const k = spring({ frame: f, fps, config: { damping: 200, mass: 0.8 } });
+      return {
+        opacity: interpolate(f, [0, 5], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+        transform: `translate(${lados[0] * (1 - k) * 90}px, ${lados[1] * (1 - k) * 90}px)`,
+      };
+    }
+    if (p.entrada === "maquina") {
+      return { opacity: f >= 0 ? 1 : 0 };
+    }
+    const k = spring({ frame: f, fps, config: { damping: 200, mass: 0.55 } });
+    return { opacity: k, transform: `translateY(${interpolate(k, [0, 1], [30, 0])}px)` };
+  };
+
+  // ---- donde va la frase ----
+  const M = p.maqueta;
+  const centrada = M === "lateral" || M === "sangre";
+  const caja: React.CSSProperties =
+    M === "banda"
+      ? { alignItems: "center", justifyContent: "flex-start", padding: "0 128px" }
+      : M === "esquina"
+        ? { alignItems: "flex-end", justifyContent: "flex-start", padding: "0 148px 160px" }
+        : { alignItems: "center", justifyContent: "center", padding: "0 200px" };
+
+  const cuerpo: React.CSSProperties = {
+    position: "relative",
+    fontFamily: familiaDe(p),
+    fontWeight: pesoDe(p),
+    fontSize:
+      (M === "sangre" ? T.headline * 1.22 : M === "banda" ? T.headline * 1.1 : T.headline) *
+      (p.titular === "mono" ? 0.72 : 1),
+    lineHeight: 1.1,
+    letterSpacing: p.apriete,
+    textAlign: centrada ? "center" : "left",
+    textTransform: p.caja === "alta" ? "uppercase" : "none",
+    color: night ? C.paper : TINTA,
+    maxWidth: M === "banda" ? 1300 : M === "esquina" ? 1250 : undefined,
+    border: M === "tarjeta" ? `3px solid ${ACENTO}` : undefined,
+    padding: M === "tarjeta" ? "56px 64px" : undefined,
+  };
+
   const parts = text.split("*");
   let wordIndex = 0;
 
@@ -440,25 +501,11 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
         position: "absolute",
         inset: 0,
         display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "0 200px",
+        ...caja,
         transform: `scale(${zoom}) translateX(${p.camara === "quieta" ? 0 : deriva}px)`,
       }}
     >
-      <div
-        style={{
-          position: "relative",
-          fontFamily: familiaDe(p),
-          fontWeight: pesoDe(p),
-          fontSize: p.titular === "mono" ? T.headline * 0.76 : T.headline,
-          lineHeight: 1.1,
-          letterSpacing: p.apriete,
-          textAlign: p.rotulo === "barra" ? "left" : "center",
-          textTransform: p.caja === "alta" ? "uppercase" : "none",
-          color: night ? C.paper : TINTA,
-        }}
-      >
+      <div style={cuerpo}>
         {parts.map((part, i) => {
           const resaltado = i % 2 === 1;
           const palabras = part.split(" ");
@@ -468,11 +515,6 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
               {palabras.map((w, j) => {
                 if (w === "") return null;
                 const idx = wordIndex++;
-                const k = spring({
-                  frame: frame - 3 - idx * 2.6,
-                  fps,
-                  config: { damping: 200, mass: 0.55 },
-                });
                 const kSlab = spring({
                   frame: frame - golpe - idx * 1.8,
                   fps,
@@ -480,13 +522,7 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
                 });
                 return (
                   <React.Fragment key={j}>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        opacity: k,
-                        transform: `translateY(${interpolate(k, [0, 1], [30, 0])}px)`,
-                      }}
-                    >
+                    <span style={{ display: "inline-block", ...palabraEntra(idx) }}>
                       {resaltado ? (
                         <Resalte palabra={w} k={kSlab} p={p} night={night} />
                       ) : (
@@ -503,17 +539,19 @@ export const Statement: React.FC<{ text: string; night?: boolean }> = ({ text, n
 
         {/* el filete se traza durante toda la escena: es lo que sigue pasando
             cuando ya ha entrado todo el texto */}
-        <div
-          style={{
-            position: "absolute",
-            left: 0,
-            bottom: "-0.45em",
-            height: 7,
-            width: `${filete * 100}%`,
-            background: ACENTO,
-            opacity: 0.9,
-          }}
-        />
+        {M !== "tarjeta" ? (
+          <div
+            style={{
+              position: "absolute",
+              left: 0,
+              bottom: "-0.45em",
+              height: 7,
+              width: `${filete * 100}%`,
+              background: ACENTO,
+              opacity: 0.9,
+            }}
+          />
+        ) : null}
       </div>
     </div>
   );
