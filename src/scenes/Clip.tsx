@@ -1,6 +1,7 @@
 import React from "react";
-import { OffthreadVideo, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, C } from "../theme";
+import { OffthreadVideo, interpolate, staticFile, useVideoConfig } from "remotion";
+import { ACENTO, REALCE, TINTA } from "../theme";
+import { useFrame } from "../estilo";
 
 /**
  * Metraje de archivo pasado por el mismo filtro que todo lo demas.
@@ -18,7 +19,7 @@ export const Clip: React.FC<{
   spec: { fichero?: string; desde?: number; encuadre?: "amplio" | "corto" };
   tono?: "ocre" | "carmin";
 }> = ({ spec, tono = "ocre" }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { durationInFrames, fps } = useVideoConfig();
 
   if (!spec?.fichero) return null;
@@ -31,7 +32,7 @@ export const Clip: React.FC<{
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
-  const color = tono === "carmin" ? ACENTO : C.ocre;
+  const color = tono === "carmin" ? ACENTO : REALCE;
 
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden", opacity: entrada }}>
@@ -57,7 +58,7 @@ export const Clip: React.FC<{
         style={{
           position: "absolute",
           inset: 0,
-          background: C.ink,
+          background: TINTA,
           mixBlendMode: "color",
           opacity: 0.55,
         }}

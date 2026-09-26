@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
-import { interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
+import { interpolate, random, useVideoConfig } from "remotion";
 import { C } from "../theme";
+import { useFrame } from "../estilo";
 
 /**
  * Calle de Dublin de noche. Tres planos de profundidad que se mueven a
@@ -65,7 +66,7 @@ export const DublinNight: React.FC<{ dawn?: boolean; encuadre?: "amplio" | "cort
   dawn = false,
   encuadre = "amplio",
 }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { durationInFrames } = useVideoConfig();
   const p = frame / Math.max(durationInFrames, 1);
 

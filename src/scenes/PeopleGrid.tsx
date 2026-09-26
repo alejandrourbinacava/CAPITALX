@@ -1,6 +1,7 @@
 import React from "react";
-import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, C, FONT } from "../theme";
+import { interpolate, useVideoConfig } from "remotion";
+import { ACENTO, APAGADO, FONT, TINTA } from "../theme";
+import { useFrame } from "../estilo";
 
 /**
  * Rejilla de figuras.
@@ -25,7 +26,7 @@ export const PeopleGrid: React.FC<{
   etiqueta?: string;
   etiquetaDestacados?: string;
 }> = ({ total, destacados, escala, etiqueta, etiquetaDestacados }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps, durationInFrames } = useVideoConfig();
 
   const n = Math.max(1, Math.round(total / escala));
@@ -67,8 +68,8 @@ export const PeopleGrid: React.FC<{
     const entra = Math.min(1, (aparecen - i) * 1.6);
     figuras.push(
       <g key={i} transform={`translate(${x} ${y}) scale(${0.86 * esc * entra})`} opacity={entra}>
-        <circle cx="17" cy="11" r="11" fill={destacada ? ACENTO : C.ink} />
-        <path d="M2 46 C2 30 8 25 17 25 C26 25 32 30 32 46 Z" fill={destacada ? ACENTO : C.ink} />
+        <circle cx="17" cy="11" r="11" fill={destacada ? ACENTO : TINTA} />
+        <path d="M2 46 C2 30 8 25 17 25 C26 25 32 30 32 46 Z" fill={destacada ? ACENTO : TINTA} />
       </g>
     );
   }
@@ -127,7 +128,7 @@ export const PeopleGrid: React.FC<{
             fontSize: 26,
             letterSpacing: "0.18em",
             textTransform: "uppercase",
-            color: C.muted,
+            color: APAGADO,
           }}
         >
           {etiqueta}

@@ -1,6 +1,7 @@
 import React from "react";
-import { Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, C, FONT } from "../theme";
+import { Img, interpolate, random, spring, staticFile, useVideoConfig } from "remotion";
+import { ACENTO, APAGADO, FONT, REALCE, TINTA } from "../theme";
+import { useFrame } from "../estilo";
 
 /**
  * Retrato en recorte de periódico.
@@ -33,7 +34,7 @@ const Semitono: React.FC<{ x: number; y: number; w: number; h: number; paso?: nu
           cx={x + c * paso + paso / 2}
           cy={y + f * paso + paso / 2}
           r={paso * 0.34}
-          fill={C.ink}
+          fill={TINTA}
         />
       );
     }
@@ -58,10 +59,10 @@ const Ficha: React.FC<{ nombre: string; papel?: string }> = ({ nombre, papel }) 
     <g>
       <rect x={x} y={y} width={w} height={h} fill="#E6E0D0" />
       {/* filetes de caja, como los de una ficha de prensa */}
-      <line x1={x + 40} y1={y + 60} x2={x + w - 40} y2={y + 60} stroke={C.ink} strokeWidth="6" />
-      <line x1={x + 40} y1={y + 76} x2={x + w - 40} y2={y + 76} stroke={C.ink} strokeWidth="2" />
-      <line x1={x + 40} y1={y + h - 76} x2={x + w - 40} y2={y + h - 76} stroke={C.ink} strokeWidth="2" />
-      <line x1={x + 40} y1={y + h - 60} x2={x + w - 40} y2={y + h - 60} stroke={C.ink} strokeWidth="6" />
+      <line x1={x + 40} y1={y + 60} x2={x + w - 40} y2={y + 60} stroke={TINTA} strokeWidth="6" />
+      <line x1={x + 40} y1={y + 76} x2={x + w - 40} y2={y + 76} stroke={TINTA} strokeWidth="2" />
+      <line x1={x + 40} y1={y + h - 76} x2={x + w - 40} y2={y + h - 76} stroke={TINTA} strokeWidth="2" />
+      <line x1={x + 40} y1={y + h - 60} x2={x + w - 40} y2={y + h - 60} stroke={TINTA} strokeWidth="6" />
 
       {palabras.map((w2, i) => (
         <text
@@ -69,7 +70,7 @@ const Ficha: React.FC<{ nombre: string; papel?: string }> = ({ nombre, papel }) 
           x={x + w / 2}
           y={y + h / 2 - ((palabras.length - 1) * tam) / 2 + i * tam + tam * 0.32}
           textAnchor="middle"
-          fill={C.ink}
+          fill={TINTA}
           fontFamily={FONT.serif}
           fontSize={tam}
         >
@@ -82,7 +83,7 @@ const Ficha: React.FC<{ nombre: string; papel?: string }> = ({ nombre, papel }) 
           x={x + w / 2}
           y={y + h - 104}
           textAnchor="middle"
-          fill={C.muted}
+          fill={APAGADO}
           fontFamily={FONT.mono}
           fontSize="22"
           letterSpacing="3"
@@ -110,7 +111,7 @@ const Recorte: React.FC<{
   lado?: "izq" | "der";
   escala?: number;
 }> = ({ foto, nombre, papel, fecha, credito, lado = "der", escala = 1 }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const entra = spring({ frame: frame - 2, fps, config: { damping: 16, mass: 0.7, stiffness: 150 } });
   const flota = Math.sin((frame / Math.max(durationInFrames, 1)) * Math.PI * 2) * 7;
@@ -119,7 +120,7 @@ const Recorte: React.FC<{
   return (
     <>
       <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
-        <circle cx={lado === "der" ? 1180 : 640} cy={505} r={330 * escala * mancha} fill={C.ocre} />
+        <circle cx={lado === "der" ? 1180 : 640} cy={505} r={330 * escala * mancha} fill={REALCE} />
       </svg>
 
       <div
@@ -144,7 +145,7 @@ const Recorte: React.FC<{
               fontSize: 22,
               letterSpacing: "0.22em",
               textTransform: "uppercase",
-              color: C.muted,
+              color: APAGADO,
               marginBottom: 18,
               opacity: interpolate(entra, [0.3, 1], [0, 1], { extrapolateLeft: "clamp" }),
             }}
@@ -157,7 +158,7 @@ const Recorte: React.FC<{
             fontFamily: FONT.serif,
             fontSize: 92,
             lineHeight: 1.02,
-            color: C.ink,
+            color: TINTA,
             opacity: interpolate(entra, [0.2, 1], [0, 1], { extrapolateLeft: "clamp" }),
             transform: `translateY(${interpolate(entra, [0.2, 1], [22, 0], { extrapolateLeft: "clamp" })}px)`,
           }}
@@ -173,7 +174,7 @@ const Recorte: React.FC<{
               fontFamily: FONT.mono,
               fontSize: 26,
               lineHeight: 1.5,
-              color: C.muted,
+              color: APAGADO,
               opacity: interpolate(entra, [0.5, 1], [0, 1], { extrapolateLeft: "clamp" }),
             }}
           >
@@ -181,7 +182,7 @@ const Recorte: React.FC<{
           </div>
         ) : null}
         {credito ? (
-          <div style={{ marginTop: 34, fontFamily: FONT.mono, fontSize: 17, color: C.muted, opacity: 0.75 }}>
+          <div style={{ marginTop: 34, fontFamily: FONT.mono, fontSize: 17, color: APAGADO, opacity: 0.75 }}>
             {credito}
           </div>
         ) : null}
@@ -204,7 +205,7 @@ export const Retrato: React.FC<{
     escala?: number;
   };
 }> = ({ spec }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps } = useVideoConfig();
   const entra = spring({ frame: frame - 2, fps, config: { damping: 18, mass: 0.7, stiffness: 140 } });
   const giro = interpolate(entra, [0, 1], [-4.5, -1.6]);
@@ -246,11 +247,11 @@ export const Retrato: React.FC<{
           {/* sombra plana del recorte */}
           <rect x={CLIP.x + 18} y={CLIP.y + 18} width={CLIP.w} height={CLIP.h + 172} fill={ACENTO} opacity="0.5" />
           {/* el papel del recorte */}
-          <rect x={CLIP.x} y={CLIP.y} width={CLIP.w} height={CLIP.h + 172} fill="#EFEADC" stroke={C.ink} strokeWidth="3" />
+          <rect x={CLIP.x} y={CLIP.y} width={CLIP.w} height={CLIP.h + 172} fill="#EFEADC" stroke={TINTA} strokeWidth="3" />
 
           {/* cabecera del recorte */}
-          <line x1={CLIP.x + 34} y1={CLIP.y + 62} x2={CLIP.x + CLIP.w - 34} y2={CLIP.y + 62} stroke={C.ink} strokeWidth="2" />
-          <text x={CLIP.x + 34} y={CLIP.y + 48} fill={C.muted} fontFamily={FONT.mono} fontSize="20" letterSpacing="4">
+          <line x1={CLIP.x + 34} y1={CLIP.y + 62} x2={CLIP.x + CLIP.w - 34} y2={CLIP.y + 62} stroke={TINTA} strokeWidth="2" />
+          <text x={CLIP.x + 34} y={CLIP.y + 48} fill={APAGADO} fontFamily={FONT.mono} fontSize="20" letterSpacing="4">
             {(spec.fecha ?? "ARCHIVO").toUpperCase()}
           </text>
 
@@ -270,27 +271,27 @@ export const Retrato: React.FC<{
             width={CLIP.w - 68}
             height={CLIP.h - 130}
             fill="none"
-            stroke={C.ink}
+            stroke={TINTA}
             strokeWidth="2"
           />
 
           {/* pie de foto */}
-          <text x={CLIP.x + 34} y={CLIP.y + CLIP.h + 26} fill={C.ink} fontFamily={FONT.sans} fontWeight="700" fontSize="46">
+          <text x={CLIP.x + 34} y={CLIP.y + CLIP.h + 26} fill={TINTA} fontFamily={FONT.sans} fontWeight="700" fontSize="46">
             {spec.nombre}
           </text>
           {spec.papel ? (
-            <text x={CLIP.x + 34} y={CLIP.y + CLIP.h + 74} fill={C.muted} fontFamily={FONT.mono} fontSize="24" letterSpacing="1.5">
+            <text x={CLIP.x + 34} y={CLIP.y + CLIP.h + 74} fill={APAGADO} fontFamily={FONT.mono} fontSize="24" letterSpacing="1.5">
               {spec.papel}
             </text>
           ) : null}
           {spec.credito ? (
-            <text x={CLIP.x + 34} y={CLIP.y + CLIP.h + 150} fill={C.muted} fontFamily={FONT.mono} fontSize="17" letterSpacing="1">
+            <text x={CLIP.x + 34} y={CLIP.y + CLIP.h + 150} fill={APAGADO} fontFamily={FONT.mono} fontSize="17" letterSpacing="1">
               {spec.credito}
             </text>
           ) : null}
 
           {motas.map((m, i) => (
-            <circle key={i} cx={m.x} cy={m.y} r={m.r} fill={C.ink} opacity={m.o} />
+            <circle key={i} cx={m.x} cy={m.y} r={m.r} fill={TINTA} opacity={m.o} />
           ))}
         </g>
       </svg>
@@ -343,7 +344,7 @@ export const Retrato: React.FC<{
             fontFamily: FONT.serif,
             fontSize: 74,
             lineHeight: 1.06,
-            color: C.ink,
+            color: TINTA,
             opacity: interpolate(entra, [0.4, 1], [0, 1], { extrapolateLeft: "clamp" }),
           }}
         >

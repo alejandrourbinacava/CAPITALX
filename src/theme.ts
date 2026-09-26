@@ -22,6 +22,21 @@ export const FONT = {
  */
 export const ACENTO = "var(--acento, #C8402C)";
 
+/**
+ * Los otros tres tokens de la plantilla, por el mismo mecanismo.
+ *
+ * TINTA y PAPEL son los que abren las plantillas oscuras. Antes el fondo de
+ * noche estaba bloqueado porque las barras, el mapa y la rejilla de gente
+ * escribian en C.ink: sobre oscuro no se veia nada, y eran cincuenta y tres
+ * sitios que habia que tocar a mano. Con la variable se tocan todos de golpe
+ * y el valor por defecto sigue siendo el de siempre.
+ */
+export const TINTA = "var(--tinta, #14181A)";
+export const PAPEL = "var(--papel, #F2EFE6)";
+export const APAGADO = "var(--apagado, #6E7570)";
+/** El resalte de la palabra clave del rotulo. */
+export const REALCE = "var(--realce, #E8B33C)";
+
 /** Paleta Capital X. El carmin es el unico color saturado del canal. */
 export const C = {
   paper: "#F2EFE6",

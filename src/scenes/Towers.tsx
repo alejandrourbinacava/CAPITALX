@@ -1,6 +1,7 @@
 import React from "react";
-import { interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, C, FONT } from "../theme";
+import { interpolate, random, useVideoConfig } from "remotion";
+import { ACENTO, APAGADO, FONT, REALCE, TINTA } from "../theme";
+import { useFrame } from "../estilo";
 
 /**
  * Torres de oficinas con la flecha del PIB subiendo por encima.
@@ -10,7 +11,7 @@ import { ACENTO, C, FONT } from "../theme";
  * lectura sea "primero la riqueza, luego la cifra".
  */
 export const Towers: React.FC<{ etiqueta?: string }> = ({ etiqueta }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps, durationInFrames } = useVideoConfig();
 
   const towers = [
@@ -42,7 +43,7 @@ export const Towers: React.FC<{ etiqueta?: string }> = ({ etiqueta }) => {
     <>
       <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
         {/* suelo */}
-        <line x1="0" y1={base} x2="1920" y2={base} stroke={C.ink} strokeWidth="4" />
+        <line x1="0" y1={base} x2="1920" y2={base} stroke={TINTA} strokeWidth="4" />
 
         {towers.map((t, i) => {
           const rise = interpolate(frame, [i * 3, i * 3 + 16], [0, 1], {
@@ -56,7 +57,7 @@ export const Towers: React.FC<{ etiqueta?: string }> = ({ etiqueta }) => {
           return (
             <g key={t.s}>
               <rect x={t.x + 14} y={base - h + 14} width={t.w} height={h} fill={ACENTO} opacity={0.16} />
-              <rect x={t.x} y={base - h} width={t.w} height={h} fill={C.ink} />
+              <rect x={t.x} y={base - h} width={t.w} height={h} fill={TINTA} />
               {Array.from({ length: rows * cols }).map((_, k) => {
                 const c = k % cols;
                 const r = Math.floor(k / cols);
@@ -70,7 +71,7 @@ export const Towers: React.FC<{ etiqueta?: string }> = ({ etiqueta }) => {
                     y={wy}
                     width={(t.w / cols) * 0.5}
                     height={22}
-                    fill={C.ocre}
+                    fill={REALCE}
                     opacity={0.85}
                   />
                 );
@@ -104,7 +105,7 @@ export const Towers: React.FC<{ etiqueta?: string }> = ({ etiqueta }) => {
             fontSize: 26,
             letterSpacing: "0.2em",
             textTransform: "uppercase",
-            color: C.muted,
+            color: APAGADO,
           }}
         >
           {etiqueta}

@@ -54,9 +54,28 @@ const REGIONES = {
   asia: () => Object.keys(leerJson("src/data/asia.json")),
 };
 
+const SALTO = String.fromCharCode(10);
+
 const leerJson = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
 
-const SALTO = String.fromCharCode(10);
+/**
+ * Los nombres de las plantillas de edicion, leidos del propio motor.
+ *
+ * Se saca de src/estilo.ts con una expresion regular en vez de copiarlos aqui
+ * a mano, porque una lista duplicada se queda vieja en cuanto se anade una
+ * plantilla y entonces el validador empieza a mentir.
+ */
+function leerPlantillas() {
+  try {
+    const src = fs.readFileSync("src/estilo.ts", "utf8");
+    const bloque = src.slice(src.indexOf("export const PLANTILLAS"));
+    const fin = bloque.indexOf(SALTO + "};");
+    const nombres = [...bloque.slice(0, fin).matchAll(/^  ([a-z]+): \{$/gm)].map((m) => m[1]);
+    return nombres.length ? nombres : ["cuaderno"];
+  } catch {
+    return ["cuaderno"];
+  }
+}
 
 /** Lo que se lleva gastado en esta ejecucion, para que no sea una sorpresa. */
 const GASTO = { entrada: 0, cacheEscrito: 0, cacheLeido: 0, salida: 0 };
@@ -328,6 +347,7 @@ Regla práctica: **como mucho la mitad de los planos llevan una cifra nueva.** L
   "voz": { "id": "clone_2333475", "nombre": "VOZ DETRAS DEL ENIGMA" },
   "wpm": 145,
   "musica": "mystery.wav",
+  "estilo": { "plantilla": "<una de las de abajo>", "acento": "carmin" },
   "bloques": [ { "id": "b0", "nombre": "<nombre interno>", "planos": [ ... ] } ],
   "publicacion": {
     "titulo": "<título para YouTube, máximo 100 caracteres>",
@@ -382,6 +402,35 @@ Cada escena lleva su "tipo" y lo que ese tipo necesite, exactamente igual que an
     { "tipo": "frase", "texto": "El Estado se llevaba *la caja*.", "night": true }
   ]
 }
+
+# La plantilla de edición: elígela siempre
+
+El canal tenía un solo montaje. Papel milimetrado, escuadras en las esquinas, rótulo abajo a la izquierda en Archivo negrita con la palabra clave sobre una mancha ocre, corte seco entre escenas y una deriva suave de cámara. Dieciséis vídeos seguidos con esa maqueta: por bueno que sea un guion, el vídeo parece el anterior repintado.
+
+**Cada guion elige una plantilla en \`estilo.plantilla\`.** No es un color: cambia el papel, la textura del fondo, el mobiliario del marco, la familia del titular, dónde y cómo se maqueta el rótulo, cómo se marca la palabra clave, cómo se dibujan los iconos, cómo se corta de una escena a la siguiente y a cuántos fotogramas por segundo se anima todo.
+
+    cuaderno     papel milimetrado, escuadras, Archivo, mancha ocre, corte seco
+    expediente   archivo desclasificado: papel manila, mecanografía en caja alta,
+                 sello, rail de archivador, temblor de fotograma, animación a saltos
+    suizo        estilo tipográfico internacional: papel liso, sin marco, titular
+                 enorme a bandera izquierda, palabra clave en rojo, cámara quieta
+    plano        cianotipo de obra: fondo azul, línea blanca fina, rotulación
+                 técnica monoespaciada, barrido lateral entre escenas
+    prensa       sábana de periódico: corondeles, titular serif, subrayado en
+                 vez de mancha, sin iconos, cámara quieta
+    terminal     brutalismo de consola: fondo carbón, monoespaciada en caja alta,
+                 cajas de borde duro, iconos en chapa, corte con destello
+    riso         risografía: dos tintas mal registradas, grano alto, tipo de
+                 cartel en caja alta, iconos macizos
+
+Cómo se elige, que es lo que importa:
+
+- **Que la plantilla diga algo del tema.** Un vídeo sobre documentos filtrados o sobre una decisión que alguien tomó a puerta cerrada va en \`expediente\`. Uno de infraestructura, red eléctrica, obra o ingeniería va en \`plano\`. Uno sobre una cifra oficial y fría va en \`suizo\`. Uno histórico de hemeroteca, en \`prensa\`. Uno de tecnología, criptomonedas o sistemas de pago, en \`terminal\`. Uno de consumo, precios o calle, en \`riso\`.
+- **Nunca la misma que el vídeo anterior.** Es la única regla rígida. Mira el guion que se publicó antes y elige otra.
+- **\`acento\` es opcional** y solo sobreescribe el color de la plantilla. \`carmin\`, \`verde\`, \`ocre\` o \`pale\`.
+- **La música también cambia**: \`mystery.wav\`, \`frio.wav\`, \`pulso.wav\`, \`elegia.wav\` o \`tenso.wav\`. Tampoco se repite dos vídeos seguidos.
+
+Lo que hace \`paso\`, para que se entienda por qué unas plantillas se sienten distintas aunque lleven la misma foto: el motion de los documentales de YouTube se anima a doce fotogramas por segundo y se monta encima de vídeo a veinticuatro, así que los gráficos avanzan a saltos mientras el metraje va fluido. Suena a error y es lo contrario: una animación perfectamente suave se lee como corporativa, y una que pisa un poco se lee como alguien enseñándote algo. \`expediente\` y \`terminal\` van a saltos; \`suizo\`, \`cuaderno\` y \`prensa\` van fluidas.
 
 # Cuánto de cada cosa
 
@@ -927,6 +976,23 @@ function validar(doc, tema) {
 
   if (!doc.slug) di("falta 'slug'");
   if (!doc.titulo) di("falta 'titulo'");
+
+  // La plantilla de edicion. No es decoracion: es lo que evita que el video
+  // numero diecisiete parezca el mismo montaje que los dieciseis anteriores.
+  const plantillas = leerPlantillas();
+  const elegida = doc.estilo?.plantilla;
+  if (elegida && !plantillas.includes(elegida)) {
+    di(`'estilo.plantilla' dice "${elegida}", que no existe. Las hay: ${plantillas.join(", ")}`);
+  }
+  if (!elegida) {
+    di(
+      "el guion no elige 'estilo.plantilla': saldra con el montaje por defecto " +
+        `(cuaderno), igual que los anteriores. Las hay: ${plantillas.join(", ")}`
+    );
+  }
+  if (!doc.musica) {
+    di("el guion no elige 'musica': saldra con mystery.wav, como casi todos");
+  }
   if (!Array.isArray(doc.bloques) || !doc.bloques.length) {
     di("falta 'bloques'");
     return fallos;

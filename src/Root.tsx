@@ -7,6 +7,7 @@ import {
   type Tiempos,
 } from "./Video";
 import { VIDEO } from "./theme";
+import { DEMOS } from "./demo";
 
 import irlanda from "../content/irlanda.json";
 import irlandaT from "../content/irlanda.timings.json";
@@ -67,6 +68,20 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
 
 export const RemotionRoot: React.FC = () => (
   <>
+    {/* El muestrario de plantillas: el mismo material pasado por cada estilo
+        de montaje. No es un video del canal, es la carta de colores. */}
+    {DEMOS.map(({ id, guion }) => (
+      <Composition
+        key={id}
+        id={id}
+        component={CapitalXVideo as any}
+        defaultProps={{ guion, tiempos: {} }}
+        durationInFrames={duracionTotalDe(guion, {})}
+        fps={VIDEO.fps}
+        width={VIDEO.width}
+        height={VIDEO.height}
+      />
+    ))}
     {CATALOGO.map(({ id, guion, tiempos }) => (
       <Composition
         key={id}

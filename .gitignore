@@ -16,3 +16,4 @@ assets/music/*.wav
 public/music/*.wav
 !assets/music/mystery.wav
 !public/music/mystery.wav
+out/estilo/

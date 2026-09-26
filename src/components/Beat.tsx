@@ -1,6 +1,7 @@
 import React from "react";
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, C, FONT } from "../theme";
+import { interpolate, spring, useVideoConfig } from "remotion";
+import { ACENTO, FONT, PAPEL, REALCE, TINTA } from "../theme";
+import { useFrame } from "../estilo";
 
 export type Anim = "pop" | "slideL" | "slideR" | "slideUp" | "wipeX" | "grow" | "fade";
 
@@ -18,7 +19,7 @@ export const Beat: React.FC<{
   children: React.ReactNode;
   style?: React.CSSProperties;
 }> = ({ in: tIn = 0, out, anim = "pop", children, style }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps, durationInFrames } = useVideoConfig();
 
   const fIn = Math.round(tIn * fps);
@@ -93,8 +94,8 @@ export const Tag: React.FC<{
   tone?: "ocre" | "carmin" | "ink" | "paper";
   size?: number;
 }> = ({ children, tone = "ocre", size = 40 }) => {
-  const bg = tone === "carmin" ? ACENTO : tone === "ink" ? C.ink : tone === "paper" ? C.paper : C.ocre;
-  const fg = tone === "carmin" || tone === "ink" ? C.paper : C.ink;
+  const bg = tone === "carmin" ? ACENTO : tone === "ink" ? TINTA : tone === "paper" ? PAPEL : REALCE;
+  const fg = tone === "carmin" || tone === "ink" ? PAPEL : TINTA;
   return (
     <span
       style={{
@@ -121,7 +122,7 @@ export const Leader: React.FC<{ w: number; h: number; flip?: boolean; color?: st
   flip,
   color = ACENTO,
 }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps } = useVideoConfig();
   const k = spring({ frame, fps, config: { damping: 200, mass: 0.5 } });
   return (
@@ -148,7 +149,7 @@ export const SketchRing: React.FC<{
   seedBase?: number;
   delay?: number;
 }> = ({ cx, cy, rx, ry, seedBase = 3, delay = 0.4 }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps } = useVideoConfig();
   const k = interpolate(frame, [delay * fps, delay * fps + 0.75 * fps], [0, 1], {
     extrapolateLeft: "clamp",

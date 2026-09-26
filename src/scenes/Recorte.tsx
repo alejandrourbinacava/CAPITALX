@@ -1,7 +1,8 @@
 import React from "react";
-import { Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Img, interpolate, spring, staticFile, useVideoConfig } from "remotion";
 import { Icono, PorPalabras, type NombreIcono } from "../components/Icono";
-import { ACENTO, C, FONT } from "../theme";
+import { ACENTO, APAGADO, FONT, PAPEL, REALCE, TINTA } from "../theme";
+import { usePlantilla, useFrame } from "../estilo";
 
 /**
  * El recorte de revista: el mecanismo Vox aplicado a una foto cualquiera.
@@ -26,8 +27,9 @@ export const Recorte: React.FC<{
     icono?: string;
   };
 }> = ({ spec }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps, durationInFrames } = useVideoConfig();
+  const plantilla = usePlantilla();
 
   if (!spec?.fichero) return null;
 
@@ -53,22 +55,45 @@ export const Recorte: React.FC<{
 
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
-      {/* mancha de color debajo, para que el recorte no flote sobre nada */}
-      <div
-        style={{
-          position: "absolute",
-          left: x,
-          top: "56%",
-          width: 940,
-          height: 940,
-          marginLeft: -470,
-          marginTop: -470,
-          borderRadius: "50%",
-          background: C.ocre,
-          opacity: 0.16 * k,
-          transform: `scale(${interpolate(k, [0, 1], [0.7, 1])})`,
-        }}
-      />
+      {/* Lo que va detras de la figura: es el tratamiento del recorte, y cada
+          plantilla tiene el suyo. La mancha redonda es de revista; el bloque
+          recto es de cartel; la orla no lleva nada detras porque el contorno
+          lo lleva la propia figura. */}
+      {plantilla.recorte === "mancha" ? (
+        <div
+          style={{
+            position: "absolute",
+            left: x,
+            top: "56%",
+            width: 940,
+            height: 940,
+            marginLeft: -470,
+            marginTop: -470,
+            borderRadius: "50%",
+            background: REALCE,
+            opacity: 0.16 * k,
+            transform: `scale(${interpolate(k, [0, 1], [0.7, 1])})`,
+          }}
+        />
+      ) : null}
+
+      {plantilla.recorte === "bloque" ? (
+        <div
+          style={{
+            position: "absolute",
+            left: x,
+            top: "58%",
+            width: 660,
+            height: 720,
+            marginLeft: -330,
+            marginTop: -360,
+            background: ACENTO,
+            opacity: 0.2,
+            transform: `translate(26px, -22px) scaleY(${interpolate(k, [0, 1], [0.86, 1])})`,
+            transformOrigin: "bottom center",
+          }}
+        />
+      ) : null}
 
       <div
         style={{
@@ -80,7 +105,20 @@ export const Recorte: React.FC<{
           height: hayTexto ? "76%" : "82%",
         }}
       >
-        <Img src={staticFile(spec.fichero)} style={{ height: "100%", width: "auto" }} />
+        <Img
+          src={staticFile(spec.fichero)}
+          style={{
+            height: "100%",
+            width: "auto",
+            // La orla: contorno de papel pegado al recorte y una sombra corta
+            // debajo. Es el truco del montaje de documental para que una
+            // figura recortada se lea como pegada encima y no como incrustada.
+            filter:
+              plantilla.recorte === "orla"
+                ? `drop-shadow(0 0 5px ${PAPEL}) drop-shadow(0 0 5px ${PAPEL}) drop-shadow(0 0 5px ${PAPEL}) drop-shadow(14px 18px 16px rgba(0,0,0,0.3))`
+                : undefined,
+          }}
+        />
       </div>
 
       {hayTexto ? (
@@ -135,7 +173,7 @@ export const Recorte: React.FC<{
                 fontSize: 74,
                 lineHeight: 1.06,
                 letterSpacing: "-0.035em",
-                color: C.ink,
+                color: TINTA,
                 marginTop: spec.cifra ? 18 : 0,
               }}
             />
@@ -159,7 +197,7 @@ export const Recorte: React.FC<{
                 fontWeight: 500,
                 fontSize: 38,
                 lineHeight: 1.3,
-                color: C.muted,
+                color: APAGADO,
                 marginTop: 26,
                 opacity: linea(2),
                 transform: `translateY(${interpolate(linea(2), [0, 1], [20, 0])}px)`,
@@ -183,7 +221,7 @@ export const Recorte: React.FC<{
             fontSize: 24,
             letterSpacing: "0.2em",
             textTransform: "uppercase",
-            color: C.muted,
+            color: APAGADO,
             opacity: interpolate(k, [0.5, 1], [0, 1], { extrapolateLeft: "clamp" }),
           }}
         >

@@ -1,6 +1,7 @@
 import React from "react";
-import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, C, FONT } from "../theme";
+import { interpolate, useVideoConfig } from "remotion";
+import { ACENTO, APAGADO, C, FONT, TINTA } from "../theme";
+import { useFrame } from "../estilo";
 
 const PLOT = { x: 300, y: 250, w: 1420, h: 520 };
 
@@ -17,7 +18,7 @@ export const LineSeries: React.FC<{
   night?: boolean;
   color?: string;
 }> = ({ points, yMax, yLabel, night, color = ACENTO }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { durationInFrames } = useVideoConfig();
   const grow = ease(
     interpolate(frame, [8, Math.min(durationInFrames - 6, 70)], [0, 1], {
@@ -52,7 +53,7 @@ export const LineSeries: React.FC<{
     : "";
   const tip = visible[visible.length - 1];
   const axis = night ? C.paleDim : "#B4BBB2";
-  const text = night ? C.mutedNight : C.muted;
+  const text = night ? C.mutedNight : APAGADO;
 
   return (
     <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
@@ -92,7 +93,7 @@ export const LineSeries: React.FC<{
       {line ? <path d={line} fill="none" stroke={color} strokeWidth="6" strokeLinejoin="round" /> : null}
       {tip ? <circle cx={tip[0]} cy={tip[1]} r="12" fill={color} /> : null}
 
-      <line x1={PLOT.x} y1={PLOT.y + PLOT.h} x2={PLOT.x + PLOT.w} y2={PLOT.y + PLOT.h} stroke={night ? C.pale : C.ink} strokeWidth="3" />
+      <line x1={PLOT.x} y1={PLOT.y + PLOT.h} x2={PLOT.x + PLOT.w} y2={PLOT.y + PLOT.h} stroke={night ? C.pale : TINTA} strokeWidth="3" />
 
       {points.map((p, i) =>
         i % Math.ceil(points.length / 7) === 0 || i === points.length - 1 ? (
@@ -125,7 +126,7 @@ export const CompareBars: React.FC<{
   b: { label: string; v: number; note?: string };
   unit?: string;
 }> = ({ a, b, unit = "" }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const grow = ease(
     interpolate(frame, [6, 46], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })
   );
@@ -155,14 +156,14 @@ export const CompareBars: React.FC<{
     <g>
       <rect x={x + 16} y={base - h + 16} width="300" height={h} fill={ACENTO} opacity={0.9 * grow} />
       <rect x={x} y={base - h} width="300" height={h} fill={color} />
-      <text x={x + 150} y={base - h - 34} textAnchor="middle" fill={C.ink} fontFamily={FONT.sans} fontWeight="700" fontSize="72">
+      <text x={x + 150} y={base - h - 34} textAnchor="middle" fill={TINTA} fontFamily={FONT.sans} fontWeight="700" fontSize="72">
         {Math.round(value * grow).toLocaleString("es-ES")}
       </text>
-      <text x={x + 150} y={base + 52} textAnchor="middle" fill={C.muted} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
+      <text x={x + 150} y={base + 52} textAnchor="middle" fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
         {label}
       </text>
       {note ? (
-        <text x={x + 150} y={base + 92} textAnchor="middle" fill={C.muted} fontFamily={FONT.mono} fontSize="22">
+        <text x={x + 150} y={base + 92} textAnchor="middle" fill={APAGADO} fontFamily={FONT.mono} fontSize="22">
           {note}
         </text>
       ) : null}
@@ -171,11 +172,11 @@ export const CompareBars: React.FC<{
 
   return (
     <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
-      <line x1="560" y1={base} x2="1500" y2={base} stroke={C.ink} strokeWidth="3" />
-      <Bar x={640} h={ha} d={0} color={C.ink} label={a.label} value={a.v} note={a.note} />
+      <line x1="560" y1={base} x2="1500" y2={base} stroke={TINTA} strokeWidth="3" />
+      <Bar x={640} h={ha} d={0} color={TINTA} label={a.label} value={a.v} note={a.note} />
       <Bar x={1060} h={hb} d={6} color={C.verde} label={b.label} value={b.v} note={b.note} />
       {unit ? (
-        <text x={640} y={216} fill={C.muted} fontFamily={FONT.mono} fontSize="26" letterSpacing="4">
+        <text x={640} y={216} fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="4">
           {unit}
         </text>
       ) : null}

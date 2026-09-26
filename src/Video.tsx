@@ -5,10 +5,18 @@ import {
   Sequence,
   interpolate,
   staticFile,
-  useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { ACENTO, C, FONT, VIDEO, framesForWords } from "./theme";
+import { ACENTO, APAGADO, C, FONT, PAPEL, TINTA, VIDEO, framesForWords } from "./theme";
+import {
+  PlantillaCtx,
+  resolver,
+  useFrame,
+  usePlantilla,
+  variablesDe,
+  type Estilo,
+} from "./estilo";
+import { Transicion } from "./components/Transicion";
 import { Kicker, Source, Surface } from "./components/Surface";
 import { Rotulo, Statement } from "./components/Rotulo";
 import { Beat, SketchRing, Tag, type Anim } from "./components/Beat";
@@ -127,23 +135,16 @@ export type Plano = {
 };
 
 export type Tiempos = Record<string, { audio: string; duration: number }>;
+
 /**
  * La identidad visual del video.
  *
  * Todos salian iguales porque el aspecto estaba cableado: papel, rejilla,
- * marco y carmin, siempre. Esto deja que cada guion elija el suyo.
+ * marco y carmin, siempre. Ahora el guion elige una plantilla de edicion
+ * completa -maqueta, tipografia, textura, corte y ritmo de animacion- en
+ * `src/estilo.ts`, y puede ajustarle el acento sin salirse de ella.
  */
-export type Estilo = {
-  /** El unico color saturado. Repinta graficos, recortes y rotulos. */
-  acento?: "carmin" | "verde" | "ocre" | "pale";
-  // "fondo": "noche" todavia no. El Surface ya lo pinta, pero las barras, el
-  // mapa y la rejilla de gente escriben en C.ink y quedan ilegibles sobre
-  // oscuro: son 53 sitios que hay que volver night-aware antes de abrirlo.
-  /** La cuadricula de papel milimetrado. */
-  grid?: boolean;
-  /** Las escuadras de las esquinas. */
-  marco?: boolean;
-};
+export type { Estilo };
 
 export type Guion = {
   slug: string;
@@ -152,15 +153,6 @@ export type Guion = {
   estilo?: Estilo;
   bloques: { planos: Plano[] }[];
 };
-
-const ACENTOS: Record<string, string> = {
-  carmin: C.carmin,
-  verde: C.verde,
-  ocre: C.ocre,
-  pale: C.paleDim,
-};
-
-const EstiloCtx = React.createContext<Estilo>({});
 
 /** Cola de aire tras cada frase para que el corte no pise la ultima silaba. */
 const COLA = 0.34;
@@ -403,20 +395,32 @@ const sfxDePlano = (p: Plano): { at: number; src: string; vol: number }[] => {
   return out;
 };
 
-/** Movimiento de camara del plano completo. Nunca dos seguidos iguales. */
+/**
+ * Movimiento de camara del plano completo.
+ *
+ * La amplitud tambien la manda la plantilla: la suiza se queda quieta porque
+ * el estilo tipografico internacional no mueve la pagina, y la de expediente
+ * va lenta porque lo que se mueve es la mano que sostiene el papel.
+ */
 const Camara: React.FC<{ modo: Visual["camara"]; children: React.ReactNode }> = ({
   modo = "estatico",
   children,
 }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { durationInFrames } = useVideoConfig();
+  const plantilla = usePlantilla();
   const p = frame / Math.max(durationInFrames - 1, 1);
+  const a = plantilla.camara === "quieta" ? 0 : plantilla.camara === "lenta" ? 0.55 : 1;
 
   let transform = "none";
-  if (modo === "push") transform = `scale(${interpolate(p, [0, 1], [1, 1.075])})`;
-  if (modo === "pull") transform = `scale(${interpolate(p, [0, 1], [1.085, 1])})`;
-  if (modo === "panL") transform = `scale(1.09) translateX(${interpolate(p, [0, 1], [26, -26])}px)`;
-  if (modo === "panR") transform = `scale(1.09) translateX(${interpolate(p, [0, 1], [-26, 26])}px)`;
+  if (a > 0) {
+    if (modo === "push") transform = `scale(${interpolate(p, [0, 1], [1, 1 + 0.075 * a])})`;
+    if (modo === "pull") transform = `scale(${interpolate(p, [0, 1], [1 + 0.085 * a, 1])})`;
+    if (modo === "panL")
+      transform = `scale(${1 + 0.09 * a}) translateX(${interpolate(p, [0, 1], [26 * a, -26 * a])}px)`;
+    if (modo === "panR")
+      transform = `scale(${1 + 0.09 * a}) translateX(${interpolate(p, [0, 1], [-26 * a, 26 * a])}px)`;
+  }
 
   return (
     <div style={{ position: "absolute", inset: 0, transform, transformOrigin: "50% 50%" }}>
@@ -426,7 +430,7 @@ const Camara: React.FC<{ modo: Visual["camara"]; children: React.ReactNode }> = 
 };
 
 const Contador: React.FC<{ p: Visual }> = ({ p }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { durationInFrames } = useVideoConfig();
   const t = p.estatico
     ? 1
@@ -440,13 +444,13 @@ const Contador: React.FC<{ p: Visual }> = ({ p }) => {
   return (
     <>
       <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
-        <line x1="300" y1="780" x2="1620" y2="780" stroke="#B4BBB2" strokeWidth="3" />
+        <line x1="300" y1="780" x2="1620" y2="780" stroke={APAGADO} strokeWidth="3" opacity="0.45" />
         <line x1="300" y1="780" x2={300 + 1320 * t} y2="780" stroke={ACENTO} strokeWidth="9" />
         <circle cx={300 + 1320 * t} cy="780" r="15" fill={ACENTO} />
-        <text x="300" y="836" fill={C.muted} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
+        <text x="300" y="836" fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
           {p.de!.etiqueta}
         </text>
-        <text x="1620" y="836" textAnchor="end" fill={C.muted} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
+        <text x="1620" y="836" textAnchor="end" fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
           {p.a!.etiqueta}
         </text>
       </svg>
@@ -462,7 +466,7 @@ const Contador: React.FC<{ p: Visual }> = ({ p }) => {
           fontSize: 300,
           lineHeight: 0.9,
           letterSpacing: "-0.05em",
-          color: C.ink,
+          color: TINTA,
           fontVariantNumeric: "tabular-nums",
         }}
       >
@@ -490,7 +494,6 @@ const porDefecto = (p: Visual, orden: number): Visual["camara"] =>
     : "estatico";
 
 const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) => {
-  const estilo = React.useContext(EstiloCtx);
   // Con "fondo": "noche" el video entero va sobre el fondo oscuro, no solo
   // los clips y las frases marcadas. Es el cambio de aspecto mas grande que
   // se puede pedir con una palabra.
@@ -500,13 +503,13 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
     ((p.tipo === "frase" || p.tipo === "lista") && !!p.night);
 
   const pintable = listo(p);
-  const grid =
-    estilo.grid === false
-      ? false
-      : p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "clip";
+  // Que textura y que marco se pinta lo decide la plantilla dentro de Surface.
+  // Aqui solo se dice donde no cabe ninguno de los dos: encima de un mapa, de
+  // un clip a sangre o de la maqueta de Dublin.
+  const grid = p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "clip";
 
   return (
-    <Surface night={night} grid={grid} frame={estilo.marco !== false}>
+    <Surface night={night} grid={grid} frame>
       <Camara modo={p.camara ?? porDefecto(p, orden)}>
         {!pintable ? null : (
         <>
@@ -553,7 +556,7 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
             height: "44%",
             background: night
               ? `linear-gradient(to top, ${C.night} 6%, rgba(10,18,16,0.88) 34%, rgba(10,18,16,0) 100%)`
-              : `linear-gradient(to top, ${C.paper} 10%, rgba(242,239,230,0.92) 38%, rgba(242,239,230,0) 100%)`,
+              : `linear-gradient(to top, ${PAPEL} 12%, color-mix(in srgb, ${PAPEL} 88%, transparent) 42%, transparent 100%)`,
             zIndex: 20,
           }}
         />
@@ -590,15 +593,14 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
   let cursor = 0;
   const musicLoops = Math.ceil(durationInFrames / (32 * fps)) + 1;
 
-  const estilo = guion.estilo ?? {};
-  // El acento va como variable CSS: ACENTO en theme.ts la lee, y con eso se
-  // repintan de golpe los cuarenta y cuatro sitios donde antes habia un
-  // carmin escrito a mano.
-  const acento = ACENTOS[estilo.acento ?? "carmin"] ?? C.carmin;
+  // La plantilla completa sale del bloque `estilo` del guion, y sus cinco
+  // colores viajan como variables CSS: papel, tinta, apagado, acento y
+  // realce. Con eso se repinta el video entero sin tocar un componente.
+  const plantilla = resolver(guion.estilo);
 
   return (
-    <EstiloCtx.Provider value={estilo}>
-    <AbsoluteFill style={{ background: C.night, ["--acento" as any]: acento }}>
+    <PlantillaCtx.Provider value={plantilla}>
+    <AbsoluteFill style={{ background: plantilla.papel, ...variablesDe(plantilla) }}>
       {planos.map((p, i) => {
         const from = cursor;
         cursor += duraciones[i];
@@ -613,7 +615,9 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
                 durationInFrames={t.largo}
                 name={t.solo ? p.id : `${p.id}.${k + 1}`}
               >
-                <PlanoView p={t.escena} orden={i + k} />
+                <Transicion orden={i + k}>
+                  <PlanoView p={t.escena} orden={i + k} />
+                </Transicion>
                 {/* cada cambio de imagen suena, o el corte se nota vacio */}
                 {k > 0 ? <Sfx at={0} src="papel" vol={0.22} /> : null}
                 {/* el icono del recorte se traza en medio segundo: suena al
@@ -636,6 +640,6 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
         </Sequence>
       ))}
     </AbsoluteFill>
-    </EstiloCtx.Provider>
+    </PlantillaCtx.Provider>
   );
 };

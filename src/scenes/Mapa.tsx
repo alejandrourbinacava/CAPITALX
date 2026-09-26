@@ -1,6 +1,6 @@
 import React from "react";
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, C, FONT } from "../theme";
+import { interpolate, spring, useVideoConfig } from "remotion";
+import { ACENTO, APAGADO, C, FONT, PAPEL, REALCE, TINTA } from "../theme";
 
 /**
  * Mapa de Europa muy simplificado.
@@ -14,6 +14,7 @@ import { ACENTO, C, FONT } from "../theme";
 import EUROPA from "../data/europa.json";
 import NORTEAMERICA from "../data/norteamerica.json";
 import ASIA from "../data/asia.json";
+import { useFrame } from "../estilo";
 
 /**
  * Contornos reales de Natural Earth (dominio publico), proyectados con
@@ -45,16 +46,16 @@ const EtiquetaPais: React.FC<{ cx: number; cy: number; nombre: string; k: number
         y1={cy}
         x2={izquierda ? lx + ancho : lx}
         y2={ly + 30}
-        stroke={C.ink}
+        stroke={TINTA}
         strokeWidth="3"
       />
-      <circle cx={cx} cy={cy} r="9" fill={C.ink} />
-      <rect x={lx} y={ly} width={ancho} height={60} fill={C.ink} />
+      <circle cx={cx} cy={cy} r="9" fill={TINTA} />
+      <rect x={lx} y={ly} width={ancho} height={60} fill={TINTA} />
       <text
         x={lx + ancho / 2}
         y={ly + 42}
         textAnchor="middle"
-        fill={C.paper}
+        fill={PAPEL}
         fontFamily={FONT.sans}
         fontWeight="700"
         fontSize="34"
@@ -74,7 +75,7 @@ export const Mapa: React.FC<{
     flecha?: { hacia: string; valor: string };
   };
 }> = ({ spec }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const destaca = spec.destaca ?? [];
   const PAISES = REGIONES[spec.region ?? "europa"];
@@ -92,9 +93,9 @@ export const Mapa: React.FC<{
         <path
           key={k}
           d={p.d}
-          fill={C.ink}
+          fill={TINTA}
           opacity={destaca.includes(k) ? 0 : 0.14}
-          stroke={C.ink}
+          stroke={TINTA}
           strokeWidth="1.6"
           strokeOpacity="0.3"
         />
@@ -107,7 +108,7 @@ export const Mapa: React.FC<{
         return (
           <g key={k} opacity={s}>
             <path d={p.d} fill={ACENTO} transform={`translate(${16 * s} ${16 * s})`} opacity="0.5" />
-            <path d={p.d} fill={C.ocre} stroke={C.ink} strokeWidth="3.5" />
+            <path d={p.d} fill={REALCE} stroke={TINTA} strokeWidth="3.5" />
             <EtiquetaPais
               cx={p.cx}
               cy={p.cy}
@@ -127,8 +128,8 @@ export const Mapa: React.FC<{
           <g key={pt.nombre} opacity={s}>
             <circle cx={x} cy={y} r="12" fill={ACENTO} />
             <line x1={x} y1={y} x2={x} y2={y + 70 * s} stroke={ACENTO} strokeWidth="3" />
-            <rect x={x - 92} y={y + 70} width="184" height="62" fill={C.ink} />
-            <text x={x} y={y + 112} textAnchor="middle" fill={C.paper} fontFamily={FONT.sans} fontWeight="700" fontSize="34">
+            <rect x={x - 92} y={y + 70} width="184" height="62" fill={TINTA} />
+            <text x={x} y={y + 112} textAnchor="middle" fill={PAPEL} fontFamily={FONT.sans} fontWeight="700" fontSize="34">
               {pt.nombre} {pt.valor}
             </text>
           </g>
@@ -147,11 +148,11 @@ export const Mapa: React.FC<{
             strokeLinecap="round"
           />
           <g opacity={arco > 0.85 ? 1 : 0}>
-            <rect x="1420" y="700" width="380" height="110" fill={C.ink} />
-            <text x="1610" y="748" textAnchor="middle" fill={C.ocre} fontFamily={FONT.mono} fontSize="24" letterSpacing="4">
+            <rect x="1420" y="700" width="380" height="110" fill={TINTA} />
+            <text x="1610" y="748" textAnchor="middle" fill={REALCE} fontFamily={FONT.mono} fontSize="24" letterSpacing="4">
               {spec.flecha.hacia.toUpperCase()}
             </text>
-            <text x="1610" y="792" textAnchor="middle" fill={C.paper} fontFamily={FONT.sans} fontWeight="700" fontSize="42">
+            <text x="1610" y="792" textAnchor="middle" fill={PAPEL} fontFamily={FONT.sans} fontWeight="700" fontSize="42">
               {spec.flecha.valor}
             </text>
           </g>
@@ -166,9 +167,9 @@ export const Lista: React.FC<{
   spec: { titulo?: string; puntos: string[]; activo?: number };
   night?: boolean;
 }> = ({ spec, night }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps } = useVideoConfig();
-  const tinta = night ? C.paper : C.ink;
+  const tinta = night ? PAPEL : TINTA;
   const numerada = spec.activo !== undefined;
 
   return (
@@ -180,7 +181,7 @@ export const Lista: React.FC<{
             fontSize: 28,
             letterSpacing: "0.2em",
             textTransform: "uppercase",
-            color: night ? C.mutedNight : C.muted,
+            color: night ? C.mutedNight : APAGADO,
             marginBottom: 40,
           }}
         >
@@ -207,7 +208,7 @@ export const Lista: React.FC<{
               style={{
                 fontFamily: FONT.mono,
                 fontSize: numerada ? 40 : 30,
-                color: activo ? ACENTO : night ? C.mutedNight : C.muted,
+                color: activo ? ACENTO : night ? C.mutedNight : APAGADO,
                 minWidth: 70,
               }}
             >
@@ -220,8 +221,8 @@ export const Lista: React.FC<{
                 fontSize: numerada ? 74 : 46,
                 lineHeight: 1.2,
                 letterSpacing: "-0.02em",
-                color: activo ? C.ink : tinta,
-                background: activo ? C.ocre : "transparent",
+                color: activo ? TINTA : tinta,
+                background: activo ? REALCE : "transparent",
                 padding: activo ? "2px 16px" : 0,
               }}
             >
@@ -238,7 +239,7 @@ export const Lista: React.FC<{
 export const Cierre: React.FC<{ spec: { siguiente?: string; sub?: string; suscribete?: boolean } }> = ({
   spec,
 }) => {
-  const frame = useCurrentFrame();
+  const frame = useFrame();
   const { fps } = useVideoConfig();
   const k = spring({ frame: frame - 4, fps, config: { damping: 200, mass: 0.6 } });
 
@@ -256,7 +257,7 @@ export const Cierre: React.FC<{ spec: { siguiente?: string; sub?: string; suscri
           opacity: k,
         }}
       >
-        <div style={{ fontFamily: FONT.serif, fontSize: 130, color: C.ink, letterSpacing: "-0.01em" }}>
+        <div style={{ fontFamily: FONT.serif, fontSize: 130, color: TINTA, letterSpacing: "-0.01em" }}>
           Capital X
         </div>
         <div
@@ -265,14 +266,14 @@ export const Cierre: React.FC<{ spec: { siguiente?: string; sub?: string; suscri
             fontWeight: 700,
             fontSize: 58,
             background: ACENTO,
-            color: C.paper,
+            color: PAPEL,
             padding: "18px 54px",
             transform: `scale(${interpolate(k, [0, 1], [0.9, 1])})`,
           }}
         >
           Suscríbete
         </div>
-        <div style={{ fontFamily: FONT.mono, fontSize: 26, letterSpacing: "0.22em", color: C.muted }}>
+        <div style={{ fontFamily: FONT.mono, fontSize: 26, letterSpacing: "0.22em", color: APAGADO }}>
           CÓMO SE ROMPEN LOS PAÍSES RICOS
         </div>
       </div>
@@ -282,7 +283,7 @@ export const Cierre: React.FC<{ spec: { siguiente?: string; sub?: string; suscri
   return (
     <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div style={{ textAlign: "center", opacity: k, transform: `translateY(${interpolate(k, [0, 1], [26, 0])}px)` }}>
-        <div style={{ fontFamily: FONT.mono, fontSize: 28, letterSpacing: "0.28em", color: C.muted, marginBottom: 30 }}>
+        <div style={{ fontFamily: FONT.mono, fontSize: 28, letterSpacing: "0.28em", color: APAGADO, marginBottom: 30 }}>
           EN EL PRÓXIMO VÍDEO
         </div>
         <div
@@ -291,15 +292,15 @@ export const Cierre: React.FC<{ spec: { siguiente?: string; sub?: string; suscri
             fontWeight: 700,
             fontSize: 168,
             letterSpacing: "-0.04em",
-            color: C.ink,
-            background: C.ocre,
+            color: TINTA,
+            background: REALCE,
             display: "inline-block",
             padding: "6px 44px",
           }}
         >
           {spec.siguiente}
         </div>
-        <div style={{ fontFamily: FONT.sans, fontWeight: 500, fontSize: 46, color: C.ink, marginTop: 40, maxWidth: 1300 }}>
+        <div style={{ fontFamily: FONT.sans, fontWeight: 500, fontSize: 46, color: TINTA, marginTop: 40, maxWidth: 1300 }}>
           {spec.sub}
         </div>
       </div>
