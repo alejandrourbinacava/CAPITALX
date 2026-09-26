@@ -194,9 +194,12 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     sostener: "quieto",
     transicion: "desliza",
     // Doce por segundo sobre treinta: el paso de tres es el que se ve a saltos
-    // de verdad, y con el temblor encima parece pelicula proyectada.
+    // de verdad. El temblor que llevaba encima se quito: era el recurso mas
+    // barato de las siete plantillas y el unico que se lee como efecto y no
+    // como montaje. El caracter de archivo lo dan el papel manila, la
+    // mecanografia, el rail y que cada pieza llegue de un lado distinto.
     paso: 3,
-    temblor: true,
+    temblor: false,
     camara: "lenta",
   },
 
@@ -336,7 +339,7 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     sostener: "deriva",
     transicion: "desliza",
     paso: 2,
-    temblor: true,
+    temblor: false,
     camara: "deriva",
   },
 };
@@ -416,6 +419,21 @@ export const useFrame = () => {
   const { paso } = usePlantilla();
   return paso > 1 ? Math.floor(frame / paso) * paso : frame;
 };
+
+/**
+ * El fotograma sin escalonar.
+ *
+ * El escalonado estaba mal aplicado. La tecnica que se copia es animar los
+ * graficos a doce por segundo y montarlos encima de metraje a veinticuatro:
+ * lo que pisa es el dibujo, y la imagen sigue yendo fluida. Yo lo habia
+ * puesto en todo, camara incluida, y entonces lo que pisaba era la
+ * fotografia, que es justo lo que se lee como tembleque y no como montaje.
+ *
+ * Asi que la camara, el zoom de los clips y el movimiento de las figuras leen
+ * de aqui, y el texto, los iconos, las barras y los contadores siguen leyendo
+ * del escalonado.
+ */
+export const useFrameFluido = () => useCurrentFrame();
 
 /**
  * Temblor de fotograma: giro y desplazamiento minimos que cambian cada paso.

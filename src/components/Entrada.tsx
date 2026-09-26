@@ -1,7 +1,7 @@
 import React from "react";
 import { interpolate, spring, useVideoConfig } from "remotion";
 import { ACENTO } from "../theme";
-import { usePlantilla, useFrame } from "../estilo";
+import { usePlantilla, useFrame, useFrameFluido } from "../estilo";
 
 /**
  * Como entra una cosa en pantalla.
@@ -251,7 +251,9 @@ export const TextoEntra: React.FC<{
  * no un efecto.
  */
 export const useSostener = (): { figura: string; texto: string } => {
-  const frame = useFrame();
+  // Mueve figuras y bloques ya colocados: va fluido por el mismo motivo que
+  // la camara. El escalonado es para lo que entra, no para lo que se mueve.
+  const frame = useFrameFluido();
   const { durationInFrames } = useVideoConfig();
   const p = usePlantilla();
   const t = frame / Math.max(durationInFrames - 1, 1);

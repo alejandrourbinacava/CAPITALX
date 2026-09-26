@@ -1,7 +1,7 @@
 import React from "react";
 import { OffthreadVideo, interpolate, staticFile, useVideoConfig } from "remotion";
 import { ACENTO, REALCE, TINTA } from "../theme";
-import { useFrame } from "../estilo";
+import { useFrame, useFrameFluido } from "../estilo";
 
 /**
  * Metraje de archivo pasado por el mismo filtro que todo lo demas.
@@ -19,7 +19,8 @@ export const Clip: React.FC<{
   spec: { fichero?: string; desde?: number; encuadre?: "amplio" | "corto" };
   tono?: "ocre" | "carmin";
 }> = ({ spec, tono = "ocre" }) => {
-  const frame = useFrame();
+  // El encuadre del clip va fluido; lo que pisa es el dibujo, nunca el video.
+  const frame = useFrameFluido();
   const { durationInFrames, fps } = useVideoConfig();
 
   if (!spec?.fichero) return null;

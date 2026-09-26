@@ -12,6 +12,7 @@ import {
   PlantillaCtx,
   resolver,
   useFrame,
+  useFrameFluido,
   usePlantilla,
   variablesDe,
   type Estilo,
@@ -406,7 +407,9 @@ const Camara: React.FC<{ modo: Visual["camara"]; children: React.ReactNode }> = 
   modo = "estatico",
   children,
 }) => {
-  const frame = useFrame();
+  // La camara lee el tiempo fluido a proposito: un empuje escalonado sobre
+  // una foto se ve como tembleque, no como montaje.
+  const frame = useFrameFluido();
   const { durationInFrames } = useVideoConfig();
   const plantilla = usePlantilla();
   const p = frame / Math.max(durationInFrames - 1, 1);
