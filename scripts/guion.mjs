@@ -425,8 +425,10 @@ El canal tenía un solo montaje. Papel milimetrado, escuadras en las esquinas, r
 
 Cómo se elige, que es lo que importa:
 
-- **Que la plantilla diga algo del tema.** Un vídeo sobre documentos filtrados o sobre una decisión que alguien tomó a puerta cerrada va en \`expediente\`. Uno de infraestructura, red eléctrica, obra o ingeniería va en \`plano\`. Uno sobre una cifra oficial y fría va en \`suizo\`. Uno histórico de hemeroteca, en \`prensa\`. Uno de tecnología, criptomonedas o sistemas de pago, en \`terminal\`. Uno de consumo, precios o calle, en \`riso\`.
-- **Nunca la misma que el vídeo anterior.** Es la única regla rígida. Mira el guion que se publicó antes y elige otra.
+- **La del canal es \`suizo\`.** Es la que se usa por defecto en un guion nuevo. Papel liso, sin marco, titular enorme a bandera izquierda, palabra clave en rojo, cámara quieta, el texto se descubre tras un borde que barre, barras horizontales, contador en anillo, mapa a contorno. Si no hay un motivo para elegir otra, va esta.
+
+- **Se cambia cuando el tema lo pide, no por turno.** Un vídeo sobre documentos filtrados o sobre una decisión que alguien tomó a puerta cerrada va en \`expediente\`. Uno de infraestructura, red eléctrica, obra o ingeniería va en \`plano\`. Uno sobre una cifra oficial y fría va en \`suizo\`. Uno histórico de hemeroteca, en \`prensa\`. Uno de tecnología, criptomonedas o sistemas de pago, en \`terminal\`. Uno de consumo, precios o calle, en \`riso\`.
+- **No dos seguidos con la misma plantilla que no sea \`suizo\`.** Si el anterior fue \`expediente\`, este no puede serlo. Volver a \`suizo\` siempre vale: es la casa, no una repetición.
 - **\`acento\` es opcional** y solo sobreescribe el color de la plantilla. \`carmin\`, \`verde\`, \`ocre\` o \`pale\`.
 - **La música también cambia**: \`mystery.wav\`, \`frio.wav\`, \`pulso.wav\`, \`elegia.wav\` o \`tenso.wav\`. Tampoco se repite dos vídeos seguidos.
 
@@ -1014,8 +1016,9 @@ function validar(doc, tema) {
   }
   if (!elegida) {
     di(
-      "el guion no elige 'estilo.plantilla': saldra con el montaje por defecto " +
-        `(cuaderno), igual que los anteriores. Las hay: ${plantillas.join(", ")}`
+      "el guion no elige 'estilo.plantilla'. La del canal es \"suizo\"; el codigo " +
+        "cae a \"cuaderno\" si no se dice nada, que es el montaje viejo. " +
+        `Las hay: ${plantillas.join(", ")}`
     );
   }
   if (!doc.musica) {
