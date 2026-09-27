@@ -72,10 +72,10 @@ Todos los datos que aparecen en pantalla llevan su fuente indicada en el propio 
 
 ## ETIQUETAS
 
-409 caracteres, dentro del tope de 500 de YouTube.
+**496 caracteres**, 27 etiquetas. Justo por debajo del tope de 500 de YouTube.
 
 ```
-vivienda españa, precio vivienda, quien compra vivienda en españa, burbuja inmobiliaria, alquiler españa, precio alquiler, fondos buitre vivienda, grandes tenedores, golden visa, compradores extranjeros, hipoteca, banco de españa, deficit de vivienda, emancipacion jovenes, no puedo comprar casa, mercado inmobiliario español, segunda vivienda, casero, ley de vivienda, alicante vivienda, madrid vivienda, economia española, divulgacion economica, macroeconomia, capital x, vivienda 2026
+vivienda españa, precio vivienda, quien compra vivienda en españa, burbuja inmobiliaria, alquiler españa, precio alquiler, fondos buitre vivienda, grandes tenedores, golden visa, compradores extranjeros, no residentes, hipoteca, banco de españa, registradores, deficit de vivienda, emancipacion jovenes, no puedo comprar casa, mercado inmobiliario, segunda vivienda, casero, ley de vivienda, alicante vivienda, baleares vivienda, economia española, divulgacion economica, macroeconomia, capital x
 ```
 
 ---
