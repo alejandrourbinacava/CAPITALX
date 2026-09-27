@@ -14,7 +14,7 @@ import { ACENTO, APAGADO, C, FONT, PAPEL, REALCE, TINTA } from "../theme";
 import EUROPA from "../data/europa.json";
 import NORTEAMERICA from "../data/norteamerica.json";
 import ASIA from "../data/asia.json";
-import { useFrame } from "../estilo";
+import { familiaDe, pesoDe, useFrame, usePlantilla } from "../estilo";
 
 /**
  * Contornos reales de Natural Earth (dominio publico), proyectados con
@@ -31,14 +31,53 @@ const REGIONES: Record<string, Record<string, Pais>> = {
   asia: ASIA as any,
 };
 
-/** Etiqueta con guia, para que los paises pequenos se sigan leyendo. */
-const EtiquetaPais: React.FC<{ cx: number; cy: number; nombre: string; k: number }> = ({
-  cx, cy, nombre, k,
-}) => {
+/**
+ * Etiqueta con guia, para que los paises pequenos se sigan leyendo.
+ *
+ * Con caja es un rotulo de television; sin caja, con la guia fina y el texto
+ * suelto sobre el papel, es un mapa de atlas. Cambia bastante el tono.
+ */
+const EtiquetaPais: React.FC<{
+  cx: number;
+  cy: number;
+  nombre: string;
+  k: number;
+  caja: boolean;
+}> = ({ cx, cy, nombre, k, caja }) => {
+  const p = usePlantilla();
   const ancho = nombre.length * 22 + 64;
   const izquierda = cx < 760;
   const lx = izquierda ? cx - 60 - ancho : cx + 60;
   const ly = cy - 96;
+
+  if (!caja) {
+    return (
+      <g opacity={k}>
+        <line
+          x1={cx}
+          y1={cy}
+          x2={izquierda ? lx + ancho : lx}
+          y2={ly + 30}
+          stroke={TINTA}
+          strokeWidth="2"
+        />
+        <circle cx={cx} cy={cy} r="7" fill={ACENTO} />
+        <text
+          x={izquierda ? lx + ancho : lx}
+          y={ly + 18}
+          textAnchor={izquierda ? "end" : "start"}
+          fill={TINTA}
+          fontFamily={familiaDe(p)}
+          fontWeight={pesoDe(p)}
+          fontSize="40"
+          letterSpacing="-0.02em"
+        >
+          {nombre}
+        </text>
+      </g>
+    );
+  }
+
   return (
     <g opacity={k}>
       <line
@@ -56,8 +95,8 @@ const EtiquetaPais: React.FC<{ cx: number; cy: number; nombre: string; k: number
         y={ly + 42}
         textAnchor="middle"
         fill={PAPEL}
-        fontFamily={FONT.sans}
-        fontWeight="700"
+        fontFamily={familiaDe(p)}
+        fontWeight={pesoDe(p)}
         fontSize="34"
       >
         {nombre}
@@ -79,6 +118,8 @@ export const Mapa: React.FC<{
   const { fps, durationInFrames } = useVideoConfig();
   const destaca = spec.destaca ?? [];
   const PAISES = REGIONES[spec.region ?? "europa"];
+  const plantilla = usePlantilla();
+  const forma = plantilla.mapa;
 
   const arco = interpolate(frame, [0.5 * fps, Math.min(durationInFrames - 6, 2.2 * fps)], [0, 1], {
     extrapolateLeft: "clamp",
@@ -88,6 +129,14 @@ export const Mapa: React.FC<{
 
   return (
     <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
+      <defs>
+        {/* trama de rayas: el pais marcado como en un mapa impreso, donde el
+            color plano no existia y se rellenaba rayando */}
+        <pattern id="mapa-trama" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+          <rect width="16" height="16" fill={PAPEL} />
+          <line x1="0" y1="0" x2="0" y2="16" stroke={ACENTO} strokeWidth="9" />
+        </pattern>
+      </defs>
       {/* el continente entero, en tinta muy baja */}
       {Object.entries(PAISES).map(([k, p]) => (
         <path
@@ -107,13 +156,24 @@ export const Mapa: React.FC<{
         const s = spring({ frame: frame - 3 - i * 5, fps, config: { damping: 16, mass: 0.6, stiffness: 160 } });
         return (
           <g key={k} opacity={s}>
-            <path d={p.d} fill={ACENTO} transform={`translate(${16 * s} ${16 * s})`} opacity="0.5" />
-            <path d={p.d} fill={REALCE} stroke={TINTA} strokeWidth="3.5" />
+            {forma === "relleno" ? (
+              <>
+                <path d={p.d} fill={ACENTO} transform={`translate(${16 * s} ${16 * s})`} opacity="0.5" />
+                <path d={p.d} fill={REALCE} stroke={TINTA} strokeWidth="3.5" />
+              </>
+            ) : null}
+            {forma === "trama" ? (
+              <path d={p.d} fill="url(#mapa-trama)" stroke={TINTA} strokeWidth="3.5" />
+            ) : null}
+            {forma === "contorno" ? (
+              <path d={p.d} fill="none" stroke={ACENTO} strokeWidth="9" strokeLinejoin="round" />
+            ) : null}
             <EtiquetaPais
               cx={p.cx}
               cy={p.cy}
               nombre={p.nombre}
               k={interpolate(s, [0.55, 1], [0, 1], { extrapolateLeft: "clamp" })}
+              caja={forma !== "contorno"}
             />
           </g>
         );

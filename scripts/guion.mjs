@@ -430,6 +430,8 @@ Cómo se elige, que es lo que importa:
 - **\`acento\` es opcional** y solo sobreescribe el color de la plantilla. \`carmin\`, \`verde\`, \`ocre\` o \`pale\`.
 - **La música también cambia**: \`mystery.wav\`, \`frio.wav\`, \`pulso.wav\`, \`elegia.wav\` o \`tenso.wav\`. Tampoco se repite dos vídeos seguidos.
 
+Lo que cambia una plantilla, por si hace falta la lista entera: papel, textura de fondo, marco, tipografía del titular, caja alta o baja, maqueta del rótulo, cómo se marca la palabra clave, cómo se dibujan los iconos, tratamiento del recorte, mecánica de entrada de cada elemento, reparto del cuadro, qué se mueve durante la escena, corte entre escenas, fotogramas por paso de animación, **forma del gráfico de barras** (columnas, filas u horizontales, o puntos), **forma del contador** (raíl, arco, rodillo mecánico o bloques), **forma de la rejilla de gente** (cuadrícula, filas anchas o dos bloques separados) y **cómo se marca un país en el mapa** (relleno, contorno o trama de rayas).
+
 Lo que hace \`paso\`, para que se entienda por qué unas plantillas se sienten distintas aunque lleven la misma foto: el motion de los documentales de YouTube se anima a doce fotogramas por segundo y se monta encima de vídeo a veinticuatro, así que los gráficos avanzan a saltos mientras el metraje va fluido. Suena a error y es lo contrario: una animación perfectamente suave se lee como corporativa, y una que pisa un poco se lee como alguien enseñándote algo. \`expediente\` y \`terminal\` van a saltos; \`suizo\`, \`cuaderno\` y \`prensa\` van fluidas.
 
 # Cuánto de cada cosa

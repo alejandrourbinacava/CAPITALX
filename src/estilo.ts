@@ -119,6 +119,36 @@ export type Plantilla = {
    */
   grafico: "columnas" | "filas" | "puntos";
 
+  /**
+   * La forma del contador.
+   *
+   *   carril   la cifra grande y un raíl de progreso debajo. La de siempre.
+   *   arco     un anillo que se llena con la cifra dentro.
+   *   rodillo  contador mecanico: cada digito en una cinta que gira.
+   *   bloques  cien cuadros que se van llenando, y la cifra al lado.
+   */
+  contador: "carril" | "arco" | "rodillo" | "bloques";
+
+  /**
+   * La forma de la rejilla de gente.
+   *
+   *   rejilla  cuadricula compacta. La de siempre.
+   *   fila     pocas filas anchas y figuras grandes, como un pictograma de
+   *            periodico. Se cuenta con el dedo.
+   *   bloque   los destacados se separan del resto con un hueco: la division
+   *            se ve antes de contar nada.
+   */
+  gente: "rejilla" | "fila" | "bloque";
+
+  /**
+   * Como se marca un pais en el mapa.
+   *
+   *   relleno   macizo, con sombra desplazada y etiqueta en caja. La de siempre.
+   *   contorno  solo linea gruesa, sin relleno, y la etiqueta sin caja.
+   *   trama     relleno de rayas diagonales, como un mapa impreso.
+   */
+  mapa: "relleno" | "contorno" | "trama";
+
   /** El corte entre escenas de un mismo plano. */
   transicion: "corte" | "desliza" | "barrido" | "flash" | "negro";
   /** Fotogramas por paso de animacion. 1 es fluido; 3 son diez por segundo. */
@@ -175,6 +205,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     maqueta: "lateral",
     sostener: "deriva",
     grafico: "columnas",
+    contador: "carril",
+    gente: "rejilla",
+    mapa: "relleno",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -204,6 +237,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     maqueta: "esquina",
     sostener: "quieto",
     grafico: "filas",
+    contador: "rodillo",
+    gente: "fila",
+    mapa: "trama",
     transicion: "desliza",
     // Doce por segundo sobre treinta: el paso de tres es el que se ve a saltos
     // de verdad. El temblor que llevaba encima se quito: era el recurso mas
@@ -242,6 +278,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     maqueta: "banda",
     sostener: "reencuadre",
     grafico: "filas",
+    contador: "arco",
+    gente: "bloque",
+    mapa: "contorno",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -270,6 +309,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     maqueta: "lateral",
     sostener: "parallax",
     grafico: "puntos",
+    contador: "bloques",
+    gente: "rejilla",
+    mapa: "contorno",
     transicion: "barrido",
     paso: 2,
     temblor: false,
@@ -298,6 +340,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     maqueta: "banda",
     sostener: "quieto",
     grafico: "columnas",
+    contador: "carril",
+    gente: "fila",
+    mapa: "trama",
     transicion: "corte",
     paso: 1,
     temblor: false,
@@ -326,6 +371,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     maqueta: "tarjeta",
     sostener: "quieto",
     grafico: "filas",
+    contador: "rodillo",
+    gente: "rejilla",
+    mapa: "contorno",
     transicion: "flash",
     paso: 3,
     temblor: false,
@@ -354,6 +402,9 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     maqueta: "sangre",
     sostener: "deriva",
     grafico: "columnas",
+    contador: "bloques",
+    gente: "bloque",
+    mapa: "trama",
     transicion: "desliza",
     paso: 2,
     temblor: false,

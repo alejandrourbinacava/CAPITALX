@@ -31,6 +31,7 @@ import { Retrato } from "./scenes/Retrato";
 import { Clip } from "./scenes/Clip";
 import { Recorte } from "./scenes/Recorte";
 import { Ilustracion, type EspecIlustracion } from "./scenes/Ilustracion";
+import { Contador } from "./scenes/Contador";
 
 
 type TagSpec = {
@@ -72,8 +73,15 @@ export type Visual = {
     etiqueta?: string;
     etiquetaDestacados?: string;
   };
-  de?: { valor: number; etiqueta: string };
-  a?: { valor: number; etiqueta: string };
+  de?: { valor: number; etiqueta?: string };
+  a?: {
+    valor: number;
+    etiqueta?: string;
+    /** Decimales de la cifra. Sin esto, 0,05 salia en pantalla como un 0. */
+    decimales?: number;
+    sufijo?: string;
+    prefijo?: string;
+  };
   objeto?: string;
   ilustracion?: EspecIlustracion;
   amanecer?: boolean;
@@ -123,8 +131,15 @@ export type Plano = {
     etiqueta?: string;
     etiquetaDestacados?: string;
   };
-  de?: { valor: number; etiqueta: string };
-  a?: { valor: number; etiqueta: string };
+  de?: { valor: number; etiqueta?: string };
+  a?: {
+    valor: number;
+    etiqueta?: string;
+    /** Decimales de la cifra. Sin esto, 0,05 salia en pantalla como un 0. */
+    decimales?: number;
+    sufijo?: string;
+    prefijo?: string;
+  };
   objeto?: string;
   ilustracion?: EspecIlustracion;
   amanecer?: boolean;
@@ -441,54 +456,6 @@ const Camara: React.FC<{ modo: Visual["camara"]; children: React.ReactNode }> = 
   );
 };
 
-const Contador: React.FC<{ p: Visual }> = ({ p }) => {
-  const frame = useFrame();
-  const { durationInFrames } = useVideoConfig();
-  const t = p.estatico
-    ? 1
-    : interpolate(frame, [10, Math.min(durationInFrames - 8, 74)], [0, 1], {
-        extrapolateLeft: "clamp",
-        extrapolateRight: "clamp",
-        easing: (x) => 1 - Math.pow(1 - x, 3),
-      });
-  const shown = Math.round(p.de!.valor + (p.a!.valor - p.de!.valor) * t);
-
-  return (
-    <>
-      <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
-        <line x1="300" y1="780" x2="1620" y2="780" stroke={APAGADO} strokeWidth="3" opacity="0.45" />
-        <line x1="300" y1="780" x2={300 + 1320 * t} y2="780" stroke={ACENTO} strokeWidth="9" />
-        <circle cx={300 + 1320 * t} cy="780" r="15" fill={ACENTO} />
-        <text x="300" y="836" fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
-          {p.de!.etiqueta}
-        </text>
-        <text x="1620" y="836" textAnchor="end" fill={APAGADO} fontFamily={FONT.mono} fontSize="26" letterSpacing="3">
-          {p.a!.etiqueta}
-        </text>
-      </svg>
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          right: 0,
-          top: 290,
-          textAlign: "center",
-          fontFamily: FONT.sans,
-          fontWeight: 700,
-          fontSize: 300,
-          lineHeight: 0.9,
-          letterSpacing: "-0.05em",
-          color: TINTA,
-          fontVariantNumeric: "tabular-nums",
-        }}
-      >
-        {shown.toLocaleString("es-ES")}
-      </div>
-    </>
-  );
-};
-
-
 /**
  * Movimiento cuando el guion no pide ninguno.
  *
@@ -536,7 +503,7 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
             etiquetaDestacados={p.gente!.etiquetaDestacados}
           />
         ) : null}
-        {p.tipo === "contador" ? <Contador p={p} /> : null}
+        {p.tipo === "contador" ? <Contador spec={p} /> : null}
         {p.tipo === "barras" ? <Barras spec={p.barras} /> : null}
         {p.tipo === "lineas" ? <Lineas spec={p.lineas} /> : null}
         {p.tipo === "mapa" ? <Mapa spec={p.mapa} /> : null}

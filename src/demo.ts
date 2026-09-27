@@ -138,6 +138,24 @@ const PLANOS = [
       },
     ],
   },
+  {
+    id: "d-05",
+    vo:
+      "Y no es un problema holandés: en España faltan setecientas cincuenta mil viviendas y se " +
+      "terminan noventa y dos mil al año, que es exactamente la misma película.",
+    escenas: [
+      {
+        tipo: "mapa",
+        kicker: "LA MISMA PELÍCULA",
+        mapa: { destaca: ["holanda", "espana"], region: "europa" },
+        rotulo: { kicker: "Dos países, un problema", texto: "La traba es *administrativa*" },
+      },
+      {
+        tipo: "frase",
+        texto: "No es que no puedan. Es que *no les dejan*.",
+      },
+    ],
+  },
 ] as any;
 
 /** Un guion de muestra por plantilla, con el mismo material. */
