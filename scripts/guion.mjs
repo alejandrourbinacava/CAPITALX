@@ -34,12 +34,12 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 // si cambia alli, cambia aqui.
 const MINIMO = {
   barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, recorte: 3.6,
-  mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2,
+  ilustracion: 4.6, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2,
 };
 
 const TIPOS = [
   "mapa", "barras", "lineas", "contador", "gente", "lista",
-  "frase", "objeto", "retrato", "clip", "recorte", "torres", "dublin", "cierre",
+  "frase", "objeto", "retrato", "clip", "recorte", "ilustracion", "torres", "dublin", "cierre",
 ];
 const OBJETOS = [
   "aeropuerto", "balanza", "carpeta", "carta", "casa", "contable", "dosEpocas",
@@ -1122,13 +1122,18 @@ function validar(doc, tema) {
   // Ritmo. Tres graficos seguidos matan el plano; tres frases seguidas, en
   // cambio, son un recurso: asi se remata la apertura de Irlanda. Se deja
   // correr hasta la cuarta.
+  // El tipo de un plano es el de su primera escena: los planos dejaron de
+  // llevar 'tipo' propio cuando se partieron en escenas, y estas dos reglas
+  // seguian leyendolo. Avisaban de "tres planos undefined seguidos" en todos
+  // los guiones y pedian un cierre que ya estaba puesto.
+  const tipoDe = (p) => p.tipo ?? p.escenas?.[0]?.tipo;
   const seguidas = { frase: 4, lista: 99 };
   let racha = 1;
   for (let i = 1; i < planos.length; i++) {
-    racha = planos[i].tipo === planos[i - 1].tipo ? racha + 1 : 1;
-    const tope = seguidas[planos[i].tipo] ?? 3;
+    racha = tipoDe(planos[i]) === tipoDe(planos[i - 1]) ? racha + 1 : 1;
+    const tope = seguidas[tipoDe(planos[i])] ?? 3;
     if (racha === tope) {
-      di(`${planos[i].id}: van ${racha} planos "${planos[i].tipo}" seguidos. Mete otra cosa en medio.`);
+      di(`${planos[i].id}: van ${racha} planos "${tipoDe(planos[i])}" seguidos. Mete otra cosa en medio.`);
     }
   }
 
@@ -1193,7 +1198,8 @@ function validar(doc, tema) {
   }
 
   const ult = planos[planos.length - 1];
-  if (ult?.tipo !== "cierre") di("el último plano tiene que ser de tipo 'cierre' con 'suscribete': true");
+  const tipoUlt = ult?.tipo ?? ult?.escenas?.[0]?.tipo;
+  if (tipoUlt !== "cierre") di("el último plano tiene que ser de tipo 'cierre' con 'suscribete': true");
 
   const pub = doc.publicacion;
   if (!pub) di("falta el bloque 'publicacion'");

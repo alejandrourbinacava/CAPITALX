@@ -1,0 +1,2516 @@
+{
+  "slug": "eeuu-migracion",
+  "titulo": "California Lleva Treinta Años Perdiendo Gente. Nunca Le Pasó Nada Hasta Ahora",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "pulso.wav",
+  "estilo": {
+    "plantilla": "suizo"
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "El tercer dato",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "Todos los años sale la misma noticia, y todos los años suena igual de bien. La gente está huyendo de California. La gente está huyendo de Nueva York. Se van por los impuestos, se van por el crimen, se van porque aquello ya no funciona.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "los angeles freeway traffic aerial",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero",
+              "rotulo": {
+                "kicker": "La noticia de todos los años",
+                "texto": "La gente *se va*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait moving boxes california",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "La noticia se repite cada año",
+                "apoyo": "Y los números que la sostienen son de verdad.",
+                "icono": "persona"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Y los números que la sostienen no son un invento. Entre julio de dos mil veinticuatro y julio de dos mil veinticinco, California perdió doscientas veintinueve mil personas contra otros estados del país. Es el mayor saldo negativo de Estados Unidos, y con diferencia.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SALDO CONTRA OTROS ESTADOS · CALIFORNIA",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 229077,
+                "etiqueta": "personas perdidas en un año",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "moving truck loading boxes suburban street",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "realtor man portrait texas suburb",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "229.077",
+                "titular": "El mayor saldo negativo del país",
+                "apoyo": "Nadie pierde más gente contra otros estados que California.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El mayor saldo negativo *del país*."
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Nueva York perdió ciento treinta y siete mil quinientas ochenta y seis. Illinois va tercero. Con esos dos datos encima de la mesa, la noticia se escribe sola y no hace falta pensar mucho más.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "QUIÉN PIERDE MÁS GENTE CONTRA OTROS ESTADOS",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "barras": {
+                "unidad": "Personas, saldo del año",
+                "datos": [
+                  {
+                    "etiqueta": "California",
+                    "valor": 229077,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Nueva York",
+                    "valor": 137586,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "brooklyn bridge morning commuters",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly woman portrait new york apartment",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "137.586",
+                "titular": "Nueva York, la segunda",
+                "apoyo": "Y detrás, Illinois. El titular se escribe solo.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Pero hay un tercer dato que casi nunca aparece al lado de esos dos. No es un dato oscuro ni difícil de encontrar: está en la misma tabla, publicado por la misma oficina, el mismo día. Y desmonta la noticia entera.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Falta un *tercer dato*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty office desk documents papers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "statistician man portrait census office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Está en la misma tabla",
+                "apoyo": "Mismo organismo, mismo día, misma página.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "En ese mismo año, la población total de California bajó en nueve mil cuatrocientas sesenta y cinco personas. Nueve mil, sobre treinta y nueve millones y medio. Es una caída del cero coma cero dos por ciento.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "CUÁNTA POBLACIÓN PERDIÓ CALIFORNIA DE VERDAD",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 9465,
+                "etiqueta": "habitantes menos",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "woman portrait california street sunny",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "0,02 %",
+                "titular": "Eso es todo lo que bajó",
+                "apoyo": "Nueve mil personas sobre treinta y nueve millones.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "california suburb aerial houses quiet",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Y la población de Nueva York no bajó. Subió. Mil ocho habitantes más que el año anterior. El estado del que supuestamente huye todo el mundo cerró el año con más gente dentro de la que tenía.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "POBLACIÓN DE NUEVA YORK",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1008,
+                "etiqueta": "habitantes más",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "new york skyline dusk",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Nueva York no perdió. *Ganó*."
+            }
+          ]
+        },
+        {
+          "id": "b0-07",
+          "vo": "Así que ahí está la pregunta de verdad. Si California pierde doscientas veintinueve mil personas contra otros estados y al final del año solo faltan nueve mil, doscientas veinte mil personas no se han evaporado. Alguien estaba entrando por la otra puerta.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "La pregunta no es quién se fue",
+                "texto": "Es quién estaba *llegando*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "airport arrivals hall international passengers",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Doscientas mil personas *no se evaporan*."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Lo que vamos a ver",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "En los próximos minutos vas a ver tres cosas. La primera: que el éxodo es real, que lleva treinta años siendo real, y que en treinta años no ha vaciado absolutamente nada.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Lo que vas a ver",
+                "puntos": [
+                  "El éxodo lleva treinta años",
+                  "Nunca vació nada",
+                  "Lo que cambió está en la otra puerta"
+                ]
+              },
+              "kicker": "EL RECORRIDO"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "archive newspaper printing press",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist woman portrait university office",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Treinta años de lo mismo",
+                "apoyo": "Y el resultado nunca fue el que dice el titular.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "La segunda: el año exacto en que eso dejó de funcionar, que es este. Y que lo que lo rompió no pasó en California ni en Nueva York. Pasó a cuatro mil kilómetros, en Washington, y no tiene nada que ver con los impuestos de nadie.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "washington dc capitol building exterior",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "No pasó en California",
+                "texto": "Pasó en *Washington*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "government official portrait signing office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Se rompió en otro sitio",
+                "apoyo": "Y no tiene nada que ver con los impuestos de California.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Y la tercera: por qué esto no va solo de Estados Unidos. Va de cualquier país rico que lleve veinte años creciendo con gente que viene de fuera. España está exactamente en esa lista, y al final del vídeo lo vas a ver con los datos del INE de este mismo año.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Esto no va solo de *Estados Unidos*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "madrid street crowd spain",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "spanish woman portrait city street",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "También va de aquí",
+                "apoyo": "Cualquier país rico que crezca con gente de fuera.",
+                "icono": "globo"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "El exodo no es nuevo",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Empecemos por lo que ya estaba pasando antes de que nadie hiciera un vídeo sobre esto. California pierde gente contra otros estados todos los años desde principios de los noventa. Todos. Sin una sola excepción en tres décadas.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "vintage california highway 1990s footage",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "rotulo": {
+                "kicker": "Desde los años noventa",
+                "texto": "Todos los *años*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older man portrait california veteran resident",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "1990",
+                "titular": "Sin una sola excepción",
+                "apoyo": "Treinta años seguidos de saldo negativo.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Empezó con la recesión de los noventa, cuando California perdió cientos de miles de empleos industriales y de defensa de golpe. Y desde entonces no ha vuelto a cerrar un año en positivo. No es una racha ni un efecto de la pandemia: es el estado normal del estado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No es una racha. Es el *estado normal*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed factory gates industrial decline",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "factory worker man portrait industrial site",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Empezó con la recesión de los noventa",
+                "apoyo": "Empleo industrial y de defensa que no volvió.",
+                "icono": "fabrica"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica",
+              "rotulo": {
+                "kicker": "La recesión de los noventa",
+                "texto": "El empleo que *no volvió*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "En las dos últimas décadas, el saldo acumulado son casi tres millones cuatrocientas mil personas que se fueron a otros estados y no volvieron. Es más gente que toda la población de Uruguay, saliendo de un solo estado.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "SALDO ACUMULADO EN DOS DÉCADAS",
+              "fuente": "Departamento de Finanzas de California",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 3400000,
+                "etiqueta": "personas netas",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowd walking time lapse city",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero",
+              "rotulo": {
+                "kicker": "Dos décadas seguidas",
+                "texto": "Tres millones *cuatrocientas mil*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Y ahora el dato incómodo. En ese mismo periodo, mientras se iban esos tres millones y medio de personas, la población de California no bajó. Creció en millones. Las dos cosas a la vez, y durante veinte años seguidos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "LO QUE SE FUE Y LO QUE QUEDÓ",
+              "fuente": "Departamento de Finanzas de California",
+              "gente": {
+                "total": 400,
+                "destacados": 34,
+                "escala": 1,
+                "etiqueta": "Californianos",
+                "etiquetaDestacados": "Se fueron a otros estados"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "los angeles panorama dense city aerial",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Se fueron millones. Y aun así *creció*."
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "El pico de salidas fue durante la pandemia, con doscientas cincuenta mil personas en el año dos mil veintidós. Después bajó a ciento cuarenta mil, que fue cuando medio mundo escribió que el éxodo se había terminado.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL SALDO CONTRA OTROS ESTADOS, AÑO A AÑO",
+              "fuente": "Departamento de Finanzas de California",
+              "barras": {
+                "unidad": "Personas, saldo del año",
+                "datos": [
+                  {
+                    "etiqueta": "2022-23",
+                    "valor": 250000,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "2023-24",
+                    "valor": 140000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2024-25",
+                    "valor": 216000,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty san francisco street pandemic",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "journalist woman portrait newsroom desk",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Y entonces se escribió lo contrario",
+                "apoyo": "«El éxodo se ha terminado», año dos mil veinticuatro.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Y el año pasado volvió a subir hasta doscientas dieciséis mil. Ahí es donde todo el mundo dice, otra vez, que el éxodo se ha acelerado. Que la gente vuelve a huir. Que ahora sí.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "television news studio broadcast",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "Lo que se dijo",
+                "texto": "«El éxodo *se acelera*»"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "smartphone scrolling news headlines",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Pero doscientas dieciséis mil personas es exactamente el nivel que tenía California en dos mil dieciocho y en dos mil diecinueve. Antes de la pandemia, antes del teletrabajo y antes de todo lo que se supone que lo causó. No es una aceleración: es la vuelta a la normalidad.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "data analyst woman portrait office screens",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "2018",
+                "titular": "El mismo nivel que antes de la pandemia",
+                "apoyo": "Doscientas dieciséis mil es el número normal de California.",
+                "icono": "grafico"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "archive footage office 2019 workers",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "No es una aceleración. Es *la normalidad*."
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "rotulo": {
+                "kicker": "Dos mil dieciocho y hoy",
+                "texto": "El *mismo* número"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-08",
+          "vo": "Así que la puerta de salida no es la noticia. Lleva treinta años abierta, siempre a la misma altura, y en treinta años nunca ha bastado para vaciar nada. Eso es lo que hay que retener antes de seguir.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "La puerta de salida",
+                "texto": "Siempre a la *misma altura*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "open door corridor light",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "university professor man portrait lecture hall",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Nunca bastó para vaciar nada",
+                "apoyo": "Treinta años de saldo negativo y la población subiendo.",
+                "icono": "visto"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "La otra puerta",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Lo que cambió está en el otro lado de la ecuación, y es un cambio tan grande que casi nadie lo ha puesto al lado de estos titulares. Porque no habla de California: habla del país entero.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El cambio está en la *otra puerta*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "airport departures board flipping",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "kicker": "El otro lado de la cuenta",
+                "texto": "Quién *llega*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "La migración internacional neta hacia Estados Unidos pasó de dos millones setecientas mil personas en un año a un millón trescientas mil al siguiente. En doce meses se quedó por debajo de la mitad.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "MIGRACIÓN INTERNACIONAL NETA A ESTADOS UNIDOS",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "barras": {
+                "unidad": "Millones de personas en el año",
+                "datos": [
+                  {
+                    "etiqueta": "2023-24",
+                    "valor": 2.7,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2024-25",
+                    "valor": 1.3,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "border officer portrait uniform checkpoint",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "−53,8 %",
+                "titular": "En un solo año",
+                "apoyo": "De dos millones setecientas mil a un millón trescientas mil.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "border crossing checkpoint queue",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Un cincuenta y tres coma ocho por ciento menos. Eso no es una tendencia demográfica, porque las tendencias demográficas no se mueven así. Eso es un interruptor que alguien bajó.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "CAÍDA DE LA MIGRACIÓN INTERNACIONAL",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 53.8,
+                "etiqueta": "por ciento menos en un año",
+                "decimales": 1,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "switch panel control room hand",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "No es demografía. Es un *interruptor*."
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "La propia Oficina del Censo lo dice con todas las letras en su nota de prensa: la desaceleración del crecimiento de la población estadounidense se debe, sobre todo, a ese desplome. No a los nacimientos, no a las mudanzas entre estados. A eso.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "flujo",
+                "cortado": true,
+                "de": "Fuera",
+                "a": "EEUU"
+              },
+              "rotulo": {
+                "kicker": "El caudal que sostenía las cuentas",
+                "texto": "Se corta *a la mitad*"
+              },
+              "kicker": "MIGRACIÓN INTERNACIONAL",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "census bureau official portrait press briefing",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Lo dice el propio censo",
+                "apoyo": "No los nacimientos. No las mudanzas. Eso.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "press conference podium microphones",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Para que se entienda el tamaño de lo que se cayó: en todo el país nacieron más personas de las que murieron, unas quinientas diecinueve mil netas en el año. La migración internacional aportaba más del doble que todos los nacimientos del país juntos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DE DÓNDE SALE EL CRECIMIENTO DE ESTADOS UNIDOS",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "barras": {
+                "unidad": "Personas en el año",
+                "datos": [
+                  {
+                    "etiqueta": "Nacimientos menos defunciones",
+                    "valor": 519000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Migración internacional",
+                    "valor": 1300000,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "hospital maternity newborn baby",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "Lo que sostiene el país",
+                "texto": "Más de *la mitad* viene de fuera"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "California recibió ciento nueve mil doscientas setenta y ocho personas del extranjero ese año. Nueva York, noventa y cinco mil seiscientas treinta y cuatro. Son las dos puertas de entrada más grandes del país, y por eso son las dos que más se notan cuando la puerta se estrecha.",
+          "voz": {
+            "speed": 0.99
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE LLEGÓ DEL EXTRANJERO",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "barras": {
+                "unidad": "Personas en el año",
+                "datos": [
+                  {
+                    "etiqueta": "California",
+                    "valor": 109278,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Nueva York",
+                    "valor": 95634,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "immigration office waiting room people",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "immigrant family mother portrait airport arrival",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "109.278",
+                "titular": "Lo que entró por la otra puerta",
+                "apoyo": "Solo en California, y solo en un año.",
+                "icono": "globo"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Las dos puertas de entrada *más grandes*."
+            }
+          ]
+        },
+        {
+          "id": "b3-07",
+          "vo": "Y con eso se cierran las cuentas de California. Doscientas veintinueve mil personas que se van a otros estados. Ciento nueve mil que llegan del extranjero. Los nacimientos menos las defunciones tapan casi todo lo que queda. Y al final del año faltan nueve mil.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "La cuenta de California",
+                "puntos": [
+                  "−229.077 a otros estados",
+                  "+109.278 del extranjero",
+                  "Nacimientos menos defunciones",
+                  "= −9.465 habitantes"
+                ]
+              },
+              "kicker": "LA RESTA COMPLETA"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calculator hands desk numbers",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Nueve mil. *Eso es todo*."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Las cuentas de los dos estados",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Los números finales son estos, y conviene decirlos despacio. California pasó de treinta y nueve millones trescientos sesenta y cuatro mil setecientos setenta y cuatro habitantes a treinta y nueve millones trescientos cincuenta y cinco mil trescientos nueve.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "POBLACIÓN DE CALIFORNIA · JULIO DE 2025",
+              "fuente": "Oficina del Censo de Estados Unidos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 39355309,
+                "etiqueta": "habitantes",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "california coast highway aerial",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "man portrait beach california casual",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "−0,02 %",
+                "titular": "Eso es todo lo que perdió",
+                "apoyo": "Después de treinta años de éxodo ininterrumpido.",
+                "icono": "persona"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Nueva York pasó de veinte millones mil cuatrocientos diecinueve a veinte millones dos mil cuatrocientos veintisiete. Es decir: creció. El estado del que todo el mundo huye terminó el año con mil ocho personas más.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "POBLACIÓN DE NUEVA YORK · JULIO DE 2025",
+              "fuente": "Oficina del Censo de Estados Unidos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 20002427,
+                "etiqueta": "habitantes",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "manhattan aerial view buildings",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "El estado del que todos huyen *creció*."
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "En todo el país solo cinco estados perdieron población ese año: California, Hawái, Nuevo México y Vermont. El quinto es Virginia Occidental, que lleva décadas perdiéndola por motivos que no tienen nada que ver con impuestos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Los que perdieron población",
+                "puntos": [
+                  "California",
+                  "Hawái",
+                  "Nuevo México",
+                  "Vermont"
+                ]
+              },
+              "kicker": "JULIO DE 2024 A JULIO DE 2025"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "small town main street america empty",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "coal miner man portrait west virginia",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Y Virginia Occidental, el quinto",
+                "apoyo": "Lleva décadas perdiendo gente, y no es por los impuestos.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Y treinta y un estados ganaron gente de otros estados, cuatro más que el año anterior. El país entero se está redistribuyendo por dentro, que es una cosa muy distinta de vaciarse.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "ESTADOS QUE GANAN GENTE DE OTROS ESTADOS",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "gente": {
+                "total": 50,
+                "destacados": 31,
+                "escala": 1,
+                "etiqueta": "Estados",
+                "etiquetaDestacados": "Ganan población interna"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "us map road trip highway signs",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "No se vacía",
+                "texto": "Se *redistribuye*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Los que más ganan son Carolina del Norte, Texas y Carolina del Sur. Los tres por encima de treinta mil personas solo en migración interna, y los tres con una cosa en común que no es el clima ni la política.",
+          "voz": {
+            "speed": 0.99
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "QUIÉN GANA MÁS GENTE DE OTROS ESTADOS",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "barras": {
+                "unidad": "Personas, saldo del año",
+                "datos": [
+                  {
+                    "etiqueta": "Carolina del Norte",
+                    "valor": 82000,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Texas",
+                    "valor": 78000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Carolina del Sur",
+                    "valor": 68000,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "family portrait new house moving south",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El sur se lo lleva todo",
+                "apoyo": "Y los tres tienen algo en común que no es el clima.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "texas suburb new construction homes",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Dicho de otra manera: Estados Unidos no está perdiendo gente. La está moviendo de sitio, lleva treinta años haciéndolo, y eso es una mudanza nacional, no un vaciado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "mapa",
+              "kicker": "DE DÓNDE A DÓNDE",
+              "mapa": {
+                "destaca": [
+                  "eeuu"
+                ],
+                "region": "norteamerica"
+              },
+              "rotulo": {
+                "kicker": "No pierde gente",
+                "texto": "La *mueve de sitio*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "No es un vaciado. Es una *mudanza*."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Por que se van",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Ahora la parte que sí explica algo de verdad. Por qué se van. Y la respuesta es tan aburrida que casi nunca sale en los titulares, porque no sirve para discutir de política.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La respuesta es *aburrida*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "for sale sign front yard american house",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "Por qué se van",
+                "texto": "Por el *precio*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "La vivienda media en California cuesta ochocientos cincuenta y cuatro mil dólares. Es la más cara de los cincuenta estados. En Carolina del Norte son trescientos ochenta y un mil. En Texas, trescientos tres mil: un tercio de lo que cuesta en California.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PRECIO MEDIO DE UNA VIVIENDA · 2026",
+              "fuente": "Datos de mercado inmobiliario de Estados Unidos",
+              "barras": {
+                "unidad": "Miles de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "California",
+                    "valor": 854,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Carolina del Norte",
+                    "valor": 381,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Texas",
+                    "valor": 303,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "real estate agent woman portrait sign",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "854.000 $",
+                "titular": "Contra trescientos mil en Texas",
+                "apoyo": "La misma casa, un tercio del precio, a dos mil kilómetros.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "california house exterior expensive",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "En la práctica funciona así. Un hogar que gana ciento cincuenta mil dólares cambia una casa de más de un millón en California por una equivalente de cuatrocientos o quinientos mil en Texas o en Arizona. Y sigue cobrando lo mismo, porque se lleva el trabajo puesto.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "moving van highway desert arizona",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "habitacion",
+              "rotulo": {
+                "kicker": "El mismo sueldo",
+                "texto": "Otra *casa*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "tech worker young man portrait laptop home office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Y se lleva el trabajo puesto",
+                "apoyo": "El mismo sueldo, en un sitio donde la casa cuesta un tercio.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Se lleva el trabajo *puesto*."
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "El ahorro medio de un californiano que se marcha, solo en el precio de la casa, son trescientos noventa y ocho mil dólares. Eso no es una decisión ideológica. Es la diferencia entre comprar y no comprar en toda una vida.",
+          "voz": {
+            "speed": 0.99
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE SE AHORRA UN CALIFORNIANO QUE SE VA",
+              "fuente": "Estudios de migración interna de Estados Unidos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 398000,
+                "etiqueta": "dólares en el precio de la casa",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "keys handover new home couple",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Casi *cuatrocientos mil* dólares."
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Y el efecto se sigue notando años después. Los que se van tienen un cuarenta y ocho por ciento más de probabilidades de ser propietarios siete años más tarde que californianos iguales a ellos que se quedaron.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "MÁS PROBABILIDADES DE SER PROPIETARIO A LOS SIETE AÑOS",
+              "fuente": "Estudios de migración interna de Estados Unidos",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 48,
+                "etiqueta": "por ciento más",
+                "decimales": 0,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young couple portrait first home keys",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "+48 %",
+                "titular": "Siete años después",
+                "apoyo": "Los que se fueron son propietarios; los que se quedaron, no.",
+                "icono": "llave"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "family porch house sunset america",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "Así que no se van por ideología, ni por el clima, ni por lo que sale en televisión. Se van porque la misma vida, con el mismo sueldo, cuesta un tercio a dos mil kilómetros de distancia. Y eso lleva siendo verdad treinta años.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No es ideología. Es el *precio*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "suburban street texas american flag",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "La misma vida",
+                "texto": "Un *tercio* del precio"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "El dinero que se va",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Y aquí llega la parte que sí importa de verdad, porque no va de cuánta gente se va. Va de cuánto dinero se va con ella, que es una cosa completamente distinta y mucho más grave.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No es cuánta gente. Es *cuánto dinero*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dollar bills counting hands close up",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "Lo que de verdad importa",
+                "texto": "El *dinero* que se va"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Hacienda de Estados Unidos publica cada año cuánta renta declarada cruza de un estado a otro, porque lo sabe: los contribuyentes cambian de dirección en la declaración. California perdió once mil novecientos millones de dólares de renta en un solo ejercicio.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "RENTA NETA QUE PIERDE CALIFORNIA EN UN AÑO",
+              "fuente": "Servicio de Impuestos Internos de Estados Unidos · ejercicio 2022",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 11900,
+                "etiqueta": "millones de dólares",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "tax forms paperwork desk irs",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "accountant man portrait office tax documents",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "11.900 M$",
+                "titular": "Renta que se va y no vuelve",
+                "apoyo": "En un solo ejercicio fiscal, solo en California.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Nueva York perdió nueve mil novecientos millones. Illinois seis mil. Massachusetts cuatro mil. Nueva Jersey dos mil seiscientos. Es siempre el mismo grupo de estados, año tras año.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "RENTA NETA PERDIDA EN UN AÑO",
+              "fuente": "Servicio de Impuestos Internos de Estados Unidos · ejercicio 2022",
+              "barras": {
+                "unidad": "Miles de millones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "California",
+                    "valor": 11.9,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Nueva York",
+                    "valor": 9.9,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Illinois",
+                    "valor": 6.0,
+                    "tono": "ocre",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chicago skyline river",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "bank teller woman portrait branch office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Siempre el mismo grupo",
+                "apoyo": "California, Nueva York, Illinois, Massachusetts y Nueva Jersey.",
+                "icono": "banco"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Y del otro lado, Florida ganó veinte mil seiscientos millones en un año. Texas cinco mil quinientos. Carolina del Sur cuatro mil cien. Carolina del Norte tres mil novecientos.",
+          "voz": {
+            "speed": 0.99
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "RENTA NETA GANADA EN UN AÑO",
+              "fuente": "Servicio de Impuestos Internos de Estados Unidos · ejercicio 2022",
+              "barras": {
+                "unidad": "Miles de millones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "Florida",
+                    "valor": 20.6,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Texas",
+                    "valor": 5.5,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Carolina del Sur",
+                    "valor": 4.1,
+                    "tono": "ocre",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "miami beach florida palm trees",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "villa",
+              "rotulo": {
+                "kicker": "Donde acaba el dinero",
+                "texto": "Florida, *veinte mil millones*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Y en una década las cifras dan vértigo. Nueva York ha perdido ciento once mil millones de dólares de renta. California, ciento dos mil. Illinois, sesenta y tres mil. Florida ha ganado ciento noventa y seis mil millones ella sola.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "wall street financial district signage",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "barras",
+              "kicker": "RENTA NETA MOVIDA EN UNA DÉCADA",
+              "fuente": "Servicio de Impuestos Internos de Estados Unidos",
+              "barras": {
+                "unidad": "Miles de millones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "Florida",
+                    "valor": 196,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Nueva York",
+                    "valor": 111,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "California",
+                    "valor": 102,
+                    "tono": "ocre"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ciento noventa y seis mil *millones*."
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "Y hay un dato que lo resume todo mejor que ningún otro. Cada residente neto que gana Florida llega con una renta media de ciento ochenta y cuatro mil setecientos setenta y un dólares. Esa no es la clase media que se muda buscando una casa más barata.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "RENTA MEDIA POR CADA RESIDENTE NETO QUE GANA FLORIDA",
+              "fuente": "Servicio de Impuestos Internos de Estados Unidos · ejercicio 2022",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 184771,
+                "etiqueta": "dólares",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "luxury yacht marina florida wealthy",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "wealthy older man portrait florida marina",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "184.771 $",
+                "titular": "Esa no es la clase media",
+                "apoyo": "Es la renta media de cada nuevo residente neto de Florida.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-07",
+          "vo": "Aquí hay que ser honesto con una cosa, porque es importante. Este dato de la renta va con cuatro años de retraso: lo último que ha publicado Hacienda es el ejercicio de dos mil veintidós. No sabemos qué ha pasado con la renta desde entonces.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carta",
+              "rotulo": {
+                "kicker": "Honradez con el dato",
+                "texto": "Cuatro años de *retraso*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "archive filing cabinet documents old",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "tax policy analyst portrait office california",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "El dato de la renta va tarde",
+                "apoyo": "Lo último publicado es el ejercicio de dos mil veintidós.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Por que eso si duele",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y esto es lo que convierte una mudanza nacional en un problema de verdad para dos estados. El uno por ciento más rico de California paga entre el cuarenta y el cincuenta por ciento de todo el impuesto sobre la renta del estado.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "QUIÉN PAGA EL IMPUESTO SOBRE LA RENTA EN CALIFORNIA",
+              "fuente": "Institución Hoover, Universidad de Stanford",
+              "gente": {
+                "total": 100,
+                "destacados": 1,
+                "escala": 1,
+                "etiqueta": "Contribuyentes",
+                "etiquetaDestacados": "Paga casi la mitad"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "sacramento california capitol building",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "state legislator man portrait capitol office",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "40-50 %",
+                "titular": "Lo paga el uno por ciento",
+                "apoyo": "De todo el impuesto sobre la renta del estado.",
+                "icono": "banco"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Y esa renta del uno por ciento no son sueldos. Son plusvalías de bolsa, ventas de empresas y salidas a bolsa, casi todo concentrado en el sector tecnológico. Es la base fiscal más estrecha y más volátil de cualquier estado grande de Estados Unidos.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "De qué depende la caja de California",
+                "puntos": [
+                  "Plusvalías de bolsa",
+                  "Ventas de empresas",
+                  "Salidas a bolsa",
+                  "Casi todo, tecnología"
+                ]
+              },
+              "kicker": "UNA BASE MUY ESTRECHA"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock market trading screens green red",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "financial analyst woman portrait trading floor",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La base más estrecha del país",
+                "apoyo": "No son sueldos: son plusvalías, y se mueven con la bolsa.",
+                "icono": "grafico"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Cuando la bolsa sube, California nada en dinero y aprueba presupuestos históricos. Cuando cae, el estado entra en crisis presupuestaria en cuestión de meses. Lo ha vivido ya dos veces en veinte años, y las dos veces por el mismo motivo.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock market crash chart falling",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "Una base muy estrecha",
+                "texto": "Sube y baja *con la bolsa*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty government office budget cuts",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Así que perder doscientas mil personas al año no le hace prácticamente nada a California. Perder a mil de las de arriba sí. Es la diferencia entre un problema de población y un problema de tesorería.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Doscientas mil no son nada. *Mil sí*."
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "executive man portrait suit private jet",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No es un problema demográfico",
+                "apoyo": "Es un problema de caja, y va por arriba, no por abajo.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "private jet airport tarmac executive",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Y los titulares cuentan siempre el primero, el de la población, que es justo el que no está pasando. El segundo, el de la caja, no sale casi nunca, y es el único que puede tumbar un presupuesto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "Dos problemas distintos",
+                "texto": "Población o *tesorería*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newspaper headlines stack print",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Cuentan el que *no pasa*."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Ahora lo que juega en contra de todo lo que acabo de contar, que es la parte que casi nadie pone y sin la cual esto sería propaganda en vez de análisis.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Lo que juega *en contra*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "debate two people discussion office",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "La otra cara",
+                "texto": "Lo que *no cuadra*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Lo primero, y es lo más serio. Que la población se compense no significa que se compense lo mismo. El que llega del extranjero no es, fiscalmente, el mismo contribuyente que el ejecutivo que se muda a Texas con su empresa detrás.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "construction worker immigrant site america",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "dosEpocas",
+              "rotulo": {
+                "kicker": "No es lo mismo",
+                "texto": "Uno por otro *no es igual*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "warehouse worker man portrait logistics center",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "La cabeza cuadra, la caja no",
+                "apoyo": "Compensar la población no es compensar la recaudación.",
+                "icono": "balanza"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Lo segundo: Nueva York creció mil ocho personas. Eso no es crecer, eso es quedarse exactamente plano. Y hay proyecciones serias que le dan una década entera de descenso por delante.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE CRECIÓ NUEVA YORK",
+              "fuente": "Oficina del Censo de Estados Unidos · 2025",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1008,
+                "etiqueta": "habitantes en todo el año",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "new york empty subway platform",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Mil ocho personas no es *crecer*."
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Lo tercero: tres millones cuatrocientas mil personas en veinte años sí vacían algo, aunque la cifra total no se mueva. Vacían barrios concretos, escuelas concretas y padrones concretos, aunque el estado entero siga igual de grande.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "VEINTE AÑOS DE SALDO NEGATIVO",
+              "fuente": "Departamento de Finanzas de California",
+              "gente": {
+                "total": 390,
+                "destacados": 34,
+                "escala": 1,
+                "etiqueta": "Californianos",
+                "etiquetaDestacados": "Se fueron en veinte años"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty house interior for sale",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "school teacher woman portrait empty classroom",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Se vacían escuelas, no estados",
+                "apoyo": "El total no se mueve; los barrios concretos sí.",
+                "icono": "casa"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Y lo cuarto, que es lo que hace todo esto reversible. La migración internacional es una decisión política, no una ley de la naturaleza. Lo que bajó un interruptor lo puede volver a subir el año que viene, o bajarlo todavía más.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government policy signing document official",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "No es una ley natural",
+                "texto": "Es una *decisión*"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Un interruptor se puede *volver a subir*."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Que significa esto para ti",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Y ahora por qué esto te importa a ti, que con toda probabilidad no vives en California. Porque el mecanismo que acabas de ver es exactamente el mismo que sostiene la población de España, solo que aquí casi nunca se cuenta así.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El mecanismo es el *mismo aquí*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spain city aerial view madrid",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "kicker": "El mismo motor",
+                "texto": "También *aquí*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "España acaba de marcar su récord histórico de población: cuarenta y nueve millones ochocientos un mil quinientos cincuenta y nueve habitantes a uno de julio de dos mil veintiséis. Nunca había habido tanta gente viviendo dentro de este país.",
+          "voz": {
+            "speed": 1.0
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "POBLACIÓN DE ESPAÑA · 1 DE JULIO DE 2026",
+              "fuente": "Instituto Nacional de Estadística",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 49801559,
+                "etiqueta": "habitantes",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "barcelona street busy crowd spain",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "spanish man portrait city street casual",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "49,8 M",
+                "titular": "Récord histórico de población",
+                "apoyo": "España nunca había tenido tanta gente dentro.",
+                "icono": "persona"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Y ahora el desglose, que es donde está todo. En un solo trimestre, las personas nacidas fuera de España subieron en ciento veintitrés mil setenta y seis, hasta superar los diez millones por primera vez en la historia.",
+          "voz": {
+            "speed": 0.99
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "NACIDOS FUERA DE ESPAÑA · EN UN TRIMESTRE",
+              "fuente": "Instituto Nacional de Estadística · 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 123076,
+                "etiqueta": "personas más",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "airport arrivals spain families luggage",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "maletero",
+              "rotulo": {
+                "kicker": "En un solo trimestre",
+                "texto": "Ciento veintitrés mil *más*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Y en ese mismo trimestre, las personas nacidas en España bajaron en veintiséis mil cincuenta y cinco. Las dos cosas a la vez. Exactamente el mismo mecanismo que en California, en el mismo momento, con otra bandera.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DE DÓNDE SALE EL RÉCORD DE POBLACIÓN DE ESPAÑA",
+              "fuente": "Instituto Nacional de Estadística · 2026",
+              "barras": {
+                "unidad": "Personas en el trimestre",
+                "datos": [
+                  {
+                    "etiqueta": "Nacidos fuera",
+                    "valor": 123076,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Nacidos en España",
+                    "valor": 26055,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spanish village elderly empty street",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "El récord lo sostiene *quien llega*."
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "España no bate récords de población porque nazca gente. Los bate porque llega gente. Igual que California no se vaciaba porque llegaba gente. El motor es el mismo, y la dependencia también.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "gente",
+              "kicker": "QUIÉN SOSTIENE EL RÉCORD",
+              "fuente": "Instituto Nacional de Estadística · 2026",
+              "gente": {
+                "total": 100,
+                "destacados": 21,
+                "escala": 1,
+                "etiqueta": "Residentes en España",
+                "etiquetaDestacados": "Nacidos fuera"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "multicultural street market spain",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young woman portrait apartment city spain",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No crece por los nacimientos",
+                "apoyo": "Crece porque llega gente. Igual que allí.",
+                "icono": "globo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Así que la lección sirve para cualquier país rico, y es bastante incómoda. Un país no se vacía por quien se va. Se vacía el día que deja de llegar quien llegaba, y eso puede pasar de un año para otro sin que cambie nada más.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No te vacía quien *se va*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty airport terminal night",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Te vacía quien *deja de llegar*."
+            }
+          ]
+        },
+        {
+          "id": "b9-07",
+          "vo": "Y eso no es un destino demográfico que se hereda. Es una decisión que alguien firma en un despacho, que se revisa cada año y que se puede cambiar en el siguiente. California acaba de descubrir lo que cuesta cuando la firman en contra.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "No es un destino",
+                "texto": "Es una *firma*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "official signing document desk pen",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "mayor man portrait city hall office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Se decide, no se hereda",
+                "apoyo": "Y se puede cambiar el año que viene.",
+                "icono": "documento"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b10-01",
+          "vo": "Durante treinta años California perdió gente todos los años y nunca lo notó, porque por la otra puerta entraba más de la que salía. El año pasado esa puerta se cerró a la mitad, y de golpe el mismo éxodo de siempre se convirtió en una pérdida de población.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Treinta años de éxodo *sin consecuencias*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "california sunset highway empty road",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "Y entonces se cerró la otra puerta",
+                "texto": "El mismo éxodo, *otro resultado*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b10-02",
+          "vo": "No cambió quién se iba. Cambió quién llegaba. Y eso, en cualquier país rico del mundo, es lo único que de verdad mueve la aguja.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "sub": "No cambió quién se iba. Cambió quién llegaba.",
+                "suscribete": true
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Cambió quién *llegaba*."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "California Lleva 30 Años Perdiendo Gente. Nunca Le Pasó Nada Hasta Ahora",
+    "descripcion": "Todos los años sale la misma noticia: la gente está huyendo de California y de Nueva York. Y los números que la sostienen son de verdad. Entre julio de 2024 y julio de 2025, California perdió 229.077 personas contra otros estados. Nueva York, 137.586.\n\nPero hay un tercer dato, publicado por la misma oficina el mismo día, que desmonta la noticia entera: la población total de California solo bajó en 9.465 personas. Un 0,02 %. Y la de Nueva York no bajó: subió en 1.008.\n\nSi se van 229.000 y al final del año solo faltan 9.000, la pregunta no es quién se fue. Es quién estaba llegando.\n\nDATOS CLAVE\n\n• California pierde gente contra otros estados todos los años desde principios de los noventa, sin una sola excepción. En dos décadas, el saldo acumulado son casi 3,4 millones de personas. Y en ese mismo periodo su población creció en millones.\n\n• El pico fue la pandemia: 250.000 en 2022-23. Bajó a 140.000 y el año pasado volvió a 216.000. Pero 216.000 es exactamente el nivel de 2018 y 2019. No es una aceleración: es la normalidad de California.\n\n• Lo que cambió está en la otra puerta. La migración internacional neta hacia Estados Unidos pasó de 2,7 millones de personas a 1,3 millones en un año: un 53,8 % menos. La Oficina del Censo dice con todas las letras que la desaceleración del crecimiento del país se debe sobre todo a eso.\n\n• Para dimensionarlo: en todo el país nacieron 519.000 personas netas más de las que murieron. La migración internacional aportaba más del doble que todos los nacimientos juntos. La cuenta de California cuadra así: −229.077 a otros estados, +109.278 del extranjero, más nacimientos menos defunciones. Resultado: −9.465.\n\n• Solo cinco estados perdieron población. Y 31 ganaron gente de otros estados, cuatro más que el año anterior: el país se redistribuye, no se vacía.\n\n• Por qué se van, que es lo aburrido: la vivienda media cuesta 854.000 dólares en California y 303.000 en Texas. El ahorro medio de quien se marcha, solo en el precio de la casa, son 398.000 dólares, y siete años después tiene un 48 % más de probabilidades de ser propietario.\n\n• Lo que sí duele no es la gente: es la renta. California perdió 11.900 millones de dólares de renta declarada en un ejercicio; Nueva York, 9.900. Florida ganó 20.600 millones. En una década, Nueva York ha perdido 111.000 millones y Florida ha ganado 196.000. Cada residente neto que gana Florida llega con una renta media de 184.771 dólares.\n\n• Y por eso duele: el 1 % más rico paga entre el 40 % y el 50 % de todo el impuesto sobre la renta de California, y esa renta son plusvalías de bolsa y salidas a bolsa. Perder 200.000 personas no es nada. Perder a mil de las de arriba sí.\n\nEl vídeo incluye lo que juega en contra de su propia tesis: que compensar la población no es compensar la recaudación, que crecer 1.008 personas no es crecer, que 3,4 millones en veinte años sí vacían barrios y escuelas concretos, y que el dato de la renta va con cuatro años de retraso.\n\nY termina donde importa desde aquí. España acaba de marcar su récord histórico de población: 49.801.559 habitantes a 1 de julio de 2026. En un solo trimestre, los nacidos fuera de España subieron en 123.076 y los nacidos en España bajaron en 26.055. El mismo mecanismo, en el mismo momento, con otra bandera. Un país no se vacía por quien se va: se vacía el día que deja de llegar quien llegaba. Y eso no es un destino demográfico, es una decisión que alguien firma en un despacho.\n\nFUENTES\nOficina del Censo de Estados Unidos — estimaciones de población y componentes del cambio, julio de 2024 a julio de 2025\nDepartamento de Finanzas de California — migración interna y componentes del cambio\nServicio de Impuestos Internos de Estados Unidos — datos de migración de renta declarada, ejercicio 2022\nInstitución Hoover, Universidad de Stanford — concentración del impuesto sobre la renta de California\nInstituto Nacional de Estadística — Estadística Continua de Población, 1 de julio de 2026\nDatos de mercado inmobiliario de Estados Unidos — precio medio de la vivienda por estado, 2026\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#EstadosUnidos #California #Economía",
+    "etiquetas": [
+      "california",
+      "nueva york",
+      "migracion interna estados unidos",
+      "exodo california",
+      "censo estados unidos",
+      "poblacion estados unidos",
+      "migracion internacional",
+      "texas",
+      "florida",
+      "carolina del norte",
+      "precio vivienda estados unidos",
+      "irs",
+      "renta declarada",
+      "impuestos estados unidos",
+      "uno por ciento mas rico",
+      "presupuesto california",
+      "silicon valley",
+      "teletrabajo mudanzas",
+      "poblacion españa",
+      "record poblacion",
+      "ine",
+      "inmigracion españa",
+      "demografia",
+      "economia estados unidos",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x"
+    ]
+  }
+}
