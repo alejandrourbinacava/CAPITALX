@@ -26,7 +26,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "los angeles freeway traffic aerial",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8783033",
+                  "url": "https://videos.pexels.com/video-files/8783033/8783033-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-a-road-system-in-los-angeles-8783033/"
+                },
+                "fichero": "clips/pexels-8783033.mp4"
               },
               "camara": "push"
             },
@@ -46,7 +56,15 @@
                 "lado": "der",
                 "titular": "La noticia se repite cada año",
                 "apoyo": "Y los números que la sostienen son de verdad.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7464213",
+                  "url": "https://images.pexels.com/photos/7464213/pexels-photo-7464213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/man-in-blue-shirt-and-pants-standing-near-brown-box-7464213/"
+                },
+                "fichero": "recortes-auto/pexels-7464213.png"
               }
             }
           ]
@@ -55,7 +73,7 @@
           "id": "b0-02",
           "vo": "Y los números que la sostienen no son un invento. Entre julio de dos mil veinticuatro y julio de dos mil veinticinco, California perdió doscientas veintinueve mil personas contra otros estados del país. Es el mayor saldo negativo de Estados Unidos, y con diferencia.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -76,7 +94,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "moving truck loading boxes suburban street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4855685",
+                  "url": "https://videos.pexels.com/video-files/4855685/4855685-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Erkan Avanoğlu",
+                  "pagina": "https://www.pexels.com/video/a-man-loading-cargos-in-a-cargo-truck-4855685/"
+                },
+                "fichero": "clips/pexels-4855685.mp4"
               },
               "camara": "pull"
             },
@@ -89,7 +117,15 @@
                 "cifra": "229.077",
                 "titular": "El mayor saldo negativo del país",
                 "apoyo": "Nadie pierde más gente contra otros estados que California.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7641998",
+                  "url": "https://images.pexels.com/photos/7641998/pexels-photo-7641998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Alena Darmel",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-long-sleeve-shirt-and-brown-pants-7641998/"
+                },
+                "fichero": "recortes-auto/pexels-7641998.png"
               }
             },
             {
@@ -129,7 +165,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "brooklyn bridge morning commuters",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35164033",
+                  "url": "https://videos.pexels.com/video-files/35164033/14895463_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Yura Forrat",
+                  "pagina": "https://www.pexels.com/video/traffic-at-night-near-brooklyn-bridge-new-york-35164033/"
+                },
+                "fichero": "clips/pexels-35164033.mp4"
               },
               "camara": "panL"
             },
@@ -142,7 +188,15 @@
                 "cifra": "137.586",
                 "titular": "Nueva York, la segunda",
                 "apoyo": "Y detrás, Illinois. El titular se escribe solo.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12551617",
+                  "url": "https://images.pexels.com/photos/12551617/pexels-photo-12551617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hannah Bickmore",
+                  "pagina": "https://www.pexels.com/photo/woman-sitting-in-observation-tower-in-new-york-12551617/"
+                },
+                "fichero": "recortes-auto/pexels-12551617.png"
               }
             }
           ]
@@ -162,7 +216,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty office desk documents papers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7651532",
+                  "url": "https://videos.pexels.com/video-files/7651532/7651532-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/close-up-shot-of-a-document-with-graph-on-a-table-7651532/"
+                },
+                "fichero": "clips/pexels-7651532.mp4"
               },
               "camara": "push"
             },
@@ -174,7 +238,15 @@
                 "lado": "izq",
                 "titular": "Está en la misma tabla",
                 "apoyo": "Mismo organismo, mismo día, misma página.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841835",
+                  "url": "https://images.pexels.com/photos/7841835/pexels-photo-7841835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/a-man-holding-gray-folder-7841835/"
+                },
+                "fichero": "recortes-auto/pexels-7841835.png"
               }
             }
           ]
@@ -183,7 +255,7 @@
           "id": "b0-05",
           "vo": "En ese mismo año, la población total de California bajó en nueve mil cuatrocientas sesenta y cinco personas. Nueve mil, sobre treinta y nueve millones y medio. Es una caída del cero coma cero dos por ciento.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -209,14 +281,32 @@
                 "cifra": "0,02 %",
                 "titular": "Eso es todo lo que bajó",
                 "apoyo": "Nueve mil personas sobre treinta y nueve millones.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11741929",
+                  "url": "https://images.pexels.com/photos/11741929/pexels-photo-11741929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Derek Suarez",
+                  "pagina": "https://www.pexels.com/photo/beautiful-woman-standing-on-city-street-11741929/"
+                },
+                "fichero": "recortes-auto/pexels-11741929.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "california suburb aerial houses quiet",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35833536",
+                  "url": "https://videos.pexels.com/video-files/35833536/15194298_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Soly Moses",
+                  "pagina": "https://www.pexels.com/video/drone-view-of-scenic-cherry-valley-road-35833536/"
+                },
+                "fichero": "clips/pexels-35833536.mp4"
               },
               "camara": "pull"
             }
@@ -247,7 +337,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "new york skyline dusk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27358917",
+                  "url": "https://videos.pexels.com/video-files/27358917/12123946_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Shane Richards",
+                  "pagina": "https://www.pexels.com/video/timelapse-of-dramatic-sunset-with-new-york-skyline-27358917/"
+                },
+                "fichero": "clips/pexels-27358917.mp4"
               },
               "camara": "push"
             },
@@ -276,7 +376,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport arrivals hall international passengers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34782576",
+                  "url": "https://videos.pexels.com/video-files/34782576/14746154_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/bustling-activity-at-suvarnabhumi-airport-bangkok-34782576/"
+                },
+                "fichero": "clips/pexels-34782576.mp4"
               },
               "camara": "panR"
             },
@@ -315,7 +425,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "archive newspaper printing press",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38826405",
+                  "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Somogro Bangladesh",
+                  "pagina": "https://www.pexels.com/video/high-speed-newspaper-printing-process-close-up-38826405/"
+                },
+                "fichero": "clips/pexels-38826405.mp4"
               },
               "camara": "push"
             },
@@ -327,7 +447,15 @@
                 "lado": "der",
                 "titular": "Treinta años de lo mismo",
                 "apoyo": "Y el resultado nunca fue el que dice el titular.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13743899",
+                  "url": "https://images.pexels.com/photos/13743899/pexels-photo-13743899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Daniil Kondrashin",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-blazer-touching-her-hair-13743899/"
+                },
+                "fichero": "recortes-auto/pexels-13743899.png"
               }
             }
           ]
@@ -343,7 +471,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "washington dc capitol building exterior",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29188206",
+                  "url": "https://videos.pexels.com/video-files/29188206/12603590_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 18,
+                  "autor": "In Old News LLC",
+                  "pagina": "https://www.pexels.com/video/us-capitol-building-with-dramatic-sky-29188206/"
+                },
+                "fichero": "clips/pexels-29188206.mp4"
               },
               "camara": "pull"
             },
@@ -363,7 +501,15 @@
                 "lado": "izq",
                 "titular": "Se rompió en otro sitio",
                 "apoyo": "Y no tiene nada que ver con los impuestos de California.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32694809",
+                  "url": "https://images.pexels.com/photos/32694809/pexels-photo-32694809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Chris wade NTEZICIMPA",
+                  "pagina": "https://www.pexels.com/photo/formal-signing-ceremony-with-official-in-office-32694809/"
+                },
+                "fichero": "recortes-auto/pexels-32694809.png"
               }
             }
           ]
@@ -383,7 +529,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "madrid street crowd spain",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38471319",
+                  "url": "https://videos.pexels.com/video-files/38471319/16338256_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Ludovic Delot",
+                  "pagina": "https://www.pexels.com/video/nighttime-street-celebration-with-energetic-crowd-38471319/"
+                },
+                "fichero": "clips/pexels-38471319.mp4"
               },
               "camara": "push"
             },
@@ -395,7 +551,15 @@
                 "lado": "der",
                 "titular": "También va de aquí",
                 "apoyo": "Cualquier país rico que crezca con gente de fuera.",
-                "icono": "globo"
+                "icono": "globo",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7516606",
+                  "url": "https://images.pexels.com/photos/7516606/pexels-photo-7516606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Istvan Szabo",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-denim-shorts-posing-7516606/"
+                },
+                "fichero": "recortes-auto/pexels-7516606.png"
               }
             }
           ]
@@ -417,7 +581,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "vintage california highway 1990s footage",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9699880",
+                  "url": "https://videos.pexels.com/video-files/9699880/9699880-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/aerial-footage-of-a-road-9699880/"
+                },
+                "fichero": "clips/pexels-9699880.mp4"
               },
               "camara": "push"
             },
@@ -438,7 +612,15 @@
                 "cifra": "1990",
                 "titular": "Sin una sola excepción",
                 "apoyo": "Treinta años seguidos de saldo negativo.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7467849",
+                  "url": "https://images.pexels.com/photos/7467849/pexels-photo-7467849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/portrait-photo-of-man-in-green-and-black-crew-neck-shirt-7467849/"
+                },
+                "fichero": "recortes-auto/pexels-7467849.png"
               }
             }
           ]
@@ -458,7 +640,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "closed factory gates industrial decline",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8846989",
+                  "url": "https://videos.pexels.com/video-files/8846989/8846989-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Анатолий",
+                  "pagina": "https://www.pexels.com/video/a-footage-of-a-locked-door-8846989/"
+                },
+                "fichero": "clips/pexels-8846989.mp4"
               },
               "camara": "pull"
             },
@@ -470,7 +662,15 @@
                 "lado": "der",
                 "titular": "Empezó con la recesión de los noventa",
                 "apoyo": "Empleo industrial y de defensa que no volvió.",
-                "icono": "fabrica"
+                "icono": "fabrica",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19544217",
+                  "url": "https://images.pexels.com/photos/19544217/pexels-photo-19544217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hoang NC",
+                  "pagina": "https://www.pexels.com/photo/industrial-worker-in-helmet-19544217/"
+                },
+                "fichero": "recortes-auto/pexels-19544217.png"
               }
             },
             {
@@ -487,7 +687,7 @@
           "id": "b2-03",
           "vo": "En las dos últimas décadas, el saldo acumulado son casi tres millones cuatrocientas mil personas que se fueron a otros estados y no volvieron. Es más gente que toda la población de Uruguay, saliendo de un solo estado.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -508,7 +708,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowd walking time lapse city",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3796984",
+                  "url": "https://videos.pexels.com/video-files/3796984/3796984-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Baraa Jalahej",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-a-busy-street-in-germany-3796984/"
+                },
+                "fichero": "clips/pexels-3796984.mp4"
               },
               "camara": "panL"
             },
@@ -545,7 +755,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "los angeles panorama dense city aerial",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11504678",
+                  "url": "https://videos.pexels.com/video-files/11504678/11504678-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Daniel Narinian",
+                  "pagina": "https://www.pexels.com/video/clear-sky-over-los-angeles-suburbs-11504678/"
+                },
+                "fichero": "clips/pexels-11504678.mp4"
               },
               "camara": "push"
             },
@@ -591,7 +811,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty san francisco street pandemic",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29190917",
+                  "url": "https://videos.pexels.com/video-files/29190917/12604308_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Dubang chang",
+                  "pagina": "https://www.pexels.com/video/san-francisco-downtown-cable-car-journey-29190917/"
+                },
+                "fichero": "clips/pexels-29190917.mp4"
               },
               "camara": "pull"
             },
@@ -603,7 +833,15 @@
                 "lado": "der",
                 "titular": "Y entonces se escribió lo contrario",
                 "apoyo": "«El éxodo se ha terminado», año dos mil veinticuatro.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3649240",
+                  "url": "https://images.pexels.com/photos/3649240/pexels-photo-3649240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "emre keshavarz",
+                  "pagina": "https://www.pexels.com/photo/woman-using-typewriter-3649240/"
+                },
+                "fichero": "recortes-auto/pexels-3649240.png"
               }
             }
           ]
@@ -619,7 +857,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "television news studio broadcast",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14367163",
+                  "url": "https://videos.pexels.com/video-files/14367163/14367163-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "INOCENTE SANCHEZ GUADARRAMA",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-a-crew-working-at-a-tv-studio-14367163/"
+                },
+                "fichero": "clips/pexels-14367163.mp4"
               },
               "camara": "push"
             },
@@ -635,7 +883,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "smartphone scrolling news headlines",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5201210",
+                  "url": "https://videos.pexels.com/video-files/5201210/5201210-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "DMC Filmes",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-person-surfing-online-using-a-smartphone-5201210/"
+                },
+                "fichero": "clips/pexels-5201210.mp4"
               },
               "camara": "panR"
             }
@@ -657,14 +915,32 @@
                 "cifra": "2018",
                 "titular": "El mismo nivel que antes de la pandemia",
                 "apoyo": "Doscientas dieciséis mil es el número normal de California.",
-                "icono": "grafico"
+                "icono": "grafico",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7172997",
+                  "url": "https://images.pexels.com/photos/7172997/pexels-photo-7172997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nataliya Vaitkevich",
+                  "pagina": "https://www.pexels.com/photo/photo-of-a-businesswoman-with-her-hand-on-her-head-7172997/"
+                },
+                "fichero": "recortes-auto/pexels-7172997.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "archive footage office 2019 workers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37047063",
+                  "url": "https://videos.pexels.com/video-files/37047063/15694207_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Mahadi Hassan Molla",
+                  "pagina": "https://www.pexels.com/video/busy-office-environment-in-bangladesh-37047063/"
+                },
+                "fichero": "clips/pexels-37047063.mp4"
               },
               "camara": "pull"
             },
@@ -701,7 +977,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "open door corridor light",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6279418",
+                  "url": "https://videos.pexels.com/video-files/6279418/6279418-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Yaroslav Shuraev",
+                  "pagina": "https://www.pexels.com/video/lights-turning-on-one-by-one-in-the-alley-6279418/"
+                },
+                "fichero": "clips/pexels-6279418.mp4"
               },
               "camara": "push"
             },
@@ -713,7 +999,15 @@
                 "lado": "izq",
                 "titular": "Nunca bastó para vaciar nada",
                 "apoyo": "Treinta años de saldo negativo y la población subiendo.",
-                "icono": "visto"
+                "icono": "visto",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8197541",
+                  "url": "https://images.pexels.com/photos/8197541/pexels-photo-8197541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Yan Krukau",
+                  "pagina": "https://www.pexels.com/photo/teacher-holding-a-laptop-while-in-the-classroom-8197541/"
+                },
+                "fichero": "recortes-auto/pexels-8197541.png"
               }
             }
           ]
@@ -739,7 +1033,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport departures board flipping",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4684084",
+                  "url": "https://videos.pexels.com/video-files/4684084/4684084-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Taryn Elliott",
+                  "pagina": "https://www.pexels.com/video/low-angle-view-of-flight-schedules-on-a-board-4684084/"
+                },
+                "fichero": "clips/pexels-4684084.mp4"
               },
               "camara": "push"
             },
@@ -757,7 +1061,7 @@
           "id": "b3-02",
           "vo": "La migración internacional neta hacia Estados Unidos pasó de dos millones setecientas mil personas en un año a un millón trescientas mil al siguiente. En doce meses se quedó por debajo de la mitad.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -791,14 +1095,32 @@
                 "cifra": "−53,8 %",
                 "titular": "En un solo año",
                 "apoyo": "De dos millones setecientas mil a un millón trescientas mil.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33693998",
+                  "url": "https://images.pexels.com/photos/33693998/pexels-photo-33693998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "LBK STUDIO",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-uniformed-security-officer-outdoors-33693998/"
+                },
+                "fichero": "recortes-auto/pexels-33693998.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "border crossing checkpoint queue",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32654547",
+                  "url": "https://videos.pexels.com/video-files/32654547/13922795_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/busy-airport-terminal-security-checkpoint-scene-32654547/"
+                },
+                "fichero": "clips/pexels-32654547.mp4"
               },
               "camara": "pull"
             }
@@ -830,7 +1152,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "switch panel control room hand",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6520278",
+                  "url": "https://videos.pexels.com/video-files/6520278/6520278-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/person-flicking-switches-6520278/"
+                },
+                "fichero": "clips/pexels-6520278.mp4"
               },
               "camara": "push"
             },
@@ -870,14 +1202,32 @@
                 "lado": "der",
                 "titular": "Lo dice el propio censo",
                 "apoyo": "No los nacimientos. No las mudanzas. Eso.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841468",
+                  "url": "https://images.pexels.com/photos/7841468/pexels-photo-7841468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/a-female-lawyer-writing-on-documents-7841468/"
+                },
+                "fichero": "recortes-auto/pexels-7841468.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "press conference podium microphones",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11336628",
+                  "url": "https://videos.pexels.com/video-files/11336628/11336628-hd_1366_720_50fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 12,
+                  "autor": "TREEDEO.ST",
+                  "pagina": "https://www.pexels.com/video/a-man-in-a-black-suit-giving-a-speech-11336628/"
+                },
+                "fichero": "clips/pexels-11336628.mp4"
               },
               "camara": "pull"
             }
@@ -914,7 +1264,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "hospital maternity newborn baby",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6849063",
+                  "url": "https://videos.pexels.com/video-files/6849063/6849063-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/mother-caressing-baby-s-foot-6849063/"
+                },
+                "fichero": "clips/pexels-6849063.mp4"
               },
               "camara": "pull"
             },
@@ -959,7 +1319,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "immigration office waiting room people",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28894958",
+                  "url": "https://videos.pexels.com/video-files/28894958/12507461_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/bustling-airport-baggage-claim-scene-28894958/"
+                },
+                "fichero": "clips/pexels-28894958.mp4"
               },
               "camara": "panR"
             },
@@ -972,7 +1342,15 @@
                 "cifra": "109.278",
                 "titular": "Lo que entró por la otra puerta",
                 "apoyo": "Solo en California, y solo en un año.",
-                "icono": "globo"
+                "icono": "globo",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11668205",
+                  "url": "https://images.pexels.com/photos/11668205/pexels-photo-11668205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jeff Vinluan",
+                  "pagina": "https://www.pexels.com/photo/affectionate-mother-and-daughter-11668205/"
+                },
+                "fichero": "recortes-auto/pexels-11668205.png"
               }
             },
             {
@@ -1005,7 +1383,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calculator hands desk numbers",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8275990",
+                  "url": "https://videos.pexels.com/video-files/8275990/8275990-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "PNW Production",
+                  "pagina": "https://www.pexels.com/video/a-person-using-a-calculator-8275990/"
+                },
+                "fichero": "clips/pexels-8275990.mp4"
               },
               "camara": "push"
             },
@@ -1025,7 +1413,7 @@
           "id": "b4-01",
           "vo": "Los números finales son estos, y conviene decirlos despacio. California pasó de treinta y nueve millones trescientos sesenta y cuatro mil setecientos setenta y cuatro habitantes a treinta y nueve millones trescientos cincuenta y cinco mil trescientos nueve.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -1046,7 +1434,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "california coast highway aerial",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3578886",
+                  "url": "https://videos.pexels.com/video-files/3578886/3578886-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Paulo Renato",
+                  "pagina": "https://www.pexels.com/video/highway-one-built-along-the-mountain-coast-of-california-3578886/"
+                },
+                "fichero": "clips/pexels-3578886.mp4"
               },
               "camara": "pull"
             },
@@ -1059,7 +1457,15 @@
                 "cifra": "−0,02 %",
                 "titular": "Eso es todo lo que perdió",
                 "apoyo": "Después de treinta años de éxodo ininterrumpido.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33832556",
+                  "url": "https://images.pexels.com/photos/33832556/pexels-photo-33832556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jonathan Meza",
+                  "pagina": "https://www.pexels.com/photo/thoughtful-man-by-the-sea-in-long-beach-33832556/"
+                },
+                "fichero": "recortes-auto/pexels-33832556.png"
               }
             }
           ]
@@ -1089,7 +1495,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "manhattan aerial view buildings",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36244245",
+                  "url": "https://videos.pexels.com/video-files/36244245/15370512_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Yura Forrat",
+                  "pagina": "https://www.pexels.com/video/twilight-aerial-view-of-new-york-city-skyline-36244245/"
+                },
+                "fichero": "clips/pexels-36244245.mp4"
               },
               "camara": "push"
             },
@@ -1123,7 +1539,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "small town main street america empty",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2248642",
+                  "url": "https://videos.pexels.com/video-files/2248642/2248642-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/view-of-an-empty-road-2248642/"
+                },
+                "fichero": "clips/pexels-2248642.mp4"
               },
               "camara": "panL"
             },
@@ -1135,7 +1561,15 @@
                 "lado": "der",
                 "titular": "Y Virginia Occidental, el quinto",
                 "apoyo": "Lleva décadas perdiendo gente, y no es por los impuestos.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12057343",
+                  "url": "https://images.pexels.com/photos/12057343/pexels-photo-12057343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Klub Boks",
+                  "pagina": "https://www.pexels.com/photo/man-holding-a-basket-of-coal-on-his-head-12057343/"
+                },
+                "fichero": "recortes-auto/pexels-12057343.png"
               }
             }
           ]
@@ -1163,7 +1597,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "us map road trip highway signs",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4336522",
+                  "url": "https://videos.pexels.com/video-files/4336522/4336522-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/close-up-shot-of-a-welcome-signage-4336522/"
+                },
+                "fichero": "clips/pexels-4336522.mp4"
               },
               "camara": "push"
             },
@@ -1217,14 +1661,32 @@
                 "lado": "izq",
                 "titular": "El sur se lo lleva todo",
                 "apoyo": "Y los tres tienen algo en común que no es el clima.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8293696",
+                  "url": "https://images.pexels.com/photos/8293696/pexels-photo-8293696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/couple-carrying-cardboard-boxes-to-a-new-home-8293696/"
+                },
+                "fichero": "recortes-auto/pexels-8293696.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "texas suburb new construction homes",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34668481",
+                  "url": "https://videos.pexels.com/video-files/34668481/14694550_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Michael",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-residential-neighborhood-development-34668481/"
+                },
+                "fichero": "clips/pexels-34668481.mp4"
               },
               "camara": "pull"
             }
@@ -1278,7 +1740,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "for sale sign front yard american house",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7577611",
+                  "url": "https://videos.pexels.com/video-files/7577611/7577611-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/for-sale-signage-in-front-of-a-house-7577611/"
+                },
+                "fichero": "clips/pexels-7577611.mp4"
               },
               "camara": "push"
             },
@@ -1296,7 +1768,7 @@
           "id": "b5-02",
           "vo": "La vivienda media en California cuesta ochocientos cincuenta y cuatro mil dólares. Es la más cara de los cincuenta estados. En Carolina del Norte son trescientos ochenta y un mil. En Texas, trescientos tres mil: un tercio de lo que cuesta en California.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -1333,14 +1805,32 @@
                 "cifra": "854.000 $",
                 "titular": "Contra trescientos mil en Texas",
                 "apoyo": "La misma casa, un tercio del precio, a dos mil kilómetros.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7937216",
+                  "url": "https://images.pexels.com/photos/7937216/pexels-photo-7937216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-jacket-holding-red-and-white-fore-sale-sign-7937216/"
+                },
+                "fichero": "recortes-auto/pexels-7937216.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "california house exterior expensive",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36922676",
+                  "url": "https://videos.pexels.com/video-files/36922676/15641314_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "NewLA",
+                  "pagina": "https://www.pexels.com/video/luxurious-hillside-mansion-with-scenic-view-36922676/"
+                },
+                "fichero": "clips/pexels-36922676.mp4"
               },
               "camara": "pull"
             }
@@ -1357,7 +1847,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "moving van highway desert arizona",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28388461",
+                  "url": "https://videos.pexels.com/video-files/28388461/12373633_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Dubang chang",
+                  "pagina": "https://www.pexels.com/video/a-highway-with-a-view-of-mountains-and-sky-28388461/"
+                },
+                "fichero": "clips/pexels-28388461.mp4"
               },
               "camara": "panR"
             },
@@ -1377,7 +1877,15 @@
                 "lado": "izq",
                 "titular": "Y se lleva el trabajo puesto",
                 "apoyo": "El mismo sueldo, en un sitio donde la casa cuesta un tercio.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5725433",
+                  "url": "https://images.pexels.com/photos/5725433/pexels-photo-5725433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/black-and-white-photo-of-a-man-5725433/"
+                },
+                "fichero": "recortes-auto/pexels-5725433.png"
               }
             },
             {
@@ -1411,7 +1919,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "keys handover new home couple",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8726904",
+                  "url": "https://videos.pexels.com/video-files/8726904/8726904-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/realtor-giving-the-house-key-to-a-client-8726904/"
+                },
+                "fichero": "clips/pexels-8726904.mp4"
               },
               "camara": "pull"
             },
@@ -1425,7 +1943,7 @@
           "id": "b5-05",
           "vo": "Y el efecto se sigue notando años después. Los que se van tienen un cuarenta y ocho por ciento más de probabilidades de ser propietarios siete años más tarde que californianos iguales a ellos que se quedaron.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -1452,14 +1970,32 @@
                 "cifra": "+48 %",
                 "titular": "Siete años después",
                 "apoyo": "Los que se fueron son propietarios; los que se quedaron, no.",
-                "icono": "llave"
+                "icono": "llave",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7579205",
+                  "url": "https://images.pexels.com/photos/7579205/pexels-photo-7579205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/photo/woman-in-gray-sweater-smiling-while-holding-a-key-7579205/"
+                },
+                "fichero": "recortes-auto/pexels-7579205.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "family porch house sunset america",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7603824",
+                  "url": "https://videos.pexels.com/video-files/7603824/7603824-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "PNW Production",
+                  "pagina": "https://www.pexels.com/video/girl-arriving-home-7603824/"
+                },
+                "fichero": "clips/pexels-7603824.mp4"
               },
               "camara": "push"
             }
@@ -1480,7 +2016,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "suburban street texas american flag",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6840490",
+                  "url": "https://videos.pexels.com/video-files/6840490/6840490-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/view-outside-the-cemetery-6840490/"
+                },
+                "fichero": "clips/pexels-6840490.mp4"
               },
               "camara": "panL"
             },
@@ -1515,7 +2061,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dollar bills counting hands close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5466780",
+                  "url": "https://videos.pexels.com/video-files/5466780/5466780-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/a-person-holding-hundred-dollar-bills-on-both-hands-5466780/"
+                },
+                "fichero": "clips/pexels-5466780.mp4"
               },
               "camara": "push"
             },
@@ -1533,7 +2089,7 @@
           "id": "b6-02",
           "vo": "Hacienda de Estados Unidos publica cada año cuánta renta declarada cruza de un estado a otro, porque lo sabe: los contribuyentes cambian de dirección en la declaración. California perdió once mil novecientos millones de dólares de renta en un solo ejercicio.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -1554,7 +2110,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "tax forms paperwork desk irs",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7821663",
+                  "url": "https://videos.pexels.com/video-files/7821663/7821663-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/documents-on-the-table-7821663/"
+                },
+                "fichero": "clips/pexels-7821663.mp4"
               },
               "camara": "pull"
             },
@@ -1567,7 +2133,15 @@
                 "cifra": "11.900 M$",
                 "titular": "Renta que se va y no vuelve",
                 "apoyo": "En un solo ejercicio fiscal, solo en California.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16282307",
+                  "url": "https://images.pexels.com/photos/16282307/pexels-photo-16282307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mohamed hamdi",
+                  "pagina": "https://www.pexels.com/photo/a-man-holding-eyeglasses-16282307/"
+                },
+                "fichero": "recortes-auto/pexels-16282307.png"
               }
             }
           ]
@@ -1600,7 +2174,7 @@
                   },
                   {
                     "etiqueta": "Illinois",
-                    "valor": 6.0,
+                    "valor": 6,
                     "tono": "ocre",
                     "decimales": 1
                   }
@@ -1611,7 +2185,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "chicago skyline river",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26562839",
+                  "url": "https://videos.pexels.com/video-files/26562839/11959976_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/a-view-of-the-chicago-river-and-city-skyline-26562839/"
+                },
+                "fichero": "clips/pexels-26562839.mp4"
               },
               "camara": "push"
             },
@@ -1623,7 +2207,15 @@
                 "lado": "izq",
                 "titular": "Siempre el mismo grupo",
                 "apoyo": "California, Nueva York, Illinois, Massachusetts y Nueva Jersey.",
-                "icono": "banco"
+                "icono": "banco",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20348402",
+                  "url": "https://images.pexels.com/photos/20348402/pexels-photo-20348402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-woman-leaning-on-counter-20348402/"
+                },
+                "fichero": "recortes-auto/pexels-20348402.png"
               }
             }
           ]
@@ -1667,7 +2259,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "miami beach florida palm trees",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36032435",
+                  "url": "https://videos.pexels.com/video-files/36032435/15280624_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ege TUTUNCU",
+                  "pagina": "https://www.pexels.com/video/iconic-colony-hotel-in-miami-beach-scene-36032435/"
+                },
+                "fichero": "clips/pexels-36032435.mp4"
               },
               "camara": "pull"
             },
@@ -1692,7 +2294,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "wall street financial district signage",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5630360",
+                  "url": "https://videos.pexels.com/video-files/5630360/5630360-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ono  Kosuki",
+                  "pagina": "https://www.pexels.com/video/signage-of-the-streets-in-new-york-5630360/"
+                },
+                "fichero": "clips/pexels-5630360.mp4"
               },
               "camara": "panR"
             },
@@ -1731,7 +2343,7 @@
           "id": "b6-06",
           "vo": "Y hay un dato que lo resume todo mejor que ningún otro. Cada residente neto que gana Florida llega con una renta media de ciento ochenta y cuatro mil setecientos setenta y un dólares. Esa no es la clase media que se muda buscando una casa más barata.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -1752,7 +2364,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "luxury yacht marina florida wealthy",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15820694",
+                  "url": "https://videos.pexels.com/video-files/15820694/15820694-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "paashuu",
+                  "pagina": "https://www.pexels.com/video/drone-footage-of-luxury-boats-near-the-coast-of-miami-usa-15820694/"
+                },
+                "fichero": "clips/pexels-15820694.mp4"
               },
               "camara": "push"
             },
@@ -1765,7 +2387,15 @@
                 "cifra": "184.771 $",
                 "titular": "Esa no es la clase media",
                 "apoyo": "Es la renta media de cada nuevo residente neto de Florida.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3831733",
+                  "url": "https://images.pexels.com/photos/3831733/pexels-photo-3831733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andrea Piacquadio",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-wearing-eyeglasses-3831733/"
+                },
+                "fichero": "recortes-auto/pexels-3831733.png"
               }
             }
           ]
@@ -1789,7 +2419,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "archive filing cabinet documents old",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9029219",
+                  "url": "https://videos.pexels.com/video-files/9029219/9029219-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Vincuk Konan",
+                  "pagina": "https://www.pexels.com/video/close-up-shot-of-drawers-9029219/"
+                },
+                "fichero": "clips/pexels-9029219.mp4"
               },
               "camara": "pull"
             },
@@ -1801,7 +2441,15 @@
                 "lado": "der",
                 "titular": "El dato de la renta va tarde",
                 "apoyo": "Lo último publicado es el ejercicio de dos mil veintidós.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567596",
+                  "url": "https://images.pexels.com/photos/7567596/pexels-photo-7567596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/marketing-man-laptop-technology-7567596/"
+                },
+                "fichero": "recortes-auto/pexels-7567596.png"
               }
             }
           ]
@@ -1816,7 +2464,7 @@
           "id": "b7-01",
           "vo": "Y esto es lo que convierte una mudanza nacional en un problema de verdad para dos estados. El uno por ciento más rico de California paga entre el cuarenta y el cincuenta por ciento de todo el impuesto sobre la renta del estado.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -1835,7 +2483,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "sacramento california capitol building",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35120907",
+                  "url": "https://videos.pexels.com/video-files/35120907/14878512_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Vitaliy Haiduk",
+                  "pagina": "https://www.pexels.com/video/nighttime-aerial-view-of-capitol-building-35120907/"
+                },
+                "fichero": "clips/pexels-35120907.mp4"
               },
               "camara": "push"
             },
@@ -1848,7 +2506,15 @@
                 "cifra": "40-50 %",
                 "titular": "Lo paga el uno por ciento",
                 "apoyo": "De todo el impuesto sobre la renta del estado.",
-                "icono": "banco"
+                "icono": "banco",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39720748",
+                  "url": "https://images.pexels.com/photos/39720748/pexels-photo-39720748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Cristian Loayza",
+                  "pagina": "https://www.pexels.com/photo/us-capitol-building-in-washington-d-c-under-clear-sky-39720748/"
+                },
+                "fichero": "recortes-auto/pexels-39720748.png"
               }
             }
           ]
@@ -1877,7 +2543,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock market trading screens green red",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38557069",
+                  "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-stock-market-display-analysis-38557069/"
+                },
+                "fichero": "clips/pexels-38557069.mp4"
               },
               "camara": "push"
             },
@@ -1889,7 +2565,15 @@
                 "lado": "izq",
                 "titular": "La base más estrecha del país",
                 "apoyo": "No son sueldos: son plusvalías, y se mueven con la bolsa.",
-                "icono": "grafico"
+                "icono": "grafico",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567528",
+                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                },
+                "fichero": "recortes-auto/pexels-7567528.png"
               }
             }
           ]
@@ -1905,7 +2589,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock market crash chart falling",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36435763",
+                  "url": "https://videos.pexels.com/video-files/36435763/15450238_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/stock-market-analysis-on-tablet-with-candlestick-chart-36435763/"
+                },
+                "fichero": "clips/pexels-36435763.mp4"
               },
               "camara": "pull"
             },
@@ -1921,7 +2615,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty government office budget cuts",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951392",
+                  "url": "https://videos.pexels.com/video-files/6951392/6951392-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-conference-room-6951392/"
+                },
+                "fichero": "clips/pexels-6951392.mp4"
               },
               "camara": "panL"
             }
@@ -1946,14 +2650,32 @@
                 "lado": "izq",
                 "titular": "No es un problema demográfico",
                 "apoyo": "Es un problema de caja, y va por arriba, no por abajo.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5778602",
+                  "url": "https://images.pexels.com/photos/5778602/pexels-photo-5778602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-sitting-on-white-couch-5778602/"
+                },
+                "fichero": "recortes-auto/pexels-5778602.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "private jet airport tarmac executive",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32984028",
+                  "url": "https://videos.pexels.com/video-files/32984028/14057581_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tuan Vy  Spotter",
+                  "pagina": "https://www.pexels.com/video/private-jet-taxiing-on-airport-runway-32984028/"
+                },
+                "fichero": "clips/pexels-32984028.mp4"
               },
               "camara": "push"
             }
@@ -1978,7 +2700,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "newspaper headlines stack print",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29325396",
+                  "url": "https://videos.pexels.com/video-files/29325396/12641529_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "Nathan J Hilton",
+                  "pagina": "https://www.pexels.com/video/newspapers-displaying-political-headlines-29325396/"
+                },
+                "fichero": "clips/pexels-29325396.mp4"
               },
               "camara": "pull"
             },
@@ -2009,7 +2741,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "debate two people discussion office",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4480390",
+                  "url": "https://videos.pexels.com/video-files/4480390/4480390-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "August de Richelieu",
+                  "pagina": "https://www.pexels.com/video/colleagues-having-a-discussion-4480390/"
+                },
+                "fichero": "clips/pexels-4480390.mp4"
               },
               "camara": "push"
             },
@@ -2034,7 +2776,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "construction worker immigrant site america",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32244801",
+                  "url": "https://videos.pexels.com/video-files/32244801/13751985_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Usman AbdulrasheedGambo",
+                  "pagina": "https://www.pexels.com/video/construction-worker-securing-scaffolding-cables-32244801/"
+                },
+                "fichero": "clips/pexels-32244801.mp4"
               },
               "camara": "pull"
             },
@@ -2054,7 +2806,15 @@
                 "lado": "der",
                 "titular": "La cabeza cuadra, la caja no",
                 "apoyo": "Compensar la población no es compensar la recaudación.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4483865",
+                  "url": "https://images.pexels.com/photos/4483865/pexels-photo-4483865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tiger Lily",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-brown-and-beige-long-sleeves-wearing-red-cap-4483865/"
+                },
+                "fichero": "recortes-auto/pexels-4483865.png"
               }
             }
           ]
@@ -2084,7 +2844,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "new york empty subway platform",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5999651",
+                  "url": "https://videos.pexels.com/video-files/5999651/5999651-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Ono  Kosuki",
+                  "pagina": "https://www.pexels.com/video/woman-walking-inside-the-subway-station-5999651/"
+                },
+                "fichero": "clips/pexels-5999651.mp4"
               },
               "camara": "push"
             },
@@ -2117,7 +2887,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty house interior for sale",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578013",
+                  "url": "https://videos.pexels.com/video-files/7578013/7578013-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/woman-talking-to-an-agent-7578013/"
+                },
+                "fichero": "clips/pexels-7578013.mp4"
               },
               "camara": "pull"
             },
@@ -2129,7 +2909,15 @@
                 "lado": "izq",
                 "titular": "Se vacían escuelas, no estados",
                 "apoyo": "El total no se mueve; los barrios concretos sí.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8423069",
+                  "url": "https://images.pexels.com/photos/8423069/pexels-photo-8423069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-a-notebook-8423069/"
+                },
+                "fichero": "recortes-auto/pexels-8423069.png"
               }
             }
           ]
@@ -2145,7 +2933,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "government policy signing document official",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8523701",
+                  "url": "https://videos.pexels.com/video-files/8523701/8523701-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "olia danilevich",
+                  "pagina": "https://www.pexels.com/video/a-person-signing-the-certificate-8523701/"
+                },
+                "fichero": "clips/pexels-8523701.mp4"
               },
               "camara": "push"
             },
@@ -2184,7 +2982,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spain city aerial view madrid",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7069320",
+                  "url": "https://videos.pexels.com/video-files/7069320/7069320-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Oleg Khudyakov",
+                  "pagina": "https://www.pexels.com/video/aerial-footage-of-a-big-city-7069320/"
+                },
+                "fichero": "clips/pexels-7069320.mp4"
               },
               "camara": "push"
             },
@@ -2202,7 +3010,7 @@
           "id": "b9-02",
           "vo": "España acaba de marcar su récord histórico de población: cuarenta y nueve millones ochocientos un mil quinientos cincuenta y nueve habitantes a uno de julio de dos mil veintiséis. Nunca había habido tanta gente viviendo dentro de este país.",
           "voz": {
-            "speed": 1.0
+            "speed": 1
           },
           "escenas": [
             {
@@ -2223,7 +3031,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "barcelona street busy crowd spain",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28115461",
+                  "url": "https://videos.pexels.com/video-files/28115461/12303023_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Talwinder Dhillon",
+                  "pagina": "https://www.pexels.com/video/gothic-quarter-barcelona-28115461/"
+                },
+                "fichero": "clips/pexels-28115461.mp4"
               },
               "camara": "pull"
             },
@@ -2236,7 +3054,15 @@
                 "cifra": "49,8 M",
                 "titular": "Récord histórico de población",
                 "apoyo": "España nunca había tenido tanta gente dentro.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39231205",
+                  "url": "https://images.pexels.com/photos/39231205/pexels-photo-39231205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "koda",
+                  "pagina": "https://www.pexels.com/photo/stylish-man-on-city-street-at-dusk-39231205/"
+                },
+                "fichero": "recortes-auto/pexels-39231205.png"
               }
             }
           ]
@@ -2266,7 +3092,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "airport arrivals spain families luggage",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34782561",
+                  "url": "https://videos.pexels.com/video-files/34782561/14746072_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/busy-day-at-bangkok-suvarnabhumi-airport-34782561/"
+                },
+                "fichero": "clips/pexels-34782561.mp4"
               },
               "camara": "push"
             },
@@ -2311,7 +3147,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish village elderly empty street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36271666",
+                  "url": "https://videos.pexels.com/video-files/36271666/15381636_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Ebahir",
+                  "pagina": "https://www.pexels.com/video/man-walking-down-quiet-cobblestone-street-36271666/"
+                },
+                "fichero": "clips/pexels-36271666.mp4"
               },
               "camara": "pull"
             },
@@ -2344,7 +3190,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "multicultural street market spain",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38787274",
+                  "url": "https://videos.pexels.com/video-files/38787274/16482364_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Atlantic Ambience",
+                  "pagina": "https://www.pexels.com/video/local-market-scene-in-masca-tenerife-village-38787274/"
+                },
+                "fichero": "clips/pexels-38787274.mp4"
               },
               "camara": "push"
             },
@@ -2356,7 +3212,15 @@
                 "lado": "izq",
                 "titular": "No crece por los nacimientos",
                 "apoyo": "Crece porque llega gente. Igual que allí.",
-                "icono": "globo"
+                "icono": "globo",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5870773",
+                  "url": "https://images.pexels.com/photos/5870773/pexels-photo-5870773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Claudia Schmalz",
+                  "pagina": "https://www.pexels.com/photo/unrecognizable-woman-touching-hair-and-looking-out-balcony-5870773/"
+                },
+                "fichero": "recortes-auto/pexels-5870773.png"
               }
             }
           ]
@@ -2376,7 +3240,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty airport terminal night",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18928846",
+                  "url": "https://videos.pexels.com/video-files/18928846/18928846-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "David Castillo López",
+                  "pagina": "https://www.pexels.com/video/airport-sign-18928846/"
+                },
+                "fichero": "clips/pexels-18928846.mp4"
               },
               "camara": "pull"
             },
@@ -2405,7 +3279,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "official signing document desk pen",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8439245",
+                  "url": "https://videos.pexels.com/video-files/8439245/8439245-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/a-person-signing-a-document-8439245/"
+                },
+                "fichero": "clips/pexels-8439245.mp4"
               },
               "camara": "push"
             },
@@ -2417,7 +3301,15 @@
                 "lado": "izq",
                 "titular": "Se decide, no se hereda",
                 "apoyo": "Y se puede cambiar el año que viene.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17250200",
+                  "url": "https://images.pexels.com/photos/17250200/pexels-photo-17250200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kinz-studio Photographe",
+                  "pagina": "https://www.pexels.com/photo/italian-city-mayor-during-public-speech-17250200/"
+                },
+                "fichero": "recortes-auto/pexels-17250200.png"
               }
             }
           ]
@@ -2443,7 +3335,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "california sunset highway empty road",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27822155",
+                  "url": "https://videos.pexels.com/video-files/27822155/12234233_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Victoria Kolomy",
+                  "pagina": "https://www.pexels.com/video/road-1143-27822155/"
+                },
+                "fichero": "clips/pexels-27822155.mp4"
               },
               "camara": "pull"
             },
