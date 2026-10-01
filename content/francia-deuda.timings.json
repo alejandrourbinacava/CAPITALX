@@ -1,1 +1,320 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/francia-deuda-b0-01.mp3",
+    "duration": 15.046531,
+    "transcript": null,
+    "credit_cost": 359
+  },
+  "b0-02": {
+    "audio": "voice/francia-deuda-b0-02.mp3",
+    "duration": 12.826122,
+    "transcript": null,
+    "credit_cost": 326
+  },
+  "b0-03": {
+    "audio": "voice/francia-deuda-b0-03.mp3",
+    "duration": 19.069388,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b0-04": {
+    "audio": "voice/francia-deuda-b0-04.mp3",
+    "duration": 14.419592,
+    "transcript": null,
+    "credit_cost": 343
+  },
+  "b0-05": {
+    "audio": "voice/francia-deuda-b0-05.mp3",
+    "duration": 10.971429,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b0-06": {
+    "audio": "voice/francia-deuda-b0-06.mp3",
+    "duration": 13.400816,
+    "transcript": null,
+    "credit_cost": 336
+  },
+  "b1-01": {
+    "audio": "voice/francia-deuda-b1-01.mp3",
+    "duration": 13.191837,
+    "transcript": null,
+    "credit_cost": 322
+  },
+  "b1-02": {
+    "audio": "voice/francia-deuda-b1-02.mp3",
+    "duration": 9.978776,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b1-03": {
+    "audio": "voice/francia-deuda-b1-03.mp3",
+    "duration": 10.527347,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b1-04": {
+    "audio": "voice/francia-deuda-b1-04.mp3",
+    "duration": 14.08,
+    "transcript": null,
+    "credit_cost": 371
+  },
+  "b1-05": {
+    "audio": "voice/francia-deuda-b1-05.mp3",
+    "duration": 12.329796,
+    "transcript": null,
+    "credit_cost": 323
+  },
+  "b1-06": {
+    "audio": "voice/francia-deuda-b1-06.mp3",
+    "duration": 13.844898,
+    "transcript": null,
+    "credit_cost": 336
+  },
+  "b1-07": {
+    "audio": "voice/francia-deuda-b1-07.mp3",
+    "duration": 14.994286,
+    "transcript": null,
+    "credit_cost": 354
+  },
+  "b1-08": {
+    "audio": "voice/francia-deuda-b1-08.mp3",
+    "duration": 12.016327,
+    "transcript": null,
+    "credit_cost": 278
+  },
+  "b2-01": {
+    "audio": "voice/francia-deuda-b2-01.mp3",
+    "duration": 15.56898,
+    "transcript": null,
+    "credit_cost": 407
+  },
+  "b2-02": {
+    "audio": "voice/francia-deuda-b2-02.mp3",
+    "duration": 10.762449,
+    "transcript": null,
+    "credit_cost": 277
+  },
+  "b2-03": {
+    "audio": "voice/francia-deuda-b2-03.mp3",
+    "duration": 10.945306,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b2-04": {
+    "audio": "voice/francia-deuda-b2-04.mp3",
+    "duration": 16.84898,
+    "transcript": null,
+    "credit_cost": 403
+  },
+  "b2-05": {
+    "audio": "voice/francia-deuda-b2-05.mp3",
+    "duration": 16.822857,
+    "transcript": null,
+    "credit_cost": 424
+  },
+  "b2-06": {
+    "audio": "voice/francia-deuda-b2-06.mp3",
+    "duration": 11.72898,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b2-07": {
+    "audio": "voice/francia-deuda-b2-07.mp3",
+    "duration": 12.355918,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b3-01": {
+    "audio": "voice/francia-deuda-b3-01.mp3",
+    "duration": 13.113469,
+    "transcript": null,
+    "credit_cost": 322
+  },
+  "b3-02": {
+    "audio": "voice/francia-deuda-b3-02.mp3",
+    "duration": 14.602449,
+    "transcript": null,
+    "credit_cost": 365
+  },
+  "b3-03": {
+    "audio": "voice/francia-deuda-b3-03.mp3",
+    "duration": 13.087347,
+    "transcript": null,
+    "credit_cost": 327
+  },
+  "b3-04": {
+    "audio": "voice/francia-deuda-b3-04.mp3",
+    "duration": 12.8,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b3-05": {
+    "audio": "voice/francia-deuda-b3-05.mp3",
+    "duration": 18.390204,
+    "transcript": null,
+    "credit_cost": 436
+  },
+  "b3-06": {
+    "audio": "voice/francia-deuda-b3-06.mp3",
+    "duration": 12.721633,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b3-07": {
+    "audio": "voice/francia-deuda-b3-07.mp3",
+    "duration": 17.057959,
+    "transcript": null,
+    "credit_cost": 445
+  },
+  "b3-08": {
+    "audio": "voice/francia-deuda-b3-08.mp3",
+    "duration": 13.688163,
+    "transcript": null,
+    "credit_cost": 346
+  },
+  "b3-09": {
+    "audio": "voice/francia-deuda-b3-09.mp3",
+    "duration": 15.307755,
+    "transcript": null,
+    "credit_cost": 394
+  },
+  "b3-10": {
+    "audio": "voice/francia-deuda-b3-10.mp3",
+    "duration": 11.676735,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b3-11": {
+    "audio": "voice/francia-deuda-b3-11.mp3",
+    "duration": 9.06449,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b4-01": {
+    "audio": "voice/francia-deuda-b4-01.mp3",
+    "duration": 9.586939,
+    "transcript": null,
+    "credit_cost": 213
+  },
+  "b4-02": {
+    "audio": "voice/francia-deuda-b4-02.mp3",
+    "duration": 15.124898,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b4-03": {
+    "audio": "voice/francia-deuda-b4-03.mp3",
+    "duration": 16.326531,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b4-04": {
+    "audio": "voice/francia-deuda-b4-04.mp3",
+    "duration": 15.020408,
+    "transcript": null,
+    "credit_cost": 388
+  },
+  "b4-05": {
+    "audio": "voice/francia-deuda-b4-05.mp3",
+    "duration": 12.042449,
+    "transcript": null,
+    "credit_cost": 313
+  },
+  "b4-06": {
+    "audio": "voice/francia-deuda-b4-06.mp3",
+    "duration": 13.531429,
+    "transcript": null,
+    "credit_cost": 313
+  },
+  "b4-07": {
+    "audio": "voice/francia-deuda-b4-07.mp3",
+    "duration": 15.124898,
+    "transcript": null,
+    "credit_cost": 379
+  },
+  "b4-08": {
+    "audio": "voice/francia-deuda-b4-08.mp3",
+    "duration": 5.381224,
+    "transcript": null,
+    "credit_cost": 131
+  },
+  "b5-01": {
+    "audio": "voice/francia-deuda-b5-01.mp3",
+    "duration": 5.407347,
+    "transcript": null,
+    "credit_cost": 131
+  },
+  "b5-02": {
+    "audio": "voice/francia-deuda-b5-02.mp3",
+    "duration": 16.901224,
+    "transcript": null,
+    "credit_cost": 425
+  },
+  "b5-03": {
+    "audio": "voice/francia-deuda-b5-03.mp3",
+    "duration": 14.759184,
+    "transcript": null,
+    "credit_cost": 354
+  },
+  "b5-04": {
+    "audio": "voice/francia-deuda-b5-04.mp3",
+    "duration": 16.352653,
+    "transcript": null,
+    "credit_cost": 373
+  },
+  "b5-05": {
+    "audio": "voice/francia-deuda-b5-05.mp3",
+    "duration": 15.56898,
+    "transcript": null,
+    "credit_cost": 380
+  },
+  "b5-06": {
+    "audio": "voice/francia-deuda-b5-06.mp3",
+    "duration": 14.393469,
+    "transcript": null,
+    "credit_cost": 341
+  },
+  "b5-07": {
+    "audio": "voice/francia-deuda-b5-07.mp3",
+    "duration": 11.180408,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b6-01": {
+    "audio": "voice/francia-deuda-b6-01.mp3",
+    "duration": 18.599184,
+    "transcript": null,
+    "credit_cost": 438
+  },
+  "b6-02": {
+    "audio": "voice/francia-deuda-b6-02.mp3",
+    "duration": 13.97551,
+    "transcript": null,
+    "credit_cost": 359
+  },
+  "b6-03": {
+    "audio": "voice/francia-deuda-b6-03.mp3",
+    "duration": 13.165714,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b6-04": {
+    "audio": "voice/francia-deuda-b6-04.mp3",
+    "duration": 14.576327,
+    "transcript": null,
+    "credit_cost": 348
+  },
+  "b7-01": {
+    "audio": "voice/francia-deuda-b7-01.mp3",
+    "duration": 13.505306,
+    "transcript": null,
+    "credit_cost": 339
+  },
+  "b7-02": {
+    "audio": "voice/francia-deuda-b7-02.mp3",
+    "duration": 5.773061,
+    "transcript": null,
+    "credit_cost": 156
+  }
+}
