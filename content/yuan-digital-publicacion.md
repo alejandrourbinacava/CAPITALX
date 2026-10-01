@@ -73,10 +73,10 @@ Todos los datos que aparecen en pantalla llevan su fuente indicada en el propio 
 
 ## ETIQUETAS
 
-**421 caracteres**, 27 etiquetas. Por debajo del tope de 500 de YouTube.
+**497 caracteres**, 31 etiquetas. Justo por debajo del tope de 500 de YouTube.
 
 ```
-euro digital, yuan digital, dinero que caduca, dinero programable, cbdc, banco central europeo, bce, worgl, silvio gesell, freigeld, moneda local, gran depresion, irving fisher, banco popular de china, shenzhen, e-cny, pagos condicionados, privacidad pagos, limite de tenencia, fin del efectivo, historia del dinero, politica monetaria, velocidad del dinero, macroeconomia, divulgacion economica, capital x, economia 2026
+euro digital, yuan digital, dinero que caduca, dinero programable, cbdc, moneda digital banco central, banco central europeo, bce, worgl, silvio gesell, freigeld, moneda local, gran depresion, irving fisher, banco popular de china, shenzhen, e-cny, wechat pay, alipay, pagos condicionados, privacidad pagos, limite de tenencia, fin del efectivo, historia del dinero, politica monetaria, velocidad del dinero, sociedad de naciones, macroeconomia, divulgacion economica, capital x, euro digital 2029
 ```
 
 ---
