@@ -1,0 +1,2245 @@
+{
+  "slug": "francia-deuda",
+  "titulo": "Francia Debe Menos Que Italia. Entonces, ¿Por Qué Paga Más?",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "tenso.wav",
+  "estilo": {
+    "plantilla": "mercado",
+    "barra": "Francia · Deuda soberana · Sesión del 1 de octubre de 2026",
+    "cinta": [
+      "FRANCIA 10A · 1 OCT|4,95 %",
+      "DEUDA|3.595,5 MM€",
+      "PIB|119,0 %",
+      "DÉFICIT 2026|5,4 %",
+      "ITALIA 10A · 24 SEP|4,54 %",
+      "NOTA|A+ · Aa3 · A+",
+      "ESPAÑA 10A · 24 SEP|4,08 %",
+      "INTERESES 2026|≈75 MM€",
+      "BUND 10A · 24 SEP|3,60 %",
+      "PRÓX. ELECCIONES|ABR-MAY 2027"
+    ]
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Apertura de sesión",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "Jueves uno de octubre de dos mil veintiséis. A media mañana, el bono francés a diez años llegó al cuatro coma noventa y cinco por ciento. Es el nivel más alto desde dos mil dos: hace veinticuatro años que Francia no pagaba tanto por endeudarse.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "BONO FRANCÉS A DIEZ AÑOS · 1 DE OCTUBRE DE 2026",
+              "fuente": "Trading Economics",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4.95,
+                "etiqueta": "rentabilidad anual",
+                "decimales": 2,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "trading screens red numbers market",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "bond trader man portrait trading desk headset",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "2002",
+                "titular": "La última vez que estuvo así",
+                "apoyo": "Hace veinticuatro años.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Ese mismo día, el Gobierno presentó el presupuesto del año que viene: cincuenta y cuatro mil millones de euros en recortes, en un Parlamento donde nadie tiene mayoría y a unos seis meses de unas elecciones presidenciales.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "french national assembly chamber parliament",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "french politician man portrait suit official",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "54.000 M€",
+                "titular": "En recortes para dos mil veintisiete",
+                "apoyo": "En un Parlamento sin mayoría clara.",
+                "icono": "documento"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "*Cincuenta y cuatro mil millones* en recortes."
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Hasta aquí, la noticia de siempre: un país endeudado y un mercado nervioso. Pero mira lo que pasaba una semana antes. El veinticuatro de septiembre, España pagaba un cuatro coma cero ocho por ciento por endeudarse a diez años. Italia, un cuatro coma cincuenta y cuatro. Francia, un cuatro coma sesenta y nueve.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE PAGA CADA PAÍS A DIEZ AÑOS · 24 DE SEPTIEMBRE",
+              "fuente": "Datos de mercado recogidos por EFE · 24 de septiembre de 2026",
+              "barras": {
+                "unidad": "Rentabilidad anual del bono a diez años",
+                "datos": [
+                  {
+                    "etiqueta": "España",
+                    "valor": 4.08,
+                    "tono": "ink",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "Italia",
+                    "valor": 4.54,
+                    "tono": "ocre",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "Francia",
+                    "valor": 4.69,
+                    "tono": "carmin",
+                    "decimales": 2
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "mapa",
+              "kicker": "DÓNDE ESTÁ CADA UNO",
+              "mapa": {
+                "destaca": [
+                  "espana",
+                  "italia",
+                  "francia"
+                ],
+                "region": "europa"
+              },
+              "rotulo": {
+                "kicker": "Tres países, tres precios",
+                "texto": "Francia paga *más*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro banknotes counting close up",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "financial analyst woman portrait office screens",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Francia es la que más paga",
+                "apoyo": "Más que España y más que Italia.",
+                "icono": "sube"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Y ahora el dato que debería ordenarlo todo al revés. Italia debe el ciento treinta y nueve por ciento de lo que produce en un año. Francia debe el ciento diecinueve. Francia debe veinte puntos menos que Italia, y le prestan más caro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Debe menos. *Paga más*.",
+              "night": true
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE DEBE CADA PAÍS",
+              "fuente": "Eurostat · primer trimestre de 2026 · INSEE · 29 de septiembre de 2026",
+              "barras": {
+                "unidad": "Deuda pública sobre el PIB",
+                "datos": [
+                  {
+                    "etiqueta": "Francia",
+                    "valor": 119.0,
+                    "tono": "carmin",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Italia",
+                    "valor": 138.9,
+                    "tono": "ink",
+                    "decimales": 1
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "paris skyline dusk eiffel tower",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Eso no es normal. Cuando un mercado cobra más caro a quien debe menos, es que no está mirando lo que debes. Está mirando otra cosa. Y descubrir cuál es esa otra cosa es todo este vídeo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "interrogante",
+              "rotulo": {
+                "kicker": "El misterio",
+                "texto": "Otra cosa *distinta*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "detective board strings photos investigation",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist man portrait glasses thinking office",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "No mira lo que debes",
+                "apoyo": "Mira otra cosa. Hay que encontrarla.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Para encontrarla hay que leer ese cuatro coma noventa y cinco de cuatro maneras distintas: cuánto debe Francia, cuánto le cuesta, quién decide y quién le presta. Cuatro lecturas, y cada una cambia lo que parece que está pasando.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lista",
+              "lista": {
+                "titulo": "Cuatro lecturas del mismo número",
+                "puntos": [
+                  "Lo que debe",
+                  "Lo que cuesta",
+                  "Quién decide",
+                  "Quién presta"
+                ]
+              },
+              "kicker": "LA SESIÓN"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bond market screens green red digits",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "market analyst woman portrait bloomberg screens",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Un número, cuatro lecturas",
+                "apoyo": "Y solo la cuarta resuelve el misterio.",
+                "icono": "grafico"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Lectura uno: lo que debe",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Primera lectura: cuánto debe. El INSEE, el instituto de estadística francés, publicó el veintinueve de septiembre la cifra de finales de junio: tres billones quinientos noventa y cinco mil quinientos millones de euros.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DEUDA PÚBLICA DE FRANCIA · FINAL DE JUNIO DE 2026",
+              "fuente": "INSEE · 29 de septiembre de 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 3595.5,
+                "etiqueta": "miles de millones de euros",
+                "decimales": 1
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "paris la defense business district towers",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "statistician man portrait office national statistics",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Publicado el veintinueve de septiembre",
+                "apoyo": "Cifra de finales de junio, medida por el INSEE.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Es el ciento diecinueve por ciento de todo lo que produce el país en un año. Y es el nivel más alto desde que existe la serie del INSEE, que empieza en mil novecientos setenta y ocho.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DEUDA SOBRE EL PIB · FINAL DE JUNIO DE 2026",
+              "fuente": "INSEE · 29 de septiembre de 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 119.0,
+                "etiqueta": "por ciento del PIB",
+                "decimales": 1,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El nivel *más alto* de la serie."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "archive documents dusty filing library",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "A finales de dos mil diecinueve, justo antes de la pandemia, estaba en el noventa y ocho coma dos por ciento. En seis años y medio ha subido veinte puntos, y este año sigue subiendo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DEUDA SOBRE EL PIB",
+              "fuente": "INSEE",
+              "barras": {
+                "unidad": "Por ciento del PIB",
+                "datos": [
+                  {
+                    "etiqueta": "Finales de 2019",
+                    "valor": 98.2,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Junio de 2026",
+                    "valor": 119.0,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist woman portrait university office graphs",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "+20,8",
+                "titular": "Puntos de PIB en seis años",
+                "apoyo": "De noventa y ocho coma dos a ciento diecinueve.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty paris street pandemic lockdown",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "Pero lo que mejor lo cuenta no es el nivel, es la velocidad. En los seis primeros meses de este año la deuda subió ciento treinta y cinco mil cuatrocientos millones de euros. Hecha la cuenta, son unos ocho mil seiscientos cincuenta euros cada segundo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "reloj",
+                "base": 3595500000000,
+                "porSegundo": 8658,
+                "nota": "RITMO DEL PRIMER SEMESTRE DE 2026"
+              },
+              "rotulo": {
+                "kicker": "Deuda de Francia",
+                "texto": "Sube *mientras miras*"
+              },
+              "kicker": "DEUDA PÚBLICA · EN DIRECTO",
+              "fuente": "INSEE, 30 de junio de 2026 · ritmo calculado con el primer semestre"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "clock ticking time lapse close up",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Ocho mil seiscientos euros *por segundo*."
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "Ocho mil seiscientos euros por segundo son unos setecientos cincuenta millones al día. Y no es dinero que se gaste en algo nuevo: es la diferencia entre lo que el Estado ingresa y lo que gasta, ejercicio tras ejercicio.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "contable",
+              "rotulo": {
+                "kicker": "Cada día",
+                "texto": "Setecientos cincuenta *millones*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calculator bills receipts desk",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "accountant woman portrait office paperwork",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "750 M€",
+                "titular": "Más de deuda cada día",
+                "apoyo": "La diferencia entre lo que ingresa y lo que gasta el Estado.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-06",
+          "vo": "Esa diferencia se llama déficit. En dos mil veinticinco fue de ciento cincuenta y dos mil quinientos millones, el cinco coma uno por ciento del PIB. Este año el Gobierno espera un cinco coma cuatro. Y la regla europea dice tres.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DÉFICIT PÚBLICO SOBRE EL PIB",
+              "fuente": "INSEE · Ministerio de Economía de Francia · Comisión Europea",
+              "barras": {
+                "unidad": "Por ciento del PIB",
+                "datos": [
+                  {
+                    "etiqueta": "Límite europeo",
+                    "valor": 3.0,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 5.1,
+                    "tono": "ocre",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2026 previsto",
+                    "valor": 5.4,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european commission brussels building flags",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "brussels official man portrait suit eu",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La regla europea dice tres",
+                "apoyo": "Francia va por el cinco coma cuatro.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-07",
+          "vo": "Y no es una racha. La última vez que Francia cerró un año sin déficit fue a principios de los setenta. Desde mil novecientos setenta y cinco son cincuenta y un ejercicios seguidos en rojo, con gobiernos de izquierda, de derecha y de centro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "anos",
+                "desde": 1975,
+                "hasta": 2025,
+                "etiqueta": "Años con déficit"
+              },
+              "rotulo": {
+                "kicker": "Desde los setenta",
+                "texto": "*Cincuenta y un* años seguidos"
+              },
+              "kicker": "SIN UN SOLO AÑO DE SUPERÁVIT",
+              "fuente": "Cour des comptes · INSEE"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "french presidents archive footage elysee",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly french man portrait cafe paris newspaper",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Con todos los colores",
+                "apoyo": "Izquierda, derecha y centro, sin excepción.",
+                "icono": "balanza"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-08",
+          "vo": "Así que la primera lectura es esta: Francia debe mucho, y lo lleva debiendo medio siglo. Pero eso, por sí solo, no explica por qué le prestan más caro que a Italia. Italia debe todavía más.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Debe mucho. Pero *Italia debe más*."
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "Primera lectura",
+                "texto": "No basta con *deber mucho*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rome colosseum aerial italy",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Lectura dos: lo que cuesta",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Segunda lectura: cuánto cuesta esa deuda. Los intereses son la factura que se paga primero, antes que las pensiones y antes que los hospitales. En dos mil veinticinco, las administraciones públicas francesas pagaron sesenta y cinco mil setecientos millones solo en intereses.",
+          "voz": {
+            "speed": 0.98
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "INTERESES DE LA DEUDA · ADMINISTRACIONES PÚBLICAS · 2025",
+              "fuente": "Cour des comptes · informe de abril de 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 65.7,
+                "etiqueta": "miles de millones de euros",
+                "decimales": 1
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank vault door heavy steel",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Los intereses *se pagan primero*."
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "pensioner woman portrait paris apartment",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Antes que las pensiones",
+                "apoyo": "Los intereses son la primera factura.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Este año serán unos setenta y cinco mil millones. Y en el primer semestre, solo la parte que corresponde al Estado subió un dieciocho por ciento respecto al mismo periodo del año anterior.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "INTERESES DE LA DEUDA PÚBLICA",
+              "fuente": "Cour des comptes · Ministerio de Economía de Francia",
+              "barras": {
+                "unidad": "Miles de millones de euros",
+                "datos": [
+                  {
+                    "etiqueta": "2025",
+                    "valor": 65.7,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "2026 previsto",
+                    "valor": 74.9,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "coins stacking time lapse growing",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Setenta y cinco mil *millones* este año."
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Los intereses de la deuda del Estado están ya al nivel de lo que se dedica a Defensa. Han dejado de ser una nota a pie de página para convertirse en una de las primeras partidas de todo el presupuesto.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "fabrica",
+              "rotulo": {
+                "kicker": "Los intereses",
+                "texto": "Al nivel de *Defensa*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "french army soldiers parade paris",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "finance minister man portrait office formal",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Una de las primeras partidas",
+                "apoyo": "Al nivel de lo que se gasta en Defensa.",
+                "icono": "banco"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Y esto va a empeorar sin que nadie haga nada, por pura aritmética. Cada año hay que renovar deuda antigua, contratada a tipos bajos, con deuda nueva a los tipos de hoy. En dos mil veintiséis, el Estado tiene previsto financiarse por trescientos diez mil millones. Un récord.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "La deuda vieja se renueva *a tipos nuevos*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "treasury auction bond sale screens",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "treasury official woman portrait finance office",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "310.000 M€",
+                "titular": "Programa de financiación de 2026",
+                "apoyo": "Un récord. Y lo que se renueva, a tipos de hoy.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "interest rates board bank sign window",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Ahí entra el bono. El quince de septiembre de dos mil veinticinco, tras la rebaja de nota de Fitch, el bono a diez años estaba en el tres coma cincuenta y uno. Cuando dimitió el primer ministro, el seis de octubre, en el tres coma sesenta. Esta semana, en el cuatro coma noventa y cinco.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "termometro",
+                "umbral": 5.0,
+                "lecturas": [
+                  {
+                    "etiqueta": "15 sep 2025 · tras Fitch",
+                    "valor": 3.51
+                  },
+                  {
+                    "etiqueta": "6 oct 2025 · dimite Lecornu",
+                    "valor": 3.6
+                  },
+                  {
+                    "etiqueta": "1 oct 2026",
+                    "valor": 4.95
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "En un año",
+                "texto": "Casi *el cinco por ciento*"
+              },
+              "kicker": "EL BONO A DIEZ AÑOS",
+              "fuente": "Trading Economics · CNBC"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "thermometer heat rising red",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "market economist man portrait glasses trading office",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "+1,44",
+                "titular": "Puntos de interés en un año",
+                "apoyo": "De tres coma cincuenta y uno a cuatro coma noventa y cinco.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Un punto y medio *en un año*."
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Más de un punto y medio en un año. Y cada décima de punto, aplicada a todo lo que el Estado tiene que emitir este año, son unos trescientos millones de euros más cada año durante la vida de esos bonos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "COSTE DE CADA DÉCIMA DE PUNTO",
+              "fuente": "Cálculo propio sobre el programa de financiación de 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 300,
+                "etiqueta": "millones de euros al año",
+                "decimales": 0,
+                "sufijo": " M€"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro coins falling slow motion",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "bank economist man portrait trading floor",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "+0,1 %",
+                "titular": "Son trescientos millones al año",
+                "apoyo": "Por cada décima, sobre todo lo que se emite en dos mil veintiséis.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Por eso el mercado de bonos es el único tribunal que Francia no puede disolver ni aplazar. Un Parlamento se puede bloquear durante meses. Una subasta de deuda no: sale a la venta un día fijo y alguien pone el precio.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Una subasta no se *aplaza*."
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "El único tribunal",
+                "texto": "No se puede *disolver*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "auction hammer gavel wooden",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "Lectura tres: quién decide",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Tercera lectura: quién decide. Y aquí es donde Francia se separa de Italia. Porque el problema de fondo no es solo que haya déficit. Es que cada intento serio de reducirlo ha acabado tumbando o hundiendo a un Gobierno.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Quién *decide*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty parliament seats chamber light",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "french deputy woman portrait assembly nationale",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Cada intento ha hundido a un Gobierno",
+                "apoyo": "Esa es la diferencia con Italia.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "El cuatro de diciembre de dos mil veinticuatro, la Asamblea Nacional tumbó al Gobierno de Michel Barnier por su presupuesto. Era la primera vez desde mil novecientos sesenta y dos que un Gobierno francés caía así. Había durado noventa y nueve días.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "national assembly vote hands raised paris",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "older french politician man portrait grey suit",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "99 días",
+                "titular": "Lo que duró Barnier",
+                "apoyo": "Primer Gobierno tumbado así desde mil novecientos sesenta y dos.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "Diciembre de 2024",
+                "texto": "El primero *desde 1962*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Su sucesor, François Bayrou, apostó su cargo a un plan de recortes de unos cuarenta y cuatro mil millones. El ocho de septiembre de dos mil veinticinco perdió la votación de confianza. Había durado doscientos setenta días.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "centrist french politician man portrait podium",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "44.000 M€",
+                "titular": "El plan con el que cayó Bayrou",
+                "apoyo": "Perdió la votación de confianza el ocho de septiembre de dos mil veinticinco.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "french flag government building steps",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Perdió. *Doscientos setenta días*."
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Lo sustituyó Sébastien Lecornu, y el seis de octubre de dos mil veinticinco dimitió, veintisiete días después de ser nombrado y a las pocas horas de presentar su Gobierno. Unos días más tarde volvió a ser nombrado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DÍAS EN EL CARGO",
+              "fuente": "Presidencia de la República · prensa francesa",
+              "barras": {
+                "unidad": "Días",
+                "datos": [
+                  {
+                    "etiqueta": "Barnier",
+                    "valor": 99,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Bayrou",
+                    "valor": 270,
+                    "tono": "ocre"
+                  },
+                  {
+                    "etiqueta": "Lecornu, primera vez",
+                    "valor": 27,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "revolving door building entrance people",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "french prime minister man portrait suit elysee",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "27 días",
+                "titular": "Lo que duró el primer Lecornu",
+                "apoyo": "Dimitió a las pocas horas de presentar su Gobierno.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Tres primeros ministros en poco más de un año, y ningún presupuesto aprobado a tiempo. Mientras tanto, las agencias de calificación miraban. En septiembre de dos mil veinticinco Fitch rebajó la nota de Francia a A más. S&P hizo lo mismo en octubre, y Moody's puso la suya en perspectiva negativa.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "escalera",
+                "agencias": [
+                  {
+                    "nombre": "Moody's",
+                    "peldano": 3,
+                    "nota": "Aa3",
+                    "perspectiva": "negativa"
+                  },
+                  {
+                    "nombre": "S&P",
+                    "peldano": 4,
+                    "nota": "A+"
+                  },
+                  {
+                    "nombre": "Fitch",
+                    "peldano": 4,
+                    "nota": "A+"
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "Hasta 2012 tenía la triple A",
+                "texto": "Ha bajado *cuatro peldaños*"
+              },
+              "kicker": "LA NOTA DE FRANCIA",
+              "fuente": "Agencia France Trésor · Fitch · S&P · Moody's"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rating agency analyst reviewing report screens",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Fitch y S&P: *A más*."
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "rating agency analyst man portrait glasses office",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "A+",
+                "titular": "La nota más baja de su historia",
+                "apoyo": "Para Fitch, en septiembre de dos mil veinticinco.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "Fitch lo dijo sin rodeos: veía pocas posibilidades de que las reformas salieran adelante en un país polarizado e inestable. No es un juicio sobre si Francia puede pagar. Es un juicio sobre si Francia puede decidir.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carta",
+              "rotulo": {
+                "kicker": "Fitch, septiembre de 2025",
+                "texto": "Un país *inestable*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "political protest paris crowd flags",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "credit analyst woman portrait london office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No es si puede pagar",
+                "apoyo": "Es si puede decidir.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-07",
+          "vo": "El presupuesto de dos mil veintiséis acabó aprobándose el dos de febrero, por la vía del artículo cuarenta y nueve tres, sin votación. La izquierda presentó una moción de censura y le faltaron veintinueve votos de los doscientos ochenta y nueve necesarios. La ultraderecha sacó ciento treinta y cinco.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "MOCIÓN DE CENSURA · 2 DE FEBRERO DE 2026",
+              "fuente": "Asamblea Nacional · Al Jazeera",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 260,
+                "etiqueta": "votos de los 289 necesarios",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "national assembly deputies applause reaction",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "socialist deputy woman portrait assembly",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "29",
+                "titular": "Votos que faltaron",
+                "apoyo": "La izquierda sacó doscientos sesenta de los doscientos ochenta y nueve.",
+                "icono": "visto"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "constitution book article legal document",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-08",
+          "vo": "El objetivo de déficit de aquel presupuesto era el cinco por ciento, después de abandonar otro más ambicioso del cuatro coma siete. Y aun así el déficit de este año va a ser el cinco coma cuatro: Francia ha fallado su propio objetivo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Objetivo, cinco. *Resultado, cinco coma cuatro*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "target missed arrow dartboard",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "budget auditor man portrait court of accounts",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "5,4 %",
+                "titular": "Francia falló su propio objetivo",
+                "apoyo": "Se había abandonado un cuatro coma siete más ambicioso.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-09",
+          "vo": "Ahora le toca al de dos mil veintisiete: cincuenta y cuatro mil millones en recortes para dejar el déficit en el cinco por ciento. Sin ellos, el Gobierno calcula que se iría al seis coma cinco. Y hay que aprobarlo con las presidenciales de abril y mayo ya a la vista.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DÉFICIT DE 2027 SI NO SE HACE NADA",
+              "fuente": "Ministerio de Economía de Francia · octubre de 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 6.5,
+                "etiqueta": "por ciento del PIB",
+                "decimales": 1,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar april may election date circle",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young french voter woman portrait polling station",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "5 %",
+                "titular": "El objetivo con recortes",
+                "apoyo": "Sin recortes, seis coma cinco. Y elecciones en abril y mayo.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "campaign posters street election france",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b3-10",
+          "vo": "Un analista de BCA Research dijo esta misma semana que las negociaciones del presupuesto se alargarán hasta bien entrado el primer semestre de dos mil veintisiete. Es decir: durante las propias elecciones.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "newsroom journalists breaking news desk",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "market strategist man portrait wall street",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Hasta bien entrado dos mil veintisiete",
+                "apoyo": "Durante las propias elecciones, dice BCA Research.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Durante *las propias elecciones*."
+            }
+          ]
+        },
+        {
+          "id": "b3-11",
+          "vo": "Esa es la tercera lectura. El mercado no está dudando de que Francia pueda pagar. Está dudando de que Francia pueda ponerse de acuerdo consigo misma.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No duda de que pueda pagar. Duda de que *pueda decidir*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "two hands handshake negotiation table",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "plano",
+              "rotulo": {
+                "kicker": "Tercera lectura",
+                "texto": "Ponerse de *acuerdo*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Lectura cuatro: quién presta",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Cuarta lectura: quién presta. Porque un país puede deber mucho y vivir tranquilo mientras sus acreedores sean fieles. La pregunta es quiénes son.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Quién *presta*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "investors meeting boardroom suits table",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "pension fund manager man portrait boardroom",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Un país vive tranquilo si sus acreedores son fieles",
+                "apoyo": "La pregunta es quiénes son.",
+                "icono": "persona"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "De la deuda negociable de Francia, más o menos un cuarto está en manos de inversores franceses. Otro cuarto, en las del Banco de Francia, que la compró por cuenta del Banco Central Europeo. Otro, de inversores del resto del euro. Y otro, de fuera del euro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "cuartos",
+                "cuartos": [
+                  {
+                    "etiqueta": "Inversores franceses",
+                    "nota": "Aseguradoras, bancos, fondos"
+                  },
+                  {
+                    "etiqueta": "Banco de Francia",
+                    "nota": "Unos 630.000 millones, por cuenta del BCE"
+                  },
+                  {
+                    "etiqueta": "Resto del euro",
+                    "nota": "Inversores de la zona euro"
+                  },
+                  {
+                    "etiqueta": "Fuera del euro",
+                    "nota": "Los primeros en irse si hay dudas"
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "Quién presta",
+                "texto": "La mitad *de fuera*"
+              },
+              "kicker": "A QUIÉN LE DEBE FRANCIA",
+              "fuente": "Banque de France · Agencia France Trésor · AP"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "banque de france building facade paris",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "european investor woman portrait frankfurt office",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "630.000 M€",
+                "titular": "Lo que guarda el Banco de Francia",
+                "apoyo": "Comprado por cuenta del Banco Central Europeo.",
+                "icono": "banco"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Es decir, la mitad de lo que debe Francia se lo debe a gente que no vive en Francia. Y esa mitad es la que menos paciencia tiene cuando el Parlamento se bloquea: un inversor extranjero no vota en las elecciones francesas y puede vender sin pedir permiso.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "foreign investor man portrait tokyo office window",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "~50 %",
+                "titular": "La mitad vive fuera de Francia",
+                "apoyo": "No vota, y puede vender sin pedir permiso.",
+                "icono": "globo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "world map stock exchanges screens",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "No vota. Pero *puede vender*."
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Y el comprador que más ha sostenido ese mercado durante la última década se está yendo. El Eurosistema, que compró deuda pública a lo grande para sostener la economía, va a reducir este año sus tenencias en unos trescientos ochenta y cuatro mil millones de euros.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EL BCE SE DESHACE DE BONOS · 2026",
+              "fuente": "Amundi · Banco Central Europeo",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 384,
+                "etiqueta": "miles de millones de euros menos",
+                "decimales": 0,
+                "sufijo": " MM€"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european central bank frankfurt building",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "central bank economist woman portrait frankfurt",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "El comprador más grande se va",
+                "apoyo": "El Eurosistema reduce sus tenencias este año.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El comprador más grande *se va*."
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Cuando el mayor comprador deja de comprar y encima el vendedor emite un récord, hace falta que otros llenen el hueco. Y esos otros no lo hacen por patriotismo: lo hacen si el precio compensa. Por eso el bono sube.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Nadie compra por patriotismo. *Compran si compensa*."
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "balanza",
+              "rotulo": {
+                "kicker": "El hueco",
+                "texto": "Si el precio *compensa*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty chairs auction room",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Y esto responde a la pregunta del principio. Italia debe más, pero su déficit fue de tres coma uno por ciento en dos mil veinticinco y este año ronda el tres. El de Francia fue el cinco coma uno, y sigue subiendo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DÉFICIT PÚBLICO EN 2025",
+              "fuente": "Eurostat · INSEE · Comisión Europea",
+              "barras": {
+                "unidad": "Por ciento del PIB",
+                "datos": [
+                  {
+                    "etiqueta": "Italia",
+                    "valor": 3.1,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "Francia",
+                    "valor": 5.1,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "mapa",
+              "kicker": "DOS PAÍSES, DOS DIRECCIONES",
+              "mapa": {
+                "destaca": [
+                  "francia",
+                  "italia"
+                ],
+                "region": "europa"
+              },
+              "rotulo": {
+                "kicker": "Debe más, pero se estabiliza",
+                "texto": "Italia *no sube*"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "italian finance official woman portrait rome",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Italia se estabiliza",
+                "apoyo": "Debe más, pero su deuda apenas se mueve.",
+                "icono": "visto"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-07",
+          "vo": "Y hay otra diferencia que Moody's puso por escrito cuando mejoró la nota de Italia: su historial de estabilidad política. La deuda italiana es más alta, pero el mercado la ve quieta. La francesa es más baja, pero la ve subir, y sin un Gobierno que la frene.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "carpeta",
+              "rotulo": {
+                "kicker": "Moody's sobre Italia",
+                "texto": "Estabilidad *política*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rome italian parliament chamber",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "credit rating analyst man portrait moodys office",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Premió su estabilidad",
+                "apoyo": "Moody's mejoró la nota de Italia por su historial político.",
+                "icono": "visto"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-08",
+          "vo": "El mercado no cobra por lo que debes. Cobra por hacia dónde vas y por quién va al volante.",
+          "voz": {
+            "speed": 0.94
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "No cobra por lo que debes. *Cobra por hacia dónde vas*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "steering wheel driver road night",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Ahora, lo que juega en contra de todo esto, que no es poco, y que casi nadie pone al lado.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Lo que juega *en contra*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "balance scale weights metal",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Primero, no todo es Francia. El bono estadounidense a diez años estaba el veinticuatro de septiembre en el cinco coma dieciséis por ciento. El Bund alemán, cerca de su nivel más alto desde dos mil nueve. Y el petróleo, por encima de ciento ocho dólares. Una parte de la subida es mundial.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA SUBIDA TAMBIÉN ES MUNDIAL · 24 DE SEPTIEMBRE",
+              "fuente": "Datos de mercado recogidos por EFE",
+              "barras": {
+                "unidad": "Rentabilidad anual del bono a diez años",
+                "datos": [
+                  {
+                    "etiqueta": "Alemania",
+                    "valor": 3.6,
+                    "tono": "ink",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "Francia",
+                    "valor": 4.69,
+                    "tono": "carmin",
+                    "decimales": 2
+                  },
+                  {
+                    "etiqueta": "Estados Unidos",
+                    "valor": 5.16,
+                    "tono": "ocre",
+                    "decimales": 2
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "oil refinery flames sunset",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "commodity trader man portrait oil screens",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "108 $",
+                "titular": "El petróleo, por encima",
+                "apoyo": "Presiona a todos los bonos, no solo a los franceses.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "global map data flows worldwide finance",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "La parte que sí es solo francesa es la distancia con Alemania: más de ciento treinta puntos básicos, la mayor desde dos mil doce. Es decir, el mercado le pide a Francia un uno coma tres por ciento más que a Alemania por prestarle diez años.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "DISTANCIA ENTRE EL BONO FRANCÉS Y EL ALEMÁN",
+              "fuente": "Datos de mercado · 1 de octubre de 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 130,
+                "etiqueta": "puntos básicos",
+                "decimales": 0,
+                "sufijo": " pb"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "france germany flags together",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "frase",
+              "texto": "*Uno coma tres* por ciento más que Alemania."
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Segundo, las agencias no están en pánico. Fitch y S&P mantienen a Francia en A más con perspectiva estable, y solo Moody's tiene la suya en negativo. Y las subastas siguen sobresuscritas: en primavera se pidió más o menos el doble de lo que se adjudicó.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Las agencias *no están en pánico*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "investors applauding auction success",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "auction coordinator woman portrait treasury",
+                "tono": "ocre",
+                "lado": "izq",
+                "cifra": "2x",
+                "titular": "Se pidió el doble",
+                "apoyo": "En primavera hubo el doble de demanda que de oferta.",
+                "icono": "visto"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Tercero, Francia tiene algo a su favor que pesa mucho: ahorradores. Los hogares franceses guardan seis billones y medio de euros en activos financieros y ahorran el diecisiete por ciento de su renta. Una parte importante de esa deuda se la deben a sí mismos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "PATRIMONIO FINANCIERO DE LOS HOGARES FRANCESES",
+              "fuente": "Banque de France · marzo de 2026",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 6590.5,
+                "etiqueta": "miles de millones de euros",
+                "decimales": 1
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "french family savings piggy bank table",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "french saver woman portrait kitchen home",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "17 %",
+                "titular": "De su renta, ahorrada",
+                "apoyo": "Una tasa de ahorro muy alta sobre su renta.",
+                "icono": "moneda"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "Y la deuda está en euros, con el Banco Central Europeo detrás, que tiene herramientas para actuar si un mercado se desordena. Por eso casi nadie serio habla de que Francia no vaya a pagar. Va a pagar. Lo que está en juego es cuánto.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "aeropuerto",
+              "rotulo": {
+                "kicker": "Detrás está el BCE",
+                "texto": "Con *herramientas*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro symbol sculpture frankfurt",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Va a pagar. Lo que importa es *cuánto*."
+            }
+          ]
+        },
+        {
+          "id": "b5-07",
+          "vo": "Así que la deuda que ya nadie va a pagar es un titular, no un dato. Francia paga unos setenta y cinco mil millones al año de intereses y no ha dejado de pagar uno solo. Lo que cambia es la factura.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Un titular, no un dato.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "receipt bill invoice stack close",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "french civil servant man portrait office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No ha dejado de pagar uno solo",
+                "apoyo": "Lo que cambia es la factura.",
+                "icono": "documento"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Qué significa esto para ti",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Y ahora lo que significa para ti. Para empezar, que esto no se queda en Francia. El bono español a diez años cerró el veinticuatro de septiembre en el cuatro coma cero ocho, su nivel más alto desde dos mil trece. España paga sesenta puntos básicos menos que Francia, pero paga más que hace un año.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "BONO ESPAÑOL A DIEZ AÑOS · 24 DE SEPTIEMBRE DE 2026",
+              "fuente": "EFE · datos de mercado",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4.08,
+                "etiqueta": "su nivel más alto desde dos mil trece",
+                "decimales": 2,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "madrid spain bank bonds street",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "spanish economist woman portrait madrid office",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "−0,61 %",
+                "titular": "Menos que Francia, más que hace un año",
+                "apoyo": "Sesenta puntos básicos de diferencia.",
+                "icono": "sube"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "spanish flag government building madrid",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Cuando suben los tipos de la deuda de los grandes países europeos, suben los de todos. Y de ahí salen el Euríbor y las hipotecas. Los operadores del mercado ya descuentan subidas de los tipos del Banco Central Europeo hasta dos mil veintisiete.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "objeto",
+              "objeto": "casa",
+              "rotulo": {
+                "kicker": "De ahí salen",
+                "texto": "El Euríbor y *tu hipoteca*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "mortgage house keys bank contract signing",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "home buyer couple portrait apartment spain",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "De la deuda sale la hipoteca",
+                "apoyo": "El Euríbor depende de lo que esperan del BCE.",
+                "icono": "casa"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Y hay una fecha para tener en la cabeza: abril y mayo de dos mil veintisiete, las elecciones presidenciales francesas. El mercado ya está poniendo precio a esa incertidumbre, mucho antes de saber quién se presenta.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "election ballot box paris polling",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "french voter older man portrait paris street",
+                "tono": "ocre",
+                "lado": "der",
+                "cifra": "2027",
+                "titular": "Abril y mayo",
+                "apoyo": "Presidenciales. El mercado ya les pone precio.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El mercado *ya le pone precio*."
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "La enseñanza útil es esta. Una deuda no se vuelve peligrosa cuando es grande. Se vuelve peligrosa cuando quien tiene que reducirla no es capaz de ponerse de acuerdo. Francia no tiene un problema de dinero. Tiene un problema de mayorías.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Francia no tiene un problema de dinero. *Tiene un problema de mayorías*.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "parliament hemicycle seats wide empty",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "sala",
+              "rotulo": {
+                "kicker": "La lección",
+                "texto": "Un problema de *mayorías*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "El mismo cuatro coma noventa y cinco que parecía un problema de matemáticas es, mirado de cerca, un problema de política. Y eso, que es lo que el mercado está cobrando, no se arregla con un presupuesto. Se arregla con una mayoría.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Un problema de matemáticas que *es de política*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "paris eiffel tower night lights",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "objeto",
+              "objeto": "grua",
+              "rotulo": {
+                "kicker": "Lo que cobra el mercado",
+                "texto": "Una *mayoría*"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "Hasta que alguien en París consiga una, el bono seguirá diciendo lo que el Parlamento no se atreve a decir.",
+          "voz": {
+            "speed": 0.94
+          },
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "sub": "El bono dice lo que el Parlamento no dice.",
+                "suscribete": true
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El bono dice *lo que el Parlamento no dice*."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Francia Debe Menos Que Italia. Entonces, ¿Por Qué Paga Más?",
+    "descripcion": "El jueves 1 de octubre de 2026, el bono francés a diez años tocó el 4,95 %, su nivel más alto desde 2002. El mismo día, el Gobierno presentó un presupuesto con 54.000 millones de euros en recortes.\n\nPero una semana antes, el 24 de septiembre, pasaba algo que no cuadra: España pagaba un 4,08 % por endeudarse a diez años, Italia un 4,54 % y Francia un 4,69 %. Italia debe el 139 % de su PIB. Francia, el 119 %. Francia debe veinte puntos menos que Italia y le prestan más caro.\n\nCuando un mercado cobra más caro a quien debe menos, no está mirando lo que debes. Está mirando otra cosa. Este vídeo la busca leyendo ese número de cuatro maneras.\n\nLAS CUATRO LECTURAS\n\n• Lo que debe. El INSEE publicó el 29 de septiembre la cifra de finales de junio: 3,5955 billones de euros, el 119,0 % del PIB, el nivel más alto de toda la serie, que arranca en 1978. En el primer semestre la deuda subió 135.400 millones: unos 8.650 euros por segundo. Y son cincuenta y un ejercicios seguidos con déficit, desde 1975.\n\n• Lo que cuesta. Las administraciones públicas pagaron 65.700 millones de euros en intereses en 2025 y este año serán unos 75.000. El programa de financiación del Estado para 2026 es de 310.000 millones, un récord, y cada décima de punto que sube el bono supone unos 300 millones más al año sobre lo que se emite.\n\n• Quién decide. Barnier cayó el 4 de diciembre de 2024 tras 99 días, el primer Gobierno tumbado así desde 1962. Bayrou, tras 270 días, el 8 de septiembre de 2025. Lecornu dimitió a los 27 días y volvió. Fitch y S&P bajaron la nota a A+, Moody's la dejó en negativo. El presupuesto de 2026 se aprobó por el artículo 49.3 y el déficit saldrá en el 5,4 %, por encima de su objetivo. El de 2027 pide 54.000 millones de recortes, con elecciones presidenciales en abril y mayo.\n\n• Quién presta. Más o menos la mitad de la deuda francesa está en manos de inversores que no viven en Francia. Y el Eurosistema, el mayor comprador de la última década, va a reducir este año sus tenencias en unos 384.000 millones. Italia, en cambio, tuvo un déficit del 3,1 % en 2025 y Moody's mejoró su nota por su estabilidad política. El mercado no cobra por lo que debes: cobra por hacia dónde vas y por quién conduce.\n\nEl vídeo incluye lo que juega en contra de su tesis: una parte de la subida es mundial (el bono de EEUU rozaba el 5,2 % y el petróleo superaba los 108 dólares), Fitch y S&P mantienen a Francia en A+ con perspectiva estable, las subastas se cubren casi el doble, y los hogares franceses guardan 6,6 billones de euros en activos financieros y ahorran el 17 % de su renta. Francia va a pagar. Lo que está en juego es cuánto.\n\nY termina en casa: el bono español cerró el 24 de septiembre en el 4,08 %, su nivel más alto desde 2013. Los mercados ya descuentan subidas del BCE hasta 2027, y de ahí salen el Euríbor y las hipotecas.\n\nFUENTES\nINSEE — dette publique au deuxième trimestre 2026, 29 de septiembre de 2026\nCour des comptes — informe de abril de 2026 sobre la carga de la deuda\nMinisterio de Economía de Francia — previsiones de deuda y déficit, septiembre de 2026\nAgence France Trésor — calificaciones soberanas y programa de financiación\nTrading Economics y EFE — rentabilidad de los bonos a diez años, 24 de septiembre y 1 de octubre de 2026\nBanque de France — patrimonio financiero de los hogares, primer trimestre de 2026\nComisión Europea y Eurostat — déficit y deuda de Italia y Francia\nAmundi Research — tenencias del Eurosistema en 2026\nEuronews, Al Jazeera, CNBC y Bloomberg — presupuesto de 2027 y crisis de Gobierno\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#Francia #DeudaPública #Economía",
+    "etiquetas": [
+      "francia deuda",
+      "deuda publica francia",
+      "bono frances",
+      "oat",
+      "prima de riesgo francia",
+      "francia italia bono",
+      "spread oat bund",
+      "bund aleman",
+      "deuda italia",
+      "rebaja nota francia",
+      "calificacion crediticia",
+      "fitch",
+      "moodys",
+      "presupuesto francia 2027",
+      "lecornu",
+      "bayrou",
+      "barnier",
+      "mocion de censura",
+      "elecciones francia 2027",
+      "deficit publico",
+      "intereses de la deuda",
+      "banco central europeo",
+      "bce",
+      "euribor",
+      "hipotecas",
+      "bono español",
+      "crisis deuda europa",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x"
+    ]
+  }
+}

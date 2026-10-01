@@ -2,6 +2,18 @@ import React from "react";
 import { interpolate, spring, useVideoConfig } from "remotion";
 import { ACENTO, APAGADO, PAPEL, REALCE, TINTA } from "../theme";
 import { familiaDe, useFrame, usePlantilla } from "../estilo";
+import {
+  AnosEnRojo,
+  CuartosDeuda,
+  EscaleraNotas,
+  RelojDeuda,
+  TermometroBono,
+  type EspecAnos,
+  type EspecCuartos,
+  type EspecEscalera,
+  type EspecReloj,
+  type EspecTermometro,
+} from "./Mercado";
 
 /**
  * Ilustraciones en movimiento.
@@ -34,7 +46,11 @@ export type EspecIlustracion = {
   /** Etiquetas de los dos extremos del caudal. */
   de?: string;
   a?: string;
-};
+} & Partial<EspecReloj> &
+  Partial<EspecEscalera> &
+  Partial<EspecTermometro> &
+  Partial<EspecCuartos> &
+  Partial<EspecAnos>;
 
 const VB = "0 0 1920 1080";
 const lienzo: React.CSSProperties = {
@@ -497,7 +513,9 @@ const Engranaje: React.FC<{
 
 /* ================================================================== */
 
-export const NOMBRES_ILUSTRACION = ["ciudad", "flujo", "fabrica"] as const;
+export const NOMBRES_ILUSTRACION = [
+  "ciudad", "flujo", "fabrica", "reloj", "escalera", "termometro", "cuartos", "anos",
+] as const;
 
 export const Ilustracion: React.FC<{ spec: EspecIlustracion }> = ({ spec }) => {
   const p = usePlantilla();
@@ -509,6 +527,11 @@ export const Ilustracion: React.FC<{ spec: EspecIlustracion }> = ({ spec }) => {
       {spec.nombre === "ciudad" ? <Ciudad spec={spec} /> : null}
       {spec.nombre === "flujo" ? <Flujo spec={spec} /> : null}
       {spec.nombre === "fabrica" ? <Fabrica spec={spec} /> : null}
+      {spec.nombre === "reloj" ? <RelojDeuda spec={spec as EspecReloj} /> : null}
+      {spec.nombre === "escalera" ? <EscaleraNotas spec={spec as EspecEscalera} /> : null}
+      {spec.nombre === "termometro" ? <TermometroBono spec={spec as EspecTermometro} /> : null}
+      {spec.nombre === "cuartos" ? <CuartosDeuda spec={spec as EspecCuartos} /> : null}
+      {spec.nombre === "anos" ? <AnosEnRojo spec={spec as EspecAnos} /> : null}
     </div>
   );
 };

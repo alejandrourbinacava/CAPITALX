@@ -9,6 +9,7 @@ import {
 } from "remotion";
 import { ACENTO, APAGADO, C, FONT, PAPEL, TINTA, VIDEO, framesForWords } from "./theme";
 import {
+  InicioCtx,
   PlantillaCtx,
   resolver,
   useFrame,
@@ -598,9 +599,11 @@ export const CapitalXVideo: React.FC<{ guion: Guion; tiempos: Tiempos }> = ({
                 durationInFrames={t.largo}
                 name={t.solo ? p.id : `${p.id}.${k + 1}`}
               >
-                <Transicion orden={i + k}>
-                  <PlanoView p={t.escena} orden={i + k} />
-                </Transicion>
+                <InicioCtx.Provider value={from + t.desde}>
+                  <Transicion orden={i + k}>
+                    <PlanoView p={t.escena} orden={i + k} />
+                  </Transicion>
+                </InicioCtx.Provider>
                 {/* cada cambio de imagen suena, o el corte se nota vacio */}
                 {k > 0 ? <Sfx at={0} src="papel" vol={0.22} /> : null}
                 {/* el icono del recorte se traza en medio segundo: suena al

@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { random, useCurrentFrame } from "remotion";
 import { C, FONT, T } from "../theme";
-import { usePlantilla, type Plantilla } from "../estilo";
+import { useFrameGlobal, usePlantilla, type Plantilla } from "../estilo";
 
 /** ¿Este papel es oscuro? Decide si la textura se dibuja en claro o en oscuro. */
 export const esOscuro = (hex: string) => {
@@ -142,6 +142,119 @@ export const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.16 }) => {
 };
 
 /**
+ * La cinta de cifras y la barra de estado: el marco de un puesto de mesa de
+ * dinero.
+ *
+ * Corre sin parar durante todo el video, y por eso lee el reloj GLOBAL: con el
+ * fotograma local se reiniciaria en cada corte de escena, cada tres o cuatro
+ * segundos, y una cinta que da un tiron cada tres segundos parece rota.
+ *
+ * Va a velocidad fluida a proposito. Lo que pisa en esta plantilla es el
+ * dibujo; la cinta es del marco, y el marco no se anima a saltos.
+ */
+const Cinta: React.FC<{ p: Plantilla }> = ({ p }) => {
+  const frame = useFrameGlobal();
+  const items = (p.cinta ?? []).map((s) => {
+    const [etiqueta, valor] = s.split("|");
+    return { etiqueta: (etiqueta ?? "").trim(), valor: (valor ?? "").trim() };
+  });
+  const TAM = 25;
+  const ANCHO_CAR = TAM * 0.6; // monoespaciada: 0,6 em por caracter
+  const SEP = 64;
+  const anchoDe = (it: { etiqueta: string; valor: string }) =>
+    (it.etiqueta.length + 1 + it.valor.length) * ANCHO_CAR + SEP;
+  const periodo = Math.max(1, items.reduce((a, it) => a + anchoDe(it), 0));
+  const x = -((frame * 2.4) % periodo);
+
+  const fila = (clave: string) => (
+    <div key={clave} style={{ display: "flex", flex: "0 0 auto" }}>
+      {items.map((it, i) => (
+        <div
+          key={i}
+          style={{
+            display: "flex",
+            gap: ANCHO_CAR,
+            paddingRight: SEP,
+            whiteSpace: "nowrap",
+            fontFamily: FONT.mono,
+            fontSize: TAM,
+            letterSpacing: "0.02em",
+          }}
+        >
+          <span style={{ color: p.apagado }}>{it.etiqueta}</span>
+          <span style={{ color: p.acento, fontWeight: 500 }}>{it.valor}</span>
+        </div>
+      ))}
+    </div>
+  );
+
+  return (
+    <>
+      {/* barra de estado, arriba */}
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          top: 0,
+          height: 50,
+          background: p.acento,
+          color: p.papel,
+          display: "flex",
+          alignItems: "center",
+          padding: "0 40px",
+          fontFamily: FONT.mono,
+          fontSize: 22,
+          fontWeight: 500,
+          letterSpacing: "0.16em",
+          textTransform: "uppercase",
+          zIndex: 50,
+        }}
+      >
+        <span>{p.barra ?? ""}</span>
+        <span style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
+          <span
+            style={{
+              width: 14,
+              height: 14,
+              borderRadius: 7,
+              background: p.papel,
+              opacity: Math.floor(frame / 15) % 2 === 0 ? 1 : 0.25,
+            }}
+          />
+          SESIÓN
+        </span>
+      </div>
+
+      {/* cinta, abajo */}
+      {items.length ? (
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            right: 0,
+            bottom: 0,
+            height: 58,
+            background: p.realce,
+            borderTop: `2px solid ${p.acento}`,
+            overflow: "hidden",
+            display: "flex",
+            alignItems: "center",
+            zIndex: 50,
+          }}
+        >
+          <div style={{ display: "flex", transform: `translateX(${x}px)` }}>
+            {fila("a")}
+            {fila("b")}
+            {fila("c")}
+          </div>
+        </div>
+      ) : null}
+    </>
+  );
+};
+
+/**
  * El mobiliario de marco.
  *
  * Cuatro opciones, y cada una encuadra el plano de una manera distinta:
@@ -153,6 +266,8 @@ const Marco: React.FC<{ p: Plantilla; oscuro: boolean }> = ({ p, oscuro }) => {
   const op = oscuro ? 0.3 : 0.42;
 
   if (p.marco === "ninguno") return null;
+
+  if (p.marco === "cinta") return <Cinta p={p} />;
 
   if (p.marco === "caja") {
     return (

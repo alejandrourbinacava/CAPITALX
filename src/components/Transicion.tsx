@@ -79,6 +79,35 @@ export const Transicion: React.FC<{
     );
   }
 
+  if (p.transicion === "persiana") {
+    // Lamas horizontales que se abren: cada tira de sesenta pixeles pasa de
+    // cerrada a abierta en nueve fotogramas. No hay desvanecido ni
+    // desplazamiento: lo que se ve, se ve entero, tira a tira.
+    const k = interpolate(frame, [0, 9], [0, 1], {
+      extrapolateLeft: "clamp",
+      extrapolateRight: "clamp",
+      easing: (x) => 1 - Math.pow(1 - x, 2),
+    });
+    const lama = 60;
+    const mascara =
+      k >= 0.999
+        ? undefined
+        : `repeating-linear-gradient(to bottom, #000 0px, #000 ${k * lama}px, transparent ${k * lama}px, transparent ${lama}px)`;
+    return (
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          ...base,
+          WebkitMaskImage: mascara,
+          maskImage: mascara,
+        }}
+      >
+        {children}
+      </div>
+    );
+  }
+
   if (p.transicion === "flash") {
     // El destello es corto y duro: dos fotogramas de papel a plena opacidad y
     // se va. Es el corte del montaje brutalista.

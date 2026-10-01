@@ -168,3 +168,103 @@ export const DEMOS: { id: string; guion: Guion }[] = Object.keys(PLANTILLAS).map
     bloques: [{ planos: PLANOS }],
   } as Guion,
 }));
+
+
+/**
+ * Prueba de las ilustraciones del video de la deuda francesa, sobre la
+ * plantilla "mercado". Cada escena es una de las cinco hechas para ese video.
+ */
+const PLANOS_MERCADO = [
+  {
+    id: "m-01",
+    vo: "La deuda pública de Francia sube mientras tú escuchas esto, a un ritmo de unos ocho mil seiscientos cincuenta y siete euros por cada segundo que pasa, y al mismo tiempo las tres grandes agencias de calificación le han ido quitando peldaños a su nota desde que perdió la triple A hace más de una década.",
+    escenas: [
+      {
+        tipo: "ilustracion",
+        kicker: "DEUDA PÚBLICA",
+        fuente: "INSEE · 30 de junio de 2026",
+        ilustracion: {
+          nombre: "reloj",
+          base: 3595500000000,
+          porSegundo: 8657,
+          nota: "A RITMO DEL PRIMER SEMESTRE DE 2026",
+        },
+        rotulo: { kicker: "Deuda de Francia", texto: "Sube *mientras miras*" },
+      },
+      {
+        tipo: "ilustracion",
+        kicker: "LA NOTA",
+        ilustracion: {
+          nombre: "escalera",
+          agencias: [
+            { nombre: "Moody's", peldano: 3, nota: "Aa3", perspectiva: "negativa" },
+            { nombre: "S&P", peldano: 4, nota: "A+" },
+            { nombre: "Fitch", peldano: 4, nota: "A+" },
+          ],
+        },
+        rotulo: { kicker: "Hasta 2012 tenía la triple A", texto: "Ha bajado *cuatro peldaños*" },
+      },
+    ],
+  },
+  {
+    id: "m-02",
+    vo: "El bono francés a diez años rozó el cinco por ciento esta misma semana, una cifra que hace un año ni se acercaba, y eso encarece cada euro que el Estado pide prestado a unos acreedores que en la mitad de los casos viven fuera del país, y que además llevan cincuenta y un años viendo a Francia cerrar cada ejercicio en rojo, sin una sola excepción en todo ese tiempo.",
+    escenas: [
+      {
+        tipo: "ilustracion",
+        kicker: "EL BONO A DIEZ AÑOS",
+        ilustracion: {
+          nombre: "termometro",
+          umbral: 5.0,
+          lecturas: [
+            { etiqueta: "15 sep 2025 · tras Fitch", valor: 3.51 },
+            { etiqueta: "6 oct 2025 · dimite Lecornu", valor: 3.6 },
+            { etiqueta: "1 oct 2026", valor: 4.95 },
+          ],
+        },
+        rotulo: { kicker: "Un año después", texto: "Casi *el cinco por ciento*" },
+      },
+      {
+        tipo: "ilustracion",
+        kicker: "A QUIÉN LE DEBE",
+        ilustracion: {
+          nombre: "cuartos",
+          cuartos: [
+            { etiqueta: "Inversores franceses", nota: "Aseguradoras, bancos, fondos" },
+            { etiqueta: "Banque de France", nota: "Unos 630.000 millones, vía BCE" },
+            { etiqueta: "Zona euro", nota: "Inversores del resto del euro" },
+            { etiqueta: "Fuera del euro", nota: "Los que más huyen primero" },
+          ],
+        },
+        rotulo: { kicker: "Quién presta", texto: "Mitad *de fuera*" },
+      },
+      {
+        tipo: "ilustracion",
+        kicker: "SIN UN SOLO AÑO DE SUPERÁVIT",
+        ilustracion: { nombre: "anos", desde: 1975, hasta: 2025, etiqueta: "Años con déficit" },
+        rotulo: { kicker: "Desde los setenta", texto: "*Cincuenta y un* años seguidos" },
+      },
+    ],
+  },
+] as any;
+
+DEMOS.push({
+  id: "estilo-mercado-francia",
+  guion: {
+    slug: "estilo-mercado-francia",
+    wpm: 145,
+    estilo: {
+      plantilla: "mercado",
+      barra: "Francia · Deuda soberana · 1 oct 2026",
+      cinta: [
+        "DEUDA|3.595,5 MM€",
+        "PIB|119,0 %",
+        "DÉFICIT 2026|5,4 %",
+        "OAT 10A|4,95 %",
+        "NOTA|A+ · Aa3 · A+",
+        "INTERESES|≈75 MM€/año",
+      ],
+    },
+    bloques: [{ planos: PLANOS_MERCADO }],
+  } as Guion,
+});

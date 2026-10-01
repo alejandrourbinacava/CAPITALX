@@ -422,13 +422,16 @@ El canal tenía un solo montaje. Papel milimetrado, escuadras en las esquinas, r
                  cajas de borde duro, iconos en chapa, corte con destello
     riso         risografía: dos tintas mal registradas, grano alto, tipo de
                  cartel en caja alta, iconos macizos
+    mercado      terminal de renta fija: carbón y ámbar, barra de estado arriba y cinta
+                 de cifras que corre abajo durante todo el vídeo, persiana entre escenas.
+                 Es la primera hecha para un tema: deuda soberana, bonos, mercados.
 
 Cómo se elige, que es lo que importa:
 
-- **La del canal es \`suizo\`.** Es la que se usa por defecto en un guion nuevo. Papel liso, sin marco, titular enorme a bandera izquierda, palabra clave en rojo, cámara quieta, el texto se descubre tras un borde que barre, barras horizontales, contador en anillo, mapa a contorno. Si no hay un motivo para elegir otra, va esta.
+- **Regla de oro: cada vídeo es único.** No hay plantilla de casa. Si el vídeo anterior fue \`suizo\`, este no lo es, y un vídeo sobre un bono no se monta como uno sobre una ciudad. Elige la que dice algo del tema; si ninguna lo dice, se construye una nueva en \`src/estilo.ts\` y se le hacen sus propios gráficos. \`mercado\` se hizo así, para un vídeo de deuda soberana.
 
 - **Se cambia cuando el tema lo pide, no por turno.** Un vídeo sobre documentos filtrados o sobre una decisión que alguien tomó a puerta cerrada va en \`expediente\`. Uno de infraestructura, red eléctrica, obra o ingeniería va en \`plano\`. Uno sobre una cifra oficial y fría va en \`suizo\`. Uno histórico de hemeroteca, en \`prensa\`. Uno de tecnología, criptomonedas o sistemas de pago, en \`terminal\`. Uno de consumo, precios o calle, en \`riso\`.
-- **No dos seguidos con la misma plantilla que no sea \`suizo\`.** Si el anterior fue \`expediente\`, este no puede serlo. Volver a \`suizo\` siempre vale: es la casa, no una repetición.
+- **Nunca la misma plantilla que el vídeo anterior, ni la misma estructura de guion.** Tesis más datos más "lo que juega en contra" es un esqueleto, no una necesidad: un misterio que se resuelve al final, un reloj, un protagonista o una pregunta de sistema son otros esqueletos, y el vídeo de Francia se escribió como "cuatro lecturas del mismo número".
 - **\`acento\` es opcional** y solo sobreescribe el color de la plantilla. \`carmin\`, \`verde\`, \`ocre\` o \`pale\`.
 - **La música también cambia**: \`mystery.wav\`, \`frio.wav\`, \`pulso.wav\`, \`elegia.wav\` o \`tenso.wav\`. Tampoco se repite dos vídeos seguidos.
 
@@ -479,6 +482,10 @@ Hay tres, y cada una lleva sus parámetros:
     { "tipo": "ilustracion", "ilustracion": { "nombre": "fabrica", "parado": true } }
 
 **fabrica** — nave, chimenea con humo, engranajes y una cinta con cajas. Con \`parado\` en true todo frena hasta pararse y aparece el cartel. Para producción, industria, cadenas de suministro, plantas cerradas.
+
+Cinco más que solo valen para un vídeo de deuda y mercados de bonos, hechas para el de Francia y reutilizables:
+
+**reloj** — la deuda subiendo en directo: \`base\` en euros y \`porSegundo\`. **escalera** — las notas de las agencias bajando peldaño a peldaño: \`agencias\` con nombre, peldaño y nota. **termometro** — el bono a diez años lectura a lectura: \`lecturas\` y \`umbral\`. **cuartos** — a quién le debe el país, cuatro cuartos que se llenan. **anos** — un calendario de años en rojo: \`desde\` y \`hasta\`.
 
 Reglas:
 
