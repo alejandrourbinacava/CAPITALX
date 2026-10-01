@@ -54,7 +54,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "trading screens red numbers market",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7578632",
+                  "url": "https://videos.pexels.com/video-files/7578632/7578632-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/close-up-of-numbers-on-display-monitor-7578632/"
+                },
+                "fichero": "clips/pexels-7578632.mp4"
               },
               "camara": "push"
             },
@@ -67,7 +77,15 @@
                 "cifra": "2002",
                 "titular": "La última vez que estuvo así",
                 "apoyo": "Hace veinticuatro años.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567427",
+                  "url": "https://images.pexels.com/photos/7567427/pexels-photo-7567427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-sitting-in-front-of-laptop-feeling-pensive-7567427/"
+                },
+                "fichero": "recortes-auto/pexels-7567427.png"
               }
             }
           ]
@@ -83,7 +101,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "french national assembly chamber parliament",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26772966",
+                  "url": "https://videos.pexels.com/video-files/26772966/12004368_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Samar Layek",
+                  "pagina": "https://www.pexels.com/video/ancient-french-architecture-from-paris-france-26772966/"
+                },
+                "fichero": "clips/pexels-26772966.mp4"
               },
               "camara": "pull"
             },
@@ -96,7 +124,15 @@
                 "cifra": "54.000 M€",
                 "titular": "En recortes para dos mil veintisiete",
                 "apoyo": "En un Parlamento sin mayoría clara.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20348408",
+                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
+                },
+                "fichero": "recortes-auto/pexels-20348408.png"
               }
             },
             {
@@ -161,7 +197,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro banknotes counting close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31424892",
+                  "url": "https://videos.pexels.com/video-files/31424892/13404840_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/hands-counting-euro-bills-for-financial-planning-31424892/"
+                },
+                "fichero": "clips/pexels-31424892.mp4"
               },
               "camara": "pull"
             },
@@ -173,7 +219,15 @@
                 "lado": "izq",
                 "titular": "Francia es la que más paga",
                 "apoyo": "Más que España y más que Italia.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7876451",
+                  "url": "https://images.pexels.com/photos/7876451/pexels-photo-7876451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/woman-talking-on-a-phone-in-an-office-7876451/"
+                },
+                "fichero": "recortes-auto/pexels-7876451.png"
               }
             }
           ]
@@ -199,7 +253,7 @@
                 "datos": [
                   {
                     "etiqueta": "Francia",
-                    "valor": 119.0,
+                    "valor": 119,
                     "tono": "carmin",
                     "decimales": 1
                   },
@@ -217,7 +271,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "paris skyline dusk eiffel tower",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6355353",
+                  "url": "https://videos.pexels.com/video-files/6355353/6355353-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Joshua Miranda",
+                  "pagina": "https://www.pexels.com/video/people-and-cars-in-front-of-eiffel-tower-6355353/"
+                },
+                "fichero": "clips/pexels-6355353.mp4"
               },
               "camara": "push"
             }
@@ -242,7 +306,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "detective board strings photos investigation",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8382140",
+                  "url": "https://videos.pexels.com/video-files/8382140/8382140-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 17,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/man-holding-and-showing-different-pictures-of-people-8382140/"
+                },
+                "fichero": "clips/pexels-8382140.mp4"
               },
               "camara": "panR"
             },
@@ -254,7 +328,15 @@
                 "lado": "der",
                 "titular": "No mira lo que debes",
                 "apoyo": "Mira otra cosa. Hay que encontrarla.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567426",
+                  "url": "https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-wearing-eyeglasses-sitting-in-front-of-laptop-feeling-pensive-7567426/"
+                },
+                "fichero": "recortes-auto/pexels-7567426.png"
               }
             }
           ]
@@ -283,7 +365,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bond market screens green red digits",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38557069",
+                  "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-stock-market-display-analysis-38557069/"
+                },
+                "fichero": "clips/pexels-38557069.mp4"
               },
               "camara": "push"
             },
@@ -295,7 +387,15 @@
                 "lado": "izq",
                 "titular": "Un número, cuatro lecturas",
                 "apoyo": "Y solo la cuarta resuelve el misterio.",
-                "icono": "grafico"
+                "icono": "grafico",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567528",
+                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
+                },
+                "fichero": "recortes-auto/pexels-7567528.png"
               }
             }
           ]
@@ -331,7 +431,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "paris la defense business district towers",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33504877",
+                  "url": "https://videos.pexels.com/video-files/33504877/14250779_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Abdelmoughit  LAHBABI",
+                  "pagina": "https://www.pexels.com/video/modern-skyscrapers-in-urban-cityscape-33504877/"
+                },
+                "fichero": "clips/pexels-33504877.mp4"
               },
               "camara": "push"
             },
@@ -343,7 +453,15 @@
                 "lado": "der",
                 "titular": "Publicado el veintinueve de septiembre",
                 "apoyo": "Cifra de finales de junio, medida por el INSEE.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8353812",
+                  "url": "https://images.pexels.com/photos/8353812/pexels-photo-8353812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-8353812/"
+                },
+                "fichero": "recortes-auto/pexels-8353812.png"
               }
             }
           ]
@@ -364,7 +482,7 @@
                 "etiqueta": ""
               },
               "a": {
-                "valor": 119.0,
+                "valor": 119,
                 "etiqueta": "por ciento del PIB",
                 "decimales": 1,
                 "sufijo": " %"
@@ -378,7 +496,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "archive documents dusty filing library",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6550134",
+                  "url": "https://videos.pexels.com/video-files/6550134/6550134-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/a-hand-touching-card-catalogs-at-a-library-6550134/"
+                },
+                "fichero": "clips/pexels-6550134.mp4"
               },
               "camara": "pull"
             }
@@ -406,7 +534,7 @@
                   },
                   {
                     "etiqueta": "Junio de 2026",
-                    "valor": 119.0,
+                    "valor": 119,
                     "tono": "carmin",
                     "decimales": 1
                   }
@@ -423,14 +551,32 @@
                 "cifra": "+20,8",
                 "titular": "Puntos de PIB en seis años",
                 "apoyo": "De noventa y ocho coma dos a ciento diecinueve.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8278977",
+                  "url": "https://images.pexels.com/photos/8278977/pexels-photo-8278977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "ANTONI SHKRABA production",
+                  "pagina": "https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-wearing-eyeglasses-sitting-on-gray-chair-8278977/"
+                },
+                "fichero": "recortes-auto/pexels-8278977.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "empty paris street pandemic lockdown",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18514289",
+                  "url": "https://videos.pexels.com/video-files/18514289/18514289-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Eugenia Remark",
+                  "pagina": "https://www.pexels.com/video/a-street-with-cars-parked-on-it-and-a-building-18514289/"
+                },
+                "fichero": "clips/pexels-18514289.mp4"
               },
               "camara": "pull"
             }
@@ -462,7 +608,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "clock ticking time lapse close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30084927",
+                  "url": "https://videos.pexels.com/video-files/30084927/12903134_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Sini Ko",
+                  "pagina": "https://www.pexels.com/video/vintage-alarm-clock-ticking-in-darkness-30084927/"
+                },
+                "fichero": "clips/pexels-30084927.mp4"
               },
               "camara": "push"
             },
@@ -491,7 +647,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calculator bills receipts desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6963487",
+                  "url": "https://videos.pexels.com/video-files/6963487/6963487-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/man-using-calculator-6963487/"
+                },
+                "fichero": "clips/pexels-6963487.mp4"
               },
               "camara": "panL"
             },
@@ -504,7 +670,15 @@
                 "cifra": "750 M€",
                 "titular": "Más de deuda cada día",
                 "apoyo": "La diferencia entre lo que ingresa y lo que gasta el Estado.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8297218",
+                  "url": "https://images.pexels.com/photos/8297218/pexels-photo-8297218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/young-girl-in-white-long-sleeve-shirt-holding-books-and-using-a-calculator-8297218/"
+                },
+                "fichero": "recortes-auto/pexels-8297218.png"
               }
             }
           ]
@@ -525,7 +699,7 @@
                 "datos": [
                   {
                     "etiqueta": "Límite europeo",
-                    "valor": 3.0,
+                    "valor": 3,
                     "tono": "ink",
                     "decimales": 1
                   },
@@ -549,7 +723,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european commission brussels building flags",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30740059",
+                  "url": "https://videos.pexels.com/video-files/30740059/13149694_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Samar Layek",
+                  "pagina": "https://www.pexels.com/video/european-union-flag-waving-on-cloudy-day-30740059/"
+                },
+                "fichero": "clips/pexels-30740059.mp4"
               },
               "camara": "pull"
             },
@@ -561,7 +745,15 @@
                 "lado": "izq",
                 "titular": "La regla europea dice tres",
                 "apoyo": "Francia va por el cinco coma cuatro.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33552497",
+                  "url": "https://images.pexels.com/photos/33552497/pexels-photo-33552497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kaybee Photography",
+                  "pagina": "https://www.pexels.com/photo/military-officer-in-uniform-with-medals-33552497/"
+                },
+                "fichero": "recortes-auto/pexels-33552497.png"
               }
             }
           ]
@@ -592,7 +784,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "french presidents archive footage elysee",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15541408",
+                  "url": "https://videos.pexels.com/video-files/15541408/15541408-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ibrahim Bennett",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-traffic-around-the-arc-de-triomphe-in-paris-france-15541408/"
+                },
+                "fichero": "clips/pexels-15541408.mp4"
               },
               "camara": "push"
             },
@@ -604,7 +806,15 @@
                 "lado": "der",
                 "titular": "Con todos los colores",
                 "apoyo": "Izquierda, derecha y centro, sin excepción.",
-                "icono": "balanza"
+                "icono": "balanza",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14044939",
+                  "url": "https://images.pexels.com/photos/14044939/pexels-photo-14044939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mathias Reding",
+                  "pagina": "https://www.pexels.com/photo/an-elderly-man-sitting-on-the-sidewalk-14044939/"
+                },
+                "fichero": "recortes-auto/pexels-14044939.png"
               }
             }
           ]
@@ -632,7 +842,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rome colosseum aerial italy",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38405572",
+                  "url": "https://videos.pexels.com/video-files/38405572/16307856_1918_1080_30fps.mp4",
+                  "ancho": 1918,
+                  "duracion": 8,
+                  "autor": "Ch  Jawad",
+                  "pagina": "https://www.pexels.com/video/stunning-night-view-of-the-colosseum-in-rome-38405572/"
+                },
+                "fichero": "clips/pexels-38405572.mp4"
               },
               "camara": "panR"
             }
@@ -669,7 +889,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank vault door heavy steel",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31750573",
+                  "url": "https://videos.pexels.com/video-files/31750573/13527135_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/close-up-of-coins-in-a-counting-machine-31750573/"
+                },
+                "fichero": "clips/pexels-31750573.mp4"
               },
               "camara": "pull"
             },
@@ -685,7 +915,15 @@
                 "lado": "izq",
                 "titular": "Antes que las pensiones",
                 "apoyo": "Los intereses son la primera factura.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3867132",
+                  "url": "https://images.pexels.com/photos/3867132/pexels-photo-3867132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RF._.studio _",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-long-sleeve-dress-sitting-on-white-chair-3867132/"
+                },
+                "fichero": "recortes-auto/pexels-3867132.png"
               }
             }
           ]
@@ -723,7 +961,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "coins stacking time lapse growing",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31750576",
+                  "url": "https://videos.pexels.com/video-files/31750576/13527301_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/a-pile-of-assorted-shiny-coins-31750576/"
+                },
+                "fichero": "clips/pexels-31750576.mp4"
               },
               "camara": "push"
             },
@@ -752,7 +1000,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "french army soldiers parade paris",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28697460",
+                  "url": "https://videos.pexels.com/video-files/28697460/12454269_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Israyosoy S.",
+                  "pagina": "https://www.pexels.com/video/mexican-military-parade-in-mexico-city-28697460/"
+                },
+                "fichero": "clips/pexels-28697460.mp4"
               },
               "camara": "pull"
             },
@@ -764,7 +1022,15 @@
                 "lado": "der",
                 "titular": "Una de las primeras partidas",
                 "apoyo": "Al nivel de lo que se gasta en Defensa.",
-                "icono": "banco"
+                "icono": "banco",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26834968",
+                  "url": "https://images.pexels.com/photos/26834968/pexels-photo-26834968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Bhandari Law and Partners",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-a-suit-26834968/"
+                },
+                "fichero": "recortes-auto/pexels-26834968.png"
               }
             }
           ]
@@ -784,7 +1050,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "treasury auction bond sale screens",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27599562",
+                  "url": "https://videos.pexels.com/video-files/27599562/12181591_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Martyn Day",
+                  "pagina": "https://www.pexels.com/video/the-entrance-to-the-royal-mint-building-27599562/"
+                },
+                "fichero": "clips/pexels-27599562.mp4"
               },
               "camara": "panL"
             },
@@ -797,14 +1073,32 @@
                 "cifra": "310.000 M€",
                 "titular": "Programa de financiación de 2026",
                 "apoyo": "Un récord. Y lo que se renueva, a tipos de hoy.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6172490",
+                  "url": "https://images.pexels.com/photos/6172490/pexels-photo-6172490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-and-white-corporate-attire-standing-near-flags-6172490/"
+                },
+                "fichero": "recortes-auto/pexels-6172490.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "interest rates board bank sign window",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7821606",
+                  "url": "https://videos.pexels.com/video-files/7821606/7821606-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/video-of-credit-card-documents-7821606/"
+                },
+                "fichero": "clips/pexels-7821606.mp4"
               },
               "camara": "panR"
             }
@@ -821,7 +1115,7 @@
               "tipo": "ilustracion",
               "ilustracion": {
                 "nombre": "termometro",
-                "umbral": 5.0,
+                "umbral": 5,
                 "lecturas": [
                   {
                     "etiqueta": "15 sep 2025 · tras Fitch",
@@ -848,7 +1142,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "thermometer heat rising red",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32682534",
+                  "url": "https://videos.pexels.com/video-files/32682534/13933281_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nicola Narracci",
+                  "pagina": "https://www.pexels.com/video/stunning-close-up-of-fiery-solar-surface-32682534/"
+                },
+                "fichero": "clips/pexels-32682534.mp4"
               },
               "camara": "push"
             },
@@ -861,7 +1165,15 @@
                 "cifra": "+1,44",
                 "titular": "Puntos de interés en un año",
                 "apoyo": "De tres coma cincuenta y uno a cuatro coma noventa y cinco.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567442",
+                  "url": "https://images.pexels.com/photos/7567442/pexels-photo-7567442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-dress-shirt-with-eyeglasses-feeling-exhausted-7567442/"
+                },
+                "fichero": "recortes-auto/pexels-7567442.png"
               }
             },
             {
@@ -896,7 +1208,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro coins falling slow motion",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34263260",
+                  "url": "https://videos.pexels.com/video-files/34263260/14517218_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Just For Music And Film",
+                  "pagina": "https://www.pexels.com/video/falling-euro-coins-into-glass-jar-for-savings-34263260/"
+                },
+                "fichero": "clips/pexels-34263260.mp4"
               },
               "camara": "pull"
             },
@@ -909,7 +1231,15 @@
                 "cifra": "+0,1 %",
                 "titular": "Son trescientos millones al año",
                 "apoyo": "Por cada décima, sobre todo lo que se emite en dos mil veintiséis.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5715846",
+                  "url": "https://images.pexels.com/photos/5715846/pexels-photo-5715846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Artem Podrez",
+                  "pagina": "https://www.pexels.com/photo/man-in-front-of-a-laptop-5715846/"
+                },
+                "fichero": "recortes-auto/pexels-5715846.png"
               }
             }
           ]
@@ -937,7 +1267,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "auction hammer gavel wooden",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8061655",
+                  "url": "https://videos.pexels.com/video-files/8061655/8061655-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/video/lady-justice-statue-8061655/"
+                },
+                "fichero": "clips/pexels-8061655.mp4"
               },
               "camara": "push"
             }
@@ -964,7 +1304,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty parliament seats chamber light",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4474360",
+                  "url": "https://videos.pexels.com/video-files/4474360/4474360-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Hirsh Philippe",
+                  "pagina": "https://www.pexels.com/video/inside-the-house-of-chambers-building-4474360/"
+                },
+                "fichero": "clips/pexels-4474360.mp4"
               },
               "camara": "pull"
             },
@@ -976,7 +1326,15 @@
                 "lado": "izq",
                 "titular": "Cada intento ha hundido a un Gobierno",
                 "apoyo": "Esa es la diferencia con Italia.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16382941",
+                  "url": "https://images.pexels.com/photos/16382941/pexels-photo-16382941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Paulo Oliveira",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-flag-among-people-16382941/"
+                },
+                "fichero": "recortes-auto/pexels-16382941.png"
               }
             }
           ]
@@ -992,7 +1350,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "national assembly vote hands raised paris",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103541",
+                  "url": "https://videos.pexels.com/video-files/7103541/7103541-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/video/a-woman-handing-out-a-ballot-7103541/"
+                },
+                "fichero": "clips/pexels-7103541.mp4"
               },
               "camara": "push"
             },
@@ -1005,7 +1373,15 @@
                 "cifra": "99 días",
                 "titular": "Lo que duró Barnier",
                 "apoyo": "Primer Gobierno tumbado así desde mil novecientos sesenta y dos.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37272893",
+                  "url": "https://images.pexels.com/photos/37272893/pexels-photo-37272893.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Layth Mushreq",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-suit-portrait-37272893/"
+                },
+                "fichero": "recortes-auto/pexels-37272893.png"
               }
             },
             {
@@ -1034,14 +1410,32 @@
                 "cifra": "44.000 M€",
                 "titular": "El plan con el que cayó Bayrou",
                 "apoyo": "Perdió la votación de confianza el ocho de septiembre de dos mil veinticinco.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8847181",
+                  "url": "https://images.pexels.com/photos/8847181/pexels-photo-8847181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-politician-behind-speech-desk-8847181/"
+                },
+                "fichero": "recortes-auto/pexels-8847181.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "french flag government building steps",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12794707",
+                  "url": "https://videos.pexels.com/video-files/12794707/12794707-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Atypeek Dgn",
+                  "pagina": "https://www.pexels.com/video/french-flag-on-wind-12794707/"
+                },
+                "fichero": "clips/pexels-12794707.mp4"
               },
               "camara": "pull"
             },
@@ -1087,7 +1481,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "revolving door building entrance people",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10375456",
+                  "url": "https://videos.pexels.com/video-files/10375456/10375456-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/woman-coming-out-of-the-door-10375456/"
+                },
+                "fichero": "clips/pexels-10375456.mp4"
               },
               "camara": "panR"
             },
@@ -1100,7 +1504,15 @@
                 "cifra": "27 días",
                 "titular": "Lo que duró el primer Lecornu",
                 "apoyo": "Dimitió a las pocas horas de presentar su Gobierno.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37982671",
+                  "url": "https://images.pexels.com/photos/37982671/pexels-photo-37982671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Makingoffphotos SouZynan DDV",
+                  "pagina": "https://www.pexels.com/photo/stylish-man-in-parisian-urban-setting-37982671/"
+                },
+                "fichero": "recortes-auto/pexels-37982671.png"
               }
             }
           ]
@@ -1146,7 +1558,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rating agency analyst reviewing report screens",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38586218",
+                  "url": "https://videos.pexels.com/video-files/38586218/16388387_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/modern-workspace-with-financial-analysis-tools-38586218/"
+                },
+                "fichero": "clips/pexels-38586218.mp4"
               },
               "camara": "pull"
             },
@@ -1163,7 +1585,15 @@
                 "cifra": "A+",
                 "titular": "La nota más baja de su historia",
                 "apoyo": "Para Fitch, en septiembre de dos mil veinticinco.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567310",
+                  "url": "https://images.pexels.com/photos/7567310/pexels-photo-7567310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-blazer-sitting-beside-glass-window-7567310/"
+                },
+                "fichero": "recortes-auto/pexels-7567310.png"
               }
             }
           ]
@@ -1187,7 +1617,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "political protest paris crowd flags",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3105293",
+                  "url": "https://videos.pexels.com/video-files/3105293/3105293-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "George Morina",
+                  "pagina": "https://www.pexels.com/video/a-crowd-of-people-gathered-in-the-city-street-carrying-placard-and-flags-in-protest-3105293/"
+                },
+                "fichero": "clips/pexels-3105293.mp4"
               },
               "camara": "push"
             },
@@ -1199,7 +1639,15 @@
                 "lado": "izq",
                 "titular": "No es si puede pagar",
                 "apoyo": "Es si puede decidir.",
-                "icono": "candado"
+                "icono": "candado",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7654627",
+                  "url": "https://images.pexels.com/photos/7654627/pexels-photo-7654627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-business-attire-holding-a-calculator-in-the-office-7654627/"
+                },
+                "fichero": "recortes-auto/pexels-7654627.png"
               }
             }
           ]
@@ -1229,7 +1677,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "national assembly deputies applause reaction",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37849419",
+                  "url": "https://videos.pexels.com/video-files/37849419/16056003_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Mariano Quintero",
+                  "pagina": "https://www.pexels.com/video/energetic-christian-concert-with-crowd-applause-37849419/"
+                },
+                "fichero": "clips/pexels-37849419.mp4"
               },
               "camara": "pull"
             },
@@ -1242,14 +1700,32 @@
                 "cifra": "29",
                 "titular": "Votos que faltaron",
                 "apoyo": "La izquierda sacó doscientos sesenta de los doscientos ochenta y nueve.",
-                "icono": "visto"
+                "icono": "visto",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16049919",
+                  "url": "https://images.pexels.com/photos/16049919/pexels-photo-16049919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Paulo Oliveira",
+                  "pagina": "https://www.pexels.com/photo/woman-raising-fist-in-air-among-crowd-of-protesters-16049919/"
+                },
+                "fichero": "recortes-auto/pexels-16049919.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "constitution book article legal document",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8731388",
+                  "url": "https://videos.pexels.com/video-files/8731388/8731388-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-law-book-8731388/"
+                },
+                "fichero": "clips/pexels-8731388.mp4"
               },
               "camara": "push"
             }
@@ -1270,7 +1746,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "target missed arrow dartboard",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6655836",
+                  "url": "https://videos.pexels.com/video-files/6655836/6655836-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/arrows-on-the-wall-6655836/"
+                },
+                "fichero": "clips/pexels-6655836.mp4"
               },
               "camara": "push"
             },
@@ -1283,7 +1769,15 @@
                 "cifra": "5,4 %",
                 "titular": "Francia falló su propio objetivo",
                 "apoyo": "Se había abandonado un cuatro coma siete más ambicioso.",
-                "icono": "baja"
+                "icono": "baja",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7654167",
+                  "url": "https://images.pexels.com/photos/7654167/pexels-photo-7654167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-long-sleeves-working-in-the-office-7654167/"
+                },
+                "fichero": "recortes-auto/pexels-7654167.png"
               }
             }
           ]
@@ -1314,7 +1808,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calendar april may election date circle",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7550641",
+                  "url": "https://videos.pexels.com/video-files/7550641/7550641-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Hanna Pad",
+                  "pagina": "https://www.pexels.com/video/a-woman-looking-at-a-calendar-7550641/"
+                },
+                "fichero": "clips/pexels-7550641.mp4"
               },
               "camara": "push"
             },
@@ -1327,14 +1831,32 @@
                 "cifra": "5 %",
                 "titular": "El objetivo con recortes",
                 "apoyo": "Sin recortes, seis coma cinco. Y elecciones en abril y mayo.",
-                "icono": "aviso"
+                "icono": "aviso",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103166",
+                  "url": "https://images.pexels.com/photos/7103166/pexels-photo-7103166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/photo/a-male-voter-reviewing-his-ballot-7103166/"
+                },
+                "fichero": "recortes-auto/pexels-7103166.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "campaign posters street election france",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5700366",
+                  "url": "https://videos.pexels.com/video-files/5700366/5700366-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/an-illuminated-text-signage-5700366/"
+                },
+                "fichero": "clips/pexels-5700366.mp4"
               },
               "camara": "panR"
             }
@@ -1351,7 +1873,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "newsroom journalists breaking news desk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6952253",
+                  "url": "https://videos.pexels.com/video-files/6952253/6952253-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/woman-talking-to-the-press-6952253/"
+                },
+                "fichero": "clips/pexels-6952253.mp4"
               },
               "camara": "panL"
             },
@@ -1363,7 +1895,15 @@
                 "lado": "izq",
                 "titular": "Hasta bien entrado dos mil veintisiete",
                 "apoyo": "Durante las propias elecciones, dice BCA Research.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39815358",
+                  "url": "https://images.pexels.com/photos/39815358/pexels-photo-39815358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Rishav Kumar",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-moga-shop-punjab-street-scene-39815358/"
+                },
+                "fichero": "recortes-auto/pexels-39815358.png"
               }
             },
             {
@@ -1388,7 +1928,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "two hands handshake negotiation table",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6282313",
+                  "url": "https://videos.pexels.com/video-files/6282313/6282313-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Monstera Production",
+                  "pagina": "https://www.pexels.com/video/ad-campaign-video-about-negotiation-6282313/"
+                },
+                "fichero": "clips/pexels-6282313.mp4"
               },
               "camara": "push"
             },
@@ -1423,7 +1973,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "investors meeting boardroom suits table",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951445",
+                  "url": "https://videos.pexels.com/video-files/6951445/6951445-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/man-and-woman-on-a-meeting-6951445/"
+                },
+                "fichero": "clips/pexels-6951445.mp4"
               },
               "camara": "pull"
             },
@@ -1435,7 +1995,15 @@
                 "lado": "der",
                 "titular": "Un país vive tranquilo si sus acreedores son fieles",
                 "apoyo": "La pregunta es quiénes son.",
-                "icono": "persona"
+                "icono": "persona",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8937608",
+                  "url": "https://images.pexels.com/photos/8937608/pexels-photo-8937608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/photo-of-a-man-in-a-blue-suit-sitting-on-a-chair-8937608/"
+                },
+                "fichero": "recortes-auto/pexels-8937608.png"
               }
             }
           ]
@@ -1481,21 +2049,23 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "banque de france building facade paris",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36732213",
+                  "url": "https://videos.pexels.com/video-files/36732213/15567447_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/elegant-parisian-architecture-in-daylight-36732213/"
+                },
+                "fichero": "clips/pexels-36732213.mp4"
               },
               "camara": "pull"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "european investor woman portrait frankfurt office",
-                "tono": "ocre",
-                "lado": "izq",
-                "cifra": "630.000 M€",
-                "titular": "Lo que guarda el Banco de Francia",
-                "apoyo": "Comprado por cuenta del Banco Central Europeo.",
-                "icono": "banco"
-              }
+              "tipo": "frase",
+              "texto": "Lo que guarda el Banco de Francia"
             }
           ]
         },
@@ -1515,14 +2085,32 @@
                 "cifra": "~50 %",
                 "titular": "La mitad vive fuera de Francia",
                 "apoyo": "No vota, y puede vender sin pedir permiso.",
-                "icono": "globo"
+                "icono": "globo",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10509872",
+                  "url": "https://images.pexels.com/photos/10509872/pexels-photo-10509872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mavluda Tashbaeva",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-a-suit-10509872/"
+                },
+                "fichero": "recortes-auto/pexels-10509872.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "world map stock exchanges screens",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8348732",
+                  "url": "https://videos.pexels.com/video-files/8348732/8348732-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/businessman-looking-at-a-screen-8348732/"
+                },
+                "fichero": "clips/pexels-8348732.mp4"
               },
               "camara": "push"
             },
@@ -1558,20 +2146,23 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "european central bank frankfurt building",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27946285",
+                  "url": "https://videos.pexels.com/video-files/27946285/12269000_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tobi",
+                  "pagina": "https://www.pexels.com/video/frankfurt-skyline-27946285/"
+                },
+                "fichero": "clips/pexels-27946285.mp4"
               },
               "camara": "pull"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "central bank economist woman portrait frankfurt",
-                "tono": "ocre",
-                "lado": "der",
-                "titular": "El comprador más grande se va",
-                "apoyo": "El Eurosistema reduce sus tenencias este año.",
-                "icono": "baja"
-              }
+              "tipo": "frase",
+              "texto": "El comprador más grande se va"
             },
             {
               "tipo": "frase",
@@ -1602,7 +2193,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty chairs auction room",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951298",
+                  "url": "https://videos.pexels.com/video-files/6951298/6951298-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/monitors-and-microphones-in-a-conference-room-6951298/"
+                },
+                "fichero": "clips/pexels-6951298.mp4"
               },
               "camara": "panR"
             }
@@ -1661,7 +2262,15 @@
                 "lado": "izq",
                 "titular": "Italia se estabiliza",
                 "apoyo": "Debe más, pero su deuda apenas se mueve.",
-                "icono": "visto"
+                "icono": "visto",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37189697",
+                  "url": "https://images.pexels.com/photos/37189697/pexels-photo-37189697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andrea Prochilo",
+                  "pagina": "https://www.pexels.com/photo/confident-woman-in-white-suit-at-historical-landmark-37189697/"
+                },
+                "fichero": "recortes-auto/pexels-37189697.png"
               }
             }
           ]
@@ -1685,7 +2294,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rome italian parliament chamber",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36540549",
+                  "url": "https://videos.pexels.com/video-files/36540549/15494221_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Alberto Escalona",
+                  "pagina": "https://www.pexels.com/video/monumental-view-of-altare-della-patria-rome-36540549/"
+                },
+                "fichero": "clips/pexels-36540549.mp4"
               },
               "camara": "pull"
             },
@@ -1697,7 +2316,15 @@
                 "lado": "der",
                 "titular": "Premió su estabilidad",
                 "apoyo": "Moody's mejoró la nota de Italia por su historial político.",
-                "icono": "visto"
+                "icono": "visto",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7534769",
+                  "url": "https://images.pexels.com/photos/7534769/pexels-photo-7534769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-looking-at-the-camera-7534769/"
+                },
+                "fichero": "recortes-auto/pexels-7534769.png"
               }
             }
           ]
@@ -1718,7 +2345,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "steering wheel driver road night",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "13078818",
+                  "url": "https://videos.pexels.com/video-files/13078818/13078818-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Rodrigo Garcin",
+                  "pagina": "https://www.pexels.com/video/close-up-of-driving-car-13078818/"
+                },
+                "fichero": "clips/pexels-13078818.mp4"
               },
               "camara": "push"
             }
@@ -1745,7 +2382,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "balance scale weights metal",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8431825",
+                  "url": "https://videos.pexels.com/video-files/8431825/8431825-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/chess-pieces-on-the-weighing-scale-8431825/"
+                },
+                "fichero": "clips/pexels-8431825.mp4"
               },
               "camara": "push"
             }
@@ -1791,7 +2438,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "oil refinery flames sunset",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35760122",
+                  "url": "https://videos.pexels.com/video-files/35760122/15159929_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Altaf Shah",
+                  "pagina": "https://www.pexels.com/video/industrial-coastline-at-twilight-35760122/"
+                },
+                "fichero": "clips/pexels-35760122.mp4"
               },
               "camara": "pull"
             },
@@ -1804,14 +2461,32 @@
                 "cifra": "108 $",
                 "titular": "El petróleo, por encima",
                 "apoyo": "Presiona a todos los bonos, no solo a los franceses.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7567435",
+                  "url": "https://images.pexels.com/photos/7567435/pexels-photo-7567435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/a-bearded-man-working-in-his-office-7567435/"
+                },
+                "fichero": "recortes-auto/pexels-7567435.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "global map data flows worldwide finance",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3125427",
+                  "url": "https://videos.pexels.com/video-files/3125427/3125427-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Pressmaster",
+                  "pagina": "https://www.pexels.com/video/digital-projection-of-geometrical-distance-of-earth-s-land-mass-end-points-3125427/"
+                },
+                "fichero": "clips/pexels-3125427.mp4"
               },
               "camara": "pull"
             }
@@ -1843,7 +2518,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "france germany flags together",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27047967",
+                  "url": "https://videos.pexels.com/video-files/27047967/12056503_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Çağrı KANMAZ",
+                  "pagina": "https://www.pexels.com/video/flag-of-france-27047967/"
+                },
+                "fichero": "clips/pexels-27047967.mp4"
               },
               "camara": "panL"
             },
@@ -1868,7 +2553,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "investors applauding auction success",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5940521",
+                  "url": "https://videos.pexels.com/video-files/5940521/5940521-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Theo  Decker",
+                  "pagina": "https://www.pexels.com/video/two-women-clapping-5940521/"
+                },
+                "fichero": "clips/pexels-5940521.mp4"
               },
               "camara": "push"
             },
@@ -1881,7 +2576,15 @@
                 "cifra": "2x",
                 "titular": "Se pidió el doble",
                 "apoyo": "En primavera hubo el doble de demanda que de oferta.",
-                "icono": "visto"
+                "icono": "visto",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10349586",
+                  "url": "https://images.pexels.com/photos/10349586/pexels-photo-10349586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/photo/a-side-view-of-a-female-wearing-a-vest-10349586/"
+                },
+                "fichero": "recortes-auto/pexels-10349586.png"
               }
             }
           ]
@@ -1911,7 +2614,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "french family savings piggy bank table",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8369974",
+                  "url": "https://videos.pexels.com/video-files/8369974/8369974-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/gold-and-silver-coins-inside-a-glass-item-8369974/"
+                },
+                "fichero": "clips/pexels-8369974.mp4"
               },
               "camara": "pull"
             },
@@ -1924,7 +2637,15 @@
                 "cifra": "17 %",
                 "titular": "De su renta, ahorrada",
                 "apoyo": "Una tasa de ahorro muy alta sobre su renta.",
-                "icono": "moneda"
+                "icono": "moneda",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8902299",
+                  "url": "https://images.pexels.com/photos/8902299/pexels-photo-8902299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "ANTONI SHKRABA production",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-a-box-of-macaroons-8902299/"
+                },
+                "fichero": "recortes-auto/pexels-8902299.png"
               }
             }
           ]
@@ -1948,7 +2669,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro symbol sculpture frankfurt",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11707177",
+                  "url": "https://videos.pexels.com/video-files/11707177/11707177-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Glenn Langhorst",
+                  "pagina": "https://www.pexels.com/video/riverside-in-frankfurt-11707177/"
+                },
+                "fichero": "clips/pexels-11707177.mp4"
               },
               "camara": "pull"
             },
@@ -1974,7 +2705,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "receipt bill invoice stack close",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7546415",
+                  "url": "https://videos.pexels.com/video-files/7546415/7546415-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "SHVETS production",
+                  "pagina": "https://www.pexels.com/video/a-man-looking-at-the-invoice-while-on-the-table-7546415/"
+                },
+                "fichero": "clips/pexels-7546415.mp4"
               },
               "camara": "push"
             },
@@ -1986,7 +2727,15 @@
                 "lado": "izq",
                 "titular": "No ha dejado de pagar uno solo",
                 "apoyo": "Lo que cambia es la factura.",
-                "icono": "documento"
+                "icono": "documento",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39125276",
+                  "url": "https://images.pexels.com/photos/39125276/pexels-photo-39125276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Joaquin Reyes Ramos",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-police-officer-in-uniform-outdoors-39125276/"
+                },
+                "fichero": "recortes-auto/pexels-39125276.png"
               }
             }
           ]
@@ -2023,7 +2772,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "madrid spain bank bonds street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35346473",
+                  "url": "https://videos.pexels.com/video-files/35346473/14976101_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "La Doncella Audiovisual",
+                  "pagina": "https://www.pexels.com/video/bustling-gran-via-street-scene-in-madrid-spain-35346473/"
+                },
+                "fichero": "clips/pexels-35346473.mp4"
               },
               "camara": "push"
             },
@@ -2036,14 +2795,32 @@
                 "cifra": "−0,61 %",
                 "titular": "Menos que Francia, más que hace un año",
                 "apoyo": "Sesenta puntos básicos de diferencia.",
-                "icono": "sube"
+                "icono": "sube",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39453892",
+                  "url": "https://images.pexels.com/photos/39453892/pexels-photo-39453892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Hameen Reynolds",
+                  "pagina": "https://www.pexels.com/photo/iconic-madrid-building-with-ornate-clock-tower-39453892/"
+                },
+                "fichero": "recortes-auto/pexels-39453892.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "spanish flag government building madrid",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35577385",
+                  "url": "https://videos.pexels.com/video-files/35577385/15075929_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "La Doncella Audiovisual",
+                  "pagina": "https://www.pexels.com/video/stunning-architecture-of-madrid-s-museum-tower-35577385/"
+                },
+                "fichero": "clips/pexels-35577385.mp4"
               },
               "camara": "push"
             }
@@ -2068,7 +2845,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "mortgage house keys bank contract signing",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7577972",
+                  "url": "https://videos.pexels.com/video-files/7577972/7577972-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/video/person-holding-a-key-and-paper-7577972/"
+                },
+                "fichero": "clips/pexels-7577972.mp4"
               },
               "camara": "pull"
             },
@@ -2080,7 +2867,15 @@
                 "lado": "izq",
                 "titular": "De la deuda sale la hipoteca",
                 "apoyo": "El Euríbor depende de lo que esperan del BCE.",
-                "icono": "casa"
+                "icono": "casa",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7579205",
+                  "url": "https://images.pexels.com/photos/7579205/pexels-photo-7579205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kindel Media",
+                  "pagina": "https://www.pexels.com/photo/woman-in-gray-sweater-smiling-while-holding-a-key-7579205/"
+                },
+                "fichero": "recortes-auto/pexels-7579205.png"
               }
             }
           ]
@@ -2096,7 +2891,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "election ballot box paris polling",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7103504",
+                  "url": "https://videos.pexels.com/video-files/7103504/7103504-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Edmond Dantès",
+                  "pagina": "https://www.pexels.com/video/a-person-giving-a-voting-ballot-7103504/"
+                },
+                "fichero": "clips/pexels-7103504.mp4"
               },
               "camara": "push"
             },
@@ -2109,7 +2914,15 @@
                 "cifra": "2027",
                 "titular": "Abril y mayo",
                 "apoyo": "Presidenciales. El mercado ya les pone precio.",
-                "icono": "reloj"
+                "icono": "reloj",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31266457",
+                  "url": "https://images.pexels.com/photos/31266457/pexels-photo-31266457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ramon Karolan",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-walking-in-paris-street-scene-31266457/"
+                },
+                "fichero": "recortes-auto/pexels-31266457.png"
               }
             },
             {
@@ -2134,7 +2947,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "parliament hemicycle seats wide empty",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34430694",
+                  "url": "https://videos.pexels.com/video-files/34430694/14586754_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-budapest-and-danube-river-at-dusk-34430694/"
+                },
+                "fichero": "clips/pexels-34430694.mp4"
               },
               "camara": "pull"
             },
@@ -2169,7 +2992,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "paris eiffel tower night lights",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27807965",
+                  "url": "https://videos.pexels.com/video-files/27807965/12229031_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Burak Odabas",
+                  "pagina": "https://www.pexels.com/video/the-front-end-of-a-white-bmw-car-at-night-27807965/"
+                },
+                "fichero": "clips/pexels-27807965.mp4"
               },
               "camara": "pull"
             },
