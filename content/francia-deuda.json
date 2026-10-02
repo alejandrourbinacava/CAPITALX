@@ -67,12 +67,12 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567523",
-                  "url": "https://images.pexels.com/photos/7567523/pexels-photo-7567523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7567427",
+                  "url": "https://images.pexels.com/photos/7567427/pexels-photo-7567427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/man-in-white-long-sleeve-shirt-sitting-in-front-of-silver-macbook-7567523/"
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-sitting-in-front-of-laptop-feeling-pensive-7567427/"
                 },
-                "fichero": "recortes-auto/pexels-7567523.png"
+                "fichero": "recortes-auto/pexels-7567427.png"
               }
             }
           ]
@@ -114,12 +114,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "4427616",
-                  "url": "https://images.pexels.com/photos/4427616/pexels-photo-4427616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "August de Richelieu",
-                  "pagina": "https://www.pexels.com/photo/businessman-standing-with-his-hands-on-his-desk-4427616/"
+                  "id": "20348408",
+                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Murat IŞIK",
+                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
                 },
-                "fichero": "recortes-auto/pexels-4427616.png"
+                "fichero": "recortes-auto/pexels-20348408.png"
               }
             },
             {
@@ -227,12 +227,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "9304653",
-                  "url": "https://images.pexels.com/photos/9304653/pexels-photo-9304653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/woman-holding-a-tablet-looking-at-a-chart-on-paper-9304653/"
+                  "id": "7876451",
+                  "url": "https://images.pexels.com/photos/7876451/pexels-photo-7876451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/woman-talking-on-a-phone-in-an-office-7876451/"
                 },
-                "fichero": "recortes-auto/pexels-9304653.png"
+                "fichero": "recortes-auto/pexels-7876451.png"
               }
             }
           ]
@@ -336,12 +336,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "16044209",
-                  "url": "https://images.pexels.com/photos/16044209/pexels-photo-16044209.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Geancarlo Peruzzolo",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-wearing-eyeglasses-16044209/"
+                  "id": "7567426",
+                  "url": "https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-wearing-eyeglasses-sitting-in-front-of-laptop-feeling-pensive-7567426/"
                 },
-                "fichero": "recortes-auto/pexels-16044209.png"
+                "fichero": "recortes-auto/pexels-7567426.png"
               }
             }
           ]
@@ -388,7 +388,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "financial news broadcast trading screens studio",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8480232",
+                  "url": "https://videos.pexels.com/video-files/8480232/8480232-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "ArtHouse Studio",
+                  "pagina": "https://www.pexels.com/video/graphs-on-multiple-screens-8480232/"
+                },
+                "fichero": "clips/pexels-8480232.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -454,12 +464,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7877199",
-                  "url": "https://images.pexels.com/photos/7877199/pexels-photo-7877199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "https://kaboompics.com/",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-sitting-holding-white-printed-papers-and-eyeglasses-7877199/"
+                  "id": "8353812",
+                  "url": "https://images.pexels.com/photos/8353812/pexels-photo-8353812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-8353812/"
                 },
-                "fichero": "recortes-auto/pexels-7877199.png"
+                "fichero": "recortes-auto/pexels-8353812.png"
               }
             }
           ]
@@ -570,12 +580,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7876458",
-                  "url": "https://images.pexels.com/photos/7876458/pexels-photo-7876458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "https://kaboompics.com/",
-                  "pagina": "https://www.pexels.com/photo/a-woman-sitting-on-the-chair-while-reviewing-a-chart-7876458/"
+                  "id": "8278977",
+                  "url": "https://images.pexels.com/photos/8278977/pexels-photo-8278977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "ANTONI SHKRABA production",
+                  "pagina": "https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-wearing-eyeglasses-sitting-on-gray-chair-8278977/"
                 },
-                "fichero": "recortes-auto/pexels-7876458.png"
+                "fichero": "recortes-auto/pexels-8278977.png"
               }
             },
             {
@@ -722,12 +732,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8927644",
-                  "url": "https://images.pexels.com/photos/8927644/pexels-photo-8927644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Nataliya Vaitkevich",
-                  "pagina": "https://www.pexels.com/photo/woman-holding-pink-and-white-papers-8927644/"
+                  "id": "8297218",
+                  "url": "https://images.pexels.com/photos/8297218/pexels-photo-8297218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/young-girl-in-white-long-sleeve-shirt-holding-books-and-using-a-calculator-8297218/"
                 },
-                "fichero": "recortes-auto/pexels-8927644.png"
+                "fichero": "recortes-auto/pexels-8297218.png"
               }
             }
           ]
@@ -797,12 +807,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "28186645",
-                  "url": "https://images.pexels.com/photos/28186645/pexels-photo-28186645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Halid Elosman",
-                  "pagina": "https://www.pexels.com/photo/business-meeting-28186645/"
+                  "id": "33552497",
+                  "url": "https://images.pexels.com/photos/33552497/pexels-photo-33552497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Kaybee Photography",
+                  "pagina": "https://www.pexels.com/photo/military-officer-in-uniform-with-medals-33552497/"
                 },
-                "fichero": "recortes-auto/pexels-28186645.png"
+                "fichero": "recortes-auto/pexels-33552497.png"
               }
             }
           ]
@@ -858,12 +868,12 @@
                 "icono": "balanza",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "31711996",
-                  "url": "https://images.pexels.com/photos/31711996/pexels-photo-31711996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Charly Constant",
-                  "pagina": "https://www.pexels.com/photo/man-reading-newspaper-at-outdoor-french-cafe-31711996/"
+                  "id": "14044939",
+                  "url": "https://images.pexels.com/photos/14044939/pexels-photo-14044939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mathias Reding",
+                  "pagina": "https://www.pexels.com/photo/an-elderly-man-sitting-on-the-sidewalk-14044939/"
                 },
-                "fichero": "recortes-auto/pexels-31711996.png"
+                "fichero": "recortes-auto/pexels-14044939.png"
               }
             }
           ]
@@ -1018,12 +1028,12 @@
                 "icono": "moneda",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "19203033",
-                  "url": "https://images.pexels.com/photos/19203033/pexels-photo-19203033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Tolgraw",
-                  "pagina": "https://www.pexels.com/photo/elderly-woman-with-red-purse-19203033/"
+                  "id": "3867132",
+                  "url": "https://images.pexels.com/photos/3867132/pexels-photo-3867132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RF._.studio _",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-long-sleeve-dress-sitting-on-white-chair-3867132/"
                 },
-                "fichero": "recortes-auto/pexels-19203033.png"
+                "fichero": "recortes-auto/pexels-3867132.png"
               }
             }
           ]
@@ -1158,12 +1168,12 @@
                 "icono": "banco",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8729932",
-                  "url": "https://images.pexels.com/photos/8729932/pexels-photo-8729932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/a-businessman-in-blue-suit-8729932/"
+                  "id": "26834968",
+                  "url": "https://images.pexels.com/photos/26834968/pexels-photo-26834968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Bhandari Law and Partners",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-a-suit-26834968/"
                 },
-                "fichero": "recortes-auto/pexels-8729932.png"
+                "fichero": "recortes-auto/pexels-26834968.png"
               }
             }
           ]
@@ -1227,12 +1237,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "4427622",
-                  "url": "https://images.pexels.com/photos/4427622/pexels-photo-4427622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "August de Richelieu",
-                  "pagina": "https://www.pexels.com/photo/businesswoman-in-her-office-4427622/"
+                  "id": "6172490",
+                  "url": "https://images.pexels.com/photos/6172490/pexels-photo-6172490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/photo/woman-in-black-and-white-corporate-attire-standing-near-flags-6172490/"
                 },
-                "fichero": "recortes-auto/pexels-4427622.png"
+                "fichero": "recortes-auto/pexels-6172490.png"
               }
             },
             {
@@ -1319,12 +1329,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "5717738",
-                  "url": "https://images.pexels.com/photos/5717738/pexels-photo-5717738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "https://kaboompics.com/",
-                  "pagina": "https://www.pexels.com/photo/a-man-sitting-at-the-table-5717738/"
+                  "id": "7567442",
+                  "url": "https://images.pexels.com/photos/7567442/pexels-photo-7567442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-dress-shirt-with-eyeglasses-feeling-exhausted-7567442/"
                 },
-                "fichero": "recortes-auto/pexels-5717738.png"
+                "fichero": "recortes-auto/pexels-7567442.png"
               }
             },
             {
@@ -1403,12 +1413,12 @@
                 "icono": "moneda",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567596",
-                  "url": "https://images.pexels.com/photos/7567596/pexels-photo-7567596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/marketing-man-laptop-technology-7567596/"
+                  "id": "5715846",
+                  "url": "https://images.pexels.com/photos/5715846/pexels-photo-5715846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Artem Podrez",
+                  "pagina": "https://www.pexels.com/photo/man-in-front-of-a-laptop-5715846/"
                 },
-                "fichero": "recortes-auto/pexels-7567596.png"
+                "fichero": "recortes-auto/pexels-5715846.png"
               }
             }
           ]
@@ -1531,12 +1541,12 @@
                 "icono": "candado",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "32744452",
-                  "url": "https://images.pexels.com/photos/32744452/pexels-photo-32744452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Diego Fioravanti",
-                  "pagina": "https://www.pexels.com/photo/stylish-woman-in-french-inspired-outfit-in-library-32744452/"
+                  "id": "16382941",
+                  "url": "https://images.pexels.com/photos/16382941/pexels-photo-16382941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Paulo Oliveira",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-flag-among-people-16382941/"
                 },
-                "fichero": "recortes-auto/pexels-32744452.png"
+                "fichero": "recortes-auto/pexels-16382941.png"
               }
             }
           ]
@@ -1578,12 +1588,12 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "3831736",
-                  "url": "https://images.pexels.com/photos/3831736/pexels-photo-3831736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Andrea Piacquadio",
-                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-smiling-3831736/"
+                  "id": "37272893",
+                  "url": "https://images.pexels.com/photos/37272893/pexels-photo-37272893.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Layth Mushreq",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-suit-portrait-37272893/"
                 },
-                "fichero": "recortes-auto/pexels-3831736.png"
+                "fichero": "recortes-auto/pexels-37272893.png"
               }
             },
             {
@@ -1630,12 +1640,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6949979",
-                  "url": "https://images.pexels.com/photos/6949979/pexels-photo-6949979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Werner Pfennig",
-                  "pagina": "https://www.pexels.com/photo/man-standing-next-to-a-podium-in-a-conference-room-6949979/"
+                  "id": "8847181",
+                  "url": "https://images.pexels.com/photos/8847181/pexels-photo-8847181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-politician-behind-speech-desk-8847181/"
                 },
-                "fichero": "recortes-auto/pexels-6949979.png"
+                "fichero": "recortes-auto/pexels-8847181.png"
               }
             },
             {
@@ -1742,12 +1752,12 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37982666",
-                  "url": "https://images.pexels.com/photos/37982666/pexels-photo-37982666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "37982671",
+                  "url": "https://images.pexels.com/photos/37982671/pexels-photo-37982671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Makingoffphotos SouZynan DDV",
-                  "pagina": "https://www.pexels.com/photo/fashionable-man-holding-baguette-in-paris-street-37982666/"
+                  "pagina": "https://www.pexels.com/photo/stylish-man-in-parisian-urban-setting-37982671/"
                 },
-                "fichero": "recortes-auto/pexels-37982666.png"
+                "fichero": "recortes-auto/pexels-37982671.png"
               }
             }
           ]
@@ -1841,12 +1851,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "5920592",
-                  "url": "https://images.pexels.com/photos/5920592/pexels-photo-5920592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/a-man-holding-a-magnifying-glass-scrutinizing-cash-money-5920592/"
+                  "id": "7567310",
+                  "url": "https://images.pexels.com/photos/7567310/pexels-photo-7567310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-blazer-sitting-beside-glass-window-7567310/"
                 },
-                "fichero": "recortes-auto/pexels-5920592.png"
+                "fichero": "recortes-auto/pexels-7567310.png"
               }
             }
           ]
@@ -1910,12 +1920,12 @@
                 "icono": "candado",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8062301",
-                  "url": "https://images.pexels.com/photos/8062301/pexels-photo-8062301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Nataliya Vaitkevich",
-                  "pagina": "https://www.pexels.com/photo/a-woman-in-black-blazer-sitting-on-chair-8062301/"
+                  "id": "7654627",
+                  "url": "https://images.pexels.com/photos/7654627/pexels-photo-7654627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-business-attire-holding-a-calculator-in-the-office-7654627/"
                 },
-                "fichero": "recortes-auto/pexels-8062301.png"
+                "fichero": "recortes-auto/pexels-7654627.png"
               }
             }
           ]
@@ -1971,12 +1981,12 @@
                 "icono": "visto",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "15484786",
-                  "url": "https://images.pexels.com/photos/15484786/pexels-photo-15484786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Jean Marc Bonnel",
-                  "pagina": "https://www.pexels.com/photo/people-protesting-against-retirement-age-15484786/"
+                  "id": "16049919",
+                  "url": "https://images.pexels.com/photos/16049919/pexels-photo-16049919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Paulo Oliveira",
+                  "pagina": "https://www.pexels.com/photo/woman-raising-fist-in-air-among-crowd-of-protesters-16049919/"
                 },
-                "fichero": "recortes-auto/pexels-15484786.png"
+                "fichero": "recortes-auto/pexels-16049919.png"
               }
             },
             {
@@ -2058,12 +2068,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7534766",
-                  "url": "https://images.pexels.com/photos/7534766/pexels-photo-7534766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/a-man-looking-at-the-white-paper-7534766/"
+                  "id": "7654167",
+                  "url": "https://images.pexels.com/photos/7654167/pexels-photo-7654167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Pavel Danilyuk",
+                  "pagina": "https://www.pexels.com/photo/man-in-white-long-sleeves-working-in-the-office-7654167/"
                 },
-                "fichero": "recortes-auto/pexels-7534766.png"
+                "fichero": "recortes-auto/pexels-7654167.png"
               }
             }
           ]
@@ -2120,12 +2130,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7103118",
-                  "url": "https://images.pexels.com/photos/7103118/pexels-photo-7103118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7103166",
+                  "url": "https://images.pexels.com/photos/7103166/pexels-photo-7103166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Edmond Dantès",
-                  "pagina": "https://www.pexels.com/photo/woman-in-orange-blazer-smiling-handing-a-month-a-document-7103118/"
+                  "pagina": "https://www.pexels.com/photo/a-male-voter-reviewing-his-ballot-7103166/"
                 },
-                "fichero": "recortes-auto/pexels-7103118.png"
+                "fichero": "recortes-auto/pexels-7103166.png"
               }
             },
             {
@@ -2184,12 +2194,12 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37483621",
-                  "url": "https://images.pexels.com/photos/37483621/pexels-photo-37483621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "khaled damlakhi",
-                  "pagina": "https://www.pexels.com/photo/elderly-man-in-quilted-coat-on-rainy-street-37483621/"
+                  "id": "39815358",
+                  "url": "https://images.pexels.com/photos/39815358/pexels-photo-39815358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Rishav Kumar",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-moga-shop-punjab-street-scene-39815358/"
                 },
-                "fichero": "recortes-auto/pexels-37483621.png"
+                "fichero": "recortes-auto/pexels-39815358.png"
               }
             },
             {
@@ -2317,12 +2327,12 @@
                 "icono": "persona",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "10499611",
-                  "url": "https://images.pexels.com/photos/10499611/pexels-photo-10499611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Khalida 11",
-                  "pagina": "https://www.pexels.com/photo/a-man-in-a-suit-with-a-pointed-finger-10499611/"
+                  "id": "8937608",
+                  "url": "https://images.pexels.com/photos/8937608/pexels-photo-8937608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/photo-of-a-man-in-a-blue-suit-sitting-on-a-chair-8937608/"
                 },
-                "fichero": "recortes-auto/pexels-10499611.png"
+                "fichero": "recortes-auto/pexels-8937608.png"
               }
             }
           ]
@@ -2425,12 +2435,12 @@
                 "icono": "globo",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7643785",
-                  "url": "https://images.pexels.com/photos/7643785/pexels-photo-7643785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "MART  PRODUCTION",
-                  "pagina": "https://www.pexels.com/photo/a-man-wearing-a-blazer-with-his-arms-crossed-7643785/"
+                  "id": "10509872",
+                  "url": "https://images.pexels.com/photos/10509872/pexels-photo-10509872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mavluda Tashbaeva",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-a-suit-10509872/"
                 },
-                "fichero": "recortes-auto/pexels-7643785.png"
+                "fichero": "recortes-auto/pexels-10509872.png"
               }
             },
             {
@@ -2689,12 +2699,12 @@
                 "icono": "visto",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37189705",
-                  "url": "https://images.pexels.com/photos/37189705/pexels-photo-37189705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "37189697",
+                  "url": "https://images.pexels.com/photos/37189697/pexels-photo-37189697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Andrea Prochilo",
-                  "pagina": "https://www.pexels.com/photo/sophisticated-woman-in-white-near-colosseum-37189705/"
+                  "pagina": "https://www.pexels.com/photo/confident-woman-in-white-suit-at-historical-landmark-37189697/"
                 },
-                "fichero": "recortes-auto/pexels-37189705.png"
+                "fichero": "recortes-auto/pexels-37189697.png"
               }
             }
           ]
@@ -2751,7 +2761,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rome skyline sunset italy rooftops",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29947197",
+                  "url": "https://videos.pexels.com/video-files/29947197/12852216_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-rome-during-sunrise-29947197/"
+                },
+                "fichero": "clips/pexels-29947197.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -2896,12 +2916,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567226",
-                  "url": "https://images.pexels.com/photos/7567226/pexels-photo-7567226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7567435",
+                  "url": "https://images.pexels.com/photos/7567435/pexels-photo-7567435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/a-man-working-on-a-stock-market-exchange-7567226/"
+                  "pagina": "https://www.pexels.com/photo/a-bearded-man-working-in-his-office-7567435/"
                 },
-                "fichero": "recortes-auto/pexels-7567226.png"
+                "fichero": "recortes-auto/pexels-7567435.png"
               }
             },
             {
@@ -3047,12 +3067,12 @@
                 "icono": "visto",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "9721880",
-                  "url": "https://images.pexels.com/photos/9721880/pexels-photo-9721880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Евгений Шухман",
-                  "pagina": "https://www.pexels.com/photo/woman-in-white-blazer-standing-while-seriously-looking-at-the-camera-9721880/"
+                  "id": "10349586",
+                  "url": "https://images.pexels.com/photos/10349586/pexels-photo-10349586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ron Lach",
+                  "pagina": "https://www.pexels.com/photo/a-side-view-of-a-female-wearing-a-vest-10349586/"
                 },
-                "fichero": "recortes-auto/pexels-9721880.png"
+                "fichero": "recortes-auto/pexels-10349586.png"
               }
             }
           ]
@@ -3108,12 +3128,12 @@
                 "icono": "moneda",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "10069669",
-                  "url": "https://images.pexels.com/photos/10069669/pexels-photo-10069669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "cottonbro studio",
-                  "pagina": "https://www.pexels.com/photo/woman-in-sundress-in-kitchen-10069669/"
+                  "id": "8902299",
+                  "url": "https://images.pexels.com/photos/8902299/pexels-photo-8902299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "ANTONI SHKRABA production",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-a-box-of-macaroons-8902299/"
                 },
-                "fichero": "recortes-auto/pexels-10069669.png"
+                "fichero": "recortes-auto/pexels-8902299.png"
               }
             }
           ]
@@ -3231,12 +3251,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "38172847",
-                  "url": "https://images.pexels.com/photos/38172847/pexels-photo-38172847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Жанна  Алимкулова",
-                  "pagina": "https://www.pexels.com/photo/french-sailor-in-traditional-uniform-at-parade-38172847/"
+                  "id": "39125276",
+                  "url": "https://images.pexels.com/photos/39125276/pexels-photo-39125276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Joaquin Reyes Ramos",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-police-officer-in-uniform-outdoors-39125276/"
                 },
-                "fichero": "recortes-auto/pexels-38172847.png"
+                "fichero": "recortes-auto/pexels-39125276.png"
               }
             }
           ]
@@ -3299,12 +3319,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "39876130",
-                  "url": "https://images.pexels.com/photos/39876130/pexels-photo-39876130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Germán Latasa",
-                  "pagina": "https://www.pexels.com/photo/edificio-capitol-tower-with-schweppes-sign-39876130/"
+                  "id": "14156541",
+                  "url": "https://images.pexels.com/photos/14156541/pexels-photo-14156541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Shazard R.",
+                  "pagina": "https://www.pexels.com/photo/a-woman-wearing-white-long-sleeves-and-red-leather-skirt-standing-inside-a-building-14156541/"
                 },
-                "fichero": "recortes-auto/pexels-39876130.png"
+                "fichero": "recortes-auto/pexels-14156541.png"
               }
             },
             {
@@ -3371,12 +3391,12 @@
                 "icono": "casa",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7579204",
-                  "url": "https://images.pexels.com/photos/7579204/pexels-photo-7579204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7579205",
+                  "url": "https://images.pexels.com/photos/7579205/pexels-photo-7579205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Kindel Media",
-                  "pagina": "https://www.pexels.com/photo/woman-in-gray-sweater-hugging-man-in-blue-long-sleeve-shirt-7579204/"
+                  "pagina": "https://www.pexels.com/photo/woman-in-gray-sweater-smiling-while-holding-a-key-7579205/"
                 },
-                "fichero": "recortes-auto/pexels-7579204.png"
+                "fichero": "recortes-auto/pexels-7579205.png"
               }
             }
           ]
@@ -3418,12 +3438,12 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "32614663",
-                  "url": "https://images.pexels.com/photos/32614663/pexels-photo-32614663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Consuelo Borroni",
-                  "pagina": "https://www.pexels.com/photo/black-and-white-image-of-a-man-in-a-beret-32614663/"
+                  "id": "31266457",
+                  "url": "https://images.pexels.com/photos/31266457/pexels-photo-31266457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Ramon Karolan",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-walking-in-paris-street-scene-31266457/"
                 },
-                "fichero": "recortes-auto/pexels-32614663.png"
+                "fichero": "recortes-auto/pexels-31266457.png"
               }
             },
             {
