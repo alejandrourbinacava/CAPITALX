@@ -44,7 +44,7 @@ export type Plantilla = {
   /** Fondo: que se dibuja debajo de todo. */
   textura: "rejilla" | "puntos" | "rayas" | "planos" | "trama" | "liso";
   /** Mobiliario de marco. */
-  marco: "escuadras" | "caja" | "rail" | "cinta" | "ninguno";
+  marco: "escuadras" | "caja" | "rail" | "ninguno";
   /** Cantidad de grano. 0 lo apaga. */
   grano: number;
 
@@ -158,14 +158,6 @@ export type Plantilla = {
   /** Movimiento de camara por defecto. */
   camara: "deriva" | "quieta" | "lenta";
 
-  /**
-   * Cifras que corren por la cinta del marco "cinta". Cada una es
-   * "ETIQUETA|valor". Las pone el guion, no la plantilla: la cinta de un
-   * video de deuda no puede llevar las cifras de uno de petroleo.
-   */
-  cinta?: string[];
-  /** Texto de la barra de estado de arriba, en el marco "cinta". */
-  barra?: string;
 };
 
 /** El papel calido del expediente, mas amarillo que el del canal. */
@@ -389,48 +381,6 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     camara: "quieta",
   },
 
-  /**
-   * mercado: un terminal de renta fija.
-   *
-   * Es la primera plantilla hecha para un tema y no para un gusto. Un video
-   * sobre el bono a diez anos de un pais se ve como el sitio donde se negocia
-   * ese bono: fondo carbon, ambar, una barra de estado arriba y una cinta de
-   * cifras que corre abajo sin parar durante todo el video. La cinta es lo que
-   * la distingue de "terminal": aquello es brutalismo, esto es un puesto de
-   * mesa de dinero.
-   */
-  mercado: {
-    nombre: "mercado",
-    descripcion:
-      "Terminal de renta fija: carbon y ambar, barra de estado arriba y cinta de cifras abajo.",
-    papel: "#090C0F",
-    tinta: "#E8EDF1",
-    apagado: "#76848F",
-    acento: "#FFB000",
-    realce: "#17222B",
-    textura: "rejilla",
-    marco: "cinta",
-    grano: 0.07,
-    titular: "mono",
-    caja: "alta",
-    apriete: "0.03em",
-    rotulo: "tarjeta",
-    resalte: "caja",
-    icono: "chapa",
-    recorte: "bloque",
-    entrada: "desmonta",
-    maqueta: "tarjeta",
-    sostener: "quieto",
-    grafico: "filas",
-    contador: "rodillo",
-    gente: "bloque",
-    mapa: "contorno",
-    transicion: "persiana",
-    paso: 2,
-    temblor: false,
-    camara: "quieta",
-  },
-
   riso: {
     nombre: "riso",
     descripcion: "Risografia: dos tintas mal registradas, grano alto y tipo de cartel.",
@@ -475,10 +425,6 @@ export type Estilo = {
   grid?: boolean;
   /** Apaga el mobiliario de marco. */
   marco?: boolean;
-  /** Cifras de la cinta, "ETIQUETA|valor". Solo con el marco "cinta". */
-  cinta?: string[];
-  /** Texto de la barra de estado. Solo con el marco "cinta". */
-  barra?: string;
 };
 
 const ACENTOS: Record<string, string> = {
@@ -496,8 +442,6 @@ export const resolver = (e: Estilo = {}): Plantilla => {
     acento: e.acento ? ACENTOS[e.acento] ?? base.acento : base.acento,
     textura: e.grid === false ? "liso" : base.textura,
     marco: e.marco === false ? "ninguno" : base.marco,
-    cinta: e.cinta ?? base.cinta,
-    barra: e.barra ?? base.barra,
   };
 };
 
@@ -534,7 +478,7 @@ export const PlantillaCtx = React.createContext<Plantilla>(POR_DEFECTO);
  *
  * Dentro de una Sequence de Remotion, useCurrentFrame() devuelve el fotograma
  * LOCAL: cada escena arranca en cero. Para casi todo eso es lo que se quiere.
- * Para una cinta de cifras que tiene que correr sin saltos a traves de los
+ * Para una animacion continua que tiene que correr sin saltos a traves de los
  * cortes, no: se reiniciaria cada tres segundos. Este contexto lo pone el
  * montaje y useFrameGlobal lo suma.
  */

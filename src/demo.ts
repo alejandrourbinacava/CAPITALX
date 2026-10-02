@@ -249,22 +249,11 @@ const PLANOS_MERCADO = [
 ] as any;
 
 DEMOS.push({
-  id: "estilo-mercado-francia",
+  id: "estilo-francia-suizo",
   guion: {
-    slug: "estilo-mercado-francia",
+    slug: "estilo-francia-suizo",
     wpm: 145,
-    estilo: {
-      plantilla: "mercado",
-      barra: "Francia · Deuda soberana · 1 oct 2026",
-      cinta: [
-        "DEUDA|3.595,5 MM€",
-        "PIB|119,0 %",
-        "DÉFICIT 2026|5,4 %",
-        "OAT 10A|4,95 %",
-        "NOTA|A+ · Aa3 · A+",
-        "INTERESES|≈75 MM€/año",
-      ],
-    },
+    estilo: { plantilla: "suizo" },
     bloques: [{ planos: PLANOS_MERCADO }],
   } as Guion,
 });

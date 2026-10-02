@@ -422,22 +422,25 @@ El canal tenía un solo montaje. Papel milimetrado, escuadras en las esquinas, r
                  cajas de borde duro, iconos en chapa, corte con destello
     riso         risografía: dos tintas mal registradas, grano alto, tipo de
                  cartel en caja alta, iconos macizos
-    mercado      terminal de renta fija: carbón y ámbar, barra de estado arriba y cinta
-                 de cifras que corre abajo durante todo el vídeo, persiana entre escenas.
-                 Es la primera hecha para un tema: deuda soberana, bonos, mercados.
 
 Cómo se elige, que es lo que importa:
 
-- **Regla de oro: cada vídeo es único.** No hay plantilla de casa. Si el vídeo anterior fue \`suizo\`, este no lo es, y un vídeo sobre un bono no se monta como uno sobre una ciudad. Elige la que dice algo del tema; si ninguna lo dice, se construye una nueva en \`src/estilo.ts\` y se le hacen sus propios gráficos. \`mercado\` se hizo así, para un vídeo de deuda soberana.
+- **El aspecto del canal es \`suizo\`: papel blanco roto, rojo, sin marco ni cinta ni barras de adorno. No se cambia de colores ni de plantilla salvo que el usuario lo pida.** La regla de oro de que cada vídeo sea único va por **otro lado**: la estructura del guion y los gráficos que se hacen a medida para el tema. Un vídeo nuevo no estrena paleta, estrena una forma de contar y sus propios motion graphics.
 
 - **Se cambia cuando el tema lo pide, no por turno.** Un vídeo sobre documentos filtrados o sobre una decisión que alguien tomó a puerta cerrada va en \`expediente\`. Uno de infraestructura, red eléctrica, obra o ingeniería va en \`plano\`. Uno sobre una cifra oficial y fría va en \`suizo\`. Uno histórico de hemeroteca, en \`prensa\`. Uno de tecnología, criptomonedas o sistemas de pago, en \`terminal\`. Uno de consumo, precios o calle, en \`riso\`.
-- **Nunca la misma plantilla que el vídeo anterior, ni la misma estructura de guion.** Tesis más datos más "lo que juega en contra" es un esqueleto, no una necesidad: un misterio que se resuelve al final, un reloj, un protagonista o una pregunta de sistema son otros esqueletos, y el vídeo de Francia se escribió como "cuatro lecturas del mismo número".
+- **Nunca la misma estructura de guion que el vídeo anterior.** Tesis más datos más "lo que juega en contra" es un esqueleto, no una necesidad: un misterio que se resuelve al final, un reloj, un protagonista o una pregunta de sistema son otros esqueletos, y el vídeo de Francia se escribió como "cuatro lecturas del mismo número".
 - **\`acento\` es opcional** y solo sobreescribe el color de la plantilla. \`carmin\`, \`verde\`, \`ocre\` o \`pale\`.
 - **La música también cambia**: \`mystery.wav\`, \`frio.wav\`, \`pulso.wav\`, \`elegia.wav\` o \`tenso.wav\`. Tampoco se repite dos vídeos seguidos.
 
 Lo que cambia una plantilla, por si hace falta la lista entera: papel, textura de fondo, marco, tipografía del titular, caja alta o baja, maqueta del rótulo, cómo se marca la palabra clave, cómo se dibujan los iconos, tratamiento del recorte, mecánica de entrada de cada elemento, reparto del cuadro, qué se mueve durante la escena, corte entre escenas, fotogramas por paso de animación, **forma del gráfico de barras** (columnas, filas u horizontales, o puntos), **forma del contador** (raíl, arco, rodillo mecánico o bloques), **forma de la rejilla de gente** (cuadrícula, filas anchas o dos bloques separados) y **cómo se marca un país en el mapa** (relleno, contorno o trama de rayas).
 
 Lo que hace \`paso\`, para que se entienda por qué unas plantillas se sienten distintas aunque lleven la misma foto: el motion de los documentales de YouTube se anima a doce fotogramas por segundo y se monta encima de vídeo a veinticuatro, así que los gráficos avanzan a saltos mientras el metraje va fluido. Suena a error y es lo contrario: una animación perfectamente suave se lee como corporativa, y una que pisa un poco se lee como alguien enseñándote algo. \`expediente\` y \`terminal\` van a saltos; \`suizo\`, \`cuaderno\` y \`prensa\` van fluidas.
+
+# Los clips mandan
+
+**Más del 40 % del tiempo en pantalla tiene que ser metraje de archivo.** Se mide en tiempo, no en número de escenas: un clip dura poco y una frase o un gráfico duran más, así que un vídeo con un tercio de las escenas en clip puede quedarse en un cuarto del tiempo, que es lo que pasó en el de Francia y por lo que se notaba escaso.
+
+Una frase suelta o un dibujo de objeto casi siempre se puede hacer **clip con el texto como rótulo**: se dice lo mismo y se ve una imagen. Se dejan como frase solo los remates de verdad, los que abren un bloque con tres o cuatro palabras. Y las escenas \`clip\` admiten \`peso\` y \`rotulo\`.
 
 # Cuánto de cada cosa
 

@@ -8,20 +8,7 @@
   "wpm": 145,
   "musica": "tenso.wav",
   "estilo": {
-    "plantilla": "mercado",
-    "barra": "Francia · Deuda soberana · Sesión del 1 de octubre de 2026",
-    "cinta": [
-      "FRANCIA 10A · 1 OCT|4,95 %",
-      "DEUDA|3.595,5 MM€",
-      "PIB|119,0 %",
-      "DÉFICIT 2026|5,4 %",
-      "ITALIA 10A · 24 SEP|4,54 %",
-      "NOTA|A+ · Aa3 · A+",
-      "ESPAÑA 10A · 24 SEP|4,08 %",
-      "INTERESES 2026|≈75 MM€",
-      "BUND 10A · 24 SEP|3,60 %",
-      "PRÓX. ELECCIONES|ABR-MAY 2027"
-    ]
+    "plantilla": "suizo"
   },
   "bloques": [
     {
@@ -136,8 +123,16 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "*Cincuenta y cuatro mil millones* en recortes."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "government budget meeting ministers table paris",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "*Cincuenta y cuatro mil millones* en recortes."
+              }
             }
           ]
         },
@@ -489,8 +484,16 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "El nivel *más alto* de la serie."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock chart rising line screen close up",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "El nivel *más alto* de la serie."
+              }
             },
             {
               "tipo": "clip",
@@ -623,8 +626,16 @@
               "camara": "push"
             },
             {
-              "tipo": "frase",
-              "texto": "Ocho mil seiscientos euros *por segundo*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "money counting machine banknotes fast",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Ocho mil seiscientos euros *por segundo*."
+              }
             }
           ]
         },
@@ -636,11 +647,16 @@
           },
           "escenas": [
             {
-              "tipo": "objeto",
-              "objeto": "contable",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro banknotes counting machine close",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Cada día",
-                "texto": "Setecientos cincuenta *millones*"
+                "texto": "Setecientos cincuenta *millones*",
+                "kicker": "Cada día"
               }
             },
             {
@@ -827,15 +843,28 @@
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Debe mucho. Pero *Italia debe más*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rome italy city street traffic",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Debe mucho. Pero *Italia debe más*."
+              }
             },
             {
-              "tipo": "objeto",
-              "objeto": "balanza",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "balance scale unequal weights",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Primera lectura",
-                "texto": "No basta con *deber mucho*"
+                "texto": "No basta con *deber mucho*",
+                "kicker": "Primera lectura"
               }
             },
             {
@@ -904,8 +933,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "frase",
-              "texto": "Los intereses *se pagan primero*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "paying bills invoice desk hands",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Los intereses *se pagan primero*."
+              }
             },
             {
               "tipo": "recorte",
@@ -976,8 +1013,16 @@
               "camara": "push"
             },
             {
-              "tipo": "frase",
-              "texto": "Setenta y cinco mil *millones* este año."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro coins pile growing",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Setenta y cinco mil *millones* este año."
+              }
             }
           ]
         },
@@ -989,11 +1034,16 @@
           },
           "escenas": [
             {
-              "tipo": "objeto",
-              "objeto": "fabrica",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "french soldiers military ceremony paris",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Los intereses",
-                "texto": "Al nivel de *Defensa*"
+                "texto": "Al nivel de *Defensa*",
+                "kicker": "Los intereses"
               }
             },
             {
@@ -1043,8 +1093,16 @@
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "La deuda vieja se renueva *a tipos nuevos*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank interest rates sign window",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "La deuda vieja se renueva *a tipos nuevos*."
+              }
             },
             {
               "tipo": "clip",
@@ -1177,8 +1235,16 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "Un punto y medio *en un año*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock market graph climbing red",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Un punto y medio *en un año*."
+              }
             }
           ]
         },
@@ -1252,15 +1318,28 @@
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Una subasta no se *aplaza*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "auction gavel hammer bidding",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Una subasta no se *aplaza*."
+              }
             },
             {
-              "tipo": "objeto",
-              "objeto": "sala",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty parliament chamber seats",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "El único tribunal",
-                "texto": "No se puede *disolver*"
+                "texto": "No se puede *disolver*",
+                "kicker": "El único tribunal"
               }
             },
             {
@@ -1385,11 +1464,16 @@
               }
             },
             {
-              "tipo": "objeto",
-              "objeto": "carpeta",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old archive footage french national assembly",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Diciembre de 2024",
-                "texto": "El primero *desde 1962*"
+                "texto": "El primero *desde 1962*",
+                "kicker": "Diciembre de 2024"
               }
             }
           ]
@@ -1440,8 +1524,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "frase",
-              "texto": "Perdió. *Doscientos setenta días*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "politician leaving office door resignation",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Perdió. *Doscientos setenta días*."
+              }
             }
           ]
         },
@@ -1573,8 +1665,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "frase",
-              "texto": "Fitch y S&P: *A más*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "credit rating report analyst screens",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Fitch y S&P: *A más*."
+              }
             },
             {
               "tipo": "recorte",
@@ -1606,11 +1706,16 @@
           },
           "escenas": [
             {
-              "tipo": "objeto",
-              "objeto": "carta",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "paris protest street police demonstration",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Fitch, septiembre de 2025",
-                "texto": "Un país *inestable*"
+                "texto": "Un país *inestable*",
+                "kicker": "Fitch, septiembre de 2025"
               }
             },
             {
@@ -1739,8 +1844,16 @@
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Objetivo, cinco. *Resultado, cinco coma cuatro*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dartboard missed target dart",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Objetivo, cinco. *Resultado, cinco coma cuatro*."
+              }
             },
             {
               "tipo": "clip",
@@ -1907,8 +2020,16 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "Durante *las propias elecciones*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "election campaign rally crowd flags",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Durante *las propias elecciones*."
+              }
             }
           ]
         },
@@ -1943,11 +2064,16 @@
               "camara": "push"
             },
             {
-              "tipo": "objeto",
-              "objeto": "plano",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "politicians shaking hands negotiation",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Tercera lectura",
-                "texto": "Ponerse de *acuerdo*"
+                "texto": "Ponerse de *acuerdo*",
+                "kicker": "Tercera lectura"
               }
             }
           ]
@@ -2064,8 +2190,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "frase",
-              "texto": "Lo que guarda el Banco de Francia"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank vault gold bars",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Lo que guarda el Banco de Francia"
+              }
             }
           ]
         },
@@ -2115,8 +2249,16 @@
               "camara": "push"
             },
             {
-              "tipo": "frase",
-              "texto": "No vota. Pero *puede vender*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "investor selling screens stocks red",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "No vota. Pero *puede vender*."
+              }
             }
           ]
         },
@@ -2161,12 +2303,28 @@
               "camara": "pull"
             },
             {
-              "tipo": "frase",
-              "texto": "El comprador más grande se va"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank building frankfurt skyline",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "El comprador más grande se va"
+              }
             },
             {
-              "tipo": "frase",
-              "texto": "El comprador más grande *se va*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty trading floor chairs",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "El comprador más grande *se va*."
+              }
             }
           ]
         },
@@ -2178,15 +2336,28 @@
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Nadie compra por patriotismo. *Compran si compensa*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "investors boardroom discussion numbers table",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Nadie compra por patriotismo. *Compran si compensa*."
+              }
             },
             {
-              "tipo": "objeto",
-              "objeto": "balanza",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "price tag discount sale sign",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "El hueco",
-                "texto": "Si el precio *compensa*"
+                "texto": "Si el precio *compensa*",
+                "kicker": "El hueco"
               }
             },
             {
@@ -2283,11 +2454,16 @@
           },
           "escenas": [
             {
-              "tipo": "objeto",
-              "objeto": "carpeta",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "italian parliament government rome",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Moody's sobre Italia",
-                "texto": "Estabilidad *política*"
+                "texto": "Estabilidad *política*",
+                "kicker": "Moody's sobre Italia"
               }
             },
             {
@@ -2533,8 +2709,16 @@
               "camara": "panL"
             },
             {
-              "tipo": "frase",
-              "texto": "*Uno coma tres* por ciento más que Alemania."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "german flag berlin bundestag",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "*Uno coma tres* por ciento más que Alemania."
+              }
             }
           ]
         },
@@ -2546,8 +2730,16 @@
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Las agencias *no están en pánico*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calm businessman office window city",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Las agencias *no están en pánico*."
+              }
             },
             {
               "tipo": "clip",
@@ -2658,11 +2850,16 @@
           },
           "escenas": [
             {
-              "tipo": "objeto",
-              "objeto": "aeropuerto",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro sign sculpture frankfurt",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Detrás está el BCE",
-                "texto": "Con *herramientas*"
+                "texto": "Con *herramientas*",
+                "kicker": "Detrás está el BCE"
               }
             },
             {
@@ -2684,8 +2881,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "frase",
-              "texto": "Va a pagar. Lo que importa es *cuánto*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "handing cash euros paying",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Va a pagar. Lo que importa es *cuánto*."
+              }
             }
           ]
         },
@@ -2926,8 +3131,16 @@
               }
             },
             {
-              "tipo": "frase",
-              "texto": "El mercado *ya le pone precio*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock exchange price board numbers changing",
+                "tono": "carmin"
+              },
+              "camara": "panL",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "El mercado *ya le pone precio*."
+              }
             }
           ]
         },
@@ -2962,11 +3175,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "objeto",
-              "objeto": "sala",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "parliament hemicycle seats",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "La lección",
-                "texto": "Un problema de *mayorías*"
+                "texto": "Un problema de *mayorías*",
+                "kicker": "La lección"
               }
             }
           ]
@@ -2985,8 +3203,16 @@
           },
           "escenas": [
             {
-              "tipo": "frase",
-              "texto": "Un problema de matemáticas que *es de política*."
+              "tipo": "clip",
+              "clip": {
+                "buscar": "mathematics equation blackboard chalk",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Un problema de matemáticas que *es de política*."
+              }
             },
             {
               "tipo": "clip",
@@ -3007,11 +3233,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "objeto",
-              "objeto": "grua",
+              "tipo": "clip",
+              "clip": {
+                "buscar": "crowd voting raising hands",
+                "tono": "ocre"
+              },
+              "camara": "panR",
+              "peso": 1.3,
               "rotulo": {
-                "kicker": "Lo que cobra el mercado",
-                "texto": "Una *mayoría*"
+                "texto": "Una *mayoría*",
+                "kicker": "Lo que cobra el mercado"
               }
             }
           ]
