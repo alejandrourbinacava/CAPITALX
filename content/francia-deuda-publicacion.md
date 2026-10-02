@@ -62,8 +62,8 @@ Todos los datos que aparecen en pantalla llevan su fuente indicada en el propio 
 
 ## ETIQUETAS
 
-**474 caracteres**, 30 etiquetas.
+**498 caracteres**, 32 etiquetas.
 
 ```
-francia deuda, deuda publica francia, bono frances, oat, prima de riesgo francia, francia italia bono, spread oat bund, bund aleman, deuda italia, rebaja nota francia, calificacion crediticia, fitch, moodys, presupuesto francia 2027, lecornu, bayrou, barnier, mocion de censura, elecciones francia 2027, deficit publico, intereses de la deuda, banco central europeo, bce, euribor, hipotecas, bono español, crisis deuda europa, macroeconomia, divulgacion economica, capital x
+francia deuda, deuda publica francia, bono frances, oat, prima de riesgo francia, francia italia bono, spread oat bund, bund aleman, deuda italia, rebaja nota francia, calificacion crediticia, fitch, moodys, presupuesto francia 2027, lecornu, bayrou, barnier, mocion de censura, elecciones francia 2027, deficit publico, intereses de la deuda, banco central europeo, bce, euribor, hipotecas, bono español, crisis deuda europa, macroeconomia, divulgacion economica, capital x, deuda soberana, macron
 ```
