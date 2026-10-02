@@ -385,8 +385,16 @@
               "camara": "push"
             },
             {
-              "tipo": "frase",
-              "texto": "Un número, cuatro lecturas"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "financial news broadcast trading screens studio",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Un número, cuatro lecturas"
+              }
             }
           ]
         }
@@ -2740,8 +2748,16 @@
               "camara": "pull"
             },
             {
-              "tipo": "frase",
-              "texto": "Premió su estabilidad"
+              "tipo": "clip",
+              "clip": {
+                "buscar": "rome skyline sunset italy rooftops",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "peso": 1.3,
+              "rotulo": {
+                "texto": "Premió su estabilidad"
+              }
             }
           ]
         },
