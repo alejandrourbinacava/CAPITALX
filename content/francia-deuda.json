@@ -67,12 +67,12 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567427",
-                  "url": "https://images.pexels.com/photos/7567427/pexels-photo-7567427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7567523",
+                  "url": "https://images.pexels.com/photos/7567523/pexels-photo-7567523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-sitting-in-front-of-laptop-feeling-pensive-7567427/"
+                  "pagina": "https://www.pexels.com/photo/man-in-white-long-sleeve-shirt-sitting-in-front-of-silver-macbook-7567523/"
                 },
-                "fichero": "recortes-auto/pexels-7567427.png"
+                "fichero": "recortes-auto/pexels-7567523.png"
               }
             }
           ]
@@ -114,19 +114,29 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "20348408",
-                  "url": "https://images.pexels.com/photos/20348408/pexels-photo-20348408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Murat IŞIK",
-                  "pagina": "https://www.pexels.com/photo/elegant-man-in-black-dinner-jacket-and-shirt-posing-by-turkish-flag-20348408/"
+                  "id": "4427616",
+                  "url": "https://images.pexels.com/photos/4427616/pexels-photo-4427616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "August de Richelieu",
+                  "pagina": "https://www.pexels.com/photo/businessman-standing-with-his-hands-on-his-desk-4427616/"
                 },
-                "fichero": "recortes-auto/pexels-20348408.png"
+                "fichero": "recortes-auto/pexels-4427616.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "government budget meeting ministers table paris",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6951392",
+                  "url": "https://videos.pexels.com/video-files/6951392/6951392-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/video/a-conference-room-6951392/"
+                },
+                "fichero": "clips/pexels-6951392.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -217,12 +227,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7876451",
-                  "url": "https://images.pexels.com/photos/7876451/pexels-photo-7876451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "https://kaboompics.com/",
-                  "pagina": "https://www.pexels.com/photo/woman-talking-on-a-phone-in-an-office-7876451/"
+                  "id": "9304653",
+                  "url": "https://images.pexels.com/photos/9304653/pexels-photo-9304653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-a-tablet-looking-at-a-chart-on-paper-9304653/"
                 },
-                "fichero": "recortes-auto/pexels-7876451.png"
+                "fichero": "recortes-auto/pexels-9304653.png"
               }
             }
           ]
@@ -326,12 +336,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567426",
-                  "url": "https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-wearing-eyeglasses-sitting-in-front-of-laptop-feeling-pensive-7567426/"
+                  "id": "16044209",
+                  "url": "https://images.pexels.com/photos/16044209/pexels-photo-16044209.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Geancarlo Peruzzolo",
+                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-wearing-eyeglasses-16044209/"
                 },
-                "fichero": "recortes-auto/pexels-7567426.png"
+                "fichero": "recortes-auto/pexels-16044209.png"
               }
             }
           ]
@@ -375,23 +385,8 @@
               "camara": "push"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "market analyst woman portrait bloomberg screens",
-                "tono": "ocre",
-                "lado": "izq",
-                "titular": "Un número, cuatro lecturas",
-                "apoyo": "Y solo la cuarta resuelve el misterio.",
-                "icono": "grafico",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7567528",
-                  "url": "https://images.pexels.com/photos/7567528/pexels-photo-7567528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/bearded-man-in-white-dress-shirt-using-laptop-7567528/"
-                },
-                "fichero": "recortes-auto/pexels-7567528.png"
-              }
+              "tipo": "frase",
+              "texto": "Un número, cuatro lecturas"
             }
           ]
         }
@@ -451,12 +446,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8353812",
-                  "url": "https://images.pexels.com/photos/8353812/pexels-photo-8353812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Kampus Production",
-                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-8353812/"
+                  "id": "7877199",
+                  "url": "https://images.pexels.com/photos/7877199/pexels-photo-7877199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/bearded-man-sitting-holding-white-printed-papers-and-eyeglasses-7877199/"
                 },
-                "fichero": "recortes-auto/pexels-8353812.png"
+                "fichero": "recortes-auto/pexels-7877199.png"
               }
             }
           ]
@@ -487,7 +482,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "stock chart rising line screen close up",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38736274",
+                  "url": "https://videos.pexels.com/video-files/38736274/16457004_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 20,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-finance-chart-display-in-dark-room-38736274/"
+                },
+                "fichero": "clips/pexels-38736274.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -557,12 +562,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8278977",
-                  "url": "https://images.pexels.com/photos/8278977/pexels-photo-8278977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "ANTONI SHKRABA production",
-                  "pagina": "https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-wearing-eyeglasses-sitting-on-gray-chair-8278977/"
+                  "id": "7876458",
+                  "url": "https://images.pexels.com/photos/7876458/pexels-photo-7876458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/a-woman-sitting-on-the-chair-while-reviewing-a-chart-7876458/"
                 },
-                "fichero": "recortes-auto/pexels-8278977.png"
+                "fichero": "recortes-auto/pexels-7876458.png"
               }
             },
             {
@@ -629,7 +634,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "money counting machine banknotes fast",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266290",
+                  "url": "https://videos.pexels.com/video-files/6266290/6266290-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/woman-counting-money-6266290/"
+                },
+                "fichero": "clips/pexels-6266290.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -650,7 +665,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro banknotes counting machine close",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30712587",
+                  "url": "https://videos.pexels.com/video-files/30712587/13139655_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "TimePRO TV",
+                  "pagina": "https://www.pexels.com/video/euro-banknotes-with-coffee-and-calculator-setup-30712587/"
+                },
+                "fichero": "clips/pexels-30712587.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -689,12 +714,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8297218",
-                  "url": "https://images.pexels.com/photos/8297218/pexels-photo-8297218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/young-girl-in-white-long-sleeve-shirt-holding-books-and-using-a-calculator-8297218/"
+                  "id": "8927644",
+                  "url": "https://images.pexels.com/photos/8927644/pexels-photo-8927644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nataliya Vaitkevich",
+                  "pagina": "https://www.pexels.com/photo/woman-holding-pink-and-white-papers-8927644/"
                 },
-                "fichero": "recortes-auto/pexels-8297218.png"
+                "fichero": "recortes-auto/pexels-8927644.png"
               }
             }
           ]
@@ -764,12 +789,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "33552497",
-                  "url": "https://images.pexels.com/photos/33552497/pexels-photo-33552497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Kaybee Photography",
-                  "pagina": "https://www.pexels.com/photo/military-officer-in-uniform-with-medals-33552497/"
+                  "id": "28186645",
+                  "url": "https://images.pexels.com/photos/28186645/pexels-photo-28186645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Halid Elosman",
+                  "pagina": "https://www.pexels.com/photo/business-meeting-28186645/"
                 },
-                "fichero": "recortes-auto/pexels-33552497.png"
+                "fichero": "recortes-auto/pexels-28186645.png"
               }
             }
           ]
@@ -825,12 +850,12 @@
                 "icono": "balanza",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "14044939",
-                  "url": "https://images.pexels.com/photos/14044939/pexels-photo-14044939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mathias Reding",
-                  "pagina": "https://www.pexels.com/photo/an-elderly-man-sitting-on-the-sidewalk-14044939/"
+                  "id": "31711996",
+                  "url": "https://images.pexels.com/photos/31711996/pexels-photo-31711996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Charly Constant",
+                  "pagina": "https://www.pexels.com/photo/man-reading-newspaper-at-outdoor-french-cafe-31711996/"
                 },
-                "fichero": "recortes-auto/pexels-14044939.png"
+                "fichero": "recortes-auto/pexels-31711996.png"
               }
             }
           ]
@@ -846,7 +871,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "rome italy city street traffic",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36630729",
+                  "url": "https://videos.pexels.com/video-files/36630729/15530040_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Ad Vision",
+                  "pagina": "https://www.pexels.com/video/urban-traffic-at-piazza-della-repubblica-rome-36630729/"
+                },
+                "fichero": "clips/pexels-36630729.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -858,7 +893,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "balance scale unequal weights",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5636967",
+                  "url": "https://videos.pexels.com/video-files/5636967/5636967-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sora Shimazaki",
+                  "pagina": "https://www.pexels.com/video/scale-of-justice-5636967/"
+                },
+                "fichero": "clips/pexels-5636967.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -936,7 +981,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "paying bills invoice desk hands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7546417",
+                  "url": "https://videos.pexels.com/video-files/7546417/7546417-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "SHVETS production",
+                  "pagina": "https://www.pexels.com/video/elderly-woman-looking-at-the-invoice-while-on-the-table-7546417/"
+                },
+                "fichero": "clips/pexels-7546417.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -955,12 +1010,12 @@
                 "icono": "moneda",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "3867132",
-                  "url": "https://images.pexels.com/photos/3867132/pexels-photo-3867132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "RF._.studio _",
-                  "pagina": "https://www.pexels.com/photo/woman-in-black-long-sleeve-dress-sitting-on-white-chair-3867132/"
+                  "id": "19203033",
+                  "url": "https://images.pexels.com/photos/19203033/pexels-photo-19203033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tolgraw",
+                  "pagina": "https://www.pexels.com/photo/elderly-woman-with-red-purse-19203033/"
                 },
-                "fichero": "recortes-auto/pexels-3867132.png"
+                "fichero": "recortes-auto/pexels-19203033.png"
               }
             }
           ]
@@ -1016,7 +1071,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro coins pile growing",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31949451",
+                  "url": "https://videos.pexels.com/video-files/31949451/13611856_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Just For Music And Film",
+                  "pagina": "https://www.pexels.com/video/falling-euro-coins-on-a-gray-background-31949451/"
+                },
+                "fichero": "clips/pexels-31949451.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -1037,7 +1102,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "french soldiers military ceremony paris",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9466203",
+                  "url": "https://videos.pexels.com/video-files/9466203/9466203-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/people-walking-while-holding-gun-9466203/"
+                },
+                "fichero": "clips/pexels-9466203.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -1075,12 +1150,12 @@
                 "icono": "banco",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "26834968",
-                  "url": "https://images.pexels.com/photos/26834968/pexels-photo-26834968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Bhandari Law and Partners",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-a-suit-26834968/"
+                  "id": "8729932",
+                  "url": "https://images.pexels.com/photos/8729932/pexels-photo-8729932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/a-businessman-in-blue-suit-8729932/"
                 },
-                "fichero": "recortes-auto/pexels-26834968.png"
+                "fichero": "recortes-auto/pexels-8729932.png"
               }
             }
           ]
@@ -1096,7 +1171,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "bank interest rates sign window",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8293498",
+                  "url": "https://videos.pexels.com/video-files/8293498/8293498-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/home-sweet-home-wood-signage-8293498/"
+                },
+                "fichero": "clips/pexels-8293498.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -1134,12 +1219,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "6172490",
-                  "url": "https://images.pexels.com/photos/6172490/pexels-photo-6172490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "RDNE Stock project",
-                  "pagina": "https://www.pexels.com/photo/woman-in-black-and-white-corporate-attire-standing-near-flags-6172490/"
+                  "id": "4427622",
+                  "url": "https://images.pexels.com/photos/4427622/pexels-photo-4427622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "August de Richelieu",
+                  "pagina": "https://www.pexels.com/photo/businesswoman-in-her-office-4427622/"
                 },
-                "fichero": "recortes-auto/pexels-6172490.png"
+                "fichero": "recortes-auto/pexels-4427622.png"
               }
             },
             {
@@ -1226,19 +1311,29 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567442",
-                  "url": "https://images.pexels.com/photos/7567442/pexels-photo-7567442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/man-in-white-dress-shirt-with-eyeglasses-feeling-exhausted-7567442/"
+                  "id": "5717738",
+                  "url": "https://images.pexels.com/photos/5717738/pexels-photo-5717738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/photo/a-man-sitting-at-the-table-5717738/"
                 },
-                "fichero": "recortes-auto/pexels-7567442.png"
+                "fichero": "recortes-auto/pexels-5717738.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "stock market graph climbing red",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38919826",
+                  "url": "https://videos.pexels.com/video-files/38919826/16551768_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 21,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-cryptocurrency-trading-screen-footage-38919826/"
+                },
+                "fichero": "clips/pexels-38919826.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -1300,12 +1395,12 @@
                 "icono": "moneda",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "5715846",
-                  "url": "https://images.pexels.com/photos/5715846/pexels-photo-5715846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Artem Podrez",
-                  "pagina": "https://www.pexels.com/photo/man-in-front-of-a-laptop-5715846/"
+                  "id": "7567596",
+                  "url": "https://images.pexels.com/photos/7567596/pexels-photo-7567596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/photo/marketing-man-laptop-technology-7567596/"
                 },
-                "fichero": "recortes-auto/pexels-5715846.png"
+                "fichero": "recortes-auto/pexels-7567596.png"
               }
             }
           ]
@@ -1321,7 +1416,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "auction gavel hammer bidding",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5636977",
+                  "url": "https://videos.pexels.com/video-files/5636977/5636977-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Sora Shimazaki",
+                  "pagina": "https://www.pexels.com/video/balance-scales-and-gavel-placed-on-a-wooden-desk-5636977/"
+                },
+                "fichero": "clips/pexels-5636977.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -1333,7 +1438,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty parliament chamber seats",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4474272",
+                  "url": "https://videos.pexels.com/video-files/4474272/4474272-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Hirsh Philippe",
+                  "pagina": "https://www.pexels.com/video/tracking-shot-of-the-texas-house-of-representatives-chamber-4474272/"
+                },
+                "fichero": "clips/pexels-4474272.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -1408,12 +1523,12 @@
                 "icono": "candado",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "16382941",
-                  "url": "https://images.pexels.com/photos/16382941/pexels-photo-16382941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Paulo Oliveira",
-                  "pagina": "https://www.pexels.com/photo/woman-holding-flag-among-people-16382941/"
+                  "id": "32744452",
+                  "url": "https://images.pexels.com/photos/32744452/pexels-photo-32744452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Diego Fioravanti",
+                  "pagina": "https://www.pexels.com/photo/stylish-woman-in-french-inspired-outfit-in-library-32744452/"
                 },
-                "fichero": "recortes-auto/pexels-16382941.png"
+                "fichero": "recortes-auto/pexels-32744452.png"
               }
             }
           ]
@@ -1455,19 +1570,29 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37272893",
-                  "url": "https://images.pexels.com/photos/37272893/pexels-photo-37272893.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Layth Mushreq",
-                  "pagina": "https://www.pexels.com/photo/elderly-man-in-suit-portrait-37272893/"
+                  "id": "3831736",
+                  "url": "https://images.pexels.com/photos/3831736/pexels-photo-3831736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Andrea Piacquadio",
+                  "pagina": "https://www.pexels.com/photo/man-in-black-suit-jacket-smiling-3831736/"
                 },
-                "fichero": "recortes-auto/pexels-37272893.png"
+                "fichero": "recortes-auto/pexels-3831736.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "old archive footage french national assembly",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30579904",
+                  "url": "https://videos.pexels.com/video-files/30579904/13095700_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Samar Layek",
+                  "pagina": "https://www.pexels.com/video/french-flag-waving-against-blue-sky-30579904/"
+                },
+                "fichero": "clips/pexels-30579904.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -1497,12 +1622,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8847181",
-                  "url": "https://images.pexels.com/photos/8847181/pexels-photo-8847181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/woman-politician-behind-speech-desk-8847181/"
+                  "id": "6949979",
+                  "url": "https://images.pexels.com/photos/6949979/pexels-photo-6949979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Werner Pfennig",
+                  "pagina": "https://www.pexels.com/photo/man-standing-next-to-a-podium-in-a-conference-room-6949979/"
                 },
-                "fichero": "recortes-auto/pexels-8847181.png"
+                "fichero": "recortes-auto/pexels-6949979.png"
               }
             },
             {
@@ -1527,7 +1652,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "politician leaving office door resignation",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28859677",
+                  "url": "https://videos.pexels.com/video-files/28859677/12497477_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Max Medyk",
+                  "pagina": "https://www.pexels.com/video/business-meeting-with-cityscape-views-28859677/"
+                },
+                "fichero": "clips/pexels-28859677.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -1599,12 +1734,12 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37982671",
-                  "url": "https://images.pexels.com/photos/37982671/pexels-photo-37982671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "37982666",
+                  "url": "https://images.pexels.com/photos/37982666/pexels-photo-37982666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Makingoffphotos SouZynan DDV",
-                  "pagina": "https://www.pexels.com/photo/stylish-man-in-parisian-urban-setting-37982671/"
+                  "pagina": "https://www.pexels.com/photo/fashionable-man-holding-baguette-in-paris-street-37982666/"
                 },
-                "fichero": "recortes-auto/pexels-37982671.png"
+                "fichero": "recortes-auto/pexels-37982666.png"
               }
             }
           ]
@@ -1668,7 +1803,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "credit rating report analyst screens",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38470549",
+                  "url": "https://videos.pexels.com/video-files/38470549/16337650_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/dynamic-trading-scene-with-tech-display-38470549/"
+                },
+                "fichero": "clips/pexels-38470549.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -1688,12 +1833,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567310",
-                  "url": "https://images.pexels.com/photos/7567310/pexels-photo-7567310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/man-in-black-blazer-sitting-beside-glass-window-7567310/"
+                  "id": "5920592",
+                  "url": "https://images.pexels.com/photos/5920592/pexels-photo-5920592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/a-man-holding-a-magnifying-glass-scrutinizing-cash-money-5920592/"
                 },
-                "fichero": "recortes-auto/pexels-7567310.png"
+                "fichero": "recortes-auto/pexels-5920592.png"
               }
             }
           ]
@@ -1709,7 +1854,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "paris protest street police demonstration",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6258073",
+                  "url": "https://videos.pexels.com/video-files/6258073/6258073-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/protest-signs-6258073/"
+                },
+                "fichero": "clips/pexels-6258073.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -1747,12 +1902,12 @@
                 "icono": "candado",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7654627",
-                  "url": "https://images.pexels.com/photos/7654627/pexels-photo-7654627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Pavel Danilyuk",
-                  "pagina": "https://www.pexels.com/photo/a-woman-in-business-attire-holding-a-calculator-in-the-office-7654627/"
+                  "id": "8062301",
+                  "url": "https://images.pexels.com/photos/8062301/pexels-photo-8062301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Nataliya Vaitkevich",
+                  "pagina": "https://www.pexels.com/photo/a-woman-in-black-blazer-sitting-on-chair-8062301/"
                 },
-                "fichero": "recortes-auto/pexels-7654627.png"
+                "fichero": "recortes-auto/pexels-8062301.png"
               }
             }
           ]
@@ -1808,12 +1963,12 @@
                 "icono": "visto",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "16049919",
-                  "url": "https://images.pexels.com/photos/16049919/pexels-photo-16049919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Paulo Oliveira",
-                  "pagina": "https://www.pexels.com/photo/woman-raising-fist-in-air-among-crowd-of-protesters-16049919/"
+                  "id": "15484786",
+                  "url": "https://images.pexels.com/photos/15484786/pexels-photo-15484786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Jean Marc Bonnel",
+                  "pagina": "https://www.pexels.com/photo/people-protesting-against-retirement-age-15484786/"
                 },
-                "fichero": "recortes-auto/pexels-16049919.png"
+                "fichero": "recortes-auto/pexels-15484786.png"
               }
             },
             {
@@ -1847,7 +2002,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "dartboard missed target dart",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7581338",
+                  "url": "https://videos.pexels.com/video-files/7581338/7581338-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/dartboard-with-darts-7581338/"
+                },
+                "fichero": "clips/pexels-7581338.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -1885,12 +2050,12 @@
                 "icono": "baja",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7654167",
-                  "url": "https://images.pexels.com/photos/7654167/pexels-photo-7654167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Pavel Danilyuk",
-                  "pagina": "https://www.pexels.com/photo/man-in-white-long-sleeves-working-in-the-office-7654167/"
+                  "id": "7534766",
+                  "url": "https://images.pexels.com/photos/7534766/pexels-photo-7534766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/photo/a-man-looking-at-the-white-paper-7534766/"
                 },
-                "fichero": "recortes-auto/pexels-7654167.png"
+                "fichero": "recortes-auto/pexels-7534766.png"
               }
             }
           ]
@@ -1947,12 +2112,12 @@
                 "icono": "aviso",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7103166",
-                  "url": "https://images.pexels.com/photos/7103166/pexels-photo-7103166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7103118",
+                  "url": "https://images.pexels.com/photos/7103118/pexels-photo-7103118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Edmond Dantès",
-                  "pagina": "https://www.pexels.com/photo/a-male-voter-reviewing-his-ballot-7103166/"
+                  "pagina": "https://www.pexels.com/photo/woman-in-orange-blazer-smiling-handing-a-month-a-document-7103118/"
                 },
-                "fichero": "recortes-auto/pexels-7103166.png"
+                "fichero": "recortes-auto/pexels-7103118.png"
               }
             },
             {
@@ -2011,19 +2176,29 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "39815358",
-                  "url": "https://images.pexels.com/photos/39815358/pexels-photo-39815358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Rishav Kumar",
-                  "pagina": "https://www.pexels.com/photo/elderly-man-in-moga-shop-punjab-street-scene-39815358/"
+                  "id": "37483621",
+                  "url": "https://images.pexels.com/photos/37483621/pexels-photo-37483621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "khaled damlakhi",
+                  "pagina": "https://www.pexels.com/photo/elderly-man-in-quilted-coat-on-rainy-street-37483621/"
                 },
-                "fichero": "recortes-auto/pexels-39815358.png"
+                "fichero": "recortes-auto/pexels-37483621.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "election campaign rally crowd flags",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16953737",
+                  "url": "https://videos.pexels.com/video-files/16953737/16953737-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Andrey Muntean",
+                  "pagina": "https://www.pexels.com/video/adunarea-na-ionala-moldova-europeana-16953737/"
+                },
+                "fichero": "clips/pexels-16953737.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -2067,7 +2242,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "politicians shaking hands negotiation",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8731462",
+                  "url": "https://videos.pexels.com/video-files/8731462/8731462-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Mikhail Nilov",
+                  "pagina": "https://www.pexels.com/video/men-shaking-hands-8731462/"
+                },
+                "fichero": "clips/pexels-8731462.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -2124,12 +2309,12 @@
                 "icono": "persona",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8937608",
-                  "url": "https://images.pexels.com/photos/8937608/pexels-photo-8937608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/photo-of-a-man-in-a-blue-suit-sitting-on-a-chair-8937608/"
+                  "id": "10499611",
+                  "url": "https://images.pexels.com/photos/10499611/pexels-photo-10499611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Khalida 11",
+                  "pagina": "https://www.pexels.com/photo/a-man-in-a-suit-with-a-pointed-finger-10499611/"
                 },
-                "fichero": "recortes-auto/pexels-8937608.png"
+                "fichero": "recortes-auto/pexels-10499611.png"
               }
             }
           ]
@@ -2193,7 +2378,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "central bank vault gold bars",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6590464",
+                  "url": "https://videos.pexels.com/video-files/6590464/6590464-hd_1366_720_50fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 11,
+                  "autor": "Sergei Starostin",
+                  "pagina": "https://www.pexels.com/video/one-dollar-cash-6590464/"
+                },
+                "fichero": "clips/pexels-6590464.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -2222,12 +2417,12 @@
                 "icono": "globo",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "10509872",
-                  "url": "https://images.pexels.com/photos/10509872/pexels-photo-10509872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mavluda Tashbaeva",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-a-man-in-a-suit-10509872/"
+                  "id": "7643785",
+                  "url": "https://images.pexels.com/photos/7643785/pexels-photo-7643785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "MART  PRODUCTION",
+                  "pagina": "https://www.pexels.com/photo/a-man-wearing-a-blazer-with-his-arms-crossed-7643785/"
                 },
-                "fichero": "recortes-auto/pexels-10509872.png"
+                "fichero": "recortes-auto/pexels-7643785.png"
               }
             },
             {
@@ -2252,7 +2447,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "investor selling screens stocks red",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36418660",
+                  "url": "https://videos.pexels.com/video-files/36418660/15442087_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/financial-analyst-monitors-trading-data-on-screen-36418660/"
+                },
+                "fichero": "clips/pexels-36418660.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -2306,7 +2511,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "central bank building frankfurt skyline",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19236189",
+                  "url": "https://videos.pexels.com/video-files/19236189/19236189-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Masood Aslami",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-the-city-19236189/"
+                },
+                "fichero": "clips/pexels-19236189.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -2318,7 +2533,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "empty trading floor chairs",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19217903",
+                  "url": "https://videos.pexels.com/video-files/19217903/19217903-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Nino Souza",
+                  "pagina": "https://www.pexels.com/video/empty-seats-in-an-arena-with-red-seats-19217903/"
+                },
+                "fichero": "clips/pexels-19217903.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -2339,7 +2564,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "investors boardroom discussion numbers table",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7552419",
+                  "url": "https://videos.pexels.com/video-files/7552419/7552419-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Vlada Karpovich",
+                  "pagina": "https://www.pexels.com/video/people-having-business-meeting-7552419/"
+                },
+                "fichero": "clips/pexels-7552419.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -2351,7 +2586,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "price tag discount sale sign",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5889450",
+                  "url": "https://videos.pexels.com/video-files/5889450/5889450-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Max Fischer",
+                  "pagina": "https://www.pexels.com/video/red-color-sale-tags-5889450/"
+                },
+                "fichero": "clips/pexels-5889450.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -2436,12 +2681,12 @@
                 "icono": "visto",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "37189697",
-                  "url": "https://images.pexels.com/photos/37189697/pexels-photo-37189697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "37189705",
+                  "url": "https://images.pexels.com/photos/37189705/pexels-photo-37189705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Andrea Prochilo",
-                  "pagina": "https://www.pexels.com/photo/confident-woman-in-white-suit-at-historical-landmark-37189697/"
+                  "pagina": "https://www.pexels.com/photo/sophisticated-woman-in-white-near-colosseum-37189705/"
                 },
-                "fichero": "recortes-auto/pexels-37189697.png"
+                "fichero": "recortes-auto/pexels-37189705.png"
               }
             }
           ]
@@ -2457,7 +2702,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "italian parliament government rome",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31524450",
+                  "url": "https://videos.pexels.com/video-files/31524450/13437560_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Maurice Supple",
+                  "pagina": "https://www.pexels.com/video/historic-palazzo-di-giustizia-in-rome-31524450/"
+                },
+                "fichero": "clips/pexels-31524450.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -2485,23 +2740,8 @@
               "camara": "pull"
             },
             {
-              "tipo": "recorte",
-              "recorte": {
-                "buscar": "credit rating analyst man portrait moodys office",
-                "tono": "ocre",
-                "lado": "der",
-                "titular": "Premió su estabilidad",
-                "apoyo": "Moody's mejoró la nota de Italia por su historial político.",
-                "icono": "visto",
-                "elegido": {
-                  "fuente": "pexels",
-                  "id": "7534769",
-                  "url": "https://images.pexels.com/photos/7534769/pexels-photo-7534769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Mikhail Nilov",
-                  "pagina": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-looking-at-the-camera-7534769/"
-                },
-                "fichero": "recortes-auto/pexels-7534769.png"
-              }
+              "tipo": "frase",
+              "texto": "Premió su estabilidad"
             }
           ]
         },
@@ -2640,12 +2880,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7567435",
-                  "url": "https://images.pexels.com/photos/7567435/pexels-photo-7567435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7567226",
+                  "url": "https://images.pexels.com/photos/7567226/pexels-photo-7567226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Tima Miroshnichenko",
-                  "pagina": "https://www.pexels.com/photo/a-bearded-man-working-in-his-office-7567435/"
+                  "pagina": "https://www.pexels.com/photo/a-man-working-on-a-stock-market-exchange-7567226/"
                 },
-                "fichero": "recortes-auto/pexels-7567435.png"
+                "fichero": "recortes-auto/pexels-7567226.png"
               }
             },
             {
@@ -2712,7 +2952,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "german flag berlin bundestag",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35919428",
+                  "url": "https://videos.pexels.com/video-files/35919428/15238505_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Ivan Chumak",
+                  "pagina": "https://www.pexels.com/video/snowy-day-at-berlin-s-reichstag-building-35919428/"
+                },
+                "fichero": "clips/pexels-35919428.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -2733,7 +2983,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "calm businessman office window city",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9215060",
+                  "url": "https://videos.pexels.com/video-files/9215060/9215060-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/man-drinking-juice-by-the-window-9215060/"
+                },
+                "fichero": "clips/pexels-9215060.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -2771,12 +3031,12 @@
                 "icono": "visto",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "10349586",
-                  "url": "https://images.pexels.com/photos/10349586/pexels-photo-10349586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Ron Lach",
-                  "pagina": "https://www.pexels.com/photo/a-side-view-of-a-female-wearing-a-vest-10349586/"
+                  "id": "9721880",
+                  "url": "https://images.pexels.com/photos/9721880/pexels-photo-9721880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Евгений Шухман",
+                  "pagina": "https://www.pexels.com/photo/woman-in-white-blazer-standing-while-seriously-looking-at-the-camera-9721880/"
                 },
-                "fichero": "recortes-auto/pexels-10349586.png"
+                "fichero": "recortes-auto/pexels-9721880.png"
               }
             }
           ]
@@ -2832,12 +3092,12 @@
                 "icono": "moneda",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "8902299",
-                  "url": "https://images.pexels.com/photos/8902299/pexels-photo-8902299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "ANTONI SHKRABA production",
-                  "pagina": "https://www.pexels.com/photo/woman-holding-a-box-of-macaroons-8902299/"
+                  "id": "10069669",
+                  "url": "https://images.pexels.com/photos/10069669/pexels-photo-10069669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/photo/woman-in-sundress-in-kitchen-10069669/"
                 },
-                "fichero": "recortes-auto/pexels-8902299.png"
+                "fichero": "recortes-auto/pexels-10069669.png"
               }
             }
           ]
@@ -2853,7 +3113,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "euro sign sculpture frankfurt",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29801537",
+                  "url": "https://videos.pexels.com/video-files/29801537/12802852_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Arlind D",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-frankfurt-city-skyline-29801537/"
+                },
+                "fichero": "clips/pexels-29801537.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -2884,7 +3154,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "handing cash euros paying",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34839621",
+                  "url": "https://videos.pexels.com/video-files/34839621/14768229_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/counting-euro-bills-at-a-desk-scene-34839621/"
+                },
+                "fichero": "clips/pexels-34839621.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
@@ -2935,12 +3215,12 @@
                 "icono": "documento",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "39125276",
-                  "url": "https://images.pexels.com/photos/39125276/pexels-photo-39125276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Joaquin Reyes Ramos",
-                  "pagina": "https://www.pexels.com/photo/portrait-of-a-police-officer-in-uniform-outdoors-39125276/"
+                  "id": "38172847",
+                  "url": "https://images.pexels.com/photos/38172847/pexels-photo-38172847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Жанна  Алимкулова",
+                  "pagina": "https://www.pexels.com/photo/french-sailor-in-traditional-uniform-at-parade-38172847/"
                 },
-                "fichero": "recortes-auto/pexels-39125276.png"
+                "fichero": "recortes-auto/pexels-38172847.png"
               }
             }
           ]
@@ -3003,12 +3283,12 @@
                 "icono": "sube",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "39453892",
-                  "url": "https://images.pexels.com/photos/39453892/pexels-photo-39453892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Hameen Reynolds",
-                  "pagina": "https://www.pexels.com/photo/iconic-madrid-building-with-ornate-clock-tower-39453892/"
+                  "id": "39876130",
+                  "url": "https://images.pexels.com/photos/39876130/pexels-photo-39876130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Germán Latasa",
+                  "pagina": "https://www.pexels.com/photo/edificio-capitol-tower-with-schweppes-sign-39876130/"
                 },
-                "fichero": "recortes-auto/pexels-39453892.png"
+                "fichero": "recortes-auto/pexels-39876130.png"
               }
             },
             {
@@ -3075,12 +3355,12 @@
                 "icono": "casa",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "7579205",
-                  "url": "https://images.pexels.com/photos/7579205/pexels-photo-7579205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "id": "7579204",
+                  "url": "https://images.pexels.com/photos/7579204/pexels-photo-7579204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                   "autor": "Kindel Media",
-                  "pagina": "https://www.pexels.com/photo/woman-in-gray-sweater-smiling-while-holding-a-key-7579205/"
+                  "pagina": "https://www.pexels.com/photo/woman-in-gray-sweater-hugging-man-in-blue-long-sleeve-shirt-7579204/"
                 },
-                "fichero": "recortes-auto/pexels-7579205.png"
+                "fichero": "recortes-auto/pexels-7579204.png"
               }
             }
           ]
@@ -3122,19 +3402,29 @@
                 "icono": "reloj",
                 "elegido": {
                   "fuente": "pexels",
-                  "id": "31266457",
-                  "url": "https://images.pexels.com/photos/31266457/pexels-photo-31266457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                  "autor": "Ramon Karolan",
-                  "pagina": "https://www.pexels.com/photo/elderly-man-walking-in-paris-street-scene-31266457/"
+                  "id": "32614663",
+                  "url": "https://images.pexels.com/photos/32614663/pexels-photo-32614663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                  "autor": "Consuelo Borroni",
+                  "pagina": "https://www.pexels.com/photo/black-and-white-image-of-a-man-in-a-beret-32614663/"
                 },
-                "fichero": "recortes-auto/pexels-31266457.png"
+                "fichero": "recortes-auto/pexels-32614663.png"
               }
             },
             {
               "tipo": "clip",
               "clip": {
                 "buscar": "stock exchange price board numbers changing",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14003675",
+                  "url": "https://videos.pexels.com/video-files/14003675/14003675-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Gilmer Diaz Estela",
+                  "pagina": "https://www.pexels.com/video/numbers-changing-14003675/"
+                },
+                "fichero": "clips/pexels-14003675.mp4"
               },
               "camara": "panL",
               "peso": 1.3,
@@ -3178,7 +3468,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "parliament hemicycle seats",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37022791",
+                  "url": "https://videos.pexels.com/video-files/37022791/15685772_1680_720_30fps.mp4",
+                  "ancho": 1680,
+                  "duracion": 11,
+                  "autor": "George Morina",
+                  "pagina": "https://www.pexels.com/video/houses-of-parliament-by-the-thames-at-dusk-37022791/"
+                },
+                "fichero": "clips/pexels-37022791.mp4"
               },
               "camara": "push",
               "peso": 1.3,
@@ -3206,7 +3506,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "mathematics equation blackboard chalk",
-                "tono": "carmin"
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8197218",
+                  "url": "https://videos.pexels.com/video-files/8197218/8197218-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Yan Krukau",
+                  "pagina": "https://www.pexels.com/video/a-person-erasing-the-blackboard-8197218/"
+                },
+                "fichero": "clips/pexels-8197218.mp4"
               },
               "camara": "pull",
               "peso": 1.3,
@@ -3236,7 +3546,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "crowd voting raising hands",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15039368",
+                  "url": "https://videos.pexels.com/video-files/15039368/15039368-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Luis Quintero",
+                  "pagina": "https://www.pexels.com/video/a-woman-in-red-long-sleeves-wearing-face-mask-while-worshipping-15039368/"
+                },
+                "fichero": "clips/pexels-15039368.mp4"
               },
               "camara": "panR",
               "peso": 1.3,
