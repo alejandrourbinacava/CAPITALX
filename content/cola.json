@@ -90,16 +90,13 @@
     {
       "slug": "eeuu-migracion",
       "titulo": "California Lleva 30 Años Perdiendo Gente. Nunca Le Pasó Nada Hasta Ahora"
+    },
+    {
+      "slug": "francia-deuda",
+      "titulo": "Francia Debe Menos Que Italia. Entonces, ¿Por Qué Paga Más?"
     }
   ],
   "cola": [
-    {
-      "slug": "francia-deuda",
-      "titulo": "FRANCIA: La Deuda Que Ya Nadie Va a Pagar",
-      "angulo": "Ratio de deuda sobre PIB, coste de los intereses comparado con partidas del presupuesto, prima de riesgo frente a Alemania y las bajadas de calificación.",
-      "region": "europa",
-      "pais": "francia"
-    },
     {
       "slug": "canada",
       "titulo": "CANADÁ: Convirtió La Vivienda En Su Única Industria",
