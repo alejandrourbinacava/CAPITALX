@@ -337,7 +337,7 @@ Cómo se consigue:
 
 - **Varía el ritmo de la frase.** Frases largas para explicar, frases de cinco palabras para rematar. Si todos los planos tienen la misma longitud, la locución suena a lista.
 
-Regla práctica: **como mucho la mitad de los planos llevan una cifra nueva.** La otra mitad explica, cuenta, compara o remata. Si al repasar el guion ves tres planos seguidos con tres cifras distintas, sobra una.
+Regla práctica: **como mucho un tercio de los planos llevan una cifra, y no más de tres cifras por minuto.** El validador lo mide. Medido sobre los catorce vídeos publicados, Francia llevaba 4,0 por minuto y la mitad de sus planos; Yuan digital, el más de historia, 0,6 y el 11 %. Un vídeo se sigue por una persona, una fecha y algo que está a punto de pasar; la cifra es la prueba, no la estructura. Redondea ("tres millones y medio") y traduce a escala humana en vez de dar el número exacto, salvo cuando el número exacto es el remate.
 
 # El formato JSON
 
@@ -1144,6 +1144,26 @@ function validar(doc, tema) {
     const tope = seguidas[tipoDe(planos[i])] ?? 3;
     if (racha === tope) {
       di(`${planos[i].id}: van ${racha} planos "${tipoDe(planos[i])}" seguidos. Mete otra cosa en medio.`);
+    }
+  }
+
+  // Densidad de cifras. Los numeros van escritos en letra en la locucion, asi
+  // que se cuentan por las palabras que los delatan. Medido sobre los catorce
+  // videos publicados: Francia, el mas cargado, llevaba 4,0 por minuto y la
+  // mitad de sus planos; Yuan digital, el mas de historia, 0,6 y el 11 %.
+  {
+    const CIFRA = /\b(por ciento|millones?|billones?|puntos básicos|coma)\b/gi;
+    const conCifra = planos.filter((p) => (p.vo ?? "").match(CIFRA)).length;
+    const total = planos.reduce((a, p) => a + ((p.vo ?? "").match(CIFRA)?.length ?? 0), 0);
+    const minutos = Math.max(1, chars / 15.8 / 60);
+    const porMin = total / minutos;
+    const pc = conCifra / Math.max(1, planos.length);
+    if (porMin > 3 || pc > 0.35) {
+      di(
+        `demasiadas cifras: ${porMin.toFixed(1)} por minuto y el ${Math.round(pc * 100)} % de los planos ` +
+          `llevan una (tope: 3 por minuto y 35 %). Un video se sigue por una historia con gente y fechas; ` +
+          `los numeros son el remate. Redondea, traduce a escala humana y quita las que no sean la prueba.`
+      );
     }
   }
 
