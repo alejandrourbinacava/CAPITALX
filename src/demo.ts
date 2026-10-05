@@ -257,3 +257,73 @@ DEMOS.push({
     bloques: [{ planos: PLANOS_MERCADO }],
   } as Guion,
 });
+
+
+const PLANOS_TURQUIA = [
+  {
+    id: "t-01",
+    vo: "La silla del gobernador del Banco Central de Turquía ha tenido seis ocupantes desde dos mil dieciséis, y ninguno de ellos decidió los tipos de interés completamente solo, aunque todos lo intentaron durante el tiempo que les dejaron.",
+    escenas: [
+      {
+        tipo: "ilustracion",
+        kicker: "LA SILLA DEL GOBERNADOR",
+        ilustracion: {
+          nombre: "silla",
+          gobernadores: [
+            { nombre: "Çetinkaya", meses: 39, fin: "despedido", cuando: "jul 2019" },
+            { nombre: "Uysal", meses: 16, fin: "despedido", cuando: "nov 2020" },
+            { nombre: "Ağbal", meses: 4, fin: "despedido", cuando: "mar 2021" },
+            { nombre: "Kavcıoğlu", meses: 27, fin: "relevado", cuando: "jun 2023" },
+            { nombre: "Erkan", meses: 8, fin: "dimitio", cuando: "feb 2024" },
+            { nombre: "Karahan", meses: 32, fin: "sigue" },
+          ],
+        },
+        rotulo: { kicker: "Desde 2016", texto: "Seis personas, *una silla*" },
+      },
+      {
+        tipo: "ilustracion",
+        kicker: "LAS DOS CURVAS",
+        ilustracion: {
+          nombre: "tijera",
+          desde: "dic 2021",
+          hasta: "oct 2022",
+          etiquetaTipos: "tipos de interés",
+          etiquetaInflacion: "inflación oficial",
+          tipos: [{ x: 0, y: 14 }, { x: 0.78, y: 13 }, { x: 0.86, y: 12 }, { x: 1, y: 10.5 }],
+          inflacion: [{ x: 0, y: 36.1 }, { x: 1, y: 85.5 }],
+        },
+        rotulo: { kicker: "Diciembre de 2021 a octubre de 2022", texto: "Una *tijera*" },
+      },
+    ],
+  },
+  {
+    id: "t-02",
+    vo: "El dólar llegó a costar dieciocho liras y media el veinte de diciembre de dos mil veintiuno, y esa misma noche el presidente anunció una medida que lo hizo caer a once en un solo día, pero hoy cuesta casi cincuenta liras.",
+    escenas: [
+      {
+        tipo: "ilustracion",
+        kicker: "EL DÓLAR EN LIRAS",
+        ilustracion: {
+          nombre: "marcador",
+          etapas: [
+            { etiqueta: "Principios de 2021", valor: 7.4, nota: "Antes de empezar" },
+            { etiqueta: "20 dic 2021", valor: 18.5, nota: "Mínimo histórico", sentido: "pierde" },
+            { etiqueta: "21 dic 2021", valor: 11.1, nota: "Tras el depósito protegido", sentido: "rebota" },
+            { etiqueta: "30 sep 2026", valor: 48.6, nota: "Hoy", sentido: "pierde" },
+          ],
+        },
+        rotulo: { kicker: "Cuántas liras cuesta un dólar", texto: "La lira *se desploma*" },
+      },
+    ],
+  },
+] as any;
+
+DEMOS.push({
+  id: "estilo-turquia-suizo",
+  guion: {
+    slug: "estilo-turquia-suizo",
+    wpm: 145,
+    estilo: { plantilla: "suizo" },
+    bloques: [{ planos: PLANOS_TURQUIA }],
+  } as Guion,
+});

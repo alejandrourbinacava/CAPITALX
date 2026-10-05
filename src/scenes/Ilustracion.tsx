@@ -14,6 +14,14 @@ import {
   type EspecReloj,
   type EspecTermometro,
 } from "./Mercado";
+import {
+  MarcadorDolar,
+  SillaGobernador,
+  TijeraTiposPrecios,
+  type EspecMarcador,
+  type EspecSilla,
+  type EspecTijera,
+} from "./Cronica";
 
 /**
  * Ilustraciones en movimiento.
@@ -50,7 +58,10 @@ export type EspecIlustracion = {
   Partial<EspecEscalera> &
   Partial<EspecTermometro> &
   Partial<EspecCuartos> &
-  Partial<EspecAnos>;
+  Partial<EspecAnos> &
+  Partial<EspecSilla> &
+  Partial<EspecTijera> &
+  Partial<EspecMarcador>;
 
 const VB = "0 0 1920 1080";
 const lienzo: React.CSSProperties = {
@@ -515,6 +526,7 @@ const Engranaje: React.FC<{
 
 export const NOMBRES_ILUSTRACION = [
   "ciudad", "flujo", "fabrica", "reloj", "escalera", "termometro", "cuartos", "anos",
+  "silla", "tijera", "marcador",
 ] as const;
 
 export const Ilustracion: React.FC<{ spec: EspecIlustracion }> = ({ spec }) => {
@@ -532,6 +544,9 @@ export const Ilustracion: React.FC<{ spec: EspecIlustracion }> = ({ spec }) => {
       {spec.nombre === "termometro" ? <TermometroBono spec={spec as EspecTermometro} /> : null}
       {spec.nombre === "cuartos" ? <CuartosDeuda spec={spec as EspecCuartos} /> : null}
       {spec.nombre === "anos" ? <AnosEnRojo spec={spec as EspecAnos} /> : null}
+      {spec.nombre === "silla" ? <SillaGobernador spec={spec as EspecSilla} /> : null}
+      {spec.nombre === "tijera" ? <TijeraTiposPrecios spec={spec as EspecTijera} /> : null}
+      {spec.nombre === "marcador" ? <MarcadorDolar spec={spec as EspecMarcador} /> : null}
     </div>
   );
 };

@@ -1,0 +1,2538 @@
+{
+  "slug": "turquia-tipos",
+  "titulo": "Erdoğan Despidió A Tres Gobernadores Del Banco Central. Esto Fue Lo Que Pasó Con La Lira",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "elegia.wav",
+  "estilo": {
+    "plantilla": "suizo"
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "La madrugada del sábado",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "Sábado, veinte de marzo de dos mil veintiuno. Es de madrugada y en el Boletín Oficial de Turquía aparece un decreto de pocas líneas. El gobernador del Banco Central, Naci Ağbal, deja de serlo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ankara night city lights",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Veinte de marzo de dos mil veintiuno",
+                "kicker": "De madrugada"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "official document stamp decree desk lamp",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish banker man portrait suit office",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Un decreto de pocas líneas",
+                "apoyo": "Publicado de madrugada, con los mercados cerrados.",
+                "icono": "documento"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Ağbal llevaba cuatro meses en el cargo. Dos días antes había hecho lo que hace cualquier banco central cuando los precios se disparan: subir los tipos de interés, hasta el diecinueve por ciento.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank building facade columns",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "interest rate chart rising screen close up",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Subió los tipos",
+                "kicker": "Dos días antes"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish economist man portrait glasses office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Hizo lo que dice el manual",
+                "apoyo": "Subir los tipos cuando los precios se disparan.",
+                "icono": "sube"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Fue el tercer gobernador que el presidente Erdoğan destituía en menos de dos años. Y nadie en el mercado necesitó que se lo explicaran.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "istanbul trader man portrait stock exchange worried",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Tercero en menos de dos años",
+                "apoyo": "Y en el mercado nadie necesitó que se lo explicaran.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty office chair desk dark room",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "El tercero en menos de dos años"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul financial district skyline dusk",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Porque Recep Tayyip Erdoğan sostiene algo que contradice cualquier manual de economía: que subir los tipos de interés no frena la inflación, sino que la provoca. Lo ha repetido durante años, con las mismas palabras: los intereses son la madre y el padre de todos los males.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish flag waving government building",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish politician man portrait podium speech",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Los intereses, madre de todos los males",
+                "apoyo": "Es la idea que lleva años repitiendo.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "economics textbook page graph close up",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Lo contrario del manual"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "angry politician speech podium gesture",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Esta es la historia de lo que pasó cuando esa idea se convirtió en política económica. Y la voy a contar siguiendo una sola cosa: la silla del gobernador del Banco Central de Turquía y las seis personas que se han sentado en ella desde dos mil dieciséis.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty leather chair office desk window",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Una silla. Seis personas.",
+                "kicker": "Desde 2016"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ankara city skyline government district",
+                "tono": "carmin"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Una silla. *Seis personas*."
+            }
+          ]
+        },
+        {
+          "id": "b0-06",
+          "vo": "Para que se entienda el choque, un segundo de manual. Cuando el dinero cuesta más, la gente y las empresas piden menos crédito, gastan menos y los precios suben más despacio. Es lo que enseñan las facultades de Economía y lo que hace casi cualquier banco central del mundo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economics professor man portrait blackboard lecture",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Lo que enseña el manual",
+                "apoyo": "Dinero más caro, menos gasto y precios más lentos.",
+                "icono": "grafico"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "shopper hesitating wallet store aisle",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Dinero más caro, precios más lentos"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank loan application signing desk",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "price tags supermarket slowing calm shoppers",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Los dos primeros",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Pero esta historia empieza antes de aquella madrugada. El primero que vamos a conocer es Murat Çetinkaya. Se sentó en la silla en abril de dos mil dieciséis y la dejó en julio de dos mil diecinueve, un sábado, por decreto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "silla",
+                "gobernadores": [
+                  {
+                    "nombre": "Çetinkaya",
+                    "meses": 39,
+                    "fin": "despedido",
+                    "cuando": "jul 2019"
+                  },
+                  {
+                    "nombre": "Uysal",
+                    "meses": 16,
+                    "fin": "despedido",
+                    "cuando": "nov 2020"
+                  },
+                  {
+                    "nombre": "Ağbal",
+                    "meses": 4,
+                    "fin": "despedido",
+                    "cuando": "mar 2021"
+                  },
+                  {
+                    "nombre": "Kavcıoğlu",
+                    "meses": 27,
+                    "fin": "relevado",
+                    "cuando": "jun 2023"
+                  },
+                  {
+                    "nombre": "Erkan",
+                    "meses": 8,
+                    "fin": "dimitio",
+                    "cuando": "feb 2024"
+                  },
+                  {
+                    "nombre": "Karahan",
+                    "meses": 32,
+                    "fin": "sigue"
+                  }
+                ],
+                "hasta": 1
+              },
+              "rotulo": {
+                "kicker": "Abril de 2016",
+                "texto": "El primero *en caer*"
+              },
+              "kicker": "LA SILLA DEL GOBERNADOR",
+              "fuente": "Prensa económica turca e internacional"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul bosphorus bridge sunrise",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish man portrait suit former official",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Tres años en la silla",
+                "apoyo": "Y un decreto de sábado para sacarlo.",
+                "icono": "reloj"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-01b",
+          "vo": "El motivo, según la prensa económica: no bajaba los tipos con la rapidez que quería el presidente. Es decir: no hizo nada ilegal ni nada incompetente. Hizo lo que le habían enseñado.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "serious banker man looking window office",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "No bajaba los tipos con la rapidez que quería el presidente"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish central banker portrait dark suit",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Hizo lo que le habían enseñado",
+                "apoyo": "Ni ilegal ni incompetente: ortodoxo.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty office desk papers morning light",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Le sustituyó su número dos, Murat Uysal. Duró poco más de un año. En noviembre de dos mil veinte, con la lira en un mínimo histórico, el presidente cambió otra vez de gobernador, también por decreto y también en fin de semana.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "silla",
+                "gobernadores": [
+                  {
+                    "nombre": "Çetinkaya",
+                    "meses": 39,
+                    "fin": "despedido",
+                    "cuando": "jul 2019"
+                  },
+                  {
+                    "nombre": "Uysal",
+                    "meses": 16,
+                    "fin": "despedido",
+                    "cuando": "nov 2020"
+                  },
+                  {
+                    "nombre": "Ağbal",
+                    "meses": 4,
+                    "fin": "despedido",
+                    "cuando": "mar 2021"
+                  },
+                  {
+                    "nombre": "Kavcıoğlu",
+                    "meses": 27,
+                    "fin": "relevado",
+                    "cuando": "jun 2023"
+                  },
+                  {
+                    "nombre": "Erkan",
+                    "meses": 8,
+                    "fin": "dimitio",
+                    "cuando": "feb 2024"
+                  },
+                  {
+                    "nombre": "Karahan",
+                    "meses": 32,
+                    "fin": "sigue"
+                  }
+                ],
+                "hasta": 2
+              },
+              "rotulo": {
+                "kicker": "Noviembre de 2020",
+                "texto": "El segundo, *en dieciséis meses*"
+              },
+              "kicker": "LA SILLA DEL GOBERNADOR",
+              "fuente": "Prensa económica turca e internacional"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish lira banknotes falling close up",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish woman portrait street istanbul concerned",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "La lira marcó un mínimo",
+                "apoyo": "Y el gobernador pagó por ello.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Fíjate en el patrón. Los dos cambios se publicaron en sábado, con los mercados cerrados. Así, cuando abren el lunes, el movimiento ya está hecho y nadie puede reaccionar antes que el presidente.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar weekend saturday closed sign",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Siempre en sábado",
+                "kicker": "El patrón"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock exchange floor empty doors closed",
+                "tono": "carmin"
+              },
+              "camara": "panL"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "monday morning city commuters traffic istanbul",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "Y llegó Ağbal, un exministro de Economía con fama de ortodoxo. En cuatro meses subió los tipos casi nueve puntos para frenar una lira que se caía. Funcionó durante unas semanas. Y duró hasta que dio el siguiente paso.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "silla",
+                "gobernadores": [
+                  {
+                    "nombre": "Çetinkaya",
+                    "meses": 39,
+                    "fin": "despedido",
+                    "cuando": "jul 2019"
+                  },
+                  {
+                    "nombre": "Uysal",
+                    "meses": 16,
+                    "fin": "despedido",
+                    "cuando": "nov 2020"
+                  },
+                  {
+                    "nombre": "Ağbal",
+                    "meses": 4,
+                    "fin": "despedido",
+                    "cuando": "mar 2021"
+                  },
+                  {
+                    "nombre": "Kavcıoğlu",
+                    "meses": 27,
+                    "fin": "relevado",
+                    "cuando": "jun 2023"
+                  },
+                  {
+                    "nombre": "Erkan",
+                    "meses": 8,
+                    "fin": "dimitio",
+                    "cuando": "feb 2024"
+                  },
+                  {
+                    "nombre": "Karahan",
+                    "meses": 32,
+                    "fin": "sigue"
+                  }
+                ],
+                "hasta": 3
+              },
+              "rotulo": {
+                "kicker": "Marzo de 2021",
+                "texto": "El tercero, *cuatro meses*"
+              },
+              "kicker": "LA SILLA DEL GOBERNADOR",
+              "fuente": "Prensa económica turca e internacional"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish lira coins stack close",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "serious turkish man portrait suit economist",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Un ortodoxo en la silla",
+                "apoyo": "Subió los tipos y lo echaron dos días después.",
+                "icono": "candado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "El experimento",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "El sustituto fue Şahap Kavcıoğlu, un economista y antiguo diputado del partido del presidente. Tomó posesión ese mismo sábado. Y el lunes, cuando abrieron los mercados, la lira cayó con fuerza.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "trading screens red falling currency market",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "El lunes, la lira cayó",
+                "kicker": "Marzo de 2021"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish former politician man portrait suit",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Un antiguo diputado del partido",
+                "apoyo": "Nombrado el mismo sábado.",
+                "icono": "persona"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul grand bazaar crowd walking",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Durante unos meses el nuevo gobernador no tocó nada. Pero en septiembre de dos mil veintiuno el banco central empezó a bajar los tipos. Y lo hizo con la inflación ya subiendo, que es justo lo contrario de lo que se hace en esas circunstancias.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank meeting boardroom table",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "falling arrow chart down green screen",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Bajar los tipos con la inflación subiendo",
+                "kicker": "Septiembre de 2021"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "economist woman portrait office windows istanbul",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Justo lo contrario del manual",
+                "apoyo": "Bajar los tipos cuando suben los precios.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Septiembre, octubre, noviembre, diciembre. Cuatro reuniones y cuatro bajadas seguidas, del diecinueve al catorce por ciento.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TIPOS DE INTERÉS DEL BANCO CENTRAL · DE SEPTIEMBRE A DICIEMBRE DE 2021",
+              "fuente": "Banco Central de la República de Turquía",
+              "de": {
+                "valor": 19,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 14,
+                "etiqueta": "por ciento al terminar el año",
+                "decimales": 0,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "calendar pages flipping months fast",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Cada bajada empujaba la lira hacia abajo, y cada punto que perdía la lira encarecía lo que Turquía compra fuera: la energía, las materias primas, los componentes de lo que fabrica.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "container port cranes ships istanbul",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Todo lo de fuera, más caro",
+                "kicker": "Lo que compra Turquía"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "fuel pump gasoline price display",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "factory worker turkish portrait industrial plant",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Lo importado, más caro",
+                "apoyo": "Energía, materias primas y componentes.",
+                "icono": "fabrica"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "supermarket shelves prices tags close up",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "El presidente, lejos de frenar, aplaudía. Llamó a aquello una guerra de independencia económica, dijo que no se dejaría presionar por los mercados y prometió que los tipos seguirían bajando.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish president speech crowd rally flags",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Una guerra de independencia económica",
+                "kicker": "Noviembre de 2021"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish man politician portrait rally",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No me dejaré presionar",
+                "apoyo": "Y prometió que los tipos seguirían bajando.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "supporters crowd cheering flags evening",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "El veinte de diciembre de dos mil veintiuno, un dólar llegó a costar dieciocho liras y media. Era el mínimo de la lira en casi veinte años de Gobierno del partido de Erdoğan. En lo que iba de año, había perdido el sesenta por ciento de su valor.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "marcador",
+                "etapas": [
+                  {
+                    "etiqueta": "Principios de 2021",
+                    "valor": 7.4,
+                    "nota": "Antes de empezar"
+                  },
+                  {
+                    "etiqueta": "20 dic 2021",
+                    "valor": 18.5,
+                    "nota": "Mínimo histórico",
+                    "sentido": "pierde"
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "Cuántas liras cuesta un dólar",
+                "texto": "La lira *se desploma*"
+              },
+              "kicker": "EL DÓLAR EN LIRAS",
+              "fuente": "Banco Central de Turquía · prensa financiera"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "currency exchange office board istanbul rates",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish shopkeeper man portrait market stall",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Pierde más de la mitad en un año",
+                "apoyo": "El dólar, casi el triple.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Esa misma noche el presidente anunció un invento. Si la lira cae más de lo que paga un depósito en liras, el Estado pone la diferencia. Se llamó depósito protegido del cambio. Y al día siguiente el dólar bajó de dieciocho y medio a once.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "marcador",
+                "etapas": [
+                  {
+                    "etiqueta": "20 dic 2021",
+                    "valor": 18.5,
+                    "nota": "Antes del anuncio"
+                  },
+                  {
+                    "etiqueta": "21 dic 2021",
+                    "valor": 11.1,
+                    "nota": "Tras el depósito protegido",
+                    "sentido": "rebota"
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "20 de diciembre de 2021",
+                "texto": "Una noche, *un invento*"
+              },
+              "kicker": "EL DÓLAR EN LIRAS",
+              "fuente": "Banco Central de Turquía · prensa financiera"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "night television announcement breaking news screen",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish bank customer woman portrait branch deposit",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El Estado pone la diferencia",
+                "apoyo": "Un depósito en liras protegido del dólar.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-08",
+          "vo": "Funcionó en el momento. Pero el problema no desapareció: cambió de bolsillo. Cada lira protegida era una promesa del Estado: si el dólar sube, pago yo. Y el esquema llegó a acumular más de tres billones de liras en depósitos.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "piggy bank coins safe hands protect",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Si el dólar sube, paga el Estado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "treasury ministry building ankara",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "El problema no desapareció. *Cambió de bolsillo*.",
+              "night": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "El precio",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Los precios, mientras tanto, no se pararon. En octubre de dos mil veintidós la inflación oficial de Turquía llegó al ochenta y cinco coma cinco por ciento, la más alta en veinticuatro años.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "INFLACIÓN OFICIAL DE TURQUÍA · OCTUBRE DE 2022",
+              "fuente": "TurkStat",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 85.5,
+                "etiqueta": "por ciento anual",
+                "decimales": 1,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "price tag supermarket rising numbers shopper",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish housewife portrait kitchen market bag",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "La más alta en veinticuatro años",
+                "apoyo": "Inflación oficial, octubre de dos mil veintidós.",
+                "icono": "sube"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Mira las dos curvas. Entre diciembre de dos mil veintiuno y octubre de dos mil veintidós, el banco central siguió bajando los tipos, hasta el diez y medio. Y la inflación pasó del treinta y seis al ochenta y cinco.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "tijera",
+                "desde": "dic 2021",
+                "hasta": "oct 2022",
+                "etiquetaTipos": "tipos de interés",
+                "etiquetaInflacion": "inflación oficial",
+                "tipos": [
+                  {
+                    "x": 0,
+                    "y": 14
+                  },
+                  {
+                    "x": 0.78,
+                    "y": 13
+                  },
+                  {
+                    "x": 0.86,
+                    "y": 12
+                  },
+                  {
+                    "x": 1,
+                    "y": 10.5
+                  }
+                ],
+                "inflacion": [
+                  {
+                    "x": 0,
+                    "y": 36.1
+                  },
+                  {
+                    "x": 1,
+                    "y": 85.5
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "Diciembre de 2021 a octubre de 2022",
+                "texto": "Una *tijera*"
+              },
+              "kicker": "LAS DOS CURVAS",
+              "fuente": "Banco Central de Turquía · TurkStat"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "scissors cutting paper close up",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish economist man portrait charts office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Tipos a la baja, precios al alza",
+                "apoyo": "Dos curvas que se separan durante diez meses.",
+                "icono": "grafico"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Y ese era el dato oficial. Un grupo de economistas independientes, el ENAG, calculó que la inflación real de octubre fue del ciento ochenta y cinco por ciento. El instituto oficial niega que manipule las cifras, pero muchos turcos no se las creían.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DOS MEDIDAS DE LA INFLACIÓN · OCTUBRE DE 2022",
+              "fuente": "TurkStat · ENAG",
+              "barras": {
+                "unidad": "Por ciento anual",
+                "datos": [
+                  {
+                    "etiqueta": "Instituto oficial",
+                    "valor": 85.5,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "ENAG",
+                    "valor": 185.3,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish people reading newspaper cafe skeptical",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Dos inflaciones",
+                "kicker": "Oficial y ENAG"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish economist woman portrait independent researcher",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "No se creían la cifra",
+                "apoyo": "Los economistas del ENAG medían el doble.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "En la calle eso se tradujo así. Alquileres que subían más que los sueldos. Pensionistas a los que la pensión les valía cada mes menos. Y familias que, para no perder sus ahorros, los pasaban a dólares o a oro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul apartment buildings rooftops",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Alquileres que suben más que los sueldos"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "elderly turkish pensioner man portrait tea house",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Cada mes, la pensión vale menos",
+                "apoyo": "Y los ahorros se pasan a dólares o a oro.",
+                "icono": "moneda"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "gold bars close up hands jeweler",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b3-04b",
+          "vo": "El seis de febrero de dos mil veintitrés, un terremoto mató a decenas de miles de personas en el sur del país. Dos semanas después, el banco central volvió a bajar los tipos, hasta el ocho y medio por ciento: el nivel más bajo de toda esta historia.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish rescue worker man portrait rubble earthquake",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Un terremoto en el sur del país",
+                "apoyo": "Dos semanas después, otra bajada de los tipos.",
+                "icono": "aviso"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "earthquake rescue rubble building collapsed search",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Febrero de 2023",
+                "kicker": "Un terremoto"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "TIPOS DE INTERÉS DEL BANCO CENTRAL · FEBRERO DE 2023",
+              "fuente": "Banco Central de la República de Turquía",
+              "de": {
+                "valor": 14,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 8.5,
+                "etiqueta": "por ciento, el mínimo de esta historia",
+                "decimales": 1,
+                "sufijo": " %"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Aun así, en mayo de dos mil veintitrés, Erdoğan ganó las elecciones. Con esa economía a cuestas. Y unos días después, hizo lo contrario de todo lo que había defendido.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Ganó las elecciones. Y entonces, *giró*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "election ballot box voting turkey",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Mayo de 2023"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish flags crowd victory night",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "El giro",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "El ocho de junio de dos mil veintitrés nombró a una nueva gobernadora, Hafize Gaye Erkan, la primera mujer en la silla, y a un nuevo ministro de Economía, Mehmet Şimşek, un hombre de confianza de los inversores.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "woman executive walking bank headquarters",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La primera mujer en la silla",
+                "kicker": "Junio de 2023"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "businesswoman portrait suit bank executive",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La primera mujer en la silla",
+                "apoyo": "Nombrada junto a un ministro de confianza de los inversores.",
+                "icono": "persona"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "investors meeting reassured handshake office",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Fue un giro de ciento ochenta grados. A finales de ese mes, el banco central subió los tipos al quince por ciento. Y siguió subiéndolos, reunión tras reunión, hasta el cincuenta en marzo de dos mil veinticuatro.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "u turn road sign arrow reverse",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Un giro de ciento ochenta grados"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "TIPOS DE INTERÉS DEL BANCO CENTRAL · DE JUNIO DE 2023 A MARZO DE 2024",
+              "fuente": "Banco Central de la República de Turquía",
+              "de": {
+                "valor": 8.5,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 50,
+                "etiqueta": "por ciento en marzo de 2024",
+                "decimales": 0,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "thermometer rising red hot",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "La misma silla, el mismo presidente, la medicina contraria. Y el presidente la aceptó. No sabemos si porque cambió de idea o porque ya no le quedaba otra.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish man portrait thoughtful balcony city",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Cambió de idea, o no le quedaba otra",
+                "apoyo": "Nadie lo sabe. Lo que se sabe es lo que hizo.",
+                "icono": "reloj"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "two doors choice corridor light",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "La medicina contraria"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty vault bank reserves close",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Erkan no duró. El dos de febrero de dos mil veinticuatro dimitió, ocho meses después de sentarse, por lo que describió como un asesinato de su reputación y la necesidad de proteger a su familia.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "silla",
+                "gobernadores": [
+                  {
+                    "nombre": "Çetinkaya",
+                    "meses": 39,
+                    "fin": "despedido",
+                    "cuando": "jul 2019"
+                  },
+                  {
+                    "nombre": "Uysal",
+                    "meses": 16,
+                    "fin": "despedido",
+                    "cuando": "nov 2020"
+                  },
+                  {
+                    "nombre": "Ağbal",
+                    "meses": 4,
+                    "fin": "despedido",
+                    "cuando": "mar 2021"
+                  },
+                  {
+                    "nombre": "Kavcıoğlu",
+                    "meses": 27,
+                    "fin": "relevado",
+                    "cuando": "jun 2023"
+                  },
+                  {
+                    "nombre": "Erkan",
+                    "meses": 8,
+                    "fin": "dimitio",
+                    "cuando": "feb 2024"
+                  },
+                  {
+                    "nombre": "Karahan",
+                    "meses": 32,
+                    "fin": "sigue"
+                  }
+                ],
+                "hasta": 5
+              },
+              "rotulo": {
+                "kicker": "Febrero de 2024",
+                "texto": "Dimitió *a los ocho meses*"
+              },
+              "kicker": "LA SILLA DEL GOBERNADOR",
+              "fuente": "Prensa económica turca e internacional"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "woman leaving office building briefcase rain",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish businesswoman portrait serious office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Un asesinato de su reputación",
+                "apoyo": "Así describió su dimisión, protegiendo a su familia.",
+                "icono": "candado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Su sustituto, Fatih Karahan, tomó el relevo al día siguiente. Y es el sexto ocupante de la silla. Con él, la política ha seguido el mismo rumbo. Y es el que más ha durado desde Çetinkaya.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank governor new office desk",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "El sexto en la silla",
+                "kicker": "Febrero de 2024"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish economist man portrait suit new governor",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Sigue sentado",
+                "apoyo": "Es el que más ha durado desde Çetinkaya.",
+                "icono": "visto"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul skyline modern buildings dusk",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "El examen",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "La nueva silla tuvo su examen en marzo de dos mil veinticinco. El diecinueve de ese mes, la policía detuvo por la mañana al alcalde de Estambul, Ekrem İmamoğlu, el principal rival político de Erdoğan.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "police cars istanbul city hall early morning",
+                "tono": "carmin"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Detenido el alcalde de Estambul",
+                "kicker": "19 de marzo de 2025"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish politician mayor man portrait city hall",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "El rival político de Erdoğan",
+                "apoyo": "Detenido por la mañana.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul protest crowd students flags",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Los mercados reaccionaron en horas. La lira se desplomó, la bolsa de Estambul cayó con fuerza y los inversores extranjeros empezaron a vender. En el peor momento del día, la lira llegó a perder hasta un doce por ciento.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "foreign investor man portrait london screens selling",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Los extranjeros venden",
+                "apoyo": "La bolsa y la lira, a la baja el mismo día.",
+                "icono": "baja"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock market crash red screen panic traders",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La lira se desploma en horas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "currency exchange board lira falling istanbul",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "El banco central hizo lo único que podía. Vendió dólares para defender la lira, decenas de miles de millones en pocas semanas, y convocó una reunión de urgencia para subir uno de sus tipos al cuarenta y seis por ciento.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "emergency meeting night office lights",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Una reunión de urgencia",
+                "kicker": "20 de marzo de 2025"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "dollar bills pile cash close up",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "central bank official woman portrait night office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Vendió dólares para defender la lira",
+                "apoyo": "Decenas de miles de millones en pocas semanas.",
+                "icono": "banco"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Las reservas netas del banco, sin contar los acuerdos de intercambio con otros bancos, bajaron en cinco semanas de unos sesenta y seis mil millones de dólares a unos diecisiete mil.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "RESERVAS NETAS SIN CONTAR LOS SWAPS",
+              "fuente": "Cálculos de analistas sobre datos del banco central",
+              "barras": {
+                "unidad": "Miles de millones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "22 de marzo de 2025",
+                    "valor": 66,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "25 de abril de 2025",
+                    "valor": 17,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty safe deposit vault open door",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Cinco semanas",
+                "kicker": "Las reservas"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "water draining bathtub whirlpool",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Es decir: una detención política costó al banco central en un mes más de lo que había ahorrado con meses de tipos altísimos. Esa es la lección de la silla: no manda solo quien se sienta en ella. Manda también lo que ocurre a su alrededor.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "chess board king chess pieces dark",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "No manda solo quien se sienta"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish analyst man portrait office window politics",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "No manda solo quien se sienta",
+                "apoyo": "Manda también lo que ocurre a su alrededor.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul bosphorus ferry dusk",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Dónde estamos",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Hoy la silla la ocupa Karahan, y los tipos están en el treinta y siete por ciento. En su reunión de septiembre, el banco los mantuvo por quinta vez consecutiva.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "TIPO DE INTERÉS DEL BANCO CENTRAL · SEPTIEMBRE DE 2026",
+              "fuente": "Banco Central de la República de Turquía",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 37,
+                "etiqueta": "por ciento, sin cambios por quinta vez",
+                "decimales": 0,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bank meeting decision press conference",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish economist man portrait office city",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Cinco reuniones sin tocarlos",
+                "apoyo": "El banco mantiene los tipos en septiembre.",
+                "icono": "visto"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "La inflación oficial de agosto fue del treinta y uno y medio por ciento. El grupo ENAG calcula el cuarenta y nueve. Y el banco ha subido su objetivo de inflación para este año, del dieciséis al veinticuatro, alegando acontecimientos geopolíticos extraordinarios.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "INFLACIÓN ANUAL · AGOSTO DE 2026",
+              "fuente": "TurkStat · ENAG",
+              "barras": {
+                "unidad": "Por ciento anual",
+                "datos": [
+                  {
+                    "etiqueta": "Instituto oficial",
+                    "valor": 31.5,
+                    "tono": "ink",
+                    "decimales": 1
+                  },
+                  {
+                    "etiqueta": "ENAG",
+                    "valor": 49.0,
+                    "tono": "carmin",
+                    "decimales": 1
+                  }
+                ],
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "geopolitical map conflict oil tanker strait",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "target moved arrow dartboard",
+                "tono": "carmin"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "El objetivo sube",
+                "kicker": "Del dieciséis al veinticuatro"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish central bank economist woman portrait office",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Un objetivo más flojo",
+                "apoyo": "Del dieciséis al veinticuatro por ciento este año.",
+                "icono": "aviso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "El dólar cuesta ahora unas cuarenta y ocho liras y media. A principios de dos mil veintiuno costaba unas siete y media. La lira vale hoy menos de una sexta parte de lo que valía cuando empezó esta historia.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "marcador",
+                "etapas": [
+                  {
+                    "etiqueta": "Principios de 2021",
+                    "valor": 7.4,
+                    "nota": "Cuando empezó"
+                  },
+                  {
+                    "etiqueta": "30 sep 2026",
+                    "valor": 48.6,
+                    "nota": "Hoy",
+                    "sentido": "pierde"
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "Cuántas liras cuesta un dólar",
+                "texto": "Menos de *una sexta parte*"
+              },
+              "kicker": "EL DÓLAR EN LIRAS",
+              "fuente": "Banco Central de Turquía · datos de mercado"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish lira banknotes pile worthless close",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish tourist guide man portrait old city",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Menos de la sexta parte",
+                "apoyo": "Lo que vale la lira desde que empezó la historia.",
+                "icono": "baja"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Hay un dato que lo resume. El salario mínimo de dos mil veintiséis son veintiocho mil liras netas al mes, tras subir un veintisiete por ciento. Según los portales inmobiliarios, alquilar un piso de un dormitorio en Estambul cuesta unas veintiséis mil.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "SALARIO MÍNIMO Y ALQUILER EN ESTAMBUL · 2026",
+              "fuente": "Gobierno de Turquía · portales inmobiliarios",
+              "barras": {
+                "unidad": "Liras al mes",
+                "datos": [
+                  {
+                    "etiqueta": "Alquiler, un dormitorio",
+                    "valor": 26000,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Salario mínimo neto",
+                    "valor": 28075,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "young turkish couple apartment search rental listing",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "istanbul apartment window view night lights",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Casi todo el sueldo mínimo, para pagar un alquiler. Esa es la inflación que no sale en el titular: la que se paga en la puerta de casa.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "front door apartment keys tenant",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La inflación que se paga en la puerta de casa"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "young turkish worker portrait city commute evening",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Casi todo el sueldo, en el alquiler",
+                "apoyo": "Salario mínimo frente a un dormitorio en Estambul.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty wallet pockets coins counting",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "Y ahora lo que juega en contra de la historia que te he contado. Porque Erdoğan no estaba equivocado en todo.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Lo que juega *en contra*."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "balance scale weights metal",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "En dos mil veintiuno, el año de las bajadas de tipos, la economía turca creció un once por ciento, el más alto del Grupo de los Veinte. Las exportaciones batieron un récord de más de doscientos veinticinco mil millones de dólares. Y el paro bajó.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "CRECIMIENTO DE LA ECONOMÍA TURCA EN 2021",
+              "fuente": "TurkStat",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 11,
+                "etiqueta": "por ciento, el más alto del G20",
+                "decimales": 0,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "turkish factory production line exports",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish factory worker woman portrait textile",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Más empleo, más exportaciones",
+                "apoyo": "El año de las bajadas de tipos.",
+                "icono": "fabrica"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Con la lira cayendo, las fábricas turcas vendían más barato fuera: textiles, coches, electrodomésticos. Era parte del plan, el nuevo modelo económico: sacrificar la moneda para ganar empleo y exportaciones.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "textile factory sewing machines workers",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Sacrificar la moneda para exportar",
+                "kicker": "El nuevo modelo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "cargo trucks highway border exports",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "car assembly line factory robots",
+                "tono": "ocre"
+              },
+              "camara": "panR"
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "El problema es quién pagó ese modelo. No lo pagaron los exportadores, que cobraban en dólares. Lo pagaron los que cobraban en liras: asalariados, pensionistas, inquilinos. Una devaluación es, en el fondo, una transferencia desde quien ahorra en la moneda local hacia quien vende fuera.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "exporter businessman port containers paid dollars",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Quién pagó el modelo"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish retired woman portrait small apartment",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Lo pagó quien cobraba en liras",
+                "apoyo": "Asalariados, pensionistas e inquilinos.",
+                "icono": "persona"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "worker counting small coins wages",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "pensioner counting money kitchen table",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "Segundo matiz: no todo fue culpa de Turquía. En dos mil veintidós la inflación se disparó en todo el mundo por la energía y la guerra de Ucrania, y casi todos los grandes bancos centrales subieron los tipos. Turquía fue casi el único que los bajó.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "energy analyst woman portrait gas pipeline europe",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "La inflación fue mundial",
+                "apoyo": "Energía y guerra en Ucrania, en todo el planeta.",
+                "icono": "globo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "energy prices gas pipeline winter europe",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "La inflación fue mundial",
+                "kicker": "Dos mil veintidós"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ukraine war ruins smoke",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "central bankers meeting raising rates global",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Y tercero: la ortodoxia no sale gratis. Con los tipos altísimos, conseguir un crédito se vuelve casi imposible para una pequeña empresa, y la economía se enfría. Los gobiernos pagan un precio político por subirlos, y por eso casi todos acaban tentados.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "small business owner closing shop sign",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "La ortodoxia no sale gratis"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "turkish small business owner man portrait shop",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Un crédito, casi imposible",
+                "apoyo": "Con los tipos altísimos, la economía se enfría.",
+                "icono": "candado"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty street shops closed city",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Qué significa esto para ti",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Todo esto parece muy lejano, pero te afecta por una razón concreta. Tu hipoteca variable depende del Euríbor, y el Euríbor depende de lo que haga el Banco Central Europeo. Y lo que separa al BCE del turco es una frase: nadie puede destituir a su presidenta por decreto por subir los tipos.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european central bank frankfurt building",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Nadie puede destituirla por decreto",
+                "kicker": "El BCE"
+              }
+            },
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "spanish couple portrait mortgage home keys",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Tu hipoteca depende del Euríbor",
+                "apoyo": "Y el Euríbor, de lo que haga el BCE.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euro symbol coins stack",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "mortgage payment calculator home budget",
+                "tono": "ocre"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Esa protección existe porque Europa ya ha visto esta película. Se llama independencia del banco central. Cuando un Gobierno decide los tipos, los mercados dejan de creerse que la inflación estará controlada. Y cuando no se lo creen, la inflación se instala sola.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "european economist man portrait university lecture",
+                "tono": "ocre",
+                "lado": "der",
+                "titular": "Si no se lo creen, se instala",
+                "apoyo": "Las expectativas son parte de la inflación.",
+                "icono": "grafico"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "book contract signed independence document",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Independencia del banco central"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "people shopping market prices expectations",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european parliament strasbourg building",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b8-02b",
+          "vo": "Y no hace falta irse tan lejos. Cuando en dos mil veintidós subió la inflación en España y en Europa, el BCE llevó los tipos de cero a más del cuatro por ciento, pese a las críticas de quien tenía una hipoteca. Fue impopular. Y lo pudo hacer porque nadie podía impedírselo.",
+          "voz": {
+            "speed": 0.96
+          },
+          "escenas": [
+            {
+              "tipo": "recorte",
+              "recorte": {
+                "buscar": "spanish mortgage holder man portrait home worried",
+                "tono": "ocre",
+                "lado": "izq",
+                "titular": "Fue impopular. Lo pudo hacer",
+                "apoyo": "Porque nadie podía impedírselo.",
+                "icono": "casa"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "european central bank press conference lagarde",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "Impopular, pero posible"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "euribor chart rising mortgage rates screen",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank building spain madrid street",
+                "tono": "ocre"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "En el último vídeo contaba lo de Francia: allí los mercados cobraron más caro por la política. En Turquía fue la política la que decidió el precio del dinero. Es el mismo problema visto desde los dos lados.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "paris eiffel tower and istanbul mosque split",
+                "tono": "ocre"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "El mismo problema, dos lados"
+              }
+            },
+            {
+              "tipo": "mapa",
+              "kicker": "DOS PAÍSES, UN PROBLEMA",
+              "mapa": {
+                "destaca": [
+                  "francia",
+                  "turquia"
+                ],
+                "region": "europa"
+              },
+              "rotulo": {
+                "kicker": "Francia y Turquía",
+                "texto": "La política y *el precio del dinero*"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "two flags france turkey diplomacy",
+                "tono": "carmin"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Un banco central independiente no es un lujo de tecnócratas. Es la promesa de que el dinero que cobras hoy valdrá algo parecido mañana. Cuando esa promesa se rompe, se rompe para todos, empezando por los que menos tienen.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "coins in open hand promise trust",
+                "tono": "ocre"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "La promesa de que el dinero valdrá"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Se rompe *para todos*. Empezando por los que menos tienen.",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person saving jar coins future",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Seis personas en una silla. Tres despedidas por decreto, una relevada tras unas elecciones, una que dimitió a los ocho meses, y una que sigue sentada. Ninguna decidió los tipos sola.",
+          "voz": {
+            "speed": 0.95
+          },
+          "escenas": [
+            {
+              "tipo": "ilustracion",
+              "ilustracion": {
+                "nombre": "silla",
+                "gobernadores": [
+                  {
+                    "nombre": "Çetinkaya",
+                    "meses": 39,
+                    "fin": "despedido",
+                    "cuando": "jul 2019"
+                  },
+                  {
+                    "nombre": "Uysal",
+                    "meses": 16,
+                    "fin": "despedido",
+                    "cuando": "nov 2020"
+                  },
+                  {
+                    "nombre": "Ağbal",
+                    "meses": 4,
+                    "fin": "despedido",
+                    "cuando": "mar 2021"
+                  },
+                  {
+                    "nombre": "Kavcıoğlu",
+                    "meses": 27,
+                    "fin": "relevado",
+                    "cuando": "jun 2023"
+                  },
+                  {
+                    "nombre": "Erkan",
+                    "meses": 8,
+                    "fin": "dimitio",
+                    "cuando": "feb 2024"
+                  },
+                  {
+                    "nombre": "Karahan",
+                    "meses": 32,
+                    "fin": "sigue"
+                  }
+                ]
+              },
+              "rotulo": {
+                "kicker": "Desde 2016",
+                "texto": "Seis personas, *una silla*"
+              },
+              "kicker": "LA SILLA DEL GOBERNADOR",
+              "fuente": "Prensa económica turca e internacional"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty chair desk window light office quiet",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ankara night skyline lights",
+                "tono": "carmin"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Esa es la historia. No cuánto suben o bajan los tipos, sino quién tiene la última palabra. Y la última palabra, en la silla de Ankara, nunca fue del que estaba sentado en ella.",
+          "voz": {
+            "speed": 0.94
+          },
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "sub": "La última palabra nunca fue de quien estaba sentado.",
+                "suscribete": true
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "La última palabra *nunca fue* del que estaba sentado."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "ankara dusk skyline empty chair window",
+                "tono": "ocre"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Erdoğan Despidió A Tres Gobernadores Del Banco Central. Esto Fue Lo Que Pasó Con La Lira",
+    "descripcion": "El sábado 20 de marzo de 2021, de madrugada, el Boletín Oficial de Turquía publicó un decreto de pocas líneas: el gobernador del Banco Central, Naci Ağbal, dejaba de serlo. Dos días antes había subido los tipos de interés hasta el 19 %. Era el tercer gobernador que Erdoğan destituía en menos de dos años.\n\nEste vídeo cuenta lo que pasó cuando una idea, que los intereses altos provocan la inflación en lugar de frenarla, se convirtió en política económica. Y lo cuenta siguiendo una sola cosa: la silla del gobernador y las seis personas que se han sentado en ella desde 2016.\n\nLA SILLA\n\n• Çetinkaya (abril de 2016 a julio de 2019): despedido por decreto un sábado, según la prensa económica por no bajar los tipos con la rapidez que quería el presidente. Uysal (julio de 2019 a noviembre de 2020): destituido con la lira en mínimos históricos. Ağbal (noviembre de 2020 a marzo de 2021): cuatro meses, subió los tipos hasta el 19 % y lo echaron dos días después.\n\n• El experimento. Con Şahap Kavcıoğlu en la silla, el banco central bajó los tipos de septiembre a diciembre de 2021, del 19 % al 14 %, con la inflación ya subiendo. El 20 de diciembre un dólar llegó a costar 18,5 liras. Esa noche Erdoğan anunció el depósito protegido del cambio, y la lira rebotó a unas 11.\n\n• El precio. En octubre de 2022 la inflación oficial alcanzó el 85,5 %, la más alta en 24 años, mientras los tipos seguían bajando hasta el 10,5 %. El grupo independiente ENAG calculó que la inflación real era del 185 %. El instituto oficial niega manipular las cifras.\n\n• El giro. En junio de 2023, tras ganar las elecciones, Erdoğan nombró a Hafize Gaye Erkan, primera mujer en la silla, y a Mehmet Şimşek en Economía. Los tipos subieron del 8,5 % al 50 % en marzo de 2024. Erkan dimitió el 2 de febrero de 2024, a los ocho meses, hablando de un asesinato de su reputación. Fatih Karahan es el sexto ocupante.\n\n• El examen. El 19 de marzo de 2025 la policía detuvo al alcalde de Estambul, Ekrem İmamoğlu, rival político de Erdoğan. La lira llegó a perder hasta un 12 % en el día, el banco central vendió decenas de miles de millones de dólares y convocó una reunión de urgencia que subió uno de sus tipos al 46 %. Según cálculos de analistas, las reservas netas sin swaps bajaron de unos 66.000 millones de dólares a unos 17.000 en cinco semanas.\n\n• Hoy. Los tipos están en el 37 %, mantenidos por quinta reunión consecutiva en septiembre de 2026. La inflación oficial de agosto fue del 31,5 % y la del ENAG, del 49 %. El banco subió su objetivo de inflación para este año del 16 % al 24 %. El dólar cuesta unas 48,6 liras, frente a unas 7,4 a principios de 2021. El salario mínimo neto de 2026 son 28.075 liras y un piso de un dormitorio en Estambul ronda las 26.000 en alquiler, según los portales inmobiliarios.\n\nEl vídeo incluye lo que juega en contra de su tesis: en 2021, el año de las bajadas de tipos, la economía turca creció un 11 %, el más alto del G20, y las exportaciones batieron un récord de más de 225.000 millones de dólares; la inflación de 2022 fue mundial y casi todos los grandes bancos centrales subieron los tipos; y la ortodoxia tiene su propio coste, porque con los tipos altísimos el crédito se vuelve casi imposible para las pequeñas empresas.\n\nY termina en casa: tu hipoteca variable depende del Euríbor, y el Euríbor depende de un BCE cuya presidenta nadie puede destituir por decreto por subir los tipos. Un banco central independiente es la promesa de que el dinero que cobras hoy valdrá algo parecido mañana.\n\nFUENTES\nBanco Central de la República de Turquía — decisiones de tipos de interés, 2021 a septiembre de 2026\nTurkStat — índice de precios de consumo\nENAG — Grupo de Investigación de la Inflación\nCNBC, Al Jazeera, Reuters y Bloomberg — destituciones de gobernadores, diciembre de 2021, junio de 2023, febrero de 2024 y marzo de 2025\nCentral Banking y Trading Economics — decisiones y tipos de septiembre de 2026\nGobierno de Turquía — salario mínimo neto de 2026\nEstimaciones de analistas sobre datos del banco central — reservas netas sin swaps, marzo y abril de 2025\n\nTodos los datos que aparecen en pantalla llevan su fuente indicada en el propio plano. Si encuentras un error, dímelo en comentarios y lo corrijo.\n\n#Turquía #Erdoğan #Economía",
+    "etiquetas": [
+      "turquia economia",
+      "erdogan",
+      "banco central de turquia",
+      "lira turca",
+      "inflacion turquia",
+      "tipos de interes",
+      "crisis lira turca",
+      "gobernador banco central",
+      "naci agbal",
+      "sahap kavcioglu",
+      "hafize gaye erkan",
+      "fatih karahan",
+      "mehmet simsek",
+      "imamoglu",
+      "depositos protegidos",
+      "dolar lira",
+      "independencia banco central",
+      "politica monetaria",
+      "hiperinflacion",
+      "enag",
+      "turkstat",
+      "euribor",
+      "hipoteca variable",
+      "banco central europeo",
+      "economia mundial",
+      "macroeconomia",
+      "divulgacion economica",
+      "capital x",
+      "turquia 2026"
+    ]
+  }
+}

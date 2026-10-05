@@ -490,6 +490,8 @@ Cinco más que solo valen para un vídeo de deuda y mercados de bonos, hechas pa
 
 **reloj** — la deuda subiendo en directo: \`base\` en euros y \`porSegundo\`. **escalera** — las notas de las agencias bajando peldaño a peldaño: \`agencias\` con nombre, peldaño y nota. **termometro** — el bono a diez años lectura a lectura: \`lecturas\` y \`umbral\`. **cuartos** — a quién le debe el país, cuatro cuartos que se llenan. **anos** — un calendario de años en rojo: \`desde\` y \`hasta\`.
 
+Tres más, hechas para el vídeo de Turquía y reutilizables en cualquier crónica de personas y fechas: **silla** — quién se ha sentado en un cargo y cuánto ha durado, con \`gobernadores\` (nombre, meses, fin: despedido, dimitio, relevado o sigue, cuando) y \`hasta\` para ir llenándola capítulo a capítulo. **tijera** — dos curvas que se separan, con \`tipos\` e \`inflacion\` como puntos x de 0 a 1 e y en tanto por ciento. **marcador** — una cifra que salta de etapa en etapa, con \`etapas\` (etiqueta, valor, nota, sentido).
+
 Reglas:
 
 - **Como mucho dos por vídeo.** Una ilustración que se repite dentro del mismo vídeo pierde todo el efecto, y tres ya son una muletilla.
