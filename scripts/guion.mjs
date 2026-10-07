@@ -34,12 +34,12 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 // si cambia alli, cambia aqui.
 const MINIMO = {
   barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, recorte: 3.6,
-  ilustracion: 4.6, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2,
+  ilustracion: 4.6, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2, lamina: 3.0,
 };
 
 const TIPOS = [
   "mapa", "barras", "lineas", "contador", "gente", "lista",
-  "frase", "objeto", "retrato", "clip", "recorte", "ilustracion", "torres", "dublin", "cierre",
+  "frase", "objeto", "retrato", "clip", "lamina", "recorte", "ilustracion", "torres", "dublin", "cierre",
 ];
 const OBJETOS = [
   "aeropuerto", "balanza", "carpeta", "carta", "casa", "contable", "dosEpocas",
@@ -442,6 +442,16 @@ Lo que hace \`paso\`, para que se entienda por qué unas plantillas se sienten d
 
 Una frase suelta o un dibujo de objeto casi siempre se puede hacer **clip con el texto como rótulo**: se dice lo mismo y se ve una imagen. Se dejan como frase solo los remates de verdad, los que abren un bloque con tres o cuatro palabras. Y las escenas \`clip\` admiten \`peso\` y \`rotulo\`.
 
+# Vídeos de historia
+
+Si el tema es una época, un imperio o una cadena de hechos con fechas (no un dato de actualidad), el vídeo se cuenta como historia y no como análisis:
+
+- **Se cuenta con personas y con cosas que pasaron**, no con porcentajes. Cada plano es una escena: quién hizo qué, dónde y qué le salió mal. Las cifras se redondean a lo que se retiene ("casi la mitad", "cuatro veces") y no pasan de una por plano.
+- **El misterio manda en el título y en los primeros treinta segundos**: la pregunta que el espectador cree conocer y que está mal contestada ("cómo ganaba dinero realmente…", "quién pagó…"). La respuesta se retrasa; cada bloque abre una pregunta nueva antes de cerrar la anterior.
+- **Imagen: láminas de archivo.** Más del 45 % del tiempo en pantalla son láminas (cuadros, grabados, mapas de época), cada una distinta, mezcladas con mapas, líneas de tiempo y alguna cifra en grande. Cuando hay personas con nombre, un retrato. Los clips modernos solo para el cierre, cuando se salta al presente.
+- **Largo:** entre doce y catorce minutos. Más no hace falta: lo que se pierde en un vídeo de historia es el tramo medio, no el final.
+
+
 # Cuánto de cada cosa
 
 Este es el reparto que tiene que salir contando **todas** las escenas del vídeo. No es orientativo: el vídeo anterior salió con un 66 % de pantallas de texto y de gráficos, y se hacía pesadísimo.
@@ -551,6 +561,13 @@ Cualquier escena puede llevar etiquetas que aparecen y desaparecen encima del di
   **Un clip nunca sostiene un dato.** Ninguna cifra se cuenta sobre metraje: las cifras van en gráficos, que es lo que este canal sabe hacer. El clip es el respiro de al lado.
 
   Entre **ocho y quince clips** en todo el vídeo, y como mucho uno por bloque. Si pones más, el canal deja de ser lo que es y se convierte en un montaje de banco de imágenes, que es justo lo que no queremos.
+
+- "lamina" · "lamina": { "buscar": "<qué buscar, EN INGLÉS>", "pie": "<qué es y de cuándo, en castellano, opcional>", "deriva": "izq|der|arriba|abajo" }
+  Un cuadro, un grabado o un mapa antiguo de dominio público, de Wikimedia Commons, con un empuje lento encima. Es el material de los vídeos de historia, donde no existe metraje de stock: nadie filmó el puerto de Londres en 1780. Se usa en lugar de "clip" y cuenta como metraje de archivo para el reparto. No lleva "tono" y no se pasa a blanco y negro: aquí el color de la época es la imagen.
+
+  **La búsqueda va por cosas que se pintaron**, no por ideas. Funciona "east india company ships thames painting", "battle of plassey painting", "opium trade canton engraving", "london stock exchange 18th century", "map of india 1765". No funciona "colonial exploitation" ni "economic power": nadie pintó eso. Pon el sitio, la época y el tipo de imagen (painting, engraving, map, portrait, print). Para una persona, su nombre y "portrait". Si buscas algo posterior a 1900 casi no hay dominio público: usa clip.
+
+  **Cada lámina busca una cosa distinta**, igual que los clips. El pie sirve para decir qué se ve cuando no es evidente ("Puerto de Londres, h. 1800"); en un cuadro que habla solo, se omite.
 
 - "recorte" · "recorte": { "buscar": "<qué buscar, EN INGLÉS>", "tono": "ocre|carmin", "lado": "izq|der", "cifra": "<opcional>", "titular": "<obligatorio>", "apoyo": "<opcional>" }
   El recorte de revista: una foto con el fondo quitado, en blanco y negro, con borde grueso de color y una sombra plana desplazada por detrás. Es la marca visual de este canal y ahora mismo se usa poquísimo.
@@ -860,6 +877,8 @@ function reparar(doc) {
     switch (e.tipo) {
       case "clip":
         return !!e.clip?.buscar;
+      case "lamina":
+        return !!e.lamina?.buscar;
       case "recorte":
         return !!e.recorte?.buscar;
       case "objeto":
@@ -996,11 +1015,11 @@ function revisarVisual(p, di) {
     if (!p.retrato?.nombre) di(`${donde}: 'retrato' necesita 'nombre'`);
     if (p.retrato?.foto) di(`${donde}: quita 'foto'. Las fotos se preparan a mano con la licencia comprobada.`);
   }
-  for (const [t, campo] of [["clip", "clip"], ["recorte", "recorte"]]) {
+  for (const [t, campo] of [["clip", "clip"], ["lamina", "lamina"], ["recorte", "recorte"]]) {
     if (p.tipo !== t) continue;
     const b = p[campo]?.buscar;
     if (!b) di(`${donde}: '${t}' necesita '${campo}': { "buscar": "..." } en inglés`);
-    else if (/[áéíóúñ¿¡]/i.test(b)) di(`${donde}: la búsqueda "${b}" tiene que ir en inglés`);
+    else if (!/^File:/i.test(b) && /[áéíóúñ¿¡]/i.test(b)) di(`${donde}: la búsqueda "${b}" tiene que ir en inglés`);
     // Un recorte sin texto al lado se ve pobre, por muy bien tratado que esté.
     if (t === "recorte" && !p.recorte?.titular) {
       di(`${donde}: el recorte necesita 'titular': una figura sola en el cuadro se ve vacía`);
@@ -1060,7 +1079,9 @@ function validar(doc, tema) {
     // cuatro ultimos videos, el 94 % de las escenas caia entre cuatro y siete
     // segundos y ninguna bajaba de tres y medio: no habia ritmo, habia
     // metronomo. Ahora se pide mas trozos y cada uno responde por su tipo.
-    const hacen = Math.min(5, Math.max(1, Math.ceil(segundos / 5.5)));
+    // Una lamina aguanta mas que un clip: el cuadro se recorre con la camara.
+    const conLamina = (p.escenas ?? []).some((e) => e.tipo === "lamina");
+    const hacen = Math.min(5, Math.max(1, Math.ceil(segundos / (conLamina ? 8 : 5.5))));
     if (segundos > 1 && n < hacen) {
       di(
         `${p.id}: ${n === 0 ? "no tiene 'escenas'" : `solo tiene ${n}`}. ` +
@@ -1085,7 +1106,7 @@ function validar(doc, tema) {
     // de dibujos nuestros.
     for (let i = 1; i < (p.escenas ?? []).length; i++) {
       const t = p.escenas[i].tipo;
-      if (t !== "clip" && t === p.escenas[i - 1].tipo) {
+      if (t !== "clip" && t !== "lamina" && t === p.escenas[i - 1].tipo) {
         di(`${p.id}: las escenas ${i} y ${i + 1} son las dos "${t}". Cambia una.`);
       }
     }
@@ -1139,7 +1160,8 @@ function validar(doc, tema) {
   // seguian leyendolo. Avisaban de "tres planos undefined seguidos" en todos
   // los guiones y pedian un cierre que ya estaba puesto.
   const tipoDe = (p) => p.tipo ?? p.escenas?.[0]?.tipo;
-  const seguidas = { frase: 4, lista: 99 };
+  // La lamina es el material de un video de historia: no se limita la racha.
+  const seguidas = { frase: 4, lista: 99, lamina: 99 };
   let racha = 1;
   for (let i = 1; i < planos.length; i++) {
     racha = tipoDe(planos[i]) === tipoDe(planos[i - 1]) ? racha + 1 : 1;
@@ -1184,7 +1206,8 @@ function validar(doc, tema) {
     const cuenta = (...ts) => escenas.filter((e) => ts.includes(e.tipo)).length;
     const pc = (n) => Math.round((n / escenas.length) * 100);
 
-    const imagen = cuenta("clip", "recorte", "objeto", "retrato", "dublin", "torres");
+    const historia = cuenta("lamina") >= escenas.length * 0.25;
+    const imagen = cuenta("clip", "lamina", "recorte", "objeto", "retrato", "dublin", "torres");
     if (pc(imagen) < 55) {
       di(
         `solo el ${pc(imagen)} % de las escenas es imagen (clip, recorte, objeto, retrato). ` +
@@ -1199,7 +1222,7 @@ function validar(doc, tema) {
     if (pc(graf) > 28) {
       di(`el ${pc(graf)} % son gráficos. El tope es 25 %: no todos los datos necesitan gráfico.`);
     }
-    const cl = cuenta("clip");
+    const cl = cuenta("clip", "lamina");
     if (pc(cl) < 20) di(`solo hay ${cl} clips (${pc(cl)} %). Tienen que ser cerca del 28 %.`);
     // Un objeto sin rotulo es un dibujo solo en pantalla, sin una palabra.
     // En los cinco videos anteriores lo estaban TODOS: 218 escenas de un
@@ -1226,7 +1249,7 @@ function validar(doc, tema) {
     }
 
     const rc = cuenta("recorte");
-    if (pc(rc) < 14) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 20 %.`);
+    if (!historia && pc(rc) < 14) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 20 %.`);
   }
 
   const ult = planos[planos.length - 1];

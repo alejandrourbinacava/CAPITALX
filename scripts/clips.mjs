@@ -20,6 +20,7 @@ import { spawnSync } from "node:child_process";
 
 const DESTINO = "public/clips";
 const DESTINO_PNG = "public/recortes-auto";
+const DESTINO_LAMINAS = "public/laminas";
 
 function loadEnv() {
   if (!fs.existsSync(".env")) return;
@@ -199,6 +200,182 @@ async function recortar(foto, tono) {
   return png;
 }
 
+
+/**
+ * Laminas de archivo, de Wikimedia Commons.
+ *
+ * Para los videos de historia no hay metraje de stock que sirva: nadie filmo
+ * el puerto de Londres en 1780. Lo que si hay son miles de cuadros, grabados y
+ * mapas de epoca, y los de dominio publico se pueden usar sin pedir permiso ni
+ * poner atribucion. Se filtra por licencia a proposito: "Public domain" o CC0
+ * y nada mas. Una CC BY-SA obliga a citar y a compartir igual, y un video
+ * automatico no es sitio para andar comprobando eso.
+ *
+ * La API pide un User-Agent con contacto; sin el, rechaza.
+ */
+const UA = "CapitalX/1.0 (https://github.com/alejandrourbinacava/CAPITALX; contacto en el repositorio)";
+const LICENCIA_LIBRE = /public domain|^pd\b|^pd-|cc0|cc zero|no restrictions/i;
+const sinHtml = (s) => String(s ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+
+// Palabras que describen el soporte o la epoca, no el asunto: no cuentan para
+// decidir si una imagen habla de lo que se busca.
+const SOPORTE =
+  /^(painting|paintings|engraving|engravings|print|prints|lithograph|lithographs|drawing|illustration|map|maps|portrait|photograph|photo|poster|cartoon|caricature|print|century|early|late|the|of|and|in|a|at|on|to|from|with|by|for|1[0-9]{3}s?|20[0-9]{2}s?|[0-9]+(st|nd|rd|th))$/i;
+const raiz = (w) => w.toLowerCase().slice(0, 5);
+
+function terminos(q) {
+  return q.split(/\s+/).filter((w) => w && !SOPORTE.test(w));
+}
+
+/**
+ * Una imagen sirve si habla de lo que se busca y es de otra epoca.
+ *
+ * Commons busca "aproximado": "bank of england threadneedle street painting"
+ * devuelve una fachada fotografiada en 2012, y "parliament 1833 engraving" una
+ * foto de un poeta australiano. Se exige que la mitad de los terminos del
+ * asunto aparezcan en el titulo, la descripcion o las categorias, y que la
+ * imagen tenga pinta de antigua: un anio anterior a 1976 o una palabra de
+ * soporte (pintura, grabado, mapa...).
+ */
+function puntuar(q, pg, m) {
+  const pajar = [
+    pg.title,
+    sinHtml(m.ImageDescription?.value),
+    sinHtml(m.ObjectName?.value),
+    sinHtml(m.Categories?.value).replace(/\|/g, " "),
+  ]
+    .join(" ")
+    .toLowerCase();
+  const ts = terminos(q);
+  if (!ts.length) return { ok: false, score: 0 };
+  const hits = ts.filter((t) => pajar.includes(raiz(t))).length;
+  const score = hits / ts.length;
+
+  const fecha = `${sinHtml(m.DateTimeOriginal?.value)} ${pg.title} ${sinHtml(m.ImageDescription?.value)}`;
+  const anios = [...fecha.matchAll(/\b(1[4-9]\d\d)\b/g)].map((x) => +x[1]);
+  const antigua =
+    anios.some((a) => a <= 1975) ||
+    /painting|engraving|lithograph|print|drawing|illustration|map of|portrait|caricature|oil on|watercolou?r|woodcut|etching/i.test(
+      pajar
+    );
+  // Si se pide un anio ("hambruna 1770"), lo que salga no puede ser de otro
+  // siglo: una foto de la hambruna de 1943 tiene los mismos terminos y esta
+  // mal. Con un anio de por medio y ninguno cercano, se descarta.
+  const pedido = [...q.matchAll(/\b(1[4-9]\d\d)\b/g)].map((x) => +x[1]);
+  const coincide = !pedido.length || !anios.length || anios.some((a) => pedido.some((y) => Math.abs(a - y) <= 45));
+  return { ok: antigua && coincide && score >= 0.6, score };
+}
+
+/**
+ * Una imagen concreta, por su nombre en Commons ("File:Nombre.jpg").
+ *
+ * La busqueda acierta dos de cada tres veces. Para el resto se mira la hoja de
+ * contactos, se encuentra a mano la imagen buena y se fija aqui, para que el
+ * render siempre saque la misma.
+ */
+async function cargarCommons(titulo) {
+  const url =
+    "https://commons.wikimedia.org/w/api.php?" +
+    new URLSearchParams({
+      action: "query",
+      format: "json",
+      titles: titulo,
+      prop: "imageinfo",
+      iiprop: "url|size|mime|extmetadata",
+      iiurlwidth: "1920",
+    });
+  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!r.ok) throw new Error(`commons ${r.status}`);
+  const d = await r.json();
+  const pg = Object.values(d.query?.pages ?? {})[0];
+  const ii = pg?.imageinfo?.[0];
+  if (!ii) return [];
+  const m = ii.extmetadata ?? {};
+  if (!LICENCIA_LIBRE.test(sinHtml(m.LicenseShortName?.value))) {
+    console.log(`(${titulo}: licencia "${sinHtml(m.LicenseShortName?.value)}", no es libre)`);
+    return [];
+  }
+  return [
+    {
+      fuente: "commons",
+      id: String(pg.pageid),
+      url: ii.thumburl || ii.url,
+      ancho: ii.thumbwidth ?? ii.width,
+      alto: ii.thumbheight ?? ii.height,
+      autor: sinHtml(m.Artist?.value).slice(0, 60) || "desconocido",
+      titulo: pg.title.replace(/^File:/, ""),
+      pagina: ii.descriptionurl,
+    },
+  ];
+}
+
+async function buscarCommons(q) {
+  if (/^File:/i.test(q)) return cargarCommons(q);
+  const url =
+    "https://commons.wikimedia.org/w/api.php?" +
+    new URLSearchParams({
+      action: "query",
+      format: "json",
+      generator: "search",
+      gsrsearch: `${terminos(q).join(" ")} filetype:bitmap haslicense:unrestricted`,
+      gsrnamespace: "6",
+      gsrlimit: "30",
+      prop: "imageinfo",
+      iiprop: "url|size|mime|extmetadata",
+      iiurlwidth: "1920",
+    });
+  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!r.ok) throw new Error(`commons ${r.status}`);
+  const d = await r.json();
+
+  return Object.values(d.query?.pages ?? {})
+    .map((pg) => {
+      const ii = pg.imageinfo?.[0];
+      if (!ii || !/^image\/(jpeg|png)$/.test(ii.mime ?? "")) return null;
+      if (ii.width < 1100) return null;
+      const m = ii.extmetadata ?? {};
+      if (!LICENCIA_LIBRE.test(sinHtml(m.LicenseShortName?.value))) return null;
+      // Derechos de la personalidad, marcas y similares: se salta.
+      if (sinHtml(m.Restrictions?.value)) return null;
+      const { ok, score } = puntuar(q, pg, m);
+      if (!ok) return null;
+      const ancho = ii.thumbwidth ?? ii.width;
+      const alto = ii.thumbheight ?? ii.height;
+      return {
+        fuente: "commons",
+        id: String(pg.pageid),
+        url: ii.thumburl || ii.url,
+        ancho,
+        alto,
+        autor: sinHtml(m.Artist?.value).slice(0, 60) || "desconocido",
+        titulo: pg.title.replace(/^File:/, ""),
+        pagina: ii.descriptionurl,
+        orden: pg.index ?? 99,
+        score,
+      };
+    })
+    .filter(Boolean)
+    // Primero lo que mas se parece a lo pedido. A igualdad, la relevancia de
+    // Commons; y un retrato vertical dentro de un 16:9 es un cuadro pequeno
+    // entre dos franjas desenfocadas: baja seis puestos.
+    .sort(
+      (a, b) =>
+        b.score - a.score ||
+        a.orden + (a.ancho / a.alto < 1.3 ? 6 : 0) - (b.orden + (b.ancho / b.alto < 1.3 ? 6 : 0))
+    );
+}
+
+async function descargarLamina(l) {
+  const dest = path.join(DESTINO_LAMINAS, `${l.fuente}-${l.id}.jpg`);
+  if (fs.existsSync(dest)) return { dest, mb: fs.statSync(dest).size / 1048576, cache: true };
+  const r = await fetch(l.url, { headers: { "User-Agent": UA } });
+  if (!r.ok) throw new Error(`descarga ${r.status}`);
+  fs.mkdirSync(DESTINO_LAMINAS, { recursive: true });
+  const buf = Buffer.from(await r.arrayBuffer());
+  fs.writeFileSync(dest, buf);
+  return { dest, mb: buf.length / 1048576, cache: false };
+}
+
 async function descargar(clip) {
   const dest = path.join(DESTINO, `${clip.fuente}-${clip.id}.mp4`);
   if (fs.existsSync(dest)) return { dest, mb: fs.statSync(dest).size / 1048576, cache: true };
@@ -235,19 +412,22 @@ async function main() {
     .flatMap((p) => (p.escenas ?? [p]).map((e) => ({ e, id: p.id })));
   const conClip = escenas.filter((x) => x.e.tipo === "clip" && x.e.clip?.buscar);
   const conRecorte = escenas.filter((x) => x.e.tipo === "recorte" && x.e.recorte?.buscar);
+  const conLamina = escenas.filter((x) => x.e.tipo === "lamina" && x.e.lamina?.buscar);
 
-  if (!conClip.length && !conRecorte.length) {
-    console.log("este guion no pide ni clips ni recortes");
+  if (!conClip.length && !conRecorte.length && !conLamina.length) {
+    console.log("este guion no pide ni clips ni recortes ni laminas");
     return;
   }
-  console.log(`${conClip.length} clips y ${conRecorte.length} recortes que resolver`);
+  console.log(
+    `${conClip.length} clips, ${conRecorte.length} recortes y ${conLamina.length} laminas que resolver`
+  );
 
   let mb = 0;
   const creditos = [];
   const usados = new Set();
   // Los que ya vengan elegidos de una pasada anterior tambien cuentan.
-  for (const { e } of [...conClip, ...conRecorte]) {
-    const el = e.clip?.elegido ?? e.recorte?.elegido;
+  for (const { e } of [...conClip, ...conRecorte, ...conLamina]) {
+    const el = e.clip?.elegido ?? e.recorte?.elegido ?? e.lamina?.elegido;
     if (el) usados.add(`${el.fuente}-${el.id}`);
   }
   for (const { e, id } of conClip) {
@@ -324,6 +504,62 @@ async function main() {
     console.log(` ${hecho.foto.fuente} #${hecho.foto.id} (${hecho.foto.autor})`);
   }
 
+
+  // ---- laminas de archivo ----
+  for (const { e, id } of conLamina) {
+    const c = e.lamina;
+    if (rebuscar) delete c.elegido;
+
+    if (c.elegido && c.fichero && fs.existsSync(path.join("public", c.fichero))) continue;
+
+    if (!c.elegido) {
+      process.stdout.write(`  ${id}  lamina "${c.buscar}" … `);
+      let hallado = null;
+      // Si la busqueda entera no da nada, se prueba con sus tres primeras
+      // palabras: "dutch east india company ships amsterdam harbour painting"
+      // es demasiado fina, "dutch east india company" casi nunca falla.
+      const ts = terminos(c.buscar);
+      const fija = /^File:/i.test(c.buscar);
+      const consultas = fija
+        ? [c.buscar]
+        : [c.buscar, ts.slice(0, 4).join(" "), ts.slice(0, 3).join(" "), ts.slice(0, 2).join(" ")];
+      for (const q of [...new Set(consultas)]) {
+        try {
+          const r = await buscarCommons(q);
+          hallado = r.find((x) => fija || !usados.has(`${x.fuente}-${x.id}`)) ?? null;
+        } catch (err) {
+          console.log(`(${err.message})`);
+        }
+        if (hallado) break;
+        await new Promise((ok) => setTimeout(ok, 400));
+      }
+      if (!hallado) {
+        console.log("SIN RESULTADOS");
+        e.tipo = "frase";
+        e.texto = e.texto ?? e.rotulo?.texto ?? c.pie ?? null;
+        delete e.lamina;
+        continue;
+      }
+      c.elegido = hallado;
+      usados.add(`${hallado.fuente}-${hallado.id}`);
+      console.log(`${hallado.titulo.slice(0, 60)} (${hallado.ancho}x${hallado.alto})`);
+    }
+
+    try {
+      const { mb: peso, cache } = await descargarLamina(c.elegido);
+      c.fichero = `laminas/${c.elegido.fuente}-${c.elegido.id}.jpg`;
+      mb += peso;
+      if (!cache) console.log(`     ${peso.toFixed(1)} MB`);
+      creditos.push(`${c.elegido.titulo.slice(0, 70)} (Wikimedia Commons, dominio publico)`);
+    } catch (err) {
+      console.log(`     (${err.message}), se queda en tipografia`);
+      e.tipo = "frase";
+      e.texto = e.texto ?? e.rotulo?.texto ?? c.pie ?? null;
+      delete e.lamina;
+    }
+    await new Promise((ok) => setTimeout(ok, 250));
+  }
+
   // Ultima pasada: ningun plano puede quedarse sin nada que pintar.
   //
   // El montaje ya descarta las escenas que no tienen con que dibujarse y les
@@ -333,6 +569,7 @@ async function main() {
   const pintable = (e) => {
     if (e.tipo === "clip") return !!e.clip?.fichero;
     if (e.tipo === "recorte") return !!e.recorte?.fichero;
+    if (e.tipo === "lamina") return !!e.lamina?.fichero;
     if (e.tipo === "contador") return typeof e.a?.valor === "number";
     if (e.tipo === "frase") return !!e.texto;
     if (e.tipo === "barras") return !!e.barras?.datos?.length;

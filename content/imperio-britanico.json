@@ -1,0 +1,2935 @@
+{
+  "slug": "imperio-britanico",
+  "titulo": "Quién Ganó Dinero De Verdad Con El Imperio Británico (Y Quién Pagó La Factura)",
+  "voz": {
+    "id": "clone_2333475",
+    "nombre": "VOZ DETRAS DEL ENIGMA"
+  },
+  "wpm": 145,
+  "musica": "elegia.wav",
+  "estilo": {
+    "plantilla": "suizo"
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Una deuda de mil ochocientos treinta y tres",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "El uno de febrero de dos mil quince, el Tesoro británico hizo un pago discreto. Amortizó unos bonos del Estado que llevaban en circulación desde el siglo diecinueve. Y dentro de ellos iba una deuda concreta, contraída en mil ochocientos treinta y tres.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A view of the Bank of England, Threadneedle Street, London (NYPL Hades-280166-1253467).jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "46736038",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/A_view_of_the_Bank_of_England%2C_Threadneedle_Street%2C_London_%28NYPL_Hades-280166-1253467%29.jpg/1920px-A_view_of_the_Bank_of_England%2C_Threadneedle_Street%2C_London_%28NYPL_Hades-280166-1253467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1402,
+                  "autor": "Scan by NYPL",
+                  "titulo": "A view of the Bank of England, Threadneedle Street, London (NYPL Hades-280166-1253467).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Bank_of_England,_Threadneedle_Street,_London_(NYPL_Hades-280166-1253467).jpg"
+                },
+                "fichero": "laminas/commons-46736038.jpg"
+              },
+              "rotulo": {
+                "texto": "Uno de febrero de dos mil quince",
+                "kicker": "Un pago discreto"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Straatgezicht in Londen met links de Bank of England en rechts de Royal Exchange London (titel op object), RP-F-F01134-AA.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "85825896",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Straatgezicht_in_Londen_met_links_de_Bank_of_England_en_rechts_de_Royal_Exchange_London_%28titel_op_object%29%2C_RP-F-F01134-AA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1332,
+                  "autor": "Rijksmuseum",
+                  "titulo": "Straatgezicht in Londen met links de Bank of England en rechts de Royal Exchange London (titel op object), RP-F-F01134-AA.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Straatgezicht_in_Londen_met_links_de_Bank_of_England_en_rechts_de_Royal_Exchange_London_(titel_op_object),_RP-F-F01134-AA.jpg"
+                },
+                "fichero": "laminas/commons-85825896.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Se pidieron prestados veinte millones de libras. Era casi el cuarenta por ciento de todo lo que gastó el Estado aquel año. ¿Para qué? Para indemnizar a los dueños de esclavos, porque el Imperio acababa de abolir la esclavitud.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Robert Wallis - Interior of the House of Commons - B1982.31.31 - Yale Center for British Art.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "113379873",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Robert_Wallis_-_Interior_of_the_House_of_Commons_-_B1982.31.31_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1428,
+                  "autor": "Robert William Wallis",
+                  "titulo": "Robert Wallis - Interior of the House of Commons - B1982.31.31 - Yale Center for British Art.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Robert_Wallis_-_Interior_of_the_House_of_Commons_-_B1982.31.31_-_Yale_Center_for_British_Art.jpg"
+                },
+                "fichero": "laminas/commons-113379873.jpg"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LA INDEMNIZACIÓN DE 1833",
+              "fuente": "Full Fact · Tesoro británico",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 40,
+                "etiqueta": "del gasto del Estado en un año",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Cane holeing, in a Jamaican plantation - Creusement des sillons pour la canne à sucre, Jamaïque.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "163525300",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Cane_holeing%2C_in_a_Jamaican_plantation_-_Creusement_des_sillons_pour_la_canne_%C3%A0_sucre%2C_Jama%C3%AFque.jpg/1920px-Cane_holeing%2C_in_a_Jamaican_plantation_-_Creusement_des_sillons_pour_la_canne_%C3%A0_sucre%2C_Jama%C3%AFque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1278,
+                  "autor": "anonymous",
+                  "titulo": "Cane holeing, in a Jamaican plantation - Creusement des sillons pour la canne à sucre, Jamaïque.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Cane_holeing,_in_a_Jamaican_plantation_-_Creusement_des_sillons_pour_la_canne_%C3%A0_sucre,_Jama%C3%AFque.jpg"
+                },
+                "fichero": "laminas/commons-163525300.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Se aprobaron más de cuarenta mil reclamaciones. Cobraron los propietarios. Las personas que habían sido esclavizadas no recibieron ni una libra, y muchas siguieron trabajando para sus antiguos amos varios años más, con el nombre de aprendizaje.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Slaves cutting the sugar cane - Ten Views in the Island of Antigua (1823), plate IV - BL.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "31451689",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Slaves_cutting_the_sugar_cane_-_Ten_Views_in_the_Island_of_Antigua_%281823%29%2C_plate_IV_-_BL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1336,
+                  "autor": "William Clark",
+                  "titulo": "Slaves cutting the sugar cane - Ten Views in the Island of Antigua (1823), plate IV - BL.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Slaves_cutting_the_sugar_cane_-_Ten_Views_in_the_Island_of_Antigua_(1823),_plate_IV_-_BL.jpg"
+                },
+                "fichero": "laminas/commons-31451689.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "emancipation of slaves 1834 print",
+                "pie": "Emancipación en las Indias Occidentales, 1834",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "166847049",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Slaves_on_a_British_plantation_in_the_West_Indies_receiving_news_of_their_emancipation_following_the_passage_of_the_Slavery_Abolition_Act_of_1833.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1254,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Slaves on a British plantation in the West Indies receiving news of their emancipation following the passage of the Slavery Abolition Act of 1833.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Slaves_on_a_British_plantation_in_the_West_Indies_receiving_news_of_their_emancipation_following_the_passage_of_the_Slavery_Abolition_Act_of_1833.jpg",
+                  "orden": 5,
+                  "score": 1
+                },
+                "fichero": "laminas/commons-166847049.jpg"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Cobraron los dueños. *Nadie más.*"
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Esta es la historia de cómo el Imperio británico ganó dinero. Pero no la que sale en los libros de texto, la de un país entero haciéndose rico con sus colonias. Es otra: la de quién cobraba, y la de quién pagaba la cuenta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:British Empire 1897.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "36387",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/British_Empire_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1461,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "British Empire 1897.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:British_Empire_1897.jpg"
+                },
+                "fichero": "laminas/commons-36387.jpg"
+              },
+              "rotulo": {
+                "texto": "Quién cobraba, y quién pagaba",
+                "kicker": "La pregunta"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1794 Samuel Dunn Wall Map of the World in Hemispheres - Geographicus - World2-dunn-1794.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "14675675",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg/1920px-1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1617,
+                  "autor": "Thomas Kitchin",
+                  "titulo": "1794 Samuel Dunn Wall Map of the World in Hemispheres - Geographicus - World2-dunn-1794.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg"
+                },
+                "fichero": "laminas/commons-14675675.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-05",
+          "vo": "Porque si el imperio fue un negocio tan bueno, ¿por qué Londres tardó casi doscientos años en terminar de pagar una de sus facturas? Para contestarlo hay que empezar por una empresa que tenía su propio ejército.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Anonymous - A View of the East-India House, Leadenhall Street, London - B1977.14.17469 - Yale Center for British Art.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "113326676",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Anonymous_-_A_View_of_the_East-India_House%2C_Leadenhall_Street%2C_London_-_B1977.14.17469_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1300,
+                  "autor": "anonymous",
+                  "titulo": "Anonymous - A View of the East-India House, Leadenhall Street, London - B1977.14.17469 - Yale Center for British Art.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Anonymous_-_A_View_of_the_East-India_House,_Leadenhall_Street,_London_-_B1977.14.17469_-_Yale_Center_for_British_Art.jpg"
+                },
+                "fichero": "laminas/commons-113326676.jpg"
+              },
+              "rotulo": {
+                "texto": "Una empresa con ejército",
+                "kicker": "Empezamos por aquí"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1780 Bonne Map of Southern India, Ceylon, and the Maldives - Geographicus - IndiaSouth-bonne-1780.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "14684595",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/1780_Bonne_Map_of_Southern_India%2C_Ceylon%2C_and_the_Maldives_-_Geographicus_-_IndiaSouth-bonne-1780.jpg/1920px-1780_Bonne_Map_of_Southern_India%2C_Ceylon%2C_and_the_Maldives_-_Geographicus_-_IndiaSouth-bonne-1780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1280,
+                  "autor": "Rigobert Bonne",
+                  "titulo": "1780 Bonne Map of Southern India, Ceylon, and the Maldives - Geographicus - IndiaSouth-bonne-1780.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1780_Bonne_Map_of_Southern_India,_Ceylon,_and_the_Maldives_-_Geographicus_-_IndiaSouth-bonne-1780.jpg"
+                },
+                "fichero": "laminas/commons-14684595.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "La empresa con ejército",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "En el año mil seiscientos, la reina Isabel primera concede a unos comerciantes de Londres el monopolio del comercio con Asia. Se llama Compañía de las Indias Orientales y, durante siglo y medio, es solo eso: una empresa que compra especias, algodón y té.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Queen Elizabeth I by George Gower.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "6370537",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Queen_Elizabeth_I_by_George_Gower.jpg/1920px-Queen_Elizabeth_I_by_George_Gower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2432,
+                  "autor": "Formerly attributed to George Gower",
+                  "titulo": "Queen Elizabeth I by George Gower.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_I_by_George_Gower.jpg"
+                },
+                "fichero": "laminas/commons-6370537.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:An East Indiaman in stays, with a fleet chase beyond RMG BHC1051.jpg",
+                "pie": "Un navío de la Compañía",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "62798677",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/An_East_Indiaman_in_stays%2C_with_a_fleet_chase_beyond_RMG_BHC1051.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1077,
+                  "autor": "Francis Swaine",
+                  "titulo": "An East Indiaman in stays, with a fleet chase beyond RMG BHC1051.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:An_East_Indiaman_in_stays,_with_a_fleet_chase_beyond_RMG_BHC1051.jpg"
+                },
+                "fichero": "laminas/commons-62798677.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bazaar van Bantam, 1596, RP-P-OB-80.246.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "85450001",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bazaar_van_Bantam%2C_1596%2C_RP-P-OB-80.246.jpg/1920px-Bazaar_van_Bantam%2C_1596%2C_RP-P-OB-80.246.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 875,
+                  "autor": "Rijksmuseum",
+                  "titulo": "Bazaar van Bantam, 1596, RP-P-OB-80.246.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bazaar_van_Bantam,_1596,_RP-P-OB-80.246.jpg"
+                },
+                "fichero": "laminas/commons-85450001.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Hasta que en mil setecientos cincuenta y siete, en una llanura de Bengala, todo cambia. Un empleado de la compañía, Robert Clive, derrota con unos tres mil hombres al ejército del gobernante de Bengala. Y lo hace, sobre todo, sobornando a su general.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Lord Clive meeting with Mir Jafar after the Battle of Plassey.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "565912",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg/1920px-Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1496,
+                  "autor": "Francis Hayman",
+                  "titulo": "Lord Clive meeting with Mir Jafar after the Battle of Plassey.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg"
+                },
+                "fichero": "laminas/commons-565912.jpg"
+              },
+              "rotulo": {
+                "texto": "Plassey, mil setecientos cincuenta y siete",
+                "kicker": "La batalla"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:The battle of Plassey, June 23, 1757.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "39277111",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/The_battle_of_Plassey%2C_June_23%2C_1757.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1162,
+                  "autor": "Allan Stewart",
+                  "titulo": "The battle of Plassey, June 23, 1757.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:The_battle_of_Plassey,_June_23,_1757.jpg"
+                },
+                "fichero": "laminas/commons-39277111.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Ocho años después, el emperador mogol le concede a la compañía el derecho a cobrar los impuestos de Bengala. Una empresa privada, con accionistas en Londres, pasa a recaudar los impuestos de decenas de millones de personas.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Shah Alam II, Mughal Emperor, Conveying the Grant of the Diwani to Lord Clive, August 1765.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "32224268",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Shah_Alam_II%2C_Mughal_Emperor%2C_Conveying_the_Grant_of_the_Diwani_to_Lord_Clive%2C_August_1765.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1262,
+                  "autor": "Benjamin West",
+                  "titulo": "Shah Alam II, Mughal Emperor, Conveying the Grant of the Diwani to Lord Clive, August 1765.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Shah_Alam_II,_Mughal_Emperor,_Conveying_the_Grant_of_the_Diwani_to_Lord_Clive,_August_1765.jpg"
+                },
+                "fichero": "laminas/commons-32224268.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:William Hodges - A View of the Fort of Ionpoor (Jaunpur) Upon the Banks of the River Goomty - B1978.43.1805 - Yale Center for British Art.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "105244019",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/William_Hodges_-_A_View_of_the_Fort_of_Ionpoor_%28Jaunpur%29_Upon_the_Banks_of_the_River_Goomty_-_B1978.43.1805_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 943,
+                  "autor": "William Hodges",
+                  "titulo": "William Hodges - A View of the Fort of Ionpoor (Jaunpur) Upon the Banks of the River Goomty - B1978.43.1805 - Yale Center for British Art.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:William_Hodges_-_A_View_of_the_Fort_of_Ionpoor_(Jaunpur)_Upon_the_Banks_of_the_River_Goomty_-_B1978.43.1805_-_Yale_Center_for_British_Art.jpg"
+                },
+                "fichero": "laminas/commons-105244019.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "Y para cobrar necesitaba soldados. A principios del siglo diecinueve la compañía tenía un ejército privado de más de doscientos mil hombres, más grande que el del propio Reino Unido.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A large painting depicting the Battle of Condore in December 1758, during the Third Carnatic War, with East India Company troops under Colonel Forde engaged against French troops and their allies, South India, 19th Century.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "147764690",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/A_large_painting_depicting_the_Battle_of_Condore_in_December_1758%2C_during_the_Third_Carnatic_War%2C_with_East_India_Company_troops_under_Colonel_Forde_engaged_against_French_troops_and_their_allies%2C_South_India%2C_19th_Century.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1152,
+                  "autor": "Bonhams",
+                  "titulo": "A large painting depicting the Battle of Condore in December 1758, during the Third Carnatic War, with East India Company troops under Colonel Forde engaged against French troops and their allies, South India, 19th Century.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:A_large_painting_depicting_the_Battle_of_Condore_in_December_1758,_during_the_Third_Carnatic_War,_with_East_India_Company_troops_under_Colonel_Forde_engaged_against_French_troops_and_their_allies,_South_India,_19th_Century.jpg"
+                },
+                "fichero": "laminas/commons-147764690.jpg"
+              },
+              "rotulo": {
+                "texto": "Más soldados que el Reino Unido",
+                "kicker": "Ejército privado"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Fort William, Calcutta, 1735.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "13255689",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Fort_William%2C_Calcutta%2C_1735.jpg/1920px-Fort_William%2C_Calcutta%2C_1735.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1579,
+                  "autor": "Elisha Kirkall (c. 1682–1742)",
+                  "titulo": "Fort William, Calcutta, 1735.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Fort_William,_Calcutta,_1735.jpg"
+                },
+                "fichero": "laminas/commons-13255689.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Painting of the signing of the Treaty of Bhairowal on 26 December 1846 between the Sikh Empire and British East India Company.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "128423950",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Painting_of_the_signing_of_the_Treaty_of_Bhairowal_on_26_December_1846_between_the_Sikh_Empire_and_British_East_India_Company.jpg/1920px-Painting_of_the_signing_of_the_Treaty_of_Bhairowal_on_26_December_1846_between_the_Sikh_Empire_and_British_East_India_Company.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1447,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Painting of the signing of the Treaty of Bhairowal on 26 December 1846 between the Sikh Empire and British East India Company.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Painting_of_the_signing_of_the_Treaty_of_Bhairowal_on_26_December_1846_between_the_Sikh_Empire_and_British_East_India_Company.jpg"
+                },
+                "fichero": "laminas/commons-128423950.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "Los beneficios iban a Londres. La cuenta la pagaba Bengala. En mil setecientos setenta una hambruna mató, según las estimaciones, a millones de personas, quizá a una de cada tres. Y según varios historiadores, los impuestos se siguieron cobrando casi igual.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "drought cracked earth dry field",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5358448",
+                  "url": "https://videos.pexels.com/video-files/5358448/5358448-hd_1282_720_25fps.mp4",
+                  "ancho": 1282,
+                  "duracion": 12,
+                  "autor": "Adrien JACTA",
+                  "pagina": "https://www.pexels.com/video/video-of-dry-terrain-5358448/"
+                },
+                "fichero": "clips/pexels-5358448.mp4"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Los beneficios, a Londres. *La cuenta, a Bengala.*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty village street dust abandoned",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "14228570",
+                  "url": "https://videos.pexels.com/video-files/14228570/14228570-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Amar  Preciado",
+                  "pagina": "https://www.pexels.com/video/woman-sitting-in-ruins-14228570/"
+                },
+                "fichero": "clips/pexels-14228570.mp4"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b1-06",
+          "vo": "Y entonces pasa algo que nos suena. En mil setecientos setenta y tres la compañía está al borde de la quiebra. Es demasiado grande para caer: sus accionistas son parlamentarios y banqueros. El Gobierno le presta un millón y cuatrocientas mil libras para salvarla.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portrait of Frederick, Lord North K.G., later 2nd Earl of Guilford (1732-1792) (by Allan Ramsay).jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "136661991",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Portrait_of_Frederick%2C_Lord_North_K.G.%2C_later_2nd_Earl_of_Guilford_%281732-1792%29_%28by_Allan_Ramsay%29.jpg/1920px-Portrait_of_Frederick%2C_Lord_North_K.G.%2C_later_2nd_Earl_of_Guilford_%281732-1792%29_%28by_Allan_Ramsay%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1943,
+                  "autor": "Allan Ramsay",
+                  "titulo": "Portrait of Frederick, Lord North K.G., later 2nd Earl of Guilford (1732-1792) (by Allan Ramsay).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Frederick,_Lord_North_K.G.,_later_2nd_Earl_of_Guilford_(1732-1792)_(by_Allan_Ramsay).jpg"
+                },
+                "fichero": "laminas/commons-136661991.jpg"
+              },
+              "rotulo": {
+                "texto": "Un rescate con dinero público",
+                "kicker": "Mil setecientos setenta y tres"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "robert clive portrait",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "6363818",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Robert_Clive%2C_1st_Baron_Clive_by_Nathaniel_Dance%2C_%28later_Sir_Nathaniel_Dance-Holland%2C_Bt%29.jpg/1920px-Robert_Clive%2C_1st_Baron_Clive_by_Nathaniel_Dance%2C_%28later_Sir_Nathaniel_Dance-Holland%2C_Bt%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2433,
+                  "autor": "Nathaniel Dance, (later Sir Nathaniel Dance-Holland, Bt) (di",
+                  "titulo": "Robert Clive, 1st Baron Clive by Nathaniel Dance, (later Sir Nathaniel Dance-Holland, Bt).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Robert_Clive,_1st_Baron_Clive_by_Nathaniel_Dance,_(later_Sir_Nathaniel_Dance-Holland,_Bt).jpg",
+                  "orden": 1,
+                  "score": 1
+                },
+                "fichero": "laminas/commons-6363818.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Augustin Heckel (attrib) - Twickenham bank of the Thames - 9608.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "114911795",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Augustin_Heckel_%28attrib%29_-_Twickenham_bank_of_the_Thames_-_9608.jpg/1920px-Augustin_Heckel_%28attrib%29_-_Twickenham_bank_of_the_Thames_-_9608.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 699,
+                  "autor": "Augustin Heckel (attrib.)",
+                  "titulo": "Augustin Heckel (attrib) - Twickenham bank of the Thames - 9608.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Augustin_Heckel_(attrib)_-_Twickenham_bank_of_the_Thames_-_9608.jpg"
+                },
+                "fichero": "laminas/commons-114911795.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-07",
+          "vo": "Para vender el té que se le acumulaba en los almacenes, el Parlamento le da el monopolio en las colonias de América. Los colonos lo tiran al puerto de Boston. Una empresa rescatada con dinero público acaba provocando una revolución.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Boston Tea Party, image from 1903.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "16078123",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Boston_Tea_Party%2C_image_from_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1270,
+                  "autor": "Daniel Berger",
+                  "titulo": "Boston Tea Party, image from 1903.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Boston_Tea_Party,_image_from_1903.jpg"
+                },
+                "fichero": "laminas/commons-16078123.jpg"
+              },
+              "rotulo": {
+                "texto": "Boston, mil setecientos setenta y tres",
+                "kicker": "El té al agua"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Destruction of tea at Boston Harbor LCCN91795889.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "66408644",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Destruction_of_tea_at_Boston_Harbor_LCCN91795889.jpg/1920px-Destruction_of_tea_at_Boston_Harbor_LCCN91795889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1466,
+                  "autor": "N. Currier (Firm)",
+                  "titulo": "Destruction of tea at Boston Harbor LCCN91795889.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Destruction_of_tea_at_Boston_Harbor_LCCN91795889.jpg"
+                },
+                "fichero": "laminas/commons-66408644.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "El té, la plata y el opio",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "Pero la compañía tenía otro problema, y se llamaba China. Los británicos querían té, mucho té. Y China, que no necesitaba nada de lo que fabricaba Gran Bretaña, solo aceptaba plata.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:THE OLD FACTORY SITE, CANTON.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "30724311",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/THE_OLD_FACTORY_SITE%2C_CANTON.jpg/1920px-THE_OLD_FACTORY_SITE%2C_CANTON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1322,
+                  "autor": "John Thomson",
+                  "titulo": "THE OLD FACTORY SITE, CANTON.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:THE_OLD_FACTORY_SITE,_CANTON.jpg"
+                },
+                "fichero": "laminas/commons-30724311.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:TEA PICKING IN CANTON.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "30724320",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/TEA_PICKING_IN_CANTON.jpg/1920px-TEA_PICKING_IN_CANTON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1399,
+                  "autor": "John Thomson",
+                  "titulo": "TEA PICKING IN CANTON.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:TEA_PICKING_IN_CANTON.jpg"
+                },
+                "fichero": "laminas/commons-30724320.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A Family Being Served with Tea - Google Art Project.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "22153847",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/A_Family_Being_Served_with_Tea_-_Google_Art_Project.jpg/1920px-A_Family_Being_Served_with_Tea_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1454,
+                  "autor": "Unidentified painter",
+                  "titulo": "A Family Being Served with Tea - Google Art Project.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:A_Family_Being_Served_with_Tea_-_Google_Art_Project.jpg"
+                },
+                "fichero": "laminas/commons-22153847.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Cada barco de té dejaba un agujero en las cuentas. Durante décadas la plata salió de Londres hacia Cantón sin parar. Hasta que a alguien se le ocurrió un producto que sí querían los chinos: el opio.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Spanish Silver 8 Reales Coin Pieces.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "61841096",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Spanish_Silver_8_Reales_Coin_Pieces.jpg/1920px-Spanish_Silver_8_Reales_Coin_Pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1877,
+                  "autor": "Mexico City Mint",
+                  "titulo": "Spanish Silver 8 Reales Coin Pieces.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Spanish_Silver_8_Reales_Coin_Pieces.jpg"
+                },
+                "fichero": "laminas/commons-61841096.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hong Kong and Victoria Peak Circa 1855.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "79158527",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Hong_Kong_and_Victoria_Peak_Circa_1855.jpg/1920px-Hong_Kong_and_Victoria_Peak_Circa_1855.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1094,
+                  "autor": "Anonymous Unknown author",
+                  "titulo": "Hong Kong and Victoria Peak Circa 1855.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong_and_Victoria_Peak_Circa_1855.jpg"
+                },
+                "fichero": "laminas/commons-79158527.jpg"
+              },
+              "rotulo": {
+                "texto": "Plata a cambio de té",
+                "kicker": "El agujero"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "La compañía cultivaba opio en Bengala y tenía el monopolio. Pero no lo vendía en China, porque estaba prohibido. Lo subastaba en Calcuta a comerciantes privados, que lo llevaban de contrabando. Así la empresa se lavaba las manos y cobraba igual.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "opium ship lintin",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "20343501",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/William_John_Huggins_-_The_opium_ships_at_Lintin%2C_China%2C_1824.jpg/1920px-William_John_Huggins_-_The_opium_ships_at_Lintin%2C_China%2C_1824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1329,
+                  "autor": "William John Huggins",
+                  "titulo": "William John Huggins - The opium ships at Lintin, China, 1824.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:William_John_Huggins_-_The_opium_ships_at_Lintin,_China,_1824.jpg",
+                  "orden": 1,
+                  "score": 1
+                },
+                "fichero": "laminas/commons-20343501.jpg"
+              },
+              "rotulo": {
+                "texto": "Opio de Bengala",
+                "kicker": "El monopolio"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Ly-ee-moon.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "12157502",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ly-ee-moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 816,
+                  "autor": "Edwin Weedon",
+                  "titulo": "Ly-ee-moon.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ly-ee-moon.jpg"
+                },
+                "fichero": "laminas/commons-12157502.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "El círculo se cerraba. El opio de la India pagaba el té de China, y el té daba al Estado británico buena parte de sus ingresos por impuestos. La plata empezó a salir de China en dirección contraria.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:British (English) School - East India Company Ships at Deptford - BHC1873 - Royal Museums Greenwich.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "91985729",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/British_%28English%29_School_-_East_India_Company_Ships_at_Deptford_-_BHC1873_-_Royal_Museums_Greenwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 931,
+                  "autor": "desconocido",
+                  "titulo": "British (English) School - East India Company Ships at Deptford - BHC1873 - Royal Museums Greenwich.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:British_(English)_School_-_East_India_Company_Ships_at_Deptford_-_BHC1873_-_Royal_Museums_Greenwich.jpg"
+                },
+                "fichero": "laminas/commons-91985729.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:China, Opium smokers by Lai Afong, c1880.JPG",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "38325863",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/China%2C_Opium_smokers_by_Lai_Afong%2C_c1880.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1414,
+                  "autor": "Lai Afong",
+                  "titulo": "China, Opium smokers by Lai Afong, c1880.JPG",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:China,_Opium_smokers_by_Lai_Afong,_c1880.JPG"
+                },
+                "fichero": "laminas/commons-38325863.jpg"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "El opio pagaba el té. *El té pagaba el Estado.*"
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "En mil ochocientos treinta y nueve el emperador mandó a un funcionario, Lin Zexu, a acabar con aquello. Confiscó y destruyó más de veinte mil cajas de opio. Londres respondió con la Armada.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Destruction of opium in 1839.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "49739014",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Destruction_of_opium_in_1839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1176,
+                  "autor": "Chinese artist",
+                  "titulo": "Destruction of opium in 1839.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Destruction_of_opium_in_1839.jpg"
+                },
+                "fichero": "laminas/commons-49739014.jpg"
+              },
+              "rotulo": {
+                "texto": "Veinte mil cajas al mar",
+                "kicker": "Cantón, mil ochocientos treinta y nueve"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portrait of Lin Zexu (cropped).jpeg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "101275337",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Portrait_of_Lin_Zexu_%28cropped%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2558,
+                  "autor": "Lam Qua",
+                  "titulo": "Portrait of Lin Zexu (cropped).jpeg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Lin_Zexu_(cropped).jpeg"
+                },
+                "fichero": "laminas/commons-101275337.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:HMS ‘Nemesis’ and boats attacking a masked Battery, February 23rd 1841 (First Opium War) CKS 2019.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "112153754",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/HMS_%E2%80%98Nemesis%E2%80%99_and_boats_attacking_a_masked_Battery%2C_February_23rd_1841_%28First_Opium_War%29_CKS_2019.jpg/1920px-HMS_%E2%80%98Nemesis%E2%80%99_and_boats_attacking_a_masked_Battery%2C_February_23rd_1841_%28First_Opium_War%29_CKS_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1192,
+                  "autor": "William Adolphus Knell",
+                  "titulo": "HMS ‘Nemesis’ and boats attacking a masked Battery, February 23rd 1841 (First Opium War) CKS 2019.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:HMS_%E2%80%98Nemesis%E2%80%99_and_boats_attacking_a_masked_Battery,_February_23rd_1841_(First_Opium_War)_CKS_2019.jpg"
+                },
+                "fichero": "laminas/commons-112153754.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "Ganó la guerra. En el tratado de Nankín, en mil ochocientos cuarenta y dos, China cedió Hong Kong, abrió cinco puertos y pagó veintiún millones de dólares de plata: seis por el opio destruido, tres por deudas de comerciantes y doce por los gastos de la guerra.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Tcitp d063 signing and sealing of the treaty of nanking.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "27701751",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Tcitp_d063_signing_and_sealing_of_the_treaty_of_nanking.jpg/1920px-Tcitp_d063_signing_and_sealing_of_the_treaty_of_nanking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 705,
+                  "autor": "Arnold Wright",
+                  "titulo": "Tcitp d063 signing and sealing of the treaty of nanking.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Tcitp_d063_signing_and_sealing_of_the_treaty_of_nanking.jpg"
+                },
+                "fichero": "laminas/commons-27701751.jpg"
+              },
+              "rotulo": {
+                "texto": "Nankín, mil ochocientos cuarenta y dos",
+                "kicker": "El tratado"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LO QUE PAGÓ CHINA EN NANKÍN",
+              "fuente": "Tratado de Nankín · Wikipedia · National Archives",
+              "barras": {
+                "unidad": "Millones de dólares de plata",
+                "datos": [
+                  {
+                    "etiqueta": "Opio destruido",
+                    "valor": 6,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Deudas de comerciantes",
+                    "valor": 3,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Gastos de guerra",
+                    "valor": 12,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:The Hon. E.I. Co. Iron Steam Ship Nemesis, ... with boats of Sulphur, Calliope, Larne and Starling, destroying the Chinese War Junks, in Anson's Bay, Jany 7th 1841 PAH8893.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "163268858",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/The_Hon._E.I._Co._Iron_Steam_Ship_Nemesis%2C_..._with_boats_of_Sulphur%2C_Calliope%2C_Larne_and_Starling%2C_destroying_the_Chinese_War_Junks%2C_in_Anson%27s_Bay%2C_Jany_7th_1841_PAH8893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1442,
+                  "autor": "Edward Duncan",
+                  "titulo": "The Hon. E.I. Co. Iron Steam Ship Nemesis, ... with boats of Sulphur, Calliope, Larne and Starling, destroying the Chinese War Junks, in Anson's Bay, Jany 7th 1841 PAH8893.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:The_Hon._E.I._Co._Iron_Steam_Ship_Nemesis,_..._with_boats_of_Sulphur,_Calliope,_Larne_and_Starling,_destroying_the_Chinese_War_Junks,_in_Anson%27s_Bay,_Jany_7th_1841_PAH8893.jpg"
+                },
+                "fichero": "laminas/commons-163268858.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Léelo otra vez. El país al que se le vendía la droga pagó la droga que destruyó, y pagó la guerra que se hizo para seguir vendiéndola.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "El país al que vendían la droga *pagó la guerra.*",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Dragoon Guards in Second Opium War.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "14293558",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Dragoon_Guards_in_Second_Opium_War.jpg/1920px-Dragoon_Guards_in_Second_Opium_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1091,
+                  "autor": "\"From a sketch by our special artist in China\"",
+                  "titulo": "Dragoon Guards in Second Opium War.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Dragoon_Guards_in_Second_Opium_War.jpg"
+                },
+                "fichero": "laminas/commons-14293558.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "El truco del algodón",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Mientras tanto, en India pasaba algo menos ruidoso y más grande. En mil setecientos, casi una cuarta parte de la economía mundial estaba allí, y sus telas de algodón se vendían en todo el planeta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Chintz (India), 18th century (CH 18481737).jpg",
+                "pie": "Tela de algodón estampada de la India",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "64511339",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Chintz_%28India%29%2C_18th_century_%28CH_18481737%29.jpg/1920px-Chintz_%28India%29%2C_18th_century_%28CH_18481737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2321,
+                  "autor": "Unknown artist Unknown artist",
+                  "titulo": "Chintz (India), 18th century (CH 18481737).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Chintz_(India),_18th_century_(CH_18481737).jpg"
+                },
+                "fichero": "laminas/commons-64511339.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A covered sedan chair being carried by eight or nine men, wearing white with various coloured sashes and turbans.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "22827425",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/A_covered_sedan_chair_being_carried_by_eight_or_nine_men%2C_wearing_white_with_various_coloured_sashes_and_turbans.jpg/1920px-A_covered_sedan_chair_being_carried_by_eight_or_nine_men%2C_wearing_white_with_various_coloured_sashes_and_turbans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1440,
+                  "autor": "Mazhar Ali Khan",
+                  "titulo": "A covered sedan chair being carried by eight or nine men, wearing white with various coloured sashes and turbans.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:A_covered_sedan_chair_being_carried_by_eight_or_nine_men,_wearing_white_with_various_coloured_sashes_and_turbans.jpg"
+                },
+                "fichero": "laminas/commons-22827425.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Gran Bretaña, que producía lana, no podía competir. Así que hizo lo que hacen los países que no pueden: prohibió la competencia. En mil setecientos y otra vez en mil setecientos veintiuno, el Parlamento vetó las telas indias estampadas.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Textile (England), 18th century (CH 18417961).jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "64374718",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Textile_%28England%29%2C_18th_century_%28CH_18417961%29.jpg/1920px-Textile_%28England%29%2C_18th_century_%28CH_18417961%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1402,
+                  "autor": "Unknown artist Unknown artist",
+                  "titulo": "Textile (England), 18th century (CH 18417961).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Textile_(England),_18th_century_(CH_18417961).jpg"
+                },
+                "fichero": "laminas/commons-64374718.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Fragment (England), 17th–18th century (CH 18430839).jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "64737480",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fragment_%28England%29%2C_17th%E2%80%9318th_century_%28CH_18430839%29.jpg/1920px-Fragment_%28England%29%2C_17th%E2%80%9318th_century_%28CH_18430839%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2166,
+                  "autor": "Unknown artist Unknown artist",
+                  "titulo": "Fragment (England), 17th–18th century (CH 18430839).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Fragment_(England),_17th%E2%80%9318th_century_(CH_18430839).jpg"
+                },
+                "fichero": "laminas/commons-64737480.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "Después llegaron las máquinas de vapor y las fábricas de Lancashire, y el juego se dio la vuelta. Ahora Manchester producía barato. Y era India la que tenía que comprar, sin aranceles que la protegieran, bajo un gobierno que no era el suyo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Gandhi visiting Lancashire Cotton Mill.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "6043059",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Gandhi_visiting_Lancashire_Cotton_Mill.jpg/1920px-Gandhi_visiting_Lancashire_Cotton_Mill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1285,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Gandhi visiting Lancashire Cotton Mill.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Gandhi_visiting_Lancashire_Cotton_Mill.jpg"
+                },
+                "fichero": "laminas/commons-6043059.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Unloading cotton from a ship at the docks, Bestanddeelnr 158-2679.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "74520815",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Unloading_cotton_from_a_ship_at_the_docks%2C_Bestanddeelnr_158-2679.jpg/1920px-Unloading_cotton_from_a_ship_at_the_docks%2C_Bestanddeelnr_158-2679.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1499,
+                  "autor": "Nationaal Archief",
+                  "titulo": "Unloading cotton from a ship at the docks, Bestanddeelnr 158-2679.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Unloading_cotton_from_a_ship_at_the_docks,_Bestanddeelnr_158-2679.jpg"
+                },
+                "fichero": "laminas/commons-74520815.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Los tejedores de Bengala, que habían vestido medio mundo, se quedaron sin mercado. Dacca, famosa por su muselina, fue decayendo hasta convertirse en una sombra de lo que había sido.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:India No.4 - Dickinson's comprehensive pictures of the Great Exhibition (1854) vol 2, plate V - BL.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "31452864",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/India_No.4_-_Dickinson%27s_comprehensive_pictures_of_the_Great_Exhibition_%281854%29_vol_2%2C_plate_V_-_BL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1256,
+                  "autor": "Joseph Nash",
+                  "titulo": "India No.4 - Dickinson's comprehensive pictures of the Great Exhibition (1854) vol 2, plate V - BL.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:India_No.4_-_Dickinson%27s_comprehensive_pictures_of_the_Great_Exhibition_(1854)_vol_2,_plate_V_-_BL.jpg"
+                },
+                "fichero": "laminas/commons-31452864.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "weaver hands loom textile close",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6653256",
+                  "url": "https://videos.pexels.com/video-files/6653256/6653256-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-person-wrapping-yarn-around-a-loom-6653256/"
+                },
+                "fichero": "clips/pexels-6653256.mp4"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "En mil novecientos cincuenta, la India ya independiente pesaba un cuatro por ciento de la economía mundial. Cuánta culpa tuvo el dominio británico es una de las discusiones más vivas de la historia económica. Volveremos a ella.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PESO DE LA INDIA EN LA ECONOMÍA MUNDIAL",
+              "fuente": "Angus Maddison · Contours of the World Economy",
+              "barras": {
+                "unidad": "% de la economía mundial",
+                "datos": [
+                  {
+                    "etiqueta": "1700",
+                    "valor": 24,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1950",
+                    "valor": 4,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "indian textile market street crowd",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29614658",
+                  "url": "https://videos.pexels.com/video-files/29614658/12744468_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Aamir Somewhere",
+                  "pagina": "https://www.pexels.com/video/vibrant-indian-local-market-with-crowds-29614658/"
+                },
+                "fichero": "clips/pexels-29614658.mp4"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "frase",
+              "texto": "De casi una cuarta parte, *a un cuatro por ciento.*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "Azúcar, esclavos y seguros",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "El otro gran negocio estaba en el Caribe. Jamaica, Barbados, las islas del azúcar. Azúcar a cambio de ron, de manufacturas y de personas: más de tres millones de africanos fueron embarcados en barcos británicos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Brookes slave ship, British Library.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "92338899",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Brookes_slave_ship%2C_British_Library.jpg/1920px-Brookes_slave_ship%2C_British_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2433,
+                  "autor": "Printed by James Phillips, George Yard, Lombard Street, Lond",
+                  "titulo": "Brookes slave ship, British Library.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Brookes_slave_ship,_British_Library.jpg"
+                },
+                "fichero": "laminas/commons-92338899.jpg"
+              },
+              "rotulo": {
+                "texto": "Tres millones de personas",
+                "kicker": "En barcos británicos"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Barbados - Wind mill, Sugar plantation.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "148480914",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Barbados_-_Wind_mill%2C_Sugar_plantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1216,
+                  "autor": "W. L. Johnson &amp; Co., Ltd.",
+                  "titulo": "Barbados - Wind mill, Sugar plantation.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Barbados_-_Wind_mill,_Sugar_plantation.jpg"
+                },
+                "fichero": "laminas/commons-148480914.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:West India Import Dock RMG PU1440.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "62575859",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/West_India_Import_Dock_RMG_PU1440.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1304,
+                  "autor": "John Charles Varrall",
+                  "titulo": "West India Import Dock RMG PU1440.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:West_India_Import_Dock_RMG_PU1440.jpg"
+                },
+                "fichero": "laminas/commons-62575859.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "Liverpool y Bristol crecieron con ese tráfico. Pero el negocio no estaba solo en los puertos. Estaba en la City: en los bancos que financiaban los viajes, en las aseguradoras que cubrían los barcos y la carga, en los comerciantes que vendían el azúcar.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Les Docks et Liverpool (instantanee), Angleterre, RP-F-F08488.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "85242850",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Les_Docks_et_Liverpool_%28instantanee%29%2C_Angleterre%2C_RP-F-F08488.jpg/1920px-Les_Docks_et_Liverpool_%28instantanee%29%2C_Angleterre%2C_RP-F-F08488.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 961,
+                  "autor": "Rijksmuseum",
+                  "titulo": "Les Docks et Liverpool (instantanee), Angleterre, RP-F-F08488.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Les_Docks_et_Liverpool_(instantanee),_Angleterre,_RP-F-F08488.jpg"
+                },
+                "fichero": "laminas/commons-85242850.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Print, trade-card (BM Heal,5.13).jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "90129019",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Print%2C_trade-card_%28BM_Heal%2C5.13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1443,
+                  "autor": "desconocido",
+                  "titulo": "Print, trade-card (BM Heal,5.13).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Print,_trade-card_(BM_Heal,5.13).jpg"
+                },
+                "fichero": "laminas/commons-90129019.jpg"
+              },
+              "rotulo": {
+                "texto": "La City aseguraba el viaje",
+                "kicker": "El negocio detrás"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "En mil ochocientos siete Gran Bretaña prohíbe el tráfico, y en mil ochocientos treinta y tres abole la esclavitud en sus colonias. Parece un final feliz. Pero hay que mirar cómo se pagó.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portrait of Willm. Wilberforce Esq (4672154).jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "70053523",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Portrait_of_Willm._Wilberforce_Esq_%284672154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2650,
+                  "autor": "William Holl",
+                  "titulo": "Portrait of Willm. Wilberforce Esq (4672154).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Willm._Wilberforce_Esq_(4672154).jpg"
+                },
+                "fichero": "laminas/commons-70053523.jpg"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Parece un final feliz. *Pero hay que mirar cómo se pagó.*"
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "El Estado pidió prestado veinte millones de libras y se los dio a los propietarios. Es la deuda con la que empezaba este vídeo. Los contribuyentes británicos, incluidos los más pobres, la pagaron con sus impuestos durante generaciones.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Asylum for the Houseless Poor, Cripplegate.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "95448013",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Asylum_for_the_Houseless_Poor%2C_Cripplegate.jpg/1920px-Asylum_for_the_Houseless_Poor%2C_Cripplegate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1294,
+                  "autor": "Daderot",
+                  "titulo": "Asylum for the Houseless Poor, Cripplegate.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Asylum_for_the_Houseless_Poor,_Cripplegate.jpg"
+                },
+                "fichero": "laminas/commons-95448013.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:William Kent - The Treasury, Whitehall, London, Alternate Elevations of the Facade - B1975.2.156 - Yale Center for British Art.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "113467027",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/William_Kent_-_The_Treasury%2C_Whitehall%2C_London%2C_Alternate_Elevations_of_the_Facade_-_B1975.2.156_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 938,
+                  "autor": "William Kent",
+                  "titulo": "William Kent - The Treasury, Whitehall, London, Alternate Elevations of the Facade - B1975.2.156 - Yale Center for British Art.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:William_Kent_-_The_Treasury,_Whitehall,_London,_Alternate_Elevations_of_the_Facade_-_B1975.2.156_-_Yale_Center_for_British_Art.jpg"
+                },
+                "fichero": "laminas/commons-113467027.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Fue una de las mayores transferencias de dinero público a manos privadas de su época. Y es la pista de todo lo demás: el imperio no fue una máquina que enriquecía a un país. Fue una máquina que enriquecía a algunos, con una factura que pagaban otros.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Una máquina que enriquecía *a algunos.* Con la factura de *otros.*",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Gustave Doré - Poor Children of London, circa 1882-83.jpg",
+                "pie": "Londres, grabado de Gustave Doré",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "81224430",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gustave_Dor%C3%A9_-_Poor_Children_of_London%2C_circa_1882-83.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 4002,
+                  "autor": "Gustave Doré",
+                  "titulo": "Gustave Doré - Poor Children of London, circa 1882-83.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Gustave_Dor%C3%A9_-_Poor_Children_of_London,_circa_1882-83.jpg"
+                },
+                "fichero": "laminas/commons-81224430.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "La factura",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Hagamos la contabilidad del imperio. Por un lado, los beneficios: los de la compañía, los de los plantadores, los de los fabricantes de Lancashire, los de los navieros. Eran privados, y eran enormes.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:'View of Mr Perry's Yard, Blackwall' RMG L8728.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "62674897",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/%27View_of_Mr_Perry%27s_Yard%2C_Blackwall%27_RMG_L8728.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 786,
+                  "autor": "William Dixon",
+                  "titulo": "'View of Mr Perry's Yard, Blackwall' RMG L8728.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:%27View_of_Mr_Perry%27s_Yard,_Blackwall%27_RMG_L8728.jpg"
+                },
+                "fichero": "laminas/commons-62674897.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Nabobs LCCN2006681540.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "31784723",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Nabobs_LCCN2006681540.jpg/1920px-Nabobs_LCCN2006681540.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2372,
+                  "autor": "British Cartoon Prints Collection",
+                  "titulo": "Nabobs LCCN2006681540.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Nabobs_LCCN2006681540.jpg"
+                },
+                "fichero": "laminas/commons-31784723.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Por otro lado, los costes. La Armada británica, la más cara del mundo, vigilaba los mares para que los barcos mercantes pudieran navegar. Los ejércitos defendían las fronteras. Todo eso se pagaba con los impuestos de quienes vivían en las islas y no cobraban dividendos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Charles Edward Dixon Duguay Trouin 1789 HMS Implacable Battle of Cape Ortegal Trafalgar.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "116108285",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Charles_Edward_Dixon_Duguay_Trouin_1789_HMS_Implacable_Battle_of_Cape_Ortegal_Trafalgar.jpg/1920px-Charles_Edward_Dixon_Duguay_Trouin_1789_HMS_Implacable_Battle_of_Cape_Ortegal_Trafalgar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1374,
+                  "autor": "Charles Dixon",
+                  "titulo": "Charles Edward Dixon Duguay Trouin 1789 HMS Implacable Battle of Cape Ortegal Trafalgar.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Charles_Edward_Dixon_Duguay_Trouin_1789_HMS_Implacable_Battle_of_Cape_Ortegal_Trafalgar.jpg"
+                },
+                "fichero": "laminas/commons-116108285.jpg"
+              },
+              "rotulo": {
+                "texto": "La Armada la pagaban todos",
+                "kicker": "Los costes"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Red coat for 104th Regiment, British, c. 1812, wool, cotton, brass buttons - Cape Ann Museum - Gloucester, MA - DSC01085.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "85146917",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Red_coat_for_104th_Regiment%2C_British%2C_c._1812%2C_wool%2C_cotton%2C_brass_buttons_-_Cape_Ann_Museum_-_Gloucester%2C_MA_-_DSC01085.jpg/1920px-Red_coat_for_104th_Regiment%2C_British%2C_c._1812%2C_wool%2C_cotton%2C_brass_buttons_-_Cape_Ann_Museum_-_Gloucester%2C_MA_-_DSC01085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2880,
+                  "autor": "Daderot",
+                  "titulo": "Red coat for 104th Regiment, British, c. 1812, wool, cotton, brass buttons - Cape Ann Museum - Gloucester, MA - DSC01085.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Red_coat_for_104th_Regiment,_British,_c._1812,_wool,_cotton,_brass_buttons_-_Cape_Ann_Museum_-_Gloucester,_MA_-_DSC01085.jpg"
+                },
+                "fichero": "laminas/commons-85146917.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:View of Portsmouth Dockyard, J & J Boydell, 1790.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "106845955",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/View_of_Portsmouth_Dockyard%2C_J_%26_J_Boydell%2C_1790.jpg/1920px-View_of_Portsmouth_Dockyard%2C_J_%26_J_Boydell%2C_1790.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1316,
+                  "autor": "Robert Dodd / John &amp; Josiah Boydell",
+                  "titulo": "View of Portsmouth Dockyard, J & J Boydell, 1790.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:View_of_Portsmouth_Dockyard,_J_%26_J_Boydell,_1790.jpg"
+                },
+                "fichero": "laminas/commons-106845955.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:The Capture of the slaver Gabriel by HMS Acorn, 6 July 1841 RMG BHC0628.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "112305416",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/The_Capture_of_the_slaver_Gabriel_by_HMS_Acorn%2C_6_July_1841_RMG_BHC0628.jpg/1920px-The_Capture_of_the_slaver_Gabriel_by_HMS_Acorn%2C_6_July_1841_RMG_BHC0628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1439,
+                  "autor": "Nicholas Matthews Condy",
+                  "titulo": "The Capture of the slaver Gabriel by HMS Acorn, 6 July 1841 RMG BHC0628.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:The_Capture_of_the_slaver_Gabriel_by_HMS_Acorn,_6_July_1841_RMG_BHC0628.jpg"
+                },
+                "fichero": "laminas/commons-112305416.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "En los años ochenta, dos historiadores, Lance Davis y Robert Huttenback, hicieron el cálculo con los libros en la mano. Su conclusión fue incómoda: para el conjunto del país, invertir en el imperio no rendía más que invertir en casa. Para los de dentro del negocio, sí.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crowd on stock exchange floor, London LCCN2014683111.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "66808866",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Crowd_on_stock_exchange_floor%2C_London_LCCN2014683111.jpg/1920px-Crowd_on_stock_exchange_floor%2C_London_LCCN2014683111.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1397,
+                  "autor": "Bain News Service, publisher",
+                  "titulo": "Crowd on stock exchange floor, London LCCN2014683111.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Crowd_on_stock_exchange_floor,_London_LCCN2014683111.jpg"
+                },
+                "fichero": "laminas/commons-66808866.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Aerial cutaway view of Soane's Bank of England by JM Gandy 1830.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "554766",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Aerial_cutaway_view_of_Soane%27s_Bank_of_England_by_JM_Gandy_1830.jpg/1920px-Aerial_cutaway_view_of_Soane%27s_Bank_of_England_by_JM_Gandy_1830.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1089,
+                  "autor": "desconocido",
+                  "titulo": "Aerial cutaway view of Soane's Bank of England by JM Gandy 1830.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Aerial_cutaway_view_of_Soane%27s_Bank_of_England_by_JM_Gandy_1830.jpg"
+                },
+                "fichero": "laminas/commons-554766.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "accountant calculator ledger close",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6780089",
+                  "url": "https://videos.pexels.com/video-files/6780089/6780089-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Artem Podrez",
+                  "pagina": "https://www.pexels.com/video/person-using-calculator-6780089/"
+                },
+                "fichero": "clips/pexels-6780089.mp4"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Es un mecanismo muy viejo: los beneficios se reparten entre pocos y los costes entre todos. Quien pone el riesgo no es quien se lleva el dinero, y quien se lleva el dinero casi nunca es quien paga la cuenta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Beneficios *para pocos.* Costes *para todos.*"
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Flickr - USCapitol - Justice and History Sculpture.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "21977290",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flickr_-_USCapitol_-_Justice_and_History_Sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 860,
+                  "autor": "USCapitol",
+                  "titulo": "Flickr - USCapitol - Justice and History Sculpture.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_Justice_and_History_Sculpture.jpg"
+                },
+                "fichero": "laminas/commons-21977290.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Punch Sambourne In The Coils.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "16310584",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Punch_Sambourne_In_The_Coils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2648,
+                  "autor": "Edward Linley Sambourne (1844-1910)",
+                  "titulo": "Punch Sambourne In The Coils.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Punch_Sambourne_In_The_Coils.jpg"
+                },
+                "fichero": "laminas/commons-16310584.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "El imperio que no se veía",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Pero hay una parte del negocio que no sale en los mapas rosa del imperio, porque ocurría fuera de él. A finales del siglo diecinueve, Londres era la capital financiera del mundo. Los británicos habían invertido en el extranjero unos cuatro mil millones de libras.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:An Exact representation of a certain wise Body without a Head in the East going to pay a Visit to a certain great Body in the West (BM 1868,0808.4334).jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "90157255",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/An_Exact_representation_of_a_certain_wise_Body_without_a_Head_in_the_East_going_to_pay_a_Visit_to_a_certain_great_Body_in_the_West_%28BM_1868%2C0808.4334%29.jpg/1920px-An_Exact_representation_of_a_certain_wise_Body_without_a_Head_in_the_East_going_to_pay_a_Visit_to_a_certain_great_Body_in_the_West_%28BM_1868%2C0808.4334%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1243,
+                  "autor": "desconocido",
+                  "titulo": "An Exact representation of a certain wise Body without a Head in the East going to pay a Visit to a certain great Body in the West (BM 1868,0808.4334).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:An_Exact_representation_of_a_certain_wise_Body_without_a_Head_in_the_East_going_to_pay_a_Visit_to_a_certain_great_Body_in_the_West_(BM_1868,0808.4334).jpg"
+                },
+                "fichero": "laminas/commons-90157255.jpg"
+              },
+              "rotulo": {
+                "texto": "La capital financiera del mundo",
+                "kicker": "Londres, mil novecientos trece"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:De Verslagen Actionist in de Stoel met Rinkels, overreeden geweest van't gelauwerd Paard van Troje (BM 1858,0213.86.19).jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "90160330",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/De_Verslagen_Actionist_in_de_Stoel_met_Rinkels%2C_overreeden_geweest_van%27t_gelauwerd_Paard_van_Troje_%28BM_1858%2C0213.86.19%29.jpg/1920px-De_Verslagen_Actionist_in_de_Stoel_met_Rinkels%2C_overreeden_geweest_van%27t_gelauwerd_Paard_van_Troje_%28BM_1858%2C0213.86.19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1556,
+                  "autor": "desconocido",
+                  "titulo": "De Verslagen Actionist in de Stoel met Rinkels, overreeden geweest van't gelauwerd Paard van Troje (BM 1858,0213.86.19).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:De_Verslagen_Actionist_in_de_Stoel_met_Rinkels,_overreeden_geweest_van%27t_gelauwerd_Paard_van_Troje_(BM_1858,0213.86.19).jpg"
+                },
+                "fichero": "laminas/commons-90160330.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crystal Palace from the northeast from Dickinson's Comprehensive Pictures of the Great Exhibition of 1851. 1854.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "543319",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Crystal_Palace_from_the_northeast_from_Dickinson%27s_Comprehensive_Pictures_of_the_Great_Exhibition_of_1851._1854.jpg/1920px-Crystal_Palace_from_the_northeast_from_Dickinson%27s_Comprehensive_Pictures_of_the_Great_Exhibition_of_1851._1854.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1038,
+                  "autor": "Dickinson Brothers",
+                  "titulo": "Crystal Palace from the northeast from Dickinson's Comprehensive Pictures of the Great Exhibition of 1851. 1854.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Crystal_Palace_from_the_northeast_from_Dickinson%27s_Comprehensive_Pictures_of_the_Great_Exhibition_of_1851._1854.jpg"
+                },
+                "fichero": "laminas/commons-543319.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Casi la mitad estaba en las colonias. Más de la mitad, fuera. En Estados Unidos, en Rusia, y en un país que ahora te va a sonar mucho: Argentina.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Gauchos resting in the pampas by Rugendas.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "24753533",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Gauchos_resting_in_the_pampas_by_Rugendas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1552,
+                  "autor": "Johann Moritz Rugendas",
+                  "titulo": "Gauchos resting in the pampas by Rugendas.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Gauchos_resting_in_the_pampas_by_Rugendas.jpg"
+                },
+                "fichero": "laminas/commons-24753533.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "buenos aires harbour 1880 photograph",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "150264594",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Zuidelijke_scheepswerf_in_Buenos_Aires%2C_RP-F-F16091-A.jpg/1920px-Zuidelijke_scheepswerf_in_Buenos_Aires%2C_RP-F-F16091-A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1775,
+                  "autor": "Rijksmuseum",
+                  "titulo": "Zuidelijke scheepswerf in Buenos Aires, RP-F-F16091-A.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Zuidelijke_scheepswerf_in_Buenos_Aires,_RP-F-F16091-A.jpg",
+                  "orden": 6,
+                  "score": 1
+                },
+                "fichero": "laminas/commons-150264594.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Argentina nunca fue colonia británica. No hizo falta. Los ingleses prestaban el dinero, construían los ferrocarriles, que eran suyos, y compraban la carne y el trigo. En poco más de treinta años, la red pasó de unos dos mil quinientos kilómetros a más de treinta mil.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Buenos Aires. Central Argentine Railway Station.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "33048661",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Buenos_Aires._Central_Argentine_Railway_Station.jpg/1920px-Buenos_Aires._Central_Argentine_Railway_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1261,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Buenos Aires. Central Argentine Railway Station.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Buenos_Aires._Central_Argentine_Railway_Station.jpg"
+                },
+                "fichero": "laminas/commons-33048661.jpg"
+              },
+              "rotulo": {
+                "texto": "Treinta mil kilómetros de vía",
+                "kicker": "Los ferrocarriles ingleses"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Wheat Pampa of Southern Cordoba(GN04627).jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "86718540",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Wheat_Pampa_of_Southern_Cordoba%28GN04627%29.jpg/1920px-Wheat_Pampa_of_Southern_Cordoba%28GN04627%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1440,
+                  "autor": "State Government Photographer",
+                  "titulo": "Wheat Pampa of Southern Cordoba(GN04627).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Wheat_Pampa_of_Southern_Cordoba(GN04627).jpg"
+                },
+                "fichero": "laminas/commons-86718540.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Estancia en argentina 1869.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "152663920",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Estancia_en_argentina_1869.jpg/1920px-Estancia_en_argentina_1869.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1206,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Estancia en argentina 1869.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Estancia_en_argentina_1869.jpg"
+                },
+                "fichero": "laminas/commons-152663920.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Fíjate en el dibujo de aquellas vías. No unían unas ciudades con otras: salían como los radios de una rueda, desde el campo hasta el puerto de Buenos Aires. Estaban pensadas para sacar la carne y el trigo hacia Inglaterra, no para comunicar el país.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Ferrocarril sud argentina inversiones 1865-1890.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "132459987",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ferrocarril_sud_argentina_inversiones_1865-1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1070,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Ferrocarril sud argentina inversiones 1865-1890.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ferrocarril_sud_argentina_inversiones_1865-1890.jpg"
+                },
+                "fichero": "laminas/commons-132459987.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Darsena del puerto madero 1910.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "152737012",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Darsena_del_puerto_madero_1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1123,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Darsena del puerto madero 1910.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Darsena_del_puerto_madero_1910.jpg"
+                },
+                "fichero": "laminas/commons-152737012.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Smithfield Market in 1890.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "123389887",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Smithfield_Market_in_1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1791,
+                  "autor": "Samuel Plimsoll",
+                  "titulo": "Smithfield Market in 1890.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Smithfield_Market_in_1890.jpg"
+                },
+                "fichero": "laminas/commons-123389887.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Los historiadores lo llaman el imperio informal: mandar sin gobernar, con el crédito, el comercio y las vías del tren. Y tenía su riesgo. En mil ochocientos noventa Argentina dejó de pagar y estuvo a punto de arrastrar al banco Barings, uno de los grandes de Londres, que tuvo que ser rescatado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "baring brothers",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "71169295",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Messrs_Baring_Brothers_%26_Co.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1260,
+                  "autor": "Ambrose McEvoy",
+                  "titulo": "Messrs Baring Brothers & Co.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Messrs_Baring_Brothers_%26_Co.jpg",
+                  "orden": 1,
+                  "score": 1
+                },
+                "fichero": "laminas/commons-71169295.jpg"
+              },
+              "rotulo": {
+                "texto": "Barings, mil ochocientos noventa",
+                "kicker": "Un rescate más"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Buenos Aires. Plaza Victoria l LCCN2017656795.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "68072221",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Buenos_Aires._Plaza_Victoria_l_LCCN2017656795.jpg/1920px-Buenos_Aires._Plaza_Victoria_l_LCCN2017656795.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1396,
+                  "autor": "Photoglob Co., publisher",
+                  "titulo": "Buenos Aires. Plaza Victoria l LCCN2017656795.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Buenos_Aires._Plaza_Victoria_l_LCCN2017656795.jpg"
+                },
+                "fichero": "laminas/commons-68072221.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Catedral plaza mayo y tranvias c 1890.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "174173834",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Catedral_plaza_mayo_y_tranvias_c_1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1354,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Catedral plaza mayo y tranvias c 1890.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Catedral_plaza_mayo_y_tranvias_c_1890.jpg"
+                },
+                "fichero": "laminas/commons-174173834.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "Los ferrocarriles no volvieron a manos del país hasta mil novecientos cuarenta y ocho, cuando Perón los nacionalizó. Se los compró a los británicos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Peron meet zijn echtgenote ( Isabella Marinez , tweede vrouw) in Spanje, Bestanddeelnr 917-2114.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "65795928",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Peron_meet_zijn_echtgenote_%28_Isabella_Marinez_%2C_tweede_vrouw%29_in_Spanje%2C_Bestanddeelnr_917-2114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2680,
+                  "autor": "Anefo",
+                  "titulo": "Peron meet zijn echtgenote ( Isabella Marinez , tweede vrouw) in Spanje, Bestanddeelnr 917-2114.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Peron_meet_zijn_echtgenote_(_Isabella_Marinez_,_tweede_vrouw)_in_Spanje,_Bestanddeelnr_917-2114.jpg"
+                },
+                "fichero": "laminas/commons-65795928.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:North Argentine Railways Art Nouveau Medal 1904 new Andes Line Opening, reverse.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "145007538",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/North_Argentine_Railways_Art_Nouveau_Medal_1904_new_Andes_Line_Opening%2C_reverse.jpg/1920px-North_Argentine_Railways_Art_Nouveau_Medal_1904_new_Andes_Line_Opening%2C_reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1920,
+                  "autor": "Berlin-George",
+                  "titulo": "North Argentine Railways Art Nouveau Medal 1904 new Andes Line Opening, reverse.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:North_Argentine_Railways_Art_Nouveau_Medal_1904_new_Andes_Line_Opening,_reverse.jpg"
+                },
+                "fichero": "laminas/commons-145007538.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Buenos Ayres (Aires), Plaza Constitucion LCCN2014709800.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67556560",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Buenos_Ayres_%28Aires%29%2C_Plaza_Constitucion_LCCN2014709800.jpg/1920px-Buenos_Ayres_%28Aires%29%2C_Plaza_Constitucion_LCCN2014709800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1394,
+                  "autor": "Bain News Service, publisher",
+                  "titulo": "Buenos Ayres (Aires), Plaza Constitucion LCCN2014709800.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Buenos_Ayres_(Aires),_Plaza_Constitucion_LCCN2014709800.jpg"
+                },
+                "fichero": "laminas/commons-67556560.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "La factura final",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "El imperio no se acabó por una derrota. Se acabó por una factura. Dos guerras mundiales en treinta años obligaron a Gran Bretaña a vender buena parte de sus inversiones en el extranjero y a pedir prestado a Estados Unidos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:London Blitz 9 September 1940.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "91614034",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/London_Blitz_9_September_1940.jpg/1920px-London_Blitz_9_September_1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1152,
+                  "autor": "H. F. Davis",
+                  "titulo": "London Blitz 9 September 1940.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:London_Blitz_9_September_1940.jpg"
+                },
+                "fichero": "laminas/commons-91614034.jpg"
+              },
+              "rotulo": {
+                "texto": "Se acabó por una factura",
+                "kicker": "Las dos guerras"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1-7th King's Liverpools in a La Bassee sector trench, March 1918 (Q 10737).jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "63295790",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/1-7th_King%27s_Liverpools_in_a_La_Bassee_sector_trench%2C_March_1918_%28Q_10737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1421,
+                  "autor": "Aitken, Thomas Keith",
+                  "titulo": "1-7th King's Liverpools in a La Bassee sector trench, March 1918 (Q 10737).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1-7th_King%27s_Liverpools_in_a_La_Bassee_sector_trench,_March_1918_(Q_10737).jpg"
+                },
+                "fichero": "laminas/commons-63295790.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "En mil novecientos cuarenta y cinco la deuda pública británica era más del doble de lo que producía el país en un año. Londres ya no podía pagar la defensa de un territorio tan grande.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Clement Attlee.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "68721489",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Clement_Attlee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2742,
+                  "autor": "Winterbergen",
+                  "titulo": "Clement Attlee.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Clement_Attlee.jpg"
+                },
+                "fichero": "laminas/commons-68721489.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:British Political Personalities 1936-1945 HU59483.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "25092149",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/British_Political_Personalities_1936-1945_HU59483.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1379,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "British Political Personalities 1936-1945 HU59483.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:British_Political_Personalities_1936-1945_HU59483.jpg"
+                },
+                "fichero": "laminas/commons-25092149.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "En mil novecientos cuarenta y seis Londres firmó un préstamo con Washington por tres mil setecientos cincuenta millones de dólares. La última cuota se pagó a finales de dos mil seis.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:John Maynard Keynes 1929.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "170838312",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/John_Maynard_Keynes_1929.jpg/1920px-John_Maynard_Keynes_1929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1492,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "John Maynard Keynes 1929.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:John_Maynard_Keynes_1929.jpg"
+                },
+                "fichero": "laminas/commons-170838312.jpg"
+              },
+              "rotulo": {
+                "texto": "La última cuota, en dos mil seis",
+                "kicker": "El préstamo de Washington"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17060776",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Last_meeting_of_the_Potsdam_Conference_in_Potsdam%2C_Germany._Seated_around_the_conference_table%2C_President_Harry_S...._-_NARA_-_198951.jpg/1920px-Last_meeting_of_the_Potsdam_Conference_in_Potsdam%2C_Germany._Seated_around_the_conference_table%2C_President_Harry_S...._-_NARA_-_198951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1564,
+                  "autor": "Unknown author Unknown author or not provided",
+                  "titulo": "Last meeting of the Potsdam Conference in Potsdam, Germany. Seated around the conference table, President Harry S.... - NARA - 198951.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Last_meeting_of_the_Potsdam_Conference_in_Potsdam,_Germany._Seated_around_the_conference_table,_President_Harry_S...._-_NARA_-_198951.jpg"
+                },
+                "fichero": "laminas/commons-17060776.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Dos mil seis y dos mil quince. Dos deudas del imperio: una de la guerra que lo hundió y otra de la esclavitud que lo enriqueció. Londres las fue pagando hasta bien entrado el siglo veintiuno.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "Dos mil seis. Dos mil quince. *Las facturas seguían llegando.*",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Big Ben (first version) 1856.png",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "158690521",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Big_Ben_%28first_version%29_1856.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1213,
+                  "autor": "Illustrated London News",
+                  "titulo": "Big Ben (first version) 1856.png",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Big_Ben_(first_version)_1856.png"
+                },
+                "fichero": "laminas/commons-158690521.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "La India se independizó en mil novecientos cuarenta y siete. En los quince años siguientes, casi todas las colonias de África y el Caribe siguieron el mismo camino. Y cada vez era más claro que casi ninguna de ellas pagaba su propia defensa.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Photograph of President Truman shaking hands with Prime Minister Jawaharlal Nehru of India upon Nehru's arrival at... - NARA - 200152.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17057324",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Photograph_of_President_Truman_shaking_hands_with_Prime_Minister_Jawaharlal_Nehru_of_India_upon_Nehru%27s_arrival_at..._-_NARA_-_200152.jpg/1920px-Photograph_of_President_Truman_shaking_hands_with_Prime_Minister_Jawaharlal_Nehru_of_India_upon_Nehru%27s_arrival_at..._-_NARA_-_200152.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1538,
+                  "autor": "Abbie Rowe",
+                  "titulo": "Photograph of President Truman shaking hands with Prime Minister Jawaharlal Nehru of India upon Nehru's arrival at... - NARA - 200152.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Photograph_of_President_Truman_shaking_hands_with_Prime_Minister_Jawaharlal_Nehru_of_India_upon_Nehru%27s_arrival_at..._-_NARA_-_200152.jpg"
+                },
+                "fichero": "laminas/commons-17057324.jpg"
+              },
+              "rotulo": {
+                "texto": "Mil novecientos cuarenta y siete",
+                "kicker": "Se acabó el imperio"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "indian flag waving blue sky",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11911249",
+                  "url": "https://videos.pexels.com/video-files/11911249/11911249-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Rahul Sapra",
+                  "pagina": "https://www.pexels.com/video/flag-of-india-11911249/"
+                },
+                "fichero": "clips/pexels-11911249.mp4"
+              },
+              "camara": "push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "Lo que juega en contra",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Ahora, lo que juega en contra de esta historia, que lo tiene. Primero: hay historiadores que defienden el balance contrario. Niall Ferguson, por ejemplo, sostiene que el imperio llevó el comercio libre, el capital y las instituciones a medio mundo, y que muchos países salieron ganando.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:India showing Railways open and under construction on 31-03-1915 (13442000).jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "135002580",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/India_showing_Railways_open_and_under_construction_on_31-03-1915_%2813442000%29.jpg/1920px-India_showing_Railways_open_and_under_construction_on_31-03-1915_%2813442000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1545,
+                  "autor": "Survey of India",
+                  "titulo": "India showing Railways open and under construction on 31-03-1915 (13442000).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:India_showing_Railways_open_and_under_construction_on_31-03-1915_(13442000).jpg"
+                },
+                "fichero": "laminas/commons-135002580.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Richard Cobden MP.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "87763393",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Richard_Cobden_MP.jpg/1920px-Richard_Cobden_MP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2331,
+                  "autor": "Ary Scheffer",
+                  "titulo": "Richard Cobden MP.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Richard_Cobden_MP.jpg"
+                },
+                "fichero": "laminas/commons-87763393.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "law books library shelves close",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3009534",
+                  "url": "https://videos.pexels.com/video-files/3009534/3009534-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Matthias Groeneveld",
+                  "pagina": "https://www.pexels.com/video/stack-of-books-3009534/"
+                },
+                "fichero": "clips/pexels-3009534.mp4"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Segundo: lo que pasó con India se discute. Su economía creció entre mil setecientos y mil novecientos cincuenta, pero el resto del mundo creció mucho más deprisa. La parte que le tocaba bajó porque otros crecieron más, no solo porque se la quitaran.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:An Indian Railway Station, 1854.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "49482287",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/An_Indian_Railway_Station%2C_1854.jpg/1920px-An_Indian_Railway_Station%2C_1854.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1294,
+                  "autor": "Illustrated London News",
+                  "titulo": "An Indian Railway Station, 1854.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:An_Indian_Railway_Station,_1854.jpg"
+                },
+                "fichero": "laminas/commons-49482287.jpg"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Creció. *Pero otros crecieron mucho más.*"
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Y tercero: Gran Bretaña se hizo rica sobre todo con su propia revolución industrial, con carbón, vapor y fábricas. Hay estudios que dicen que sin las colonias habría sido casi igual, y otros que dicen lo contrario. Los historiadores siguen sin ponerse de acuerdo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Coalbrookdale loco.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "7776361",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Coalbrookdale_loco.jpg/1920px-Coalbrookdale_loco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1246,
+                  "autor": "Science Museum",
+                  "titulo": "Coalbrookdale loco.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Coalbrookdale_loco.jpg"
+                },
+                "fichero": "laminas/commons-7776361.jpg"
+              },
+              "rotulo": {
+                "texto": "Tercero: la revolución industrial",
+                "kicker": "Sin ponerse de acuerdo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:James Eckford Lauder - James Watt and the Steam Engine- the Dawn of the Nineteenth Century - Google Art Project.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "21866007",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/James_Eckford_Lauder_-_James_Watt_and_the_Steam_Engine-_the_Dawn_of_the_Nineteenth_Century_-_Google_Art_Project.jpg/1920px-James_Eckford_Lauder_-_James_Watt_and_the_Steam_Engine-_the_Dawn_of_the_Nineteenth_Century_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1173,
+                  "autor": "James Eckford Lauder (1811 - 1869) (Scottish) Details on Goo",
+                  "titulo": "James Eckford Lauder - James Watt and the Steam Engine- the Dawn of the Nineteenth Century - Google Art Project.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:James_Eckford_Lauder_-_James_Watt_and_the_Steam_Engine-_the_Dawn_of_the_Nineteenth_Century_-_Google_Art_Project.jpg"
+                },
+                "fichero": "laminas/commons-21866007.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Coal thrusters & trapper (Cobden 1854).jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "86311689",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Coal_thrusters_%26_trapper_%28Cobden_1854%29.jpg/1920px-Coal_thrusters_%26_trapper_%28Cobden_1854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1143,
+                  "autor": "John C. Cobden",
+                  "titulo": "Coal thrusters & trapper (Cobden 1854).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Coal_thrusters_%26_trapper_(Cobden_1854).jpg"
+                },
+                "fichero": "laminas/commons-86311689.jpg"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:PSM V39 D306 Hargreave improved spinning jenny.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "12134300",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/PSM_V39_D306_Hargreave_improved_spinning_jenny.jpg/1920px-PSM_V39_D306_Hargreave_improved_spinning_jenny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1323,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "PSM V39 D306 Hargreave improved spinning jenny.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:PSM_V39_D306_Hargreave_improved_spinning_jenny.jpg"
+                },
+                "fichero": "laminas/commons-12134300.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Lo que sí se apoya en documentos, no en opiniones, es lo anterior: quién cobró, quién pagó y cuánto tardó en saldarse la cuenta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old documents archive dust light",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6549658",
+                  "url": "https://videos.pexels.com/video-files/6549658/6549658-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/librarian-reading-a-book-6549658/"
+                },
+                "fichero": "clips/pexels-6549658.mp4"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "frase",
+              "texto": "*Quién cobró.* Quién pagó. Cuánto tardó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Cierre",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Todo esto parece lejano. No lo es. El mecanismo es el mismo en cualquier época: un sector gana dinero cuando todo va bien y, cuando va mal, el Estado lo rescata con el dinero de todos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "bank building crisis workers leaving boxes",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7463953",
+                  "url": "https://videos.pexels.com/video-files/7463953/7463953-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/a-man-passing-a-package-to-another-person-7463953/"
+                },
+                "fichero": "clips/pexels-7463953.mp4"
+              },
+              "camara": "push",
+              "rotulo": {
+                "texto": "El mismo mecanismo",
+                "kicker": "Hoy"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "people in line outside bank worried",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5699953",
+                  "url": "https://videos.pexels.com/video-files/5699953/5699953-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/women-in-a-queue-walking-towards-a-shop-5699953/"
+                },
+                "fichero": "clips/pexels-5699953.mp4"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "stock market screens red falling",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38557069",
+                  "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/dynamic-stock-market-display-analysis-38557069/"
+                },
+                "fichero": "clips/pexels-38557069.mp4"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "En dos mil ocho se rescató a los bancos con dinero público, y la cuenta la pagaron los que tenían una nómina, no los que habían tomado los riesgos. Mil setecientos setenta y tres, dos mil ocho: la misma película, con distinto reparto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "frase",
+              "texto": "*La misma película.* Con distinto reparto."
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "empty office desk financial crisis",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8347240",
+                  "url": "https://videos.pexels.com/video-files/8347240/8347240-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Kampus Production",
+                  "pagina": "https://www.pexels.com/video/an-empty-office-8347240/"
+                },
+                "fichero": "clips/pexels-8347240.mp4"
+              },
+              "camara": "panR"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "closed shop windows crisis street",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6354516",
+                  "url": "https://videos.pexels.com/video-files/6354516/6354516-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Greg Thames",
+                  "pagina": "https://www.pexels.com/video/a-signage-in-a-window-6354516/"
+                },
+                "fichero": "clips/pexels-6354516.mp4"
+              },
+              "camara": "push"
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Y en nuestro lado del mundo, la lección de Argentina sigue vigente. Quien construye el puerto, las vías, la red eléctrica o el banco no necesita una bandera ni un soldado para mandar. Le basta con que el país dependa de lo que le presta o de lo que le compra.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "container port cranes aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "32746863",
+                  "url": "https://videos.pexels.com/video-files/32746863/13960919_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 19,
+                  "autor": "Toàn BDS",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-bustling-container-port-operations-32746863/"
+                },
+                "fichero": "clips/pexels-32746863.mp4"
+              },
+              "camara": "pull",
+              "rotulo": {
+                "texto": "Sin bandera ni soldados",
+                "kicker": "Hoy también"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "high voltage power lines sunset",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15357261",
+                  "url": "https://videos.pexels.com/video-files/15357261/15357261-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "C A",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-moving-clouds-over-a-transmission-tower-15357261/"
+                },
+                "fichero": "clips/pexels-15357261.mp4"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "train freight railway countryside",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12414392",
+                  "url": "https://videos.pexels.com/video-files/12414392/12414392-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "100 Bucks Production",
+                  "pagina": "https://www.pexels.com/video/freight-train-on-railway-tracks-12414392/"
+                },
+                "fichero": "clips/pexels-12414392.mp4"
+              },
+              "camara": "panL"
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Por eso, cuando te cuenten que algo es un gran negocio para el país, haz una sola pregunta, la que casi nunca se hace: ¿para quién? Y después otra: ¿y quién paga la factura?",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "person reading contract bill pen close",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7841638",
+                  "url": "https://videos.pexels.com/video-files/7841638/7841638-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/person-holding-contract-7841638/"
+                },
+                "fichero": "clips/pexels-7841638.mp4"
+              },
+              "camara": "push"
+            },
+            {
+              "tipo": "frase",
+              "texto": "Primero: *¿para quién?* Después: *¿quién paga?*",
+              "night": true
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "receipt bill hand holding",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5981292",
+                  "url": "https://videos.pexels.com/video-files/5981292/5981292-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 11,
+                  "autor": "https://kaboompics.com/",
+                  "pagina": "https://www.pexels.com/video/a-women-having-problem-with-finances-5981292/"
+                },
+                "fichero": "clips/pexels-5981292.mp4"
+              },
+              "camara": "pull"
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Esa es la historia del Imperio británico, y de casi todos los imperios. No de un país que se hizo rico, sino de unos pocos que cobraron y de muchos que pagaron. Hasta dos mil quince.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "sub": "Quién cobra y quién paga: ahí está la historia.",
+                "suscribete": true
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "london thames sunset skyline",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "1096620",
+                  "url": "https://videos.pexels.com/video-files/1096620/1096620-uhd_1920_1440_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Denis Coppeland",
+                  "pagina": "https://www.pexels.com/video/time-lapse-of-sunset-at-a-city-1096620/"
+                },
+                "fichero": "clips/pexels-1096620.mp4"
+              },
+              "camara": "pull"
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "old world map globe close",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4696463",
+                  "url": "https://videos.pexels.com/video-files/4696463/4696463-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Martina Tomšič",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-a-globe-4696463/"
+                },
+                "fichero": "clips/pexels-4696463.mp4"
+              },
+              "camara": "pull"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Quién Ganó Dinero De Verdad Con El Imperio Británico (Y Quién Pagó La Factura)",
+    "descripcion": "El 1 de febrero de 2015 el Tesoro británico amortizó unos bonos del siglo XIX. Entre ellos iba una deuda de 1833: 20 millones de libras que el Estado pidió prestados para indemnizar a los dueños de esclavos cuando se abolió la esclavitud. Casi el 40 % de lo que gastó entonces el Gobierno. Los esclavizados no recibieron nada.\n\nEste vídeo cuenta cómo ganó dinero el Imperio británico y, sobre todo, quién cobraba y quién pagaba la cuenta.\n\nLO QUE CUENTA\n\n• La Compañía de las Indias Orientales: una empresa privada que cobraba los impuestos de decenas de millones de personas y tenía un ejército de más de 200.000 hombres. En 1773, al borde de la quiebra, fue rescatada con dinero público; el monopolio del té que recibió provocó el motín de Boston.\n\n• El té, la plata y el opio. China solo aceptaba plata; la compañía cultivaba opio en Bengala y lo subastaba a comerciantes privados que lo llevaban de contrabando. Tras la guerra, el tratado de Nankín (1842) obligó a China a pagar 21 millones de dólares de plata: 6 por el opio destruido, 3 por deudas de comerciantes y 12 por los gastos de la guerra.\n\n• El algodón. La India pesaba cerca del 24 % de la economía mundial en 1700 y alrededor del 4 % en 1950, según las estimaciones de Angus Maddison. Gran Bretaña vetó sus telas estampadas en 1700 y 1721, y después las inundó con las de Lancashire.\n\n• Esclavitud y seguros. Más de tres millones de africanos fueron embarcados en barcos británicos; el negocio estaba en la City: bancos, aseguradoras y comerciantes. La indemnización de 1833 se terminó de pagar en 2015.\n\n• La factura. Davis y Huttenback calcularon en los años ochenta que, para el conjunto del país, invertir en el imperio no rendía más que invertir en casa. Los beneficios eran privados; la Armada y los ejércitos los pagaban todos.\n\n• El imperio informal. En 1913 Gran Bretaña tenía unos 4.000 millones de libras invertidas en el extranjero, algo menos de la mitad en las colonias. En Argentina construyó los ferrocarriles, que se nacionalizaron en 1948, y en 1890 la crisis argentina estuvo a punto de hundir al banco Barings.\n\n• El final. En 1945 la deuda pública superaba el doble de lo que producía el país. El préstamo de Washington de 1946, 3.750 millones de dólares, se terminó de pagar a finales de 2006.\n\nEl vídeo incluye lo que juega en contra de su tesis: el balance que defienden historiadores como Niall Ferguson, la discusión sobre cuánto del declive indio fue obra del dominio británico, y el debate sobre si la revolución industrial británica habría sido igual sin las colonias.\n\nFUENTES\nFull Fact, Tesoro británico y Banco de Inglaterra — la indemnización de 1833 y su amortización en 2015\nWikipedia, National Archives (Reino Unido) — tratado de Nankín, 1842\nAngus Maddison — Contours of the World Economy\nLance Davis y Robert Huttenback — Mammon and the Pursuit of Empire\nCambridge University Press y Duke University Press — inversión británica y ferrocarriles en Argentina\nImágenes: cuadros, grabados y mapas de dominio público de Wikimedia Commons\n\nSi encuentras un error, dímelo en comentarios y lo corrijo.\n\n#ImperioBritánico #Historia #Economía",
+    "etiquetas": [
+      "imperio britanico",
+      "historia economica",
+      "compañia de las indias orientales",
+      "east india company",
+      "guerra del opio",
+      "tratado de nankin",
+      "esclavitud abolicion 1833",
+      "imperio informal",
+      "argentina ferrocarriles",
+      "ferrocarriles britanicos argentina",
+      "barings 1890",
+      "historia del imperio britanico",
+      "economia imperio britanico",
+      "quien gano dinero con el imperio",
+      "robert clive",
+      "plassey",
+      "india colonial",
+      "algodon india",
+      "nacionalizacion ferrocarriles peron",
+      "divulgacion economica",
+      "historia del dinero",
+      "capital x"
+    ]
+  }
+}

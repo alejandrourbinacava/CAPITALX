@@ -32,6 +32,7 @@ import holanda from "../content/holanda.json";
 import eeuuMigracion from "../content/eeuu-migracion.json";
 import franciaDeuda from "../content/francia-deuda.json";
 import turquiaTipos from "../content/turquia-tipos.json";
+import imperioBritanico from "../content/imperio-britanico.json";
 import pensionesT from "../content/pensiones.timings.json";
 import alemaniaTrabajoT from "../content/alemania-trabajo.timings.json";
 import chinaInmobiliarioT from "../content/china-inmobiliario.timings.json";
@@ -47,6 +48,7 @@ import holandaT from "../content/holanda.timings.json";
 import eeuuMigracionT from "../content/eeuu-migracion.timings.json";
 import franciaDeudaT from "../content/francia-deuda.timings.json";
 import turquiaTiposT from "../content/turquia-tipos.timings.json";
+import imperioBritanicoT from "../content/imperio-britanico.timings.json";
 import diario from "../content/diario.json";
 import diarioT from "../content/diario.timings.json";
 
@@ -72,6 +74,7 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "eeuu-migracion", guion: eeuuMigracion as any, tiempos: eeuuMigracionT as any },
   { id: "francia-deuda", guion: franciaDeuda as any, tiempos: franciaDeudaT as any },
   { id: "turquia-tipos", guion: turquiaTipos as any, tiempos: turquiaTiposT as any },
+  { id: "imperio-britanico", guion: imperioBritanico as any, tiempos: imperioBritanicoT as any },
   { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 
