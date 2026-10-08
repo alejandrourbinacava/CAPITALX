@@ -1,0 +1,26 @@
+{
+  "b0-01": {
+    "audio": "voice/imperio-britanico-b0-01.mp3",
+    "duration": 16.393288,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b0-02": {
+    "audio": "voice/imperio-britanico-b0-02.mp3",
+    "duration": 13.467574,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b0-04": {
+    "audio": "voice/imperio-britanico-b0-04.mp3",
+    "duration": 13.142494,
+    "transcript": null,
+    "credit_cost": 222
+  },
+  "b1-02": {
+    "audio": "voice/imperio-britanico-b1-02.mp3",
+    "duration": 13.839093,
+    "transcript": null,
+    "credit_cost": 250
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "slug": "documental-prueba",
+  "titulo": "Prueba documental",
+  "voz": {
+    "proveedor": "genaipro",
+    "id": "j41pQugxGaKleSQLIyG2",
+    "nombre": "Marciano Rajoy - Realistic and Commercial",
+    "modelo": "eleven_multilingual_v2",
+    "velocidad": 1.1,
+    "estabilidad": 0.5,
+    "similitud": 0.75,
+    "estilo": 0,
+    "speakerBoost": true
+  },
+  "wpm": 145,
+  "musica": "elegia.wav",
+  "estilo": {
+    "plantilla": "documental"
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Prueba",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "El uno de febrero de dos mil quince, el Tesoro británico hizo un pago discreto. Amortizó unos bonos del Estado que llevaban en circulación desde el siglo diecinueve. Y dentro de ellos iba una deuda concreta, contraída en mil ochocientos treinta y tres.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "numero": "I",
+                "titulo": "Una deuda de 1833",
+                "sub": "Londres · 1 de febrero de 2015"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A view of the Bank of England, Threadneedle Street, London (NYPL Hades-280166-1253467).jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "46736038",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/A_view_of_the_Bank_of_England%2C_Threadneedle_Street%2C_London_%28NYPL_Hades-280166-1253467%29.jpg/1920px-A_view_of_the_Bank_of_England%2C_Threadneedle_Street%2C_London_%28NYPL_Hades-280166-1253467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1402,
+                  "autor": "Scan by NYPL",
+                  "titulo": "A view of the Bank of England, Threadneedle Street, London (NYPL Hades-280166-1253467).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Bank_of_England,_Threadneedle_Street,_London_(NYPL_Hades-280166-1253467).jpg"
+                },
+                "fichero": "laminas/commons-46736038.jpg"
+              },
+              "rotulo": {
+                "texto": "Uno de febrero de dos mil quince",
+                "kicker": "Un pago discreto"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Straatgezicht in Londen met links de Bank of England en rechts de Royal Exchange London (titel op object), RP-F-F01134-AA.jpg",
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "85825896",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Straatgezicht_in_Londen_met_links_de_Bank_of_England_en_rechts_de_Royal_Exchange_London_%28titel_op_object%29%2C_RP-F-F01134-AA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1332,
+                  "autor": "Rijksmuseum",
+                  "titulo": "Straatgezicht in Londen met links de Bank of England en rechts de Royal Exchange London (titel op object), RP-F-F01134-AA.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Straatgezicht_in_Londen_met_links_de_Bank_of_England_en_rechts_de_Royal_Exchange_London_(titel_op_object),_RP-F-F01134-AA.jpg"
+                },
+                "fichero": "laminas/commons-85825896.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "Se pidieron prestados veinte millones de libras. Era casi el cuarenta por ciento de todo lo que gastó el Estado aquel año. ¿Para qué? Para indemnizar a los dueños de esclavos, porque el Imperio acababa de abolir la esclavitud.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Robert Wallis - Interior of the House of Commons - B1982.31.31 - Yale Center for British Art.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "113379873",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Robert_Wallis_-_Interior_of_the_House_of_Commons_-_B1982.31.31_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1428,
+                  "autor": "Robert William Wallis",
+                  "titulo": "Robert Wallis - Interior of the House of Commons - B1982.31.31 - Yale Center for British Art.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Robert_Wallis_-_Interior_of_the_House_of_Commons_-_B1982.31.31_-_Yale_Center_for_British_Art.jpg"
+                },
+                "fichero": "laminas/commons-113379873.jpg"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LA INDEMNIZACIÓN DE 1833",
+              "fuente": "Full Fact · Tesoro británico",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 40,
+                "etiqueta": "del gasto del Estado en un año",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Cane holeing, in a Jamaican plantation - Creusement des sillons pour la canne à sucre, Jamaïque.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "163525300",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Cane_holeing%2C_in_a_Jamaican_plantation_-_Creusement_des_sillons_pour_la_canne_%C3%A0_sucre%2C_Jama%C3%AFque.jpg/1920px-Cane_holeing%2C_in_a_Jamaican_plantation_-_Creusement_des_sillons_pour_la_canne_%C3%A0_sucre%2C_Jama%C3%AFque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1278,
+                  "autor": "anonymous",
+                  "titulo": "Cane holeing, in a Jamaican plantation - Creusement des sillons pour la canne à sucre, Jamaïque.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Cane_holeing,_in_a_Jamaican_plantation_-_Creusement_des_sillons_pour_la_canne_%C3%A0_sucre,_Jama%C3%AFque.jpg"
+                },
+                "fichero": "laminas/commons-163525300.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Esta es la historia de cómo el Imperio británico ganó dinero. Pero no la que sale en los libros de texto, la de un país entero haciéndose rico con sus colonias. Es otra: la de quién cobraba, y la de quién pagaba la cuenta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:British Empire 1897.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "36387",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/British_Empire_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1461,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "British Empire 1897.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:British_Empire_1897.jpg"
+                },
+                "fichero": "laminas/commons-36387.jpg"
+              },
+              "rotulo": {
+                "texto": "Quién cobraba, y quién pagaba",
+                "kicker": "La pregunta"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1794 Samuel Dunn Wall Map of the World in Hemispheres - Geographicus - World2-dunn-1794.jpg",
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "14675675",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg/1920px-1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1617,
+                  "autor": "Thomas Kitchin",
+                  "titulo": "1794 Samuel Dunn Wall Map of the World in Hemispheres - Geographicus - World2-dunn-1794.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg"
+                },
+                "fichero": "laminas/commons-14675675.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Hasta que en mil setecientos cincuenta y siete, en una llanura de Bengala, todo cambia. Un empleado de la compañía, Robert Clive, derrota con unos tres mil hombres al ejército del gobernante de Bengala. Y lo hace, sobre todo, sobornando a su general.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Lord Clive meeting with Mir Jafar after the Battle of Plassey.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "565912",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg/1920px-Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1496,
+                  "autor": "Francis Hayman",
+                  "titulo": "Lord Clive meeting with Mir Jafar after the Battle of Plassey.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg"
+                },
+                "fichero": "laminas/commons-565912.jpg"
+              },
+              "rotulo": {
+                "texto": "Plassey, mil setecientos cincuenta y siete",
+                "kicker": "La batalla"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:The battle of Plassey, June 23, 1757.jpg",
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "39277111",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/The_battle_of_Plassey%2C_June_23%2C_1757.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1162,
+                  "autor": "Allan Stewart",
+                  "titulo": "The battle of Plassey, June 23, 1757.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:The_battle_of_Plassey,_June_23,_1757.jpg"
+                },
+                "fichero": "laminas/commons-39277111.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

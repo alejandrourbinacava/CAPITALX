@@ -1083,7 +1083,9 @@ function validar(doc, tema) {
     // metronomo. Ahora se pide mas trozos y cada uno responde por su tipo.
     // Una lamina aguanta mas que un clip: el cuadro se recorre con la camara.
     const conLamina = (p.escenas ?? []).some((e) => e.tipo === "lamina");
-    const hacen = Math.min(5, Math.max(1, Math.ceil(segundos / (conLamina ? 8 : 5.5))));
+    // En un documental la lamina se sostiene mas: el empuje lento aguanta doce segundos.
+    const sostiene = conLamina ? (doc.estilo?.plantilla === "documental" ? 13 : 8) : 5.5;
+    const hacen = Math.min(5, Math.max(1, Math.ceil(segundos / sostiene)));
     if (segundos > 1 && n < hacen) {
       di(
         `${p.id}: ${n === 0 ? "no tiene 'escenas'" : `solo tiene ${n}`}. ` +
@@ -1127,7 +1129,8 @@ function validar(doc, tema) {
     else {
       chars += p.vo.length;
       if (p.vo.length < 22) di(`${donde}: el 'vo' es demasiado corto (${p.vo.length} caracteres)`);
-      if (p.vo.length > 320) di(`${donde}: el 'vo' es demasiado largo (${p.vo.length} caracteres, máximo 260). Pártelo en dos planos.`);
+      const maxVo = doc.estilo?.plantilla === "documental" ? 500 : 320;
+      if (p.vo.length > maxVo) di(`${donde}: el 'vo' es demasiado largo (${p.vo.length} caracteres, máximo ${maxVo}). Pártelo en dos planos.`);
       if (/\d/.test(p.vo)) di(`${donde}: el 'vo' lleva cifras en número. Se lee en voz alta: escríbelas con letras.`);
     }
     const vel = p.voz?.speed;
@@ -1144,7 +1147,8 @@ function validar(doc, tema) {
     else {
       chars += p.vo.length;
       if (p.vo.length < 22) di(`${donde}: el 'vo' es demasiado corto (${p.vo.length} caracteres)`);
-      if (p.vo.length > 320) di(`${donde}: el 'vo' es demasiado largo (${p.vo.length} caracteres, máximo 260). Pártelo en dos planos.`);
+      const maxVo = doc.estilo?.plantilla === "documental" ? 500 : 320;
+      if (p.vo.length > maxVo) di(`${donde}: el 'vo' es demasiado largo (${p.vo.length} caracteres, máximo ${maxVo}). Pártelo en dos planos.`);
       if (/\d/.test(p.vo)) di(`${donde}: el 'vo' lleva cifras en número. Se lee en voz alta: escríbelas con letras.`);
     }
 
@@ -1197,7 +1201,9 @@ function validar(doc, tema) {
   if (chars < min) {
     di(`el guion suma ${chars} caracteres y salen unos ${(chars / 1000).toFixed(1)} minutos. Hacen falta al menos ${min} para llegar a los once minutos: desarrolla más los porqués con datos de la ficha, no con relleno.`);
   }
-  if (chars > 16000) {
+  // Un documental largo se mide aparte: hasta unos sesenta minutos de locucion.
+  const maxChars = doc.estilo?.plantilla === "documental" ? 62000 : 16000;
+  if (chars > maxChars) {
     di(`el guion suma ${chars} caracteres y se pasa de quince minutos. Quita unos ${chars - 14000}: fusiona planos que digan lo mismo y corta los que no aporten un dato nuevo. No toques los bloques, quita planos.`);
   }
 

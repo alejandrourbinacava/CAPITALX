@@ -213,6 +213,24 @@ async function recortar(foto, tono) {
  *
  * La API pide un User-Agent con contacto; sin el, rechaza.
  */
+/**
+ * fetch con paciencia. Commons y su servidor de miniaturas devuelven 429 cuando
+ * se les pide mucho seguido, y 503 cuando estan saturados; en los dos casos
+ * basta con esperar. Sin esto, una imagen buena se perdia por una racha de
+ * peticiones y el plano acababa en una pantalla de texto.
+ */
+async function pedir(url, opciones = {}, intentos = 7) {
+  let r;
+  for (let i = 0; i < intentos; i++) {
+    r = await fetch(url, opciones);
+    if (r.status !== 429 && r.status < 500) return r;
+    const aviso = Number(r.headers.get("retry-after"));
+    const espera = Number.isFinite(aviso) && aviso > 0 ? aviso * 1000 : Math.min(60000, 2000 * 2 ** i);
+    await new Promise((ok) => setTimeout(ok, espera));
+  }
+  return r;
+}
+
 const UA = "CapitalX/1.0 (https://github.com/alejandrourbinacava/CAPITALX; contacto en el repositorio)";
 const LICENCIA_LIBRE = /public domain|^pd\b|^pd-|cc0|cc zero|no restrictions/i;
 const sinHtml = (s) => String(s ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
@@ -284,7 +302,7 @@ async function cargarCommons(titulo) {
       iiprop: "url|size|mime|extmetadata",
       iiurlwidth: "1920",
     });
-  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  const r = await pedir(url, { headers: { "User-Agent": UA } });
   if (!r.ok) throw new Error(`commons ${r.status}`);
   const d = await r.json();
   const pg = Object.values(d.query?.pages ?? {})[0];
@@ -324,7 +342,7 @@ async function buscarCommons(q) {
       iiprop: "url|size|mime|extmetadata",
       iiurlwidth: "1920",
     });
-  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  const r = await pedir(url, { headers: { "User-Agent": UA } });
   if (!r.ok) throw new Error(`commons ${r.status}`);
   const d = await r.json();
 
@@ -368,7 +386,7 @@ async function buscarCommons(q) {
 async function descargarLamina(l) {
   const dest = path.join(DESTINO_LAMINAS, `${l.fuente}-${l.id}.jpg`);
   if (fs.existsSync(dest)) return { dest, mb: fs.statSync(dest).size / 1048576, cache: true };
-  const r = await fetch(l.url, { headers: { "User-Agent": UA } });
+  const r = await pedir(l.url, { headers: { "User-Agent": UA } });
   if (!r.ok) throw new Error(`descarga ${r.status}`);
   fs.mkdirSync(DESTINO_LAMINAS, { recursive: true });
   const buf = Buffer.from(await r.arrayBuffer());
