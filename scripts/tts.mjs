@@ -1,10 +1,15 @@
 /**
  * Locucion para Capital X.
  *
- * Manda cada linea del guion a ai33.pro con la voz clonada, espera a que el
+ * Manda cada linea del guion al proveedor de voz que declare, espera a que el
  * trabajo termine, descarga el mp3 y anota la duracion real de cada plano.
  * Esa duracion es la que manda despues en el montaje: los graficos se ajustan
  * a la voz, no al reves.
+ *
+ * Proveedores (campo `voz.proveedor` del guion):
+ *   ai33      el de siempre: voz clonada, token en AI33_API_KEY (por defecto)
+ *   genaipro  Labs de GenAIPro: modelos de ElevenLabs con voces de biblioteca,
+ *             token en GENAIPRO_API_KEY
  *
  * Uso:  node scripts/tts.mjs content/irlanda.json [--bloque b0] [--dry]
  */
@@ -13,7 +18,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 
-const BASE = process.env.AI33_BASE_URL || "https://api.ai33.pro";
+const BASE_AI33 = process.env.AI33_BASE_URL || "https://api.ai33.pro";
+const BASE_GENAI = "https://genaipro.io/api";
 
 function loadEnv() {
   const f = path.join(process.cwd(), ".env");
@@ -25,52 +31,10 @@ function loadEnv() {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const clamp = (x, a, b) => Math.min(b, Math.max(a, x));
 
-async function api(pathname, init = {}) {
-  const res = await fetch(BASE + pathname, {
-    ...init,
-    headers: { "xi-api-key": process.env.AI33_API_KEY, ...(init.headers || {}) },
-  });
-  const txt = await res.text();
-  try {
-    return JSON.parse(txt);
-  } catch {
-    throw new Error(`${pathname} -> ${res.status} ${txt.slice(0, 200)}`);
-  }
-}
-
-/**
- * ai33 solo deja pasar `speed` al motor: `emotion`, `pitch` y `vol` los
- * descarta. Asi que la variedad de entonacion se consigue con dos cosas:
- * la velocidad por plano y la puntuacion del propio texto.
- */
-async function synth(text, voiceId, speed = 1) {
-  const start = await api("/v3/text-to-speech", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      text,
-      voice_id: voiceId,
-      provider: "clone",
-      speed,
-      with_transcript: true, // tiempos palabra a palabra para sincronizar
-      with_loudnorm: true, // nivel homogeneo entre planos
-    }),
-  });
-  if (!start.success) throw new Error(JSON.stringify(start));
-
-  for (let i = 0; i < 120; i++) {
-    await sleep(2500);
-    const t = await api(`/v3/task/${start.task_id}`);
-    const d = t.data || {};
-    if (d.status === "done") return { ...d.metadata, credit_cost: d.credit_cost };
-    if (d.status === "failed" || d.status === "error") throw new Error(JSON.stringify(d));
-  }
-  throw new Error("tiempo de espera agotado");
-}
-
-async function download(url, dest) {
-  const res = await fetch(url, { headers: { "xi-api-key": process.env.AI33_API_KEY } });
+async function download(url, dest, headers = {}) {
+  const res = await fetch(url, { headers });
   if (!res.ok) throw new Error(`descarga ${res.status}`);
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
@@ -84,67 +48,216 @@ const durationOf = (file) =>
     ]).toString().trim()
   );
 
-/**
- * Comprueba que la voz existe en la cuenta antes de sintetizar nada.
- *
- * Sin esto, un identificador equivocado se descubre despues de haber gastado
- * miles de creditos con la voz que no era.
- */
-/**
- * Creditos que quedan en la cuenta.
- *
- * Sin esto, quedarse sin saldo a mitad de locucion mata el trabajo despues de
- * haber pagado media: paso con el Miercoles Negro, que murio en el plano que
- * cruzo el cero. Consultarlo antes es gratis.
- */
-async function creditos() {
-  const r = await api("/v3/credits");
-  return typeof r.credits === "number" ? r.credits : null;
+/* ------------------------------------------------------------------ */
+/* ai33                                                                */
+/* ------------------------------------------------------------------ */
+
+async function apiAi33(pathname, init = {}) {
+  const res = await fetch(BASE_AI33 + pathname, {
+    ...init,
+    headers: { "xi-api-key": process.env.AI33_API_KEY, ...(init.headers || {}) },
+  });
+  const txt = await res.text();
+  try {
+    return JSON.parse(txt);
+  } catch {
+    throw new Error(`${pathname} -> ${res.status} ${txt.slice(0, 200)}`);
+  }
 }
 
-async function comprobarVoz(voiceId, nombreEsperado) {
-  const r = await api("/v3/voices?provider=clone");
-  if (!r.success) throw new Error("no se pudo consultar la lista de voces: " + JSON.stringify(r));
+const ai33 = {
+  nombre: "ai33",
+  clave: "AI33_API_KEY",
+  // Lo que se cobra por caracter, con margen: lo usa la comprobacion de saldo.
+  creditosPorCaracter: 1.46,
 
-  const voz = (r.data || []).find((v) => v.voice_id === voiceId);
-  if (!voz) {
-    const otras = (r.data || []).map((v) => `  ${v.voice_id}  ${v.name}`);
-    throw new Error(
-      [`La voz ${voiceId} no esta en la cuenta.`, "Voces disponibles:", ...otras].join("\n")
+  /**
+   * ai33 solo deja pasar `speed` al motor: `emotion`, `pitch` y `vol` los
+   * descarta. Asi que la variedad de entonacion se consigue con dos cosas:
+   * la velocidad por plano y la puntuacion del propio texto.
+   */
+  async sintetizar(texto, voz, speed) {
+    const start = await apiAi33("/v3/text-to-speech", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        text: texto,
+        voice_id: voz.id,
+        provider: "clone",
+        speed,
+        with_transcript: true, // tiempos palabra a palabra para sincronizar
+        with_loudnorm: true, // nivel homogeneo entre planos
+      }),
+    });
+    if (!start.success) throw new Error(JSON.stringify(start));
+
+    for (let i = 0; i < 120; i++) {
+      await sleep(2500);
+      const t = await apiAi33(`/v3/task/${start.task_id}`);
+      const d = t.data || {};
+      if (d.status === "done")
+        return { url: d.metadata.audio_url, transcript: d.metadata.transcript ?? null, coste: d.credit_cost };
+      if (d.status === "failed" || d.status === "error") throw new Error(JSON.stringify(d));
+    }
+    throw new Error("tiempo de espera agotado");
+  },
+
+  descargar: (url, dest) => download(url, dest, { "xi-api-key": process.env.AI33_API_KEY }),
+
+  async creditos() {
+    const r = await apiAi33("/v3/credits");
+    return typeof r.credits === "number" ? r.credits : null;
+  },
+
+  /**
+   * Comprueba que la voz existe en la cuenta antes de sintetizar nada.
+   *
+   * Sin esto, un identificador equivocado se descubre despues de haber gastado
+   * miles de creditos con la voz que no era.
+   */
+  async comprobarVoz(voz) {
+    const r = await apiAi33("/v3/voices?provider=clone");
+    if (!r.success) throw new Error("no se pudo consultar la lista de voces: " + JSON.stringify(r));
+    const v = (r.data || []).find((x) => x.voice_id === voz.id);
+    if (!v) {
+      const otras = (r.data || []).map((x) => `  ${x.voice_id}  ${x.name}`);
+      throw new Error([`La voz ${voz.id} no esta en la cuenta.`, "Voces disponibles:", ...otras].join("\n"));
+    }
+    return { id: v.voice_id, name: v.name, language: v.language };
+  },
+};
+
+/* ------------------------------------------------------------------ */
+/* GenAIPro (Labs)                                                     */
+/* ------------------------------------------------------------------ */
+
+async function apiGenai(pathname, init = {}) {
+  const res = await fetch(BASE_GENAI + pathname, {
+    ...init,
+    headers: {
+      Authorization: `Bearer ${process.env.GENAIPRO_API_KEY}`,
+      "Content-Type": "application/json",
+      ...(init.headers || {}),
+    },
+  });
+  const txt = await res.text();
+  let j;
+  try {
+    j = JSON.parse(txt);
+  } catch {
+    throw new Error(`${pathname} -> ${res.status} ${txt.slice(0, 200)}`);
+  }
+  if (!res.ok) throw new Error(`${pathname} -> ${res.status} ${txt.slice(0, 200)}`);
+  return j;
+}
+
+/** Pasa un mp3 por loudnorm para que todos los planos suenen al mismo nivel. */
+function normalizar(file) {
+  const tmp = file.replace(/\.mp3$/, ".norm.mp3");
+  try {
+    execFileSync(
+      "ffmpeg",
+      ["-y", "-v", "error", "-i", file, "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-b:a", "192k", tmp],
+      { stdio: "pipe" }
     );
+    fs.renameSync(tmp, file);
+  } catch (e) {
+    fs.rmSync(tmp, { force: true });
+    console.warn(`(sin normalizar: ${String(e.message).split("\n")[0]})`);
   }
-
-  // Si el guion anota el nombre, se avisa cuando no cuadra: puede ser que la
-  // voz se haya renombrado, o que se haya copiado el identificador de otra.
-  if (nombreEsperado && voz.name.toUpperCase() !== nombreEsperado.toUpperCase()) {
-    console.warn(`AVISO: el guion esperaba "${nombreEsperado}" y la cuenta dice "${voz.name}"`);
-  }
-  return voz;
 }
+
+const genaipro = {
+  nombre: "GenAIPro",
+  clave: "GENAIPRO_API_KEY",
+  // Labs cobra un credito por caracter.
+  creditosPorCaracter: 1,
+
+  /**
+   * La velocidad del plano se multiplica por la velocidad base de la voz
+   * (`voz.velocidad`): el guion varia entre 0,92 y 1,06 para que la locucion
+   * no suene monotona y la voz fija su ritmo general. Labs admite 0,7 a 1,2.
+   */
+  async sintetizar(texto, voz, speed) {
+    const { task_id } = await apiGenai("/v1/labs/task", {
+      method: "POST",
+      body: JSON.stringify({
+        input: texto,
+        voice_id: voz.id,
+        model_id: voz.modelo ?? "eleven_multilingual_v2",
+        stability: voz.estabilidad ?? 0.5,
+        similarity: voz.similitud ?? 0.75,
+        style: voz.estilo ?? 0,
+        speed: clamp(speed * (voz.velocidad ?? 1), 0.7, 1.2),
+        use_speaker_boost: voz.speakerBoost ?? true,
+      }),
+    });
+
+    for (let i = 0; i < 120; i++) {
+      await sleep(2500);
+      const t = await apiGenai(`/v1/labs/task/${task_id}`);
+      if (t.status === "completed" && t.result) return { url: t.result, transcript: null, coste: texto.length };
+      if (t.status === "failed" || t.status === "error") throw new Error(JSON.stringify(t).slice(0, 300));
+    }
+    throw new Error("tiempo de espera agotado");
+  },
+
+  async descargar(url, dest) {
+    await download(url, dest);
+    normalizar(dest);
+  },
+
+  /** Suma de los lotes de creditos que no han caducado. */
+  async creditos() {
+    const r = await apiGenai("/v1/labs/credits");
+    if (!Array.isArray(r)) return null;
+    const ahora = Date.now();
+    return r.filter((x) => new Date(x.expire_at).getTime() > ahora).reduce((n, x) => n + (x.amount || 0), 0);
+  },
+
+  async comprobarVoz(voz) {
+    const lista = await apiGenai(`/v1/labs/voices?search=${encodeURIComponent(voz.id)}&page_size=10`);
+    const v = (Array.isArray(lista) ? lista : []).find((x) => x.voice_id === voz.id);
+    if (!v) throw new Error(`La voz ${voz.id} no esta en el catalogo de GenAIPro Labs.`);
+    return { id: v.voice_id, name: v.name, language: v.language };
+  },
+};
+
+const PROVEEDORES = { ai33, genaipro };
 
 async function main() {
   loadEnv();
   const [, , contentPath, ...rest] = process.argv;
   if (!contentPath) throw new Error("falta la ruta del guion");
-  if (!process.env.AI33_API_KEY) throw new Error("falta AI33_API_KEY en .env");
 
   const onlyBloque = rest.includes("--bloque") ? rest[rest.indexOf("--bloque") + 1] : null;
   const dry = rest.includes("--dry");
 
   const doc = JSON.parse(fs.readFileSync(contentPath, "utf8"));
 
+  const prov = PROVEEDORES[doc.voz?.proveedor ?? "ai33"];
+  if (!prov) throw new Error(`proveedor de voz desconocido: ${doc.voz?.proveedor}`);
+  if (!process.env[prov.clave]) throw new Error(`falta ${prov.clave} (en .env o como secreto)`);
+
   // La voz la declara el guion. La variable de entorno solo sirve para
-  // probar otra sin tocar el fichero.
-  const voiceId = process.env.AI33_VOICE_ID || doc.voz?.id;
+  // probar otra de ai33 sin tocar el fichero.
+  const voiceId = (prov === ai33 && process.env.AI33_VOICE_ID) || doc.voz?.id;
   if (!voiceId) {
     throw new Error(
       [
         `${contentPath} no declara la voz.`,
-        `Anade:  "voz": { "id": "clone_XXXXXXX", "nombre": "..." }`,
+        `Anade:  "voz": { "proveedor": "genaipro", "id": "XXXXXXXX", "nombre": "..." }`,
       ].join("\n")
     );
   }
-  const voz = await comprobarVoz(voiceId, doc.voz?.nombre);
+  const voz = { ...doc.voz, id: voiceId };
+  const real = await prov.comprobarVoz(voz);
+
+  // Si el guion anota el nombre, se avisa cuando no cuadra: puede ser que la
+  // voz se haya renombrado, o que se haya copiado el identificador de otra.
+  if (doc.voz?.nombre && real.name.toUpperCase() !== doc.voz.nombre.toUpperCase()) {
+    console.warn(`AVISO: el guion esperaba "${doc.voz.nombre}" y la cuenta dice "${real.name}"`);
+  }
 
   const timingsPath = contentPath.replace(/\.json$/, ".timings.json");
   const timings = fs.existsSync(timingsPath)
@@ -157,15 +270,19 @@ async function main() {
 
   const chars = planos.reduce((n, p) => n + p.vo.length, 0);
   console.log(`${planos.length} planos · ${chars} caracteres`);
-  console.log(`voz: ${voz.name} (${voz.voice_id}) · ${voz.language ?? "?"}`);
+  console.log(`voz: ${real.name} (${real.id}) · ${real.language ?? "?"} · ${prov.nombre}`);
 
   // Lo que falta por locutar, no el guion entero: si ya hay audio de la mitad
   // de los planos, solo se paga el resto.
   const faltan = planos.filter(
     (p) => !(timings[p.id]?.audio && fs.existsSync(path.join("public", timings[p.id].audio)))
   );
-  const necesita = Math.round(faltan.reduce((n, p) => n + p.vo.length, 0) * 1.46);
-  const saldo = await creditos();
+  const necesita = Math.round(faltan.reduce((n, p) => n + p.vo.length, 0) * prov.creditosPorCaracter);
+
+  // Sin esto, quedarse sin saldo a mitad de locucion mata el trabajo despues de
+  // haber pagado media: paso con el Miercoles Negro, que murio en el plano que
+  // cruzo el cero. Consultarlo antes es gratis.
+  const saldo = await prov.creditos();
   console.log(
     `quedan ${faltan.length} planos por locutar · hacen falta unos ${necesita} creditos` +
       (saldo === null ? "" : ` · en la cuenta hay ${saldo}`)
@@ -173,7 +290,7 @@ async function main() {
   if (saldo !== null && necesita > saldo) {
     throw new Error(
       [
-        `Saldo insuficiente en ai33.`,
+        `Saldo insuficiente en ${prov.nombre}.`,
         `  hacen falta:  ${necesita} creditos`,
         `  disponibles:  ${saldo}`,
         `  faltan:       ${necesita - saldo}`,
@@ -194,18 +311,18 @@ async function main() {
     }
     const speed = p.voz?.speed ?? 1;
     process.stdout.write(`· ${p.id} (x${speed}) ... `);
-    const meta = await synth(p.vo, voiceId, speed);
+    const meta = await prov.sintetizar(p.vo, voz, speed);
     const rel = `voice/${doc.slug}-${p.id}.mp3`;
-    await download(meta.audio_url, path.join("public", rel));
+    await prov.descargar(meta.url, path.join("public", rel));
     fs.copyFileSync(path.join("public", rel), path.join("assets", rel));
     const dur = durationOf(path.join("public", rel));
     timings[p.id] = {
       audio: rel,
       duration: dur,
       transcript: meta.transcript ?? null,
-      credit_cost: meta.credit_cost ?? null,
+      credit_cost: meta.coste ?? null,
     };
-    credits += meta.credit_cost || 0;
+    credits += meta.coste || 0;
     console.log(`${dur.toFixed(2)} s`);
     fs.writeFileSync(timingsPath, JSON.stringify(timings, null, 2));
   }

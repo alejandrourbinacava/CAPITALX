@@ -2,8 +2,15 @@
   "slug": "imperio-britanico",
   "titulo": "Quién Ganó Dinero De Verdad Con El Imperio Británico (Y Quién Pagó La Factura)",
   "voz": {
-    "id": "clone_2333475",
-    "nombre": "VOZ DETRAS DEL ENIGMA"
+    "proveedor": "genaipro",
+    "id": "j41pQugxGaKleSQLIyG2",
+    "nombre": "Marciano Rajoy - Realistic and Commercial",
+    "modelo": "eleven_multilingual_v2",
+    "velocidad": 1.1,
+    "estabilidad": 0.5,
+    "similitud": 0.75,
+    "estilo": 0,
+    "speakerBoost": true
   },
   "wpm": 145,
   "musica": "elegia.wav",

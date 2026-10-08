@@ -3,7 +3,8 @@ name: Generar locución
 # Locuta los planos que aún no tienen audio y deja los mp3 guardados en el
 # repositorio, para que los renders posteriores no vuelvan a gastar créditos.
 #
-# Necesita el secreto AI33_API_KEY en Settings > Secrets and variables > Actions.
+# Necesita el secreto del proveedor de voz que use el guion, en Settings > Secrets
+# and variables > Actions: AI33_API_KEY o GENAIPRO_API_KEY.
 
 on:
   workflow_call:
@@ -17,7 +18,9 @@ on:
         type: boolean
     secrets:
       AI33_API_KEY:
-        required: true
+        required: false
+      GENAIPRO_API_KEY:
+        required: false
 
   workflow_dispatch:
     inputs:
@@ -77,13 +80,10 @@ jobs:
       - name: Contar lo que falta y comprobar la voz
         env:
           AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
-        run: |
-          if [ -z "$AI33_API_KEY" ]; then
-            echo "Falta el secreto AI33_API_KEY."
-            echo "Settings > Secrets and variables > Actions > New repository secret"
-            exit 1
-          fi
-          node scripts/tts.mjs "content/${{ inputs.video }}.json" --dry
+          GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
+        # tts.mjs comprueba por si mismo que exista la clave del proveedor que
+        # declara el guion, y dice cual falta.
+        run: node scripts/tts.mjs "content/${{ inputs.video }}.json" --dry
 
       - name: Locutar
         if: ${{ inputs.solo_contar == false }}
@@ -91,13 +91,8 @@ jobs:
           # La voz la declara cada guion en su campo "voz". El script la
           # verifica contra la cuenta antes de sintetizar nada.
           AI33_API_KEY: ${{ secrets.AI33_API_KEY }}
-        run: |
-          if [ -z "$AI33_API_KEY" ]; then
-            echo "Falta el secreto AI33_API_KEY."
-            echo "Settings > Secrets and variables > Actions > New repository secret"
-            exit 1
-          fi
-          node scripts/tts.mjs "content/${{ inputs.video }}.json"
+          GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
+        run: node scripts/tts.mjs "content/${{ inputs.video }}.json"
 
       # `always()` a proposito: si "Locutar" se cae a mitad, los planos que ya
       # se sintetizaron estan pagados y el mp3 esta en disco. Sin esto, el

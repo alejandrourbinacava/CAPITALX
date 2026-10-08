@@ -1,1 +1,320 @@
-{}
+{
+  "b0-01": {
+    "audio": "voice/imperio-britanico-b0-01.mp3",
+    "duration": 16.393288,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b0-02": {
+    "audio": "voice/imperio-britanico-b0-02.mp3",
+    "duration": 13.467574,
+    "transcript": null,
+    "credit_cost": 226
+  },
+  "b0-03": {
+    "audio": "voice/imperio-britanico-b0-03.mp3",
+    "duration": 14.860771,
+    "transcript": null,
+    "credit_cost": 244
+  },
+  "b0-04": {
+    "audio": "voice/imperio-britanico-b0-04.mp3",
+    "duration": 13.142494,
+    "transcript": null,
+    "credit_cost": 222
+  },
+  "b0-05": {
+    "audio": "voice/imperio-britanico-b0-05.mp3",
+    "duration": 12.724535,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b1-01": {
+    "audio": "voice/imperio-britanico-b1-01.mp3",
+    "duration": 17.089887,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b1-02": {
+    "audio": "voice/imperio-britanico-b1-02.mp3",
+    "duration": 13.839093,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b1-03": {
+    "audio": "voice/imperio-britanico-b1-03.mp3",
+    "duration": 12.724535,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b1-04": {
+    "audio": "voice/imperio-britanico-b1-04.mp3",
+    "duration": 10.820499,
+    "transcript": null,
+    "credit_cost": 182
+  },
+  "b1-05": {
+    "audio": "voice/imperio-britanico-b1-05.mp3",
+    "duration": 16.811247,
+    "transcript": null,
+    "credit_cost": 257
+  },
+  "b1-06": {
+    "audio": "voice/imperio-britanico-b1-06.mp3",
+    "duration": 16.300408,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b1-07": {
+    "audio": "voice/imperio-britanico-b1-07.mp3",
+    "duration": 13.931973,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b2-01": {
+    "audio": "voice/imperio-britanico-b2-01.mp3",
+    "duration": 10.588299,
+    "transcript": null,
+    "credit_cost": 181
+  },
+  "b2-02": {
+    "audio": "voice/imperio-britanico-b2-02.mp3",
+    "duration": 11.192018,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b2-03": {
+    "audio": "voice/imperio-britanico-b2-03.mp3",
+    "duration": 14.582132,
+    "transcript": null,
+    "credit_cost": 245
+  },
+  "b2-04": {
+    "audio": "voice/imperio-britanico-b2-04.mp3",
+    "duration": 12.027937,
+    "transcript": null,
+    "credit_cost": 198
+  },
+  "b2-05": {
+    "audio": "voice/imperio-britanico-b2-05.mp3",
+    "duration": 13.931973,
+    "transcript": null,
+    "credit_cost": 189
+  },
+  "b2-06": {
+    "audio": "voice/imperio-britanico-b2-06.mp3",
+    "duration": 18.436644,
+    "transcript": null,
+    "credit_cost": 260
+  },
+  "b2-07": {
+    "audio": "voice/imperio-britanico-b2-07.mp3",
+    "duration": 7.801905,
+    "transcript": null,
+    "credit_cost": 134
+  },
+  "b3-01": {
+    "audio": "voice/imperio-britanico-b3-01.mp3",
+    "duration": 12.817415,
+    "transcript": null,
+    "credit_cost": 196
+  },
+  "b3-02": {
+    "audio": "voice/imperio-britanico-b3-02.mp3",
+    "duration": 14.767891,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b3-03": {
+    "audio": "voice/imperio-britanico-b3-03.mp3",
+    "duration": 13.328254,
+    "transcript": null,
+    "credit_cost": 240
+  },
+  "b3-04": {
+    "audio": "voice/imperio-britanico-b3-04.mp3",
+    "duration": 11.192018,
+    "transcript": null,
+    "credit_cost": 181
+  },
+  "b3-05": {
+    "audio": "voice/imperio-britanico-b3-05.mp3",
+    "duration": 12.027937,
+    "transcript": null,
+    "credit_cost": 227
+  },
+  "b4-01": {
+    "audio": "voice/imperio-britanico-b4-01.mp3",
+    "duration": 13.514014,
+    "transcript": null,
+    "credit_cost": 211
+  },
+  "b4-02": {
+    "audio": "voice/imperio-britanico-b4-02.mp3",
+    "duration": 13.606893,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b4-03": {
+    "audio": "voice/imperio-britanico-b4-03.mp3",
+    "duration": 12.770975,
+    "transcript": null,
+    "credit_cost": 186
+  },
+  "b4-04": {
+    "audio": "voice/imperio-britanico-b4-04.mp3",
+    "duration": 13.049615,
+    "transcript": null,
+    "credit_cost": 235
+  },
+  "b4-05": {
+    "audio": "voice/imperio-britanico-b4-05.mp3",
+    "duration": 15.928889,
+    "transcript": null,
+    "credit_cost": 250
+  },
+  "b5-01": {
+    "audio": "voice/imperio-britanico-b5-01.mp3",
+    "duration": 12.770975,
+    "transcript": null,
+    "credit_cost": 199
+  },
+  "b5-02": {
+    "audio": "voice/imperio-britanico-b5-02.mp3",
+    "duration": 16.904127,
+    "transcript": null,
+    "credit_cost": 270
+  },
+  "b5-03": {
+    "audio": "voice/imperio-britanico-b5-03.mp3",
+    "duration": 17.322086,
+    "transcript": null,
+    "credit_cost": 269
+  },
+  "b5-04": {
+    "audio": "voice/imperio-britanico-b5-04.mp3",
+    "duration": 13.003175,
+    "transcript": null,
+    "credit_cost": 207
+  },
+  "b6-01": {
+    "audio": "voice/imperio-britanico-b6-01.mp3",
+    "duration": 14.767891,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b6-02": {
+    "audio": "voice/imperio-britanico-b6-02.mp3",
+    "duration": 7.987664,
+    "transcript": null,
+    "credit_cost": 145
+  },
+  "b6-03": {
+    "audio": "voice/imperio-britanico-b6-03.mp3",
+    "duration": 14.953651,
+    "transcript": null,
+    "credit_cost": 267
+  },
+  "b6-04": {
+    "audio": "voice/imperio-britanico-b6-04.mp3",
+    "duration": 16.393288,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b6-05": {
+    "audio": "voice/imperio-britanico-b6-05.mp3",
+    "duration": 18.622404,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b6-06": {
+    "audio": "voice/imperio-britanico-b6-06.mp3",
+    "duration": 8.219864,
+    "transcript": null,
+    "credit_cost": 148
+  },
+  "b7-01": {
+    "audio": "voice/imperio-britanico-b7-01.mp3",
+    "duration": 13.235374,
+    "transcript": null,
+    "credit_cost": 222
+  },
+  "b7-02": {
+    "audio": "voice/imperio-britanico-b7-02.mp3",
+    "duration": 10.21678,
+    "transcript": null,
+    "credit_cost": 184
+  },
+  "b7-03": {
+    "audio": "voice/imperio-britanico-b7-03.mp3",
+    "duration": 13.003175,
+    "transcript": null,
+    "credit_cost": 182
+  },
+  "b7-04": {
+    "audio": "voice/imperio-britanico-b7-04.mp3",
+    "duration": 13.235374,
+    "transcript": null,
+    "credit_cost": 191
+  },
+  "b7-05": {
+    "audio": "voice/imperio-britanico-b7-05.mp3",
+    "duration": 13.792653,
+    "transcript": null,
+    "credit_cost": 241
+  },
+  "b8-01": {
+    "audio": "voice/imperio-britanico-b8-01.mp3",
+    "duration": 17.089887,
+    "transcript": null,
+    "credit_cost": 286
+  },
+  "b8-02": {
+    "audio": "voice/imperio-britanico-b8-02.mp3",
+    "duration": 15.18585,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b8-03": {
+    "audio": "voice/imperio-britanico-b8-03.mp3",
+    "duration": 15.836009,
+    "transcript": null,
+    "credit_cost": 263
+  },
+  "b8-04": {
+    "audio": "voice/imperio-britanico-b8-04.mp3",
+    "duration": 7.755465,
+    "transcript": null,
+    "credit_cost": 128
+  },
+  "b9-01": {
+    "audio": "voice/imperio-britanico-b9-01.mp3",
+    "duration": 10.21678,
+    "transcript": null,
+    "credit_cost": 184
+  },
+  "b9-02": {
+    "audio": "voice/imperio-britanico-b9-02.mp3",
+    "duration": 14.024853,
+    "transcript": null,
+    "credit_cost": 234
+  },
+  "b9-03": {
+    "audio": "voice/imperio-britanico-b9-03.mp3",
+    "duration": 16.950567,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b9-04": {
+    "audio": "voice/imperio-britanico-b9-04.mp3",
+    "duration": 10.40254,
+    "transcript": null,
+    "credit_cost": 173
+  },
+  "b9-05": {
+    "audio": "voice/imperio-britanico-b9-05.mp3",
+    "duration": 10.588299,
+    "transcript": null,
+    "credit_cost": 182
+  }
+}
