@@ -132,14 +132,28 @@ const ai33 = {
 /* ------------------------------------------------------------------ */
 
 async function apiGenai(pathname, init = {}) {
-  const res = await fetch(BASE_GENAI + pathname, {
-    ...init,
-    headers: {
-      Authorization: `Bearer ${process.env.GENAIPRO_API_KEY}`,
-      "Content-Type": "application/json",
-      ...(init.headers || {}),
-    },
-  });
+  // Las consultas (GET) se repiten si el servidor tropieza con un 5xx o la red
+  // se cae: un 502 a mitad de la locucion mato cuarenta minutos de trabajo.
+  // Crear una tarea (POST) NO se repite aqui, porque podria cobrarse dos veces:
+  // eso lo decide el bucle de `sintetizar`.
+  const esConsulta = (init.method ?? "GET") === "GET";
+  let res;
+  for (let intento = 0; ; intento++) {
+    try {
+      res = await fetch(BASE_GENAI + pathname, {
+        ...init,
+        headers: {
+          Authorization: `Bearer ${process.env.GENAIPRO_API_KEY}`,
+          "Content-Type": "application/json",
+          ...(init.headers || {}),
+        },
+      });
+      if (!esConsulta || res.status < 500 || intento >= 7) break;
+    } catch (e) {
+      if (!esConsulta || intento >= 7) throw e;
+    }
+    await sleep(Math.min(30000, 2000 * (intento + 1)));
+  }
   const txt = await res.text();
   let j;
   try {
@@ -179,27 +193,38 @@ const genaipro = {
    * no suene monotona y la voz fija su ritmo general. Labs admite 0,7 a 1,2.
    */
   async sintetizar(texto, voz, speed) {
-    const { task_id } = await apiGenai("/v1/labs/task", {
-      method: "POST",
-      body: JSON.stringify({
-        input: texto,
-        voice_id: voz.id,
-        model_id: voz.modelo ?? "eleven_multilingual_v2",
-        stability: voz.estabilidad ?? 0.5,
-        similarity: voz.similitud ?? 0.75,
-        style: voz.estilo ?? 0,
-        speed: clamp(speed * (voz.velocidad ?? 1), 0.7, 1.2),
-        use_speaker_boost: voz.speakerBoost ?? true,
-      }),
-    });
+    // Alguna tarea se queda en "processing" para siempre en el servidor (paso
+    // en el plano 6 de 142). Esperar mas no sirve: se pide una nueva. Las que
+    // fallan se reembolsan solas; una atascada puede costar un plano.
+    let ultimo = "";
+    for (let intento = 0; intento < 3; intento++) {
+      const { task_id } = await apiGenai("/v1/labs/task", {
+        method: "POST",
+        body: JSON.stringify({
+          input: texto,
+          voice_id: voz.id,
+          model_id: voz.modelo ?? "eleven_multilingual_v2",
+          stability: voz.estabilidad ?? 0.5,
+          similarity: voz.similitud ?? 0.75,
+          style: voz.estilo ?? 0,
+          speed: clamp(speed * (voz.velocidad ?? 1), 0.7, 1.2),
+          use_speaker_boost: voz.speakerBoost ?? true,
+        }),
+      });
 
-    for (let i = 0; i < 120; i++) {
-      await sleep(2500);
-      const t = await apiGenai(`/v1/labs/task/${task_id}`);
-      if (t.status === "completed" && t.result) return { url: t.result, transcript: null, coste: texto.length };
-      if (t.status === "failed" || t.status === "error") throw new Error(JSON.stringify(t).slice(0, 300));
+      for (let i = 0; i < 72; i++) {
+        await sleep(2500);
+        const t = await apiGenai(`/v1/labs/task/${task_id}`);
+        if (t.status === "completed" && t.result) return { url: t.result, transcript: null, coste: texto.length };
+        if (t.status === "failed" || t.status === "error") {
+          ultimo = JSON.stringify(t).slice(0, 300);
+          break;
+        }
+        ultimo = "tiempo de espera agotado";
+      }
+      process.stdout.write(`(reintento ${intento + 1}: ${ultimo}) `);
     }
-    throw new Error("tiempo de espera agotado");
+    throw new Error(ultimo || "no se pudo sintetizar");
   },
 
   async descargar(url, dest) {

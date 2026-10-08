@@ -1,0 +1,854 @@
+{
+  "b0-01": {
+    "audio": "voice/imperio-espanol-b0-01.mp3",
+    "duration": 14.721451,
+    "transcript": null,
+    "credit_cost": 244
+  },
+  "b0-02": {
+    "audio": "voice/imperio-espanol-b0-02.mp3",
+    "duration": 17.879365,
+    "transcript": null,
+    "credit_cost": 306
+  },
+  "b0-03": {
+    "audio": "voice/imperio-espanol-b0-03.mp3",
+    "duration": 12.910295,
+    "transcript": null,
+    "credit_cost": 217
+  },
+  "b0-04": {
+    "audio": "voice/imperio-espanol-b0-04.mp3",
+    "duration": 19.876281,
+    "transcript": null,
+    "credit_cost": 333
+  },
+  "b0-05": {
+    "audio": "voice/imperio-espanol-b0-05.mp3",
+    "duration": 12.120816,
+    "transcript": null,
+    "credit_cost": 218
+  },
+  "b1-01": {
+    "audio": "voice/imperio-espanol-b1-01.mp3",
+    "duration": 20.990839,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b1-02": {
+    "audio": "voice/imperio-espanol-b1-02.mp3",
+    "duration": 12.631655,
+    "transcript": null,
+    "credit_cost": 215
+  },
+  "b1-03": {
+    "audio": "voice/imperio-espanol-b1-03.mp3",
+    "duration": 18.622404,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b1-04": {
+    "audio": "voice/imperio-espanol-b1-04.mp3",
+    "duration": 13.699773,
+    "transcript": null,
+    "credit_cost": 222
+  },
+  "b1-05": {
+    "audio": "voice/imperio-espanol-b1-05.mp3",
+    "duration": 14.953651,
+    "transcript": null,
+    "credit_cost": 249
+  },
+  "b1-06": {
+    "audio": "voice/imperio-espanol-b1-06.mp3",
+    "duration": 20.43356,
+    "transcript": null,
+    "credit_cost": 302
+  },
+  "b1-07": {
+    "audio": "voice/imperio-espanol-b1-07.mp3",
+    "duration": 19.365442,
+    "transcript": null,
+    "credit_cost": 291
+  },
+  "b1-08": {
+    "audio": "voice/imperio-espanol-b1-08.mp3",
+    "duration": 16.579048,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b1-09": {
+    "audio": "voice/imperio-espanol-b1-09.mp3",
+    "duration": 19.969161,
+    "transcript": null,
+    "credit_cost": 297
+  },
+  "b1-10": {
+    "audio": "voice/imperio-espanol-b1-10.mp3",
+    "duration": 18.390204,
+    "transcript": null,
+    "credit_cost": 308
+  },
+  "b1-11": {
+    "audio": "voice/imperio-espanol-b1-11.mp3",
+    "duration": 22.430476,
+    "transcript": null,
+    "credit_cost": 361
+  },
+  "b1-12": {
+    "audio": "voice/imperio-espanol-b1-12.mp3",
+    "duration": 11.238458,
+    "transcript": null,
+    "credit_cost": 191
+  },
+  "b2-01": {
+    "audio": "voice/imperio-espanol-b2-01.mp3",
+    "duration": 23.777234,
+    "transcript": null,
+    "credit_cost": 364
+  },
+  "b2-02": {
+    "audio": "voice/imperio-espanol-b2-02.mp3",
+    "duration": 19.179683,
+    "transcript": null,
+    "credit_cost": 308
+  },
+  "b2-03": {
+    "audio": "voice/imperio-espanol-b2-03.mp3",
+    "duration": 14.860771,
+    "transcript": null,
+    "credit_cost": 247
+  },
+  "b2-04": {
+    "audio": "voice/imperio-espanol-b2-04.mp3",
+    "duration": 20.29424,
+    "transcript": null,
+    "credit_cost": 359
+  },
+  "b2-05": {
+    "audio": "voice/imperio-espanol-b2-05.mp3",
+    "duration": 19.133243,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b2-06": {
+    "audio": "voice/imperio-espanol-b2-06.mp3",
+    "duration": 20.758639,
+    "transcript": null,
+    "credit_cost": 345
+  },
+  "b2-07": {
+    "audio": "voice/imperio-espanol-b2-07.mp3",
+    "duration": 19.783401,
+    "transcript": null,
+    "credit_cost": 307
+  },
+  "b2-08": {
+    "audio": "voice/imperio-espanol-b2-08.mp3",
+    "duration": 21.223039,
+    "transcript": null,
+    "credit_cost": 346
+  },
+  "b2-09": {
+    "audio": "voice/imperio-espanol-b2-09.mp3",
+    "duration": 20.154921,
+    "transcript": null,
+    "credit_cost": 351
+  },
+  "b2-10": {
+    "audio": "voice/imperio-espanol-b2-10.mp3",
+    "duration": 19.040363,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b2-11": {
+    "audio": "voice/imperio-espanol-b2-11.mp3",
+    "duration": 23.916553,
+    "transcript": null,
+    "credit_cost": 362
+  },
+  "b2-12": {
+    "audio": "voice/imperio-espanol-b2-12.mp3",
+    "duration": 23.498594,
+    "transcript": null,
+    "credit_cost": 359
+  },
+  "b3-01": {
+    "audio": "voice/imperio-espanol-b3-01.mp3",
+    "duration": 17.322086,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b3-02": {
+    "audio": "voice/imperio-espanol-b3-02.mp3",
+    "duration": 17.972245,
+    "transcript": null,
+    "credit_cost": 284
+  },
+  "b3-03": {
+    "audio": "voice/imperio-espanol-b3-03.mp3",
+    "duration": 20.990839,
+    "transcript": null,
+    "credit_cost": 332
+  },
+  "b3-04": {
+    "audio": "voice/imperio-espanol-b3-04.mp3",
+    "duration": 18.808163,
+    "transcript": null,
+    "credit_cost": 303
+  },
+  "b3-05": {
+    "audio": "voice/imperio-espanol-b3-05.mp3",
+    "duration": 18.622404,
+    "transcript": null,
+    "credit_cost": 270
+  },
+  "b3-06": {
+    "audio": "voice/imperio-espanol-b3-06.mp3",
+    "duration": 15.60381,
+    "transcript": null,
+    "credit_cost": 264
+  },
+  "b3-07": {
+    "audio": "voice/imperio-espanol-b3-07.mp3",
+    "duration": 19.922721,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b3-08": {
+    "audio": "voice/imperio-espanol-b3-08.mp3",
+    "duration": 18.111565,
+    "transcript": null,
+    "credit_cost": 291
+  },
+  "b3-09": {
+    "audio": "voice/imperio-espanol-b3-09.mp3",
+    "duration": 21.176599,
+    "transcript": null,
+    "credit_cost": 335
+  },
+  "b3-10": {
+    "audio": "voice/imperio-espanol-b3-10.mp3",
+    "duration": 16.904127,
+    "transcript": null,
+    "credit_cost": 261
+  },
+  "b3-11": {
+    "audio": "voice/imperio-espanol-b3-11.mp3",
+    "duration": 11.981497,
+    "transcript": null,
+    "credit_cost": 223
+  },
+  "b4-01": {
+    "audio": "voice/imperio-espanol-b4-01.mp3",
+    "duration": 16.718367,
+    "transcript": null,
+    "credit_cost": 265
+  },
+  "b4-02": {
+    "audio": "voice/imperio-espanol-b4-02.mp3",
+    "duration": 14.907211,
+    "transcript": null,
+    "credit_cost": 232
+  },
+  "b4-03": {
+    "audio": "voice/imperio-espanol-b4-03.mp3",
+    "duration": 22.337596,
+    "transcript": null,
+    "credit_cost": 350
+  },
+  "b4-04": {
+    "audio": "voice/imperio-espanol-b4-04.mp3",
+    "duration": 16.253968,
+    "transcript": null,
+    "credit_cost": 254
+  },
+  "b4-05": {
+    "audio": "voice/imperio-espanol-b4-05.mp3",
+    "duration": 25.49551,
+    "transcript": null,
+    "credit_cost": 412
+  },
+  "b4-06": {
+    "audio": "voice/imperio-espanol-b4-06.mp3",
+    "duration": 19.133243,
+    "transcript": null,
+    "credit_cost": 299
+  },
+  "b4-07": {
+    "audio": "voice/imperio-espanol-b4-07.mp3",
+    "duration": 18.018685,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b4-08": {
+    "audio": "voice/imperio-espanol-b4-08.mp3",
+    "duration": 19.829841,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b4-09": {
+    "audio": "voice/imperio-espanol-b4-09.mp3",
+    "duration": 17.089887,
+    "transcript": null,
+    "credit_cost": 275
+  },
+  "b4-10": {
+    "audio": "voice/imperio-espanol-b4-10.mp3",
+    "duration": 15.928889,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b4-11": {
+    "audio": "voice/imperio-espanol-b4-11.mp3",
+    "duration": 18.343764,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b4-12": {
+    "audio": "voice/imperio-espanol-b4-12.mp3",
+    "duration": 25.35619,
+    "transcript": null,
+    "credit_cost": 415
+  },
+  "b5-01": {
+    "audio": "voice/imperio-espanol-b5-01.mp3",
+    "duration": 21.780317,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b5-02": {
+    "audio": "voice/imperio-espanol-b5-02.mp3",
+    "duration": 21.687438,
+    "transcript": null,
+    "credit_cost": 358
+  },
+  "b5-03": {
+    "audio": "voice/imperio-espanol-b5-03.mp3",
+    "duration": 19.226122,
+    "transcript": null,
+    "credit_cost": 304
+  },
+  "b5-04": {
+    "audio": "voice/imperio-espanol-b5-04.mp3",
+    "duration": 24.195193,
+    "transcript": null,
+    "credit_cost": 365
+  },
+  "b5-05": {
+    "audio": "voice/imperio-espanol-b5-05.mp3",
+    "duration": 20.154921,
+    "transcript": null,
+    "credit_cost": 332
+  },
+  "b5-06": {
+    "audio": "voice/imperio-espanol-b5-06.mp3",
+    "duration": 22.151837,
+    "transcript": null,
+    "credit_cost": 337
+  },
+  "b5-07": {
+    "audio": "voice/imperio-espanol-b5-07.mp3",
+    "duration": 21.315918,
+    "transcript": null,
+    "credit_cost": 339
+  },
+  "b5-08": {
+    "audio": "voice/imperio-espanol-b5-08.mp3",
+    "duration": 25.68127,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b5-09": {
+    "audio": "voice/imperio-espanol-b5-09.mp3",
+    "duration": 12.120816,
+    "transcript": null,
+    "credit_cost": 229
+  },
+  "b5-10": {
+    "audio": "voice/imperio-espanol-b5-10.mp3",
+    "duration": 19.783401,
+    "transcript": null,
+    "credit_cost": 336
+  },
+  "b5-11": {
+    "audio": "voice/imperio-espanol-b5-11.mp3",
+    "duration": 19.551202,
+    "transcript": null,
+    "credit_cost": 321
+  },
+  "b6-01": {
+    "audio": "voice/imperio-espanol-b6-01.mp3",
+    "duration": 25.170431,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b6-02": {
+    "audio": "voice/imperio-espanol-b6-02.mp3",
+    "duration": 26.377868,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b6-03": {
+    "audio": "voice/imperio-espanol-b6-03.mp3",
+    "duration": 19.876281,
+    "transcript": null,
+    "credit_cost": 334
+  },
+  "b6-04": {
+    "audio": "voice/imperio-espanol-b6-04.mp3",
+    "duration": 20.48,
+    "transcript": null,
+    "credit_cost": 316
+  },
+  "b6-05": {
+    "audio": "voice/imperio-espanol-b6-05.mp3",
+    "duration": 17.879365,
+    "transcript": null,
+    "credit_cost": 300
+  },
+  "b6-06": {
+    "audio": "voice/imperio-espanol-b6-06.mp3",
+    "duration": 23.591474,
+    "transcript": null,
+    "credit_cost": 345
+  },
+  "b6-07": {
+    "audio": "voice/imperio-espanol-b6-07.mp3",
+    "duration": 23.173515,
+    "transcript": null,
+    "credit_cost": 376
+  },
+  "b6-08": {
+    "audio": "voice/imperio-espanol-b6-08.mp3",
+    "duration": 21.176599,
+    "transcript": null,
+    "credit_cost": 361
+  },
+  "b6-09": {
+    "audio": "voice/imperio-espanol-b6-09.mp3",
+    "duration": 20.48,
+    "transcript": null,
+    "credit_cost": 350
+  },
+  "b6-10": {
+    "audio": "voice/imperio-espanol-b6-10.mp3",
+    "duration": 23.359274,
+    "transcript": null,
+    "credit_cost": 384
+  },
+  "b6-11": {
+    "audio": "voice/imperio-espanol-b6-11.mp3",
+    "duration": 22.058957,
+    "transcript": null,
+    "credit_cost": 341
+  },
+  "b6-12": {
+    "audio": "voice/imperio-espanol-b6-12.mp3",
+    "duration": 21.455238,
+    "transcript": null,
+    "credit_cost": 371
+  },
+  "b7-01": {
+    "audio": "voice/imperio-espanol-b7-01.mp3",
+    "duration": 19.551202,
+    "transcript": null,
+    "credit_cost": 313
+  },
+  "b7-02": {
+    "audio": "voice/imperio-espanol-b7-02.mp3",
+    "duration": 16.021769,
+    "transcript": null,
+    "credit_cost": 239
+  },
+  "b7-03": {
+    "audio": "voice/imperio-espanol-b7-03.mp3",
+    "duration": 25.170431,
+    "transcript": null,
+    "credit_cost": 417
+  },
+  "b7-04": {
+    "audio": "voice/imperio-espanol-b7-04.mp3",
+    "duration": 27.585306,
+    "transcript": null,
+    "credit_cost": 420
+  },
+  "b7-05": {
+    "audio": "voice/imperio-espanol-b7-05.mp3",
+    "duration": 23.359274,
+    "transcript": null,
+    "credit_cost": 364
+  },
+  "b7-06": {
+    "audio": "voice/imperio-espanol-b7-06.mp3",
+    "duration": 24.380952,
+    "transcript": null,
+    "credit_cost": 356
+  },
+  "b7-07": {
+    "audio": "voice/imperio-espanol-b7-07.mp3",
+    "duration": 19.829841,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b7-08": {
+    "audio": "voice/imperio-espanol-b7-08.mp3",
+    "duration": 29.071383,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b7-09": {
+    "audio": "voice/imperio-espanol-b7-09.mp3",
+    "duration": 23.127075,
+    "transcript": null,
+    "credit_cost": 336
+  },
+  "b7-10": {
+    "audio": "voice/imperio-espanol-b7-10.mp3",
+    "duration": 18.622404,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b8-01": {
+    "audio": "voice/imperio-espanol-b8-01.mp3",
+    "duration": 20.154921,
+    "transcript": null,
+    "credit_cost": 315
+  },
+  "b8-02": {
+    "audio": "voice/imperio-espanol-b8-02.mp3",
+    "duration": 19.086803,
+    "transcript": null,
+    "credit_cost": 322
+  },
+  "b8-03": {
+    "audio": "voice/imperio-espanol-b8-03.mp3",
+    "duration": 16.671927,
+    "transcript": null,
+    "credit_cost": 259
+  },
+  "b8-04": {
+    "audio": "voice/imperio-espanol-b8-04.mp3",
+    "duration": 26.099229,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b8-05": {
+    "audio": "voice/imperio-espanol-b8-05.mp3",
+    "duration": 16.207528,
+    "transcript": null,
+    "credit_cost": 252
+  },
+  "b8-06": {
+    "audio": "voice/imperio-espanol-b8-06.mp3",
+    "duration": 14.860771,
+    "transcript": null,
+    "credit_cost": 245
+  },
+  "b8-07": {
+    "audio": "voice/imperio-espanol-b8-07.mp3",
+    "duration": 20.29424,
+    "transcript": null,
+    "credit_cost": 299
+  },
+  "b8-08": {
+    "audio": "voice/imperio-espanol-b8-08.mp3",
+    "duration": 24.055873,
+    "transcript": null,
+    "credit_cost": 390
+  },
+  "b8-09": {
+    "audio": "voice/imperio-espanol-b8-09.mp3",
+    "duration": 23.823673,
+    "transcript": null,
+    "credit_cost": 365
+  },
+  "b8-10": {
+    "audio": "voice/imperio-espanol-b8-10.mp3",
+    "duration": 19.644082,
+    "transcript": null,
+    "credit_cost": 314
+  },
+  "b8-11": {
+    "audio": "voice/imperio-espanol-b8-11.mp3",
+    "duration": 27.724626,
+    "transcript": null,
+    "credit_cost": 399
+  },
+  "b8-12": {
+    "audio": "voice/imperio-espanol-b8-12.mp3",
+    "duration": 18.808163,
+    "transcript": null,
+    "credit_cost": 289
+  },
+  "b11-01": {
+    "audio": "voice/imperio-espanol-b11-01.mp3",
+    "duration": 14.024853,
+    "transcript": null,
+    "credit_cost": 262
+  },
+  "b11-02": {
+    "audio": "voice/imperio-espanol-b11-02.mp3",
+    "duration": 25.031111,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b11-03": {
+    "audio": "voice/imperio-espanol-b11-03.mp3",
+    "duration": 18.390204,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b11-04": {
+    "audio": "voice/imperio-espanol-b11-04.mp3",
+    "duration": 22.012517,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b11-05": {
+    "audio": "voice/imperio-espanol-b11-05.mp3",
+    "duration": 19.458322,
+    "transcript": null,
+    "credit_cost": 306
+  },
+  "b11-06": {
+    "audio": "voice/imperio-espanol-b11-06.mp3",
+    "duration": 20.38712,
+    "transcript": null,
+    "credit_cost": 294
+  },
+  "b11-07": {
+    "audio": "voice/imperio-espanol-b11-07.mp3",
+    "duration": 24.566712,
+    "transcript": null,
+    "credit_cost": 386
+  },
+  "b11-08": {
+    "audio": "voice/imperio-espanol-b11-08.mp3",
+    "duration": 23.080635,
+    "transcript": null,
+    "credit_cost": 366
+  },
+  "b11-09": {
+    "audio": "voice/imperio-espanol-b11-09.mp3",
+    "duration": 23.034195,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b11-10": {
+    "audio": "voice/imperio-espanol-b11-10.mp3",
+    "duration": 26.145669,
+    "transcript": null,
+    "credit_cost": 429
+  },
+  "b11-11": {
+    "audio": "voice/imperio-espanol-b11-11.mp3",
+    "duration": 27.631746,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b11-12": {
+    "audio": "voice/imperio-espanol-b11-12.mp3",
+    "duration": 29.164263,
+    "transcript": null,
+    "credit_cost": 448
+  },
+  "b12-01": {
+    "audio": "voice/imperio-espanol-b12-01.mp3",
+    "duration": 22.848435,
+    "transcript": null,
+    "credit_cost": 380
+  },
+  "b12-02": {
+    "audio": "voice/imperio-espanol-b12-02.mp3",
+    "duration": 24.473832,
+    "transcript": null,
+    "credit_cost": 399
+  },
+  "b12-03": {
+    "audio": "voice/imperio-espanol-b12-03.mp3",
+    "duration": 24.845351,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b12-04": {
+    "audio": "voice/imperio-espanol-b12-04.mp3",
+    "duration": 23.452154,
+    "transcript": null,
+    "credit_cost": 368
+  },
+  "b12-05": {
+    "audio": "voice/imperio-espanol-b12-05.mp3",
+    "duration": 24.427392,
+    "transcript": null,
+    "credit_cost": 360
+  },
+  "b12-06": {
+    "audio": "voice/imperio-espanol-b12-06.mp3",
+    "duration": 21.223039,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b12-07": {
+    "audio": "voice/imperio-espanol-b12-07.mp3",
+    "duration": 25.54195,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b12-08": {
+    "audio": "voice/imperio-espanol-b12-08.mp3",
+    "duration": 24.938231,
+    "transcript": null,
+    "credit_cost": 387
+  },
+  "b12-09": {
+    "audio": "voice/imperio-espanol-b12-09.mp3",
+    "duration": 21.130159,
+    "transcript": null,
+    "credit_cost": 338
+  },
+  "b12-10": {
+    "audio": "voice/imperio-espanol-b12-10.mp3",
+    "duration": 24.566712,
+    "transcript": null,
+    "credit_cost": 380
+  },
+  "b12-11": {
+    "audio": "voice/imperio-espanol-b12-11.mp3",
+    "duration": 24.659592,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b12-12": {
+    "audio": "voice/imperio-espanol-b12-12.mp3",
+    "duration": 13.374694,
+    "transcript": null,
+    "credit_cost": 256
+  },
+  "b9-01": {
+    "audio": "voice/imperio-espanol-b9-01.mp3",
+    "duration": 18.390204,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b9-02": {
+    "audio": "voice/imperio-espanol-b9-02.mp3",
+    "duration": 22.523356,
+    "transcript": null,
+    "credit_cost": 386
+  },
+  "b9-03": {
+    "audio": "voice/imperio-espanol-b9-03.mp3",
+    "duration": 27.213787,
+    "transcript": null,
+    "credit_cost": 424
+  },
+  "b9-04": {
+    "audio": "voice/imperio-espanol-b9-04.mp3",
+    "duration": 18.622404,
+    "transcript": null,
+    "credit_cost": 317
+  },
+  "b9-05": {
+    "audio": "voice/imperio-espanol-b9-05.mp3",
+    "duration": 26.006349,
+    "transcript": null,
+    "credit_cost": 404
+  },
+  "b9-06": {
+    "audio": "voice/imperio-espanol-b9-06.mp3",
+    "duration": 32.043537,
+    "transcript": null,
+    "credit_cost": 472
+  },
+  "b9-07": {
+    "audio": "voice/imperio-espanol-b9-07.mp3",
+    "duration": 26.702948,
+    "transcript": null,
+    "credit_cost": 416
+  },
+  "b9-08": {
+    "audio": "voice/imperio-espanol-b9-08.mp3",
+    "duration": 24.752472,
+    "transcript": null,
+    "credit_cost": 388
+  },
+  "b9-09": {
+    "audio": "voice/imperio-espanol-b9-09.mp3",
+    "duration": 16.207528,
+    "transcript": null,
+    "credit_cost": 276
+  },
+  "b9-10": {
+    "audio": "voice/imperio-espanol-b9-10.mp3",
+    "duration": 19.226122,
+    "transcript": null,
+    "credit_cost": 340
+  },
+  "b10-01": {
+    "audio": "voice/imperio-espanol-b10-01.mp3",
+    "duration": 21.362358,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b10-02": {
+    "audio": "voice/imperio-espanol-b10-02.mp3",
+    "duration": 15.55737,
+    "transcript": null,
+    "credit_cost": 273
+  },
+  "b10-03": {
+    "audio": "voice/imperio-espanol-b10-03.mp3",
+    "duration": 30.046621,
+    "transcript": null,
+    "credit_cost": 478
+  },
+  "b10-04": {
+    "audio": "voice/imperio-espanol-b10-04.mp3",
+    "duration": 24.938231,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b10-05": {
+    "audio": "voice/imperio-espanol-b10-05.mp3",
+    "duration": 21.548118,
+    "transcript": null,
+    "credit_cost": 330
+  },
+  "b10-06": {
+    "audio": "voice/imperio-espanol-b10-06.mp3",
+    "duration": 19.829841,
+    "transcript": null,
+    "credit_cost": 333
+  },
+  "b10-07": {
+    "audio": "voice/imperio-espanol-b10-07.mp3",
+    "duration": 28.699864,
+    "transcript": null,
+    "credit_cost": 465
+  },
+  "b10-08": {
+    "audio": "voice/imperio-espanol-b10-08.mp3",
+    "duration": 18.065125,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b10-09": {
+    "audio": "voice/imperio-espanol-b10-09.mp3",
+    "duration": 21.362358,
+    "transcript": null,
+    "credit_cost": 346
+  },
+  "b10-10": {
+    "audio": "voice/imperio-espanol-b10-10.mp3",
+    "duration": 24.566712,
+    "transcript": null,
+    "credit_cost": 373
+  },
+  "b10-11": {
+    "audio": "voice/imperio-espanol-b10-11.mp3",
+    "duration": 11.284898,
+    "transcript": null,
+    "credit_cost": 200
+  }
+}
