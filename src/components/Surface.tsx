@@ -148,11 +148,32 @@ export const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.16 }) => {
  * escuadras de cuaderno, caja completa de plano tecnico, rail lateral con el
  * numero de hoja, o nada.
  */
+/** Alto de cada franja de pantalla ancha, en un lienzo de 1080. */
+export const BANDA_CINE = 104;
+
 const Marco: React.FC<{ p: Plantilla; oscuro: boolean }> = ({ p, oscuro }) => {
   const c = oscuro ? "#FFFFFF" : p.tinta;
   const op = oscuro ? 0.3 : 0.42;
 
   if (p.marco === "ninguno") return null;
+
+  // Pantalla ancha: dos franjas negras, la viñeta que las acompaña y nada mas.
+  if (p.marco === "cine") {
+    return (
+      <>
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.5) 100%)",
+            pointerEvents: "none",
+          }}
+        />
+        <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: BANDA_CINE, background: "#000", zIndex: 70 }} />
+        <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: BANDA_CINE, background: "#000", zIndex: 70 }} />
+      </>
+    );
+  }
 
   if (p.marco === "caja") {
     return (
@@ -270,7 +291,7 @@ export const Kicker: React.FC<{ children: React.ReactNode; night?: boolean }> = 
         position: "absolute",
         // Con rail lateral el rotulillo se aparta, o se monta encima de la linea.
         left: p.marco === "rail" ? 148 : 128,
-        top: 96,
+        top: p.marco === "cine" ? BANDA_CINE + 24 : 96,
         fontFamily: FONT.mono,
         fontSize: T.kicker,
         letterSpacing: "0.22em",
@@ -295,7 +316,7 @@ export const Source: React.FC<{ children: React.ReactNode; night?: boolean }> = 
         right: 128,
         // Con el rotulo en barra, la franja ocupa el pie del cuadro entero y
         // la fuente quedaba escrita dentro de ella.
-        bottom: p.rotulo === "barra" ? 232 : 92,
+        bottom: p.marco === "cine" ? BANDA_CINE + 24 : p.rotulo === "barra" ? 232 : 92,
         textAlign: "right",
         fontFamily: FONT.mono,
         fontSize: T.source,

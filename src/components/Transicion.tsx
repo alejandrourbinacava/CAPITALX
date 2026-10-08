@@ -1,5 +1,5 @@
 import React from "react";
-import { interpolate } from "remotion";
+import { interpolate, useVideoConfig } from "remotion";
 import { PAPEL } from "../theme";
 import { usePlantilla, useFrame, useTemblor } from "../estilo";
 
@@ -24,6 +24,7 @@ export const Transicion: React.FC<{
   const frame = useFrame();
   const p = usePlantilla();
   const t = useTemblor(orden);
+  const { durationInFrames } = useVideoConfig();
 
   // El temblor de archivo se aplica al plano entero, no a la transicion: es un
   // caracter permanente de la plantilla, no un efecto de entrada.
@@ -36,6 +37,22 @@ export const Transicion: React.FC<{
 
   if (p.transicion === "corte") {
     return <div style={{ position: "absolute", inset: 0, ...base }}>{children}</div>;
+  }
+
+  if (p.transicion === "fundido") {
+    // Entra y sale a traves del fondo: medio segundo de subida y un cuarto de
+    // bajada. Con el fondo casi negro se lee como un fundido de cine, no como
+    // un desvanecido de presentacion.
+    const entrada = interpolate(frame, [0, 14], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+    const salida = interpolate(frame, [durationInFrames - 8, durationInFrames - 1], [1, 0], {
+      extrapolateLeft: "clamp",
+      extrapolateRight: "clamp",
+    });
+    return (
+      <div style={{ position: "absolute", inset: 0, ...base, opacity: Math.min(entrada, salida) }}>
+        {children}
+      </div>
+    );
   }
 
   if (p.transicion === "desliza") {

@@ -34,12 +34,12 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 // si cambia alli, cambia aqui.
 const MINIMO = {
   barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, recorte: 3.6,
-  ilustracion: 4.6, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2, lamina: 3.0,
+  ilustracion: 4.6, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2, lamina: 3.0, capitulo: 4.2,
 };
 
 const TIPOS = [
   "mapa", "barras", "lineas", "contador", "gente", "lista",
-  "frase", "objeto", "retrato", "clip", "lamina", "recorte", "ilustracion", "torres", "dublin", "cierre",
+  "frase", "objeto", "retrato", "clip", "lamina", "capitulo", "recorte", "ilustracion", "torres", "dublin", "cierre",
 ];
 const OBJETOS = [
   "aeropuerto", "balanza", "carpeta", "carta", "casa", "contable", "dosEpocas",
@@ -879,6 +879,8 @@ function reparar(doc) {
         return !!e.clip?.buscar;
       case "lamina":
         return !!e.lamina?.buscar;
+      case "capitulo":
+        return !!e.capitulo?.titulo;
       case "recorte":
         return !!e.recorte?.buscar;
       case "objeto":

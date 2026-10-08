@@ -44,7 +44,7 @@ export type Plantilla = {
   /** Fondo: que se dibuja debajo de todo. */
   textura: "rejilla" | "puntos" | "rayas" | "planos" | "trama" | "liso";
   /** Mobiliario de marco. */
-  marco: "escuadras" | "caja" | "rail" | "ninguno";
+  marco: "escuadras" | "caja" | "rail" | "cine" | "ninguno";
   /** Cantidad de grano. 0 lo apaga. */
   grano: number;
 
@@ -56,7 +56,7 @@ export type Plantilla = {
   apriete: string;
 
   /** Maqueta del rotulo inferior. */
-  rotulo: "bloque" | "barra" | "tarjeta" | "rail" | "sello";
+  rotulo: "bloque" | "barra" | "tarjeta" | "rail" | "sello" | "tercio";
   /** Como se marca la palabra clave. */
   resalte: "slab" | "subrayado" | "caja" | "color";
 
@@ -150,7 +150,7 @@ export type Plantilla = {
   mapa: "relleno" | "contorno" | "trama";
 
   /** El corte entre escenas de un mismo plano. */
-  transicion: "corte" | "desliza" | "barrido" | "flash" | "negro" | "persiana";
+  transicion: "corte" | "desliza" | "barrido" | "flash" | "negro" | "persiana" | "fundido";
   /** Fotogramas por paso de animacion. 1 es fluido; 3 son diez por segundo. */
   paso: number;
   /** Temblor y parpadeo de fotograma, como un montaje de archivo. */
@@ -182,6 +182,9 @@ const CARBON = "#101312";
  *   terminal    brutalismo: monoespaciada en caja alta, cajas de borde duro,
  *               corte con destello y animacion a diez por segundo.
  *   riso        risografia: dos tintas mal registradas, grano alto, cartel.
+ *   documental  cine de archivo: fondo negro calido, franjas de pantalla
+ *               ancha, serifa, rotulo de tercio inferior con fecha y lugar,
+ *               fundidos lentos y tarjetas de capitulo. Para videos largos.
  */
 export const PLANTILLAS: Record<string, Plantilla> = {
   cuaderno: {
@@ -288,8 +291,41 @@ export const PLANTILLAS: Record<string, Plantilla> = {
     camara: "quieta",
   },
 
+  documental: {
+    nombre: "documental",
+    descripcion:
+      "Cine de archivo: negro calido, franjas de pantalla ancha, serifa, tercio inferior y fundidos lentos.",
+    papel: "#0E0D0B",
+    tinta: "#EFE7D6",
+    apagado: "#A89F8A",
+    acento: "#C9A24B",
+    realce: "#2A2620",
+    textura: "liso",
+    marco: "cine",
+    grano: 0.2,
+    titular: "serif",
+    caja: "normal",
+    apriete: "-0.01em",
+    rotulo: "tercio",
+    resalte: "color",
+    icono: "trazo",
+    recorte: "limpio",
+    entrada: "sube",
+    maqueta: "sangre",
+    sostener: "deriva",
+    grafico: "filas",
+    contador: "arco",
+    gente: "fila",
+    mapa: "contorno",
+    transicion: "fundido",
+    paso: 1,
+    temblor: false,
+    camara: "lenta",
+  },
+
   plano: {
     nombre: "plano",
+
     descripcion: "Cianotipo de obra: fondo azul, linea blanca fina y rotulacion tecnica.",
     papel: CIAN,
     tinta: "#E8F1F6",

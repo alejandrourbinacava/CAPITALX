@@ -243,6 +243,39 @@ export const Rotulo: React.FC<{
     );
   }
 
+  // ---- tercio: el rotulo de un documental. Filete corto, versalitas y serifa,
+  // con sombra para que se lea sobre cualquier cuadro ----
+  if (p.rotulo === "tercio") {
+    return (
+      <div
+        style={{
+          position: "absolute",
+          left: 148,
+          bottom: 148,
+          maxWidth: 1240,
+          zIndex: 40,
+          ...enter,
+          textShadow: "0 2px 18px rgba(0,0,0,0.85)",
+        }}
+      >
+        <div
+          style={{
+            height: 2,
+            width: 76 * visible,
+            background: p.acento,
+            marginBottom: 20,
+          }}
+        />
+        {kicker ? (
+          <div style={{ ...rotulillo, color: p.acento, marginBottom: 12, letterSpacing: "0.3em" }}>{kicker}</div>
+        ) : null}
+        <div style={{ ...cuerpo, fontSize: T.rotulo * 0.82, color: p.tinta, fontWeight: 400 }}>
+          <Texto text={text} k={slab} p={p} night={night} />
+        </div>
+      </div>
+    );
+  }
+
   // ---- sello: bloque estampado, girado, con el rotulillo dentro del borde ----
   if (p.rotulo === "sello") {
     return (

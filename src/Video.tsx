@@ -31,6 +31,7 @@ import { Cierre, Lista, Mapa } from "./scenes/Mapa";
 import { Retrato } from "./scenes/Retrato";
 import { Clip } from "./scenes/Clip";
 import { Lamina, type EspecLamina } from "./scenes/Lamina";
+import { Capitulo, type EspecCapitulo } from "./scenes/Capitulo";
 import { Recorte } from "./scenes/Recorte";
 import { Ilustracion, type EspecIlustracion } from "./scenes/Ilustracion";
 import { Contador } from "./scenes/Contador";
@@ -95,6 +96,7 @@ export type Visual = {
   retrato?: any;
   clip?: { buscar?: string; fichero?: string; desde?: number; tono?: "ocre" | "carmin" };
   lamina?: EspecLamina & { buscar?: string };
+  capitulo?: EspecCapitulo;
   recorte?: {
     buscar?: string;
     fichero?: string;
@@ -232,6 +234,8 @@ const MINIMO_POR_TIPO: Record<string, number> = {
   // La lámina es un cuadro: necesita un par de segundos para que se vea
   // entero antes de que la cámara empiece a recorrerlo.
   lamina: 3.0,
+  // La tarjeta de capitulo entra despacio y hay que dejarla leer.
+  capitulo: 4.2,
 };
 const MINIMO_POR_DEFECTO = 3.0;
 const minimoDe = (e: { tipo?: string }) =>
@@ -262,6 +266,7 @@ const PESO: Record<string, number> = {
   // rapido entre dos cosas que piden tiempo.
   clip: 0.5,
   lamina: 0.8,
+  capitulo: 1.0,
 };
 
 /**
@@ -299,6 +304,8 @@ const listo = (p: Visual): boolean => {
       return !!p.clip?.fichero;
     case "lamina":
       return !!p.lamina?.fichero;
+    case "capitulo":
+      return !!p.capitulo?.titulo;
     case "recorte":
       return !!p.recorte?.fichero;
     case "frase":
@@ -522,6 +529,7 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
         {p.tipo === "retrato" ? <Retrato spec={p.retrato} /> : null}
         {p.tipo === "clip" ? <Clip spec={p.clip ?? {}} tono={p.clip?.tono} /> : null}
         {p.tipo === "lamina" ? <Lamina spec={p.lamina ?? {}} /> : null}
+        {p.tipo === "capitulo" ? <Capitulo spec={p.capitulo!} /> : null}
         {p.tipo === "recorte" ? <Recorte spec={p.recorte ?? {}} /> : null}
         </>
         )}
