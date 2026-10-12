@@ -52,6 +52,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "quill ink writing",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11137474",
+                  "url": "https://videos.pexels.com/video-files/11137474/11137474-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "emirkhan bal",
+                  "pagina": "https://www.pexels.com/video/person-dipping-pen-in-ink-bottle-11137474/"
+                },
+                "fichero": "clips/pexels-11137474.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Pedro Perret - General perspective of the Monastery of San Lorenzo de El Escorial (Cropped).jpg",
@@ -119,6 +137,28 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "seville cathedral giralda",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31733837",
+                  "url": "https://videos.pexels.com/video-files/31733837/13520682_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Fernando Sánchez Aranguren",
+                  "pagina": "https://www.pexels.com/video/horse-carriage-ride-through-seville-streets-31733837/"
+                },
+                "fichero": "clips/pexels-31733837.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Sevilla · hoy"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Spanish Galleon Firing its Cannon.jpg",
@@ -182,6 +222,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "silver coins pouring",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11494046",
+                  "url": "https://videos.pexels.com/video-files/11494046/11494046-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Towfiqu barbhuiya",
+                  "pagina": "https://www.pexels.com/video/hand-ejecting-coins-from-bag-11494046/"
+                },
+                "fichero": "clips/pexels-11494046.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Abraham Ortelius Typus Orbis Terrarum Publication Antwerp 1598.jpg",
@@ -226,6 +284,44 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "mundo",
+                "etapas": [
+                  {
+                    "de": "Potosí",
+                    "a": "Sevilla",
+                    "tono": "plata",
+                    "via": [
+                      "Callao",
+                      "Portobelo"
+                    ]
+                  },
+                  {
+                    "de": "Sevilla",
+                    "a": "Génova",
+                    "tono": "deuda"
+                  },
+                  {
+                    "de": "Sevilla",
+                    "a": "Ámsterdam",
+                    "tono": "otro"
+                  },
+                  {
+                    "de": "Acapulco",
+                    "a": "Cantón",
+                    "tono": "plata",
+                    "via": [
+                      "Manila"
+                    ]
+                  }
+                ],
+                "titulo": "Adónde fue la plata",
+                "kicker": "El río de plata"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -297,24 +393,6 @@
                 },
                 "fichero": "laminas/commons-147998779.jpg"
               }
-            },
-            {
-              "tipo": "lamina",
-              "lamina": {
-                "buscar": "File:Portrait of Emperor Wanli (9863892334).jpg",
-                "deriva": "izq",
-                "elegido": {
-                  "fuente": "commons",
-                  "id": "102272312",
-                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Portrait_of_Emperor_Wanli_%289863892334%29.jpg/1920px-Portrait_of_Emperor_Wanli_%289863892334%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-                  "ancho": 1920,
-                  "alto": 2880,
-                  "autor": "Gary Todd from Xinzheng, China",
-                  "titulo": "Portrait of Emperor Wanli (9863892334).jpg",
-                  "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Emperor_Wanli_(9863892334).jpg"
-                },
-                "fichero": "laminas/commons-102272312.jpg"
-              }
             }
           ]
         },
@@ -341,6 +419,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Bernard_van_Orley_(1487-1541)_Karel_V_-_Koninklijk_klooster_van_Brou_(cropped).jpg"
                 },
                 "fichero": "laminas/commons-71859098.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old ledger writing",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2753017",
+                  "url": "https://videos.pexels.com/video-files/2753017/2753017-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Miguel Á. Padriñán",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-vintage-typewriter-with-an-emoji-typed-on-a-bond-paper-2753017/"
+                },
+                "fichero": "clips/pexels-2753017.mp4"
               }
             },
             {
@@ -400,6 +496,28 @@
                 "titulo": "La corona que se compró",
                 "numero": "I",
                 "sub": "Fráncfort · 28 de junio de 1519"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "frankfurt germany old town",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27636097",
+                  "url": "https://videos.pexels.com/video-files/27636097/12190290_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "A.S. Kacar",
+                  "pagina": "https://www.pexels.com/video/frankfurt-hessen-germany-27636097/"
+                },
+                "fichero": "clips/pexels-27636097.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Fráncfort · hoy"
               }
             },
             {
@@ -484,6 +602,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "counting coins hands",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6197184",
+                  "url": "https://videos.pexels.com/video-files/6197184/6197184-hd_1366_586_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 7,
+                  "autor": "Please donation",
+                  "pagina": "https://www.pexels.com/video/a-person-putting-coins-on-the-counter-6197184/"
+                },
+                "fichero": "clips/pexels-6197184.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Authentica repraesentatio Insignivm.jpg",
@@ -528,6 +664,22 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "europa",
+                "etapas": [
+                  {
+                    "de": "Augsburgo",
+                    "a": "Fráncfort",
+                    "tono": "deuda"
+                  }
+                ],
+                "titulo": "El dinero de la elección",
+                "kicker": "1519"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -659,6 +811,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "quill ink writing",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20451819",
+                  "url": "https://videos.pexels.com/video-files/20451819/20451819-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Ali  Alcántara",
+                  "pagina": "https://www.pexels.com/video/a-person-is-reading-a-book-with-a-pen-20451819/"
+                },
+                "fichero": "clips/pexels-20451819.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Jakob Fugger und Sybille Artzt.JPG",
@@ -722,6 +892,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "mercury liquid metal",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31889891",
+                  "url": "https://videos.pexels.com/video-files/31889891/13583306_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mahmoud Ramadan",
+                  "pagina": "https://www.pexels.com/video/abstract-liquid-metal-cubes-animation-31889891/"
+                },
+                "fichero": "clips/pexels-31889891.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Book8-5.jpg",
@@ -764,6 +952,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Braun_Valladolid_HAAB.jpg"
                 },
                 "fichero": "laminas/commons-9832371.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "toledo spain aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "34078516",
+                  "url": "https://videos.pexels.com/video-files/34078516/14453854_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Juan Carlos Londoño Arenas",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-historic-toledo-spain-skyline-34078516/"
+                },
+                "fichero": "clips/pexels-34078516.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Toledo · hoy"
               }
             },
             {
@@ -897,6 +1107,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "ocean waves slow",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4181931",
+                  "url": "https://videos.pexels.com/video-files/4181931/4181931-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Dexter George",
+                  "pagina": "https://www.pexels.com/video/slow-motion-shot-of-waves-crashing-on-the-beach-4181931/"
+                },
+                "fichero": "clips/pexels-4181931.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:1853, Los mártires de la libertad española, vol I, Batalla de Villalar (cropped).jpg",
@@ -1025,6 +1253,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old manuscript pages",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11769112",
+                  "url": "https://videos.pexels.com/video-files/11769112/11769112-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Attila Pergel",
+                  "pagina": "https://www.pexels.com/video/close-up-of-a-male-hand-taking-a-book-from-a-shelf-11769112/"
+                },
+                "fichero": "clips/pexels-11769112.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Marinus van Reymerswaele (Follower of) - The Money Changers - Google Art Project.jpg",
@@ -1067,6 +1313,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Abdication_de_Charles-Quint_(BM_1901,1022.1952).jpg"
                 },
                 "fichero": "laminas/commons-90197481.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "tall ship sailing ocean",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38671768",
+                  "url": "https://videos.pexels.com/video-files/38671768/16427149_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "emmanuel Lozano",
+                  "pagina": "https://www.pexels.com/video/majestic-tall-ship-with-mexican-flag-in-harbor-38671768/"
+                },
+                "fichero": "clips/pexels-38671768.mp4"
               }
             },
             {
@@ -1129,6 +1393,28 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "llamas mountains",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29351281",
+                  "url": "https://videos.pexels.com/video-files/29351281/12649131_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/colorful-alpacas-in-scenic-peruvian-landscape-29351281/"
+                },
+                "fichero": "clips/pexels-29351281.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Los Andes · hoy"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Capitulo-CIX.jpg",
@@ -1144,6 +1430,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Capitulo-CIX.jpg"
                 },
                 "fichero": "laminas/commons-8125355.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "andes mountains aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35742076",
+                  "url": "https://videos.pexels.com/video-files/35742076/15150312_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/breathtaking-aerial-view-of-snow-capped-andes-35742076/"
+                },
+                "fichero": "clips/pexels-35742076.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Los Andes · hoy"
               }
             },
             {
@@ -1191,6 +1499,21 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "POTOSÍ, HABITANTES",
+              "fuente": "Estimaciones: 40.000 hacia 1570; entre 100.000 y 160.000 hacia 1600",
+              "de": {
+                "valor": 40000,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 131000,
+                "etiqueta": "hacia 1603",
+                "decimales": 0
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -1255,6 +1578,27 @@
           },
           "escenas": [
             {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "mundo",
+                "etapas": [
+                  {
+                    "de": "Zacatecas",
+                    "a": "México",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Potosí",
+                    "a": "Callao",
+                    "tono": "plata"
+                  }
+                ],
+                "titulo": "Las dos fuentes de plata",
+                "kicker": "Perú y Nueva España"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Escudo de la ciudad de zacatecas.jpg",
@@ -1293,24 +1637,6 @@
                 },
                 "fichero": "laminas/commons-4790023.jpg"
               }
-            },
-            {
-              "tipo": "lamina",
-              "lamina": {
-                "buscar": "File:Theatrum Orbis Terrarum, by Abraham Ortelius, America, 1572.jpg",
-                "deriva": "arriba",
-                "elegido": {
-                  "fuente": "commons",
-                  "id": "153528945",
-                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_America%2C_1572.jpg/1920px-Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_America%2C_1572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-                  "ancho": 1920,
-                  "alto": 1386,
-                  "autor": "Abraham Ortelius",
-                  "titulo": "Theatrum Orbis Terrarum, by Abraham Ortelius, America, 1572.jpg",
-                  "pagina": "https://commons.wikimedia.org/wiki/File:Theatrum_Orbis_Terrarum,_by_Abraham_Ortelius,_America,_1572.jpg"
-                },
-                "fichero": "laminas/commons-153528945.jpg"
-              }
             }
           ]
         },
@@ -1337,6 +1663,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:De_re_metallica_-_mining_equipment_(125711378).jpg"
                 },
                 "fichero": "laminas/commons-196817410.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "mercury liquid metal",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7928972",
+                  "url": "https://videos.pexels.com/video-files/7928972/7928972-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Alex Max",
+                  "pagina": "https://www.pexels.com/video/close-up-of-ripples-on-water-7928972/"
+                },
+                "fichero": "clips/pexels-7928972.mp4"
               }
             },
             {
@@ -1384,6 +1728,30 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "atlantico",
+                "etapas": [
+                  {
+                    "de": "Almadén",
+                    "a": "Veracruz",
+                    "tono": "otro",
+                    "via": [
+                      "Sevilla"
+                    ]
+                  },
+                  {
+                    "de": "Huancavelica",
+                    "a": "Potosí",
+                    "tono": "otro"
+                  }
+                ],
+                "titulo": "El mercurio",
+                "kicker": "Quien controla el mercurio"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -1452,6 +1820,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "candle flame dark",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8677058",
+                  "url": "https://videos.pexels.com/video-files/8677058/8677058-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Nothing Ahead",
+                  "pagina": "https://www.pexels.com/video/blowing-lighted-candles-8677058/"
+                },
+                "fichero": "clips/pexels-8677058.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:A khipucamayuc, 1615.jpg",
@@ -1496,6 +1882,21 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "LA MITA",
+              "fuente": "Dell, Lane y Querubín; Cole; Bakewell",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 13400,
+                "etiqueta": "hombres al año a Potosí",
+                "decimales": 0
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -1668,6 +2069,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "silver coins pouring",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "31750573",
+                  "url": "https://videos.pexels.com/video-files/31750573/13527135_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Dominik Zítka",
+                  "pagina": "https://www.pexels.com/video/close-up-of-coins-in-a-counting-machine-31750573/"
+                },
+                "fichero": "clips/pexels-31750573.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:PSM V81 D529 Pillar dollar of 1661.png",
@@ -1712,6 +2131,21 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "PLATA HISPANOAMERICANA",
+              "fuente": "Estimaciones entre 87.500 y 150.000 t (1500-1800)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 150000,
+                "etiqueta": "toneladas, cifra alta",
+                "decimales": 0
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -1794,6 +2228,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old stone architecture",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5964062",
+                  "url": "https://videos.pexels.com/video-files/5964062/5964062-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Grisha Grishkoff",
+                  "pagina": "https://www.pexels.com/video/exterior-of-an-old-building-5964062/"
+                },
+                "fichero": "clips/pexels-5964062.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Descripción de la Provincia de Lima y la Ciudad de los Reyes - AHG.jpg",
@@ -1850,6 +2302,28 @@
                 "titulo": "Sevilla, puerta de las Indias",
                 "numero": "III",
                 "sub": "Sevilla · siglo XVI"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "seville cathedral giralda",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5238449",
+                  "url": "https://videos.pexels.com/video-files/5238449/5238449-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Alvaro Lama",
+                  "pagina": "https://www.pexels.com/video/low-angle-shot-of-seville-cathedral-5238449/"
+                },
+                "fichero": "clips/pexels-5238449.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Sevilla · hoy"
               }
             },
             {
@@ -1934,6 +2408,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old manuscript pages",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6981523",
+                  "url": "https://videos.pexels.com/video-files/6981523/6981523-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "KoolShooters",
+                  "pagina": "https://www.pexels.com/video/a-poet-searching-in-a-book-6981523/"
+                },
+                "fichero": "clips/pexels-6981523.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Map Diego Ribero 1529.jpg",
@@ -1996,6 +2488,38 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "atlantico",
+                "etapas": [
+                  {
+                    "de": "Sevilla",
+                    "a": "Veracruz",
+                    "tono": "otro",
+                    "via": [
+                      "Cádiz"
+                    ]
+                  },
+                  {
+                    "de": "Cádiz",
+                    "a": "Cartagena",
+                    "tono": "otro"
+                  },
+                  {
+                    "de": "La Habana",
+                    "a": "Sevilla",
+                    "tono": "plata",
+                    "via": [
+                      "Cádiz"
+                    ]
+                  }
+                ],
+                "titulo": "El sistema de flotas",
+                "kicker": "Desde 1561"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -2077,6 +2601,40 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "atlantico",
+                "etapas": [
+                  {
+                    "de": "Potosí",
+                    "a": "Callao",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Callao",
+                    "a": "Panamá",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Panamá",
+                    "a": "Portobelo",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Portobelo",
+                    "a": "Sevilla",
+                    "tono": "plata",
+                    "via": [
+                      "La Habana"
+                    ]
+                  }
+                ],
+                "titulo": "La plata del Perú",
+                "kicker": "Un viaje de meses"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -2174,6 +2732,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Gezicht_op_de_stad_Sevilla,_BI-1956-1074-103.jpg"
                 },
                 "fichero": "laminas/commons-142179820.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "seville spain old town",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "40118846",
+                  "url": "https://videos.pexels.com/video-files/40118846/17128914_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 5,
+                  "autor": "Gizem Erim",
+                  "pagina": "https://www.pexels.com/video/scenic-view-of-plaza-de-espana-in-seville-40118846/"
+                },
+                "fichero": "clips/pexels-40118846.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Sevilla · hoy"
               }
             },
             {
@@ -2306,6 +2886,21 @@
           },
           "escenas": [
             {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "PLATA DEL REY",
+              "fuente": "TePaske (1983)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 65,
+                "etiqueta": "toneladas al año hacia 1580",
+                "decimales": 0
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Titian - Portrait of Philip II in Armour - WGA22970.jpg",
@@ -2387,6 +2982,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "pirate ship sailing",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28409851",
+                  "url": "https://videos.pexels.com/video-files/28409851/12377617_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tatiana Tzviatkova",
+                  "pagina": "https://www.pexels.com/video/a-pirate-ship-is-sailing-in-the-ocean-28409851/"
+                },
+                "fichero": "clips/pexels-28409851.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Hieronimo Custodis Admiral Sir John Hawkins.jpg",
@@ -2447,6 +3060,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Nombre_de_Dios_-_Project_Gutenberg_eText_19396.jpg"
                 },
                 "fichero": "laminas/commons-1312983.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "naval cannon fire",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30371815",
+                  "url": "https://videos.pexels.com/video-files/30371815/13016800_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Tatiana Tzviatkova",
+                  "pagina": "https://www.pexels.com/video/tranquil-sunset-at-the-nautical-port-harbor-30371815/"
+                },
+                "fichero": "clips/pexels-30371815.mp4"
               }
             },
             {
@@ -2531,6 +3162,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "stormy sea ship waves",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35230426",
+                  "url": "https://videos.pexels.com/video-files/35230426/14925926_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/dramatic-ocean-waves-with-ships-and-seagulls-35230426/"
+                },
+                "fichero": "clips/pexels-35230426.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Marina. Naufragio de un galeón.jpg",
@@ -2546,6 +3195,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Marina._Naufragio_de_un_gale%C3%B3n.jpg"
                 },
                 "fichero": "laminas/commons-57791869.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "sea storm waves",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30884729",
+                  "url": "https://videos.pexels.com/video-files/30884729/13205922_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Eren Ataselim",
+                  "pagina": "https://www.pexels.com/video/winter-storm-at-sea-with-rough-waves-30884729/"
+                },
+                "fichero": "clips/pexels-30884729.mp4"
               }
             },
             {
@@ -2650,6 +3317,28 @@
                 "titulo": "El rey que quiso gobernar el mundo",
                 "numero": "IV",
                 "sub": "Madrid · 1556-1598"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "escorial monastery spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39591384",
+                  "url": "https://videos.pexels.com/video-files/39591384/16875054_1366_720_60fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "Ludovic Delot",
+                  "pagina": "https://www.pexels.com/video/historic-building-in-natural-landscape-39591384/"
+                },
+                "fichero": "clips/pexels-39591384.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "El Escorial · hoy"
               }
             },
             {
@@ -2779,6 +3468,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "mediterranean sea waves",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5659509",
+                  "url": "https://videos.pexels.com/video-files/5659509/5659509-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Itai Perelman Nasich",
+                  "pagina": "https://www.pexels.com/video/beautiful-scenery-of-ocean-waves-crashing-on-seashore-5659509/"
+                },
+                "fichero": "clips/pexels-5659509.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Battle of Tunis 1535 Attack on Goletta.jpg",
@@ -2864,6 +3571,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "ocean waves slow",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "16755467",
+                  "url": "https://videos.pexels.com/video-files/16755467/16755467-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Film Composite",
+                  "pagina": "https://www.pexels.com/video/a-view-of-the-ocean-from-above-16755467/"
+                },
+                "fichero": "clips/pexels-16755467.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Battle of Lepanto by Martin Rota.jpg",
@@ -2926,6 +3651,35 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "europa",
+                "etapas": [
+                  {
+                    "de": "Barcelona",
+                    "a": "Génova",
+                    "tono": "otro"
+                  },
+                  {
+                    "de": "Génova",
+                    "a": "Besançon",
+                    "tono": "deuda",
+                    "via": [
+                      "Milán"
+                    ]
+                  },
+                  {
+                    "de": "Besançon",
+                    "a": "Amberes",
+                    "tono": "deuda"
+                  }
+                ],
+                "titulo": "Del Mediterráneo a Flandes",
+                "kicker": "El camino del dinero"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -3116,6 +3870,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "dark clouds ocean storm",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17786067",
+                  "url": "https://videos.pexels.com/video-files/17786067/17786067-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Berkalp Turper",
+                  "pagina": "https://www.pexels.com/video/a-stormy-sky-over-the-ocean-with-a-small-island-in-the-distance-17786067/"
+                },
+                "fichero": "clips/pexels-17786067.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Spanish Armada.jpg",
@@ -3178,6 +3950,21 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "EL COSTE DE LA ARMADA",
+              "fuente": "Drelichman y Voth",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 10,
+                "etiqueta": "millones de ducados",
+                "decimales": 0
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -3257,6 +4044,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Diego_Velazquez_-_An_Old_Woman_Cooking_Eggs_-_Google_Art_Project.jpg"
                 },
                 "fichero": "laminas/commons-21865452.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "market stalls vegetables",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7115733",
+                  "url": "https://videos.pexels.com/video-files/7115733/7115733-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mike Hongkong",
+                  "pagina": "https://www.pexels.com/video/video-of-vegetables-market-7115733/"
+                },
+                "fichero": "clips/pexels-7115733.mp4"
               }
             },
             {
@@ -3368,6 +4173,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old books pages turning",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35972510",
+                  "url": "https://videos.pexels.com/video-files/35972510/15252724_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Nothing Ahead",
+                  "pagina": "https://www.pexels.com/video/close-up-of-bible-pages-turning-35972510/"
+                },
+                "fichero": "clips/pexels-35972510.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Pierre Paul Rubens - Palazzi di Genova, vol. II - Figura 57.jpg",
@@ -3427,6 +4250,28 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "genoa italy port aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19896390",
+                  "url": "https://videos.pexels.com/video-files/19896390/19896390-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/a-large-cruise-ship-is-docked-in-a-harbor-19896390/"
+                },
+                "fichero": "clips/pexels-19896390.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Génova · hoy"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Georg Braun-Frans Hogenberg -Genua Ligurum domina (cropped-Genua).jpg",
@@ -3442,6 +4287,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Georg_Braun-Frans_Hogenberg_-Genua_Ligurum_domina_(cropped-Genua).jpg"
                 },
                 "fichero": "laminas/commons-106145596.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "italian harbor old city",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12068952",
+                  "url": "https://videos.pexels.com/video-files/12068952/12068952-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Cristian Manieri",
+                  "pagina": "https://www.pexels.com/video/back-view-of-a-boat-arriving-at-genoa-old-port-12068952/"
+                },
+                "fichero": "clips/pexels-12068952.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Génova · hoy"
               }
             },
             {
@@ -3505,6 +4372,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Angelo_Bronzino_-_Portrait_of_Andrea_Doria_as_Neptune_-_WGA3261.jpg"
                 },
                 "fichero": "laminas/commons-15384802.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "italian harbor old city",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15659841",
+                  "url": "https://videos.pexels.com/video-files/15659841/15659841-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-the-port-of-bari-italy-15659841/"
+                },
+                "fichero": "clips/pexels-15659841.mp4"
               }
             },
             {
@@ -3616,6 +4501,27 @@
           },
           "escenas": [
             {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "europa",
+                "etapas": [
+                  {
+                    "de": "Sevilla",
+                    "a": "Génova",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Génova",
+                    "a": "Amberes",
+                    "tono": "deuda"
+                  }
+                ],
+                "titulo": "La plata va, el crédito vuelve",
+                "kicker": "Letras de cambio"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Detti e Figli letter book - DPLA - 25231deb170faf5d562564629008ee96 (page 321).jpg",
@@ -3715,6 +4621,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "counting coins hands",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7062994",
+                  "url": "https://videos.pexels.com/video-files/7062994/7062994-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Dziana Hasanbekava",
+                  "pagina": "https://www.pexels.com/video/man-counting-pennies-7062994/"
+                },
+                "fichero": "clips/pexels-7062994.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Hans Holbein der Jüngere - Der Kaufmann Georg Gisze - Google Art ProjectFXD.jpg",
@@ -3804,6 +4728,21 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "BANQUEROS DE FELIPE II",
+              "fuente": "Drelichman y Voth",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 145,
+                "etiqueta": "banqueros, 1566-1596",
+                "decimales": 0
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -4015,6 +4954,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old ledger writing",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30117913",
+                  "url": "https://videos.pexels.com/video-files/30117913/12916697_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 21,
+                  "autor": "utopia 36",
+                  "pagina": "https://www.pexels.com/video/person-writing-in-dimly-lit-room-with-papers-30117913/"
+                },
+                "fichero": "clips/pexels-30117913.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bursa (BM 1875,0710.795 1).jpg",
@@ -4078,6 +5035,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "clouds over sea",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35234677",
+                  "url": "https://videos.pexels.com/video-files/35234677/14927402_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Marianna Sigov",
+                  "pagina": "https://www.pexels.com/video/serene-ocean-view-with-gentle-rainbow-35234677/"
+                },
+                "fichero": "clips/pexels-35234677.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Sevilla siglo XVI.jpg",
@@ -4137,6 +5112,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "market stalls vegetables",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "33384892",
+                  "url": "https://videos.pexels.com/video-files/33384892/14213248_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "Doğan Alpaslan  Demir",
+                  "pagina": "https://www.pexels.com/video/vibrant-fresh-market-with-vegetables-and-shoppers-33384892/"
+                },
+                "fichero": "clips/pexels-33384892.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Georg Braun & Frans Hogenberg - Sevilla.jpg",
@@ -4152,6 +5145,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Georg_Braun_%26_Frans_Hogenberg_-_Sevilla.jpg"
                 },
                 "fichero": "laminas/commons-93145476.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old market street spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "1191535",
+                  "url": "https://videos.pexels.com/video-files/1191535/1191535-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "clara blasco",
+                  "pagina": "https://www.pexels.com/video/people-walking-1191535/"
+                },
+                "fichero": "clips/pexels-1191535.mp4"
               }
             },
             {
@@ -4197,6 +5208,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mart%C3%ADn_de_Azpilcueta_(cropped).jpg"
                 },
                 "fichero": "laminas/commons-193601322.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "silver coins pouring",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "8369975",
+                  "url": "https://videos.pexels.com/video-files/8369975/8369975-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/putting-silver-and-gold-coins-on-metal-tray-8369975/"
+                },
+                "fichero": "clips/pexels-8369975.mp4"
               }
             },
             {
@@ -4263,6 +5292,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old library books",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11765182",
+                  "url": "https://videos.pexels.com/video-files/11765182/11765182-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Attila Pergel",
+                  "pagina": "https://www.pexels.com/video/close-up-view-of-antique-books-11765182/"
+                },
+                "fichero": "clips/pexels-11765182.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Sevilla met vele figuren op de voorgrond Sevilla Hispalis (titel op object), RP-P-1910-2128.jpg",
@@ -4305,6 +5352,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Francisco_de_Quevedo_(Pacheco).jpg"
                 },
                 "fichero": "laminas/commons-27858094.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "quill ink writing",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7610863",
+                  "url": "https://videos.pexels.com/video-files/7610863/7610863-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 11,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/man-writing-on-white-paper-7610863/"
+                },
+                "fichero": "clips/pexels-7610863.mp4"
               }
             },
             {
@@ -4398,6 +5463,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "sheep flock spain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18991340",
+                  "url": "https://videos.pexels.com/video-files/18991340/18991340-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Mehmet Kılınç",
+                  "pagina": "https://www.pexels.com/video/drought-2-18991340/"
+                },
+                "fichero": "clips/pexels-18991340.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Braun Burgos UBHD.jpg",
@@ -4413,6 +5496,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Braun_Burgos_UBHD.jpg"
                 },
                 "fichero": "laminas/commons-9832837.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "merino sheep grazing",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "20469064",
+                  "url": "https://videos.pexels.com/video-files/20469064/20469064-hd_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Aldin  Mustafić",
+                  "pagina": "https://www.pexels.com/video/enchanting-sheep-enjoying-the-green-pasture-20469064/"
+                },
+                "fichero": "clips/pexels-20469064.mp4"
               }
             },
             {
@@ -4461,6 +5562,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "wool spinning",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35469631",
+                  "url": "https://videos.pexels.com/video-files/35469631/15027062_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Mahidul Islam Nakib",
+                  "pagina": "https://www.pexels.com/video/high-speed-textile-production-machinery-35469631/"
+                },
+                "fichero": "clips/pexels-35469631.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Aspecto del Alcázar de Segovia anterior al incendio de 1681. Archivo de Simancas.jpg",
@@ -4503,6 +5622,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Bonaventura_Peeters_(I)_-_View_of_the_Pier_of_Antwerp_from_the_Vlaams_Hoofd.jpg"
                 },
                 "fichero": "laminas/commons-37254492.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "aerial old european city",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17138419",
+                  "url": "https://videos.pexels.com/video-files/17138419/17138419-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "KJeremy",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-the-city-17138419/"
+                },
+                "fichero": "clips/pexels-17138419.mp4"
               }
             },
             {
@@ -4568,6 +5705,51 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "LA PLATA QUE SALÍA",
+              "fuente": "Reconstruction of the Spanish money supply, 2021",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 90,
+                "etiqueta": "de la plata americana en el siglo XVII",
+                "decimales": 0,
+                "sufijo": " %"
+              }
+            },
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "mundo",
+                "etapas": [
+                  {
+                    "de": "Sevilla",
+                    "a": "Génova",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Sevilla",
+                    "a": "Amberes",
+                    "tono": "otro"
+                  },
+                  {
+                    "de": "Acapulco",
+                    "a": "Cantón",
+                    "tono": "plata",
+                    "via": [
+                      "Manila"
+                    ]
+                  }
+                ],
+                "titulo": "Adónde salía la plata",
+                "kicker": "El drenaje"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -4776,6 +5958,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "ocean waves slow",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5604331",
+                  "url": "https://videos.pexels.com/video-files/5604331/5604331-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Sorin Bianu",
+                  "pagina": "https://www.pexels.com/video/close-up-video-of-waves-crashing-on-shore-5604331/"
+                },
+                "fichero": "clips/pexels-5604331.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Andres Urdaneta Tornaviaje.jpg",
@@ -4835,6 +6035,22 @@
               }
             },
             {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "pacifico",
+                "etapas": [
+                  {
+                    "de": "Cebú",
+                    "a": "Acapulco",
+                    "tono": "otro"
+                  }
+                ],
+                "titulo": "Urdaneta, 1565",
+                "kicker": "La ruta de vuelta"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:The Philippine Islands, 1493-1803 - Volume 2 (1903) - Fray Andrés de Urdaneta - page 163.jpg",
@@ -4869,24 +6085,6 @@
                 },
                 "fichero": "laminas/commons-129102807.jpg"
               }
-            },
-            {
-              "tipo": "lamina",
-              "lamina": {
-                "buscar": "File:ACM-Unknown artist-Foundation of the Spanish colony in the Philippines-03875.jpg",
-                "deriva": "izq",
-                "elegido": {
-                  "fuente": "commons",
-                  "id": "138224914",
-                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/ACM-Unknown_artist-Foundation_of_the_Spanish_colony_in_the_Philippines-03875.jpg/1920px-ACM-Unknown_artist-Foundation_of_the_Spanish_colony_in_the_Philippines-03875.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-                  "ancho": 1920,
-                  "alto": 2391,
-                  "autor": "anonymous",
-                  "titulo": "ACM-Unknown artist-Foundation of the Spanish colony in the Philippines-03875.jpg",
-                  "pagina": "https://commons.wikimedia.org/wiki/File:ACM-Unknown_artist-Foundation_of_the_Spanish_colony_in_the_Philippines-03875.jpg"
-                },
-                "fichero": "laminas/commons-138224914.jpg"
-              }
             }
           ]
         },
@@ -4897,6 +6095,27 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "pacifico",
+                "etapas": [
+                  {
+                    "de": "Acapulco",
+                    "a": "Manila",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Manila",
+                    "a": "Acapulco",
+                    "tono": "otro"
+                  }
+                ],
+                "titulo": "El galeón de Manila",
+                "kicker": "Más de dos siglos"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -4932,42 +6151,6 @@
                 },
                 "fichero": "laminas/commons-160390527.jpg"
               }
-            },
-            {
-              "tipo": "lamina",
-              "lamina": {
-                "buscar": "File:Porcelain dish from Jingdezhen, Wanli period, HMA.JPG",
-                "deriva": "der",
-                "elegido": {
-                  "fuente": "commons",
-                  "id": "22233705",
-                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Porcelain_dish_from_Jingdezhen%2C_Wanli_period%2C_HMA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-                  "ancho": 1920,
-                  "alto": 1909,
-                  "autor": "Hiart",
-                  "titulo": "Porcelain dish from Jingdezhen, Wanli period, HMA.JPG",
-                  "pagina": "https://commons.wikimedia.org/wiki/File:Porcelain_dish_from_Jingdezhen,_Wanli_period,_HMA.JPG"
-                },
-                "fichero": "laminas/commons-22233705.jpg"
-              }
-            },
-            {
-              "tipo": "lamina",
-              "lamina": {
-                "buscar": "File:Carta Hydrographica y Chorographica de las Yslas Filipinas Dedicada al Rey Nuestro Señor por el Mariscal d. Campo D. Fernando Valdes Tamon Cavallº del Orden de Santiago de Govor. Y Capn.jpg",
-                "deriva": "izq",
-                "elegido": {
-                  "fuente": "commons",
-                  "id": "73081316",
-                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Carta_Hydrographica_y_Chorographica_de_las_Yslas_Filipinas_Dedicada_al_Rey_Nuestro_Se%C3%B1or_por_el_Mariscal_d._Campo_D._Fernando_Valdes_Tamon_Cavall%C2%BA_del_Orden_de_Santiago_de_Govor._Y_Capn.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-                  "ancho": 1920,
-                  "alto": 1766,
-                  "autor": "Pedro Murillo Velarde",
-                  "titulo": "Carta Hydrographica y Chorographica de las Yslas Filipinas Dedicada al Rey Nuestro Señor por el Mariscal d. Campo D. Fernando Valdes Tamon Cavallº del Orden de Santiago de Govor. Y Capn.jpg",
-                  "pagina": "https://commons.wikimedia.org/wiki/File:Carta_Hydrographica_y_Chorographica_de_las_Yslas_Filipinas_Dedicada_al_Rey_Nuestro_Se%C3%B1or_por_el_Mariscal_d._Campo_D._Fernando_Valdes_Tamon_Cavall%C2%BA_del_Orden_de_Santiago_de_Govor._Y_Capn.jpg"
-                },
-                "fichero": "laminas/commons-73081316.jpg"
-              }
             }
           ]
         },
@@ -4997,6 +6180,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "china old town lanterns",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36321494",
+                  "url": "https://videos.pexels.com/video-files/36321494/15403607_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "LayG Traveller",
+                  "pagina": "https://www.pexels.com/video/chongqing-ancient-town-street-view-visual-journey-36321494/"
+                },
+                "fichero": "clips/pexels-36321494.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Ming Silver Ingot 02.jpg",
@@ -5012,6 +6213,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Ming_Silver_Ingot_02.jpg"
                 },
                 "fichero": "laminas/commons-104047355.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "chinese porcelain",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6691520",
+                  "url": "https://videos.pexels.com/video-files/6691520/6691520-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "RDNE Stock project",
+                  "pagina": "https://www.pexels.com/video/tea-set-arrange-on-a-tray-6691520/"
+                },
+                "fichero": "clips/pexels-6691520.mp4"
               }
             },
             {
@@ -5041,6 +6260,27 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "mundo",
+                "etapas": [
+                  {
+                    "de": "Acapulco",
+                    "a": "Manila",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Manila",
+                    "a": "Cantón",
+                    "tono": "plata"
+                  }
+                ],
+                "titulo": "La plata llega a China",
+                "kicker": "Un tercio de la plata americana"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -5105,6 +6345,21 @@
           },
           "escenas": [
             {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "EL ATOCHA, 1622",
+              "fuente": "Wikipedia; fuentes de la época",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 24,
+                "etiqueta": "toneladas de plata",
+                "decimales": 0
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Andries Van Eertvelt-Ships in Peril 1623.jpg",
@@ -5149,6 +6404,37 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "EL BOTÍN DE MATANZAS",
+              "fuente": "Rijksmuseum; Britannica da 12 millones",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 11509524,
+                "etiqueta": "florines",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "caribe",
+                "etapas": [
+                  {
+                    "de": "Veracruz",
+                    "a": "Matanzas",
+                    "tono": "plata"
+                  }
+                ],
+                "titulo": "Matanzas, 1628",
+                "kicker": "La flota de Nueva España"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -5206,24 +6492,6 @@
                 },
                 "fichero": "laminas/commons-147998586.jpg"
               }
-            },
-            {
-              "tipo": "lamina",
-              "lamina": {
-                "buscar": "File:Verovering van de Zilvervloot, 1628, RP-P-OB-81.176.jpg",
-                "deriva": "izq",
-                "elegido": {
-                  "fuente": "commons",
-                  "id": "85814066",
-                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Verovering_van_de_Zilvervloot%2C_1628%2C_RP-P-OB-81.176.jpg/1920px-Verovering_van_de_Zilvervloot%2C_1628%2C_RP-P-OB-81.176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-                  "ancho": 1920,
-                  "alto": 1302,
-                  "autor": "Rijksmuseum",
-                  "titulo": "Verovering van de Zilvervloot, 1628, RP-P-OB-81.176.jpg",
-                  "pagina": "https://commons.wikimedia.org/wiki/File:Verovering_van_de_Zilvervloot,_1628,_RP-P-OB-81.176.jpg"
-                },
-                "fichero": "laminas/commons-85814066.jpg"
-              }
             }
           ]
         },
@@ -5250,6 +6518,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Charter_of_Freedoms_and_Exemptions_(Dutch_West_India_Company)_1630.jpg"
                 },
                 "fichero": "laminas/commons-145403794.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "stone fortress walls",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28246680",
+                  "url": "https://videos.pexels.com/video-files/28246680/12339213_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Адам Аушев",
+                  "pagina": "https://www.pexels.com/video/a-view-of-a-stone-building-in-the-middle-of-a-field-28246680/"
+                },
+                "fichero": "clips/pexels-28246680.mp4"
               }
             },
             {
@@ -5297,6 +6583,27 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "caribe",
+                "etapas": [
+                  {
+                    "de": "Curazao",
+                    "a": "Cartagena",
+                    "tono": "otro"
+                  },
+                  {
+                    "de": "Jamaica",
+                    "a": "Portobelo",
+                    "tono": "otro"
+                  }
+                ],
+                "titulo": "El contrabando",
+                "kicker": "Por debajo de las flotas"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -5436,6 +6743,28 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "cadiz spain coast",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "39197712",
+                  "url": "https://videos.pexels.com/video-files/39197712/16678894_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Nico Rodríguez",
+                  "pagina": "https://www.pexels.com/video/relaxing-beach-scene-with-clear-blue-skies-39197712/"
+                },
+                "fichero": "clips/pexels-39197712.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Cádiz · hoy"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Gezicht op de landtong van Cádiz en de tonijnvisserij, BI-1956-1074-34.jpg",
@@ -5492,6 +6821,28 @@
                 "titulo": "La caída",
                 "numero": "VIII",
                 "sub": "Madrid · 1621-1700"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "madrid old city aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10808590",
+                  "url": "https://videos.pexels.com/video-files/10808590/10808590-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Lazar Krstić",
+                  "pagina": "https://www.pexels.com/video/overcast-over-toledo-bridge-in-madrid-10808590/"
+                },
+                "fichero": "clips/pexels-10808590.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Madrid · hoy"
               }
             },
             {
@@ -5666,6 +7017,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "copper coins close up",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5651769",
+                  "url": "https://videos.pexels.com/video-files/5651769/5651769-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/us-coins-of-different-value-5651769/"
+                },
+                "fichero": "clips/pexels-5651769.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Monnaie - Espagne, Philippe IV, 8 maravédis - btv1b11335879b (1 of 2).jpg",
@@ -5729,6 +7098,28 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "barcelona gothic quarter",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "28115461",
+                  "url": "https://videos.pexels.com/video-files/28115461/12303023_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Talwinder Dhillon",
+                  "pagina": "https://www.pexels.com/video/gothic-quarter-barcelona-28115461/"
+                },
+                "fichero": "clips/pexels-28115461.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Barcelona · hoy"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Barcelona Civitatis Orbis Terrarum.jpg",
@@ -5771,6 +7162,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:JoaoIV_Google_Arts_Project.jpg"
                 },
                 "fichero": "laminas/commons-130891098.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "lisbon old town aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "29651213",
+                  "url": "https://videos.pexels.com/video-files/29651213/12757039_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Max Medyk",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-lisbon-s-praca-do-comercio-29651213/"
+                },
+                "fichero": "clips/pexels-29651213.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Lisboa · hoy"
               }
             },
             {
@@ -5838,6 +7251,24 @@
               "rotulo": {
                 "texto": "Rocroi · 1643",
                 "kicker": "El fin de los tercios"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "narrow cobblestone street",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "36546621",
+                  "url": "https://videos.pexels.com/video-files/36546621/15497110_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/historic-stone-alleyway-details-in-europe-36546621/"
+                },
+                "fichero": "clips/pexels-36546621.mp4"
               }
             },
             {
@@ -5919,6 +7350,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Westfaelischer_Friede_in_Muenster_(Gerard_Terborch_1648).jpg"
                 },
                 "fichero": "laminas/commons-337672.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "ocean waves slow",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3009253",
+                  "url": "https://videos.pexels.com/video-files/3009253/3009253-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 22,
+                  "autor": "Magda Ehlers",
+                  "pagina": "https://www.pexels.com/video/big-waves-rushing-to-shore-3009253/"
+                },
+                "fichero": "clips/pexels-3009253.mp4"
               }
             },
             {
@@ -6118,6 +7567,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "candle flame dark",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19726028",
+                  "url": "https://videos.pexels.com/video-files/19726028/19726028-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Milos Jevtic",
+                  "pagina": "https://www.pexels.com/video/two-candles-in-the-dark-4k-timelapse-19726028/"
+                },
+                "fichero": "clips/pexels-19726028.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Carlos II de España, de Juan Carreño de Miranda (Museo del Prado).jpg",
@@ -6199,6 +7666,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old stone architecture",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27729662",
+                  "url": "https://videos.pexels.com/video-files/27729662/12213197_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Адам Аушев",
+                  "pagina": "https://www.pexels.com/video/2021-27729662/"
+                },
+                "fichero": "clips/pexels-27729662.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:C. 1713-1721 Europe (treaty adjustments).jpg",
@@ -6258,6 +7743,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "caribbean sea aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "17161182",
+                  "url": "https://videos.pexels.com/video-files/17161182/17161182-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "23  Audiovisual",
+                  "pagina": "https://www.pexels.com/video/drone-video-of-palm-trees-by-the-sea-in-yucatan-mexico-17161182/"
+                },
+                "fichero": "clips/pexels-17161182.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Map and views illustrating Sir Francis Drake's West Indian voyage, 1585-6 LOC 2007626708-3.jpg",
@@ -6292,24 +7795,6 @@
                 },
                 "fichero": "laminas/commons-2737846.jpg"
               }
-            },
-            {
-              "tipo": "lamina",
-              "lamina": {
-                "buscar": "File:Crispin de Passe Portrait of Sir Francis Drake 1598.jpg",
-                "deriva": "abajo",
-                "elegido": {
-                  "fuente": "commons",
-                  "id": "1507917",
-                  "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Crispin_de_Passe_Portrait_of_Sir_Francis_Drake_1598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-                  "ancho": 1920,
-                  "alto": 2643,
-                  "autor": "Crispijn van de Passe the Elder",
-                  "titulo": "Crispin de Passe Portrait of Sir Francis Drake 1598.jpg",
-                  "pagina": "https://commons.wikimedia.org/wiki/File:Crispin_de_Passe_Portrait_of_Sir_Francis_Drake_1598.jpg"
-                },
-                "fichero": "laminas/commons-1507917.jpg"
-              }
             }
           ]
         },
@@ -6320,6 +7805,27 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "caribe",
+                "etapas": [
+                  {
+                    "de": "Santo Domingo",
+                    "a": "Cartagena",
+                    "tono": "deuda"
+                  },
+                  {
+                    "de": "Cartagena",
+                    "a": "San Agustín",
+                    "tono": "deuda"
+                  }
+                ],
+                "titulo": "Drake en el Caribe, 1586",
+                "kicker": "Tres ciudades"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -6399,6 +7905,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Planta_y_perspectiva_de_la_ciudad_de_Panam%C3%A1.jpg"
                 },
                 "fichero": "laminas/commons-95813400.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "colonial fortress caribbean",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "15365288",
+                  "url": "https://videos.pexels.com/video-files/15365288/15365288-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Jean Pablo Silva",
+                  "pagina": "https://www.pexels.com/video/castillo-el-morro-15365288/"
+                },
+                "fichero": "clips/pexels-15365288.mp4"
               }
             },
             {
@@ -6483,6 +8007,28 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old havana street",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "18016604",
+                  "url": "https://videos.pexels.com/video-files/18016604/18016604-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Mr Pixel",
+                  "pagina": "https://www.pexels.com/video/kuba-autos-cuba-cars-18016604/"
+                },
+                "fichero": "clips/pexels-18016604.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "La Habana · hoy"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Dominic Serres the Elder - The Capture of Havana, 1762- The Morro Castle and the Boom Defence Before the Attack.jpg",
@@ -6498,6 +8044,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Dominic_Serres_the_Elder_-_The_Capture_of_Havana,_1762-_The_Morro_Castle_and_the_Boom_Defence_Before_the_Attack.jpg"
                 },
                 "fichero": "laminas/commons-17185022.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "havana seawall waves",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "2671243",
+                  "url": "https://videos.pexels.com/video-files/2671243/2671243-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ricky Esquivel",
+                  "pagina": "https://www.pexels.com/video/waves-crashing-on-a-seawall-2671243/"
+                },
+                "fichero": "clips/pexels-2671243.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "La Habana · hoy"
               }
             },
             {
@@ -6545,6 +8113,37 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "caribe",
+                "etapas": [
+                  {
+                    "de": "Veracruz",
+                    "a": "La Habana",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Veracruz",
+                    "a": "San Juan",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Veracruz",
+                    "a": "Santo Domingo",
+                    "tono": "plata"
+                  },
+                  {
+                    "de": "Veracruz",
+                    "a": "San Agustín",
+                    "tono": "plata"
+                  }
+                ],
+                "titulo": "El situado",
+                "kicker": "La plata de México paga las defensas"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -6666,6 +8265,22 @@
           },
           "escenas": [
             {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "LA PLATA DE NUEVA ESPAÑA",
+              "fuente": "Marichal y Souto (2012)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 40,
+                "etiqueta": "de la plata acuñada sacaba la Real Hacienda",
+                "decimales": 0,
+                "sufijo": " %"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Mexico Carlos III Pillar Dollar of 8 Reales 1771.jpg",
@@ -6774,6 +8389,28 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "cartagena colombia old city",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3940066",
+                  "url": "https://videos.pexels.com/video-files/3940066/3940066-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 14,
+                  "autor": "Enrique",
+                  "pagina": "https://www.pexels.com/video/aerial-shot-of-a-town-3940066/"
+                },
+                "fichero": "clips/pexels-3940066.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Cartagena · hoy"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:The English Lion let loose, or Vernon Triumphant (BM 1863,0808.77).jpg",
@@ -6789,6 +8426,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:The_English_Lion_let_loose,_or_Vernon_Triumphant_(BM_1863,0808.77).jpg"
                 },
                 "fichero": "laminas/commons-90112996.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "colonial fortress caribbean",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "26281388",
+                  "url": "https://videos.pexels.com/video-files/26281388/11944841_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Julián Armando Santos",
+                  "pagina": "https://www.pexels.com/video/cartagena-teatro-adolfo-mejia-26281388/"
+                },
+                "fichero": "clips/pexels-26281388.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Cartagena · hoy"
               }
             },
             {
@@ -6852,6 +8511,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Dominic_Serres_the_Elder_-_The_Capture_of_Havana,_1762.jpg"
                 },
                 "fichero": "laminas/commons-17183999.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "caribbean fortress sea",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10910576",
+                  "url": "https://videos.pexels.com/video-files/10910576/10910576-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Glenn Langhorst",
+                  "pagina": "https://www.pexels.com/video/coastal-town-surrounded-by-blue-sea-10910576/"
+                },
+                "fichero": "clips/pexels-10910576.mp4"
               }
             },
             {
@@ -6936,6 +8613,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old books pages turning",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9080220",
+                  "url": "https://videos.pexels.com/video-files/9080220/9080220-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Oliver García",
+                  "pagina": "https://www.pexels.com/video/close-up-video-browsing-a-book-9080220/"
+                },
+                "fichero": "clips/pexels-9080220.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Real Licencia para armar en Guerra Embarcaciones. San Ildefonso, 1779, con firma real (estampilla), orla, capitular y escudo grab, firma en esq. inf. derecha Jph de Galvez (José de Gálvez y Gallardo).jpg",
@@ -6999,6 +8694,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "clouds over sea",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "11353277",
+                  "url": "https://videos.pexels.com/video-files/11353277/11353277-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Picas Joe",
+                  "pagina": "https://www.pexels.com/video/sunset-over-sea-11353277/"
+                },
+                "fichero": "clips/pexels-11353277.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Plano ichnographico de la ciudad de Mexico que demuestra el reglamento general de sus calles asi para la comodidad y hermosura, como para la correccion y extirpacion de las maldades ge. hay en sus LOC 00560609.jpg",
@@ -7055,6 +8768,32 @@
                 "titulo": "La otra mercancía",
                 "numero": "X",
                 "sub": "Cartagena · Veracruz · 1518-1867"
+              }
+            },
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "atlantico",
+                "etapas": [
+                  {
+                    "de": "Luanda",
+                    "a": "Cartagena",
+                    "tono": "deuda"
+                  },
+                  {
+                    "de": "Elmina",
+                    "a": "La Habana",
+                    "tono": "deuda"
+                  },
+                  {
+                    "de": "Luanda",
+                    "a": "Veracruz",
+                    "tono": "deuda"
+                  }
+                ],
+                "titulo": "Rutas de la trata",
+                "kicker": "África a la América española"
               }
             },
             {
@@ -7291,6 +9030,21 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "CARTAGENA, 1570-1640",
+              "fuente": "Wheat (2011)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 78000,
+                "etiqueta": "personas desembarcadas",
+                "decimales": 0
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -7900,6 +9654,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "aerial old european city",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19858837",
+                  "url": "https://videos.pexels.com/video-files/19858837/19858837-hd_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Julien Goettelmann",
+                  "pagina": "https://www.pexels.com/video/strasbourg-s-cathedral-2-19858837/"
+                },
+                "fichero": "clips/pexels-19858837.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Rembrandt Harmensz. van Rijn 158.jpg",
@@ -8026,6 +9798,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "stone fortress walls",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30514592",
+                  "url": "https://videos.pexels.com/video-files/30514592/13073662_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 11,
+                  "autor": "Jesus  Alfonso",
+                  "pagina": "https://www.pexels.com/video/ancient-fort-passageway-with-stone-walls-30514592/"
+                },
+                "fichero": "clips/pexels-30514592.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Simancas - Castillo y Archivo General 09.jpg",
@@ -8086,6 +9876,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Johannes_Lingelbach_-_Flemish_Town_Sieged_by_the_Spanish_Soldiers_-_WGA13054.jpg"
                 },
                 "fichero": "laminas/commons-15395561.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "narrow cobblestone street",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "3037908",
+                  "url": "https://videos.pexels.com/video-files/3037908/3037908-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Matthias Groeneveld",
+                  "pagina": "https://www.pexels.com/video/a-narrow-road-mane-of-bricks-and-cobblestones-3037908/"
+                },
+                "fichero": "clips/pexels-3037908.mp4"
               }
             },
             {
@@ -8170,6 +9978,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "ocean waves slow",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12165864",
+                  "url": "https://videos.pexels.com/video-files/12165864/12165864-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 22,
+                  "autor": "Magda Ehlers",
+                  "pagina": "https://www.pexels.com/video/slow-motion-of-sea-waves-12165864/"
+                },
+                "fichero": "clips/pexels-12165864.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:El ingenioso hidalgo don Quijote de la Mancha, Impresso con licencia, en Valencia, en casa de Pedro Patricio Mey, 1605 (1) 01.jpg",
@@ -8230,6 +10056,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_De_Staalmeesters_-_The_Syndics_of_the_Clothmaker%27s_Guild.jpg"
                 },
                 "fichero": "laminas/commons-5716207.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "amsterdam canals",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19229794",
+                  "url": "https://videos.pexels.com/video-files/19229794/19229794-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Matheus Bertelli",
+                  "pagina": "https://www.pexels.com/video/people-walking-down-a-street-with-a-small-car-19229794/"
+                },
+                "fichero": "clips/pexels-19229794.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Ámsterdam · hoy"
               }
             },
             {
@@ -8314,6 +10162,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "candle flame dark",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "12123574",
+                  "url": "https://videos.pexels.com/video-files/12123574/12123574-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 15,
+                  "autor": "Andreas",
+                  "pagina": "https://www.pexels.com/video/flames-in-candles-in-darkness-12123574/"
+                },
+                "fichero": "clips/pexels-12123574.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Gezicht op het Oude Stadhuis, de Wisselbank, de Nieuwe Kerk en de Waag op de Dam te Amsterdam Vier gebouwen in Amsterdam (serietitel), RP-P-AO-21-5-3.jpg",
@@ -8374,6 +10240,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Val%C3%A8ncia_el_1563,_per_Anton_van_den_Wyngaerde.jpg"
                 },
                 "fichero": "laminas/commons-10051495.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old stone architecture",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "27729658",
+                  "url": "https://videos.pexels.com/video-files/27729658/12213208_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Адам Аушев",
+                  "pagina": "https://www.pexels.com/video/2021-27729658/"
+                },
+                "fichero": "clips/pexels-27729658.mp4"
               }
             },
             {
@@ -8439,6 +10323,33 @@
             "speed": 0.97
           },
           "escenas": [
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "mundo",
+                "etapas": [
+                  {
+                    "de": "Potosí",
+                    "a": "Sevilla",
+                    "tono": "plata",
+                    "via": [
+                      "Callao"
+                    ]
+                  },
+                  {
+                    "de": "Acapulco",
+                    "a": "Cantón",
+                    "tono": "plata",
+                    "via": [
+                      "Manila"
+                    ]
+                  }
+                ],
+                "titulo": "La primera globalización",
+                "kicker": "Tres continentes"
+              }
+            },
             {
               "tipo": "lamina",
               "lamina": {
@@ -8521,6 +10432,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "old books pages turning",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5283826",
+                  "url": "https://videos.pexels.com/video-files/5283826/5283826-hd_1366_720_24fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 10,
+                  "autor": "K",
+                  "pagina": "https://www.pexels.com/video/pages-of-a-book-being-flipped-5283826/"
+                },
+                "fichero": "clips/pexels-5283826.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Corte-plaza mayor.jpg",
@@ -8577,6 +10506,21 @@
                 "titulo": "Lo que dejó",
                 "numero": "XII",
                 "sub": "Potosí · hoy"
+              }
+            },
+            {
+              "tipo": "contador",
+              "peso": 1.6,
+              "kicker": "POTOSÍ HOY",
+              "fuente": "UNESCO",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4067,
+                "etiqueta": "metros de altura",
+                "decimales": 0
               }
             },
             {
@@ -8661,6 +10605,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "miners underground",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "9861588",
+                  "url": "https://videos.pexels.com/video-files/9861588/9861588-hd_1366_720_25fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 9,
+                  "autor": "cottonbro studio",
+                  "pagina": "https://www.pexels.com/video/view-of-scenery-inside-of-cave-9861588/"
+                },
+                "fichero": "clips/pexels-9861588.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Potosi, Bolivia (ASTER).jpg",
@@ -8703,6 +10665,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:PSM_V81_D529_Pillar_dollar_of_1661.png"
                 },
                 "fichero": "laminas/commons-20597934.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "silver coins pouring",
+                "tono": "carmin",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5651766",
+                  "url": "https://videos.pexels.com/video-files/5651766/5651766-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/metal-money-silver-macro-5651766/"
+                },
+                "fichero": "clips/pexels-5651766.mp4"
               }
             },
             {
@@ -8769,6 +10749,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "clouds over sea",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10452354",
+                  "url": "https://videos.pexels.com/video-files/10452354/10452354-hd_1366_632_30fps.mp4",
+                  "ancho": 1366,
+                  "duracion": 14,
+                  "autor": "Glenn Langhorst",
+                  "pagina": "https://www.pexels.com/video/airplane-in-flight-against-moody-sky-10452354/"
+                },
+                "fichero": "clips/pexels-10452354.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:1754 Bellin Map of Veracruz, Mexico - Geographicus - Veracruz-bellin-1754.jpg",
@@ -8829,6 +10827,28 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Acuarela_de_T%C3%BApac_Amaru_II.jpg"
                 },
                 "fichero": "laminas/commons-122406991.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "andes mountains aerial",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30306170",
+                  "url": "https://videos.pexels.com/video-files/30306170/12991941_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 12,
+                  "autor": "Florian Delée",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-snow-capped-mountains-at-sunrise-30306170/"
+                },
+                "fichero": "clips/pexels-30306170.mp4"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Los Andes · hoy"
               }
             },
             {
@@ -8913,6 +10933,24 @@
               }
             },
             {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "aerial old european city",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "37670263",
+                  "url": "https://videos.pexels.com/video-files/37670263/15969995_1920_1080_60fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Sergey Guk",
+                  "pagina": "https://www.pexels.com/video/aerial-view-of-gdansk-s-historic-old-town-37670263/"
+                },
+                "fichero": "clips/pexels-37670263.mp4"
+              }
+            },
+            {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Martin Tovar y Tovar 08.JPG",
@@ -8991,6 +11029,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Pascual_Madoz,_de_Jos%C3%A9_Nin_y_Tud%C3%B3_(1873),_Congreso_de_los_Diputados_(2).jpg"
                 },
                 "fichero": "laminas/commons-84645346.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "stone fortress walls",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "19558265",
+                  "url": "https://videos.pexels.com/video-files/19558265/19558265-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 6,
+                  "autor": "isgandar Ganbarov",
+                  "pagina": "https://www.pexels.com/video/ancient-fortress-walls-of-baku-19558265/"
+                },
+                "fichero": "clips/pexels-19558265.mp4"
               }
             },
             {
@@ -9225,6 +11281,24 @@
                   "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_(Alonso_S%C3%A1nchez_Coello).jpg"
                 },
                 "fichero": "laminas/commons-99290447.jpg"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 6,
+              "clip": {
+                "buscar": "narrow cobblestone street",
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6158421",
+                  "url": "https://videos.pexels.com/video-files/6158421/6158421-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 13,
+                  "autor": "Igor Gertsev",
+                  "pagina": "https://www.pexels.com/video/old-street-view-6158421/"
+                },
+                "fichero": "clips/pexels-6158421.mp4"
               }
             },
             {

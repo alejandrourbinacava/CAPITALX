@@ -30,6 +30,7 @@ import { Objeto } from "./scenes/Objeto";
 import { Cierre, Lista, Mapa } from "./scenes/Mapa";
 import { Retrato } from "./scenes/Retrato";
 import { Clip } from "./scenes/Clip";
+import { Ruta, type EspecRuta } from "./scenes/Ruta";
 import { Lamina, type EspecLamina } from "./scenes/Lamina";
 import { Capitulo, type EspecCapitulo } from "./scenes/Capitulo";
 import { Recorte } from "./scenes/Recorte";
@@ -91,6 +92,7 @@ export type Visual = {
   barras?: any;
   lineas?: any;
   mapa?: any;
+  ruta?: EspecRuta;
   lista?: any;
   cierre?: any;
   retrato?: any;
@@ -219,6 +221,8 @@ const MINIMO_POR_TIPO: Record<string, number> = {
   gente: 4.2,
   contador: 4.0,
   lista: 3.8,
+  // Una ruta tarda en dibujarse: con menos de siete segundos no llega al destino.
+  ruta: 7.0,
   // La ilustracion no se mira, se sigue: la ciudad se construye, el caudal se
   // corta, la fabrica se para. Cortarla antes del final es contar media cosa.
   ilustracion: 4.6,
@@ -257,6 +261,7 @@ const PESO: Record<string, number> = {
   lista: 1.3,
   ilustracion: 1.7,
   mapa: 1.2,
+  ruta: 1.8,
   // El recorte sube: se lee, asi que tambien merece parte del sobrante.
   recorte: 1.0,
   frase: 0.9,
@@ -300,6 +305,8 @@ const listo = (p: Visual): boolean => {
       return !!p.ilustracion?.nombre;
     case "mapa":
       return !!p.mapa;
+    case "ruta":
+      return !!p.ruta?.etapas?.length;
     case "clip":
       return !!p.clip?.fichero;
     case "lamina":
@@ -502,7 +509,7 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
   // Que textura y que marco se pinta lo decide la plantilla dentro de Surface.
   // Aqui solo se dice donde no cabe ninguno de los dos: encima de un mapa, de
   // un clip a sangre o de la maqueta de Dublin.
-  const grid = p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "clip" && p.tipo !== "lamina";
+  const grid = p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "ruta" && p.tipo !== "clip" && p.tipo !== "lamina";
 
   return (
     <Surface night={night} grid={grid} frame>
@@ -524,6 +531,7 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
         {p.tipo === "barras" ? <Barras spec={p.barras} /> : null}
         {p.tipo === "lineas" ? <Lineas spec={p.lineas} /> : null}
         {p.tipo === "mapa" ? <Mapa spec={p.mapa} /> : null}
+        {p.tipo === "ruta" ? <Ruta spec={p.ruta!} /> : null}
         {p.tipo === "objeto" ? <Objeto nombre={p.objeto!} /> : null}
         {p.tipo === "ilustracion" ? <Ilustracion spec={p.ilustracion!} /> : null}
         {p.tipo === "retrato" ? <Retrato spec={p.retrato} /> : null}

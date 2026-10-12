@@ -34,11 +34,12 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 // si cambia alli, cambia aqui.
 const MINIMO = {
   barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, recorte: 3.6,
-  ilustracion: 4.6, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2, lamina: 3.0, capitulo: 4.2,
+  ilustracion: 4.6, ruta: 7.0, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2, lamina: 3.0, capitulo: 4.2,
 };
 
+const MUNDO = JSON.parse(fs.readFileSync(new URL("../src/data/mundo.json", import.meta.url), "utf8"));
 const TIPOS = [
-  "mapa", "barras", "lineas", "contador", "gente", "lista",
+  "mapa", "ruta", "barras", "lineas", "contador", "gente", "lista",
   "frase", "objeto", "retrato", "clip", "lamina", "capitulo", "recorte", "ilustracion", "torres", "dublin", "cierre",
 ];
 const OBJETOS = [
@@ -980,6 +981,20 @@ function revisarVisual(p, di) {
       const claves = REGIONES[r]();
       for (const k of p.mapa?.destaca ?? []) {
         if (!claves.includes(k)) di(`${donde}: "${k}" no está en la región ${r}. Disponibles: ${claves.join(", ")}`);
+      }
+    }
+  }
+  if (p.tipo === "ruta") {
+    // Los puertos tienen que existir en la vista elegida: un nombre que no esta
+    // dibuja una ruta que se queda sin pintar.
+    const v = MUNDO[p.ruta?.vista];
+    if (!v) di(`${donde}: vista "${p.ruta?.vista}" no existe. Las válidas: ${Object.keys(MUNDO).join(", ")}`);
+    else {
+      if (!p.ruta.etapas?.length) di(`${donde}: 'ruta.etapas' está vacío`);
+      for (const e of p.ruta.etapas ?? []) {
+        for (const nm of [e.de, ...(e.via ?? []), e.a]) {
+          if (!v.lugares[nm]) di(`${donde}: "${nm}" no está en la vista ${p.ruta.vista}. Disponibles: ${Object.keys(v.lugares).join(", ")}`);
+        }
       }
     }
   }
