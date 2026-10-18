@@ -17,6 +17,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { descargarArchive, fichaArchive } from "./archive.mjs";
 
 const DESTINO = "public/clips";
 const DESTINO_PNG = "public/recortes-auto";
@@ -428,7 +429,7 @@ async function main() {
   const escenas = doc.bloques
     .flatMap((b) => b.planos)
     .flatMap((p) => (p.escenas ?? [p]).map((e) => ({ e, id: p.id })));
-  const conClip = escenas.filter((x) => x.e.tipo === "clip" && x.e.clip?.buscar);
+  const conClip = escenas.filter((x) => x.e.tipo === "clip" && (x.e.clip?.buscar || x.e.clip?.archive));
   const conRecorte = escenas.filter((x) => x.e.tipo === "recorte" && x.e.recorte?.buscar);
   const conLamina = escenas.filter((x) => x.e.tipo === "lamina" && x.e.lamina?.buscar);
 
@@ -450,7 +451,32 @@ async function main() {
   }
   for (const { e, id } of conClip) {
     const c = e.clip;
-    if (rebuscar) delete c.elegido;
+    if (rebuscar && !c.archive) delete c.elegido;
+
+    // Metraje de archive.org fijado a mano: { archive: { id, desde } }. Se baja solo
+    // el tramo (12 s) del mp4 remoto y se guarda ya recortado.
+    if (c.archive) {
+      const a = c.archive;
+      const dest = path.join(DESTINO, `archive-${a.id}-${Math.round(a.desde ?? 0)}.mp4`);
+      process.stdout.write(`  ${id}  archive.org ${a.id} @${a.desde ?? 0}s … `);
+      try {
+        const ficha = fs.existsSync(dest) ? { titulo: a.id } : await fichaArchive(a.id);
+        if (!ficha) throw new Error("sin licencia de dominio publico");
+        const r = descargarArchive(ficha, dest, a.desde ?? 0);
+        c.fichero = `clips/archive-${a.id}-${Math.round(a.desde ?? 0)}.mp4`;
+        c.ajuste = "contener";
+        c.elegido = { fuente: "archive", id: a.id, autor: "Internet Archive", titulo: ficha.titulo };
+        mb += r.mb;
+        console.log(r.cache ? "ya estaba" : `${r.mb.toFixed(1)} MB`);
+        creditos.push(`${ficha.titulo ?? a.id} (archive.org/details/${a.id})`);
+      } catch (err) {
+        console.log(`FALLO (${err.message})`);
+        e.tipo = "frase";
+        e.texto = textoDeRepuesto(e);
+        delete e.clip;
+      }
+      continue;
+    }
 
     if (!c.elegido) {
       process.stdout.write(`  ${id}  "${c.buscar}" … `);

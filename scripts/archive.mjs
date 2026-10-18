@@ -39,6 +39,31 @@ const segundos = (v) => {
   return s.split(":").reduce((a, x) => a * 60 + Number(x), 0);
 };
 
+/** Ficha de un item concreto (para fijar un fragmento a mano). null si no es de dominio publico. */
+export async function fichaArchive(id) {
+  const meta = await json(`https://archive.org/metadata/${id}`);
+  const lic = meta.metadata?.licenseurl ?? "";
+  if (!LIBRE.test(lic)) return null;
+  const mp4 = (meta.files ?? [])
+    .filter((f) => /\.mp4$/i.test(f.name) && !/_ia\.mp4$|thumb/i.test(f.name))
+    .sort((a, b) => Number(b.size ?? 0) - Number(a.size ?? 0));
+  const f = mp4.find((x) => /h\.?264|mpeg4/i.test(x.format ?? "")) ?? mp4[0];
+  if (!f) return null;
+  return {
+    fuente: "archive",
+    id,
+    url: `https://archive.org/download/${id}/${encodeURIComponent(f.name)}`,
+    archivo: f.name,
+    duracion: segundos(f.length ?? meta.metadata?.runtime),
+    ancho: Number(f.width ?? 0),
+    titulo: meta.metadata?.title,
+    autor: "Internet Archive",
+    anio: meta.metadata?.year,
+    licencia: lic,
+    pagina: `https://archive.org/details/${id}`,
+  };
+}
+
 export async function buscarArchive(q, { max = 8 } = {}) {
   const consulta = `(${q}) AND mediatype:movies AND (licenseurl:*publicdomain* OR licenseurl:*zero*)`;
   const url =
@@ -90,15 +115,21 @@ export function descargarArchive(clip, destino, inicio) {
   if (fs.existsSync(destino)) return { dest: destino, mb: fs.statSync(destino).size / 1048576, cache: true };
   fs.mkdirSync(path.dirname(destino), { recursive: true });
   const ss = inicio ?? Math.max(0, Math.min(clip.duracion * 0.3, clip.duracion - TRAMO - 1));
-  const r = spawnSync(
-    "ffmpeg",
-    [
-      "-y", "-v", "error", "-ss", String(ss), "-i", clip.url, "-t", String(TRAMO),
-      "-an", "-vf", "scale=min(1280,iw):-2", "-c:v", "libx264", "-crf", "23", "-pix_fmt", "yuv420p", "-movflags", "+faststart",
-      destino,
-    ],
-    { encoding: "utf8", timeout: 240000 }
-  );
+  // archive.org devuelve 5xx de vez en cuando: se espera y se repite.
+  let r;
+  for (let intento = 0; intento < 5; intento++) {
+    r = spawnSync(
+      "ffmpeg",
+      [
+        "-y", "-v", "error", "-ss", String(ss), "-i", clip.url, "-t", String(TRAMO),
+        "-an", "-vf", "scale='min(1280,iw)':-2", "-c:v", "libx264", "-crf", "23", "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+        destino,
+      ],
+      { encoding: "utf8", timeout: 240000 }
+    );
+    if (r.status === 0 && fs.existsSync(destino)) break;
+    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 4000 * (intento + 1));
+  }
   if (r.status !== 0 || !fs.existsSync(destino)) throw new Error(`ffmpeg: ${(r.stderr ?? "").slice(0, 200)}`);
   return { dest: destino, mb: fs.statSync(destino).size / 1048576, cache: false };
 }

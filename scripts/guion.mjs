@@ -1203,7 +1203,10 @@ function validar(doc, tema) {
     const minutos = Math.max(1, chars / 15.8 / 60);
     const porMin = total / minutos;
     const pc = conCifra / Math.max(1, planos.length);
-    if (porMin > 3 || pc > 0.35) {
+    // Un documental largo de finanzas lleva mas cifras que un video de doce minutos:
+    // Francia, el mas cargado de los publicados, 4,0 por minuto y el 50 % de planos.
+    const [topeMin, topePc] = doc.estilo?.plantilla === "documental" ? [4.2, 0.6] : [3, 0.35];
+    if (porMin > topeMin || pc > topePc) {
       di(
         `demasiadas cifras: ${porMin.toFixed(1)} por minuto y el ${Math.round(pc * 100)} % de los planos ` +
           `llevan una (tope: 3 por minuto y 35 %). Un video se sigue por una historia con gente y fechas; ` +

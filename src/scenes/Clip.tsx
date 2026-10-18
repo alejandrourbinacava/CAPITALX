@@ -16,7 +16,7 @@ import { useFrame, useFrameFluido } from "../estilo";
  * graficos. Si se nota que es de banco de imagenes, esta mal tratado.
  */
 export const Clip: React.FC<{
-  spec: { fichero?: string; desde?: number; encuadre?: "amplio" | "corto" };
+  spec: { fichero?: string; desde?: number; encuadre?: "amplio" | "corto"; ajuste?: "contener" };
   tono?: "ocre" | "carmin";
 }> = ({ spec, tono = "ocre" }) => {
   // El encuadre del clip va fluido; lo que pisa es el dibujo, nunca el video.
@@ -37,6 +37,17 @@ export const Clip: React.FC<{
 
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden", opacity: entrada }}>
+      {/* Metraje de archivo (4:3, baja resolucion): se ve entero sobre su propio fondo desenfocado. */}
+      {spec.ajuste === "contener" ? (
+        <div style={{ position: "absolute", inset: -60, filter: "blur(38px) brightness(0.55)" }}>
+          <OffthreadVideo
+            src={staticFile(spec.fichero)}
+            startFrom={Math.round((spec.desde ?? 0) * fps)}
+            muted
+            style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(1)" }}
+          />
+        </div>
+      ) : null}
       <div style={{ position: "absolute", inset: 0, transform: `scale(${zoom})` }}>
         <OffthreadVideo
           src={staticFile(spec.fichero)}
@@ -48,7 +59,7 @@ export const Clip: React.FC<{
           style={{
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            objectFit: spec.ajuste === "contener" ? "contain" : "cover",
             filter: "grayscale(1) contrast(1.5) brightness(1.06)",
           }}
         />

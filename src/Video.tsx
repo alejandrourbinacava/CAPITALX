@@ -96,7 +96,7 @@ export type Visual = {
   lista?: any;
   cierre?: any;
   retrato?: any;
-  clip?: { buscar?: string; fichero?: string; desde?: number; tono?: "ocre" | "carmin" };
+  clip?: { buscar?: string; fichero?: string; desde?: number; tono?: "ocre" | "carmin"; archive?: { id: string; desde?: number }; ajuste?: "contener" };
   lamina?: EspecLamina & { buscar?: string };
   capitulo?: EspecCapitulo;
   recorte?: {

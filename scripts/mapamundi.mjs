@@ -39,6 +39,11 @@ export const LUGARES = {
   Macao: [113.54, 22.2], Nankín: [118.8, 32.06], "Cabo Verde": [-23.5, 15.1], Luanda: [13.23, -8.84],
   Elmina: [-1.35, 5.08], Angola: [15, -11], Pekín: [116.4, 39.9], Malaca: [102.25, 2.19], Goa: [73.83, 15.5],
   Potosí_: [-65.75, -19.58],
+  // Siglo XX: Atlantico norte y Mediterraneo oriental
+  "Nueva York": [-74.0, 40.71], Washington: [-77.04, 38.9], Boston: [-71.06, 42.36], "Le Havre": [0.11, 49.49],
+  Róterdam: [4.48, 51.92], Hamburgo: [9.99, 53.55], París: [2.35, 48.86], Roma: [12.5, 41.9], Atenas: [23.73, 37.98],
+  "Port Said": [32.3, 31.26], "El Cairo": [31.24, 30.04], Gibraltar: [-5.35, 36.14], Malta: [14.51, 35.9],
+  Marsella: [5.37, 43.3], "Bretton Woods": [-71.44, 44.26], Liverpool: [-2.98, 53.41],
 };
 
 /**
@@ -70,6 +75,16 @@ const VISTAS = {
     proy: "mercator", rot: [-170, 0],
     puntos: [[100, 40], [-80, 40], [100, -2], [-80, -2]],
     margen: 40, fina: false,
+  },
+  atlantico_norte: {
+    proy: "mercator", rot: [0, 0],
+    puntos: [[-80, 58], [32, 58], [-80, 30], [32, 30]],
+    margen: 50, fina: true,
+  },
+  suez: {
+    proy: "mercator", rot: [0, 0],
+    puntos: [[-12, 56], [44, 56], [-12, 22], [44, 22]],
+    margen: 50, fina: true,
   },
   andes: {
     proy: "mercator", rot: [0, 0],
