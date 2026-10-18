@@ -35,6 +35,7 @@ import turquiaTipos from "../content/turquia-tipos.json";
 import imperioBritanico from "../content/imperio-britanico.json";
 import documentalPrueba from "../content/documental-prueba.json";
 import imperioEspanol from "../content/imperio-espanol.json";
+import eeuuDolar from "../content/eeuu-dolar.json";
 import pensionesT from "../content/pensiones.timings.json";
 import alemaniaTrabajoT from "../content/alemania-trabajo.timings.json";
 import chinaInmobiliarioT from "../content/china-inmobiliario.timings.json";
@@ -53,6 +54,7 @@ import turquiaTiposT from "../content/turquia-tipos.timings.json";
 import imperioBritanicoT from "../content/imperio-britanico.timings.json";
 import documentalPruebaT from "../content/documental-prueba.timings.json";
 import imperioEspanolT from "../content/imperio-espanol.timings.json";
+import eeuuDolarT from "../content/eeuu-dolar.timings.json";
 import diario from "../content/diario.json";
 import diarioT from "../content/diario.timings.json";
 
@@ -81,6 +83,7 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "imperio-britanico", guion: imperioBritanico as any, tiempos: imperioBritanicoT as any },
   { id: "documental-prueba", guion: documentalPrueba as any, tiempos: documentalPruebaT as any },
   { id: "imperio-espanol", guion: imperioEspanol as any, tiempos: imperioEspanolT as any },
+  { id: "eeuu-dolar", guion: eeuuDolar as any, tiempos: eeuuDolarT as any },
   { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 

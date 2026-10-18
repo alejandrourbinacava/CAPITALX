@@ -90,6 +90,14 @@ export const Ruta: React.FC<{ spec: EspecRuta }> = ({ spec }) => {
 
   const entrada = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: "clamp" });
 
+  // Si hay un lugar rotulado en la esquina superior izquierda, el titulo baja para no taparlo.
+  const nombresUsados = new Set<string>([...(spec.marcar ?? [])]);
+  for (const e of spec.etapas ?? []) for (const nm of [e.de, ...(e.via ?? []), e.a]) nombresUsados.add(nm);
+  const tituloAbajo = [...nombresUsados].some((nm) => {
+    const q = vista.lugares[nm];
+    return !!q && q.y < 330 && q.x < 1350;
+  });
+
   // Cada etapa: lista de tramos curvos entre puertos consecutivos.
   const dibujos = etapas.map((e, i) => {
     const nombres = [e.de, ...(e.via ?? []), e.a];
@@ -204,7 +212,7 @@ stroke={d.color}
       </svg>
 
       {spec.titulo ? (
-        <div style={{ position: "absolute", left: 96, top: 120, maxWidth: 1100 }}>
+        <div style={{ position: "absolute", left: 96, maxWidth: 1100, ...(tituloAbajo ? { bottom: 130 } : { top: 120 }) }}>
           {spec.kicker ? (
             <div
               style={{
