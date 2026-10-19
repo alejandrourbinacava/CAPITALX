@@ -25,7 +25,7 @@ export type EtapaRuta = {
 };
 
 export type EspecRuta = {
-  vista: "mundo" | "atlantico" | "caribe" | "europa" | "pacifico" | "andes" | "atlantico_norte" | "suez";
+  vista: "mundo" | "atlantico" | "caribe" | "europa" | "pacifico" | "andes" | "atlantico_norte" | "suez" | "francia";
   etapas: EtapaRuta[];
   titulo?: string;
   kicker?: string;

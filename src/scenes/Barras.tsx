@@ -428,35 +428,56 @@ export const Lineas: React.FC<{
       {spec.series.map((s, si) => {
         const n = s.puntos.length;
         const color = (TONO as any)[s.tono ?? "ink"] ?? TINTA;
-        const xEnd = sx(0, n) + (sx(n - 1, n) - sx(0, n)) * k;
-        const yEnd = sy(s.puntos[0][1]) + (sy(s.puntos[n - 1][1]) - sy(s.puntos[0][1])) * k;
+        // La curva pasa por TODOS los puntos de la serie y se va descubriendo por longitud.
+        const pts = s.puntos.map((q, i) => ({ x: sx(i, n), y: sy(q[1]) }));
+        const largos = pts.slice(1).map((b, i) => Math.hypot(b.x - pts[i].x, b.y - pts[i].y));
+        const total = largos.reduce((a, b) => a + b, 0) || 1;
+        let resto = k * total;
+        const visibles: { x: number; y: number }[] = [pts[0]];
+        let valorFin = s.puntos[0][1];
+        for (let i = 0; i < largos.length; i++) {
+          if (resto >= largos[i]) {
+            visibles.push(pts[i + 1]);
+            resto -= largos[i];
+            valorFin = s.puntos[i + 1][1];
+          } else {
+            const f = largos[i] > 0 ? resto / largos[i] : 0;
+            visibles.push({ x: pts[i].x + (pts[i + 1].x - pts[i].x) * f, y: pts[i].y + (pts[i + 1].y - pts[i].y) * f });
+            valorFin = s.puntos[i][1] + (s.puntos[i + 1][1] - s.puntos[i][1]) * f;
+            resto = 0;
+            break;
+          }
+        }
+        const punta = visibles[visibles.length - 1];
+        const trazo = visibles.map((q, i) => `${i ? "L" : "M"}${q.x} ${q.y}`).join(" ");
+        // Cuantas etiquetas de eje caben: todas si son pocas; una de cada dos si son muchas.
+        const paso = n > 8 ? 2 : 1;
         return (
           <g key={si}>
-            <path
-              d={`M${sx(0, n)} ${sy(s.puntos[0][1])} L${xEnd} ${yEnd} L${xEnd} ${Y1} L${sx(0, n)} ${Y1} Z`}
-              fill={color}
-              opacity="0.12"
-            />
-            <line x1={sx(0, n)} y1={sy(s.puntos[0][1])} x2={xEnd} y2={yEnd} stroke={color} strokeWidth="7" strokeLinecap="round" />
-            <circle cx={sx(0, n)} cy={sy(s.puntos[0][1])} r="12" fill={color} />
-            <circle cx={xEnd} cy={yEnd} r="14" fill={ACENTO} />
-            <text x={sx(0, n)} y={sy(s.puntos[0][1]) - 34} textAnchor="middle" fill={TINTA} fontFamily={FONT.sans} fontWeight="700" fontSize="52">
+            <path d={`${trazo} L${punta.x} ${Y1} L${pts[0].x} ${Y1} Z`} fill={color} opacity="0.12" />
+            <path d={trazo} fill="none" stroke={color} strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" />
+            {pts.map((q, i) =>
+              q.x <= punta.x + 0.5 ? <circle key={i} cx={q.x} cy={q.y} r={i === 0 ? 12 : 8} fill={color} /> : null
+            )}
+            <circle cx={punta.x} cy={punta.y} r="14" fill={ACENTO} />
+            <text x={pts[0].x} y={pts[0].y - 34} textAnchor="middle" fill={TINTA} fontFamily={FONT.sans} fontWeight="700" fontSize="52">
               {s.puntos[0][1].toLocaleString("es-ES")}
               {s.sufijo ?? ""}
             </text>
-            <text x={xEnd} y={yEnd - 40} textAnchor="middle" fill={ACENTO} fontFamily={FONT.sans} fontWeight="700" fontSize="60" opacity={k}>
-              {(s.puntos[0][1] + (s.puntos[n - 1][1] - s.puntos[0][1]) * k).toLocaleString("es-ES", {
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 2,
+            <text x={punta.x} y={punta.y - 40} textAnchor="middle" fill={ACENTO} fontFamily={FONT.sans} fontWeight="700" fontSize="60" opacity={k}>
+              {valorFin.toLocaleString("es-ES", {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: Math.abs(valorFin) < 10 ? 2 : 0,
               })}
               {s.sufijo ?? ""}
             </text>
-            <text x={sx(0, n)} y={Y1 + 48} textAnchor="middle" fill={APAGADO} fontFamily={FONT.mono} fontSize="26">
-              {s.puntos[0][0]}
-            </text>
-            <text x={sx(n - 1, n)} y={Y1 + 48} textAnchor="middle" fill={APAGADO} fontFamily={FONT.mono} fontSize="26">
-              {s.puntos[n - 1][0]}
-            </text>
+            {pts.map((q, i) =>
+              (i % paso === 0 || i === n - 1) && q.x <= punta.x + 0.5 ? (
+                <text key={`e${i}`} x={q.x} y={Y1 + 48} textAnchor="middle" fill={APAGADO} fontFamily={FONT.mono} fontSize={n > 5 ? 22 : 26}>
+                  {s.puntos[i][0]}
+                </text>
+              ) : null
+            )}
           </g>
         );
       })}

@@ -44,6 +44,11 @@ export const LUGARES = {
   Róterdam: [4.48, 51.92], Hamburgo: [9.99, 53.55], París: [2.35, 48.86], Roma: [12.5, 41.9], Atenas: [23.73, 37.98],
   "Port Said": [32.3, 31.26], "El Cairo": [31.24, 30.04], Gibraltar: [-5.35, 36.14], Malta: [14.51, 35.9],
   Marsella: [5.37, 43.3], "Bretton Woods": [-71.44, 44.26], Liverpool: [-2.98, 53.41],
+  // Francia, siglo XVIII
+  Versalles: [2.12, 48.8], Varennes: [5.04, 49.22], Valmy: [4.78, 49.08], Montmédy: [5.13, 49.52], Lyon: [4.83, 45.76],
+  Burdeos: [-0.58, 44.84], Nantes: [-1.55, 47.22], Brest: [-4.49, 48.39], Estrasburgo: [7.75, 48.58], Reims: [4.03, 49.26],
+  Toulon: [5.93, 43.12], Lille: [3.06, 50.63], Grenoble: [5.72, 45.19], Rennes: [-1.68, 48.11], Rouen: [1.1, 49.44],
+  Toulouse: [1.44, 43.6], Orleans: [1.91, 47.9], "Saint-Malo": [-2.0, 48.65],
 };
 
 /**
@@ -84,6 +89,11 @@ const VISTAS = {
   suez: {
     proy: "mercator", rot: [0, 0],
     puntos: [[-12, 56], [44, 56], [-12, 22], [44, 22]],
+    margen: 50, fina: true,
+  },
+  francia: {
+    proy: "mercator", rot: [0, 0],
+    puntos: [[-5.5, 51.4], [9.5, 51.4], [-5.5, 42.2], [9.5, 42.2]],
     margen: 50, fina: true,
   },
   andes: {

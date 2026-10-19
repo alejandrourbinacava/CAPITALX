@@ -36,6 +36,7 @@ import imperioBritanico from "../content/imperio-britanico.json";
 import documentalPrueba from "../content/documental-prueba.json";
 import imperioEspanol from "../content/imperio-espanol.json";
 import eeuuDolar from "../content/eeuu-dolar.json";
+import revolucionFrancesa from "../content/revolucion-francesa.json";
 import pensionesT from "../content/pensiones.timings.json";
 import alemaniaTrabajoT from "../content/alemania-trabajo.timings.json";
 import chinaInmobiliarioT from "../content/china-inmobiliario.timings.json";
@@ -55,6 +56,7 @@ import imperioBritanicoT from "../content/imperio-britanico.timings.json";
 import documentalPruebaT from "../content/documental-prueba.timings.json";
 import imperioEspanolT from "../content/imperio-espanol.timings.json";
 import eeuuDolarT from "../content/eeuu-dolar.timings.json";
+import revolucionFrancesaT from "../content/revolucion-francesa.timings.json";
 import diario from "../content/diario.json";
 import diarioT from "../content/diario.timings.json";
 
@@ -84,6 +86,7 @@ const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "documental-prueba", guion: documentalPrueba as any, tiempos: documentalPruebaT as any },
   { id: "imperio-espanol", guion: imperioEspanol as any, tiempos: imperioEspanolT as any },
   { id: "eeuu-dolar", guion: eeuuDolar as any, tiempos: eeuuDolarT as any },
+  { id: "revolucion-francesa", guion: revolucionFrancesa as any, tiempos: revolucionFrancesaT as any },
   { id: "diario", guion: diario as any, tiempos: diarioT as any },
 ];
 

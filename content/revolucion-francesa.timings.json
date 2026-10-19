@@ -1,0 +1,488 @@
+{
+  "b0-01": {
+    "audio": "voice/revolucion-francesa-b0-01.mp3",
+    "duration": 20.990839,
+    "transcript": null,
+    "credit_cost": 319
+  },
+  "b0-02": {
+    "audio": "voice/revolucion-francesa-b0-02.mp3",
+    "duration": 20.7122,
+    "transcript": null,
+    "credit_cost": 342
+  },
+  "b0-03": {
+    "audio": "voice/revolucion-francesa-b0-03.mp3",
+    "duration": 22.801995,
+    "transcript": null,
+    "credit_cost": 401
+  },
+  "b0-04": {
+    "audio": "voice/revolucion-francesa-b0-04.mp3",
+    "duration": 18.993923,
+    "transcript": null,
+    "credit_cost": 309
+  },
+  "b1-01": {
+    "audio": "voice/revolucion-francesa-b1-01.mp3",
+    "duration": 19.272562,
+    "transcript": null,
+    "credit_cost": 308
+  },
+  "b1-02": {
+    "audio": "voice/revolucion-francesa-b1-02.mp3",
+    "duration": 18.808163,
+    "transcript": null,
+    "credit_cost": 309
+  },
+  "b1-03": {
+    "audio": "voice/revolucion-francesa-b1-03.mp3",
+    "duration": 25.77415,
+    "transcript": null,
+    "credit_cost": 365
+  },
+  "b1-04": {
+    "audio": "voice/revolucion-francesa-b1-04.mp3",
+    "duration": 24.148753,
+    "transcript": null,
+    "credit_cost": 368
+  },
+  "b1-05": {
+    "audio": "voice/revolucion-francesa-b1-05.mp3",
+    "duration": 23.870113,
+    "transcript": null,
+    "credit_cost": 358
+  },
+  "b1-06": {
+    "audio": "voice/revolucion-francesa-b1-06.mp3",
+    "duration": 26.935147,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b1-07": {
+    "audio": "voice/revolucion-francesa-b1-07.mp3",
+    "duration": 24.984671,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b1-08": {
+    "audio": "voice/revolucion-francesa-b1-08.mp3",
+    "duration": 21.826757,
+    "transcript": null,
+    "credit_cost": 341
+  },
+  "b1-09": {
+    "audio": "voice/revolucion-francesa-b1-09.mp3",
+    "duration": 27.260227,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b2-01": {
+    "audio": "voice/revolucion-francesa-b2-01.mp3",
+    "duration": 22.941315,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b2-02": {
+    "audio": "voice/revolucion-francesa-b2-02.mp3",
+    "duration": 22.616236,
+    "transcript": null,
+    "credit_cost": 331
+  },
+  "b2-03": {
+    "audio": "voice/revolucion-francesa-b2-03.mp3",
+    "duration": 23.034195,
+    "transcript": null,
+    "credit_cost": 351
+  },
+  "b2-04": {
+    "audio": "voice/revolucion-francesa-b2-04.mp3",
+    "duration": 24.613152,
+    "transcript": null,
+    "credit_cost": 391
+  },
+  "b2-05": {
+    "audio": "voice/revolucion-francesa-b2-05.mp3",
+    "duration": 22.244717,
+    "transcript": null,
+    "credit_cost": 337
+  },
+  "b2-06": {
+    "audio": "voice/revolucion-francesa-b2-06.mp3",
+    "duration": 22.801995,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b2-07": {
+    "audio": "voice/revolucion-francesa-b2-07.mp3",
+    "duration": 23.777234,
+    "transcript": null,
+    "credit_cost": 379
+  },
+  "b2-08": {
+    "audio": "voice/revolucion-francesa-b2-08.mp3",
+    "duration": 22.430476,
+    "transcript": null,
+    "credit_cost": 376
+  },
+  "b3-01": {
+    "audio": "voice/revolucion-francesa-b3-01.mp3",
+    "duration": 27.724626,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b3-02": {
+    "audio": "voice/revolucion-francesa-b3-02.mp3",
+    "duration": 20.758639,
+    "transcript": null,
+    "credit_cost": 332
+  },
+  "b3-03": {
+    "audio": "voice/revolucion-francesa-b3-03.mp3",
+    "duration": 22.012517,
+    "transcript": null,
+    "credit_cost": 345
+  },
+  "b3-05": {
+    "audio": "voice/revolucion-francesa-b3-05.mp3",
+    "duration": 24.288073,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b3-06": {
+    "audio": "voice/revolucion-francesa-b3-06.mp3",
+    "duration": 25.913469,
+    "transcript": null,
+    "credit_cost": 412
+  },
+  "b3-07": {
+    "audio": "voice/revolucion-francesa-b3-07.mp3",
+    "duration": 27.074467,
+    "transcript": null,
+    "credit_cost": 442
+  },
+  "b3-08": {
+    "audio": "voice/revolucion-francesa-b3-08.mp3",
+    "duration": 25.123991,
+    "transcript": null,
+    "credit_cost": 428
+  },
+  "b4-01": {
+    "audio": "voice/revolucion-francesa-b4-01.mp3",
+    "duration": 24.566712,
+    "transcript": null,
+    "credit_cost": 385
+  },
+  "b4-02": {
+    "audio": "voice/revolucion-francesa-b4-02.mp3",
+    "duration": 23.777234,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b4-03": {
+    "audio": "voice/revolucion-francesa-b4-03.mp3",
+    "duration": 25.44907,
+    "transcript": null,
+    "credit_cost": 405
+  },
+  "b4-04": {
+    "audio": "voice/revolucion-francesa-b4-04.mp3",
+    "duration": 27.306667,
+    "transcript": null,
+    "credit_cost": 410
+  },
+  "b4-05": {
+    "audio": "voice/revolucion-francesa-b4-05.mp3",
+    "duration": 21.223039,
+    "transcript": null,
+    "credit_cost": 349
+  },
+  "b4-06": {
+    "audio": "voice/revolucion-francesa-b4-06.mp3",
+    "duration": 29.675102,
+    "transcript": null,
+    "credit_cost": 425
+  },
+  "b4-07": {
+    "audio": "voice/revolucion-francesa-b4-07.mp3",
+    "duration": 24.659592,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b4-08": {
+    "audio": "voice/revolucion-francesa-b4-08.mp3",
+    "duration": 25.309751,
+    "transcript": null,
+    "credit_cost": 405
+  },
+  "b4-09": {
+    "audio": "voice/revolucion-francesa-b4-09.mp3",
+    "duration": 22.848435,
+    "transcript": null,
+    "credit_cost": 391
+  },
+  "b5-01": {
+    "audio": "voice/revolucion-francesa-b5-01.mp3",
+    "duration": 24.241633,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b5-02": {
+    "audio": "voice/revolucion-francesa-b5-02.mp3",
+    "duration": 30.371701,
+    "transcript": null,
+    "credit_cost": 450
+  },
+  "b5-03": {
+    "audio": "voice/revolucion-francesa-b5-03.mp3",
+    "duration": 20.990839,
+    "transcript": null,
+    "credit_cost": 370
+  },
+  "b5-04": {
+    "audio": "voice/revolucion-francesa-b5-04.mp3",
+    "duration": 24.102313,
+    "transcript": null,
+    "credit_cost": 352
+  },
+  "b5-05": {
+    "audio": "voice/revolucion-francesa-b5-05.mp3",
+    "duration": 20.34068,
+    "transcript": null,
+    "credit_cost": 355
+  },
+  "b5-06": {
+    "audio": "voice/revolucion-francesa-b5-06.mp3",
+    "duration": 28.189025,
+    "transcript": null,
+    "credit_cost": 459
+  },
+  "b5-07": {
+    "audio": "voice/revolucion-francesa-b5-07.mp3",
+    "duration": 21.966077,
+    "transcript": null,
+    "credit_cost": 356
+  },
+  "b6-01": {
+    "audio": "voice/revolucion-francesa-b6-01.mp3",
+    "duration": 20.61932,
+    "transcript": null,
+    "credit_cost": 297
+  },
+  "b6-02": {
+    "audio": "voice/revolucion-francesa-b6-02.mp3",
+    "duration": 22.662676,
+    "transcript": null,
+    "credit_cost": 348
+  },
+  "b6-03": {
+    "audio": "voice/revolucion-francesa-b6-03.mp3",
+    "duration": 21.037279,
+    "transcript": null,
+    "credit_cost": 326
+  },
+  "b6-04": {
+    "audio": "voice/revolucion-francesa-b6-04.mp3",
+    "duration": 18.529524,
+    "transcript": null,
+    "credit_cost": 279
+  },
+  "b6-05": {
+    "audio": "voice/revolucion-francesa-b6-05.mp3",
+    "duration": 25.44907,
+    "transcript": null,
+    "credit_cost": 373
+  },
+  "b6-06": {
+    "audio": "voice/revolucion-francesa-b6-06.mp3",
+    "duration": 28.049705,
+    "transcript": null,
+    "credit_cost": 429
+  },
+  "b6-07": {
+    "audio": "voice/revolucion-francesa-b6-07.mp3",
+    "duration": 28.978503,
+    "transcript": null,
+    "credit_cost": 440
+  },
+  "b6-08": {
+    "audio": "voice/revolucion-francesa-b6-08.mp3",
+    "duration": 30.74322,
+    "transcript": null,
+    "credit_cost": 456
+  },
+  "b6-09": {
+    "audio": "voice/revolucion-francesa-b6-09.mp3",
+    "duration": 24.520272,
+    "transcript": null,
+    "credit_cost": 394
+  },
+  "b6-10": {
+    "audio": "voice/revolucion-francesa-b6-10.mp3",
+    "duration": 23.684354,
+    "transcript": null,
+    "credit_cost": 358
+  },
+  "b7-01": {
+    "audio": "voice/revolucion-francesa-b7-01.mp3",
+    "duration": 22.105397,
+    "transcript": null,
+    "credit_cost": 343
+  },
+  "b7-02": {
+    "audio": "voice/revolucion-francesa-b7-02.mp3",
+    "duration": 24.938231,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b7-03": {
+    "audio": "voice/revolucion-francesa-b7-03.mp3",
+    "duration": 26.424308,
+    "transcript": null,
+    "credit_cost": 398
+  },
+  "b7-04": {
+    "audio": "voice/revolucion-francesa-b7-04.mp3",
+    "duration": 25.959909,
+    "transcript": null,
+    "credit_cost": 400
+  },
+  "b7-05": {
+    "audio": "voice/revolucion-francesa-b7-05.mp3",
+    "duration": 25.077551,
+    "transcript": null,
+    "credit_cost": 387
+  },
+  "b7-06": {
+    "audio": "voice/revolucion-francesa-b7-06.mp3",
+    "duration": 24.891791,
+    "transcript": null,
+    "credit_cost": 347
+  },
+  "b7-07": {
+    "audio": "voice/revolucion-francesa-b7-07.mp3",
+    "duration": 21.873197,
+    "transcript": null,
+    "credit_cost": 357
+  },
+  "b7-08": {
+    "audio": "voice/revolucion-francesa-b7-08.mp3",
+    "duration": 30.46458,
+    "transcript": null,
+    "credit_cost": 447
+  },
+  "b8-01": {
+    "audio": "voice/revolucion-francesa-b8-01.mp3",
+    "duration": 11.702857,
+    "transcript": null,
+    "credit_cost": 197
+  },
+  "b8-02": {
+    "audio": "voice/revolucion-francesa-b8-02.mp3",
+    "duration": 27.724626,
+    "transcript": null,
+    "credit_cost": 432
+  },
+  "b8-03": {
+    "audio": "voice/revolucion-francesa-b8-03.mp3",
+    "duration": 30.55746,
+    "transcript": null,
+    "credit_cost": 454
+  },
+  "b8-04": {
+    "audio": "voice/revolucion-francesa-b8-04.mp3",
+    "duration": 32.507937,
+    "transcript": null,
+    "credit_cost": 497
+  },
+  "b8-05": {
+    "audio": "voice/revolucion-francesa-b8-05.mp3",
+    "duration": 27.817506,
+    "transcript": null,
+    "credit_cost": 438
+  },
+  "b8-06": {
+    "audio": "voice/revolucion-francesa-b8-06.mp3",
+    "duration": 30.88254,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b8-07": {
+    "audio": "voice/revolucion-francesa-b8-07.mp3",
+    "duration": 34.179773,
+    "transcript": null,
+    "credit_cost": 500
+  },
+  "b8-08": {
+    "audio": "voice/revolucion-francesa-b8-08.mp3",
+    "duration": 25.58839,
+    "transcript": null,
+    "credit_cost": 440
+  },
+  "b8-09": {
+    "audio": "voice/revolucion-francesa-b8-09.mp3",
+    "duration": 18.947483,
+    "transcript": null,
+    "credit_cost": 305
+  },
+  "b8-10": {
+    "audio": "voice/revolucion-francesa-b8-10.mp3",
+    "duration": 18.668844,
+    "transcript": null,
+    "credit_cost": 306
+  },
+  "b9-01": {
+    "audio": "voice/revolucion-francesa-b9-01.mp3",
+    "duration": 22.058957,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b9-02": {
+    "audio": "voice/revolucion-francesa-b9-02.mp3",
+    "duration": 20.52644,
+    "transcript": null,
+    "credit_cost": 296
+  },
+  "b9-03": {
+    "audio": "voice/revolucion-francesa-b9-03.mp3",
+    "duration": 15.46449,
+    "transcript": null,
+    "credit_cost": 236
+  },
+  "b9-04": {
+    "audio": "voice/revolucion-francesa-b9-04.mp3",
+    "duration": 24.845351,
+    "transcript": null,
+    "credit_cost": 367
+  },
+  "b9-05": {
+    "audio": "voice/revolucion-francesa-b9-05.mp3",
+    "duration": 26.377868,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b9-06": {
+    "audio": "voice/revolucion-francesa-b9-06.mp3",
+    "duration": 23.405714,
+    "transcript": null,
+    "credit_cost": 366
+  },
+  "b9-07": {
+    "audio": "voice/revolucion-francesa-b9-07.mp3",
+    "duration": 26.517188,
+    "transcript": null,
+    "credit_cost": 389
+  },
+  "b9-08": {
+    "audio": "voice/revolucion-francesa-b9-08.mp3",
+    "duration": 21.919637,
+    "transcript": null,
+    "credit_cost": 386
+  },
+  "b3-04": {
+    "audio": "voice/revolucion-francesa-b3-04.mp3",
+    "duration": 31.207619,
+    "transcript": null,
+    "credit_cost": 454
+  }
+}
