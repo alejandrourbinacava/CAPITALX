@@ -1,0 +1,496 @@
+name: Producción completa
+
+# De un guion (o de un tema) a un video publicado en YouTube con miniatura.
+#
+#   [guion]  si se da un tema, lo investiga y lo escribe (Anthropic)
+#   voz      locuta lo que falte (no repite lo ya pagado)
+#   preparar baja clips y laminas UNA vez, lo empaqueta y reparte el render en tramos
+#   tramos   N jobs a la vez, cada uno renderiza un trozo del video
+#   miniatura  OpenAI dibuja el fondo y Remotion pone el titular (en paralelo a los tramos)
+#   entrega  une los tramos, masteriza a -14 LUFS, guarda el video en una release,
+#            lo sube a YouTube con su miniatura y lo publica
+#
+# Lo llama .github/workflows/lanzar.yml cuando cambia lanzar.json.
+#
+# Secretos (Settings > Secrets and variables > Actions):
+#   GENAIPRO_API_KEY o AI33_API_KEY   la voz
+#   PEXELS_API_KEY / PIXABAY_API_KEY  clips de stock
+#   OPENAI_API_KEY                    la miniatura
+#   ANTHROPIC_API_KEY                 solo si se da un tema, o si el guion no trae encargo de miniatura
+#   YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN   subir al canal (scripts/youtube-token.mjs)
+
+on:
+  workflow_call:
+    inputs:
+      video:
+        description: "slug de un guion que ya esta en content/"
+        required: false
+        default: ""
+        type: string
+      tema:
+        description: "slug de un tema de content/cola.json: lo investiga y lo escribe"
+        required: false
+        default: ""
+        type: string
+      publicar:
+        description: "public, unlisted o private"
+        required: false
+        default: "public"
+        type: string
+      programar:
+        description: "fecha ISO para que YouTube lo publique solo (sube en privado hasta entonces)"
+        required: false
+        default: ""
+        type: string
+      calidad:
+        required: false
+        default: "80"
+        type: string
+      tramo:
+        description: "fotogramas por tramo de render"
+        required: false
+        default: "5000"
+        type: string
+      solo_render:
+        description: "no locutar: el video ya tiene voz"
+        required: false
+        default: false
+        type: boolean
+      reescenificar:
+        required: false
+        default: false
+        type: boolean
+      rehacer:
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+env:
+  # Un unico sitio donde viven los ficheros temporales de esta ejecucion
+  TMP_RELEASE: tmp-${{ github.run_id }}
+
+jobs:
+  # ------------------------------------------------------------------------
+  # 0. Comprobar que no falta nada ANTES de gastar nada
+  # ------------------------------------------------------------------------
+  comprobar:
+    runs-on: ubuntu-latest
+    outputs:
+      slug: ${{ steps.c.outputs.slug }}
+      hay_youtube: ${{ steps.c.outputs.hay_youtube }}
+    env:
+      T_GENAIPRO: ${{ secrets.GENAIPRO_API_KEY != '' }}
+      T_AI33: ${{ secrets.AI33_API_KEY != '' }}
+      T_PEXELS: ${{ secrets.PEXELS_API_KEY != '' || secrets.PIXABAY_API_KEY != '' }}
+      T_OPENAI: ${{ secrets.OPENAI_API_KEY != '' }}
+      T_ANTHROPIC: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+      T_YT: ${{ secrets.YT_CLIENT_ID != '' && secrets.YT_CLIENT_SECRET != '' && secrets.YT_REFRESH_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: c
+        run: |
+          set -e
+          SLUG="${{ inputs.tema || inputs.video }}"
+          if [ -z "$SLUG" ]; then echo "Hay que dar un video o un tema."; exit 1; fi
+          if [ -n "${{ inputs.tema }}" ] && [ -n "${{ inputs.video }}" ]; then echo "Da un video O un tema, no los dos."; exit 1; fi
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "hay_youtube=$T_YT" >> "$GITHUB_OUTPUT"
+
+          if [ -n "${{ inputs.video }}" ] && [ ! -f "content/${{ inputs.video }}.json" ]; then
+            echo "No existe content/${{ inputs.video }}.json"; exit 1
+          fi
+
+          falta=""
+          warn=""
+          if [ -n "${{ inputs.tema }}" ] && [ "$T_ANTHROPIC" != "true" ]; then falta="$falta ANTHROPIC_API_KEY (escribir el guion)"; fi
+          if [ "${{ inputs.solo_render }}" != "true" ] && [ "$T_GENAIPRO" != "true" ] && [ "$T_AI33" != "true" ]; then
+            # Si el guion ya esta todo locutado no hace falta, pero no se sabe aqui con un tema nuevo
+            if [ -n "${{ inputs.tema }}" ]; then falta="$falta GENAIPRO_API_KEY o AI33_API_KEY (la voz)"; else warn="$warn\n- Sin clave de voz: si el guion tiene planos sin locutar, la ejecucion fallara en la voz."; fi
+          fi
+          if [ "$T_PEXELS" != "true" ]; then warn="$warn\n- Sin PEXELS_API_KEY ni PIXABAY_API_KEY: los clips de stock no se bajaran (las laminas de Commons y archive.org si)."; fi
+          if [ "$T_OPENAI" != "true" ]; then warn="$warn\n- Sin OPENAI_API_KEY: la miniatura saldra con fondo de reserva y el video se sube en PRIVADO."; fi
+          if [ "$T_YT" != "true" ]; then warn="$warn\n- Sin los tres secretos de YouTube: el video se renderiza y queda en la release, pero NO se sube."; fi
+
+          {
+            echo "### Producción de \`$SLUG\`"
+            echo ""
+            echo "Publicación: **${{ inputs.programar != '' && format('programada {0}', inputs.programar) || inputs.publicar }}**"
+            [ -n "$warn" ] && { echo ""; echo "**Ojo:**"; printf "$warn\n"; }
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ -n "$falta" ]; then
+            echo "Faltan secretos imprescindibles:$falta"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "**Faltan secretos imprescindibles:**$falta" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+  # ------------------------------------------------------------------------
+  # 1. El guion, solo si se pidio un tema
+  # ------------------------------------------------------------------------
+  guion:
+    needs: comprobar
+    if: inputs.tema != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22", cache: "npm" }
+      - run: npm ci
+      - name: Investigar y escribir el guion
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/guion.mjs --tema "${{ inputs.tema }}"
+      - name: Guardar guion y ficha
+        run: |
+          S="${{ inputs.tema }}"
+          cp content/diario.json "content/$S.json"
+          echo '{}' > "content/$S.timings.json"
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content
+          git commit -m "Guion de $S"
+          for i in 1 2 3; do git pull --rebase --autostash -q origin main && git push && break; sleep 5; done
+
+  # ------------------------------------------------------------------------
+  # 2. La voz (reaprovecha lo ya locutado)
+  # ------------------------------------------------------------------------
+  voz:
+    needs: [comprobar, guion]
+    if: >-
+      always() && needs.comprobar.result == 'success'
+      && (needs.guion.result == 'success' || needs.guion.result == 'skipped')
+      && inputs.solo_render != true
+    uses: ./.github/workflows/voz.yml
+    with:
+      video: ${{ needs.comprobar.outputs.slug }}
+      solo_contar: false
+    secrets: inherit
+
+  # ------------------------------------------------------------------------
+  # 3. Preparar: assets una vez, y el plan de tramos
+  # ------------------------------------------------------------------------
+  preparar:
+    needs: [comprobar, voz]
+    if: >-
+      always() && needs.comprobar.result == 'success'
+      && (needs.voz.result == 'success' || needs.voz.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    outputs:
+      sha: ${{ steps.sha.outputs.sha }}
+      matriz: ${{ steps.plan.outputs.matriz }}
+      n: ${{ steps.plan.outputs.n }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SLUG: ${{ needs.comprobar.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "22", cache: "npm" }
+
+      - name: Dependencias del sistema
+        run: |
+          paquetes="ffmpeg zstd libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2t64"
+          for i in 1 2 3; do
+            if sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends $paquetes; then exit 0; fi
+            echo "apt fallo, reintento $i"; sleep 10
+          done
+          exit 1
+
+      - run: npm ci
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Limpiar temporales viejos de ejecuciones que no terminaron
+        continue-on-error: true
+        run: |
+          gh release list --limit 100 --json tagName,createdAt \
+            --jq '.[] | select(.tagName|startswith("tmp-")) | select(.createdAt < (now - 259200 | todate)) | .tagName' \
+            | while read -r T; do echo "borro $T"; gh release delete "$T" --yes --cleanup-tag || true; done
+
+      - name: Catálogo de vídeos
+        run: node scripts/catalogo.mjs
+
+      # Cambiar solo la imagen de un guion ya locutado no cuesta creditos de voz
+      - name: Reescenificar
+        if: ${{ inputs.reescenificar }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          REHACER=""
+          [ -n "${{ inputs.rehacer }}" ] && REHACER="--rehacer ${{ inputs.rehacer }}"
+          node scripts/guion.mjs --reescenificar "content/$SLUG.json" $REHACER
+
+      - name: Encargo de la miniatura
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/miniatura.mjs "$SLUG" --solo-encargo
+
+      - name: Herramientas de recorte (solo si el video lleva recortes)
+        run: |
+          if grep -q '"tipo": *"recorte"' "content/$SLUG.json"; then
+            pip install --quiet "rembg[cpu]" pillow numpy scipy
+            ANTHROPIC_API_KEY="${{ secrets.ANTHROPIC_API_KEY }}" node scripts/titulares.mjs "content/$SLUG.json" || true
+          fi
+
+      - name: Lechos musicales
+        run: |
+          pip install --quiet numpy
+          python scripts/music.py --todos && mkdir -p public/music && cp assets/music/*.wav public/music/
+
+      - name: Bajar clips y láminas
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: node scripts/clips.mjs "content/$SLUG.json"
+
+      # La eleccion de clips queda escrita en el guion: el video sale igual la proxima vez.
+      - name: Guardar lo elegido
+        id: sha
+        run: |
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content src/catalogo.generated.ts
+          git diff --cached --quiet || git commit -m "Preparado $SLUG: clips, encargo de miniatura y catálogo"
+          for i in 1 2 3; do git pull --rebase --autostash -q origin main && git push && break; sleep 5; done
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Plan de tramos
+        id: plan
+        run: node scripts/plan.mjs "$SLUG" --tramo=${{ inputs.tramo }}
+
+      - name: Empaquetar los ficheros que no están en el repositorio
+        run: |
+          DIRS=""
+          for d in public/clips public/laminas public/music public/recortes-auto; do [ -d "$d" ] && DIRS="$DIRS $d"; done
+          tar --use-compress-program="zstd -T0 -3" -cf assets.tar.zst $DIRS
+          ls -lh assets.tar.zst
+          gh release create "$TMP_RELEASE" --prerelease --title "temporal $SLUG" --notes "Ficheros temporales de la ejecución ${{ github.run_id }}. Se borran solos." || true
+          gh release upload "$TMP_RELEASE" assets.tar.zst --clobber
+
+  # ------------------------------------------------------------------------
+  # 4. Los tramos, a la vez
+  # ------------------------------------------------------------------------
+  tramos:
+    needs: [comprobar, preparar]
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        tramo: ${{ fromJSON(needs.preparar.outputs.matriz) }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SLUG: ${{ needs.comprobar.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.preparar.outputs.sha }}
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "22", cache: "npm" }
+
+      - name: Dependencias del sistema
+        run: |
+          paquetes="ffmpeg zstd libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2t64"
+          for i in 1 2 3; do
+            if sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends $paquetes; then exit 0; fi
+            echo "apt fallo, reintento $i"; sleep 10
+          done
+          exit 1
+
+      - run: npm ci
+
+      - name: Traer los ficheros preparados
+        run: |
+          for i in 1 2 3; do gh release download "$TMP_RELEASE" -p assets.tar.zst --clobber && break; sleep 10; done
+          tar --use-compress-program="zstd -d -T0" -xf assets.tar.zst
+          rm assets.tar.zst
+          du -sh public
+
+      - name: Renderizar el tramo ${{ matrix.tramo.i }} (${{ matrix.tramo.ini }}-${{ matrix.tramo.fin }})
+        run: bash scripts/tramo.sh "$SLUG" ${{ matrix.tramo.ini }} ${{ matrix.tramo.fin }} out/t${{ matrix.tramo.i }}.mp4 ${{ inputs.calidad }}
+
+      - name: Dejar el tramo a mano para la unión
+        run: gh release upload "$TMP_RELEASE" out/t${{ matrix.tramo.i }}.mp4 --clobber
+
+  # ------------------------------------------------------------------------
+  # 5. La miniatura (a la vez que los tramos)
+  # ------------------------------------------------------------------------
+  miniatura:
+    needs: [comprobar, preparar]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SLUG: ${{ needs.comprobar.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.preparar.outputs.sha }}
+      - uses: actions/setup-node@v4
+        with: { node-version: "22", cache: "npm" }
+      - name: Dependencias del sistema
+        run: |
+          paquetes="libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2t64"
+          for i in 1 2 3; do
+            if sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends $paquetes; then exit 0; fi
+            sleep 10
+          done
+          exit 1
+      - run: npm ci
+      - name: Dibujar el fondo y poner el titular
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/miniatura.mjs "$SLUG"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: miniatura
+          path: |
+            out/${{ needs.comprobar.outputs.slug }}-miniatura.jpg
+            out/${{ needs.comprobar.outputs.slug }}-miniatura.estado.txt
+            public/miniaturas/${{ needs.comprobar.outputs.slug }}.png
+          retention-days: 14
+          if-no-files-found: error
+
+  # ------------------------------------------------------------------------
+  # 6. Entrega: unir, masterizar, guardar, subir y publicar
+  # ------------------------------------------------------------------------
+  entrega:
+    needs: [comprobar, preparar, tramos, miniatura]
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SLUG: ${{ needs.comprobar.outputs.slug }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+
+      - name: ffmpeg
+        run: |
+          command -v ffmpeg >/dev/null && exit 0
+          sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - name: Traer los tramos
+        run: |
+          mkdir -p out
+          for i in 1 2 3; do gh release download "$TMP_RELEASE" -p 't*.mp4' --dir out --clobber && break; sleep 10; done
+          ls -lh out
+
+      - name: Unir los tramos
+        run: |
+          cd out
+          ls t*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
+          cat lista.txt
+          # El audio se recodifica al unir: pegar AAC "a corte" deja chasquidos en las uniones
+          ffmpeg -y -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c:v copy -c:a aac -b:a 256k "$SLUG.mp4"
+          rm -f t*.mp4
+
+      - name: Masterizar a -14 LUFS
+        run: node scripts/master.mjs "out/$SLUG.mp4" "out/$SLUG-master.mp4"
+
+      - name: Comprobar el resultado
+        id: medir
+        run: |
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "out/$SLUG-master.mp4")
+          B=$(stat -c %s "out/$SLUG-master.mp4")
+          echo "duracion=$D bytes=$B"
+          # Un tramo perdido o duplicado se nota aqui: lo que dura el video tiene que
+          # coincidir con la suma de la locucion, con unos segundos de margen
+          node -e "
+            const t=require('./content/'+process.env.SLUG+'.timings.json');
+            const d=require('./content/'+process.env.SLUG+'.json');
+            const e=d.bloques.flatMap(b=>b.planos).reduce((a,p)=>a+(t[p.id]?t[p.id].duration+0.34:0),0);
+            const real=$D;
+            console.log('esperado '+e.toFixed(1)+' s, real '+real.toFixed(1)+' s');
+            if(Math.abs(real-e)>6){console.error('La duracion no cuadra con la locucion: falta o sobra algun tramo.');process.exit(1)}
+          "
+          {
+            echo "duracion=$D"
+            echo "bytes=$B"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Traer la miniatura
+        uses: actions/download-artifact@v4
+        with:
+          name: miniatura
+          path: .
+
+      - name: Estado de la miniatura
+        id: mini
+        run: |
+          E=$(cat "out/$SLUG-miniatura.estado.txt" 2>/dev/null || echo reserva)
+          echo "estado=$E" >> "$GITHUB_OUTPUT"
+          echo "Miniatura: $E"
+
+      # El video entero vive en una release: un respaldo descargable por si YouTube falla
+      - name: Guardar el vídeo en una release
+        run: |
+          COPIA="out/$SLUG-master.mp4"
+          # El limite de un fichero de release es 2 GiB
+          if [ "$(stat -c %s "$COPIA")" -gt 2040109465 ]; then
+            echo "Pesa demasiado para una release: se recomprime solo esa copia"
+            ffmpeg -y -hide_banner -loglevel error -i "$COPIA" -c:v libx264 -crf 27 -preset veryfast -c:a copy "out/$SLUG-release.mp4"
+            COPIA="out/$SLUG-release.mp4"
+          fi
+          TITULO=$(node -e "const d=require('./content/'+process.env.SLUG+'.json');console.log(d.publicacion?.titulo||d.titulo)")
+          ETIQUETA="video-$SLUG"
+          cp "$COPIA" "out/$SLUG.mp4"
+          gh release delete "$ETIQUETA" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$ETIQUETA" "out/$SLUG.mp4" "out/$SLUG-miniatura.jpg" --title "$TITULO" --notes "Producido por la cadena completa desde content/$SLUG.json"
+          echo "release=$(gh release view "$ETIQUETA" --json url --jq .url)" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Subir a YouTube
+        id: yt
+        if: ${{ needs.comprobar.outputs.hay_youtube == 'true' }}
+        run: |
+          PRIV="${{ inputs.publicar }}"
+          # Con una miniatura de reserva no se publica en abierto: es lo que mas pesa en este canal
+          if [ "${{ steps.mini.outputs.estado }}" != "ia" ] && [ "$PRIV" = "public" ] && [ -z "${{ inputs.programar }}" ]; then
+            PRIV="private"
+            echo "> La miniatura es de reserva (sin OpenAI): se sube en **privado** para que la cambies antes de publicar." >> "$GITHUB_STEP_SUMMARY"
+          fi
+          ARGS="--privacidad=$PRIV"
+          [ -n "${{ inputs.programar }}" ] && ARGS="$ARGS --programar=${{ inputs.programar }}"
+          node scripts/subir.mjs "out/$SLUG-master.mp4" "content/$SLUG.json" "out/$SLUG-miniatura.jpg" $ARGS
+
+      - name: Guardar que ya está subido y avanzar la cola
+        if: ${{ steps.yt.outcome == 'success' }}
+        run: |
+          node scripts/cola.mjs "$SLUG" "${{ steps.yt.outputs.video_id }}"
+          git config user.name "capital-x-bot"
+          git config user.email "actions@github.com"
+          git add content
+          git commit -m "Publicado $SLUG en YouTube" || echo "nada que guardar"
+          for i in 1 2 3; do git pull --rebase --autostash -q origin main && git push && break; sleep 5; done
+
+      - name: Si no hay YouTube
+        if: ${{ needs.comprobar.outputs.hay_youtube != 'true' }}
+        run: |
+          {
+            echo "### No se ha subido a YouTube"
+            echo "Faltan los secretos YT_CLIENT_ID, YT_CLIENT_SECRET e YT_REFRESH_TOKEN. El vídeo y la miniatura están en la release de arriba."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # Solo si todo ha ido bien: si la subida falla, los tramos tienen que seguir
+      # ahi para poder reintentar el job sin volver a renderizar tres horas.
+      - name: Borrar los temporales
+        if: success()
+        run: gh release delete "$TMP_RELEASE" --yes --cleanup-tag || true

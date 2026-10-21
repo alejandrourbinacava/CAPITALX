@@ -5467,6 +5467,11 @@
       "inflacion historica",
       "capital x",
       "divulgacion economica"
-    ]
+    ],
+    "miniatura": {
+      "texto": "DEBÍA MENOS\nY QUEBRÓ",
+      "resalte": "QUEBRÓ",
+      "escena": "A French royal crown of 1780s resting on a tall pile of worthless paper banknotes, one gold coin rolling away, a guillotine blade glinting in the dark blurred background, single candle light, oil painting realism"
+    }
   }
 }

@@ -1,94 +1,11 @@
 import React from "react";
-import { Composition } from "remotion";
-import {
-  CapitalXVideo,
-  duracionTotalDe,
-  type Guion,
-  type Tiempos,
-} from "./Video";
+import { Composition, Still } from "remotion";
+import { CapitalXVideo, duracionTotalDe } from "./Video";
 import { VIDEO } from "./theme";
 import { DEMOS } from "./demo";
 
-import irlanda from "../content/irlanda.json";
-import irlandaT from "../content/irlanda.timings.json";
-import noruega from "../content/noruega.json";
-import noruegaT from "../content/noruega.timings.json";
-import mexico from "../content/mexico.json";
-import corea from "../content/corea.json";
-import mexicoT from "../content/mexico.timings.json";
-import coreaT from "../content/corea.timings.json";
-import pensiones from "../content/pensiones.json";
-import alemaniaTrabajo from "../content/alemania-trabajo.json";
-import chinaInmobiliario from "../content/china-inmobiliario.json";
-import alemaniaEuro from "../content/alemania-euro.json";
-import argentina from "../content/argentina.json";
-import viviendaEspana from "../content/vivienda-espana.json";
-import chinaDeudaUsa from "../content/china-deuda-usa.json";
-import petrodolar from "../content/petrodolar.json";
-import soros1992 from "../content/soros-1992.json";
-import yuanDigital from "../content/yuan-digital.json";
-import sudafrica from "../content/sudafrica.json";
-import holanda from "../content/holanda.json";
-import eeuuMigracion from "../content/eeuu-migracion.json";
-import franciaDeuda from "../content/francia-deuda.json";
-import turquiaTipos from "../content/turquia-tipos.json";
-import imperioBritanico from "../content/imperio-britanico.json";
-import documentalPrueba from "../content/documental-prueba.json";
-import imperioEspanol from "../content/imperio-espanol.json";
-import eeuuDolar from "../content/eeuu-dolar.json";
-import revolucionFrancesa from "../content/revolucion-francesa.json";
-import pensionesT from "../content/pensiones.timings.json";
-import alemaniaTrabajoT from "../content/alemania-trabajo.timings.json";
-import chinaInmobiliarioT from "../content/china-inmobiliario.timings.json";
-import alemaniaEuroT from "../content/alemania-euro.timings.json";
-import argentinaT from "../content/argentina.timings.json";
-import viviendaEspanaT from "../content/vivienda-espana.timings.json";
-import chinaDeudaUsaT from "../content/china-deuda-usa.timings.json";
-import petrodolarT from "../content/petrodolar.timings.json";
-import soros1992T from "../content/soros-1992.timings.json";
-import yuanDigitalT from "../content/yuan-digital.timings.json";
-import sudafricaT from "../content/sudafrica.timings.json";
-import holandaT from "../content/holanda.timings.json";
-import eeuuMigracionT from "../content/eeuu-migracion.timings.json";
-import franciaDeudaT from "../content/francia-deuda.timings.json";
-import turquiaTiposT from "../content/turquia-tipos.timings.json";
-import imperioBritanicoT from "../content/imperio-britanico.timings.json";
-import documentalPruebaT from "../content/documental-prueba.timings.json";
-import imperioEspanolT from "../content/imperio-espanol.timings.json";
-import eeuuDolarT from "../content/eeuu-dolar.timings.json";
-import revolucionFrancesaT from "../content/revolucion-francesa.timings.json";
-import diario from "../content/diario.json";
-import diarioT from "../content/diario.timings.json";
-
-/** Un vídeo del canal = un guion más sus tiempos de locución. */
-const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
-  { id: "irlanda", guion: irlanda as any, tiempos: irlandaT as any },
-  { id: "noruega", guion: noruega as any, tiempos: noruegaT as any },
-  { id: "mexico", guion: mexico as any, tiempos: mexicoT as any },
-  { id: "corea", guion: corea as any, tiempos: coreaT as any },
-  // El de cada manana. Lo sobrescribe el flujo diario antes de renderizar.
-  { id: "pensiones", guion: pensiones as any, tiempos: pensionesT as any },
-  { id: "alemania-trabajo", guion: alemaniaTrabajo as any, tiempos: alemaniaTrabajoT as any },
-  { id: "china-inmobiliario", guion: chinaInmobiliario as any, tiempos: chinaInmobiliarioT as any },
-  { id: "alemania-euro", guion: alemaniaEuro as any, tiempos: alemaniaEuroT as any },
-  { id: "argentina", guion: argentina as any, tiempos: argentinaT as any },
-  { id: "vivienda-espana", guion: viviendaEspana as any, tiempos: viviendaEspanaT as any },
-  { id: "china-deuda-usa", guion: chinaDeudaUsa as any, tiempos: chinaDeudaUsaT as any },
-  { id: "petrodolar", guion: petrodolar as any, tiempos: petrodolarT as any },
-  { id: "soros-1992", guion: soros1992 as any, tiempos: soros1992T as any },
-  { id: "yuan-digital", guion: yuanDigital as any, tiempos: yuanDigitalT as any },
-  { id: "sudafrica", guion: sudafrica as any, tiempos: sudafricaT as any },
-  { id: "holanda", guion: holanda as any, tiempos: holandaT as any },
-  { id: "eeuu-migracion", guion: eeuuMigracion as any, tiempos: eeuuMigracionT as any },
-  { id: "francia-deuda", guion: franciaDeuda as any, tiempos: franciaDeudaT as any },
-  { id: "turquia-tipos", guion: turquiaTipos as any, tiempos: turquiaTiposT as any },
-  { id: "imperio-britanico", guion: imperioBritanico as any, tiempos: imperioBritanicoT as any },
-  { id: "documental-prueba", guion: documentalPrueba as any, tiempos: documentalPruebaT as any },
-  { id: "imperio-espanol", guion: imperioEspanol as any, tiempos: imperioEspanolT as any },
-  { id: "eeuu-dolar", guion: eeuuDolar as any, tiempos: eeuuDolarT as any },
-  { id: "revolucion-francesa", guion: revolucionFrancesa as any, tiempos: revolucionFrancesaT as any },
-  { id: "diario", guion: diario as any, tiempos: diarioT as any },
-];
+import { CATALOGO } from "./catalogo.generated";
+import { Miniatura, MINIATURA } from "./scenes/Miniatura";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -118,5 +35,14 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
       />
     ))}
+    {/* La miniatura de YouTube: la imagen de fondo la hace OpenAI y el texto
+        se pone aqui, para que el castellano salga siempre bien escrito. */}
+    <Still
+      id="miniatura"
+      component={Miniatura as any}
+      width={MINIATURA.width}
+      height={MINIATURA.height}
+      defaultProps={{ fondo: "", texto: "CAPITAL X", resalte: "" }}
+    />
   </>
 );

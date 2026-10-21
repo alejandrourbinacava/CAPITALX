@@ -85,23 +85,76 @@ público), proyectados con Mercator a coordenadas del lienzo.
 clave llega a aparecer en un commit, hay que rotarla: borrarla después no sirve,
 queda en el historial.
 
-## Renderizar en la nube
+## De cero a YouTube, todo en GitHub
 
-No hace falta tu ordenador. En GitHub, pestaña **Actions**:
+Escribes el slug en `lanzar.json`, haces commit y push, y GitHub hace el resto:
 
-- **Renderizar vídeo** — eliges el slug (`irlanda`, `noruega`, `mexico`…), le das
-  a *Run workflow* y al terminar descargas el MP4 desde *Artifacts*. Tarda entre
-  45 y 90 minutos, porque las máquinas de GitHub son más lentas que un portátil.
-- **Generar locución** — locuta solo los planos que aún no tienen audio y los
-  guarda en el repositorio, para que los renders siguientes no gasten créditos.
-  Marca *solo_contar* si únicamente quieres saber cuánto costaría.
+    lanzar.json  ──►  voz  ──►  preparar  ──►  tramos (N a la vez)  ──►  entrega
+                                    └────►  miniatura (OpenAI)  ───────────┘
 
-El repositorio es privado a propósito: contiene los audios de la voz clonada y
-las fotos originales de los retratos. Con 2.000 minutos al mes de Actions dan
-para unos 25 vídeos, más que de sobra para el ritmo de publicación.
+1. **voz** — locuta solo los planos que faltan (no repite lo ya pagado).
+2. **preparar** — baja los clips y láminas una sola vez, los empaqueta y reparte
+   el render en tramos de ~5.000 fotogramas (`scripts/plan.mjs`).
+3. **tramos** — hasta 20 jobs a la vez, cada uno renderiza un trozo
+   (`scripts/tramo.sh`, con 3 reintentos). Un vídeo de 33 minutos son unos 12.
+4. **miniatura** — OpenAI dibuja el fondo **sin texto** y Remotion pone el
+   titular con la tipografía del canal (`scripts/miniatura.mjs`,
+   `src/scenes/Miniatura.tsx`). El encargo (titular, palabra en amarillo y
+   escena) vive en `publicacion.miniatura` del guion; si falta, lo propone Claude.
+5. **entrega** — une los tramos, masteriza a -14 LUFS, comprueba que la duración
+   cuadra con la locución, guarda el vídeo en una *release* y lo sube a YouTube
+   con miniatura, capítulos reales y etiquetas (`scripts/subir.mjs`).
 
-Para que la locución funcione en la nube hay que crear el secreto
-`AI33_API_KEY` en *Settings > Secrets and variables > Actions*.
+También se puede lanzar con el botón **Actions > Vídeo completo > Run workflow**.
+
+### `lanzar.json`
+
+| Campo | Qué hace |
+|---|---|
+| `video` | slug de un guion de `content/` (el caso normal) |
+| `tema` | alternativa: un slug de `content/cola.json`; la cadena investiga y escribe el guion (≈1,84 $ de API) |
+| `publicar` | `public` (por defecto), `unlisted` o `private` |
+| `programar` | fecha ISO: sube en privado y YouTube lo publica solo a esa hora |
+| `solo_render` | `true` si ya está locutado: cero créditos de voz |
+| `tramo` | fotogramas por tramo (menos = más jobs a la vez) |
+
+Un guion nuevo ya **no** hay que registrarlo a mano en `src/Root.tsx`:
+`scripts/catalogo.mjs` genera `src/catalogo.generated.ts` desde `content/`.
+
+### Secretos (Settings > Secrets and variables > Actions)
+
+| Secreto | Para qué |
+|---|---|
+| `GENAIPRO_API_KEY` (o `AI33_API_KEY`) | la voz |
+| `PEXELS_API_KEY`, `PIXABAY_API_KEY` | clips de stock |
+| `OPENAI_API_KEY` | la miniatura (modelo `gpt-image-1`; OpenAI pide verificar la organización) |
+| `ANTHROPIC_API_KEY` | solo con `tema`, o si el guion no trae encargo de miniatura |
+| `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` | subir al canal (`node scripts/youtube-token.mjs`, una vez) |
+
+Al empezar, la ejecución escribe en su resumen qué secretos faltan y qué pasará
+sin ellos, antes de gastar nada.
+
+### Lo que protege la cadena
+
+- **No sube dos veces**: al terminar escribe `content/<slug>.publicado.json`.
+- **Miniatura de reserva = privado**: si OpenAI falla, el vídeo no sale en abierto.
+- **Un tramo perdido se nota**: la duración final se compara con la locución.
+- **Si algo falla tarde** (p. ej. la subida) los tramos siguen guardados y basta con
+  *Re-run failed jobs*, sin volver a renderizar.
+
+### Límite de YouTube que no se puede saltar desde aquí
+
+YouTube deja como **privados** los vídeos subidos por API desde un proyecto de
+Google que no haya pasado su auditoría (*YouTube API Services – Audit and Quota
+Extension*). El script lo detecta y lo dice en el resumen: el vídeo queda subido,
+con título, descripción, capítulos y miniatura, pero hay que publicarlo a mano o
+pasar la auditoría.
+
+### Render de un solo job (antiguo)
+
+**Renderizar vídeo** (`render.yml`) sigue ahí para vídeos cortos: un único
+runner, el MP4 va a una *release*. **Generar locución** (`voz.yml`) locuta sin
+renderizar; marca *solo_contar* para saber cuánto costaría.
 
 ---
 

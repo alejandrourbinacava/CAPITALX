@@ -1,58 +1,53 @@
 name: Vídeo completo
 
-# Locuta y renderiza de una sola vez, encadenado dentro de GitHub.
-#
-# Antes esto se encadenaba desde un ordenador: un bucle que lanzaba la voz,
-# esperaba y luego lanzaba el render. Eso obligaba a tener la maquina
-# encendida hasta el final. Aqui el render depende de la voz con "needs",
-# asi que GitHub lo encadena solo y no hace falta nada en local.
+# El mismo recorrido que lanzar.json, pero con el boton "Run workflow" de la
+# pestana Actions: voz, render en paralelo, miniatura, subida a YouTube.
+# Si prefieres escribir un fichero, usa lanzar.json.
 
 on:
   workflow_dispatch:
     inputs:
       video:
-        description: "Qué vídeo (el slug: pensiones, alemania-trabajo…)"
-        required: true
-        type: string
-      calidad:
-        description: "Calidad de imagen (más alto = mejor y más pesado)"
-        required: false
-        default: "80"
-        type: string
-      reescenificar:
-        description: "Rehacer la imagen antes de renderizar (no gasta créditos de voz)"
-        required: false
-        default: false
-        type: boolean
-      rehacer:
-        description: "Qué escenas rehacer: vacío = solo las que falten · todo · b3,b7"
+        description: "Qué vídeo (el slug de content/: revolucion-francesa…). Vacío si das un tema"
         required: false
         default: ""
         type: string
+      tema:
+        description: "O un tema de content/cola.json: lo investiga y lo escribe él solo"
+        required: false
+        default: ""
+        type: string
+      publicar:
+        description: "Cómo se sube a YouTube"
+        required: false
+        default: "public"
+        type: choice
+        options: [public, unlisted, private]
+      programar:
+        description: "Hora de publicación en ISO (2026-10-25T18:00:00+02:00). Vacío = ahora"
+        required: false
+        default: ""
+        type: string
+      solo_render:
+        description: "El vídeo ya está locutado: no gastar créditos de voz"
+        required: false
+        default: false
+        type: boolean
 
-# Dos cadenas a la vez sobre el mismo video se pisarian al hacer push del
-# audio, y se pagaria la locucion dos veces.
 concurrency:
-  group: cadena-${{ inputs.video }}
+  group: cadena-${{ inputs.video }}${{ inputs.tema }}
   cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
-  voz:
-    uses: ./.github/workflows/voz.yml
+  produccion:
+    uses: ./.github/workflows/produccion.yml
     with:
       video: ${{ inputs.video }}
-      solo_contar: false
-    secrets: inherit
-
-  render:
-    needs: voz
-    uses: ./.github/workflows/render.yml
-    with:
-      video: ${{ inputs.video }}
-      calidad: ${{ inputs.calidad }}
-      reescenificar: ${{ inputs.reescenificar }}
-      rehacer: ${{ inputs.rehacer }}
+      tema: ${{ inputs.tema }}
+      publicar: ${{ inputs.publicar }}
+      programar: ${{ inputs.programar }}
+      solo_render: ${{ inputs.solo_render }}
     secrets: inherit

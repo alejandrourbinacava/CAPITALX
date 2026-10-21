@@ -252,7 +252,7 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-        run: node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png
+        run: node scripts/subir.mjs out/diario-master.mp4 content/diario.json out/portada.png --privacidad=private
 
       # Los artefactos de Actions comparten 500 MB para toda la cuenta y un
       # video son ochenta: se llena en menos de una semana. Los ficheros de una

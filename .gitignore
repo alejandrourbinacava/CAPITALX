@@ -18,3 +18,6 @@ public/music/*.wav
 !public/music/mystery.wav
 out/estilo/
 public/laminas/
+
+public/miniaturas/
+out/*-props.json

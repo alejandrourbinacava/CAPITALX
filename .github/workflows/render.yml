@@ -1,5 +1,7 @@
 name: Renderizar vídeo
 
+# Render de un solo job, a mano. Para videos cortos; la cadena completa
+# (produccion.yml) reparte el render en tramos y llega hasta YouTube.
 # Se lanza a mano desde la pestaña Actions de GitHub.
 # Elige el vídeo, dale a Run workflow, y al terminar descargas el MP4
 # desde la sección Artifacts de esa ejecución.
@@ -26,6 +28,8 @@ on:
       PEXELS_API_KEY:
         required: false
       PIXABAY_API_KEY:
+        required: false
+      ANTHROPIC_API_KEY:
         required: false
 
   workflow_dispatch:

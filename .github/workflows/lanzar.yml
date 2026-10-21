@@ -13,6 +13,9 @@ name: Lanzar desde el repositorio
 #
 # Se dispara SOLO cuando cambia ese fichero. No es un cron: no se despierta
 # solo ni a diario, unicamente cuando alguien escribe ahi un slug.
+#
+# Lo que lanza es la cadena completa (produccion.yml): voz, render en tramos
+# en paralelo, miniatura con OpenAI, subida a YouTube y publicacion.
 
 on:
   push:
@@ -34,6 +37,10 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       video: ${{ steps.ficha.outputs.video }}
+      tema: ${{ steps.ficha.outputs.tema }}
+      publicar: ${{ steps.ficha.outputs.publicar }}
+      programar: ${{ steps.ficha.outputs.programar }}
+      tramo: ${{ steps.ficha.outputs.tramo }}
       calidad: ${{ steps.ficha.outputs.calidad }}
       reescenificar: ${{ steps.ficha.outputs.reescenificar }}
       rehacer: ${{ steps.ficha.outputs.rehacer }}
@@ -52,57 +59,62 @@ jobs:
           fi
 
           video=$(jq -r '.video // ""' lanzar.json)
-          if [ -z "$video" ] || [ "$video" = "null" ]; then
-            echo "lanzar.json no nombra ningun video. No se hace nada."
+          tema=$(jq -r '.tema // ""' lanzar.json)
+          if [ "$video" = "null" ]; then video=""; fi
+          if [ "$tema" = "null" ]; then tema=""; fi
+          if [ -z "$video" ] && [ -z "$tema" ]; then
+            echo "lanzar.json no nombra ningun video ni tema. No se hace nada."
             echo "video=" >> "$GITHUB_OUTPUT"
+            echo "tema=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          if [ -n "$video" ] && [ -n "$tema" ]; then
+            echo "lanzar.json tiene 'video' Y 'tema'. Solo uno."
+            exit 1
+          fi
 
-          # Un slug que no existe tumbaria el render cuarenta minutos mas
-          # tarde. Se comprueba aqui, que cuesta un segundo.
-          if [ ! -f "content/${video}.json" ]; then
+          # Un slug que no existe tumbaria el render mucho mas tarde. Se comprueba aqui.
+          if [ -n "$video" ] && [ ! -f "content/${video}.json" ]; then
             echo "No existe content/${video}.json"
             echo "Disponibles:"
             ls content/*.json | grep -v timings | sed 's|content/||;s|\.json||'
             exit 1
           fi
+          if [ -n "$tema" ] && ! jq -e --arg t "$tema" '.cola[] | select(.slug==$t)' content/cola.json >/dev/null; then
+            echo "El tema '$tema' no esta en content/cola.json"
+            exit 1
+          fi
+
+          publicar=$(jq -r '.publicar // "public"' lanzar.json)
+          case "$publicar" in public|unlisted|private) ;; *) echo "'publicar' tiene que ser public, unlisted o private"; exit 1 ;; esac
 
           {
             echo "video=${video}"
+            echo "tema=${tema}"
+            echo "publicar=${publicar}"
+            echo "programar=$(jq -r '.programar // ""' lanzar.json)"
+            echo "tramo=$(jq -r '.tramo // "5000"' lanzar.json)"
             echo "calidad=$(jq -r '.calidad // "80"' lanzar.json)"
             echo "reescenificar=$(jq -r '.reescenificar // false' lanzar.json)"
             echo "rehacer=$(jq -r '.rehacer // ""' lanzar.json)"
             echo "solo_render=$(jq -r '.solo_render // false' lanzar.json)"
           } >> "$GITHUB_OUTPUT"
 
-          echo "### Lanzando \`${video}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "### Lanzando \`${video}${tema}\`" >> "$GITHUB_STEP_SUMMARY"
           jq . lanzar.json >> "$GITHUB_STEP_SUMMARY"
 
-  # Se salta cuando solo_render es true: un rerender de un video ya locutado
-  # no debe pasar por aqui ni de milagro.
-  voz:
+  produccion:
     needs: leer
-    if: needs.leer.outputs.video != '' && needs.leer.outputs.solo_render != 'true'
-    uses: ./.github/workflows/voz.yml
+    if: needs.leer.outputs.video != '' || needs.leer.outputs.tema != ''
+    uses: ./.github/workflows/produccion.yml
     with:
       video: ${{ needs.leer.outputs.video }}
-      solo_contar: false
-    secrets: inherit
-
-  render:
-    needs: [leer, voz]
-    # `always()` porque voz puede venir saltado a proposito. Lo que no se
-    # tolera es que voz haya fallado: si la locucion se rompio, renderizar
-    # produce un video mudo a medias.
-    if: >-
-      always()
-      && needs.leer.outputs.video != ''
-      && needs.leer.result == 'success'
-      && (needs.voz.result == 'success' || needs.voz.result == 'skipped')
-    uses: ./.github/workflows/render.yml
-    with:
-      video: ${{ needs.leer.outputs.video }}
+      tema: ${{ needs.leer.outputs.tema }}
+      publicar: ${{ needs.leer.outputs.publicar }}
+      programar: ${{ needs.leer.outputs.programar }}
+      tramo: ${{ needs.leer.outputs.tramo }}
       calidad: ${{ needs.leer.outputs.calidad }}
+      solo_render: ${{ fromJSON(needs.leer.outputs.solo_render) }}
       reescenificar: ${{ fromJSON(needs.leer.outputs.reescenificar) }}
       rehacer: ${{ needs.leer.outputs.rehacer }}
     secrets: inherit
