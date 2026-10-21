@@ -282,6 +282,9 @@ jobs:
   # ------------------------------------------------------------------------
   tramos:
     needs: [comprobar, preparar]
+    # always(): voz y guion pueden venir "skipped" mas arriba, y GitHub arrastra
+    # ese salto a todos los jobs de abajo aunque su dependencia directa haya ido bien
+    if: always() && needs.preparar.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 300
     strategy:
@@ -328,6 +331,7 @@ jobs:
   # ------------------------------------------------------------------------
   miniatura:
     needs: [comprobar, preparar]
+    if: always() && needs.preparar.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -367,6 +371,7 @@ jobs:
   # ------------------------------------------------------------------------
   entrega:
     needs: [comprobar, preparar, tramos, miniatura]
+    if: always() && needs.tramos.result == 'success' && needs.miniatura.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 240
     env:
