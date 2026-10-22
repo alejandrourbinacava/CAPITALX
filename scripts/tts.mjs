@@ -65,6 +65,13 @@ async function apiAi33(pathname, init = {}) {
   }
 }
 
+/**
+ * ai33 sirve varios motores. El identificador de la voz lleva el motor delante:
+ * "clone_2333475" (voces clonadas) o "elevenlabs_j41pQugxGaKleSQLIyG2" (la
+ * biblioteca de ElevenLabs, que incluye la voz Marciano Rajoy del canal).
+ */
+const motorDe = (id) => /^(elevenlabs|minimax|clone|edge|kokoro|vbee|fishaudio)_/.exec(id)?.[1] ?? "clone";
+
 const ai33 = {
   nombre: "ai33",
   clave: "AI33_API_KEY",
@@ -77,15 +84,22 @@ const ai33 = {
    * la velocidad por plano y la puntuacion del propio texto.
    */
   async sintetizar(texto, voz, speed) {
+    const motor = motorDe(voz.id);
+    // Con la voz de ElevenLabs el ritmo base del guion (`voz.velocidad`) se
+    // aplica igual que en GenAIPro, para que el video suene como los anteriores.
+    const ritmo = motor === "clone" ? speed : clamp(speed * (voz.velocidad ?? 1), 0.7, 1.2);
     const start = await apiAi33("/v3/text-to-speech", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         text: texto,
         voice_id: voz.id,
-        provider: "clone",
-        speed,
-        with_transcript: true, // tiempos palabra a palabra para sincronizar
+        provider: motor,
+        speed: ritmo,
+        // Tiempos palabra a palabra: solo las voces clonadas los dan bien. Con ElevenLabs
+        // la tarea se queda en "doing" esperando una transcripcion que no llega, y el
+        // montaje no la usa (GenAIPro tampoco la da).
+        with_transcript: motor === "clone",
         with_loudnorm: true, // nivel homogeneo entre planos
       }),
     });
@@ -116,7 +130,9 @@ const ai33 = {
    * miles de creditos con la voz que no era.
    */
   async comprobarVoz(voz) {
-    const r = await apiAi33("/v3/voices?provider=clone");
+    const motor = motorDe(voz.id);
+    const busqueda = motor === "clone" ? "" : `&search=${encodeURIComponent((voz.nombre ?? "").split(" ")[0])}`;
+    const r = await apiAi33(`/v3/voices?provider=${motor}${busqueda}`);
     if (!r.success) throw new Error("no se pudo consultar la lista de voces: " + JSON.stringify(r));
     const v = (r.data || []).find((x) => x.voice_id === voz.id);
     if (!v) {
@@ -266,7 +282,7 @@ async function main() {
 
   // La voz la declara el guion. La variable de entorno solo sirve para
   // probar otra de ai33 sin tocar el fichero.
-  const voiceId = (prov === ai33 && process.env.AI33_VOICE_ID) || doc.voz?.id;
+  const voiceId = (prov === ai33 && !/^elevenlabs_/.test(doc.voz?.id ?? "") && process.env.AI33_VOICE_ID) || doc.voz?.id;
   if (!voiceId) {
     throw new Error(
       [

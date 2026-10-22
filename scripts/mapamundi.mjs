@@ -49,6 +49,14 @@ export const LUGARES = {
   Burdeos: [-0.58, 44.84], Nantes: [-1.55, 47.22], Brest: [-4.49, 48.39], Estrasburgo: [7.75, 48.58], Reims: [4.03, 49.26],
   Toulon: [5.93, 43.12], Lille: [3.06, 50.63], Grenoble: [5.72, 45.19], Rennes: [-1.68, 48.11], Rouen: [1.1, 49.44],
   Toulouse: [1.44, 43.6], Orleans: [1.91, 47.9], "Saint-Malo": [-2.0, 48.65],
+  // Roma antigua: Mediterraneo y ruta de la India
+  Cartago: [10.32, 36.85], Alejandría: [29.92, 31.2], Antioquía: [36.16, 36.2], Constantinopla: [28.98, 41.01],
+  Tréveris: [6.64, 49.75], Colonia: [6.96, 50.94], Éfeso: [27.34, 37.94], "Carthago Nova": [-0.98, 37.6],
+  Cástulo: [-3.65, 38.03], Riotinto: [-6.59, 37.69], Ostia: [12.29, 41.76], Aquilea: [13.37, 45.77],
+  Nicomedia: [29.92, 40.77], Siscia: [16.37, 45.5], Sirmio: [19.6, 44.97], Palmira: [38.27, 34.55],
+  Petra: [35.44, 30.33], Berenice: [35.47, 23.91], Coptos: [32.8, 26.0], "Leptis Magna": [14.29, 32.64],
+  Tarraco: [1.25, 41.12], Emerita: [-6.34, 38.92], Pompeya: [14.49, 40.75],
+  Muziris: [76.2, 10.2], Barigaza: [72.83, 21.7], Arikamedu: [79.81, 11.9],
 };
 
 /**
@@ -94,6 +102,16 @@ const VISTAS = {
   francia: {
     proy: "mercator", rot: [0, 0],
     puntos: [[-5.5, 51.4], [9.5, 51.4], [-5.5, 42.2], [9.5, 42.2]],
+    margen: 50, fina: true,
+  },
+  romano: {
+    proy: "mercator", rot: [0, 0],
+    puntos: [[-12, 52], [42, 52], [-12, 28], [42, 28]],
+    margen: 50, fina: true,
+  },
+  indico: {
+    proy: "mercator", rot: [0, 0],
+    puntos: [[-6, 46], [84, 46], [-6, 4], [84, 4]],
     margen: 50, fina: true,
   },
   andes: {

@@ -43,16 +43,18 @@ import g18 from "../content/petrodolar.json";
 import t18 from "../content/petrodolar.timings.json";
 import g19 from "../content/revolucion-francesa.json";
 import t19 from "../content/revolucion-francesa.timings.json";
-import g20 from "../content/soros-1992.json";
-import t20 from "../content/soros-1992.timings.json";
-import g21 from "../content/sudafrica.json";
-import t21 from "../content/sudafrica.timings.json";
-import g22 from "../content/turquia-tipos.json";
-import t22 from "../content/turquia-tipos.timings.json";
-import g23 from "../content/vivienda-espana.json";
-import t23 from "../content/vivienda-espana.timings.json";
-import g24 from "../content/yuan-digital.json";
-import t24 from "../content/yuan-digital.timings.json";
+import g20 from "../content/roma-denario.json";
+import t20 from "../content/roma-denario.timings.json";
+import g21 from "../content/soros-1992.json";
+import t21 from "../content/soros-1992.timings.json";
+import g22 from "../content/sudafrica.json";
+import t22 from "../content/sudafrica.timings.json";
+import g23 from "../content/turquia-tipos.json";
+import t23 from "../content/turquia-tipos.timings.json";
+import g24 from "../content/vivienda-espana.json";
+import t24 from "../content/vivienda-espana.timings.json";
+import g25 from "../content/yuan-digital.json";
+import t25 from "../content/yuan-digital.timings.json";
 
 export const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "alemania-euro", guion: g0 as any, tiempos: t0 as any },
@@ -75,9 +77,10 @@ export const CATALOGO: { id: string; guion: Guion; tiempos: Tiempos }[] = [
   { id: "pensiones", guion: g17 as any, tiempos: t17 as any },
   { id: "petrodolar", guion: g18 as any, tiempos: t18 as any },
   { id: "revolucion-francesa", guion: g19 as any, tiempos: t19 as any },
-  { id: "soros-1992", guion: g20 as any, tiempos: t20 as any },
-  { id: "sudafrica", guion: g21 as any, tiempos: t21 as any },
-  { id: "turquia-tipos", guion: g22 as any, tiempos: t22 as any },
-  { id: "vivienda-espana", guion: g23 as any, tiempos: t23 as any },
-  { id: "yuan-digital", guion: g24 as any, tiempos: t24 as any },
+  { id: "roma-denario", guion: g20 as any, tiempos: t20 as any },
+  { id: "soros-1992", guion: g21 as any, tiempos: t21 as any },
+  { id: "sudafrica", guion: g22 as any, tiempos: t22 as any },
+  { id: "turquia-tipos", guion: g23 as any, tiempos: t23 as any },
+  { id: "vivienda-espana", guion: g24 as any, tiempos: t24 as any },
+  { id: "yuan-digital", guion: g25 as any, tiempos: t25 as any },
 ];

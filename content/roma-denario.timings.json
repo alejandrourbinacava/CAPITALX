@@ -1,0 +1,536 @@
+{
+  "b0-01": {
+    "audio": "voice/roma-denario-b0-01.mp3",
+    "duration": 22.073469,
+    "transcript": null,
+    "credit_cost": 407
+  },
+  "b0-02": {
+    "audio": "voice/roma-denario-b0-02.mp3",
+    "duration": 19.09551,
+    "transcript": null,
+    "credit_cost": 327
+  },
+  "b0-03": {
+    "audio": "voice/roma-denario-b0-03.mp3",
+    "duration": 22.021224,
+    "transcript": null,
+    "credit_cost": 413
+  },
+  "b0-04": {
+    "audio": "voice/roma-denario-b0-04.mp3",
+    "duration": 18.233469,
+    "transcript": null,
+    "credit_cost": 330
+  },
+  "b1-01": {
+    "audio": "voice/roma-denario-b1-01.mp3",
+    "duration": 21.86449,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b1-02": {
+    "audio": "voice/roma-denario-b1-02.mp3",
+    "duration": 19.565714,
+    "transcript": null,
+    "credit_cost": 359
+  },
+  "b1-03": {
+    "audio": "voice/roma-denario-b1-03.mp3",
+    "duration": 22.569796,
+    "transcript": null,
+    "credit_cost": 404
+  },
+  "b1-04": {
+    "audio": "voice/roma-denario-b1-04.mp3",
+    "duration": 21.786122,
+    "transcript": null,
+    "credit_cost": 398
+  },
+  "b1-05": {
+    "audio": "voice/roma-denario-b1-05.mp3",
+    "duration": 18.651429,
+    "transcript": null,
+    "credit_cost": 318
+  },
+  "b1-06": {
+    "audio": "voice/roma-denario-b1-06.mp3",
+    "duration": 20.114286,
+    "transcript": null,
+    "credit_cost": 386
+  },
+  "b1-07": {
+    "audio": "voice/roma-denario-b1-07.mp3",
+    "duration": 22.230204,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b1-08": {
+    "audio": "voice/roma-denario-b1-08.mp3",
+    "duration": 14.419592,
+    "transcript": null,
+    "credit_cost": 274
+  },
+  "b2-01": {
+    "audio": "voice/roma-denario-b2-01.mp3",
+    "duration": 17.71102,
+    "transcript": null,
+    "credit_cost": 327
+  },
+  "b2-02": {
+    "audio": "voice/roma-denario-b2-02.mp3",
+    "duration": 22.857143,
+    "transcript": null,
+    "credit_cost": 413
+  },
+  "b2-03": {
+    "audio": "voice/roma-denario-b2-03.mp3",
+    "duration": 22.125714,
+    "transcript": null,
+    "credit_cost": 430
+  },
+  "b2-04": {
+    "audio": "voice/roma-denario-b2-04.mp3",
+    "duration": 22.883265,
+    "transcript": null,
+    "credit_cost": 412
+  },
+  "b2-05": {
+    "audio": "voice/roma-denario-b2-05.mp3",
+    "duration": 20.897959,
+    "transcript": null,
+    "credit_cost": 400
+  },
+  "b2-06": {
+    "audio": "voice/roma-denario-b2-06.mp3",
+    "duration": 15.56898,
+    "transcript": null,
+    "credit_cost": 295
+  },
+  "b2-07": {
+    "audio": "voice/roma-denario-b2-07.mp3",
+    "duration": 21.263673,
+    "transcript": null,
+    "credit_cost": 379
+  },
+  "b2-08": {
+    "audio": "voice/roma-denario-b2-08.mp3",
+    "duration": 24.058776,
+    "transcript": null,
+    "credit_cost": 445
+  },
+  "b3-01": {
+    "audio": "voice/roma-denario-b3-01.mp3",
+    "duration": 20.401633,
+    "transcript": null,
+    "credit_cost": 390
+  },
+  "b3-02": {
+    "audio": "voice/roma-denario-b3-02.mp3",
+    "duration": 20.976327,
+    "transcript": null,
+    "credit_cost": 403
+  },
+  "b3-03": {
+    "audio": "voice/roma-denario-b3-03.mp3",
+    "duration": 22.230204,
+    "transcript": null,
+    "credit_cost": 425
+  },
+  "b3-04": {
+    "audio": "voice/roma-denario-b3-04.mp3",
+    "duration": 16.74449,
+    "transcript": null,
+    "credit_cost": 312
+  },
+  "b3-05": {
+    "audio": "voice/roma-denario-b3-05.mp3",
+    "duration": 23.666939,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b3-06": {
+    "audio": "voice/roma-denario-b3-06.mp3",
+    "duration": 21.185306,
+    "transcript": null,
+    "credit_cost": 376
+  },
+  "b3-07": {
+    "audio": "voice/roma-denario-b3-07.mp3",
+    "duration": 19.853061,
+    "transcript": null,
+    "credit_cost": 366
+  },
+  "b3-08": {
+    "audio": "voice/roma-denario-b3-08.mp3",
+    "duration": 20.636735,
+    "transcript": null,
+    "credit_cost": 398
+  },
+  "b3-09": {
+    "audio": "voice/roma-denario-b3-09.mp3",
+    "duration": 21.106939,
+    "transcript": null,
+    "credit_cost": 329
+  },
+  "b4-01": {
+    "audio": "voice/roma-denario-b4-01.mp3",
+    "duration": 22.047347,
+    "transcript": null,
+    "credit_cost": 375
+  },
+  "b4-02": {
+    "audio": "voice/roma-denario-b4-02.mp3",
+    "duration": 21.498776,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b4-03": {
+    "audio": "voice/roma-denario-b4-03.mp3",
+    "duration": 24.920816,
+    "transcript": null,
+    "credit_cost": 486
+  },
+  "b4-04": {
+    "audio": "voice/roma-denario-b4-04.mp3",
+    "duration": 20.062041,
+    "transcript": null,
+    "credit_cost": 375
+  },
+  "b4-05": {
+    "audio": "voice/roma-denario-b4-05.mp3",
+    "duration": 21.603265,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b4-06": {
+    "audio": "voice/roma-denario-b4-06.mp3",
+    "duration": 19.173878,
+    "transcript": null,
+    "credit_cost": 379
+  },
+  "b4-07": {
+    "audio": "voice/roma-denario-b4-07.mp3",
+    "duration": 23.666939,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b4-08": {
+    "audio": "voice/roma-denario-b4-08.mp3",
+    "duration": 19.644082,
+    "transcript": null,
+    "credit_cost": 372
+  },
+  "b4-09": {
+    "audio": "voice/roma-denario-b4-09.mp3",
+    "duration": 24.52898,
+    "transcript": null,
+    "credit_cost": 426
+  },
+  "b5-01": {
+    "audio": "voice/roma-denario-b5-01.mp3",
+    "duration": 22.83102,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b5-02": {
+    "audio": "voice/roma-denario-b5-02.mp3",
+    "duration": 19.591837,
+    "transcript": null,
+    "credit_cost": 395
+  },
+  "b5-03": {
+    "audio": "voice/roma-denario-b5-03.mp3",
+    "duration": 19.644082,
+    "transcript": null,
+    "credit_cost": 343
+  },
+  "b5-04": {
+    "audio": "voice/roma-denario-b5-04.mp3",
+    "duration": 22.073469,
+    "transcript": null,
+    "credit_cost": 412
+  },
+  "b5-05": {
+    "audio": "voice/roma-denario-b5-05.mp3",
+    "duration": 24.607347,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b5-06": {
+    "audio": "voice/roma-denario-b5-06.mp3",
+    "duration": 25.077551,
+    "transcript": null,
+    "credit_cost": 472
+  },
+  "b5-07": {
+    "audio": "voice/roma-denario-b5-07.mp3",
+    "duration": 19.121633,
+    "transcript": null,
+    "credit_cost": 356
+  },
+  "b5-08": {
+    "audio": "voice/roma-denario-b5-08.mp3",
+    "duration": 21.786122,
+    "transcript": null,
+    "credit_cost": 442
+  },
+  "b6-01": {
+    "audio": "voice/roma-denario-b6-01.mp3",
+    "duration": 21.65551,
+    "transcript": null,
+    "credit_cost": 403
+  },
+  "b6-02": {
+    "audio": "voice/roma-denario-b6-02.mp3",
+    "duration": 22.021224,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b6-03": {
+    "audio": "voice/roma-denario-b6-03.mp3",
+    "duration": 23.614694,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b6-04": {
+    "audio": "voice/roma-denario-b6-04.mp3",
+    "duration": 22.674286,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b6-05": {
+    "audio": "voice/roma-denario-b6-05.mp3",
+    "duration": 21.002449,
+    "transcript": null,
+    "credit_cost": 358
+  },
+  "b6-06": {
+    "audio": "voice/roma-denario-b6-06.mp3",
+    "duration": 26.174694,
+    "transcript": null,
+    "credit_cost": 499
+  },
+  "b6-07": {
+    "audio": "voice/roma-denario-b6-07.mp3",
+    "duration": 24.894694,
+    "transcript": null,
+    "credit_cost": 479
+  },
+  "b6-08": {
+    "audio": "voice/roma-denario-b6-08.mp3",
+    "duration": 23.092245,
+    "transcript": null,
+    "credit_cost": 428
+  },
+  "b6-09": {
+    "audio": "voice/roma-denario-b6-09.mp3",
+    "duration": 22.256327,
+    "transcript": null,
+    "credit_cost": 432
+  },
+  "b6-10": {
+    "audio": "voice/roma-denario-b6-10.mp3",
+    "duration": 18.520816,
+    "transcript": null,
+    "credit_cost": 309
+  },
+  "b6-11": {
+    "audio": "voice/roma-denario-b6-11.mp3",
+    "duration": 25.155918,
+    "transcript": null,
+    "credit_cost": 493
+  },
+  "b7-01": {
+    "audio": "voice/roma-denario-b7-01.mp3",
+    "duration": 24.372245,
+    "transcript": null,
+    "credit_cost": 432
+  },
+  "b7-02": {
+    "audio": "voice/roma-denario-b7-02.mp3",
+    "duration": 25.260408,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b7-03": {
+    "audio": "voice/roma-denario-b7-03.mp3",
+    "duration": 19.30449,
+    "transcript": null,
+    "credit_cost": 355
+  },
+  "b7-04": {
+    "audio": "voice/roma-denario-b7-04.mp3",
+    "duration": 22.726531,
+    "transcript": null,
+    "credit_cost": 404
+  },
+  "b7-05": {
+    "audio": "voice/roma-denario-b7-05.mp3",
+    "duration": 26.253061,
+    "transcript": null,
+    "credit_cost": 481
+  },
+  "b7-06": {
+    "audio": "voice/roma-denario-b7-06.mp3",
+    "duration": 25.469388,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b7-07": {
+    "audio": "voice/roma-denario-b7-07.mp3",
+    "duration": 27.637551,
+    "transcript": null,
+    "credit_cost": 518
+  },
+  "b7-08": {
+    "audio": "voice/roma-denario-b7-08.mp3",
+    "duration": 29.988571,
+    "transcript": null,
+    "credit_cost": 530
+  },
+  "b8-01": {
+    "audio": "voice/roma-denario-b8-01.mp3",
+    "duration": 22.961633,
+    "transcript": null,
+    "credit_cost": 400
+  },
+  "b8-02": {
+    "audio": "voice/roma-denario-b8-02.mp3",
+    "duration": 20.610612,
+    "transcript": null,
+    "credit_cost": 369
+  },
+  "b8-03": {
+    "audio": "voice/roma-denario-b8-03.mp3",
+    "duration": 19.487347,
+    "transcript": null,
+    "credit_cost": 355
+  },
+  "b8-04": {
+    "audio": "voice/roma-denario-b8-04.mp3",
+    "duration": 21.446531,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b8-05": {
+    "audio": "voice/roma-denario-b8-05.mp3",
+    "duration": 28.839184,
+    "transcript": null,
+    "credit_cost": 528
+  },
+  "b8-06": {
+    "audio": "voice/roma-denario-b8-06.mp3",
+    "duration": 21.106939,
+    "transcript": null,
+    "credit_cost": 390
+  },
+  "b8-07": {
+    "audio": "voice/roma-denario-b8-07.mp3",
+    "duration": 24.398367,
+    "transcript": null,
+    "credit_cost": 451
+  },
+  "b9-01": {
+    "audio": "voice/roma-denario-b9-01.mp3",
+    "duration": 21.786122,
+    "transcript": null,
+    "credit_cost": 385
+  },
+  "b9-02": {
+    "audio": "voice/roma-denario-b9-02.mp3",
+    "duration": 20.27102,
+    "transcript": null,
+    "credit_cost": 383
+  },
+  "b9-03": {
+    "audio": "voice/roma-denario-b9-03.mp3",
+    "duration": 28.26449,
+    "transcript": null,
+    "credit_cost": 507
+  },
+  "b9-04": {
+    "audio": "voice/roma-denario-b9-04.mp3",
+    "duration": 21.368163,
+    "transcript": null,
+    "credit_cost": 416
+  },
+  "b9-05": {
+    "audio": "voice/roma-denario-b9-05.mp3",
+    "duration": 26.853878,
+    "transcript": null,
+    "credit_cost": 518
+  },
+  "b9-06": {
+    "audio": "voice/roma-denario-b9-06.mp3",
+    "duration": 22.961633,
+    "transcript": null,
+    "credit_cost": 414
+  },
+  "b9-07": {
+    "audio": "voice/roma-denario-b9-07.mp3",
+    "duration": 24.659592,
+    "transcript": null,
+    "credit_cost": 428
+  },
+  "b9-08": {
+    "audio": "voice/roma-denario-b9-08.mp3",
+    "duration": 22.308571,
+    "transcript": null,
+    "credit_cost": 423
+  },
+  "b9-09": {
+    "audio": "voice/roma-denario-b9-09.mp3",
+    "duration": 20.088163,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b10-01": {
+    "audio": "voice/roma-denario-b10-01.mp3",
+    "duration": 23.875918,
+    "transcript": null,
+    "credit_cost": 442
+  },
+  "b10-02": {
+    "audio": "voice/roma-denario-b10-02.mp3",
+    "duration": 15.072653,
+    "transcript": null,
+    "credit_cost": 291
+  },
+  "b10-03": {
+    "audio": "voice/roma-denario-b10-03.mp3",
+    "duration": 16.666122,
+    "transcript": null,
+    "credit_cost": 324
+  },
+  "b10-04": {
+    "audio": "voice/roma-denario-b10-04.mp3",
+    "duration": 18.912653,
+    "transcript": null,
+    "credit_cost": 359
+  },
+  "b10-05": {
+    "audio": "voice/roma-denario-b10-05.mp3",
+    "duration": 23.980408,
+    "transcript": null,
+    "credit_cost": 492
+  },
+  "b10-06": {
+    "audio": "voice/roma-denario-b10-06.mp3",
+    "duration": 30.093061,
+    "transcript": null,
+    "credit_cost": 557
+  },
+  "b10-07": {
+    "audio": "voice/roma-denario-b10-07.mp3",
+    "duration": 21.86449,
+    "transcript": null,
+    "credit_cost": 421
+  },
+  "b10-08": {
+    "audio": "voice/roma-denario-b10-08.mp3",
+    "duration": 14.550204,
+    "transcript": null,
+    "credit_cost": 265
+  }
+}

@@ -421,11 +421,18 @@ export const Lineas: React.FC<{
   const Y1 = 720;
   const sx = (i: number, n: number) => X0 + (i / (n - 1)) * (X1 - X0);
   const sy = (v: number) => Y1 - ((v - min) / (max - min)) * (Y1 - Y0);
+  // Con varias series, la etiqueta de la serie que queda arriba va encima de su punto
+  // y las demas debajo: si no, los valores de series cercanas se pisan.
+  const multiple = spec.series.length > 1;
+  const finales = spec.series.map((q) => q.puntos[q.puntos.length - 1][1]);
+  const iniciales = spec.series.map((q) => q.puntos[0][1]);
 
   return (
     <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }} viewBox="0 0 1920 1080">
       <line x1={X0} y1={Y1} x2={X1} y2={Y1} stroke={TINTA} strokeWidth="4" />
       {spec.series.map((s, si) => {
+        const arribaFin = !multiple || finales[si] >= Math.max(...finales);
+        const arribaIni = !multiple || iniciales[si] >= Math.max(...iniciales);
         const n = s.puntos.length;
         const color = (TONO as any)[s.tono ?? "ink"] ?? TINTA;
         // La curva pasa por TODOS los puntos de la serie y se va descubriendo por longitud.
@@ -460,11 +467,11 @@ export const Lineas: React.FC<{
               q.x <= punta.x + 0.5 ? <circle key={i} cx={q.x} cy={q.y} r={i === 0 ? 12 : 8} fill={color} /> : null
             )}
             <circle cx={punta.x} cy={punta.y} r="14" fill={ACENTO} />
-            <text x={pts[0].x} y={pts[0].y - 34} textAnchor="middle" fill={TINTA} fontFamily={FONT.sans} fontWeight="700" fontSize="52">
+            <text x={pts[0].x} y={arribaIni ? pts[0].y - 34 : pts[0].y + 74} textAnchor="middle" fill={multiple ? color : TINTA} fontFamily={FONT.sans} fontWeight="700" fontSize="52">
               {s.puntos[0][1].toLocaleString("es-ES")}
               {s.sufijo ?? ""}
             </text>
-            <text x={punta.x} y={punta.y - 40} textAnchor="middle" fill={ACENTO} fontFamily={FONT.sans} fontWeight="700" fontSize="60" opacity={k}>
+            <text x={punta.x} y={arribaFin ? punta.y - 40 : punta.y + 86} textAnchor="middle" fill={multiple ? color : ACENTO} fontFamily={FONT.sans} fontWeight="700" fontSize="60" opacity={k}>
               {valorFin.toLocaleString("es-ES", {
                 minimumFractionDigits: 0,
                 maximumFractionDigits: Math.abs(valorFin) < 10 ? 2 : 0,
