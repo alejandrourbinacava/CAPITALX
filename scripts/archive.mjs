@@ -111,13 +111,35 @@ export async function buscarArchive(q, { max = 8 } = {}) {
  * `inicio` en segundos; por defecto el 30 % del metraje, que suele saltarse
  * los titulos y cartones del principio.
  */
+// Un recorte valido pesa cientos de KB y dura casi TRAMO segundos. En GitHub, archive.org
+// devolvio mp4 de 433 bytes con ffmpeg "sin errores": un fichero asi hunde el render.
+const MINIMO_BYTES = 40 * 1024;
+
+function recorteValido(f) {
+  if (!fs.existsSync(f) || fs.statSync(f).size < MINIMO_BYTES) return false;
+  const r = spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], { encoding: "utf8" });
+  return r.status === 0 && parseFloat(r.stdout) >= 3;
+}
+
+/** Cada recorte se guarda tambien en public/archivo/ (versionado): una vez cortado, no vuelve a depender de la red. */
+const CACHE = path.join("public", "archivo");
+
 export function descargarArchive(clip, destino, inicio) {
+  if (fs.existsSync(destino) && !recorteValido(destino)) fs.rmSync(destino, { force: true });
   if (fs.existsSync(destino)) return { dest: destino, mb: fs.statSync(destino).size / 1048576, cache: true };
+
+  const guardado = path.join(CACHE, path.basename(destino));
+  if (recorteValido(guardado)) {
+    fs.mkdirSync(path.dirname(destino), { recursive: true });
+    fs.copyFileSync(guardado, destino);
+    return { dest: destino, mb: fs.statSync(destino).size / 1048576, cache: true };
+  }
+
   fs.mkdirSync(path.dirname(destino), { recursive: true });
   const ss = inicio ?? Math.max(0, Math.min(clip.duracion * 0.3, clip.duracion - TRAMO - 1));
-  // archive.org devuelve 5xx de vez en cuando: se espera y se repite.
+  // archive.org devuelve 5xx de vez en cuando y a veces corta sin error: se valida y se repite.
   let r;
-  for (let intento = 0; intento < 5; intento++) {
+  for (let intento = 0; intento < 6; intento++) {
     r = spawnSync(
       "ffmpeg",
       [
@@ -127,9 +149,12 @@ export function descargarArchive(clip, destino, inicio) {
       ],
       { encoding: "utf8", timeout: 240000 }
     );
-    if (r.status === 0 && fs.existsSync(destino)) break;
-    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 4000 * (intento + 1));
+    if (r.status === 0 && recorteValido(destino)) break;
+    fs.rmSync(destino, { force: true });
+    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 5000 * (intento + 1));
   }
-  if (r.status !== 0 || !fs.existsSync(destino)) throw new Error(`ffmpeg: ${(r.stderr ?? "").slice(0, 200)}`);
+  if (!recorteValido(destino)) throw new Error(`ffmpeg: recorte vacio o roto tras 6 intentos ${(r?.stderr ?? "").slice(0, 160)}`);
+  fs.mkdirSync(CACHE, { recursive: true });
+  fs.copyFileSync(destino, guardado);
   return { dest: destino, mb: fs.statSync(destino).size / 1048576, cache: false };
 }

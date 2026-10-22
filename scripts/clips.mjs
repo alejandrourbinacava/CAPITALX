@@ -460,7 +460,9 @@ async function main() {
       const dest = path.join(DESTINO, `archive-${a.id}-${Math.round(a.desde ?? 0)}.mp4`);
       process.stdout.write(`  ${id}  archive.org ${a.id} @${a.desde ?? 0}s … `);
       try {
-        const ficha = fs.existsSync(dest) ? { titulo: a.id } : await fichaArchive(a.id);
+        // Con el recorte ya en disco o en la cache versionada (public/archivo) no se toca la red.
+        const guardado = path.join("public", "archivo", path.basename(dest));
+        const ficha = fs.existsSync(dest) || fs.existsSync(guardado) ? { titulo: a.id } : await fichaArchive(a.id);
         if (!ficha) throw new Error("sin licencia de dominio publico");
         const r = descargarArchive(ficha, dest, a.desde ?? 0);
         c.fichero = `clips/archive-${a.id}-${Math.round(a.desde ?? 0)}.mp4`;
