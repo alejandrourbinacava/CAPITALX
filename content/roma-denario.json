@@ -1575,13 +1575,28 @@
               }
             },
             {
-              "tipo": "frase",
+              "tipo": "clip",
               "peso": 5,
+              "clip": {
+                "buscar": "imperial court roman silent film",
+                "archive": {
+                  "id": "EnricoGuazzoniQuoVadis1913",
+                  "desde": 3475
+                },
+                "tono": "ocre",
+                "fichero": "clips/archive-EnricoGuazzoniQuoVadis1913-3475.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "EnricoGuazzoniQuoVadis1913",
+                  "autor": "Internet Archive",
+                  "titulo": "Quo Vadis?"
+                }
+              },
               "rotulo": {
                 "kicker": "Archivo",
                 "texto": "Una corte imperial, Cine mudo (1913)"
-              },
-              "texto": "Una corte imperial, Cine mudo (1913)"
+              }
             },
             {
               "tipo": "lamina",
