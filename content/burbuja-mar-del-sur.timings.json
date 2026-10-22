@@ -1,0 +1,452 @@
+{
+  "b0-01": {
+    "audio": "voice/burbuja-mar-del-sur-b0-01.mp3",
+    "duration": 27.95102,
+    "transcript": null,
+    "credit_cost": 552
+  },
+  "b0-02": {
+    "audio": "voice/burbuja-mar-del-sur-b0-02.mp3",
+    "duration": 19.826939,
+    "transcript": null,
+    "credit_cost": 367
+  },
+  "b0-03": {
+    "audio": "voice/burbuja-mar-del-sur-b0-03.mp3",
+    "duration": 24.084898,
+    "transcript": null,
+    "credit_cost": 449
+  },
+  "b0-04": {
+    "audio": "voice/burbuja-mar-del-sur-b0-04.mp3",
+    "duration": 19.774694,
+    "transcript": null,
+    "credit_cost": 376
+  },
+  "b1-01": {
+    "audio": "voice/burbuja-mar-del-sur-b1-01.mp3",
+    "duration": 20.27102,
+    "transcript": null,
+    "credit_cost": 400
+  },
+  "b1-02": {
+    "audio": "voice/burbuja-mar-del-sur-b1-02.mp3",
+    "duration": 21.080816,
+    "transcript": null,
+    "credit_cost": 415
+  },
+  "b1-03": {
+    "audio": "voice/burbuja-mar-del-sur-b1-03.mp3",
+    "duration": 24.346122,
+    "transcript": null,
+    "credit_cost": 473
+  },
+  "b1-04": {
+    "audio": "voice/burbuja-mar-del-sur-b1-04.mp3",
+    "duration": 22.177959,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b1-05": {
+    "audio": "voice/burbuja-mar-del-sur-b1-05.mp3",
+    "duration": 19.905306,
+    "transcript": null,
+    "credit_cost": 367
+  },
+  "b1-06": {
+    "audio": "voice/burbuja-mar-del-sur-b1-06.mp3",
+    "duration": 22.648163,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b1-07": {
+    "audio": "voice/burbuja-mar-del-sur-b1-07.mp3",
+    "duration": 19.670204,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b1-08": {
+    "audio": "voice/burbuja-mar-del-sur-b1-08.mp3",
+    "duration": 22.413061,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b2-01": {
+    "audio": "voice/burbuja-mar-del-sur-b2-01.mp3",
+    "duration": 24.346122,
+    "transcript": null,
+    "credit_cost": 451
+  },
+  "b2-02": {
+    "audio": "voice/burbuja-mar-del-sur-b2-02.mp3",
+    "duration": 20.68898,
+    "transcript": null,
+    "credit_cost": 368
+  },
+  "b2-03": {
+    "audio": "voice/burbuja-mar-del-sur-b2-03.mp3",
+    "duration": 20.924082,
+    "transcript": null,
+    "credit_cost": 378
+  },
+  "b2-04": {
+    "audio": "voice/burbuja-mar-del-sur-b2-04.mp3",
+    "duration": 21.995102,
+    "transcript": null,
+    "credit_cost": 389
+  },
+  "b2-05": {
+    "audio": "voice/burbuja-mar-del-sur-b2-05.mp3",
+    "duration": 24.894694,
+    "transcript": null,
+    "credit_cost": 484
+  },
+  "b2-06": {
+    "audio": "voice/burbuja-mar-del-sur-b2-06.mp3",
+    "duration": 28.865306,
+    "transcript": null,
+    "credit_cost": 521
+  },
+  "b2-07": {
+    "audio": "voice/burbuja-mar-del-sur-b2-07.mp3",
+    "duration": 27.219592,
+    "transcript": null,
+    "credit_cost": 518
+  },
+  "b2-08": {
+    "audio": "voice/burbuja-mar-del-sur-b2-08.mp3",
+    "duration": 21.995102,
+    "transcript": null,
+    "credit_cost": 412
+  },
+  "b3-01": {
+    "audio": "voice/burbuja-mar-del-sur-b3-01.mp3",
+    "duration": 20.741224,
+    "transcript": null,
+    "credit_cost": 428
+  },
+  "b3-02": {
+    "audio": "voice/burbuja-mar-del-sur-b3-02.mp3",
+    "duration": 21.237551,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b3-03": {
+    "audio": "voice/burbuja-mar-del-sur-b3-03.mp3",
+    "duration": 22.204082,
+    "transcript": null,
+    "credit_cost": 403
+  },
+  "b3-04": {
+    "audio": "voice/burbuja-mar-del-sur-b3-04.mp3",
+    "duration": 23.902041,
+    "transcript": null,
+    "credit_cost": 443
+  },
+  "b3-05": {
+    "audio": "voice/burbuja-mar-del-sur-b3-05.mp3",
+    "duration": 26.644898,
+    "transcript": null,
+    "credit_cost": 495
+  },
+  "b3-06": {
+    "audio": "voice/burbuja-mar-del-sur-b3-06.mp3",
+    "duration": 18.782041,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b3-07": {
+    "audio": "voice/burbuja-mar-del-sur-b3-07.mp3",
+    "duration": 26.540408,
+    "transcript": null,
+    "credit_cost": 474
+  },
+  "b3-08": {
+    "audio": "voice/burbuja-mar-del-sur-b3-08.mp3",
+    "duration": 25.025306,
+    "transcript": null,
+    "credit_cost": 452
+  },
+  "b3-10": {
+    "audio": "voice/burbuja-mar-del-sur-b3-10.mp3",
+    "duration": 24.633469,
+    "transcript": null,
+    "credit_cost": 483
+  },
+  "b4-01": {
+    "audio": "voice/burbuja-mar-del-sur-b4-01.mp3",
+    "duration": 24.764082,
+    "transcript": null,
+    "credit_cost": 473
+  },
+  "b4-02": {
+    "audio": "voice/burbuja-mar-del-sur-b4-02.mp3",
+    "duration": 25.6,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b4-03": {
+    "audio": "voice/burbuja-mar-del-sur-b4-03.mp3",
+    "duration": 23.092245,
+    "transcript": null,
+    "credit_cost": 462
+  },
+  "b4-04": {
+    "audio": "voice/burbuja-mar-del-sur-b4-04.mp3",
+    "duration": 22.961633,
+    "transcript": null,
+    "credit_cost": 440
+  },
+  "b4-05": {
+    "audio": "voice/burbuja-mar-del-sur-b4-05.mp3",
+    "duration": 21.55102,
+    "transcript": null,
+    "credit_cost": 424
+  },
+  "b4-06": {
+    "audio": "voice/burbuja-mar-del-sur-b4-06.mp3",
+    "duration": 24.999184,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b4-07": {
+    "audio": "voice/burbuja-mar-del-sur-b4-07.mp3",
+    "duration": 21.002449,
+    "transcript": null,
+    "credit_cost": 406
+  },
+  "b4-08": {
+    "audio": "voice/burbuja-mar-del-sur-b4-08.mp3",
+    "duration": 21.96898,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b5-01": {
+    "audio": "voice/burbuja-mar-del-sur-b5-01.mp3",
+    "duration": 26.331429,
+    "transcript": null,
+    "credit_cost": 482
+  },
+  "b5-02": {
+    "audio": "voice/burbuja-mar-del-sur-b5-02.mp3",
+    "duration": 19.670204,
+    "transcript": null,
+    "credit_cost": 328
+  },
+  "b5-03": {
+    "audio": "voice/burbuja-mar-del-sur-b5-03.mp3",
+    "duration": 24.032653,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b5-04": {
+    "audio": "voice/burbuja-mar-del-sur-b5-04.mp3",
+    "duration": 25.6,
+    "transcript": null,
+    "credit_cost": 477
+  },
+  "b5-05": {
+    "audio": "voice/burbuja-mar-del-sur-b5-05.mp3",
+    "duration": 22.151837,
+    "transcript": null,
+    "credit_cost": 418
+  },
+  "b5-06": {
+    "audio": "voice/burbuja-mar-del-sur-b5-06.mp3",
+    "duration": 19.435102,
+    "transcript": null,
+    "credit_cost": 385
+  },
+  "b5-07": {
+    "audio": "voice/burbuja-mar-del-sur-b5-07.mp3",
+    "duration": 23.510204,
+    "transcript": null,
+    "credit_cost": 449
+  },
+  "b5-08": {
+    "audio": "voice/burbuja-mar-del-sur-b5-08.mp3",
+    "duration": 20.323265,
+    "transcript": null,
+    "credit_cost": 392
+  },
+  "b5-09": {
+    "audio": "voice/burbuja-mar-del-sur-b5-09.mp3",
+    "duration": 27.742041,
+    "transcript": null,
+    "credit_cost": 500
+  },
+  "b5-10": {
+    "audio": "voice/burbuja-mar-del-sur-b5-10.mp3",
+    "duration": 21.080816,
+    "transcript": null,
+    "credit_cost": 402
+  },
+  "b6-01": {
+    "audio": "voice/burbuja-mar-del-sur-b6-01.mp3",
+    "duration": 23.980408,
+    "transcript": null,
+    "credit_cost": 465
+  },
+  "b6-02": {
+    "audio": "voice/burbuja-mar-del-sur-b6-02.mp3",
+    "duration": 23.118367,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b6-03": {
+    "audio": "voice/burbuja-mar-del-sur-b6-03.mp3",
+    "duration": 26.514286,
+    "transcript": null,
+    "credit_cost": 482
+  },
+  "b6-04": {
+    "audio": "voice/burbuja-mar-del-sur-b6-04.mp3",
+    "duration": 28.421224,
+    "transcript": null,
+    "credit_cost": 544
+  },
+  "b6-05": {
+    "audio": "voice/burbuja-mar-del-sur-b6-05.mp3",
+    "duration": 27.924898,
+    "transcript": null,
+    "credit_cost": 521
+  },
+  "b6-06": {
+    "audio": "voice/burbuja-mar-del-sur-b6-06.mp3",
+    "duration": 24.842449,
+    "transcript": null,
+    "credit_cost": 478
+  },
+  "b6-07": {
+    "audio": "voice/burbuja-mar-del-sur-b6-07.mp3",
+    "duration": 21.916735,
+    "transcript": null,
+    "credit_cost": 446
+  },
+  "b7-01": {
+    "audio": "voice/burbuja-mar-del-sur-b7-01.mp3",
+    "duration": 26.409796,
+    "transcript": null,
+    "credit_cost": 486
+  },
+  "b7-02": {
+    "audio": "voice/burbuja-mar-del-sur-b7-02.mp3",
+    "duration": 27.506939,
+    "transcript": null,
+    "credit_cost": 502
+  },
+  "b7-03": {
+    "audio": "voice/burbuja-mar-del-sur-b7-03.mp3",
+    "duration": 20.244898,
+    "transcript": null,
+    "credit_cost": 368
+  },
+  "b7-04": {
+    "audio": "voice/burbuja-mar-del-sur-b7-04.mp3",
+    "duration": 22.439184,
+    "transcript": null,
+    "credit_cost": 426
+  },
+  "b7-05": {
+    "audio": "voice/burbuja-mar-del-sur-b7-05.mp3",
+    "duration": 22.674286,
+    "transcript": null,
+    "credit_cost": 431
+  },
+  "b7-06": {
+    "audio": "voice/burbuja-mar-del-sur-b7-06.mp3",
+    "duration": 23.04,
+    "transcript": null,
+    "credit_cost": 430
+  },
+  "b7-07": {
+    "audio": "voice/burbuja-mar-del-sur-b7-07.mp3",
+    "duration": 26.253061,
+    "transcript": null,
+    "credit_cost": 476
+  },
+  "b8-01": {
+    "audio": "voice/burbuja-mar-del-sur-b8-01.mp3",
+    "duration": 15.438367,
+    "transcript": null,
+    "credit_cost": 280
+  },
+  "b8-02": {
+    "audio": "voice/burbuja-mar-del-sur-b8-02.mp3",
+    "duration": 25.025306,
+    "transcript": null,
+    "credit_cost": 496
+  },
+  "b8-03": {
+    "audio": "voice/burbuja-mar-del-sur-b8-03.mp3",
+    "duration": 28.36898,
+    "transcript": null,
+    "credit_cost": 538
+  },
+  "b8-04": {
+    "audio": "voice/burbuja-mar-del-sur-b8-04.mp3",
+    "duration": 21.185306,
+    "transcript": null,
+    "credit_cost": 378
+  },
+  "b8-05": {
+    "audio": "voice/burbuja-mar-del-sur-b8-05.mp3",
+    "duration": 28.865306,
+    "transcript": null,
+    "credit_cost": 528
+  },
+  "b8-06": {
+    "audio": "voice/burbuja-mar-del-sur-b8-06.mp3",
+    "duration": 18.155102,
+    "transcript": null,
+    "credit_cost": 334
+  },
+  "b9-01": {
+    "audio": "voice/burbuja-mar-del-sur-b9-01.mp3",
+    "duration": 28.734694,
+    "transcript": null,
+    "credit_cost": 549
+  },
+  "b9-02": {
+    "audio": "voice/burbuja-mar-del-sur-b9-02.mp3",
+    "duration": 26.88,
+    "transcript": null,
+    "credit_cost": 517
+  },
+  "b9-03": {
+    "audio": "voice/burbuja-mar-del-sur-b9-03.mp3",
+    "duration": 22.543673,
+    "transcript": null,
+    "credit_cost": 450
+  },
+  "b9-04": {
+    "audio": "voice/burbuja-mar-del-sur-b9-04.mp3",
+    "duration": 28.081633,
+    "transcript": null,
+    "credit_cost": 549
+  },
+  "b9-05": {
+    "audio": "voice/burbuja-mar-del-sur-b9-05.mp3",
+    "duration": 22.622041,
+    "transcript": null,
+    "credit_cost": 456
+  },
+  "b9-06": {
+    "audio": "voice/burbuja-mar-del-sur-b9-06.mp3",
+    "duration": 26.592653,
+    "transcript": null,
+    "credit_cost": 497
+  },
+  "b9-07": {
+    "audio": "voice/burbuja-mar-del-sur-b9-07.mp3",
+    "duration": 23.24898,
+    "transcript": null,
+    "credit_cost": 468
+  },
+  "b3-09": {
+    "audio": "voice/burbuja-mar-del-sur-b3-09.mp3",
+    "duration": 27.402449,
+    "transcript": null,
+    "credit_cost": 488
+  }
+}
