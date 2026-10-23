@@ -88,22 +88,32 @@ const ai33 = {
     // Con la voz de ElevenLabs el ritmo base del guion (`voz.velocidad`) se
     // aplica igual que en GenAIPro, para que el video suene como los anteriores.
     const ritmo = motor === "clone" ? speed : clamp(speed * (voz.velocidad ?? 1), 0.7, 1.2);
-    const start = await apiAi33("/v3/text-to-speech", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        text: texto,
-        voice_id: voz.id,
-        provider: motor,
-        speed: ritmo,
-        // Tiempos palabra a palabra: solo las voces clonadas los dan bien. Con ElevenLabs
-        // la tarea se queda en "doing" esperando una transcripcion que no llega, y el
-        // montaje no la usa (GenAIPro tampoco la da).
-        with_transcript: motor === "clone",
-        with_loudnorm: true, // nivel homogeneo entre planos
-      }),
-    });
-    if (!start.success) throw new Error(JSON.stringify(start));
+    let start;
+    // La cuenta solo admite 10 tareas en cola a la vez (y tareas ajenas atascadas
+    // la llenan): si responde queue_limit_exceeded se espera y se reintenta.
+    for (let intento = 0; ; intento++) {
+      start = await apiAi33("/v3/text-to-speech", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          text: texto,
+          voice_id: voz.id,
+          provider: motor,
+          speed: ritmo,
+          // Tiempos palabra a palabra: solo las voces clonadas los dan bien. Con ElevenLabs
+          // la tarea se queda en "doing" esperando una transcripcion que no llega, y el
+          // montaje no la usa (GenAIPro tampoco la da).
+          with_transcript: motor === "clone",
+          with_loudnorm: true, // nivel homogeneo entre planos
+        }),
+      });
+      if (start.success) break;
+      if (start.error?.code === "queue_limit_exceeded" && intento < 120) {
+        await sleep(30000);
+        continue;
+      }
+      throw new Error(JSON.stringify(start));
+    }
 
     for (let i = 0; i < 120; i++) {
       await sleep(2500);
@@ -164,6 +174,14 @@ async function apiGenai(pathname, init = {}) {
           ...(init.headers || {}),
         },
       });
+      // 429: limite de 60 peticiones por minuto de la cuenta (varias locuciones a la
+      // vez lo superan). Rechazado = no se cobra: se espera lo que pide y se repite,
+      // tambien con POST.
+      if (res.status === 429 && intento < 60) {
+        const espera = Number((await res.clone().json().catch(() => ({}))).retry_after) || 10;
+        await sleep((espera + 1) * 1000);
+        continue;
+      }
       if (!esConsulta || res.status < 500 || intento >= 7) break;
     } catch (e) {
       if (!esConsulta || intento >= 7) throw e;
@@ -229,7 +247,7 @@ const genaipro = {
       });
 
       for (let i = 0; i < 72; i++) {
-        await sleep(2500);
+        await sleep(4000); // 60 peticiones por minuto por cuenta, compartidas entre locuciones
         const t = await apiGenai(`/v1/labs/task/${task_id}`);
         if (t.status === "completed" && t.result) return { url: t.result, transcript: null, coste: texto.length };
         if (t.status === "failed" || t.status === "error") {

@@ -23,10 +23,12 @@ on:
     paths:
       - "lanzar.json"
 
-# Dos cadenas del mismo video se pisarian al subir el audio y se pagaria la
-# locucion dos veces. Nunca se cancela una en curso: ya esta pagada.
+# Cada empujon es su propia cadena: se pueden lanzar varios videos a la vez
+# (GitHub solo guarda UNA cadena en espera por grupo y se perderian las demas).
+# Nunca se cancela una en curso: ya esta pagada. No lanzar dos veces el mismo
+# video a la vez: se pisarian al subir el audio.
 concurrency:
-  group: lanzar-${{ github.ref }}
+  group: lanzar-${{ github.sha }}
   cancel-in-progress: false
 
 permissions:

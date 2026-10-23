@@ -1,0 +1,20 @@
+{
+  "b0-01": {
+    "audio": "voice/financiacion-primera-guerra-b0-01.mp3",
+    "duration": 21.315918,
+    "transcript": null,
+    "credit_cost": 335
+  },
+  "b0-02": {
+    "audio": "voice/financiacion-primera-guerra-b0-02.mp3",
+    "duration": 25.49551,
+    "transcript": null,
+    "credit_cost": 396
+  },
+  "b0-03": {
+    "audio": "voice/financiacion-primera-guerra-b0-03.mp3",
+    "duration": 21.548118,
+    "transcript": null,
+    "credit_cost": 319
+  }
+}

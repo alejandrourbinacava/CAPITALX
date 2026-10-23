@@ -1,0 +1,422 @@
+{
+  "b0-01": {
+    "audio": "voice/negocio-esclavitud-b0-01.mp3",
+    "duration": 26.377868,
+    "transcript": null,
+    "credit_cost": 415
+  },
+  "b0-02": {
+    "audio": "voice/negocio-esclavitud-b0-02.mp3",
+    "duration": 23.312834,
+    "transcript": null,
+    "credit_cost": 390
+  },
+  "b0-03": {
+    "audio": "voice/negocio-esclavitud-b0-03.mp3",
+    "duration": 24.938231,
+    "transcript": null,
+    "credit_cost": 419
+  },
+  "b0-04": {
+    "audio": "voice/negocio-esclavitud-b0-04.mp3",
+    "duration": 26.563628,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b1-01": {
+    "audio": "voice/negocio-esclavitud-b1-01.mp3",
+    "duration": 29.257143,
+    "transcript": null,
+    "credit_cost": 402
+  },
+  "b1-02": {
+    "audio": "voice/negocio-esclavitud-b1-02.mp3",
+    "duration": 29.071383,
+    "transcript": null,
+    "credit_cost": 437
+  },
+  "b1-03": {
+    "audio": "voice/negocio-esclavitud-b1-03.mp3",
+    "duration": 21.966077,
+    "transcript": null,
+    "credit_cost": 345
+  },
+  "b1-04": {
+    "audio": "voice/negocio-esclavitud-b1-04.mp3",
+    "duration": 27.585306,
+    "transcript": null,
+    "credit_cost": 431
+  },
+  "b1-05": {
+    "audio": "voice/negocio-esclavitud-b1-05.mp3",
+    "duration": 25.867029,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b1-06": {
+    "audio": "voice/negocio-esclavitud-b1-06.mp3",
+    "duration": 22.662676,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b1-07": {
+    "audio": "voice/negocio-esclavitud-b1-07.mp3",
+    "duration": 29.442902,
+    "transcript": null,
+    "credit_cost": 447
+  },
+  "b2-01": {
+    "audio": "voice/negocio-esclavitud-b2-01.mp3",
+    "duration": 26.517188,
+    "transcript": null,
+    "credit_cost": 412
+  },
+  "b2-02": {
+    "audio": "voice/negocio-esclavitud-b2-02.mp3",
+    "duration": 27.678186,
+    "transcript": null,
+    "credit_cost": 432
+  },
+  "b2-03": {
+    "audio": "voice/negocio-esclavitud-b2-03.mp3",
+    "duration": 24.706032,
+    "transcript": null,
+    "credit_cost": 392
+  },
+  "b2-04": {
+    "audio": "voice/negocio-esclavitud-b2-04.mp3",
+    "duration": 26.006349,
+    "transcript": null,
+    "credit_cost": 400
+  },
+  "b2-05": {
+    "audio": "voice/negocio-esclavitud-b2-05.mp3",
+    "duration": 25.54195,
+    "transcript": null,
+    "credit_cost": 425
+  },
+  "b2-06": {
+    "audio": "voice/negocio-esclavitud-b2-06.mp3",
+    "duration": 22.987755,
+    "transcript": null,
+    "credit_cost": 346
+  },
+  "b2-07": {
+    "audio": "voice/negocio-esclavitud-b2-07.mp3",
+    "duration": 27.724626,
+    "transcript": null,
+    "credit_cost": 465
+  },
+  "b2-08": {
+    "audio": "voice/negocio-esclavitud-b2-08.mp3",
+    "duration": 23.870113,
+    "transcript": null,
+    "credit_cost": 410
+  },
+  "b2-09": {
+    "audio": "voice/negocio-esclavitud-b2-09.mp3",
+    "duration": 28.792744,
+    "transcript": null,
+    "credit_cost": 451
+  },
+  "b2-10": {
+    "audio": "voice/negocio-esclavitud-b2-10.mp3",
+    "duration": 27.956825,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b2-11": {
+    "audio": "voice/negocio-esclavitud-b2-11.mp3",
+    "duration": 30.325261,
+    "transcript": null,
+    "credit_cost": 449
+  },
+  "b2-12": {
+    "audio": "voice/negocio-esclavitud-b2-12.mp3",
+    "duration": 28.189025,
+    "transcript": null,
+    "credit_cost": 462
+  },
+  "b2-13": {
+    "audio": "voice/negocio-esclavitud-b2-13.mp3",
+    "duration": 25.216871,
+    "transcript": null,
+    "credit_cost": 408
+  },
+  "b3-01": {
+    "audio": "voice/negocio-esclavitud-b3-01.mp3",
+    "duration": 28.978503,
+    "transcript": null,
+    "credit_cost": 448
+  },
+  "b3-02": {
+    "audio": "voice/negocio-esclavitud-b3-02.mp3",
+    "duration": 29.024943,
+    "transcript": null,
+    "credit_cost": 447
+  },
+  "b3-03": {
+    "audio": "voice/negocio-esclavitud-b3-03.mp3",
+    "duration": 28.189025,
+    "transcript": null,
+    "credit_cost": 422
+  },
+  "b3-04": {
+    "audio": "voice/negocio-esclavitud-b3-04.mp3",
+    "duration": 32.461497,
+    "transcript": null,
+    "credit_cost": 476
+  },
+  "b3-05": {
+    "audio": "voice/negocio-esclavitud-b3-05.mp3",
+    "duration": 27.353107,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b3-06": {
+    "audio": "voice/negocio-esclavitud-b3-06.mp3",
+    "duration": 30.371701,
+    "transcript": null,
+    "credit_cost": 445
+  },
+  "b3-07": {
+    "audio": "voice/negocio-esclavitud-b3-07.mp3",
+    "duration": 24.984671,
+    "transcript": null,
+    "credit_cost": 423
+  },
+  "b4-01": {
+    "audio": "voice/negocio-esclavitud-b4-01.mp3",
+    "duration": 28.049705,
+    "transcript": null,
+    "credit_cost": 443
+  },
+  "b4-02": {
+    "audio": "voice/negocio-esclavitud-b4-02.mp3",
+    "duration": 31.393379,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b4-03": {
+    "audio": "voice/negocio-esclavitud-b4-03.mp3",
+    "duration": 29.396463,
+    "transcript": null,
+    "credit_cost": 430
+  },
+  "b4-04": {
+    "audio": "voice/negocio-esclavitud-b4-04.mp3",
+    "duration": 31.300499,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b4-05": {
+    "audio": "voice/negocio-esclavitud-b4-05.mp3",
+    "duration": 30.325261,
+    "transcript": null,
+    "credit_cost": 423
+  },
+  "b4-06": {
+    "audio": "voice/negocio-esclavitud-b4-06.mp3",
+    "duration": 28.514104,
+    "transcript": null,
+    "credit_cost": 392
+  },
+  "b4-07": {
+    "audio": "voice/negocio-esclavitud-b4-07.mp3",
+    "duration": 28.839184,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b5-01": {
+    "audio": "voice/negocio-esclavitud-b5-01.mp3",
+    "duration": 24.706032,
+    "transcript": null,
+    "credit_cost": 366
+  },
+  "b5-02": {
+    "audio": "voice/negocio-esclavitud-b5-02.mp3",
+    "duration": 24.380952,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b5-03": {
+    "audio": "voice/negocio-esclavitud-b5-03.mp3",
+    "duration": 30.74322,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b5-04": {
+    "audio": "voice/negocio-esclavitud-b5-04.mp3",
+    "duration": 29.953741,
+    "transcript": null,
+    "credit_cost": 420
+  },
+  "b5-05": {
+    "audio": "voice/negocio-esclavitud-b5-05.mp3",
+    "duration": 30.093061,
+    "transcript": null,
+    "credit_cost": 420
+  },
+  "b5-06": {
+    "audio": "voice/negocio-esclavitud-b5-06.mp3",
+    "duration": 28.467664,
+    "transcript": null,
+    "credit_cost": 449
+  },
+  "b5-07": {
+    "audio": "voice/negocio-esclavitud-b5-07.mp3",
+    "duration": 29.164263,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b5-08": {
+    "audio": "voice/negocio-esclavitud-b5-08.mp3",
+    "duration": 30.232381,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b6-01": {
+    "audio": "voice/negocio-esclavitud-b6-01.mp3",
+    "duration": 26.331429,
+    "transcript": null,
+    "credit_cost": 426
+  },
+  "b6-02": {
+    "audio": "voice/negocio-esclavitud-b6-02.mp3",
+    "duration": 30.000181,
+    "transcript": null,
+    "credit_cost": 465
+  },
+  "b6-03": {
+    "audio": "voice/negocio-esclavitud-b6-03.mp3",
+    "duration": 29.860862,
+    "transcript": null,
+    "credit_cost": 466
+  },
+  "b6-04": {
+    "audio": "voice/negocio-esclavitud-b6-04.mp3",
+    "duration": 32.229297,
+    "transcript": null,
+    "credit_cost": 475
+  },
+  "b6-05": {
+    "audio": "voice/negocio-esclavitud-b6-05.mp3",
+    "duration": 31.300499,
+    "transcript": null,
+    "credit_cost": 451
+  },
+  "b6-06": {
+    "audio": "voice/negocio-esclavitud-b6-06.mp3",
+    "duration": 28.560544,
+    "transcript": null,
+    "credit_cost": 431
+  },
+  "b6-07": {
+    "audio": "voice/negocio-esclavitud-b6-07.mp3",
+    "duration": 27.956825,
+    "transcript": null,
+    "credit_cost": 466
+  },
+  "b7-01": {
+    "audio": "voice/negocio-esclavitud-b7-01.mp3",
+    "duration": 23.034195,
+    "transcript": null,
+    "credit_cost": 361
+  },
+  "b7-02": {
+    "audio": "voice/negocio-esclavitud-b7-02.mp3",
+    "duration": 27.074467,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b7-03": {
+    "audio": "voice/negocio-esclavitud-b7-03.mp3",
+    "duration": 24.195193,
+    "transcript": null,
+    "credit_cost": 389
+  },
+  "b7-04": {
+    "audio": "voice/negocio-esclavitud-b7-04.mp3",
+    "duration": 29.489342,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b7-05": {
+    "audio": "voice/negocio-esclavitud-b7-05.mp3",
+    "duration": 24.334512,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b7-06": {
+    "audio": "voice/negocio-esclavitud-b7-06.mp3",
+    "duration": 30.6039,
+    "transcript": null,
+    "credit_cost": 441
+  },
+  "b7-07": {
+    "audio": "voice/negocio-esclavitud-b7-07.mp3",
+    "duration": 25.170431,
+    "transcript": null,
+    "credit_cost": 399
+  },
+  "b8-01": {
+    "audio": "voice/negocio-esclavitud-b8-01.mp3",
+    "duration": 30.325261,
+    "transcript": null,
+    "credit_cost": 464
+  },
+  "b8-02": {
+    "audio": "voice/negocio-esclavitud-b8-02.mp3",
+    "duration": 26.935147,
+    "transcript": null,
+    "credit_cost": 396
+  },
+  "b8-03": {
+    "audio": "voice/negocio-esclavitud-b8-03.mp3",
+    "duration": 31.393379,
+    "transcript": null,
+    "credit_cost": 468
+  },
+  "b8-04": {
+    "audio": "voice/negocio-esclavitud-b8-04.mp3",
+    "duration": 29.396463,
+    "transcript": null,
+    "credit_cost": 456
+  },
+  "b8-05": {
+    "audio": "voice/negocio-esclavitud-b8-05.mp3",
+    "duration": 32.229297,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b9-01": {
+    "audio": "voice/negocio-esclavitud-b9-01.mp3",
+    "duration": 30.093061,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b9-02": {
+    "audio": "voice/negocio-esclavitud-b9-02.mp3",
+    "duration": 28.235465,
+    "transcript": null,
+    "credit_cost": 417
+  },
+  "b9-03": {
+    "audio": "voice/negocio-esclavitud-b9-03.mp3",
+    "duration": 30.65034,
+    "transcript": null,
+    "credit_cost": 443
+  },
+  "b9-04": {
+    "audio": "voice/negocio-esclavitud-b9-04.mp3",
+    "duration": 31.161179,
+    "transcript": null,
+    "credit_cost": 435
+  },
+  "b9-05": {
+    "audio": "voice/negocio-esclavitud-b9-05.mp3",
+    "duration": 31.114739,
+    "transcript": null,
+    "credit_cost": 460
+  }
+}

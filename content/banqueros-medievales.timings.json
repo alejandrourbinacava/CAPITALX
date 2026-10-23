@@ -1,0 +1,440 @@
+{
+  "b0-01": {
+    "audio": "voice/banqueros-medievales-b0-01.mp3",
+    "duration": 26.238549,
+    "transcript": null,
+    "credit_cost": 387
+  },
+  "b0-02": {
+    "audio": "voice/banqueros-medievales-b0-02.mp3",
+    "duration": 24.427392,
+    "transcript": null,
+    "credit_cost": 375
+  },
+  "b0-03": {
+    "audio": "voice/banqueros-medievales-b0-03.mp3",
+    "duration": 23.173515,
+    "transcript": null,
+    "credit_cost": 350
+  },
+  "b0-04": {
+    "audio": "voice/banqueros-medievales-b0-04.mp3",
+    "duration": 23.034195,
+    "transcript": null,
+    "credit_cost": 383
+  },
+  "b0-05": {
+    "audio": "voice/banqueros-medievales-b0-05.mp3",
+    "duration": 23.173515,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b1-01": {
+    "audio": "voice/banqueros-medievales-b1-01.mp3",
+    "duration": 24.891791,
+    "transcript": null,
+    "credit_cost": 390
+  },
+  "b1-02": {
+    "audio": "voice/banqueros-medievales-b1-02.mp3",
+    "duration": 25.959909,
+    "transcript": null,
+    "credit_cost": 392
+  },
+  "b1-03": {
+    "audio": "voice/banqueros-medievales-b1-03.mp3",
+    "duration": 24.520272,
+    "transcript": null,
+    "credit_cost": 406
+  },
+  "b1-04": {
+    "audio": "voice/banqueros-medievales-b1-04.mp3",
+    "duration": 24.241633,
+    "transcript": null,
+    "credit_cost": 360
+  },
+  "b1-05": {
+    "audio": "voice/banqueros-medievales-b1-05.mp3",
+    "duration": 22.198277,
+    "transcript": null,
+    "credit_cost": 350
+  },
+  "b1-06": {
+    "audio": "voice/banqueros-medievales-b1-06.mp3",
+    "duration": 25.68127,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b1-07": {
+    "audio": "voice/banqueros-medievales-b1-07.mp3",
+    "duration": 22.105397,
+    "transcript": null,
+    "credit_cost": 356
+  },
+  "b1-08": {
+    "audio": "voice/banqueros-medievales-b1-08.mp3",
+    "duration": 25.867029,
+    "transcript": null,
+    "credit_cost": 398
+  },
+  "b1-09": {
+    "audio": "voice/banqueros-medievales-b1-09.mp3",
+    "duration": 26.145669,
+    "transcript": null,
+    "credit_cost": 388
+  },
+  "b2-01": {
+    "audio": "voice/banqueros-medievales-b2-01.mp3",
+    "duration": 21.176599,
+    "transcript": null,
+    "credit_cost": 343
+  },
+  "b2-02": {
+    "audio": "voice/banqueros-medievales-b2-02.mp3",
+    "duration": 34.226213,
+    "transcript": null,
+    "credit_cost": 479
+  },
+  "b2-03": {
+    "audio": "voice/banqueros-medievales-b2-03.mp3",
+    "duration": 28.328345,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b2-04": {
+    "audio": "voice/banqueros-medievales-b2-04.mp3",
+    "duration": 24.752472,
+    "transcript": null,
+    "credit_cost": 389
+  },
+  "b2-05": {
+    "audio": "voice/banqueros-medievales-b2-05.mp3",
+    "duration": 27.167347,
+    "transcript": null,
+    "credit_cost": 415
+  },
+  "b2-06": {
+    "audio": "voice/banqueros-medievales-b2-06.mp3",
+    "duration": 25.077551,
+    "transcript": null,
+    "credit_cost": 420
+  },
+  "b2-07": {
+    "audio": "voice/banqueros-medievales-b2-07.mp3",
+    "duration": 28.281905,
+    "transcript": null,
+    "credit_cost": 454
+  },
+  "b3-01": {
+    "audio": "voice/banqueros-medievales-b3-01.mp3",
+    "duration": 26.749388,
+    "transcript": null,
+    "credit_cost": 426
+  },
+  "b3-02": {
+    "audio": "voice/banqueros-medievales-b3-02.mp3",
+    "duration": 28.096145,
+    "transcript": null,
+    "credit_cost": 426
+  },
+  "b3-03": {
+    "audio": "voice/banqueros-medievales-b3-03.mp3",
+    "duration": 22.244717,
+    "transcript": null,
+    "credit_cost": 340
+  },
+  "b3-04": {
+    "audio": "voice/banqueros-medievales-b3-04.mp3",
+    "duration": 29.117823,
+    "transcript": null,
+    "credit_cost": 441
+  },
+  "b3-05": {
+    "audio": "voice/banqueros-medievales-b3-05.mp3",
+    "duration": 28.281905,
+    "transcript": null,
+    "credit_cost": 418
+  },
+  "b3-06": {
+    "audio": "voice/banqueros-medievales-b3-06.mp3",
+    "duration": 24.288073,
+    "transcript": null,
+    "credit_cost": 378
+  },
+  "b3-07": {
+    "audio": "voice/banqueros-medievales-b3-07.mp3",
+    "duration": 29.396463,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b4-01": {
+    "audio": "voice/banqueros-medievales-b4-01.mp3",
+    "duration": 24.566712,
+    "transcript": null,
+    "credit_cost": 375
+  },
+  "b4-02": {
+    "audio": "voice/banqueros-medievales-b4-02.mp3",
+    "duration": 29.257143,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b4-03": {
+    "audio": "voice/banqueros-medievales-b4-03.mp3",
+    "duration": 27.353107,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b4-04": {
+    "audio": "voice/banqueros-medievales-b4-04.mp3",
+    "duration": 20.805079,
+    "transcript": null,
+    "credit_cost": 352
+  },
+  "b4-05": {
+    "audio": "voice/banqueros-medievales-b4-05.mp3",
+    "duration": 27.028027,
+    "transcript": null,
+    "credit_cost": 377
+  },
+  "b4-06": {
+    "audio": "voice/banqueros-medievales-b4-06.mp3",
+    "duration": 29.814422,
+    "transcript": null,
+    "credit_cost": 436
+  },
+  "b4-07": {
+    "audio": "voice/banqueros-medievales-b4-07.mp3",
+    "duration": 31.346939,
+    "transcript": null,
+    "credit_cost": 469
+  },
+  "b5-01": {
+    "audio": "voice/banqueros-medievales-b5-01.mp3",
+    "duration": 30.093061,
+    "transcript": null,
+    "credit_cost": 416
+  },
+  "b5-02": {
+    "audio": "voice/banqueros-medievales-b5-02.mp3",
+    "duration": 23.962993,
+    "transcript": null,
+    "credit_cost": 389
+  },
+  "b5-03": {
+    "audio": "voice/banqueros-medievales-b5-03.mp3",
+    "duration": 27.956825,
+    "transcript": null,
+    "credit_cost": 408
+  },
+  "b5-04": {
+    "audio": "voice/banqueros-medievales-b5-04.mp3",
+    "duration": 23.173515,
+    "transcript": null,
+    "credit_cost": 363
+  },
+  "b5-05": {
+    "audio": "voice/banqueros-medievales-b5-05.mp3",
+    "duration": 28.746304,
+    "transcript": null,
+    "credit_cost": 448
+  },
+  "b5-06": {
+    "audio": "voice/banqueros-medievales-b5-06.mp3",
+    "duration": 32.229297,
+    "transcript": null,
+    "credit_cost": 461
+  },
+  "b5-07": {
+    "audio": "voice/banqueros-medievales-b5-07.mp3",
+    "duration": 27.724626,
+    "transcript": null,
+    "credit_cost": 472
+  },
+  "b5-08": {
+    "audio": "voice/banqueros-medievales-b5-08.mp3",
+    "duration": 35.387211,
+    "transcript": null,
+    "credit_cost": 479
+  },
+  "b5-09": {
+    "audio": "voice/banqueros-medievales-b5-09.mp3",
+    "duration": 30.000181,
+    "transcript": null,
+    "credit_cost": 466
+  },
+  "b5-10": {
+    "audio": "voice/banqueros-medievales-b5-10.mp3",
+    "duration": 27.492426,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b5-11": {
+    "audio": "voice/banqueros-medievales-b5-11.mp3",
+    "duration": 31.718458,
+    "transcript": null,
+    "credit_cost": 480
+  },
+  "b5-12": {
+    "audio": "voice/banqueros-medievales-b5-12.mp3",
+    "duration": 29.953741,
+    "transcript": null,
+    "credit_cost": 465
+  },
+  "b5-13": {
+    "audio": "voice/banqueros-medievales-b5-13.mp3",
+    "duration": 26.284989,
+    "transcript": null,
+    "credit_cost": 383
+  },
+  "b6-01": {
+    "audio": "voice/banqueros-medievales-b6-01.mp3",
+    "duration": 22.987755,
+    "transcript": null,
+    "credit_cost": 385
+  },
+  "b6-02": {
+    "audio": "voice/banqueros-medievales-b6-02.mp3",
+    "duration": 29.024943,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b6-03": {
+    "audio": "voice/banqueros-medievales-b6-03.mp3",
+    "duration": 27.306667,
+    "transcript": null,
+    "credit_cost": 406
+  },
+  "b6-04": {
+    "audio": "voice/banqueros-medievales-b6-04.mp3",
+    "duration": 25.077551,
+    "transcript": null,
+    "credit_cost": 353
+  },
+  "b6-05": {
+    "audio": "voice/banqueros-medievales-b6-05.mp3",
+    "duration": 28.374785,
+    "transcript": null,
+    "credit_cost": 431
+  },
+  "b6-06": {
+    "audio": "voice/banqueros-medievales-b6-06.mp3",
+    "duration": 25.263311,
+    "transcript": null,
+    "credit_cost": 382
+  },
+  "b6-07": {
+    "audio": "voice/banqueros-medievales-b6-07.mp3",
+    "duration": 28.978503,
+    "transcript": null,
+    "credit_cost": 417
+  },
+  "b7-01": {
+    "audio": "voice/banqueros-medievales-b7-01.mp3",
+    "duration": 27.585306,
+    "transcript": null,
+    "credit_cost": 401
+  },
+  "b7-02": {
+    "audio": "voice/banqueros-medievales-b7-02.mp3",
+    "duration": 24.288073,
+    "transcript": null,
+    "credit_cost": 371
+  },
+  "b7-03": {
+    "audio": "voice/banqueros-medievales-b7-03.mp3",
+    "duration": 27.074467,
+    "transcript": null,
+    "credit_cost": 449
+  },
+  "b7-04": {
+    "audio": "voice/banqueros-medievales-b7-04.mp3",
+    "duration": 28.049705,
+    "transcript": null,
+    "credit_cost": 438
+  },
+  "b7-05": {
+    "audio": "voice/banqueros-medievales-b7-05.mp3",
+    "duration": 24.102313,
+    "transcript": null,
+    "credit_cost": 362
+  },
+  "b7-06": {
+    "audio": "voice/banqueros-medievales-b7-06.mp3",
+    "duration": 28.792744,
+    "transcript": null,
+    "credit_cost": 418
+  },
+  "b7-07": {
+    "audio": "voice/banqueros-medievales-b7-07.mp3",
+    "duration": 30.371701,
+    "transcript": null,
+    "credit_cost": 474
+  },
+  "b8-01": {
+    "audio": "voice/banqueros-medievales-b8-01.mp3",
+    "duration": 23.545034,
+    "transcript": null,
+    "credit_cost": 363
+  },
+  "b8-02": {
+    "audio": "voice/banqueros-medievales-b8-02.mp3",
+    "duration": 27.538866,
+    "transcript": null,
+    "credit_cost": 428
+  },
+  "b8-03": {
+    "audio": "voice/banqueros-medievales-b8-03.mp3",
+    "duration": 25.867029,
+    "transcript": null,
+    "credit_cost": 407
+  },
+  "b8-04": {
+    "audio": "voice/banqueros-medievales-b8-04.mp3",
+    "duration": 28.699864,
+    "transcript": null,
+    "credit_cost": 442
+  },
+  "b9-01": {
+    "audio": "voice/banqueros-medievales-b9-01.mp3",
+    "duration": 23.962993,
+    "transcript": null,
+    "credit_cost": 356
+  },
+  "b9-02": {
+    "audio": "voice/banqueros-medievales-b9-02.mp3",
+    "duration": 26.052789,
+    "transcript": null,
+    "credit_cost": 410
+  },
+  "b9-03": {
+    "audio": "voice/banqueros-medievales-b9-03.mp3",
+    "duration": 21.687438,
+    "transcript": null,
+    "credit_cost": 349
+  },
+  "b9-04": {
+    "audio": "voice/banqueros-medievales-b9-04.mp3",
+    "duration": 28.142585,
+    "transcript": null,
+    "credit_cost": 443
+  },
+  "b9-05": {
+    "audio": "voice/banqueros-medievales-b9-05.mp3",
+    "duration": 28.096145,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b9-06": {
+    "audio": "voice/banqueros-medievales-b9-06.mp3",
+    "duration": 32.833016,
+    "transcript": null,
+    "credit_cost": 466
+  },
+  "b9-07": {
+    "audio": "voice/banqueros-medievales-b9-07.mp3",
+    "duration": 27.167347,
+    "transcript": null,
+    "credit_cost": 379
+  }
+}
