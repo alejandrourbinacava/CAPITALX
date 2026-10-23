@@ -418,5 +418,17 @@
     "duration": 31.114739,
     "transcript": null,
     "credit_cost": 460
+  },
+  "b9-06": {
+    "audio": "voice/negocio-esclavitud-b9-06.mp3",
+    "duration": 26.610068,
+    "transcript": null,
+    "credit_cost": 431
+  },
+  "b9-07": {
+    "audio": "voice/negocio-esclavitud-b9-07.mp3",
+    "duration": 26.377868,
+    "transcript": null,
+    "credit_cost": 440
   }
 }
