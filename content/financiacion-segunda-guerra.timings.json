@@ -1,0 +1,446 @@
+{
+  "b0-01": {
+    "audio": "voice/financiacion-segunda-guerra-b0-01.mp3",
+    "duration": 27.399546,
+    "transcript": null,
+    "credit_cost": 403
+  },
+  "b0-02": {
+    "audio": "voice/financiacion-segunda-guerra-b0-02.mp3",
+    "duration": 26.656508,
+    "transcript": null,
+    "credit_cost": 414
+  },
+  "b0-03": {
+    "audio": "voice/financiacion-segunda-guerra-b0-03.mp3",
+    "duration": 23.219955,
+    "transcript": null,
+    "credit_cost": 378
+  },
+  "b0-04": {
+    "audio": "voice/financiacion-segunda-guerra-b0-04.mp3",
+    "duration": 29.907302,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b1-01": {
+    "audio": "voice/financiacion-segunda-guerra-b1-01.mp3",
+    "duration": 21.640998,
+    "transcript": null,
+    "credit_cost": 329
+  },
+  "b1-02": {
+    "audio": "voice/financiacion-segunda-guerra-b1-02.mp3",
+    "duration": 27.724626,
+    "transcript": null,
+    "credit_cost": 394
+  },
+  "b1-03": {
+    "audio": "voice/financiacion-segunda-guerra-b1-03.mp3",
+    "duration": 27.817506,
+    "transcript": null,
+    "credit_cost": 401
+  },
+  "b1-04": {
+    "audio": "voice/financiacion-segunda-guerra-b1-04.mp3",
+    "duration": 24.334512,
+    "transcript": null,
+    "credit_cost": 420
+  },
+  "b1-05": {
+    "audio": "voice/financiacion-segunda-guerra-b1-05.mp3",
+    "duration": 29.257143,
+    "transcript": null,
+    "credit_cost": 422
+  },
+  "b1-06": {
+    "audio": "voice/financiacion-segunda-guerra-b1-06.mp3",
+    "duration": 25.031111,
+    "transcript": null,
+    "credit_cost": 391
+  },
+  "b1-07": {
+    "audio": "voice/financiacion-segunda-guerra-b1-07.mp3",
+    "duration": 24.752472,
+    "transcript": null,
+    "credit_cost": 400
+  },
+  "b1-08": {
+    "audio": "voice/financiacion-segunda-guerra-b1-08.mp3",
+    "duration": 25.031111,
+    "transcript": null,
+    "credit_cost": 400
+  },
+  "b1-09": {
+    "audio": "voice/financiacion-segunda-guerra-b1-09.mp3",
+    "duration": 29.675102,
+    "transcript": null,
+    "credit_cost": 473
+  },
+  "b1-10": {
+    "audio": "voice/financiacion-segunda-guerra-b1-10.mp3",
+    "duration": 27.631746,
+    "transcript": null,
+    "credit_cost": 456
+  },
+  "b2-01": {
+    "audio": "voice/financiacion-segunda-guerra-b2-01.mp3",
+    "duration": 28.142585,
+    "transcript": null,
+    "credit_cost": 401
+  },
+  "b2-02": {
+    "audio": "voice/financiacion-segunda-guerra-b2-02.mp3",
+    "duration": 29.907302,
+    "transcript": null,
+    "credit_cost": 447
+  },
+  "b2-03": {
+    "audio": "voice/financiacion-segunda-guerra-b2-03.mp3",
+    "duration": 27.585306,
+    "transcript": null,
+    "credit_cost": 421
+  },
+  "b2-04": {
+    "audio": "voice/financiacion-segunda-guerra-b2-04.mp3",
+    "duration": 33.343855,
+    "transcript": null,
+    "credit_cost": 469
+  },
+  "b2-05": {
+    "audio": "voice/financiacion-segunda-guerra-b2-05.mp3",
+    "duration": 28.606984,
+    "transcript": null,
+    "credit_cost": 421
+  },
+  "b2-06": {
+    "audio": "voice/financiacion-segunda-guerra-b2-06.mp3",
+    "duration": 28.932063,
+    "transcript": null,
+    "credit_cost": 410
+  },
+  "b2-07": {
+    "audio": "voice/financiacion-segunda-guerra-b2-07.mp3",
+    "duration": 28.049705,
+    "transcript": null,
+    "credit_cost": 416
+  },
+  "b2-08": {
+    "audio": "voice/financiacion-segunda-guerra-b2-08.mp3",
+    "duration": 29.628662,
+    "transcript": null,
+    "credit_cost": 439
+  },
+  "b2-09": {
+    "audio": "voice/financiacion-segunda-guerra-b2-09.mp3",
+    "duration": 27.956825,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b3-01": {
+    "audio": "voice/financiacion-segunda-guerra-b3-01.mp3",
+    "duration": 28.096145,
+    "transcript": null,
+    "credit_cost": 439
+  },
+  "b3-02": {
+    "audio": "voice/financiacion-segunda-guerra-b3-02.mp3",
+    "duration": 29.535782,
+    "transcript": null,
+    "credit_cost": 430
+  },
+  "b3-03": {
+    "audio": "voice/financiacion-segunda-guerra-b3-03.mp3",
+    "duration": 20.062041,
+    "transcript": null,
+    "credit_cost": 310
+  },
+  "b3-04": {
+    "audio": "voice/financiacion-segunda-guerra-b3-04.mp3",
+    "duration": 24.148753,
+    "transcript": null,
+    "credit_cost": 412
+  },
+  "b3-05": {
+    "audio": "voice/financiacion-segunda-guerra-b3-05.mp3",
+    "duration": 30.65034,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b3-06": {
+    "audio": "voice/financiacion-segunda-guerra-b3-06.mp3",
+    "duration": 27.585306,
+    "transcript": null,
+    "credit_cost": 373
+  },
+  "b3-07": {
+    "audio": "voice/financiacion-segunda-guerra-b3-07.mp3",
+    "duration": 23.777234,
+    "transcript": null,
+    "credit_cost": 367
+  },
+  "b3-08": {
+    "audio": "voice/financiacion-segunda-guerra-b3-08.mp3",
+    "duration": 26.052789,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b3-09": {
+    "audio": "voice/financiacion-segunda-guerra-b3-09.mp3",
+    "duration": 18.343764,
+    "transcript": null,
+    "credit_cost": 329
+  },
+  "b4-01": {
+    "audio": "voice/financiacion-segunda-guerra-b4-01.mp3",
+    "duration": 18.901043,
+    "transcript": null,
+    "credit_cost": 327
+  },
+  "b4-02": {
+    "audio": "voice/financiacion-segunda-guerra-b4-02.mp3",
+    "duration": 27.260227,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b4-03": {
+    "audio": "voice/financiacion-segunda-guerra-b4-03.mp3",
+    "duration": 30.78966,
+    "transcript": null,
+    "credit_cost": 479
+  },
+  "b4-04": {
+    "audio": "voice/financiacion-segunda-guerra-b4-04.mp3",
+    "duration": 25.216871,
+    "transcript": null,
+    "credit_cost": 382
+  },
+  "b4-05": {
+    "audio": "voice/financiacion-segunda-guerra-b4-05.mp3",
+    "duration": 25.40263,
+    "transcript": null,
+    "credit_cost": 410
+  },
+  "b4-06": {
+    "audio": "voice/financiacion-segunda-guerra-b4-06.mp3",
+    "duration": 28.003265,
+    "transcript": null,
+    "credit_cost": 431
+  },
+  "b4-07": {
+    "audio": "voice/financiacion-segunda-guerra-b4-07.mp3",
+    "duration": 28.514104,
+    "transcript": null,
+    "credit_cost": 462
+  },
+  "b4-08": {
+    "audio": "voice/financiacion-segunda-guerra-b4-08.mp3",
+    "duration": 27.306667,
+    "transcript": null,
+    "credit_cost": 417
+  },
+  "b5-01": {
+    "audio": "voice/financiacion-segunda-guerra-b5-01.mp3",
+    "duration": 24.380952,
+    "transcript": null,
+    "credit_cost": 363
+  },
+  "b5-02": {
+    "audio": "voice/financiacion-segunda-guerra-b5-02.mp3",
+    "duration": 23.405714,
+    "transcript": null,
+    "credit_cost": 415
+  },
+  "b5-03": {
+    "audio": "voice/financiacion-segunda-guerra-b5-03.mp3",
+    "duration": 31.393379,
+    "transcript": null,
+    "credit_cost": 466
+  },
+  "b5-04": {
+    "audio": "voice/financiacion-segunda-guerra-b5-04.mp3",
+    "duration": 30.65034,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b5-05": {
+    "audio": "voice/financiacion-segunda-guerra-b5-05.mp3",
+    "duration": 25.309751,
+    "transcript": null,
+    "credit_cost": 424
+  },
+  "b5-06": {
+    "audio": "voice/financiacion-segunda-guerra-b5-06.mp3",
+    "duration": 28.049705,
+    "transcript": null,
+    "credit_cost": 424
+  },
+  "b6-01": {
+    "audio": "voice/financiacion-segunda-guerra-b6-01.mp3",
+    "duration": 27.585306,
+    "transcript": null,
+    "credit_cost": 448
+  },
+  "b6-02": {
+    "audio": "voice/financiacion-segunda-guerra-b6-02.mp3",
+    "duration": 29.350023,
+    "transcript": null,
+    "credit_cost": 447
+  },
+  "b6-03": {
+    "audio": "voice/financiacion-segunda-guerra-b6-03.mp3",
+    "duration": 30.325261,
+    "transcript": null,
+    "credit_cost": 477
+  },
+  "b6-04": {
+    "audio": "voice/financiacion-segunda-guerra-b6-04.mp3",
+    "duration": 31.579138,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b6-05": {
+    "audio": "voice/financiacion-segunda-guerra-b6-05.mp3",
+    "duration": 32.879456,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b6-06": {
+    "audio": "voice/financiacion-segunda-guerra-b6-06.mp3",
+    "duration": 25.68127,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b7-01": {
+    "audio": "voice/financiacion-segunda-guerra-b7-01.mp3",
+    "duration": 25.49551,
+    "transcript": null,
+    "credit_cost": 413
+  },
+  "b7-02": {
+    "audio": "voice/financiacion-segunda-guerra-b7-02.mp3",
+    "duration": 24.520272,
+    "transcript": null,
+    "credit_cost": 427
+  },
+  "b7-03": {
+    "audio": "voice/financiacion-segunda-guerra-b7-03.mp3",
+    "duration": 20.851519,
+    "transcript": null,
+    "credit_cost": 355
+  },
+  "b7-04": {
+    "audio": "voice/financiacion-segunda-guerra-b7-04.mp3",
+    "duration": 29.907302,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b7-05": {
+    "audio": "voice/financiacion-segunda-guerra-b7-05.mp3",
+    "duration": 27.445986,
+    "transcript": null,
+    "credit_cost": 450
+  },
+  "b7-06": {
+    "audio": "voice/financiacion-segunda-guerra-b7-06.mp3",
+    "duration": 22.430476,
+    "transcript": null,
+    "credit_cost": 394
+  },
+  "b7-07": {
+    "audio": "voice/financiacion-segunda-guerra-b7-07.mp3",
+    "duration": 28.653424,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b8-01": {
+    "audio": "voice/financiacion-segunda-guerra-b8-01.mp3",
+    "duration": 26.935147,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b8-02": {
+    "audio": "voice/financiacion-segunda-guerra-b8-02.mp3",
+    "duration": 25.216871,
+    "transcript": null,
+    "credit_cost": 384
+  },
+  "b8-03": {
+    "audio": "voice/financiacion-segunda-guerra-b8-03.mp3",
+    "duration": 27.167347,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b8-04": {
+    "audio": "voice/financiacion-segunda-guerra-b8-04.mp3",
+    "duration": 29.210703,
+    "transcript": null,
+    "credit_cost": 435
+  },
+  "b8-05": {
+    "audio": "voice/financiacion-segunda-guerra-b8-05.mp3",
+    "duration": 28.606984,
+    "transcript": null,
+    "credit_cost": 430
+  },
+  "b8-06": {
+    "audio": "voice/financiacion-segunda-guerra-b8-06.mp3",
+    "duration": 22.848435,
+    "transcript": null,
+    "credit_cost": 348
+  },
+  "b8-07": {
+    "audio": "voice/financiacion-segunda-guerra-b8-07.mp3",
+    "duration": 28.235465,
+    "transcript": null,
+    "credit_cost": 447
+  },
+  "b8-08": {
+    "audio": "voice/financiacion-segunda-guerra-b8-08.mp3",
+    "duration": 25.44907,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b9-01": {
+    "audio": "voice/financiacion-segunda-guerra-b9-01.mp3",
+    "duration": 24.752472,
+    "transcript": null,
+    "credit_cost": 417
+  },
+  "b9-02": {
+    "audio": "voice/financiacion-segunda-guerra-b9-02.mp3",
+    "duration": 29.350023,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b9-03": {
+    "audio": "voice/financiacion-segunda-guerra-b9-03.mp3",
+    "duration": 23.870113,
+    "transcript": null,
+    "credit_cost": 385
+  },
+  "b9-04": {
+    "audio": "voice/financiacion-segunda-guerra-b9-04.mp3",
+    "duration": 30.418141,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b9-05": {
+    "audio": "voice/financiacion-segunda-guerra-b9-05.mp3",
+    "duration": 30.232381,
+    "transcript": null,
+    "credit_cost": 438
+  },
+  "b9-06": {
+    "audio": "voice/financiacion-segunda-guerra-b9-06.mp3",
+    "duration": 32.089977,
+    "transcript": null,
+    "credit_cost": 462
+  },
+  "b9-07": {
+    "audio": "voice/financiacion-segunda-guerra-b9-07.mp3",
+    "duration": 24.288073,
+    "transcript": null,
+    "credit_cost": 410
+  }
+}
