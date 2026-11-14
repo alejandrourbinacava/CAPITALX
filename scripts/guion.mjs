@@ -34,13 +34,13 @@ const MODELO_ESCENAS = process.env.ANTHROPIC_MODEL_ESCENAS || "claude-sonnet-5";
 // si cambia alli, cambia aqui.
 const MINIMO = {
   barras: 4.2, lineas: 4.2, gente: 4.2, contador: 4.0, lista: 3.8, recorte: 3.6,
-  ilustracion: 4.6, ruta: 7.0, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2, lamina: 3.0, capitulo: 4.2,
+  ilustracion: 4.6, escena: 3.6, ruta: 7.0, mapa: 3.4, frase: 2.6, objeto: 2.6, retrato: 2.6, clip: 2.2, lamina: 3.0, capitulo: 4.2,
 };
 
 const MUNDO = JSON.parse(fs.readFileSync(new URL("../src/data/mundo.json", import.meta.url), "utf8"));
 const TIPOS = [
   "mapa", "ruta", "barras", "lineas", "contador", "gente", "lista",
-  "frase", "objeto", "retrato", "clip", "lamina", "capitulo", "recorte", "ilustracion", "torres", "dublin", "cierre",
+  "frase", "objeto", "retrato", "clip", "lamina", "capitulo", "recorte", "ilustracion", "escena", "torres", "dublin", "cierre",
 ];
 const OBJETOS = [
   "aeropuerto", "balanza", "carpeta", "carta", "casa", "contable", "dosEpocas",
@@ -880,6 +880,8 @@ function reparar(doc) {
         return !!e.clip?.buscar;
       case "lamina":
         return !!e.lamina?.buscar;
+      case "escena":
+        return !!e.escena?.decorado;
       case "capitulo":
         return !!e.capitulo?.titulo;
       case "recorte":
@@ -1099,7 +1101,10 @@ function validar(doc, tema) {
     // Una lamina aguanta mas que un clip: el cuadro se recorre con la camara.
     const conLamina = (p.escenas ?? []).some((e) => e.tipo === "lamina");
     // En un documental la lamina se sostiene mas: el empuje lento aguanta doce segundos.
-    const sostiene = conLamina ? (doc.estilo?.plantilla === "documental" ? 13 : 8) : 5.5;
+    // La escena ilustrada lleva camara y gente que se mueve dentro: aguanta
+    // casi como una lamina.
+    const conEscena = (p.escenas ?? []).some((e) => e.tipo === "escena");
+    const sostiene = conLamina ? (doc.estilo?.plantilla === "documental" ? 13 : 8) : conEscena ? 10 : 5.5;
     const hacen = Math.min(5, Math.max(1, Math.ceil(segundos / sostiene)));
     if (segundos > 1 && n < hacen) {
       di(
@@ -1125,7 +1130,7 @@ function validar(doc, tema) {
     // de dibujos nuestros.
     for (let i = 1; i < (p.escenas ?? []).length; i++) {
       const t = p.escenas[i].tipo;
-      if (t !== "clip" && t !== "lamina" && t === p.escenas[i - 1].tipo) {
+      if (t !== "clip" && t !== "lamina" && t !== "escena" && t === p.escenas[i - 1].tipo) {
         di(`${p.id}: las escenas ${i} y ${i + 1} son las dos "${t}". Cambia una.`);
       }
     }
@@ -1182,7 +1187,8 @@ function validar(doc, tema) {
   // los guiones y pedian un cierre que ya estaba puesto.
   const tipoDe = (p) => p.tipo ?? p.escenas?.[0]?.tipo;
   // La lamina es el material de un video de historia: no se limita la racha.
-  const seguidas = { frase: 4, lista: 99, lamina: 99 };
+  // La escena ilustrada tampoco: cada una es un decorado y una toma distintos.
+  const seguidas = { frase: 4, lista: 99, lamina: 99, escena: 99 };
   let racha = 1;
   for (let i = 1; i < planos.length; i++) {
     racha = tipoDe(planos[i]) === tipoDe(planos[i - 1]) ? racha + 1 : 1;
@@ -1233,7 +1239,7 @@ function validar(doc, tema) {
     const pc = (n) => Math.round((n / escenas.length) * 100);
 
     const historia = cuenta("lamina") >= escenas.length * 0.25;
-    const imagen = cuenta("clip", "lamina", "recorte", "objeto", "retrato", "dublin", "torres");
+    const imagen = cuenta("clip", "lamina", "escena", "recorte", "objeto", "retrato", "dublin", "torres");
     if (pc(imagen) < 55) {
       di(
         `solo el ${pc(imagen)} % de las escenas es imagen (clip, recorte, objeto, retrato). ` +
@@ -1249,7 +1255,7 @@ function validar(doc, tema) {
       di(`el ${pc(graf)} % son gráficos. El tope es 25 %: no todos los datos necesitan gráfico.`);
     }
     const cl = cuenta("clip", "lamina");
-    if (pc(cl) < 20) di(`solo hay ${cl} clips (${pc(cl)} %). Tienen que ser cerca del 28 %.`);
+    if (pc(cl) < 20 && doc.estilo?.montaje !== "ilustrado") di(`solo hay ${cl} clips (${pc(cl)} %). Tienen que ser cerca del 28 %.`);
     // Un objeto sin rotulo es un dibujo solo en pantalla, sin una palabra.
     // En los cinco videos anteriores lo estaban TODOS: 218 escenas de un
     // unico elemento, que es justo lo que se ve como poco dinamico.
@@ -1275,7 +1281,7 @@ function validar(doc, tema) {
     }
 
     const rc = cuenta("recorte");
-    if (!historia && pc(rc) < 14) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 20 %.`);
+    if (!historia && doc.estilo?.montaje !== "ilustrado" && pc(rc) < 14) di(`solo hay ${rc} recortes de revista (${pc(rc)} %). Tienen que ser cerca del 20 %.`);
   }
 
   const ult = planos[planos.length - 1];

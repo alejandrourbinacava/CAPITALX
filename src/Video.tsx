@@ -36,6 +36,8 @@ import { Capitulo, type EspecCapitulo } from "./scenes/Capitulo";
 import { Recorte } from "./scenes/Recorte";
 import { Ilustracion, type EspecIlustracion } from "./scenes/Ilustracion";
 import { Contador } from "./scenes/Contador";
+import { EscenaIlustrada } from "./ilustrado/motor";
+import type { EspecEscena } from "./ilustrado/tipos";
 
 
 type TagSpec = {
@@ -88,6 +90,8 @@ export type Visual = {
   };
   objeto?: string;
   ilustracion?: EspecIlustracion;
+  /** Escena del motor ilustrado (src/ilustrado). */
+  escena?: EspecEscena;
   amanecer?: boolean;
   barras?: any;
   lineas?: any;
@@ -226,6 +230,9 @@ const MINIMO_POR_TIPO: Record<string, number> = {
   // La ilustracion no se mira, se sigue: la ciudad se construye, el caudal se
   // corta, la fabrica se para. Cortarla antes del final es contar media cosa.
   ilustracion: 4.6,
+  // La escena dibujada tiene camara y gente que se mueve: se sostiene, pero
+  // necesita unos segundos para situarse.
+  escena: 3.6,
   // El recorte no es una imagen: es una pantalla de texto con una foto al
   // lado. Lleva cifra, titular y apoyo. Tenerlo en 1,7 s era pedirle al
   // espectador que leyera tres lineas en dos segundos.
@@ -260,6 +267,7 @@ const PESO: Record<string, number> = {
   contador: 1.4,
   lista: 1.3,
   ilustracion: 1.7,
+  escena: 1.2,
   mapa: 1.2,
   ruta: 1.8,
   // El recorte sube: se lee, asi que tambien merece parte del sobrante.
@@ -303,6 +311,8 @@ const listo = (p: Visual): boolean => {
       return !!p.objeto;
     case "ilustracion":
       return !!p.ilustracion?.nombre;
+    case "escena":
+      return !!p.escena?.decorado;
     case "mapa":
       return !!p.mapa;
     case "ruta":
@@ -509,10 +519,10 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
   // Que textura y que marco se pinta lo decide la plantilla dentro de Surface.
   // Aqui solo se dice donde no cabe ninguno de los dos: encima de un mapa, de
   // un clip a sangre o de la maqueta de Dublin.
-  const grid = p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "ruta" && p.tipo !== "clip" && p.tipo !== "lamina";
+  const grid = p.tipo !== "dublin" && p.tipo !== "mapa" && p.tipo !== "ruta" && p.tipo !== "clip" && p.tipo !== "lamina" && p.tipo !== "escena";
 
   return (
-    <Surface night={night} grid={grid} frame>
+    <Surface night={night} grid={grid} frame={p.tipo !== "escena"}>
       <Camara modo={p.camara ?? porDefecto(p, orden)}>
         {!pintable ? null : (
         <>
@@ -537,6 +547,7 @@ const PlanoView: React.FC<{ p: Visual; orden?: number }> = ({ p, orden = 0 }) =>
         {p.tipo === "retrato" ? <Retrato spec={p.retrato} /> : null}
         {p.tipo === "clip" ? <Clip spec={p.clip ?? {}} tono={p.clip?.tono} /> : null}
         {p.tipo === "lamina" ? <Lamina spec={p.lamina ?? {}} /> : null}
+        {p.tipo === "escena" ? <EscenaIlustrada spec={p.escena!} /> : null}
         {p.tipo === "capitulo" ? <Capitulo spec={p.capitulo!} /> : null}
         {p.tipo === "recorte" ? <Recorte spec={p.recorte ?? {}} /> : null}
         </>
