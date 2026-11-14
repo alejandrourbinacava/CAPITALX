@@ -1,0 +1,3668 @@
+{
+  "slug": "hiperinflacion-weimar",
+  "titulo": "Cuando Un Dólar Valía 4,2 Billones De Marcos: La Hiperinflación De Weimar",
+  "voz": {
+    "proveedor": "ai33",
+    "id": "elevenlabs_j41pQugxGaKleSQLIyG2",
+    "nombre": "Marciano Rajoy - Realistic and Commercial",
+    "modelo": "eleven_multilingual_v2",
+    "velocidad": 1.1,
+    "estabilidad": 0.5,
+    "similitud": 0.75,
+    "estilo": 0,
+    "speakerBoost": true
+  },
+  "wpm": 145,
+  "musica": "elegia.wav",
+  "estilo": {
+    "plantilla": "documental"
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Prólogo",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "En julio de mil novecientos catorce, un dólar se cambiaba en Berlín por unos cuatro marcos con veinte. El veinte de noviembre de mil novecientos veintitrés, la cotización oficial era de cuatro billones doscientos mil millones de marcos. Y Alemania ya no estaba en guerra: hacía cinco años del armisticio. ¿Cómo destruye un país industrial su propia moneda? ¿Y quién pagó la factura?",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:M Reichsbank Berlin 1903.jpg",
+                "deriva": "der"
+              },
+              "rotulo": {
+                "texto": "Berlín · 1923",
+                "kicker": "La hiperinflación de Weimar"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "MARCOS POR UN DÓLAR, BERLÍN, 20 DE NOVIEMBRE DE 1923",
+              "fuente": "Statistisches Reichsamt (1925), cotización oficial; en 1914: 4,20",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4200000000000,
+                "etiqueta": "marcos de papel por un dólar",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:GER-129-Reichsbanknote-1 Trillion Mark (1923).jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "El pan cuenta la misma historia. En mil novecientos trece, un kilo de pan de centeno costaba en Berlín unos veintiocho pfennig. En enero de mil novecientos veintitrés, doscientos cincuenta marcos. En agosto, sesenta y nueve mil. Y en noviembre, de media, más de doscientos mil millones. No es una leyenda: son las tablas de la Oficina Estadística del Reich.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin - la foule assiège la voiture d'un boulanger et se dispute le pain à coup de millions de Marks - btv1b9024458p.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "EL KILO DE PAN DE CENTENO EN BERLÍN",
+              "fuente": "Statistisches Reichsamt (1925), tabla IV.2; medias mensuales; Bundestag (2023) para nov.",
+              "barras": {
+                "unidad": "Marcos por kilo",
+                "datos": [
+                  {
+                    "etiqueta": "1913",
+                    "valor": 0.29,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Ene 1923",
+                    "valor": 250,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Ago 1923",
+                    "valor": 69000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Sep 1923",
+                    "valor": 1510000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Nov 1923",
+                    "valor": 201000000000,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Inflationmedal.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Correos tuvo que cambiar su tarifa una y otra vez: una carta costaba cincuenta marcos en enero de mil novecientos veintitrés y cien mil millones el uno de diciembre. Pero aquí está la paradoja: al cambio en oro, esa carta de diciembre costaba diez pfennig, lo mismo que en mil novecientos trece. El marco de papel había muerto. El precio real de las cosas, no.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Germaninflation.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "UNA CARTA NACIONAL, 1 DE DICIEMBRE DE 1923",
+              "fuente": "Statistisches Reichsamt (1925), tabla V.4; columna en marcos oro",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 100000000000,
+                "etiqueta": "marcos de papel = 10 pfennig oro, como en 1913",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1923-12-03 Gebr. Dammann Hannover Große Packhofstraße 17.JPG",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Este documental sigue ese derrumbe paso a paso: una guerra pagada con deuda, una paz con la factura abierta, unos años en que la inflación pareció útil, la ocupación del Ruhr, el año del caos, quién ganó y quién perdió, cómo se paró en semanas y lo que todavía discuten los historiadores. Y termina con una comparación con la inflación de octubre de dos mil veintiséis.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Treaty of Versailles Signing, Hall of Mirrors.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:13-1-23 Essen patrouille de dragons français (5e rgt).jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1 rentenmark 1.11.1923 xx.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "La herencia de la guerra",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Todo empieza en mil novecientos catorce. Entre ese año y mil novecientos dieciocho, la guerra le costó al Reich unos ciento sesenta y cuatro mil millones de marcos. Según el Museo Histórico Alemán, noventa y siete mil millones salieron de empréstitos, cincuenta y siete mil de deuda a corto plazo y solo diez mil de impuestos. Alemania pagó la guerra a crédito.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "La herencia de la guerra",
+                "numero": "I",
+                "sub": "Alemania · 1914-1920"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:\"Zeichnet Kriegsanleihe!\" - LABW - Hauptstaatsarchiv Stuttgart J 151 Nr 2202.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "CÓMO SE PAGÓ LA GUERRA, 1914-1918",
+              "fuente": "Deutsches Historisches Museum (LeMO); Bresciani-Turroni (1937) da 163.894 millones de gasto",
+              "barras": {
+                "unidad": "Miles de millones de marcos",
+                "datos": [
+                  {
+                    "etiqueta": "Empréstitos de guerra",
+                    "valor": 97,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Deuda a corto plazo",
+                    "valor": 57,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Impuestos",
+                    "valor": 10,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "Los empréstitos de guerra se emitieron dos veces al año, de septiembre de mil novecientos catorce al otoño de mil novecientos dieciocho: nueve en total, al cinco por ciento. Quien los compraba prestaba sus ahorros al Estado. Los impuestos cubrieron entre un seis y un trece por ciento del gasto, según cómo se cuente. Para Carl-Ludwig Holtfrerich, la guerra se financió por completo con deuda.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Otto Ubbelohde 9.Kriegsanleihe.JPG",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LA PARTE DEL GASTO DE GUERRA CUBIERTA CON IMPUESTOS",
+              "fuente": "DHM (desglose: 6 %); Bresciani-Turroni (1937): apenas un octavo, 12,5 %",
+              "de": {
+                "valor": 6,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 13,
+                "etiqueta": "% como máximo; 6 % según otro cálculo",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Deutsche Kriegsanleihe 1917.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "Al acabar la guerra, la deuda del Reich rondaba los ciento cincuenta mil millones de marcos. En mil novecientos trece eran cinco mil millones. Y el dinero se había multiplicado: entre agosto de mil novecientos catorce y noviembre de mil novecientos dieciocho, la base monetaria creció casi once veces. Los precios al por mayor, en cambio, solo dos veces y media. El dólar, menos de dos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA DEUDA DEL REICH",
+              "fuente": "DHM, «Die Erzbergersche Reichsfinanzreform» (2014); Bundestag (2023): unos 150.000 millones",
+              "barras": {
+                "unidad": "Miles de millones de marcos",
+                "datos": [
+                  {
+                    "etiqueta": "1913",
+                    "valor": 5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Final de la guerra",
+                    "valor": 153,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:M Reichsbank Berlin Kassenhalle 1903.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "CUÁNTO SE MULTIPLICÓ CADA COSA, AGOSTO 1914-NOVIEMBRE 1918",
+              "fuente": "Holtfrerich (2023); Bundestag (2023) para la base monetaria",
+              "barras": {
+                "unidad": "Veces",
+                "datos": [
+                  {
+                    "etiqueta": "Base monetaria",
+                    "valor": 10.8,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Precios al por mayor",
+                    "valor": 2.4,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Dólar en Berlín",
+                    "valor": 1.8,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "En el otoño de mil novecientos dieciocho llegan la derrota y la revolución. Los alemanes corren a sacar efectivo: en cuatro meses, el papel moneda en circulación crece casi la mitad. Según el Bundesbank, faltaban billetes, y el Reichsbank encargó a toda prisa a imprentas privadas uno de cincuenta marcos con un borde negro. La gente lo llamó el billete de luto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 3.2,
+              "clip": {
+                "buscar": "mass demonstrations, orator and revolutionary sailors, Germany 1918-19",
+                "archive": {
+                  "id": "postkampf_20230115",
+                  "desde": 348
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Revolución alemana · película británica de 1940"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 3.2,
+              "clip": {
+                "buscar": "crowds with flags and speakers in Berlin, 1918-19",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 1603
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, 1918-1919"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:50 Mark-1918-10-20.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "Frente al dólar, el marco terminó la guerra habiendo perdido algo menos de la mitad de su valor: en octubre de mil novecientos dieciocho, un dólar costaba seis marcos y sesenta. En febrero de mil novecientos veinte, noventa y nueve. Por qué cayó tanto se discute: Holtfrerich apunta a la liberalización del comercio de divisas; Bresciani-Turroni, al choque psicológico de Versalles.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "kicker": "EL DÓLAR EN BERLÍN, 1918-1920",
+              "fuente": "Statistisches Reichsamt (1925), medias mensuales; Sargent (1982), tabla G2",
+              "lineas": {
+                "unidad": "Marcos por dólar",
+                "series": [
+                  {
+                    "nombre": "Dólar",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "Oct 18",
+                        6.61
+                      ],
+                      [
+                        "Nov 18",
+                        7.43
+                      ],
+                      [
+                        "Dic 18",
+                        8.28
+                      ],
+                      [
+                        "Jul 19",
+                        15.08
+                      ],
+                      [
+                        "Dic 19",
+                        46.77
+                      ],
+                      [
+                        "Feb 20",
+                        99.11
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bureau de change à Berlin (Rol) - btv1b53120520t.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-06",
+          "vo": "La paz no trajo menos gasto. Hubo que desmovilizar al ejército, indemnizar a los dueños de los barcos, locomotoras y minas entregados como reparación en especie y pagar un gasto social mucho mayor. En el ejercicio de mil novecientos veinte a mil novecientos veintiuno, con el marco casi estable, el déficit del Reich fue el sesenta por ciento de todo su gasto. Se cubrió con letras del Tesoro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Enemy Activities - German Evacuation of Occupied Territory - Germany's defeated troops return home. Troop passing the first bridge near Bonn - NARA - 31478289 crop.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EL DÉFICIT DEL REICH, EJERCICIO 1920-1921",
+              "fuente": "Bresciani-Turroni (1937), p. 56: 6.050 millones de marcos oro",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 60,
+                "etiqueta": "% del gasto total, cubierto con letras del Tesoro",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:German locomotives turned over to the American Expeditionary Forces at Is-sur-Tille, France, 10 April 1919 (313159599).jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-07",
+          "vo": "El hombre que intentó cerrar el agujero fue Matthias Erzberger, ministro de Finanzas desde junio de mil novecientos diecinueve. En nueve meses creó un impuesto sobre la renta del Reich y una contribución extraordinaria sobre el patrimonio. El tipo máximo, según el instituto DIW, llegó al sesenta por ciento; en el Imperio era del ocho. Su reforma unificó el sistema fiscal alemán.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Enemy Activities - Officials - Mathias Erzberger (cropped).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 2.2,
+              "clip": {
+                "buscar": "republic flag and National Assembly session, Weimar 1919",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 1626
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Asamblea Nacional de Weimar, 1919"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 1.3,
+              "clip": {
+                "buscar": "dignitaries in top hats and a signing at a table, 1919",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 1641
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Alemania, 1919"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Deutsches Reichsgesetzblatt 1919 252 2189.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-08",
+          "vo": "No bastó. Los nuevos impuestos se cobraban con mucho retraso, los ricos se resistieron y los tipos tan altos animaron la evasión y la fuga de capitales. Con la inflación, cada impuesto cobrado tarde valía menos. Erzberger dimitió en marzo de mil novecientos veinte, tras una campaña nacionalista. El veintiséis de agosto de mil novecientos veintiuno lo asesinaron dos miembros de una organización ultraderechista.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin, Wilhelmplatz Nr.2 , Gebäude der Reichsversicherungsanstalt - um 1890.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "RECAUDACIÓN MENSUAL DEL REICH EN 1921",
+              "fuente": "Bresciani-Turroni (1937), p. 61; una sola fuente",
+              "de": {
+                "valor": 400,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 113,
+                "etiqueta": "millones de marcos oro en noviembre; unos 400 a principios del ejercicio",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Waffenstillstand gr.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "Versalles y las reparaciones",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "El veintiocho de junio de mil novecientos diecinueve, Alemania firmó el Tratado de Versalles. El tratado la obligaba a pagar reparaciones, pero dejaba abierta la cifra final. Mientras tanto, exigía un adelanto en bienes, barcos, valores y oro. La factura de verdad llegaría dos años después, y con ella empezaría una discusión que todavía no ha terminado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "Versalles y las reparaciones",
+                "numero": "II",
+                "sub": "1919-1922"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Orpen, William (Sir) (RA) - The Signing of Peace in the Hall of Mirrors, Versailles, 28th June 1919 - Google Art Project.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 1.8,
+              "clip": {
+                "buscar": "delegates on the steps of an official building, early 1920s",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 2077
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Delegados de posguerra, años veinte"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A Versailles, Mr Brockdorff, Mr Rantzan et Mr Leinert sortent du Trianon Palace - btv1b9031736g.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "Ese mismo año, el economista británico John Maynard Keynes publicó su cálculo: diez mil millones de dólares eran una cifra máxima segura de lo que Alemania podía pagar, y no creía que pudiera pagar ni eso. Eran unos cuarenta mil millones de marcos oro. Como comparación, recordaba la indemnización francesa de mil ochocientos setenta y uno: unos mil millones de dólares.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:John Maynard Keynes 1929.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:The Economic consequences of peace.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Big Four (World War I) in 1919.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "La cifra llegó en la primavera de mil novecientos veintiuno: ciento treinta y dos mil millones de marcos oro, fijados por la Comisión de Reparaciones a finales de abril. El cinco de mayo, el primer ministro británico, Lloyd George, entregó al embajador alemán un ultimátum: seis días para aceptar, o se ocuparía el Ruhr. El once de mayo, el Gobierno de Joseph Wirth y el Reichstag aceptaron sin condiciones.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Lloyd George LCCN2014713597.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EL PLAN DE PAGOS DE LONDRES, MAYO DE 1921",
+              "fuente": "Holtfrerich (2023); Bresciani-Turroni (1937); Marks (1972)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 132,
+                "etiqueta": "miles de millones de marcos oro",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portret van Dr, SFA002004618.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "Pero la cifra tenía letra pequeña. Se dividía en bonos A, por doce mil millones; B, por treinta y ocho mil, y C, por ochenta y dos mil. Los C no pagaban intereses y se aplazaban sin fecha. Para la historiadora Sally Marks, eran una quimera pensada para la opinión pública aliada: la deuda real eran los cincuenta mil millones de los bonos A y B.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:30-8-22, réunion de la commission des réparations (à l'Hôtel Astoria, de d. à g. Bemelmans, Delacroix, Kemball-Cook, Bradbury, Mauclère, Dubois, Bergery, Logan, Salvago Raggi, D'Amelio) - btv1b530892423.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LOS BONOS DEL PLAN DE LONDRES",
+              "fuente": "Marks (1972); Wikipedia como contraste; 12 + 38 + 82 = 132",
+              "barras": {
+                "unidad": "Miles de millones de marcos oro",
+                "datos": [
+                  {
+                    "etiqueta": "Bonos A",
+                    "valor": 12,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Bonos B",
+                    "valor": 38,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Bonos C, sin intereses",
+                    "valor": 82,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Salle du palais St James où se réunit la conférence de Londres - btv1b53049705f.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "Así que hay tres cifras, y cada una tiene quien la defienda: ciento treinta y dos mil millones, la nominal; cincuenta mil, la real según Marks; y unos cuarenta mil, el máximo según Keynes. Lo que se exigía cada año estaba más claro: dos mil millones de marcos oro, más un veintiséis por ciento del valor de las exportaciones alemanas.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "¿CUÁNTO SE EXIGÍA DE VERDAD? TRES CIFRAS",
+              "fuente": "Plan de Londres (1921); Marks (1972); Keynes (1919): 10.000 millones de dólares",
+              "barras": {
+                "unidad": "Miles de millones de marcos oro",
+                "datos": [
+                  {
+                    "etiqueta": "Nominal, plan de Londres",
+                    "valor": 132,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Deuda real, según Marks",
+                    "valor": 50,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Máximo pagable, según Keynes",
+                    "valor": 40,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hambourg, les docks - btv1b530355391.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:MM. Poincaré, Pétain et Lloyd George au milieu du cabinet anglais (jardin de Downing Street) - btv1b530824628.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "El primer plazo vencía el treinta y uno de agosto de mil novecientos veintiuno, y Alemania pagó. Pero según los documentos oficiales que cita Bresciani-Turroni, más de la mitad salió de divisas compradas en el mercado o aportadas por el Reichsbank, y una cuarta parte, de créditos de bancos holandeses. El resto, de plata pignorada, oro y otros préstamos. Alemania raspó el fondo del cajón.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "DE DÓNDE SALIÓ EL PRIMER PAGO, AGOSTO DE 1921",
+              "fuente": "Bresciani-Turroni (1937), pp. 95-96, documentos oficiales; una sola fuente",
+              "barras": {
+                "unidad": "Millones de marcos oro",
+                "datos": [
+                  {
+                    "etiqueta": "Divisas del mercado o del Reichsbank",
+                    "valor": 541,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Bancos holandeses",
+                    "valor": 270,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Oro entregado",
+                    "valor": 68,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Plata pignorada",
+                    "valor": 58,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Banco de Italia",
+                    "valor": 32,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Otros",
+                    "valor": 31,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Het gebouw van de Nederlandsche Handel-Maatschappij van architect K, SFA002007866.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin, Mitte, Berlin - Reichsbank (Zeno Ansichtskarten).jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "El mecanismo es la clave. El Gobierno compraba esas divisas con marcos que no salían de los impuestos, sino de letras del Tesoro descontadas en el Reichsbank. Es decir, con dinero nuevo. Y el marco se hundió. En mayo de mil novecientos veintiuno, un dólar costaba sesenta y dos marcos. En noviembre, doscientos sesenta y tres. En diciembre de mil novecientos veintidós, más de siete mil quinientos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "kicker": "EL DÓLAR TRAS EL ULTIMÁTUM DE LONDRES",
+              "fuente": "Statistisches Reichsamt (1925), medias mensuales; Sargent (1982), tabla G2",
+              "lineas": {
+                "unidad": "Marcos por dólar",
+                "series": [
+                  {
+                    "nombre": "Dólar",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "May 21",
+                        62.3
+                      ],
+                      [
+                        "Ago 21",
+                        84.31
+                      ],
+                      [
+                        "Nov 21",
+                        262.96
+                      ],
+                      [
+                        "Jul 22",
+                        493.22
+                      ],
+                      [
+                        "Dic 22",
+                        7589.27
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Reichsbanknote 1000 Mark von 1922 Nr Sb 065829.png",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-08",
+          "vo": "En diciembre de mil novecientos veintiuno, Alemania avisó de que no podía pagar los plazos siguientes, y el último pago en efectivo llegó en julio de mil novecientos veintidós. Antes, en junio, un comité de banqueros presidido por J. P. Morgan se negó a recomendar un préstamo internacional: Francia no aceptaba reducir las reparaciones. Según Holtfrerich, el presidente del Reichsbank lo vio después como la causa más importante de la hiperinflación.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:J. P. Morgan (Américain), CNews - btv1b531243677.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portrait de M. Poincaré - btv1b530696816.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:(Rudolf) von Havenstein, président de la Reichsbank - btv1b531186554.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-09",
+          "vo": "¿Cuánto pagó de verdad Alemania? Depende de a quién se pregunte. Hasta agosto de mil novecientos veinticuatro, la Comisión de Reparaciones reconoció unos ocho mil millones de marcos oro, con las entregas en especie. Alemania calculaba más de cincuenta mil por las mismas partidas. Solo coincidían en el efectivo: según Holtfrerich, unos dos mil seiscientos millones hasta mil novecientos veintitrés.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LO PAGADO HASTA AGOSTO DE 1924, SEGÚN QUIÉN CUENTE",
+              "fuente": "Holtfrerich (2023), p. 88; las cifras alemanas valoraban más alto las entregas en especie",
+              "barras": {
+                "unidad": "Miles de millones de marcos oro",
+                "datos": [
+                  {
+                    "etiqueta": "Según Alemania",
+                    "valor": 51.7,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Según la Comisión",
+                    "valor": 8.1,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Solo efectivo, 1919-1923",
+                    "valor": 2.6,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Péniche de charbon au canal de Recklinghausen à Herne (dans la Ruhr) - btv1b530994175.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:The Sister Ships Berengaria Leviathan and Majestic Together in Southampton.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "La inflación útil",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "Hubo un momento en que el marco pareció salvarse. En marzo de mil novecientos veinte, el golpe de Kapp fracasó ante una huelga general. Entre febrero y julio de ese año, el dólar bajó de noventa y nueve marcos a treinta y nueve: el marco ganó más de la mitad de su valor. Y hasta mayo de mil novecientos veintiuno se mantuvo en torno a sesenta marcos por dólar.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "La inflación útil",
+                "numero": "III",
+                "sub": "Alemania · 1920-1922"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 4.2,
+              "clip": {
+                "buscar": "crowded shopping street in Berlin, people on balconies, around 1919-1920",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 1689
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, hacia 1919-1920"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Kapp-Putsch-Plakat Lehnert.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lineas",
+              "kicker": "EL MARCO SE RECUPERA, 1920-1921",
+              "fuente": "Statistisches Reichsamt (1925), medias mensuales; Holtfrerich (2023)",
+              "lineas": {
+                "unidad": "Marcos por dólar",
+                "series": [
+                  {
+                    "nombre": "Dólar",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "Feb 20",
+                        99.11
+                      ],
+                      [
+                        "Jun 20",
+                        39.13
+                      ],
+                      [
+                        "Jul 20",
+                        39.48
+                      ],
+                      [
+                        "Ene 21",
+                        64.91
+                      ],
+                      [
+                        "May 21",
+                        62.3
+                      ]
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Y mientras medio mundo caía en una depresión, Alemania trabajaba. En el segundo trimestre de mil novecientos veintidós, solo el cero coma seis por ciento de los afiliados sindicales estaba en paro. Bresciani-Turroni, que lo vivió, escribe que en el verano de mil novecientos veintidós el paro prácticamente desapareció, y que había más gente ocupada que antes de la guerra.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Janvier 1920, la première locomotive sortie des usines Krupp - btv1b530360525.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "EL PARO EN ALEMANIA, 1921-1922",
+              "fuente": "Graham (1930), tabla XXVI; afiliados sindicales en paro, por trimestre",
+              "barras": {
+                "unidad": "% de los afiliados sindicales",
+                "datos": [
+                  {
+                    "etiqueta": "1.er trim. 1921",
+                    "valor": 3.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "3.er trim. 1921",
+                    "valor": 1.4,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "2.º trim. 1922",
+                    "valor": 0.6,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "3.er trim. 1922",
+                    "valor": 0.8,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "4.º trim. 1922",
+                    "valor": 2.8,
+                    "tono": "ink"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Docks de Hambourg - btv1b53035540d.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "En Gran Bretaña, el tres de junio de mil novecientos veintiuno, más de dos millones y medio de personas estaban inscritas en las oficinas de empleo. En Estados Unidos, el paro de ese año estuvo entre el nueve y el doce por ciento, según el economista que se consulte. Y según Frank Graham, en mil novecientos veintiuno la producción industrial cayó un treinta y uno por ciento en Inglaterra, mientras la alemana crecía un veintitrés.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Manifestation de chômeurs à Londres - btv1b530970080.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "EL PARO EN 1921-1922: TRES PAÍSES, TRES MEDIDAS",
+              "fuente": "Graham (1930); Ministerio de Trabajo británico (asegurados, 24-6-1921); Romer (1986) y Lebergott para EE. UU.",
+              "barras": {
+                "unidad": "% de paro",
+                "datos": [
+                  {
+                    "etiqueta": "Alemania, sindicatos, 2.º trim. 1922",
+                    "valor": 0.6,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "EE. UU. 1921, Romer",
+                    "valor": 8.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "EE. UU. 1921, Lebergott",
+                    "valor": 11.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Reino Unido, asegurados, jun. 1921",
+                    "valor": 17.8,
+                    "tono": "ink"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1921 recession, President's Conference on Unemployment.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "Los industriales sacaron su conclusión. Si los países de moneda estable tenían paro y Alemania no, la caída del marco debía de ser buena para producir. Según Bresciani-Turroni, el industrial Klöckner advirtió que revalorizar el marco sería un desastre de magnitud increíble. Otro portavoz de la industria fue más lejos: cualquier mejora del marco, aunque fuera gradual, sería una catástrofe.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Klöckner-Werke 1923.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:De wapen- en munitiefabriek van Krupp in Essen, Duitsland, 1920, SFA022808631.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "«Una catástrofe».",
+              "night": true
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "Nadie lo aprovechó mejor que Hugo Stinnes. El periodista Georg Bernhard escribió que compraba una empresa tras otra con créditos de miles de millones, cuyo valor reducía la inflación. Según el recuento de mil novecientos veinticuatro, llegó a tener participación en mil quinientas treinta y cinco empresas, con dos mil ochocientas ochenta y ocho fábricas o filiales. Bresciani-Turroni lo llama el mayor especulador de la inflación.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hugo Stinnes LCCN2014711231.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EL IMPERIO DE HUGO STINNES, 1924",
+              "fuente": "Ufermann y Hüglin (1924), vía Bresciani-Turroni (1937), p. 210; DHM",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1535,
+                "etiqueta": "empresas con su participación, y 2.888 fábricas o filiales",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Charbonnages de Recklinghausen (dans la Ruhr) - btv1b53099402h.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-07",
+          "vo": "El veinticuatro de junio de mil novecientos veintidós, dos jóvenes oficiales de la misma organización que había matado a Erzberger asesinaron en Berlín al ministro de Exteriores, Walther Rathenau. La confianza se rompió. Hubo compras febriles de divisas, y el dólar pasó de trescientos diecisiete marcos de media en junio a más de siete mil quinientos en diciembre. Se multiplicó por veinticuatro en seis meses.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:(Walther) Rathenau - btv1b53069720n.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "EL DÓLAR TRAS EL ASESINATO DE RATHENAU, 1922",
+              "fuente": "Statistisches Reichsamt (1925), medias mensuales",
+              "barras": {
+                "unidad": "Marcos por dólar",
+                "datos": [
+                  {
+                    "etiqueta": "Jun",
+                    "valor": 317.44,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Jul",
+                    "valor": 493.22,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Ago",
+                    "valor": 1134.56,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Sep",
+                    "valor": 1465.87,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Oct",
+                    "valor": 3180.96,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Nov",
+                    "valor": 7183.1,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Dic",
+                    "valor": 7589.27,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Het stoffelijk overschot van de vermoorde Dr, SFA022003693.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "El Ruhr",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "El pretexto fue la madera. El veintiséis de diciembre de mil novecientos veintidós, la Comisión de Reparaciones declaró a Alemania en incumplimiento voluntario de sus entregas de madera a Francia. A mediados de diciembre se habían entregado unos sesenta y cinco mil postes de telégrafo de los doscientos mil encargados. El nueve de enero llegó la misma declaración por el carbón, con el voto en contra de Gran Bretaña.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "El Ruhr",
+                "numero": "IV",
+                "sub": "Enero-septiembre de 1923"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:9-1-23, commission des réparations (arrivée de M. Lübsen, au centre, et de la délégation allemande) - btv1b53097051x.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LOS POSTES DE TELÉGRAFO, A 15 DE DICIEMBRE DE 1922",
+              "fuente": "Comisión de Reparaciones, anexo II; cronología EconBiz",
+              "barras": {
+                "unidad": "Miles de postes",
+                "datos": [
+                  {
+                    "etiqueta": "Encargados",
+                    "valor": 200,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Entregados",
+                    "valor": 65,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "El Museo Histórico Alemán lo describe como un retraso de entrega poco importante, que el primer ministro francés, Raymond Poincaré, usó como pretexto. La historiadora Sally Marks lo ve de otra forma: lo que estaba en juego no eran la madera ni el carbón, sino si el Tratado de Versalles seguía en vigor. La causa profunda de lo que vino después se sigue discutiendo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Raymond Poincare by Samuel Johnson Woolf.png",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Chargement de charbon à Essen sous la protection d'un soldat français - btv1b9022584w.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Signatures du traité de Versailles 28 juin 1919 - page 215.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "El once de enero de mil novecientos veintitrés entraron en el Ruhr cinco divisiones francesas y unidades belgas: unos sesenta mil soldados al principio. Más tarde, según distintos historiadores, entre setenta mil y cien mil. Ese mes, la cotización oficial del dólar en Berlín pasó de siete mil doscientos sesenta marcos el día dos a cuarenta y nueve mil el día treinta y uno.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:French enter Essen LCCN2014715614.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "SOLDADOS FRANCESES Y BELGAS AL ENTRAR EN EL RUHR",
+              "fuente": "DHM (Scriba, 2022); después, entre 70.000 y 100.000 según Ullrich, Wuttke y Sewell",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 60000,
+                "etiqueta": "soldados el 11 de enero de 1923",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Essen, un poste de soldats belges à Sterkrade (près de Essen) - btv1b9023468r.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "Dos días después, el trece de enero, el Gobierno del canciller Wilhelm Cuno llamó a la resistencia pasiva: no colaborar con los ocupantes. Y el Reich se comprometió a pagar los salarios de quienes dejaban de trabajar. Cuánto exactamente se discute: según el historiador Hans Mommsen, entre el sesenta y el cien por ciento de los salarios del Ruhr. Lo que no hizo el Gobierno fue crear impuestos para pagarlo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Cuno, (10-11-23) LCCN2016848091.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Mich zwingt ihr nicht (1923).jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:29-1-23, Düsseldorf, sentinelle sur les quais désertés - btv1b53097269p.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "¿Con qué se pagó? Con la imprenta. El Gobierno dio a la industria del Ruhr grandes créditos que, con la depreciación, se devolvieron en marcos casi sin valor. El impuesto especial para el Ruhr no llegó hasta finales de agosto. Los billetes en circulación pasaron de casi un billón trescientos mil millones de marcos a finales de mil novecientos veintidós a seis billones y medio a finales de abril.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "BILLETES EN CIRCULACIÓN, PRIMEROS MESES DE 1923",
+              "fuente": "Bresciani-Turroni (1937), p. 62; Statistisches Reichsamt (1925), tabla VI.2",
+              "barras": {
+                "unidad": "Billones de marcos",
+                "datos": [
+                  {
+                    "etiqueta": "Fin 1922",
+                    "valor": 1.28,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "31 ene",
+                    "valor": 1.98,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "28 feb",
+                    "valor": 3.51,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "31 mar",
+                    "valor": 5.52,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "30 abr",
+                    "valor": 6.55,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Gutenberg-und-die-Milliardenpressse-1922--(Jg--27)-Heft-33-Seite-469.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Essen, les bureaux du syndicat des Charbons gardé par la troupe - btv1b9023011k.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "Las letras del Tesoro ya no las quería nadie. A finales de abril, el Reichsbank tenía unas tres cuartas partes de las emitidas; a finales de julio, el noventa y tres por ciento. Bresciani-Turroni lo resume en una línea: a cada aumento de letras del Tesoro correspondía un aumento equivalente de billetes. El Estado se prestaba a sí mismo, y el banco central imprimía la diferencia.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:M Reichsbank Berlin 1903.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LETRAS DEL TESORO EN MANOS DEL REICHSBANK",
+              "fuente": "Bresciani-Turroni (1937), p. 63; una sola fuente",
+              "de": {
+                "valor": 75,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 93,
+                "etiqueta": "% a finales de julio de 1923; tres cuartas partes en abril",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Reichsschuldenverwaltung 1922.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-07",
+          "vo": "En febrero, el Reichsbank intentó defender el marco vendiendo divisas, y funcionó unas semanas: el dólar bajó de unos veintiocho mil marcos de media en febrero a veintiún mil en marzo. Según Havenstein, el dique se rompió el dieciocho de abril. Ese mismo día, según el Museo Histórico Alemán, Stinnes compró grandes cantidades de divisas. En junio, el dólar costaba ciento diez mil marcos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "kicker": "EL DÓLAR EN BERLÍN, PRIMER SEMESTRE DE 1923",
+              "fuente": "Statistisches Reichsamt (1925), medias mensuales; Bresciani-Turroni (1937), pp. 63-64",
+              "lineas": {
+                "unidad": "Marcos por dólar",
+                "series": [
+                  {
+                    "nombre": "Dólar",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "Ene",
+                        17972
+                      ],
+                      [
+                        "Feb",
+                        27918
+                      ],
+                      [
+                        "Mar",
+                        21190
+                      ],
+                      [
+                        "Abr",
+                        24457
+                      ],
+                      [
+                        "May",
+                        47670
+                      ],
+                      [
+                        "Jun",
+                        109996
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin, Mitte, Berlin - Börse (4) (Zeno Ansichtskarten).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:30-10-23, Düsseldorf, M. Stinnes (barbu) - btv1b53120633z.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-08",
+          "vo": "La ocupación tuvo un coste humano. El Sábado Santo, treinta y uno de marzo, tropas francesas dispararon contra trabajadores de la fábrica Krupp de Essen, y trece murieron. Según el Museo Histórico Alemán, entre ciento veinte mil y ciento cincuenta mil personas fueron expulsadas del Ruhr y de Renania. Los muertos de toda la ocupación se discuten: ciento cuarenta y nueve según el recuento alemán, ciento catorce según el francés.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Essener Blutsamstag - WA-16-V-50.3WZ-scaled.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EXPULSADOS DEL RUHR Y DE RENANIA, 1923",
+              "fuente": "DHM (Scriba, 2022): entre 120.000 y 150.000 personas",
+              "de": {
+                "valor": 120000,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 150000,
+                "etiqueta": "personas, como máximo; 120.000 como mínimo",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Dortmund children LCCN2014715943.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-09",
+          "vo": "Según el Museo Histórico Alemán, el coste de la resistencia superó con creces las finanzas del Reich. El veintiséis de septiembre de mil novecientos veintitrés, el Gobierno de Gustav Stresemann le puso fin. Y el gran argumento de la inflación útil, el empleo, se vino abajo: el paro sindical pasó del cero coma seis por ciento a mediados de mil novecientos veintidós al veintiocho a finales de mil novecientos veintitrés.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:G. Stresemann LCCN2014716486.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lineas",
+              "kicker": "EL PARO SINDICAL EN ALEMANIA",
+              "fuente": "Graham (1930), tabla XXVI; afiliados sindicales en paro, por trimestre",
+              "lineas": {
+                "unidad": "% de los afiliados sindicales",
+                "series": [
+                  {
+                    "nombre": "Paro",
+                    "tono": "carmin",
+                    "sufijo": " %",
+                    "puntos": [
+                      [
+                        "2T 1922",
+                        0.6
+                      ],
+                      [
+                        "3T 1922",
+                        0.8
+                      ],
+                      [
+                        "4T 1922",
+                        2.8
+                      ],
+                      [
+                        "3T 1923",
+                        9.9
+                      ],
+                      [
+                        "4T 1923",
+                        28.2
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Breadline in Berlin, Literary Digest (1923-12-08), p16.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "La hiperinflación",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Los economistas tienen una definición: hay hiperinflación cuando los precios suben más de un cincuenta por ciento al mes. Es el umbral de Cagan. Con ese criterio, la hiperinflación alemana va de julio de mil novecientos veintidós a noviembre de mil novecientos veintitrés. Pero fue en el verano de mil novecientos veintitrés cuando la cuesta se convirtió en un precipicio.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "La hiperinflación",
+                "numero": "V",
+                "sub": "Alemania · 1923"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 2.3,
+              "clip": {
+                "buscar": "close-up of inflation banknotes, then men counting money in the street",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 1888
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "La inflación alemana"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:GER-86-Reichsbanknote-1 Million Mark (1923).jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "Así subió el dólar en Berlín, media de cada mes. Junio: ciento diez mil marcos. Julio: trescientos cincuenta y tres mil. Agosto: cuatro millones seiscientos mil. Septiembre: noventa y nueve millones. Octubre: veinticinco mil millones. Noviembre: dos billones ciento noventa mil millones. Cada mes, la cifra del mes anterior parece una broma.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL DÓLAR EN BERLÍN, SEGUNDO SEMESTRE DE 1923",
+              "fuente": "Statistisches Reichsamt (1925), tabla II.1a; media de cada mes",
+              "barras": {
+                "unidad": "Marcos por dólar",
+                "datos": [
+                  {
+                    "etiqueta": "Jun",
+                    "valor": 109996,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Jul",
+                    "valor": 353412,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Ago",
+                    "valor": 4620455,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Sep",
+                    "valor": 98860000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Oct",
+                    "valor": 25260000000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Nov",
+                    "valor": 2193600000000,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 2.6,
+              "clip": {
+                "buscar": "animation: one dollar coin against a pile of mark banknotes growing to the ceiling",
+                "archive": {
+                  "id": "postkampf_20230115",
+                  "desde": 324
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Animación de 1940 · un dólar frente a los marcos"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:In a Berlin Bank LCCN2014716642.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "Al frente del Reichsbank estaba Rudolf Havenstein. Ante la comisión que investigaba la caída del marco, sostuvo que la causa no era la llamada inflación: el impulso a la depreciación, dijo, había venido siempre del extranjero. El veinticinco de agosto de mil novecientos veintitrés negó que hubiera inflación de crédito. En la prensa económica, a los billetes de aquel verano se los llamó los rublos de Havenstein.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:R.E. Havenstein LCCN2014716679.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crone-Munzebrock - Gennes - Kempner - Brunswig - Kayzer - Millington-Herrmann - Schroeder - Kraemer - Hillger - Keinath - Urbig - Havenstein - Lentze - Roesicke - Dietrich LCCN2014716674.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:GER-101-Reichsbanknote-1 Million Mark (1923).jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Para fabricar tanto dinero hizo falta una industria. Además de la imprenta del Reich trabajaban imprentas privadas: unas ciento treinta y tres con mil setecientas ochenta y tres prensas, según el Museo Histórico Alemán; otras cuentas, como la del propio Reichsbank, dan cifras menores. Y, según Bresciani-Turroni, mil mujeres y chicas se dedicaban solo a contar los billetes de cada paquete.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Giesecke & devrient ansicht ohne beschreibung - leipzig und seine bauten 788.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "IMPRENTAS PRIVADAS AL SERVICIO DEL REICHSBANK, 1923, SEGÚN LA FUENTE",
+              "fuente": "DHM (LeMO); Bresciani-Turroni (1937), p. 81; Reichsbank (1926) vía Bundesbank: 84 directas y 60 indirectas",
+              "barras": {
+                "unidad": "Imprentas",
+                "datos": [
+                  {
+                    "etiqueta": "DHM (con 1.783 prensas)",
+                    "valor": 133,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Bresciani-Turroni, «unas cien»",
+                    "valor": 100,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Reichsbank, directas",
+                    "valor": 84,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Desde el verano de mil novecientos veintidós, según el Bundesbank, los billetes se imprimían en rotativas, como los periódicos. Y algunos caducaban antes de nacer. Un billete de mil marcos fechado el quince de diciembre de mil novecientos veintidós nunca circuló con ese valor: salió con un sello rojo encima que decía mil millones de marcos. El mismo papel, un millón de veces más caro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1 Milliarde Mark 1923.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EL BILLETE DE 1.000 MARCOS DE DICIEMBRE DE 1922",
+              "fuente": "Bundesbank, Das Papiergeld im Deutschen Reich, p. 42",
+              "de": {
+                "valor": 1000,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1000000000,
+                "etiqueta": "marcos: el valor que le estamparon encima",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Druckerei der Volksstimme.jpeg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "El veinticinco de octubre de mil novecientos veintitrés, el Reichsbank publicó en la prensa una nota casi de disculpa. Ese día había emitido billetes por ciento veinte mil billones de marcos. Pero le habían pedido un trillón: un uno con dieciocho ceros. Y esperaba llegar a medio trillón diario a final de semana. Lo cuenta Bresciani-Turroni, que vivió aquellos días.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Inflatie honderden mensen staan bij de bankgebouwen, SFA022005506.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Reichsbanknote Zwanzig Milliarden Mark (20 milliards), 2016.12.1.4.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-07",
+          "vo": "A finales de noviembre circulaban billetes del Reichsbank por unos cuatrocientos trillones de marcos: unos trescientos millones de veces más que once meses antes. Y, sin embargo, el quince de noviembre, todos esos billetes juntos valían, en oro, apenas ciento cincuenta y cinco millones de marcos. En mil novecientos trece, los billetes del Reichsbank sumaban, de media, más de dos mil millones.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "TODOS LOS BILLETES DEL REICHSBANK, MEDIDOS EN ORO",
+              "fuente": "Statistisches Reichsamt (1925), tabla VI.2; Bundesbank, p. 42",
+              "barras": {
+                "unidad": "Millones de marcos oro",
+                "datos": [
+                  {
+                    "etiqueta": "1913, media",
+                    "valor": 2114,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "15 nov 1923",
+                    "valor": 155,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Children using bundles of marks as toys in Germany, Literary Digest (1923-12-08), p17.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Duitse bankbiljetten uit 1923, toen er een enorme inflatie was in Duitsland, SFA001013613.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-08",
+          "vo": "Cuando el dinero oficial no llegaba, cada uno imprimió el suyo. En mil novecientos veintitrés, el catálogo de Arnold Keller registra cinco mil ochocientos cuarenta y nueve emisores de dinero de emergencia: ciudades, municipios, ferrocarriles y empresas. Tantas empresas, decía Keller, que su catálogo podía servir de guía de direcciones de la industria alemana. En el Ruhr ocupado, según el Bundesbank, casi solo circulaba ese dinero.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:50 Millionen Mark - Stadt Düsseldorf - Reihe I N° 217221, 2016.12.1.2.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EMISORES DE DINERO DE EMERGENCIA EN 1923",
+              "fuente": "Catálogo de Arnold Keller, vía Bundesbank, p. 86; DHM",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 5849,
+                "etiqueta": "ciudades, municipios, ferrocarriles y empresas",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hundert Millionen Mark - Notgeld der Stadt Essen - N° 119620 (monnaie de nécessité), 2016.12.1.3(1).jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-09",
+          "vo": "Los sueldos tuvieron que adaptarse. Las empresas pasaron del pago semanal al pago diario, y después al pago en la pausa del mediodía. Según Bresciani-Turroni, desde el verano los salarios se ataron al coste de la vida y, en algunas industrias, al dólar del día de pago. Y a finales de agosto, patronal y sindicatos pactaron fijar el salario según los precios previstos para la semana en que se iba a gastar.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 1.7,
+              "clip": {
+                "buscar": "money changing in the street, newspaper kiosk, man reading a paper on a tram",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 1925
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "La inflación alemana"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Verkeer, SFA022809235.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Mensen bieden hele pakken bankbiljetten,papiergeld voor een brood tijdens de enorme, SFA002004196.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hugo Stinnes-Riebeck Montan und Oelwerke Eine Million Mark Gutschein - DPLA - 3c177062e2ce86895fba048145f3e194 (page 2).jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-10",
+          "vo": "Y aquí está la trampa de las cifras. Convertido a oro, el pan de noviembre costaba treinta y ocho pfennig y medio: más que en mil novecientos trece, cuando costaba menos de treinta. En enero había costado seis. Los precios no subían todos a la vez: corrían detrás del dólar, a saltos. Holtfrerich, siguiendo a Bortkiewicz, llama al tipo de cambio el marcapasos de los precios.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL KILO DE PAN EN BERLÍN, MEDIDO EN ORO",
+              "fuente": "Statistisches Reichsamt (1925), tabla IV.2, columna b; una sola fuente",
+              "barras": {
+                "unidad": "Pfennig oro",
+                "datos": [
+                  {
+                    "etiqueta": "1913 (26-29)",
+                    "valor": 29,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Ene 1923",
+                    "valor": 6,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Nov 1923",
+                    "valor": 38.5,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Dic 1923",
+                    "valor": 39.9,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin - la foule assiège la voiture d'un boulanger et se dispute le pain à coup de millions de Marks - btv1b9024458p.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Duitsland, naweeën van de Eerste Wereldoorlog, SFA022005507.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "Quién ganó y quién perdió",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "Empecemos por los que perdieron. A finales de mil novecientos trece, los depósitos de las cajas de ahorro alemanas sumaban unos diecinueve mil setecientos millones de marcos. A finales de mil novecientos veinticuatro, ya en la moneda nueva, menos de seiscientos millones. No son unidades del todo comparables, pero el Museo Histórico Alemán lo resume sin rodeos: el ahorro de generaciones quedó aniquilado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "Quién ganó y quién perdió",
+                "numero": "VI",
+                "sub": "Alemania · 1914-1925"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 3.6,
+              "clip": {
+                "buscar": "queue of men and women along the facade of a public building",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 1904
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Alemania, años veinte"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Sparbuch Oberamtssparkasse RV Wirtschaftsmuseum RV.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "DEPÓSITOS DE LAS CAJAS DE AHORRO ALEMANAS",
+              "fuente": "Statistisches Jahrbuch für das Deutsche Reich 1930, p. 417, y 1931, p. 393; marcos de 1913 frente a Reichsmark de 1924",
+              "barras": {
+                "unidad": "Millones",
+                "datos": [
+                  {
+                    "etiqueta": "Fin de 1913",
+                    "valor": 19689,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Fin de 1924",
+                    "valor": 595.4,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "Los rentistas lo perdieron casi todo. Según Holtfrerich, la parte de la renta nacional que venía de intereses y rentas fijas cayó del doce y medio por ciento en mil novecientos trece al dos por ciento en mil novecientos veinticinco. Muchos tuvieron que subarrendar habitaciones de su casa. Y, según Bresciani-Turroni, unas sesenta fundaciones benéficas de Berlín pasaron de cincuenta y seis millones de marcos oro a un millón y medio.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA RENTA DEL CAPITAL MONETARIO",
+              "fuente": "Holtfrerich (2023), p. 88; intereses y rentas fijas como parte de la renta nacional",
+              "barras": {
+                "unidad": "% de la renta nacional",
+                "datos": [
+                  {
+                    "etiqueta": "1913",
+                    "valor": 12.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1925",
+                    "valor": 2.0,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Danzig 1923 132 Kleinrentnerhilfe.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Orphanage, Berlin 1880.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "Bresciani-Turroni describe a ancianos, inválidos de guerra, padres de caídos y pensionistas cuya renta destruida era, a menudo, su único ingreso. Y la inflación aplastó las diferencias de sueldo. En noviembre de mil novecientos veintitrés, un funcionario de la escala más baja, como un revisor de tren, conservaba más de la mitad de su sueldo real de mil novecientos trece. Un alto funcionario, menos de un tercio.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 0.9,
+              "clip": {
+                "buscar": "relief committee sign and children with bowls at a soup kitchen",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 2148
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Ayuda a los niños alemanes, años veinte"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "SUELDO REAL DE UN FUNCIONARIO DEL REICH, NOVIEMBRE DE 1923",
+              "fuente": "Statistisches Reichsamt (1925), cuadro VI.4; Bresciani-Turroni (1937) para septiembre",
+              "barras": {
+                "unidad": "% del sueldo real de 1913",
+                "datos": [
+                  {
+                    "etiqueta": "Alto funcionario",
+                    "valor": 31.8,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Escala media",
+                    "valor": 40.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Escala baja (revisor de tren)",
+                    "valor": 55.6,
+                    "tono": "ink"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Deutsche Reichsbahn Zwanzig Milliarden Mark Oktober 1923.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "¿Y los obreros? Su salario real subía y bajaba como una montaña rusa. Un minero del Ruhr cobraba en enero de mil novecientos veintitrés el cuarenta y ocho por ciento de su salario real de antes de la guerra; en marzo, el ochenta y seis; en julio, otra vez el cuarenta y ocho. Cuánto perdió el obrero medio se discute: el Museo Histórico Alemán habla de un salario real cercano al cuarenta por ciento del de preguerra.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "kicker": "SALARIO REAL DE LOS MINEROS DEL RUHR",
+              "fuente": "Statistisches Reichsamt, vía Bresciani-Turroni (1937), pp. 305-309; DHM da cerca del 40 % de media",
+              "lineas": {
+                "unidad": "% del salario real de antes de la guerra",
+                "series": [
+                  {
+                    "nombre": "Mineros",
+                    "tono": "carmin",
+                    "sufijo": " %",
+                    "puntos": [
+                      [
+                        "Ene 23",
+                        47.7
+                      ],
+                      [
+                        "Mar 23",
+                        86.2
+                      ],
+                      [
+                        "Jul 23",
+                        47.6
+                      ],
+                      [
+                        "Oct 23",
+                        81.2
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Mijnstaking,Kolenstaking, SFA022808934.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 1.8,
+              "clip": {
+                "buscar": "soup kitchen, children and adults receiving soup from large pots",
+                "archive": {
+                  "id": "postkampf_20230115",
+                  "desde": 308
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Comedor popular · película británica de 1940"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Al otro lado estaban los deudores. Los tribunales mantenían que un marco es un marco, así que las deudas se devolvían con papel sin valor. Según Bresciani-Turroni, las grandes fincas quedaron casi libres de hipotecas, y los campesinos se beneficiaron de los altos precios agrícolas y de la desaparición de sus deudas. Y las quiebras de empresas cayeron casi a cero en mil novecientos veintitrés.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:17b Traktoreinsatz um 1920.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "TASA DE QUIEBRAS DE EMPRESAS EN ALEMANIA",
+              "fuente": "Brunnermeier y otros (2023); Holtfrerich (2023)",
+              "de": {
+                "valor": 1.5,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 0,
+                "etiqueta": "% en 1923: casi cero; 1,5 % en 1920",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Doristhal Kl. Koenigsbruch.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "Un estudio de dos mil veintitrés, de Brunnermeier y otros economistas, encontró que las empresas más endeudadas en marcos ganaron más valor en bolsa, pagaron menos intereses y contrataron más. El estudio abre con una frase del historiador Frederick Taylor: la Alemania de la inflación era un paraíso para cualquiera que debiera dinero. Hugo Stinnes murió en abril de mil novecientos veinticuatro, y su imperio empezó a deshacerse.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin Börse mit Friedrichsbrücke um 1900.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "Un paraíso para quien debiera dinero.",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:30-10-23, Düsseldorf, M. Stinnes (barbu) - btv1b53120633z.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-07",
+          "vo": "El mayor deudor de todos era el Estado. La guerra le había costado ciento sesenta y cuatro mil millones de marcos. Al cambio de la reforma monetaria, un billón de marcos de papel por cada marco nuevo, esa cantidad equivalía a dieciséis pfennig y medio. Los servicios científicos del Bundestag lo resumen así: uno de los mayores beneficiarios de la inflación fue también el Estado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE VALÍA EL COSTE DE LA GUERRA, NOVIEMBRE DE 1923",
+              "fuente": "DHM (LeMO); 164.000 millones de marcos al cambio de 1 billón por 1 Rentenmark",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 16.4,
+                "etiqueta": "pfennig",
+                "decimales": 1
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Reichstagsgebaeude.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Deutsche Kriegsanleihe 1917.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-08",
+          "vo": "Y hubo perdedores fuera. Según Holtfrerich, entre mil novecientos diecinueve y mil novecientos veintidós, los extranjeros que compraron marcos esperando que se recuperaran perdieron al menos quince mil millones de marcos oro: más de cinco veces lo que Alemania pagó en efectivo por reparaciones. Para él, la inflación trasladó recursos del extranjero a Alemania. Stephen Schuker defiende una idea parecida. Es una tesis, no un hecho cerrado.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Curb brokers in Wall Street, New York City LCCN92519195.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LA PARADOJA DE HOLTFRERICH",
+              "fuente": "Holtfrerich (2023), p. 88; una sola fuente; Schuker (1988) sostiene una idea análoga",
+              "barras": {
+                "unidad": "Miles de millones de marcos oro",
+                "datos": [
+                  {
+                    "etiqueta": "Pérdidas de extranjeros con marcos, 1919-1922",
+                    "valor": 15,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Reparaciones pagadas en efectivo, 1919-1923",
+                    "valor": 2.6,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Inflatie honderden mensen staan bij de bankgebouwen, SFA022005506.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-09",
+          "vo": "En mil novecientos veinticinco, una ley devolvió una parte: las hipotecas se revalorizaron al veinticinco por ciento de su valor en oro; la deuda pública, al dos y medio. Una acreedora desde mil novecientos once recibió mil quinientos marcos nuevos por una hipoteca de seis mil, y doce con cincuenta por un bono de quinientos. Demandó al Reich. En mil novecientos veintisiete, el tribunal supremo falló que el Estado no respondía.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA REVALORIZACIÓN DE 1925",
+              "fuente": "Ley de 16 de julio de 1925; Bresciani-Turroni (1937), pp. 322-325; Reichsgericht (RGZ 118, 325)",
+              "barras": {
+                "unidad": "% del valor oro original",
+                "datos": [
+                  {
+                    "etiqueta": "Hipotecas",
+                    "valor": 25,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Obligaciones industriales",
+                    "valor": 15,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Deuda pública",
+                    "valor": 2.5,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Leipzig Reichsgericht 1900.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1911-01-12 und -18 Notar Karl Linckelmann für Maurermeister Franz Senger Pfandbrief Haasemannstraße 10 in Linden bei HannoverSchwarzburgische Hypothekenbank in Sondershausen, S. 1.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "El final",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "En el otoño de mil novecientos veintitrés, el Gobierno decidió cortar por lo sano. El trece de octubre se aprobó una ley de plenos poderes. El quince, un decreto creó la Rentenbank, un banco nuevo para una moneda nueva. El plan lo diseñó el ministro de Finanzas, Hans Luther. La idea de respaldar el dinero con bienes reales venía de Karl Helfferich, que antes había propuesto un marco centeno.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "El final",
+                "numero": "VII",
+                "sub": "Noviembre de 1923-1924"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Reichskanzler Luther ca1925 146-2002-007-34.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Dr. Karl Helfferich LCCN2014710011.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "El quince de noviembre empezaron a circular los rentenmarks. No había oro detrás: el capital de la Rentenbank se cubrió con una carga sobre la tierra agrícola, industrial y comercial. El cambio, un rentenmark por cada billón de marcos de papel. Y el veinte de noviembre, el dólar quedó fijado en cuatro billones doscientos mil millones de marcos. Es decir, cuatro rentenmarks con veinte: el mismo número que en mil novecientos catorce.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Zwei Rentenmark a.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EL CAMBIO DE LA REFORMA, NOVIEMBRE DE 1923",
+              "fuente": "DHM (Währungsreform 1923); Holtfrerich (2023); Bresciani-Turroni (1937), p. 347",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1000000000000,
+                "etiqueta": "marcos de papel = 1 Rentenmark; el dólar, a 4,20 Rentenmark",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crone-Munzebrock - Gennes - Kempner - Brunswig - Kayzer - Millington-Herrmann - Schroeder - Kraemer - Hillger - Keinath - Urbig - Havenstein - Lentze - Roesicke - Dietrich LCCN2014716674.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "Lo decisivo no fue el respaldo, sino el límite: un tope de mil doscientos millones de rentenmarks de crédito al Estado. El techo total de emisión varía según la fuente: Bresciani-Turroni da una cifra y Sargent, otra. Y el quince de noviembre, otro decreto suspendió el descuento de letras del Tesoro en el Reichsbank. Hasta entonces, según Sargent, el Gobierno pagaba prácticamente todo su gasto con la imprenta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EL TOPE DE CRÉDITO AL ESTADO",
+              "fuente": "Bresciani-Turroni (1937), p. 348; Sargent (1982), p. 83: coinciden en esta cifra; discrepan en el techo total",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1200,
+                "etiqueta": "millones de Rentenmark",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Deutsches Reichsgesetzblatt 23T1 100 0963.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:50 Millionen Reichsbank Berlin.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "El doce de noviembre, Hjalmar Schacht fue nombrado comisario de la moneda. El veinte, el mismo día en que se fijó el dólar, murió de un infarto Rudolf Havenstein, el presidente del Reichsbank. En diciembre, Schacht ocupó su puesto, contra la oposición de la derecha, de parte de la industria y de la propia dirección del banco. Diez años después, en mil novecientos treinta y tres, Hitler volvería a ponerlo al frente del Reichsbank.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Dr. Hjalmar Schacht (3x4 cropped).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:M Reichsbank Berlin 1903.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:(De g. à d.) M. Schacht (président de la Reichsbank), Dr Meyer, 21-1-24 (à l'hôtel Astoria à Paris, lors de la) conférence (des) experts - btv1b53124427z.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "La prueba llegó enseguida. En diciembre, el Gobierno pidió a la Rentenbank más crédito por encima del límite. La dirección se negó, y esa negativa reforzó la confianza. Según cuenta Sargent a partir de una biografía, el matemático David Hilbert había comentado, escéptico, que un problema no se resuelve cambiando el nombre de la variable. Pero lo nuevo no era el nombre: era el límite.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:David Hilbert, 1907.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "No era el nombre. Era el límite.",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Docteur (August) Lentze, président de Deutsche Rentenbanks (CNews) - btv1b53120901z.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "El Estado también recortó. Un decreto del veintisiete de octubre ordenó suprimir una cuarta parte de las plazas de funcionarios. El Reichsbank, que en un año había pasado de unos trece mil a casi veintitrés mil empleados, empezó a despedir en diciembre. Y en enero de mil novecientos veinticuatro, según los datos que recoge Sargent, los ingresos ordinarios del Reich ya superaban a sus gastos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Deutsches Reichsgesetzblatt 23T1 108 0999.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "EMPLEADOS DEL REICHSBANK",
+              "fuente": "Sargent (1982), p. 84, a partir de Young (1925); una sola fuente",
+              "barras": {
+                "unidad": "Empleados",
+                "datos": [
+                  {
+                    "etiqueta": "Fin de 1922",
+                    "valor": 13316,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Fin de 1923",
+                    "valor": 22909,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:M Reichsbank Berlin Kassenhalle 1903.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-07",
+          "vo": "Quedaban las reparaciones. El nueve de abril de mil novecientos veinticuatro se presentó el plan que lleva el nombre del banquero de Chicago Charles Dawes. Pagos anuales que empezaban en mil millones de marcos y subían hasta dos mil quinientos millones al quinto año, sin fijar la suma total. El Reichsbank y los ferrocarriles quedaron bajo control internacional. El Reichstag lo aprobó el veintinueve de agosto.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portrait of Vice President Charles Dawes of Illinois, 1925.jpeg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "EL PLAN DAWES: LO QUE SE PAGARÍA CADA AÑO",
+              "fuente": "DHM (Dawes-Plan); Departamento de Estado de EE. UU.; sin suma total fijada",
+              "barras": {
+                "unidad": "Millones de marcos",
+                "datos": [
+                  {
+                    "etiqueta": "Primer año",
+                    "valor": 1000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Quinto año",
+                    "valor": 2500,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:9-4-24, remise du rapport du comité des experts (dans une salle de l'hôtel Astoria) - btv1b53127446c.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-08",
+          "vo": "Con el plan llegó un préstamo de ochocientos millones de marcos, unos doscientos millones de dólares. Cerca de la mitad se colocó en Wall Street a través de J. P. Morgan, y se cubrió de sobra enseguida. Dawes compartiría el Nobel de la Paz de mil novecientos veinticinco. Y el treinta de agosto de mil novecientos veinticuatro nació el Reichsmark, con cobertura en oro y divisas: uno por cada billón de marcos viejos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 2.2,
+              "clip": {
+                "buscar": "American newspaper headlines on German loans, then factory chimneys",
+                "archive": {
+                  "id": "HERE_IS_GERMANY",
+                  "desde": 2133
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Prensa de EE. UU., 1924"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1000 Reichsmark 1924-10-11.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 2.0,
+              "clip": {
+                "buscar": "tram stop with passengers getting on and off, Berlin",
+                "archive": {
+                  "id": "berlin-symphony-of-a-great-city-1927-tmdb222",
+                  "desde": 625
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, 1927"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Vice Pres. Chas. G. Dawes, 3-3-25 LCCN2016850138.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-09",
+          "vo": "Y la economía volvió. Según los índices de Graham que recoge Sargent, la producción por habitante cayó de ochenta y seis en mil novecientos veintidós a cincuenta y cuatro en mil novecientos veintitrés, y volvió a noventa en mil novecientos veinticinco. Para Sargent, la hiperinflación terminó de golpe, gracias a un cambio de régimen creíble, y con un coste en producción mucho menor del que se temía.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 3.6,
+              "clip": {
+                "buscar": "avenue with trams and double-decker buses, a crowd crossing the street",
+                "archive": {
+                  "id": "berlin-symphony-of-a-great-city-1927-tmdb222",
+                  "desde": 1465
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, 1927"
+              }
+            },
+            {
+              "tipo": "lineas",
+              "kicker": "PRODUCCIÓN POR HABITANTE EN ALEMANIA",
+              "fuente": "Graham (1930), vía Sargent (1982), tabla G6; índice",
+              "lineas": {
+                "unidad": "Índice",
+                "series": [
+                  {
+                    "nombre": "Producción",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "1922",
+                        86
+                      ],
+                      [
+                        "1923",
+                        54
+                      ],
+                      [
+                        "1924",
+                        77
+                      ],
+                      [
+                        "1925",
+                        90
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Fabrieken voor elektrische huishoudelijke apparaten, AEG (Allgemeine Elektricitäts Gesellschaft), SFA001006893.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 3.6,
+              "clip": {
+                "buscar": "tram passing in the foreground, cars and a horse carriage at a crossing",
+                "archive": {
+                  "id": "berlin-symphony-of-a-great-city-1927-tmdb222",
+                  "desde": 2005
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, 1927"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "El debate",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "Queda la pregunta de fondo: ¿fueron culpables las reparaciones? En los años veinte, el Gobierno alemán y economistas como Helfferich dijeron que sí: las reparaciones hundían la balanza de pagos, el marco caía, subían los precios y había que imprimir. En mil novecientos ochenta y dos, Thomas Sargent las llamó una fuerza muy importante de la hiperinflación, por la incertidumbre sobre cuánto y cuándo habría que pagar.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "El debate",
+                "numero": "VIII",
+                "sub": "Las preguntas abiertas"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin, séance au Reichstag - btv1b53130604g.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Dr. Karl Helfferich LCCN2014710011.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Bresciani-Turroni lo negó. El déficit era anterior a las reparaciones, y la caída de mil novecientos veintidós siguió cuando los pagos se suspendieron. Las reparaciones hicieron daño, dice, porque se pagaron con dinero recién creado. Sally Marks va más lejos: la inflación venía de mucho antes que las reparaciones, y Alemania supo sacar partido de su posición propagandística.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Gutenberg-und-die-Milliardenpressse-cropped.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:German propaganda poster, Upper Silesia Plebiscite 1.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Erich Schilling – Französische Propaganda Was die rohe Gewalt nicht fertig bekommt, muss die Lüge vollenden (French propaganda snake lies) 1923 No known copyright.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "La pregunta más incómoda es si la inflación se buscó a propósito. Expertos británicos y franceses de los años veinte acusaron a los dirigentes alemanes de alimentarla para no pagar. Según Sally Marks, las actas de la Cancillería muestran que la reforma fiscal y la estabilización se aplazaron en mil novecientos veintidós y veintitrés, a la espera de rebajas. Y Stinnes y parte de la industria se opusieron a estabilizar.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Berlin, Mitte, Wilhelmstraße, Reichskanzlerpalais.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Cuno, (10-11-23) LCCN2016848091 (cropped).jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:30-10-23, Düsseldorf, M. Stinnes (barbu) - btv1b53120633z.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Holtfrerich lo matiza. Culpar solo a la ocupación del Ruhr fue, escribe, propaganda política del Gobierno de entonces. Pero en febrero y marzo de mil novecientos veintitrés, el Reichsbank gastó gran parte de sus reservas en sostener el marco: no todo fue pasividad. Y Bresciani-Turroni añade que las clases dirigentes desviaron el enfado de los arruinados culpando a Versalles. La cuestión sigue abierta.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hände weg vom Ruhrgebiet (1923).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 1.5,
+              "clip": {
+                "buscar": "mass demonstrations in a German city after the war",
+                "archive": {
+                  "id": "postkampf_20230115",
+                  "desde": 363
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Manifestaciones, Alemania de posguerra · película de 1940"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Erich Schilling – Die Mißgeburt der Pariser Konferenz \"Wenn sie nur nicht ihre Eltern erdrückt!\" (The monstrosity of the Paris Conference) 1921 Satirical cartoon No known copyright (low-res).jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Y la pregunta que más se repite: ¿llevó la hiperinflación a Hitler? El ocho y el nueve de noviembre de mil novecientos veintitrés, con la inflación en su punto culminante, Hitler intentó un golpe en Múnich. Fracasó en horas. Hubo veinte muertos: quince golpistas, cuatro policías y un transeúnte. Fue condenado a cinco años de prisión y salió en libertad condicional en diciembre de mil novecientos veinticuatro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 0.5,
+              "clip": {
+                "buscar": "printed proclamation of the putsch government, then police with rifles",
+                "archive": {
+                  "id": "postkampf_20230115",
+                  "desde": 400
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Múnich, 1923 · película británica de 1940"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:München, Bayern - Feldherrenhalle (3) (Zeno Ansichtskarten).jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hitler, Maurice, Kriebel, Hess, Weber, prison de Landsberg en 1924.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hitlerputsch, barricade in Munich (1923).jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-06",
+          "vo": "Pero después vinieron cuatro años de estabilidad. En mayo de mil novecientos veintiocho, el partido nazi sacó algo más del dos por ciento de los votos. El salto llegó con la crisis: un dieciocho por ciento en septiembre de mil novecientos treinta y un treinta y siete en julio de mil novecientos treinta y dos. Entretanto, el paro pasó de un millón cuatrocientos mil personas en mil novecientos veintiocho a cinco millones seiscientos mil en mil novecientos treinta y dos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 3.4,
+              "clip": {
+                "buscar": "cafe entrance and terrace full of well-dressed customers",
+                "archive": {
+                  "id": "berlin-symphony-of-a-great-city-1927-tmdb222",
+                  "desde": 2600
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, 1927"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Un bureau de vote à Berlin - btv1b90526649.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "EL VOTO NAZI EN LAS ELECCIONES AL REICHSTAG",
+              "fuente": "Galofré-Vilà, Meissner, McKee y Stuckler (2017-2020); mayo de 1928: «algo más del 2 %»",
+              "barras": {
+                "unidad": "% de los votos",
+                "datos": [
+                  {
+                    "etiqueta": "Mayo 1928",
+                    "valor": 2,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Sep 1930",
+                    "valor": 18.3,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Jul 1932",
+                    "valor": 37.3,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 3.4,
+              "clip": {
+                "buscar": "at night, crowds outside the Gloria-Palast cinema with illuminated signs",
+                "archive": {
+                  "id": "berlin-symphony-of-a-great-city-1927-tmdb222",
+                  "desde": 3385
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, 1927"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-07",
+          "vo": "De mil novecientos treinta a mil novecientos treinta y dos gobernó Heinrich Brüning, con recortes de gasto, subidas de impuestos y rebajas de sueldos. Un estudio de Galofré-Vilà y sus colegas encontró que, donde hubo más austeridad, el voto nazi fue relativamente mayor. Así que la respuesta es un debate. Una lectura intermedia sostiene que la inflación arruinó a la clase media y sembró desconfianza, y que la deflación recogió la cosecha.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Erich Salomon Heinrich Brüning Reichstag 1930.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Erich Salomon Kabinett Brüning 1930.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crisisjaren, Duitsland, SFA022807673.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Lo que queda",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Cien años después, la palabra hiperinflación todavía asusta. Pero conviene medirla bien. En la tabla mundial de los economistas Hanke y Krus, el peor mes de Alemania fue octubre de mil novecientos veintitrés: los precios subieron un veintinueve mil quinientos por ciento. Se duplicaban cada tres días y diecisiete horas. Y aun así, Alemania es solo la quinta de esa tabla.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "Lo que queda",
+                "numero": "IX",
+                "sub": "La inflación en noviembre de 2026"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "ALEMANIA, OCTUBRE DE 1923: LA INFLACIÓN DE UN MES",
+              "fuente": "Hanke y Krus (2012), «World Hyperinflations», precios al por mayor",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 29500,
+                "etiqueta": "% en un solo mes",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Germany Hyperinflation.png",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Berlin Reichstag building glass dome today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Berlín, hoy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Hungría, en julio de mil novecientos cuarenta y seis, duplicaba sus precios cada quince horas. Zimbabue, a mediados de noviembre de dos mil ocho, casi cada veinticinco. Y América Latina conoce esta historia de primera mano: Venezuela cerró dos mil dieciocho con una inflación del ciento treinta mil por ciento según su banco central, y de casi un millón setecientos mil por ciento según la Asamblea Nacional.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CADA CUÁNTO SE DUPLICABAN LOS PRECIOS EN EL PEOR MES",
+              "fuente": "Hanke y Krus (2012), tabla de hiperinflaciones",
+              "barras": {
+                "unidad": "Horas",
+                "datos": [
+                  {
+                    "etiqueta": "Hungría, jul 1946",
+                    "valor": 15,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Zimbabue, nov 2008",
+                    "valor": 24.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Alemania, oct 1923",
+                    "valor": 88.8,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:HUP 1000M 1946 obverse.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Caracas city skyline Avila mountain today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Caracas, hoy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Hoy Venezuela está lejos de aquello, pero no en calma. Según su banco central, en octubre de dos mil veintiséis los precios subieron un seis coma dos por ciento en el mes y casi un trescientos setenta y siete por ciento en un año: el tercer mes seguido con tasa mensual de un dígito. El Fondo Monetario prevé una media del cuatrocientos sesenta y ocho por ciento este año, la más alta de América Latina.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "VENEZUELA, OCTUBRE DE 2026: INFLACIÓN EN UN AÑO",
+              "fuente": "Banco Central de Venezuela, vía Finanzas Digital (4-11-2026); mensual: 6,2 %",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 376.9,
+                "etiqueta": "% interanual; FMI: 467,9 % de media en 2026",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Caracas street market vendors today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Caracas, hoy"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:2019 Venezuelan protests - bolívares.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Venezuelan bolivar banknotes and US dollars cash today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Venezuela, hoy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "En Argentina, el INDEC publicó el doce de noviembre el dato de octubre: un dos coma dos por ciento en el mes y un treinta y tres coma uno por ciento en un año. El Fondo Monetario prevé una media del treinta y dos y medio por ciento para dos mil veintiséis. Es mucho para cualquier familia que cobra en pesos. Pero el umbral de la hiperinflación es un cincuenta por ciento al mes.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Buenos Aires supermarket shoppers prices today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Buenos Aires, hoy"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LA INFLACIÓN DE UN MES, OCTUBRE DE 2026, FRENTE AL UMBRAL",
+              "fuente": "INDEC (12-11-2026); BCV vía Finanzas Digital; TÜİK vía Anadolu; Cagan (1956)",
+              "barras": {
+                "unidad": "% en un mes",
+                "datos": [
+                  {
+                    "etiqueta": "Argentina",
+                    "valor": 2.2,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Turquía",
+                    "valor": 2.58,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Venezuela",
+                    "valor": 6.2,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Umbral de hiperinflación",
+                    "valor": 50,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:250517 Wikimedia Youth Conference 2025 - Day 2 Exchange table 4.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Buenos Aires Obelisco Avenida 9 de Julio today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Buenos Aires, hoy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Europa tampoco está quieta. Según la estimación rápida de Eurostat, la inflación de la zona del euro fue del cuatro por ciento en octubre, la más alta desde septiembre de dos mil veintitrés, empujada por una subida de la energía de casi el veintiuno por ciento por el conflicto en Oriente Próximo. En Alemania bajó al dos coma ocho. Y Turquía, según su oficina estadística, cerró octubre en casi el treinta por ciento interanual.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "ZONA DEL EURO, OCTUBRE DE 2026",
+              "fuente": "Eurostat, estimación rápida (4-11-2026), vía FXStreet y Trading Economics; dato definitivo el 18-11",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4.0,
+                "etiqueta": "% interanual; energía: +20,8 %",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "European Central Bank headquarters Frankfurt today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Fráncfort, hoy"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Euro banknotes, Europa series.png",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Istanbul Grand Bazaar shoppers today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Estambul, hoy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "Ninguno de esos países está hoy en hiperinflación. La Alemania de octubre de mil novecientos veintitrés subía en un mes casi cinco mil veces más que Venezuela hoy, la más alta de los tres. Comparar no sirve para asustar, sino para medir. Y lo que mide Weimar es otra cosa: lo que pasa cuando un Estado se financia con la imprenta y nadie cree que vaya a parar.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Banknote printing press modern money printing today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Imprenta de billetes, hoy"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:GER-131-Reichsbanknote-10 Trillion Mark (1923).jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Euro banknotes and coins close up today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Hoy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-07",
+          "vo": "Alemania no salió de la hiperinflación con una moneda más bonita, sino con un límite que alguien se negó a saltarse. Keynes lo vio en aquellos años: imprimir billetes es un impuesto tan real como el de la cerveza, solo que sus recibos se guardan en la cartera. Y lo pagaron, sobre todo, los que habían confiado en el Estado. Una moneda vale lo que vale la promesa de no imprimir más.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "sub": "Una moneda vale lo que vale la promesa de no imprimir más.",
+                "suscribete": true
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1000 Rentenmark 1923-11-1 xx.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Wallet with cash banknotes close up today",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Hoy"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "Cuando Un Dólar Valía 4,2 Billones De Marcos: La Hiperinflación De Weimar",
+    "descripcion": "En julio de 1914, un dólar costaba en Berlín unos 4,20 marcos. El 20 de noviembre de 1923, la cotización oficial era de 4,2 billones de marcos: un millón de millones multiplicado por cuatro. Un kilo de pan pasó de unos 28 pfennig en 1913 a más de 200.000 millones de marcos de media en noviembre de 1923. ¿Cómo destruye un país industrial su propia moneda, y quién pagó la factura?\n\nEste documental sigue el camino del marco: una guerra pagada con empréstitos y deuda, la reforma fiscal de Erzberger, el Tratado de Versalles y el plan de pagos de Londres, los años en que la inflación pareció útil y el paro casi desapareció, Hugo Stinnes, el asesinato de Rathenau, la ocupación del Ruhr y la resistencia pasiva pagada con la imprenta, las imprentas privadas y el dinero de emergencia, los ahorradores y los deudores, el Rentenmark, Schacht y el plan Dawes, y el debate de los historiadores sobre las reparaciones y sobre Hitler. Y termina con una comparación honesta con la inflación de octubre de 2026 en Venezuela, Argentina, Turquía y la zona del euro.\n\nCAPÍTULOS\n[CAPITULOS]\n\nLO QUE VAS A VER\n• El dólar en Berlín: 4,20 marcos en 1914, 7.589 de media en diciembre de 1922 y 4,2 billones el 20 de noviembre de 1923 (cifras oficiales del Statistisches Reichsamt).\n• Una guerra de unos 164.000 millones de marcos en la que los impuestos cubrieron entre el 6 % y el 13 % del gasto, según cómo se cuente.\n• Tres cifras para las reparaciones: 132.000 millones de marcos oro (plan de Londres), 50.000 millones (la deuda real según Sally Marks) y unos 40.000 millones (el máximo según Keynes).\n• La inflación útil: un 0,6 % de paro sindical en Alemania en 1922, mientras Gran Bretaña tenía más de 2,5 millones de inscritos en las oficinas de empleo.\n• Las imprentas: unas 133 empresas privadas con 1.783 prensas según el Museo Histórico Alemán; otras cuentas dan cifras menores.\n• Quién perdió y quién ganó: las cajas de ahorro, de unos 19.700 millones de marcos en 1913 a menos de 600 millones en 1924; la deuda de guerra del Estado, reducida a 16,4 pfennig.\n• El final: un Rentenmark por cada billón de marcos de papel, un tope de 1.200 millones de crédito al Estado y un banco que se negó a saltárselo.\n• Hoy: Venezuela, 6,2 % en un mes y 376,9 % en un año; Argentina, 2,2 % y 33,1 %; zona del euro, 4,0 %. Ninguna, en hiperinflación.\n\nCuando una cifra se discute, el vídeo lo dice. Lo que de verdad se exigía y se pagó por reparaciones, el número de imprentas, el techo de emisión del Rentenmark, la caída del salario obrero o el papel de la hiperinflación en el ascenso de Hitler tienen rangos y posturas distintas según la fuente: aquí se dan con quién los defiende.\n\nFUENTES\nStatistisches Reichsamt — Zahlen zur Geldentwertung in Deutschland 1914 bis 1923 (1925); Statistisches Jahrbuch für das Deutsche Reich (1930 y 1931)\nBresciani-Turroni — The Economics of Inflation (1937); Graham — Exchange, Prices and Production in Hyper-Inflation (1930)\nHoltfrerich — Die große Inflation in Deutschland 1914 bis 1923, Wirtschaftsdienst (2023); Sargent — The Ends of Four Big Inflations (1982)\nDeutsche Bundesbank — Das Papiergeld im Deutschen Reich 1871-1948; Deutsches Historisches Museum (LeMO); Deutscher Bundestag (2023); DIW (2019)\nKeynes — The Economic Consequences of the Peace (1919); Marks (1972, 1978); Brunnermeier y otros (2023); Galofré-Vilà, Meissner, McKee y Stuckler (NBER)\nHanke y Krus — World Hyperinflations (2012); Historisches Lexikon Bayerns; Departamento de Estado de EE. UU.; Reichsgericht (1927); Karlsruher Zeitung (22-11-1923)\nINDEC (12-11-2026); Banco Central de Venezuela; FMI, WEO de octubre de 2026 (vía prensa); Eurostat (4-11-2026); TÜİK\nImágenes: dominio público de Wikimedia Commons y de archive.org, con crédito; imágenes de hoy rotuladas como tales\n\nSi encuentras un error, dímelo en comentarios y lo corrijo.\n\n#HistoriaEconómica #Hiperinflación #RepúblicaDeWeimar",
+    "capitulos": [
+      "El prólogo: un dólar, 4,2 billones de marcos",
+      "La herencia de la guerra",
+      "Versalles y las reparaciones",
+      "La inflación útil (1920-1922)",
+      "El Ruhr (1923)",
+      "La hiperinflación",
+      "Quién ganó y quién perdió",
+      "El final: el Rentenmark y el plan Dawes",
+      "El debate: reparaciones, intención y Hitler",
+      "Lo que queda: la inflación en noviembre de 2026"
+    ],
+    "etiquetas": [
+      "hiperinflacion",
+      "hiperinflacion de weimar",
+      "republica de weimar",
+      "alemania 1923",
+      "inflacion alemana",
+      "marco aleman",
+      "rentenmark",
+      "reparaciones de guerra",
+      "tratado de versalles",
+      "ocupacion del ruhr",
+      "reichsbank",
+      "havenstein",
+      "hjalmar schacht",
+      "plan dawes",
+      "hugo stinnes",
+      "keynes",
+      "historia economica",
+      "historia del dinero",
+      "inflacion venezuela",
+      "inflacion argentina",
+      "que es la hiperinflacion",
+      "imprimir dinero",
+      "crisis monetaria",
+      "capital x",
+      "divulgacion economica"
+    ],
+    "miniatura": {
+      "texto": "UN DÓLAR\n4,2 BILLONES\nDE MARCOS",
+      "resalte": "BILLONES",
+      "escena": "A worn leather wallet overflowing with crumpled 1920s German paper banknotes on a wooden bakery counter beside a single loaf of dark rye bread, cold window light, dust in the air, oil painting realism, no legible text"
+    }
+  }
+}

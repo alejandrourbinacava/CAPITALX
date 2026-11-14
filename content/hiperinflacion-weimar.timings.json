@@ -1,0 +1,296 @@
+{
+  "b0-01": {
+    "audio": "voice/hiperinflacion-weimar-b0-01.mp3",
+    "duration": 23.353469,
+    "transcript": null,
+    "credit_cost": 427
+  },
+  "b0-02": {
+    "audio": "voice/hiperinflacion-weimar-b0-02.mp3",
+    "duration": 21.995102,
+    "transcript": null,
+    "credit_cost": 399
+  },
+  "b0-03": {
+    "audio": "voice/hiperinflacion-weimar-b0-03.mp3",
+    "duration": 22.465306,
+    "transcript": null,
+    "credit_cost": 403
+  },
+  "b0-04": {
+    "audio": "voice/hiperinflacion-weimar-b0-04.mp3",
+    "duration": 21.002449,
+    "transcript": null,
+    "credit_cost": 413
+  },
+  "b1-01": {
+    "audio": "voice/hiperinflacion-weimar-b1-01.mp3",
+    "duration": 19.905306,
+    "transcript": null,
+    "credit_cost": 404
+  },
+  "b1-02": {
+    "audio": "voice/hiperinflacion-weimar-b1-02.mp3",
+    "duration": 22.857143,
+    "transcript": null,
+    "credit_cost": 440
+  },
+  "b1-03": {
+    "audio": "voice/hiperinflacion-weimar-b1-03.mp3",
+    "duration": 22.700408,
+    "transcript": null,
+    "credit_cost": 432
+  },
+  "b1-04": {
+    "audio": "voice/hiperinflacion-weimar-b1-04.mp3",
+    "duration": 22.413061,
+    "transcript": null,
+    "credit_cost": 405
+  },
+  "b1-05": {
+    "audio": "voice/hiperinflacion-weimar-b1-05.mp3",
+    "duration": 22.125714,
+    "transcript": null,
+    "credit_cost": 427
+  },
+  "b1-06": {
+    "audio": "voice/hiperinflacion-weimar-b1-06.mp3",
+    "duration": 21.786122,
+    "transcript": null,
+    "credit_cost": 440
+  },
+  "b1-07": {
+    "audio": "voice/hiperinflacion-weimar-b1-07.mp3",
+    "duration": 23.405714,
+    "transcript": null,
+    "credit_cost": 426
+  },
+  "b1-08": {
+    "audio": "voice/hiperinflacion-weimar-b1-08.mp3",
+    "duration": 23.719184,
+    "transcript": null,
+    "credit_cost": 462
+  },
+  "b2-01": {
+    "audio": "voice/hiperinflacion-weimar-b2-01.mp3",
+    "duration": 20.793469,
+    "transcript": null,
+    "credit_cost": 397
+  },
+  "b2-02": {
+    "audio": "voice/hiperinflacion-weimar-b2-02.mp3",
+    "duration": 21.916735,
+    "transcript": null,
+    "credit_cost": 414
+  },
+  "b2-03": {
+    "audio": "voice/hiperinflacion-weimar-b2-03.mp3",
+    "duration": 23.797551,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b2-04": {
+    "audio": "voice/hiperinflacion-weimar-b2-04.mp3",
+    "duration": 21.65551,
+    "transcript": null,
+    "credit_cost": 386
+  },
+  "b2-05": {
+    "audio": "voice/hiperinflacion-weimar-b2-05.mp3",
+    "duration": 20.192653,
+    "transcript": null,
+    "credit_cost": 374
+  },
+  "b2-06": {
+    "audio": "voice/hiperinflacion-weimar-b2-06.mp3",
+    "duration": 22.047347,
+    "transcript": null,
+    "credit_cost": 436
+  },
+  "b2-07": {
+    "audio": "voice/hiperinflacion-weimar-b2-07.mp3",
+    "duration": 22.648163,
+    "transcript": null,
+    "credit_cost": 445
+  },
+  "b2-08": {
+    "audio": "voice/hiperinflacion-weimar-b2-08.mp3",
+    "duration": 25.861224,
+    "transcript": null,
+    "credit_cost": 505
+  },
+  "b2-09": {
+    "audio": "voice/hiperinflacion-weimar-b2-09.mp3",
+    "duration": 22.413061,
+    "transcript": null,
+    "credit_cost": 446
+  },
+  "b3-01": {
+    "audio": "voice/hiperinflacion-weimar-b3-01.mp3",
+    "duration": 20.897959,
+    "transcript": null,
+    "credit_cost": 404
+  },
+  "b3-02": {
+    "audio": "voice/hiperinflacion-weimar-b3-02.mp3",
+    "duration": 20.871837,
+    "transcript": null,
+    "credit_cost": 417
+  },
+  "b3-03": {
+    "audio": "voice/hiperinflacion-weimar-b3-03.mp3",
+    "duration": 24.52898,
+    "transcript": null,
+    "credit_cost": 484
+  },
+  "b3-04": {
+    "audio": "voice/hiperinflacion-weimar-b3-04.mp3",
+    "duration": 23.222857,
+    "transcript": null,
+    "credit_cost": 437
+  },
+  "b3-05": {
+    "audio": "voice/hiperinflacion-weimar-b3-05.mp3",
+    "duration": 24.685714,
+    "transcript": null,
+    "credit_cost": 482
+  },
+  "b3-07": {
+    "audio": "voice/hiperinflacion-weimar-b3-07.mp3",
+    "duration": 23.902041,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b4-01": {
+    "audio": "voice/hiperinflacion-weimar-b4-01.mp3",
+    "duration": 22.804898,
+    "transcript": null,
+    "credit_cost": 468
+  },
+  "b4-02": {
+    "audio": "voice/hiperinflacion-weimar-b4-02.mp3",
+    "duration": 21.446531,
+    "transcript": null,
+    "credit_cost": 409
+  },
+  "b4-03": {
+    "audio": "voice/hiperinflacion-weimar-b4-03.mp3",
+    "duration": 23.405714,
+    "transcript": null,
+    "credit_cost": 420
+  },
+  "b4-04": {
+    "audio": "voice/hiperinflacion-weimar-b4-04.mp3",
+    "duration": 23.405714,
+    "transcript": null,
+    "credit_cost": 456
+  },
+  "b4-05": {
+    "audio": "voice/hiperinflacion-weimar-b4-05.mp3",
+    "duration": 22.491429,
+    "transcript": null,
+    "credit_cost": 445
+  },
+  "b4-06": {
+    "audio": "voice/hiperinflacion-weimar-b4-06.mp3",
+    "duration": 23.275102,
+    "transcript": null,
+    "credit_cost": 426
+  },
+  "b4-07": {
+    "audio": "voice/hiperinflacion-weimar-b4-07.mp3",
+    "duration": 24.163265,
+    "transcript": null,
+    "credit_cost": 435
+  },
+  "b4-08": {
+    "audio": "voice/hiperinflacion-weimar-b4-08.mp3",
+    "duration": 24.581224,
+    "transcript": null,
+    "credit_cost": 481
+  },
+  "b4-09": {
+    "audio": "voice/hiperinflacion-weimar-b4-09.mp3",
+    "duration": 24.42449,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b5-01": {
+    "audio": "voice/hiperinflacion-weimar-b5-01.mp3",
+    "duration": 21.472653,
+    "transcript": null,
+    "credit_cost": 416
+  },
+  "b5-02": {
+    "audio": "voice/hiperinflacion-weimar-b5-02.mp3",
+    "duration": 22.282449,
+    "transcript": null,
+    "credit_cost": 381
+  },
+  "b5-03": {
+    "audio": "voice/hiperinflacion-weimar-b5-03.mp3",
+    "duration": 23.275102,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b5-04": {
+    "audio": "voice/hiperinflacion-weimar-b5-04.mp3",
+    "duration": 22.256327,
+    "transcript": null,
+    "credit_cost": 437
+  },
+  "b5-05": {
+    "audio": "voice/hiperinflacion-weimar-b5-05.mp3",
+    "duration": 22.177959,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b5-06": {
+    "audio": "voice/hiperinflacion-weimar-b5-06.mp3",
+    "duration": 22.334694,
+    "transcript": null,
+    "credit_cost": 411
+  },
+  "b5-07": {
+    "audio": "voice/hiperinflacion-weimar-b5-07.mp3",
+    "duration": 23.170612,
+    "transcript": null,
+    "credit_cost": 442
+  },
+  "b5-08": {
+    "audio": "voice/hiperinflacion-weimar-b5-08.mp3",
+    "duration": 26.017959,
+    "transcript": null,
+    "credit_cost": 486
+  },
+  "b5-09": {
+    "audio": "voice/hiperinflacion-weimar-b5-09.mp3",
+    "duration": 22.334694,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b5-10": {
+    "audio": "voice/hiperinflacion-weimar-b5-10.mp3",
+    "duration": 23.771429,
+    "transcript": null,
+    "credit_cost": 421
+  },
+  "b6-01": {
+    "audio": "voice/hiperinflacion-weimar-b6-01.mp3",
+    "duration": 22.073469,
+    "transcript": null,
+    "credit_cost": 454
+  },
+  "b6-02": {
+    "audio": "voice/hiperinflacion-weimar-b6-02.mp3",
+    "duration": 23.797551,
+    "transcript": null,
+    "credit_cost": 486
+  },
+  "b6-03": {
+    "audio": "voice/hiperinflacion-weimar-b6-03.mp3",
+    "duration": 23.301224,
+    "transcript": null,
+    "credit_cost": 463
+  }
+}

@@ -1,0 +1,3389 @@
+{
+  "slug": "crack-del-29",
+  "titulo": "El Crack Del 29: La Bolsa Perdió El 89 % Y Tardó 25 Años En Volver A Su Máximo",
+  "voz": {
+    "proveedor": "ai33",
+    "id": "elevenlabs_j41pQugxGaKleSQLIyG2",
+    "nombre": "Marciano Rajoy - Realistic and Commercial",
+    "modelo": "eleven_multilingual_v2",
+    "velocidad": 1.1,
+    "estabilidad": 0.5,
+    "similitud": 0.75,
+    "estilo": 0,
+    "speakerBoost": true
+  },
+  "wpm": 145,
+  "musica": "elegia.wav",
+  "estilo": {
+    "plantilla": "documental"
+  },
+  "bloques": [
+    {
+      "id": "b0",
+      "nombre": "Prólogo",
+      "planos": [
+        {
+          "id": "b0-01",
+          "vo": "El tres de septiembre de mil novecientos veintinueve, el índice Dow Jones cerró en trescientos ochenta y un puntos, su máximo. El ocho de julio de mil novecientos treinta y dos cerró en cuarenta y uno. Había perdido el ochenta y nueve por ciento de su valor. Y no volvió a su máximo hasta noviembre de mil novecientos cincuenta y cuatro, veinticinco años después. ¿Cómo pudo una caída de la bolsa convertirse en una década de miseria?",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Beurskrach New York, Wall Street, 1929, SFA001006911.jpg",
+                "deriva": "der"
+              },
+              "rotulo": {
+                "texto": "Nueva York · 1929",
+                "kicker": "El crack del 29"
+              }
+            },
+            {
+              "tipo": "lineas",
+              "kicker": "EL DOW JONES, 1929-1954",
+              "fuente": "Federal Reserve History; FRED; Wall Street Journal. Cierres diarios",
+              "lineas": {
+                "unidad": "Puntos",
+                "series": [
+                  {
+                    "nombre": "Dow Jones",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "3 sep 1929",
+                        381.17
+                      ],
+                      [
+                        "28 oct 1929",
+                        260.64
+                      ],
+                      [
+                        "29 oct 1929",
+                        230.07
+                      ],
+                      [
+                        "8 jul 1932",
+                        41.22
+                      ],
+                      [
+                        "23 nov 1954",
+                        381.17
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crowds gathering outside New York Stock Exchange (3).jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-02",
+          "vo": "En esos años quebraron más de nueve mil bancos en Estados Unidos. En mil novecientos treinta y tres, entre uno de cada cinco y uno de cada cuatro trabajadores no tenía empleo. La cifra exacta se discute: entre el veinte coma seis y el veinticuatro coma nueve por ciento, según cómo se cuente a quienes trabajaban en los programas públicos de emergencia. Y según un estudio oficial de mil novecientos cuarenta y ocho, las estimaciones de la época iban de once a casi quince millones de parados.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "BANCOS SUSPENDIDOS EN EEUU, 1930-1933",
+              "fuente": "FDIC (1998), tabla 5; suma de los cuatro años",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 9096,
+                "etiqueta": "bancos que cerraron sus puertas",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 3,
+              "clip": {
+                "buscar": "unemployed men sitting on a street in Harlem",
+                "archive": {
+                  "id": "WeWorkAgain1937",
+                  "desde": 45
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Harlem, Nueva York, 1937"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Unemployed men queued outside a depression soup kitchen opened in Chicago by Al Capone, 02-1931 - NARA - 541927.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-03",
+          "vo": "Y hay una paradoja que casi nunca se cuenta. La recesión no empezó con el crack. Según la Oficina Nacional de Investigación Económica, que fecha las recesiones en Estados Unidos, empezó en agosto de mil novecientos veintinueve, dos meses antes. La bolsa no inventó la crisis. Lo que se discute, desde hace casi un siglo, es cuánto la agravó, y qué la convirtió en la Gran Depresión.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:President Hoover portrait.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "La recesión empezó antes",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Ford Motor Company change of worker shift.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0-04",
+          "vo": "Este documental sigue el dinero: los felices veinte y el crédito para comprar acciones, la burbuja, los días del crack, la caída lenta hasta mil novecientos treinta y dos, la quiebra de los bancos, el patrón oro que llevó la crisis al resto del mundo, también a América Latina, y lo que hizo Roosevelt. Después, el debate de los economistas. Y termina con una comparación honesta con la bolsa de hoy, con los datos de octubre y noviembre de dos mil veintiséis.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Automatic ticker apparatus, New York Stock Exchange. Central control station LCCN2013647237.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 3,
+              "clip": {
+                "buscar": "aerial view of the Capitol, March 1933",
+                "archive": {
+                  "id": "1933-03-05_Extra_Special_Roosevelt_Inaugurated",
+                  "desde": 340
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Washington, marzo de 1933"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Monnaie - Etats-Unis, 20 dollars, 1927 - btv1b11336520f (1 of 2).jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "nombre": "Los felices veinte",
+      "planos": [
+        {
+          "id": "b1-01",
+          "vo": "Según la Reserva Federal, en agosto de mil novecientos veintiuno el Dow Jones estaba en sesenta y tres puntos. En septiembre de mil novecientos veintinueve, en trescientos ochenta y uno: se había multiplicado por seis. Detrás había una economía que crecía de verdad. Según el historiador Gene Smiley, el producto real de Estados Unidos creció un cuatro coma dos por ciento al año durante toda la década.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "Los felices veinte",
+                "numero": "I",
+                "sub": "Estados Unidos · 1921-1929"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "dense 1920s car traffic on an avenue",
+                "archive": {
+                  "id": "Wheelsof1927",
+                  "desde": 822
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Estados Unidos, 1927"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Battery Park and New York City Skyline, New York photographed by Irving Underhill, 1929 (24901188354).jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 3,
+              "clip": {
+                "buscar": "rows of parked cars on a city boulevard, 1927",
+                "archive": {
+                  "id": "GeneralM1927",
+                  "desde": 390
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Estados Unidos, 1927"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "vo": "El símbolo de la época era el automóvil. Según los datos que recoge el economista John Kenneth Galbraith, en mil novecientos veintinueve se fabricaron en Estados Unidos más de cinco millones de coches. Y a finales de la década, calcula Smiley, alrededor del sesenta por ciento de las familias tenía uno. Con el coche llegaron las carreteras, las gasolineras y algo nuevo para millones de hogares: comprar a plazos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "1920s gas station with fuel pumps",
+                "archive": {
+                  "id": "Wheelsof1927",
+                  "desde": 668
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Gasolinera, 1927"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "PRODUCCIÓN DE AUTOMÓVILES EN EEUU",
+              "fuente": "Galbraith (1955), citando a Thomas Wilson (1948); una sola fuente",
+              "barras": {
+                "unidad": "Miles de unidades",
+                "datos": [
+                  {
+                    "etiqueta": "1926",
+                    "valor": 4301,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1929",
+                    "valor": 5358,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Studebaker ad 1925-11.png",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "vo": "El primer aviso llegó de Florida. Entre mil novecientos veinticuatro y mil novecientos veintiséis, en Miami no se compraba tierra: se compraban derechos de compra. Según Galbraith, con un diez por ciento de entrada se reservaba una parcela, y la reserva se revendía antes de pagar el resto. Y según un estudio de la época que él recoge, un solar en primera línea de mar podía costar hasta setenta y cinco mil dólares.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Billboard for the Sale of Subdivision Real Estate Lots WDL4030.png",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Aladdin City Florida Land Boom Map 1927.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Miami Beach - Palm and Hibiscus Islands and Flamingo Hotel.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "vo": "En septiembre de mil novecientos veintiséis, un huracán arrasó Miami y remató el boom. Murieron varios centenares de personas: unas trescientas setenta y dos según la cifra oficial, más de quinientas treinta según otros recuentos. Según Galbraith, el valor de los cheques que se compensaban en los bancos de Miami cayó de más de mil millones de dólares en mil novecientos veinticinco a ciento cuarenta y tres millones en mil novecientos veintiocho.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Looking East on Flagler St. from 13th Ave, 24 hours after the hurricane of Sept. 18th 1926, Miami, edit.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "COMPENSACIONES BANCARIAS DE MIAMI",
+              "fuente": "Galbraith (1955), cap. 2; una sola fuente",
+              "barras": {
+                "unidad": "Millones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "1925",
+                    "valor": 1066.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1928",
+                    "valor": 143.4,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Florida's Great Hurricane - page 40 - photograph.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "vo": "Mientras tanto, la Reserva Federal hizo algo que todavía se discute. En mil novecientos veintisiete, su banco de Nueva York, dirigido por Benjamin Strong, bajó el tipo de descuento del cuatro al tres y medio por ciento y compró deuda pública, en parte para ayudar a Gran Bretaña a sostener la libra. Para algunos, fue el error que alimentó la especulación. Galbraith lo considera injusto: el dinero barato no basta para crear una burbuja.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Benj. Strong Jr. LCCN2014698073.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Montague Collett Norman, (1-5-23) LCCN2016847108.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-06",
+          "vo": "La gasolina de la subida fue el crédito para comprar acciones. Los préstamos a los corredores de bolsa, que estos prestaban a su vez a sus clientes, pasaron de entre dos mil y dos mil quinientos millones de dólares en mil novecientos veintiséis a más de ocho mil millones en mil novecientos veintinueve. Galbraith cuenta que, en el verano de mil novecientos veintinueve, crecían unos cuatrocientos millones al mes.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Stockbrokers at the New York Stock Exchange.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "PRÉSTAMOS A CORREDORES DE BOLSA",
+              "fuente": "Rappoport y White (1991), p. 8; dólares corrientes; otras series dan niveles distintos",
+              "barras": {
+                "unidad": "Miles de millones de dólares",
+                "datos": [
+                  {
+                    "etiqueta": "1 ene 1928",
+                    "valor": 4.4,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1 oct 1929",
+                    "valor": 8.5,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Curb brokers in Wall Street, New York City LCCN92519195.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1-07",
+          "vo": "Comprar a margen era poner una parte del precio y pedir prestado el resto. Cuánto se ponía se discute: a mediados de los años veinte bastaba con una décima o una cuarta parte; en mil novecientos veintinueve muchos corredores ya pedían la mitad. Ese año, John Raskob, directivo de General Motors, escribió en el Ladies' Home Journal que todo el mundo debería ser rico: quince dólares al mes en acciones darían, en veinte años, unos ochenta mil.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:RASKOB, JOHN J. LCCN2016862596.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "«TODO EL MUNDO DEBERÍA SER RICO»",
+              "fuente": "John J. Raskob, Ladies' Home Journal (1929); Galbraith (1955)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 80000,
+                "etiqueta": "dólares en 20 años, ahorrando 15 al mes en acciones",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Ladies Home Journal cover July 1923.png",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "nombre": "La burbuja",
+      "planos": [
+        {
+          "id": "b2-01",
+          "vo": "La acción de moda era RCA, la Radio Corporation of America. En mil novecientos veintiocho pasó de ochenta y cinco dólares a cuatrocientos veinte, y nunca había pagado un dividendo a sus acciones ordinarias: el primero, de veinte centavos, llegaría en diciembre de mil novecientos treinta y siete. En mil novecientos veintinueve superó los quinientos dólares antes de desdoblarse. En mil novecientos treinta y dos, ya desdoblada, valía dos dólares y medio.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "La burbuja",
+                "numero": "II",
+                "sub": "Wall Street · 1928-1929"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Vintage Radio Advertising - RCA Radio, Radiola Model 17, \"A Radiola Takes You Everywhere\", From the Saturday Evening Post, April 14, 1928 (9704310222).jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LA ACCIÓN DE RCA EN 1928",
+              "fuente": "Galbraith (1955); Radio Annual (1938)",
+              "barras": {
+                "unidad": "Dólares por acción",
+                "datos": [
+                  {
+                    "etiqueta": "Principios de 1928",
+                    "valor": 85,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Finales de 1928",
+                    "valor": 420,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "vo": "En diciembre de mil novecientos veintiocho, Goldman Sachs creó un fondo de inversión, la Goldman Sachs Trading Corporation. Compró un millón de acciones a cien dólares y vendió casi todas al público a ciento cuatro. Según Galbraith, en febrero la acción llegó a doscientos veintidós dólares, el doble de lo que valía lo que poseía el fondo. En parte, porque el fondo compraba sus propias acciones.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Samuel Sachs of Goldman Sachs (cropped).png",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "GOLDMAN SACHS TRADING CORPORATION",
+              "fuente": "Galbraith, citando a la SEC; precio de 7 de febrero de 1929; una sola fuente",
+              "de": {
+                "valor": 104,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 222.5,
+                "etiqueta": "dólares por acción; salió al público a 104",
+                "decimales": 2
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Studebaker Corporation 1929.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "vo": "Luego vino la pirámide. En julio de mil novecientos veintinueve, el fondo lanzó otro, Shenandoah, y en agosto Shenandoah lanzó un tercero, Blue Ridge. Los economistas De Long y Shleifer lo describen como una prima sobre una prima sobre una prima. En mil novecientos treinta y dos, ante el Senado, Walter Sachs admitió que la acción vendida a ciento cuatro dólares valía, tras un desdoblamiento de dos por uno, aproximadamente uno y tres cuartos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Coty, Inc 1929.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "GOLDMAN SACHS TRADING CORPORATION, 1932",
+              "fuente": "Walter Sachs ante el Senado (1932), vía Galbraith (1955); tras un desdoblamiento de dos por uno",
+              "de": {
+                "valor": 104,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1.75,
+                "etiqueta": "dólares por acción; se vendió a 104",
+                "decimales": 2
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Subpoena of J. P. Morgan to Appear Before the Senate Banking and Currency Committee on May 23, 1933 - DPLA - eb1ce09c2e6c7b2bfd64a60b237b5d77 (page 1).jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "vo": "¿Especulaba todo el país? No. Según el informe del Senado que cita Galbraith, en mil novecientos veintinueve las firmas de bolsa tenían un millón y medio de clientes, en un país de unos ciento veinte millones de habitantes. Las cuentas a margen eran unas seiscientas mil. Lo masivo no fue la participación, sino la atención: la bolsa se convirtió en el tema del que hablaba todo el país.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 3,
+              "clip": {
+                "buscar": "crowded stock exchange trading floor",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 3228
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Parqué de la Bolsa de Nueva York, 1933"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "CLIENTES DE BOLSA EN EEUU, 1929",
+              "fuente": "Informe Stock Exchange Practices del Senado (1934), vía Galbraith; una sola fuente",
+              "barras": {
+                "unidad": "Millones",
+                "datos": [
+                  {
+                    "etiqueta": "Clientes de 29 bolsas",
+                    "valor": 1.55,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Cuentas a margen",
+                    "valor": 0.6,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Minneapolis-St. Paul Stock Exchange Board - DPLA - 7e706bfbd7a9e6ad1d72e9abbfc7f3b6.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "vo": "El dinero para especular se encarecía. El veintiséis de marzo de mil novecientos veintinueve, según Galbraith, el interés de los préstamos a la vista llegó al veinte por ciento, y la bolsa se tambaleó. Charles Mitchell, presidente del National City Bank y desde enero consejero de la Reserva Federal de Nueva York, anunció que su banco prestaría lo necesario, por encima de cualquier advertencia de la Reserva Federal. Puso veinticinco millones de dólares.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Charles E. Mitchell, Président de la National City Bank de New-York (Pacific and Atlantic) - btv1b53172722q.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LA OFERTA DE MITCHELL, 27 DE MARZO DE 1929",
+              "fuente": "Galbraith (1955); Federal Reserve History",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 25,
+                "etiqueta": "millones de dólares para préstamos a la vista",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:National City Bank, Wall St. LCCN00650318.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "vo": "La Reserva Federal estaba dividida. En febrero había pedido a los bancos que no prestaran para especular. Su banco de Nueva York quería subir el tipo de descuento al seis por ciento, y el Consejo de Washington se lo negó varias veces. Lo autorizó en agosto de mil novecientos veintinueve. Pero, a la vez, bajó el tipo al que compraba efectos comerciales, y anuló así parte del endurecimiento.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Roy A. Young - DPLA - 53e56cba6d2cbb1beec20256946f3f16.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "TIPO DE DESCUENTO DE LA RESERVA FEDERAL DE NUEVA YORK",
+              "fuente": "Smiley (EH.net); Galbraith (1955); Federal Reserve History",
+              "barras": {
+                "unidad": "%",
+                "datos": [
+                  {
+                    "etiqueta": "1927",
+                    "valor": 3.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Julio de 1928",
+                    "valor": 5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Agosto de 1929",
+                    "valor": 6,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:TREASURY BUILDING LOC hec.01965.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "vo": "Hubo avisos. En marzo de mil novecientos veintinueve, el banquero Paul Warburg, uno de los padres intelectuales de la Reserva Federal, advirtió que, si no se frenaba la especulación, el colapso traería una depresión general. Según Galbraith, le acusaron de sabotear la prosperidad. El cinco de septiembre, el estadístico Roger Babson dijo: tarde o temprano llegará un crack, y puede ser terrible. Ese día la bolsa bajó, y la caída se llamó la Babson Break.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Paul M. Warburg LCCN2016821709 (cropped).jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Roger Babson Portrait (4x5 cropped).jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Joseph Pennell, New York Stock Exchange, 1923, NGA 9575.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-08",
+          "vo": "Según Galbraith, Wall Street se burló de Babson. Y el quince de octubre, en una cena en Nueva York, el economista Irving Fisher dijo que las cotizaciones habían alcanzado lo que parecía una meseta permanentemente alta. Lo publicó el New York Times al día siguiente. Nueve días después llegó el Jueves Negro. Fisher siguió defendiendo que los precios no estaban inflados, y en mil novecientos treinta publicó un libro sobre el crack.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Irvingfisher.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "«Una meseta permanentemente alta»",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Prof Irving Fisher, noted economist - photo. by Bain News Service, New York. LCCN90711700 (cropped).jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2-09",
+          "vo": "¿Era una burbuja? Depende de cómo se mida. El CAPE de Robert Shiller, que compara el precio con la media de diez años de beneficios, estaba en treinta y dos coma seis en septiembre de mil novecientos veintinueve. Con los beneficios del último año, la relación era de unas veinte veces: razonable. De Long y Shleifer calculan que la bolsa estaba al menos un tercio por encima de su valor. Otros economistas no encuentran burbuja.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "¿CARA O RAZONABLE? SEPTIEMBRE DE 1929",
+              "fuente": "Robert Shiller, ie_data; PER de 12 meses: cálculo propio (31,30 / 1,552)",
+              "barras": {
+                "unidad": "Veces los beneficios",
+                "datos": [
+                  {
+                    "etiqueta": "CAPE (beneficio medio de 10 años)",
+                    "valor": 32.56,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "PER (beneficio de 12 meses)",
+                    "valor": 20.2,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Automatic ticker apparatus, New York Stock Exchange. Central control station LCCN2013647237.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Battery Park and New York City Skyline, New York photographed by Irving Underhill, 1929 (24901188354).jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "nombre": "El crack",
+      "planos": [
+        {
+          "id": "b3-01",
+          "vo": "El miércoles veintitrés de octubre de mil novecientos veintinueve, al cierre, llegó una avalancha de llamadas de margen sin precedentes, según Galbraith. Los clientes tenían que poner más dinero, o el corredor vendía sus acciones. A la mañana siguiente, las órdenes de venta automáticas se encadenaron, una detrás de otra. A las once y media, escribe Galbraith, el mercado se había rendido a un miedo ciego.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "El crack",
+                "numero": "III",
+                "sub": "Nueva York · octubre de 1929"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "crowd and agitated brokers on Wall Street, October 1929",
+                "archive": {
+                  "id": "gov.archives.arc.54992",
+                  "desde": 2985
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Wall Street, octubre de 1929"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bell telephone magazine (1929) (14733377496).jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-02",
+          "vo": "Ese día, el Jueves Negro, cambiaron de manos doce millones ochocientas noventa y cuatro mil seiscientas cincuenta acciones, un récord. La cinta del teletipo, que llevaba los precios a las oficinas de todo el país, no terminó de imprimir las operaciones, según Galbraith, hasta las siete y ocho minutos de la tarde: más de cuatro horas después del cierre. Muchos inversores se arruinaron sin enterarse a tiempo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "JUEVES NEGRO, 24 DE OCTUBRE DE 1929",
+              "fuente": "Galbraith (1955); The New York Times (25-oct-1929)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 12894650,
+                "etiqueta": "acciones negociadas en la Bolsa de Nueva York, récord de entonces",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "crowd filling Broad Street in front of the Stock Exchange",
+                "archive": {
+                  "id": "gov.archives.arc.54992",
+                  "desde": 3013
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Broad Street, Nueva York, 1929"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Stockbrokers at the New York Stock Exchange.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-03",
+          "vo": "A mediodía, según Galbraith, cinco de los banqueros más poderosos del país se reunieron en el número veintitrés de Wall Street, la sede de J. P. Morgan. Entre ellos, Thomas Lamont, el anfitrión; Charles Mitchell, del National City, y Albert Wiggin, del Chase. Al salir, Lamont dijo a la prensa que había habido algunas ventas forzadas en la Bolsa. El cronista Frederick Lewis Allen lo llamó una de las mayores subestimaciones de la historia.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:23 Wall Street (1914).jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:T.W. Lamont LCCN2014709001.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A.H. Wiggin & J.P. Morgan, Jr. in 1917 in Manhattan at a war bond parade.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-04",
+          "vo": "A la una y media, Richard Whitney, vicepresidente de la Bolsa y operador de Morgan, cruzó el parqué hasta el puesto de US Steel y pujó a doscientos cinco dólares por acción, por encima de lo que se ofrecía. Cuántas acciones pidió se discute: diez mil, según Galbraith; veinticinco mil, según la prensa de la época. Luego dejó órdenes parecidas en otros quince o veinte valores. Los precios se dieron la vuelta, y el día terminó con una recuperación parcial.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Former head of New York Stock Exchange before Senate Committee. Washington D.C. Richard Whitney; former President of the New York Stock Exchange, was the first witness as the Senate LCCN2016871192 (cropped).jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LA ORDEN DE WHITNEY: ACCIONES DE US STEEL A 205 $",
+              "fuente": "Galbraith (1955) frente a Associated Press y Time (1929); cifra discutida",
+              "barras": {
+                "unidad": "Acciones",
+                "datos": [
+                  {
+                    "etiqueta": "Según Galbraith",
+                    "valor": 10000,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Según la prensa de la época",
+                    "valor": 25000,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Littered floor of Stock Exchange after market session, New York City LCCN94509160.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-05",
+          "vo": "No duró. El lunes veintiocho de octubre, el Dow Jones cayó un doce coma ocho por ciento. Según Galbraith, esta vez Whitney no apareció. El martes veintinueve, el Martes Negro, cayó otro once coma siete, con más de dieciséis millones cuatrocientas mil acciones negociadas. En dos días, el índice había perdido casi una cuarta parte de su valor.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "CAÍDA DEL DOW JONES EN UN SOLO DÍA",
+              "fuente": "Wall Street Journal / S&P Dow Jones Indices; Federal Reserve History",
+              "barras": {
+                "unidad": "% de caída",
+                "datos": [
+                  {
+                    "etiqueta": "Lunes 28 de octubre",
+                    "valor": 12.82,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Martes 29 de octubre",
+                    "valor": 11.73,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Los dos días",
+                    "valor": 23.05,
+                    "tono": "ink"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crowds gathering outside New York Stock Exchange (2).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crowds gathering outside New York Stock Exchange.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-06",
+          "vo": "Y entonces, una paradoja. El miércoles treinta de octubre, el Dow Jones subió más de un doce por ciento, uno de los mayores saltos de su historia en un solo día. Según los registros de S y P Dow Jones Indices, sus tres mayores subidas porcentuales cayeron en plena Depresión, entre mil novecientos veintinueve y mil novecientos treinta y tres. Las subidas más bruscas no marcaron el final de la crisis: llegaron dentro de ella.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Crowds gathering outside New York Stock Exchange (3).jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LAS TRES MAYORES SUBIDAS DEL DOW JONES EN UN DÍA",
+              "fuente": "S&P Dow Jones Indices, DJIA 125 - Bests & Worsts",
+              "barras": {
+                "unidad": "% de subida",
+                "datos": [
+                  {
+                    "etiqueta": "30 oct 1929",
+                    "valor": 12.34,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "6 oct 1931",
+                    "valor": 14.87,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "15 mar 1933",
+                    "valor": 15.34,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Economie, aandelen, beurzen, SFA001018144.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3-07",
+          "vo": "A mediados de noviembre, el mercado había perdido casi la mitad de su valor desde septiembre. Según Galbraith, en una sola semana de octubre los préstamos a los corredores cayeron en más de mil millones de dólares: las empresas y los bancos de fuera de Nueva York retiraron su dinero. Esta vez, la Reserva Federal de Nueva York sí actuó: compró deuda pública, abrió su ventanilla de descuento y bajó los tipos. Los bancos de la ciudad cubrieron el hueco sin cerrar.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Beurskrach New York, Wall Street, 1929, SFA001006911.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "PRÉSTAMOS A CORREDORES, UNA SEMANA DE OCTUBRE DE 1929",
+              "fuente": "Galbraith (1955); una sola fuente",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1000,
+                "etiqueta": "millones de dólares menos, como mínimo",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "nombre": "La caída lenta",
+      "planos": [
+        {
+          "id": "b4-01",
+          "vo": "Después del crack, la bolsa se recuperó: entre enero y marzo de mil novecientos treinta subió con fuerza. El presidente Herbert Hoover reunió a los grandes empresarios en la Casa Blanca, y en mayo dijo, según recoge Galbraith, que ya habían pasado lo peor. En junio, la bolsa volvió a caer. Y ya no paró: semana a semana, mes a mes y año a año, hasta el verano de mil novecientos treinta y dos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "La caída lenta",
+                "numero": "IV",
+                "sub": "Estados Unidos · 1930-1932"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Industrial men meet Hoover. Another conference called by President Hoover was held at the White House this morning. This time it was a group of the leading industrial heads of the country. LCCN2016889506.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:President Herbert Hoover Sitting At His Desk (31-1930-A17).jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-02",
+          "vo": "La economía real se hundió con ella. Según el índice de la Reserva Federal, la producción industrial cayó alrededor de la mitad entre julio de mil novecientos veintinueve y julio de mil novecientos treinta y dos. El producto real de Estados Unidos cayó un veintiséis por ciento hasta mil novecientos treinta y tres. Y los precios bajaron: el índice de precios al consumo perdió más de una cuarta parte.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA ECONOMÍA DE EEUU SE ENCOGE",
+              "fuente": "Reserva Federal (INDPRO, jul 1929-jul 1932); BEA y BLS vía FRED (1929-1933); cálculos propios",
+              "barras": {
+                "unidad": "% de caída",
+                "datos": [
+                  {
+                    "etiqueta": "Producción industrial",
+                    "valor": 54,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "PIB nominal",
+                    "valor": 45,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Precios al consumo",
+                    "valor": 27,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "PIB real",
+                    "valor": 26,
+                    "tono": "ink"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Graveyard and steel mill, Bethlehem, Pennsylvania 00231u.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Luke Swank - c8e41d4bfb.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-03",
+          "vo": "Y llegó el paro. Según la serie clásica de Stanley Lebergott, pasó del tres por ciento de la población activa en mil novecientos veintinueve a casi el veinticinco en mil novecientos treinta y tres. Las revisiones posteriores dan cifras menores, porque cuentan como ocupados a quienes trabajaban en programas públicos de emergencia. Pero en todas, en torno a uno de cada cinco trabajadores, o más, estaba sin empleo.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "kicker": "PARO EN EEUU, SERIE DE LEBERGOTT",
+              "fuente": "Lebergott (1957); Margo (1993). Darby (1976) da 20,6 % en 1933",
+              "lineas": {
+                "unidad": "% de la población activa civil",
+                "series": [
+                  {
+                    "nombre": "Paro",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "1929",
+                        3.2
+                      ],
+                      [
+                        "1930",
+                        8.7
+                      ],
+                      [
+                        "1931",
+                        15.9
+                      ],
+                      [
+                        "1932",
+                        23.6
+                      ],
+                      [
+                        "1933",
+                        24.9
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "unemployed men and a queue at an employment office",
+                "archive": {
+                  "id": "WeWorkAgain1937",
+                  "desde": 60
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Harlem, Nueva York, 1937"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "apple seller on a sidewalk and men eating at a soup kitchen",
+                "archive": {
+                  "id": "gov.archives.arc.54992",
+                  "desde": 3078
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Comedor social, principios de los años treinta"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:People lining up at Times Square.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-04",
+          "vo": "En el campo fue peor. Según el índice de la Oficina de Estadísticas Laborales, los precios agrícolas cayeron un sesenta y dos por ciento entre agosto de mil novecientos veintinueve y febrero de mil novecientos treinta y tres. Las deudas de los agricultores, fijadas en dólares, no bajaban. Para pagar la misma hipoteca había que vender más del doble de cosecha.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "dry barren farmland on the Great Plains",
+                "archive": {
+                  "id": "gov.fdr.352.2a.1",
+                  "desde": 1060
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Las Grandes Llanuras, 1936"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Farmer in despair over the depression in 1932. - NARA - 512819.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "farm half buried by sand, woman sweeping",
+                "archive": {
+                  "id": "gov.fdr.352.2a.1",
+                  "desde": 1290
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Las Grandes Llanuras, 1936"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-05",
+          "vo": "Y Washington levantó un muro. El diecisiete de junio de mil novecientos treinta, Hoover firmó la ley arancelaria Smoot-Hawley. Según Eichengreen e Irwin, el arancel medio sobre las importaciones gravadas pasó del cuarenta al cuarenta y siete por ciento. Y con la deflación siguió subiendo, porque muchos derechos se cobraban en dólares por unidad. Llegaron también las represalias de otros países.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Smoot and Hawley standing together, April 11, 1929.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Herbert Hoover at desk with group standing behind him.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Waterfront, from Pier 19, East River, Manhattan (NYPL b13668355-482582).jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-06",
+          "vo": "¿Cuánto daño hizo el arancel? Se discute. Para el economista Douglas Irwin, explica alrededor de una cuarta parte de la caída de las importaciones de Estados Unidos, que superó el cuarenta por ciento; el resto vino de la caída de la renta. El comercio mundial se encogió: en volumen, un veinticinco por ciento entre mil novecientos veintinueve y mil novecientos treinta y dos, según la Sociedad de Naciones. El arancel agravó la crisis, pero no la causó.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EL COMERCIO MUNDIAL, EN VOLUMEN",
+              "fuente": "Sociedad de Naciones (1939), vía Eichengreen e Irwin (2009)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 25,
+                "etiqueta": "% de caída entre 1929 y 1932",
+                "decimales": 0,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "LA ESPIRAL DE KINDLEBERGER: IMPORTACIONES DE 75 PAÍSES",
+              "fuente": "Kindleberger, The World in Depression (1973), con datos de la Sociedad de Naciones; valor en enero de cada año",
+              "barras": {
+                "unidad": "Millones de dólares oro",
+                "datos": [
+                  {
+                    "etiqueta": "1929",
+                    "valor": 2998,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1930",
+                    "valor": 2739,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1931",
+                    "valor": 1839,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1932",
+                    "valor": 1206,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1933",
+                    "valor": 992,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Row of men at the New York City docks out of work during the depression, 1934 - NARA - 518288.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-07",
+          "vo": "En enero de mil novecientos treinta y dos, Hoover creó la Reconstruction Finance Corporation para prestar a los bancos. Según la FDIC, a finales de año había autorizado casi novecientos millones de dólares a más de cuatro mil bancos. Pero desde agosto el Congreso la obligó a publicar a quién prestaba. Salir en la lista se leía como señal de debilidad, provocaba retiradas, y muchos bancos dejaron de pedir ayuda.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Ogden Mills, 2nd from left, Jesse H. Jones, 3rd from right, and Charles G. Dawes, 2nd from right LCCN2016889840.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Congress, U.S. Capitol, Washington, D.C. LCCN2016890056.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bank Run on American Union Bank.jpeg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b4-08",
+          "vo": "El ocho de julio de mil novecientos treinta y dos, el Dow Jones tocó fondo: cuarenta y un puntos. Según Galbraith, esa semana las acerías trabajaban al doce por ciento de su capacidad. Casi tres semanas después, en Washington, el ejército desalojó los campamentos de veteranos de la Primera Guerra Mundial que pedían cobrar por adelantado un bono que el Estado les había prometido para mil novecientos cuarenta y cinco.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "contador",
+              "kicker": "EL FONDO: 8 DE JULIO DE 1932",
+              "fuente": "Federal Reserve History; FRED",
+              "de": {
+                "valor": 381.17,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 41.22,
+                "etiqueta": "puntos del Dow Jones, un 89 % menos que el 3 de septiembre de 1929",
+                "decimales": 2
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "troops advancing along a Washington street, onlookers, July 1932",
+                "archive": {
+                  "id": "gov.fdr.218",
+                  "desde": 414
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Washington, julio de 1932"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bonus Army -45 B.E.F. Camp Anacostia D.C '32 LCCN2016827055 (cropped).jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "nombre": "Los bancos",
+      "planos": [
+        {
+          "id": "b5-01",
+          "vo": "Para entender la Gran Depresión hay que mirar los bancos. En mil novecientos treinta, Estados Unidos tenía unos veinticuatro mil: más de ocho mil dentro de la Reserva Federal y casi dieciséis mil fuera. Ya en los años veinte quebraban más de seiscientos al año, sobre todo pequeños bancos rurales: diez veces más que en la década anterior. Y los depósitos no tenían ningún seguro federal.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "Los bancos",
+                "numero": "V",
+                "sub": "Estados Unidos · 1930-1933"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Haverhill, Iowa at Main St. and 1st St. 1939.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1925 - Dime Savings and Trust Company Lobby 2 - Allentown PA.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-02",
+          "vo": "La primera oleada llegó en otoño de mil novecientos treinta, y empezó en el sur. Caldwell and Company, de Nashville, el mayor grupo financiero del sur, se hundió en noviembre y arrastró a sus bancos de Tennessee y Kentucky. En pocas semanas suspendieron pagos cientos de bancos. Según la Reserva Federal, la economía parecía entonces a punto de recuperarse. Fueron las quiebras bancarias las que la hundieron.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Memorial Square looking toward Business District from capitol grounds, left -- Cotton State Bldg., Andrew Jackson Hotel, Hermitage Hotel, Y. M. C. A., and War Memorial Bldg (74057).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "closed bank gate with people crowding outside",
+                "archive": {
+                  "id": "gov.archives.arc.54992",
+                  "desde": 3029
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Banco cerrado, principios de los años treinta"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Market Street, Looking East From Fourth Avenue, By Night, Louisville, KY. (5000048784).jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-03",
+          "vo": "El once de diciembre de mil novecientos treinta cerró el Bank of United States, uno de los mayores bancos de Nueva York. Era un banco privado. Pero, según la prensa de la época, su nombre hacía creer a muchos de sus clientes, inmigrantes del Lower East Side y del Bronx, que era un banco del Gobierno. Para Friedman y Schwartz, aquella quiebra marcó el paso de una crisis regional a una crisis de confianza.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bank of the United States failure NYWTS.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Hester Street between Allen and Orchard Streets in Manhattan in1938.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-04",
+          "vo": "Según la FDIC, el organismo que hoy asegura los depósitos en Estados Unidos, en mil novecientos treinta suspendieron pagos mil trescientos cincuenta bancos. En mil novecientos treinta y uno, dos mil doscientos noventa y tres. En mil novecientos treinta y dos, mil cuatrocientos cincuenta y tres. Y en mil novecientos treinta y tres, cuatro mil. En total, más de nueve mil bancos, con unos seis mil ochocientos millones de dólares en depósitos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "BANCOS COMERCIALES SUSPENDIDOS EN EEUU",
+              "fuente": "FDIC (1998), tabla 5",
+              "barras": {
+                "unidad": "Bancos",
+                "datos": [
+                  {
+                    "etiqueta": "1929",
+                    "valor": 659,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1930",
+                    "valor": 1350,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1931",
+                    "valor": 2293,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1932",
+                    "valor": 1453,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1933",
+                    "valor": 4000,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1932 - Dime Bank Fails - 3 Jul MC - Allentown PA.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "crowd pressed in front of a bank, police controlling access",
+                "archive": {
+                  "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
+                  "desde": 55
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Ante un banco, marzo de 1933"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-05",
+          "vo": "Los depositantes de esos bancos perdieron unos mil trescientos cuarenta millones de dólares, alrededor de una quinta parte de lo que tenían en ellos. Y el miedo se contagió a los bancos sanos: la gente sacaba su dinero y lo guardaba en casa. Ben Bernanke lo resumió con una imagen: los ahorros enterrados en latas de café en el patio trasero.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:A Wise Economist Asks a Question.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LO QUE PERDIERON LOS DEPOSITANTES, 1930-1933",
+              "fuente": "FDIC (1998), tabla 5; suma propia",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 1340,
+                "etiqueta": "millones de dólares: una quinta parte de sus depósitos",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1933 - Depression Bank Scrip - 11 Mar MC - Allentown PA.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-06",
+          "vo": "En mil novecientos treinta y uno hubo dos oleadas más. La segunda, en primavera. La tercera llegó de fuera: en septiembre, Gran Bretaña abandonó el patrón oro, y empezó una fuga de oro de Estados Unidos. Para frenarla, la Reserva Federal de Nueva York subió su tipo de descuento del uno y medio al tres y medio por ciento en una semana. Según Friedman y Schwartz, solo en octubre cerraron quinientos veintidós bancos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "TIPO DE REDESCUENTO DE LA FED DE NUEVA YORK, OCTUBRE DE 1931",
+              "fuente": "Friedman y Schwartz (1963), p. 317, vía Bernanke (2002)",
+              "barras": {
+                "unidad": "%",
+                "datos": [
+                  {
+                    "etiqueta": "Antes del 9 de octubre",
+                    "valor": 1.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "9 de octubre",
+                    "valor": 2.5,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "16 de octubre",
+                    "valor": 3.5,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Photograph of a vault with gold bars - NARA - 296609.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-07",
+          "vo": "¿Por qué la Reserva Federal no salvó a los bancos? Muchos de sus responsables compartían la idea del secretario del Tesoro, Andrew Mellon: dejar caer a los bancos débiles era duro, pero necesario. Además, la mayoría de los que quebraban eran pequeños y no eran miembros de la Reserva Federal. Según la FDIC, sus responsables no se sentían obligados con ellos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:MELLON, ANDREW. SECRETARY LCCN2016860988.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Eugene Meyer, half-length portrait, seated at desk, facing front LOC cph.3c05094.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Closed bank in Haverhill, Iowa. 1939.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b5-08",
+          "vo": "El resultado fue que el dinero se encogió. Los depósitos eran dinero: cuando un banco cerraba, ese dinero desaparecía, y el que quedaba se escondía. En el invierno de mil novecientos treinta y dos a mil novecientos treinta y tres, los estados empezaron a cerrar sus bancos uno tras otro. Nevada fue el primero, en octubre. Míchigan cerró los suyos en febrero. A principios de marzo, el cierre llegaba a casi todo el país.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Union Trust Building at night, Detroit, Mich (68296).jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Chicago teachers marching for unpaid salaries, banners, crowd in the Loop",
+                "archive": {
+                  "id": "1933-04-17_Protest_By_School_Teachers",
+                  "desde": 7
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Chicago, abril de 1933: maestros sin cobrar"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1933 - Bank Holiday - 7 Mar MC - Allentown PA.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "nombre": "El mundo y el patrón oro",
+      "planos": [
+        {
+          "id": "b6-01",
+          "vo": "La crisis no se quedó en Estados Unidos. En los años veinte, Nueva York prestaba al mundo comprando bonos de otros países. Según Barry Eichengreen, con datos del Departamento de Comercio, en mil novecientos veintiocho se emitieron en Estados Unidos valores extranjeros por mil doscientos cuarenta y cuatro millones de dólares. En mil novecientos veintinueve, poco más de la mitad. Y la parte que iba a Europa se hundió de un año a otro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "El mundo y el patrón oro",
+                "numero": "VI",
+                "sub": "Europa y América · 1929-1936"
+              }
+            },
+            {
+              "tipo": "ruta",
+              "peso": 2.4,
+              "ruta": {
+                "vista": "mundo",
+                "etapas": [
+                  {
+                    "de": "Nueva York",
+                    "a": "Londres",
+                    "tono": "deuda"
+                  },
+                  {
+                    "de": "Nueva York",
+                    "a": "Fráncfort",
+                    "tono": "deuda"
+                  },
+                  {
+                    "de": "Nueva York",
+                    "a": "Buenos Aires",
+                    "tono": "deuda"
+                  },
+                  {
+                    "de": "Nueva York",
+                    "a": "Lima",
+                    "tono": "deuda"
+                  }
+                ],
+                "titulo": "Los préstamos de Nueva York al mundo",
+                "kicker": "Valores extranjeros emitidos en EEUU: 1.244 M$ en 1928, 658 M$ en 1929"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Deutsche Äussere Anleihe 1924.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-02",
+          "vo": "En mayo de mil novecientos treinta y uno, la crisis estalló en Viena. El once de mayo, el Creditanstalt, el mayor banco de Austria, anunció pérdidas de ciento cuarenta millones de chelines, frente a un capital y unas reservas de ciento sesenta y cinco. El Gobierno, el banco central y la casa Rothschild pusieron dinero para salvarlo. Pero el anuncio desató una retirada de fondos, y el agujero real resultó mucho mayor.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Creditanstalt (Am Hof 6, Vienna), ca. 1900 (1).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "CREDITANSTALT, 11 DE MAYO DE 1931",
+              "fuente": "Kindleberger (1973); pérdidas anunciadas, el agujero final fue mayor",
+              "barras": {
+                "unidad": "Millones de chelines",
+                "datos": [
+                  {
+                    "etiqueta": "Pérdidas anunciadas",
+                    "valor": 140,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Capital y reservas",
+                    "valor": 165,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Wien Schottengasse Blick Richtung Votivkirche Holluber 1931.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-03",
+          "vo": "El pánico cruzó a Alemania. El veinte de junio, Hoover propuso suspender durante un año los pagos de reparaciones y deudas de guerra entre gobiernos. No bastó. A mediados de julio se hundió el Danatbank, uno de los cuatro grandes bancos alemanes, tras la quiebra de un gran cliente textil. Alemania cerró sus bancos unas tres semanas e impuso el control de cambios. Salió, de hecho, del patrón oro.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Berlin streets, offices and people, 1927",
+                "archive": {
+                  "id": "BerlinSymphonyofaGreatCity",
+                  "desde": 1130
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Berlín, 1927"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Darmstaedter und Nationalbank 1928.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:M Reichsbank Berlin 1903.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-04",
+          "vo": "Las consecuencias no fueron solo económicas. Un estudio de Doerr, Gissler, Peydró y Voth encontró que las ciudades más expuestas al Danatbank dieron más votos a los nazis, que pasaron del dos coma seis por ciento de los votos en mil novecientos veintiocho al treinta y siete coma tres en mil novecientos treinta y dos. Es una correlación estudiada, no la única causa. Pero muestra hasta dónde llegó la quiebra de un banco.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:3 1 0 17 11954 5 1 32785 Opening of the Reichstag Session Eröffnung der Reichstagssitzung Berlin 1932-08-30 Assembly hall. In the Presidium, senior member of parliament Klara Zetkin (x) is opening the session. NAC, Poland PD.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Un bureau de vote à Berlin - btv1b90526649.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "barras",
+              "kicker": "VOTO AL PARTIDO NAZI EN ELECCIONES AL REICHSTAG",
+              "fuente": "Doerr, Gissler, Peydró y Voth (2020)",
+              "barras": {
+                "unidad": "% de los votos",
+                "datos": [
+                  {
+                    "etiqueta": "1928",
+                    "valor": 2.6,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Julio de 1932",
+                    "valor": 37.3,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-05",
+          "vo": "Después le tocó a Londres. El veintiuno de septiembre de mil novecientos treinta y uno, Gran Bretaña abandonó el patrón oro. Seis años antes, en mil novecientos veinticinco, había vuelto a él con la libra a cuatro dólares con ochenta y seis. Ya hemos visto lo que eso provocó en Estados Unidos: para retener su oro, la Reserva Federal subió los tipos, y en octubre cerraron cientos de bancos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "large rally in Trafalgar Square with union banners",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 1150
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Londres, principios de los años treinta"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bank of England and Royal Exchange, London.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 2,
+              "clip": {
+                "buscar": "Houses of Parliament, Westminster",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 1184
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Westminster, Londres, principios de los años treinta"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bank of England £5 note 1931.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-06",
+          "vo": "De aquí sale una de las conclusiones mejor documentadas sobre la Depresión. Según Barry Eichengreen y Jeffrey Sachs, los países que dejaron pronto el oro, como Gran Bretaña y los escandinavos, se recuperaron antes. El bloque oro, con Francia, Bélgica y los Países Bajos, aguantó hasta mil novecientos treinta y cinco o treinta y seis, y en mil novecientos treinta y cinco aún no había recuperado su producción industrial de mil novecientos veintinueve.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:(Prototypes de pièces de monnaies de 100 francs 1929, de gauche à droite, par) Bazor, Morlon, Turin - btv1b53209160q.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:La façade de la Banque de France - btv1b90480761.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:St Eriksgatan 1930.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-07",
+          "vo": "Y hubo un país que acaparó oro. La parte de Francia en las reservas mundiales pasó del siete por ciento en mil novecientos veintiséis al veintisiete en mil novecientos treinta y dos; entre Francia y Estados Unidos sumaban más del sesenta. Douglas Irwin calcula que Francia fue algo más culpable que Estados Unidos de la deflación mundial; otros, como Eichengreen, reparten la culpa. China, con patrón plata, se libró casi por completo, según Bernanke.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PARTE DE FRANCIA EN EL ORO MONETARIO MUNDIAL",
+              "fuente": "Irwin (2010); Johnson (1997)",
+              "barras": {
+                "unidad": "% de las reservas mundiales",
+                "datos": [
+                  {
+                    "etiqueta": "1926",
+                    "valor": 7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "1932",
+                    "valor": 27,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Réorganisation de la Banque de France - vue intérieure les bureaux, les caves, les coffres-forts - btv1b9046204m.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:1930 Shanghai.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-08",
+          "vo": "América Latina recibió el golpe por dos lados: se hundió el poder de compra de sus exportaciones y se cortó el crédito de Nueva York. Bolivia dejó de pagar su deuda externa en enero de mil novecientos treinta y uno; Chile, en agosto. Según Carlos Díaz Alejandro, Chile sufrió la mayor caída del poder de compra de sus exportaciones de toda la región. En mil novecientos treinta y cuatro, casi todos los países latinoamericanos habían dejado de pagar con normalidad.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Valparaiso (le port), Chili (Pacific) - btv1b532074283.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Nitrato Chile.JPG",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Parlement à La Paz (place Murillo), La Paz, palacio legislativo (Pacific) - btv1b53210650d.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b6-09",
+          "vo": "Solo Argentina, Haití y la República Dominicana siguieron pagando. Y aquí hay otra paradoja. Según los datos que recoge Díaz Alejandro, entre mil novecientos veintinueve y mil novecientos treinta y nueve el producto real creció un cincuenta y dos por ciento en Brasil, un cuarenta y cinco en Colombia y un diecisiete en Argentina. En Estados Unidos, un seis. Brasil, según el mismo autor, compró café en masa para sostener su precio, en parte con dinero recién emitido.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "PIB REAL: CRECIMIENTO DE 1929 A 1939",
+              "fuente": "Díaz Alejandro (1983), tabla 1.2 (CEPAL; Censo de EEUU)",
+              "barras": {
+                "unidad": "% de crecimiento",
+                "datos": [
+                  {
+                    "etiqueta": "Brasil",
+                    "valor": 51.7,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Colombia",
+                    "valor": 44.6,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "México",
+                    "valor": 23.0,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Argentina",
+                    "valor": 16.7,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "EEUU",
+                    "valor": 6.3,
+                    "tono": "ink"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Armazém regulador do café de Campinas.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Postal Carrera Séptima - Iglesia de San Francisco (Bogotá).jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "nombre": "Roosevelt",
+      "planos": [
+        {
+          "id": "b7-01",
+          "vo": "El cuatro de marzo de mil novecientos treinta y tres, Franklin Delano Roosevelt juró el cargo con los bancos cerrados o limitados en casi todo el país. Unas treinta y seis horas después, a la una de la madrugada del lunes seis de marzo, ordenó cerrar todos los bancos de Estados Unidos. Un noticiario de esos días muestra tiendas que fiaban a sus clientes o aceptaban cualquier cosa a cambio.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "Roosevelt",
+                "numero": "VII",
+                "sub": "Washington · 1933-1938"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Roosevelt at the microphones on the Capitol platform, crowd",
+                "archive": {
+                  "id": "1933-03-05_Extra_Special_Roosevelt_Inaugurated",
+                  "desde": 196
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Toma de posesión, 4 de marzo de 1933"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Washington, D.C. - Bank Holiday Proclamation (Speech File 612) of March 6, 1933 - DPLA - 67fd04856d868d7263bcf6b628f679eb (page 3).jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "shop signs offering credit and barter during the bank holiday",
+                "archive": {
+                  "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
+                  "desde": 25
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Estados Unidos, marzo de 1933"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-02",
+          "vo": "El jueves nueve de marzo, el Congreso aprobó la Ley Bancaria de Emergencia. Según la historia de la FDIC, el congresista Henry Steagall entró en la Cámara agitando la única copia del proyecto: aquí está la ley, aprobémosla. Tras cuarenta minutos de debate y sin enmiendas, se aprobó. El Senado la votó horas después. Y la imprenta oficial empezó a producir billetes las veinticuatro horas del día.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 2,
+              "clip": {
+                "buscar": "House of Representatives in session passing the bank bill",
+                "archive": {
+                  "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
+                  "desde": 7
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Cámara de Representantes, 9 de marzo de 1933"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Cong. Henry B. Steagall Chariman House Banking Currency LCCN2016862898.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Bureau of Engraving presses printing Federal Reserve notes",
+                "archive": {
+                  "id": "1933-03-20_Money_Stream_Flow_From_Treasury",
+                  "desde": 12
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Oficina de Grabado e Impresión, marzo de 1933"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-03",
+          "vo": "El domingo doce de marzo, Roosevelt habló por radio unos quince minutos. Fue la primera de sus charlas junto a la chimenea. Explicó qué bancos iban a reabrir, y dijo una frase sencilla: es más seguro guardar el dinero en un banco reabierto que debajo del colchón. Al día siguiente empezaron a abrir los bancos. El quince de marzo, los que tenían el noventa por ciento de los recursos bancarios del país ya funcionaban.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:President Franklin D. Roosevelt Broadcasting his First Fireside Chat Regarding the Banking Crisis, from the White House, Washington, DC - DPLA - eaf235889aa202a7a7546265511148c4.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Roosevelt at his desk speaking into radio microphones",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 3100
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Charla por radio, marzo de 1933"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "family listening to the radio at home",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 3120
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Estados Unidos, 1933"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-04",
+          "vo": "Y el dinero volvió. Según el economista William Silber, entre febrero y principios de marzo los estadounidenses habían retirado y guardado mil setecientos ochenta millones de dólares en efectivo. A finales de marzo habían devuelto dos tercios. El quince de marzo, primer día de bolsa tras el cierre, el Dow Jones subió un quince coma tres por ciento: la mayor subida porcentual de su historia en un solo día.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "sign announcing a Chicago bank is open for business, teller serving",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 3193
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Chicago, marzo de 1933"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "15 DE MARZO DE 1933",
+              "fuente": "Silber (2009), citando a Siegel (1998); S&P Dow Jones Indices",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 15.34,
+                "etiqueta": "% de subida del Dow Jones: la mayor de su historia en un día",
+                "decimales": 2,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "crowded stock exchange floor at the reopening",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 3213
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Bolsa de Nueva York, marzo de 1933"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Floor of the Stock Exchange - DPLA - 63920b71a4803d6682d39e4acbfe5284.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-05",
+          "vo": "No todos reabrieron: unos cuatro mil bancos quedaron cerrados para siempre. En junio, Roosevelt firmó la Ley Bancaria de mil novecientos treinta y tres, la Glass-Steagall. Separó la banca comercial de la de inversión y creó la FDIC, el seguro federal de depósitos. Empezó a funcionar el uno de enero de mil novecientos treinta y cuatro, con dos mil quinientos dólares por depositante.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:GlassSteagall.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Roosevelt signing a bill at his desk",
+                "archive": {
+                  "id": "TheFightingPresident",
+                  "desde": 3408
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Roosevelt firma una ley, marzo de 1933"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:House Engrossed Copy of Glass-Steagall Act, the Banking Act of 1933 (H.R. 5661) - DPLA - 472e1d7b69f6540a3300ecf0773fe49f (page 1).jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-06",
+          "vo": "Y aquí está la paradoja. Según la historia oficial de la FDIC, Roosevelt, su secretario del Tesoro y el propio senador Carter Glass se oponían al seguro de depósitos: lo veían caro y un premio a los bancos mal gestionados. Lo impuso la opinión pública. El resultado: en mil novecientos treinta y cuatro quebraron nueve bancos, frente a más de nueve mil en los cuatro años anteriores.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "BANCOS QUEBRADOS EN EEUU",
+              "fuente": "FDIC (1998)",
+              "barras": {
+                "unidad": "Bancos",
+                "datos": [
+                  {
+                    "etiqueta": "1930-1933, sin seguro",
+                    "valor": 9096,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "1934, con seguro",
+                    "valor": 9,
+                    "tono": "ink"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Carter Glass at desk LCCN2016890498.jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portrait de William H. Woodin Jr. - btv1b9035052d.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-07",
+          "vo": "En abril de mil novecientos treinta y tres llegó la orden más recordada. La Orden Ejecutiva seis mil ciento dos obligó a entregar monedas, lingotes y certificados de oro antes del uno de mayo, al precio legal de veinte dólares con sesenta y siete centavos la onza. Cada persona podía quedarse con hasta cien dólares en oro. La pena: una multa de hasta diez mil dólares, hasta diez años de cárcel, o las dos cosas.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Executive Order 6102.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:US-$20-GC-1928-Fr-2402.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:NNC-US-1933-G$20-Saint Gaudens.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-08",
+          "vo": "Después vino la devaluación. En abril, Roosevelt suspendió el patrón oro. En enero de mil novecientos treinta y cuatro, la Ley de Reserva de Oro fijó la onza en treinta y cinco dólares: el dólar perdió el cuarenta y uno por ciento de su valor en oro. Y el oro empezó a llegar. Según Christina Romer, el oro monetario del país casi se duplicó en siete meses, en parte porque se revalorizó en los libros.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL PRECIO OFICIAL DEL ORO EN EEUU",
+              "fuente": "Federal Reserve History; Gold Reserve Act (1934)",
+              "barras": {
+                "unidad": "Dólares por onza",
+                "datos": [
+                  {
+                    "etiqueta": "1900-1933",
+                    "valor": 20.67,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Desde el 31 de enero de 1934",
+                    "valor": 35,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Franklin Delano Roosevelt signs Gold Bill 1934.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Photograph of a vault with gold bars - NARA - 296609.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-09",
+          "vo": "La recuperación fue rápida. Según Christina Romer, el producto real creció más de un ocho por ciento al año entre mil novecientos treinta y tres y mil novecientos treinta y siete. Por qué, se discute. Romer lo atribuye sobre todo al dinero y al oro. Gauti Eggertsson, al cambio de expectativas. Y Harold Cole y Lee Ohanian sostienen que partes del New Deal, como las normas sobre cárteles y salarios, frenaron la recuperación.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "WPA workers on a construction site, steel bridge",
+                "archive": {
+                  "id": "WorkPaysAmerica",
+                  "desde": 270
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Obras de la WPA, 1937"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:\"Newly-arrived replacements at CCC Camp, TVA ^22, near Esco, Tennessee, lined up before their first meal in camp. The... - NARA - 532780.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "NRA Blue Eagle 'We Do Our Part' poster on a stage",
+                "archive": {
+                  "id": "National1933",
+                  "desde": 141
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Campaña de la NRA, 1933"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "young CCC recruits lined up between tents",
+                "archive": {
+                  "id": "1933-08-14_President_Visits_Foresters",
+                  "desde": 20
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Campamento del CCC, agosto de 1933"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b7-10",
+          "vo": "En mil novecientos treinta y siete, la economía recayó. La Reserva Federal duplicó en tres pasos el dinero que los bancos debían tener en reserva, el Tesoro inmovilizó el oro que entraba y el Gobierno recortó su déficit. Entre mayo de mil novecientos treinta y siete y junio de mil novecientos treinta y ocho, la producción industrial cayó alrededor de un treinta por ciento. Christina Romer lo llamó un cuento con moraleja.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "LA RECAÍDA DE 1937-1938",
+              "fuente": "Federal Reserve History (Bordo y Haubrich); Irwin (2011)",
+              "barras": {
+                "unidad": "% de caída",
+                "datos": [
+                  {
+                    "etiqueta": "PIB real",
+                    "valor": 10,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Producción industrial",
+                    "valor": 30,
+                    "tono": "carmin"
+                  },
+                  {
+                    "etiqueta": "Bolsa (feb. 1937-abr. 1938)",
+                    "valor": 44,
+                    "tono": "ink"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "large union rally in the street, 1937",
+                "archive": {
+                  "id": "PatheNew1937",
+                  "desde": 557
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Mitin sindical, 1937"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Marriner Eccles LCCN2016872596.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "nombre": "El debate",
+      "planos": [
+        {
+          "id": "b8-01",
+          "vo": "¿Qué causó, entonces, la Gran Depresión? Casi un siglo después, los economistas siguen discutiendo cuánto pesó cada causa. La explicación más influyente la dieron Milton Friedman y Anna Schwartz en mil novecientos sesenta y tres: la Reserva Federal dejó caer la cantidad de dinero entre un treinta y un treinta y cinco por ciento, según el periodo que se mida. Para ellos, fue un testimonio trágico de la importancia del dinero.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "El debate",
+                "numero": "VIII",
+                "sub": "¿Qué causó la Gran Depresión?"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Portrait of Milton Friedman.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "LA CANTIDAD DE DINERO EN EEUU (M2)",
+              "fuente": "Friedman y Schwartz (1963), vía Parker (EH.net) y Bernanke (2004)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 34.7,
+                "etiqueta": "% de caída entre agosto de 1929 y marzo de 1933",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-02",
+          "vo": "Friedman y Schwartz señalan cuatro errores de la Reserva Federal: frenar el crédito desde mil novecientos veintiocho contra la especulación, subir los tipos en otoño de mil novecientos treinta y uno, abandonar en mil novecientos treinta y dos sus compras de deuda y desentenderse de las quiebras bancarias. Y dan un argumento: Canadá, sin quiebras bancarias importantes, sufrió una caída de la producción tan grave como la estadounidense.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Eugene Meyer, half-length portrait, seated at desk, facing front LOC cph.3c05094.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Construction of Commerce Court North 1929 (f1266 it17427).jpg",
+                "deriva": "abajo"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:R-100 - Montreal 1930.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-03",
+          "vo": "Para ellos, eso indica que lo decisivo fue el dinero. En noviembre de dos mil dos, en el noventa cumpleaños de Friedman, un gobernador de la Reserva Federal se dirigió a él y a Anna Schwartz. Era Ben Bernanke. Les dijo: sobre la Gran Depresión, tienen razón, lo hicimos nosotros. Lo sentimos mucho. Pero gracias a ustedes, no lo volveremos a hacer.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Ben Bernanke.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "«We did it. We're very sorry.»",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:University of Chicago - WILLIAM RAINEY HARPER MEMORIAL LIBRARY.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-04",
+          "vo": "Pero Bernanke añadió algo propio. En mil novecientos ochenta y tres sostuvo que las quiebras bancarias no solo destruyeron dinero: destruyeron información y relaciones de crédito. Al caer un banco se perdía lo que sabía de sus clientes, y el crédito se encareció y escaseó. Eso explicaría la inusual duración y profundidad de la Depresión. En dos mil veintidós, esos estudios le valieron el Nobel de Economía.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bank Run on American Union Bank.jpeg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Four chairmen of the US Federal reserve in 2022.jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-05",
+          "vo": "Otros ponen el acento en otra parte. Barry Eichengreen y Peter Temin culpan al patrón oro, que transmitió la deflación y ató las manos de los bancos centrales; Temin lo llamó el toque de Midas. John Maynard Keynes sostuvo en mil novecientos treinta y seis que una demanda insuficiente puede mantener el paro alto durante mucho tiempo. Y Christina Romer sostuvo que la incertidumbre tras el crack frenó la compra de coches y otros bienes duraderos.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:John Maynard Keynes 1929.jpg",
+                "deriva": "der"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Keynes caricature Low 1934-1.jpg",
+                "deriva": "izq"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "relief workers demonstration with banners and a crowd, Los Angeles",
+                "archive": {
+                  "id": "Griffith1933",
+                  "desde": 60
+                },
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Archivo",
+                "texto": "Los Ángeles, 1933: manifestación de trabajadores de ayuda"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Oakland Eight (1930-1931) Model 101.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b8-06",
+          "vo": "¿Y el crack fue causa o síntoma? Tampoco hay acuerdo. Para buena parte de los autores que recoge la Reserva Federal, contribuyó, pero no basta: sus efectos se diluyeron en meses, y fueron los pánicos bancarios los que convirtieron una recesión en la Gran Depresión. Para Allan Meltzer y otros, fue un síntoma de una contracción que ya estaba en marcha: antes del crack, la producción ya caía a un ritmo anual cercano al veinte por ciento.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:US Federal Hall New York 1930s.jpg",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "frase",
+              "texto": "¿Causa o síntoma?",
+              "night": true
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Ford Motor Company assembly line.jpg",
+                "deriva": "der"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "nombre": "Lo que queda: noviembre de 2026",
+      "planos": [
+        {
+          "id": "b9-01",
+          "vo": "Noviembre de dos mil veintiséis. ¿Qué queda de mil novecientos veintinueve? Primero, el seguro de depósitos. En Estados Unidos cubre hoy doscientos cincuenta mil dólares por depositante y por banco; en la Unión Europea, cien mil euros. Y según la FDIC, desde que empezó a funcionar en mil novecientos treinta y cuatro, ningún depositante ha perdido un centavo de sus depósitos asegurados.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "capitulo",
+              "capitulo": {
+                "titulo": "Lo que queda",
+                "numero": "IX",
+                "sub": "Noviembre de 2026"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "bank branch entrance on a city street",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Una sucursal bancaria, hoy"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "EL SEGURO DE DEPÓSITOS EN EEUU",
+              "fuente": "FDIC (consultada el 14-nov-2026); en la UE: 100.000 € (FGD, FGDR)",
+              "de": {
+                "valor": 2500,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 250000,
+                "etiqueta": "dólares por depositante y banco; en 1934 eran 2.500",
+                "decimales": 0
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Bank of Thomas County, Thomasville, Ga., member Federal Deposit Insurance Corporation (8342827551).jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-02",
+          "vo": "Segundo, un banco central que ya no deja caer el dinero. Entre febrero de dos mil veinte y febrero de dos mil veintiuno, la masa monetaria de Estados Unidos creció casi un veintisiete por ciento. Y el balance de la Reserva Federal, que era de novecientos cinco mil millones de dólares en septiembre de dos mil ocho, era de seis billones setecientos cincuenta y nueve mil millones el once de noviembre de dos mil veintiséis. Siete veces y media aquella cifra.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "lineas",
+              "kicker": "EL BALANCE DE LA RESERVA FEDERAL",
+              "fuente": "Reserva Federal, H.4.1 (12-nov-2026); FRED (WALCL)",
+              "lineas": {
+                "unidad": "Billones de dólares",
+                "series": [
+                  {
+                    "nombre": "Activos totales",
+                    "tono": "carmin",
+                    "puntos": [
+                      [
+                        "sep 2008",
+                        0.905
+                      ],
+                      [
+                        "dic 2008",
+                        2.25
+                      ],
+                      [
+                        "feb 2020",
+                        4.16
+                      ],
+                      [
+                        "jun 2020",
+                        7.17
+                      ],
+                      [
+                        "abr 2022",
+                        8.97
+                      ],
+                      [
+                        "dic 2025",
+                        6.536
+                      ],
+                      [
+                        "11 nov 2026",
+                        6.759
+                      ]
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Federal Reserve building Washington exterior",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "La Reserva Federal, Washington, hoy"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "banknotes being counted by a machine close up",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Billetes de dólar, hoy"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Eccles Building (26088200676).jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-03",
+          "vo": "Tercero, el margen. En mil novecientos veintinueve, cada corredor fijaba cuánto pedía a sus clientes. Hoy, la Reserva Federal exige poner al menos la mitad del precio. La deuda de margen en Estados Unidos fue, según FINRA, de un billón cuatrocientos cuarenta y ocho mil millones de dólares en octubre de dos mil veintiséis, algo por debajo de su récord de junio. Es alrededor del cuatro coma cuatro por ciento del PIB.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL CRÉDITO PARA COMPRAR ACCIONES, EN % DEL PIB",
+              "fuente": "1929: préstamos a corredores (Machlup, 1940) / PIB (BEA). 2026: deuda de margen de octubre (FINRA) / PIB del 3.er trim. (FRED). Medidas distintas; cálculo propio",
+              "barras": {
+                "unidad": "% del PIB",
+                "datos": [
+                  {
+                    "etiqueta": "Septiembre de 1929",
+                    "valor": 8.2,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "Octubre de 2026",
+                    "valor": 4.4,
+                    "tono": "carmin"
+                  }
+                ],
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "stock trading app on a smartphone screen",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Una aplicación de bolsa, hoy"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "stock market price screens in a trading room",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Pantallas de cotización, hoy"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Wide-Angle New York Stock Exchange (51680640260).jpg",
+                "deriva": "arriba"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-04",
+          "vo": "Pero hay un dato que no tranquiliza. El CAPE de Shiller, que en septiembre de mil novecientos veintinueve estaba en treinta y dos coma seis, estaba el trece de noviembre de dos mil veintiséis en torno a cuarenta. Desde mil ochocientos ochenta y uno solo ha estado más alto en un puñado de meses, en torno al año dos mil y en dos mil veintiséis. Hoy, según esta medida, la bolsa es más cara que entonces. Pero el CAPE no dice cuándo llega un crack.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "barras",
+              "kicker": "EL CAPE DE SHILLER",
+              "fuente": "Robert Shiller; MULTPL (13-nov-2026: 39,95)",
+              "barras": {
+                "unidad": "Veces los beneficios reales de diez años",
+                "datos": [
+                  {
+                    "etiqueta": "Septiembre de 1929",
+                    "valor": 32.56,
+                    "tono": "ink"
+                  },
+                  {
+                    "etiqueta": "13 de noviembre de 2026",
+                    "valor": 39.95,
+                    "tono": "carmin"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:Shiller Ratio Jun2026.png",
+                "deriva": "arriba"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Wall Street street sign New York financial district",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Wall Street, hoy"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "Charging Bull bronze statue Wall Street tourists",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Distrito financiero de Nueva York, hoy"
+              }
+            },
+            {
+              "tipo": "clip",
+              "clip": {
+                "buscar": "New York Stock Exchange building facade flags",
+                "tono": "ocre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-05",
+          "vo": "Y el paro está muy lejos de mil novecientos treinta y tres: en octubre de dos mil veintiséis fue del cuatro coma uno por ciento, según la Oficina de Estadísticas Laborales. Además, hoy no hay patrón oro que contagie la deflación de un país a otro, existe el seguro de depósitos y hay un banco central dispuesto a prestar. En mil novecientos veintinueve no existía ninguno de esos amortiguadores. Si bastarán ante el próximo crack, nadie lo sabe.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "office workers crossing a city street",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Trabajadores, hoy"
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "factory workers on a modern assembly line",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Una fábrica, hoy"
+              }
+            },
+            {
+              "tipo": "contador",
+              "kicker": "PARO EN EEUU, OCTUBRE DE 2026",
+              "fuente": "BLS (6-nov-2026); FRED (UNRATE)",
+              "de": {
+                "valor": 0,
+                "etiqueta": ""
+              },
+              "a": {
+                "valor": 4.1,
+                "etiqueta": "% de la población activa; en 1933, entre el 20,6 y el 24,9 %",
+                "decimales": 1,
+                "sufijo": "%"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:US Dept of Labor.jpg",
+                "deriva": "izq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9-06",
+          "vo": "En mil novecientos veintinueve no se hundió solo una bolsa. Se hundió la confianza en todo lo que la sostenía: los bancos, el dinero, el oro. Lo que se construyó después sigue en pie casi un siglo más tarde. Y Roosevelt lo resumió por radio en marzo de mil novecientos treinta y tres: hay algo más importante que el dinero y que el oro. La confianza de la gente.",
+          "voz": {
+            "speed": 0.97
+          },
+          "escenas": [
+            {
+              "tipo": "cierre",
+              "cierre": {
+                "sub": "Más importante que el dinero y que el oro: la confianza de la gente.",
+                "suscribete": true
+              }
+            },
+            {
+              "tipo": "clip",
+              "peso": 5.0,
+              "clip": {
+                "buscar": "New York City Lower Manhattan skyline at dusk",
+                "tono": "ocre"
+              },
+              "rotulo": {
+                "kicker": "Imagen actual",
+                "texto": "Nueva York, hoy"
+              }
+            },
+            {
+              "tipo": "lamina",
+              "lamina": {
+                "buscar": "File:President Franklin D. Roosevelt Broadcasting his First Fireside Chat Regarding the Banking Crisis, from the White House, Washington, DC - DPLA - eaf235889aa202a7a7546265511148c4.jpg",
+                "deriva": "abajo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicacion": {
+    "titulo": "El Crack Del 29: La Bolsa Perdió El 89 % Y Tardó 25 Años En Volver A Su Máximo",
+    "descripcion": "El 3 de septiembre de 1929, el Dow Jones cerró en 381 puntos. El 8 de julio de 1932, en 41: había perdido el 89 %. No volvió a su máximo hasta noviembre de 1954, veinticinco años después. En esos años quebraron más de 9.000 bancos en Estados Unidos y, en 1933, entre uno de cada cinco y uno de cada cuatro trabajadores no tenía empleo. ¿Cómo pudo una caída de la bolsa convertirse en una década de miseria?\n\nEste documental sigue el dinero: los felices veinte y el crédito para comprar acciones, el boom de Florida, la Reserva Federal de Benjamin Strong, los préstamos a los corredores, RCA y la pirámide de fondos de Goldman Sachs, Charles Mitchell contra la Reserva Federal, los avisos de Warburg y Babson y la «meseta permanentemente alta» de Irving Fisher; el Jueves Negro, la reunión de los banqueros en J. P. Morgan y la puja de Richard Whitney; el lunes y el martes negros; la caída lenta de 1930-1932, Smoot-Hawley y la Reconstruction Finance Corporation; las oleadas de quiebras bancarias y el Bank of United States; el Creditanstalt, el Danatbank, la salida británica del oro, Francia y América Latina; Roosevelt, el cierre bancario, la charla por radio, el seguro de depósitos, el oro de 1933 y la recaída de 1937; y el debate de los economistas, de Friedman y Schwartz a Bernanke, Keynes, Eichengreen y Romer. Termina con una comparación honesta con noviembre de 2026.\n\nCAPÍTULOS\n[CAPITULOS]\n\nLO QUE VAS A VER\n• Un Dow Jones que se multiplicó por seis entre 1921 y 1929, y luego perdió el 89 % hasta julio de 1932.\n• Los préstamos para comprar acciones: de unos 2.500 millones de dólares en 1926 a más de 8.000 millones en 1929.\n• El Jueves Negro: 12.894.650 acciones en un día y la orden de Whitney, de 10.000 o 25.000 acciones según la fuente.\n• Lunes y martes negros: −12,8 % y −11,7 %; y, días después, una de las mayores subidas de la historia del Dow.\n• Más de 9.000 bancos suspendidos entre 1930 y 1933, y solo 9 en 1934, con el seguro de depósitos.\n• El paro de 1933, entre el 20,6 % y el 24,9 % según la serie, y por qué las cifras no coinciden.\n• Francia con el 27 % del oro mundial en 1932, y una América Latina que, en la década, creció más que Estados Unidos.\n• Hoy: balance de la Fed de 6,76 billones de dólares (11-nov-2026), deuda de margen de 1,448 billones (octubre de 2026) y CAPE de Shiller en torno a 40, frente a 32,6 en septiembre de 1929.\n\nCuando una cifra se discute, el vídeo lo dice. El paro de 1933, el margen que se exigía para comprar acciones, la orden de Whitney, el daño del arancel Smoot-Hawley o las causas de la propia Gran Depresión, por ejemplo, tienen rangos o lecturas distintas según la fuente: aquí se dan con sus rangos y con quién defiende cada una.\n\nFUENTES\nGalbraith — The Great Crash 1929 (1955); Federal Reserve History (Stock Market Crash of 1929, Great Depression, Banking Panics, Bank Holiday, Glass-Steagall, Gold Program, Recession of 1937-38)\nFriedman y Schwartz — A Monetary History of the United States (1963), vía Bernanke (2002 y 2004) y Parker (EH.net)\nBernanke (1983); Romer (1990 y 1992); Eggertsson (2005); Eichengreen y Sachs (1985); Irwin (1996, 2010 y 2011); Eichengreen e Irwin (2009); Grossman y Meissner (2010)\nRappoport y White (1991); De Long y Shleifer (1990); Borowiecki, Dzieliński y Tepper (2022); Machlup (1940); Smiley (EH.net y 1983); Lebergott (1957); Margo (1993)\nFDIC — A Brief History of Deposit Insurance (1998); Silber (2009); Orden Ejecutiva 6102; Kindleberger (1973); Doerr, Gissler, Peydró y Voth (2020)\nDíaz Alejandro (1983); Jorgensen y Sachs (1988); Eichengreen (1989); NOAA (2011); Goldman Sachs; Time (1936); Radio Annual (1938)\nReserva Federal (H.4.1, 12-nov-2026); FRED; BLS (octubre de 2026); FINRA; Robert Shiller y MULTPL; FGD; FGDR\nImágenes: dominio público de Wikimedia Commons y noticiarios de archive.org, con crédito; imágenes de hoy rotuladas como tales\n\nSi encuentras un error, dímelo en comentarios y lo corrijo.\n\n#HistoriaEconómica #CrackDel29 #GranDepresión",
+    "capitulos": [
+      "El prólogo: las cifras del desplome",
+      "Los felices veinte",
+      "La burbuja",
+      "El crack: jueves, lunes y martes negros",
+      "La caída lenta (1930-1932)",
+      "Los bancos",
+      "El mundo y el patrón oro",
+      "Roosevelt",
+      "El debate: ¿qué causó la Gran Depresión?",
+      "Lo que queda: noviembre de 2026"
+    ],
+    "etiquetas": [
+      "crack del 29",
+      "crack de 1929",
+      "gran depresion",
+      "jueves negro",
+      "martes negro",
+      "wall street 1929",
+      "historia economica",
+      "crisis de 1929",
+      "dow jones",
+      "burbuja bursatil",
+      "reserva federal",
+      "patron oro",
+      "roosevelt",
+      "new deal",
+      "quiebras bancarias",
+      "bernanke",
+      "milton friedman",
+      "galbraith",
+      "smoot hawley",
+      "seguro de depositos",
+      "cape shiller",
+      "deuda de margen",
+      "crisis financieras",
+      "capital x",
+      "divulgacion economica"
+    ],
+    "miniatura": {
+      "texto": "LA BOLSA\nCAYÓ UN\n89 %",
+      "resalte": "89 %",
+      "escena": "A 1929 New York stock exchange trading floor in chaos, ticker tape strewn across the floor, anonymous brokers in suits and hats seen from behind, a huge falling stock chart line glowing red on the wall, dramatic sepia photographic realism, no text"
+    }
+  }
+}

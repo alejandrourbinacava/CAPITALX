@@ -1,0 +1,458 @@
+{
+  "b0-01": {
+    "audio": "voice/potosi-plata-b0-01.mp3",
+    "duration": 26.592653,
+    "transcript": null,
+    "credit_cost": 514
+  },
+  "b0-02": {
+    "audio": "voice/potosi-plata-b0-02.mp3",
+    "duration": 26.749388,
+    "transcript": null,
+    "credit_cost": 482
+  },
+  "b0-03": {
+    "audio": "voice/potosi-plata-b0-03.mp3",
+    "duration": 24.633469,
+    "transcript": null,
+    "credit_cost": 487
+  },
+  "b0-04": {
+    "audio": "voice/potosi-plata-b0-04.mp3",
+    "duration": 23.797551,
+    "transcript": null,
+    "credit_cost": 478
+  },
+  "b1-01": {
+    "audio": "voice/potosi-plata-b1-01.mp3",
+    "duration": 24.711837,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b1-02": {
+    "audio": "voice/potosi-plata-b1-02.mp3",
+    "duration": 20.27102,
+    "transcript": null,
+    "credit_cost": 392
+  },
+  "b1-03": {
+    "audio": "voice/potosi-plata-b1-03.mp3",
+    "duration": 23.04,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b1-04": {
+    "audio": "voice/potosi-plata-b1-04.mp3",
+    "duration": 22.177959,
+    "transcript": null,
+    "credit_cost": 450
+  },
+  "b1-05": {
+    "audio": "voice/potosi-plata-b1-05.mp3",
+    "duration": 24.946939,
+    "transcript": null,
+    "credit_cost": 477
+  },
+  "b1-06": {
+    "audio": "voice/potosi-plata-b1-06.mp3",
+    "duration": 22.021224,
+    "transcript": null,
+    "credit_cost": 392
+  },
+  "b1-07": {
+    "audio": "voice/potosi-plata-b1-07.mp3",
+    "duration": 23.797551,
+    "transcript": null,
+    "credit_cost": 445
+  },
+  "b2-01": {
+    "audio": "voice/potosi-plata-b2-01.mp3",
+    "duration": 24.346122,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b2-02": {
+    "audio": "voice/potosi-plata-b2-02.mp3",
+    "duration": 27.768163,
+    "transcript": null,
+    "credit_cost": 509
+  },
+  "b2-03": {
+    "audio": "voice/potosi-plata-b2-03.mp3",
+    "duration": 22.961633,
+    "transcript": null,
+    "credit_cost": 446
+  },
+  "b2-04": {
+    "audio": "voice/potosi-plata-b2-04.mp3",
+    "duration": 24.52898,
+    "transcript": null,
+    "credit_cost": 430
+  },
+  "b2-05": {
+    "audio": "voice/potosi-plata-b2-05.mp3",
+    "duration": 25.155918,
+    "transcript": null,
+    "credit_cost": 446
+  },
+  "b2-06": {
+    "audio": "voice/potosi-plata-b2-06.mp3",
+    "duration": 23.902041,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b2-07": {
+    "audio": "voice/potosi-plata-b2-07.mp3",
+    "duration": 23.510204,
+    "transcript": null,
+    "credit_cost": 465
+  },
+  "b2-08": {
+    "audio": "voice/potosi-plata-b2-08.mp3",
+    "duration": 21.524898,
+    "transcript": null,
+    "credit_cost": 394
+  },
+  "b2-09": {
+    "audio": "voice/potosi-plata-b2-09.mp3",
+    "duration": 23.327347,
+    "transcript": null,
+    "credit_cost": 449
+  },
+  "b3-01": {
+    "audio": "voice/potosi-plata-b3-01.mp3",
+    "duration": 23.823673,
+    "transcript": null,
+    "credit_cost": 437
+  },
+  "b3-02": {
+    "audio": "voice/potosi-plata-b3-02.mp3",
+    "duration": 23.04,
+    "transcript": null,
+    "credit_cost": 448
+  },
+  "b3-03": {
+    "audio": "voice/potosi-plata-b3-03.mp3",
+    "duration": 23.797551,
+    "transcript": null,
+    "credit_cost": 450
+  },
+  "b3-04": {
+    "audio": "voice/potosi-plata-b3-04.mp3",
+    "duration": 26.253061,
+    "transcript": null,
+    "credit_cost": 474
+  },
+  "b3-05": {
+    "audio": "voice/potosi-plata-b3-05.mp3",
+    "duration": 23.327347,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b3-06": {
+    "audio": "voice/potosi-plata-b3-06.mp3",
+    "duration": 28.238367,
+    "transcript": null,
+    "credit_cost": 517
+  },
+  "b3-07": {
+    "audio": "voice/potosi-plata-b3-07.mp3",
+    "duration": 24.607347,
+    "transcript": null,
+    "credit_cost": 478
+  },
+  "b3-08": {
+    "audio": "voice/potosi-plata-b3-08.mp3",
+    "duration": 23.902041,
+    "transcript": null,
+    "credit_cost": 439
+  },
+  "b3-09": {
+    "audio": "voice/potosi-plata-b3-09.mp3",
+    "duration": 23.823673,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b3-10": {
+    "audio": "voice/potosi-plata-b3-10.mp3",
+    "duration": 23.536327,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b3-11": {
+    "audio": "voice/potosi-plata-b3-11.mp3",
+    "duration": 23.823673,
+    "transcript": null,
+    "credit_cost": 479
+  },
+  "b4-01": {
+    "audio": "voice/potosi-plata-b4-01.mp3",
+    "duration": 22.204082,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b4-02": {
+    "audio": "voice/potosi-plata-b4-02.mp3",
+    "duration": 21.733878,
+    "transcript": null,
+    "credit_cost": 423
+  },
+  "b4-03": {
+    "audio": "voice/potosi-plata-b4-03.mp3",
+    "duration": 23.849796,
+    "transcript": null,
+    "credit_cost": 480
+  },
+  "b4-04": {
+    "audio": "voice/potosi-plata-b4-04.mp3",
+    "duration": 22.93551,
+    "transcript": null,
+    "credit_cost": 446
+  },
+  "b4-05": {
+    "audio": "voice/potosi-plata-b4-05.mp3",
+    "duration": 23.562449,
+    "transcript": null,
+    "credit_cost": 464
+  },
+  "b4-06": {
+    "audio": "voice/potosi-plata-b4-06.mp3",
+    "duration": 26.932245,
+    "transcript": null,
+    "credit_cost": 508
+  },
+  "b4-07": {
+    "audio": "voice/potosi-plata-b4-07.mp3",
+    "duration": 23.092245,
+    "transcript": null,
+    "credit_cost": 453
+  },
+  "b4-08": {
+    "audio": "voice/potosi-plata-b4-08.mp3",
+    "duration": 24.973061,
+    "transcript": null,
+    "credit_cost": 468
+  },
+  "b5-01": {
+    "audio": "voice/potosi-plata-b5-01.mp3",
+    "duration": 22.595918,
+    "transcript": null,
+    "credit_cost": 423
+  },
+  "b5-02": {
+    "audio": "voice/potosi-plata-b5-02.mp3",
+    "duration": 21.96898,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b5-03": {
+    "audio": "voice/potosi-plata-b5-03.mp3",
+    "duration": 26.618776,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b5-04": {
+    "audio": "voice/potosi-plata-b5-04.mp3",
+    "duration": 22.909388,
+    "transcript": null,
+    "credit_cost": 467
+  },
+  "b5-05": {
+    "audio": "voice/potosi-plata-b5-05.mp3",
+    "duration": 25.835102,
+    "transcript": null,
+    "credit_cost": 484
+  },
+  "b5-06": {
+    "audio": "voice/potosi-plata-b5-06.mp3",
+    "duration": 23.379592,
+    "transcript": null,
+    "credit_cost": 462
+  },
+  "b6-01": {
+    "audio": "voice/potosi-plata-b6-01.mp3",
+    "duration": 22.83102,
+    "transcript": null,
+    "credit_cost": 440
+  },
+  "b6-02": {
+    "audio": "voice/potosi-plata-b6-02.mp3",
+    "duration": 23.614694,
+    "transcript": null,
+    "credit_cost": 445
+  },
+  "b6-03": {
+    "audio": "voice/potosi-plata-b6-03.mp3",
+    "duration": 27.350204,
+    "transcript": null,
+    "credit_cost": 517
+  },
+  "b6-04": {
+    "audio": "voice/potosi-plata-b6-04.mp3",
+    "duration": 24.711837,
+    "transcript": null,
+    "credit_cost": 451
+  },
+  "b6-05": {
+    "audio": "voice/potosi-plata-b6-05.mp3",
+    "duration": 24.816327,
+    "transcript": null,
+    "credit_cost": 473
+  },
+  "b6-06": {
+    "audio": "voice/potosi-plata-b6-06.mp3",
+    "duration": 21.812245,
+    "transcript": null,
+    "credit_cost": 394
+  },
+  "b6-07": {
+    "audio": "voice/potosi-plata-b6-07.mp3",
+    "duration": 24.633469,
+    "transcript": null,
+    "credit_cost": 460
+  },
+  "b6-08": {
+    "audio": "voice/potosi-plata-b6-08.mp3",
+    "duration": 22.987755,
+    "transcript": null,
+    "credit_cost": 461
+  },
+  "b6-09": {
+    "audio": "voice/potosi-plata-b6-09.mp3",
+    "duration": 21.524898,
+    "transcript": null,
+    "credit_cost": 414
+  },
+  "b7-01": {
+    "audio": "voice/potosi-plata-b7-01.mp3",
+    "duration": 27.924898,
+    "transcript": null,
+    "credit_cost": 496
+  },
+  "b7-02": {
+    "audio": "voice/potosi-plata-b7-02.mp3",
+    "duration": 23.640816,
+    "transcript": null,
+    "credit_cost": 450
+  },
+  "b7-03": {
+    "audio": "voice/potosi-plata-b7-03.mp3",
+    "duration": 23.875918,
+    "transcript": null,
+    "credit_cost": 477
+  },
+  "b7-04": {
+    "audio": "voice/potosi-plata-b7-04.mp3",
+    "duration": 27.350204,
+    "transcript": null,
+    "credit_cost": 495
+  },
+  "b7-05": {
+    "audio": "voice/potosi-plata-b7-05.mp3",
+    "duration": 22.204082,
+    "transcript": null,
+    "credit_cost": 420
+  },
+  "b7-06": {
+    "audio": "voice/potosi-plata-b7-06.mp3",
+    "duration": 23.457959,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b7-07": {
+    "audio": "voice/potosi-plata-b7-07.mp3",
+    "duration": 25.652245,
+    "transcript": null,
+    "credit_cost": 487
+  },
+  "b8-01": {
+    "audio": "voice/potosi-plata-b8-01.mp3",
+    "duration": 21.394286,
+    "transcript": null,
+    "credit_cost": 422
+  },
+  "b8-02": {
+    "audio": "voice/potosi-plata-b8-02.mp3",
+    "duration": 23.614694,
+    "transcript": null,
+    "credit_cost": 476
+  },
+  "b8-03": {
+    "audio": "voice/potosi-plata-b8-03.mp3",
+    "duration": 23.24898,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b8-04": {
+    "audio": "voice/potosi-plata-b8-04.mp3",
+    "duration": 23.875918,
+    "transcript": null,
+    "credit_cost": 448
+  },
+  "b8-05": {
+    "audio": "voice/potosi-plata-b8-05.mp3",
+    "duration": 24.842449,
+    "transcript": null,
+    "credit_cost": 474
+  },
+  "b8-06": {
+    "audio": "voice/potosi-plata-b8-06.mp3",
+    "duration": 23.510204,
+    "transcript": null,
+    "credit_cost": 443
+  },
+  "b8-07": {
+    "audio": "voice/potosi-plata-b8-07.mp3",
+    "duration": 25.103673,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b8-08": {
+    "audio": "voice/potosi-plata-b8-08.mp3",
+    "duration": 26.383673,
+    "transcript": null,
+    "credit_cost": 502
+  },
+  "b9-01": {
+    "audio": "voice/potosi-plata-b9-01.mp3",
+    "duration": 22.151837,
+    "transcript": null,
+    "credit_cost": 435
+  },
+  "b9-02": {
+    "audio": "voice/potosi-plata-b9-02.mp3",
+    "duration": 22.674286,
+    "transcript": null,
+    "credit_cost": 422
+  },
+  "b9-03": {
+    "audio": "voice/potosi-plata-b9-03.mp3",
+    "duration": 23.666939,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b9-04": {
+    "audio": "voice/potosi-plata-b9-04.mp3",
+    "duration": 25.260408,
+    "transcript": null,
+    "credit_cost": 479
+  },
+  "b9-05": {
+    "audio": "voice/potosi-plata-b9-05.mp3",
+    "duration": 22.099592,
+    "transcript": null,
+    "credit_cost": 424
+  },
+  "b9-06": {
+    "audio": "voice/potosi-plata-b9-06.mp3",
+    "duration": 25.208163,
+    "transcript": null,
+    "credit_cost": 476
+  },
+  "b9-07": {
+    "audio": "voice/potosi-plata-b9-07.mp3",
+    "duration": 22.177959,
+    "transcript": null,
+    "credit_cost": 387
+  }
+}

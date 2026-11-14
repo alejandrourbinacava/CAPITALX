@@ -1,0 +1,266 @@
+{
+  "b0-01": {
+    "audio": "voice/crack-del-29-b0-01.mp3",
+    "duration": 25.129796,
+    "transcript": null,
+    "credit_cost": 486
+  },
+  "b0-02": {
+    "audio": "voice/crack-del-29-b0-02.mp3",
+    "duration": 28.342857,
+    "transcript": null,
+    "credit_cost": 552
+  },
+  "b0-03": {
+    "audio": "voice/crack-del-29-b0-03.mp3",
+    "duration": 21.786122,
+    "transcript": null,
+    "credit_cost": 427
+  },
+  "b0-04": {
+    "audio": "voice/crack-del-29-b0-04.mp3",
+    "duration": 27.245714,
+    "transcript": null,
+    "credit_cost": 515
+  },
+  "b1-01": {
+    "audio": "voice/crack-del-29-b1-01.mp3",
+    "duration": 23.797551,
+    "transcript": null,
+    "credit_cost": 451
+  },
+  "b1-02": {
+    "audio": "voice/crack-del-29-b1-02.mp3",
+    "duration": 22.987755,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b1-03": {
+    "audio": "voice/crack-del-29-b1-03.mp3",
+    "duration": 23.04,
+    "transcript": null,
+    "credit_cost": 467
+  },
+  "b1-04": {
+    "audio": "voice/crack-del-29-b1-04.mp3",
+    "duration": 24.973061,
+    "transcript": null,
+    "credit_cost": 501
+  },
+  "b1-05": {
+    "audio": "voice/crack-del-29-b1-05.mp3",
+    "duration": 24.842449,
+    "transcript": null,
+    "credit_cost": 490
+  },
+  "b1-06": {
+    "audio": "voice/crack-del-29-b1-06.mp3",
+    "duration": 22.674286,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b1-07": {
+    "audio": "voice/crack-del-29-b1-07.mp3",
+    "duration": 28.36898,
+    "transcript": null,
+    "credit_cost": 496
+  },
+  "b2-01": {
+    "audio": "voice/crack-del-29-b2-01.mp3",
+    "duration": 26.331429,
+    "transcript": null,
+    "credit_cost": 509
+  },
+  "b2-02": {
+    "audio": "voice/crack-del-29-b2-02.mp3",
+    "duration": 22.648163,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b2-03": {
+    "audio": "voice/crack-del-29-b2-03.mp3",
+    "duration": 30.093061,
+    "transcript": null,
+    "credit_cost": 498
+  },
+  "b2-04": {
+    "audio": "voice/crack-del-29-b2-04.mp3",
+    "duration": 22.517551,
+    "transcript": null,
+    "credit_cost": 433
+  },
+  "b2-05": {
+    "audio": "voice/crack-del-29-b2-05.mp3",
+    "duration": 25.782857,
+    "transcript": null,
+    "credit_cost": 510
+  },
+  "b2-06": {
+    "audio": "voice/crack-del-29-b2-06.mp3",
+    "duration": 21.942857,
+    "transcript": null,
+    "credit_cost": 439
+  },
+  "b2-07": {
+    "audio": "voice/crack-del-29-b2-07.mp3",
+    "duration": 28.917551,
+    "transcript": null,
+    "credit_cost": 510
+  },
+  "b2-08": {
+    "audio": "voice/crack-del-29-b2-08.mp3",
+    "duration": 26.200816,
+    "transcript": null,
+    "credit_cost": 483
+  },
+  "b2-09": {
+    "audio": "voice/crack-del-29-b2-09.mp3",
+    "duration": 25.103673,
+    "transcript": null,
+    "credit_cost": 479
+  },
+  "b3-01": {
+    "audio": "voice/crack-del-29-b3-01.mp3",
+    "duration": 23.614694,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b3-02": {
+    "audio": "voice/crack-del-29-b3-02.mp3",
+    "duration": 23.431837,
+    "transcript": null,
+    "credit_cost": 459
+  },
+  "b3-03": {
+    "audio": "voice/crack-del-29-b3-03.mp3",
+    "duration": 26.618776,
+    "transcript": null,
+    "credit_cost": 493
+  },
+  "b3-04": {
+    "audio": "voice/crack-del-29-b3-04.mp3",
+    "duration": 29.283265,
+    "transcript": null,
+    "credit_cost": 511
+  },
+  "b3-05": {
+    "audio": "voice/crack-del-29-b3-05.mp3",
+    "duration": 21.080816,
+    "transcript": null,
+    "credit_cost": 384
+  },
+  "b3-06": {
+    "audio": "voice/crack-del-29-b3-06.mp3",
+    "duration": 26.488163,
+    "transcript": null,
+    "credit_cost": 478
+  },
+  "b3-07": {
+    "audio": "voice/crack-del-29-b3-07.mp3",
+    "duration": 27.062857,
+    "transcript": null,
+    "credit_cost": 520
+  },
+  "b4-01": {
+    "audio": "voice/crack-del-29-b4-01.mp3",
+    "duration": 23.928163,
+    "transcript": null,
+    "credit_cost": 441
+  },
+  "b4-02": {
+    "audio": "voice/crack-del-29-b4-02.mp3",
+    "duration": 22.021224,
+    "transcript": null,
+    "credit_cost": 450
+  },
+  "b4-03": {
+    "audio": "voice/crack-del-29-b4-03.mp3",
+    "duration": 23.457959,
+    "transcript": null,
+    "credit_cost": 464
+  },
+  "b4-04": {
+    "audio": "voice/crack-del-29-b4-04.mp3",
+    "duration": 19.435102,
+    "transcript": null,
+    "credit_cost": 404
+  },
+  "b4-05": {
+    "audio": "voice/crack-del-29-b4-05.mp3",
+    "duration": 22.360816,
+    "transcript": null,
+    "credit_cost": 444
+  },
+  "b4-06": {
+    "audio": "voice/crack-del-29-b4-06.mp3",
+    "duration": 25.70449,
+    "transcript": null,
+    "credit_cost": 508
+  },
+  "b4-07": {
+    "audio": "voice/crack-del-29-b4-07.mp3",
+    "duration": 23.118367,
+    "transcript": null,
+    "credit_cost": 463
+  },
+  "b4-08": {
+    "audio": "voice/crack-del-29-b4-08.mp3",
+    "duration": 23.902041,
+    "transcript": null,
+    "credit_cost": 469
+  },
+  "b5-01": {
+    "audio": "voice/crack-del-29-b5-01.mp3",
+    "duration": 23.693061,
+    "transcript": null,
+    "credit_cost": 434
+  },
+  "b5-02": {
+    "audio": "voice/crack-del-29-b5-02.mp3",
+    "duration": 23.640816,
+    "transcript": null,
+    "credit_cost": 458
+  },
+  "b5-03": {
+    "audio": "voice/crack-del-29-b5-03.mp3",
+    "duration": 23.353469,
+    "transcript": null,
+    "credit_cost": 455
+  },
+  "b5-04": {
+    "audio": "voice/crack-del-29-b5-04.mp3",
+    "duration": 24.999184,
+    "transcript": null,
+    "credit_cost": 496
+  },
+  "b5-05": {
+    "audio": "voice/crack-del-29-b5-05.mp3",
+    "duration": 19.30449,
+    "transcript": null,
+    "credit_cost": 383
+  },
+  "b5-06": {
+    "audio": "voice/crack-del-29-b5-06.mp3",
+    "duration": 24.502857,
+    "transcript": null,
+    "credit_cost": 467
+  },
+  "b5-07": {
+    "audio": "voice/crack-del-29-b5-07.mp3",
+    "duration": 23.301224,
+    "transcript": null,
+    "credit_cost": 402
+  },
+  "b5-08": {
+    "audio": "voice/crack-del-29-b5-08.mp3",
+    "duration": 24.372245,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b6-01": {
+    "audio": "voice/crack-del-29-b6-01.mp3",
+    "duration": 24.764082,
+    "transcript": null,
+    "credit_cost": 488
+  }
+}
