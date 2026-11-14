@@ -292,5 +292,179 @@
     "duration": 23.301224,
     "transcript": null,
     "credit_cost": 463
+  },
+  "b6-04": {
+    "audio": "voice/hiperinflacion-weimar-b6-04.mp3",
+    "duration": 23.666939,
+    "transcript": null,
+    "credit_cost": 467
+  },
+  "b6-05": {
+    "audio": "voice/hiperinflacion-weimar-b6-05.mp3",
+    "duration": 22.047347,
+    "transcript": null,
+    "credit_cost": 442
+  },
+  "b6-06": {
+    "audio": "voice/hiperinflacion-weimar-b6-06.mp3",
+    "duration": 25.077551,
+    "transcript": null,
+    "credit_cost": 481
+  },
+  "b6-07": {
+    "audio": "voice/hiperinflacion-weimar-b6-07.mp3",
+    "duration": 21.733878,
+    "transcript": null,
+    "credit_cost": 425
+  },
+  "b6-08": {
+    "audio": "voice/hiperinflacion-weimar-b6-08.mp3",
+    "duration": 25.678367,
+    "transcript": null,
+    "credit_cost": 493
+  },
+  "b6-09": {
+    "audio": "voice/hiperinflacion-weimar-b6-09.mp3",
+    "duration": 23.980408,
+    "transcript": null,
+    "credit_cost": 481
+  },
+  "b7-01": {
+    "audio": "voice/hiperinflacion-weimar-b7-01.mp3",
+    "duration": 24.42449,
+    "transcript": null,
+    "credit_cost": 441
+  },
+  "b7-02": {
+    "audio": "voice/hiperinflacion-weimar-b7-02.mp3",
+    "duration": 26.566531,
+    "transcript": null,
+    "credit_cost": 487
+  },
+  "b7-03": {
+    "audio": "voice/hiperinflacion-weimar-b7-03.mp3",
+    "duration": 23.849796,
+    "transcript": null,
+    "credit_cost": 461
+  },
+  "b7-04": {
+    "audio": "voice/hiperinflacion-weimar-b7-04.mp3",
+    "duration": 26.67102,
+    "transcript": null,
+    "credit_cost": 484
+  },
+  "b7-05": {
+    "audio": "voice/hiperinflacion-weimar-b7-05.mp3",
+    "duration": 24.398367,
+    "transcript": null,
+    "credit_cost": 432
+  },
+  "b7-06": {
+    "audio": "voice/hiperinflacion-weimar-b7-06.mp3",
+    "duration": 20.793469,
+    "transcript": null,
+    "credit_cost": 441
+  },
+  "b7-07": {
+    "audio": "voice/hiperinflacion-weimar-b7-07.mp3",
+    "duration": 23.562449,
+    "transcript": null,
+    "credit_cost": 461
+  },
+  "b7-08": {
+    "audio": "voice/hiperinflacion-weimar-b7-08.mp3",
+    "duration": 24.189388,
+    "transcript": null,
+    "credit_cost": 467
+  },
+  "b7-09": {
+    "audio": "voice/hiperinflacion-weimar-b7-09.mp3",
+    "duration": 23.170612,
+    "transcript": null,
+    "credit_cost": 449
+  },
+  "b8-01": {
+    "audio": "voice/hiperinflacion-weimar-b8-01.mp3",
+    "duration": 23.719184,
+    "transcript": null,
+    "credit_cost": 468
+  },
+  "b8-02": {
+    "audio": "voice/hiperinflacion-weimar-b8-02.mp3",
+    "duration": 22.622041,
+    "transcript": null,
+    "credit_cost": 422
+  },
+  "b8-03": {
+    "audio": "voice/hiperinflacion-weimar-b8-03.mp3",
+    "duration": 24.920816,
+    "transcript": null,
+    "credit_cost": 471
+  },
+  "b8-04": {
+    "audio": "voice/hiperinflacion-weimar-b8-04.mp3",
+    "duration": 26.331429,
+    "transcript": null,
+    "credit_cost": 452
+  },
+  "b8-05": {
+    "audio": "voice/hiperinflacion-weimar-b8-05.mp3",
+    "duration": 24.685714,
+    "transcript": null,
+    "credit_cost": 461
+  },
+  "b8-06": {
+    "audio": "voice/hiperinflacion-weimar-b8-06.mp3",
+    "duration": 27.193469,
+    "transcript": null,
+    "credit_cost": 528
+  },
+  "b8-07": {
+    "audio": "voice/hiperinflacion-weimar-b8-07.mp3",
+    "duration": 27.663673,
+    "transcript": null,
+    "credit_cost": 493
+  },
+  "b9-01": {
+    "audio": "voice/hiperinflacion-weimar-b9-01.mp3",
+    "duration": 23.092245,
+    "transcript": null,
+    "credit_cost": 416
+  },
+  "b9-02": {
+    "audio": "voice/hiperinflacion-weimar-b9-02.mp3",
+    "duration": 22.125714,
+    "transcript": null,
+    "credit_cost": 456
+  },
+  "b9-03": {
+    "audio": "voice/hiperinflacion-weimar-b9-03.mp3",
+    "duration": 21.65551,
+    "transcript": null,
+    "credit_cost": 451
+  },
+  "b9-04": {
+    "audio": "voice/hiperinflacion-weimar-b9-04.mp3",
+    "duration": 22.230204,
+    "transcript": null,
+    "credit_cost": 424
+  },
+  "b9-05": {
+    "audio": "voice/hiperinflacion-weimar-b9-05.mp3",
+    "duration": 24.659592,
+    "transcript": null,
+    "credit_cost": 480
+  },
+  "b9-06": {
+    "audio": "voice/hiperinflacion-weimar-b9-06.mp3",
+    "duration": 21.133061,
+    "transcript": null,
+    "credit_cost": 403
+  },
+  "b9-07": {
+    "audio": "voice/hiperinflacion-weimar-b9-07.mp3",
+    "duration": 21.394286,
+    "transcript": null,
+    "credit_cost": 428
   }
 }

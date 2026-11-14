@@ -33,7 +33,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Beurskrach New York, Wall Street, 1929, SFA001006911.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "145925197",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Beurskrach_New_York%2C_Wall_Street%2C_1929%2C_SFA001006911.jpg/1920px-Beurskrach_New_York%2C_Wall_Street%2C_1929%2C_SFA001006911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1510,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Beurskrach New York, Wall Street, 1929, SFA001006911.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Beurskrach_New_York,_Wall_Street,_1929,_SFA001006911.jpg"
+                },
+                "fichero": "laminas/commons-145925197.jpg"
               },
               "rotulo": {
                 "texto": "Nueva York · 1929",
@@ -80,7 +91,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Crowds gathering outside New York Stock Exchange (3).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "107020992",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Crowds_gathering_outside_New_York_Stock_Exchange_%283%29.jpg/1920px-Crowds_gathering_outside_New_York_Stock_Exchange_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1423,
+                  "autor": "Associated Press",
+                  "titulo": "Crowds gathering outside New York Stock Exchange (3).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange_(3).jpg"
+                },
+                "fichero": "laminas/commons-107020992.jpg"
               }
             }
           ]
@@ -115,7 +137,15 @@
                   "id": "WeWorkAgain1937",
                   "desde": 45
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-WeWorkAgain1937-45.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "WeWorkAgain1937",
+                  "autor": "Internet Archive",
+                  "titulo": "We Work Again 1937"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -126,7 +156,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Unemployed men queued outside a depression soup kitchen opened in Chicago by Al Capone, 02-1931 - NARA - 541927.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17057587",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg/1920px-Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1563,
+                  "autor": "Unknown author Unknown author or not provided",
+                  "titulo": "Unemployed men queued outside a depression soup kitchen opened in Chicago by Al Capone, 02-1931 - NARA - 541927.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone,_02-1931_-_NARA_-_541927.jpg"
+                },
+                "fichero": "laminas/commons-17057587.jpg"
               }
             }
           ]
@@ -142,7 +183,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:President Hoover portrait.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "71911329",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/President_Hoover_portrait.jpg/1920px-President_Hoover_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2558,
+                  "autor": "Underwood &amp; Underwood",
+                  "titulo": "President Hoover portrait.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:President_Hoover_portrait.jpg"
+                },
+                "fichero": "laminas/commons-71911329.jpg"
               }
             },
             {
@@ -154,7 +206,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Ford Motor Company change of worker shift.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17021948",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Ford_Motor_Company_change_of_worker_shift.jpg/1920px-Ford_Motor_Company_change_of_worker_shift.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1537,
+                  "autor": "Detroit Publishing Company",
+                  "titulo": "Ford Motor Company change of worker shift.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Motor_Company_change_of_worker_shift.jpg"
+                },
+                "fichero": "laminas/commons-17021948.jpg"
               }
             }
           ]
@@ -170,7 +233,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Automatic ticker apparatus, New York Stock Exchange. Central control station LCCN2013647237.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67988186",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Automatic_ticker_apparatus%2C_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg/1920px-Automatic_ticker_apparatus%2C_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1508,
+                  "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congres",
+                  "titulo": "Automatic ticker apparatus, New York Stock Exchange. Central control station LCCN2013647237.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Automatic_ticker_apparatus,_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg"
+                },
+                "fichero": "laminas/commons-67988186.jpg"
               }
             },
             {
@@ -182,7 +256,15 @@
                   "id": "1933-03-05_Extra_Special_Roosevelt_Inaugurated",
                   "desde": 340
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-03-05_Extra_Special_Roosevelt_Inaugurated-340.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-03-05_Extra_Special_Roosevelt_Inaugurated",
+                  "autor": "Internet Archive",
+                  "titulo": "Extra! Special! Roosevelt Inaugurated  1933/03/05"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -193,7 +275,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Monnaie - Etats-Unis, 20 dollars, 1927 - btv1b11336520f (1 of 2).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "137253569",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Monnaie_-_Etats-Unis%2C_20_dollars%2C_1927_-_btv1b11336520f_%281_of_2%29.jpg/1920px-Monnaie_-_Etats-Unis%2C_20_dollars%2C_1927_-_btv1b11336520f_%281_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1920,
+                  "autor": "desconocido",
+                  "titulo": "Monnaie - Etats-Unis, 20 dollars, 1927 - btv1b11336520f (1 of 2).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Etats-Unis,_20_dollars,_1927_-_btv1b11336520f_(1_of_2).jpg"
+                },
+                "fichero": "laminas/commons-137253569.jpg"
               }
             }
           ]
@@ -221,14 +314,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "dense 1920s car traffic on an avenue",
                 "archive": {
                   "id": "Wheelsof1927",
                   "desde": 822
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-Wheelsof1927-822.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "Wheelsof1927",
+                  "autor": "Internet Archive",
+                  "titulo": "Wheels of Progress"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -239,7 +340,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Battery Park and New York City Skyline, New York photographed by Irving Underhill, 1929 (24901188354).jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "70781424",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Battery_Park_and_New_York_City_Skyline%2C_New_York_photographed_by_Irving_Underhill%2C_1929_%2824901188354%29.jpg/1920px-Battery_Park_and_New_York_City_Skyline%2C_New_York_photographed_by_Irving_Underhill%2C_1929_%2824901188354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1397,
+                  "autor": "Irving Underhill",
+                  "titulo": "Battery Park and New York City Skyline, New York photographed by Irving Underhill, 1929 (24901188354).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Battery_Park_and_New_York_City_Skyline,_New_York_photographed_by_Irving_Underhill,_1929_(24901188354).jpg"
+                },
+                "fichero": "laminas/commons-70781424.jpg"
               }
             },
             {
@@ -251,7 +363,15 @@
                   "id": "GeneralM1927",
                   "desde": 390
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-GeneralM1927-390.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "GeneralM1927",
+                  "autor": "Internet Archive",
+                  "titulo": "General Motors Around the World (Part I)"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -269,14 +389,22 @@
           "escenas": [
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "1920s gas station with fuel pumps",
                 "archive": {
                   "id": "Wheelsof1927",
                   "desde": 668
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-Wheelsof1927-668.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "Wheelsof1927",
+                  "autor": "Internet Archive",
+                  "titulo": "Wheels of Progress"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -307,7 +435,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Studebaker ad 1925-11.png",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "129045629",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Studebaker_ad_1925-11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 3097,
+                  "autor": "Unknown",
+                  "titulo": "Studebaker ad 1925-11.png",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Studebaker_ad_1925-11.png"
+                },
+                "fichero": "laminas/commons-129045629.jpg"
               }
             }
           ]
@@ -323,21 +462,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Billboard for the Sale of Subdivision Real Estate Lots WDL4030.png",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "31412980",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Billboard_for_the_Sale_of_Subdivision_Real_Estate_Lots_WDL4030.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1477,
+                  "autor": "desconocido",
+                  "titulo": "Billboard for the Sale of Subdivision Real Estate Lots WDL4030.png",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Billboard_for_the_Sale_of_Subdivision_Real_Estate_Lots_WDL4030.png"
+                },
+                "fichero": "laminas/commons-31412980.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Aladdin City Florida Land Boom Map 1927.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "45206878",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Aladdin_City_Florida_Land_Boom_Map_1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1269,
+                  "autor": "Alladin City Sales Company",
+                  "titulo": "Aladdin City Florida Land Boom Map 1927.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Aladdin_City_Florida_Land_Boom_Map_1927.jpg"
+                },
+                "fichero": "laminas/commons-45206878.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Miami Beach - Palm and Hibiscus Islands and Flamingo Hotel.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "181857198",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Miami_Beach_-_Palm_and_Hibiscus_Islands_and_Flamingo_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1214,
+                  "autor": "Fairchild Aerial Camera Corp.",
+                  "titulo": "Miami Beach - Palm and Hibiscus Islands and Flamingo Hotel.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Palm_and_Hibiscus_Islands_and_Flamingo_Hotel.jpg"
+                },
+                "fichero": "laminas/commons-181857198.jpg"
               }
             }
           ]
@@ -353,7 +525,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Looking East on Flagler St. from 13th Ave, 24 hours after the hurricane of Sept. 18th 1926, Miami, edit.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "153291399",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Looking_East_on_Flagler_St._from_13th_Ave%2C_24_hours_after_the_hurricane_of_Sept._18th_1926%2C_Miami%2C_edit.jpg/1920px-Looking_East_on_Flagler_St._from_13th_Ave%2C_24_hours_after_the_hurricane_of_Sept._18th_1926%2C_Miami%2C_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 726,
+                  "autor": "Verne O. Williams",
+                  "titulo": "Looking East on Flagler St. from 13th Ave, 24 hours after the hurricane of Sept. 18th 1926, Miami, edit.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Looking_East_on_Flagler_St._from_13th_Ave,_24_hours_after_the_hurricane_of_Sept._18th_1926,_Miami,_edit.jpg"
+                },
+                "fichero": "laminas/commons-153291399.jpg"
               }
             },
             {
@@ -380,7 +563,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Florida's Great Hurricane - page 40 - photograph.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "157938981",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Florida%27s_Great_Hurricane_-_page_40_-_photograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1068,
+                  "autor": "Joseph Hugh Rees",
+                  "titulo": "Florida's Great Hurricane - page 40 - photograph.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Florida%27s_Great_Hurricane_-_page_40_-_photograph.jpg"
+                },
+                "fichero": "laminas/commons-157938981.jpg"
               }
             }
           ]
@@ -396,21 +590,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Benj. Strong Jr. LCCN2014698073.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67283274",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Benj._Strong_Jr._LCCN2014698073.jpg/1920px-Benj._Strong_Jr._LCCN2014698073.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2645,
+                  "autor": "Bain News Service, publisher",
+                  "titulo": "Benj. Strong Jr. LCCN2014698073.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Benj._Strong_Jr._LCCN2014698073.jpg"
+                },
+                "fichero": "laminas/commons-67283274.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Montague Collett Norman, (1-5-23) LCCN2016847108.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67636738",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Montague_Collett_Norman%2C_%281-5-23%29_LCCN2016847108.jpg/1920px-Montague_Collett_Norman%2C_%281-5-23%29_LCCN2016847108.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1391,
+                  "autor": "National Photo Company Collection",
+                  "titulo": "Montague Collett Norman, (1-5-23) LCCN2016847108.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Montague_Collett_Norman,_(1-5-23)_LCCN2016847108.jpg"
+                },
+                "fichero": "laminas/commons-67636738.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "52633439",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Federal_Reserve_Bldg.%2C_Manhattan_%28NYPL_b13668355-482832%29.jpg/1920px-Federal_Reserve_Bldg.%2C_Manhattan_%28NYPL_b13668355-482832%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2421,
+                  "autor": "Berenice Abbott",
+                  "titulo": "Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Bldg.,_Manhattan_(NYPL_b13668355-482832).jpg"
+                },
+                "fichero": "laminas/commons-52633439.jpg"
               }
             }
           ]
@@ -426,7 +653,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Stockbrokers at the New York Stock Exchange.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "107020993",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Stockbrokers_at_the_New_York_Stock_Exchange.jpg/1920px-Stockbrokers_at_the_New_York_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1643,
+                  "autor": "Associated Press",
+                  "titulo": "Stockbrokers at the New York Stock Exchange.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Stockbrokers_at_the_New_York_Stock_Exchange.jpg"
+                },
+                "fichero": "laminas/commons-107020993.jpg"
               }
             },
             {
@@ -453,7 +691,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Curb brokers in Wall Street, New York City LCCN92519195.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67871728",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Curb_brokers_in_Wall_Street%2C_New_York_City_LCCN92519195.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1199,
+                  "autor": "George Grantham Bain Collection",
+                  "titulo": "Curb brokers in Wall Street, New York City LCCN92519195.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Curb_brokers_in_Wall_Street,_New_York_City_LCCN92519195.jpg"
+                },
+                "fichero": "laminas/commons-67871728.jpg"
               }
             }
           ]
@@ -469,7 +718,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:RASKOB, JOHN J. LCCN2016862596.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67112025",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/RASKOB%2C_JOHN_J._LCCN2016862596.jpg/1920px-RASKOB%2C_JOHN_J._LCCN2016862596.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2404,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "RASKOB, JOHN J. LCCN2016862596.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:RASKOB,_JOHN_J._LCCN2016862596.jpg"
+                },
+                "fichero": "laminas/commons-67112025.jpg"
               }
             },
             {
@@ -490,7 +750,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Ladies Home Journal cover July 1923.png",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "75997070",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Ladies_Home_Journal_cover_July_1923.png/1920px-Ladies_Home_Journal_cover_July_1923.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2559,
+                  "autor": "Curtis Publishing Co.",
+                  "titulo": "Ladies Home Journal cover July 1923.png",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ladies_Home_Journal_cover_July_1923.png"
+                },
+                "fichero": "laminas/commons-75997070.jpg"
               }
             }
           ]
@@ -520,7 +791,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Vintage Radio Advertising - RCA Radio, Radiola Model 17, \"A Radiola Takes You Everywhere\", From the Saturday Evening Post, April 14, 1928 (9704310222).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "35191630",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Vintage_Radio_Advertising_-_RCA_Radio%2C_Radiola_Model_17%2C_%22A_Radiola_Takes_You_Everywhere%22%2C_From_the_Saturday_Evening_Post%2C_April_14%2C_1928_%289704310222%29.jpg/1920px-Vintage_Radio_Advertising_-_RCA_Radio%2C_Radiola_Model_17%2C_%22A_Radiola_Takes_You_Everywhere%22%2C_From_the_Saturday_Evening_Post%2C_April_14%2C_1928_%289704310222%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2471,
+                  "autor": "Joe Haupt from USA",
+                  "titulo": "Vintage Radio Advertising - RCA Radio, Radiola Model 17, \"A Radiola Takes You Everywhere\", From the Saturday Evening Post, April 14, 1928 (9704310222).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Vintage_Radio_Advertising_-_RCA_Radio,_Radiola_Model_17,_%22A_Radiola_Takes_You_Everywhere%22,_From_the_Saturday_Evening_Post,_April_14,_1928_(9704310222).jpg"
+                },
+                "fichero": "laminas/commons-35191630.jpg"
               }
             },
             {
@@ -556,7 +838,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Samuel Sachs of Goldman Sachs (cropped).png",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "195426765",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Samuel_Sachs_of_Goldman_Sachs_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 3084,
+                  "autor": "Times Wide World Photos",
+                  "titulo": "Samuel Sachs of Goldman Sachs (cropped).png",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Samuel_Sachs_of_Goldman_Sachs_(cropped).png"
+                },
+                "fichero": "laminas/commons-195426765.jpg"
               }
             },
             {
@@ -577,7 +870,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Studebaker Corporation 1929.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "179137292",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Studebaker_Corporation_1929.jpg/1920px-Studebaker_Corporation_1929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1280,
+                  "autor": "Unbekannte Autoren und Grafiker; Scan vom EDHAC e.V.",
+                  "titulo": "Studebaker Corporation 1929.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Studebaker_Corporation_1929.jpg"
+                },
+                "fichero": "laminas/commons-179137292.jpg"
               }
             }
           ]
@@ -593,7 +897,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Coty, Inc 1929.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "181147484",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Coty%2C_Inc_1929.jpg/1920px-Coty%2C_Inc_1929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1229,
+                  "autor": "Unbekannte Autoren und Grafiker; Scan vom EDHAC e.V.",
+                  "titulo": "Coty, Inc 1929.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Coty,_Inc_1929.jpg"
+                },
+                "fichero": "laminas/commons-181147484.jpg"
               }
             },
             {
@@ -614,7 +929,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Subpoena of J. P. Morgan to Appear Before the Senate Banking and Currency Committee on May 23, 1933 - DPLA - eb1ce09c2e6c7b2bfd64a60b237b5d77 (page 1).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "192040947",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Subpoena_of_J._P._Morgan_to_Appear_Before_the_Senate_Banking_and_Currency_Committee_on_May_23%2C_1933_-_DPLA_-_eb1ce09c2e6c7b2bfd64a60b237b5d77_%28page_1%29.jpg/1920px-Subpoena_of_J._P._Morgan_to_Appear_Before_the_Senate_Banking_and_Currency_Committee_on_May_23%2C_1933_-_DPLA_-_eb1ce09c2e6c7b2bfd64a60b237b5d77_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2505,
+                  "autor": "U.S. Senate. Committee on Banking, Housing and Urban Affairs",
+                  "titulo": "Subpoena of J. P. Morgan to Appear Before the Senate Banking and Currency Committee on May 23, 1933 - DPLA - eb1ce09c2e6c7b2bfd64a60b237b5d77 (page 1).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Subpoena_of_J._P._Morgan_to_Appear_Before_the_Senate_Banking_and_Currency_Committee_on_May_23,_1933_-_DPLA_-_eb1ce09c2e6c7b2bfd64a60b237b5d77_(page_1).jpg"
+                },
+                "fichero": "laminas/commons-192040947.jpg"
               }
             }
           ]
@@ -635,7 +961,15 @@
                   "id": "TheFightingPresident",
                   "desde": 3228
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-3228.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -666,7 +1000,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Minneapolis-St. Paul Stock Exchange Board - DPLA - 7e706bfbd7a9e6ad1d72e9abbfc7f3b6.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "174260090",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Minneapolis-St._Paul_Stock_Exchange_Board_-_DPLA_-_7e706bfbd7a9e6ad1d72e9abbfc7f3b6.jpg/1920px-Minneapolis-St._Paul_Stock_Exchange_Board_-_DPLA_-_7e706bfbd7a9e6ad1d72e9abbfc7f3b6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1495,
+                  "autor": "desconocido",
+                  "titulo": "Minneapolis-St. Paul Stock Exchange Board - DPLA - 7e706bfbd7a9e6ad1d72e9abbfc7f3b6.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Minneapolis-St._Paul_Stock_Exchange_Board_-_DPLA_-_7e706bfbd7a9e6ad1d72e9abbfc7f3b6.jpg"
+                },
+                "fichero": "laminas/commons-174260090.jpg"
               }
             }
           ]
@@ -682,7 +1027,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Charles E. Mitchell, Président de la National City Bank de New-York (Pacific and Atlantic) - btv1b53172722q.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "161463558",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Charles_E._Mitchell%2C_Pr%C3%A9sident_de_la_National_City_Bank_de_New-York_%28Pacific_and_Atlantic%29_-_btv1b53172722q.jpg/1920px-Charles_E._Mitchell%2C_Pr%C3%A9sident_de_la_National_City_Bank_de_New-York_%28Pacific_and_Atlantic%29_-_btv1b53172722q.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2621,
+                  "autor": "Agence Rol. Agence photographique (commanditaire)",
+                  "titulo": "Charles E. Mitchell, Président de la National City Bank de New-York (Pacific and Atlantic) - btv1b53172722q.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Charles_E._Mitchell,_Pr%C3%A9sident_de_la_National_City_Bank_de_New-York_(Pacific_and_Atlantic)_-_btv1b53172722q.jpg"
+                },
+                "fichero": "laminas/commons-161463558.jpg"
               }
             },
             {
@@ -703,7 +1059,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:National City Bank, Wall St. LCCN00650318.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "66994519",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/National_City_Bank%2C_Wall_St._LCCN00650318.jpg/1920px-National_City_Bank%2C_Wall_St._LCCN00650318.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2395,
+                  "autor": "Underhill, Irving, -1960, photographer",
+                  "titulo": "National City Bank, Wall St. LCCN00650318.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:National_City_Bank,_Wall_St._LCCN00650318.jpg"
+                },
+                "fichero": "laminas/commons-66994519.jpg"
               }
             }
           ]
@@ -719,7 +1086,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Roy A. Young - DPLA - 53e56cba6d2cbb1beec20256946f3f16.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "156221226",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Roy_A._Young_-_DPLA_-_53e56cba6d2cbb1beec20256946f3f16.jpg/1920px-Roy_A._Young_-_DPLA_-_53e56cba6d2cbb1beec20256946f3f16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2477,
+                  "autor": "Pacific &amp; Atlantic Photos, Inc",
+                  "titulo": "Roy A. Young - DPLA - 53e56cba6d2cbb1beec20256946f3f16.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Roy_A._Young_-_DPLA_-_53e56cba6d2cbb1beec20256946f3f16.jpg"
+                },
+                "fichero": "laminas/commons-156221226.jpg"
               }
             },
             {
@@ -752,7 +1130,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:TREASURY BUILDING LOC hec.01965.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "66492452",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/TREASURY_BUILDING_LOC_hec.01965.jpg/1920px-TREASURY_BUILDING_LOC_hec.01965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1423,
+                  "autor": "Harris &amp; Ewing Collection",
+                  "titulo": "TREASURY BUILDING LOC hec.01965.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:TREASURY_BUILDING_LOC_hec.01965.jpg"
+                },
+                "fichero": "laminas/commons-66492452.jpg"
               }
             }
           ]
@@ -768,21 +1157,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Paul M. Warburg LCCN2016821709 (cropped).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "94164083",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Paul_M._Warburg_LCCN2016821709_%28cropped%29.jpg/1920px-Paul_M._Warburg_LCCN2016821709_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2711,
+                  "autor": "National Photo Company Collection",
+                  "titulo": "Paul M. Warburg LCCN2016821709 (cropped).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Paul_M._Warburg_LCCN2016821709_(cropped).jpg"
+                },
+                "fichero": "laminas/commons-94164083.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Roger Babson Portrait (4x5 cropped).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "165258152",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Roger_Babson_Portrait_%284x5_cropped%29.jpg/1920px-Roger_Babson_Portrait_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2402,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Roger Babson Portrait (4x5 cropped).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Roger_Babson_Portrait_(4x5_cropped).jpg"
+                },
+                "fichero": "laminas/commons-165258152.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Joseph Pennell, New York Stock Exchange, 1923, NGA 9575.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "81781633",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Joseph_Pennell%2C_New_York_Stock_Exchange%2C_1923%2C_NGA_9575.jpg/1920px-Joseph_Pennell%2C_New_York_Stock_Exchange%2C_1923%2C_NGA_9575.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2339,
+                  "autor": "Joseph Pennell",
+                  "titulo": "Joseph Pennell, New York Stock Exchange, 1923, NGA 9575.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Joseph_Pennell,_New_York_Stock_Exchange,_1923,_NGA_9575.jpg"
+                },
+                "fichero": "laminas/commons-81781633.jpg"
               }
             }
           ]
@@ -798,7 +1220,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Irvingfisher.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "2650352",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Irvingfisher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2759,
+                  "autor": "Bain News Service",
+                  "titulo": "Irvingfisher.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Irvingfisher.jpg"
+                },
+                "fichero": "laminas/commons-2650352.jpg"
               }
             },
             {
@@ -810,7 +1243,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Prof Irving Fisher, noted economist - photo. by Bain News Service, New York. LCCN90711700 (cropped).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "147849027",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Prof_Irving_Fisher%2C_noted_economist_-_photo._by_Bain_News_Service%2C_New_York._LCCN90711700_%28cropped%29.jpg/1920px-Prof_Irving_Fisher%2C_noted_economist_-_photo._by_Bain_News_Service%2C_New_York._LCCN90711700_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2607,
+                  "autor": "George Grantham Bain Collection",
+                  "titulo": "Prof Irving Fisher, noted economist - photo. by Bain News Service, New York. LCCN90711700 (cropped).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Prof_Irving_Fisher,_noted_economist_-_photo._by_Bain_News_Service,_New_York._LCCN90711700_(cropped).jpg"
+                },
+                "fichero": "laminas/commons-147849027.jpg"
               }
             }
           ]
@@ -846,14 +1290,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Automatic ticker apparatus, New York Stock Exchange. Central control station LCCN2013647237.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67988186",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Automatic_ticker_apparatus%2C_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg/1920px-Automatic_ticker_apparatus%2C_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1508,
+                  "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congres",
+                  "titulo": "Automatic ticker apparatus, New York Stock Exchange. Central control station LCCN2013647237.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Automatic_ticker_apparatus,_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg"
+                },
+                "fichero": "laminas/commons-67988186.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Battery Park and New York City Skyline, New York photographed by Irving Underhill, 1929 (24901188354).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "70781424",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Battery_Park_and_New_York_City_Skyline%2C_New_York_photographed_by_Irving_Underhill%2C_1929_%2824901188354%29.jpg/1920px-Battery_Park_and_New_York_City_Skyline%2C_New_York_photographed_by_Irving_Underhill%2C_1929_%2824901188354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1397,
+                  "autor": "Irving Underhill",
+                  "titulo": "Battery Park and New York City Skyline, New York photographed by Irving Underhill, 1929 (24901188354).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Battery_Park_and_New_York_City_Skyline,_New_York_photographed_by_Irving_Underhill,_1929_(24901188354).jpg"
+                },
+                "fichero": "laminas/commons-70781424.jpg"
               }
             }
           ]
@@ -881,14 +1347,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "crowd and agitated brokers on Wall Street, October 1929",
                 "archive": {
                   "id": "gov.archives.arc.54992",
                   "desde": 2985
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-gov.archives.arc.54992-2985.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "gov.archives.arc.54992",
+                  "autor": "Internet Archive",
+                  "titulo": "WARRING AND ROARING (1914-1929)"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -899,7 +1373,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bell telephone magazine (1929) (14733377496).jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "43355657",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Bell_telephone_magazine_%281929%29_%2814733377496%29.jpg/1920px-Bell_telephone_magazine_%281929%29_%2814733377496%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1217,
+                  "autor": "Internet Archive Book Images",
+                  "titulo": "Bell telephone magazine (1929) (14733377496).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bell_telephone_magazine_(1929)_(14733377496).jpg"
+                },
+                "fichero": "laminas/commons-43355657.jpg"
               }
             }
           ]
@@ -927,14 +1412,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "crowd filling Broad Street in front of the Stock Exchange",
                 "archive": {
                   "id": "gov.archives.arc.54992",
                   "desde": 3013
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-gov.archives.arc.54992-3013.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "gov.archives.arc.54992",
+                  "autor": "Internet Archive",
+                  "titulo": "WARRING AND ROARING (1914-1929)"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -945,7 +1438,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Stockbrokers at the New York Stock Exchange.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "107020993",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Stockbrokers_at_the_New_York_Stock_Exchange.jpg/1920px-Stockbrokers_at_the_New_York_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1643,
+                  "autor": "Associated Press",
+                  "titulo": "Stockbrokers at the New York Stock Exchange.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Stockbrokers_at_the_New_York_Stock_Exchange.jpg"
+                },
+                "fichero": "laminas/commons-107020993.jpg"
               }
             }
           ]
@@ -961,21 +1465,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:23 Wall Street (1914).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "4827844",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/23_Wall_Street_%281914%29.jpg/1920px-23_Wall_Street_%281914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1525,
+                  "autor": "Irving Underhill",
+                  "titulo": "23 Wall Street (1914).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:23_Wall_Street_(1914).jpg"
+                },
+                "fichero": "laminas/commons-4827844.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:T.W. Lamont LCCN2014709001.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67538327",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/T.W._Lamont_LCCN2014709001.jpg/1920px-T.W._Lamont_LCCN2014709001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1375,
+                  "autor": "Bain News Service, publisher",
+                  "titulo": "T.W. Lamont LCCN2014709001.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:T.W._Lamont_LCCN2014709001.jpg"
+                },
+                "fichero": "laminas/commons-67538327.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:A.H. Wiggin & J.P. Morgan, Jr. in 1917 in Manhattan at a war bond parade.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "45282607",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/A.H._Wiggin_%26_J.P._Morgan%2C_Jr._in_1917_in_Manhattan_at_a_war_bond_parade.jpg/1920px-A.H._Wiggin_%26_J.P._Morgan%2C_Jr._in_1917_in_Manhattan_at_a_war_bond_parade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2793,
+                  "autor": "Bain",
+                  "titulo": "A.H. Wiggin & J.P. Morgan, Jr. in 1917 in Manhattan at a war bond parade.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:A.H._Wiggin_%26_J.P._Morgan,_Jr._in_1917_in_Manhattan_at_a_war_bond_parade.jpg"
+                },
+                "fichero": "laminas/commons-45282607.jpg"
               }
             }
           ]
@@ -991,7 +1528,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Former head of New York Stock Exchange before Senate Committee. Washington D.C. Richard Whitney; former President of the New York Stock Exchange, was the first witness as the Senate LCCN2016871192 (cropped).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "114421825",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Former_head_of_New_York_Stock_Exchange_before_Senate_Committee._Washington_D.C._Richard_Whitney%3B_former_President_of_the_New_York_Stock_Exchange%2C_was_the_first_witness_as_the_Senate_LCCN2016871192_%28cropped%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2260,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Former head of New York Stock Exchange before Senate Committee. Washington D.C. Richard Whitney; former President of the New York Stock Exchange, was the first witness as the Senate LCCN2016871192 (cropped).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Former_head_of_New_York_Stock_Exchange_before_Senate_Committee._Washington_D.C._Richard_Whitney;_former_President_of_the_New_York_Stock_Exchange,_was_the_first_witness_as_the_Senate_LCCN2016871192_(cropped).jpg"
+                },
+                "fichero": "laminas/commons-114421825.jpg"
               }
             },
             {
@@ -1018,7 +1566,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Littered floor of Stock Exchange after market session, New York City LCCN94509160.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "68162982",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Littered_floor_of_Stock_Exchange_after_market_session%2C_New_York_City_LCCN94509160.jpg/1920px-Littered_floor_of_Stock_Exchange_after_market_session%2C_New_York_City_LCCN94509160.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1527,
+                  "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congres",
+                  "titulo": "Littered floor of Stock Exchange after market session, New York City LCCN94509160.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Littered_floor_of_Stock_Exchange_after_market_session,_New_York_City_LCCN94509160.jpg"
+                },
+                "fichero": "laminas/commons-68162982.jpg"
               }
             }
           ]
@@ -1060,14 +1619,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Crowds gathering outside New York Stock Exchange (2).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "107020991",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Crowds_gathering_outside_New_York_Stock_Exchange_%282%29.jpg/1920px-Crowds_gathering_outside_New_York_Stock_Exchange_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1487,
+                  "autor": "Associated Press",
+                  "titulo": "Crowds gathering outside New York Stock Exchange (2).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange_(2).jpg"
+                },
+                "fichero": "laminas/commons-107020991.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Crowds gathering outside New York Stock Exchange.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "107020204",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Crowds_gathering_outside_New_York_Stock_Exchange.jpg/1920px-Crowds_gathering_outside_New_York_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1512,
+                  "autor": "Associated Press",
+                  "titulo": "Crowds gathering outside New York Stock Exchange.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange.jpg"
+                },
+                "fichero": "laminas/commons-107020204.jpg"
               }
             }
           ]
@@ -1083,7 +1664,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Crowds gathering outside New York Stock Exchange (3).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "107020992",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Crowds_gathering_outside_New_York_Stock_Exchange_%283%29.jpg/1920px-Crowds_gathering_outside_New_York_Stock_Exchange_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1423,
+                  "autor": "Associated Press",
+                  "titulo": "Crowds gathering outside New York Stock Exchange (3).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange_(3).jpg"
+                },
+                "fichero": "laminas/commons-107020992.jpg"
               }
             },
             {
@@ -1116,7 +1708,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Economie, aandelen, beurzen, SFA001018144.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "145940752",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Economie%2C_aandelen%2C_beurzen%2C_SFA001018144.jpg/1920px-Economie%2C_aandelen%2C_beurzen%2C_SFA001018144.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2385,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Economie, aandelen, beurzen, SFA001018144.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Economie,_aandelen,_beurzen,_SFA001018144.jpg"
+                },
+                "fichero": "laminas/commons-145940752.jpg"
               }
             }
           ]
@@ -1132,7 +1735,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Beurskrach New York, Wall Street, 1929, SFA001006911.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "145925197",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Beurskrach_New_York%2C_Wall_Street%2C_1929%2C_SFA001006911.jpg/1920px-Beurskrach_New_York%2C_Wall_Street%2C_1929%2C_SFA001006911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1510,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Beurskrach New York, Wall Street, 1929, SFA001006911.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Beurskrach_New_York,_Wall_Street,_1929,_SFA001006911.jpg"
+                },
+                "fichero": "laminas/commons-145925197.jpg"
               }
             },
             {
@@ -1153,7 +1767,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "52633439",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Federal_Reserve_Bldg.%2C_Manhattan_%28NYPL_b13668355-482832%29.jpg/1920px-Federal_Reserve_Bldg.%2C_Manhattan_%28NYPL_b13668355-482832%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2421,
+                  "autor": "Berenice Abbott",
+                  "titulo": "Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Bldg.,_Manhattan_(NYPL_b13668355-482832).jpg"
+                },
+                "fichero": "laminas/commons-52633439.jpg"
               }
             }
           ]
@@ -1183,14 +1808,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Industrial men meet Hoover. Another conference called by President Hoover was held at the White House this morning. This time it was a group of the leading industrial heads of the country. LCCN2016889506.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67825118",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Industrial_men_meet_Hoover._Another_conference_called_by_President_Hoover_was_held_at_the_White_House_this_morning._This_time_it_was_a_group_of_the_leading_industrial_heads_of_the_country._LCCN2016889506.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1487,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Industrial men meet Hoover. Another conference called by President Hoover was held at the White House this morning. This time it was a group of the leading industrial heads of the country. LCCN2016889506.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Industrial_men_meet_Hoover._Another_conference_called_by_President_Hoover_was_held_at_the_White_House_this_morning._This_time_it_was_a_group_of_the_leading_industrial_heads_of_the_country._LCCN2016889506.jpg"
+                },
+                "fichero": "laminas/commons-67825118.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:President Herbert Hoover Sitting At His Desk (31-1930-A17).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "195454275",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/President_Herbert_Hoover_Sitting_At_His_Desk_%2831-1930-A17%29.jpg/1920px-President_Herbert_Hoover_Sitting_At_His_Desk_%2831-1930-A17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1422,
+                  "autor": "Herbert Hoover Presidential Library",
+                  "titulo": "President Herbert Hoover Sitting At His Desk (31-1930-A17).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:President_Herbert_Hoover_Sitting_At_His_Desk_(31-1930-A17).jpg"
+                },
+                "fichero": "laminas/commons-195454275.jpg"
               }
             }
           ]
@@ -1237,14 +1884,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Graveyard and steel mill, Bethlehem, Pennsylvania 00231u.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "5213118",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Graveyard_and_steel_mill%2C_Bethlehem%2C_Pennsylvania_00231u.jpg/1920px-Graveyard_and_steel_mill%2C_Bethlehem%2C_Pennsylvania_00231u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1521,
+                  "autor": "Walker Evans",
+                  "titulo": "Graveyard and steel mill, Bethlehem, Pennsylvania 00231u.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Graveyard_and_steel_mill,_Bethlehem,_Pennsylvania_00231u.jpg"
+                },
+                "fichero": "laminas/commons-5213118.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Luke Swank - c8e41d4bfb.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "156857610",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Luke_Swank_-_c8e41d4bfb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2485,
+                  "autor": "Luke Swank",
+                  "titulo": "Luke Swank - c8e41d4bfb.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Luke_Swank_-_c8e41d4bfb.jpg"
+                },
+                "fichero": "laminas/commons-156857610.jpg"
               }
             }
           ]
@@ -1294,14 +1963,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "unemployed men and a queue at an employment office",
                 "archive": {
                   "id": "WeWorkAgain1937",
                   "desde": 60
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-WeWorkAgain1937-60.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "WeWorkAgain1937",
+                  "autor": "Internet Archive",
+                  "titulo": "We Work Again 1937"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1310,14 +1987,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "apple seller on a sidewalk and men eating at a soup kitchen",
                 "archive": {
                   "id": "gov.archives.arc.54992",
                   "desde": 3078
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-gov.archives.arc.54992-3078.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "gov.archives.arc.54992",
+                  "autor": "Internet Archive",
+                  "titulo": "WARRING AND ROARING (1914-1929)"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1328,7 +2013,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:People lining up at Times Square.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "107020995",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/People_lining_up_at_Times_Square.jpg/1920px-People_lining_up_at_Times_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1510,
+                  "autor": "Associated Press",
+                  "titulo": "People lining up at Times Square.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:People_lining_up_at_Times_Square.jpg"
+                },
+                "fichero": "laminas/commons-107020995.jpg"
               }
             }
           ]
@@ -1342,14 +2038,22 @@
           "escenas": [
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "dry barren farmland on the Great Plains",
                 "archive": {
                   "id": "gov.fdr.352.2a.1",
                   "desde": 1060
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-gov.fdr.352.2a.1-1060.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "gov.fdr.352.2a.1",
+                  "autor": "Internet Archive",
+                  "titulo": "The Plow that Broke the Plains"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1360,19 +2064,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Farmer in despair over the depression in 1932. - NARA - 512819.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17033720",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Farmer_in_despair_over_the_depression_in_1932._-_NARA_-_512819.jpg/1920px-Farmer_in_despair_over_the_depression_in_1932._-_NARA_-_512819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1469,
+                  "autor": "Unknown author Unknown author or not provided",
+                  "titulo": "Farmer in despair over the depression in 1932. - NARA - 512819.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Farmer_in_despair_over_the_depression_in_1932._-_NARA_-_512819.jpg"
+                },
+                "fichero": "laminas/commons-17033720.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "farm half buried by sand, woman sweeping",
                 "archive": {
                   "id": "gov.fdr.352.2a.1",
                   "desde": 1290
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-gov.fdr.352.2a.1-1290.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "gov.fdr.352.2a.1",
+                  "autor": "Internet Archive",
+                  "titulo": "The Plow that Broke the Plains"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1392,21 +2115,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Smoot and Hawley standing together, April 11, 1929.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "5900525",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Smoot_and_Hawley_standing_together%2C_April_11%2C_1929.jpg/1920px-Smoot_and_Hawley_standing_together%2C_April_11%2C_1929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1983,
+                  "autor": "National Photo Company",
+                  "titulo": "Smoot and Hawley standing together, April 11, 1929.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Smoot_and_Hawley_standing_together,_April_11,_1929.jpg"
+                },
+                "fichero": "laminas/commons-5900525.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Herbert Hoover at desk with group standing behind him.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "32451138",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Herbert_Hoover_at_desk_with_group_standing_behind_him.jpg/1920px-Herbert_Hoover_at_desk_with_group_standing_behind_him.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1039,
+                  "autor": "Harris &amp; Ewing",
+                  "titulo": "Herbert Hoover at desk with group standing behind him.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Herbert_Hoover_at_desk_with_group_standing_behind_him.jpg"
+                },
+                "fichero": "laminas/commons-32451138.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Waterfront, from Pier 19, East River, Manhattan (NYPL b13668355-482582).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "52633936",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Waterfront%2C_from_Pier_19%2C_East_River%2C_Manhattan_%28NYPL_b13668355-482582%29.jpg/1920px-Waterfront%2C_from_Pier_19%2C_East_River%2C_Manhattan_%28NYPL_b13668355-482582%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1514,
+                  "autor": "Berenice Abbott",
+                  "titulo": "Waterfront, from Pier 19, East River, Manhattan (NYPL b13668355-482582).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Waterfront,_from_Pier_19,_East_River,_Manhattan_(NYPL_b13668355-482582).jpg"
+                },
+                "fichero": "laminas/commons-52633936.jpg"
               }
             }
           ]
@@ -1472,7 +2228,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Row of men at the New York City docks out of work during the depression, 1934 - NARA - 518288.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17057465",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Row_of_men_at_the_New_York_City_docks_out_of_work_during_the_depression%2C_1934_-_NARA_-_518288.jpg/1920px-Row_of_men_at_the_New_York_City_docks_out_of_work_during_the_depression%2C_1934_-_NARA_-_518288.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1539,
+                  "autor": "Lewis Hine",
+                  "titulo": "Row of men at the New York City docks out of work during the depression, 1934 - NARA - 518288.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Row_of_men_at_the_New_York_City_docks_out_of_work_during_the_depression,_1934_-_NARA_-_518288.jpg"
+                },
+                "fichero": "laminas/commons-17057465.jpg"
               }
             }
           ]
@@ -1488,21 +2255,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Ogden Mills, 2nd from left, Jesse H. Jones, 3rd from right, and Charles G. Dawes, 2nd from right LCCN2016889840.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67829826",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Ogden_Mills%2C_2nd_from_left%2C_Jesse_H._Jones%2C_3rd_from_right%2C_and_Charles_G._Dawes%2C_2nd_from_right_LCCN2016889840.jpg/1920px-Ogden_Mills%2C_2nd_from_left%2C_Jesse_H._Jones%2C_3rd_from_right%2C_and_Charles_G._Dawes%2C_2nd_from_right_LCCN2016889840.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1487,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Ogden Mills, 2nd from left, Jesse H. Jones, 3rd from right, and Charles G. Dawes, 2nd from right LCCN2016889840.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ogden_Mills,_2nd_from_left,_Jesse_H._Jones,_3rd_from_right,_and_Charles_G._Dawes,_2nd_from_right_LCCN2016889840.jpg"
+                },
+                "fichero": "laminas/commons-67829826.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Congress, U.S. Capitol, Washington, D.C. LCCN2016890056.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67834737",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Congress%2C_U.S._Capitol%2C_Washington%2C_D.C._LCCN2016890056.jpg/1920px-Congress%2C_U.S._Capitol%2C_Washington%2C_D.C._LCCN2016890056.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1487,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Congress, U.S. Capitol, Washington, D.C. LCCN2016890056.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Congress,_U.S._Capitol,_Washington,_D.C._LCCN2016890056.jpg"
+                },
+                "fichero": "laminas/commons-67834737.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bank Run on American Union Bank.jpeg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "55213059",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Bank_Run_on_American_Union_Bank.jpeg/1920px-Bank_Run_on_American_Union_Bank.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1505,
+                  "autor": "Wikideas1 Wikideas1 ( talk ) ( Uploads )",
+                  "titulo": "Bank Run on American Union Bank.jpeg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bank_Run_on_American_Union_Bank.jpeg"
+                },
+                "fichero": "laminas/commons-55213059.jpg"
               }
             }
           ]
@@ -1530,14 +2330,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "troops advancing along a Washington street, onlookers, July 1932",
                 "archive": {
                   "id": "gov.fdr.218",
                   "desde": 414
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-gov.fdr.218-414.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "gov.fdr.218",
+                  "autor": "Internet Archive",
+                  "titulo": "FDR: The Fighting President (Part lll)"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1548,7 +2356,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bonus Army -45 B.E.F. Camp Anacostia D.C '32 LCCN2016827055 (cropped).jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "80951930",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Bonus_Army_-45_B.E.F._Camp_Anacostia_D.C_%2732_LCCN2016827055_%28cropped%29.jpg/1920px-Bonus_Army_-45_B.E.F._Camp_Anacostia_D.C_%2732_LCCN2016827055_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 745,
+                  "autor": "National Photo Company Collection",
+                  "titulo": "Bonus Army -45 B.E.F. Camp Anacostia D.C '32 LCCN2016827055 (cropped).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bonus_Army_-45_B.E.F._Camp_Anacostia_D.C_%2732_LCCN2016827055_(cropped).jpg"
+                },
+                "fichero": "laminas/commons-80951930.jpg"
               }
             }
           ]
@@ -1578,14 +2397,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Haverhill, Iowa at Main St. and 1st St. 1939.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "103667111",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Haverhill%2C_Iowa_at_Main_St._and_1st_St._1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1414,
+                  "autor": "Arthur Rothstein",
+                  "titulo": "Haverhill, Iowa at Main St. and 1st St. 1939.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Haverhill,_Iowa_at_Main_St._and_1st_St._1939.jpg"
+                },
+                "fichero": "laminas/commons-103667111.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:1925 - Dime Savings and Trust Company Lobby 2 - Allentown PA.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "57889405",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/1925_-_Dime_Savings_and_Trust_Company_Lobby_2_-_Allentown_PA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1521,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "1925 - Dime Savings and Trust Company Lobby 2 - Allentown PA.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1925_-_Dime_Savings_and_Trust_Company_Lobby_2_-_Allentown_PA.jpg"
+                },
+                "fichero": "laminas/commons-57889405.jpg"
               }
             }
           ]
@@ -1601,19 +2442,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Memorial Square looking toward Business District from capitol grounds, left -- Cotton State Bldg., Andrew Jackson Hotel, Hermitage Hotel, Y. M. C. A., and War Memorial Bldg (74057).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "52246876",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Memorial_Square_looking_toward_Business_District_from_capitol_grounds%2C_left_--_Cotton_State_Bldg.%2C_Andrew_Jackson_Hotel%2C_Hermitage_Hotel%2C_Y._M._C._A.%2C_and_War_Memorial_Bldg_%2874057%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1223,
+                  "autor": "Pub. by Southern Latex Co., Nashville, Tenn. \"Tichnor Qualit",
+                  "titulo": "Memorial Square looking toward Business District from capitol grounds, left -- Cotton State Bldg., Andrew Jackson Hotel, Hermitage Hotel, Y. M. C. A., and War Memorial Bldg (74057).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Memorial_Square_looking_toward_Business_District_from_capitol_grounds,_left_--_Cotton_State_Bldg.,_Andrew_Jackson_Hotel,_Hermitage_Hotel,_Y._M._C._A.,_and_War_Memorial_Bldg_(74057).jpg"
+                },
+                "fichero": "laminas/commons-52246876.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "closed bank gate with people crowding outside",
                 "archive": {
                   "id": "gov.archives.arc.54992",
                   "desde": 3029
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-gov.archives.arc.54992-3029.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "gov.archives.arc.54992",
+                  "autor": "Internet Archive",
+                  "titulo": "WARRING AND ROARING (1914-1929)"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1624,7 +2484,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Market Street, Looking East From Fourth Avenue, By Night, Louisville, KY. (5000048784).jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "126316187",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Market_Street%2C_Looking_East_From_Fourth_Avenue%2C_By_Night%2C_Louisville%2C_KY._%285000048784%29.jpg/1920px-Market_Street%2C_Looking_East_From_Fourth_Avenue%2C_By_Night%2C_Louisville%2C_KY._%285000048784%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1222,
+                  "autor": "Diane Deaton Street from Louisville, KY, USA",
+                  "titulo": "Market Street, Looking East From Fourth Avenue, By Night, Louisville, KY. (5000048784).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Market_Street,_Looking_East_From_Fourth_Avenue,_By_Night,_Louisville,_KY._(5000048784).jpg"
+                },
+                "fichero": "laminas/commons-126316187.jpg"
               }
             }
           ]
@@ -1640,14 +2511,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bank of the United States failure NYWTS.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "1302228",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bank_of_the_United_States_failure_NYWTS.jpg/1920px-Bank_of_the_United_States_failure_NYWTS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1100,
+                  "autor": "World Telegram staff photographer",
+                  "titulo": "Bank of the United States failure NYWTS.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bank_of_the_United_States_failure_NYWTS.jpg"
+                },
+                "fichero": "laminas/commons-1302228.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Hester Street between Allen and Orchard Streets in Manhattan in1938.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "11889301",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Hester_Street_between_Allen_and_Orchard_Streets_in_Manhattan_in1938.jpg/1920px-Hester_Street_between_Allen_and_Orchard_Streets_in_Manhattan_in1938.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1468,
+                  "autor": "Berenice Abbott",
+                  "titulo": "Hester Street between Allen and Orchard Streets in Manhattan in1938.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Hester_Street_between_Allen_and_Orchard_Streets_in_Manhattan_in1938.jpg"
+                },
+                "fichero": "laminas/commons-11889301.jpg"
               }
             }
           ]
@@ -1698,19 +2591,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:1932 - Dime Bank Fails - 3 Jul MC - Allentown PA.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "58317929",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/1932_-_Dime_Bank_Fails_-_3_Jul_MC_-_Allentown_PA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2161,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "1932 - Dime Bank Fails - 3 Jul MC - Allentown PA.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1932_-_Dime_Bank_Fails_-_3_Jul_MC_-_Allentown_PA.jpg"
+                },
+                "fichero": "laminas/commons-58317929.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "crowd pressed in front of a bank, police controlling access",
                 "archive": {
                   "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
                   "desde": 55
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-03-09_President_Roosevelts_Emergency_Bank_Bill-55.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
+                  "autor": "Internet Archive",
+                  "titulo": "President Roosevelt's Emergency Bank Bill Passed By Congress 1933/03/09"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1730,7 +2642,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:A Wise Economist Asks a Question.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "86316490",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/A_Wise_Economist_Asks_a_Question.jpg/1920px-A_Wise_Economist_Asks_a_Question.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2524,
+                  "autor": "John T. McCutcheon",
+                  "titulo": "A Wise Economist Asks a Question.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:A_Wise_Economist_Asks_a_Question.jpg"
+                },
+                "fichero": "laminas/commons-86316490.jpg"
               }
             },
             {
@@ -1751,7 +2674,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:1933 - Depression Bank Scrip - 11 Mar MC - Allentown PA.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "115124477",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/1933_-_Depression_Bank_Scrip_-_11_Mar_MC_-_Allentown_PA.jpg/1920px-1933_-_Depression_Bank_Scrip_-_11_Mar_MC_-_Allentown_PA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2483,
+                  "autor": "Self Scanned",
+                  "titulo": "1933 - Depression Bank Scrip - 11 Mar MC - Allentown PA.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1933_-_Depression_Bank_Scrip_-_11_Mar_MC_-_Allentown_PA.jpg"
+                },
+                "fichero": "laminas/commons-115124477.jpg"
               }
             }
           ]
@@ -1767,7 +2701,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "52633439",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Federal_Reserve_Bldg.%2C_Manhattan_%28NYPL_b13668355-482832%29.jpg/1920px-Federal_Reserve_Bldg.%2C_Manhattan_%28NYPL_b13668355-482832%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2421,
+                  "autor": "Berenice Abbott",
+                  "titulo": "Federal Reserve Bldg., Manhattan (NYPL b13668355-482832).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Bldg.,_Manhattan_(NYPL_b13668355-482832).jpg"
+                },
+                "fichero": "laminas/commons-52633439.jpg"
               }
             },
             {
@@ -1800,7 +2745,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Photograph of a vault with gold bars - NARA - 296609.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17179865",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Photograph_of_a_vault_with_gold_bars_-_NARA_-_296609.jpg/1920px-Photograph_of_a_vault_with_gold_bars_-_NARA_-_296609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1495,
+                  "autor": "Unknown author Unknown author or not provided",
+                  "titulo": "Photograph of a vault with gold bars - NARA - 296609.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Photograph_of_a_vault_with_gold_bars_-_NARA_-_296609.jpg"
+                },
+                "fichero": "laminas/commons-17179865.jpg"
               }
             }
           ]
@@ -1816,21 +2772,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:MELLON, ANDREW. SECRETARY LCCN2016860988.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67002035",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/MELLON%2C_ANDREW._SECRETARY_LCCN2016860988.jpg/1920px-MELLON%2C_ANDREW._SECRETARY_LCCN2016860988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2414,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "MELLON, ANDREW. SECRETARY LCCN2016860988.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:MELLON,_ANDREW._SECRETARY_LCCN2016860988.jpg"
+                },
+                "fichero": "laminas/commons-67002035.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Eugene Meyer, half-length portrait, seated at desk, facing front LOC cph.3c05094.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "72303338",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Eugene_Meyer%2C_half-length_portrait%2C_seated_at_desk%2C_facing_front_LOC_cph.3c05094.jpg/1920px-Eugene_Meyer%2C_half-length_portrait%2C_seated_at_desk%2C_facing_front_LOC_cph.3c05094.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1538,
+                  "autor": "Underwood &amp; Underwood",
+                  "titulo": "Eugene Meyer, half-length portrait, seated at desk, facing front LOC cph.3c05094.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Eugene_Meyer,_half-length_portrait,_seated_at_desk,_facing_front_LOC_cph.3c05094.jpg"
+                },
+                "fichero": "laminas/commons-72303338.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Closed bank in Haverhill, Iowa. 1939.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "103667114",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Closed_bank_in_Haverhill%2C_Iowa._1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1435,
+                  "autor": "Arthur Rothstein",
+                  "titulo": "Closed bank in Haverhill, Iowa. 1939.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Closed_bank_in_Haverhill,_Iowa._1939.jpg"
+                },
+                "fichero": "laminas/commons-103667114.jpg"
               }
             }
           ]
@@ -1846,19 +2835,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Union Trust Building at night, Detroit, Mich (68296).jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "41076960",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Union_Trust_Building_at_night%2C_Detroit%2C_Mich_%2868296%29.jpg/1920px-Union_Trust_Building_at_night%2C_Detroit%2C_Mich_%2868296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 3035,
+                  "autor": "Tichnor Brothers, Publisher",
+                  "titulo": "Union Trust Building at night, Detroit, Mich (68296).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Union_Trust_Building_at_night,_Detroit,_Mich_(68296).jpg"
+                },
+                "fichero": "laminas/commons-41076960.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Chicago teachers marching for unpaid salaries, banners, crowd in the Loop",
                 "archive": {
                   "id": "1933-04-17_Protest_By_School_Teachers",
                   "desde": 7
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-04-17_Protest_By_School_Teachers-7.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-04-17_Protest_By_School_Teachers",
+                  "autor": "Internet Archive",
+                  "titulo": "25,000 March In Giant Back Salary Protest By School Teachers  1933/04/17"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -1869,7 +2877,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:1933 - Bank Holiday - 7 Mar MC - Allentown PA.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "85662484",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/1933_-_Bank_Holiday_-_7_Mar_MC_-_Allentown_PA.jpg/1920px-1933_-_Bank_Holiday_-_7_Mar_MC_-_Allentown_PA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2526,
+                  "autor": "Self Scanned",
+                  "titulo": "1933 - Bank Holiday - 7 Mar MC - Allentown PA.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1933_-_Bank_Holiday_-_7_Mar_MC_-_Allentown_PA.jpg"
+                },
+                "fichero": "laminas/commons-85662484.jpg"
               }
             }
           ]
@@ -1930,7 +2949,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Deutsche Äussere Anleihe 1924.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "144323839",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Deutsche_%C3%84ussere_Anleihe_1924.jpg/1920px-Deutsche_%C3%84ussere_Anleihe_1924.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2949,
+                  "autor": "Unbekannte Autoren und Grafiker; Scan vom EDHAC e.V.",
+                  "titulo": "Deutsche Äussere Anleihe 1924.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Deutsche_%C3%84ussere_Anleihe_1924.jpg"
+                },
+                "fichero": "laminas/commons-144323839.jpg"
               }
             }
           ]
@@ -1946,7 +2976,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Creditanstalt (Am Hof 6, Vienna), ca. 1900 (1).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "96207466",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Creditanstalt_%28Am_Hof_6%2C_Vienna%29%2C_ca._1900_%281%29.jpg/1920px-Creditanstalt_%28Am_Hof_6%2C_Vienna%29%2C_ca._1900_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1207,
+                  "autor": "C. Ledermann jun.",
+                  "titulo": "Creditanstalt (Am Hof 6, Vienna), ca. 1900 (1).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Creditanstalt_(Am_Hof_6,_Vienna),_ca._1900_(1).jpg"
+                },
+                "fichero": "laminas/commons-96207466.jpg"
               }
             },
             {
@@ -1973,7 +3014,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Wien Schottengasse Blick Richtung Votivkirche Holluber 1931.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "133024684",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Wien_Schottengasse_Blick_Richtung_Votivkirche_Holluber_1931.jpg/1920px-Wien_Schottengasse_Blick_Richtung_Votivkirche_Holluber_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2270,
+                  "autor": "Franz Holluber",
+                  "titulo": "Wien Schottengasse Blick Richtung Votivkirche Holluber 1931.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Wien_Schottengasse_Blick_Richtung_Votivkirche_Holluber_1931.jpg"
+                },
+                "fichero": "laminas/commons-133024684.jpg"
               }
             }
           ]
@@ -1987,14 +3039,22 @@
           "escenas": [
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Berlin streets, offices and people, 1927",
                 "archive": {
                   "id": "BerlinSymphonyofaGreatCity",
                   "desde": 1130
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-BerlinSymphonyofaGreatCity-1130.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "BerlinSymphonyofaGreatCity",
+                  "autor": "Internet Archive",
+                  "titulo": "Berlin: Symphony of a Great City"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2005,14 +3065,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Darmstaedter und Nationalbank 1928.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "130369648",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Darmstaedter_und_Nationalbank_1928.jpg/1920px-Darmstaedter_und_Nationalbank_1928.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1376,
+                  "autor": "Julie Ceccaldi",
+                  "titulo": "Darmstaedter und Nationalbank 1928.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Darmstaedter_und_Nationalbank_1928.jpg"
+                },
+                "fichero": "laminas/commons-130369648.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:M Reichsbank Berlin 1903.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "14628188",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/M_Reichsbank_Berlin_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1693,
+                  "autor": "Königlich Preußische Messbildanstalt",
+                  "titulo": "M Reichsbank Berlin 1903.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:M_Reichsbank_Berlin_1903.jpg"
+                },
+                "fichero": "laminas/commons-14628188.jpg"
               }
             }
           ]
@@ -2028,14 +3110,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:3 1 0 17 11954 5 1 32785 Opening of the Reichstag Session Eröffnung der Reichstagssitzung Berlin 1932-08-30 Assembly hall. In the Presidium, senior member of parliament Klara Zetkin (x) is opening the session. NAC, Poland PD.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "193121663",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/3_1_0_17_11954_5_1_32785_Opening_of_the_Reichstag_Session_Er%C3%B6ffnung_der_Reichstagssitzung_Berlin_1932-08-30_Assembly_hall._In_the_Presidium%2C_senior_member_of_parliament_Klara_Zetkin_%28x%29_is_opening_the_session._NAC%2C_Poland_PD.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2001,
+                  "autor": "Uncredited photographer. Press photo distributed through a n",
+                  "titulo": "3 1 0 17 11954 5 1 32785 Opening of the Reichstag Session Eröffnung der Reichstagssitzung Berlin 1932-08-30 Assembly hall. In the Presidium, senior member of parliament Klara Zetkin (x) is opening the session. NAC, Poland PD.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:3_1_0_17_11954_5_1_32785_Opening_of_the_Reichstag_Session_Er%C3%B6ffnung_der_Reichstagssitzung_Berlin_1932-08-30_Assembly_hall._In_the_Presidium,_senior_member_of_parliament_Klara_Zetkin_(x)_is_opening_the_session._NAC,_Poland_PD.jpg"
+                },
+                "fichero": "laminas/commons-193121663.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Un bureau de vote à Berlin - btv1b90526649.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "154428837",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Un_bureau_de_vote_%C3%A0_Berlin_-_btv1b90526649.jpg/1920px-Un_bureau_de_vote_%C3%A0_Berlin_-_btv1b90526649.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1438,
+                  "autor": "Agence de presse Mondial Photo-Presse. Agence photographique",
+                  "titulo": "Un bureau de vote à Berlin - btv1b90526649.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Un_bureau_de_vote_%C3%A0_Berlin_-_btv1b90526649.jpg"
+                },
+                "fichero": "laminas/commons-154428837.jpg"
               }
             },
             {
@@ -2070,14 +3174,22 @@
           "escenas": [
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "large rally in Trafalgar Square with union banners",
                 "archive": {
                   "id": "TheFightingPresident",
                   "desde": 1150
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-1150.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2088,7 +3200,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bank of England and Royal Exchange, London.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "36761367",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Bank_of_England_and_Royal_Exchange%2C_London.jpg/1920px-Bank_of_England_and_Royal_Exchange%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1247,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Bank of England and Royal Exchange, London.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bank_of_England_and_Royal_Exchange,_London.jpg"
+                },
+                "fichero": "laminas/commons-36761367.jpg"
               }
             },
             {
@@ -2100,7 +3223,15 @@
                   "id": "TheFightingPresident",
                   "desde": 1184
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-1184.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2111,7 +3242,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bank of England £5 note 1931.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "48539283",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bank_of_England_%C2%A35_note_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1200,
+                  "autor": "The Bank of England",
+                  "titulo": "Bank of England £5 note 1931.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bank_of_England_%C2%A35_note_1931.jpg"
+                },
+                "fichero": "laminas/commons-48539283.jpg"
               }
             }
           ]
@@ -2127,21 +3269,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:(Prototypes de pièces de monnaies de 100 francs 1929, de gauche à droite, par) Bazor, Morlon, Turin - btv1b53209160q.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "160976323",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%28Prototypes_de_pi%C3%A8ces_de_monnaies_de_100_francs_1929%2C_de_gauche_%C3%A0_droite%2C_par%29_Bazor%2C_Morlon%2C_Turin_-_btv1b53209160q.jpg/1920px-%28Prototypes_de_pi%C3%A8ces_de_monnaies_de_100_francs_1929%2C_de_gauche_%C3%A0_droite%2C_par%29_Bazor%2C_Morlon%2C_Turin_-_btv1b53209160q.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1403,
+                  "autor": "Agence Rol. Agence photographique (commanditaire)",
+                  "titulo": "(Prototypes de pièces de monnaies de 100 francs 1929, de gauche à droite, par) Bazor, Morlon, Turin - btv1b53209160q.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:(Prototypes_de_pi%C3%A8ces_de_monnaies_de_100_francs_1929,_de_gauche_%C3%A0_droite,_par)_Bazor,_Morlon,_Turin_-_btv1b53209160q.jpg"
+                },
+                "fichero": "laminas/commons-160976323.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:La façade de la Banque de France - btv1b90480761.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "160695275",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/La_fa%C3%A7ade_de_la_Banque_de_France_-_btv1b90480761.jpg/1920px-La_fa%C3%A7ade_de_la_Banque_de_France_-_btv1b90480761.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1435,
+                  "autor": "Agence de presse Meurisse. Agence photographique (commandita",
+                  "titulo": "La façade de la Banque de France - btv1b90480761.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:La_fa%C3%A7ade_de_la_Banque_de_France_-_btv1b90480761.jpg"
+                },
+                "fichero": "laminas/commons-160695275.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:St Eriksgatan 1930.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "5460457",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/St_Eriksgatan_1930.jpg/1920px-St_Eriksgatan_1930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1423,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "St Eriksgatan 1930.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:St_Eriksgatan_1930.jpg"
+                },
+                "fichero": "laminas/commons-5460457.jpg"
               }
             }
           ]
@@ -2178,14 +3353,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Réorganisation de la Banque de France - vue intérieure les bureaux, les caves, les coffres-forts - btv1b9046204m.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "162121339",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/R%C3%A9organisation_de_la_Banque_de_France_-_vue_int%C3%A9rieure_les_bureaux%2C_les_caves%2C_les_coffres-forts_-_btv1b9046204m.jpg/1920px-R%C3%A9organisation_de_la_Banque_de_France_-_vue_int%C3%A9rieure_les_bureaux%2C_les_caves%2C_les_coffres-forts_-_btv1b9046204m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1444,
+                  "autor": "Agence de presse Meurisse. Agence photographique (commandita",
+                  "titulo": "Réorganisation de la Banque de France - vue intérieure les bureaux, les caves, les coffres-forts - btv1b9046204m.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:R%C3%A9organisation_de_la_Banque_de_France_-_vue_int%C3%A9rieure_les_bureaux,_les_caves,_les_coffres-forts_-_btv1b9046204m.jpg"
+                },
+                "fichero": "laminas/commons-162121339.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:1930 Shanghai.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "7446935",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/1930_Shanghai.jpg/1920px-1930_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 791,
+                  "autor": "US Signal Corps",
+                  "titulo": "1930 Shanghai.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:1930_Shanghai.jpg"
+                },
+                "fichero": "laminas/commons-7446935.jpg"
               }
             }
           ]
@@ -2201,21 +3398,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Valparaiso (le port), Chili (Pacific) - btv1b532074283.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "161438299",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Valparaiso_%28le_port%29%2C_Chili_%28Pacific%29_-_btv1b532074283.jpg/1920px-Valparaiso_%28le_port%29%2C_Chili_%28Pacific%29_-_btv1b532074283.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1386,
+                  "autor": "Pacific and Atlantic (Agence photographique). Agence photogr",
+                  "titulo": "Valparaiso (le port), Chili (Pacific) - btv1b532074283.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Valparaiso_(le_port),_Chili_(Pacific)_-_btv1b532074283.jpg"
+                },
+                "fichero": "laminas/commons-161438299.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Nitrato Chile.JPG",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "9091142",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Nitrato_Chile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2551,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Nitrato Chile.JPG",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Nitrato_Chile.JPG"
+                },
+                "fichero": "laminas/commons-9091142.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Parlement à La Paz (place Murillo), La Paz, palacio legislativo (Pacific) - btv1b53210650d.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "162390996",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Parlement_%C3%A0_La_Paz_%28place_Murillo%29%2C_La_Paz%2C_palacio_legislativo_%28Pacific%29_-_btv1b53210650d.jpg/1920px-Parlement_%C3%A0_La_Paz_%28place_Murillo%29%2C_La_Paz%2C_palacio_legislativo_%28Pacific%29_-_btv1b53210650d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1415,
+                  "autor": "Pacific and Atlantic (Agence photographique). Agence photogr",
+                  "titulo": "Parlement à La Paz (place Murillo), La Paz, palacio legislativo (Pacific) - btv1b53210650d.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Parlement_%C3%A0_La_Paz_(place_Murillo),_La_Paz,_palacio_legislativo_(Pacific)_-_btv1b53210650d.jpg"
+                },
+                "fichero": "laminas/commons-162390996.jpg"
               }
             }
           ]
@@ -2246,7 +3476,7 @@
                   },
                   {
                     "etiqueta": "México",
-                    "valor": 23.0,
+                    "valor": 23,
                     "tono": "ink"
                   },
                   {
@@ -2267,14 +3497,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Armazém regulador do café de Campinas.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "149746984",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Armaz%C3%A9m_regulador_do_caf%C3%A9_de_Campinas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1299,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "Armazém regulador do café de Campinas.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Armaz%C3%A9m_regulador_do_caf%C3%A9_de_Campinas.jpg"
+                },
+                "fichero": "laminas/commons-149746984.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Postal Carrera Séptima - Iglesia de San Francisco (Bogotá).jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "174404193",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Postal_Carrera_S%C3%A9ptima_-_Iglesia_de_San_Francisco_%28Bogot%C3%A1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1204,
+                  "autor": "Anonymous Unknown author",
+                  "titulo": "Postal Carrera Séptima - Iglesia de San Francisco (Bogotá).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Postal_Carrera_S%C3%A9ptima_-_Iglesia_de_San_Francisco_(Bogot%C3%A1).jpg"
+                },
+                "fichero": "laminas/commons-174404193.jpg"
               }
             }
           ]
@@ -2302,14 +3554,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Roosevelt at the microphones on the Capitol platform, crowd",
                 "archive": {
                   "id": "1933-03-05_Extra_Special_Roosevelt_Inaugurated",
                   "desde": 196
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-03-05_Extra_Special_Roosevelt_Inaugurated-196.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-03-05_Extra_Special_Roosevelt_Inaugurated",
+                  "autor": "Internet Archive",
+                  "titulo": "Extra! Special! Roosevelt Inaugurated  1933/03/05"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2320,19 +3580,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Washington, D.C. - Bank Holiday Proclamation (Speech File 612) of March 6, 1933 - DPLA - 67fd04856d868d7263bcf6b628f679eb (page 3).jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "192280206",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Washington%2C_D.C._-_Bank_Holiday_Proclamation_%28Speech_File_612%29_of_March_6%2C_1933_-_DPLA_-_67fd04856d868d7263bcf6b628f679eb_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2454,
+                  "autor": "Roosevelt, Franklin D. (Franklin Delano), 1882-1945",
+                  "titulo": "Washington, D.C. - Bank Holiday Proclamation (Speech File 612) of March 6, 1933 - DPLA - 67fd04856d868d7263bcf6b628f679eb (page 3).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Washington,_D.C._-_Bank_Holiday_Proclamation_(Speech_File_612)_of_March_6,_1933_-_DPLA_-_67fd04856d868d7263bcf6b628f679eb_(page_3).jpg"
+                },
+                "fichero": "laminas/commons-192280206.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "shop signs offering credit and barter during the bank holiday",
                 "archive": {
                   "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
                   "desde": 25
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-03-09_President_Roosevelts_Emergency_Bank_Bill-25.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
+                  "autor": "Internet Archive",
+                  "titulo": "President Roosevelt's Emergency Bank Bill Passed By Congress 1933/03/09"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2357,7 +3636,15 @@
                   "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
                   "desde": 7
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-03-09_President_Roosevelts_Emergency_Bank_Bill-7.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
+                  "autor": "Internet Archive",
+                  "titulo": "President Roosevelt's Emergency Bank Bill Passed By Congress 1933/03/09"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2368,19 +3655,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Cong. Henry B. Steagall Chariman House Banking Currency LCCN2016862898.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67122361",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cong._Henry_B._Steagall_Chariman_House_Banking_Currency_LCCN2016862898.jpg/1920px-Cong._Henry_B._Steagall_Chariman_House_Banking_Currency_LCCN2016862898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1547,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Cong. Henry B. Steagall Chariman House Banking Currency LCCN2016862898.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Cong._Henry_B._Steagall_Chariman_House_Banking_Currency_LCCN2016862898.jpg"
+                },
+                "fichero": "laminas/commons-67122361.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Bureau of Engraving presses printing Federal Reserve notes",
                 "archive": {
                   "id": "1933-03-20_Money_Stream_Flow_From_Treasury",
                   "desde": 12
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-03-20_Money_Stream_Flow_From_Treasury-12.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-03-20_Money_Stream_Flow_From_Treasury",
+                  "autor": "Internet Archive",
+                  "titulo": "Money Stream Flow From Treasury 1933/03/20"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2400,19 +3706,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:President Franklin D. Roosevelt Broadcasting his First Fireside Chat Regarding the Banking Crisis, from the White House, Washington, DC - DPLA - eaf235889aa202a7a7546265511148c4.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "98415303",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/President_Franklin_D._Roosevelt_Broadcasting_his_First_Fireside_Chat_Regarding_the_Banking_Crisis%2C_from_the_White_House%2C_Washington%2C_DC_-_DPLA_-_eaf235889aa202a7a7546265511148c4.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2441,
+                  "autor": "The National Archives. Office of the Archivist of the United",
+                  "titulo": "President Franklin D. Roosevelt Broadcasting his First Fireside Chat Regarding the Banking Crisis, from the White House, Washington, DC - DPLA - eaf235889aa202a7a7546265511148c4.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:President_Franklin_D._Roosevelt_Broadcasting_his_First_Fireside_Chat_Regarding_the_Banking_Crisis,_from_the_White_House,_Washington,_DC_-_DPLA_-_eaf235889aa202a7a7546265511148c4.jpg"
+                },
+                "fichero": "laminas/commons-98415303.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Roosevelt at his desk speaking into radio microphones",
                 "archive": {
                   "id": "TheFightingPresident",
                   "desde": 3100
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-3100.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2421,14 +3746,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "family listening to the radio at home",
                 "archive": {
                   "id": "TheFightingPresident",
                   "desde": 3120
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-3120.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2446,14 +3779,22 @@
           "escenas": [
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "sign announcing a Chicago bank is open for business, teller serving",
                 "archive": {
                   "id": "TheFightingPresident",
                   "desde": 3193
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-3193.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2477,14 +3818,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "crowded stock exchange floor at the reopening",
                 "archive": {
                   "id": "TheFightingPresident",
                   "desde": 3213
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-3213.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2495,7 +3844,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Floor of the Stock Exchange - DPLA - 63920b71a4803d6682d39e4acbfe5284.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "170639433",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Floor_of_the_Stock_Exchange_-_DPLA_-_63920b71a4803d6682d39e4acbfe5284.jpg/1920px-Floor_of_the_Stock_Exchange_-_DPLA_-_63920b71a4803d6682d39e4acbfe5284.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1176,
+                  "autor": "Hassam, Childe, 1859-1935",
+                  "titulo": "Floor of the Stock Exchange - DPLA - 63920b71a4803d6682d39e4acbfe5284.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Floor_of_the_Stock_Exchange_-_DPLA_-_63920b71a4803d6682d39e4acbfe5284.jpg"
+                },
+                "fichero": "laminas/commons-170639433.jpg"
               }
             }
           ]
@@ -2511,19 +3871,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:GlassSteagall.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "10412592",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/GlassSteagall.jpg/1920px-GlassSteagall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1152,
+                  "autor": "CGlass.jpg : The original uploader was The Mystery Man at En",
+                  "titulo": "GlassSteagall.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:GlassSteagall.jpg"
+                },
+                "fichero": "laminas/commons-10412592.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Roosevelt signing a bill at his desk",
                 "archive": {
                   "id": "TheFightingPresident",
                   "desde": 3408
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-TheFightingPresident-3408.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "TheFightingPresident",
+                  "autor": "Internet Archive",
+                  "titulo": "The Fighting President."
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2534,7 +3913,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:House Engrossed Copy of Glass-Steagall Act, the Banking Act of 1933 (H.R. 5661) - DPLA - 472e1d7b69f6540a3300ecf0773fe49f (page 1).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "192012418",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/House_Engrossed_Copy_of_Glass-Steagall_Act%2C_the_Banking_Act_of_1933_%28H.R._5661%29_-_DPLA_-_472e1d7b69f6540a3300ecf0773fe49f_%28page_1%29.jpg/1920px-House_Engrossed_Copy_of_Glass-Steagall_Act%2C_the_Banking_Act_of_1933_%28H.R._5661%29_-_DPLA_-_472e1d7b69f6540a3300ecf0773fe49f_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2739,
+                  "autor": "U.S. House of Representatives. 3/4/1789",
+                  "titulo": "House Engrossed Copy of Glass-Steagall Act, the Banking Act of 1933 (H.R. 5661) - DPLA - 472e1d7b69f6540a3300ecf0773fe49f (page 1).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:House_Engrossed_Copy_of_Glass-Steagall_Act,_the_Banking_Act_of_1933_(H.R._5661)_-_DPLA_-_472e1d7b69f6540a3300ecf0773fe49f_(page_1).jpg"
+                },
+                "fichero": "laminas/commons-192012418.jpg"
               }
             }
           ]
@@ -2570,14 +3960,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Carter Glass at desk LCCN2016890498.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67847290",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Carter_Glass_at_desk_LCCN2016890498.jpg/1920px-Carter_Glass_at_desk_LCCN2016890498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1487,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Carter Glass at desk LCCN2016890498.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Carter_Glass_at_desk_LCCN2016890498.jpg"
+                },
+                "fichero": "laminas/commons-67847290.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Portrait de William H. Woodin Jr. - btv1b9035052d.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "161436880",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Portrait_de_William_H._Woodin_Jr._-_btv1b9035052d.jpg/1920px-Portrait_de_William_H._Woodin_Jr._-_btv1b9035052d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2565,
+                  "autor": "Acme Newspicture (Agence de presse). Agence photographique (",
+                  "titulo": "Portrait de William H. Woodin Jr. - btv1b9035052d.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_de_William_H._Woodin_Jr._-_btv1b9035052d.jpg"
+                },
+                "fichero": "laminas/commons-161436880.jpg"
               }
             }
           ]
@@ -2593,21 +4005,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Executive Order 6102.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "11370129",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Executive_Order_6102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2873,
+                  "autor": "U.S. Government Printing Office",
+                  "titulo": "Executive Order 6102.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Executive_Order_6102.jpg"
+                },
+                "fichero": "laminas/commons-11370129.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:US-$20-GC-1928-Fr-2402.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "35744338",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/US-%2420-GC-1928-Fr-2402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1687,
+                  "autor": "National Museum of American History",
+                  "titulo": "US-$20-GC-1928-Fr-2402.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:US-$20-GC-1928-Fr-2402.jpg"
+                },
+                "fichero": "laminas/commons-35744338.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:NNC-US-1933-G$20-Saint Gaudens.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "42906037",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/NNC-US-1933-G%2420-Saint_Gaudens.jpg/1920px-NNC-US-1933-G%2420-Saint_Gaudens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 970,
+                  "autor": "US Mint (coin), National Numismatic Collection (photograph b",
+                  "titulo": "NNC-US-1933-G$20-Saint Gaudens.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:NNC-US-1933-G$20-Saint_Gaudens.jpg"
+                },
+                "fichero": "laminas/commons-42906037.jpg"
               }
             }
           ]
@@ -2643,14 +4088,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Franklin Delano Roosevelt signs Gold Bill 1934.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "31771733",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Franklin_Delano_Roosevelt_signs_Gold_Bill_1934.jpg/1920px-Franklin_Delano_Roosevelt_signs_Gold_Bill_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1518,
+                  "autor": "Federalreserve",
+                  "titulo": "Franklin Delano Roosevelt signs Gold Bill 1934.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Franklin_Delano_Roosevelt_signs_Gold_Bill_1934.jpg"
+                },
+                "fichero": "laminas/commons-31771733.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Photograph of a vault with gold bars - NARA - 296609.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "17179865",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Photograph_of_a_vault_with_gold_bars_-_NARA_-_296609.jpg/1920px-Photograph_of_a_vault_with_gold_bars_-_NARA_-_296609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1495,
+                  "autor": "Unknown author Unknown author or not provided",
+                  "titulo": "Photograph of a vault with gold bars - NARA - 296609.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Photograph_of_a_vault_with_gold_bars_-_NARA_-_296609.jpg"
+                },
+                "fichero": "laminas/commons-17179865.jpg"
               }
             }
           ]
@@ -2664,14 +4131,22 @@
           "escenas": [
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "WPA workers on a construction site, steel bridge",
                 "archive": {
                   "id": "WorkPaysAmerica",
                   "desde": 270
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-WorkPaysAmerica-270.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "WorkPaysAmerica",
+                  "autor": "Internet Archive",
+                  "titulo": "Work Pays America"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2682,19 +4157,38 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:\"Newly-arrived replacements at CCC Camp, TVA ^22, near Esco, Tennessee, lined up before their first meal in camp. The... - NARA - 532780.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "16899512",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/%22Newly-arrived_replacements_at_CCC_Camp%2C_TVA_%5E22%2C_near_Esco%2C_Tennessee%2C_lined_up_before_their_first_meal_in_camp._The..._-_NARA_-_532780.jpg/1920px-%22Newly-arrived_replacements_at_CCC_Camp%2C_TVA_%5E22%2C_near_Esco%2C_Tennessee%2C_lined_up_before_their_first_meal_in_camp._The..._-_NARA_-_532780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1374,
+                  "autor": "Lewis Hine",
+                  "titulo": "\"Newly-arrived replacements at CCC Camp, TVA ^22, near Esco, Tennessee, lined up before their first meal in camp. The... - NARA - 532780.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:%22Newly-arrived_replacements_at_CCC_Camp,_TVA_%5E22,_near_Esco,_Tennessee,_lined_up_before_their_first_meal_in_camp._The..._-_NARA_-_532780.jpg"
+                },
+                "fichero": "laminas/commons-16899512.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "NRA Blue Eagle 'We Do Our Part' poster on a stage",
                 "archive": {
                   "id": "National1933",
                   "desde": 141
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-National1933-141.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "National1933",
+                  "autor": "Internet Archive",
+                  "titulo": "[National Recovery Administration (NRA) Promo]"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2703,14 +4197,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "young CCC recruits lined up between tents",
                 "archive": {
                   "id": "1933-08-14_President_Visits_Foresters",
                   "desde": 20
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-1933-08-14_President_Visits_Foresters-20.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "1933-08-14_President_Visits_Foresters",
+                  "autor": "Internet Archive",
+                  "titulo": "President Visits Foresters, 1933/08/14"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2754,14 +4256,22 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "large union rally in the street, 1937",
                 "archive": {
                   "id": "PatheNew1937",
                   "desde": 557
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-PatheNew1937-557.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "PatheNew1937",
+                  "autor": "Internet Archive",
+                  "titulo": "Pathe News Digest (1937, No. 3)"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2772,7 +4282,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Marriner Eccles LCCN2016872596.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "67400445",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Marriner_Eccles_LCCN2016872596.jpg/1920px-Marriner_Eccles_LCCN2016872596.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1525,
+                  "autor": "Harris &amp; Ewing, photographer",
+                  "titulo": "Marriner Eccles LCCN2016872596.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Marriner_Eccles_LCCN2016872596.jpg"
+                },
+                "fichero": "laminas/commons-67400445.jpg"
               }
             }
           ]
@@ -2802,7 +4323,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Portrait of Milton Friedman.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "16163396",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Portrait_of_Milton_Friedman.jpg/1920px-Portrait_of_Milton_Friedman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2395,
+                  "autor": "The Friedman Foundation for Educational Choice",
+                  "titulo": "Portrait of Milton Friedman.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Milton_Friedman.jpg"
+                },
+                "fichero": "laminas/commons-16163396.jpg"
               }
             },
             {
@@ -2833,21 +4365,54 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Eugene Meyer, half-length portrait, seated at desk, facing front LOC cph.3c05094.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "72303338",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Eugene_Meyer%2C_half-length_portrait%2C_seated_at_desk%2C_facing_front_LOC_cph.3c05094.jpg/1920px-Eugene_Meyer%2C_half-length_portrait%2C_seated_at_desk%2C_facing_front_LOC_cph.3c05094.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1538,
+                  "autor": "Underwood &amp; Underwood",
+                  "titulo": "Eugene Meyer, half-length portrait, seated at desk, facing front LOC cph.3c05094.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Eugene_Meyer,_half-length_portrait,_seated_at_desk,_facing_front_LOC_cph.3c05094.jpg"
+                },
+                "fichero": "laminas/commons-72303338.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Construction of Commerce Court North 1929 (f1266 it17427).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "179702652",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Construction_of_Commerce_Court_North_1929_%28f1266_it17427%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1477,
+                  "autor": "Globe and Mail",
+                  "titulo": "Construction of Commerce Court North 1929 (f1266 it17427).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Construction_of_Commerce_Court_North_1929_(f1266_it17427).jpg"
+                },
+                "fichero": "laminas/commons-179702652.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:R-100 - Montreal 1930.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "74493938",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/R-100_-_Montreal_1930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1641,
+                  "autor": "Archives The Gazette",
+                  "titulo": "R-100 - Montreal 1930.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:R-100_-_Montreal_1930.jpg"
+                },
+                "fichero": "laminas/commons-74493938.jpg"
               }
             }
           ]
@@ -2863,7 +4428,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Ben Bernanke.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "129171",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ben_Bernanke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2390,
+                  "autor": "Federal Reserve",
+                  "titulo": "Ben Bernanke.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ben_Bernanke.jpg"
+                },
+                "fichero": "laminas/commons-129171.jpg"
               }
             },
             {
@@ -2875,7 +4451,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:University of Chicago - WILLIAM RAINEY HARPER MEMORIAL LIBRARY.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "74761978",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/University_of_Chicago_-_WILLIAM_RAINEY_HARPER_MEMORIAL_LIBRARY.jpg/1920px-University_of_Chicago_-_WILLIAM_RAINEY_HARPER_MEMORIAL_LIBRARY.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1199,
+                  "autor": "Thomas Wakefield Goodspeed",
+                  "titulo": "University of Chicago - WILLIAM RAINEY HARPER MEMORIAL LIBRARY.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:University_of_Chicago_-_WILLIAM_RAINEY_HARPER_MEMORIAL_LIBRARY.jpg"
+                },
+                "fichero": "laminas/commons-74761978.jpg"
               }
             }
           ]
@@ -2891,14 +4478,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bank Run on American Union Bank.jpeg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "55213059",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Bank_Run_on_American_Union_Bank.jpeg/1920px-Bank_Run_on_American_Union_Bank.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1505,
+                  "autor": "Wikideas1 Wikideas1 ( talk ) ( Uploads )",
+                  "titulo": "Bank Run on American Union Bank.jpeg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bank_Run_on_American_Union_Bank.jpeg"
+                },
+                "fichero": "laminas/commons-55213059.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Four chairmen of the US Federal reserve in 2022.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "193459281",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Four_chairmen_of_the_US_Federal_reserve_in_2022.jpg/1920px-Four_chairmen_of_the_US_Federal_reserve_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1280,
+                  "autor": "Federalreserve",
+                  "titulo": "Four chairmen of the US Federal reserve in 2022.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Four_chairmen_of_the_US_Federal_reserve_in_2022.jpg"
+                },
+                "fichero": "laminas/commons-193459281.jpg"
               }
             }
           ]
@@ -2914,26 +4523,56 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:John Maynard Keynes 1929.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "170838312",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/John_Maynard_Keynes_1929.jpg/1920px-John_Maynard_Keynes_1929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1492,
+                  "autor": "Unknown author Unknown author",
+                  "titulo": "John Maynard Keynes 1929.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:John_Maynard_Keynes_1929.jpg"
+                },
+                "fichero": "laminas/commons-170838312.jpg"
               }
             },
             {
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Keynes caricature Low 1934-1.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "158535696",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Keynes_caricature_Low_1934-1.jpg/1920px-Keynes_caricature_Low_1934-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2880,
+                  "autor": "David Low",
+                  "titulo": "Keynes caricature Low 1934-1.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Keynes_caricature_Low_1934-1.jpg"
+                },
+                "fichero": "laminas/commons-158535696.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "relief workers demonstration with banners and a crowd, Los Angeles",
                 "archive": {
                   "id": "Griffith1933",
                   "desde": 60
                 },
-                "tono": "ocre"
+                "tono": "ocre",
+                "fichero": "clips/archive-Griffith1933-60.mp4",
+                "ajuste": "contener",
+                "elegido": {
+                  "fuente": "archive",
+                  "id": "Griffith1933",
+                  "autor": "Internet Archive",
+                  "titulo": "[Griffith Park Relief Workers Demonstration]"
+                }
               },
               "rotulo": {
                 "kicker": "Archivo",
@@ -2944,7 +4583,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Oakland Eight (1930-1931) Model 101.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "195851241",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Oakland_Eight_%281930-1931%29_Model_101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 2257,
+                  "autor": "The Ladies' home journal v.47Apr-June pt.2 1930",
+                  "titulo": "Oakland Eight (1930-1931) Model 101.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Oakland_Eight_(1930-1931)_Model_101.jpg"
+                },
+                "fichero": "laminas/commons-195851241.jpg"
               }
             }
           ]
@@ -2960,7 +4610,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:US Federal Hall New York 1930s.jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "31771731",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/US_Federal_Hall_New_York_1930s.jpg/1920px-US_Federal_Hall_New_York_1930s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2578,
+                  "autor": "Federalreserve",
+                  "titulo": "US Federal Hall New York 1930s.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:US_Federal_Hall_New_York_1930s.jpg"
+                },
+                "fichero": "laminas/commons-31771731.jpg"
               }
             },
             {
@@ -2972,7 +4633,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Ford Motor Company assembly line.jpg",
-                "deriva": "der"
+                "deriva": "der",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "2538098",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ford_Motor_Company_assembly_line.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1230,
+                  "autor": "Literary Digest 1928-01-07 Henry Ford Interview / Photograph",
+                  "titulo": "Ford Motor Company assembly line.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Motor_Company_assembly_line.jpg"
+                },
+                "fichero": "laminas/commons-2538098.jpg"
               }
             }
           ]
@@ -3000,10 +4672,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "bank branch entrance on a city street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5895076",
+                  "url": "https://videos.pexels.com/video-files/5895076/5895076-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 8,
+                  "autor": "Adam Fackelman",
+                  "pagina": "https://www.pexels.com/video/theater-in-downtown-chicago-5895076/"
+                },
+                "fichero": "clips/pexels-5895076.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3028,7 +4710,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Bank of Thomas County, Thomasville, Ga., member Federal Deposit Insurance Corporation (8342827551).jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "35882012",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bank_of_Thomas_County%2C_Thomasville%2C_Ga.%2C_member_Federal_Deposit_Insurance_Corporation_%288342827551%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 3009,
+                  "autor": "Boston Public Library",
+                  "titulo": "Bank of Thomas County, Thomasville, Ga., member Federal Deposit Insurance Corporation (8342827551).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Bank_of_Thomas_County,_Thomasville,_Ga.,_member_Federal_Deposit_Insurance_Corporation_(8342827551).jpg"
+                },
+                "fichero": "laminas/commons-35882012.jpg"
               }
             }
           ]
@@ -3086,10 +4779,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Federal Reserve building Washington exterior",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "10218426",
+                  "url": "https://videos.pexels.com/video-files/10218426/10218426-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/bank-exterior-with-logo-10218426/"
+                },
+                "fichero": "clips/pexels-10218426.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3098,10 +4801,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "banknotes being counted by a machine close up",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "6266290",
+                  "url": "https://videos.pexels.com/video-files/6266290/6266290-hd_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Tima Miroshnichenko",
+                  "pagina": "https://www.pexels.com/video/woman-counting-money-6266290/"
+                },
+                "fichero": "clips/pexels-6266290.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3112,7 +4825,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Eccles Building (26088200676).jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "50927860",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Eccles_Building_%2826088200676%29.jpg/1920px-Eccles_Building_%2826088200676%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1306,
+                  "autor": "Federalreserve",
+                  "titulo": "Eccles Building (26088200676).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg"
+                },
+                "fichero": "laminas/commons-50927860.jpg"
               }
             }
           ]
@@ -3147,10 +4871,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "stock trading app on a smartphone screen",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35518150",
+                  "url": "https://videos.pexels.com/video-files/35518150/15047797_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Jakub Zerdzicki",
+                  "pagina": "https://www.pexels.com/video/smartphone-cryptocurrency-trading-app-interface-35518150/"
+                },
+                "fichero": "clips/pexels-35518150.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3159,10 +4893,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "stock market price screens in a trading room",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "38471109",
+                  "url": "https://videos.pexels.com/video-files/38471109/16337908_1920_1080_50fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 9,
+                  "autor": "Rafael Minguet Delgado",
+                  "pagina": "https://www.pexels.com/video/cryptocurrency-market-analysis-on-dual-monitors-38471109/"
+                },
+                "fichero": "clips/pexels-38471109.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3173,7 +4917,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Wide-Angle New York Stock Exchange (51680640260).jpg",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "141172919",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Wide-Angle_New_York_Stock_Exchange_%2851680640260%29.jpg/1920px-Wide-Angle_New_York_Stock_Exchange_%2851680640260%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 1281,
+                  "autor": "Billie Grace Ward from New York, USA",
+                  "titulo": "Wide-Angle New York Stock Exchange (51680640260).jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Wide-Angle_New_York_Stock_Exchange_(51680640260).jpg"
+                },
+                "fichero": "laminas/commons-141172919.jpg"
               }
             }
           ]
@@ -3209,15 +4964,36 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:Shiller Ratio Jun2026.png",
-                "deriva": "arriba"
+                "deriva": "arriba",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "193861387",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Shiller_Ratio_Jun2026.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 896,
+                  "autor": "אור גנוז",
+                  "titulo": "Shiller Ratio Jun2026.png",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Shiller_Ratio_Jun2026.png"
+                },
+                "fichero": "laminas/commons-193861387.jpg"
               }
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Wall Street street sign New York financial district",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "5630360",
+                  "url": "https://videos.pexels.com/video-files/5630360/5630360-hd_1920_1080_24fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ono  Kosuki",
+                  "pagina": "https://www.pexels.com/video/signage-of-the-streets-in-new-york-5630360/"
+                },
+                "fichero": "clips/pexels-5630360.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3226,10 +5002,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "Charging Bull bronze statue Wall Street tourists",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "35559506",
+                  "url": "https://videos.pexels.com/video-files/35559506/15067299_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 7,
+                  "autor": "Sururi Ballıdağ Director",
+                  "pagina": "https://www.pexels.com/video/crowd-in-urban-square-with-bull-statue-in-winter-35559506/"
+                },
+                "fichero": "clips/pexels-35559506.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3240,7 +5026,17 @@
               "tipo": "clip",
               "clip": {
                 "buscar": "New York Stock Exchange building facade flags",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4319342",
+                  "url": "https://videos.pexels.com/video-files/4319342/4319342-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "CityXcape",
+                  "pagina": "https://www.pexels.com/video/finance-nyse-wall-street-new-york-city-4319342/"
+                },
+                "fichero": "clips/pexels-4319342.mp4"
               }
             }
           ]
@@ -3254,10 +5050,20 @@
           "escenas": [
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "office workers crossing a city street",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "4992557",
+                  "url": "https://videos.pexels.com/video-files/4992557/4992557-hd_1920_1080_30fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 10,
+                  "autor": "Ketut Subiyanto",
+                  "pagina": "https://www.pexels.com/video/people-crossing-the-street-4992557/"
+                },
+                "fichero": "clips/pexels-4992557.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3266,10 +5072,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "factory workers on a modern assembly line",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "30075964",
+                  "url": "https://videos.pexels.com/video-files/30075964/12899884_1920_1080_25fps.mp4",
+                  "ancho": 1920,
+                  "duracion": 16,
+                  "autor": "Emrul Kausar Emon",
+                  "pagina": "https://www.pexels.com/video/motorcycle-components-assembly-line-in-factory-30075964/"
+                },
+                "fichero": "clips/pexels-30075964.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3295,7 +5111,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:US Dept of Labor.jpg",
-                "deriva": "izq"
+                "deriva": "izq",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "132170",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/US_Dept_of_Labor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "ancho": 1920,
+                  "alto": 1440,
+                  "autor": "Ed Brown",
+                  "titulo": "US Dept of Labor.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:US_Dept_of_Labor.jpg"
+                },
+                "fichero": "laminas/commons-132170.jpg"
               }
             }
           ]
@@ -3316,10 +5143,20 @@
             },
             {
               "tipo": "clip",
-              "peso": 5.0,
+              "peso": 5,
               "clip": {
                 "buscar": "New York City Lower Manhattan skyline at dusk",
-                "tono": "ocre"
+                "tono": "ocre",
+                "elegido": {
+                  "fuente": "pexels",
+                  "id": "7850311",
+                  "url": "https://videos.pexels.com/video-files/7850311/7850311-hd_1334_720_25fps.mp4",
+                  "ancho": 1334,
+                  "duracion": 7,
+                  "autor": "Tom Films",
+                  "pagina": "https://www.pexels.com/video/black-and-white-footage-of-a-cityscape-7850311/"
+                },
+                "fichero": "clips/pexels-7850311.mp4"
               },
               "rotulo": {
                 "kicker": "Imagen actual",
@@ -3330,7 +5167,18 @@
               "tipo": "lamina",
               "lamina": {
                 "buscar": "File:President Franklin D. Roosevelt Broadcasting his First Fireside Chat Regarding the Banking Crisis, from the White House, Washington, DC - DPLA - eaf235889aa202a7a7546265511148c4.jpg",
-                "deriva": "abajo"
+                "deriva": "abajo",
+                "elegido": {
+                  "fuente": "commons",
+                  "id": "98415303",
+                  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/President_Franklin_D._Roosevelt_Broadcasting_his_First_Fireside_Chat_Regarding_the_Banking_Crisis%2C_from_the_White_House%2C_Washington%2C_DC_-_DPLA_-_eaf235889aa202a7a7546265511148c4.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "ancho": 1920,
+                  "alto": 2441,
+                  "autor": "The National Archives. Office of the Archivist of the United",
+                  "titulo": "President Franklin D. Roosevelt Broadcasting his First Fireside Chat Regarding the Banking Crisis, from the White House, Washington, DC - DPLA - eaf235889aa202a7a7546265511148c4.jpg",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:President_Franklin_D._Roosevelt_Broadcasting_his_First_Fireside_Chat_Regarding_the_Banking_Crisis,_from_the_White_House,_Washington,_DC_-_DPLA_-_eaf235889aa202a7a7546265511148c4.jpg"
+                },
+                "fichero": "laminas/commons-98415303.jpg"
               }
             }
           ]
